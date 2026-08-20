@@ -81,7 +81,10 @@
         <p class="note">SF = Sure Fire Games (Larson). GA = school Games and Activities. Use the booklet for diagrams; this is the 30-minute classroom version. Division II–IV games are simplified for Grades 1–2.</p>
         <table class="games">
           <thead><tr><th>Game</th><th>Source</th><th>How we run it</th></tr></thead>
-          <tbody>${bank.map((r) => `<tr><td><strong>${r[0]}</strong></td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join("")}</tbody>
+          <tbody>${bank.map((r) => {
+          const sl = r[0].toLowerCase().replace(/[^a-z0-9]+/g, "-");
+          return `<tr><td><strong><a href="games.html#${sl}">${r[0]}</a></strong></td><td>${r[1]}</td><td>${r[2]}</td></tr>`;
+        }).join("")}</tbody>
         </table>
       </div>
       ${lessons}
@@ -91,21 +94,41 @@
   if (page === "games") {
     const q = document.getElementById("q");
     const box = document.getElementById("list");
+    const details = window.GAME_DETAILS || [];
+    function gslug(name) {
+      return name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    }
     function render() {
       const term = (q.value || "").toLowerCase();
-      const rows = [];
-      for (const [month, list] of Object.entries(MONTH_GAMES)) {
-        for (const r of list) {
-          const hay = (month + " " + r.join(" ")).toLowerCase();
-          if (term && !hay.includes(term)) continue;
-          rows.push(`<tr><td><strong>${r[0]}</strong></td><td>${month}</td><td>${r[1]}</td><td>${r[2]}</td></tr>`);
-        }
-      }
-      box.innerHTML = rows.length
-        ? `<table class="games"><thead><tr><th>Game</th><th>Month</th><th>Source</th><th>How we run it</th></tr></thead><tbody>${rows.join("")}</tbody></table>`
-        : "<p>No matches.</p>";
+      const cards = details.filter((g) => {
+        const hay = [g.name, g.source, g.purpose, g.play.join(" "), (g.months || []).join(" ")].join(" ").toLowerCase();
+        return !term || hay.includes(term);
+      }).map((g) => `
+        <article class="gcard" id="${gslug(g.name)}">
+          <div class="ghead">
+            <h2>${g.name}</h2>
+            <span class="src">${g.source}</span>
+          </div>
+          <p class="meta"><strong>When:</strong> ${(g.months || []).join(", ")} · <strong>Slot:</strong> ${g.slot}</p>
+          <p>${g.purpose}</p>
+          <p class="meta"><strong>Equipment:</strong> ${g.equipment}</p>
+          <p class="meta"><strong>Set-up:</strong> ${g.setup}</p>
+          <p><strong>How we play</strong></p>
+          <ol class="clean">${g.play.map((s) => `<li>${s}</li>`).join("")}</ol>
+          <div class="bands-block">
+            <div><strong>Grades 1–2.</strong> ${g.g12}</div>
+            <div><strong>Grades 3–4.</strong> ${g.g34}</div>
+            <div><strong>Grades 5–6.</strong> ${g.g56}</div>
+          </div>
+          <p class="note"><strong>Safety.</strong> ${g.safety}</p>
+        </article>`).join("");
+      box.innerHTML = cards || "<p>No matches.</p>";
     }
     q.addEventListener("input", render);
     render();
+    if (location.hash) {
+      const target = document.querySelector(location.hash);
+      if (target) target.scrollIntoView();
+    }
   }
 })();
