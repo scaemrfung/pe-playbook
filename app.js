@@ -110,7 +110,7 @@ function monthBank(name) {
         <thead><tr><th>What</th><th>How</th><th>Look-for / evidence</th></tr></thead>
         <tbody>${u.assess.map((a) => `<tr><td><strong>${a.what}</strong></td><td>${a.how}</td><td>${a.evidence}</td></tr>`).join("")}</tbody>
       </table>
-      <p class="note">Each lesson also lists 2000 Program of Studies codes (A/B/C/D). PEW is the current K–6 curriculum. Match report-card comments to LearnAlberta. Do not rank fitness scores.</p>
+      <p class="note">Outcomes follow Physical Education and Wellness K–6 (LearnAlberta, current curriculum). Match report-card comments to the learning outcome on LearnAlberta. Do not rank fitness scores.</p>
     </div>`;
   }
 
@@ -162,7 +162,7 @@ function monthBank(name) {
       const items = (o && o.items) || [];
       const outRow = items.length ? `<div class="row out"><div class="t">Outcomes</div>
             <div class="d">${items.map((it) => `<div><strong>${it.code}.</strong> ${it.look}</div>`).join("")}
-            <span class="meta">2000 POS — write the grade in the code (D3–3 for Grade 3).</span></div></div>` : "";
+            <span class="meta">PEW K–6 · LearnAlberta</span></div></div>` : "";
       return head + `<article class="lesson" data-week="${L.w}">
         <div class="top"><h3>W${L.w} · C${L.c} — ${L.title}</h3><small>${L.focus}</small></div>
         <div class="rows">
