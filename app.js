@@ -43,7 +43,7 @@
       return `<a class="card" href="month.html?m=${encodeURIComponent(m.name)}">
         <h2>${m.name}</h2>
         <p>${m.guide}</p>
-        <div class="count">${n} lessons · ${g} big-group games</div>
+        <div class="count">${n} lessons · ${g} big-group games · outcomes + assessment</div>
       </a>`;
     }).join("");
   }
