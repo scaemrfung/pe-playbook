@@ -1,7 +1,7 @@
 window.UNIT_OUTCOMES = {
   September: {
     oi: ["Active Living", "Movement Skill Development", "Safety", "Healthy Relationships"],
-    why: "First month builds gym routines, body awareness, a private fitness baseline, run/jump Level 1–2, and a community run. Safety and listening come before skill speed.",
+    why: "September is soccer: dribble, trap, pass, shoot. Week 1 still teaches freeze and space. Foam only, no slide tackles.",
     g12: [
       "Investigate how physical activity changes the body (breath, heart, warmth).",
       "Exhibit spatial awareness: freeze, personal space, gym boundaries.",
@@ -33,7 +33,7 @@ window.UNIT_OUTCOMES = {
   },
   October: {
     oi: ["Movement Skill Development", "Active Living", "Safety"],
-    why: "Sending and receiving: kick, underhand throw, trap, and simple invasion tactics with foam.",
+    why: "October is football: hike, catch, throw, flag or two-hand touch, end-zone. Foam footballs. No tackling.",
     g12: [
       "Demonstrate an underhand send and a two-hand or scoop receive.",
       "Kick a still foam ball to a target or partner.",
@@ -61,7 +61,7 @@ window.UNIT_OUTCOMES = {
   },
   November: {
     oi: ["Movement Skill Development", "Active Living", "Healthy Relationships", "Safety"],
-    why: "Catch, stop/field, hit, and Throw Level 1. Team talk (“mine”) and fair fielding.",
+    why: "November is basketball: finger-pad dribble, chest and bounce pass, shoot, 3v3. Balls stay below the waist.",
     g12: [
       "Catch a beanbag or foam ball with ready hands.",
       "Stop a rolling ball with the body in front.",
@@ -89,7 +89,7 @@ window.UNIT_OUTCOMES = {
   },
   December: {
     oi: ["Movement Skill Development", "Active Living", "Character Development"],
-    why: "Creative movement: timing, levels, pathways, and a short remembered phrase. Fitness is start-and-stop on a beat.",
+    why: "December is floor hockey: blade down, tiny touches, push-pass, low shot. No skating. Three weeks if Advent is short.",
     g12: [
       "Start and stop on a drum or freeze cue.",
       "Show high / medium / low shapes.",
@@ -114,7 +114,7 @@ window.UNIT_OUTCOMES = {
   },
   January: {
     oi: ["Movement Skill Development", "Safety", "Healthy Relationships", "Active Living"],
-    why: "Cooperative re-entry after the break, indoor playground structures, then basketball dribble/pass and floor-hockey safety.",
+    why: "January continues floor hockey: tactics, 3v3, inclusion. No ice. One class may use a stay-in foam dodgeball game.",
     g12: [
       "Solve a simple partner task (move an object together).",
       "Follow a playground turn-taking rule (four-square serve, rope wait).",
@@ -227,7 +227,7 @@ window.UNIT_OUTCOMES = {
   },
   May: {
     oi: ["Active Living", "Movement Skill Development", "Safety"],
-    why: "Review run, jump, throw; Jump Rope for Heart; track events; basic orienteering.",
+    why: "May Weeks 1–2 are volleyball (Newcomb to bump/set). Weeks 3–4 are track and field. Slide Jump Rope for Heart if your school runs it.",
     g12: [
       "Pace a walk-jog and stick a standing jump.",
       "Send to a zone (underhand).",
@@ -255,7 +255,7 @@ window.UNIT_OUTCOMES = {
   },
   June: {
     oi: ["Movement Skill Development", "Active Living", "Character Development", "Healthy Relationships"],
-    why: "Track meet behaviours, T-ball skills, and a year-end look at growth since September. Last fitness update is private and celebratory.",
+    why: "June is track and field: meet rehearsal, relays, field events, then a year-end festival. Optional T-ball closer.",
     g12: [
       "Rotate two events calmly and cheer a classmate.",
       "Catch a beanbag, run through first, hit off a tee.",
