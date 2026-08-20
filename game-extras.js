@@ -1,7 +1,7 @@
 /* Extra how-to for every game. Written for this site.
    Public PE practice (PhysEdGames, PEGames.org, PE Specialist, school PE pages)
    is used as a check on numbers and shapes — not copied. House rules beat the internet:
-   soft tag, no elimination, foam only. */
+   soft tag, no elimination. Foam balls are for dodgeball only; other sports use the real ball. */
 window.GAME_EXTRAS = {
   "Hospital Tag": {
     numbers: "Whole class · 4–6 min · everyone is it (or 2 taggers + 2 hospitals).",
@@ -80,7 +80,7 @@ window.GAME_EXTRAS = {
     ],
     variations: [
       "Flag belts: lose a flag instead of a body tag.",
-      "Dribble sharks: everyone travels with a foam ball; lose the ball and you restart that crossing."
+      "Dribble sharks: everyone travels with a soccer ball; lose the ball and you restart that crossing."
     ],
     look: "A full class crossing in under 8 seconds. Sharks not camping one door."
   
@@ -123,7 +123,7 @@ window.GAME_EXTRAS = {
     ],
     variations: [
       "Hoop octopus: the tagger holds a hoop as ‘tentacles’ — tag only with the hoop.",
-      "Dribble octopus: foam ball at the feet while crossing."
+      "Dribble octopus: soccer ball at the feet while crossing."
     ],
     look: "Seaweed stays planted. Runners look for gaps, not collisions."
   
@@ -205,7 +205,7 @@ window.GAME_EXTRAS = {
       "Carry one egg across to your nest. A tag means you hand the egg to the tagger (or walk it back) and switch roles.",
       "No throwing the egg. No guarding the hoop with a body-block."
     ],
-    variations: ["Four-team eggs (see Four Corner Flags).", "Dribble the egg as a foam ball."],
+    variations: ["Four-team eggs (see Four Corner Flags).", "Dribble the egg as a soccer ball."],
     look: "Eggs stay in hands until they are in a hoop."
   
   ,
@@ -237,7 +237,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Rob the Nest (dribble)": {
-    numbers: "4 teams · 6–8 min · 12–20 foam balls.",
+    numbers: "4 teams · 6–8 min · 12–20 soccer or playground balls.",
     cues: ["One ball at a time.", "No standing in a hoop."],
     more: [
       "Four hoop nests, one team per nest. Balls start in the middle (or already split).",
@@ -281,7 +281,7 @@ window.GAME_EXTRAS = {
       "A tagged player does 5 jumps at the spot and joins the next crossing. Nobody sits out.",
       "Mix in a fake call once students are listening."
     ],
-    variations: ["Add a third animal that everyone jogs.", "Dribble a foam ball home."],
+    variations: ["Add a third animal that everyone jogs.", "Dribble a soccer ball home."],
     look: "The called team turns and runs — they do not wait to see who tags."
   
   ,
@@ -291,10 +291,10 @@ window.GAME_EXTRAS = {
     ]
   },
   "Clean Your Room": {
-    numbers: "Two teams · 3 × 45-second rounds · lots of foam.",
+    numbers: "Two teams · 3 × 45-second rounds · lots of balls.",
     cues: ["Below the waist.", "Whistle = hands up, leave the balls."],
     more: [
-      "Centre line. Equal foam balls on each side.",
+      "Centre line. Equal soccer or playground balls on each side.",
       "Throw or roll everything onto the other side. The cleaner side at the whistle wins the round.",
       "No kicking at people. Fetch only your side’s balls after the count.",
       "Reset and play again. Best of three."
@@ -327,7 +327,7 @@ window.GAME_EXTRAS = {
   },
   "Mr. Clean": {
     numbers: "Two teams · 45-second rounds.",
-    cues: ["Same as Clean Your Room — foam stays low."],
+    cues: ["Same as Clean Your Room — send stays low."],
     more: [
       "Identical shape to Clean Your Room. Use it when you want a new name for the same send.",
       "Add a ‘Mr. Clean’ who may only roll, to model a trap-and-send."
@@ -342,13 +342,13 @@ window.GAME_EXTRAS = {
     ]
   },
   "Battleships": {
-    numbers: "2–4 teams · 8–10 min · pins, foam, optional standing mats.",
+    numbers: "2–4 teams · 8–10 min · pins, playground balls, optional standing mats.",
     cues: ["Stay in your zone.", "Reset a pin; do not throw it back."],
     more: [
       "Each team has a pin in a hoop (the ship) and a throwing line.",
-      "Throw foam to knock other ships. A downed pin is stood up by that team after a count of 3, or you keep a knockdown tally.",
+      "Throw playground balls to knock other ships. A downed pin is stood up by that team after a count of 3, or you keep a knockdown tally.",
       "Stay in your zone. A catch (Grade 4+) can let that player jog the long way and throw from a side lane.",
-      "Mats as a ‘wall’ hide the other team if you want a true battleship feel — only if throws stay foam and below the shoulders."
+      "Mats as a ‘wall’ hide the other team if you want a true battleship feel — only if throws stay below the shoulders and never at heads."
     ],
     variations: ["Four-corner ships.", "Must hit the pin on a bounce."],
     look: "Players do not cross the centre. Pins are not used as bats."
@@ -360,7 +360,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "End Ball": {
-    numbers: "Two teams of 6–10 · 2 × 4 min · foam ball, two end zones.",
+    numbers: "Two teams of 6–10 · 2 × 4 min · football or soccer ball, two end zones.",
     cues: ["Pivot, don’t run.", "5-second hold. Pass to space."],
     more: [
       "End zones are 2–3 metres deep (mats or cones).",
@@ -381,7 +381,7 @@ window.GAME_EXTRAS = {
     numbers: "Same family as End Ball · 2 × 4 min.",
     cues: ["Move after you pass.", "Eyes up before you throw."],
     more: [
-      "Flag-football shape with a foam ball or beanbag.",
+      "Flag-football shape with a football or beanbag.",
       "3-second or 5-second hold. No running with the ball.",
       "A drop is a turnover. Keep scores low-key — play to time."
     ],
@@ -430,7 +430,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Continuous Kick Ball": {
-    numbers: "Two teams · 10 min · foam playground ball, 3–4 hoops as bases.",
+    numbers: "Two teams · 10 min · playground ball, 3–4 hoops as bases.",
     cues: ["Everyone kicks.", "Throw to the base, not the runner."],
     more: [
       "Pitcher rolls. Kicker kicks and runs. There are no strikeouts — a miss is a re-roll or a walk to first after two misses.",
@@ -532,7 +532,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Skittles": {
-    numbers: "2–4 teams or a circle · 6 min · pins + foam.",
+    numbers: "2–4 teams or a circle · 6 min · pins + playground balls.",
     cues: ["Underhand or below the waist.", "Hitters wait behind a line."],
     more: [
       "Pins in a line or in hoops. Throw to knock them.",
@@ -568,7 +568,7 @@ window.GAME_EXTRAS = {
     numbers: "2 teams · 2-minute rounds · many pins.",
     cues: ["Everyone throws.", "Count, reset, switch sides."],
     more: [
-      "A line of pins at one end. Mixed foam objects.",
+      "A line of pins at one end. Mixed playground balls and beanbags.",
       "Timed round. Everyone throws. Count pins down, reset, switch.",
       "No blocking with the body in front of the pins."
     ],
@@ -586,7 +586,7 @@ window.GAME_EXTRAS = {
     cues: ["Defenders catch or block — no body-check.", "Attackers throw below the shoulders."],
     more: [
       "Hoop-and-pin castle in the middle (or one castle per team).",
-      "Attackers throw foam to knock pins. Defenders may catch and roll the ball out.",
+      "Attackers throw playground balls to knock pins. Defenders may catch and roll the ball out.",
       "When the castle falls, reset and swap roles."
     ],
     variations: ["Two castles, two armies.", "Must hit the pin on a bounce."],
@@ -599,10 +599,10 @@ window.GAME_EXTRAS = {
     ]
   },
   "Poison Ball": {
-    numbers: "Grades 3–6 · 6 min · 6–10 foam balls.",
+    numbers: "Grades 3–6 · 6 min · 6–10 playground balls.",
     cues: ["Below the waist or a two-hand catch is safe.", "A hit walks you to the other team — you stay in the game."],
     more: [
-      "Four teams or two. Foam only.",
+      "Four teams or two. Playground balls at pins — not at people.",
       "A below-waist hit sends you to the team that threw it (or to a sideline stretch, then back in).",
       "A two-hand catch can give the thrower’s ball to your team.",
       "Do not play last-one-standing."
@@ -613,11 +613,11 @@ window.GAME_EXTRAS = {
   ,
     outcomes: [
       { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "Movement · send, receive, retain", look: "Foam only." }
+      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or foam if this is dodgeball." }
     ]
   },
   "Survivor Dodgeball": {
-    numbers: "Grades 3–6 · short rounds · foam.",
+    numbers: "Grades 3–6 · short rounds · playground balls.",
     cues: ["Same house rules as Poison Ball.", "Re-enter after a stretch."],
     more: [
       "If a video version eliminates players, ignore that. A hit is 10 jumping jacks, then back in, or join the thrower’s team.",
@@ -629,14 +629,14 @@ window.GAME_EXTRAS = {
   ,
     outcomes: [
       { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "Movement · send, receive, retain", look: "Foam only." }
+      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or foam if this is dodgeball." }
     ]
   },
   "Traffic Lights (kick)": {
-    numbers: "Whole class · 4–5 min · one foam ball each if you have them.",
+    numbers: "Whole class · 4–5 min · one soccer or playground ball each if you have them.",
     cues: ["Green dribble, yellow trap, red sole-stop.", "Eyes up."],
     more: [
-      "Scatter. Each student with a foam ball, or share 1:2.",
+      "Scatter. Each student with a soccer or playground ball, or share 1:2.",
       "Call colours. Add weak-foot on a second round.",
       "A crash = pick up, reset, keep going."
     ],
@@ -655,7 +655,7 @@ window.GAME_EXTRAS = {
     more: [
       "8–12 cone gates. Pairs: one kicks through, one traps, then swap.",
       "Count gates in 60 seconds, then change partners.",
-      "Foam only. No blasting from 10 metres."
+      "No blasting from 10 metres."
     ],
     variations: ["Must use the weak foot.", "A defender shadows one gate."],
     look: "Traps stay near the body. Gates are not knocked over on purpose."
@@ -701,7 +701,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Reverse Soccer": {
-    numbers: "Two teams · 6–8 min · foam, two goals.",
+    numbers: "Two teams · 6–8 min · soccer ball, two goals.",
     cues: ["Hands tap or pass — no carry.", "Keepers use feet only."],
     more: [
       "Field players may only send with hands (volleyball tap or two-hand pass). They cannot run with the ball.",
@@ -709,7 +709,7 @@ window.GAME_EXTRAS = {
       "Must pass once before a shot (Grade 3+)."
     ],
     variations: ["Everyone touches before a shot.", "Walking only."],
-    look: "No diving at ankles. Foam stays in the gym, not in the rafters."
+    look: "No diving at ankles. The ball stays in the gym, not in the rafters."
   
   ,
     outcomes: [
@@ -722,7 +722,7 @@ window.GAME_EXTRAS = {
     cues: ["Head up.", "Shoot from a marked arc."],
     more: [
       "Small cone goals. 1v1 or 2v2. Rotate after a goal or after 45 seconds.",
-      "Use hockey sticks only if you already taught a safe grip and the ball is foam or a puck.",
+      "Use hockey sticks only if you already taught a safe grip and the ball is a hockey ball or a puck.",
       "Waiting pair does toe-taps."
     ],
     variations: ["Must shoot with the weak foot or off-hand.", "One-touch finish."],
@@ -735,12 +735,12 @@ window.GAME_EXTRAS = {
     ]
   },
   "Numbers Hockey": {
-    numbers: "Two teams numbered · 8 min · foam puck, sticks if taught.",
+    numbers: "Two teams numbered · 8 min · hockey ball or puck, sticks if taught.",
     cues: ["Your number only.", "Sticks down on the whistle."],
     more: [
       "Teams sit on opposite sidelines, numbered 1–n. Call one or two numbers. Those players play 1v1 or 2v2 to a small goal.",
       "20–30 seconds, then ‘sticks down’ and new numbers.",
-      "If you have no sticks, play the same shape with feet and a foam ball."
+      "If you have no sticks, play the same shape with feet and a hockey or soccer ball."
     ],
     variations: ["Call two numbers always.", "Must pass once."],
     look: "Only the called numbers are in the middle."
@@ -757,7 +757,7 @@ window.GAME_EXTRAS = {
     more: [
       "Two or three attackers try to score on a wall of classmates who may only save, not leave the line.",
       "Rotate attackers every 60–90 seconds.",
-      "Foam ball. Grade 1–2: big goal, no keepers, just cone goals."
+      "Soccer ball. Grade 1–2: big goal, no keepers, just cone goals."
     ],
     variations: ["One-touch finish.", "Must shoot below hip height."],
     look: "The wall is a line, not a charge."
@@ -1023,7 +1023,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Flying Saucers": {
-    numbers: "Pairs or teams · 6 min · foam discs or rings.",
+    numbers: "Pairs or teams · 6 min · discs or rings.",
     cues: ["Release flat.", "Fetchers wait behind a line."],
     more: [
       "Send discs at hoop targets. Fetch only after the whistle or from a safe line.",
@@ -1058,9 +1058,9 @@ window.GAME_EXTRAS = {
   },
   "Crab Football": {
     numbers: "Two teams · 3 × 60-second rounds.",
-    cues: ["Hips up. Short bouts for wrists.", "Foam only."],
+    cues: ["Hips up. Short bouts for wrists."],
     more: [
-      "Crab-walk and carry or kick a foam ball to a line.",
+      "Crab-walk and carry or kick a playground ball to a line.",
       "60 seconds, then stand, shake wrists, switch.",
       "A tag with two fingers returns the ball to the start."
     ],
@@ -1070,7 +1070,7 @@ window.GAME_EXTRAS = {
   ,
     outcomes: [
       { code: "Movement · locomotor", look: "Hips up for a short bout." },
-      { code: "Movement · send, receive, retain", look: "Foam ball only." }
+      { code: "Movement · send, receive, retain", look: "Uses a playground or sport ball." }
     ]
   },
   "Cornerball": {
@@ -1091,7 +1091,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Hurley Burley": {
-    numbers: "Grades 3–6 · 8 min · one foam ball.",
+    numbers: "Grades 3–6 · 8 min · one sport ball.",
     cues: ["A tip means you must pass at once.", "Kick-in goal 3, hit 2, throw 1."],
     more: [
       "Any legal send: kick, bounce, or throw. If the ball is only tipped, that player must pass immediately.",
@@ -1121,7 +1121,7 @@ window.GAME_EXTRAS = {
   ,
     outcomes: [
       { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "Movement · send, receive, retain", look: "Foam only." }
+      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or foam if this is dodgeball." }
     ]
   },
   "Jailbreakers": {
@@ -1145,7 +1145,7 @@ window.GAME_EXTRAS = {
     numbers: "Whole class on the chute · 8–10 min.",
     cues: ["Hold the handle, not the cloth.", "Bend knees for a dome."],
     more: [
-      "Ripples: small waves. Popcorn: foam balls on the chute — keep them on. Dome: step in, lift, sit on the edge if you taught it.",
+      "Ripples: small waves. Popcorn: light balls or beanbags on the chute — keep them on. Dome: step in, lift, sit on the edge if you taught it.",
       "Cat and mouse: one student on top (walking), one underneath — only if the dome is well-held and you have taught it. Skip for Grade 1 if the chute is chaotic.",
       "Change-places: call a colour; those students cross under and take a new grip.",
       "Hands stay on unless you have called a cross."
@@ -1231,16 +1231,16 @@ window.GAME_EXTRAS = {
     numbers: "Groups of 4 · 15–20 min across a lesson.",
     cues: ["Start, score, safety — three sentences."],
     more: [
-      "Give each group a foam ball and 4 cones. They invent a game with a start, a way to score, and one safety rule.",
+      "Give each group a sport ball and 4 cones. They invent a game with a start, a way to score, and one safety rule.",
       "Play-test for 2 minutes, change one rule, then teach another group.",
-      "House rules still apply: no elimination, foam only."
+      "House rules still apply: no elimination. Foam balls only if they invent a dodgeball."
     ],
     variations: ["Must include a send.", "Must include a freeze."],
     look: "Every group can say the three sentences."
   }
 ,
 "Aces": {
-    numbers: "Small groups of 5–6 · 8 min · foam ball, a wall or a hoop.",
+    numbers: "Small groups of 5–6 · 8 min · sport ball, a wall or a hoop.",
     cues: ["Serve underhand.", "A miss is a point to the other side, then rotate."],
     more: [
       "One server, the rest in a receiving line or a small court.",
@@ -1264,7 +1264,7 @@ window.GAME_EXTRAS = {
       "Bat or beanbag is the baton. It stays in a hoop when you are not running.",
       "Walk-through once before you race."
     ],
-    variations: ["Must skip the bases.", "Carry a foam ball and trap at each hoop."],
+    variations: ["Must skip the bases.", "Carry a soccer ball and trap at each hoop."],
     look: "Two teams are not on the same base path."
   
   ,
@@ -1308,7 +1308,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Barkball": {
-    numbers: "Two teams · 6–8 min · foam ball.",
+    numbers: "Two teams · 6–8 min · sport ball.",
     cues: ["Call before you catch.", "Below-shoulder sends."],
     more: [
       "A noisy sending game: you must call a teammate’s name before they can catch.",
@@ -1342,8 +1342,8 @@ window.GAME_EXTRAS = {
     ]
   },
   "Booger Ball": {
-    numbers: "Two teams · 6 min · sticky-name foam send.",
-    cues: ["The ball ‘sticks’ to the catcher — they must pass in 3 seconds.", "Foam only."],
+    numbers: "Two teams · 6 min · sticky-name send.",
+    cues: ["The ball ‘sticks’ to the catcher — they must pass in 3 seconds."],
     more: [
       "Whoever catches is ‘it’ with the ball and cannot run. They pass to unstick.",
       "Score by a catch in a hoop or by tagging a cone.",
@@ -1359,7 +1359,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Bucket Ball": {
-    numbers: "2–4 teams · 6 min · buckets or hoops + foam.",
+    numbers: "2–4 teams · 6 min · buckets or hoops + playground balls.",
     cues: ["Underhand into the bucket.", "One throw, then to the back of the line."],
     more: [
       "A bucket, crate, or hoop is the target. Teams throw from a line.",
@@ -1444,7 +1444,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Chuck the Chicken": {
-    numbers: "Two teams · 8 min · one rubber chicken or foam toy.",
+    numbers: "Two teams · 8 min · one rubber chicken or beanbag.",
     cues: ["Thrower stays, team sprints around them.", "Fielding team passes to freeze the count."],
     more: [
       "One player throws or kicks the chicken. Their team runs a group lap around that thrower, counting runs.",
@@ -1564,7 +1564,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "FLY BACK": {
-    numbers: "Whole class or two teams · 6 min · foam ball or beanbag.",
+    numbers: "Whole class or two teams · 6 min · ball or beanbag.",
     cues: ["Throw, fly out, come back on a catch.", "Call it."],
     more: [
       "A thrower sends the ball. Fielders catch to send the thrower ‘back’ or to score a team point.",
@@ -1700,10 +1700,10 @@ window.GAME_EXTRAS = {
     ]
   },
   "Object Toss mixer": {
-    numbers: "Whole class · 5 min · mixed foam objects.",
+    numbers: "Whole class · 5 min · mixed balls, beanbags, and rings.",
     cues: ["Match the send to the object.", "Call the name before you throw."],
     more: [
-      "Beanbags, foam balls, rings in a middle pile.",
+      "Beanbags, playground balls, rings in a middle pile.",
       "On the whistle, take one, find a partner, complete 5 sends, switch objects.",
       "End with everything back in the correct hoop (sort by type)."
     ],
@@ -1962,7 +1962,7 @@ window.GAME_EXTRAS = {
       "House rule: a tag is a pinnie swap or a 8-jump stretch, then stay in.",
       "Freeze and count colours at the whistle if you want a score — then play again."
     ],
-    variations: ["Must be holding a foam ball to tag.", "Safe hoops for 5 seconds."],
+    variations: ["Must be holding a ball to tag.", "Safe hoops for 5 seconds."],
     look: "Pinnies come off without a shirt grab."
   
   ,
@@ -1972,10 +1972,10 @@ window.GAME_EXTRAS = {
     ]
   },
   "Thunderball": {
-    numbers: "Whole class · 6 min · 3–6 foam balls.",
+    numbers: "Whole class · 6 min · 3–6 foam dodgeballs.",
     cues: ["Roll or below-waist throw.", "A hit is a stretch, then back in."],
     more: [
-      "Several foam balls in play. You may roll to tag a foot or throw below the waist.",
+      "Several foam dodgeballs in play. You may roll to tag a foot or throw below the waist.",
       "A hit player does a hospital stretch and re-enters. Catching a ball can make you a thrower.",
       "Freeze on thunder (drum). Leave the balls."
     ],
@@ -1985,7 +1985,7 @@ window.GAME_EXTRAS = {
   ,
     outcomes: [
       { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "Movement · send, receive, retain", look: "Foam only." }
+      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or foam if this is dodgeball." }
     ]
   },
   "Tripod Tag": {
@@ -2162,7 +2162,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Hockey hurdle dribble": {
-    numbers: "Low cones, foam ball.",
+    numbers: "Low cones, hockey or soccer ball.",
     cues: ["Blade down.", "Tiny touches."],
     steps: ["Push through the cones. No slapshot."],
     variations: ["Feet-only for 1–2."],
@@ -2250,11 +2250,11 @@ window.GAME_EXTRAS = {
     ]
   },
   "Punt to the line": {
-    numbers: "Foam ball, one lane.",
+    numbers: "Football or playground ball, one lane.",
     cues: ["Drop, then kick.", "Chase your own ball."],
     steps: ["Kick toward the line. Kick again if needed. Run it home."],
     variations: ["Place-kick for 1–2."],
-    look: "Foam only.",
+    look: "Uses the sport ball, or foam if this is dodgeball.",
     outcomes: [
       { code: "Movement · send, receive, retain", look: "Drops and kicks before a bounce, or places it." },
       { code: "Safety", look: "Kicks away from other lanes." }
@@ -2350,7 +2350,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Low-ball": {
-    numbers: "4–6 foam balls.",
+    numbers: "4–6 playground balls.",
     cues: ["Feet and shins.", "Stretch, then back in."],
     steps: ["A high ball is dead. A hit is 10 seconds, not an out."],
     variations: ["Roll only for 1–2."],
@@ -2429,7 +2429,7 @@ window.GAME_EXTRAS = {
   "Guard the Cone": {
     numbers: "3 defenders · 1 min.",
     cues: ["Pass first.", "Hands, not a charge."],
-    steps: ["Knock the cone with a foam ball. Rotate defenders."],
+    steps: ["Knock the cone with a soccer or hockey ball. Rotate defenders."],
     variations: ["Roll for 1–2."],
     look: "Circle stays linked.",
     outcomes: [

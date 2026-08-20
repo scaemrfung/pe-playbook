@@ -36,7 +36,7 @@ window.GAME_DETAILS = [
 {
   name: "Line Tag / Pac-Man", source: "", months: ["September","May"],
   purpose: "Run on lines. Practice pathways and change of speed.",
-  equipment: "1–2 pinnies or a foam ball to mark taggers.",
+  equipment: "1–2 pinnies to mark taggers.",
   setup: "Use painted gym lines. Show legal paths. No jumping to a new line.",
   play: [
     "Everyone must stay on a line.",
@@ -164,7 +164,7 @@ window.GAME_DETAILS = [
 {
   name: "Robin’s Nest", source: "", months: ["October"],
   purpose: "Foot-eye send. Collect three balls in your hoop.",
-  equipment: "4 hoops, 12+ foam balls, 4 pinnies.",
+  equipment: "4 hoops, 12+ soccer or playground balls, 4 pinnies.",
   setup: "Four corner hoops (nests). Balls start in the middle. Four teams.",
   play: [
     "On go, players send balls into their nest using feet only.",
@@ -174,13 +174,13 @@ window.GAME_DETAILS = [
   g12: "Hands allowed to trap. Steal from the middle only.",
   g34: "Feet only.",
   g56: "May steal from other nests. No guarding by standing in the hoop.",
-  safety: "Foam only. No kicking at people.",
+  safety: "No kicking at people.",
   slot: "16–25"
 },
 {
   name: "Wall Soccer", source: "", months: ["October"],
   purpose: "Small-sided kick game. Everyone is either a field player or a moving wall-goalie.",
-  equipment: "Foam soccer ball, pinnies, cones.",
+  equipment: "Soccer ball, pinnies, cones.",
   setup: "2–3 field players per team. Everyone else stands along their end wall as a goal.",
   play: [
     "Field players pass and shoot at the opposite wall of teammates.",
@@ -190,13 +190,13 @@ window.GAME_DETAILS = [
   g12: "No keepers named; big wall. Walk-dribble allowed.",
   g34: "Must pass before a shot.",
   g56: "One-touch finish allowed.",
-  safety: "Foam ball. Shots below chest height.",
+  safety: "Soccer ball. Shots below chest height.",
   slot: "16–25"
 },
 {
   name: "Team Tag", source: "", months: ["October"],
   purpose: "Invasion lead-up. Pass to get close enough to tag.",
-  equipment: "1 foam ball, bag of extra pinnies.",
+  equipment: "1 playground ball or pinnie, bag of extra pinnies.",
   setup: "3–4 start as the tag team in pinnies.",
   play: [
     "The tag team may only tag with a ball they are holding — no throws, no walking with the ball.",
@@ -212,7 +212,7 @@ window.GAME_DETAILS = [
 {
   name: "Chuck the Chicken", source: "", months: ["October","November","June"],
   purpose: "Throw, then score laps while the other team lines up and passes.",
-  equipment: "Rubber chicken or foam ball.",
+  equipment: "Rubber chicken or beanbag.",
   setup: "Two teams. One thrower at a time.",
   play: [
     "A player throws the chicken anywhere in the gym, then runs laps around their own huddled team. Each lap is a point.",
@@ -223,21 +223,21 @@ window.GAME_DETAILS = [
   g12: "Short throws. Teacher helps the line form.",
   g34: "Standard.",
   g56: "Two games of 4 teams if the class is large.",
-  safety: "No throwing at people. Foam substitute is fine.",
+  safety: "No throwing at people. A beanbag substitute is fine.",
   slot: "16–25 closer"
 },
 {
   name: "Skittles", source: "", months: ["October"],
   purpose: "Underhand accuracy. Knock the other team’s cone-pins.",
-  equipment: "Cones (skittles), foam balls, a marked safe zone.",
+  equipment: "Cones (skittles), playground balls, a marked safe zone.",
   setup: "Two teams. Each has a row of cones behind a throwing line.",
   play: [
-    "Players throw foam balls below the waist to knock opponent cones.",
+    "Players roll or throw playground balls to knock opponent cones. Do not throw at people.",
     "A hit player sits a 10-count then re-enters (no true knock-out).",
     "One fetcher at a time may enter the safe zone to gather balls."
   ],
   g12: "Beanbags. Tag cones only, not people.",
-  g34: "Below-waist foam.",
+  g34: "Below-waist if you throw.",
   g56: "Two-ball, still below the waist.",
   safety: "Below the waist only. Fetcher is safe.",
   slot: "16–25"
@@ -245,7 +245,7 @@ window.GAME_DETAILS = [
 {
   name: "End Zone Ball", source: "", months: ["October"],
   purpose: "Roll (not throw) to catchers in an end zone. Intercept.",
-  equipment: "4–8 foam balls, pinnies, optional mats as obstacles.",
+  equipment: "4–8 footballs or soccer balls, pinnies, optional mats as obstacles.",
   setup: "Two halves. Each team names 2–3 end-zone catchers who stay in their end.",
   play: [
     "Players in their half roll balls to their own catchers.",
@@ -253,7 +253,7 @@ window.GAME_DETAILS = [
     "A clean catch in the end zone scores."
   ],
   g12: "Walking only. One ball.",
-  g34: "Several foam balls.",
+  g34: "Several balls.",
   g56: "Add a 3-second hold and a must-pass rule.",
   safety: "Rolls stay on the floor. No overhand.",
   slot: "16–25"
@@ -277,7 +277,7 @@ window.GAME_DETAILS = [
 {
   name: "Booger Ball", source: "", months: ["October"],
   purpose: "Grade 5–6 invasion. Tag the ball-carrier; they must pass.",
-  equipment: "1 foam ball, pinnies, a net and/or hoop.",
+  equipment: "1 basketball or playground ball, pinnies, a net and/or hoop.",
   setup: "Two teams. Mark a crease in front of each goal.",
   play: [
     "Move the ball by passing. A tagged carrier must pass and cannot shoot on that possession.",
@@ -293,7 +293,7 @@ window.GAME_DETAILS = [
 {
   name: "FLY BACK", source: "", months: ["November"],
   purpose: "Throw and catch under a little pressure. Retrieve an object and send it home.",
-  equipment: "Foam discs or balls, cones, pinnies.",
+  equipment: "Discs or balls, cones, pinnies.",
   setup: "Two teams. A far safe zone holds the discs. A home catching area for each team.",
   play: [
     "A runner crosses, picks one disc from the safe zone, and throws it toward teammates.",
@@ -301,15 +301,15 @@ window.GAME_DETAILS = [
     "First team to catch its set, or play to a whistle."
   ],
   g12: "Walk the cross. Beanbags. No defender.",
-  g34: "Jog. Foam disc.",
+  g34: "Jog. Disc.",
   g56: "Add a defender who may intercept in the air only.",
-  safety: "No diving for discs. Soft foam.",
+  safety: "No diving for discs.",
   slot: "16–25"
 },
 {
   name: "Bucket Ball", source: "", months: ["November"],
   purpose: "Pass-only score: a teammate on a bench catches into a bucket.",
-  equipment: "Foam ball, 2 hoops or mats, a bucket or crate, pinnies.",
+  equipment: "Playground or basketball, 2 hoops or mats, a bucket or crate, pinnies.",
   setup: "Two halves. Each team has a catcher in a hoop behind a bucket.",
   play: [
     "The ball-carrier is frozen and must pass within 5 seconds.",
@@ -325,7 +325,7 @@ window.GAME_DETAILS = [
 {
   name: "Continuous Kick Ball", source: "", months: ["November","June"],
   purpose: "Kickball cousin. Many runners. Play stops when a named partner replaces the ball on a cone.",
-  equipment: "Foam ball, saucer cone, bases or hoops.",
+  equipment: "Playground or t-ball, saucer cone, bases or hoops.",
   setup: "Two teams. Each kicker has a partner on the fielding team. Ball starts on a cone.",
   play: [
     "Kick the ball off the cone and run. Several runners may be on base at once.",
@@ -336,13 +336,13 @@ window.GAME_DETAILS = [
   g12: "Everyone runs to first only. Teacher helps reset the cone.",
   g34: "Two or three bases.",
   g56: "Full diamond. Force at two bases.",
-  safety: "Foam kick only. No throwing at runners.",
+  safety: "Kick the ball, do not throw at runners.",
   slot: "16–25"
 },
 {
   name: "Beat Ball / Beat the Ball", source: "", months: ["November","June"],
   purpose: "Hit or kick, then race the ball around the horn.",
-  equipment: "Playground or foam ball, 4 bases.",
+  equipment: "Playground or t-ball, 4 bases.",
   setup: "Diamond. One batter at a time. Fielders at each base.",
   play: [
     "Batter throws or kicks, then runs 1–2–3–home.",
@@ -358,7 +358,7 @@ window.GAME_DETAILS = [
 {
   name: "Thunderball", source: "", months: ["November","June"],
   purpose: "Hit or kick through rows of cones for 1–2–3 points.",
-  equipment: "Wiffle or foam ball, bat or kick, 30 cones in 3 rows.",
+  equipment: "Wiffle or t-ball, bat or kick, 30 cones in 3 rows.",
   setup: "Three rows of cones across the gym. Hitting team on one end. Defence in the lanes.",
   play: [
     "Each hitter tries to send the ball through the rows.",
@@ -368,7 +368,7 @@ window.GAME_DETAILS = [
   g12: "Kick off a cone. One row only.",
   g34: "Tee or kick. Three rows.",
   g56: "Live toss. Defence must pass once before they can stop it.",
-  safety: "Hitters wait behind a line. No full bats indoors unless foam.",
+  safety: "Hitters wait behind a line. No full hard bats indoors — wiffle or t-ball only.",
   slot: "16–25"
 },
 {
@@ -899,7 +899,7 @@ window.GAME_DETAILS = [
 {
   name: "RPS Rounders", source: "", months: ["June"],
   purpose: "Two runners meet, play rock-paper-scissors, winner keeps the ball toward the end zone.",
-  equipment: "4 cones, 1 foam ball or beanbag.",
+  equipment: "4 cones, 1 ball or beanbag.",
   setup: "A lane with four cones. Two teams at opposite ends.",
   play: [
     "One player from each team runs in. The ball starts with one team.",
@@ -916,7 +916,7 @@ window.GAME_DETAILS = [
 {
   name: "Team Bowling", source: "", months: ["June"],
   purpose: "Bowl at your own line of pins. Fetch and go again.",
-  equipment: "Many pins or cones, foam balls.",
+  equipment: "Many pins or cones, playground balls.",
   setup: "Two teams at centre. Pins along each end line.",
   play: [
     "Bowl toward your own end’s pins.",
@@ -932,7 +932,7 @@ window.GAME_DETAILS = [
 {
   name: "Barkball", source: "", months: ["June"],
   purpose: "Hit, run to an end line; fielders tag with the ball in hand.",
-  equipment: "Foam ball, bat or kick, an end line.",
+  equipment: "Playground or t-ball, bat or kick, an end line.",
   setup: "Hitting team and fielding team.",
   play: [
     "Hit or kick, then run to the far line and back if you can.",
@@ -942,7 +942,7 @@ window.GAME_DETAILS = [
   g12: "Kick only. Run to first line only.",
   g34: "Tee or kick.",
   g56: "Live toss.",
-  safety: "No throw-at-runner. Foam only.",
+  safety: "No throw-at-runner.",
   slot: "16–25"
 },
 {

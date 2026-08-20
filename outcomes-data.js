@@ -1,7 +1,7 @@
 window.UNIT_OUTCOMES = {
   September: {
     oi: ["Active Living", "Movement Skill Development", "Safety", "Healthy Relationships"],
-    why: "September is soccer: dribble, trap, pass, shoot. Week 1 still teaches freeze and space. Foam only, no slide tackles.",
+    why: "September is soccer: dribble, trap, pass, shoot. Week 1 still teaches freeze and space. Soccer balls (not foam), no slide tackles.",
     g12: [
       "Investigate how physical activity changes the body (breath, heart, warmth).",
       "Exhibit spatial awareness: freeze, personal space, gym boundaries.",
@@ -33,10 +33,10 @@ window.UNIT_OUTCOMES = {
   },
   October: {
     oi: ["Movement Skill Development", "Active Living", "Safety"],
-    why: "October is football: hike, catch, throw, flag or two-hand touch, end-zone. Foam footballs. No tackling.",
+    why: "October is football: hike, catch, throw, flag or two-hand touch, end-zone. Real footballs. No tackling.",
     g12: [
       "Demonstrate an underhand send and a two-hand or scoop receive.",
-      "Kick a still foam ball to a target or partner.",
+      "Kick a still soccer or football to a target or partner.",
       "Show ready position (eyes on the sender, body behind the ball).",
       "Move safely when many balls are in the gym."
     ],
@@ -44,7 +44,7 @@ window.UNIT_OUTCOMES = {
       "Modify a kick or throw to improve accuracy (plant foot, opposite-foot step).",
       "Utilize a send from one activity in another (gate pass → small game).",
       "Begin simple tactics: pass before a shot; move after you send.",
-      "Apply below-waist and foam-only safety."
+      "Apply below-waist throws only in dodgeball, and use foam dodgeballs for those games."
     ],
     g56: [
       "Select a send (kick vs throw) that fits the task.",
@@ -56,14 +56,14 @@ window.UNIT_OUTCOMES = {
       { what: "Throw cue", how: "Partner or hoop task", evidence: "Opposite-foot step and follow-through on most attempts (underhand for 1–2)." },
       { what: "Kick / trap", how: "Gate or partner task", evidence: "Plant foot beside the ball; trap that stays near the body." },
       { what: "Tactics", how: "Small-sided game", evidence: "Looks for a teammate before blasting; 3–4 / 5–6 pass before a shot." },
-      { what: "Safety", how: "Ongoing", evidence: "Foam only; no kicking at people; waits for space to swing an implement." }
+      { what: "Safety", how: "Ongoing", evidence: "Uses the real sport ball; no kicking at people; waits for space to swing an implement. Foam is for dodgeball only." }
     ]
   },
   November: {
     oi: ["Movement Skill Development", "Active Living", "Healthy Relationships", "Safety"],
     why: "November is basketball: finger-pad dribble, chest and bounce pass, shoot, 3v3. Balls stay below the waist.",
     g12: [
-      "Catch a beanbag or foam ball with ready hands.",
+      "Catch a beanbag or basketball with ready hands.",
       "Stop a rolling ball with the body in front.",
       "Hit off a tee and run to a hoop.",
       "Call for a turn and wait at a station."
@@ -114,11 +114,11 @@ window.UNIT_OUTCOMES = {
   },
   January: {
     oi: ["Movement Skill Development", "Safety", "Healthy Relationships", "Active Living"],
-    why: "January continues floor hockey: tactics, 3v3, inclusion. No ice. One class may use a stay-in foam dodgeball game.",
+    why: "January continues floor hockey: tactics, 3v3, inclusion. No ice. One class may use a stay-in foam dodgeball game (foam only).",
     g12: [
       "Solve a simple partner task (move an object together).",
       "Follow a playground turn-taking rule (four-square serve, rope wait).",
-      "Bounce or push-pass a foam ball to a partner.",
+      "Bounce a basketball or push-pass a hockey ball to a partner.",
       "Keep a hockey stick blade on the floor."
     ],
     g34: [
@@ -236,7 +236,7 @@ window.UNIT_OUTCOMES = {
     ],
     g34: [
       "Use a standing or three-point start and stay in a lane.",
-      "Hand off a foam baton and run a small relay.",
+      "Hand off a baton and run a small relay.",
       "Complete a numbered orienteering loop with a partner.",
       "Connect skipping to why the heart likes continuous work."
     ],

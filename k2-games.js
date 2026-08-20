@@ -11,13 +11,13 @@ window.K2_MONTH_GAMES = {
   ],
   October: [
     ["Traffic Lights (kick)", "", "Green = dribble, yellow = trap and wait, red = stop with the sole. Add a weak-foot round."],
-    ["Through the Gates", "", "Cone gates around the gym. Kick or push-pass a foam ball through for a point. Partner on the other side traps."],
-    ["Rob the Nest (dribble)", "", "Four hoop nests. Dribble foam balls home. Steal from the middle first; later from other nests. No standing in a hoop."],
-    ["Dash and Dribble", "", "Relay: dribble to a cone, trap, sprint back, tag. Foam only. Eyes up."]
+    ["Through the Gates", "", "Cone gates around the gym. Kick or push-pass a soccer ball through for a point. Partner on the other side traps."],
+    ["Rob the Nest (dribble)", "", "Four hoop nests. Dribble soccer balls home. Steal from the middle first; later from other nests. No standing in a hoop."],
+    ["Dash and Dribble", "", "Relay: dribble to a cone, trap, sprint back, tag. Eyes up."]
   ],
   November: [
-    ["Tidy the Bedroom", "", "Beanbags or foam balls are ‘clothes.’ Underhand throw them into hoops (drawers). Switch roles: tidy vs scatter, still below the waist."],
-    ["Protect the Castle", "", "A hoop-and-pin castle in the middle. Attackers throw foam to knock pins. Defenders catch or block, no body-check. Rotate every 2 minutes."],
+    ["Tidy the Bedroom", "", "Beanbags or playground balls are ‘clothes.’ Underhand throw them into hoops (drawers). Switch roles: tidy vs scatter, still below the waist."],
+    ["Protect the Castle", "", "A hoop-and-pin castle in the middle. Attackers roll or throw playground balls to knock pins. Defenders catch or block, no body-check. Rotate every 2 minutes."],
     ["Skittle Ball", "", "Knock pins with an underhand throw. Hitters wait behind a line. Fetchers are safe."],
     ["Captain Ball", "", "Pass to a captain standing in a hoop. Captain may only catch, not run. Three completes = a point. Rotate the captain."],
     ["Quick Baseball", "", "Tee or coach toss. Hit, run to one hoop and back. Fielders throw to the tee to stop the run. Everyone hits."]
@@ -50,9 +50,9 @@ window.K2_MONTH_GAMES = {
     ["Survivor Tag", "", "2–3 taggers. Tagged players do a named skill (5 jumps, a stretch) then re-enter. Change taggers each minute."]
   ],
   June: [
-    ["Numbers Hockey", "", "Call a number; that many from each team play a short foam-stick or hand-hockey point. Rotate. Sticks stay below the waist."],
+    ["Numbers Hockey", "", "Call a number; that many from each team play a short stick or hand-hockey point. Rotate. Sticks stay below the waist."],
     ["Jailbreakers", "", "Hitters send into space and run. Fielders who catch or stop a ball send a runner to a ‘jail’ hoop. A teammate hit frees them. Everyone bats."],
-    ["Go for Goal", "", "Small cone goals. Kick or shoot foam. Must pass once before a shot. Rotate keepers every 2 minutes."]
+    ["Go for Goal", "", "Small cone goals. Kick or shoot a soccer or hockey ball. Must pass once before a shot. Rotate keepers every 2 minutes."]
   ]
 };
 
@@ -187,7 +187,7 @@ window.K2_DETAILS = [
 {
   name: "Traffic Lights (kick)", source: "", months: ["October"],
   purpose: "Dribble, trap, and stop on a colour.",
-  equipment: "Foam balls, one per student if you can.",
+  equipment: "Soccer balls, one per student if you can.",
   setup: "Teach green / yellow / red with the sole trap.",
   play: [
     "Green: dribble. Yellow: trap and wait. Red: stop, foot on the ball.",
@@ -196,13 +196,13 @@ window.K2_DETAILS = [
   g12: "Walk-dribble. Hands may help a trap.",
   g34: "Feet only.",
   g56: "Weak-foot green.",
-  safety: "Foam only. Eyes up.",
+  safety: "Eyes up. No kicking people.",
   slot: "5–16 or 0–5"
 },
 {
   name: "Through the Gates", source: "", months: ["October"],
   purpose: "Accurate kick or push-pass through a cone gate.",
-  equipment: "Cone pairs as gates, foam balls.",
+  equipment: "Cone pairs as gates, soccer balls.",
   setup: "6–10 gates. Partners.",
   play: [
     "Send through a gate. Partner traps and sends back.",
@@ -217,7 +217,7 @@ window.K2_DETAILS = [
 {
   name: "Rob the Nest (dribble)", source: "", months: ["October"],
   purpose: "Dribble collect. Same idea as Robin’s Nest, feet only.",
-  equipment: "4 hoops, foam balls.",
+  equipment: "4 hoops, soccer balls.",
   setup: "Four teams, four nests. Balls in the middle.",
   play: [
     "Dribble a ball into your nest.",
@@ -227,13 +227,13 @@ window.K2_DETAILS = [
   g12: "Hands may trap.",
   g34: "Feet only.",
   g56: "Steal allowed.",
-  safety: "No kicking people. Soft foam.",
+  safety: "No kicking people.",
   slot: "16–25"
 },
 {
   name: "Dash and Dribble", source: "", months: ["October"],
   purpose: "Relay with a trap at the turn.",
-  equipment: "Foam balls, cones.",
+  equipment: "Soccer balls, cones.",
   setup: "Relay lines. A cone 8–12 m out.",
   play: [
     "Dribble to the cone, trap, sprint back, tag.",
@@ -248,7 +248,7 @@ window.K2_DETAILS = [
 {
   name: "Tidy the Bedroom", source: "", months: ["November"],
   purpose: "Underhand send to a hoop target.",
-  equipment: "Beanbags or foam, hoops.",
+  equipment: "Beanbags or playground balls, hoops.",
   setup: "Hoops are drawers. Mess is scattered on the floor.",
   play: [
     "Underhand throw objects into hoops.",
@@ -264,15 +264,15 @@ window.K2_DETAILS = [
 {
   name: "Protect the Castle", source: "", months: ["November"],
   purpose: "Throw at a target while others defend by catching.",
-  equipment: "Hoop, pins or cones, foam balls.",
+  equipment: "Hoop, pins or cones, playground balls.",
   setup: "Castle in the middle. Attackers around. 3–4 defenders.",
   play: [
-    "Attackers throw foam to knock pins.",
+    "Attackers roll or throw playground balls to knock pins.",
     "Defenders catch or block with their hands, no shoving.",
     "Rotate attackers and defenders every 2 minutes."
   ],
   g12: "Beanbags. Walk-in throws.",
-  g34: "Below-waist foam.",
+  g34: "Roll or underhand at pins, not people.",
   g56: "Two balls at once, still below waist.",
   safety: "Throws at the castle, not at faces.",
   slot: "16–25"
@@ -280,7 +280,7 @@ window.K2_DETAILS = [
 {
   name: "Skittle Ball", source: "", months: ["November"],
   purpose: "Underhand accuracy at pins.",
-  equipment: "Pins or cones, foam balls, a throwing line.",
+  equipment: "Pins or cones, playground balls, a throwing line.",
   setup: "Pins at one end. Throwers behind a line.",
   play: [
     "Underhand throws at pins.",
@@ -288,7 +288,7 @@ window.K2_DETAILS = [
     "Reset and rotate."
   ],
   g12: "Beanbags. Close line.",
-  g34: "Foam at 4 m.",
+  g34: "Throw at 4 m.",
   g56: "Move the line back.",
   safety: "Wait behind the line. Fetcher is safe.",
   slot: "16–25"
@@ -296,7 +296,7 @@ window.K2_DETAILS = [
 {
   name: "Captain Ball", source: "", months: ["November"],
   purpose: "Pass to a teammate who must stay in a hoop.",
-  equipment: "Foam ball, pinnies, 2 hoops.",
+  equipment: "Soccer or playground ball, pinnies, 2 hoops.",
   setup: "Each team has a captain in a hoop.",
   play: [
     "Pass toward your captain. Captain may catch but not run.",
@@ -312,7 +312,7 @@ window.K2_DETAILS = [
 {
   name: "Quick Baseball", source: "", months: ["November","June"],
   purpose: "Hit, run a short path, field to a tee.",
-  equipment: "Tee or coach toss, foam bat and ball, one hoop.",
+  equipment: "Tee or coach toss, t-ball and bat, one hoop.",
   setup: "Hitting line. One hoop as first. Tee is home.",
   play: [
     "Hit, run to the hoop and back.",
@@ -322,7 +322,7 @@ window.K2_DETAILS = [
   g12: "Tee only. Run to the hoop and stay.",
   g34: "There and back.",
   g56: "Soft toss. Two bases.",
-  safety: "Bat in a hoop after the hit. Foam only.",
+  safety: "Bat in a hoop after the hit. T-ball or wiffle only.",
   slot: "16–25"
 },
 {
@@ -556,23 +556,23 @@ window.K2_DETAILS = [
 },
 {
   name: "Numbers Hockey", source: "", months: ["June"],
-  purpose: "Short foam-hockey points. Many get a turn.",
-  equipment: "Foam sticks or hands, foam ball, two cone goals.",
+  purpose: "Short hockey points. Many get a turn.",
+  equipment: "Floor-hockey sticks or hands, hockey ball, two cone goals.",
   setup: "Two teams sit at the side, numbered.",
   play: [
     "Call two or three numbers. Those players play to one goal.",
     "Sit and call a new set."
   ],
   g12: "Hands only. No sticks.",
-  g34: "Foam sticks below the waist.",
+  g34: "Sticks below the waist.",
   g56: "Must pass before a shot.",
-  safety: "Sticks stay down. Foam ball.",
+  safety: "Sticks stay down. Hockey ball or puck.",
   slot: "16–25"
 },
 {
   name: "Jailbreakers", source: "", months: ["June"],
   purpose: "Hitting game where a teammate can free a runner.",
-  equipment: "Tee or kick, foam ball, a jail hoop.",
+  equipment: "Tee or kick, t-ball, a jail hoop.",
   setup: "Hitting team and fielding team. Jail hoop beside first.",
   play: [
     "Hit or kick and run.",
@@ -589,7 +589,7 @@ window.K2_DETAILS = [
 {
   name: "Go for Goal", source: "", months: ["June"],
   purpose: "Small-sided kick or shot at cone goals.",
-  equipment: "Foam balls, cone goals, pinnies.",
+  equipment: "Soccer balls, cone goals, pinnies.",
   setup: "2–3 a side. Extra players are waiting walls or next wave.",
   play: [
     "Pass once before a shot.",
@@ -598,7 +598,7 @@ window.K2_DETAILS = [
   g12: "Big goals. No keepers.",
   g34: "Pass-then-score.",
   g56: "One-touch finish allowed.",
-  safety: "Shots below chest. Foam only.",
+  safety: "Shots below chest.",
   slot: "16–25"
 }
 ];
