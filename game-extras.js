@@ -2039,4 +2039,236 @@ window.GAME_EXTRAS = {
       { code: "Movement · fair play and teamwork", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
     ]
   }
+,
+  "Zig-zag touch relay": {
+    numbers: "Teams of 4–6 · 4–6 min.",
+    cues: ["Touch each cone.", "High-five, then go."],
+    steps: ["One runner. Zig-zag. Beanbag from the last hoop. Sit when your team is done."],
+    variations: ["Walk for 1–2. Skip for 5–6."],
+    look: "Pass on the right.",
+    outcomes: [
+      { code: "Movement · locomotor", look: "Changes direction without cutting the cones." },
+      { code: "Movement · fair play and teamwork", look: "Waits for the high-five." }
+    ]
+  },
+  "Crab-bear walk relay": {
+    numbers: "Short lanes · 3 rounds.",
+    cues: ["Belly up on the crab.", "Hips up on the bear."],
+    steps: ["Crab out, bear back, stretch wrists."],
+    variations: ["Knees down if wrists complain."],
+    look: "Short bouts.",
+    outcomes: [
+      { code: "Movement · shapes and balance", look: "Hips stay off the floor on the crab." },
+      { code: "Safety", look: "Stops when wrists complain." }
+    ]
+  },
+  "Hop-the-hoops relay": {
+    numbers: "6 hoops · teams of 5.",
+    cues: ["Soft land.", "Switch feet at the end."],
+    steps: ["Right-foot hop out. Left-foot hop home."],
+    variations: ["Step instead of hop for Grade 1."],
+    look: "One jumper in the line.",
+    outcomes: [
+      { code: "Movement · locomotor", look: "Hops and sticks inside the hoop." },
+      { code: "Safety", look: "Does not kick a hoop into the next jumper." }
+    ]
+  },
+  "Soccer weave relay": {
+    numbers: "1 ball per team.",
+    cues: ["Small touches.", "Head up."],
+    steps: ["Weave out. Straight home."],
+    variations: ["Weaker foot home in 5–6."],
+    look: "Ball stays close.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Keeps the ball in the lane." },
+      { code: "Safety", look: "No slide tackles." }
+    ]
+  },
+  "Tunnel kick knockdown": {
+    numbers: "1 pin per team.",
+    cues: ["One kick.", "Fetch from the side."],
+    steps: ["Tunnel, one shot, dribble home. Keep going until the pin falls."],
+    variations: ["Kick from a line for 1–2."],
+    look: "One attempt per turn.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Plant foot beside the ball." },
+      { code: "Safety", look: "Fetchers stay out of the lane." }
+    ]
+  },
+  "Toe-tap hoop relay": {
+    numbers: "1 ball per team.",
+    cues: ["Taps in the hoop.", "Switch feet."],
+    steps: ["Weave, ten toe-taps, home."],
+    variations: ["Five taps for 1–2."],
+    look: "Ball stays in the hoop.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Sole stays on the ball for the taps." },
+      { code: "Character", look: "Finishes the taps before running." }
+    ]
+  },
+  "Wall chest-pass relay": {
+    numbers: "1 wall panel per team.",
+    cues: ["Thumbs down.", "Step to the wall."],
+    steps: ["Three chest-passes off the wall. Ball back in the hoop."],
+    variations: ["Catch-bounce for 1–2."],
+    look: "Hands ready.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Steps and pushes from the chest." },
+      { code: "Safety", look: "One team per wall panel." }
+    ]
+  },
+  "Throw-clap-catch relay": {
+    numbers: "1 ball per team.",
+    cues: ["Eyes on the ball.", "Hands underneath."],
+    steps: ["Toss-clap-catch at each cone. High toss at the hoop."],
+    variations: ["No clap for 1–2."],
+    look: "Catches before the next toss.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Watches the ball into the hands." },
+      { code: "Safety", look: "Stays in the lane." }
+    ]
+  },
+  "Hoop underhand relay": {
+    numbers: "Beanbags and two hoops.",
+    cues: ["Step to the target.", "Underhand."],
+    steps: ["Three tries. Leave a make."],
+    variations: ["Opposite hand for 5–6."],
+    look: "Throws from behind the line.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Steps toward the hoop." },
+      { code: "Safety", look: "Waits behind the line." }
+    ]
+  },
+  "Beanbag head walk": {
+    numbers: "1 bag per runner.",
+    cues: ["Airplane arms.", "Walk."],
+    steps: ["Bag on the head to the hoop. Drop it in."],
+    variations: ["One finger help for 1–2."],
+    look: "No running with the bag on the head.",
+    outcomes: [
+      { code: "Movement · shapes and balance", look: "Head still; arms wide." },
+      { code: "Safety", look: "Walks, does not run." }
+    ]
+  },
+  "Dribble the gates": {
+    numbers: "4 gates per team.",
+    cues: ["Finger-pads.", "Eyes on a wall mark."],
+    steps: ["Through the gates and home."],
+    variations: ["Two-hand bounce-catch for 1–2."],
+    look: "Ball below the waist.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Pads, not a slap." },
+      { code: "Movement · spatial awareness", look: "Looks up between bounces." }
+    ]
+  },
+  "Hockey hurdle dribble": {
+    numbers: "Low cones, foam ball.",
+    cues: ["Blade down.", "Tiny touches."],
+    steps: ["Push through the cones. No slapshot."],
+    variations: ["Feet-only for 1–2."],
+    look: "Stick below the knee.",
+    outcomes: [
+      { code: "Safety", look: "Blade stays on the floor." },
+      { code: "Movement · send, receive, retain", look: "Small touches through the gates." }
+    ]
+  },
+  "Hockey pin knockdown": {
+    numbers: "1 pin per team.",
+    cues: ["One push.", "Fetch from the side."],
+    steps: ["Tunnel, one shot, home."],
+    variations: ["Kick if no sticks."],
+    look: "No high stick.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "One controlled push at the pin." },
+      { code: "Safety", look: "Stick stays low." }
+    ]
+  },
+  "Knee-ball jumps": {
+    numbers: "Soft ball, short lane.",
+    cues: ["Squeeze.", "Quiet land."],
+    steps: ["Ball between the knees. Jump the lane. Reset if it drops."],
+    variations: ["Walk-squeeze for 1–2."],
+    look: "Soft ball only.",
+    outcomes: [
+      { code: "Movement · locomotor", look: "Jumps and sticks with the ball held." },
+      { code: "Safety", look: "Soft landing." }
+    ]
+  },
+  "Racquet waiter": {
+    numbers: "1 waiter per team.",
+    cues: ["Palm up.", "Soft toss."],
+    steps: ["Carry to the cone. Toss into a hoop."],
+    variations: ["Two-hand carry for 1–2."],
+    look: "No swing at people.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Keeps the bag on the racquet to the cone." },
+      { code: "Safety", look: "Tosses at the hoop, not a person." }
+    ]
+  },
+  "Balloon keep-up station": {
+    numbers: "Pairs · 60–90 s.",
+    cues: ["Hit, do not catch."],
+    steps: ["Count hits. A drop restarts the count."],
+    variations: ["Alternate hands in 5–6."],
+    look: "Pairs have space.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Taps, does not catch." },
+      { code: "Character", look: "Restarts the count without sitting out." }
+    ]
+  },
+  "Floor rope walk": {
+    numbers: "1 walker per line.",
+    cues: ["Airplane arms.", "Eyes on a wall spot."],
+    steps: ["Walk the rope or tape. Step off to a stick."],
+    variations: ["Wide tape for 1–2. Stork pause for 5–6."],
+    look: "One walker.",
+    outcomes: [
+      { code: "Movement · shapes and balance", look: "Walks the line and sticks the step-off." },
+      { code: "Safety", look: "Waits for the line to be free." }
+    ]
+  },
+  "Spot-jump path": {
+    numbers: "1 jumper per path.",
+    cues: ["Two feet.", "Quiet stick."],
+    steps: ["Spot to spot. Walk back."],
+    variations: ["Half-turn on the last spot for 5–6."],
+    look: "Soft knees.",
+    outcomes: [
+      { code: "Movement · run, jump, throw", look: "Two-foot take-off and a still land." },
+      { code: "Safety", look: "One jumper on the path." }
+    ]
+  },
+  "Circle run relay": {
+    numbers: "Cone loop.",
+    cues: ["Pass outside.", "High-five."],
+    steps: ["One lap. Next runner."],
+    variations: ["Walk-jog for 1–2."],
+    look: "No cutting in.",
+    outcomes: [
+      { code: "Active Living", look: "Keeps a pace they can finish." },
+      { code: "Movement · fair play and teamwork", look: "Tags the next runner, not a shortcut." }
+    ]
+  },
+  "Punt to the line": {
+    numbers: "Foam ball, one lane.",
+    cues: ["Drop, then kick.", "Chase your own ball."],
+    steps: ["Kick toward the line. Kick again if needed. Run it home."],
+    variations: ["Place-kick for 1–2."],
+    look: "Foam only.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Drops and kicks before a bounce, or places it." },
+      { code: "Safety", look: "Kicks away from other lanes." }
+    ]
+  },
+  "Overarm throw-and-catch": {
+    numbers: "1 ball, 1 hoop catcher.",
+    cues: ["Call ‘mine.’", "Opposite-foot step."],
+    steps: ["Throw to the hoop. Catcher runs it home. Swap."],
+    variations: ["Underhand for 1–2."],
+    look: "One ball in the air.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Catcher is ready; thrower steps." },
+      { code: "Healthy Relationships", look: "Calls the catch." }
+    ]
+  }
 };
