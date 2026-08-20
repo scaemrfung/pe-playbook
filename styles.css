@@ -197,3 +197,6 @@ footer.site {
   body { background: #fff; }
   .lesson, .panel, .card { box-shadow: none; }
 }
+
+.yt { margin: 10px 0 0; }
+.yt a { font-weight: 700; }
