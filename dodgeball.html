@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foam dodgeball games · SCA Elementary PE Playbook</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@450;700;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site">
+    <div class="wrap row">
+      <a class="brand" href="index.html">SCA Elementary PE Playbook<span>Grades 1–6 · Alberta · 4 × 30 min</span></a>
+      <nav>
+        <a href="index.html">Year</a>
+        <a href="how.html">How to use</a>
+        <a href="gymnastics.html">Gymnastics</a>
+        <a href="videos.html">Videos</a>
+        <a href="games.html">Games</a>
+        <a class="active" href="dodgeball.html">Dodgeball</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" style="padding:28px 0 40px">
+    <div class="panel">
+      <h1 style="margin-top:0;color:var(--navy)">Foam dodgeball games</h1>
+      <p>Twenty stay-in versions for a large elementary class. Best in <strong>October</strong> (send/receive) and <strong>January</strong> (invasion). Foam only. Hits stay <strong>below the waist</strong>. A hit is a stretch, a switch, or a jail-catch — never sitting the period out.</p>
+      <h2>House rules</h2>
+      <ul class="clean">
+        <li>Foam or very soft playground balls. No rubber dodgeballs at heads.</li>
+        <li>Throw or roll below the waist. A high ball is dead.</li>
+        <li>A catch is a save. The thrower stretches 10 seconds, then stays in.</li>
+        <li>No benches. Hoops, tape, and cones only.</li>
+        <li>Grades 1–2 roll or underhand. Grades 3–6 may add a bounce-throw.</li>
+      </ul>
+      <h2>Alberta PEW (K–6) — what these games practise</h2>
+      <p class="meta">Organizing ideas: Movement Skill Development · Safety · Healthy Relationships · Active Living. Pick one or two look-fors per class.</p>
+      <ul class="clean">
+        <li><strong>Send, receive, retain</strong> — opposite-foot step, eyes on the target, two-hand catch, roll or bounce to keep it low.</li>
+        <li><strong>Tactics</strong> — pass before a throw, move after you send, protect a teammate, use space.</li>
+        <li><strong>Safety</strong> — foam, below the waist, freeze on the whistle, no chasing a person down.</li>
+        <li><strong>Fair play and relationships</strong> — a hit is not shame; help a medic or jail catch; accept a switch of teams.</li>
+        <li><strong>Active living</strong> — keep moving for the 16–25 minute game block.</li>
+      </ul>
+    </div>
+    <div id="list"></div>
+  </main>
+  <footer class="site wrap">October send/receive · January invasion · foam · below the waist · no elimination.</footer>
+  <script src="dodgeball-data.js"></script>
+  <script>
+    const box = document.getElementById("list");
+    (window.DODGE_GAMES || []).forEach((g) => {
+      const outs = (g.outcomes || []).map((o) => `<li><strong>${o.code}:</strong> ${o.look}</li>`).join("");
+      box.insertAdjacentHTML("beforeend", `
+        <article class="panel" id="${g.slug}">
+          <p class="meta">${g.kind} · ${g.time}</p>
+          <h2>${g.name}</h2>
+          <p>${g.purpose}</p>
+          <p><strong>Equipment:</strong> ${g.equipment}</p>
+          <p><strong>Setup:</strong> ${g.setup}</p>
+          <h3>How we play</h3>
+          <ol>${g.play.map((s) => `<li>${s}</li>`).join("")}</ol>
+          <p><strong>1–2:</strong> ${g.g12}<br><strong>3–4:</strong> ${g.g34}<br><strong>5–6:</strong> ${g.g56}</p>
+          <p><strong>Safety:</strong> ${g.safety}</p>
+          <h3>PEW look-fors</h3>
+          <ul class="clean">${outs}</ul>
+        </article>`);
+    });
+  </script>
+</body>
+</html>

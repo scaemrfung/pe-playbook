@@ -7,7 +7,7 @@ const months = [
     fitness: "Baseline: 30-second skip, wall sit or chair hold, sit-and-reach, and a timed shuttle. Record once; do not rank students.",
     notes: "Week 4 can shift to match your school’s Terry Fox day. If the run is outdoors, use Class 15 as the event and Class 16 as a recovery games day.",
     lessons: [
-      { w:1,c:1, title:"Gym rules & freeze", focus:"Space, signals, emergency exit", wu:"Jog the line. Freeze on whistle. Teach start/stop, water, bathroom, fire/lockdown line-up.", skill:"Walk the gym: boundaries, safe landing spots, where equipment lives.", game:"Red Light, Green Light — walk, jog, skip. No elimination; movers on red restart.", cd:"Name one gym rule. Stretch calves and hamstrings.", g12:"Short distance, lots of freezes", g34:"Add gallop and slide", g56:"Students take turns as the light" },
+      { w:1,c:1, title:"Gym rules & freeze", focus:"Space, signals, emergency exit", wu:"Jog the line. Freeze on whistle. Teach start/stop, water, bathroom, fire/lockdown line-up.", skill:"Walk the gym: boundaries, safe landing spots, where equipment lives.", game:"Red Light, Green Light or Simon Says Stay-In — movers on red restart; no sitting out.", cd:"Name one gym rule. Stretch calves and hamstrings.", g12:"Short distance, lots of freezes", g34:"Add gallop and slide", g56:"Students take turns as the light" },
       { w:1,c:2, title:"Emergency procedures in motion", focus:"Calm response, listening under movement", wu:"Captain’s Deck: bow, stern, port, starboard, freeze.", skill:"Practice fire-line and ‘quiet gather’ as a game, then reset to play.", game:"Sharks and Dolphins — hoop islands, then “Shark attack!”", cd:"What does a calm freeze look like?", g12:"Walk-tag only", g34:"Jog-tag, 2 sharks", g56:"Add a rescue by high-five" },
       { w:1,c:3, title:"Personal space & body awareness", focus:"What makes me healthy and active?", wu:"Simon Says locomotor + body-part taps.", skill:"Bubble space: walk without popping a neighbour’s bubble. Name heart, lungs, muscles.", game:"Four Corners: Healthy / Active / Rest / Water. Last corner called is home.", cd:"One thing that makes your body ready to play.", g12:"Teacher names corners", g34:"Students shout a reason at the corner", g56:"Students invent a fifth corner" },
       { w:1,c:4, title:"Cooperative first-week closer", focus:"Working together, fair start", wu:"Rikki Tikki: pairs match called body parts.", skill:"Move a hoop or beanbag across the gym as a pair without dropping.", game:"Hot Dog Tag.", cd:"Handshake line. Praise one fair play.", g12:"Beanbags, walking", g34:"Foam balls, jogging", g56:"Add a ‘helper zone’ for balls that stall" },
@@ -105,9 +105,9 @@ const months = [
     pew: "Movement Skill Development, Safety, Healthy Relationships, Active Living",
     equipment: "Pinnies, hoops, playground balls, cones, jump ropes, foam balls",
     fitness: "After holidays, redo the September baseline as a ‘welcome back’ check — privately.",
-    notes: "All January classes stay in the gym. No ice or skating.",
+    notes: "All January classes stay in the gym. No ice or skating. Invasion week can use a foam dodgeball game from the Dodgeball page.",
     lessons: [
-      { w:1,c:1, title:"Back together — cooperative tag", focus:"Re-enter fairly, no elimination", wu:"Walk-and-wave greet three people.", skill:"Teach ‘tag, freeze, stretch, re-enter.’", game:"Hospital Tag or Hot Dog Tag.", cd:"How did it feel to be unfrozen?", g12:"Walk tag", g34:"Jog", g56:"Two-hand tag only" },
+      { w:1,c:1, title:"Back together — cooperative tag", focus:"Re-enter fairly, no elimination", wu:"Walk-and-wave greet three people.", skill:"Teach ‘tag, freeze, stretch, re-enter.’", game:"Hospital Tag, Hot Dog Tag, or Ten-Second Tag.", cd:"How did it feel to be unfrozen?", g12:"Walk tag", g34:"Jog", g56:"Two-hand tag only" },
       { w:1,c:2, title:"Partner problems", focus:"Solve a task with one other person", wu:"Back-to-back stand-up.", skill:"Move a hoop from head to floor without hands. Then a beanbag relay.", game:"Pair races that require both people touching the object.", cd:"What words helped?", g12:"Teacher pairs", g34:"Change partners twice", g56:"Silent round" },
       { w:1,c:3, title:"Group of four challenges", focus:"Roles in a small group", wu:"Hula hoop huddle (all hands).", skill:"Blanket/tarp ball carry or four-person hoop walk.", game:"Tripod Tag — 3 join hands, 1 tags, switch roles.", cd:"Name a role you played.", g12:"Walk only", g34:"Jog", g56:"No talking round" },
       { w:1,c:4, title:"Individual challenge inside a group", focus:"Personal best, not vs peers", wu:"Skip or jog at your own pace.", skill:"Station cards: how many can you do well in 40 seconds?", game:"Collective class score (everyone’s reps added).", cd:"Your number is yours.", g12:"Quality over count", g34:"Record privately", g56:"Set a next-week number" },
@@ -119,10 +119,10 @@ const months = [
       { w:3,c:2, title:"Chest and bounce pass", focus:"Step to the target, catch ready", wu:"Partner toss-catch.", skill:"Chest pass: two hands, step, thumbs down. Bounce pass: hit the floor two-thirds of the way.", game:"Keep Away with a catchable foam ball, 4v1.", cd:"Name a good pass.", g12:"Chest only, short", g34:"Chest and bounce", g56:"Must-pass before a score" },
       { w:3,c:3, title:"Floor hockey — stick safety", focus:"Blade on the floor, no high stick", wu:"Walk with the stick, blade down.", skill:"Push-pass to a partner or gate. Two-hand grip. No slapshots.", game:"Hockey hurdle dribble or Hockey pin knockdown.", cd:"Where does the blade live?", g12:"Hands on stick, roll a ball if sticks are new", g34:"Push-pass only", g56:"Receive and pass in two touches" },
       { w:3,c:4, title:"Small-sided invasion", focus:"Pass, then move", wu:"Partner pass on the move.", skill:"3v3 or 4v4 on a short court: three completes to score, or a hoop/end-line. No running with the ball.", game:"End-zone catch (no running with the ball).", cd:"Did we look before we sent?", g12:"3v1 keep-away", g34:"3v3 must-pass", g56:"4v4, one extra defender" },
-      { w:4,c:1, title:"Whole-class cooperative", focus:"One problem, whole class", wu:"Knots: tangled hands, untangle.", skill:"Move a giant ‘pizza’ (parachute or sheet) without spilling beanbags.", game:"Hungry Snake or parachute popcorn.", cd:"Did we listen?", g12:"Slow waves", g34:"Popcorn beanbags", g56:"Travel the pizza" },
+      { w:4,c:1, title:"Whole-class cooperative", focus:"One problem, whole class", wu:"Knots: tangled hands, untangle.", skill:"Move a giant ‘pizza’ (parachute or sheet) without spilling beanbags.", game:"Cross the River or Hungry Snake.", cd:"Did we listen?", g12:"Slow waves", g34:"Popcorn beanbags", g56:"Travel the pizza" },
       { w:4,c:2, title:"Inclusion games", focus:"Everyone has a role", wu:"Partner lead-and-follow, eyes closed one at a time (short).", skill:"Jobs: mover, caller, retriever, scorekeeper.", game:"Sitting volleyball or Newcomb so roles rotate.", cd:"Which job did you like?", g12:"Two jobs only", g34:"Four jobs", g56:"Design a job for a classmate who sits today" },
       { w:4,c:3, title:"January stations", focus:"Partner, group, invasion", wu:"Choice warm-up.", skill:"Stations: pair hoop carry, bounce pass, dribble gates, hockey push-pass.", game:"Rotate.", cd:"Favourite station?", g12:"Shorter stations", g34:"Full rotate", g56:"Peer coach one station" },
-      { w:4,c:4, title:"Fitness update + game festival", focus:"Play January favourites", wu:"Baseline skip and stretch.", skill:"Quick fitness record — private.", game:"Vote: Keep Away, End-zone catch, or Hospital Tag.", cd:"One cooperative habit to keep in February.", g12:"One game", g34:"Two", g56:"Students run the festival" },
+      { w:4,c:4, title:"Fitness update + game festival", focus:"Play January favourites", wu:"Baseline skip and stretch.", skill:"Quick fitness record — private.", game:"Vote: Keep Away, End-zone catch, or Pulse Race.", cd:"One cooperative habit to keep in February.", g12:"One game", g34:"Two", g56:"Students run the festival" },
     ],
   },
   {
@@ -268,6 +268,7 @@ const MONTH_GAMES = {
     ["Laps and Lines / Signals", "", "Change locomotor or level on the whistle. Daily September instant activity."],
   ],
   October: [
+    ["Medic dodgeball", "", "Stay-in foam game — medic tap. See Dodgeball page."],
     ["Robin’s Nest", "", "Four hoop nests, balls in the middle. Feet only. Steal from the middle or another nest. First to 3."],
     ["Wall Soccer", "", "2–3 field players per team; everyone else is a wall-goalie. Rotate every 2–3 minutes."],
     ["Team Tag", "", "Tag team may only tag with a held ball. No throw, no walking with the ball. Tagged players join the tag team."],
@@ -296,6 +297,7 @@ const MONTH_GAMES = {
     ["Magic Numbers", "", "10-10-10 or 7-7-7 of three named movements."],
   ],
   January: [
+    ["Switch-sides", "", "Hit means join the other team. See Dodgeball page."],
     ["Hot Dog Tag", "", "Cooperative unfreeze. Default January tag."],
     ["Blob Tag", "", "Start with one pair linked. Tagged players join. Break blobs at 4 if the chain gets dangerous."],
     ["Tripod Tag", "", "Groups of 4: three join hands, one tags. Short rounds, switch the tagger."],
