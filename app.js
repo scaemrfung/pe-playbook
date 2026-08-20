@@ -33,7 +33,7 @@
         <thead><tr><th>What</th><th>How</th><th>Look-for / evidence</th></tr></thead>
         <tbody>${u.assess.map((a) => `<tr><td><strong>${a.what}</strong></td><td>${a.how}</td><td>${a.evidence}</td></tr>`).join("")}</tbody>
       </table>
-      <p class="note">Match report-card comments to the current learning outcome on LearnAlberta. Do not rank fitness scores.</p>
+      <p class="note">Each lesson also lists 2000 Program of Studies codes (A/B/C/D). PEW is the current K–6 curriculum. Match report-card comments to LearnAlberta. Do not rank fitness scores.</p>
     </div>`;
   }
 
@@ -82,7 +82,12 @@
         head = `<h2 class="week-title">${m.name} · Week ${week}</h2>`;
       }
       const o = LO[`${m.name}-${L.w}-${L.c}`];
-      const outRow = o ? `<div class="row out"><div class="t">PEW</div>
+      const pos = o && (o.pos12 || o.pos34) ? `<div class="row out"><div class="t">POS</div>
+            <div class="d"><span class="meta">2000 Program of Studies</span><br>
+            <strong>1–2:</strong> ${o.pos12}<br>
+            <strong>3–4:</strong> ${o.pos34}<br>
+            <strong>5–6:</strong> ${o.pos56}</div></div>` : "";
+      const outRow = o ? `${pos}<div class="row out"><div class="t">PEW</div>
             <div class="d"><strong>${o.oi}</strong><br>
             <strong>1–2:</strong> ${o.g12}<br>
             <strong>3–4:</strong> ${o.g34}<br>
@@ -123,10 +128,12 @@
         <h2>Big-group games this month</h2>
         <p class="note">These are the 30-minute classroom versions. Simplify for Grades 1–2: walk more, fewer taggers, skip grabbing games until Grade 3+.</p>
         <table class="games">
-          <thead><tr><th>Game</th><th>How we run it</th></tr></thead>
+          <thead><tr><th>Game</th><th>How we run it</th><th>2000 POS (1–2 / 3–4 / 5–6)</th></tr></thead>
           <tbody>${bank.map((r) => {
           const sl = r[0].toLowerCase().replace(/[^a-z0-9]+/g, "-");
-          return `<tr><td><strong><a href="games.html#${sl}">${r[0]}</a></strong></td><td>${r[2]}</td></tr>`;
+          const x = (window.GAME_EXTRAS || {})[r[0]] || {};
+          const pos = x.pos12 ? `${x.pos12}<br>${x.pos34}<br>${x.pos56}` : "";
+          return `<tr><td><strong><a href="games.html#${sl}">${r[0]}</a></strong></td><td>${r[2]}</td><td class="meta">${pos}</td></tr>`;
         }).join("")}</tbody>
         </table>
       </div>
@@ -143,27 +150,40 @@
     }
     function render() {
       const term = (q.value || "").toLowerCase();
+      const EX = window.GAME_EXTRAS || {};
       const cards = details.filter((g) => {
-        const hay = [g.name, g.source, g.purpose, g.play.join(" "), (g.months || []).join(" ")].join(" ").toLowerCase();
+        const x = EX[g.name] || {};
+        const hay = [g.name, g.source, g.purpose, g.play.join(" "), (g.months || []).join(" "),
+          (x.more || []).join(" "), (x.variations || []).join(" "), x.look || ""].join(" ").toLowerCase();
         return !term || hay.includes(term);
-      }).map((g) => `
+      }).map((g) => {
+        const x = EX[g.name] || {};
+        const more = (x.more || []).map((s) => `<li>${s}</li>`).join("");
+        const cues = (x.cues || []).map((s) => `<li>${s}</li>`).join("");
+        const vars = (x.variations || []).map((s) => `<li>${s}</li>`).join("");
+        return `
         <article class="gcard" id="${gslug(g.name)}">
           <div class="ghead">
             <h2>${g.name}</h2>
           </div>
-          <p class="meta"><strong>When:</strong> ${(g.months || []).join(", ")} · <strong>Slot:</strong> ${g.slot}</p>
+          <p class="meta"><strong>When:</strong> ${(g.months || []).join(", ")} · <strong>Slot:</strong> ${g.slot}${x.numbers ? ` · ${x.numbers}` : ""}</p>
           <p>${g.purpose}</p>
           <p class="meta"><strong>Equipment:</strong> ${g.equipment}</p>
           <p class="meta"><strong>Set-up:</strong> ${g.setup}</p>
           <p><strong>How we play</strong></p>
-          <ol class="clean">${g.play.map((s) => `<li>${s}</li>`).join("")}</ol>
+          <ol class="clean">${g.play.map((s) => `<li>${s}</li>`).join("")}${more}</ol>
+          ${cues ? `<p><strong>Cues</strong></p><ul class="clean">${cues}</ul>` : ""}
+          ${vars ? `<p><strong>Variations</strong></p><ul class="clean">${vars}</ul>` : ""}
+          ${x.look ? `<p class="note"><strong>Look-for.</strong> ${x.look}</p>` : ""}
+          ${x.pos12 ? `<p class="meta"><strong>2000 POS.</strong> 1–2: ${x.pos12}<br>3–4: ${x.pos34}<br>5–6: ${x.pos56}</p>` : ""}
           <div class="bands-block">
             <div><strong>Grades 1–2.</strong> ${g.g12}</div>
             <div><strong>Grades 3–4.</strong> ${g.g34}</div>
             <div><strong>Grades 5–6.</strong> ${g.g56}</div>
           </div>
           <p class="note"><strong>Safety.</strong> ${g.safety}</p>
-        </article>`).join("");
+        </article>`;
+      }).join("");
       const ps = window.PAIR_STATIONS;
       let stations = "";
       if (ps && !term) {
