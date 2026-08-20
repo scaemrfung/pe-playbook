@@ -22,6 +22,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Soft tag; the tagged player has a way back in." },
+      { code: "C–5", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
+    ]
   },
   "Hot Dog Tag": {
     numbers: "Whole class · 5–8 min · 3–5 noodle taggers.",
@@ -42,6 +47,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Soft tag; the tagged player has a way back in." },
+      { code: "C–5", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
+    ]
   },
   "Line Tag / Pac-Man": {
     numbers: "Whole class · 6–8 min · 1–2 taggers on gym lines.",
@@ -61,6 +71,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Stays on the line; no corner-cutting." },
+      { code: "D–5", look: "Eyes up at intersections." }
+    ]
   },
   "Sharks and Dolphins": {
     numbers: "Whole class · 6–8 min · start with 1–2 sharks.",
@@ -81,6 +96,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Crosses on the call, not after a wait." },
+      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+    ]
   },
   "Captain’s Deck / Shipwreck": {
     numbers: "Whole class · 4–6 min · teacher or a student is captain.",
@@ -100,6 +120,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Octopus": {
     numbers: "Whole class · 6–8 min · 1 octopus to start.",
@@ -120,6 +145,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Crosses on the call, not after a wait." },
+      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+    ]
   },
   "Blob Tag": {
     numbers: "Whole class · 5–7 min · 1 starter blob.",
@@ -140,6 +170,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "The chain splits before it gets unsafe." },
+      { code: "C–5", look: "Holds on without yanking." }
+    ]
   },
   "Frozen Tag": {
     numbers: "Whole class · 4–6 min · everyone is it, or 3–4 taggers.",
@@ -159,6 +194,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Soft tag; the tagged player has a way back in." },
+      { code: "C–5", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
+    ]
   },
   "Tail Tag": {
     numbers: "Whole class · 5 min · every player has a tail, or 6–8 hunters.",
@@ -178,6 +218,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–5", look: "Two fingers on the tail or pin, not on clothes." },
+      { code: "A–10", look: "Hands the pin or tail back." }
+    ]
   },
   "Capture the Egg": {
     numbers: "Two teams · 8–10 min.",
@@ -193,6 +238,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–11, D1–5, C1–5",
     pos34: "A3–10, A3–11, D3–5, C3–5",
     pos56: "A5–10, A5–11, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–11", look: "One object or one rescue at a time." },
+      { code: "C–5", look: "Walks a jailed teammate home." }
+    ]
   },
   "Four Corner Flags": {
     numbers: "Four teams · 8–12 min · one hoop and 2–3 flags per corner.",
@@ -213,6 +263,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–11, D1–5, C1–5",
     pos34: "A3–10, A3–11, D3–5, C3–5",
     pos56: "A5–10, A5–11, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–11", look: "One object or one rescue at a time." },
+      { code: "C–5", look: "Walks a jailed teammate home." }
+    ]
   },
   "Rob the Nest (dribble)": {
     numbers: "4 teams · 6–8 min · 12–20 foam balls.",
@@ -229,6 +284,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
+      { code: "A–11", look: "One ball at a time; looks before sending." }
+    ]
   },
   "Volcanoes and Ice-Cream Cones": {
     numbers: "Two teams · 3 × 45-second rounds · 20–30 cones.",
@@ -245,6 +305,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, C1–5, A1–11",
     pos34: "A3–10, C3–5, A3–11",
     pos56: "A5–10, C5–5, A5–11"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Finds a group or a spot without diving." },
+      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+    ]
   },
   "Kangaroos and Crocodiles": {
     numbers: "Two teams on a centre line · 6–8 crossings.",
@@ -261,6 +326,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Moves only when their name or shape wins." },
+      { code: "A–10", look: "Tagged player re-enters or switches — nobody sits out." }
+    ]
   },
   "Clean Your Room": {
     numbers: "Two teams · 3 × 45-second rounds · lots of foam.",
@@ -277,6 +347,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–10, D1–5",
     pos34: "A3–5, A3–10, D3–5",
     pos56: "A5–5, A5–10, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Sends stay below the waist." },
+      { code: "D–3", look: "Hands up on the whistle." }
+    ]
   },
   "Tidy the Bedroom": {
     numbers: "Whole class or two teams · 5 min · beanbags + hoops.",
@@ -292,6 +367,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–10, D1–5",
     pos34: "A3–5, A3–10, D3–5",
     pos56: "A5–5, A5–10, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Sends stay below the waist." },
+      { code: "D–3", look: "Hands up on the whistle." }
+    ]
   },
   "Mr. Clean": {
     numbers: "Two teams · 45-second rounds.",
@@ -306,6 +386,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–10, D1–5",
     pos34: "A3–5, A3–10, D3–5",
     pos56: "A5–5, A5–10, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Sends stay below the waist." },
+      { code: "D–3", look: "Hands up on the whistle." }
+    ]
   },
   "Battleships": {
     numbers: "2–4 teams · 8–10 min · pins, foam, optional standing mats.",
@@ -322,6 +407,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–11, D1–5, C1–5",
     pos34: "A3–10, A3–11, D3–5, C3–5",
     pos56: "A5–10, A5–11, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
+      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+    ]
   },
   "End Ball": {
     numbers: "Two teams of 6–10 · 2 × 4 min · foam ball, two end zones.",
@@ -338,6 +428,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, C1–5",
     pos34: "A3–5, A3–11, C3–5",
     pos56: "A5–5, A5–11, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Carrier pivots — no running with the ball." },
+      { code: "A–11", look: "Looks for a teammate before a score." }
+    ]
   },
   "End Zone Ball": {
     numbers: "Same family as End Ball · 2 × 4 min.",
@@ -353,6 +448,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, C1–5",
     pos34: "A3–5, A3–11, C3–5",
     pos56: "A5–5, A5–11, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Carrier pivots — no running with the ball." },
+      { code: "A–11", look: "Looks for a teammate before a score." }
+    ]
   },
   "The Perfect Pass": {
     numbers: "Two teams · 4-minute games · set a pass number (3–5).",
@@ -369,6 +469,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, C1–5",
     pos34: "A3–5, A3–11, C3–5",
     pos56: "A5–5, A5–11, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Carrier pivots — no running with the ball." },
+      { code: "A–11", look: "Looks for a teammate before a score." }
+    ]
   },
   "Captain Ball": {
     numbers: "Two teams · 6–8 min · one captain per team in a hoop.",
@@ -384,6 +489,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, C1–5",
     pos34: "A3–5, A3–11, C3–5",
     pos56: "A5–5, A5–11, C5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Continuous Kick Ball": {
     numbers: "Two teams · 10 min · foam playground ball, 3–4 hoops as bases.",
@@ -400,6 +510,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Everyone gets a kick or hit." },
+      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+    ]
   },
   "Beat Ball / Beat the Ball": {
     numbers: "Whole class in a kicking order · 8 min.",
@@ -415,6 +530,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Everyone gets a kick or hit." },
+      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+    ]
   },
   "Quick Baseball": {
     numbers: "Whole class · 8 min · tee or coach toss, one hoop.",
@@ -429,6 +549,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–13, A1–11, D1–5",
     pos34: "A3–5, A3–13, A3–11, D3–5",
     pos56: "A5–5, A5–13, A5–11, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Everyone gets a kick or hit." },
+      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+    ]
   },
   "Diamond Strike": {
     numbers: "Grades 3–6 · 10 min · four hitters start on bases.",
@@ -444,6 +569,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–13, A1–11, D1–5",
     pos34: "A3–5, A3–13, A3–11, D3–5",
     pos56: "A5–5, A5–13, A5–11, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Everyone gets a kick or hit." },
+      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+    ]
   },
   "Kick It (mats)": {
     numbers: "Two teams · 8 min · mats as bases.",
@@ -459,6 +589,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Everyone gets a kick or hit." },
+      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+    ]
   },
   "Hit and Run": {
     numbers: "Stations or a small diamond · 8 min.",
@@ -474,6 +609,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–13, A1–11, D1–5",
     pos34: "A3–5, A3–13, A3–11, D3–5",
     pos56: "A5–5, A5–13, A5–11, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Everyone gets a kick or hit." },
+      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+    ]
   },
   "Skittles": {
     numbers: "2–4 teams or a circle · 6 min · pins + foam.",
@@ -489,6 +629,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–13, A1–11, D1–5",
     pos34: "A3–5, A3–13, A3–11, D3–5",
     pos56: "A5–5, A5–13, A5–11, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
+      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+    ]
   },
   "Skittle Ball": {
     numbers: "Same family as Skittles.",
@@ -503,6 +648,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–13, A1–11, D1–5",
     pos34: "A3–5, A3–13, A3–11, D3–5",
     pos56: "A5–5, A5–13, A5–11, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
+      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+    ]
   },
   "Team Bowling": {
     numbers: "2 teams · 2-minute rounds · many pins.",
@@ -518,6 +668,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–13, A1–11, D1–5",
     pos34: "A3–5, A3–13, A3–11, D3–5",
     pos56: "A5–5, A5–13, A5–11, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
+      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+    ]
   },
   "Protect the Castle": {
     numbers: "1 castle + attackers · rotate every 2 min.",
@@ -533,6 +688,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–11, D1–5, C1–5",
     pos34: "A3–10, A3–11, D3–5, C3–5",
     pos56: "A5–10, A5–11, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
+      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+    ]
   },
   "Poison Ball": {
     numbers: "Grades 3–6 · 6 min · 6–10 foam balls.",
@@ -549,6 +709,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–5", look: "Hits stay low; a hit is a stretch, then back in." },
+      { code: "A–5", look: "Foam only." }
+    ]
   },
   "Survivor Dodgeball": {
     numbers: "Grades 3–6 · short rounds · foam.",
@@ -563,6 +728,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–5", look: "Hits stay low; a hit is a stretch, then back in." },
+      { code: "A–5", look: "Foam only." }
+    ]
   },
   "Traffic Lights (kick)": {
     numbers: "Whole class · 4–5 min · one foam ball each if you have them.",
@@ -578,6 +748,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Through the Gates": {
     numbers: "Pairs · 6 min · cone gates all over the gym.",
@@ -593,6 +768,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
+      { code: "A–11", look: "One ball at a time; looks before sending." }
+    ]
   },
   "Guard the Gates": {
     numbers: "Two teams · 6 min.",
@@ -608,6 +788,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
+      { code: "A–11", look: "One ball at a time; looks before sending." }
+    ]
   },
   "Dash and Dribble": {
     numbers: "Relay teams of 4 · 6 min.",
@@ -623,6 +808,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
+      { code: "A–11", look: "One ball at a time; looks before sending." }
+    ]
   },
   "Reverse Soccer": {
     numbers: "Two teams · 6–8 min · foam, two goals.",
@@ -638,6 +828,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
+      { code: "A–11", look: "One ball at a time; looks before sending." }
+    ]
   },
   "Go for Goal": {
     numbers: "Stations or 1v1 · 8 min.",
@@ -653,6 +848,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
+      { code: "A–11", look: "One ball at a time; looks before sending." }
+    ]
   },
   "Numbers Hockey": {
     numbers: "Two teams numbered · 8 min · foam puck, sticks if taught.",
@@ -668,6 +868,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
+      { code: "A–11", look: "One ball at a time; looks before sending." }
+    ]
   },
   "Wall Soccer": {
     numbers: "2–3 out, rest as wall goalies · 6 min.",
@@ -683,6 +888,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, A1–1, D1–5",
     pos34: "A3–5, A3–11, A3–1, D3–5",
     pos56: "A5–5, A5–11, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
+      { code: "A–11", look: "One ball at a time; looks before sending." }
+    ]
   },
   "Fruit Salad": {
     numbers: "Whole class · 5 min · hoops or spots in a circle + one extra player.",
@@ -699,6 +909,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Finds a group or a spot without diving." },
+      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+    ]
   },
   "Group Numbers": {
     numbers: "Whole class · 3–4 min.",
@@ -714,6 +929,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, C1–5, A1–11",
     pos34: "A3–10, C3–5, A3–11",
     pos56: "A5–10, C5–5, A5–11"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Finds a group or a spot without diving." },
+      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+    ]
   },
   "Crazy Beans": {
     numbers: "Whole class · 4 min.",
@@ -728,6 +948,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Land and Sea": {
     numbers: "Whole class · 4 min · one long line.",
@@ -743,6 +968,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Here, There, Everywhere": {
     numbers: "Whole class · 4 min.",
@@ -757,6 +987,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Follow the Leader": {
     numbers: "Lines of 4 · 5 min.",
@@ -772,6 +1007,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–8, A1–9, A1–1",
     pos34: "A3–8, A3–9, A3–1",
     pos56: "A5–8, A5–9, A5–1"
+  ,
+    outcomes: [
+      { code: "A–8", look: "Matches the beat or the leader." },
+      { code: "A–3", look: "Still on the freeze." }
+    ]
   },
   "Shadow Tag": {
     numbers: "Pairs or whole class · 4 min · sun or poly-spot ‘shadows’.",
@@ -787,6 +1027,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Soft feet on a shadow or spot." },
+      { code: "D–5", look: "No stomps on ankles." }
+    ]
   },
   "Collect the Treasure": {
     numbers: "4 teams · 5–6 min · beanbags in the middle.",
@@ -802,6 +1047,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–11, D1–5, C1–5",
     pos34: "A3–10, A3–11, D3–5, C3–5",
     pos56: "A5–10, A5–11, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–11", look: "One object or one rescue at a time." },
+      { code: "C–5", look: "Walks a jailed teammate home." }
+    ]
   },
   "Heist the Treasure": {
     numbers: "Same family as Collect the Treasure / 4-way flag.",
@@ -816,6 +1066,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–11, D1–5, C1–5",
     pos34: "A3–10, A3–11, D3–5, C3–5",
     pos56: "A5–10, A5–11, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–11", look: "One object or one rescue at a time." },
+      { code: "C–5", look: "Walks a jailed teammate home." }
+    ]
   },
   "Plant the Trees": {
     numbers: "Relay teams · 5 min · cones or beanbags + hoops.",
@@ -831,6 +1086,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, C1–5, A1–11",
     pos34: "A3–10, C3–5, A3–11",
     pos56: "A5–10, C5–5, A5–11"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Finds a group or a spot without diving." },
+      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+    ]
   },
   "Icebergs": {
     numbers: "Whole class · 5 min · hoops.",
@@ -846,6 +1106,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Crosses on the call, not after a wait." },
+      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+    ]
   },
   "Frogs on the Lily Pads": {
     numbers: "Whole class · 5 min · hoop path.",
@@ -861,6 +1126,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–12, A1–3, A1–1, D1–5",
     pos34: "A3–12, A3–3, A3–1, D3–5",
     pos56: "A5–12, A5–3, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–12", look: "Jump-stick or a still shape for 3 seconds." },
+      { code: "D–5", look: "One at a time on a hoop or mat." }
+    ]
   },
   "Safe to Shore": {
     numbers: "Whole class · 5–6 min · mats/hoops as stones.",
@@ -876,6 +1146,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–12, A1–3, A1–1, D1–5",
     pos34: "A3–12, A3–3, A3–1, D3–5",
     pos56: "A5–12, A5–3, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Crosses on the call, not after a wait." },
+      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+    ]
   },
   "Balloon Keep-Up": {
     numbers: "Class or groups of 4–6 · 4–5 min.",
@@ -891,6 +1166,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, C1–5",
     pos34: "A3–5, C3–5",
     pos56: "A5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Catch, then throw — call it." },
+      { code: "C–1", look: "Uses a name or ‘mine’ before the send." }
+    ]
   },
   "Newcomb / FLY BACK": {
     numbers: "Two teams · 4-minute games · rope or low net.",
@@ -907,6 +1187,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, C1–5",
     pos34: "A3–5, A3–11, C3–5",
     pos56: "A5–5, A5–11, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Catch, then throw — call it." },
+      { code: "C–1", look: "Uses a name or ‘mine’ before the send." }
+    ]
   },
   "Flying Saucers": {
     numbers: "Pairs or teams · 6 min · foam discs or rings.",
@@ -922,6 +1207,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, C1–5",
     pos34: "A3–5, A3–11, C3–5",
     pos56: "A5–5, A5–11, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Catch, then throw — call it." },
+      { code: "C–1", look: "Uses a name or ‘mine’ before the send." }
+    ]
   },
   "Frisbee Flingers": {
     numbers: "Pairs or two teams · 6–8 min.",
@@ -937,6 +1227,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, C1–5",
     pos34: "A3–5, A3–11, C3–5",
     pos56: "A5–5, A5–11, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Catch, then throw — call it." },
+      { code: "C–1", look: "Uses a name or ‘mine’ before the send." }
+    ]
   },
   "Crab Football": {
     numbers: "Two teams · 3 × 60-second rounds.",
@@ -952,6 +1247,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–5, A1–11",
     pos34: "A3–1, A3–5, A3–11",
     pos56: "A5–1, A5–5, A5–11"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Hips up for a short bout." },
+      { code: "A–5", look: "Foam ball only." }
+    ]
   },
   "Cornerball": {
     numbers: "Two or four teams · 6 min · four corner hoops.",
@@ -967,6 +1267,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, C1–5",
     pos34: "A3–5, A3–11, C3–5",
     pos56: "A5–5, A5–11, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Carrier pivots — no running with the ball." },
+      { code: "A–11", look: "Looks for a teammate before a score." }
+    ]
   },
   "Hurley Burley": {
     numbers: "Grades 3–6 · 8 min · one foam ball.",
@@ -982,6 +1287,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, C1–5",
     pos34: "A3–5, A3–11, C3–5",
     pos56: "A5–5, A5–11, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Chooses kick, bounce, or throw." },
+      { code: "A–11", look: "A tip means pass at once." }
+    ]
   },
   "Slide Sling Save": {
     numbers: "Two teams · 6 min · beanbags.",
@@ -997,6 +1307,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–5", look: "Hits stay low; a hit is a stretch, then back in." },
+      { code: "A–5", look: "Foam only." }
+    ]
   },
   "Jailbreakers": {
     numbers: "Two teams · 6–8 min.",
@@ -1012,6 +1327,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–11, D1–5, C1–5",
     pos34: "A3–10, A3–11, D3–5, C3–5",
     pos56: "A5–10, A5–11, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–11", look: "One object or one rescue at a time." },
+      { code: "C–5", look: "Walks a jailed teammate home." }
+    ]
   },
   "Parachute popcorn / dome / cat-and-mouse": {
     numbers: "Whole class on the chute · 8–10 min.",
@@ -1028,6 +1348,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, C1–5, D1–5",
     pos34: "A3–5, C3–5, D3–5",
     pos56: "A5–5, C5–5, D5–5"
+  ,
+    outcomes: [
+      { code: "C–5", look: "The chute stays round; nobody lets go to chase." },
+      { code: "A–3", look: "Matches force with the group." }
+    ]
   },
   "Helicopter / Snake rope": {
     numbers: "Whole class · 4–5 min · one long rope.",
@@ -1043,6 +1368,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–13, A1–1, D1–5",
     pos34: "A3–13, A3–1, D3–5",
     pos56: "A5–13, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–13", look: "Jumps or steps the rope; quiet land." },
+      { code: "D–5", look: "Rope stays low; no whipping." }
+    ]
   },
   "Switch": {
     numbers: "Whole class · 4 min · spots or hoops.",
@@ -1058,6 +1388,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Finds a group or a spot without diving." },
+      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+    ]
   },
   "Rikki Tikki": {
     numbers: "Pairs · 3–4 min.",
@@ -1073,6 +1408,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–3", look: "Matches the called body parts." },
+      { code: "C–3", look: "A student may show space instead of a touch." }
+    ]
   },
   "Buffalo": {
     numbers: "Whole class · 5–6 min.",
@@ -1088,6 +1428,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "The chain splits before it gets unsafe." },
+      { code: "C–5", look: "Holds on without yanking." }
+    ]
   },
   "Invent-a-game": {
     numbers: "Groups of 4 · 15–20 min across a lesson.",
@@ -1115,6 +1460,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–11, C1–3",
     pos34: "A3–11, C3–3",
     pos56: "A5–11, C5–4, C5–3"
+  ,
+    outcomes: [
+      { code: "A–11", look: "Can say start, score, and safety." },
+      { code: "C–4", look: "Teaches those three things in a short turn." }
+    ]
   },
   "Around the Bases Relay": {
     numbers: "Teams of 4–5 · 6 min · four hoops.",
@@ -1130,6 +1480,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–13, A1–11, D1–5",
     pos34: "A3–5, A3–13, A3–11, D3–5",
     pos56: "A5–5, A5–13, A5–11, D5–5"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Waits behind the line for the tag." },
+      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+    ]
   },
   "Attention Relay": {
     numbers: "Teams of 4 · 5 min.",
@@ -1145,6 +1500,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–13, C1–5",
     pos34: "A3–1, A3–13, C3–5",
     pos56: "A5–1, A5–13, C5–5, D5–2"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Waits behind the line for the tag." },
+      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+    ]
   },
   "Back to Base": {
     numbers: "Whole class · 2 min as a closer.",
@@ -1160,6 +1520,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–13, A1–11, D1–5",
     pos34: "A3–5, A3–13, A3–11, D3–5",
     pos56: "A5–5, A5–13, A5–11, D5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Returns to the home hoop on the whistle." },
+      { code: "C–5", look: "Last group leads a stretch — not out." }
+    ]
   },
   "Barkball": {
     numbers: "Two teams · 6–8 min · foam ball.",
@@ -1175,6 +1540,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "C–1", look: "Calls a name before the catch." },
+      { code: "A–5", look: "3-second hold, then pass." }
+    ]
   },
   "Body-part beanbags": {
     numbers: "Whole class · 4–5 min · one beanbag each.",
@@ -1190,6 +1560,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–10, D1–5",
     pos34: "A3–5, A3–10, D3–5",
     pos56: "A5–5, A5–10, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Matches the send to the object." },
+      { code: "D–3", look: "Moves on the call, not before." }
+    ]
   },
   "Booger Ball": {
     numbers: "Two teams · 6 min · sticky-name foam send.",
@@ -1205,6 +1580,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "C–1", look: "Calls a name before the catch." },
+      { code: "A–5", look: "3-second hold, then pass." }
+    ]
   },
   "Bucket Ball": {
     numbers: "2–4 teams · 6 min · buckets or hoops + foam.",
@@ -1220,6 +1600,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–10, D1–5",
     pos34: "A3–5, A3–10, D3–5",
     pos56: "A5–5, A5–10, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
+      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+    ]
   },
   "Bug Tag / Dead Ant": {
     numbers: "Whole class · 5 min · 3–4 taggers.",
@@ -1235,6 +1620,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Soft tag; the tagged player has a way back in." },
+      { code: "C–5", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
+    ]
   },
   "Buzz Off / hoop free zones": {
     numbers: "Whole class · 5 min · hoops as hives.",
@@ -1250,6 +1640,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Leaves the hoop after a count of 5." },
+      { code: "D–5", look: "No camping on a hive." }
+    ]
   },
   "Card Sharks": {
     numbers: "Whole class · 6 min · a deck of cards or colour cards.",
@@ -1265,6 +1660,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Crosses on the call, not after a wait." },
+      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+    ]
   },
   "Chicken Checkers": {
     numbers: "Two teams · 6 min · rubber chickens or beanbags + a grid of hoops.",
@@ -1280,6 +1680,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, C1–5, A1–11",
     pos34: "A3–10, C3–5, A3–11",
     pos56: "A5–10, C5–5, A5–11"
+  ,
+    outcomes: [
+      { code: "A–11", look: "One object per trip." },
+      { code: "A–10", look: "No sliding a piece into a person." }
+    ]
   },
   "Chuck the Chicken": {
     numbers: "Two teams · 8 min · one rubber chicken or foam toy.",
@@ -1295,6 +1700,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–13, A1–11, D1–5",
     pos34: "A3–5, A3–13, A3–11, D3–5",
     pos56: "A5–5, A5–13, A5–11, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Everyone gets a throw or kick." },
+      { code: "A–11", look: "Fielding team passes to stop the count." }
+    ]
   },
   "Clothespin Tag": {
     numbers: "Whole class · 5 min · 2–3 pins per waistband.",
@@ -1310,6 +1720,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–5", look: "Two fingers on the tail or pin, not on clothes." },
+      { code: "A–10", look: "Hands the pin or tail back." }
+    ]
   },
   "Cone Relay": {
     numbers: "Teams of 4 · 5 min · a stack of cones.",
@@ -1325,6 +1740,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–13, C1–5",
     pos34: "A3–1, A3–13, C3–5",
     pos56: "A5–1, A5–13, C5–5, D5–2"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Waits behind the line for the tag." },
+      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+    ]
   },
   "Dash for Safety": {
     numbers: "Whole class · 5 min · colour hoops.",
@@ -1340,6 +1760,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Crosses on the call, not after a wait." },
+      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+    ]
   },
   "Daytime / Nighttime": {
     numbers: "Whole class · 4 min.",
@@ -1355,6 +1780,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Elves, Giants, Wizards": {
     numbers: "Two teams · 5–6 min · a centre line and two homes.",
@@ -1371,6 +1801,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Moves only when their name or shape wins." },
+      { code: "A–10", look: "Tagged player re-enters or switches — nobody sits out." }
+    ]
   },
   "European Rhythmic Running": {
     numbers: "Whole class · 4–6 min.",
@@ -1386,6 +1821,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–8, A1–9, A1–1",
     pos34: "A3–8, A3–9, A3–1",
     pos56: "A5–8, A5–9, A5–1"
+  ,
+    outcomes: [
+      { code: "A–13", look: "Jumps or steps the rope; quiet land." },
+      { code: "D–5", look: "Rope stays low; no whipping." }
+    ]
   },
   "FLY BACK": {
     numbers: "Whole class or two teams · 6 min · foam ball or beanbag.",
@@ -1401,6 +1841,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–11, C1–5",
     pos34: "A3–5, A3–11, C3–5",
     pos56: "A5–5, A5–11, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Catch, then throw — call it." },
+      { code: "C–1", look: "Uses a name or ‘mine’ before the send." }
+    ]
   },
   "Human Bop-It": {
     numbers: "Whole class · 4 min.",
@@ -1416,6 +1861,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–8, A1–9, A1–1",
     pos34: "A3–8, A3–9, A3–1",
     pos56: "A5–8, A5–9, A5–1"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Hungry Snake": {
     numbers: "One snake of 4–6 · 5 min.",
@@ -1431,6 +1881,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–13, A1–1, D1–5",
     pos34: "A3–13, A3–1, D3–5",
     pos56: "A5–13, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "The chain splits before it gets unsafe." },
+      { code: "C–5", look: "Holds on without yanking." }
+    ]
   },
   "Jungle Run Relays": {
     numbers: "Teams of 4 · 6 min · cones, a hoop, a jump.",
@@ -1446,6 +1901,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–13, C1–5",
     pos34: "A3–1, A3–13, C3–5",
     pos56: "A5–1, A5–13, C5–5, D5–2"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Waits behind the line for the tag." },
+      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+    ]
   },
   "Laps and Lines / Signals": {
     numbers: "Whole class · 5 min.",
@@ -1461,6 +1921,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Magic Numbers": {
     numbers: "Whole class · 4 min.",
@@ -1476,6 +1941,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, C1–5, A1–11",
     pos34: "A3–10, C3–5, A3–11",
     pos56: "A5–10, C5–5, A5–11"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Finds a group or a spot without diving." },
+      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+    ]
   },
   "Mass Challenges": {
     numbers: "Whole class · 6–8 min.",
@@ -1491,6 +1961,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, C1–5, A1–11",
     pos34: "A3–10, C3–5, A3–11",
     pos56: "A5–10, C5–5, A5–11"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Finds a group or a spot without diving." },
+      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+    ]
   },
   "Memory Relay": {
     numbers: "Teams of 4 · 6 min · a card or object sequence.",
@@ -1506,6 +1981,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–13, C1–5",
     pos34: "A3–1, A3–13, C3–5",
     pos56: "A5–1, A5–13, C5–5, D5–2"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Waits behind the line for the tag." },
+      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+    ]
   },
   "Object Toss mixer": {
     numbers: "Whole class · 5 min · mixed foam objects.",
@@ -1521,6 +2001,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, A1–10, D1–5",
     pos34: "A3–5, A3–10, D3–5",
     pos56: "A5–5, A5–10, D5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Matches the send to the object." },
+      { code: "D–3", look: "Moves on the call, not before." }
+    ]
   },
   "Pip, Squeak and Wilbur": {
     numbers: "Whole class in a circle or three teams · 5 min.",
@@ -1536,6 +2021,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Matches the send to the object." },
+      { code: "D–3", look: "Moves on the call, not before." }
+    ]
   },
   "RPS Rounders": {
     numbers: "Pairs, then grow · 6 min.",
@@ -1551,6 +2041,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–1, D1–5, C1–5",
     pos34: "A3–10, A3–1, D3–5, C3–5",
     pos56: "A5–10, A5–1, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–11", look: "One throw and go — no long stalls." },
+      { code: "C–3", look: "Loser does a skill and finds a new game." }
+    ]
   },
   "Rescue Relay": {
     numbers: "Teams of 4–5 · 6 min.",
@@ -1566,6 +2061,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–13, C1–5",
     pos34: "A3–1, A3–13, C3–5",
     pos56: "A5–1, A5–13, C5–5, D5–2"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Waits behind the line for the tag." },
+      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+    ]
   },
   "Robin’s Nest": {
     numbers: "4 teams · 6 min · balls in a centre nest.",
@@ -1581,6 +2081,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, A1–11, D1–5, C1–5",
     pos34: "A3–10, A3–11, D3–5, C3–5",
     pos56: "A5–10, A5–11, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
+      { code: "A–11", look: "One ball at a time; looks before sending." }
+    ]
   },
   "Rubber Band": {
     numbers: "Whole class · 4–5 min · a long rope or elastic, or just a circle of hands.",
@@ -1596,6 +2101,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, C1–5, A1–11",
     pos34: "A3–10, C3–5, A3–11",
     pos56: "A5–10, C5–5, A5–11"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Finds a group or a spot without diving." },
+      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+    ]
   },
   "Sharks and Dolphins (chute)": {
     numbers: "Whole class · 5 min · parachute.",
@@ -1611,6 +2121,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–5, C1–5, D1–5",
     pos34: "A3–5, C3–5, D3–5",
     pos56: "A5–5, C5–5, D5–5"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Crosses on the call, not after a wait." },
+      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+    ]
   },
   "Signals / shapes": {
     numbers: "Whole class · 4 min.",
@@ -1626,6 +2141,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–12, A1–3, A1–1, D1–5",
     pos34: "A3–12, A3–3, A3–1, D3–5",
     pos56: "A5–12, A5–3, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Silly Bananas": {
     numbers: "Whole class · 3–4 min.",
@@ -1641,6 +2161,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–8, A1–9, A1–1",
     pos34: "A3–8, A3–9, A3–1",
     pos56: "A5–8, A5–9, A5–1"
+  ,
+    outcomes: [
+      { code: "A–8", look: "Matches the beat or the leader." },
+      { code: "A–3", look: "Still on the freeze." }
+    ]
   },
   "Slap Rover": {
     numbers: "Whole class · 5 min · two end lines.",
@@ -1656,6 +2181,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Crosses on the call, not after a wait." },
+      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+    ]
   },
   "Slippery Snakes": {
     numbers: "Whole class · 4 min · 2–3 long ropes.",
@@ -1671,6 +2201,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–13, A1–1, D1–5",
     pos34: "A3–13, A3–1, D3–5",
     pos56: "A5–13, A5–1, D5–5"
+  ,
+    outcomes: [
+      { code: "A–13", look: "Jumps or steps the rope; quiet land." },
+      { code: "D–5", look: "Rope stays low; no whipping." }
+    ]
   },
   "Speed Run Relay": {
     numbers: "Many teams of 3–4 · 5 min.",
@@ -1686,6 +2221,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–13, C1–5",
     pos34: "A3–1, A3–13, C3–5",
     pos56: "A5–1, A5–13, C5–5, D5–2"
+  ,
+    outcomes: [
+      { code: "A–1", look: "Waits behind the line for the tag." },
+      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+    ]
   },
   "Squirrel’s Tail": {
     numbers: "Pairs or whole class · 5 min · pinnies as tails.",
@@ -1701,6 +2241,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–5", look: "Two fingers on the tail or pin, not on clothes." },
+      { code: "A–10", look: "Hands the pin or tail back." }
+    ]
   },
   "Stones": {
     numbers: "Whole class · 5 min · poly spots or beanbags as stones.",
@@ -1716,6 +2261,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–10, C1–5, A1–11",
     pos34: "A3–10, C3–5, A3–11",
     pos56: "A5–10, C5–5, A5–11"
+  ,
+    outcomes: [
+      { code: "A–11", look: "One object per trip." },
+      { code: "A–10", look: "No sliding a piece into a person." }
+    ]
   },
   "Survivor Tag": {
     numbers: "Whole class · 5 min · 2–3 taggers.",
@@ -1731,6 +2281,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "A tag is a short skill, then back in." },
+      { code: "D–5", look: "Soft tag." }
+    ]
   },
   "Team Tag": {
     numbers: "Two colours · 5 min.",
@@ -1746,6 +2301,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "A tag is a short skill, then back in." },
+      { code: "D–5", look: "Soft tag." }
+    ]
   },
   "Thunderball": {
     numbers: "Whole class · 6 min · 3–6 foam balls.",
@@ -1761,6 +2321,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "D–5", look: "Hits stay low; a hit is a stretch, then back in." },
+      { code: "A–5", look: "Foam only." }
+    ]
   },
   "Tripod Tag": {
     numbers: "Whole class · 5 min.",
@@ -1776,6 +2341,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "A tag is a short skill, then back in." },
+      { code: "D–5", look: "Soft tag." }
+    ]
   },
   "Video Game": {
     numbers: "Whole class · 5 min.",
@@ -1791,6 +2361,11 @@ window.GAME_EXTRAS = {
     pos12: "A1–8, A1–9, A1–1",
     pos34: "A3–8, A3–9, A3–1",
     pos56: "A5–8, A5–9, A5–1"
+  ,
+    outcomes: [
+      { code: "D–3", look: "Changes movement on the first signal." },
+      { code: "A–1", look: "Shows the named locomotor or shape." }
+    ]
   },
   "Waspital": {
     numbers: "Whole class · 4–6 min · everyone is it.",
@@ -1806,5 +2381,10 @@ window.GAME_EXTRAS = {
     pos12: "A1–1, A1–10, D1–5, C1–5",
     pos34: "A3–1, A3–10, D3–5, C3–5",
     pos56: "A5–1, A5–10, D5–5, C5–5"
+  ,
+    outcomes: [
+      { code: "A–10", look: "Soft tag; the tagged player has a way back in." },
+      { code: "C–5", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
+    ]
   }
 };
