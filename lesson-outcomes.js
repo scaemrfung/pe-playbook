@@ -410,26 +410,26 @@ window.LESSON_OUTCOMES = {
   },
   "January-3-1": {
     items: [
-    { code: "Movement · tactics", look: "Invented tag has a re-entry, not elimination." },
-    { code: "Character", look: "Can say the start rule in one sentence." }
+    { code: "Movement · send, receive, retain", look: "Finger-pads on the ball; eyes on a wall mark." },
+    { code: "Safety", look: "Dribbles in a lane; does not slap at other balls." }
     ]
   },
   "January-3-2": {
     items: [
-    { code: "Movement · tactics", look: "Invented send game has start, score, and safety." },
-    { code: "Character", look: "The group can teach those three things." }
+    { code: "Movement · send, receive, retain", look: "Steps to the target on a chest or bounce pass." },
+    { code: "Movement · tactics", look: "Looks for a teammate before a score." }
     ]
   },
   "January-3-3": {
     items: [
-    { code: "Movement · tactics", look: "Notices what one rule change does." },
-    { code: "Movement · fair play and teamwork", look: "Change makes play fairer or more active." }
+    { code: "Safety", look: "Blade stays on the floor; no slapshots." },
+    { code: "Movement · send, receive, retain", look: "Push-pass to a partner or gate." }
     ]
   },
   "January-3-4": {
     items: [
-    { code: "Character", look: "Teaches a game in a short, clear way." },
-    { code: "Healthy Relationships", look: "Listens to one piece of feedback." }
+    { code: "Movement · tactics", look: "Pass, then move; no running with the ball." },
+    { code: "Movement · fair play and teamwork", look: "Everyone touches the ball before a score if that is the rule." }
     ]
   },
   "January-4-1": {
@@ -446,14 +446,14 @@ window.LESSON_OUTCOMES = {
   },
   "January-4-3": {
     items: [
-    { code: "Character", look: "Stays on task at a station." },
-    { code: "Movement · fair play and teamwork", look: "Helps a neighbour." }
+    { code: "Movement · send, receive, retain", look: "Works a dribble, pass, or hockey station." },
+    { code: "Character", look: "Stays on a station when the teacher is elsewhere." }
     ]
   },
   "January-4-4": {
     items: [
-    { code: "Movement · fair play and teamwork", look: "Cheers more than one team." },
-    { code: "Active Living", look: "Plays the festival game to the whistle." }
+    { code: "Active Living", look: "Completes the private fitness update." },
+    { code: "Movement · fair play and teamwork", look: "Joins the voted game to the whistle." }
     ]
   },
   "February-1-1": {
