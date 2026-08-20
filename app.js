@@ -3,6 +3,11 @@
   if (!PE) return;
   const { months, MONTH_GAMES, GLANCE } = PE;
   const UNIT = window.UNIT_OUTCOMES || {};
+  const K2M = window.K2_MONTH_GAMES || {};
+  const G36M = window.G36_MONTH_GAMES || {};
+  function monthBank(name) {
+    return [].concat(MONTH_GAMES[name] || [], K2M[name] || [], G36M[name] || []);
+  }
 
   function outcomesBlock(name) {
     const u = UNIT[name];
@@ -39,7 +44,7 @@
     const grid = document.getElementById("months");
     grid.innerHTML = months.map((m) => {
       const n = m.lessons.length;
-      const g = (MONTH_GAMES[m.name] || []).length;
+      const g = monthBank(m.name).length;
       return `<a class="card" href="month.html?m=${encodeURIComponent(m.name)}">
         <h2>${m.name}</h2>
         <p>${m.guide}</p>
@@ -56,7 +61,7 @@
       return;
     }
     document.title = m.name + " · PE Playbook";
-    const bank = MONTH_GAMES[m.name] || [];
+    const bank = monthBank(m.name);
     const nav = months.map((x) =>
       `<a href="month.html?m=${encodeURIComponent(x.name)}" class="${x.name === m.name ? "active" : ""}">${x.name.slice(0, 3)}</a>`
     ).join("");
@@ -117,7 +122,7 @@
   if (page === "games") {
     const q = document.getElementById("q");
     const box = document.getElementById("list");
-    const details = window.GAME_DETAILS || [];
+    const details = [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || []);
     function gslug(name) {
       return name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
     }
@@ -144,7 +149,14 @@
           </div>
           <p class="note"><strong>Safety.</strong> ${g.safety}</p>
         </article>`).join("");
-      box.innerHTML = cards || "<p>No matches.</p>";
+      const ps = window.PAIR_STATIONS;
+      let stations = "";
+      if (ps && !term) {
+        stations = `<div class="panel" id="pair-stations"><h2>${ps.title}</h2><p>${ps.intro}</p>` +
+          ps.groups.map((g) => `<h3>${g.name}</h3><table class="games"><thead><tr><th>Station</th><th>How we run it (60–90 s)</th></tr></thead><tbody>${g.items.map((i) => `<tr><td><strong>${i[0]}</strong></td><td>${i[1]}</td></tr>`).join("")}</tbody></table>`).join("") +
+          "</div>";
+      }
+      box.innerHTML = (cards || "<p>No matches.</p>") + stations;
     }
     q.addEventListener("input", render);
     render();
@@ -152,5 +164,37 @@
       const target = document.querySelector(location.hash);
       if (target) target.scrollIntoView();
     }
+  }
+
+  if (page === "indigenous") {
+    const q = document.getElementById("q");
+    const box = document.getElementById("list");
+    const games = window.INDIGENOUS_GAMES || [];
+    function render() {
+      const term = ((q && q.value) || "").toLowerCase();
+      const cards = games.filter((g) => {
+        const hay = [g.name, g.nation, g.purpose, g.when, g.note].join(" ").toLowerCase();
+        return !term || hay.includes(term);
+      }).map((g) => `
+        <article class="gcard">
+          <div class="ghead"><h2>${g.name}</h2></div>
+          <p class="meta"><strong>Nation / origin:</strong> ${g.nation} · <strong>Try in:</strong> ${g.when}</p>
+          <p>${g.purpose}</p>
+          <p class="meta"><strong>Equipment:</strong> ${g.equipment}</p>
+          <p class="meta"><strong>Setup:</strong> ${g.setup}</p>
+          <p><strong>How we play</strong></p>
+          <ol class="clean">${g.play.map((s) => `<li>${s}</li>`).join("")}</ol>
+          <div class="bands-block">
+            <div><strong>1–2:</strong> ${g.g12}</div>
+            <div><strong>3–4:</strong> ${g.g34}</div>
+            <div><strong>5–6:</strong> ${g.g56}</div>
+          </div>
+          <p class="meta"><strong>Safety:</strong> ${g.safety}</p>
+          <p class="note">${g.note}</p>
+        </article>`).join("");
+      box.innerHTML = cards || "<p>No matches.</p>";
+    }
+    if (q) q.addEventListener("input", render);
+    render();
   }
 })();

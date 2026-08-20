@@ -16,11 +16,17 @@ Monthly themes follow a school yearly PE plan for Grades 1–6.
    - `month.html`
    - `games.html`
    - `how.html`
+   - `rubric.html`
+   - `indigenous.html`
+   - `gymnastics.html`
+   - `indigenous-data.js`
    - `styles.css`
    - `data.js`
    - `app.js`
    - `games-data.js`
    - `outcomes-data.js`
+   - `k2-games.js`
+   - `g36-games.js`
    - `README.md`
 8. Click **Commit changes**.
 9. Open the repo **Settings** tab → **Pages** (left sidebar).
