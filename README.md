@@ -17,6 +17,8 @@ Monthly themes follow a school yearly PE plan for Grades 1–6.
    - `games.html`
    - `how.html`
    - `gymnastics.html`
+   - `videos.html`
+   - `youtube-data.js`
    - `styles.css`
    - `data.js`
    - `app.js`
