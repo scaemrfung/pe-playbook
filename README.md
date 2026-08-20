@@ -20,6 +20,7 @@ Monthly themes follow a school yearly PE plan for Grades 1–6.
    - `data.js`
    - `app.js`
    - `games-data.js`
+   - `outcomes-data.js`
    - `README.md`
 8. Click **Commit changes**.
 9. Open the repo **Settings** tab → **Pages** (left sidebar).

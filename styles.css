@@ -179,6 +179,14 @@ footer.site {
   font-size: .9rem;
 }
 .bands-block div { margin: 0 0 4px; }
+.out-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 12px 0 16px;
+}
+.out-grid h3 { margin: 0 0 6px; color: var(--green); font-size: 1rem; }
+.panel.outcomes h3 { color: var(--navy); }
 @media (max-width: 700px) {
   .clock { grid-template-columns: 1fr 1fr; }
   .row { grid-template-columns: 72px 1fr; }
