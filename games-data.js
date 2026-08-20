@@ -309,8 +309,8 @@ window.GAME_DETAILS = [
 {
   name: "Bucket Ball", source: "", months: ["November"],
   purpose: "Pass-only score: a teammate on a bench catches into a bucket.",
-  equipment: "Foam ball, 2 benches or mats, a bucket or crate, pinnies.",
-  setup: "Two halves. Each team has a catcher on a bench behind a bucket.",
+  equipment: "Foam ball, 2 hoops or mats, a bucket or crate, pinnies.",
+  setup: "Two halves. Each team has a catcher in a hoop behind a bucket.",
   play: [
     "The ball-carrier is frozen and must pass within 5 seconds.",
     "No grabbing the ball from another player.",
@@ -319,7 +319,7 @@ window.GAME_DETAILS = [
   g12: "Walking. Teacher is the first catcher.",
   g34: "Standard 5-on-ish.",
   g56: "Bonus point for extra passes before the score.",
-  safety: "Catcher stays on the bench. No jumps onto the bench.",
+  safety: "Catcher stays in the hoop zone.",
   slot: "16–25"
 },
 {
@@ -851,8 +851,8 @@ window.GAME_DETAILS = [
 {
   name: "Memory Relay", source: "", months: ["May"],
   purpose: "Peek at a hidden card pattern, then rebuild it at home.",
-  equipment: "Playing cards, a bench on its side as a screen.",
-  setup: "Teacher builds a small card pattern behind the bench. Each team has a matching set at home.",
+  equipment: "Playing cards, a cone wall or stacked hoops as a screen.",
+  setup: "Teacher builds a small card pattern behind the screen. Each team has a matching set at home.",
   play: [
     "One runner at a time peeks, sprints home, and places what they remember.",
     "The next runner peeks and adds or corrects.",
@@ -861,7 +861,7 @@ window.GAME_DETAILS = [
   g12: "Pattern of 3 cards.",
   g34: "5–6 cards.",
   g56: "Two-row pattern.",
-  safety: "One peeker at a time. Walk around the bench.",
+  safety: "One peeker at a time. Walk around the screen.",
   slot: "16–25"
 },
 {

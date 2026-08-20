@@ -114,7 +114,7 @@ window.UNIT_OUTCOMES = {
   },
   January: {
     oi: ["Movement Skill Development", "Safety", "Healthy Relationships", "Active Living"],
-    why: "Cooperative re-entry after the break, indoor playground structures, optional skating, then basketball dribble/pass and floor-hockey safety.",
+    why: "Cooperative re-entry after the break, indoor playground structures, then basketball dribble/pass and floor-hockey safety.",
     g12: [
       "Solve a simple partner task (move an object together).",
       "Follow a playground turn-taking rule (four-square serve, rope wait).",
@@ -137,7 +137,7 @@ window.UNIT_OUTCOMES = {
       { what: "Cooperation", how: "Partner / group challenges", evidence: "Uses helpful words; stays with the assigned pair." },
       { what: "Invasion skills", how: "Dribble, pass, stick safety", evidence: "Head up on a dribble; blade down; no running with the ball." },
       { what: "Inclusion", how: "Observation", evidence: "Offers or accepts a helper job; no public picking." },
-      { what: "Optional skate", how: "If ice time happens", evidence: "Practises a safe fall and two-foot glide or gym substitute." }
+      { what: "Balance", how: "Line walk", evidence: "Walks a floor line and stands up from a side sit without a rush." }
     ]
   },
   February: {
@@ -193,7 +193,7 @@ window.UNIT_OUTCOMES = {
       { what: "Chute timing", how: "Group observation", evidence: "Lifts together; does not pull a neighbour off balance." },
       { what: "Circus skill", how: "Station + act", evidence: "Eyes on the object; still start and still end; drops are reset without blame." },
       { what: "Audience / character", how: "Performance day", evidence: "Watches the act; claps at the end; compliments a still ending." },
-      { what: "Safety", how: "Ongoing", evidence: "Heads up under the chute; no wrapping a person; one-at-a-time on a bench." }
+      { what: "Safety", how: "Ongoing", evidence: "Heads up under the chute; no wrapping a person." }
     ]
   },
   April: {
@@ -208,7 +208,7 @@ window.UNIT_OUTCOMES = {
     g34: [
       "Hold tuck, pike, straddle, and stretch.",
       "Link shape + roll or jump + shape.",
-      "Walk a low bench or tape beam and step off to a stick.",
+      "Walk a tape line and step off to a stick.",
       "Choose a still pair shape they can leave instantly."
     ],
     g56: [
@@ -222,7 +222,7 @@ window.UNIT_OUTCOMES = {
       { what: "Jump / land", how: "Mat task", evidence: "Bend–jump–stick. No uncontrolled landings." },
       { what: "Roll / rock", how: "Mat station", evidence: "Log is long and tight; rock stays on shoulder-blades, not the neck." },
       { what: "Routine / character", how: "Week 4 performance", evidence: "Still ending; kind watching; student may say no to a partner shape." },
-      { what: "Apparatus safety", how: "Ongoing", evidence: "One at a time on a bench; waiting students stay on a mat task." }
+      { what: "Floor safety", how: "Ongoing", evidence: "One student per tape line; waiting students hold a shape." }
     ]
   },
   May: {
