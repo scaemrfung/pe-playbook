@@ -12,7 +12,7 @@ window.VIDEOS = [
     url: "https://youtu.be/HTTu_EPeAbs",
     channel: "The Physical Educator",
     about: "Everyone is it. A tag freezes you; a helper taps your hands to unfreeze. Continuous movement.",
-    games: ["Frozen Tag"]
+    games: ["Frozen Tag", "Everybody’s It", "Everybody's It"]
   },
   {
     title: "Blob Tag",
@@ -40,7 +40,7 @@ window.VIDEOS = [
     url: "https://www.youtube.com/watch?v=oM8EOdX0xXc",
     channel: "Detroit PE",
     about: "Walk, run, skip, hop, and jump on green. Freeze on red. Slow motion on yellow.",
-    games: ["Traffic Lights (kick)", "Land and Sea", "Here, There, Everywhere", "Captain’s Deck / Shipwreck", "Human Bop-It", "Signals / shapes", "Shadow Tag"]
+    games: ["Traffic Lights (kick)", "Land and Sea", "Here, There, Everywhere", "Captain’s Deck / Shipwreck", "Human Bop-It", "Signals / shapes", "Shadow Tag", "Red Light, Green Light", "Simon Says Stay-In"]
   },
   {
     title: "Clean Your Room",
@@ -61,14 +61,14 @@ window.VIDEOS = [
     url: "https://www.youtube.com/watch?v=WIeSjFXoJNs",
     channel: "Newt's PE Games",
     about: "Ultimate-style passing into an end zone. Pivot only. Incomplete or intercept changes possession.",
-    games: ["End Ball", "End Zone Ball", "Captain Ball", "The Perfect Pass"]
+    games: ["End Ball", "End Zone Ball", "Captain Ball", "The Perfect Pass", "End-zone catch"]
   },
   {
     title: "Capture the Flag",
     url: "https://www.youtube.com/watch?v=5h_xjCEHEOs",
     channel: "PhysEdGames",
     about: "Two halves, a flag hoop, and a jail. Steal the flag without a tag. Walk a rescued player home.",
-    games: ["Four Corner Flags", "Capture the Egg"]
+    games: ["Four Corner Flags", "Capture the Egg", "Capture the Flag Classic"]
   },
   {
     title: "4-way Capture the Flag",
@@ -96,28 +96,28 @@ window.VIDEOS = [
     url: "https://www.youtube.com/watch?v=QuInM-as1mg",
     channel: "PE Game Changers",
     about: "One player guards a pin in a hoop. Others roll or throw to knock it. Switch when it falls.",
-    games: ["Skittles", "Skittle Ball", "Protect the Castle"]
+    games: ["Skittles", "Skittle Ball", "Protect the Castle", "Protect the King", "Guard the Cone"]
   },
   {
     title: "4-Corner Dodgeball",
     url: "https://www.youtube.com/watch?v=_QQMwlYbru8",
     channel: "PhysEdGames",
     about: "Four teams, foam balls. A hit sends you to the team that tagged you. We keep everyone moving.",
-    games: ["Poison Ball", "Survivor Dodgeball"]
+    games: ["Poison Ball", "Survivor Dodgeball", "Low-ball"]
   },
   {
     title: "Dribble Knockout",
     url: "https://www.youtube.com/watch?v=pddq9A1vYq4",
     channel: "The PE Specialist",
     about: "Dribble and protect the ball. Knock someone else’s ball away. Five taps and you come back in.",
-    games: ["Dash and Dribble", "Rob the Nest (dribble)"]
+    games: ["Dash and Dribble", "Rob the Nest (dribble)", "Rob the Nest", "Dribble the gates"]
   },
   {
     title: "Floor-hockey knockout",
     url: "https://www.youtube.com/watch?v=ln-DkPNvoUE",
     channel: "Newt's PE Games",
     about: "Stickhandle your puck. Knock others out of the box. Shrink the space as numbers drop. We re-enter after toe-taps.",
-    games: ["Numbers Hockey"]
+    games: ["Numbers Hockey", "Hockey hurdle dribble", "Hockey pin knockdown"]
   },
   {
     title: "Floor-hockey stations",
@@ -145,14 +145,14 @@ window.VIDEOS = [
     url: "https://www.youtube.com/watch?v=1nddWJRgbC4",
     channel: "Mrs. Carly Glanzman",
     about: "Volleyball with a throw and catch over the net. Underhand serve. Lead-up to a bump.",
-    games: ["Balloon Keep-Up"]
+    games: ["Balloon Keep-Up", "Balloon keep-up station"]
   },
   {
     title: "Educational gymnastics — log roll",
     url: "https://www.youtube.com/watch?v=YW4oWKCjRGo",
     channel: "Dranesville Elementary PE",
     about: "Students show a long, tight log roll down a mat.",
-    games: ["April gymnastics"]
+    games: ["April gymnastics", "Floor rope walk", "Log roll"]
   },
   {
     title: "Pencil, log, egg, rock",

@@ -1,8 +1,11 @@
 (function () {
   function videoHtml(name) {
-    const v = (window.YOUTUBE || {})[name];
-    if (!v) return "";
-    return `<p class="yt"><a href="${v.url}" target="_blank" rel="noopener">Watch: ${v.title}</a>${v.note ? ` <span class="meta">${v.note}</span>` : ""}</p>`;
+    const clips = window.VIDEOS || [];
+    if (!name) return "";
+    const hit = clips.filter((v) => (v.games || []).some((g) => g.toLowerCase() === String(name).toLowerCase()));
+    if (!hit.length) return "";
+    return `<p class="yt"><strong>Video.</strong> ${hit.map((v) => `<a href="${v.url}" target="_blank" rel="noopener">${v.title}</a> <span class="meta">(${v.channel})</span>`).join(" · ")}</p>
+      <p class="meta">Clips are demos. Our house rules still apply (no elimination, soft tag; foam balls only for dodgeball).</p>`;
   }
 
   const page = document.body && document.body.dataset.page;
@@ -247,7 +250,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
           <ol class="clean">${g.play.map((s) => `<li>${s}</li>`).join("")}${more}</ol>
           ${cues ? `<p><strong>Cues</strong></p><ul class="clean">${cues}</ul>` : ""}
           ${vars ? `<p><strong>Variations</strong></p><ul class="clean">${vars}</ul>` : ""}
-          ${x.look ? `<p class="note"><strong>Look-for.</strong> ${x.look}</p>` : ""}
+          ${videoHtml(g.name)}${x.look ? `<p class="note"><strong>Look-for.</strong> ${x.look}</p>` : ""}
           ${x.outcomes ? `<p><strong>Outcomes</strong></p><ul class="clean">${x.outcomes.map((it) => `<li><strong>${it.code}.</strong> ${it.look}</li>`).join("")}</ul>` : ""}
           <div class="bands-block">
             <div><strong>Grades 1–2.</strong> ${g.g12}</div>
