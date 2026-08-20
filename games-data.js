@@ -1,6 +1,6 @@
 window.GAME_DETAILS = [
 {
-  name: "Hospital Tag", source: "SF / GA", months: ["September","January"],
+  name: "Hospital Tag", source: "", months: ["September","January"],
   purpose: "Fast warm-up. Everyone tags; nobody sits out for long.",
   equipment: "None required. Optional pinnies.",
   setup: "Gym boundaries. Teach a two-hand tag on the shoulder or back only.",
@@ -17,7 +17,7 @@ window.GAME_DETAILS = [
   slot: "0–5 warm-up"
 },
 {
-  name: "Hot Dog Tag", source: "SF / GA", months: ["September","January"],
+  name: "Hot Dog Tag", source: "", months: ["September","January"],
   purpose: "Cooperative unfreeze. Practise asking for help.",
   equipment: "2–4 pinnies or foam noodles for taggers.",
   setup: "Choose 2–4 taggers. Teach the freeze pose: standing still, calling for a bun.",
@@ -34,7 +34,7 @@ window.GAME_DETAILS = [
   slot: "0–5 or 16–25"
 },
 {
-  name: "Line Tag / Pac-Man", source: "SF / GA", months: ["September","May"],
+  name: "Line Tag / Pac-Man", source: "", months: ["September","May"],
   purpose: "Run on lines. Practice pathways and change of speed.",
   equipment: "1–2 pinnies or a foam ball to mark taggers.",
   setup: "Use painted gym lines. Show legal paths. No jumping to a new line.",
@@ -50,7 +50,7 @@ window.GAME_DETAILS = [
   slot: "16–25 run-skill game"
 },
 {
-  name: "Sharks and Dolphins", source: "SF", months: ["September","February","March"],
+  name: "Sharks and Dolphins", source: "", months: ["September","February","March"],
   purpose: "Flee to a safe island. Shrink space each round.",
   equipment: "8–12 hoops (islands). 1–2 pinnies for sharks.",
   setup: "Scatter hoops. Start with one shark. Dolphins start on islands.",
@@ -67,7 +67,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Captain’s Deck / Shipwreck", source: "GA", months: ["September","December"],
+  name: "Captain’s Deck / Shipwreck", source: "", months: ["September","December"],
   purpose: "Listen under movement. Change locomotor skills on a command.",
   equipment: "None. Optional drum.",
   setup: "Name the four walls: bow, stern, port, starboard. Practise each once.",
@@ -83,7 +83,7 @@ window.GAME_DETAILS = [
   slot: "0–5 or 16–25"
 },
 {
-  name: "Switch", source: "SF", months: ["September","February","April"],
+  name: "Switch", source: "", months: ["September","February","April"],
   purpose: "Steal a corner on a signal. Fast feet, no contact.",
   equipment: "4 cones, hoops, or mats as corners. Optional centre pylon.",
   setup: "Groups of 5: one player in the middle, four on corners.",
@@ -100,7 +100,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Rikki Tikki", source: "SF", months: ["September"],
+  name: "Rikki Tikki", source: "", months: ["September"],
   purpose: "Partner reaction and body-part awareness.",
   equipment: "None.",
   setup: "Pairs. A centre line. Teacher has a list of body parts.",
@@ -115,7 +115,7 @@ window.GAME_DETAILS = [
   slot: "0–5"
 },
 {
-  name: "Frozen Tag", source: "SF / GA", months: ["September"],
+  name: "Frozen Tag", source: "", months: ["September"],
   purpose: "Classic freeze-and-free. Practise asking a teammate for help.",
   equipment: "2–3 pinnies.",
   setup: "Choose 2–3 taggers.",
@@ -131,7 +131,7 @@ window.GAME_DETAILS = [
   slot: "0–5"
 },
 {
-  name: "Buffalo", source: "SF", months: ["September","May"],
+  name: "Buffalo", source: "", months: ["September","May"],
   purpose: "Paired jogging intervals with a meet-up.",
   equipment: "Music. Cones to mark an inside and outside track.",
   setup: "Pairs. One partner on the inside loop, one on the outside, facing opposite ways.",
@@ -147,7 +147,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Laps and Lines / Signals", source: "GA", months: ["September"],
+  name: "Laps and Lines / Signals", source: "", months: ["September"],
   purpose: "Instant activity. Change locomotor skill or level on a whistle.",
   equipment: "Whistle or drum.",
   setup: "Show the gym lines and the general-space rule (eyes up, no collisions).",
@@ -162,7 +162,7 @@ window.GAME_DETAILS = [
   slot: "0–5 daily instant activity"
 },
 {
-  name: "Robin’s Nest", source: "SF", months: ["October"],
+  name: "Robin’s Nest", source: "", months: ["October"],
   purpose: "Foot-eye send. Collect three balls in your hoop.",
   equipment: "4 hoops, 12+ foam balls, 4 pinnies.",
   setup: "Four corner hoops (nests). Balls start in the middle. Four teams.",
@@ -178,7 +178,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Wall Soccer", source: "SF", months: ["October"],
+  name: "Wall Soccer", source: "", months: ["October"],
   purpose: "Small-sided kick game. Everyone is either a field player or a moving wall-goalie.",
   equipment: "Foam soccer ball, pinnies, cones.",
   setup: "2–3 field players per team. Everyone else stands along their end wall as a goal.",
@@ -194,7 +194,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Team Tag", source: "SF", months: ["October"],
+  name: "Team Tag", source: "", months: ["October"],
   purpose: "Invasion lead-up. Pass to get close enough to tag.",
   equipment: "1 foam ball, bag of extra pinnies.",
   setup: "3–4 start as the tag team in pinnies.",
@@ -210,7 +210,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Chuck the Chicken", source: "SF", months: ["October","November","June"],
+  name: "Chuck the Chicken", source: "", months: ["October","November","June"],
   purpose: "Throw, then score laps while the other team lines up and passes.",
   equipment: "Rubber chicken or foam ball.",
   setup: "Two teams. One thrower at a time.",
@@ -227,7 +227,7 @@ window.GAME_DETAILS = [
   slot: "16–25 closer"
 },
 {
-  name: "Skittles", source: "SF", months: ["October"],
+  name: "Skittles", source: "", months: ["October"],
   purpose: "Underhand accuracy. Knock the other team’s cone-pins.",
   equipment: "Cones (skittles), foam balls, a marked safe zone.",
   setup: "Two teams. Each has a row of cones behind a throwing line.",
@@ -243,7 +243,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "End Zone Ball", source: "GA", months: ["October"],
+  name: "End Zone Ball", source: "", months: ["October"],
   purpose: "Roll (not throw) to catchers in an end zone. Intercept.",
   equipment: "4–8 foam balls, pinnies, optional mats as obstacles.",
   setup: "Two halves. Each team names 2–3 end-zone catchers who stay in their end.",
@@ -259,7 +259,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Card Sharks", source: "SF", months: ["October","May"],
+  name: "Card Sharks", source: "", months: ["October","May"],
   purpose: "Underhand accuracy relay. Collect cards by hitting a hoop.",
   equipment: "Hoops, decks of cards, beanbags.",
   setup: "Relay teams behind a line. Cards and hoops scattered in the far space.",
@@ -275,7 +275,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Booger Ball", source: "SF", months: ["October"],
+  name: "Booger Ball", source: "", months: ["October"],
   purpose: "Grade 5–6 invasion. Tag the ball-carrier; they must pass.",
   equipment: "1 foam ball, pinnies, a net and/or hoop.",
   setup: "Two teams. Mark a crease in front of each goal.",
@@ -287,11 +287,11 @@ window.GAME_DETAILS = [
   g12: "Skip this game. Use End Zone Ball instead.",
   g34: "Walking version, hoop only.",
   g56: "Full game. 5-second hold.",
-  safety: "Division II–IV as written. Soft tag only.",
+  safety: "Soft tag only.",
   slot: "16–25"
 },
 {
-  name: "FLY BACK", source: "SF", months: ["November"],
+  name: "FLY BACK", source: "", months: ["November"],
   purpose: "Throw and catch under a little pressure. Retrieve an object and send it home.",
   equipment: "Foam discs or balls, cones, pinnies.",
   setup: "Two teams. A far safe zone holds the discs. A home catching area for each team.",
@@ -307,7 +307,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Bucket Ball", source: "SF", months: ["November"],
+  name: "Bucket Ball", source: "", months: ["November"],
   purpose: "Pass-only score: a teammate on a bench catches into a bucket.",
   equipment: "Foam ball, 2 benches or mats, a bucket or crate, pinnies.",
   setup: "Two halves. Each team has a catcher on a bench behind a bucket.",
@@ -323,7 +323,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Continuous Kick Ball", source: "SF", months: ["November","June"],
+  name: "Continuous Kick Ball", source: "", months: ["November","June"],
   purpose: "Kickball cousin. Many runners. Play stops when a named partner replaces the ball on a cone.",
   equipment: "Foam ball, saucer cone, bases or hoops.",
   setup: "Two teams. Each kicker has a partner on the fielding team. Ball starts on a cone.",
@@ -340,7 +340,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Beat Ball / Beat the Ball", source: "GA", months: ["November","June"],
+  name: "Beat Ball / Beat the Ball", source: "", months: ["November","June"],
   purpose: "Hit or kick, then race the ball around the horn.",
   equipment: "Playground or foam ball, 4 bases.",
   setup: "Diamond. One batter at a time. Fielders at each base.",
@@ -356,7 +356,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Thunderball", source: "GA", months: ["November","June"],
+  name: "Thunderball", source: "", months: ["November","June"],
   purpose: "Hit or kick through rows of cones for 1–2–3 points.",
   equipment: "Wiffle or foam ball, bat or kick, 30 cones in 3 rows.",
   setup: "Three rows of cones across the gym. Hitting team on one end. Defence in the lanes.",
@@ -372,7 +372,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Clothespin Tag", source: "SF", months: ["November"],
+  name: "Clothespin Tag", source: "", months: ["November"],
   purpose: "Steal one pin at a time. Built-in rest when you kneel to clip.",
   equipment: "3–4 clothespins per student.",
   setup: "Clip pins on the back of shirts. Long hair tucked or pins placed lower.",
@@ -388,7 +388,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "European Rhythmic Running", source: "GA", months: ["December"],
+  name: "European Rhythmic Running", source: "", months: ["December"],
   purpose: "Match locomotor changes to a steady beat.",
   equipment: "Drum, tambourine, or chanted 8-count.",
   setup: "Scatter in general space. Practise a walk on the beat.",
@@ -404,7 +404,7 @@ window.GAME_DETAILS = [
   slot: "0–5 or 16–25"
 },
 {
-  name: "Human Bop-It", source: "GA", months: ["December"],
+  name: "Human Bop-It", source: "", months: ["December"],
   purpose: "React to a spoken action on the beat.",
   equipment: "None. Optional music.",
   setup: "Scatter. Teach the five actions: kick it, twist it, spin it, pull it, bop it.",
@@ -419,7 +419,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Video Game", source: "GA", months: ["December"],
+  name: "Video Game", source: "", months: ["December"],
   purpose: "Creative movement using media cues.",
   equipment: "None.",
   setup: "Teach play, rewind, fast-forward, pause, eject, slow-motion.",
@@ -434,7 +434,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Slap Rover", source: "SF", months: ["December"],
+  name: "Slap Rover", source: "", months: ["December"],
   purpose: "Call a name, choose with a hand-slap, chase back to the line. Style walking on the way over.",
   equipment: "Cones for two team lines.",
   setup: "Two teams on opposite lines.",
@@ -451,7 +451,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Mass Challenges", source: "GA", months: ["December"],
+  name: "Mass Challenges", source: "", months: ["December"],
   purpose: "Whole class does the same short sequence together.",
   equipment: "None.",
   setup: "Scatter with space.",
@@ -467,7 +467,7 @@ window.GAME_DETAILS = [
   slot: "0–5"
 },
 {
-  name: "Magic Numbers", source: "GA", months: ["December","April"],
+  name: "Magic Numbers", source: "", months: ["December","April"],
   purpose: "String three movements (10-10-10 or 7-7-7).",
   equipment: "None.",
   setup: "Name three movements that fit the month (travel, jump, shape).",
@@ -482,7 +482,7 @@ window.GAME_DETAILS = [
   slot: "0–5 or fitness"
 },
 {
-  name: "Blob Tag", source: "SF / GA", months: ["January"],
+  name: "Blob Tag", source: "", months: ["January"],
   purpose: "Cooperative chasing. The chain grows, then splits if it gets unsafe.",
   equipment: "Optional pinnies for the starting pair.",
   setup: "Start with one pair linked by hands or elbows.",
@@ -498,7 +498,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Tripod Tag", source: "SF", months: ["January"],
+  name: "Tripod Tag", source: "", months: ["January"],
   purpose: "Small-group roles: three protect, one tags.",
   equipment: "None.",
   setup: "Groups of 4 in their own space. Three join hands. Name one player in the circle as the target.",
@@ -514,7 +514,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Bug Tag / Dead Ant", source: "SF / GA", months: ["January","March"],
+  name: "Bug Tag / Dead Ant", source: "", months: ["January","March"],
   purpose: "Team carry or escort to a hospital hoop.",
   equipment: "2–4 noodles for taggers. Hoops as hospitals.",
   setup: "Scatter hoops. Choose a few taggers.",
@@ -530,7 +530,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Chicken Checkers", source: "SF", months: ["January","February"],
+  name: "Chicken Checkers", source: "", months: ["January","February"],
   purpose: "Tag game with built-in hoop rests and name-saying swaps.",
   equipment: "Many hoops. 2–4 tag pairs.",
   setup: "Scatter hoops. Most students stand in a hoop. A few tag pairs roam.",
@@ -546,7 +546,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Four Corner Flags", source: "SF", months: ["January","May"],
+  name: "Four Corner Flags", source: "", months: ["January","May"],
   purpose: "Four-team steal. Safe in your own quadrant.",
   equipment: "16 beanbags (4 colours), 4 hoops, 4 pinnies colours, cones.",
   setup: "Gym in four quadrants. Each team’s flags start in its hoop.",
@@ -562,7 +562,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Stones", source: "SF", months: ["January"],
+  name: "Stones", source: "", months: ["January"],
   purpose: "Two-team capture. Tagged players are walked home by a teammate.",
   equipment: "Beanbags (stones), hoops, pinnies.",
   setup: "Two ends. Stones in each home hoop.",
@@ -578,7 +578,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Elves, Giants, Wizards", source: "SF", months: ["January"],
+  name: "Elves, Giants, Wizards", source: "", months: ["January"],
   purpose: "Team rock-paper-scissors then a short chase. No elimination.",
   equipment: "Cones for two team lines and two safe zones.",
   setup: "Two teams on their lines. Teach the three poses and who beats whom: elf beats wizard, wizard beats giant, giant beats elf.",
@@ -594,7 +594,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Rescue Relay", source: "GA", months: ["January"],
+  name: "Rescue Relay", source: "", months: ["January"],
   purpose: "Run across, take a teammate by the hand, bring them home.",
   equipment: "None, or a beanbag to carry.",
   setup: "Relay teams. Half the team on the far line.",
@@ -610,7 +610,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Hungry Snake", source: "GA", months: ["January"],
+  name: "Hungry Snake", source: "", months: ["January"],
   purpose: "Whole team stays linked. The head collects objects and passes them back.",
   equipment: "20–40 beanbags or yarn balls, 2 bags or bins.",
   setup: "Two teams in two lines, each student holding the shirt or shoulders of the person in front. Objects scattered.",
@@ -626,7 +626,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Invent-a-game", source: "plan", months: ["January"],
+  name: "Invent-a-game", source: "", months: ["January"],
   purpose: "Students write three fair rules and teach the class.",
   equipment: "Whatever the group chooses from a teacher-approved pile.",
   setup: "Groups of 4. One clipboard or whiteboard.",
@@ -642,7 +642,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Helicopter / Snake rope", source: "GA", months: ["February"],
+  name: "Helicopter / Snake rope", source: "", months: ["February"],
   purpose: "Jump or step a long rope that travels along the floor.",
   equipment: "One long rope.",
   setup: "Two students sit and swing a rope in a low circle (helicopter) or wiggle it as a snake.",
@@ -658,7 +658,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Buzz Off / hoop free zones", source: "GA", months: ["February"],
+  name: "Buzz Off / hoop free zones", source: "", months: ["February"],
   purpose: "Hoops are rest spots. A new player takes the hoop with a kind phrase.",
   equipment: "Hoops (fewer than students).",
   setup: "Scatter hoops. Music on.",
@@ -673,7 +673,7 @@ window.GAME_DETAILS = [
   slot: "0–5"
 },
 {
-  name: "Rubber Band", source: "GA", months: ["February"],
+  name: "Rubber Band", source: "", months: ["February"],
   purpose: "Travel away from a circle, then sprint back on a second signal.",
   equipment: "A centre circle of spots or a centre cone.",
   setup: "Class stands on a circle facing out.",
@@ -689,7 +689,7 @@ window.GAME_DETAILS = [
   slot: "0–5"
 },
 {
-  name: "Sharks and Dolphins (chute)", source: "SF", months: ["March"],
+  name: "Sharks and Dolphins (chute)", source: "", months: ["March"],
   purpose: "Same island idea, but the parachute shrinks instead of removing hoops.",
   equipment: "Parachute or large sheet.",
   setup: "Class holds the chute. One or two sharks wait off the chute.",
@@ -705,7 +705,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Object Toss mixer", source: "GA", months: ["March"],
+  name: "Object Toss mixer", source: "", months: ["March"],
   purpose: "Say a name, toss a scarf. Add objects until several are in the air.",
   equipment: "Scarves, then beanbags.",
   setup: "One circle, or two if the class is large.",
@@ -721,7 +721,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Pip, Squeak and Wilbur", source: "SF", months: ["March"],
+  name: "Pip, Squeak and Wilbur", source: "", months: ["March"],
   purpose: "Trio relay around a circle to a centre beanbag.",
   equipment: "Beanbags or letter cards in the centre.",
   setup: "Trios in a big circle. Name the three players Pip, Squeak, and Wilbur.",
@@ -737,7 +737,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Mr. Clean", source: "SF", months: ["March"],
+  name: "Mr. Clean", source: "", months: ["March"],
   purpose: "Get rid of your two pins by clipping them on someone else’s back, then check in.",
   equipment: "2 clothespins or tape pieces each, 1 hoop (clean zone).",
   setup: "Give every player two pins. One hoop is the check station.",
@@ -753,7 +753,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Parachute popcorn / dome / cat-and-mouse", source: "plan", months: ["March"],
+  name: "Parachute popcorn / dome / cat-and-mouse", source: "", months: ["March"],
   purpose: "Core chute set: waves, mushroom, and a chase under the silk.",
   equipment: "Parachute or king-size sheet, beanbags.",
   setup: "Everyone has a colour handle. Practise a count of three to lift.",
@@ -770,7 +770,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Signals / shapes", source: "GA", months: ["April"],
+  name: "Signals / shapes", source: "", months: ["April"],
   purpose: "Whistle changes level or gymnastic shape.",
   equipment: "Whistle or drum. Mats if rolling later.",
   setup: "Teach tuck, pike, straddle, stretch.",
@@ -785,7 +785,7 @@ window.GAME_DETAILS = [
   slot: "0–5"
 },
 {
-  name: "Body-part beanbags", source: "GA", months: ["April"],
+  name: "Body-part beanbags", source: "", months: ["April"],
   purpose: "On a signal, a named body part must touch a spot.",
   equipment: "Scattered beanbags or hoops.",
   setup: "Objects around the gym.",
@@ -801,7 +801,7 @@ window.GAME_DETAILS = [
   slot: "0–5"
 },
 {
-  name: "Daytime / Nighttime", source: "GA", months: ["April"],
+  name: "Daytime / Nighttime", source: "", months: ["April"],
   purpose: "Travel, then freeze in a gymnastic statue.",
   equipment: "None.",
   setup: "General space.",
@@ -817,7 +817,7 @@ window.GAME_DETAILS = [
   slot: "0–5"
 },
 {
-  name: "Around the Bases Relay", source: "GA", months: ["May"],
+  name: "Around the Bases Relay", source: "", months: ["May"],
   purpose: "Team running the diamond.",
   equipment: "4 bases or hoops.",
   setup: "Teams start at each base.",
@@ -833,7 +833,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Cone Relay", source: "GA", months: ["May"],
+  name: "Cone Relay", source: "", months: ["May"],
   purpose: "Run cones in a called order (memory + speed).",
   equipment: "Numbered cones 1–4.",
   setup: "Cones in a square or line. Relay teams.",
@@ -849,7 +849,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Memory Relay", source: "SF", months: ["May"],
+  name: "Memory Relay", source: "", months: ["May"],
   purpose: "Peek at a hidden card pattern, then rebuild it at home.",
   equipment: "Playing cards, a bench on its side as a screen.",
   setup: "Teacher builds a small card pattern behind the bench. Each team has a matching set at home.",
@@ -865,7 +865,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Aces", source: "SF", months: ["May"],
+  name: "Aces", source: "", months: ["May"],
   purpose: "Outdoor Grade 5–6. Active war with a card-master hoop.",
   equipment: "3 decks of cards, 2 hoops, pinnies.",
   setup: "Two teams. Each has a Card Master in a hoop.",
@@ -878,11 +878,11 @@ window.GAME_DETAILS = [
   g12: "Do not play. Use Card Sharks.",
   g34: "Gym version with walking only.",
   g56: "Outdoor if you can. Bigger space is better.",
-  safety: "Division II–IV. Soft tags. No grabbing cards out of a hand.",
+  safety: "Soft tags. No grabbing cards out of a hand.",
   slot: "16–25"
 },
 {
-  name: "Attention Relay", source: "GA", months: ["May"],
+  name: "Attention Relay", source: "", months: ["May"],
   purpose: "Numbered files. Call a number; those runners loop their team.",
   equipment: "None.",
   setup: "Teams in files. Number students 1, 2, 3… from the front.",
@@ -897,7 +897,7 @@ window.GAME_DETAILS = [
   slot: "0–5 or 16–25"
 },
 {
-  name: "RPS Rounders", source: "SF", months: ["June"],
+  name: "RPS Rounders", source: "", months: ["June"],
   purpose: "Two runners meet, play rock-paper-scissors, winner keeps the ball toward the end zone.",
   equipment: "4 cones, 1 foam ball or beanbag.",
   setup: "A lane with four cones. Two teams at opposite ends.",
@@ -914,7 +914,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Team Bowling", source: "GA", months: ["June"],
+  name: "Team Bowling", source: "", months: ["June"],
   purpose: "Bowl at your own line of pins. Fetch and go again.",
   equipment: "Many pins or cones, foam balls.",
   setup: "Two teams at centre. Pins along each end line.",
@@ -930,7 +930,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Barkball", source: "GA", months: ["June"],
+  name: "Barkball", source: "", months: ["June"],
   purpose: "Hit, run to an end line; fielders tag with the ball in hand.",
   equipment: "Foam ball, bat or kick, an end line.",
   setup: "Hitting team and fielding team.",
@@ -946,7 +946,7 @@ window.GAME_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Squirrel’s Tail", source: "SF", months: ["June"],
+  name: "Squirrel’s Tail", source: "", months: ["June"],
   purpose: "Outdoor Grade 3–6. Steal nuts or tails. Buy a tail back with two nuts.",
   equipment: "Fabric tails, hoops, beanbags (nuts), 4-colour pinnies.",
   setup: "Four squirrel teams. Nuts in the middle. Each player has a tail.",

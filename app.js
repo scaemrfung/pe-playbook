@@ -43,7 +43,7 @@
       return `<a class="card" href="month.html?m=${encodeURIComponent(m.name)}">
         <h2>${m.name}</h2>
         <p>${m.guide}</p>
-        <div class="count">${n} lessons · ${g} booklet games</div>
+        <div class="count">${n} lessons · ${g} big-group games</div>
       </a>`;
     }).join("");
   }
@@ -100,13 +100,13 @@
         <div><b>25–30 min</b>Cool-down</div>
       </div>
       <div class="panel">
-        <h2>Games from your booklets this month</h2>
-        <p class="note">SF = Sure Fire Games (Larson). GA = school Games and Activities. Use the booklet for diagrams; this is the 30-minute classroom version. Division II–IV games are simplified for Grades 1–2.</p>
+        <h2>Big-group games this month</h2>
+        <p class="note">These are the 30-minute classroom versions. Simplify for Grades 1–2: walk more, fewer taggers, skip grabbing games until Grade 3+.</p>
         <table class="games">
-          <thead><tr><th>Game</th><th>Source</th><th>How we run it</th></tr></thead>
+          <thead><tr><th>Game</th><th>How we run it</th></tr></thead>
           <tbody>${bank.map((r) => {
           const sl = r[0].toLowerCase().replace(/[^a-z0-9]+/g, "-");
-          return `<tr><td><strong><a href="games.html#${sl}">${r[0]}</a></strong></td><td>${r[1]}</td><td>${r[2]}</td></tr>`;
+          return `<tr><td><strong><a href="games.html#${sl}">${r[0]}</a></strong></td><td>${r[2]}</td></tr>`;
         }).join("")}</tbody>
         </table>
       </div>
@@ -130,7 +130,6 @@
         <article class="gcard" id="${gslug(g.name)}">
           <div class="ghead">
             <h2>${g.name}</h2>
-            <span class="src">${g.source}</span>
           </div>
           <p class="meta"><strong>When:</strong> ${(g.months || []).join(", ")} · <strong>Slot:</strong> ${g.slot}</p>
           <p>${g.purpose}</p>
