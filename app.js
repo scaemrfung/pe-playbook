@@ -7,7 +7,7 @@
 
   const page = document.body && document.body.dataset.page;
   const PE = window.PE;
-  if (!PE && page !== "indigenous") return;
+  if (!PE) return;
   const { months, MONTH_GAMES, GLANCE } = PE || { months: [], MONTH_GAMES: {}, GLANCE: [] };
   const UNIT = window.UNIT_OUTCOMES || {};
   const K2M = window.K2_MONTH_GAMES || {};
@@ -173,35 +173,4 @@
     }
   }
 
-  if (page === "indigenous") {
-    const q = document.getElementById("q");
-    const box = document.getElementById("list");
-    const games = window.INDIGENOUS_GAMES || [];
-    function render() {
-      const term = ((q && q.value) || "").toLowerCase();
-      const cards = games.filter((g) => {
-        const hay = [g.name, g.nation, g.purpose, g.when, g.note].join(" ").toLowerCase();
-        return !term || hay.includes(term);
-      }).map((g) => `
-        <article class="gcard">
-          <div class="ghead"><h2>${g.name}</h2></div>
-          <p class="meta"><strong>Nation / origin:</strong> ${g.nation} · <strong>Try in:</strong> ${g.when}</p>
-          <p>${g.purpose}</p>
-          <p class="meta"><strong>Equipment:</strong> ${g.equipment}</p>
-          <p class="meta"><strong>Setup:</strong> ${g.setup}</p>
-          <p><strong>How we play</strong></p>
-          <ol class="clean">${g.play.map((s) => `<li>${s}</li>`).join("")}</ol>
-          <div class="bands-block">
-            <div><strong>1–2:</strong> ${g.g12}</div>
-            <div><strong>3–4:</strong> ${g.g34}</div>
-            <div><strong>5–6:</strong> ${g.g56}</div>
-          </div>
-          <p class="meta"><strong>Safety:</strong> ${g.safety}</p>
-          <p class="note">${g.note}</p>${videoHtml(g.name)}
-        </article>`).join("");
-      box.innerHTML = cards || "<p>No matches.</p>";
-    }
-    if (q) q.addEventListener("input", render);
-    render();
-  }
 })();
