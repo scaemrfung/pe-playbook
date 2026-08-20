@@ -2271,4 +2271,236 @@ window.GAME_EXTRAS = {
       { code: "Healthy Relationships", look: "Calls the catch." }
     ]
   }
+,
+  "Ten-Second Tag": {
+    numbers: "Whole class · 4–6 min · new taggers every 10 s.",
+    cues: ["Soft tag.", "Jacks, then back in."],
+    steps: ["Half gym. Whistle starts a tagger group. Next whistle: they freeze, a new group goes."],
+    variations: ["Walk-tag for 1–2."],
+    look: "Old taggers actually stop.",
+    outcomes: [
+      { code: "Movement · locomotor", look: "Runs or walks on the whistle." },
+      { code: "Safety", look: "Soft tag; tagged player re-enters after 5 jacks." }
+    ]
+  },
+  "Wake-Up Bear": {
+    numbers: "1 bear · 45 s rounds.",
+    cues: ["Bear faces away.", "Chase to the wall."],
+    steps: ["Chant. Bear stands on the secret count. Tagged: 5 jacks, then a turn as bear."],
+    variations: ["No blindfold — ever."],
+    look: "Chase stops at the wall.",
+    outcomes: [
+      { code: "Movement · spatial awareness", look: "Runs to a wall, not a pile." },
+      { code: "Safety", look: "Bear is not blindfolded." }
+    ]
+  },
+  "Wolf’s Den": {
+    numbers: "2 wolves · 3 crossings, then reset.",
+    cues: ["Tag only in the den.", "Jacks, then one turn as a helper."],
+    steps: ["Cross on the call. Tagged help for one crossing. Reset wolves."],
+    variations: ["Walk for 1–2."],
+    look: "The den does not fill for the whole class.",
+    outcomes: [
+      { code: "Movement · locomotor", look: "Crosses on the call." },
+      { code: "Movement · fair play and teamwork", look: "Re-enters after the stretch." }
+    ]
+  },
+  "Tunnel Freeze": {
+    numbers: "3–5 taggers · 90 s.",
+    cues: ["Freeze wide.", "High-five unless both agree to a walk-through."],
+    steps: ["1–2: high-five only. 5–6: optional tunnel with consent."],
+    variations: ["Hospital tag if the class is crowded."],
+    look: "Nobody is crawling under a moving person.",
+    outcomes: [
+      { code: "Movement · spatial awareness", look: "Soft tag; a way back in." },
+      { code: "Healthy Relationships", look: "Accepts a ‘no’ to the tunnel." }
+    ]
+  },
+  "Everybody’s It": {
+    numbers: "Whole class · 60–90 s.",
+    cues: ["Everyone tags.", "RPS, then both stay in."],
+    steps: ["Double-tag: 3 squats for one pose, then play on."],
+    variations: ["Walk for 1–2."],
+    look: "No sitting out.",
+    outcomes: [
+      { code: "Movement · locomotor", look: "Moves and tags at the same time." },
+      { code: "Character", look: "Does the squats and comes back." }
+    ]
+  },
+  "Steal the Bacon": {
+    numbers: "Two numbered lines.",
+    cues: ["Grab the object, not the person.", "Soft tag the carrier."],
+    steps: ["Call a number. Home with the bacon, or tag and reset."],
+    variations: ["Two numbers at once for 5–6."],
+    look: "No dive on the ball.",
+    outcomes: [
+      { code: "Movement · locomotor", look: "Reacts on the number." },
+      { code: "Safety", look: "Tags the carrier, does not grab clothes." }
+    ]
+  },
+  "Protect the King": {
+    numbers: "1 king · 4 defenders · 1 min rotations.",
+    cues: ["Pass first.", "Below the waist."],
+    steps: ["Two passes, then a throw. Rotate the king."],
+    variations: ["Roll for 1–2."],
+    look: "No body-check on the king.",
+    outcomes: [
+      { code: "Movement · tactics", look: "Passes before the shot." },
+      { code: "Safety", look: "Throws stay low." }
+    ]
+  },
+  "Low-ball": {
+    numbers: "4–6 foam balls.",
+    cues: ["Feet and shins.", "Stretch, then back in."],
+    steps: ["A high ball is dead. A hit is 10 seconds, not an out."],
+    variations: ["Roll only for 1–2."],
+    look: "Heads are not targets.",
+    outcomes: [
+      { code: "Movement · send, receive, retain", look: "Sends below the waist." },
+      { code: "Safety", look: "Re-enters after the stretch." }
+    ]
+  },
+  "Birthday Lineup": {
+    numbers: "Whole class · silent.",
+    cues: ["Fingers for the month.", "Walk to the line."],
+    steps: ["January left, December right. Check once. Try again."],
+    variations: ["Teacher may whisper for 1–2."],
+    look: "No talking, no dragging.",
+    outcomes: [
+      { code: "Healthy Relationships", look: "Uses gestures, not a shove." },
+      { code: "Character", look: "Stays silent through the check." }
+    ]
+  },
+  "Circle Hoop Pass": {
+    numbers: "1–2 hoops · whole class.",
+    cues: ["Do not let go.", "Step or duck."],
+    steps: ["Hoop on one arm first. Travel the circle. Add a second hoop if it is easy."],
+    variations: ["Large hoop for 1–2."],
+    look: "A break is a freeze, not a fail.",
+    outcomes: [
+      { code: "Movement · fair play and teamwork", look: "Keeps the chain unless they need to leave." },
+      { code: "Movement · shapes and balance", look: "Moves the hoop without a yank." }
+    ]
+  },
+  "Cross the River": {
+    numbers: "Teams of 6–8 · 3 hoops.",
+    cues: ["Only on a hoop.", "Pass the back hoop forward."],
+    steps: ["Floor touch = two steps back. Floor only — no benches."],
+    variations: ["Four hoops for 1–2."],
+    look: "No stacking people.",
+    outcomes: [
+      { code: "Movement · tactics", look: "Plans where the empty hoop goes." },
+      { code: "Movement · fair play and teamwork", look: "Waits for a teammate before moving." }
+    ]
+  },
+  "Human Knot": {
+    numbers: "6–8 · Grade 3+.",
+    cues: ["Say no any time.", "No lifts."],
+    steps: ["Two different hands. Untangle. A leaver becomes a coach."],
+    variations: ["Skip for 1–2; use hoop-pass."],
+    look: "Wrists stay comfortable.",
+    outcomes: [
+      { code: "Healthy Relationships", look: "Stops when someone says no." },
+      { code: "Character", look: "Tries a second plan after a stuck moment." }
+    ]
+  },
+  "Pulse Race": {
+    numbers: "Two sitting lines.",
+    cues: ["Gentle squeeze.", "Last player takes the ball."],
+    steps: ["Teacher signal to the first player only. False start: sit and try again."],
+    variations: ["Thumbs-up for 1–2."],
+    look: "Quiet line.",
+    outcomes: [
+      { code: "Movement · fair play and teamwork", look: "Waits for the squeeze." },
+      { code: "Character", look: "Resets after a false start." }
+    ]
+  },
+  "Caterpillar Walk": {
+    numbers: "Teams of 5–7.",
+    cues: ["Stay together.", "Freeze if it breaks."],
+    steps: ["Hold waist or a shared hoop. Walk the cones. New leader each lap."],
+    variations: ["Shoulders for 1–2."],
+    look: "No pulling a fallen classmate.",
+    outcomes: [
+      { code: "Movement · locomotor", look: "Matches the line’s speed." },
+      { code: "Movement · fair play and teamwork", look: "Rejoins after a break." }
+    ]
+  },
+  "Guard the Cone": {
+    numbers: "3 defenders · 1 min.",
+    cues: ["Pass first.", "Hands, not a charge."],
+    steps: ["Knock the cone with a foam ball. Rotate defenders."],
+    variations: ["Roll for 1–2."],
+    look: "Circle stays linked.",
+    outcomes: [
+      { code: "Movement · tactics", look: "Passes to an opening." },
+      { code: "Safety", look: "Does not charge the defenders." }
+    ]
+  },
+  "Bucket Carry": {
+    numbers: "4–6 hands on one hoop.",
+    cues: ["Every hand stays on.", "Walk."],
+    steps: ["Carry bags in a hoop or light bucket. Reload a drop."],
+    variations: ["Two bags for 1–2."],
+    look: "No one person lifts it alone.",
+    outcomes: [
+      { code: "Movement · fair play and teamwork", look: "All hands stay on the hoop." },
+      { code: "Safety", look: "Walks; light load." }
+    ]
+  },
+  "Voice Path": {
+    numbers: "Pairs.",
+    cues: ["Words only.", "Eyes-closed is a choice."],
+    steps: ["Caller on the side. Walker to the far line. Swap."],
+    variations: ["Eyes on the floor for most classes."],
+    look: "Caller never leaves the perimeter.",
+    outcomes: [
+      { code: "Healthy Relationships", look: "Gives short, kind directions." },
+      { code: "Safety", look: "No run; consent for eyes-closed." }
+    ]
+  },
+  "Four Corners Stay-In": {
+    numbers: "Whole class.",
+    cues: ["Walk to a corner.", "Called corner does a skill, then stays."],
+    steps: ["Count from 10. Name a number. Jacks or stretch. New caller."],
+    variations: ["Teacher calls for 1–2."],
+    look: "Nobody is out.",
+    outcomes: [
+      { code: "Movement · spatial awareness", look: "Gets to a corner before the count ends." },
+      { code: "Movement · fair play and teamwork", look: "Does the skill and stays in." }
+    ]
+  },
+  "Duck Duck Dash": {
+    numbers: "Standing circle.",
+    cues: ["Tap the shoulder.", "One lap."],
+    steps: ["‘Duck… dash!’ Chase once. Both stay in."],
+    variations: ["Walk for 1–2."],
+    look: "Circle does not sit.",
+    outcomes: [
+      { code: "Movement · locomotor", look: "Chases one lap and returns." },
+      { code: "Safety", look: "Shoulder tap, not the head." }
+    ]
+  },
+  "Elements Sprint": {
+    numbers: "Three walls.",
+    cues: ["Hear the word.", "Hands up at the wall."],
+    steps: ["Fire, Earth, Water — or an animal. Late group: 5 jacks, stay in."],
+    variations: ["Two walls for 1–2."],
+    look: "No push at the wall.",
+    outcomes: [
+      { code: "Movement · locomotor", look: "Changes direction on the call." },
+      { code: "Safety", look: "Stops with hands up." }
+    ]
+  },
+  "Simon Says Stay-In": {
+    numbers: "Scattered.",
+    cues: ["Only if you hear Simon says.", "A miss is 5 jumps."],
+    steps: ["Keep playing. Student leads the last minute."],
+    variations: ["Slow locomotor cues for 1–2."],
+    look: "Nobody sits on the side.",
+    outcomes: [
+      { code: "Safety", look: "Starts and stops on the phrase." },
+      { code: "Movement · locomotor", look: "Shows the named skill." }
+    ]
+  }
 };
