@@ -113,29 +113,29 @@ window.UNIT_OUTCOMES = {
     ]
   },
   January: {
-    oi: ["Healthy Relationships", "Character Development", "Movement Skill Development", "Safety"],
-    why: "Cooperative games, playground structures, optional skating, and inventing a fair game. Emphasis on roles, inclusion, and problem-solving.",
+    oi: ["Movement Skill Development", "Safety", "Healthy Relationships", "Active Living"],
+    why: "Cooperative re-entry after the break, indoor playground structures, optional skating, then basketball dribble/pass and floor-hockey safety.",
     g12: [
       "Solve a simple partner task (move an object together).",
       "Follow a playground turn-taking rule (four-square serve, rope wait).",
-      "Use a fair unfreeze (hospital, bun, high-five).",
-      "Accept a teacher-formed pair."
+      "Bounce or push-pass a foam ball to a partner.",
+      "Keep a hockey stick blade on the floor."
     ],
     g34: [
-      "Demonstrate teamwork in a group of four (roles, linked tasks).",
-      "Help write three fair rules for a student game.",
-      "Explain how one rule change makes a game easier or harder.",
-      "Apply personal safety on ice or scooters (fall to the side, get up)."
+      "Demonstrate teamwork in a group of four.",
+      "Walk-dribble with eyes up.",
+      "Chest or bounce pass to a moving partner.",
+      "Push-pass through a gate; blade stays down."
     ],
     g56: [
-      "Teach a game in 60 seconds with a safety rule included.",
-      "Analyze how a rule change affects tactics.",
-      "Design a role for a classmate who cannot do a movement that day.",
+      "Jog-dribble and switch hands.",
+      "Pass, then move to space in a small-sided game.",
+      "Receive and send a hockey ball in two touches.",
       "Show perseverance on a personal-best station (not vs peers)."
     ],
     assess: [
-      { what: "Cooperation", how: "Partner / group challenges", evidence: "Uses helpful words; stays with the assigned pair; linked games do not drag." },
-      { what: "Fair rules", how: "Invent-a-game product", evidence: "Three rules include start, how to tag/score, and how everyone stays in." },
+      { what: "Cooperation", how: "Partner / group challenges", evidence: "Uses helpful words; stays with the assigned pair." },
+      { what: "Invasion skills", how: "Dribble, pass, stick safety", evidence: "Head up on a dribble; blade down; no running with the ball." },
       { what: "Inclusion", how: "Observation", evidence: "Offers or accepts a helper job; no public picking." },
       { what: "Optional skate", how: "If ice time happens", evidence: "Practises a safe fall and two-foot glide or gym substitute." }
     ]
@@ -181,7 +181,7 @@ window.UNIT_OUTCOMES = {
       "Perform dome, popcorn, and a change-places under the chute.",
       "Link toss-catch and a still pose into a 20–30 second act.",
       "Name shoulders or core as working muscles.",
-      "Invent one chute game with a safety rule."
+      "Name one safety rule that kept the chute round."
     ],
     g56: [
       "Order a class chute sequence and count the lift.",
