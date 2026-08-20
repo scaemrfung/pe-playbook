@@ -144,7 +144,7 @@ function monthBank(name) {
       document.getElementById("content").innerHTML = "<p>Month not found.</p>";
       return;
     }
-    document.title = m.name + " · PE Playbook";
+    document.title = m.name + " · SCA Elementary PE Playbook";
     const bank = monthBank(m.name);
     const nav = months.map((x) =>
       `<a href="month.html?m=${encodeURIComponent(x.name)}" class="${x.name === m.name ? "active" : ""}">${x.name.slice(0, 3)}</a>`

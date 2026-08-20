@@ -1,4 +1,4 @@
-# Prairie PE Playbook (Grades 1–6)
+# SCA Elementary PE Playbook (Grades 1–6)
 
 Static website of 30-minute PE lessons for Alberta Grades 1–6.
 Monthly themes follow a school yearly PE plan for Grades 1–6.
