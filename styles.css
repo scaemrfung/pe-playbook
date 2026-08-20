@@ -200,3 +200,6 @@ footer.site {
 
 .yt { margin: 10px 0 0; }
 .yt a { font-weight: 700; }
+
+.row.out .t { background: #e3eef7; color: var(--navy); }
+.row.out .d { background: #f4f8fb; font-size: .88rem; line-height: 1.4; }

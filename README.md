@@ -24,6 +24,7 @@ Monthly themes follow a school yearly PE plan for Grades 1–6.
    - `app.js`
    - `games-data.js`
    - `outcomes-data.js`
+   - `lesson-outcomes.js`
    - `k2-games.js`
    - `g36-games.js`
    - `README.md`

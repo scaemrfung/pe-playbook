@@ -74,15 +74,23 @@
     ).join("");
 
     let week = 0;
+    const LO = window.LESSON_OUTCOMES || {};
     const lessons = m.lessons.map((L) => {
       let head = "";
       if (L.w !== week) {
         week = L.w;
         head = `<h2 class="week-title">${m.name} · Week ${week}</h2>`;
       }
+      const o = LO[`${m.name}-${L.w}-${L.c}`];
+      const outRow = o ? `<div class="row out"><div class="t">PEW</div>
+            <div class="d"><strong>${o.oi}</strong><br>
+            <strong>1–2:</strong> ${o.g12}<br>
+            <strong>3–4:</strong> ${o.g34}<br>
+            <strong>5–6:</strong> ${o.g56}</div></div>` : "";
       return head + `<article class="lesson" data-week="${L.w}">
         <div class="top"><h3>W${L.w} · C${L.c} — ${L.title}</h3><small>${L.focus}</small></div>
         <div class="rows">
+          ${outRow}
           <div class="row"><div class="t">0–5</div><div class="d">${L.wu}</div></div>
           <div class="row"><div class="t">5–16</div><div class="d">${L.skill}</div></div>
           <div class="row game"><div class="t">16–25</div><div class="d">${L.game}</div></div>
