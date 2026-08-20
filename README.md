@@ -1,7 +1,7 @@
 # Prairie PE Playbook (Grades 1–6)
 
 Static website of 30-minute PE lessons for Alberta Grades 1–6.
-Monthly themes follow the Grade 1A PE Yearly Plan (2007–08).
+Monthly themes follow a school yearly PE plan for Grades 1–6.
 
 ## Publish on GitHub Pages (about 5 minutes)
 

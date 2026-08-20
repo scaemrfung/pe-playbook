@@ -64,7 +64,7 @@
       <div class="month-head">
         <p class="note">${nav}</p>
         <h1>${m.name}</h1>
-        <p class="meta"><strong>From the Grade 1A yearly plan:</strong> ${m.guide}</p>
+        <p class="meta"><strong>Month focus:</strong> ${m.guide}</p>
         <p class="meta"><strong>Alberta PEW focus:</strong> ${m.pew}</p>
         <p class="meta"><strong>Equipment:</strong> ${m.equipment}</p>
         <p class="meta"><strong>Fitness update:</strong> ${m.fitness}</p>
