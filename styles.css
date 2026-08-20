@@ -203,3 +203,15 @@ footer.site {
 
 .row.out .t { background: #e3eef7; color: var(--navy); }
 .row.out .d { background: #f4f8fb; font-size: .88rem; line-height: 1.4; }
+
+a.btn {
+  display: inline-block;
+  background: var(--navy);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: .92rem;
+}
+a.btn:hover { opacity: .92; }

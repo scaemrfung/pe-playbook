@@ -404,8 +404,8 @@ window.LESSON_OUTCOMES = {
   },
   "January-2-4": {
     items: [
-    { code: "Movement · different environments", look: "Shows a glide, slide, or safe stop." },
-    { code: "Safety", look: "Stops without sliding into people." }
+    { code: "Movement · shapes and balance", look: "Walks a floor line with eyes on a wall spot." },
+    { code: "Safety", look: "Sits to the side and stands up without rushing." }
     ]
   },
   "January-3-1": {
@@ -524,8 +524,8 @@ window.LESSON_OUTCOMES = {
   },
   "February-3-4": {
     items: [
-    { code: "Active Living", look: "Stays in moderate work for the set time." },
-    { code: "Active Living", look: "Chooses hoop cardio or a skate-swap safely." }
+    { code: "Active Living", look: "Stays in hoop cardio for the set time." },
+    { code: "Movement · locomotor", look: "Carries or rolls a hoop without colliding." }
     ]
   },
   "February-4-1": {
@@ -692,14 +692,14 @@ window.LESSON_OUTCOMES = {
   },
   "April-2-4": {
     items: [
-    { code: "Movement · shapes and balance", look: "Works travel, jump, roll, or balance at a station." },
-    { code: "Safety", look: "Waits on a mat task — one at a time on apparatus." }
+    { code: "Movement · shapes and balance", look: "Works travel, jump, roll, or balance on the floor." },
+    { code: "Safety", look: "Waits for a turn — one roller at a time in a lane." }
     ]
   },
   "April-3-1": {
     items: [
-    { code: "Movement · shapes and balance", look: "Walks a line or low bench and steps off to a stick." },
-    { code: "Safety", look: "One jumper; mats on the landing side." }
+    { code: "Movement · shapes and balance", look: "Walks a tape line and steps off to a stick." },
+    { code: "Safety", look: "Eyes on a wall spot; one student per line." }
     ]
   },
   "April-3-2": {

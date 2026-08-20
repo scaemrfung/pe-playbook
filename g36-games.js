@@ -381,7 +381,7 @@ window.PAIR_STATIONS = {
         ["Dodge rolling balls", "Partner rolls foam; jumper or sidestep. Below-waist rolls."],
         ["Run and jump for distance", "Ribbon mark. Private, not a rank."],
         ["Jump and roll", "Jump to a mat, log-roll once. Head does not lead."],
-        ["Switch sides without falling", "Balance on a line or bench. Step off to a mat."],
+        ["Switch sides without falling", "Balance on a tape line. Step off to a stick."],
         ["Slide a beanbag past", "Partner defends a gate; slider stays on the floor."]
       ]
     },
@@ -408,7 +408,7 @@ window.PAIR_STATIONS = {
         ["Closest disc to the target", "Foam disc. Closest fair throw, then swap."],
         ["1-hand wall catches", "Underhand to a wall, catch off the bounce."],
         ["Beanbags in the hoop", "Step back after each fair throw."],
-        ["Bench catches", "Catcher sits or stands on a bench. Toss is underhand."],
+        ["Zone catches", "Catcher stands in a hoop. Toss is underhand."],
         ["Throw through a hoop", "Partner holds a hoop as a window."],
         ["Roll to hit the pin", "Bowling-style. Soft foam."],
         ["Protect the targets", "One tosses; one blocks with hands, not a kick at the partner."],
