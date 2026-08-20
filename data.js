@@ -183,7 +183,7 @@ const months = [
     pew: "Movement Skill Development, Safety, Character (control over speed)",
     equipment: "Mats, benches (low), hoops, beanbags, wedges if you have them, wall space",
     fitness: "Strength and flexibility are the gymnastics fitness update — stillness is the test.",
-    notes: "No inversions that load the neck. Rolls stay on mats. One at a time on benches. Control beats speed all month.",
+    notes: "No inversions that load the neck. Rolls stay on mats. One at a time on benches. Control beats speed all month. Use the Gymnastics checklist page for locomotor, shapes, rolls, and balances.",
     lessons: [
       { w:1,c:1, title:"Shapes: tuck, pike, straddle, stretch", focus:"Strong shapes, tight muscles", wu:"Shake, then freeze in a shape.", skill:"Four shapes on the mat. Hold 3 seconds. Name the shape.", game:"Shape museum.", cd:"Which shape felt strongest?", g12:"Tuck and stretch", g34:"All four", g56:"Add a twist shape" },
       { w:1,c:2, title:"Travel like a gymnast", focus:"Weight transfer, quiet feet", wu:"Animal travels on mats only.", skill:"Bear, crab, seal, bunny hop. Still start and still end.", game:"Traffic animals — change animal on the drum.", cd:"Quiet travel.", g12:"Two animals", g34:"Four", g56:"Students invent a fifth" },
