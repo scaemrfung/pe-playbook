@@ -18,14 +18,11 @@ window.GAME_EXTRAS = {
       "Wound-spot: hand must cover the exact place you were tagged, not the chest."
     ],
     look: "Players re-enter in under 15 seconds. No pile-ups at the hospital."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Soft tag; the tagged player has a way back in." },
-      { code: "C–5", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
+      { code: "Movement · spatial awareness", look: "Soft tag; the tagged player has a way back in." },
+      { code: "Movement · fair play and teamwork", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
     ]
   },
   "Hot Dog Tag": {
@@ -43,14 +40,11 @@ window.GAME_EXTRAS = {
       "Relish helper: one extra player may only unfreeze, not run for points."
     ],
     look: "Frozen players are calling. Buns are on opposite sides."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Soft tag; the tagged player has a way back in." },
-      { code: "C–5", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
+      { code: "Movement · spatial awareness", look: "Soft tag; the tagged player has a way back in." },
+      { code: "Movement · fair play and teamwork", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
     ]
   },
   "Line Tag / Pac-Man": {
@@ -67,14 +61,11 @@ window.GAME_EXTRAS = {
       "Two colours of tagger: red may only travel sideline, blue only key lines."
     ],
     look: "Nobody cuts a corner through the key. Traffic yields."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Stays on the line; no corner-cutting." },
-      { code: "D–5", look: "Eyes up at intersections." }
+      { code: "Movement · locomotor", look: "Stays on the line; no corner-cutting." },
+      { code: "Safety", look: "Eyes up at intersections." }
     ]
   },
   "Sharks and Dolphins": {
@@ -92,14 +83,11 @@ window.GAME_EXTRAS = {
       "Dribble sharks: everyone travels with a foam ball; lose the ball and you restart that crossing."
     ],
     look: "A full class crossing in under 8 seconds. Sharks not camping one door."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Crosses on the call, not after a wait." },
-      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+      { code: "Movement · locomotor", look: "Crosses on the call, not after a wait." },
+      { code: "Safety", look: "Tagged player re-enters next wave — no last-one-standing." }
     ]
   },
   "Captain’s Deck / Shipwreck": {
@@ -116,14 +104,11 @@ window.GAME_EXTRAS = {
       "Two captains: they take turns so listening stays sharp."
     ],
     look: "The whole class commits to the same wall. No sliding into the wall."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Octopus": {
@@ -141,14 +126,11 @@ window.GAME_EXTRAS = {
       "Dribble octopus: foam ball at the feet while crossing."
     ],
     look: "Seaweed stays planted. Runners look for gaps, not collisions."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Crosses on the call, not after a wait." },
-      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+      { code: "Movement · locomotor", look: "Crosses on the call, not after a wait." },
+      { code: "Safety", look: "Tagged player re-enters next wave — no last-one-standing." }
     ]
   },
   "Blob Tag": {
@@ -166,14 +148,11 @@ window.GAME_EXTRAS = {
       "Blob may only travel on gym lines (Pac-Man blob)."
     ],
     look: "No six-person whip. Splits happen without a reminder."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "The chain splits before it gets unsafe." },
-      { code: "C–5", look: "Holds on without yanking." }
+      { code: "Movement · spatial awareness", look: "The chain splits before it gets unsafe." },
+      { code: "Movement · fair play and teamwork", look: "Holds on without yanking." }
     ]
   },
   "Frozen Tag": {
@@ -190,14 +169,11 @@ window.GAME_EXTRAS = {
       "Skill freeze: frozen players do a balance until helped."
     ],
     look: "Helpers are moving toward frozen players, not hiding."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Soft tag; the tagged player has a way back in." },
-      { code: "C–5", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
+      { code: "Movement · spatial awareness", look: "Soft tag; the tagged player has a way back in." },
+      { code: "Movement · fair play and teamwork", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
     ]
   },
   "Tail Tag": {
@@ -214,14 +190,11 @@ window.GAME_EXTRAS = {
       "Only 4 hunters have the right to pull tails."
     ],
     look: "Tails come out clean. No one is on the floor."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–5", look: "Two fingers on the tail or pin, not on clothes." },
-      { code: "A–10", look: "Hands the pin or tail back." }
+      { code: "Safety", look: "Two fingers on the tail or pin, not on clothes." },
+      { code: "Movement · spatial awareness", look: "Hands the pin or tail back." }
     ]
   },
   "Capture the Egg": {
@@ -234,14 +207,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Four-team eggs (see Four Corner Flags).", "Dribble the egg as a foam ball."],
     look: "Eggs stay in hands until they are in a hoop."
-  ,
-    pos12: "A1–10, A1–11, D1–5, C1–5",
-    pos34: "A3–10, A3–11, D3–5, C3–5",
-    pos56: "A5–10, A5–11, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–11", look: "One object or one rescue at a time." },
-      { code: "C–5", look: "Walks a jailed teammate home." }
+      { code: "Movement · tactics", look: "One object or one rescue at a time." },
+      { code: "Movement · fair play and teamwork", look: "Walks a jailed teammate home." }
     ]
   },
   "Four Corner Flags": {
@@ -259,14 +229,11 @@ window.GAME_EXTRAS = {
       "Capture the cone: steal standing cones instead of pinnies."
     ],
     look: "Jails are not empty of rescuers. Flags are carried, not thrown."
-  ,
-    pos12: "A1–10, A1–11, D1–5, C1–5",
-    pos34: "A3–10, A3–11, D3–5, C3–5",
-    pos56: "A5–10, A5–11, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–11", look: "One object or one rescue at a time." },
-      { code: "C–5", look: "Walks a jailed teammate home." }
+      { code: "Movement · tactics", look: "One object or one rescue at a time." },
+      { code: "Movement · fair play and teamwork", look: "Walks a jailed teammate home." }
     ]
   },
   "Rob the Nest (dribble)": {
@@ -280,14 +247,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Hands only (beanbags).", "Must trap before you pick up."],
     look: "Nests are not guarded by a wall of bodies."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
-      { code: "A–11", look: "One ball at a time; looks before sending." }
+      { code: "Movement · send, receive, retain", look: "Ball stays close; trap or dribble under control." },
+      { code: "Movement · tactics", look: "One ball at a time; looks before sending." }
     ]
   },
   "Volcanoes and Ice-Cream Cones": {
@@ -301,14 +265,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Three teams, three cone states (add on-its-side).", "Must crab-walk."],
     look: "Cones are flipped, not thrown. Even work across the gym."
-  ,
-    pos12: "A1–10, C1–5, A1–11",
-    pos34: "A3–10, C3–5, A3–11",
-    pos56: "A5–10, C5–5, A5–11"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Finds a group or a spot without diving." },
-      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+      { code: "Movement · spatial awareness", look: "Finds a group or a spot without diving." },
+      { code: "Movement · fair play and teamwork", look: "Leftovers stay in — they join the teacher or the next round." }
     ]
   },
   "Kangaroos and Crocodiles": {
@@ -322,14 +283,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add a third animal that everyone jogs.", "Dribble a foam ball home."],
     look: "The called team turns and runs — they do not wait to see who tags."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Moves only when their name or shape wins." },
-      { code: "A–10", look: "Tagged player re-enters or switches — nobody sits out." }
+      { code: "Safety", look: "Moves only when their name or shape wins." },
+      { code: "Movement · spatial awareness", look: "Tagged player re-enters or switches — nobody sits out." }
     ]
   },
   "Clean Your Room": {
@@ -343,14 +301,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Rolls only (fielding day).", "Add a ‘laundry hoop’ that scores extra."],
     look: "Balls stay low. Students freeze on the whistle."
-  ,
-    pos12: "A1–5, A1–10, D1–5",
-    pos34: "A3–5, A3–10, D3–5",
-    pos56: "A5–5, A5–10, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Sends stay below the waist." },
-      { code: "D–3", look: "Hands up on the whistle." }
+      { code: "Movement · send, receive, retain", look: "Sends stay below the waist." },
+      { code: "Safety", look: "Hands up on the whistle." }
     ]
   },
   "Tidy the Bedroom": {
@@ -363,14 +318,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Colour-match bag to hoop.", "Feet-only send."],
     look: "Throws are underhand. Fetchers are not hit."
-  ,
-    pos12: "A1–5, A1–10, D1–5",
-    pos34: "A3–5, A3–10, D3–5",
-    pos56: "A5–5, A5–10, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Sends stay below the waist." },
-      { code: "D–3", look: "Hands up on the whistle." }
+      { code: "Movement · send, receive, retain", look: "Sends stay below the waist." },
+      { code: "Safety", look: "Hands up on the whistle." }
     ]
   },
   "Mr. Clean": {
@@ -382,14 +334,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["One team uses only rolls, the other only throws."],
     look: "Whistle freeze. Hands up."
-  ,
-    pos12: "A1–5, A1–10, D1–5",
-    pos34: "A3–5, A3–10, D3–5",
-    pos56: "A5–5, A5–10, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Sends stay below the waist." },
-      { code: "D–3", look: "Hands up on the whistle." }
+      { code: "Movement · send, receive, retain", look: "Sends stay below the waist." },
+      { code: "Safety", look: "Hands up on the whistle." }
     ]
   },
   "Battleships": {
@@ -403,14 +352,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Four-corner ships.", "Must hit the pin on a bounce."],
     look: "Players do not cross the centre. Pins are not used as bats."
-  ,
-    pos12: "A1–10, A1–11, D1–5, C1–5",
-    pos34: "A3–10, A3–11, D3–5, C3–5",
-    pos56: "A5–10, A5–11, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
-      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+      { code: "Movement · send, receive, retain", look: "Underhand or below-shoulder send to a target." },
+      { code: "Safety", look: "Fetchers are not in the throwing lane." }
     ]
   },
   "End Ball": {
@@ -424,14 +370,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must complete 3 passes before a score (The Perfect Pass).", "Walking only for Grade 1–2."],
     look: "Ball-carriers are pivoting. Defenders do not contact."
-  ,
-    pos12: "A1–5, A1–11, C1–5",
-    pos34: "A3–5, A3–11, C3–5",
-    pos56: "A5–5, A5–11, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Carrier pivots — no running with the ball." },
-      { code: "A–11", look: "Looks for a teammate before a score." }
+      { code: "Movement · send, receive, retain", look: "Carrier pivots — no running with the ball." },
+      { code: "Movement · tactics", look: "Looks for a teammate before a score." }
     ]
   },
   "End Zone Ball": {
@@ -444,14 +387,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two balls for a big class.", "Score only in a hoop inside the end zone."],
     look: "Receivers are cutting to space, not clustering."
-  ,
-    pos12: "A1–5, A1–11, C1–5",
-    pos34: "A3–5, A3–11, C3–5",
-    pos56: "A5–5, A5–11, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Carrier pivots — no running with the ball." },
-      { code: "A–11", look: "Looks for a teammate before a score." }
+      { code: "Movement · send, receive, retain", look: "Carrier pivots — no running with the ball." },
+      { code: "Movement · tactics", look: "Looks for a teammate before a score." }
     ]
   },
   "The Perfect Pass": {
@@ -465,14 +405,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Everyone on the team must touch.", "Non-dominant-hand passes only for one round."],
     look: "The class is counting. Nobody is taking a blast first."
-  ,
-    pos12: "A1–5, A1–11, C1–5",
-    pos34: "A3–5, A3–11, C3–5",
-    pos56: "A5–5, A5–11, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Carrier pivots — no running with the ball." },
-      { code: "A–11", look: "Looks for a teammate before a score." }
+      { code: "Movement · send, receive, retain", look: "Carrier pivots — no running with the ball." },
+      { code: "Movement · tactics", look: "Looks for a teammate before a score." }
     ]
   },
   "Captain Ball": {
@@ -485,14 +422,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two captains.", "Captain must volley or bounce-pass out."],
     look: "Captains are swapping without an argument."
-  ,
-    pos12: "A1–5, A1–11, C1–5",
-    pos34: "A3–5, A3–11, C3–5",
-    pos56: "A5–5, A5–11, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Continuous Kick Ball": {
@@ -506,14 +440,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["One-base and back (Quick Baseball).", "Tee instead of a roll."],
     look: "The next kicker is ready. Ball goes to a hoop, not a body."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Everyone gets a kick or hit." },
-      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+      { code: "Movement · send, receive, retain", look: "Everyone gets a kick or hit." },
+      { code: "Movement · tactics", look: "Ball goes to a base or hoop, not at the runner." }
     ]
   },
   "Beat Ball / Beat the Ball": {
@@ -526,14 +457,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two bases only.", "Must touch every fielder’s hands before the ball can beat the runner."],
     look: "Throws are to a person at a base, not a race of kids chasing one runner."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Everyone gets a kick or hit." },
-      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+      { code: "Movement · send, receive, retain", look: "Everyone gets a kick or hit." },
+      { code: "Movement · tactics", look: "Ball goes to a base or hoop, not at the runner." }
     ]
   },
   "Quick Baseball": {
@@ -545,14 +473,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add second hoop.", "Kick instead of hit."],
     look: "One hitter at a time. Bat is down before they run."
-  ,
-    pos12: "A1–5, A1–13, A1–11, D1–5",
-    pos34: "A3–5, A3–13, A3–11, D3–5",
-    pos56: "A5–5, A5–13, A5–11, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Everyone gets a kick or hit." },
-      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+      { code: "Movement · send, receive, retain", look: "Everyone gets a kick or hit." },
+      { code: "Movement · tactics", look: "Ball goes to a base or hoop, not at the runner." }
     ]
   },
   "Diamond Strike": {
@@ -565,14 +490,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must hit to the opposite field.", "Force at every base."],
     look: "All four runners leave on contact."
-  ,
-    pos12: "A1–5, A1–13, A1–11, D1–5",
-    pos34: "A3–5, A3–13, A3–11, D3–5",
-    pos56: "A5–5, A5–13, A5–11, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Everyone gets a kick or hit." },
-      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+      { code: "Movement · send, receive, retain", look: "Everyone gets a kick or hit." },
+      { code: "Movement · tactics", look: "Ball goes to a base or hoop, not at the runner." }
     ]
   },
   "Kick It (mats)": {
@@ -585,14 +507,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must bounce the ball once before a tag.", "Mats closer for Grade 3."],
     look: "Ball is in two hands at the tag."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Everyone gets a kick or hit." },
-      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+      { code: "Movement · send, receive, retain", look: "Everyone gets a kick or hit." },
+      { code: "Movement · tactics", look: "Ball goes to a base or hoop, not at the runner." }
     ]
   },
   "Hit and Run": {
@@ -605,14 +524,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Opposite-side hits.", "Must slide-stop at the hoop (no dive)."],
     look: "Path is clear. Bat is in a hoop."
-  ,
-    pos12: "A1–5, A1–13, A1–11, D1–5",
-    pos34: "A3–5, A3–13, A3–11, D3–5",
-    pos56: "A5–5, A5–13, A5–11, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Everyone gets a kick or hit." },
-      { code: "A–11", look: "Ball goes to a base or hoop, not at the runner." }
+      { code: "Movement · send, receive, retain", look: "Everyone gets a kick or hit." },
+      { code: "Movement · tactics", look: "Ball goes to a base or hoop, not at the runner." }
     ]
   },
   "Skittles": {
@@ -625,14 +541,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Team Bowling: timed knockdown of a long pin line.", "Must bounce first."],
     look: "Pins stand again quickly. Throws stay low."
-  ,
-    pos12: "A1–5, A1–13, A1–11, D1–5",
-    pos34: "A3–5, A3–13, A3–11, D3–5",
-    pos56: "A5–5, A5–13, A5–11, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
-      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+      { code: "Movement · send, receive, retain", look: "Underhand or below-shoulder send to a target." },
+      { code: "Safety", look: "Fetchers are not in the throwing lane." }
     ]
   },
   "Skittle Ball": {
@@ -644,14 +557,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Left-hand round.", "Kick to knock pins."],
     look: "No one is standing among flying balls."
-  ,
-    pos12: "A1–5, A1–13, A1–11, D1–5",
-    pos34: "A3–5, A3–13, A3–11, D3–5",
-    pos56: "A5–5, A5–13, A5–11, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
-      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+      { code: "Movement · send, receive, retain", look: "Underhand or below-shoulder send to a target." },
+      { code: "Safety", look: "Fetchers are not in the throwing lane." }
     ]
   },
   "Team Bowling": {
@@ -664,14 +574,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must hit on a roll.", "Colour pins worth extra."],
     look: "Both teams stay behind the line until the whistle."
-  ,
-    pos12: "A1–5, A1–13, A1–11, D1–5",
-    pos34: "A3–5, A3–13, A3–11, D3–5",
-    pos56: "A5–5, A5–13, A5–11, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
-      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+      { code: "Movement · send, receive, retain", look: "Underhand or below-shoulder send to a target." },
+      { code: "Safety", look: "Fetchers are not in the throwing lane." }
     ]
   },
   "Protect the Castle": {
@@ -684,14 +591,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two castles, two armies.", "Must hit the pin on a bounce."],
     look: "Defenders are in an athletic stance, not a rugby pile."
-  ,
-    pos12: "A1–10, A1–11, D1–5, C1–5",
-    pos34: "A3–10, A3–11, D3–5, C3–5",
-    pos56: "A5–10, A5–11, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
-      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+      { code: "Movement · send, receive, retain", look: "Underhand or below-shoulder send to a target." },
+      { code: "Safety", look: "Fetchers are not in the throwing lane." }
     ]
   },
   "Poison Ball": {
@@ -705,14 +609,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["4-corner dodge.", "Must bounce the ball first."],
     look: "Balls stay low. Nobody is waiting on a bench."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–5", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "A–5", look: "Foam only." }
+      { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
+      { code: "Movement · send, receive, retain", look: "Foam only." }
     ]
   },
   "Survivor Dodgeball": {
@@ -724,14 +625,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Doctor: one teammate may unfreeze with a two-hand touch.", "Catch = the thrower stretches."],
     look: "The gym stays full of movers."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–5", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "A–5", look: "Foam only." }
+      { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
+      { code: "Movement · send, receive, retain", look: "Foam only." }
     ]
   },
   "Traffic Lights (kick)": {
@@ -744,14 +642,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add blue = change direction.", "No balls: locomotor only."],
     look: "Balls stay within a metre on yellow/red."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Through the Gates": {
@@ -764,14 +659,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must use the weak foot.", "A defender shadows one gate."],
     look: "Traps stay near the body. Gates are not knocked over on purpose."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
-      { code: "A–11", look: "One ball at a time; looks before sending." }
+      { code: "Movement · send, receive, retain", look: "Ball stays close; trap or dribble under control." },
+      { code: "Movement · tactics", look: "One ball at a time; looks before sending." }
     ]
   },
   "Guard the Gates": {
@@ -784,14 +676,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Hands-only reverse version.", "Must pass before a gate."],
     look: "Defenders are side-on, not diving."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
-      { code: "A–11", look: "One ball at a time; looks before sending." }
+      { code: "Movement · send, receive, retain", look: "Ball stays close; trap or dribble under control." },
+      { code: "Movement · tactics", look: "One ball at a time; looks before sending." }
     ]
   },
   "Dash and Dribble": {
@@ -804,14 +693,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Weak foot only.", "Add a hoop step-in."],
     look: "Eyes up. Next runner is ready."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
-      { code: "A–11", look: "One ball at a time; looks before sending." }
+      { code: "Movement · send, receive, retain", look: "Ball stays close; trap or dribble under control." },
+      { code: "Movement · tactics", look: "One ball at a time; looks before sending." }
     ]
   },
   "Reverse Soccer": {
@@ -824,14 +710,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Everyone touches before a shot.", "Walking only."],
     look: "No diving at ankles. Foam stays in the gym, not in the rafters."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
-      { code: "A–11", look: "One ball at a time; looks before sending." }
+      { code: "Movement · send, receive, retain", look: "Ball stays close; trap or dribble under control." },
+      { code: "Movement · tactics", look: "One ball at a time; looks before sending." }
     ]
   },
   "Go for Goal": {
@@ -844,14 +727,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must shoot with the weak foot or off-hand.", "One-touch finish."],
     look: "Sticks stay below the knee. Extra people are not crowding the ball."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
-      { code: "A–11", look: "One ball at a time; looks before sending." }
+      { code: "Movement · send, receive, retain", look: "Ball stays close; trap or dribble under control." },
+      { code: "Movement · tactics", look: "One ball at a time; looks before sending." }
     ]
   },
   "Numbers Hockey": {
@@ -864,14 +744,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Call two numbers always.", "Must pass once."],
     look: "Only the called numbers are in the middle."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
-      { code: "A–11", look: "One ball at a time; looks before sending." }
+      { code: "Movement · send, receive, retain", look: "Ball stays close; trap or dribble under control." },
+      { code: "Movement · tactics", look: "One ball at a time; looks before sending." }
     ]
   },
   "Wall Soccer": {
@@ -884,14 +761,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["One-touch finish.", "Must shoot below hip height."],
     look: "The wall is a line, not a charge."
-  ,
-    pos12: "A1–5, A1–11, A1–1, D1–5",
-    pos34: "A3–5, A3–11, A3–1, D3–5",
-    pos56: "A5–5, A5–11, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
-      { code: "A–11", look: "One ball at a time; looks before sending." }
+      { code: "Movement · send, receive, retain", look: "Ball stays close; trap or dribble under control." },
+      { code: "Movement · tactics", look: "One ball at a time; looks before sending." }
     ]
   },
   "Fruit Salad": {
@@ -905,14 +779,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add a locomotor (skip to your new spot).", "Use sport names."],
     look: "Spots stay put. No diving onto a hoop."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Finds a group or a spot without diving." },
-      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+      { code: "Movement · spatial awareness", look: "Finds a group or a spot without diving." },
+      { code: "Movement · fair play and teamwork", look: "Leftovers stay in — they join the teacher or the next round." }
     ]
   },
   "Group Numbers": {
@@ -925,14 +796,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must hold a shape in the group.", "Call ‘plus one muscle’ and they add a stretch."],
     look: "No one is left standing alone for more than a second."
-  ,
-    pos12: "A1–10, C1–5, A1–11",
-    pos34: "A3–10, C3–5, A3–11",
-    pos56: "A5–10, C5–5, A5–11"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Finds a group or a spot without diving." },
-      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+      { code: "Movement · spatial awareness", look: "Finds a group or a spot without diving." },
+      { code: "Movement · fair play and teamwork", look: "Leftovers stay in — they join the teacher or the next round." }
     ]
   },
   "Crazy Beans": {
@@ -944,14 +812,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Students invent a bean.", "Add a drum for the freeze."],
     look: "The class matches the same locomotor. Frozen beans are actually still."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Land and Sea": {
@@ -964,14 +829,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add ‘shark’ = sit with feet up.", "Two lines = a river."],
     look: "Two-foot jumps. No pushing on the line."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Here, There, Everywhere": {
@@ -983,14 +845,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add ‘home’ = a colour hoop.", "Student caller."],
     look: "Students look where they are going, not at the floor."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Follow the Leader": {
@@ -1003,14 +862,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must include a level change.", "Mirror (opposite) leader."],
     look: "New leaders are changing the movement, not just jogging."
-  ,
-    pos12: "A1–8, A1–9, A1–1",
-    pos34: "A3–8, A3–9, A3–1",
-    pos56: "A5–8, A5–9, A5–1"
+  
   ,
     outcomes: [
-      { code: "A–8", look: "Matches the beat or the leader." },
-      { code: "A–3", look: "Still on the freeze." }
+      { code: "Movement · rhythm and sequence", look: "Matches the beat or the leader." },
+      { code: "Movement · shapes and balance", look: "Still on the freeze." }
     ]
   },
   "Shadow Tag": {
@@ -1023,14 +879,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Pairs: stay in your partner’s shadow.", "Spot-shadows only."],
     look: "Tags are feet on a shadow, not a shove."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Soft feet on a shadow or spot." },
-      { code: "D–5", look: "No stomps on ankles." }
+      { code: "Movement · spatial awareness", look: "Soft feet on a shadow or spot." },
+      { code: "Safety", look: "No stomps on ankles." }
     ]
   },
   "Collect the Treasure": {
@@ -1043,14 +896,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must crab-walk.", "Steal from other nests after the middle is empty."],
     look: "No two bags in one pair of hands."
-  ,
-    pos12: "A1–10, A1–11, D1–5, C1–5",
-    pos34: "A3–10, A3–11, D3–5, C3–5",
-    pos56: "A5–10, A5–11, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–11", look: "One object or one rescue at a time." },
-      { code: "C–5", look: "Walks a jailed teammate home." }
+      { code: "Movement · tactics", look: "One object or one rescue at a time." },
+      { code: "Movement · fair play and teamwork", look: "Walks a jailed teammate home." }
     ]
   },
   "Heist the Treasure": {
@@ -1062,14 +912,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must dribble the treasure.", "Two treasures to win."],
     look: "Jails have a line. Bags are carried."
-  ,
-    pos12: "A1–10, A1–11, D1–5, C1–5",
-    pos34: "A3–10, A3–11, D3–5, C3–5",
-    pos56: "A5–10, A5–11, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–11", look: "One object or one rescue at a time." },
-      { code: "C–5", look: "Walks a jailed teammate home." }
+      { code: "Movement · tactics", look: "One object or one rescue at a time." },
+      { code: "Movement · fair play and teamwork", look: "Walks a jailed teammate home." }
     ]
   },
   "Plant the Trees": {
@@ -1082,14 +929,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must skip to the forest.", "Two plants per turn."],
     look: "Next runner waits behind a cone, not on the path."
-  ,
-    pos12: "A1–10, C1–5, A1–11",
-    pos34: "A3–10, C3–5, A3–11",
-    pos56: "A5–10, C5–5, A5–11"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Finds a group or a spot without diving." },
-      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+      { code: "Movement · spatial awareness", look: "Finds a group or a spot without diving." },
+      { code: "Movement · fair play and teamwork", look: "Leftovers stay in — they join the teacher or the next round." }
     ]
   },
   "Icebergs": {
@@ -1102,14 +946,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must jump-stick onto a hoop.", "Musical icebergs."],
     look: "Hoops are not pulled out from under feet."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Crosses on the call, not after a wait." },
-      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+      { code: "Movement · locomotor", look: "Crosses on the call, not after a wait." },
+      { code: "Safety", look: "Tagged player re-enters next wave — no last-one-standing." }
     ]
   },
   "Frogs on the Lily Pads": {
@@ -1122,14 +963,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two-to-one landings.", "Carry a beanbag on the head."],
     look: "Quiet landings. One frog per hoop at a time."
-  ,
-    pos12: "A1–12, A1–3, A1–1, D1–5",
-    pos34: "A3–12, A3–3, A3–1, D3–5",
-    pos56: "A5–12, A5–3, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–12", look: "Jump-stick or a still shape for 3 seconds." },
-      { code: "D–5", look: "One at a time on a hoop or mat." }
+      { code: "Movement · shapes and balance", look: "Jump-stick or a still shape for 3 seconds." },
+      { code: "Safety", look: "One at a time on a hoop or mat." }
     ]
   },
   "Safe to Shore": {
@@ -1142,14 +980,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must log-roll one mat.", "Carry a beanbag."],
     look: "Mats stay put. No diving onto a mat."
-  ,
-    pos12: "A1–12, A1–3, A1–1, D1–5",
-    pos34: "A3–12, A3–3, A3–1, D3–5",
-    pos56: "A5–12, A5–3, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Crosses on the call, not after a wait." },
-      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+      { code: "Movement · locomotor", look: "Crosses on the call, not after a wait." },
+      { code: "Safety", look: "Tagged player re-enters next wave — no last-one-standing." }
     ]
   },
   "Balloon Keep-Up": {
@@ -1162,14 +997,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Sit and keep-up.", "Add a second ball."],
     look: "Players make space after they touch."
-  ,
-    pos12: "A1–5, C1–5",
-    pos34: "A3–5, C3–5",
-    pos56: "A5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Catch, then throw — call it." },
-      { code: "C–1", look: "Uses a name or ‘mine’ before the send." }
+      { code: "Movement · send, receive, retain", look: "Catch, then throw — call it." },
+      { code: "Healthy Relationships", look: "Uses a name or ‘mine’ before the send." }
     ]
   },
   "Newcomb / FLY BACK": {
@@ -1183,14 +1015,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must pass once before it goes over.", "Optional bump then throw (Grade 5–6)."],
     look: "Three people are not jumping the same ball."
-  ,
-    pos12: "A1–5, A1–11, C1–5",
-    pos34: "A3–5, A3–11, C3–5",
-    pos56: "A5–5, A5–11, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Catch, then throw — call it." },
-      { code: "C–1", look: "Uses a name or ‘mine’ before the send." }
+      { code: "Movement · send, receive, retain", look: "Catch, then throw — call it." },
+      { code: "Healthy Relationships", look: "Uses a name or ‘mine’ before the send." }
     ]
   },
   "Flying Saucers": {
@@ -1203,14 +1032,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Catch in a scoring hoop (Frisbee Flingers).", "Opposite-hand sends."],
     look: "No one is downfield in the throwing lane."
-  ,
-    pos12: "A1–5, A1–11, C1–5",
-    pos34: "A3–5, A3–11, C3–5",
-    pos56: "A5–5, A5–11, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Catch, then throw — call it." },
-      { code: "C–1", look: "Uses a name or ‘mine’ before the send." }
+      { code: "Movement · send, receive, retain", look: "Catch, then throw — call it." },
+      { code: "Healthy Relationships", look: "Uses a name or ‘mine’ before the send." }
     ]
   },
   "Frisbee Flingers": {
@@ -1223,14 +1049,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must throw to a moving partner.", "Add one defender."],
     look: "Discs are not whipped at faces."
-  ,
-    pos12: "A1–5, A1–11, C1–5",
-    pos34: "A3–5, A3–11, C3–5",
-    pos56: "A5–5, A5–11, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Catch, then throw — call it." },
-      { code: "C–1", look: "Uses a name or ‘mine’ before the send." }
+      { code: "Movement · send, receive, retain", look: "Catch, then throw — call it." },
+      { code: "Healthy Relationships", look: "Uses a name or ‘mine’ before the send." }
     ]
   },
   "Crab Football": {
@@ -1243,14 +1066,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must pass to a crab teammate.", "One-hand carry only."],
     look: "Wrists get a break. No collapsing on a teammate."
-  ,
-    pos12: "A1–1, A1–5, A1–11",
-    pos34: "A3–1, A3–5, A3–11",
-    pos56: "A5–1, A5–5, A5–11"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Hips up for a short bout." },
-      { code: "A–5", look: "Foam ball only." }
+      { code: "Movement · locomotor", look: "Hips up for a short bout." },
+      { code: "Movement · send, receive, retain", look: "Foam ball only." }
     ]
   },
   "Cornerball": {
@@ -1263,14 +1083,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must visit two hoops.", "Two balls."],
     look: "Corners are not all stacked with the same team."
-  ,
-    pos12: "A1–5, A1–11, C1–5",
-    pos34: "A3–5, A3–11, C3–5",
-    pos56: "A5–5, A5–11, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Carrier pivots — no running with the ball." },
-      { code: "A–11", look: "Looks for a teammate before a score." }
+      { code: "Movement · send, receive, retain", look: "Carrier pivots — no running with the ball." },
+      { code: "Movement · tactics", look: "Looks for a teammate before a score." }
     ]
   },
   "Hurley Burley": {
@@ -1283,14 +1100,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Hands only.", "Feet only."],
     look: "Players are choosing a send, not wrestling the ball."
-  ,
-    pos12: "A1–5, A1–11, C1–5",
-    pos34: "A3–5, A3–11, C3–5",
-    pos56: "A5–5, A5–11, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Chooses kick, bounce, or throw." },
-      { code: "A–11", look: "A tip means pass at once." }
+      { code: "Movement · send, receive, retain", look: "Chooses kick, bounce, or throw." },
+      { code: "Movement · tactics", look: "A tip means pass at once." }
     ]
   },
   "Slide Sling Save": {
@@ -1303,14 +1117,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must bounce once.", "Two jails."],
     look: "Bags stay on the floor. Jails empty with catches."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–5", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "A–5", look: "Foam only." }
+      { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
+      { code: "Movement · send, receive, retain", look: "Foam only." }
     ]
   },
   "Jailbreakers": {
@@ -1323,14 +1134,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two-hand join on the walk.", "Jailbreak: one special player may free the whole jail once."],
     look: "The longest-waiting player leaves first."
-  ,
-    pos12: "A1–10, A1–11, D1–5, C1–5",
-    pos34: "A3–10, A3–11, D3–5, C3–5",
-    pos56: "A5–10, A5–11, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–11", look: "One object or one rescue at a time." },
-      { code: "C–5", look: "Walks a jailed teammate home." }
+      { code: "Movement · tactics", look: "One object or one rescue at a time." },
+      { code: "Movement · fair play and teamwork", look: "Walks a jailed teammate home." }
     ]
   },
   "Parachute popcorn / dome / cat-and-mouse": {
@@ -1344,14 +1152,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Number games under the chute.", "Mushroom freeze."],
     look: "The chute stays round. Nobody is pulled off their feet."
-  ,
-    pos12: "A1–5, C1–5, D1–5",
-    pos34: "A3–5, C3–5, D3–5",
-    pos56: "A5–5, C5–5, D5–5"
+  
   ,
     outcomes: [
-      { code: "C–5", look: "The chute stays round; nobody lets go to chase." },
-      { code: "A–3", look: "Matches force with the group." }
+      { code: "Movement · fair play and teamwork", look: "The chute stays round; nobody lets go to chase." },
+      { code: "Movement · shapes and balance", look: "Matches force with the group." }
     ]
   },
   "Helicopter / Snake rope": {
@@ -1364,14 +1169,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two snakes.", "Travel around the helicopter path."],
     look: "Heads are up. The rope is not whipped."
-  ,
-    pos12: "A1–13, A1–1, D1–5",
-    pos34: "A3–13, A3–1, D3–5",
-    pos56: "A5–13, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–13", look: "Jumps or steps the rope; quiet land." },
-      { code: "D–5", look: "Rope stays low; no whipping." }
+      { code: "Movement · run, jump, throw", look: "Jumps or steps the rope; quiet land." },
+      { code: "Safety", look: "Rope stays low; no whipping." }
     ]
   },
   "Switch": {
@@ -1384,14 +1186,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Call a colour to switch.", "Must skip to the new spot."],
     look: "Spots stay on the floor."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Finds a group or a spot without diving." },
-      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+      { code: "Movement · spatial awareness", look: "Finds a group or a spot without diving." },
+      { code: "Movement · fair play and teamwork", look: "Leftovers stay in — they join the teacher or the next round." }
     ]
   },
   "Rikki Tikki": {
@@ -1404,14 +1203,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add a locomotor between calls.", "Students call."],
     look: "Touches are light and brief."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–3", look: "Matches the called body parts." },
-      { code: "C–3", look: "A student may show space instead of a touch." }
+      { code: "Movement · shapes and balance", look: "Matches the called body parts." },
+      { code: "Movement · fair play and teamwork", look: "A student may show space instead of a touch." }
     ]
   },
   "Buffalo": {
@@ -1424,14 +1220,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two herds.", "Must stay on lines."],
     look: "No whip-cracks of a long line."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "The chain splits before it gets unsafe." },
-      { code: "C–5", look: "Holds on without yanking." }
+      { code: "Movement · spatial awareness", look: "The chain splits before it gets unsafe." },
+      { code: "Movement · fair play and teamwork", look: "Holds on without yanking." }
     ]
   },
   "Invent-a-game": {
@@ -1456,14 +1249,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two-bounce allowed.", "Must pass to a teammate before it goes back."],
     look: "Serves stay below the shoulders."
-  ,
-    pos12: "A1–11, C1–3",
-    pos34: "A3–11, C3–3",
-    pos56: "A5–11, C5–4, C5–3"
+  
   ,
     outcomes: [
-      { code: "A–11", look: "Can say start, score, and safety." },
-      { code: "C–4", look: "Teaches those three things in a short turn." }
+      { code: "Movement · tactics", look: "Can say start, score, and safety." },
+      { code: "Character", look: "Teaches those three things in a short turn." }
     ]
   },
   "Around the Bases Relay": {
@@ -1476,14 +1266,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must skip the bases.", "Carry a foam ball and trap at each hoop."],
     look: "Two teams are not on the same base path."
-  ,
-    pos12: "A1–5, A1–13, A1–11, D1–5",
-    pos34: "A3–5, A3–13, A3–11, D3–5",
-    pos56: "A5–5, A5–13, A5–11, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Waits behind the line for the tag." },
-      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+      { code: "Movement · locomotor", look: "Waits behind the line for the tag." },
+      { code: "Movement · fair play and teamwork", look: "Hands off — does not throw at a teammate." }
     ]
   },
   "Attention Relay": {
@@ -1496,14 +1283,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add a skill at the cone (jump-stick, 5 skips).", "Two calls at once."],
     look: "False starts come back without an argument."
-  ,
-    pos12: "A1–1, A1–13, C1–5",
-    pos34: "A3–1, A3–13, C3–5",
-    pos56: "A5–1, A5–13, C5–5, D5–2"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Waits behind the line for the tag." },
-      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+      { code: "Movement · locomotor", look: "Waits behind the line for the tag." },
+      { code: "Movement · fair play and teamwork", look: "Hands off — does not throw at a teammate." }
     ]
   },
   "Back to Base": {
@@ -1516,14 +1300,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must travel a named locomotor home.", "Colour bases."],
     look: "Equipment is in hoops, not scattered."
-  ,
-    pos12: "A1–5, A1–13, A1–11, D1–5",
-    pos34: "A3–5, A3–13, A3–11, D3–5",
-    pos56: "A5–5, A5–13, A5–11, D5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Returns to the home hoop on the whistle." },
-      { code: "C–5", look: "Last group leads a stretch — not out." }
+      { code: "Safety", look: "Returns to the home hoop on the whistle." },
+      { code: "Movement · fair play and teamwork", look: "Last group leads a stretch — not out." }
     ]
   },
   "Barkball": {
@@ -1536,14 +1317,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must use the other team’s names (harder listen).", "Quiet mouths for one round — hand signals only."],
     look: "Names are called before the throw, not after."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "C–1", look: "Calls a name before the catch." },
-      { code: "A–5", look: "3-second hold, then pass." }
+      { code: "Healthy Relationships", look: "Calls a name before the catch." },
+      { code: "Movement · send, receive, retain", look: "3-second hold, then pass." }
     ]
   },
   "Body-part beanbags": {
@@ -1556,14 +1334,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two bags.", "Must sit and stand with the bag on the head."],
     look: "Bags are not thrown at people."
-  ,
-    pos12: "A1–5, A1–10, D1–5",
-    pos34: "A3–5, A3–10, D3–5",
-    pos56: "A5–5, A5–10, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Matches the send to the object." },
-      { code: "D–3", look: "Moves on the call, not before." }
+      { code: "Movement · send, receive, retain", look: "Matches the send to the object." },
+      { code: "Safety", look: "Moves on the call, not before." }
     ]
   },
   "Booger Ball": {
@@ -1576,14 +1351,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must pass with the other hand.", "Two balls."],
     look: "No one is being chased with a held ball for more than 3 seconds."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "C–1", look: "Calls a name before the catch." },
-      { code: "A–5", look: "3-second hold, then pass." }
+      { code: "Healthy Relationships", look: "Calls a name before the catch." },
+      { code: "Movement · send, receive, retain", look: "3-second hold, then pass." }
     ]
   },
   "Bucket Ball": {
@@ -1596,14 +1368,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Step back after each make.", "Opposite-hand round."],
     look: "The throwing lane is empty."
-  ,
-    pos12: "A1–5, A1–10, D1–5",
-    pos34: "A3–5, A3–10, D3–5",
-    pos56: "A5–5, A5–10, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Underhand or below-shoulder send to a target." },
-      { code: "D–5", look: "Fetchers are not in the throwing lane." }
+      { code: "Movement · send, receive, retain", look: "Underhand or below-shoulder send to a target." },
+      { code: "Safety", look: "Fetchers are not in the throwing lane." }
     ]
   },
   "Bug Tag / Dead Ant": {
@@ -1616,14 +1385,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two-helper version for Grade 1.", "Must crawl one body-length after you stand."],
     look: "Helpers are on four different limbs. No dragging."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Soft tag; the tagged player has a way back in." },
-      { code: "C–5", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
+      { code: "Movement · spatial awareness", look: "Soft tag; the tagged player has a way back in." },
+      { code: "Movement · fair play and teamwork", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
     ]
   },
   "Buzz Off / hoop free zones": {
@@ -1636,14 +1402,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must skip between hives.", "Colour hives: only your colour is safe."],
     look: "Hoops are not forts. People leave after a count of 5."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Leaves the hoop after a count of 5." },
-      { code: "D–5", look: "No camping on a hive." }
+      { code: "Movement · spatial awareness", look: "Leaves the hoop after a count of 5." },
+      { code: "Safety", look: "No camping on a hive." }
     ]
   },
   "Card Sharks": {
@@ -1656,14 +1419,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add a skill to each suit.", "Must find the matching number without talking."],
     look: "Cards are on the floor or in hands — not being thrown."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Crosses on the call, not after a wait." },
-      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+      { code: "Movement · locomotor", look: "Crosses on the call, not after a wait." },
+      { code: "Safety", look: "Tagged player re-enters next wave — no last-one-standing." }
     ]
   },
   "Chicken Checkers": {
@@ -1676,14 +1436,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must hop to a hoop.", "Four in a row for a bigger grid."],
     look: "Only one player is in a hoop at a time."
-  ,
-    pos12: "A1–10, C1–5, A1–11",
-    pos34: "A3–10, C3–5, A3–11",
-    pos56: "A5–10, C5–5, A5–11"
+  
   ,
     outcomes: [
-      { code: "A–11", look: "One object per trip." },
-      { code: "A–10", look: "No sliding a piece into a person." }
+      { code: "Movement · tactics", look: "One object per trip." },
+      { code: "Movement · spatial awareness", look: "No sliding a piece into a person." }
     ]
   },
   "Chuck the Chicken": {
@@ -1696,14 +1453,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must use an underhand throw.", "Passes must be to a different person each time."],
     look: "The thrower is a still cone — people run around, not through."
-  ,
-    pos12: "A1–5, A1–13, A1–11, D1–5",
-    pos34: "A3–5, A3–13, A3–11, D3–5",
-    pos56: "A5–5, A5–13, A5–11, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Everyone gets a throw or kick." },
-      { code: "A–11", look: "Fielding team passes to stop the count." }
+      { code: "Movement · send, receive, retain", look: "Everyone gets a throw or kick." },
+      { code: "Movement · tactics", look: "Fielding team passes to stop the count." }
     ]
   },
   "Clothespin Tag": {
@@ -1716,14 +1470,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Team colours.", "Only steal from the side, not a dive."],
     look: "Shirts are not being pulled."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–5", look: "Two fingers on the tail or pin, not on clothes." },
-      { code: "A–10", look: "Hands the pin or tail back." }
+      { code: "Safety", look: "Two fingers on the tail or pin, not on clothes." },
+      { code: "Movement · spatial awareness", look: "Hands the pin or tail back." }
     ]
   },
   "Cone Relay": {
@@ -1736,14 +1487,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must sidestep.", "Upside-down stacks only."],
     look: "Stacks are built, not thrown."
-  ,
-    pos12: "A1–1, A1–13, C1–5",
-    pos34: "A3–1, A3–13, C3–5",
-    pos56: "A5–1, A5–13, C5–5, D5–2"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Waits behind the line for the tag." },
-      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+      { code: "Movement · locomotor", look: "Waits behind the line for the tag." },
+      { code: "Movement · fair play and teamwork", look: "Hands off — does not throw at a teammate." }
     ]
   },
   "Dash for Safety": {
@@ -1756,14 +1504,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two colours at once.", "Must dribble to safety."],
     look: "The centre empties on the call — no camping."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Crosses on the call, not after a wait." },
-      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+      { code: "Movement · locomotor", look: "Crosses on the call, not after a wait." },
+      { code: "Safety", look: "Tagged player re-enters next wave — no last-one-standing." }
     ]
   },
   "Daytime / Nighttime": {
@@ -1776,14 +1521,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Dawn = slow motion.", "Student owl watches instead of the teacher."],
     look: "Freezes are still. No sneak-crawling into a tagger."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Elves, Giants, Wizards": {
@@ -1797,14 +1539,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Teacher picks the shape for Grade 1.", "Must skip home."],
     look: "Both teams show at the same time. No late changes."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Moves only when their name or shape wins." },
-      { code: "A–10", look: "Tagged player re-enters or switches — nobody sits out." }
+      { code: "Safety", look: "Moves only when their name or shape wins." },
+      { code: "Movement · spatial awareness", look: "Tagged player re-enters or switches — nobody sits out." }
     ]
   },
   "European Rhythmic Running": {
@@ -1817,14 +1556,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Levels on the phrase.", "Add a clap pattern."],
     look: "The class is together on the beat, not racing."
-  ,
-    pos12: "A1–8, A1–9, A1–1",
-    pos34: "A3–8, A3–9, A3–1",
-    pos56: "A5–8, A5–9, A5–1"
+  
   ,
     outcomes: [
-      { code: "A–13", look: "Jumps or steps the rope; quiet land." },
-      { code: "D–5", look: "Rope stays low; no whipping." }
+      { code: "Movement · run, jump, throw", look: "Jumps or steps the rope; quiet land." },
+      { code: "Safety", look: "Rope stays low; no whipping." }
     ]
   },
   "FLY BACK": {
@@ -1837,14 +1573,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must catch one-handed for a bonus (Grade 5–6).", "Two balls."],
     look: "One throw at a time. Fielders are not colliding."
-  ,
-    pos12: "A1–5, A1–11, C1–5",
-    pos34: "A3–5, A3–11, C3–5",
-    pos56: "A5–5, A5–11, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Catch, then throw — call it." },
-      { code: "C–1", look: "Uses a name or ‘mine’ before the send." }
+      { code: "Movement · send, receive, retain", look: "Catch, then throw — call it." },
+      { code: "Healthy Relationships", look: "Uses a name or ‘mine’ before the send." }
     ]
   },
   "Human Bop-It": {
@@ -1857,14 +1590,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add ‘repeat’ to do the last action twice.", "Opposite actions (twist the other way)."],
     look: "The class is listening more than they are talking."
-  ,
-    pos12: "A1–8, A1–9, A1–1",
-    pos34: "A3–8, A3–9, A3–1",
-    pos56: "A5–8, A5–9, A5–1"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Hungry Snake": {
@@ -1877,14 +1607,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must stay on lines.", "Two snakes from the start."],
     look: "No whip. Hands are on a waistband or hoop, not a neck."
-  ,
-    pos12: "A1–13, A1–1, D1–5",
-    pos34: "A3–13, A3–1, D3–5",
-    pos56: "A5–13, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "The chain splits before it gets unsafe." },
-      { code: "C–5", look: "Holds on without yanking." }
+      { code: "Movement · spatial awareness", look: "The chain splits before it gets unsafe." },
+      { code: "Movement · fair play and teamwork", look: "Holds on without yanking." }
     ]
   },
   "Jungle Run Relays": {
@@ -1897,14 +1624,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Crab one segment.", "Carry a beanbag."],
     look: "The next runner is behind a start cone."
-  ,
-    pos12: "A1–1, A1–13, C1–5",
-    pos34: "A3–1, A3–13, C3–5",
-    pos56: "A5–1, A5–13, C5–5, D5–2"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Waits behind the line for the tag." },
-      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+      { code: "Movement · locomotor", look: "Waits behind the line for the tag." },
+      { code: "Movement · fair play and teamwork", look: "Hands off — does not throw at a teammate." }
     ]
   },
   "Laps and Lines / Signals": {
@@ -1917,14 +1641,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Student signal leader.", "Add a muscle-name stretch signal."],
     look: "The class freezes on the first whistle."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Magic Numbers": {
@@ -1937,14 +1658,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must use a level change.", "Add a locomotor to collect the group."],
     look: "The number is readable from the balcony."
-  ,
-    pos12: "A1–10, C1–5, A1–11",
-    pos34: "A3–10, C3–5, A3–11",
-    pos56: "A5–10, C5–5, A5–11"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Finds a group or a spot without diving." },
-      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+      { code: "Movement · spatial awareness", look: "Finds a group or a spot without diving." },
+      { code: "Movement · fair play and teamwork", look: "Leftovers stay in — they join the teacher or the next round." }
     ]
   },
   "Mass Challenges": {
@@ -1957,14 +1675,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["No talking.", "Must use only two body parts."],
     look: "The class is planning for 10 seconds before they rush."
-  ,
-    pos12: "A1–10, C1–5, A1–11",
-    pos34: "A3–10, C3–5, A3–11",
-    pos56: "A5–10, C5–5, A5–11"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Finds a group or a spot without diving." },
-      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+      { code: "Movement · spatial awareness", look: "Finds a group or a spot without diving." },
+      { code: "Movement · fair play and teamwork", look: "Leftovers stay in — they join the teacher or the next round." }
     ]
   },
   "Memory Relay": {
@@ -1977,14 +1692,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must do the locomotor as well as name it.", "Two sequences."],
     look: "Only one runner is at the sequence at a time."
-  ,
-    pos12: "A1–1, A1–13, C1–5",
-    pos34: "A3–1, A3–13, C3–5",
-    pos56: "A5–1, A5–13, C5–5, D5–2"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Waits behind the line for the tag." },
-      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+      { code: "Movement · locomotor", look: "Waits behind the line for the tag." },
+      { code: "Movement · fair play and teamwork", look: "Hands off — does not throw at a teammate." }
     ]
   },
   "Object Toss mixer": {
@@ -1997,14 +1709,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Non-dominant hand.", "Must send to a moving partner."],
     look: "Objects are not all in one corner."
-  ,
-    pos12: "A1–5, A1–10, D1–5",
-    pos34: "A3–5, A3–10, D3–5",
-    pos56: "A5–5, A5–10, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Matches the send to the object." },
-      { code: "D–3", look: "Moves on the call, not before." }
+      { code: "Movement · send, receive, retain", look: "Matches the send to the object." },
+      { code: "Safety", look: "Moves on the call, not before." }
     ]
   },
   "Pip, Squeak and Wilbur": {
@@ -2017,14 +1726,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Whole-class locomotor when your name is called.", "Add a fourth name."],
     look: "The circle stays a circle. Chasers go one way."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Matches the send to the object." },
-      { code: "D–3", look: "Moves on the call, not before." }
+      { code: "Movement · send, receive, retain", look: "Matches the send to the object." },
+      { code: "Safety", look: "Moves on the call, not before." }
     ]
   },
   "RPS Rounders": {
@@ -2037,14 +1743,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must skip to the next game.", "Use elves-giants-wizards shapes."],
     look: "Games last 5 seconds. Nobody is waiting in a long line."
-  ,
-    pos12: "A1–10, A1–1, D1–5, C1–5",
-    pos34: "A3–10, A3–1, D3–5, C3–5",
-    pos56: "A5–10, A5–1, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–11", look: "One throw and go — no long stalls." },
-      { code: "C–3", look: "Loser does a skill and finds a new game." }
+      { code: "Movement · tactics", look: "One throw and go — no long stalls." },
+      { code: "Movement · fair play and teamwork", look: "Loser does a skill and finds a new game." }
     ]
   },
   "Rescue Relay": {
@@ -2057,14 +1760,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must crab the last rescue.", "Hoop trains only."],
     look: "Joins are at the hand or hoop, not a drag."
-  ,
-    pos12: "A1–1, A1–13, C1–5",
-    pos34: "A3–1, A3–13, C3–5",
-    pos56: "A5–1, A5–13, C5–5, D5–2"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Waits behind the line for the tag." },
-      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+      { code: "Movement · locomotor", look: "Waits behind the line for the tag." },
+      { code: "Movement · fair play and teamwork", look: "Hands off — does not throw at a teammate." }
     ]
   },
   "Robin’s Nest": {
@@ -2077,14 +1777,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must trap before you pick up.", "Colour eggs to colour nests."],
     look: "Nests are open. Eggs travel one at a time."
-  ,
-    pos12: "A1–10, A1–11, D1–5, C1–5",
-    pos34: "A3–10, A3–11, D3–5, C3–5",
-    pos56: "A5–10, A5–11, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–5", look: "Ball stays close; trap or dribble under control." },
-      { code: "A–11", look: "One ball at a time; looks before sending." }
+      { code: "Movement · send, receive, retain", look: "Ball stays close; trap or dribble under control." },
+      { code: "Movement · tactics", look: "One ball at a time; looks before sending." }
     ]
   },
   "Rubber Band": {
@@ -2097,14 +1794,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add a shape in the middle.", "Two bands."],
     look: "Arms are soft. Nobody is being pulled off their feet."
-  ,
-    pos12: "A1–10, C1–5, A1–11",
-    pos34: "A3–10, C3–5, A3–11",
-    pos56: "A5–10, C5–5, A5–11"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Finds a group or a spot without diving." },
-      { code: "C–5", look: "Leftovers stay in — they join the teacher or the next round." }
+      { code: "Movement · spatial awareness", look: "Finds a group or a spot without diving." },
+      { code: "Movement · fair play and teamwork", look: "Leftovers stay in — they join the teacher or the next round." }
     ]
   },
   "Sharks and Dolphins (chute)": {
@@ -2117,14 +1811,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Colour sharks: only tag a called colour.", "No under-the-chute for Grade 1 — play island sharks instead."],
     look: "Heads are not under a collapsing chute. Knees are down on the edge."
-  ,
-    pos12: "A1–5, C1–5, D1–5",
-    pos34: "A3–5, C3–5, D3–5",
-    pos56: "A5–5, C5–5, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Crosses on the call, not after a wait." },
-      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+      { code: "Movement · locomotor", look: "Crosses on the call, not after a wait." },
+      { code: "Safety", look: "Tagged player re-enters next wave — no last-one-standing." }
     ]
   },
   "Signals / shapes": {
@@ -2137,14 +1828,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Opposite shape.", "Student signaler."],
     look: "Shapes are tight. Travel stops on the signal."
-  ,
-    pos12: "A1–12, A1–3, A1–1, D1–5",
-    pos34: "A3–12, A3–3, A3–1, D3–5",
-    pos56: "A5–12, A5–3, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Silly Bananas": {
@@ -2157,14 +1845,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Add a level (low banana).", "Pair bananas."],
     look: "The freeze is actually still."
-  ,
-    pos12: "A1–8, A1–9, A1–1",
-    pos34: "A3–8, A3–9, A3–1",
-    pos56: "A5–8, A5–9, A5–1"
+  
   ,
     outcomes: [
-      { code: "A–8", look: "Matches the beat or the leader." },
-      { code: "A–3", look: "Still on the freeze." }
+      { code: "Movement · rhythm and sequence", look: "Matches the beat or the leader." },
+      { code: "Movement · shapes and balance", look: "Still on the freeze." }
     ]
   },
   "Slap Rover": {
@@ -2177,14 +1862,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Send a colour only.", "Must skip across."],
     look: "There is no human wall. Tags are two-finger."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Crosses on the call, not after a wait." },
-      { code: "D–5", look: "Tagged player re-enters next wave — no last-one-standing." }
+      { code: "Movement · locomotor", look: "Crosses on the call, not after a wait." },
+      { code: "Safety", look: "Tagged player re-enters next wave — no last-one-standing." }
     ]
   },
   "Slippery Snakes": {
@@ -2197,14 +1879,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two snakes to cross.", "Travel sideways."],
     look: "Ropes are low. Turners are on their knees or standing with slack."
-  ,
-    pos12: "A1–13, A1–1, D1–5",
-    pos34: "A3–13, A3–1, D3–5",
-    pos56: "A5–13, A5–1, D5–5"
+  
   ,
     outcomes: [
-      { code: "A–13", look: "Jumps or steps the rope; quiet land." },
-      { code: "D–5", look: "Rope stays low; no whipping." }
+      { code: "Movement · run, jump, throw", look: "Jumps or steps the rope; quiet land." },
+      { code: "Safety", look: "Rope stays low; no whipping." }
     ]
   },
   "Speed Run Relay": {
@@ -2217,14 +1896,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Weak-foot dribble.", "Carry a beanbag on the head."],
     look: "Lanes are straight. Tags happen behind the line."
-  ,
-    pos12: "A1–1, A1–13, C1–5",
-    pos34: "A3–1, A3–13, C3–5",
-    pos56: "A5–1, A5–13, C5–5, D5–2"
+  
   ,
     outcomes: [
-      { code: "A–1", look: "Waits behind the line for the tag." },
-      { code: "C–5", look: "Hands off — does not throw at a teammate." }
+      { code: "Movement · locomotor", look: "Waits behind the line for the tag." },
+      { code: "Movement · fair play and teamwork", look: "Hands off — does not throw at a teammate." }
     ]
   },
   "Squirrel’s Tail": {
@@ -2237,14 +1913,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Mother squirrel may only walk.", "Two tails."],
     look: "Waistbands, not hair or hoods."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–5", look: "Two fingers on the tail or pin, not on clothes." },
-      { code: "A–10", look: "Hands the pin or tail back." }
+      { code: "Safety", look: "Two fingers on the tail or pin, not on clothes." },
+      { code: "Movement · spatial awareness", look: "Hands the pin or tail back." }
     ]
   },
   "Stones": {
@@ -2257,14 +1930,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must hop the finished path.", "Colour stones to colour nests."],
     look: "Stones stay on the floor unless they are being carried."
-  ,
-    pos12: "A1–10, C1–5, A1–11",
-    pos34: "A3–10, C3–5, A3–11",
-    pos56: "A5–10, C5–5, A5–11"
+  
   ,
     outcomes: [
-      { code: "A–11", look: "One object per trip." },
-      { code: "A–10", look: "No sliding a piece into a person." }
+      { code: "Movement · tactics", look: "One object per trip." },
+      { code: "Movement · spatial awareness", look: "No sliding a piece into a person." }
     ]
   },
   "Survivor Tag": {
@@ -2277,14 +1947,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Skill is a balance until a helper taps.", "Two skills on the second tag."],
     look: "The skill is short. The gym stays full."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "A tag is a short skill, then back in." },
-      { code: "D–5", look: "Soft tag." }
+      { code: "Movement · spatial awareness", look: "A tag is a short skill, then back in." },
+      { code: "Safety", look: "Soft tag." }
     ]
   },
   "Team Tag": {
@@ -2297,14 +1964,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Must be holding a foam ball to tag.", "Safe hoops for 5 seconds."],
     look: "Pinnies come off without a shirt grab."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "A tag is a short skill, then back in." },
-      { code: "D–5", look: "Soft tag." }
+      { code: "Movement · spatial awareness", look: "A tag is a short skill, then back in." },
+      { code: "Safety", look: "Soft tag." }
     ]
   },
   "Thunderball": {
@@ -2317,14 +1981,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Rolls only.", "Two-hand catch is a save."],
     look: "Balls stay low. No head shots."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "D–5", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "A–5", look: "Foam only." }
+      { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
+      { code: "Movement · send, receive, retain", look: "Foam only." }
     ]
   },
   "Tripod Tag": {
@@ -2337,14 +1998,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Safe shape is a stork.", "Must change the three points each time."],
     look: "Tripods are still. People are not crashing into a downed player."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "A tag is a short skill, then back in." },
-      { code: "D–5", look: "Soft tag." }
+      { code: "Movement · spatial awareness", look: "A tag is a short skill, then back in." },
+      { code: "Safety", look: "Soft tag." }
     ]
   },
   "Video Game": {
@@ -2357,14 +2015,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["Two-player: half the class is player 1.", "Add a boss (a tagger) on ‘level 2.’"],
     look: "Pause really pauses."
-  ,
-    pos12: "A1–8, A1–9, A1–1",
-    pos34: "A3–8, A3–9, A3–1",
-    pos56: "A5–8, A5–9, A5–1"
+  
   ,
     outcomes: [
-      { code: "D–3", look: "Changes movement on the first signal." },
-      { code: "A–1", look: "Shows the named locomotor or shape." }
+      { code: "Safety", look: "Changes movement on the first signal." },
+      { code: "Movement · locomotor", look: "Shows the named locomotor or shape." }
     ]
   },
   "Waspital": {
@@ -2377,14 +2032,11 @@ window.GAME_EXTRAS = {
     ],
     variations: ["One tagger is a ‘doctor’ who can unfreeze on the way.", "Weak-hand tags only."],
     look: "Hospitals are not crowded. Stretches are real."
-  ,
-    pos12: "A1–1, A1–10, D1–5, C1–5",
-    pos34: "A3–1, A3–10, D3–5, C3–5",
-    pos56: "A5–1, A5–10, D5–5, C5–5"
+  
   ,
     outcomes: [
-      { code: "A–10", look: "Soft tag; the tagged player has a way back in." },
-      { code: "C–5", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
+      { code: "Movement · spatial awareness", look: "Soft tag; the tagged player has a way back in." },
+      { code: "Movement · fair play and teamwork", look: "Someone helps unfreeze or walks a classmate to ‘hospital.’" }
     ]
   }
 };
