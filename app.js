@@ -2,6 +2,28 @@
   const PE = window.PE;
   if (!PE) return;
   const { months, MONTH_GAMES, GLANCE } = PE;
+  const UNIT = window.UNIT_OUTCOMES || {};
+
+  function outcomesBlock(name) {
+    const u = UNIT[name];
+    if (!u) return "";
+    return `<div class="panel outcomes">
+      <h2>Outcomes and assessment</h2>
+      <p class="meta"><strong>Alberta PEW organizing ideas:</strong> ${u.oi.join(" · ")}</p>
+      <p>${u.why}</p>
+      <div class="out-grid">
+        <div><h3>Grades 1–2</h3><ul class="clean">${u.g12.map((x) => `<li>${x}</li>`).join("")}</ul></div>
+        <div><h3>Grades 3–4</h3><ul class="clean">${u.g34.map((x) => `<li>${x}</li>`).join("")}</ul></div>
+        <div><h3>Grades 5–6</h3><ul class="clean">${u.g56.map((x) => `<li>${x}</li>`).join("")}</ul></div>
+      </div>
+      <h3>How you might assess this month</h3>
+      <table class="games">
+        <thead><tr><th>What</th><th>How</th><th>Look-for / evidence</th></tr></thead>
+        <tbody>${u.assess.map((a) => `<tr><td><strong>${a.what}</strong></td><td>${a.how}</td><td>${a.evidence}</td></tr>`).join("")}</tbody>
+      </table>
+      <p class="note">Match report-card comments to the current learning outcome on LearnAlberta. Do not rank fitness scores.</p>
+    </div>`;
+  }
 
   const slug = (name) => name.toLowerCase();
   const qs = new URLSearchParams(location.search);
@@ -70,6 +92,7 @@
         <p class="meta"><strong>Fitness update:</strong> ${m.fitness}</p>
         <p class="note">${m.notes}</p>
       </div>
+      ${outcomesBlock(m.name)}
       <div class="clock">
         <div><b>0–5 min</b>Warm-up</div>
         <div><b>5–16 min</b>Skill / main</div>
