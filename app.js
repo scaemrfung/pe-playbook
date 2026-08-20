@@ -1,7 +1,14 @@
 (function () {
+  function videoHtml(name) {
+    const v = (window.YOUTUBE || {})[name];
+    if (!v) return "";
+    return `<p class="yt"><a href="${v.url}" target="_blank" rel="noopener">Watch: ${v.title}</a>${v.note ? ` <span class="meta">${v.note}</span>` : ""}</p>`;
+  }
+
+  const page = document.body && document.body.dataset.page;
   const PE = window.PE;
-  if (!PE) return;
-  const { months, MONTH_GAMES, GLANCE } = PE;
+  if (!PE && page !== "indigenous") return;
+  const { months, MONTH_GAMES, GLANCE } = PE || { months: [], MONTH_GAMES: {}, GLANCE: [] };
   const UNIT = window.UNIT_OUTCOMES || {};
   const K2M = window.K2_MONTH_GAMES || {};
   const G36M = window.G36_MONTH_GAMES || {};
@@ -32,7 +39,7 @@
 
   const slug = (name) => name.toLowerCase();
   const qs = new URLSearchParams(location.search);
-  const page = document.body.dataset.page;
+  // page already set
 
   function el(html) {
     const t = document.createElement("template");
@@ -147,7 +154,7 @@
             <div><strong>Grades 3–4.</strong> ${g.g34}</div>
             <div><strong>Grades 5–6.</strong> ${g.g56}</div>
           </div>
-          <p class="note"><strong>Safety.</strong> ${g.safety}</p>
+          <p class="note"><strong>Safety.</strong> ${g.safety}</p>${videoHtml(g.name)}
         </article>`).join("");
       const ps = window.PAIR_STATIONS;
       let stations = "";
@@ -190,7 +197,7 @@
             <div><strong>5–6:</strong> ${g.g56}</div>
           </div>
           <p class="meta"><strong>Safety:</strong> ${g.safety}</p>
-          <p class="note">${g.note}</p>
+          <p class="note">${g.note}</p>${videoHtml(g.name)}
         </article>`).join("");
       box.innerHTML = cards || "<p>No matches.</p>";
     }
