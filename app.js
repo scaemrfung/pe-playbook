@@ -199,12 +199,12 @@ function monthBank(name) {
         <h2>Big-group games this month</h2>
         <p class="note">These are the 30-minute classroom versions. Simplify for Grades 1–2: walk more, fewer taggers, skip grabbing games until Grade 3+.</p>
         <table class="games">
-          <thead><tr><th>Game</th><th>How we run it</th><th>2000 POS (1–2 / 3–4 / 5–6)</th></tr></thead>
+          <thead><tr><th>Game</th><th>How we run it</th><th>Outcomes</th></tr></thead>
           <tbody>${bank.map((r) => {
           const sl = r[0].toLowerCase().replace(/[^a-z0-9]+/g, "-");
           const x = (window.GAME_EXTRAS || {})[r[0]] || {};
-          const pos = x.pos12 ? `${x.pos12}<br>${x.pos34}<br>${x.pos56}` : "";
-          return `<tr><td><strong><a href="games.html#${sl}">${r[0]}</a></strong></td><td>${r[2]}</td><td class="meta">${pos}</td></tr>`;
+          const out = (x.outcomes || []).map((it) => `<strong>${it.code}.</strong> ${it.look}`).join("<br>");
+          return `<tr><td><strong><a href="games.html#${sl}">${r[0]}</a></strong></td><td>${r[2]}</td><td>${out}</td></tr>`;
         }).join("")}</tbody>
         </table>
       </div>
@@ -246,7 +246,7 @@ function monthBank(name) {
           ${cues ? `<p><strong>Cues</strong></p><ul class="clean">${cues}</ul>` : ""}
           ${vars ? `<p><strong>Variations</strong></p><ul class="clean">${vars}</ul>` : ""}
           ${x.look ? `<p class="note"><strong>Look-for.</strong> ${x.look}</p>` : ""}
-          ${x.pos12 ? `<p class="meta"><strong>2000 POS.</strong> 1–2: ${x.pos12}<br>3–4: ${x.pos34}<br>5–6: ${x.pos56}</p>` : ""}
+          ${x.outcomes ? `<p><strong>Outcomes</strong></p><ul class="clean">${x.outcomes.map((it) => `<li><strong>${it.code}.</strong> ${it.look}</li>`).join("")}</ul>` : ""}
           <div class="bands-block">
             <div><strong>Grades 1–2.</strong> ${g.g12}</div>
             <div><strong>Grades 3–4.</strong> ${g.g34}</div>
