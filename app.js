@@ -12,7 +12,84 @@
   const UNIT = window.UNIT_OUTCOMES || {};
   const K2M = window.K2_MONTH_GAMES || {};
   const G36M = window.G36_MONTH_GAMES || {};
-  function monthBank(name) {
+  
+  function gslug(name) {
+    return String(name).toLowerCase().replace(/[^a-z0-9]+/g, "-");
+  }
+
+  function gameCatalog() {
+    const names = new Set(Object.keys(window.GAME_EXTRAS || {}));
+    [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || []).forEach((g) => {
+      if (g && g.name) names.add(g.name);
+    });
+    const aliases = {
+      "Red Light, Green Light": "Traffic Lights (kick)",
+      "Red Light": "Traffic Lights (kick)",
+      "Pac-Man": "Line Tag / Pac-Man",
+      "Line Tag": "Line Tag / Pac-Man",
+      "Sharks and Minnows": "Sharks and Dolphins",
+      "Captain’s Coming": "Captain’s Deck / Shipwreck",
+      "Captain's Coming": "Captain’s Deck / Shipwreck",
+      "Shipwreck": "Captain’s Deck / Shipwreck",
+      "Captain’s Deck": "Captain’s Deck / Shipwreck",
+      "Freeze Tag": "Frozen Tag",
+      "Newcomb": "FLY BACK",
+      "Kickball": "Continuous Kick Ball",
+      "Continuous Kickball": "Continuous Kick Ball",
+      "Beat Ball": "Beat Ball / Beat the Ball",
+      "End-zone catch": "End Zone Ball",
+      "End-zone beanbag": "End Zone Ball",
+      "Clean Your Room": "Clean Your Room",
+      "Rob the Nest": "Rob the Nest (dribble)",
+      "Robin’s Nest": "Robin’s Nest",
+      "Four Corner Flags": "Four Corner Flags",
+      "Capture the Flag": "Four Corner Flags",
+      "Parachute popcorn": "Parachute popcorn / dome / cat-and-mouse",
+      "parachute popcorn": "Parachute popcorn / dome / cat-and-mouse",
+      "Helicopter": "Helicopter / Snake rope",
+      "Snake rope": "Helicopter / Snake rope",
+      "Tripod Tag": "Tripod Tag",
+      "Human Bop-It": "Human Bop-It",
+      "Video Game": "Video Game",
+      "Chuck the Chicken": "Chuck the Chicken",
+      "Wall Soccer": "Wall Soccer",
+      "Skittles": "Skittles",
+      "Hospital Tag": "Hospital Tag",
+      "Hot Dog Tag": "Hot Dog Tag",
+      "Blob Tag": "Blob Tag",
+      "Octopus": "Octopus",
+      "Sharks and Dolphins": "Sharks and Dolphins"
+    };
+    return { names, aliases };
+  }
+
+  function linkGameText(text) {
+    if (!text) return text;
+    const { names, aliases } = gameCatalog();
+    const keys = [];
+    names.forEach((n) => keys.push([n, n]));
+    Object.keys(aliases).forEach((a) => keys.push([a, aliases[a]]));
+    keys.sort((a, b) => b[0].length - a[0].length);
+    let out = text;
+    const used = [];
+    keys.forEach(([label, target]) => {
+      if (!names.has(target) && target !== label) {
+        // still link if extras or details has it
+        if (!(window.GAME_EXTRAS || {})[target] && !names.has(target)) return;
+      }
+      const slug = gslug(target);
+      const re = new RegExp(label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+      out = out.replace(re, (m) => {
+        if (used.some((u) => m.toLowerCase().indexOf(u) >= 0 || u.indexOf(m.toLowerCase()) >= 0)) return m;
+        if (/href=/.test(out.slice(Math.max(0, out.indexOf(m) - 40), out.indexOf(m)))) return m;
+        used.push(m.toLowerCase());
+        return `<a href="games.html#${slug}">${m}</a>`;
+      });
+    });
+    return out;
+  }
+
+function monthBank(name) {
     return [].concat(MONTH_GAMES[name] || [], K2M[name] || [], G36M[name] || []);
   }
 
@@ -82,23 +159,17 @@
         head = `<h2 class="week-title">${m.name} · Week ${week}</h2>`;
       }
       const o = LO[`${m.name}-${L.w}-${L.c}`];
-      const pos = o && (o.pos12 || o.pos34) ? `<div class="row out"><div class="t">POS</div>
-            <div class="d"><span class="meta">2000 Program of Studies</span><br>
-            <strong>1–2:</strong> ${o.pos12}<br>
-            <strong>3–4:</strong> ${o.pos34}<br>
-            <strong>5–6:</strong> ${o.pos56}</div></div>` : "";
-      const outRow = o ? `${pos}<div class="row out"><div class="t">PEW</div>
-            <div class="d"><strong>${o.oi}</strong><br>
-            <strong>1–2:</strong> ${o.g12}<br>
-            <strong>3–4:</strong> ${o.g34}<br>
-            <strong>5–6:</strong> ${o.g56}</div></div>` : "";
+      const items = (o && o.items) || [];
+      const outRow = items.length ? `<div class="row out"><div class="t">Outcomes</div>
+            <div class="d">${items.map((it) => `<div><strong>${it.code}.</strong> ${it.look}</div>`).join("")}
+            <span class="meta">2000 POS — write the grade in the code (D3–3 for Grade 3).</span></div></div>` : "";
       return head + `<article class="lesson" data-week="${L.w}">
         <div class="top"><h3>W${L.w} · C${L.c} — ${L.title}</h3><small>${L.focus}</small></div>
         <div class="rows">
           ${outRow}
           <div class="row"><div class="t">0–5</div><div class="d">${L.wu}</div></div>
           <div class="row"><div class="t">5–16</div><div class="d">${L.skill}</div></div>
-          <div class="row game"><div class="t">16–25</div><div class="d">${L.game}</div></div>
+          <div class="row game"><div class="t">16–25</div><div class="d">${linkGameText(L.game)}</div></div>
           <div class="row"><div class="t">25–30</div><div class="d">${L.cd}</div></div>
           <div class="row bands"><div class="t">1–2 / 3–4 / 5–6</div>
             <div class="d"><strong>1–2:</strong> ${L.g12} &nbsp;·&nbsp; <strong>3–4:</strong> ${L.g34} &nbsp;·&nbsp; <strong>5–6:</strong> ${L.g56}</div>

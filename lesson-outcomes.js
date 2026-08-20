@@ -1,166 +1,915 @@
-/* Per-lesson Alberta PEW (K–6) outcomes.
-   Organizing ideas and learning-outcome language follow LearnAlberta PEW.
-   Each card lists the organizing idea plus one Skills & Procedures focus per grade band. */
+/* Two outcomes per lesson. Codes are 2000 Program of Studies (write the grade in the letter: D3–3). Look-for is what you watch. */
 window.LESSON_OUTCOMES = {
-  "September-1-1": {  oi:"Safety · Movement Skill Development", g12:"Identify gym rules and exhibit spatial awareness: freeze, personal space, boundaries.", g34:"Apply start/stop signals and change locomotor pattern on a cue.", g56:"Analyze how a shared freeze protects the group; take a turn as the caller." , pos12: "A1–10, D1–3, D1–5, C1–1", pos34: "A3–10, D3–3, D3–5, C3–1", pos56: "A5–10, D5–3, D5–5, C5–1" },
-  "September-1-2": {  oi:"Safety · Character Development", g12:"Follow emergency procedures and move to a named gathering spot calmly.", g34:"Apply a quiet gather under movement; explain why listening comes before speed.", g56:"Lead a calm reset and use kind language after a tag or freeze." , pos12: "D1–3, D1–5, C1–1", pos34: "D3–3, D3–5, C3–1", pos56: "D5–3, D5–5, C5–1" },
-  "September-1-3": {  oi:"Active Living · Movement Skill Development", g12:"Investigate how activity changes the body (breath, heart, warmth) and keep bubble space.", g34:"Relate work and rest to personal experience during a travel task.", g56:"Examine how choices (pace, water, rest) affect how the body feels." , pos12: "A1–10, B1–7, D1–5", pos34: "A3–10, B3–7, D3–5", pos56: "A5–10, B5–6, B5–7, D5–5" },
-  "September-1-4": {  oi:"Healthy Relationships · Character Development", g12:"Practise words and actions that support friendship in play.", g34:"Cooperate with a partner to complete a shared send without dropping.", g56:"Include others and notice one fair-play action in the group." , pos12: "C1–3, C1–5, A1–10", pos34: "C3–3, C3–5, A3–10", pos56: "C5–3, C5–5, A5–10" },
-  "September-2-1": {  oi:"Active Living", g12:"Experience faster breathing and heart rate and name the change.", g34:"Participate at more than one level of exertion and recover.", g56:"Connect continuous movement to cardiorespiratory endurance." , pos12: "B1–3, B1–7, D1–1, A1–1", pos34: "B3–3, B3–7, D3–1, A3–1", pos56: "B5–3, B5–7, D5–1, A5–1" },
-  "September-2-2": {  oi:"Active Living · Movement Skill Development", g12:"Demonstrate simple strength shapes and name a muscle that worked.", g34:"Examine muscular strength and endurance through short holds.", g56:"Modify a hold for control (straight back, quiet breathing)." , pos12: "A1–3", pos34: "A3–3", pos56: "B5–2, A5–3, D5–2" },
-  "September-2-3": {  oi:"Active Living · Safety", g12:"Copy a still stretch and breathe without bouncing.", g34:"Hold a safe stretch and name flexibility as a fitness component.", g56:"Lead one stretch and explain why bouncing is unsafe." , pos12: "", pos34: "", pos56: "B5–2, D5–4" },
-  "September-2-4": {  oi:"Active Living · Character Development", g12:"Participate in a personal fitness check without comparing scores.", g34:"Record a private baseline and treat it as a starting point.", g56:"Set one private October goal from today’s check." , pos12: "B1–3", pos34: "B3–3", pos56: "B5–2, B5–3, D5–6" },
-  "September-3-1": {  oi:"Active Living", g12:"Select everyday choices (water, sleep, play) that support being ready to move.", g34:"Examine how planning (fuel, rest) supports active living.", g56:"Discuss a tricky choice and how it affects energy for play." , pos12: "B1–1", pos34: "B3–1", pos56: "B5–1, B5–6" },
-  "September-3-2": {  oi:"Active Living · Movement Skill Development", g12:"Name and show major muscle groups while moving.", g34:"Connect a named muscle to a gym action.", g56:"Quiz peers on muscle–action pairs with kind language." , pos12: "B1–7", pos34: "B3–7", pos56: "B5–2, B5–7" },
-  "September-3-3": {  oi:"Active Living", g12:"Notice breath during walk, jog, and skip.", g34:"Feel pulse after a burst and practise a short recovery.", g56:"Explain why recovery is part of cardiorespiratory work." , pos12: "B1–3, B1–7", pos34: "B3–3, B3–7", pos56: "B5–3, B5–7" },
-  "September-3-4": {  oi:"Character Development · Healthy Relationships", g12:"Help write class promises: listen, space, try, kind, tidy.", g34:"Suggest a fair-play rule the class can keep.", g56:"Take responsibility for reminding the group kindly." , pos12: "C1–3, C1–1", pos34: "C3–3, C3–1", pos56: "C5–3, C5–1, D5–2" },
-  "September-4-1": {  oi:"Movement Skill Development · Active Living", g12:"Demonstrate a jog with eyes up and quiet feet.", g34:"Refine run form and change speed on a signal.", g56:"Adapt pacing on gym lines and set a short lap goal." , pos12: "A1–1, A1–13", pos34: "A3–1, A3–13", pos56: "A5–1, A5–13, D5–2" },
-  "September-4-2": {  oi:"Movement Skill Development · Safety", g12:"Demonstrate a two-foot jump and a soft stick landing.", g34:"Apply bend–jump–stick over a low obstacle.", g56:"Combine jump, turn, and a still ending with control." , pos12: "A1–1, A1–13, D1–5", pos34: "A3–1, A3–13, D3–5", pos56: "A5–1, A5–13, D5–5" },
-  "September-4-3": {  oi:"Active Living · Character Development", g12:"Participate in walk–run intervals for a community purpose.", g34:"Pace a loop and connect effort to helping others.", g56:"Support younger or less-experienced runners if groups combine." , pos12: "D1–1, C1–5", pos34: "D3–1, C3–5", pos56: "D5–1, D5–6, C5–5" },
-  "September-4-4": {  oi:"Active Living · Healthy Relationships", g12:"Celebrate effort and choose a familiar game.", g34:"Reflect on one thing that got easier this month.", g56:"Host a station and include every classmate." , pos12: "D1–1, C1–5", pos34: "D3–1, C3–5", pos56: "D5–1, C5–5, B5–6" },
-
-  "October-1-1": {  oi:"Movement Skill Development · Safety", g12:"Demonstrate a ready position and a two-hand or scoop receive.", g34:"Move the body behind a rolling ball before sending it back.", g56:"Receive under chaos (more than one ball) without contact." , pos12: "A1–5, A1–10, D1–5", pos34: "A3–5, A3–10, D3–5", pos56: "A5–5, A5–10, D5–5" },
-  "October-1-2": {  oi:"Movement Skill Development", g12:"Demonstrate an underhand send with a step toward the target.", g34:"Modify the throw (opposite-foot step, follow-through) for accuracy.", g56:"Use the non-dominant hand for a short, accurate set." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5, D5–2" },
-  "October-1-3": {  oi:"Movement Skill Development", g12:"Kick a still foam ball to a partner or gate.", g34:"Plant beside the ball and use the inside of the foot for accuracy.", g56:"Kick with the non-dominant foot and trap the return." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5, D5–2" },
-  "October-1-4": {  oi:"Movement Skill Development · Safety", g12:"Send a foam ball, then move after it safely.", g34:"Dribble and trap while changing speed.", g56:"Change direction after each trap in a crowded gym." , pos12: "A1–5, A1–1, D1–5", pos34: "A3–5, A3–1, D3–5", pos56: "A5–5, A5–1, D5–5" },
-  "October-2-1": {  oi:"Movement Skill Development · Movement Tactics", g12:"Pass through a gate to a partner (3v0).", g34:"Apply a simple tactic: pass before a shot in 3v1.", g56:"Implement 4v2 keep-away and lead the receiver." , pos12: "A1–5, A1–11, C1–5", pos34: "A3–5, A3–11, C3–5", pos56: "A5–5, A5–11, C5–5" },
-  "October-2-2": {  oi:"Movement Skill Development · Movement Tactics", g12:"Throw to a walking partner along a line.", g34:"Lead a jogging receiver with the send.", g56:"Add a defender and choose when to pass." , pos12: "A1–5, A1–11", pos34: "A3–5, A3–11", pos56: "A5–5, A5–11" },
-  "October-2-3": {  oi:"Movement Skill Development", g12:"Stop a rolling ball with the body in front (hands allowed).", g34:"Cushion a sole or inside trap so the ball stays near.", g56:"One-touch trap-and-pass." , pos12: "A1–5, D1–5", pos34: "A3–5, D3–5", pos56: "A5–5, D5–5" },
-  "October-2-4": {  oi:"Movement Skill Development", g12:"Choose a kick or an underhand throw for a station task.", g34:"Use a send from one station in another activity.", g56:"Select the send that fits the nest-collecting game." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5" },
-  "October-3-1": {  oi:"Movement Skill Development · Safety", g12:"Hit off a tee with a noodle; keep swing space.", g34:"Time a soft toss and a two-hand grip.", g56:"Hit from both sides with a safe follow-through." , pos12: "A1–5, D1–5", pos34: "A3–5, D3–5", pos56: "A5–5, D5–5" },
-  "October-3-2": {  oi:"Movement Skill Development", g12:"Send a bounce or roll so a partner can receive at the belly.", g34:"Demonstrate a bounce pass with a step to the target.", g56:"Pass and move after the send." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5" },
-  "October-3-3": {  oi:"Movement Tactics · Safety", g12:"Play toward a big goal with no keeper; look for a friend.", g34:"Apply pass-then-score in 3v3.", g56:"Use space and a one-touch finish without contact." , pos12: "A1–5, A1–11, C1–5", pos34: "A3–5, A3–11, C3–5", pos56: "A5–5, A5–11, C5–5" },
-  "October-3-4": {  oi:"Movement Skill Development · Safety", g12:"Send underhand to a pin or hoop; foam only.", g34:"Throw below waist under a little pressure.", g56:"Keep accuracy when two balls are in play." , pos12: "A1–5, D1–5, A1–11", pos34: "A3–5, D3–5, A3–11", pos56: "A5–5, D5–5, A5–11" },
-  "October-4-1": {  oi:"Movement Skill Development", g12:"Send a beach ball with hand, thigh, or foot.", g34:"Transfer a send from one body part to another activity.", g56:"Sustain a class keep-up and reset without blame." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5" },
-  "October-4-2": {  oi:"Movement Tactics · Safety", g12:"Send through a gate with no defender.", g34:"Shadow an attacker without contact.", g56:"Intercept a send and restart fairly." , pos12: "A1–11, D1–5, C1–3", pos34: "A3–11, D3–5, C3–3", pos56: "A5–11, D5–5, C5–3" },
-  "October-4-3": {  oi:"Movement Skill Development", g12:"Practise kick, underhand, bounce, and hit with a helper nearby.", g34:"Rotate stations independently and refine one cue.", g56:"Peer-cue one skill using kind language." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5, D5–2" },
-  "October-4-4": {  oi:"Active Living · Character Development", g12:"Show a favourite send and stay kind in the vote.", g34:"Name the cue that improved a send this month.", g56:"Host the closer and include every vote." , pos12: "A1–5, C1–5", pos34: "A3–5, C3–5", pos56: "B5–2, A5–5, C5–5" },
-
-  "November-1-1": {  oi:"Movement Skill Development", g12:"Catch a beanbag with ready hands.", g34:"Catch a foam ball using thumbs-together or pinkies-together as needed.", g56:"Sustain a two-object catch sequence with control." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5" },
-  "November-1-2": {  oi:"Movement Skill Development", g12:"Walk to the catch instead of reaching only with the arms.", g34:"Shuffle the feet to the ball before the catch.", g56:"Catch on the move with a second object in play." , pos12: "A1–5, A1–1", pos34: "A3–5, A3–1", pos56: "A5–5, A5–1" },
-  "November-1-3": {  oi:"Movement Skill Development · Safety", g12:"Stop a roller with a two-hand scoop, body in front.", g34:"Field with the glove-side hand down (barehand is fine).", g56:"Attempt a backhand stop and recover to throw." , pos12: "A1–5, D1–5", pos34: "A3–5, D3–5", pos56: "A5–5, D5–5" },
-  "November-1-4": {  oi:"Movement Skill Development", g12:"Show Throw Level 1 underhand: eyes, opposite foot, follow-through.", g34:"Introduce overhand form to a hoop.", g56:"Throw with the non-dominant hand for a short set." , pos12: "A1–5, A1–13", pos34: "A3–5, A3–13", pos56: "A5–5, A5–13" },
-  "November-2-1": {  oi:"Movement Skill Development", g12:"Hit a ball off a tee and look up after contact.", g34:"Hit a soft toss to a wall or zone.", g56:"Hit from the opposite side of the plate." , pos12: "A1–5, A1–13", pos34: "A3–5, A3–13", pos56: "A5–5, A5–13" },
-  "November-2-2": {  oi:"Healthy Relationships · Movement Tactics", g12:"Call for a turn or a catch with a partner.", g34:"Call “mine” before a catch in a small group.", g56:"Use a two-touch (catch–set–throw) and share the talk." , pos12: "A1–5, C1–1, A1–11", pos34: "A3–5, C3–1, A3–11", pos56: "A5–5, C5–1, A5–11" },
-  "November-2-3": {  oi:"Movement Tactics", g12:"Field a roller and send it to a teacher or hoop.", g34:"Field, pivot, and throw to a base — not the runner.", g56:"Choose a force play at the correct hoop." , pos12: "A1–5, A1–11, A1–13", pos34: "A3–5, A3–11, A3–13", pos56: "A5–5, A5–11, A5–13" },
-  "November-2-4": {  oi:"Movement Skill Development", g12:"Repeat underhand throws for form, not distance.", g34:"Repeat overhand throws with a quality cue.", g56:"Move the line back only after form is repeatable." , pos12: "A1–5, A1–13", pos34: "A3–5, A3–13", pos56: "A5–5, A5–13" },
-  "November-3-1": {  oi:"Movement Skill Development · Safety", g12:"Match a noodle or hand to a safe hit.", g34:"Select a scoop or noodle for the task.", g56:"Select a short foam bat and a fair hitting zone." , pos12: "A1–5, D1–5", pos34: "A3–5, D3–5", pos56: "A5–5, D5–5" },
-  "November-3-2": {  oi:"Movement Skill Development · Character Development", g12:"Keep a short beanbag rally going.", g34:"Sustain a foam rally and reset after a drop without blame.", g56:"Rally with one bounce only and recover as a pair." , pos12: "A1–5, C1–3", pos34: "A3–5, C3–3", pos56: "A5–5, C5–3" },
-  "November-3-3": {  oi:"Movement Tactics", g12:"Pass and walk to a new spot.", g34:"Move to space after a 5-second hold.", g56:"Use a 3-second hold and beat one defender without contact." , pos12: "A1–5, A1–11, C1–5", pos34: "A3–5, A3–11, C3–5", pos56: "A5–5, A5–11, C5–5" },
-  "November-3-4": {  oi:"Movement Skill Development · Movement Tactics", g12:"Hit and run through first (two bases).", g34:"Run a three-base path after contact.", g56:"Use a full diamond and decide when to hold up." , pos12: "A1–5, A1–13, A1–11", pos34: "A3–5, A3–13, A3–11", pos56: "A5–5, A5–13, A5–11" },
-  "November-4-1": {  oi:"Movement Skill Development", g12:"Rotate catch, throw, stop, and hit with an adult at hitting.", g34:"Work stations independently and name the hardest cue.", g56:"Peer-coach one station." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5" },
-  "November-4-2": {  oi:"Movement Tactics · Healthy Relationships", g12:"Catch-and-throw over a line as a team.", g34:"Use a must-pass rule and talk before the send.", g56:"Add an optional bump and keep the call kind." , pos12: "A1–5, A1–11, C1–1", pos34: "A3–5, A3–11, C3–1", pos56: "A5–5, A5–11, C5–1" },
-  "November-4-3": {  oi:"Movement Skill Development · Character Development", g12:"Show three underhand throws to a hoop.", g34:"Show overhand form; group scores the hoop, not a ranking.", g56:"Demonstrate both hands and compliment a form, not a distance." , pos12: "A1–5, A1–13, C1–3", pos34: "A3–5, A3–13, C3–3", pos56: "A5–5, A5–13, C5–3" },
-  "November-4-4": {  oi:"Active Living · Movement Skill Development", g12:"Complete a short circuit and choose a known game.", g34:"Record a fitness update and vote with a reason.", g56:"Run the vote and set one December skill goal." , pos12: "A1–5, C1–5", pos34: "A3–5, C3–5", pos56: "B5–2, A5–5, C5–5" },
-
-  "December-1-1": {  oi:"Movement Skill Development", g12:"Start and stop a locomotor pattern on a beat.", g34:"Match movement to a tempo change.", g56:"Lead an 8-count start/stop phrase." , pos12: "A1–1, A1–8, D1–3", pos34: "A3–1, A3–8, D3–3", pos56: "A5–1, A5–8, D5–3" },
-  "December-1-2": {  oi:"Movement Skill Development", g12:"Show a high, medium, and low shape.", g34:"Change level and shape on a cue.", g56:"Link three levels into a still-ending phrase." , pos12: "A1–3, A1–8, A1–9", pos34: "A3–3, A3–8, A3–9", pos56: "A5–3, A5–8, A5–9" },
-  "December-1-3": {  oi:"Movement Skill Development", g12:"Move when a voice or clap starts and freeze when it stops.", g34:"Create a short voice-led phrase with a partner.", g56:"Conduct a small group with voice only." , pos12: "A1–8, D1–3", pos34: "A3–8, D3–3", pos56: "A5–8, D5–3" },
-  "December-1-4": {  oi:"Healthy Relationships · Movement Skill Development", g12:"Copy a partner’s simple rhythm.", g34:"Build an 8-count phrase together.", g56:"Negotiate a phrase and perform it for another pair." , pos12: "A1–8, A1–9, C1–5", pos34: "A3–8, A3–9, C3–5", pos56: "A5–8, A5–9, C5–5" },
-  "December-2-1": {  oi:"Movement Skill Development", g12:"Travel a scarf on a straight or curvy path.", g34:"Change pathway and level with a prop.", g56:"Design a pathway that uses the whole gym safely." , pos12: "A1–8, A1–1", pos34: "A3–8, A3–1", pos56: "A5–8, A5–1" },
-  "December-2-2": {  oi:"Movement Skill Development", g12:"Move for a short tambourine phrase and freeze.", g34:"Perform a call-and-response phrase.", g56:"Compose an A–B tambourine phrase for the class." , pos12: "A1–8, A1–9", pos34: "A3–8, A3–9", pos56: "A5–8, A5–9" },
-  "December-2-3": {  oi:"Movement Skill Development · Healthy Relationships", g12:"Join a copied group dance for a chorus.", g34:"Add a level or pathway idea to the group dance.", g56:"Teach one 8-count to another group." , pos12: "A1–8, A1–9, C1–5", pos34: "A3–8, A3–9, C3–5", pos56: "A5–8, A5–9, C5–5" },
-  "December-2-4": {  oi:"Active Living · Movement Skill Development", g12:"Stay moving in a rhythm game without sitting out.", g34:"Keep the beat while changing locomotor skill.", g56:"Invent a fair rhythm rule the class can play." , pos12: "A1–8, A1–1, D1–1", pos34: "A3–8, A3–1, D3–1", pos56: "A5–8, A5–1, D5–1" },
-  "December-3-1": {  oi:"Movement Skill Development · Character Development", g12:"Tell a simple story with travel and freeze shapes.", g34:"Sequence three story actions with a beginning and end.", g56:"Refine a story dance so every dancer has a part." , pos12: "A1–8, A1–9", pos34: "A3–8, A3–9", pos56: "A5–8, A5–9, C5–4" },
-  "December-3-2": {  oi:"Movement Skill Development · Character Development", g12:"Choose two shapes and one travel for “my dance.”", g34:"Create an 8–16 count dance with a still ending.", g56:"Perform and name one element (level, pathway, or timing) used." , pos12: "A1–8, A1–9", pos34: "A3–8, A3–9", pos56: "A5–8, A5–9" },
-  "December-3-3": {  oi:"Movement Skill Development", g12:"Rotate scarf, shape, and freeze stations.", g34:"Combine a prop and a locomotor at two stations.", g56:"Peer-cue a station using dance words (level, pathway)." , pos12: "A1–8, A1–9", pos34: "A3–8, A3–9", pos56: "A5–8, A5–9" },
-  "December-3-4": {  oi:"Active Living · Character Development", g12:"Share a favourite shape or travel.", g34:"Perform a short phrase and watch kindly.", g56:"Host the showcase and comment on control, not tricks." , pos12: "A1–8, A1–9, C1–3", pos34: "A3–8, A3–9, C3–3", pos56: "A5–8, A5–9, C5–3, B5–6" },
-
-  "January-1-1": {  oi:"Healthy Relationships · Safety", g12:"Re-enter after a tag; no one sits out.", g34:"Apply house rules (soft tag, no elimination) in a known game.", g56:"Welcome classmates back and adjust a rule if someone is left out." , pos12: "A1–10, D1–5, C1–5", pos34: "A3–10, D3–5, C3–5", pos56: "A5–10, D5–5, C5–5" },
-  "January-1-2": {  oi:"Character Development · Healthy Relationships", g12:"Solve a simple partner movement problem together.", g34:"Share responsibility when a partner task fails and try again.", g56:"Give one useful cue instead of taking over the task." , pos12: "C1–5, C1–1", pos34: "C3–5, C3–1", pos56: "C5–5, C5–1" },
-  "January-1-3": {  oi:"Healthy Relationships · Movement Tactics", g12:"Work in a four to move an object across the gym.", g34:"Assign simple roles and complete a group challenge.", g56:"Adapt roles so every student has a job they can do." , pos12: "C1–5, A1–11", pos34: "C3–5, A3–11", pos56: "C5–4, C5–5, A5–11" },
-  "January-1-4": {  oi:"Character Development", g12:"Try a personal challenge inside a safe group.", g34:"Set a short personal goal and persist after a miss.", g56:"Name a strategy that helped after a failed attempt." , pos12: "D1–7, C1–3", pos34: "D3–7, C3–3", pos56: "D5–2, D5–7, C5–3" },
-  "January-2-1": {  oi:"Movement Skill Development · Safety", g12:"Play a four-square-style send with a foam ball and a wait line.", g34:"Rotate in fairly and keep the send below a safe height.", g56:"Modify a playground rule so more students stay in." , pos12: "A1–10, A1–11, D1–5", pos34: "A3–10, A3–11, D3–5", pos56: "A5–10, A5–11, D5–5" },
-  "January-2-2": {  oi:"Movement Skill Development", g12:"Hop, jump, and skip a simple floor pattern.", g34:"Combine hopscotch or rope patterns with a partner.", g56:"Create a hopping course others can follow." , pos12: "A1–1, A1–13", pos34: "A3–1, A3–13", pos56: "A5–1, A5–13" },
-  "January-2-3": {  oi:"Movement Skill Development · Safety", g12:"Play a wall or chase game with soft tags and clear boundaries.", g34:"Apply playground tactics (fake, change direction) without contact.", g56:"Officiate a short round using house rules." , pos12: "A1–10, D1–5", pos34: "A3–10, D3–5", pos56: "A5–10, D5–5" },
-  "January-2-4": {  oi:"Movement Skill Development · Safety", g12:"Practise a glide, slide, or balance shape if ice is not available.", g34:"Transfer a glide or edge idea to gym travel.", g56:"Set a safe skating or glide challenge and stick the stop." , pos12: "A1–1, A1–7, D1–5", pos34: "A3–1, A3–7, D3–5", pos56: "A5–1, A5–7, D5–5" },
-  "January-3-1": {  oi:"Character Development · Movement Tactics", g12:"Help invent one tag rule the class can try.", g34:"Design a tag game with a re-entry, not elimination.", g56:"Test and revise a rule after one round." , pos12: "A1–10, A1–11", pos34: "A3–10, A3–11", pos56: "A5–10, A5–11, C5–4" },
-  "January-3-2": {  oi:"Movement Tactics · Character Development", g12:"Help invent a sending game with a foam object.", g34:"Write or say the start, score, and safety rule.", g56:"Balance offence and defence so both sides stay active." , pos12: "A1–11", pos34: "A3–11", pos56: "A5–11, C5–4" },
-  "January-3-3": {  oi:"Movement Tactics", g12:"Change one teacher rule and notice what happens.", g34:"Predict how a rule change affects fairness or activity time.", g56:"Defend a rule change with a tactics or inclusion reason." , pos12: "A1–11, C1–3", pos34: "A3–11, C3–3", pos56: "A5–11, C5–3" },
-  "January-3-4": {  oi:"Healthy Relationships · Character Development", g12:"Show a classmate how to play in one sentence.", g34:"Teach a small group using start, score, and safety.", g56:"Coach another group and take one piece of feedback." , pos12: "C1–1", pos34: "C3–1", pos56: "C5–4, C5–1" },
-  "January-4-1": {  oi:"Healthy Relationships", g12:"Move together so the whole class succeeds.", g34:"Solve a whole-class problem without leaving anyone out.", g56:"Facilitate a reset when the group plan stalls." , pos12: "C1–5, A1–11", pos34: "C3–5, A3–11", pos56: "C5–5, A5–11" },
-  "January-4-2": {  oi:"Healthy Relationships · Character Development", g12:"Choose a role that lets every body play.", g34:"Adapt a game so a classmate with different needs can join.", g56:"Lead an inclusion change and check that it worked." , pos12: "C1–3, C1–5", pos34: "C3–3, C3–5", pos56: "C5–3, C5–5" },
-  "January-4-3": {  oi:"Movement Skill Development · Character Development", g12:"Rotate cooperative and playground-style stations.", g34:"Stay on task at stations and help a neighbour.", g56:"Peer-host one station." , pos12: "A1–10, C1–5", pos34: "A3–10, C3–5", pos56: "A5–10, C5–5" },
-  "January-4-4": {  oi:"Active Living · Healthy Relationships", g12:"Play a festival game and cheer more than one team.", g34:"Reflect on a game the class invented this month.", g56:"Host a festival station and keep rotation fair." , pos12: "C1–5, D1–1", pos34: "C3–5, D3–1", pos56: "C5–5, B5–6, D5–1" },
-
-  "February-1-1": {  oi:"Safety · Movement Skill Development", g12:"Turn a rope with a partner and jump a rainbow when it is safe.", g34:"Enter a turning rope after a verbal ready check.", g56:"Set rope speed for a younger or less-experienced jumper." , pos12: "A1–13, D1–5, C1–5", pos34: "A3–13, D3–5, C3–5", pos56: "A5–13, D5–5, C5–5" },
-  "February-1-2": {  oi:"Movement Skill Development", g12:"Jump a short rope with two feet and a quiet land.", g34:"Keep a short-rope rhythm for a set number of jumps.", g56:"Change feet or add a simple trick only if the land stays quiet." , pos12: "A1–13, A1–1", pos34: "A3–13, A3–1", pos56: "A5–13, A5–1" },
-  "February-1-3": {  oi:"Movement Skill Development · Healthy Relationships", g12:"Run through a long rope without a jump if needed.", g34:"Jump in, jump, and jump out of a long rope.", g56:"Turn for others and coach the in/out timing." , pos12: "A1–13, C1–5", pos34: "A3–13, C3–5", pos56: "A5–13, C5–5" },
-  "February-1-4": {  oi:"Active Living · Movement Skill Development", g12:"Stay in a rope game by marching if a jump is too much.", g34:"Keep continuous work during a rope game.", g56:"Adapt the game so jumpers and turners both stay active." , pos12: "A1–13, D1–1", pos34: "A3–13, D3–1", pos56: "A5–13, D5–1" },
-  "February-2-1": {  oi:"Movement Skill Development · Safety", g12:"Spin a hoop and stay in personal space.", g34:"Control a hoop spin or roll without chasing into others.", g56:"Combine hoop control with travel in a defined lane." , pos12: "A1–5, A1–10, D1–5", pos34: "A3–5, A3–10, D3–5", pos56: "A5–5, A5–10, D5–5" },
-  "February-2-2": {  oi:"Movement Skill Development", g12:"Travel with a hoop (step in, hop in, roll).", g34:"Change locomotor skill while keeping the hoop.", g56:"Link two hoop travels with a still start and end." , pos12: "A1–1, A1–5", pos34: "A3–1, A3–5", pos56: "A5–1, A5–5" },
-  "February-2-3": {  oi:"Movement Skill Development", g12:"Toss a beanbag into a hoop.", g34:"Throw to a hoop from increasing distance.", g56:"Use hoop targets in a small-sided accuracy game." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5" },
-  "February-2-4": {  oi:"Movement Skill Development", g12:"Make a hoop shape or pathway of your own.", g34:"Create a short hoop phrase (spin, travel, freeze).", g56:"Perform a hoop phrase and name one movement element used." , pos12: "A1–8, A1–5", pos34: "A3–8, A3–5", pos56: "A5–8, A5–5" },
-  "February-3-1": {  oi:"Movement Skill Development", g12:"Rotate rope and hoop stations with a helper nearby.", g34:"Work stations independently and refine one cue.", g56:"Peer-cue a rope or hoop station." , pos12: "A1–13, A1–5", pos34: "A3–13, A3–5", pos56: "A5–13, A5–5" },
-  "February-3-2": {  oi:"Movement Skill Development", g12:"Use a hoop and a rope in two separate tasks.", g34:"Combine rope and hoop in one phrase or course.", g56:"Design a combined course others can complete safely." , pos12: "A1–13, A1–5", pos34: "A3–13, A3–5", pos56: "A5–13, A5–5" },
-  "February-3-3": {  oi:"Healthy Relationships · Movement Skill Development", g12:"Turn or jump with a partner and wait your turn.", g34:"Face-to-face or side-by-side partner rope.", g56:"Adjust speed and role so both partners succeed." , pos12: "A1–13, C1–5", pos34: "A3–13, C3–5", pos56: "A5–13, C5–5" },
-  "February-3-4": {  oi:"Active Living · Safety", g12:"Choose a hoop cardio game if ice is not available.", g34:"Sustain moderate work with hoops or a skate swap.", g56:"Connect today’s work to a personal active-living choice." , pos12: "B1–3, A1–7, D1–1", pos34: "B3–3, A3–7, D3–1", pos56: "B5–3, A5–7, D5–1" },
-  "February-4-1": {  oi:"Movement Skill Development · Character Development", g12:"Try a rope challenge and celebrate a personal best.", g34:"Persist on a timed skip or entry challenge.", g56:"Set and review a private rope goal." , pos12: "A1–13, D1–7", pos34: "A3–13, D3–7", pos56: "A5–13, D5–7" },
-  "February-4-2": {  oi:"Movement Skill Development · Character Development", g12:"Try a hoop challenge (spin, roll, or toss).", g34:"Improve hoop control across repeated attempts.", g56:"Create a hoop challenge others can try." , pos12: "A1–5, D1–7", pos34: "A3–5, D3–7", pos56: "A5–5, D5–7" },
-  "February-4-3": {  oi:"Active Living · Healthy Relationships", g12:"Play a whole-class rope or hoop game without sitting out.", g34:"Keep the class moving with fair rotation of roles.", g56:"Officiate or host so equipment and turns stay fair." , pos12: "A1–13, A1–5, C1–5", pos34: "A3–13, A3–5, C3–5", pos56: "A5–13, A5–5, C5–5" },
-  "February-4-4": {  oi:"Active Living", g12:"Join a short fitness update and a favourite February game.", g34:"Record skip or hoop work privately.", g56:"Compare only to your own last check." , pos12: "B1–3", pos34: "B3–3", pos56: "B5–2, B5–3, D5–6" },
-
-  "March-1-1": {  oi:"Healthy Relationships · Movement Skill Development", g12:"Hold the parachute and make small ripples or a dome together.", g34:"Match force so the chute stays even.", g56:"Cue the group to change ripple size without losing the dome." , pos12: "C1–5, A1–3, D1–5", pos34: "C3–5, A3–3, D3–5", pos56: "C5–5, A5–3, D5–5" },
-  "March-1-2": {  oi:"Movement Skill Development · Safety", g12:"Pop foam balls on the chute without letting go.", g34:"Control popcorn height so balls stay on the chute.", g56:"Vary ripple timing as a team tactic." , pos12: "A1–5, C1–5, D1–5", pos34: "A3–5, C3–5, D3–5", pos56: "A5–5, C5–5, D5–5" },
-  "March-1-3": {  oi:"Movement Skill Development · Safety", g12:"Change places under the chute when your colour is called.", g34:"Move to a new grip on a signal without colliding.", g56:"Plan a colour-change sequence the class can run." , pos12: "A1–1, C1–5, D1–5", pos34: "A3–1, C3–5, D3–5", pos56: "A5–1, C5–5, D5–5" },
-  "March-1-4": {  oi:"Movement Tactics · Healthy Relationships", g12:"Respond to a number or colour call as a group.", g34:"Solve a number task under the chute.", g56:"Lead a number game and check that everyone heard the call." , pos12: "A1–11, C1–5", pos34: "A3–11, C3–5", pos56: "A5–11, C5–5" },
-  "March-2-1": {  oi:"Movement Skill Development", g12:"Toss and catch a scarf or beanbag (circus send).", g34:"Juggle or cascade two objects at a slow rhythm.", g56:"Sustain a two- or three-object pattern and recover a drop." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5" },
-  "March-2-2": {  oi:"Movement Skill Development", g12:"Balance a beanbag or plate-shape on a named body part.", g34:"Walk a pathway while balancing an object.", g56:"Change level without losing the balance." , pos12: "A1–3", pos34: "A3–3", pos56: "A5–3" },
-  "March-2-3": {  oi:"Movement Skill Development · Safety", g12:"Roll a ball or hoop in a straight path.", g34:"Spin a plate or roll a hoop and collect it safely.", g56:"Combine a roll and a catch in one act." , pos12: "A1–5, D1–5", pos34: "A3–5, D3–5", pos56: "A5–5, D5–5" },
-  "March-2-4": {  oi:"Healthy Relationships · Character Development", g12:"Take a turn in a partner circus act; a student may say no.", g34:"Build a 15-second pair act they can leave instantly.", g56:"Rehearse a pair act and give one kind cue." , pos12: "C1–5, A1–3, C1–3", pos34: "C3–5, A3–3, C3–3", pos56: "C5–5, A5–3, C5–3" },
-  "March-3-1": {  oi:"Movement Skill Development · Healthy Relationships", g12:"Use the chute and a circus skill in the same class.", g34:"Transfer a toss or balance from circus to chute play.", g56:"Design a mix so both skills get quality time." , pos12: "A1–5, C1–5", pos34: "A3–5, C3–5", pos56: "A5–5, C5–5" },
-  "March-3-2": {  oi:"Movement Skill Development", g12:"Rotate toss, balance, and roll stations.", g34:"Work circus stations independently.", g56:"Peer-coach one circus station." , pos12: "A1–5, A1–3", pos34: "A3–5, A3–3", pos56: "A5–5, A5–3" },
-  "March-3-3": {  oi:"Character Development · Movement Skill Development", g12:"Choose two circus skills for a short show-and-share.", g34:"Build a 20-second act with a start and still end.", g56:"Refine an act using one movement element (level or timing)." , pos12: "A1–5, A1–3", pos34: "A3–5, A3–3", pos56: "A5–5, A5–3, C5–4" },
-  "March-3-4": {  oi:"Character Development · Healthy Relationships", g12:"Perform or watch a circus share; clap for effort.", g34:"Perform for peers and watch for control, not tricks.", g56:"Host or emcee and keep comments kind." , pos12: "C1–3, A1–5", pos34: "C3–3, A3–5", pos56: "C5–3, A5–5" },
-  "March-4-1": {  oi:"Active Living · Healthy Relationships", g12:"Stay working under a fitness chute game.", g34:"Use the chute for moderate continuous work.", g56:"Lead a chute fitness interval and a recovery." , pos12: "B1–3, C1–5, D1–1", pos34: "B3–3, C3–5, D3–1", pos56: "B5–3, C5–5, D5–1" },
-  "March-4-2": {  oi:"Movement Skill Development · Character Development", g12:"Learn one new chute game.", g34:"Teach a new chute rule to a small group.", g56:"Invent a fair chute game and test it." , pos12: "A1–11", pos34: "A3–11", pos56: "A5–11, C5–4" },
-  "March-4-3": {  oi:"Movement Skill Development", g12:"Rotate chute and circus stations.", g34:"Stay on task and help set equipment.", g56:"Peer-host a station." , pos12: "A1–5, A1–3", pos34: "A3–5, A3–3", pos56: "A5–5, A5–3" },
-  "March-4-4": {  oi:"Active Living", g12:"Join a fitness update and a favourite March game.", g34:"Record effort privately.", g56:"Set one April control goal (stillness over speed)." , pos12: "", pos34: "", pos56: "B5–2, D5–6" },
-
-  "April-1-1": {  oi:"Movement Skill Development", g12:"Show a copied tuck or stretch with tight muscles.", g34:"Hold tuck, pike, straddle, and stretch for 3 seconds.", g56:"Change shape and level on a cue with a still ending." , pos12: "A1–12, A1–3", pos34: "A3–12, A3–3", pos56: "A5–12, A5–3" },
-  "April-1-2": {  oi:"Movement Skill Development · Safety", g12:"Travel like an animal with a still start and still end.", g34:"Change locomotor and pathway like a gymnast.", g56:"Link two travels and control the stop." , pos12: "A1–12, A1–1, D1–5", pos34: "A3–12, A3–1, D3–5", pos56: "A5–12, A5–1, D5–5" },
-  "April-1-3": {  oi:"Movement Skill Development", g12:"Hold a stork or table shape for a short count.", g34:"Balance on large or small body parts for 3 seconds.", g56:"Create a 1–4 point balance and name the points." , pos12: "A1–12, A1–3", pos34: "A3–12, A3–3", pos56: "A5–12, A5–3" },
-  "April-1-4": {  oi:"Movement Skill Development · Safety", g12:"Jump and stick a quiet landing on a mat.", g34:"Jump two-to-two or two-to-one and hold 3.", g56:"Add a ¼ or ½ turn and still stick the land." , pos12: "A1–12, A1–1, D1–5", pos34: "A3–12, A3–1, D3–5", pos56: "A5–12, A5–1, D5–5" },
-  "April-2-1": {  oi:"Movement Skill Development · Safety", g12:"Log-roll long and tight on a mat.", g34:"Log-roll both ways without the head leading a collapse.", g56:"Link a log roll to a still shape." , pos12: "A1–12, A1–1, D1–5", pos34: "A3–12, A3–1, D3–5", pos56: "A5–12, A5–1, D5–5" },
-  "April-2-2": {  oi:"Movement Skill Development · Safety", g12:"Rock in a tuck on the shoulder-blades — not the neck.", g34:"Rock to sit or stand if taught; skip a diving roll.", g56:"Perform a taught shoulder roll only; otherwise rock + shape." , pos12: "A1–12, A1–3, D1–5", pos34: "A3–12, A3–3, D3–5", pos56: "A5–12, A5–3, D5–5" },
-  "April-2-3": {  oi:"Movement Skill Development", g12:"Do a shape and then a travel.", g34:"Link shape + roll or jump + shape.", g56:"Link three skills with one level change." , pos12: "A1–12, A1–1, A1–3", pos34: "A3–12, A3–1, A3–3", pos56: "A5–12, A5–1, A5–3" },
-  "April-2-4": {  oi:"Movement Skill Development", g12:"Rotate travel, jump, roll, and balance with a helper nearby.", g34:"Work four stations independently.", g56:"Peer-safety-coach a station." , pos12: "A1–12", pos34: "A3–12", pos56: "A5–12" },
-  "April-3-1": {  oi:"Movement Skill Development · Safety", g12:"Walk a tape line or low bench and step off to a stick.", g34:"Travel a low bench forward or side and step to a mat.", g56:"Add a ¼ turn off a low bench; one jumper at a time." , pos12: "A1–12, A1–7, D1–5", pos34: "A3–12, A3–7, D3–5", pos56: "A5–12, A5–7, D5–5" },
-  "April-3-2": {  oi:"Movement Skill Development", g12:"Travel a hoop or mat pathway.", g34:"Design a hoop–mat path with a jump or shape.", g56:"Combine pathway, jump, and still ending." , pos12: "A1–12, A1–1", pos34: "A3–12, A3–1", pos56: "A5–12, A5–1" },
-  "April-3-3": {  oi:"Healthy Relationships · Safety", g12:"Make a still pair shape they can leave instantly; a student may say no.", g34:"Create a counterbalance or pair shape with consent.", g56:"Hold a pair shape 3 seconds and stand without help." , pos12: "A1–12, A1–3, C1–3, C1–5", pos34: "A3–12, A3–3, C3–3, C3–5", pos56: "A5–12, A5–3, C5–3, C5–5" },
-  "April-3-4": {  oi:"Movement Skill Development · Healthy Relationships", g12:"Copy a short group sequence.", g34:"Build a group phrase with a still ending.", g56:"Teach one count of the group sequence to another set." , pos12: "A1–12, A1–9, C1–5", pos34: "A3–12, A3–9, C3–5", pos56: "A5–12, A5–9, C5–5" },
-  "April-4-1": {  oi:"Movement Skill Development · Character Development", g12:"Show one skill as “my routine.”", g34:"Perform a 20-second routine with a still ending.", g56:"Perform 20–30 seconds with a level change and a still end." , pos12: "A1–12, A1–9", pos34: "A3–12, A3–9", pos56: "A5–12, A5–9" },
-  "April-4-2": {  oi:"Character Development · Healthy Relationships", g12:"Watch for a still ending and clap for control.", g34:"Name one controlled moment in a peer routine.", g56:"Use a 3-cue watch (stillness, control, ending)." , pos12: "C1–3, A1–12", pos34: "C3–3, A3–12", pos56: "C5–3, A5–12" },
-  "April-4-3": {  oi:"Movement Skill Development", g12:"Choose a favourite April skill to repeat.", g34:"Combine two favourite skills in a short phrase.", g56:"Help set a safe buffet of April stations." , pos12: "A1–12", pos34: "A3–12", pos56: "A5–12" },
-  "April-4-4": {  oi:"Active Living · Character Development", g12:"Join a fitness update and a still-shape closer.", g34:"Record one gymnastics look-for privately.", g56:"Set a control goal, not a trick goal." , pos12: "A1–12", pos34: "A3–12", pos56: "B5–2, A5–12, D5–6" },
-
-  "May-1-1": {  oi:"Movement Skill Development · Active Living", g12:"Review a jog with eyes up and quiet feet.", g34:"Refine run form and stay in a cone lane.", g56:"Talk race pace versus sprint." , pos12: "A1–1, A1–13", pos34: "A3–1, A3–13", pos56: "A5–1, A5–13" },
-  "May-1-2": {  oi:"Movement Skill Development", g12:"Review a two-foot jump and stick.", g34:"Standing long jump or hoop jump with a quiet land.", g56:"Combine a run-up (if space) and a stick — no uncontrolled landings." , pos12: "A1–1, A1–13", pos34: "A3–1, A3–13", pos56: "A5–1, A5–13" },
-  "May-1-3": {  oi:"Movement Skill Development", g12:"Review an underhand send to a zone.", g34:"Throw to a zone with opposite-foot form.", g56:"Choose underhand or overhand for the target." , pos12: "A1–5, A1–13", pos34: "A3–5, A3–13", pos56: "A5–5, A5–13" },
-  "May-1-4": {  oi:"Movement Skill Development", g12:"Do a short run, jump, and throw in one circuit.", g34:"Combine run–jump–throw with quality cues.", g56:"Sequence three events as a mini meet rehearsal." , pos12: "A1–1, A1–13, A1–5", pos34: "A3–1, A3–13, A3–5", pos56: "A5–1, A5–13, A5–5" },
-  "May-2-1": {  oi:"Active Living", g12:"Keep a rope or a march going for a short song.", g34:"Skip continuously for a set song and recover.", g56:"Connect skipping to why the heart likes continuous work." , pos12: "A1–13, B1–3, D1–1", pos34: "A3–13, B3–3, D3–1", pos56: "A5–13, B5–3, D5–1" },
-  "May-2-2": {  oi:"Active Living · Healthy Relationships", g12:"Play a rope game and re-enter after a miss.", g34:"Keep JR4H games moving with fair turns.", g56:"Host a rope station so everyone stays active." , pos12: "A1–13, C1–5, D1–1", pos34: "A3–13, C3–5, D3–1", pos56: "A5–13, C5–5, D5–1" },
-  "May-2-3": {  oi:"Active Living · Character Development", g12:"Participate in the event or a practice loop.", g34:"Sustain effort for the school event time.", g56:"Encourage others and complete a private skip count." , pos12: "D1–1, C1–5", pos34: "D3–1, C3–5", pos56: "D5–1, D5–6, C5–5" },
-  "May-2-4": {  oi:"Movement Skill Development · Active Living", g12:"Return to run and jump after rope week.", g34:"Transfer endurance from rope to a track loop.", g56:"Set a private meet goal from today’s loop." , pos12: "A1–1, A1–13, B1–3", pos34: "A3–1, A3–13, B3–3", pos56: "A5–1, A5–13, B5–3" },
-  "May-3-1": {  oi:"Movement Skill Development · Safety", g12:"Start on a signal and run in a straight path.", g34:"Use a standing or three-point start and stay in a lane.", g56:"Hold a sprint start and wait for the official cue." , pos12: "A1–13, D1–3, D1–5", pos34: "A3–13, D3–3, D3–5", pos56: "A5–13, D5–3, D5–5" },
-  "May-3-2": {  oi:"Movement Skill Development · Healthy Relationships", g12:"Run a short relay with a tag or hand-off.", g34:"Hand off a foam baton — a pass, not a toss at a person.", g56:"Run a relay as an official or an athlete." , pos12: "A1–13, C1–5, A1–11", pos34: "A3–13, C3–5, A3–11", pos56: "A5–13, C5–5, A5–11" },
-  "May-3-3": {  oi:"Movement Skill Development · Safety", g12:"Jump or throw to a zone, not at people.", g34:"Practise one field jump and one throw for a meet.", g56:"Rotate as athlete and official at a field station." , pos12: "A1–13, A1–5, D1–5", pos34: "A3–13, A3–5, D3–5", pos56: "A5–13, A5–5, D5–5" },
-  "May-3-4": {  oi:"Character Development · Active Living", g12:"Rotate two events calmly and cheer.", g34:"Complete three events with fair starts.", g56:"Act as a student official or timer." , pos12: "A1–13, C1–3", pos34: "A3–13, C3–3", pos56: "A5–13, C5–3, D5–2" },
-  "May-4-1": {  oi:"Movement Skill Development · Safety", g12:"Hold a picture map and find a nearby control with a partner.", g34:"Keep a thumb on the map and walk to the next number.", g56:"Orient the map to the gym or field before moving." , pos12: "A1–7, D1–5", pos34: "A3–7, D3–5", pos56: "A5–7, D5–5" },
-  "May-4-2": {  oi:"Movement Tactics · Safety", g12:"Visit a few controls in order with an adult nearby.", g34:"Complete a numbered loop with a partner.", g56:"Navigate a set course and know to stop and look if lost." , pos12: "A1–7, A1–11, D1–5", pos34: "A3–7, A3–11, D3–5", pos56: "A5–7, A5–11, D5–5" },
-  "May-4-3": {  oi:"Movement Tactics", g12:"Collect nearby controls before the whistle.", g34:"Plan a short Score-O route with a partner.", g56:"Plan a Score-O route and return by the whistle." , pos12: "A1–7, A1–11", pos34: "A3–7, A3–11", pos56: "A5–7, A5–11" },
-  "May-4-4": {  oi:"Active Living", g12:"Join a fitness update and a field or gym closer.", g34:"Record skip or a timed run privately.", g56:"Review a private meet goal." , pos12: "B1–3", pos34: "B3–3", pos56: "B5–2, B5–3, D5–6" },
-
-  "June-1-1": {  oi:"Character Development · Safety", g12:"Practise lining up for an event and waiting.", g34:"Rehearse three meet events with fair starts.", g56:"Help run a heat or a waiting line." , pos12: "A1–13, D1–3, C1–3", pos34: "A3–13, D3–3, C3–3", pos56: "A5–13, D5–3, C5–3" },
-  "June-1-2": {  oi:"Healthy Relationships · Character Development", g12:"Cheer more than one team in a relay.", g34:"Hand off fairly and cheer the next runner.", g56:"Organize a cheer or a fair rotation." , pos12: "A1–13, C1–5", pos34: "A3–13, C3–5", pos56: "A5–13, C5–5" },
-  "June-1-3": {  oi:"Movement Skill Development · Safety", g12:"Practise one jump or throw to a zone.", g34:"Complete a field-event rotation with a quiet land or a safe throw.", g56:"Official a field station for part of the class." , pos12: "A1–13, A1–5, D1–5", pos34: "A3–13, A3–5, D3–5", pos56: "A5–13, A5–5, D5–5" },
-  "June-1-4": {  oi:"Active Living · Character Development", g12:"Finish the event you are given and cheer.", g34:"Complete the meet or mini meet with fair behaviour.", g56:"Lead or official as asked; celebrate effort, not rank." , pos12: "A1–13, C1–3", pos34: "A3–13, C3–3", pos56: "A5–13, C5–3, D5–2" },
-  "June-2-1": {  oi:"Movement Skill Development", g12:"Catch a beanbag or foam ball from a short toss.", g34:"Catch and toss to a partner as a T-ball warm-up.", g56:"Catch on the move and reset without blame." , pos12: "A1–5", pos34: "A3–5", pos56: "A5–5" },
-  "June-2-2": {  oi:"Movement Skill Development · Movement Tactics", g12:"Run through first and wait on the hoop.", g34:"Run a three-base path after a hit or a called go.", g56:"Decide when to run and when to hold." , pos12: "A1–1, A1–13, A1–11", pos34: "A3–1, A3–13, A3–11", pos56: "A5–1, A5–13, A5–11" },
-  "June-2-3": {  oi:"Movement Skill Development · Safety", g12:"Hit off a tee and drop the bat in a hoop.", g34:"Hit a tee or soft toss into a fair zone.", g56:"Hit and look up before running." , pos12: "A1–5, A1–13, D1–5", pos34: "A3–5, A3–13, D3–5", pos56: "A5–5, A5–13, D5–5" },
-  "June-2-4": {  oi:"Movement Tactics", g12:"Field a roller toward a teacher or hoop.", g34:"Field a grounder and throw to a hoop at first.", g56:"Choose first or another base on a force play." , pos12: "A1–5, A1–11", pos34: "A3–5, A3–11", pos56: "A5–5, A5–11" },
-  "June-3-1": {  oi:"Movement Tactics · Healthy Relationships", g12:"Bat and field in a modified game so everyone bats.", g34:"Play modified T-ball with everyone batting and no elimination.", g56:"Keep positions rotating so no one is stuck in the outfield." , pos12: "A1–11, C1–5, A1–5", pos34: "A3–11, C3–5, A3–5", pos56: "A5–11, C5–5, A5–5" },
-  "June-3-2": {  oi:"Movement Tactics", g12:"Call for a turn or a catch.", g34:"Call “I got it” and throw to the base, not the runner.", g56:"Hold the ball when a throw is not on." , pos12: "A1–11, C1–1", pos34: "A3–11, C3–1", pos56: "A5–11, C5–1" },
-  "June-3-3": {  oi:"Healthy Relationships · Active Living", g12:"Play a favourite year game and include a classmate.", g34:"Host or choose a festival station fairly.", g56:"Run a festival station for mixed grades if asked." , pos12: "C1–5, D1–1", pos34: "C3–5, D3–1", pos56: "C5–5, D5–1" },
-  "June-3-4": {  oi:"Active Living · Character Development", g12:"Name one favourite game and one summer way to stay active.", g34:"Name one personal goal from the year.", g56:"Compare private September and June checks only with yourself." , pos12: "D1–8", pos34: "D3–8", pos56: "B5–6, D5–6, D5–8" }
+  "September-1-1": {
+    items: [
+    { code: "D–3, D–5", look: "Freezes on the first whistle and stays inside the lines." },
+    { code: "A–10", look: "Moves without bumping; keeps a bubble of personal space." }
+    ]
+  },
+  "September-1-2": {
+    items: [
+    { code: "D–3, D–5", look: "Goes to the gather spot quietly the first time." },
+    { code: "C–1", look: "Uses a calm voice after a freeze or tag." }
+    ]
+  },
+  "September-1-3": {
+    items: [
+    { code: "B–7", look: "Can name one body change from play (heart, breath, warmth)." },
+    { code: "A–10", look: "Walks without popping a neighbour’s bubble." }
+    ]
+  },
+  "September-1-4": {
+    items: [
+    { code: "C–5", look: "Helps a partner finish a shared task." },
+    { code: "C–3", look: "Accepts a tag or a miss without arguing." }
+    ]
+  },
+  "September-2-1": {
+    items: [
+    { code: "B–3, B–7", look: "Heart or breath is faster after the game; can say so." },
+    { code: "D–1", look: "Keeps moving for the whole warm-up, with short rests." }
+    ]
+  },
+  "September-2-2": {
+    items: [
+    { code: "B–2", look: "Holds a simple strength shape with a straight back." },
+    { code: "A–3", look: "Names the muscle that did the work." }
+    ]
+  },
+  "September-2-3": {
+    items: [
+    { code: "D–4", look: "Copies a stretch and holds without bouncing." },
+    { code: "B–2", look: "Breathes during the stretch." }
+    ]
+  },
+  "September-2-4": {
+    items: [
+    { code: "B–2, B–3", look: "Completes the private check without comparing scores." },
+    { code: "D–6", look: "Treats the sheet as a starting point, not a race." }
+    ]
+  },
+  "September-3-1": {
+    items: [
+    { code: "B–1", look: "Names one choice that fuels play (water, sleep, food)." },
+    { code: "B–6", look: "Says how the body feels after the game." }
+    ]
+  },
+  "September-3-2": {
+    items: [
+    { code: "B–2", look: "Points to and uses three named muscles." },
+    { code: "B–7", look: "Matches a muscle to a gym action." }
+    ]
+  },
+  "September-3-3": {
+    items: [
+    { code: "B–3", look: "Joins a burst and a quiet recovery." },
+    { code: "B–7", look: "Notices breath slowing after the storm." }
+    ]
+  },
+  "September-3-4": {
+    items: [
+    { code: "C–3", look: "Helps write or keep one class promise." },
+    { code: "D–2", look: "Shows effort on a chosen closer." }
+    ]
+  },
+  "September-4-1": {
+    items: [
+    { code: "A–1", look: "Jogs with eyes up and quiet feet." },
+    { code: "A–13", look: "Changes speed on a signal." }
+    ]
+  },
+  "September-4-2": {
+    items: [
+    { code: "A–1, A–13", look: "Two-foot jump and a quiet stick landing." },
+    { code: "D–5", look: "Lands on the mat or line, not on a person." }
+    ]
+  },
+  "September-4-3": {
+    items: [
+    { code: "D–1, D–6", look: "Finishes the walk–run loop with the class." },
+    { code: "C–5", look: "Encourages a classmate during the loop." }
+    ]
+  },
+  "September-4-4": {
+    items: [
+    { code: "D–1", look: "Stays in the celebration or recovery game." },
+    { code: "C–5", look: "Cheers effort, not a winner." }
+    ]
+  },
+  "October-1-1": {
+    items: [
+    { code: "A–5", look: "Body is behind the ball before the scoop or catch." },
+    { code: "D–5", look: "Moves among many balls without kicking people." }
+    ]
+  },
+  "October-1-2": {
+    items: [
+    { code: "A–5", look: "Underhand send with a step toward the target." },
+    { code: "D–2", look: "Repeats the cue even when a throw misses." }
+    ]
+  },
+  "October-1-3": {
+    items: [
+    { code: "A–5", look: "Plant foot beside the ball; kick to a partner or gate." },
+    { code: "D–2", look: "Tries a second kick after a miss." }
+    ]
+  },
+  "October-1-4": {
+    items: [
+    { code: "A–5", look: "Sends, then moves to the ball and traps." },
+    { code: "A–1", look: "Travels with the ball under control." }
+    ]
+  },
+  "October-2-1": {
+    items: [
+    { code: "A–5", look: "Inside-foot pass hits the gate or partner." },
+    { code: "A–11", look: "Looks for a teammate before shooting." }
+    ]
+  },
+  "October-2-2": {
+    items: [
+    { code: "A–5", look: "Throws to where the partner will be." },
+    { code: "A–11", look: "Receiver moves to the ball." }
+    ]
+  },
+  "October-2-3": {
+    items: [
+    { code: "A–5", look: "Trap stays near the body." },
+    { code: "D–5", look: "Gets in front of the ball, not a kick at feet." }
+    ]
+  },
+  "October-2-4": {
+    items: [
+    { code: "A–5", look: "Chooses kick or throw for the task." },
+    { code: "D–2", look: "Uses both sends in the same class." }
+    ]
+  },
+  "October-3-1": {
+    items: [
+    { code: "A–5", look: "Hits off a tee or toss with space to swing." },
+    { code: "D–5", look: "Follow-through is not toward a person." }
+    ]
+  },
+  "October-3-2": {
+    items: [
+    { code: "A–5", look: "Bounce or chest pass arrives at the belly." },
+    { code: "A–11", look: "Steps to the target after the pass." }
+    ]
+  },
+  "October-3-3": {
+    items: [
+    { code: "A–11", look: "Pass before a shot in the small game." },
+    { code: "C–5", look: "Shares the ball with more than one teammate." }
+    ]
+  },
+  "October-3-4": {
+    items: [
+    { code: "A–5", look: "Underhand or below-waist send to a pin." },
+    { code: "D–5", look: "Foam stays low." }
+    ]
+  },
+  "October-4-1": {
+    items: [
+    { code: "A–5", look: "Sends with more than one body part." },
+    { code: "C–5", look: "Resets a drop without blame." }
+    ]
+  },
+  "October-4-2": {
+    items: [
+    { code: "A–11", look: "Intercepts the ball, not the person." },
+    { code: "D–5", look: "Hands stay off the attacker." }
+    ]
+  },
+  "October-4-3": {
+    items: [
+    { code: "A–5", look: "Repeats one send cue at stations." },
+    { code: "D–2", look: "Stays on a station for the whole rotation." }
+    ]
+  },
+  "October-4-4": {
+    items: [
+    { code: "A–5", look: "Shows one favourite send." },
+    { code: "C–5", look: "Votes and plays kindly." }
+    ]
+  },
+  "November-1-1": {
+    items: [
+    { code: "A–5", look: "Ready hands; catch at chest or below." },
+    { code: "D–2", look: "Tries again after a drop." }
+    ]
+  },
+  "November-1-2": {
+    items: [
+    { code: "A–5", look: "Feet move to the ball before the catch." },
+    { code: "A–1", look: "Shuffles or walks the line to the catch." }
+    ]
+  },
+  "November-1-3": {
+    items: [
+    { code: "A–5", look: "Body in front; scoop or stop a roller." },
+    { code: "D–5", look: "Does not kick at a incoming ball." }
+    ]
+  },
+  "November-1-4": {
+    items: [
+    { code: "A–5, A–13", look: "Opposite-foot step and follow-through to a hoop." },
+    { code: "D–2", look: "Quality over distance." }
+    ]
+  },
+  "November-2-1": {
+    items: [
+    { code: "A–5", look: "Watches the ball all the way to the hit." },
+    { code: "A–13", look: "Runs after contact." }
+    ]
+  },
+  "November-2-2": {
+    items: [
+    { code: "C–1", look: "Calls ‘mine’ or a name before the catch." },
+    { code: "A–5", look: "Catch then throw, not a scramble." }
+    ]
+  },
+  "November-2-3": {
+    items: [
+    { code: "A–11", look: "Throws to the base or hoop, not the runner." },
+    { code: "A–5", look: "Fields, then sends." }
+    ]
+  },
+  "November-2-4": {
+    items: [
+    { code: "A–5", look: "Repeatable form on a short set of throws." },
+    { code: "A–13", look: "Hits a hoop more than once." }
+    ]
+  },
+  "November-3-1": {
+    items: [
+    { code: "A–5", look: "Matches the tool to a safe hit." },
+    { code: "D–5", look: "Swing space is clear." }
+    ]
+  },
+  "November-3-2": {
+    items: [
+    { code: "A–5", look: "Keeps a short rally going." },
+    { code: "C–3", look: "Resets a drop without blame." }
+    ]
+  },
+  "November-3-3": {
+    items: [
+    { code: "A–11", look: "Moves to space after the pass." },
+    { code: "A–5", look: "Does not run with the ball." }
+    ]
+  },
+  "November-3-4": {
+    items: [
+    { code: "A–13", look: "Runs through first after the hit." },
+    { code: "A–11", look: "Knows why we throw to a base." }
+    ]
+  },
+  "November-4-1": {
+    items: [
+    { code: "A–5", look: "Works catch, throw, stop, or hit at a station." },
+    { code: "D–2", look: "Stays on task when the teacher is at another station." }
+    ]
+  },
+  "November-4-2": {
+    items: [
+    { code: "C–1", look: "Talks before the send over the rope." },
+    { code: "A–11", look: "Uses a must-pass or catch-throw rule." }
+    ]
+  },
+  "November-4-3": {
+    items: [
+    { code: "A–5", look: "Shows the throw cue three times." },
+    { code: "C–3", look: "Comments on form, not distance." }
+    ]
+  },
+  "November-4-4": {
+    items: [
+    { code: "B–2", look: "Completes the short fitness update." },
+    { code: "A–5", look: "Applies a send in the voted game." }
+    ]
+  },
+  "December-1-1": {
+    items: [
+    { code: "A–8", look: "Starts and stops on the beat." },
+    { code: "D–3", look: "Changes when the signal changes." }
+    ]
+  },
+  "December-1-2": {
+    items: [
+    { code: "A–3", look: "Shows a high, medium, and low shape." },
+    { code: "A–8", look: "Changes level on a cue." }
+    ]
+  },
+  "December-1-3": {
+    items: [
+    { code: "A–8", look: "Moves when the voice starts; freezes when it stops." },
+    { code: "D–3", look: "Listens for the next command." }
+    ]
+  },
+  "December-1-4": {
+    items: [
+    { code: "A–9", look: "Builds a short phrase with a partner." },
+    { code: "C–5", look: "Takes turns being the leader." }
+    ]
+  },
+  "December-2-1": {
+    items: [
+    { code: "A–8", look: "Travels a pathway with a scarf." },
+    { code: "A–1", look: "Changes locomotor without losing the path." }
+    ]
+  },
+  "December-2-2": {
+    items: [
+    { code: "A–8", look: "Matches a short tambourine phrase." },
+    { code: "A–9", look: "Freezes at the end of the phrase." }
+    ]
+  },
+  "December-2-3": {
+    items: [
+    { code: "A–9", look: "Joins the group dance for a chorus." },
+    { code: "C–5", look: "Copies a neighbour without bumping." }
+    ]
+  },
+  "December-2-4": {
+    items: [
+    { code: "A–8", look: "Stays on the beat in a game." },
+    { code: "D–1", look: "Keeps moving; no sitting out." }
+    ]
+  },
+  "December-3-1": {
+    items: [
+    { code: "A–9", look: "Sequences three story actions." },
+    { code: "C–4", look: "Has a clear beginning and end." }
+    ]
+  },
+  "December-3-2": {
+    items: [
+    { code: "A–9", look: "Performs a short dance with a still ending." },
+    { code: "A–8", look: "Uses one element: level, pathway, or timing." }
+    ]
+  },
+  "December-3-3": {
+    items: [
+    { code: "A–8", look: "Combines a prop and a travel." },
+    { code: "D–2", look: "Rotates stations without being reminded." }
+    ]
+  },
+  "December-3-4": {
+    items: [
+    { code: "A–9", look: "Shares a phrase and watches kindly." },
+    { code: "C–3", look: "Comments on control, not tricks." }
+    ]
+  },
+  "January-1-1": {
+    items: [
+    { code: "D–5", look: "Soft tag; tagged player re-enters after a stretch." },
+    { code: "C–5", look: "Helps unfreeze someone." }
+    ]
+  },
+  "January-1-2": {
+    items: [
+    { code: "C–5", look: "Tries a partner problem again after it fails." },
+    { code: "C–1", look: "Uses one helpful word, not a takeover." }
+    ]
+  },
+  "January-1-3": {
+    items: [
+    { code: "C–4", look: "Takes a role in a group of four." },
+    { code: "C–5", look: "The object gets across without leaving someone out." }
+    ]
+  },
+  "January-1-4": {
+    items: [
+    { code: "D–7", look: "Tries a personal challenge inside the group." },
+    { code: "D–2", look: "Persists after a miss." }
+    ]
+  },
+  "January-2-1": {
+    items: [
+    { code: "A–11", look: "Rotates in fairly in a four-square-style game." },
+    { code: "D–5", look: "Sends stay at a safe height." }
+    ]
+  },
+  "January-2-2": {
+    items: [
+    { code: "A–1", look: "Hops, jumps, or skips a floor pattern." },
+    { code: "A–13", look: "Completes a short rope or hopscotch path." }
+    ]
+  },
+  "January-2-3": {
+    items: [
+    { code: "A–10", look: "Changes direction without contact." },
+    { code: "D–5", look: "Stays in the wall or chase boundaries." }
+    ]
+  },
+  "January-2-4": {
+    items: [
+    { code: "A–7", look: "Shows a glide, slide, or safe stop." },
+    { code: "D–5", look: "Stops without sliding into people." }
+    ]
+  },
+  "January-3-1": {
+    items: [
+    { code: "A–11", look: "Invented tag has a re-entry, not elimination." },
+    { code: "C–4", look: "Can say the start rule in one sentence." }
+    ]
+  },
+  "January-3-2": {
+    items: [
+    { code: "A–11", look: "Invented send game has start, score, and safety." },
+    { code: "C–4", look: "The group can teach those three things." }
+    ]
+  },
+  "January-3-3": {
+    items: [
+    { code: "A–11", look: "Notices what one rule change does." },
+    { code: "C–3", look: "Change makes play fairer or more active." }
+    ]
+  },
+  "January-3-4": {
+    items: [
+    { code: "C–4", look: "Teaches a game in a short, clear way." },
+    { code: "C–1", look: "Listens to one piece of feedback." }
+    ]
+  },
+  "January-4-1": {
+    items: [
+    { code: "C–5", look: "Whole class succeeds together." },
+    { code: "A–11", look: "Helps reset when the plan stalls." }
+    ]
+  },
+  "January-4-2": {
+    items: [
+    { code: "C–3", look: "Adapts so a classmate can join." },
+    { code: "C–5", look: "Checks that the change worked." }
+    ]
+  },
+  "January-4-3": {
+    items: [
+    { code: "D–2", look: "Stays on task at a station." },
+    { code: "C–5", look: "Helps a neighbour." }
+    ]
+  },
+  "January-4-4": {
+    items: [
+    { code: "C–5", look: "Cheers more than one team." },
+    { code: "D–1", look: "Plays the festival game to the whistle." }
+    ]
+  },
+  "February-1-1": {
+    items: [
+    { code: "D–5", look: "Enters a rope only after a ready check." },
+    { code: "A–13", look: "Jumps or runs through without yanking the rope." }
+    ]
+  },
+  "February-1-2": {
+    items: [
+    { code: "A–13", look: "Two-foot jump and a quiet land." },
+    { code: "D–2", look: "Keeps a short rhythm." }
+    ]
+  },
+  "February-1-3": {
+    items: [
+    { code: "A–13", look: "Jumps in, jumps, or runs through a long rope." },
+    { code: "C–5", look: "Turns for someone else." }
+    ]
+  },
+  "February-1-4": {
+    items: [
+    { code: "D–1", look: "Stays in the rope game (march if needed)." },
+    { code: "A–13", look: "Takes a turn as jumper or turner." }
+    ]
+  },
+  "February-2-1": {
+    items: [
+    { code: "A–5", look: "Controls a hoop in personal space." },
+    { code: "D–5", look: "Does not chase a hoop into others." }
+    ]
+  },
+  "February-2-2": {
+    items: [
+    { code: "A–1", look: "Travels with a hoop (step, hop, or roll)." },
+    { code: "A–5", look: "Keeps the hoop while changing locomotor." }
+    ]
+  },
+  "February-2-3": {
+    items: [
+    { code: "A–5", look: "Tosses into a hoop from a line." },
+    { code: "D–2", look: "Steps back after a make." }
+    ]
+  },
+  "February-2-4": {
+    items: [
+    { code: "A–8", look: "Makes a short hoop phrase and freezes." },
+    { code: "A–5", look: "Spin, travel, still ending." }
+    ]
+  },
+  "February-3-1": {
+    items: [
+    { code: "A–13, A–5", look: "Works a rope and a hoop station." },
+    { code: "D–2", look: "Rotates without being called." }
+    ]
+  },
+  "February-3-2": {
+    items: [
+    { code: "A–13", look: "Combines rope and hoop in one path." },
+    { code: "D–5", look: "Course is safe for the next person." }
+    ]
+  },
+  "February-3-3": {
+    items: [
+    { code: "C–5", look: "Turns or jumps with a partner." },
+    { code: "A–13", look: "Adjusts speed so both succeed." }
+    ]
+  },
+  "February-3-4": {
+    items: [
+    { code: "B–3", look: "Stays in moderate work for the set time." },
+    { code: "D–1", look: "Chooses hoop cardio or a skate-swap safely." }
+    ]
+  },
+  "February-4-1": {
+    items: [
+    { code: "A–13", look: "Attempts a rope challenge." },
+    { code: "D–7", look: "Celebrates a personal best, not a class rank." }
+    ]
+  },
+  "February-4-2": {
+    items: [
+    { code: "A–5", look: "Improves hoop control on repeats." },
+    { code: "D–7", look: "Tries one harder hoop task." }
+    ]
+  },
+  "February-4-3": {
+    items: [
+    { code: "C–5", look: "Roles rotate so everyone stays active." },
+    { code: "A–13", look: "Joins the big-group rope or hoop game." }
+    ]
+  },
+  "February-4-4": {
+    items: [
+    { code: "B–2, B–3", look: "Private skip or hoop check." },
+    { code: "D–6", look: "Compares only to their last check." }
+    ]
+  },
+  "March-1-1": {
+    items: [
+    { code: "C–5", look: "Holds the chute so it stays round." },
+    { code: "A–3", look: "Uses force together for ripples or a dome." }
+    ]
+  },
+  "March-1-2": {
+    items: [
+    { code: "A–5", look: "Keeps popcorn balls on the chute." },
+    { code: "D–5", look: "Does not let go to chase a ball." }
+    ]
+  },
+  "March-1-3": {
+    items: [
+    { code: "A–1", look: "Crosses under on the colour call." },
+    { code: "D–5", look: "Takes a new grip without colliding." }
+    ]
+  },
+  "March-1-4": {
+    items: [
+    { code: "A–11", look: "Responds to a number or colour as a team." },
+    { code: "C–5", look: "Makes space for everyone under the chute." }
+    ]
+  },
+  "March-2-1": {
+    items: [
+    { code: "A–5", look: "Toss and catch a scarf or beanbag." },
+    { code: "D–2", look: "Recovers a drop and keeps the count." }
+    ]
+  },
+  "March-2-2": {
+    items: [
+    { code: "A–3", look: "Balances an object on a named body part." },
+    { code: "D–2", look: "Walks a short path without a drop." }
+    ]
+  },
+  "March-2-3": {
+    items: [
+    { code: "A–5", look: "Rolls a hoop or ball in a straight path." },
+    { code: "D–5", look: "Collects it without running through others." }
+    ]
+  },
+  "March-2-4": {
+    items: [
+    { code: "C–3", look: "A student may say no to a pair act." },
+    { code: "A–3", look: "Pair shape can be left instantly." }
+    ]
+  },
+  "March-3-1": {
+    items: [
+    { code: "A–5", look: "Uses a circus send and the chute in one class." },
+    { code: "C–5", look: "Shares time so both skills get turns." }
+    ]
+  },
+  "March-3-2": {
+    items: [
+    { code: "A–5", look: "Works toss, balance, or roll at a station." },
+    { code: "D–2", look: "Independent rotate." }
+    ]
+  },
+  "March-3-3": {
+    items: [
+    { code: "A–5", look: "Short act has a start and a still end." },
+    { code: "C–4", look: "Chooses two skills and sticks to them." }
+    ]
+  },
+  "March-3-4": {
+    items: [
+    { code: "C–3", look: "Watches for control, not tricks." },
+    { code: "A–5", look: "Performs or supports a classmate’s act." }
+    ]
+  },
+  "March-4-1": {
+    items: [
+    { code: "B–3", look: "Stays working in a chute fitness game." },
+    { code: "C–5", look: "Lifts and lowers with the group." }
+    ]
+  },
+  "March-4-2": {
+    items: [
+    { code: "A–11", look: "Learns or teaches one new chute rule." },
+    { code: "C–4", look: "Rule is fair and keeps everyone in." }
+    ]
+  },
+  "March-4-3": {
+    items: [
+    { code: "A–5", look: "Rotates chute and circus stations." },
+    { code: "D–2", look: "Helps set or tidy equipment." }
+    ]
+  },
+  "March-4-4": {
+    items: [
+    { code: "B–2", look: "Private effort note." },
+    { code: "D–6", look: "Sets one April control goal." }
+    ]
+  },
+  "April-1-1": {
+    items: [
+    { code: "A–12", look: "Named shape held 3 seconds with tight muscles." },
+    { code: "A–3", look: "Tuck, stretch, or another copied shape is still." }
+    ]
+  },
+  "April-1-2": {
+    items: [
+    { code: "A–12", look: "Travel with a still start and still end." },
+    { code: "A–1", look: "Animal or gymnast travel stays in a lane." }
+    ]
+  },
+  "April-1-3": {
+    items: [
+    { code: "A–12", look: "Balance held 3 seconds." },
+    { code: "A–3", look: "Eyes on a wall spot; can leave the shape." }
+    ]
+  },
+  "April-1-4": {
+    items: [
+    { code: "A–12", look: "Jump and stick a quiet landing." },
+    { code: "D–5", look: "Toes then heels; no crashing into the next jumper." }
+    ]
+  },
+  "April-2-1": {
+    items: [
+    { code: "A–12", look: "Log roll is long and tight." },
+    { code: "D–5", look: "Head does not lead a collapse." }
+    ]
+  },
+  "April-2-2": {
+    items: [
+    { code: "A–12", look: "Rock stays on the shoulder-blades." },
+    { code: "D–5", look: "No neck-loading; skip a roll that is not taught." }
+    ]
+  },
+  "April-2-3": {
+    items: [
+    { code: "A–12", look: "Links two skills (shape + travel or jump + shape)." },
+    { code: "A–3", look: "Still ending." }
+    ]
+  },
+  "April-2-4": {
+    items: [
+    { code: "A–12", look: "Works travel, jump, roll, or balance at a station." },
+    { code: "D–5", look: "Waits on a mat task — one at a time on apparatus." }
+    ]
+  },
+  "April-3-1": {
+    items: [
+    { code: "A–12", look: "Walks a line or low bench and steps off to a stick." },
+    { code: "D–5", look: "One jumper; mats on the landing side." }
+    ]
+  },
+  "April-3-2": {
+    items: [
+    { code: "A–12", look: "Hoop or mat pathway with a jump or shape." },
+    { code: "A–1", look: "Pathway is planned, not a race." }
+    ]
+  },
+  "April-3-3": {
+    items: [
+    { code: "C–3", look: "Consent; a student may say no." },
+    { code: "A–12", look: "Pair shape can be left instantly." }
+    ]
+  },
+  "April-3-4": {
+    items: [
+    { code: "A–12", look: "Copies or builds a short group sequence." },
+    { code: "C–5", look: "Still ending together." }
+    ]
+  },
+  "April-4-1": {
+    items: [
+    { code: "A–12", look: "Short routine with a still ending." },
+    { code: "A–9", look: "Shows one level change if ready." }
+    ]
+  },
+  "April-4-2": {
+    items: [
+    { code: "C–3", look: "Names one controlled moment in a peer routine." },
+    { code: "A–12", look: "Watches for stillness, not tricks." }
+    ]
+  },
+  "April-4-3": {
+    items: [
+    { code: "A–12", look: "Repeats a favourite April skill with control." },
+    { code: "D–5", look: "Buffet stations stay safe." }
+    ]
+  },
+  "April-4-4": {
+    items: [
+    { code: "B–2", look: "Private gymnastics look-for." },
+    { code: "A–12", look: "Control goal, not a trick goal." }
+    ]
+  },
+  "May-1-1": {
+    items: [
+    { code: "A–1", look: "Jog with eyes up; stays in a lane." },
+    { code: "A–13", look: "Run form on a signal." }
+    ]
+  },
+  "May-1-2": {
+    items: [
+    { code: "A–13", look: "Standing jump and a quiet stick." },
+    { code: "A–1", look: "Soft knees on the land." }
+    ]
+  },
+  "May-1-3": {
+    items: [
+    { code: "A–5", look: "Send to a zone with opposite-foot form." },
+    { code: "A–13", look: "Accuracy over smash." }
+    ]
+  },
+  "May-1-4": {
+    items: [
+    { code: "A–13", look: "Run, jump, and throw in one circuit." },
+    { code: "D–2", look: "Quality cues on each event." }
+    ]
+  },
+  "May-2-1": {
+    items: [
+    { code: "B–3", look: "Keeps a skip or march going for the song." },
+    { code: "A–13", look: "Rope or alternative movement for the set time." }
+    ]
+  },
+  "May-2-2": {
+    items: [
+    { code: "D–1", look: "Re-enters after a miss." },
+    { code: "C–5", look: "Fair turns at the rope." }
+    ]
+  },
+  "May-2-3": {
+    items: [
+    { code: "D–1, D–6", look: "Participates for the event time." },
+    { code: "C–5", look: "Encourages others." }
+    ]
+  },
+  "May-2-4": {
+    items: [
+    { code: "A–1", look: "Transfers rope work back to a run." },
+    { code: "B–3", look: "Talks pace vs sprint in simple words." }
+    ]
+  },
+  "May-3-1": {
+    items: [
+    { code: "A–13", look: "Starts on the signal; stays in a cone lane." },
+    { code: "D–3", look: "Waits for the official cue." }
+    ]
+  },
+  "May-3-2": {
+    items: [
+    { code: "A–13", look: "Hands off a baton — a pass, not a toss at a person." },
+    { code: "C–5", look: "Cheers the next runner." }
+    ]
+  },
+  "May-3-3": {
+    items: [
+    { code: "A–13", look: "Jump or throw to a zone, not at people." },
+    { code: "D–5", look: "Quiet land or a safe throw." }
+    ]
+  },
+  "May-3-4": {
+    items: [
+    { code: "C–3", look: "Rotates events calmly." },
+    { code: "A–13", look: "Finishes the event they are given." }
+    ]
+  },
+  "May-4-1": {
+    items: [
+    { code: "A–7", look: "Thumb on the map; finds a nearby control." },
+    { code: "D–5", look: "Moves with a partner, not a sprint into others." }
+    ]
+  },
+  "May-4-2": {
+    items: [
+    { code: "A–7", look: "Visits controls in order." },
+    { code: "A–11", look: "Stops and looks if lost." }
+    ]
+  },
+  "May-4-3": {
+    items: [
+    { code: "A–11", look: "Plans a short Score-O route." },
+    { code: "A–7", look: "Back by the whistle." }
+    ]
+  },
+  "May-4-4": {
+    items: [
+    { code: "B–3", look: "Private skip or timed run." },
+    { code: "D–6", look: "Reviews a personal meet goal." }
+    ]
+  },
+  "June-1-1": {
+    items: [
+    { code: "D–3", look: "Lines up and waits for the event." },
+    { code: "A–13", look: "Rehearses one meet event fairly." }
+    ]
+  },
+  "June-1-2": {
+    items: [
+    { code: "C–5", look: "Cheers more than one team." },
+    { code: "A–13", look: "Fair hand-off or fair start." }
+    ]
+  },
+  "June-1-3": {
+    items: [
+    { code: "A–13", look: "Jump or throw to a zone." },
+    { code: "D–5", look: "Safe field-event rotation." }
+    ]
+  },
+  "June-1-4": {
+    items: [
+    { code: "C–3", look: "Finishes the event; celebrates effort." },
+    { code: "A–13", look: "Meet or mini-meet behaviour." }
+    ]
+  },
+  "June-2-1": {
+    items: [
+    { code: "A–5", look: "Catch from a short toss." },
+    { code: "D–2", look: "Resets after a drop." }
+    ]
+  },
+  "June-2-2": {
+    items: [
+    { code: "A–13", look: "Runs through first and waits on the hoop." },
+    { code: "A–11", look: "Knows when to go and when to hold." }
+    ]
+  },
+  "June-2-3": {
+    items: [
+    { code: "A–5", look: "Hit off a tee; bat in the hoop." },
+    { code: "D–5", look: "Looks up after contact before running." }
+    ]
+  },
+  "June-2-4": {
+    items: [
+    { code: "A–5", look: "Fields a grounder." },
+    { code: "A–11", look: "Throws to the hoop at first, not the runner." }
+    ]
+  },
+  "June-3-1": {
+    items: [
+    { code: "A–11", look: "Everyone bats in the modified game." },
+    { code: "C–5", look: "Positions rotate." }
+    ]
+  },
+  "June-3-2": {
+    items: [
+    { code: "C–1", look: "Calls ‘I got it.’" },
+    { code: "A–11", look: "Holds the ball when the throw is not on." }
+    ]
+  },
+  "June-3-3": {
+    items: [
+    { code: "C–5", look: "Includes a classmate at a festival station." },
+    { code: "D–1", look: "Plays a favourite year game to the whistle." }
+    ]
+  },
+  "June-3-4": {
+    items: [
+    { code: "B–6", look: "Names one favourite game or one summer activity." },
+    { code: "D–6", look: "Compares only to their own September check." }
+    ]
+  },
 };
