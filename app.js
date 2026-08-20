@@ -7,7 +7,7 @@
 
   const page = document.body && document.body.dataset.page;
   const PE = window.PE;
-  if (!PE) return;
+  if (!PE && page !== "videos") return;
   const { months, MONTH_GAMES, GLANCE } = PE || { months: [], MONTH_GAMES: {}, GLANCE: [] };
   const UNIT = window.UNIT_OUTCOMES || {};
   const K2M = window.K2_MONTH_GAMES || {};
@@ -154,7 +154,7 @@
             <div><strong>Grades 3–4.</strong> ${g.g34}</div>
             <div><strong>Grades 5–6.</strong> ${g.g56}</div>
           </div>
-          <p class="note"><strong>Safety.</strong> ${g.safety}</p>${videoHtml(g.name)}
+          <p class="note"><strong>Safety.</strong> ${g.safety}</p>
         </article>`).join("");
       const ps = window.PAIR_STATIONS;
       let stations = "";
@@ -173,4 +173,26 @@
     }
   }
 
+  if (page === "videos") {
+    const q = document.getElementById("q");
+    const box = document.getElementById("list");
+    const clips = window.VIDEOS || [];
+    function render() {
+      const term = ((q && q.value) || "").toLowerCase();
+      const cards = clips.filter((v) => {
+        const hay = [v.title, v.channel, v.about, (v.games || []).join(" ")].join(" ").toLowerCase();
+        return !term || hay.includes(term);
+      }).map((v) => `
+        <article class="gcard">
+          <div class="ghead"><h2>${v.title}</h2></div>
+          <p class="meta">${v.channel}</p>
+          <p>${v.about}</p>
+          <p class="meta"><strong>Use with:</strong> ${(v.games || []).join(" · ")}</p>
+          <p class="yt"><a href="${v.url}" target="_blank" rel="noopener">Open on YouTube</a></p>
+        </article>`).join("");
+      box.innerHTML = cards || "<p>No matches.</p>";
+    }
+    if (q) q.addEventListener("input", render);
+    render();
+  }
 })();

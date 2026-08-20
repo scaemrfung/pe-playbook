@@ -3,31 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Month · PE Playbook</title>
+  <title>Demo videos · PE Playbook</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@450;700;800&display=swap" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body data-page="month">
+<body data-page="videos">
   <header class="site">
     <div class="wrap row">
       <a class="brand" href="index.html">Prairie PE Playbook<span>Grades 1–6 · Alberta · 4 × 30 min</span></a>
       <nav>
         <a href="index.html">Year</a>
         <a href="how.html">How to use</a>
-<a href="gymnastics.html">Gymnastics</a>
-                <a href="videos.html">Videos</a>
-        <a href="games.html">Games index</a>
+        <a href="gymnastics.html">Gymnastics</a>
+        <a href="games.html">Games</a>
+        <a class="active" href="videos.html">Videos</a>
       </nav>
     </div>
   </header>
   <main class="wrap" style="padding: 24px 0 40px">
-    <div id="content"></div>
+    <div class="panel">
+      <h1 style="margin-top:0;color:var(--navy)">Demo videos</h1>
+      <p>Public PE-teacher clips. Our house rules still apply if the video is stricter: soft tag, no elimination, foam only.</p>
+      <p><input class="search" id="q" type="search" placeholder="Search a game or clip…" /></p>
+    </div>
+    <div id="list"></div>
   </main>
-  <footer class="site wrap">Print this page from the browser if you want a paper copy of the month.</footer>
-  <script src="data.js"></script>
-  <script src="outcomes-data.js"></script>
-  <script src="k2-games.js"></script>
-  <script src="g36-games.js"></script>
+  <footer class="site wrap">Links open on YouTube. A clip can vanish if the channel removes it.</footer>
+  <script src="youtube-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
