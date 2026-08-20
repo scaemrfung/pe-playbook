@@ -19,7 +19,7 @@
 
   function gameCatalog() {
     const names = new Set(Object.keys(window.GAME_EXTRAS || {}));
-    [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || []).forEach((g) => {
+    [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || [], window.SKILL_DETAILS || []).forEach((g) => {
       if (g && g.name) names.add(g.name);
     });
     const aliases = {
@@ -89,8 +89,9 @@
     return out;
   }
 
-function monthBank(name) {
-    return [].concat(MONTH_GAMES[name] || [], K2M[name] || [], G36M[name] || []);
+const SKILLM = window.SKILL_MONTH_GAMES || {};
+  function monthBank(name) {
+    return [].concat(MONTH_GAMES[name] || [], K2M[name] || [], G36M[name] || [], SKILLM[name] || []);
   }
 
   function outcomesBlock(name) {
@@ -215,7 +216,7 @@ function monthBank(name) {
   if (page === "games") {
     const q = document.getElementById("q");
     const box = document.getElementById("list");
-    const details = [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || []);
+    const details = [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || [], window.SKILL_DETAILS || []);
     function gslug(name) {
       return name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
     }
