@@ -19,6 +19,7 @@ Monthly themes follow the Grade 1A PE Yearly Plan (2007–08).
    - `styles.css`
    - `data.js`
    - `app.js`
+   - `games-data.js`
    - `README.md`
 8. Click **Commit changes**.
 9. Open the repo **Settings** tab → **Pages** (left sidebar).
