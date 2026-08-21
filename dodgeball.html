@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Foam dodgeball games · SCA Elementary PE Playbook</title>
+  <title>Dodgeball games · SCA Elementary PE Playbook</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@450;700;800&display=swap" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -23,11 +23,13 @@
   </header>
   <main class="wrap" style="padding:28px 0 40px">
     <div class="panel">
-      <h1 style="margin-top:0;color:var(--navy)">Foam dodgeball games</h1>
-      <p>Twenty stay-in versions for a large elementary class. Best in <strong>October</strong> (send/receive) and <strong>January</strong> (invasion). This is the only unit that uses <strong>foam balls</strong>. Hits stay <strong>below the waist</strong>. A hit is a stretch, a switch, or a jail-catch — never sitting the period out. Soccer, football, basketball, hockey, volleyball, and T-ball use the real ball.</p>
+      <h1 style="margin-top:0;color:var(--navy)">Dodgeball games</h1>
+      <p>Twenty stay-in versions for a large elementary class. Best in <strong>October</strong> (send/receive) and <strong>January</strong> (invasion). This is the only unit that uses <strong>dodgeballs</strong>. Hits stay <strong>below the waist</strong>. A hit is a stretch, a switch, or a jail-catch — never sitting the period out. Soccer, football, basketball, hockey, volleyball, and T-ball use the real ball.</p>
+      <h2>Games</h2>
+      <ol class="jump-list" id="game-index"></ol>
       <h2>House rules</h2>
       <ul class="clean">
-        <li>Foam or very soft playground balls. No rubber dodgeballs at heads.</li>
+        <li>Soft playground or dodgeballs. No rubber balls at heads.</li>
         <li>Throw or roll below the waist. A high ball is dead.</li>
         <li>A catch is a save. The thrower stretches 10 seconds, then stays in.</li>
         <li>No benches. Hoops, tape, and cones only.</li>
@@ -38,18 +40,21 @@
       <ul class="clean">
         <li><strong>Send, receive, retain</strong> — opposite-foot step, eyes on the target, two-hand catch, roll or bounce to keep it low.</li>
         <li><strong>Tactics</strong> — pass before a throw, move after you send, protect a teammate, use space.</li>
-        <li><strong>Safety</strong> — foam, below the waist, freeze on the whistle, no chasing a person down.</li>
+        <li><strong>Safety</strong> — dodgeballs, below the waist, freeze on the whistle, no chasing a person down.</li>
         <li><strong>Fair play and relationships</strong> — a hit is not shame; help a medic or jail catch; accept a switch of teams.</li>
         <li><strong>Active living</strong> — keep moving for the 16–25 minute game block.</li>
       </ul>
     </div>
     <div id="list"></div>
   </main>
-  <footer class="site wrap">October send/receive · January invasion · foam · below the waist · no elimination.</footer>
+  <footer class="site wrap">October send/receive · January invasion · below the waist · no elimination.</footer>
   <script src="dodgeball-data.js"></script>
   <script>
+    const games = window.DODGE_GAMES || [];
+    const index = document.getElementById("game-index");
+    index.innerHTML = games.map((g) => `<li><a href="#${g.slug}">${g.name}</a></li>`).join("");
     const box = document.getElementById("list");
-    (window.DODGE_GAMES || []).forEach((g) => {
+    games.forEach((g) => {
       const outs = (g.outcomes || []).map((o) => `<li><strong>${o.code}:</strong> ${o.look}</li>`).join("");
       box.insertAdjacentHTML("beforeend", `
         <article class="panel" id="${g.slug}">

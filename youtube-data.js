@@ -46,14 +46,14 @@ window.VIDEOS = [
     title: "Clean Your Room",
     url: "https://www.youtube.com/watch?v=sSvK4ncjzEk",
     channel: "PhysEdUniverse",
-    about: "Two teams throw foam balls onto the other side of a centre line. The cleaner side at the whistle wins the round.",
+    about: "Two teams throw dodgeballs onto the other side of a centre line. The cleaner side at the whistle wins the round.",
     games: ["Tidy the Bedroom", "Mr. Clean"]
   },
   {
     title: "Battleship over a mat wall",
     url: "https://www.youtube.com/watch?v=YcVgF7z5ZII",
     channel: "Benjamin Pirillo",
-    about: "Standing mats hide the other team. Throw foam at bowling pins. A catch can jog the long way around to throw from the side.",
+    about: "Standing mats hide the other team. Throw balls at bowling pins. A catch can jog the long way around to throw from the side.",
     games: ["Battleships"]
   },
   {
@@ -88,7 +88,7 @@ window.VIDEOS = [
     title: "Crazy Ball Pin Knockover",
     url: "https://www.youtube.com/watch?v=97ukVJD-ZaM",
     channel: "PhysEdGames",
-    about: "A line of pins. Throw mixed foam objects. Timed round. Everyone throws.",
+    about: "A line of pins. Throw mixed soft objects. Timed round. Everyone throws.",
     games: ["Team Bowling"]
   },
   {
@@ -102,7 +102,7 @@ window.VIDEOS = [
     title: "4-Corner Dodgeball",
     url: "https://www.youtube.com/watch?v=_QQMwlYbru8",
     channel: "PhysEdGames",
-    about: "Four teams, foam balls. A hit sends you to the team that tagged you. We keep everyone moving.",
+    about: "Four teams, dodgeballs. A hit sends you to the team that tagged you. We keep everyone moving.",
     games: ["Poison Ball", "Survivor Dodgeball", "Low-ball"]
   },
   {

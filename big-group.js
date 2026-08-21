@@ -1,5 +1,5 @@
 /* Top big-group games sprinkled across the year.
-   Sport units use the real ball. Foam balls are for dodgeball only. */
+   Sport units use the real ball. Dodgeballs are for dodgeball only. */
 window.BG30_MONTH = {
   September: [
     ["Steal the Bacon", "", "Two numbered lines. Called numbers run for a ball or beanbag ‘bacon.’ Soft tag only."],
@@ -7,12 +7,12 @@ window.BG30_MONTH = {
     ["Ten-Second Tag", "", "Tagged players count to 10 while stretching, then re-enter."]
   ],
   October: [
-    ["Low-ball", "", "Foam only, below the waist. A hit is a 10-second stretch, then back in."],
+    ["Low-ball", "", "Dodgeballs, below the waist. A hit is a 10-second stretch, then back in."],
     ["Guard the Cone", "", "Three defenders hold hands around a cone. Attackers pass a soccer or playground ball to knock it."],
     ["Steal the Bacon", "", "Use a football as the bacon."]
   ],
   November: [
-    ["Protect the King", "", "One player is the king in a hoop. If you throw at the king, switch to foam dodgeballs."],
+    ["Protect the King", "", "One player is the king in a hoop. If you throw at the king, switch to dodgeballs."],
     ["Guard the Cone", "", "Basketball or playground ball to knock the cone."]
   ],
   December: [
@@ -20,7 +20,7 @@ window.BG30_MONTH = {
     ["Ten-Second Tag", "", "Sticks away first."]
   ],
   January: [
-    ["Low-ball", "", "Foam dodgeball send day. See also the Dodgeball page."],
+    ["Low-ball", "", "Dodgeball send day. See also the Dodgeball page."],
     ["Protect the King", "", "Hockey shape: pass a puck or hockey ball to knock a pin beside the king — do not throw at the person."]
   ],
   February: [
@@ -94,9 +94,9 @@ window.BG30_DETAILS = [
   {
     name: "Low-ball",
     months: ["October", "January"],
-    purpose: "Send a foam dodgeball below the waist. A hit is a stretch, not an out.",
-    equipment: "4–6 foam balls, centre line.",
-    setup: "Two halves. Foam only — this is a dodgeball game.",
+    purpose: "Send a dodgeball below the waist. A hit is a stretch, not an out.",
+    equipment: "4–6 dodgeballs, centre line.",
+    setup: "Two halves. Dodgeballs — this is a dodgeball game.",
     play: [
       "Throw or roll below the waist.",
       "A hit means a 10-second stretch on the sideline, then back in.",
@@ -106,24 +106,24 @@ window.BG30_DETAILS = [
     g12: "Roll only.",
     g34: "Underhand or bounce-throw.",
     g56: "Must pass once before a throw at a person.",
-    safety: "Foam only. No head or chest."
+    safety: "Dodgeballs. No head or chest."
   },
   {
     name: "Protect the King",
     months: ["November", "January"],
     purpose: "Guard a teammate or a pin. Decide whether this is a pass game or a dodgeball.",
-    equipment: "One football, basketball, or hockey ball; pinnies. Foam dodgeballs only if you throw at a person.",
+    equipment: "One football, basketball, or hockey ball; pinnies. Dodgeballs only if you throw at a person.",
     setup: "King stands in a hoop. Teammates form a loose shield.",
     play: [
       "Sport version: attackers pass and try to knock a pin beside the king. Do not throw at the king.",
-      "Dodgeball version: switch to foam balls. A below-waist hit on the king ends the round.",
+      "Dodgeball version: switch to dodgeballs. A below-waist hit on the king ends the round.",
       "Defenders block with hands — no pushing the king.",
       "Rotate the king every minute."
     ],
     g12: "Pin only. Roll.",
     g34: "Pin or sport-ball pass.",
     g56: "Must pass before a shot at the pin.",
-    safety: "If the ball is thrown at a person, use foam dodgeballs and stay below the waist."
+    safety: "If the ball is thrown at a person, use dodgeballs and stay below the waist."
   },
   {
     name: "Ten-Second Tag",

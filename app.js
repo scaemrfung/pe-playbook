@@ -5,7 +5,7 @@
     const hit = clips.filter((v) => (v.games || []).some((g) => g.toLowerCase() === String(name).toLowerCase()));
     if (!hit.length) return "";
     return `<p class="yt"><strong>Video.</strong> ${hit.map((v) => `<a href="${v.url}" target="_blank" rel="noopener">${v.title}</a> <span class="meta">(${v.channel})</span>`).join(" · ")}</p>
-      <p class="meta">Clips are demos. Our house rules still apply (no elimination, soft tag; foam balls only for dodgeball).</p>`;
+      <p class="meta">Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).</p>`;
   }
 
   const page = document.body && document.body.dataset.page;
