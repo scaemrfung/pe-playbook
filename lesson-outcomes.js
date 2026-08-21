@@ -165,7 +165,7 @@ window.LESSON_OUTCOMES = {
   "October-3-4": {
     items: [
     { code: "Movement · send, receive, retain", look: "Underhand or below-waist send to a pin." },
-    { code: "Safety", look: "Uses the real sport ball; foam only for dodgeball, and those throws stay below the waist." }
+    { code: "Safety", look: "Uses the real sport ball; dodgeball throws stay below the waist." }
     ]
   },
   "October-4-1": {
