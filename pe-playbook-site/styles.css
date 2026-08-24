@@ -146,6 +146,34 @@ table.games td { border-bottom: 1px solid var(--line); padding: 8px 10px; vertic
 table.games tr:nth-child(even) td { background: var(--green-lt); }
 .week-title { margin: 22px 0 10px; color: var(--green); }
 ul.clean { padding-left: 1.1rem; }
+.jump-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 6px 18px;
+  margin: 12px 0 4px;
+  padding: 0;
+  list-style: none;
+  counter-reset: jump;
+}
+.jump-list li { counter-increment: jump; }
+.jump-list a {
+  display: block;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: var(--green-lt);
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: .92rem;
+}
+.jump-list a::before {
+  content: counter(jump) ". ";
+  font-weight: 800;
+  color: var(--navy);
+}
+.jump-list a:hover { background: var(--navy-lt); color: var(--navy); }
+.jump-list.numbered { counter-reset: none; }
+.jump-list.numbered a::before { content: none; }
 footer.site {
   padding: 28px 0 40px;
   color: var(--muted);

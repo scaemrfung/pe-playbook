@@ -1,5 +1,5 @@
 /* Relays and floor stations, written for this playbook.
-   House rules: high-five the next runner, no elimination. Sport units use real balls. Foam is for dodgeball only.
+   House rules: high-five the next runner, no elimination. Sport units use real balls. Dodgeball games stay on the Dodgeball page.
    Floor-only: tape lines instead of benches. */
 window.SKILL_MONTH_GAMES = {
   September: [
