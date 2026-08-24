@@ -91,9 +91,9 @@ window.G36_DETAILS = [
     "A catch = the thrower comes in and the catcher throws."
   ],
   g12: "Do not play with throws at people. Use Battleships.",
-  g34: "Below-waist if throwing at people (foam dodgeballs). Continuous switch.",
+  g34: "Below-waist if throwing at people (dodgeballs). Continuous switch.",
   g56: "Timed 2-minute waves. Count how long a group stays in.",
-  safety: "No last-one-standing as the only version. Foam dodgeballs if you throw at people.",
+  safety: "No last-one-standing as the only version. Dodgeballs if you throw at people.",
   slot: "16–25"
 },
 {
@@ -209,7 +209,7 @@ window.G36_DETAILS = [
 },
 {
   name: "Survivor Dodgeball", source: "", months: ["November"],
-  purpose: "Below-waist foam dodgeballs. Hit = switch, not sit out.",
+  purpose: "Below-waist dodgeballs. Hit = switch, not sit out.",
   equipment: "Many balls.",
   setup: "Two sides or a circle. Same house rules as Poison Ball.",
   play: [
@@ -219,7 +219,7 @@ window.G36_DETAILS = [
   g12: "Do not play. Use Clean Your Room with rolls.",
   g34: "Switch version only.",
   g56: "Timed sides. No last-one-standing.",
-  safety: "Foam dodgeballs. Below the waist. No head shots.",
+  safety: "Dodgeballs. Below the waist. No head shots.",
   slot: "16–25"
 },
 {
