@@ -5,7 +5,7 @@
     const hit = clips.filter((v) => (v.games || []).some((g) => g.toLowerCase() === String(name).toLowerCase()));
     if (!hit.length) return "";
     return `<p class="yt"><strong>Video.</strong> ${hit.map((v) => `<a href="${v.url}" target="_blank" rel="noopener">${v.title}</a> <span class="meta">(${v.channel})</span>`).join(" · ")}</p>
-      <p class="meta">Clips are demos. Our house rules still apply (no elimination, soft tag; foam balls only for dodgeball).</p>`;
+      <p class="meta">Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).</p>`;
   }
 
   const page = document.body && document.body.dataset.page;
@@ -220,60 +220,153 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
   if (page === "games") {
     const q = document.getElementById("q");
     const box = document.getElementById("list");
+    const indexBox = document.getElementById("game-index");
+    const filterBox = document.getElementById("type-filters");
     const details = [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || [], window.SKILL_DETAILS || [], window.BG30_DETAILS || []);
+    const TYPES = [
+      { id: "tag", label: "Tag & chase" },
+      { id: "invasion", label: "Invasion & team" },
+      { id: "target", label: "Target & send" },
+      { id: "strike", label: "Strike & field" },
+      { id: "relay", label: "Relays & stations" },
+      { id: "loco", label: "Locomotor & listen" },
+      { id: "coop", label: "Cooperative & circus" },
+      { id: "fitness", label: "Fitness & landings" },
+    ];
+    const TYPE_WORDS = {
+      tag: ["hospital tag","hot dog tag","line tag","sharks and dolphins","frozen tag","clothespin","blob tag","tripod tag","bug tag","chicken checkers","octopus","shadow tag","waspital","icebergs","tail tag","survivor tag","ten-second","wake-up","wolf","tunnel freeze","everybody","duck duck","squirrel","mr. clean","buzz off","slap rover","kangaroos"],
+      invasion: ["switch","wall soccer","team tag","end zone","booger","four corner flags","stones","fruit salad","traffic lights","through the gates","rob the nest","captain ball","collect the treasure","numbers hockey","go for goal","reverse soccer","end ball","hurley","guard the gates","crab football","heist","perfect pass","capture the egg","cornerball","protect the king","steal the bacon"],
+      target: ["robin","skittles","card sharks","fly back","bucket ball","tidy the bedroom","protect the castle","skittle ball","team bowling","battleships","poison ball","slide sling","flying saucers","survivor dodgeball","frisbee","low-ball","guard the cone","tunnel kick","hockey pin","punt to the line","overarm"],
+      strike: ["chuck the chicken","continuous kick","beat ball","thunderball","aces","rps rounders","barkball","quick baseball","jailbreakers","diamond strike","kick it","hit and run","striking"],
+      relay: ["rescue relay","hungry snake","pip, squeak","around the bases","cone relay","memory relay","attention relay","dash and dribble","plant the trees","jungle run","speed run","zig-zag","crab-bear","hop-the-hoops","soccer weave","toe-tap","wall chest","throw-clap","hoop underhand","dribble the gates","hockey hurdle","circle run"],
+      loco: ["captain’s deck","captain's deck","rikki","buffalo","laps and lines","european rhythmic","human bop","video game","rubber band","signals","daytime","volcanoes","crazy beans","group numbers","land and sea","here, there","follow the leader","silly bananas","back to base","dash for safety","four corners stay","elements","simon says","moving","bouncing"],
+      coop: ["elves","invent-a-game","helicopter","sharks and dolphins (chute)","object toss","parachute","slippery snakes","balloon keep-up","birthday","circle hoop","cross the river","human knot","pulse race","caterpillar","bucket carry","voice path"],
+      fitness: ["mass challenges","magic numbers","body-part","frogs on the lily","safe to shore","beanbag head","knee-ball","racquet waiter","balloon keep-up station","floor rope","spot-jump","throwing and catching","kicking"],
+    };
     function gslug(name) {
       return name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
     }
+    function typeOf(name) {
+      const low = String(name || "").toLowerCase();
+      for (const t of TYPES) {
+        for (const w of TYPE_WORDS[t.id] || []) {
+          if (low.includes(w)) return t.id;
+        }
+      }
+      return "loco";
+    }
+    function typeLabel(id) {
+      const hit = TYPES.find((t) => t.id === id);
+      return hit ? hit.label : id;
+    }
+    // Deduplicate by name, keep first
+    const seen = new Set();
+    const unique = [];
+    details.forEach((g) => {
+      if (!g || !g.name || seen.has(g.name)) return;
+      seen.add(g.name);
+      unique.push(g);
+    });
+    unique.sort((a, b) => {
+      const ta = TYPES.findIndex((t) => t.id === typeOf(a.name));
+      const tb = TYPES.findIndex((t) => t.id === typeOf(b.name));
+      if (ta !== tb) return ta - tb;
+      return a.name.localeCompare(b.name, "en");
+    });
+    const numbers = {};
+    unique.forEach((g, i) => { numbers[g.name] = i + 1; });
+
+    let activeType = "all";
+    if (filterBox) {
+      filterBox.innerHTML =
+        `<button type="button" data-type="all" class="on">All types</button>` +
+        TYPES.map((t) => `<button type="button" data-type="${t.id}">${t.label}</button>`).join("");
+      filterBox.addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-type]");
+        if (!btn) return;
+        activeType = btn.getAttribute("data-type");
+        filterBox.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b === btn));
+        render();
+      });
+    }
+
     function render() {
-      const term = (q.value || "").toLowerCase();
+      const term = (q && q.value || "").toLowerCase();
       const EX = window.GAME_EXTRAS || {};
-      const cards = details.filter((g) => {
+      const filtered = unique.filter((g) => {
+        if (activeType !== "all" && typeOf(g.name) !== activeType) return false;
         const x = EX[g.name] || {};
-        const hay = [g.name, g.source, g.purpose, g.play.join(" "), (g.months || []).join(" "),
-          (x.more || []).join(" "), (x.variations || []).join(" "), x.look || ""].join(" ").toLowerCase();
+        const hay = [g.name, g.source, g.purpose, (g.play || []).join(" "), (g.months || []).join(" "),
+          (x.more || []).join(" "), (x.variations || []).join(" "), x.look || "", typeLabel(typeOf(g.name))].join(" ").toLowerCase();
         return !term || hay.includes(term);
-      }).map((g) => {
-        const x = EX[g.name] || {};
-        const more = (x.more || []).map((s) => `<li>${s}</li>`).join("");
-        const cues = (x.cues || []).map((s) => `<li>${s}</li>`).join("");
-        const vars = (x.variations || []).map((s) => `<li>${s}</li>`).join("");
-        return `
-        <article class="gcard" id="${gslug(g.name)}">
-          <div class="ghead">
-            <h2>${g.name}</h2>
-          </div>
-          <p class="meta"><strong>When:</strong> ${(g.months || []).join(", ")} · <strong>Slot:</strong> ${g.slot}${x.numbers ? ` · ${x.numbers}` : ""}</p>
-          <p>${g.purpose}</p>
-          <p class="meta"><strong>Equipment:</strong> ${g.equipment}</p>
-          <p class="meta"><strong>Set-up:</strong> ${g.setup}</p>
-          <p><strong>How we play</strong></p>
-          <ol class="clean">${g.play.map((s) => `<li>${s}</li>`).join("")}${more}</ol>
-          ${cues ? `<p><strong>Cues</strong></p><ul class="clean">${cues}</ul>` : ""}
-          ${vars ? `<p><strong>Variations</strong></p><ul class="clean">${vars}</ul>` : ""}
-          ${videoHtml(g.name)}${x.look ? `<p class="note"><strong>Look-for.</strong> ${x.look}</p>` : ""}
-          ${x.outcomes ? `<p><strong>Outcomes</strong></p><ul class="clean">${x.outcomes.map((it) => `<li><strong>${it.code}.</strong> ${it.look}</li>`).join("")}</ul>` : ""}
-          <div class="bands-block">
-            <div><strong>Grades 1–2.</strong> ${g.g12}</div>
-            <div><strong>Grades 3–4.</strong> ${g.g34}</div>
-            <div><strong>Grades 5–6.</strong> ${g.g56}</div>
-          </div>
-          <p class="note"><strong>Safety.</strong> ${g.safety}</p>
-        </article>`;
+      });
+
+      if (indexBox) {
+        const groups = TYPES.map((t) => ({
+          ...t,
+          games: filtered.filter((g) => typeOf(g.name) === t.id),
+        })).filter((t) => t.games.length);
+        indexBox.innerHTML = groups.map((group) =>
+          `<h3 style="margin:16px 0 6px;color:var(--green);font-size:.92rem;text-transform:uppercase;letter-spacing:.08em">${group.label}</h3>
+           <ol class="jump-list numbered">${group.games.map((g) =>
+             `<li><a href="#${gslug(g.name)}"><span style="color:var(--navy);font-weight:800">${numbers[g.name]}.</span> ${g.name}</a></li>`
+           ).join("")}</ol>`
+        ).join("");
+      }
+
+      const cardGroups = TYPES.map((t) => ({
+        ...t,
+        games: filtered.filter((g) => typeOf(g.name) === t.id),
+      })).filter((t) => t.games.length);
+
+      const cards = cardGroups.map((group) => {
+        const articles = group.games.map((g) => {
+          const x = EX[g.name] || {};
+          const more = (x.more || []).map((s) => `<li>${s}</li>`).join("");
+          const cues = (x.cues || []).map((s) => `<li>${s}</li>`).join("");
+          const vars = (x.variations || []).map((s) => `<li>${s}</li>`).join("");
+          return `
+          <article class="gcard" id="${gslug(g.name)}">
+            <div class="ghead">
+              <h2>${numbers[g.name]}. ${g.name}</h2>
+            </div>
+            <p class="meta"><strong>Type:</strong> ${group.label} · <strong>When:</strong> ${(g.months || []).join(", ") || "Anytime"} · <strong>Slot:</strong> ${g.slot || "—"}${x.numbers ? ` · ${x.numbers}` : ""}</p>
+            <p>${g.purpose || ""}</p>
+            <p class="meta"><strong>Equipment:</strong> ${g.equipment || ""}</p>
+            <p class="meta"><strong>Set-up:</strong> ${g.setup || ""}</p>
+            <p><strong>How we play</strong></p>
+            <ol class="clean">${(g.play || []).map((s) => `<li>${s}</li>`).join("")}${more}</ol>
+            ${cues ? `<p><strong>Cues</strong></p><ul class="clean">${cues}</ul>` : ""}
+            ${vars ? `<p><strong>Variations</strong></p><ul class="clean">${vars}</ul>` : ""}
+            ${videoHtml(g.name)}${x.look ? `<p class="note"><strong>Look-for.</strong> ${x.look}</p>` : ""}
+            ${x.outcomes ? `<p><strong>Outcomes</strong></p><ul class="clean">${x.outcomes.map((it) => `<li><strong>${it.code}.</strong> ${it.look}</li>`).join("")}</ul>` : ""}
+            <div class="bands-block">
+              <div><strong>Grades 1–2.</strong> ${g.g12 || ""}</div>
+              <div><strong>Grades 3–4.</strong> ${g.g34 || ""}</div>
+              <div><strong>Grades 5–6.</strong> ${g.g56 || ""}</div>
+            </div>
+            <p class="note"><strong>Safety.</strong> ${g.safety || ""}</p>
+          </article>`;
+        }).join("");
+        return `<h2 class="week-title">${group.label}</h2>${articles}`;
       }).join("");
+
       const ps = window.PAIR_STATIONS;
       let stations = "";
-      if (ps && !term) {
+      if (ps && !term && activeType === "all") {
         stations = `<div class="panel" id="pair-stations"><h2>${ps.title}</h2><p>${ps.intro}</p>` +
           ps.groups.map((g) => `<h3>${g.name}</h3><table class="games"><thead><tr><th>Station</th><th>How we run it (60–90 s)</th></tr></thead><tbody>${g.items.map((i) => `<tr><td><strong>${i[0]}</strong></td><td>${i[1]}</td></tr>`).join("")}</tbody></table>`).join("") +
           "</div>";
       }
       box.innerHTML = (cards || "<p>No matches.</p>") + stations;
     }
-    q.addEventListener("input", render);
+    if (q) q.addEventListener("input", render);
     render();
     if (location.hash) {
-      const target = document.querySelector(location.hash);
-      if (target) target.scrollIntoView();
+      setTimeout(() => {
+        const target = document.querySelector(location.hash);
+        if (target) target.scrollIntoView();
+      }, 50);
     }
   }
 
