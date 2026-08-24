@@ -1,7 +1,7 @@
 window.UNIT_OUTCOMES = {
   September: {
     oi: ["Active Living", "Movement Skill Development", "Safety", "Healthy Relationships"],
-    why: "September is soccer: dribble, trap, pass, shoot. Week 1 still teaches freeze and space. Soccer balls (not foam), no slide tackles.",
+    why: "September is soccer: dribble, trap, pass, shoot. Week 1 still teaches freeze and space. Soccer balls, no slide tackles.",
     g12: [
       "Investigate how physical activity changes the body (breath, heart, warmth).",
       "Exhibit spatial awareness: freeze, personal space, gym boundaries.",
@@ -44,7 +44,7 @@ window.UNIT_OUTCOMES = {
       "Modify a kick or throw to improve accuracy (plant foot, opposite-foot step).",
       "Utilize a send from one activity in another (gate pass → small game).",
       "Begin simple tactics: pass before a shot; move after you send.",
-      "Apply below-waist throws only in dodgeball, and use foam dodgeballs for those games."
+      "Apply below-waist throws only in dodgeball, and use dodgeballs for those games."
     ],
     g56: [
       "Select a send (kick vs throw) that fits the task.",
@@ -56,7 +56,7 @@ window.UNIT_OUTCOMES = {
       { what: "Throw cue", how: "Partner or hoop task", evidence: "Opposite-foot step and follow-through on most attempts (underhand for 1–2)." },
       { what: "Kick / trap", how: "Gate or partner task", evidence: "Plant foot beside the ball; trap that stays near the body." },
       { what: "Tactics", how: "Small-sided game", evidence: "Looks for a teammate before blasting; 3–4 / 5–6 pass before a shot." },
-      { what: "Safety", how: "Ongoing", evidence: "Uses the real sport ball; no kicking at people; waits for space to swing an implement. Foam is for dodgeball only." }
+      { what: "Safety", how: "Ongoing", evidence: "Uses the real sport ball; no kicking at people; waits for space to swing an implement. Dodgeball games stay on the Dodgeball page." }
     ]
   },
   November: {
@@ -114,7 +114,7 @@ window.UNIT_OUTCOMES = {
   },
   January: {
     oi: ["Movement Skill Development", "Safety", "Healthy Relationships", "Active Living"],
-    why: "January continues floor hockey: tactics, 3v3, inclusion. No ice. One class may use a stay-in foam dodgeball game (foam only).",
+    why: "January continues floor hockey: tactics, 3v3, inclusion. No ice. One class may use a stay-in dodgeball game.",
     g12: [
       "Solve a simple partner task (move an object together).",
       "Follow a playground turn-taking rule (four-square serve, rope wait).",

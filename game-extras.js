@@ -1,7 +1,7 @@
 /* Extra how-to for every game. Written for this site.
    Public PE practice (PhysEdGames, PEGames.org, PE Specialist, school PE pages)
    is used as a check on numbers and shapes — not copied. House rules beat the internet:
-   soft tag, no elimination. Foam balls are for dodgeball only; other sports use the real ball. */
+   soft tag, no elimination. Dodgeballs are for dodgeball only; other sports use the real ball. */
 window.GAME_EXTRAS = {
   "Hospital Tag": {
     numbers: "Whole class · 4–6 min · everyone is it (or 2 taggers + 2 hospitals).",
@@ -29,7 +29,7 @@ window.GAME_EXTRAS = {
     numbers: "Whole class · 5–8 min · 3–5 noodle taggers.",
     cues: ["Call ‘I need buns!’ so helpers can find you.", "Buns stand beside you — they do not squeeze you."],
     more: [
-      "Give 3–5 taggers a short foam noodle. Everyone else is a runner.",
+      "Give 3–5 taggers a short noodle. Everyone else is a runner.",
       "A tagged player freezes as the ‘wiener’ — standing with feet together (or lying on the back if the floor is clean and the class is small).",
       "Two free players become buns, one on each side. All three say a short team word (school name or ‘hot dog’).",
       "Those three have 5 seconds of safety to stand and leave. Taggers may not ‘puppy-guard’ the freeze.",
@@ -613,7 +613,7 @@ window.GAME_EXTRAS = {
   ,
     outcomes: [
       { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or foam if this is dodgeball." }
+      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or dodgeballs if this is dodgeball." }
     ]
   },
   "Survivor Dodgeball": {
@@ -629,7 +629,7 @@ window.GAME_EXTRAS = {
   ,
     outcomes: [
       { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or foam if this is dodgeball." }
+      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or dodgeballs if this is dodgeball." }
     ]
   },
   "Traffic Lights (kick)": {
@@ -1121,7 +1121,7 @@ window.GAME_EXTRAS = {
   ,
     outcomes: [
       { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or foam if this is dodgeball." }
+      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or dodgeballs if this is dodgeball." }
     ]
   },
   "Jailbreakers": {
@@ -1233,7 +1233,7 @@ window.GAME_EXTRAS = {
     more: [
       "Give each group a sport ball and 4 cones. They invent a game with a start, a way to score, and one safety rule.",
       "Play-test for 2 minutes, change one rule, then teach another group.",
-      "House rules still apply: no elimination. Foam balls only if they invent a dodgeball."
+      "House rules still apply: no elimination. Dodgeballs only if they invent a dodgeball."
     ],
     variations: ["Must include a send.", "Must include a freeze."],
     look: "Every group can say the three sentences."
@@ -1972,10 +1972,10 @@ window.GAME_EXTRAS = {
     ]
   },
   "Thunderball": {
-    numbers: "Whole class · 6 min · 3–6 foam dodgeballs.",
+    numbers: "Whole class · 6 min · 3–6 dodgeballs.",
     cues: ["Roll or below-waist throw.", "A hit is a stretch, then back in."],
     more: [
-      "Several foam dodgeballs in play. You may roll to tag a foot or throw below the waist.",
+      "Several dodgeballs in play. You may roll to tag a foot or throw below the waist.",
       "A hit player does a hospital stretch and re-enters. Catching a ball can make you a thrower.",
       "Freeze on thunder (drum). Leave the balls."
     ],
@@ -1985,7 +1985,7 @@ window.GAME_EXTRAS = {
   ,
     outcomes: [
       { code: "Safety", look: "Hits stay low; a hit is a stretch, then back in." },
-      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or foam if this is dodgeball." }
+      { code: "Movement · send, receive, retain", look: "Uses the sport ball, or dodgeballs if this is dodgeball." }
     ]
   },
   "Tripod Tag": {
@@ -2254,7 +2254,7 @@ window.GAME_EXTRAS = {
     cues: ["Drop, then kick.", "Chase your own ball."],
     steps: ["Kick toward the line. Kick again if needed. Run it home."],
     variations: ["Place-kick for 1–2."],
-    look: "Uses the sport ball, or foam if this is dodgeball.",
+    look: "Uses the sport ball, or dodgeballs if this is dodgeball.",
     outcomes: [
       { code: "Movement · send, receive, retain", look: "Drops and kicks before a bounce, or places it." },
       { code: "Safety", look: "Kicks away from other lanes." }

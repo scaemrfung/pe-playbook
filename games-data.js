@@ -19,7 +19,7 @@ window.GAME_DETAILS = [
 {
   name: "Hot Dog Tag", source: "", months: ["September","January"],
   purpose: "Cooperative unfreeze. Practise asking for help.",
-  equipment: "2–4 pinnies or foam noodles for taggers.",
+  equipment: "2–4 pinnies or noodles for taggers.",
   setup: "Choose 2–4 taggers. Teach the freeze pose: standing still, calling for a bun.",
   play: [
     "Taggers tag runners (soft tag).",
