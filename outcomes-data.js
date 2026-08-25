@@ -290,3 +290,469 @@ window.ASSESS_PRINCIPLES = [
   "A short checklist once a week is enough. You do not need to score every 30-minute class.",
   "Confirm the exact learning-outcome wording for your grade on LearnAlberta (Physical Education and Wellness K–6) before report cards."
 ];
+
+
+/* Four-level rubrics for each month. Levels match common Alberta report language.
+   Fitness rows never rank students against each other — only against their own baseline. */
+window.UNIT_RUBRICS = {
+  September: {
+    title: "September · Soccer & gym routines",
+    levels: ["Beginning", "Developing", "Applying", "Extending"],
+    rows: [
+      {
+        criterion: "Safety & listening",
+        oi: "Safety",
+        levels: [
+          "Needs reminders to freeze or stay in bounds.",
+          "Freezes most of the time; stays in bounds with a prompt.",
+          "Freezes on the whistle; stays in bounds; soft tag without a reminder.",
+          "Models freeze and space for others; helps a peer line up or reset."
+        ]
+      },
+      {
+        criterion: "Body awareness",
+        oi: "Active Living",
+        levels: [
+          "Cannot yet name a body change from activity.",
+          "Names one change (heart, breath, or warmth) with support.",
+          "Names heart, breath, or a muscle used today and shows personal space.",
+          "Connects effort, recovery, and how the body feels in their own words."
+        ]
+      },
+      {
+        criterion: "Run / jump cues",
+        oi: "Movement Skill Development",
+        levels: [
+          "Runs with head down or stiff landings.",
+          "Sometimes eyes up; landings are uneven.",
+          "Eyes up and quiet feet on a jog; bend–jump–stick on a two-foot land.",
+          "Changes speed on a signal and coaches a peer on one cue."
+        ]
+      },
+      {
+        criterion: "Relationships in play",
+        oi: "Healthy Relationships",
+        levels: [
+          "Avoids helping; struggles to accept a tag.",
+          "Accepts a tag with a prompt; rarely helps unfreeze.",
+          "Helps unfreeze a peer; accepts a tag; no public picking.",
+          "Invites a left-out peer and uses kind language after a freeze."
+        ]
+      }
+    ]
+  },
+  October: {
+    title: "October · Football (send / receive)",
+    levels: ["Beginning", "Developing", "Applying", "Extending"],
+    rows: [
+      {
+        criterion: "Throw / send cue",
+        oi: "Movement Skill Development",
+        levels: [
+          "Throw is uncontrolled or toward a person, not a target.",
+          "Underhand or overhand with support; often misses the target zone.",
+          "Opposite-foot step; send lands in a hoop or partner zone most of the time.",
+          "Adjusts power and aim; can name the cue they used."
+        ]
+      },
+      {
+        criterion: "Catch / trap",
+        oi: "Movement Skill Development",
+        levels: [
+          "Turns away or uses one hand without control.",
+          "Two-hand or scoop attempt; often drops.",
+          "Two-hand or scoop catch/trap ready; eyes on the ball.",
+          "Moves feet to the ball and resets for the next send."
+        ]
+      },
+      {
+        criterion: "Simple tactics",
+        oi: "Movement Skill Development",
+        levels: [
+          "Stays still or crowds the ball.",
+          "Moves after a prompt.",
+          "Moves to space after a send; passes before a score when asked.",
+          "Calls for the ball and creates space for a teammate."
+        ]
+      },
+      {
+        criterion: "Safety with a real ball",
+        oi: "Safety",
+        levels: [
+          "Throws at heads or chases people, not the ball.",
+          "Needs reminders for below-shoulder sends.",
+          "Keeps throws away from heads; stops on the whistle.",
+          "Reminds a peer of a safety rule without shaming."
+        ]
+      }
+    ]
+  },
+  November: {
+    title: "November · Basketball & small-sided games",
+    levels: ["Beginning", "Developing", "Applying", "Extending"],
+    rows: [
+      {
+        criterion: "Catch & ready position",
+        oi: "Movement Skill Development",
+        levels: [
+          "Hands down; often missed.",
+          "Hands up after a prompt.",
+          "Ready hands; two-hand catch on most partner tosses.",
+          "Calls for the ball and shows a target with hands."
+        ]
+      },
+      {
+        criterion: "Send / bounce pass",
+        oi: "Movement Skill Development",
+        levels: [
+          "Push is wild or one-handed without control.",
+          "Chest or bounce pass with support.",
+          "Step-and-push pass to a partner or hoop most of the time.",
+          "Chooses chest or bounce to fit the gap."
+        ]
+      },
+      {
+        criterion: "Team talk",
+        oi: "Healthy Relationships",
+        levels: [
+          "Silent or negative talk when a pass is missed.",
+          "Quiet; accepts a miss with a prompt.",
+          "Uses a kind phrase after a drop; takes a turn.",
+          "Encourages a teammate and resets the play quickly."
+        ]
+      },
+      {
+        criterion: "Fair play & safety",
+        oi: "Safety",
+        levels: [
+          "Body-checks or grabs the ball from hands.",
+          "Needs reminders to contest the ball, not the body.",
+          "Hands off the body; soft contests; freezes on the whistle.",
+          "Models “ball not body” for the group."
+        ]
+      }
+    ]
+  },
+  December: {
+    title: "December · Floor hockey & rhythm",
+    levels: ["Beginning", "Developing", "Applying", "Extending"],
+    rows: [
+      {
+        criterion: "Timing / rhythm",
+        oi: "Movement Skill Development",
+        levels: [
+          "Movement does not match the beat or signal.",
+          "Matches some beats with support.",
+          "Matches locomotor changes to a steady beat or whistle.",
+          "Leads a short count or keeps the group on the beat."
+        ]
+      },
+      {
+        criterion: "Shapes & pathways",
+        oi: "Movement Skill Development",
+        levels: [
+          "Shape collapses or pathway is random.",
+          "Holds a shape briefly; pathway needs a prompt.",
+          "Holds a gymnastic shape; travels a clear pathway.",
+          "Links two shapes with a controlled travel."
+        ]
+      },
+      {
+        criterion: "Stick / equipment safety",
+        oi: "Safety",
+        levels: [
+          "High stick or uncontrolled swing.",
+          "Needs reminders to keep stick low.",
+          "Blade or implement stays low; parks equipment when asked.",
+          "Checks peers’ sticks and models a safe stop."
+        ]
+      },
+      {
+        criterion: "Character in rehearsal",
+        oi: "Character Development",
+        levels: [
+          "Gives up after a mistake.",
+          "Tries again with encouragement.",
+          "Retries a sequence; listens during group practice.",
+          "Helps a partner fix one cue without taking over."
+        ]
+      }
+    ]
+  },
+  January: {
+    title: "January · Invasion & inclusion",
+    levels: ["Beginning", "Developing", "Applying", "Extending"],
+    rows: [
+      {
+        criterion: "Cooperation",
+        oi: "Healthy Relationships",
+        levels: [
+          "Works alone; resists a partner task.",
+          "Joins with a prompt.",
+          "Shares a role in a partner or small-group challenge.",
+          "Includes a peer who was left out."
+        ]
+      },
+      {
+        criterion: "Invasion skills",
+        oi: "Movement Skill Development",
+        levels: [
+          "Loses the ball immediately; no pass attempt.",
+          "Dribbles or carries with support; rare pass.",
+          "Dribbles or carries under control; passes before a score when required.",
+          "Uses a pass to open space and names a simple tactic."
+        ]
+      },
+      {
+        criterion: "Inclusion",
+        oi: "Healthy Relationships",
+        levels: [
+          "Excludes or teases during role changes.",
+          "Accepts roles with a prompt.",
+          "Accepts teacher-formed teams and role switches.",
+          "Advocates for a fair turn for someone else."
+        ]
+      },
+      {
+        criterion: "Balance & control",
+        oi: "Movement Skill Development",
+        levels: [
+          "Frequent falls; no recovery plan.",
+          "Recovers with support.",
+          "Holds a line or freeze with control; soft landings.",
+          "Shows a controlled balance and helps a peer spot safely."
+        ]
+      }
+    ]
+  },
+  February: {
+    title: "February · Rope, hoop & fitness",
+    levels: ["Beginning", "Developing", "Applying", "Extending"],
+    rows: [
+      {
+        criterion: "Rope skill",
+        oi: "Movement Skill Development",
+        levels: [
+          "Avoids the rope or stops after one miss.",
+          "Attempts consecutive jumps with support.",
+          "Shows a basic rhythm or side-swing pattern for a short set.",
+          "Self-counts a short set and tries a harder pattern."
+        ]
+      },
+      {
+        criterion: "Hoop skill",
+        oi: "Movement Skill Development",
+        levels: [
+          "Hoop is dropped or unused.",
+          "Spins or steps with a prompt.",
+          "Completes the station task (spin, step, or pass) as taught.",
+          "Links two hoop actions in a short sequence."
+        ]
+      },
+      {
+        criterion: "Fitness update (private)",
+        oi: "Active Living",
+        levels: [
+          "Does not attempt the timed check.",
+          "Attempts with support; record incomplete.",
+          "Completes the private 30-second check; record dated.",
+          "Compares to own baseline and sets one personal goal (not shared as a rank)."
+        ]
+      },
+      {
+        criterion: "Rope / hoop safety",
+        oi: "Safety",
+        levels: [
+          "Swings rope at others or runs through a turning rope.",
+          "Needs space reminders.",
+          "Gives rope space; stops on the whistle; stores equipment.",
+          "Sets a safe spacing for a small group."
+        ]
+      }
+    ]
+  },
+  March: {
+    title: "March · Parachute & circus",
+    levels: ["Beginning", "Developing", "Applying", "Extending"],
+    rows: [
+      {
+        criterion: "Chute timing",
+        oi: "Movement Skill Development",
+        levels: [
+          "Pulls early or late every time.",
+          "Matches some group lifts.",
+          "Lifts and lowers with the group on the count.",
+          "Leads a short count for a mushroom or wave."
+        ]
+      },
+      {
+        criterion: "Circus / object skill",
+        oi: "Movement Skill Development",
+        levels: [
+          "Avoids the prop or one attempt only.",
+          "Attempts scarf, balloon, or plate with support.",
+          "Shows the taught skill for a short bout.",
+          "Combines two skills or teaches a peer one cue."
+        ]
+      },
+      {
+        criterion: "Audience & character",
+        oi: "Character Development",
+        levels: [
+          "Disrupts others’ turns.",
+          "Watches with prompts.",
+          "Watches quietly; claps; takes a turn without rushing others.",
+          "Encourages performers and recovers from a drop gracefully."
+        ]
+      },
+      {
+        criterion: "Group safety",
+        oi: "Safety",
+        levels: [
+          "Pulls chute or props toward faces.",
+          "Needs reminders for grip and space.",
+          "Safe grip; eyes up; no diving under without a call.",
+          "Stops unsafe play and resets the group calmly."
+        ]
+      }
+    ]
+  },
+  April: {
+    title: "April · Gymnastics",
+    levels: ["Beginning", "Developing", "Applying", "Extending"],
+    rows: [
+      {
+        criterion: "Shapes & stillness",
+        oi: "Movement Skill Development",
+        levels: [
+          "Shape collapses immediately.",
+          "Holds a shape 1–2 seconds with support.",
+          "Holds a clear shape with stillness as taught.",
+          "Links shapes with a controlled transition."
+        ]
+      },
+      {
+        criterion: "Jump & land",
+        oi: "Movement Skill Development",
+        levels: [
+          "Stiff or unsafe landing.",
+          "Jumps; landing needs a coach cue.",
+          "Bend–jump–stick; soft knees on the mat.",
+          "Varies jump height and sticks the land consistently."
+        ]
+      },
+      {
+        criterion: "Roll / rock",
+        oi: "Movement Skill Development",
+        levels: [
+          "Avoids the mat skill or uses an unsafe head position.",
+          "Attempts with hand-over-hand support.",
+          "Completes the taught rock or roll with chin tucked as required.",
+          "Performs smoothly and spots a peer with teacher direction."
+        ]
+      },
+      {
+        criterion: "Floor safety & character",
+        oi: "Safety · Character",
+        levels: [
+          "Runs on mats; ignores wait spots.",
+          "Needs reminders for one-at-a-time.",
+          "Waits for a clear mat; tries again after a miss.",
+          "Sets equipment safely and encourages a nervous peer."
+        ]
+      }
+    ]
+  },
+  May: {
+    title: "May · Volleyball / track / jump rope",
+    levels: ["Beginning", "Developing", "Applying", "Extending"],
+    rows: [
+      {
+        criterion: "Run / start / relay",
+        oi: "Movement Skill Development",
+        levels: [
+          "False starts or cuts the lane.",
+          "Runs the path with support.",
+          "Fair start; stays in lane; tags the next runner.",
+          "Cheers a teammate and runs a clean exchange."
+        ]
+      },
+      {
+        criterion: "Jump / throw review",
+        oi: "Movement Skill Development",
+        levels: [
+          "Avoids the event or throws unsafely.",
+          "Attempts with cues.",
+          "Shows the taught jump or throw cue in a zone task.",
+          "Self-checks one cue and improves a second try."
+        ]
+      },
+      {
+        criterion: "Effort in long activity",
+        oi: "Active Living",
+        levels: [
+          "Stops early without a plan.",
+          "Participates with frequent breaks and prompts.",
+          "Stays in the song-length or station block with steady effort.",
+          "Paces effort and encourages others to keep moving."
+        ]
+      },
+      {
+        criterion: "Course / safety",
+        oi: "Safety",
+        levels: [
+          "Leaves the course or blocks others.",
+          "Completes with multiple redirects.",
+          "Follows the course markers; safe spacing.",
+          "Helps a peer find the next marker."
+        ]
+      }
+    ]
+  },
+  June: {
+    title: "June · Track meet & T-ball / festival",
+    levels: ["Beginning", "Developing", "Applying", "Extending"],
+    rows: [
+      {
+        criterion: "Meet behaviour",
+        oi: "Character Development",
+        levels: [
+          "Disrupts waiting lines or other events.",
+          "Waits with prompts.",
+          "Ready when called; kind to opponents; tidy equipment.",
+          "Leads a small group to the next event calmly."
+        ]
+      },
+      {
+        criterion: "T-ball / striking skills",
+        oi: "Movement Skill Development",
+        levels: [
+          "Misses contact; unsafe bat or ball path.",
+          "Contacts with support; needs path reminders.",
+          "Fair hit or kick path; runs a short base path as taught.",
+          "Fields safely and resets for the next batter."
+        ]
+      },
+      {
+        criterion: "Tactics (Grade 3+)",
+        oi: "Movement Skill Development",
+        levels: [
+          "Stands still after the hit or throw.",
+          "Moves with a prompt.",
+          "Moves to a base or space after the action; simple force-out idea.",
+          "Calls a teammate into space or a base."
+        ]
+      },
+      {
+        criterion: "Year-end growth (private)",
+        oi: "Active Living · Character",
+        levels: [
+          "No reflection yet.",
+          "Names one thing they tried this year with support.",
+          "Compares private fitness or skill to own September baseline; names one growth.",
+          "Sets a summer or next-year movement goal in their own words."
+        ]
+      }
+    ]
+  }
+};

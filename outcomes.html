@@ -62,6 +62,7 @@
       <p class="meta">Pick the month you are in. Focus organizing ideas, grade-band outcomes, and concrete evidence for Grades 1–6.</p>
       <div class="filters" id="month-filters"></div>
       <div id="month-outcomes"></div>
+      <div id="month-rubric"></div>
     </div>
 
     <div class="panel">
@@ -132,6 +133,23 @@
             `<tr><td><strong>${a.what}</strong></td><td>${a.how}</td><td>${a.evidence}</td></tr>`
           ).join("")}</tbody>
         </table>`;
+      const rubBox = document.getElementById("month-rubric");
+      const R = (window.UNIT_RUBRICS || {})[active];
+      if (!rubBox) return;
+      if (!R) { rubBox.innerHTML = ""; return; }
+      const heads = (R.levels || []).map((lv) => `<th>${lv}</th>`).join("");
+      rubBox.innerHTML = `
+        <h3 style="color:var(--navy);margin:28px 0 8px">Assessment rubric · ${R.title || active}</h3>
+        <p class="meta">Four levels for report comments and checklists. Tick the level that fits <em>most of the time</em> this month. Fitness rows stay private — never rank the class.</p>
+        <div class="rubric-wrap">
+          <table class="games rubric">
+            <thead><tr><th>Criterion</th><th>OI</th>${heads}</tr></thead>
+            <tbody>${(R.rows || []).map((row) =>
+              `<tr><td><strong>${row.criterion}</strong></td><td class="meta">${row.oi || ""}</td>${(row.levels || []).map((cell) => `<td>${cell}</td>`).join("")}</tr>`
+            ).join("")}</tbody>
+          </table>
+        </div>
+        <p class="note">Print tip: use landscape, or copy one criterion row into your gradebook. Match final report comments to the LearnAlberta learning outcome for the grade.</p>`;
     }
 
     filters.addEventListener("click", (e) => {
