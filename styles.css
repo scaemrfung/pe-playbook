@@ -263,3 +263,45 @@ a.btn:hover { opacity: .92; }
 .outcomes-box li {
   margin: 0 0 6px;
 }
+
+
+.oi-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 12px;
+}
+.oi-card {
+  background: #f7faf7;
+  border: 1px solid #d5e2d5;
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.oi-card.focus {
+  background: #eef5fb;
+  border-color: #c5d8ea;
+}
+.oi-card.soft {
+  opacity: 0.92;
+}
+.oi-card h3 {
+  margin: 0 0 6px;
+  color: var(--navy);
+  font-size: 1rem;
+}
+.oi-card p {
+  margin: 0;
+  font-size: .9rem;
+  line-height: 1.4;
+}
+.out-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 12px;
+}
+.out-grid h3 {
+  margin: 0 0 6px;
+  color: var(--green);
+  font-size: .95rem;
+}
