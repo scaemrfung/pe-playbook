@@ -305,3 +305,32 @@ a.btn:hover { opacity: .92; }
   color: var(--green);
   font-size: .95rem;
 }
+
+
+.rubric-wrap {
+  overflow-x: auto;
+  margin-top: 10px;
+  border: 1px solid #d5e2d5;
+  border-radius: 10px;
+}
+table.rubric {
+  margin: 0;
+  min-width: 720px;
+}
+table.rubric th:first-child,
+table.rubric td:first-child {
+  min-width: 120px;
+  position: sticky;
+  left: 0;
+  background: #f7faf7;
+  z-index: 1;
+}
+table.rubric td {
+  font-size: .84rem;
+  vertical-align: top;
+  line-height: 1.35;
+}
+table.rubric thead th {
+  background: #e8f0e8;
+  color: var(--navy);
+}
