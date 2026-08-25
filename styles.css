@@ -243,3 +243,23 @@ a.btn {
   font-size: .92rem;
 }
 a.btn:hover { opacity: .92; }
+
+
+.outcomes-box {
+  margin: 14px 0;
+  padding: 12px 14px;
+  background: #eef5fb;
+  border: 1px solid #c5d8ea;
+  border-radius: 10px;
+}
+.outcomes-box h3 {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 1rem;
+}
+.outcomes-box ul.clean {
+  margin: 0;
+}
+.outcomes-box li {
+  margin: 0 0 6px;
+}
