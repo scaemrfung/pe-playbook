@@ -1236,10 +1236,13 @@ window.GAME_EXTRAS = {
       "House rules still apply: no elimination. Dodgeballs only if they invent a dodgeball."
     ],
     variations: ["Must include a send.", "Must include a freeze."],
-    look: "Every group can say the three sentences."
-  }
-,
-"Aces": {
+    look: "Every group can say the three sentences.",
+    outcomes: [
+      { code: "Movement · tactics", look: "Can say start, score, and safety in three sentences." },
+      { code: "Character", look: "Teaches those three things to another group in a short turn." }
+    ]
+  },
+  "Aces": {
     numbers: "Small groups of 5–6 · 8 min · sport ball, a wall or a hoop.",
     cues: ["Serve underhand.", "A miss is a point to the other side, then rotate."],
     more: [
@@ -1248,12 +1251,10 @@ window.GAME_EXTRAS = {
       "Rotate the server after 3 serves. Nobody sits a whole game."
     ],
     variations: ["Two-bounce allowed.", "Must pass to a teammate before it goes back."],
-    look: "Serves stay below the shoulders."
-  
-  ,
+    look: "Serves stay below the shoulders.",
     outcomes: [
-      { code: "Movement · tactics", look: "Can say start, score, and safety." },
-      { code: "Character", look: "Teaches those three things in a short turn." }
+      { code: "Movement · send, receive, retain", look: "Underhand serve stays below the shoulders." },
+      { code: "Movement · fair play and teamwork", look: "Rotates the server after a short turn." }
     ]
   },
   "Around the Bases Relay": {

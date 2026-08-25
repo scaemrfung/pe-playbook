@@ -339,7 +339,11 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
             ${cues ? `<p><strong>Cues</strong></p><ul class="clean">${cues}</ul>` : ""}
             ${vars ? `<p><strong>Variations</strong></p><ul class="clean">${vars}</ul>` : ""}
             ${videoHtml(g.name)}${x.look ? `<p class="note"><strong>Look-for.</strong> ${x.look}</p>` : ""}
-            ${x.outcomes ? `<p><strong>Outcomes</strong></p><ul class="clean">${x.outcomes.map((it) => `<li><strong>${it.code}.</strong> ${it.look}</li>`).join("")}</ul>` : ""}
+            ${(() => {
+              const outs = (x.outcomes && x.outcomes.length) ? x.outcomes : (x.look ? [{ code: "Look-for", look: x.look }] : []);
+              if (!outs.length) return "";
+              return `<div class="outcomes-box"><h3>Alberta PEW outcomes</h3><ul class="clean">${outs.map((it) => `<li><strong>${it.code}.</strong> ${it.look}</li>`).join("")}</ul></div>`;
+            })()}
             <div class="bands-block">
               <div><strong>Grades 1–2.</strong> ${g.g12 || ""}</div>
               <div><strong>Grades 3–4.</strong> ${g.g34 || ""}</div>
