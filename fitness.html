@@ -16,6 +16,8 @@
     .fit-task { display: flex; gap: 10px; align-items: flex-start; margin: 8px 0; }
     .fit-task input { margin-top: 4px; }
     .fit-meta { font-size: .88rem; color: var(--muted); }
+    .fit-how { margin: 6px 0 8px 1.1rem; padding: 0; }
+    .fit-how li { margin: 0 0 4px; font-size: .92rem; line-height: 1.35; }
   </style>
 </head>
 <body data-page="fitness">
@@ -142,78 +144,271 @@
   </main>
   <footer class="site wrap">Private fitness · PEW Active Living · not a scoreboard</footer>
   <script>
-    const MONTHS = [
+const MONTHS = [
       { name: "September", theme: "Soccer · gym routines · baseline", focus: "Starting point (not a scoreboard)",
         tasks: [
-          ["Pulse check", "After a short game, find your heartbeat. Count 15 seconds."],
-          ["Skip or march", "30 seconds. March in place is OK."],
-          ["Shuttle", "Side to side between two lines. Easy pace."],
-          ["Sit-and-reach", "Sit, reach toward toes. No bouncing."],
-          ["Hold / stillness", "Knee plank, wall sit, or still shape — up to 15 seconds."]
-        ], g12: "Teacher helps count. Walk more than jog.", g56: "Self-count one station. One word about how your body felt." },
+          { title: "Pulse check", how: [
+            "After a short game or jog, stand still.",
+            "Place two fingers on the side of your neck or on your wrist (not your thumb).",
+            "When the teacher says “go,” count the beats for 15 seconds.",
+            "Write the number on your sheet. Do not share it."
+          ]},
+          { title: "Skip or march", how: [
+            "Find a clear spot so your rope (if you use one) will not hit anyone.",
+            "On “go,” skip for 30 seconds — or march in place with high knees if jumping is hard.",
+            "Soft landings; eyes forward.",
+            "Stop on the whistle. March counts as full success."
+          ]},
+          { title: "Shuttle", how: [
+            "Stand at one line or cone. Face the other line (about 4–8 m away).",
+            "On “go,” walk or jog to the far line, touch the floor or cone, and return.",
+            "Repeat at an easy pace until the teacher says freeze.",
+            "No racing. Soft stops. Stay in your lane."
+          ]},
+          { title: "Sit-and-reach", how: [
+            "Sit on the floor with legs straight in front, feet soft (not pointed hard).",
+            "Stack hands and slowly reach toward your toes — no bouncing.",
+            "Hold a gentle stretch for about 5 seconds, then rest.",
+            "Fingers toward toes is enough. Do not force past discomfort."
+          ]},
+          { title: "Hold / stillness", how: [
+            "Choose one: knee plank, wall sit, or a still gym shape the teacher shows.",
+            "Hold with steady breath for up to 15 seconds.",
+            "If you shake or feel sharp pain, lower down and rest.",
+            "Stillness with control matters more than time."
+          ]}
+        ],
+        g12: "Teacher helps count. Walk more than jog. Play versions are full success.",
+        g56: "Self-count one station. Write one word about how your body felt." },
       { name: "October", theme: "Football · send and receive", focus: "Throwing power and recovery",
         tasks: [
-          ["Warm pulse", "After end-zone or flags, count 15 seconds."],
-          ["Shuttle or line run", "Easy shuttle. Soft stops."],
-          ["Catch–throw count", "Partner or wall: private count in 30 seconds."],
-          ["Stretch", "Shoulders and legs. No forced stretch."]
-        ], g12: "Soft ball. Underhand only.", g56: "Record only your own catch–throw number." },
+          { title: "Warm pulse", how: [
+            "After end-zone, flags, or a throw game, stand still.",
+            "Two fingers on neck or wrist. Count beats for 15 seconds.",
+            "Write your number privately."
+          ]},
+          { title: "Shuttle or line run", how: [
+            "Use two cones or floor lines.",
+            "Easy walk–jog to the far mark, soft stop, return.",
+            "Keep feet quiet; no diving or sliding.",
+            "Freeze on the whistle."
+          ]},
+          { title: "Catch–throw count", how: [
+            "Partner or wall, about 2–3 m apart. Soft ball only.",
+            "Underhand or chest-level sends — not at heads.",
+            "On “go,” count how many clean catches you make in 30 seconds.",
+            "Dropped ball: pick up and keep going. Write only your count."
+          ]},
+          { title: "Stretch", how: [
+            "Shoulders: gentle arm across the chest, then the other side.",
+            "Legs: calf stretch against a wall or seated hamstring reach.",
+            "No bouncing. Breathe out into the stretch."
+          ]}
+        ],
+        g12: "Soft ball. Underhand only. Teacher may count with you.",
+        g56: "Record only your own catch–throw number." },
       { name: "November", theme: "Basketball · pass and dribble", focus: "Hand control and steady effort",
         tasks: [
-          ["30-second dribble", "Stay in a hoop or square. Soft bounces."],
-          ["Wall-pass count", "Chest or bounce pass for 30 seconds."],
-          ["Easy jog / walk", "One gym lap at talking pace."],
-          ["Cool stretch", "Arms and calves."]
-        ], g12: "Two-hand bounce is fine.", g56: "Try weaker-hand dribble for part of the bout." },
+          { title: "30-second dribble", how: [
+            "Stand inside a hoop or small square with a basketball or playground ball.",
+            "On “go,” bounce the ball at waist height with soft fingers.",
+            "Stay in the square. If the ball runs away, fetch it and continue.",
+            "Count bounces privately for 30 seconds, or just keep control until the whistle."
+          ]},
+          { title: "Wall-pass count", how: [
+            "Face a wall with a clear space behind you.",
+            "Chest or bounce pass into the wall so the ball returns to your hands.",
+            "Count completed catches in 30 seconds.",
+            "Two-hand catch. No hard throws at other people."
+          ]},
+          { title: "Easy jog / walk", how: [
+            "One full lap of the gym at a talking pace.",
+            "You should be able to say a short sentence while moving.",
+            "Walk is fine. No sprinting this station."
+          ]},
+          { title: "Cool stretch", how: [
+            "Arms: reach up, then across the body.",
+            "Calves: one foot back, heel down, hold 5–10 seconds each side."
+          ]}
+        ],
+        g12: "Two-hand bounce is fine. Teacher may count with you.",
+        g56: "Try weaker-hand dribble for part of the 30 seconds." },
       { name: "December", theme: "Floor hockey · rhythm", focus: "Stick control and stillness",
         tasks: [
-          ["20-second stick-handle", "Ball or puck in a hoop. Tiny touches."],
-          ["Shape holds", "Still gym shape 10–15 seconds."],
-          ["Rhythm travel", "Match walk/jog to a beat for 30 seconds."],
-          ["Equipment park", "Stick down safely before the next game."]
-        ], g12: "Feet-only if no sticks.", g56: "Backhand touches if safe." },
+          { title: "20-second stick-handle", how: [
+            "Ball or puck starts inside a hoop. Stick blade stays low.",
+            "On “go,” make tiny touches side to side for 20 seconds.",
+            "If it leaves the hoop, guide it back and continue.",
+            "No high sticks. Feet-only taps if you have no stick."
+          ]},
+          { title: "Shape holds", how: [
+            "Teacher names a still shape (e.g. star, tuck, balance on one foot).",
+            "Hold with quiet body and steady breath for 10–15 seconds.",
+            "If you tip, reset and try once more."
+          ]},
+          { title: "Rhythm travel", how: [
+            "Teacher or music sets a steady beat.",
+            "Walk or jog matching the beat for about 30 seconds.",
+            "Change level or pathway only if the teacher calls it."
+          ]},
+          { title: "Equipment park", how: [
+            "On the signal, place stick and ball in the marked zone.",
+            "Hands free before the next game starts.",
+            "This station is about safety habits, not speed."
+          ]}
+        ],
+        g12: "Feet-only dribble if no sticks.",
+        g56: "Backhand touches if safe and taught." },
       { name: "January", theme: "Invasion · inclusion", focus: "Welcome-back private check",
         tasks: [
-          ["Easy jog or walk", "Two easy minutes."],
-          ["20-second handle or shuttle", "Stick-handle, dribble, or short shuttle."],
-          ["Balance line", "Heel-to-toe on a floor line once."],
-          ["Pulse after play", "15-second count after a game."]
-        ], g12: "Play versions of every station.", g56: "One private goal for winter PE." },
+          { title: "Easy jog or walk", how: [
+            "Two continuous minutes around the gym.",
+            "Talking pace — you can speak in short phrases.",
+            "Walk the whole time if you need to."
+          ]},
+          { title: "20-second handle or shuttle", how: [
+            "Choose one: stick-handle in a hoop, basketball dribble in a square, or short shuttle.",
+            "Work for 20 seconds with control, not speed.",
+            "Write which one you chose and a private count if you have one."
+          ]},
+          { title: "Balance line", how: [
+            "Use a painted floor line or tape line.",
+            "Walk heel-to-toe to the end of the short line once.",
+            "Arms out for balance. Step off, reset, and finish if you wobble."
+          ]},
+          { title: "Pulse after play", how: [
+            "After a tag or invasion game, stand still.",
+            "Count heartbeat for 15 seconds. Record privately."
+          ]}
+        ],
+        g12: "Play versions of every station.",
+        g56: "Write one private goal for winter PE." },
       { name: "February", theme: "Rope · hoop", focus: "30-second skip (month signature)",
         tasks: [
-          ["30-second skip", "Rope or march in place. Personal count only."],
-          ["Hoop station", "Spin, step-in, or pass for 30 seconds."],
-          ["Core quiet", "Knee plank or boat — up to 15 seconds."],
-          ["Stretch", "Calves and shoulders."]
-        ], g12: "Rainbow rope or jump-the-river if needed.", g56: "Compare only to your own January number." },
+          { title: "30-second skip", how: [
+            "Rope: turn with wrists, jump just high enough to clear the rope.",
+            "No rope: march in place with high knees, or jump two-foot in place.",
+            "30 seconds. Soft landings. Stop on the whistle.",
+            "March or “jump the river” (side-to-side over a line) counts as full success."
+          ]},
+          { title: "Hoop station", how: [
+            "Pick one task the teacher names: spin the hoop, step in and out, or pass the hoop around your body.",
+            "Work for about 30 seconds.",
+            "If the hoop falls, pick it up and continue."
+          ]},
+          { title: "Core quiet", how: [
+            "Knee plank: hands under shoulders, knees down, body in a straight line — or boat pose if taught.",
+            "Hold up to 15 seconds with steady breath.",
+            "Lower with control when time is up."
+          ]},
+          { title: "Stretch", how: [
+            "Calves against a wall; shoulders with arm-across stretch.",
+            "Hold each side 5–10 seconds. No bouncing."
+          ]}
+        ],
+        g12: "Rainbow rope or jump-the-river if a full rope is hard.",
+        g56: "Compare only to your own January number — never to a classmate." },
       { name: "March", theme: "Parachute · circus", focus: "Core and shoulder endurance",
         tasks: [
-          ["Chute hold", "Hold parachute up for a slow count of 10."],
-          ["Scarf or balloon keep-up", "30 seconds of soft taps."],
-          ["Shoulder circles", "Both directions, slow."],
-          ["Breath check", "Notice if breath is fast or calm."]
-        ], g12: "Sit at the edge if standing grip is tiring.", g56: "Lead one short count if asked." },
+          { title: "Chute hold", how: [
+            "Grip the parachute edge with both hands, knuckles on top.",
+            "On the count, lift together to shoulder or overhead height.",
+            "Hold for a slow count of 10 while the group stays together.",
+            "Lower slowly on the teacher’s call. Do not pull peers off balance."
+          ]},
+          { title: "Scarf or balloon keep-up", how: [
+            "Soft taps only — hands, not spikes.",
+            "Keep your scarf or balloon in the air for up to 30 seconds.",
+            "If it drops, pick it up and continue. Stay in your space."
+          ]},
+          { title: "Shoulder circles", how: [
+            "Arms out or hands on shoulders.",
+            "Slow circles forward 5 times, then backward 5 times.",
+            "Small circles if shoulders feel tight."
+          ]},
+          { title: "Breath check", how: [
+            "After chute work, stand or sit still.",
+            "Notice: is your breath fast or calm?",
+            "Optional: write “fast” or “calm” on your sheet."
+          ]}
+        ],
+        g12: "Sit at the edge if standing grip is tiring.",
+        g56: "Lead one short count for the group if asked." },
       { name: "April", theme: "Gymnastics", focus: "Strength, flexibility, stillness",
         tasks: [
-          ["Still shape", "Hold a taught shape 10–15 seconds."],
-          ["Jump–stick", "Two-foot jump and soft land."],
-          ["Rock or roll", "Only the skill taught. Chin tucked if rolling."],
-          ["Flexibility", "Sit-and-reach or butterfly — gentle."]
-        ], g12: "Floor shapes only unless taught otherwise.", g56: "Link two shapes with controlled travel." },
+          { title: "Still shape", how: [
+            "Teacher shows the shape (e.g. tuck, star, arabesque at your level).",
+            "Hold 10–15 seconds with quiet body and eyes on a fixed point.",
+            "If you tip, reset once and hold again."
+          ]},
+          { title: "Jump–stick", how: [
+            "Two feet jump up; land on two feet with soft knees.",
+            "Stick the landing for 2 seconds without stepping.",
+            "Use a mat if provided. No large run-ups unless taught."
+          ]},
+          { title: "Rock or roll", how: [
+            "Only the rock or roll your class was taught.",
+            "Chin tucked if rolling. Hands help as taught.",
+            "One careful turn is better than a fast unsafe one."
+          ]},
+          { title: "Flexibility", how: [
+            "Sit-and-reach or butterfly stretch.",
+            "Slow reach, hold 5–10 seconds, no bounce.",
+            "Stop at a gentle stretch — never force."
+          ]}
+        ],
+        g12: "Floor shapes only unless the teacher teaches something else.",
+        g56: "Link two shapes with a controlled travel if asked." },
       { name: "May", theme: "Volleyball / track / jump rope", focus: "Run, jump, skip endurance",
         tasks: [
-          ["Personal timed run or skip", "Short bout. Talking pace is success."],
-          ["Jump or throw zone", "Show the cue of the day once."],
-          ["Relay practice", "Fair start; soft tag to next runner."],
-          ["Recovery walk", "One easy lap after the timed bout."]
-        ], g12: "Walk–jog is fine for the whole bout.", g56: "Name race pace vs sprint." },
+          { title: "Personal timed run or skip", how: [
+            "Teacher sets a short time (e.g. 1 minute) or a short distance.",
+            "Run, jog, walk–jog, or skip — talking pace is success.",
+            "Stay in your lane or path. Write what you chose, not a class rank."
+          ]},
+          { title: "Jump or throw zone", how: [
+            "Show the cue of the day once with control (jump-stick, underhand throw, etc.).",
+            "Quality of the cue matters more than distance.",
+            "Fetch equipment from the side, not through the throwing lane."
+          ]},
+          { title: "Relay practice", how: [
+            "Wait behind the line until tagged or handed the baton/beanbag.",
+            "Fair start — no early leave.",
+            "Soft tag or hand-off to the next runner; then clear the lane."
+          ]},
+          { title: "Recovery walk", how: [
+            "One easy lap after the timed bout.",
+            "Breathe; shake out arms and legs.",
+            "This is part of the check, not optional rest only for some students."
+          ]}
+        ],
+        g12: "Walk–jog is fine for the whole timed bout.",
+        g56: "Name whether you used race pace or sprint." },
       { name: "June", theme: "Meet · T-ball · year-end", focus: "Final private check + growth",
         tasks: [
-          ["Skip, short run, or jump–stick", "Choose one. Same idea as September."],
-          ["Meet behaviour", "Ready position and kind waiting."],
-          ["Year growth note", "One thing your body can do now that was harder in September."],
-          ["Thank-you stretch", "Easy full-body stretch."]
-        ], g12: "Teacher may scribe your growth sentence.", g56: "Optional private summer movement goal." }
+          { title: "Skip, short run, or jump–stick", how: [
+            "Choose one station you did in September or February.",
+            "Same rules: 30-second skip/march, short easy run, or controlled jump–stick.",
+            "Private note only — this is for your growth, not a contest."
+          ]},
+          { title: "Meet behaviour", how: [
+            "Practise ready position when your name or group is called.",
+            "Quiet waiting feet and hands while others perform.",
+            "Kind words only; tidy equipment after your turn."
+          ]},
+          { title: "Year growth note", how: [
+            "Think of September. Write one thing your body can do now that felt harder then.",
+            "Examples: longer skip, softer landing, calmer freeze, kinder teammate habits.",
+            "Teacher may help write the sentence for Grades 1–2."
+          ]},
+          { title: "Thank-you stretch", how: [
+            "Follow the class cool-down stretch.",
+            "Easy full-body moves; no forcing.",
+            "Optional: thank a classmate who helped you this year."
+          ]}
+        ],
+        g12: "Teacher may scribe your growth sentence.",
+        g56: "Optional private summer movement goal." }
     ];
 
     document.getElementById("jump").innerHTML = MONTHS.map((m) =>
@@ -225,10 +420,14 @@
         <h2>${m.name}</h2>
         <p class="meta">${m.theme} · <strong>${m.focus}</strong></p>
         <p class="fit-meta">Name: ______________ Grade: ____ Date: ________ Teacher: ____</p>
-        ${m.tasks.map(([t, d]) => `
+        ${m.tasks.map((task) => `
           <div class="fit-task">
             <input type="checkbox" />
-            <div><strong>${t}.</strong> ${d}<br><span class="fit-meta">My count / note: __________ · Felt: easy · just right · hard</span></div>
+            <div>
+              <strong>${task.title}</strong>
+              <ol class="fit-how">${task.how.map((s) => `<li>${s}</li>`).join("")}</ol>
+              <span class="fit-meta">My count / note: __________ · Felt: easy · just right · hard</span>
+            </div>
           </div>`).join("")}
         <p class="fit-meta" style="margin-top:10px"><strong>1–2:</strong> ${m.g12}<br><strong>5–6:</strong> ${m.g56}</p>
         <p class="fit-meta">One thing that felt stronger: ________________________________</p>
