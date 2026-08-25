@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Monthly fitness checklist · SCA Elementary PE Playbook</title>
+  <meta name="description" content="Private monthly fitness checklist for Grades 1–6 PE with activities and guidelines." />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@450;700;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    @media print {
+      header.site, footer.site, .no-print { display: none !important; }
+      .panel { break-inside: avoid; box-shadow: none; border: 1px solid #ccc; }
+      body { background: #fff; }
+    }
+    .fit-task { display: flex; gap: 10px; align-items: flex-start; margin: 8px 0; }
+    .fit-task input { margin-top: 4px; }
+    .fit-meta { font-size: .88rem; color: var(--muted); }
+  </style>
+</head>
+<body data-page="fitness">
+  <header class="site">
+    <div class="wrap row">
+      <a class="brand" href="index.html">SCA Elementary PE Playbook<span>Grades 1–6 · Alberta · 4 × 30 min</span></a>
+      <nav>
+        <a href="index.html">Year</a>
+        <a href="how.html">How to use</a>
+        <a href="gymnastics.html">Gymnastics</a>
+        <a href="videos.html">Videos</a>
+        <a href="games.html">Games</a>
+        <a href="dodgeball.html">Dodgeball</a>
+        <a href="outcomes.html">Outcomes</a>
+        <a class="active" href="fitness.html">Fitness</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" style="padding:28px 0 40px">
+    <div class="panel">
+      <h1 style="margin-top:0;color:var(--navy)">Monthly fitness checklist</h1>
+      <p>Private student record for Grades 1–6. Matches each month’s PE unit. <strong>Never rank the class</strong> or post numbers.</p>
+      <p class="no-print">
+        <a class="btn" href="Monthly_Fitness_Checklist_Grades_1-6.pdf" download>Download printable PDF (11 pages)</a>
+      </p>
+    </div>
+
+    <div class="panel">
+      <h2>Guidelines</h2>
+      <ul class="clean">
+        <li>Private record only — no class ranking, no reading scores aloud.</li>
+        <li>Compare only to your own earlier month.</li>
+        <li>Stop if there is sharp pain. Tell the teacher.</li>
+        <li>Modifications count: march instead of skip, knee plank, walk–jog.</li>
+        <li><strong>1–2:</strong> teacher may help count · <strong>3–4:</strong> quiet self-count · <strong>5–6:</strong> self-count + optional private goal.</li>
+      </ul>
+    </div>
+
+    <div class="panel no-print">
+      <p class="meta">Jump to a month</p>
+      <div class="filters" id="jump"></div>
+    </div>
+
+    <div id="months"></div>
+  </main>
+  <footer class="site wrap">Private fitness · PEW Active Living · not a scoreboard</footer>
+  <script>
+    const MONTHS = [
+      { name: "September", theme: "Soccer · gym routines · baseline", focus: "Starting point (not a scoreboard)",
+        tasks: [
+          ["Pulse check", "After a short game, find your heartbeat. Count 15 seconds."],
+          ["Skip or march", "30 seconds. March in place is OK."],
+          ["Shuttle", "Side to side between two lines. Easy pace."],
+          ["Sit-and-reach", "Sit, reach toward toes. No bouncing."],
+          ["Hold / stillness", "Knee plank, wall sit, or still shape — up to 15 seconds."]
+        ], g12: "Teacher helps count. Walk more than jog.", g56: "Self-count one station. One word about how your body felt." },
+      { name: "October", theme: "Football · send and receive", focus: "Throwing power and recovery",
+        tasks: [
+          ["Warm pulse", "After end-zone or flags, count 15 seconds."],
+          ["Shuttle or line run", "Easy shuttle. Soft stops."],
+          ["Catch–throw count", "Partner or wall: private count in 30 seconds."],
+          ["Stretch", "Shoulders and legs. No forced stretch."]
+        ], g12: "Soft ball. Underhand only.", g56: "Record only your own catch–throw number." },
+      { name: "November", theme: "Basketball · pass and dribble", focus: "Hand control and steady effort",
+        tasks: [
+          ["30-second dribble", "Stay in a hoop or square. Soft bounces."],
+          ["Wall-pass count", "Chest or bounce pass for 30 seconds."],
+          ["Easy jog / walk", "One gym lap at talking pace."],
+          ["Cool stretch", "Arms and calves."]
+        ], g12: "Two-hand bounce is fine.", g56: "Try weaker-hand dribble for part of the bout." },
+      { name: "December", theme: "Floor hockey · rhythm", focus: "Stick control and stillness",
+        tasks: [
+          ["20-second stick-handle", "Ball or puck in a hoop. Tiny touches."],
+          ["Shape holds", "Still gym shape 10–15 seconds."],
+          ["Rhythm travel", "Match walk/jog to a beat for 30 seconds."],
+          ["Equipment park", "Stick down safely before the next game."]
+        ], g12: "Feet-only if no sticks.", g56: "Backhand touches if safe." },
+      { name: "January", theme: "Invasion · inclusion", focus: "Welcome-back private check",
+        tasks: [
+          ["Easy jog or walk", "Two easy minutes."],
+          ["20-second handle or shuttle", "Stick-handle, dribble, or short shuttle."],
+          ["Balance line", "Heel-to-toe on a floor line once."],
+          ["Pulse after play", "15-second count after a game."]
+        ], g12: "Play versions of every station.", g56: "One private goal for winter PE." },
+      { name: "February", theme: "Rope · hoop", focus: "30-second skip (month signature)",
+        tasks: [
+          ["30-second skip", "Rope or march in place. Personal count only."],
+          ["Hoop station", "Spin, step-in, or pass for 30 seconds."],
+          ["Core quiet", "Knee plank or boat — up to 15 seconds."],
+          ["Stretch", "Calves and shoulders."]
+        ], g12: "Rainbow rope or jump-the-river if needed.", g56: "Compare only to your own January number." },
+      { name: "March", theme: "Parachute · circus", focus: "Core and shoulder endurance",
+        tasks: [
+          ["Chute hold", "Hold parachute up for a slow count of 10."],
+          ["Scarf or balloon keep-up", "30 seconds of soft taps."],
+          ["Shoulder circles", "Both directions, slow."],
+          ["Breath check", "Notice if breath is fast or calm."]
+        ], g12: "Sit at the edge if standing grip is tiring.", g56: "Lead one short count if asked." },
+      { name: "April", theme: "Gymnastics", focus: "Strength, flexibility, stillness",
+        tasks: [
+          ["Still shape", "Hold a taught shape 10–15 seconds."],
+          ["Jump–stick", "Two-foot jump and soft land."],
+          ["Rock or roll", "Only the skill taught. Chin tucked if rolling."],
+          ["Flexibility", "Sit-and-reach or butterfly — gentle."]
+        ], g12: "Floor shapes only unless taught otherwise.", g56: "Link two shapes with controlled travel." },
+      { name: "May", theme: "Volleyball / track / jump rope", focus: "Run, jump, skip endurance",
+        tasks: [
+          ["Personal timed run or skip", "Short bout. Talking pace is success."],
+          ["Jump or throw zone", "Show the cue of the day once."],
+          ["Relay practice", "Fair start; soft tag to next runner."],
+          ["Recovery walk", "One easy lap after the timed bout."]
+        ], g12: "Walk–jog is fine for the whole bout.", g56: "Name race pace vs sprint." },
+      { name: "June", theme: "Meet · T-ball · year-end", focus: "Final private check + growth",
+        tasks: [
+          ["Skip, short run, or jump–stick", "Choose one. Same idea as September."],
+          ["Meet behaviour", "Ready position and kind waiting."],
+          ["Year growth note", "One thing your body can do now that was harder in September."],
+          ["Thank-you stretch", "Easy full-body stretch."]
+        ], g12: "Teacher may scribe your growth sentence.", g56: "Optional private summer movement goal." }
+    ];
+
+    document.getElementById("jump").innerHTML = MONTHS.map((m) =>
+      `<a class="btn" style="background:var(--green);margin:2px" href="#${m.name.toLowerCase()}">${m.name}</a>`
+    ).join(" ");
+
+    document.getElementById("months").innerHTML = MONTHS.map((m) => `
+      <div class="panel" id="${m.name.toLowerCase()}">
+        <h2>${m.name}</h2>
+        <p class="meta">${m.theme} · <strong>${m.focus}</strong></p>
+        <p class="fit-meta">Name: ______________ Grade: ____ Date: ________ Teacher: ____</p>
+        ${m.tasks.map(([t, d]) => `
+          <div class="fit-task">
+            <input type="checkbox" />
+            <div><strong>${t}.</strong> ${d}<br><span class="fit-meta">My count / note: __________ · Felt: easy · just right · hard</span></div>
+          </div>`).join("")}
+        <p class="fit-meta" style="margin-top:10px"><strong>1–2:</strong> ${m.g12}<br><strong>5–6:</strong> ${m.g56}</p>
+        <p class="fit-meta">One thing that felt stronger: ________________________________</p>
+      </div>`).join("");
+  </script>
+</body>
+</html>
