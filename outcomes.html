@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Outcomes &amp; assessment · SCA Elementary PE Playbook</title>
+  <meta name="description" content="Alberta Physical Education and Wellness K–6 organizing ideas and month-by-month assessment for Grades 1–6 PE." />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@450;700;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="outcomes">
+  <header class="site">
+    <div class="wrap row">
+      <a class="brand" href="index.html">SCA Elementary PE Playbook<span>Grades 1–6 · Alberta · 4 × 30 min</span></a>
+      <nav>
+        <a href="index.html">Year</a>
+        <a href="how.html">How to use</a>
+        <a href="gymnastics.html">Gymnastics</a>
+        <a href="videos.html">Videos</a>
+        <a href="games.html">Games</a>
+        <a href="dodgeball.html">Dodgeball</a>
+        <a class="active" href="outcomes.html">Outcomes</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" style="padding:28px 0 40px">
+    <div class="panel">
+      <h1 style="margin-top:0;color:var(--navy)">Alberta PEW outcomes &amp; assessment</h1>
+      <p>This page maps the <strong>Physical Education and Wellness (K–6)</strong> curriculum to a 4 × 30-minute PE week. Use it when you plan the month, write report-card comments, or check who needs another look.</p>
+      <p class="meta">Source: <a href="https://curriculum.learnalberta.ca/curriculum/en/gfc/PDE" target="_blank" rel="noopener">LearnAlberta · Physical Education and Wellness K–6</a> (implemented 2022; minor updates 2026). Confirm the exact learning-outcome wording for your grade before reporting.</p>
+    </div>
+
+    <div class="panel">
+      <h2>Organizing ideas (all eight)</h2>
+      <p class="meta">Organizing ideas (OIs) are the big strands. Each has guiding questions and learning outcomes. In the gym this playbook leans on the movement-heavy strands; wellness strands still show up in cool-downs, food/energy talk, and relationships.</p>
+      <div class="oi-grid" id="oi-grid"></div>
+      <p class="note" style="margin-top:12px">Healthy Eating, Growth and Development, and Financial Literacy are part of PEW but are often taught outside the 30-minute PE block. Link them when a lesson names food, body changes, or choices; do not force them into every tag game.</p>
+    </div>
+
+    <div class="panel">
+      <h2>How to assess in this playbook</h2>
+      <ul class="clean">
+        <li><strong>Report the learning outcome, not the score.</strong> Who won Hospital Tag does not go on the report card.</li>
+        <li><strong>One or two look-fors per class</strong> is enough. Tick a checklist once a week, not every 30 minutes.</li>
+        <li><strong>Fitness numbers stay private.</strong> Never post times or ranks. Date the sheet; compare a student to their own baseline.</li>
+        <li><strong>Use three tools:</strong> observation during the game, a short exit question (name a muscle, show a freeze), and a monthly skill look-for.</li>
+        <li><strong>Grade bands.</strong> Same game, different evidence: Grades 1–2 walk and listen; 3–4 refine and cooperate; 5–6 lead and adapt.</li>
+      </ul>
+      <table class="games" style="margin-top:12px">
+        <thead><tr><th>When</th><th>What you collect</th><th>Where it lives on this site</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Each class</strong></td><td>Soft tag, freeze on the whistle, kind language</td><td>Safety line on the game card</td></tr>
+          <tr><td><strong>Each week</strong></td><td>One skill cue (eyes up, opposite foot, two-hand catch)</td><td>Lesson 5–16 block on the month page</td></tr>
+          <tr><td><strong>Each month</strong></td><td>2–4 assessment rows (what / how / evidence)</td><td>Table below · also on each month page</td></tr>
+          <tr><td><strong>Report period</strong></td><td>Match comments to the PEW learning outcome for that grade</td><td>LearnAlberta LO for your grade</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="panel">
+      <h2>Month-by-month assessment</h2>
+      <p class="meta">Pick the month you are in. Focus organizing ideas, grade-band outcomes, and concrete evidence for Grades 1–6.</p>
+      <div class="filters" id="month-filters"></div>
+      <div id="month-outcomes"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Quick evidence bank (gym)</h2>
+      <p class="meta">Reuse these stems when you write comments or checklists.</p>
+      <table class="games">
+        <thead><tr><th>Organizing idea</th><th>Sample look-fors in a 30-minute class</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Active Living</strong></td><td>Enters the game; names how the body feels after; chooses water or a quieter recovery when needed.</td></tr>
+          <tr><td><strong>Movement Skill Development</strong></td><td>Shows the cue of the day (trap, underhand send, soft land); changes speed or pathway on a signal.</td></tr>
+          <tr><td><strong>Character Development</strong></td><td>Tries again after a miss; leads a stretch or a call; accepts a hard role without shaming others.</td></tr>
+          <tr><td><strong>Safety</strong></td><td>Freezes on the whistle; stays in bounds; soft tag; equipment parked before the next game.</td></tr>
+          <tr><td><strong>Healthy Relationships</strong></td><td>Unfreezes a classmate; uses a kind phrase; accepts teacher-formed teams; no public picking.</td></tr>
+          <tr><td><strong>Healthy Eating</strong></td><td>(Often outside PE) Links water or a snack choice to energy for play when the lesson names it.</td></tr>
+          <tr><td><strong>Growth and Development</strong></td><td>(Often outside PE) Names a change in breath or heart rate after activity; respects personal space.</td></tr>
+          <tr><td><strong>Financial Literacy</strong></td><td>(Usually classroom) Not assessed in the PE block of this playbook.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer class="site wrap">Alberta PEW K–6 · assess the outcome, not the score · fitness stays private.</footer>
+  <script src="outcomes-data.js"></script>
+  <script>
+    const OIS = [
+      { id: "Active Living", focus: true, text: "Developing physical literacy through movement and active living supports well-being across a lifespan." },
+      { id: "Movement Skill Development", focus: true, text: "Students develop skills, concepts, tactics, and strategies that support physical literacy." },
+      { id: "Character Development", focus: true, text: "Exploration of life opportunities and virtues develops resilience and personal talents and promotes lifelong learning." },
+      { id: "Safety", focus: true, text: "A lifetime of optimal well-being is supported by prioritizing health and safety." },
+      { id: "Healthy Relationships", focus: true, text: "Healthy relationships support social-emotional well-being and safe participation with others." },
+      { id: "Healthy Eating", focus: false, text: "A lifetime of optimal well-being is supported by prioritizing nutrition and healthy eating." },
+      { id: "Growth and Development", focus: false, text: "Understanding growth and development supports personal well-being and respect for self and others." },
+      { id: "Financial Literacy", focus: false, text: "Money knowledge and decision-making (classroom PEW; not scored in this PE block)." }
+    ];
+
+    document.getElementById("oi-grid").innerHTML = OIS.map((o) => `
+      <article class="oi-card ${o.focus ? "focus" : "soft"}">
+        <h3>${o.id}</h3>
+        <p>${o.text}</p>
+        <p class="meta">${o.focus ? "Used often in this gym plan" : "Link when the lesson names it"}</p>
+      </article>`).join("");
+
+    const UNIT = window.UNIT_OUTCOMES || {};
+    const months = Object.keys(UNIT);
+    const filters = document.getElementById("month-filters");
+    const box = document.getElementById("month-outcomes");
+    let active = months[0] || "September";
+
+    function render() {
+      filters.innerHTML = months.map((m) =>
+        `<button type="button" data-m="${m}" class="${m === active ? "on" : ""}">${m}</button>`
+      ).join("");
+      const u = UNIT[active];
+      if (!u) { box.innerHTML = "<p>No data for this month.</p>"; return; }
+      box.innerHTML = `
+        <h3 style="color:var(--navy);margin:16px 0 6px">${active}</h3>
+        <p class="meta"><strong>Organizing ideas this month:</strong> ${(u.oi || []).join(" · ")}</p>
+        <p>${u.why || ""}</p>
+        <p class="meta"><a href="month.html?m=${encodeURIComponent(active)}">Open full ${active} lesson page →</a></p>
+        <div class="out-grid">
+          <div><h3>Grades 1–2</h3><ul class="clean">${(u.g12 || []).map((x) => `<li>${x}</li>`).join("")}</ul></div>
+          <div><h3>Grades 3–4</h3><ul class="clean">${(u.g34 || []).map((x) => `<li>${x}</li>`).join("")}</ul></div>
+          <div><h3>Grades 5–6</h3><ul class="clean">${(u.g56 || []).map((x) => `<li>${x}</li>`).join("")}</ul></div>
+        </div>
+        <h3 style="margin-top:16px">How you might assess this month</h3>
+        <table class="games">
+          <thead><tr><th>What</th><th>How</th><th>Look-for / evidence</th></tr></thead>
+          <tbody>${(u.assess || []).map((a) =>
+            `<tr><td><strong>${a.what}</strong></td><td>${a.how}</td><td>${a.evidence}</td></tr>`
+          ).join("")}</tbody>
+        </table>`;
+    }
+
+    filters.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-m]");
+      if (!btn) return;
+      active = btn.getAttribute("data-m");
+      render();
+    });
+    render();
+  </script>
+</body>
+</html>
