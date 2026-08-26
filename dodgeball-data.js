@@ -19,8 +19,28 @@ window.DODGE_GAMES = [
     "safety": "Tap the shoulder, not a shove. Dodgeballs.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends the ball below the waist toward a space, not a face."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -48,12 +68,32 @@ window.DODGE_GAMES = [
     "safety": "Noodle is a tap tool. Soft tag on a shoe.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Uses the hoop as a reset, then goes to help."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
         "look": "Keeps the noodle low and away from heads."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -77,12 +117,32 @@ window.DODGE_GAMES = [
     "safety": "Fetch pins from the side. No sliding into cones.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Steps toward the pin and follows through low."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Chooses pin vs person for the team, not just the nearest target."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -105,12 +165,32 @@ window.DODGE_GAMES = [
     "safety": "Same below-waist rules.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Plays their role instead of everyone hunting the same player."
       },
       {
-        "code": "Character",
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
         "look": "Keeps the role kind — no calling people out."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -134,12 +214,32 @@ window.DODGE_GAMES = [
     "safety": "Dodgeballs. No charging the hoop.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Passes to an opening before the throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
         "look": "Throws stay low; defenders do not push the king."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -164,8 +264,28 @@ window.DODGE_GAMES = [
     "safety": "Walk the sideline home. No crossing live throws.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Throws to a teammate’s hands, not at their feet in jail."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -193,12 +313,32 @@ window.DODGE_GAMES = [
     "safety": "Middle throws stay in the gym, below the waist.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Starts again after the jacks."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Keeps a path around the outside."
       },
       {
-        "code": "Active Living",
-        "look": "Starts again after the jacks."
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -222,12 +362,32 @@ window.DODGE_GAMES = [
     "safety": "Stay in your square. No chasing.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Turns to the square the ball is coming from."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
         "look": "Throws stay in the next square, not across the gym at a head."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -250,12 +410,32 @@ window.DODGE_GAMES = [
     "safety": "Throwers stay behind the tape. Balls at feet.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes speed in the lane."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
         "look": "Thrower feet stay behind the line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -278,12 +458,32 @@ window.DODGE_GAMES = [
     "safety": "No mats stacked as walls. No pushing off the island.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Dodges without leaving the tape."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Uses a teammate as a pass instead of a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -306,12 +506,32 @@ window.DODGE_GAMES = [
     "safety": "No running over a barrier. No benches to stand on.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Uses cover, then sends."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
         "look": "Does not climb or throw equipment."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -334,12 +554,32 @@ window.DODGE_GAMES = [
     "safety": "Walk the outside with a bag. No tug-of-war.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Times the steal when the other team is throwing."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Drops the bag on a tag without a pull."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -366,8 +606,28 @@ window.DODGE_GAMES = [
         "look": "Gets up after a catch instead of staying out."
       },
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Movement Skill Development",
         "look": "Catches a rolling ball to re-enter."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -390,12 +650,32 @@ window.DODGE_GAMES = [
     "safety": "Walk the sideline to change. Do not cut through throws.",
     "outcomes": [
       {
-        "code": "Healthy Relationships",
-        "look": "Joins the new team without a complaint."
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
       },
       {
-        "code": "Character",
+        "code": "Movement Skill Development",
+        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
         "look": "Throws for the new side, not at a friend from the old one only."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Joins the new team without a complaint."
       }
     ]
   },
@@ -419,12 +699,32 @@ window.DODGE_GAMES = [
     "safety": "No slap at a person. Ball only. Tape on the floor — no benches as walls.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Strikes the ball, not a classmate."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
         "look": "Stays below the knee; leaves the ring without a shove."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -447,12 +747,32 @@ window.DODGE_GAMES = [
     "safety": "Return along the wall, not through the court.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Catches with two hands and calls a name."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Brings a teammate in, not only the best thrower."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -475,12 +795,32 @@ window.DODGE_GAMES = [
     "safety": "No head. No chasing a person into a corner.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Uses the sideline throw, then comes back."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Turns to see more than one ball."
       },
       {
-        "code": "Active Living",
-        "look": "Uses the sideline throw, then comes back."
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -503,12 +843,32 @@ window.DODGE_GAMES = [
     "safety": "Accuracy over power — this rule helps that.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Uses the non-dominant side for the round."
       },
       {
-        "code": "Character",
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
         "look": "Laughs at a miss and tries again."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -532,12 +892,32 @@ window.DODGE_GAMES = [
     "safety": "Large soft ball only. No kicking the powerball at a person.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Changes plan when the powerball comes in."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
         "look": "Waits for the teacher’s rule before using it."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -562,12 +942,32 @@ window.DODGE_GAMES = [
     "safety": "Soft kicker. Throws at the runner stay low. No blocking the base with a body.",
     "outcomes": [
       {
-        "code": "Movement · run, jump, throw",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Runs through the hoop, does not stop on it."
       },
       {
-        "code": "Movement · send, receive, retain",
-        "look": "Fields and sends to a hoop or a low tag."
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
+      },
+      {
+        "code": "Safety",
+        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -593,8 +993,24 @@ window.DODGE_GAMES = [
     "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends a foam ball below the waist toward space, not a face."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
@@ -628,8 +1044,24 @@ window.DODGE_GAMES = [
     "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends a foam ball below the waist toward space, not a face."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
@@ -663,8 +1095,24 @@ window.DODGE_GAMES = [
     "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends a foam ball below the waist toward space, not a face."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
@@ -698,8 +1146,24 @@ window.DODGE_GAMES = [
     "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends a foam ball below the waist toward space, not a face."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
@@ -732,8 +1196,24 @@ window.DODGE_GAMES = [
     "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends a foam ball below the waist toward space, not a face."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
@@ -766,8 +1246,24 @@ window.DODGE_GAMES = [
     "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends a foam ball below the waist toward space, not a face."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
@@ -800,8 +1296,24 @@ window.DODGE_GAMES = [
     "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends a foam ball below the waist toward space, not a face."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
@@ -835,16 +1347,32 @@ window.DODGE_GAMES = [
     "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Uses space: spread out, fake, or change speed to get past a defender."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Honest tags; no puppy-guarding a flag or hoop."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",
         "look": "Two-finger or noodle tag; jail is a short wait, then a way home."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a clinic, jail, or bench teammate back in instead of only attacking."
       }
     ]
   },
@@ -869,8 +1397,24 @@ window.DODGE_GAMES = [
     "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends a foam ball below the waist toward space, not a face."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a hit; a catch is a save for the thrower too."
       },
       {
         "code": "Safety",

@@ -15,8 +15,24 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Angry Neighbour for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes speed and pathway to avoid a tag."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Angry Neighbour, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
@@ -25,10 +41,6 @@ window.GAME_EXTRAS = {
       {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag; no argument that stalls the game."
       }
     ]
   },
@@ -47,8 +59,24 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Backyard Dog Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes speed and pathway to avoid a tag."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Backyard Dog Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
@@ -57,10 +85,6 @@ window.GAME_EXTRAS = {
       {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag; no argument that stalls the game."
       }
     ]
   },
@@ -79,8 +103,24 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Banana Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes speed and pathway to avoid a tag."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Banana Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
@@ -89,10 +129,6 @@ window.GAME_EXTRAS = {
       {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag; no argument that stalls the game."
       }
     ]
   },
@@ -116,12 +152,32 @@ window.GAME_EXTRAS = {
     "look": "No six-person whip. Splits happen without a reminder.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Blob Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "The chain splits before it gets unsafe."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Blob Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Holds on without yanking."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -145,12 +201,32 @@ window.GAME_EXTRAS = {
     "look": "Helpers are on four different limbs. No dragging.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Bug Tag / Dead Ant for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Soft tag; the tagged player has a way back in."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Bug Tag / Dead Ant, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Someone helps unfreeze or walks a classmate to ‘hospital.’"
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -172,12 +248,32 @@ window.GAME_EXTRAS = {
     "look": "Hoops are not forts. People leave after a count of 5.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Buzz Off / hoop free zones for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Leaves the hoop after a count of 5."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Buzz Off / hoop free zones, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "No camping on a hive."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -199,12 +295,32 @@ window.GAME_EXTRAS = {
     "look": "Only one player is in a hoop at a time.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Chicken Checkers for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "No sliding a piece into a person."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "One object per trip."
       },
       {
-        "code": "Movement · spatial awareness",
-        "look": "No sliding a piece into a person."
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -226,12 +342,32 @@ window.GAME_EXTRAS = {
     "look": "Shirts are not being pulled.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Clothespin Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Hands the pin or tail back."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Clothespin Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
         "code": "Safety",
         "look": "Two fingers on the tail or pin, not on clothes."
       },
       {
-        "code": "Movement · spatial awareness",
-        "look": "Hands the pin or tail back."
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -250,12 +386,32 @@ window.GAME_EXTRAS = {
     "look": "Circle does not sit.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Duck Duck Dash for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Chases one lap and returns."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Duck Duck Dash, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Shoulder tap, not the head."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -276,12 +432,32 @@ window.GAME_EXTRAS = {
     "look": "No sitting out.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Everybody’s It for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Moves and tags at the same time."
       },
       {
-        "code": "Character",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Everybody’s It, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
         "look": "Does the squats and comes back."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -300,8 +476,24 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Freedom Catch for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes speed and pathway to avoid a tag."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Freedom Catch, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
@@ -310,10 +502,6 @@ window.GAME_EXTRAS = {
       {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag; no argument that stalls the game."
       }
     ]
   },
@@ -336,12 +524,32 @@ window.GAME_EXTRAS = {
     "look": "Helpers are moving toward frozen players, not hiding.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Frozen Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Soft tag; the tagged player has a way back in."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Frozen Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Someone helps unfreeze or walks a classmate to ‘hospital.’"
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -360,8 +568,24 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Home Free Bad Guy Blob Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes speed and pathway to avoid a tag."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Home Free Bad Guy Blob Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
@@ -370,10 +594,6 @@ window.GAME_EXTRAS = {
       {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag; no argument that stalls the game."
       }
     ]
   },
@@ -397,12 +617,32 @@ window.GAME_EXTRAS = {
     "look": "Players re-enter in under 15 seconds. No pile-ups at the hospital.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Hospital Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Soft tag; the tagged player has a way back in."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Hospital Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Someone helps unfreeze or walks a classmate to ‘hospital.’"
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -426,12 +666,32 @@ window.GAME_EXTRAS = {
     "look": "Frozen players are calling. Buns are on opposite sides.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Hot Dog Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Soft tag; the tagged player has a way back in."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Hot Dog Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Someone helps unfreeze or walks a classmate to ‘hospital.’"
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -453,12 +713,32 @@ window.GAME_EXTRAS = {
     "look": "Hoops are not pulled out from under feet.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Icebergs for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Crosses on the call, not after a wait."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Icebergs, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Tagged player re-enters next wave — no last-one-standing."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -481,12 +761,32 @@ window.GAME_EXTRAS = {
     "look": "The called team turns and runs — they do not wait to see who tags.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Kangaroos and Crocodiles for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Tagged player re-enters or switches — nobody sits out."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Kangaroos and Crocodiles, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
         "code": "Safety",
         "look": "Moves only when their name or shape wins."
       },
       {
-        "code": "Movement · spatial awareness",
-        "look": "Tagged player re-enters or switches — nobody sits out."
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -510,12 +810,32 @@ window.GAME_EXTRAS = {
     "look": "Nobody cuts a corner through the key. Traffic yields.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Line Tag / Pac-Man for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Stays on the line; no corner-cutting."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Line Tag / Pac-Man, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Eyes up at intersections."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -534,8 +854,24 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Massive 10 Second Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes speed and pathway to avoid a tag."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Massive 10 Second Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
@@ -544,10 +880,6 @@ window.GAME_EXTRAS = {
       {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag; no argument that stalls the game."
       }
     ]
   },
@@ -566,12 +898,32 @@ window.GAME_EXTRAS = {
     "look": "Whistle freeze. Hands up.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Mr. Clean for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends stay below the waist."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Mr. Clean, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Hands up on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -590,8 +942,24 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Mystery Number Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes speed and pathway to avoid a tag."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Mystery Number Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
@@ -600,10 +968,6 @@ window.GAME_EXTRAS = {
       {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag; no argument that stalls the game."
       }
     ]
   },
@@ -627,12 +991,32 @@ window.GAME_EXTRAS = {
     "look": "Seaweed stays planted. Runners look for gaps, not collisions.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Octopus for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Crosses on the call, not after a wait."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Octopus, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Tagged player re-enters next wave — no last-one-standing."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -651,8 +1035,24 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Reindeer Roundup for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes speed and pathway to avoid a tag."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Reindeer Roundup, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
@@ -661,10 +1061,6 @@ window.GAME_EXTRAS = {
       {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag; no argument that stalls the game."
       }
     ]
   },
@@ -686,12 +1082,32 @@ window.GAME_EXTRAS = {
     "look": "Tags are feet on a shadow, not a shove.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Shadow Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Soft feet on a shadow or spot."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Shadow Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "No stomps on ankles."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -715,12 +1131,32 @@ window.GAME_EXTRAS = {
     "look": "A full class crossing in under 8 seconds. Sharks not camping one door.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Sharks and Dolphins for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Crosses on the call, not after a wait."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Sharks and Dolphins, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Tagged player re-enters next wave — no last-one-standing."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -742,12 +1178,32 @@ window.GAME_EXTRAS = {
     "look": "There is no human wall. Tags are two-finger.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Slap Rover for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Crosses on the call, not after a wait."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Slap Rover, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Tagged player re-enters next wave — no last-one-standing."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -769,12 +1225,32 @@ window.GAME_EXTRAS = {
     "look": "Waistbands, not hair or hoods.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Squirrel’s Tail for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Hands the pin or tail back."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Squirrel’s Tail, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
         "code": "Safety",
         "look": "Two fingers on the tail or pin, not on clothes."
       },
       {
-        "code": "Movement · spatial awareness",
-        "look": "Hands the pin or tail back."
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -796,12 +1272,32 @@ window.GAME_EXTRAS = {
     "look": "The skill is short. The gym stays full.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Survivor Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "A tag is a short skill, then back in."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Survivor Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Soft tag."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -824,12 +1320,32 @@ window.GAME_EXTRAS = {
     "look": "Tails come out clean. No one is on the floor.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Tail Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Hands the pin or tail back."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Tail Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
         "code": "Safety",
         "look": "Two fingers on the tail or pin, not on clothes."
       },
       {
-        "code": "Movement · spatial awareness",
-        "look": "Hands the pin or tail back."
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -848,12 +1364,32 @@ window.GAME_EXTRAS = {
     "look": "Old taggers actually stop.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Ten-Second Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Runs or walks on the whistle."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Ten-Second Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Soft tag; tagged player re-enters after 5 jacks."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -875,12 +1411,32 @@ window.GAME_EXTRAS = {
     "look": "Tripods are still. People are not crashing into a downed player.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Tripod Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "A tag is a short skill, then back in."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Tripod Tag, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Soft tag."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -899,8 +1455,28 @@ window.GAME_EXTRAS = {
     "look": "Nobody is crawling under a moving person.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Tunnel Freeze for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Soft tag; a way back in."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Tunnel Freeze, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -923,12 +1499,32 @@ window.GAME_EXTRAS = {
     "look": "Chase stops at the wall.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Wake-Up Bear for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Runs to a wall, not a pile."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Wake-Up Bear, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Shares the gym; does not crowd a frozen player, hospital, or safe zone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
       },
       {
         "code": "Safety",
         "look": "Bear is not blindfolded."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -950,12 +1546,32 @@ window.GAME_EXTRAS = {
     "look": "Hospitals are not crowded. Stretches are real.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Waspital for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Soft tag; the tagged player has a way back in."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Waspital, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Someone helps unfreeze or walks a classmate to ‘hospital.’"
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -979,12 +1595,32 @@ window.GAME_EXTRAS = {
     "look": "The den does not fill for the whole class.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Wolf’s Den for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Crosses on the call."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Wolf’s Den, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Re-enters after the stretch."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a tag; no argument that stalls the game."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
     ]
   },
@@ -1003,16 +1639,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in 3-Ball Soccer for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Uses the inside of the foot or a taught kick; looks up before sending."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Moves to space after a pass; does not crowd the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "No slide tackles; foam or school soccer ball as listed."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1031,16 +1683,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in 4-Goal Soccer for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Uses the inside of the foot or a taught kick; looks up before sending."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Moves to space after a pass; does not crowd the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "No slide tackles; foam or school soccer ball as listed."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1059,16 +1727,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in 5 Soccer Circle Ideas for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Uses the inside of the foot or a taught kick; looks up before sending."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Moves to space after a pass; does not crowd the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "No slide tackles; foam or school soccer ball as listed."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1087,16 +1771,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Bench Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Uses space: spread out, fake, or change speed to get past a defender."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Honest tags; no puppy-guarding a flag or hoop."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "Two-finger or noodle tag; jail is a short wait, then a way home."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1118,12 +1818,32 @@ window.GAME_EXTRAS = {
     "look": "No one is being chased with a held ball for more than 3 seconds.",
     "outcomes": [
       {
-        "code": "Healthy Relationships",
-        "look": "Calls a name before the catch."
+        "code": "Active Living",
+        "look": "Stays in Booger Ball for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Movement Skill Development",
         "look": "3-second hold, then pass."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a name before the catch."
       }
     ]
   },
@@ -1145,12 +1865,32 @@ window.GAME_EXTRAS = {
     "look": "Captains are swapping without an argument.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Captain Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1172,12 +1912,32 @@ window.GAME_EXTRAS = {
     "look": "Eggs stay in hands until they are in a hoop.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Capture the Egg for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "One object or one rescue at a time."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Walks a jailed teammate home."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1196,16 +1956,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Capture The Flag Outdoors for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Uses space: spread out, fake, or change speed to get past a defender."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Honest tags; no puppy-guarding a flag or hoop."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "Two-finger or noodle tag; jail is a short wait, then a way home."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1227,12 +2003,32 @@ window.GAME_EXTRAS = {
     "look": "No two bags in one pair of hands.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Collect the Treasure for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "One object or one rescue at a time."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Walks a jailed teammate home."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1254,12 +2050,32 @@ window.GAME_EXTRAS = {
     "look": "Corners are not all stacked with the same team.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Cornerball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Carrier pivots — no running with the ball."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Looks for a teammate before a score."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1281,12 +2097,32 @@ window.GAME_EXTRAS = {
     "look": "Wrists get a break. No collapsing on a teammate.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Crab Football for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Hips up for a short bout."
       },
       {
-        "code": "Movement · send, receive, retain",
-        "look": "Sport ball only."
+        "code": "Movement Tactics and Strategies",
+        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1305,16 +2141,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Crazy Ball Soccer for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Uses the inside of the foot or a taught kick; looks up before sending."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Moves to space after a pass; does not crowd the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "No slide tackles; foam or school soccer ball as listed."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1337,12 +2189,32 @@ window.GAME_EXTRAS = {
     "look": "Ball-carriers are pivoting. Defenders do not contact.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in End Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Carrier pivots — no running with the ball."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Looks for a teammate before a score."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1361,16 +2233,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in End Wall Soccer for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Uses the inside of the foot or a taught kick; looks up before sending."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Moves to space after a pass; does not crowd the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "No slide tackles; foam or school soccer ball as listed."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1392,12 +2280,32 @@ window.GAME_EXTRAS = {
     "look": "Receivers are cutting to space, not clustering.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in End Zone Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Carrier pivots — no running with the ball."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Looks for a teammate before a score."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1421,12 +2329,32 @@ window.GAME_EXTRAS = {
     "look": "Jails are not empty of rescuers. Flags are carried, not thrown.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Four Corner Flags for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "One object or one rescue at a time."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Walks a jailed teammate home."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1451,12 +2379,32 @@ window.GAME_EXTRAS = {
     "look": "Spots stay put. No diving onto a hoop.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Fruit Salad for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Finds a group or a spot without diving."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Leftovers stay in — they join the teacher or the next round."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1478,12 +2426,32 @@ window.GAME_EXTRAS = {
     "look": "Sticks stay below the knee. Extra people are not crowding the ball.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Go for Goal for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Ball stays close; trap or dribble under control."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "One ball at a time; looks before sending."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1505,12 +2473,32 @@ window.GAME_EXTRAS = {
     "look": "Defenders are side-on, not diving.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Guard the Gates for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Ball stays close; trap or dribble under control."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "One ball at a time; looks before sending."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1531,12 +2519,32 @@ window.GAME_EXTRAS = {
     "look": "Jails have a line. Bags are carried.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Heist the Treasure for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "One object or one rescue at a time."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Walks a jailed teammate home."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1555,16 +2563,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Home Alone for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Uses space: spread out, fake, or change speed to get past a defender."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Honest tags; no puppy-guarding a flag or hoop."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "Two-finger or noodle tag; jail is a short wait, then a way home."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1586,12 +2610,32 @@ window.GAME_EXTRAS = {
     "look": "Players are choosing a send, not wrestling the ball.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Hurley Burley for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Chooses kick, bounce, or throw."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "A tip means pass at once."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1613,12 +2657,32 @@ window.GAME_EXTRAS = {
     "look": "Only the called numbers are in the middle.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Numbers Hockey for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Ball stays close; trap or dribble under control."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "One ball at a time; looks before sending."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1637,16 +2701,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Pin Galore Soccer for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Uses the inside of the foot or a taught kick; looks up before sending."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Moves to space after a pass; does not crowd the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "No slide tackles; foam or school soccer ball as listed."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1665,12 +2745,32 @@ window.GAME_EXTRAS = {
     "look": "No body-check on the king.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Protect the King for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Passes before the shot."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "Throws stay low."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1692,12 +2792,32 @@ window.GAME_EXTRAS = {
     "look": "No diving at ankles. The ball stays in the gym, not in the rafters.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Reverse Soccer for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Ball stays close; trap or dribble under control."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "One ball at a time; looks before sending."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1720,12 +2840,32 @@ window.GAME_EXTRAS = {
     "look": "Nests are not guarded by a wall of bodies.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Rob the Nest (dribble) for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Ball stays close; trap or dribble under control."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "One ball at a time; looks before sending."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1744,16 +2884,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Sideline Soccer for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Uses the inside of the foot or a taught kick; looks up before sending."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Moves to space after a pass; does not crowd the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "No slide tackles; foam or school soccer ball as listed."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1772,16 +2928,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Slappers! for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Uses the inside of the foot or a taught kick; looks up before sending."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Moves to space after a pass; does not crowd the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "No slide tackles; foam or school soccer ball as listed."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1800,12 +2972,32 @@ window.GAME_EXTRAS = {
     "look": "No dive on the ball.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Steal the Bacon for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Reacts on the number."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "Tags the carrier, does not grab clothes."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1827,12 +3019,32 @@ window.GAME_EXTRAS = {
     "look": "Stones stay on the floor unless they are being carried.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Stones for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "No sliding a piece into a person."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "One object per trip."
       },
       {
-        "code": "Movement · spatial awareness",
-        "look": "No sliding a piece into a person."
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1854,12 +3066,32 @@ window.GAME_EXTRAS = {
     "look": "Spots stay on the floor.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Switch for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Finds a group or a spot without diving."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Leftovers stay in — they join the teacher or the next round."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1881,12 +3113,32 @@ window.GAME_EXTRAS = {
     "look": "Pinnies come off without a shirt grab.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Team Tag for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "A tag is a short skill, then back in."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
       },
       {
         "code": "Safety",
         "look": "Soft tag."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1909,12 +3161,32 @@ window.GAME_EXTRAS = {
     "look": "The class is counting. Nobody is taking a blast first.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in The Perfect Pass for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Carrier pivots — no running with the ball."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Looks for a teammate before a score."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1935,12 +3207,32 @@ window.GAME_EXTRAS = {
     "look": "Traps stay near the body. Gates are not knocked over on purpose.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Through the Gates for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Ball stays close; trap or dribble under control."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "One ball at a time; looks before sending."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1962,12 +3254,32 @@ window.GAME_EXTRAS = {
     "look": "Balls stay within a metre on yellow/red.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Traffic Lights (kick) for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -1989,12 +3301,32 @@ window.GAME_EXTRAS = {
     "look": "The wall is a line, not a charge.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Wall Soccer for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Ball stays close; trap or dribble under control."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "One ball at a time; looks before sending."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest score and honest tags; tries again after a miss."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
     ]
   },
@@ -2017,12 +3349,32 @@ window.GAME_EXTRAS = {
     "look": "Players do not cross the centre. Pins are not used as bats.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Battleships for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Underhand or below-shoulder send to a target."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Fetchers are not in the throwing lane."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2044,12 +3396,32 @@ window.GAME_EXTRAS = {
     "look": "The throwing lane is empty.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Bucket Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Underhand or below-shoulder send to a target."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Fetchers are not in the throwing lane."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2071,12 +3443,32 @@ window.GAME_EXTRAS = {
     "look": "Cards are on the floor or in hands — not being thrown.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Card Sharks for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Crosses on the call, not after a wait."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Tagged player re-enters next wave — no last-one-standing."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2098,8 +3490,28 @@ window.GAME_EXTRAS = {
     "look": "One throw at a time. Fielders are not colliding.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in FLY BACK for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Catch, then throw — call it."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
+      },
+      {
+        "code": "Safety",
+        "look": "Sends toward the target, not a face. Walks to collect. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -2125,8 +3537,28 @@ window.GAME_EXTRAS = {
     "look": "No one is downfield in the throwing lane.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Flying Saucers for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Catch, then throw — call it."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
+      },
+      {
+        "code": "Safety",
+        "look": "Sends toward the target, not a face. Walks to collect. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -2152,8 +3584,28 @@ window.GAME_EXTRAS = {
     "look": "Discs are not whipped at faces.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Frisbee Flingers for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Catch, then throw — call it."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
+      },
+      {
+        "code": "Safety",
+        "look": "Sends toward the target, not a face. Walks to collect. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -2176,12 +3628,32 @@ window.GAME_EXTRAS = {
     "look": "Circle stays linked.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Guard the Cone for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends to a target with a taught force (roll, underhand, bounce, or kick)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Passes to an opening."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Does not charge the defenders."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2200,12 +3672,32 @@ window.GAME_EXTRAS = {
     "look": "No high stick.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Hockey pin knockdown for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "One controlled push at the pin."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Stick stays low."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2224,12 +3716,32 @@ window.GAME_EXTRAS = {
     "look": "Heads are not targets.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Low-ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends below the waist."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Re-enters after the stretch."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2248,8 +3760,28 @@ window.GAME_EXTRAS = {
     "look": "One ball in the air.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Overarm throw-and-catch for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Catcher is ready; thrower steps."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
+      },
+      {
+        "code": "Safety",
+        "look": "Sends toward the target, not a face. Walks to collect. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -2276,12 +3808,32 @@ window.GAME_EXTRAS = {
     "look": "Balls stay low. Nobody is waiting on a bench.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Poison Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Dodgeballs."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
+      },
+      {
         "code": "Safety",
         "look": "Hits stay low; a hit is a stretch, then back in."
       },
       {
-        "code": "Movement · send, receive, retain",
-        "look": "Dodgeballs."
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2303,12 +3855,32 @@ window.GAME_EXTRAS = {
     "look": "Defenders are in an athletic stance, not a rugby pile.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Protect the Castle for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Underhand or below-shoulder send to a target."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Fetchers are not in the throwing lane."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2327,12 +3899,32 @@ window.GAME_EXTRAS = {
     "look": "Uses the real sport ball.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Punt to the line for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Drops and kicks before a bounce, or places it."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Kicks away from other lanes."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2354,12 +3946,32 @@ window.GAME_EXTRAS = {
     "look": "Nests are open. Eggs travel one at a time.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Robin’s Nest for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Ball stays close; trap or dribble under control."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "One ball at a time; looks before sending."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
+      },
+      {
+        "code": "Safety",
+        "look": "Sends toward the target, not a face. Walks to collect. Freeze on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2380,12 +3992,32 @@ window.GAME_EXTRAS = {
     "look": "No one is standing among flying balls.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Skittle Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Underhand or below-shoulder send to a target."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Fetchers are not in the throwing lane."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2407,12 +4039,32 @@ window.GAME_EXTRAS = {
     "look": "Pins stand again quickly. Throws stay low.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Skittles for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Underhand or below-shoulder send to a target."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Fetchers are not in the throwing lane."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2434,12 +4086,32 @@ window.GAME_EXTRAS = {
     "look": "Bags stay on the floor. Jails empty with catches.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Slide Sling Save for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Dodgeballs stay below the waist; a catch is a save."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
+      },
+      {
         "code": "Safety",
         "look": "Hits stay low; a hit is a stretch, then back in."
       },
       {
-        "code": "Movement · send, receive, retain",
-        "look": "Dodgeballs stay below the waist; a catch is a save."
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2460,12 +4132,32 @@ window.GAME_EXTRAS = {
     "look": "The gym stays full of movers.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Survivor Dodgeball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Dodgeballs."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
+      },
+      {
         "code": "Safety",
         "look": "Hits stay low; a hit is a stretch, then back in."
       },
       {
-        "code": "Movement · send, receive, retain",
-        "look": "Dodgeballs."
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2487,12 +4179,32 @@ window.GAME_EXTRAS = {
     "look": "Both teams stay behind the line until the whistle.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Team Bowling for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Underhand or below-shoulder send to a target."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Fetchers are not in the throwing lane."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2514,12 +4226,32 @@ window.GAME_EXTRAS = {
     "look": "Throws are underhand. Fetchers are not hit.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Tidy the Bedroom for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sends stay below the waist."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Hands up on the whistle."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2538,12 +4270,32 @@ window.GAME_EXTRAS = {
     "look": "One attempt per turn.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Tunnel kick knockdown for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Plant foot beside the ball."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits a turn; collects on the call so the next player can send."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records or resets honestly; a miss is another try."
       },
       {
         "code": "Safety",
         "look": "Fetchers stay out of the lane."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
     ]
   },
@@ -2565,12 +4317,32 @@ window.GAME_EXTRAS = {
     "look": "Serves stay below the shoulders.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Aces for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Strikes or kicks to a space; ready hands or feet on a catch or stop."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Can say start, score, and safety."
       },
       {
-        "code": "Character",
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
         "look": "Teaches those three things in a short turn."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2592,12 +4364,32 @@ window.GAME_EXTRAS = {
     "look": "Names are called before the throw, not after.",
     "outcomes": [
       {
-        "code": "Healthy Relationships",
-        "look": "Calls a name before the catch."
+        "code": "Active Living",
+        "look": "Stays in Barkball for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Movement Skill Development",
         "look": "3-second hold, then pass."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Knows when to run, hold, or send to a base or hoop."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls a name before the catch."
       }
     ]
   },
@@ -2619,12 +4411,32 @@ window.GAME_EXTRAS = {
     "look": "Throws are to a person at a base, not a race of kids chasing one runner.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Beat Ball / Beat the Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Everyone gets a kick or hit."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Ball goes to a base or hoop, not at the runner."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2643,16 +4455,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Bombardment for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Strikes or kicks to a space; ready hands on a catch."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Knows when to run and when to hold."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
       },
       {
         "code": "Safety",
         "look": "Looks up after contact; throws at a runner stay low."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2674,16 +4502,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Castleball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Strikes or kicks to a space; ready hands on a catch."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Knows when to run and when to hold."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
       },
       {
         "code": "Safety",
         "look": "Looks up after contact; throws at a runner stay low."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2702,16 +4546,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Catch & Step for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Strikes or kicks to a space; ready hands on a catch."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Knows when to run and when to hold."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
       },
       {
         "code": "Safety",
         "look": "Looks up after contact; throws at a runner stay low."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2733,12 +4593,32 @@ window.GAME_EXTRAS = {
     "look": "The thrower is a still cone — people run around, not through.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Chuck the Chicken for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Everyone gets a throw or kick."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Fielding team passes to stop the count."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2761,12 +4641,32 @@ window.GAME_EXTRAS = {
     "look": "The next kicker is ready. Ball goes to a hoop, not a body.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Continuous Kick Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Everyone gets a kick or hit."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Ball goes to a base or hoop, not at the runner."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2788,12 +4688,32 @@ window.GAME_EXTRAS = {
     "look": "All four runners leave on contact.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Diamond Strike for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Everyone gets a kick or hit."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Ball goes to a base or hoop, not at the runner."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2815,12 +4735,32 @@ window.GAME_EXTRAS = {
     "look": "Path is clear. Bat is in a hoop.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Hit and Run for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Everyone gets a kick or hit."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Ball goes to a base or hoop, not at the runner."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2842,12 +4782,32 @@ window.GAME_EXTRAS = {
     "look": "The longest-waiting player leaves first.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Jailbreakers for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Strikes or kicks to a space; ready hands or feet on a catch or stop."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "One object or one rescue at a time."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Walks a jailed teammate home."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2869,12 +4829,32 @@ window.GAME_EXTRAS = {
     "look": "Ball is in two hands at the tag.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Kick It (mats) for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Everyone gets a kick or hit."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Ball goes to a base or hoop, not at the runner."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2893,16 +4873,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Longball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Strikes or kicks to a space; ready hands on a catch."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Knows when to run and when to hold."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
       },
       {
         "code": "Safety",
         "look": "Looks up after contact; throws at a runner stay low."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2923,12 +4919,32 @@ window.GAME_EXTRAS = {
     "look": "One hitter at a time. Bat is down before they run.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Quick Baseball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Everyone gets a kick or hit."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Ball goes to a base or hoop, not at the runner."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2950,12 +4966,32 @@ window.GAME_EXTRAS = {
     "look": "Games last 5 seconds. Nobody is waiting in a long line.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in RPS Rounders for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Strikes or kicks to a space; ready hands or feet on a catch or stop."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "One throw and go — no long stalls."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Loser does a skill and finds a new game."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
+        "code": "Safety",
+        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -2974,16 +5010,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Shark Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Strikes or kicks to a space; ready hands on a catch."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Knows when to run and when to hold."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
       },
       {
         "code": "Safety",
         "look": "Looks up after contact; throws at a runner stay low."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -3002,16 +5054,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Strikeball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Strikes or kicks to a space; ready hands on a catch."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "Knows when to run and when to hold."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
       },
       {
         "code": "Safety",
         "look": "Looks up after contact; throws at a runner stay low."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -3033,12 +5101,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone hits. Defence stays in their row.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Thunderball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Sends the ball through a row, not at a person."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Knows when to run, hold, or send to a base or hoop."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest out or safe; no arguing a force."
+      },
+      {
         "code": "Safety",
         "look": "Hitters wait behind the line; no full bats indoors."
       },
       {
-        "code": "Movement · send, receive, retain",
-        "look": "Sends the ball through a row, not at a person."
+        "code": "Healthy Relationships",
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
     ]
   },
@@ -3060,12 +5148,32 @@ window.GAME_EXTRAS = {
     "look": "Two teams are not on the same base path.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Around the Bases Relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Waits behind the line for the tag."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Hands off — does not throw at a teammate."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3087,12 +5195,32 @@ window.GAME_EXTRAS = {
     "look": "False starts come back without an argument.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Attention Relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Waits behind the line for the tag."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Hands off — does not throw at a teammate."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3115,8 +5243,28 @@ window.GAME_EXTRAS = {
         "look": "Keeps a pace they can finish."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Skill Development",
+        "look": "Repeats the named locomotor or send with control to the line and back."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Tags the next runner, not a shortcut."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3138,12 +5286,32 @@ window.GAME_EXTRAS = {
     "look": "Stacks are built, not thrown.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Cone Relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Waits behind the line for the tag."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Hands off — does not throw at a teammate."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3162,12 +5330,32 @@ window.GAME_EXTRAS = {
     "look": "Short bouts.",
     "outcomes": [
       {
-        "code": "Movement · shapes and balance",
+        "code": "Active Living",
+        "look": "Stays in Crab-bear walk relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Hips stay off the floor on the crab."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
       },
       {
         "code": "Safety",
         "look": "Stops when wrists complain."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3189,12 +5377,32 @@ window.GAME_EXTRAS = {
     "look": "Eyes up. Next runner is ready.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Dash and Dribble for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Ball stays close; trap or dribble under control."
       },
       {
-        "code": "Movement · tactics",
+        "code": "Movement Tactics and Strategies",
         "look": "One ball at a time; looks before sending."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3213,12 +5421,32 @@ window.GAME_EXTRAS = {
     "look": "Ball below the waist.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Dribble the gates for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Pads, not a slap."
       },
       {
-        "code": "Movement · spatial awareness",
-        "look": "Looks up between bounces."
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3237,12 +5465,32 @@ window.GAME_EXTRAS = {
     "look": "Stick below the knee.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Hockey hurdle dribble for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Small touches through the gates."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
         "code": "Safety",
         "look": "Blade stays on the floor."
       },
       {
-        "code": "Movement · send, receive, retain",
-        "look": "Small touches through the gates."
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3261,12 +5509,32 @@ window.GAME_EXTRAS = {
     "look": "Throws from behind the line.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Hoop underhand relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Steps toward the hoop."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
       },
       {
         "code": "Safety",
         "look": "Waits behind the line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3285,12 +5553,32 @@ window.GAME_EXTRAS = {
     "look": "One jumper in the line.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Hop-the-hoops relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Hops and sticks inside the hoop."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
       },
       {
         "code": "Safety",
         "look": "Does not kick a hoop into the next jumper."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3312,12 +5600,32 @@ window.GAME_EXTRAS = {
     "look": "No whip. Hands are on a waistband or hoop, not a neck.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Hungry Snake for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "The chain splits before it gets unsafe."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Holds on without yanking."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3336,16 +5644,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Healthy Relationships",
-        "look": "Uses names and kind words; waits a turn without grabbing."
+        "code": "Active Living",
+        "look": "Stays in Ice Cream Cone Relays for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Repeats the named locomotor or send with control to the line and back."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "The group finishes the task together."
       },
       {
         "code": "Character Development",
         "look": "Restarts a drop without blaming a classmate."
       },
       {
-        "code": "Movement · fair play and teamwork",
-        "look": "The group finishes the task together."
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without grabbing."
       }
     ]
   },
@@ -3367,12 +5691,32 @@ window.GAME_EXTRAS = {
     "look": "The next runner is behind a start cone.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Jungle Run Relays for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Waits behind the line for the tag."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Hands off — does not throw at a teammate."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3394,12 +5738,32 @@ window.GAME_EXTRAS = {
     "look": "Only one runner is at the sequence at a time.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Memory Relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Waits behind the line for the tag."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Hands off — does not throw at a teammate."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3421,12 +5785,32 @@ window.GAME_EXTRAS = {
     "look": "The circle stays a circle. Chasers go one way.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Pip, Squeak and Wilbur for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Matches the send to the object."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
       },
       {
         "code": "Safety",
         "look": "Moves on the call, not before."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3448,12 +5832,32 @@ window.GAME_EXTRAS = {
     "look": "Next runner waits behind a cone, not on the path.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Plant the Trees for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Finds a group or a spot without diving."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Leftovers stay in — they join the teacher or the next round."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3475,12 +5879,32 @@ window.GAME_EXTRAS = {
     "look": "Joins are at the hand or hoop, not a drag.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Rescue Relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Waits behind the line for the tag."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Hands off — does not throw at a teammate."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3499,12 +5923,32 @@ window.GAME_EXTRAS = {
     "look": "Ball stays close.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Soccer weave relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Keeps the ball in the lane."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
       },
       {
         "code": "Safety",
         "look": "No slide tackles."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3526,12 +5970,32 @@ window.GAME_EXTRAS = {
     "look": "Lanes are straight. Tags happen behind the line.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Speed Run Relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Waits behind the line for the tag."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Hands off — does not throw at a teammate."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3550,12 +6014,32 @@ window.GAME_EXTRAS = {
     "look": "Catches before the next toss.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Throw-clap-catch relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Watches the ball into the hands."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
       },
       {
         "code": "Safety",
         "look": "Stays in the lane."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3574,12 +6058,32 @@ window.GAME_EXTRAS = {
     "look": "Ball stays in the hoop.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Toe-tap hoop relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Sole stays on the ball for the taps."
       },
       {
-        "code": "Character",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
         "look": "Finishes the taps before running."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3598,12 +6102,32 @@ window.GAME_EXTRAS = {
     "look": "Hands ready.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Wall chest-pass relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Steps and pushes from the chest."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Waits behind the line; tags the next runner kindly."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
       },
       {
         "code": "Safety",
         "look": "One team per wall panel."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3622,12 +6146,32 @@ window.GAME_EXTRAS = {
     "look": "Pass on the right.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Zig-zag touch relay for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes direction without cutting the cones."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Waits for the high-five."
+      },
+      {
+        "code": "Character Development",
+        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+      },
+      {
+        "code": "Safety",
+        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Encourages the next runner; does not shame a drop."
       }
     ]
   },
@@ -3649,12 +6193,32 @@ window.GAME_EXTRAS = {
     "look": "Equipment is in hoops, not scattered.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Back to Base for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Performs the named locomotor, freeze, or shape on the signal."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Back to Base, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Last group leads a stretch — not out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Returns to the home hoop on the whistle."
       },
       {
-        "code": "Movement · fair play and teamwork",
-        "look": "Last group leads a stretch — not out."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3676,12 +6240,32 @@ window.GAME_EXTRAS = {
     "look": "No whip-cracks of a long line.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Buffalo for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "The chain splits before it gets unsafe."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Buffalo, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Holds on without yanking."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3704,12 +6288,32 @@ window.GAME_EXTRAS = {
     "look": "The whole class commits to the same wall. No sliding into the wall.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Captain’s Deck / Shipwreck for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Captain’s Deck / Shipwreck, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3729,12 +6333,32 @@ window.GAME_EXTRAS = {
     "look": "The class matches the same locomotor. Frozen beans are actually still.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Crazy Beans for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Crazy Beans, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3756,12 +6380,32 @@ window.GAME_EXTRAS = {
     "look": "The centre empties on the call — no camping.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Dash for Safety for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Crosses on the call, not after a wait."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Dash for Safety, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
       },
       {
         "code": "Safety",
         "look": "Tagged player re-enters next wave — no last-one-standing."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3783,12 +6427,32 @@ window.GAME_EXTRAS = {
     "look": "Freezes are still. No sneak-crawling into a tagger.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Daytime / Nighttime for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Daytime / Nighttime, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3807,12 +6471,32 @@ window.GAME_EXTRAS = {
     "look": "No push at the wall.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Elements Sprint for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Changes direction on the call."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Elements Sprint, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
       },
       {
         "code": "Safety",
         "look": "Stops with hands up."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3834,12 +6518,32 @@ window.GAME_EXTRAS = {
     "look": "The class is together on the beat, not racing.",
     "outcomes": [
       {
-        "code": "Movement · run, jump, throw",
+        "code": "Active Living",
+        "look": "Stays in European Rhythmic Running for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Jumps or steps the rope; quiet land."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In European Rhythmic Running, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
       },
       {
         "code": "Safety",
         "look": "Rope stays low; no whipping."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3861,12 +6565,32 @@ window.GAME_EXTRAS = {
     "look": "New leaders are changing the movement, not just jogging.",
     "outcomes": [
       {
-        "code": "Movement · rhythm and sequence",
+        "code": "Active Living",
+        "look": "Stays in Follow the Leader for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Matches the beat or the leader."
       },
       {
-        "code": "Movement · shapes and balance",
-        "look": "Still on the freeze."
+        "code": "Movement Tactics and Strategies",
+        "look": "In Follow the Leader, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3885,12 +6609,32 @@ window.GAME_EXTRAS = {
     "look": "Nobody is out.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Four Corners Stay-In for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Gets to a corner before the count ends."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Four Corners Stay-In, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Does the skill and stays in."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3915,12 +6659,32 @@ window.GAME_EXTRAS = {
     "look": "No one is left standing alone for more than a second.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Group Numbers for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Finds a group or a spot without diving."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Group Numbers, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Leftovers stay in — they join the teacher or the next round."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3940,12 +6704,32 @@ window.GAME_EXTRAS = {
     "look": "Students look where they are going, not at the floor.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Here, There, Everywhere for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Here, There, Everywhere, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3967,12 +6751,32 @@ window.GAME_EXTRAS = {
     "look": "The class is listening more than they are talking.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Human Bop-It for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Human Bop-It, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -3994,12 +6798,32 @@ window.GAME_EXTRAS = {
     "look": "Two-foot jumps. No pushing on the line.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Land and Sea for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Land and Sea, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -4021,12 +6845,32 @@ window.GAME_EXTRAS = {
     "look": "The class freezes on the first whistle.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Laps and Lines / Signals for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Laps and Lines / Signals, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -4048,12 +6892,32 @@ window.GAME_EXTRAS = {
     "look": "Touches are light and brief.",
     "outcomes": [
       {
-        "code": "Movement · shapes and balance",
+        "code": "Active Living",
+        "look": "Stays in Rikki Tikki for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Matches the called body parts."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Rikki Tikki, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "A student may show space instead of a touch."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -4075,12 +6939,32 @@ window.GAME_EXTRAS = {
     "look": "Arms are soft. Nobody is being pulled off their feet.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Rubber Band for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Finds a group or a spot without diving."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Rubber Band, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Leftovers stay in — they join the teacher or the next round."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -4102,12 +6986,32 @@ window.GAME_EXTRAS = {
     "look": "Shapes are tight. Travel stops on the signal.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Signals / shapes for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Signals / shapes, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -4129,12 +7033,32 @@ window.GAME_EXTRAS = {
     "look": "The freeze is actually still.",
     "outcomes": [
       {
-        "code": "Movement · rhythm and sequence",
+        "code": "Active Living",
+        "look": "Stays in Silly Bananas for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Matches the beat or the leader."
       },
       {
-        "code": "Movement · shapes and balance",
-        "look": "Still on the freeze."
+        "code": "Movement Tactics and Strategies",
+        "look": "In Silly Bananas, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -4153,12 +7077,32 @@ window.GAME_EXTRAS = {
     "look": "Nobody sits on the side.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Simon Says Stay-In for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named skill."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Simon Says Stay-In, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Starts and stops on the phrase."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named skill."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -4180,12 +7124,32 @@ window.GAME_EXTRAS = {
     "look": "Pause really pauses.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Video Game for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Shows the named locomotor or shape."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "In Video Game, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Listens with the group; leftover players join the teacher — they are never out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
         "code": "Safety",
         "look": "Changes movement on the first signal."
       },
       {
-        "code": "Movement · locomotor",
-        "look": "Shows the named locomotor or shape."
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -4208,12 +7172,32 @@ window.GAME_EXTRAS = {
     "look": "Cones are flipped, not thrown. Even work across the gym.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Volcanoes and Ice-Cream Cones for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Finds a group or a spot without diving."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "In Volcanoes and Ice-Cream Cones, uses space or a pathway instead of a pile-up."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Leftovers stay in — they join the teacher or the next round."
+      },
+      {
+        "code": "Character Development",
+        "look": "Freezes honestly on the signal even if it is fun to keep running."
+      },
+      {
+        "code": "Safety",
+        "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
     ]
   },
@@ -4237,8 +7221,28 @@ window.GAME_EXTRAS = {
     "look": "Players make space after they touch.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Balloon Keep-Up for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Catch, then throw — call it."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes turns and solves a small problem without grabbing."
+      },
+      {
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
+      },
+      {
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
       },
       {
         "code": "Healthy Relationships",
@@ -4261,12 +7265,32 @@ window.GAME_EXTRAS = {
     "look": "No talking, no dragging.",
     "outcomes": [
       {
-        "code": "Healthy Relationships",
-        "look": "Uses gestures, not a shove."
+        "code": "Active Living",
+        "look": "Stays in Birthday Lineup for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
-        "code": "Character",
+        "code": "Movement Skill Development",
+        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes turns and solves a small problem without grabbing."
+      },
+      {
+        "code": "Character Development",
         "look": "Stays silent through the check."
+      },
+      {
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses gestures, not a shove."
       }
     ]
   },
@@ -4285,12 +7309,32 @@ window.GAME_EXTRAS = {
     "look": "No one person lifts it alone.",
     "outcomes": [
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Active Living",
+        "look": "Stays in Bucket Carry for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "All hands stay on the hoop."
+      },
+      {
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
       },
       {
         "code": "Safety",
         "look": "Walks; light load."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4309,12 +7353,32 @@ window.GAME_EXTRAS = {
     "look": "No pulling a fallen classmate.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Caterpillar Walk for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Matches the line’s speed."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Rejoins after a break."
+      },
+      {
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
+      },
+      {
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4335,12 +7399,32 @@ window.GAME_EXTRAS = {
     "look": "A break is a freeze, not a fail.",
     "outcomes": [
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Active Living",
+        "look": "Stays in Circle Hoop Pass for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Moves the hoop without a yank."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Keeps the chain unless they need to leave."
       },
       {
-        "code": "Movement · shapes and balance",
-        "look": "Moves the hoop without a yank."
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
+      },
+      {
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4359,16 +7443,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Healthy Relationships",
-        "look": "Uses names and kind words; waits a turn without grabbing."
+        "code": "Active Living",
+        "look": "Stays in Cooperative Wall Ball for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "The group finishes the task together."
       },
       {
         "code": "Character Development",
         "look": "Restarts a drop without blaming a classmate."
       },
       {
-        "code": "Movement · fair play and teamwork",
-        "look": "The group finishes the task together."
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without grabbing."
       }
     ]
   },
@@ -4387,12 +7487,32 @@ window.GAME_EXTRAS = {
     "look": "No stacking people.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Cross the River for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Plans where the empty hoop goes."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Personal and Social Development",
         "look": "Waits for a teammate before moving."
+      },
+      {
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
+      },
+      {
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4415,12 +7535,32 @@ window.GAME_EXTRAS = {
     "look": "Both teams show at the same time. No late changes.",
     "outcomes": [
       {
+        "code": "Active Living",
+        "look": "Stays in Elves, Giants, Wizards for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Tagged player re-enters or switches — nobody sits out."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes turns and solves a small problem without grabbing."
+      },
+      {
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
+      },
+      {
         "code": "Safety",
         "look": "Moves only when their name or shape wins."
       },
       {
-        "code": "Movement · spatial awareness",
-        "look": "Tagged player re-enters or switches — nobody sits out."
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4442,12 +7582,32 @@ window.GAME_EXTRAS = {
     "look": "Heads are up. The rope is not whipped.",
     "outcomes": [
       {
-        "code": "Movement · run, jump, throw",
+        "code": "Active Living",
+        "look": "Stays in Helicopter / Snake rope for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Jumps or steps the rope; quiet land."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes turns and solves a small problem without grabbing."
+      },
+      {
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
       },
       {
         "code": "Safety",
         "look": "Rope stays low; no whipping."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4466,12 +7626,32 @@ window.GAME_EXTRAS = {
     "look": "Wrists stay comfortable.",
     "outcomes": [
       {
-        "code": "Healthy Relationships",
-        "look": "Stops when someone says no."
+        "code": "Active Living",
+        "look": "Stays in Human Knot for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
-        "code": "Character",
+        "code": "Movement Skill Development",
+        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes turns and solves a small problem without grabbing."
+      },
+      {
+        "code": "Character Development",
         "look": "Tries a second plan after a stuck moment."
+      },
+      {
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Stops when someone says no."
       }
     ]
   },
@@ -4492,12 +7672,32 @@ window.GAME_EXTRAS = {
     "look": "Every group can say the three sentences.",
     "outcomes": [
       {
-        "code": "Movement · tactics",
+        "code": "Active Living",
+        "look": "Stays in Invent-a-game for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
         "look": "Can say start, score, and safety in three sentences."
       },
       {
-        "code": "Character",
+        "code": "Personal and Social Development",
+        "look": "Takes turns and solves a small problem without grabbing."
+      },
+      {
+        "code": "Character Development",
         "look": "Teaches those three things to another group in a short turn."
+      },
+      {
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4519,12 +7719,32 @@ window.GAME_EXTRAS = {
     "look": "Objects are not all in one corner.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Object Toss mixer for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Matches the send to the object."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes turns and solves a small problem without grabbing."
+      },
+      {
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
       },
       {
         "code": "Safety",
         "look": "Moves on the call, not before."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4547,12 +7767,32 @@ window.GAME_EXTRAS = {
     "look": "The chute stays round. Nobody is pulled off their feet.",
     "outcomes": [
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Active Living",
+        "look": "Stays in Parachute popcorn / dome / cat-and-mouse for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Matches force with the group."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "The chute stays round; nobody lets go to chase."
       },
       {
-        "code": "Movement · shapes and balance",
-        "look": "Matches force with the group."
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
+      },
+      {
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4571,16 +7811,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Healthy Relationships",
-        "look": "Uses names and kind words; waits a turn without grabbing."
+        "code": "Active Living",
+        "look": "Stays in Pass It On for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "The group finishes the task together."
       },
       {
         "code": "Character Development",
         "look": "Restarts a drop without blaming a classmate."
       },
       {
-        "code": "Movement · fair play and teamwork",
-        "look": "The group finishes the task together."
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without grabbing."
       }
     ]
   },
@@ -4599,12 +7855,32 @@ window.GAME_EXTRAS = {
     "look": "Quiet line.",
     "outcomes": [
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Active Living",
+        "look": "Stays in Pulse Race for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Waits for the squeeze."
       },
       {
-        "code": "Character",
+        "code": "Character Development",
         "look": "Resets after a false start."
+      },
+      {
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4626,12 +7902,32 @@ window.GAME_EXTRAS = {
     "look": "Heads are not under a collapsing chute. Knees are down on the edge.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Sharks and Dolphins (chute) for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Crosses on the call, not after a wait."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes turns and solves a small problem without grabbing."
+      },
+      {
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
       },
       {
         "code": "Safety",
         "look": "Tagged player re-enters next wave — no last-one-standing."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4653,12 +7949,32 @@ window.GAME_EXTRAS = {
     "look": "Ropes are low. Turners are on their knees or standing with slack.",
     "outcomes": [
       {
-        "code": "Movement · run, jump, throw",
+        "code": "Active Living",
+        "look": "Stays in Slippery Snakes for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Jumps or steps the rope; quiet land."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes turns and solves a small problem without grabbing."
+      },
+      {
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
       },
       {
         "code": "Safety",
         "look": "Rope stays low; no whipping."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
     ]
   },
@@ -4677,16 +7993,32 @@ window.GAME_EXTRAS = {
     "look": "Everyone is moving or has a role. Nobody sits the period.",
     "outcomes": [
       {
-        "code": "Healthy Relationships",
-        "look": "Uses names and kind words; waits a turn without grabbing."
+        "code": "Active Living",
+        "look": "Stays in The Great Outdoor Treasure Hunt for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "The group finishes the task together."
       },
       {
         "code": "Character Development",
         "look": "Restarts a drop without blaming a classmate."
       },
       {
-        "code": "Movement · fair play and teamwork",
-        "look": "The group finishes the task together."
+        "code": "Safety",
+        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Uses names and kind words; waits a turn without grabbing."
       }
     ]
   },
@@ -4705,12 +8037,32 @@ window.GAME_EXTRAS = {
     "look": "Caller never leaves the perimeter.",
     "outcomes": [
       {
-        "code": "Healthy Relationships",
-        "look": "Gives short, kind directions."
+        "code": "Active Living",
+        "look": "Stays in Voice Path for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Plans a simple order or role with teammates before rushing."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes turns and solves a small problem without grabbing."
+      },
+      {
+        "code": "Character Development",
+        "look": "Restarts a drop without blaming a classmate."
       },
       {
         "code": "Safety",
         "look": "No run; consent for eyes-closed."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Gives short, kind directions."
       }
     ]
   },
@@ -4733,12 +8085,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -4757,12 +8125,32 @@ window.GAME_EXTRAS = {
     "look": "No running with the bag on the head.",
     "outcomes": [
       {
-        "code": "Movement · shapes and balance",
+        "code": "Active Living",
+        "look": "Stays in Beanbag head walk for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Head still; arms wide."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Walks, does not run."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -4784,12 +8172,32 @@ window.GAME_EXTRAS = {
     "look": "Bags are not thrown at people.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Body-part beanbags for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Matches the send to the object."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Moves on the call, not before."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -4812,12 +8220,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -4840,12 +8264,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -4864,12 +8304,32 @@ window.GAME_EXTRAS = {
     "look": "One walker.",
     "outcomes": [
       {
-        "code": "Movement · shapes and balance",
+        "code": "Active Living",
+        "look": "Stays in Floor rope walk for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Walks the line and sticks the step-off."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Waits for the line to be free."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -4891,12 +8351,32 @@ window.GAME_EXTRAS = {
     "look": "Quiet landings. One frog per hoop at a time.",
     "outcomes": [
       {
-        "code": "Movement · shapes and balance",
+        "code": "Active Living",
+        "look": "Stays in Frogs on the Lily Pads for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Jump-stick or a still shape for 3 seconds."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "One at a time on a hoop or mat."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -4919,12 +8399,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -4947,12 +8443,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -4975,12 +8487,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5003,12 +8531,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5027,12 +8571,32 @@ window.GAME_EXTRAS = {
     "look": "Soft ball only.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Knee-ball jumps for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Jumps and sticks with the ball held."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landing."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5054,12 +8618,32 @@ window.GAME_EXTRAS = {
     "look": "The number is readable from the balcony.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Magic Numbers for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Finds a group or a spot without diving."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Leftovers stay in — they join the teacher or the next round."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft landings, space to jump, freeze on the signal. No comparing scores aloud."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5080,12 +8664,32 @@ window.GAME_EXTRAS = {
     "look": "The class is planning for 10 seconds before they rush.",
     "outcomes": [
       {
-        "code": "Movement · spatial awareness",
+        "code": "Active Living",
+        "look": "Stays in Mass Challenges for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Finds a group or a spot without diving."
       },
       {
-        "code": "Movement · fair play and teamwork",
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
         "look": "Leftovers stay in — they join the teacher or the next round."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
+      },
+      {
+        "code": "Safety",
+        "look": "Soft landings, space to jump, freeze on the signal. No comparing scores aloud."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5108,12 +8712,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5136,12 +8756,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5164,12 +8800,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5192,12 +8844,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5216,12 +8884,32 @@ window.GAME_EXTRAS = {
     "look": "No swing at people.",
     "outcomes": [
       {
-        "code": "Movement · send, receive, retain",
+        "code": "Active Living",
+        "look": "Stays in Racquet waiter for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Keeps the bag on the racquet to the cone."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Tosses at the hoop, not a person."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5244,12 +8932,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5272,12 +8976,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5300,12 +9020,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5328,12 +9064,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5354,12 +9106,32 @@ window.GAME_EXTRAS = {
     "look": "Mats stay put. No diving onto a mat.",
     "outcomes": [
       {
-        "code": "Movement · locomotor",
+        "code": "Active Living",
+        "look": "Stays in Safe to Shore for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Crosses on the call, not after a wait."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Tagged player re-enters next wave — no last-one-standing."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5382,12 +9154,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5406,12 +9194,32 @@ window.GAME_EXTRAS = {
     "look": "Soft knees.",
     "outcomes": [
       {
-        "code": "Movement · run, jump, throw",
+        "code": "Active Living",
+        "look": "Stays in Spot-jump path for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
         "look": "Two-foot take-off and a still land."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "One jumper on the path."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5434,12 +9242,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   },
@@ -5462,12 +9286,28 @@ window.GAME_EXTRAS = {
         "look": "Stays in the bout for the set time; names breath or warmth after."
       },
       {
-        "code": "Movement · locomotor",
+        "code": "Movement Skill Development",
         "look": "Matches the called movement (run, skip, jump, freeze)."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Paces the set so they can finish, not sprint and collapse."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Works beside a partner or in a hoop without bumping others out."
+      },
+      {
+        "code": "Character Development",
+        "look": "Records a private number honestly, or skips the number and names effort."
       },
       {
         "code": "Safety",
         "look": "Soft landings; freeze on the signal."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
     ]
   }
