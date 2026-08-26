@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Large Group PE Games Handbook</title>
+<style>
+  :root {
+    --navy: #1b365d;
+    --teal: #1f6f6a;
+    --orange: #c45c26;
+    --cream: #f6f1e8;
+    --ink: #243042;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Georgia", "Times New Roman", serif;
+    color: var(--ink);
+    background: #e8e4db;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 24px 16px 80px; }
+  .cover {
+    background: linear-gradient(160deg, var(--navy), #2e5a88 55%, var(--teal));
+    color: #fff;
+    padding: 48px 36px 40px;
+    border-radius: 16px;
+    margin-bottom: 28px;
+  }
+  .cover p.kicker {
+    letter-spacing: .16em; text-transform: uppercase; font-size: 12px;
+    font-family: "Helvetica Neue", Arial, sans-serif; opacity: .85; margin: 0 0 10px;
+  }
+  .cover h1 { font-size: 42px; line-height: 1.1; margin: 0 0 12px; font-weight: 700; }
+  .cover .sub { font-size: 18px; opacity: .92; margin: 0 0 18px; }
+  .cover .credits {
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 13px;
+    opacity: .88; border-top: 1px solid rgba(255,255,255,.25); padding-top: 14px;
+  }
+  .panel {
+    background: #fff; border-radius: 12px; padding: 22px 26px; margin-bottom: 22px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.06);
+  }
+  h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: var(--navy); font-size: 22px; margin: 8px 0 14px;
+    border-bottom: 3px solid var(--orange); display: inline-block; padding-bottom: 4px;
+  }
+  .notes ul { margin: 8px 0 0; padding-left: 20px; }
+  .toc { columns: 2; column-gap: 28px; }
+  .toc ol { list-style: none; padding: 0; margin: 0; }
+  .toc-cat {
+    break-after: avoid;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--teal); font-weight: 700; margin: 12px 0 4px;
+  }
+  .toc-game { font-size: 14px; margin: 0 0 3px; }
+  .toc-game a { color: var(--navy); text-decoration: none; }
+  .toc-game a:hover { color: var(--orange); text-decoration: underline; }
+  .game {
+    background: #fff; border-radius: 12px; padding: 22px 26px 18px;
+    margin: 0 0 16px; box-shadow: 0 1px 3px rgba(0,0,0,.06);
+    border-left: 6px solid var(--teal);
+  }
+  .game .num {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--orange); margin: 0 0 2px; font-weight: 700;
+  }
+  .game h3 { margin: 0 0 6px; color: var(--navy); font-size: 24px; }
+  .meta {
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 13px;
+    color: #4a5568; margin: 0 0 10px;
+  }
+  .overview { margin: 0 0 10px; }
+  .game h4 {
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 13px;
+    letter-spacing: .08em; text-transform: uppercase; color: var(--teal);
+    margin: 12px 0 6px;
+  }
+  ol.steps { margin: 0 0 12px; padding-left: 22px; }
+  ol.steps li { margin: 0 0 6px; }
+  .links {
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 13px;
+    border-top: 1px solid #eee; padding-top: 10px; margin: 0;
+  }
+  .links a { color: var(--teal); font-weight: 600; }
+  footer.page-foot {
+    text-align: center; color: #667; font-size: 12px;
+    font-family: "Helvetica Neue", Arial, sans-serif; margin-top: 24px;
+  }
+  @media print {
+    body { background: #fff; }
+    .wrap { max-width: none; padding: 0; }
+    .cover, .panel, .game { box-shadow: none; }
+    .game { page-break-inside: avoid; border: 1px solid #ddd; }
+    a { color: #000; text-decoration: none; }
+    .links a::after { content: " (" attr(href) ")"; font-weight: 400; font-size: 10px; word-break: break-all; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="cover">
+    <p class="kicker">Physical education handbook</p>
+    <h1>Large Group Games</h1>
+    <p class="sub">67 games from PHYSEDGAMES — setup, step-by-step instructions, and a video for every activity.</p>
+    <p class="credits">
+      Source catalog: <a href="https://physedgames.com/category/large-group/" style="color:#fff">physedgames.com/category/large-group</a><br/>
+      Official video playlist:
+      <a href="https://www.youtube.com/playlist?list=PLqApWQm0obyHE1dVucdzlTPmrzd7Hg3LH" style="color:#fff">YouTube — Large Group Games</a><br/>
+      Compiled for class use. Watch the linked video before the first play — a few games use visual setups that are faster to learn from the clip than from text.
+    </p>
+  </header>
+
+  <div class="panel notes">
+    <h2>How to use this handbook</h2>
+    <ul>
+      <li>Every game includes grade band, equipment, a short overview from the original page, numbered how-to steps, the YouTube explanation, and the source URL.</li>
+      <li>Safety defaults for all throwing/kicking games: foam or soft balls, tags below the shoulders, no head shots, two-finger or noodle tags (no grabbing).</li>
+      <li>Dodgeball is optional programming — several pages on the source site note it is not a fit for every group. Prefer Detective, Net, Bench, or Prison variations when you want more students moving.</li>
+      <li>Large-group in this catalog often means doubled classes (about 40–60) if you have the space. Shrink boundaries and tagger counts for a single class.</li>
+      <li>Games and videos are created by PHYSEDGAMES and contributing teachers. This handbook is an organized classroom reference with links back to those originals.</li>
+    </ul>
+  </div>
+
+  <div class="panel">
+    <h2>Contents</h2>
+    <div class="toc"><ol>
+      <li class="toc-cat">Tag &amp; Chasing</li><li class="toc-game"><a href="#game-01">1. Backyard Dog Tag</a></li><li class="toc-game"><a href="#game-02">2. Massive 10 Second Tag</a></li><li class="toc-game"><a href="#game-03">3. Angry Neighbour</a></li><li class="toc-game"><a href="#game-04">4. Large Group Wolf’s Den</a></li><li class="toc-game"><a href="#game-05">5. Wolf’s Den</a></li><li class="toc-game"><a href="#game-06">6. Mystery Number Tag</a></li><li class="toc-game"><a href="#game-07">7. Home Free Bad Guy Blob Tag</a></li><li class="toc-game"><a href="#game-08">8. Freedom Catch</a></li><li class="toc-game"><a href="#game-09">9. Everybody’s It</a></li><li class="toc-game"><a href="#game-10">10. Dead Ant Tag</a></li><li class="toc-game"><a href="#game-11">11. Banana Tag</a></li><li class="toc-game"><a href="#game-12">12. Fruit Salad</a></li><li class="toc-game"><a href="#game-13">13. Reindeer Roundup</a></li><li class="toc-cat">Dodgeball &amp; Throwing</li><li class="toc-game"><a href="#game-14">14. Bench Dodgeball</a></li><li class="toc-game"><a href="#game-15">15. Backboard Dodgeball</a></li><li class="toc-game"><a href="#game-16">16. Prison Ball</a></li><li class="toc-game"><a href="#game-17">17. Battleball</a></li><li class="toc-game"><a href="#game-18">18. Net Dodgeball</a></li><li class="toc-game"><a href="#game-19">19. Warzone Dodgeball</a></li><li class="toc-game"><a href="#game-20">20. Standard Dodgeball</a></li><li class="toc-game"><a href="#game-21">21. Detective Dodgeball</a></li><li class="toc-game"><a href="#game-22">22. Pin Knockover</a></li><li class="toc-game"><a href="#game-23">23. Powerball</a></li><li class="toc-cat">Soccer &amp; Kicking</li><li class="toc-game"><a href="#game-24">24. End Wall Soccer</a></li><li class="toc-game"><a href="#game-25">25. Sideline Soccer</a></li><li class="toc-game"><a href="#game-26">26. Crazy Ball Soccer</a></li><li class="toc-game"><a href="#game-27">27. 3-Ball Soccer</a></li><li class="toc-game"><a href="#game-28">28. 4-Goal Soccer</a></li><li class="toc-game"><a href="#game-29">29. Pin Galore Soccer</a></li><li class="toc-game"><a href="#game-30">30. 5 Soccer Circle Ideas</a></li><li class="toc-game"><a href="#game-31">31. Slappers!</a></li><li class="toc-cat">Kickball, Striking &amp; Targets</li><li class="toc-game"><a href="#game-32">32. Shark Ball</a></li><li class="toc-game"><a href="#game-33">33. Massive Kickball Dodgeball</a></li><li class="toc-game"><a href="#game-34">34. Longball</a></li><li class="toc-game"><a href="#game-35">35. Castleball</a></li><li class="toc-game"><a href="#game-36">36. Castleball 2.0</a></li><li class="toc-game"><a href="#game-37">37. Bombardment</a></li><li class="toc-game"><a href="#game-38">38. Strikeball</a></li><li class="toc-game"><a href="#game-39">39. Catch &amp; Step</a></li><li class="toc-cat">Fitness, Warm-ups &amp; Locomotor</li><li class="toc-game"><a href="#game-40">40. RPS Warm-up</a></li><li class="toc-game"><a href="#game-41">41. Minute Fitness</a></li><li class="toc-game"><a href="#game-42">42. Immersive Workout ADVENTURE All Ages Brain Break</a></li><li class="toc-game"><a href="#game-43">43. Rush Hour</a></li><li class="toc-game"><a href="#game-44">44. Sneak &amp; React</a></li><li class="toc-game"><a href="#game-45">45. Throw &amp; Go</a></li><li class="toc-game"><a href="#game-46">46. Jump The River</a></li><li class="toc-game"><a href="#game-47">47. Pair Running</a></li><li class="toc-game"><a href="#game-48">48. Mirror Mirror</a></li><li class="toc-game"><a href="#game-49">49. Fitness Musical Hoops</a></li><li class="toc-game"><a href="#game-50">50. The Number Game</a></li><li class="toc-game"><a href="#game-51">51. Rainbow Road</a></li><li class="toc-game"><a href="#game-52">52. Bridges &amp; Rivers</a></li><li class="toc-game"><a href="#game-53">53. Hula Hoop Twister</a></li><li class="toc-game"><a href="#game-54">54. Hulahoop Madness</a></li><li class="toc-game"><a href="#game-55">55. The Video Camera Game</a></li><li class="toc-game"><a href="#game-56">56. Animals</a></li><li class="toc-game"><a href="#game-57">57. Red Line</a></li><li class="toc-game"><a href="#game-58">58. Oyster Shell</a></li><li class="toc-cat">Team-building &amp; Cooperative</li><li class="toc-game"><a href="#game-59">59. Ice Cream Cone Relays</a></li><li class="toc-game"><a href="#game-60">60. Cooperative Wall Ball</a></li><li class="toc-game"><a href="#game-61">61. Pass It On</a></li><li class="toc-game"><a href="#game-62">62. Hoop Pass</a></li><li class="toc-game"><a href="#game-63">63. The Great Outdoor Treasure Hunt</a></li><li class="toc-cat">Invasion, Capture &amp; Role Games</li><li class="toc-game"><a href="#game-64">64. Capture The Flag Outdoors</a></li><li class="toc-game"><a href="#game-65">65. Ultimate Warriors</a></li><li class="toc-game"><a href="#game-66">66. Home Alone</a></li><li class="toc-game"><a href="#game-67">67. Bench Ball</a></li>
+    </ol></div>
+  </div>
+
+  <section class="category"><h2 id="Tag &amp; Chasing">Tag &amp; Chasing</h2>
+<article class="game" id="game-01">
+  <header>
+    <p class="num">Game 01</p>
+    <h3>Backyard Dog Tag</h3>
+    <p class="meta"><strong>Grades:</strong> K-4 &nbsp;·&nbsp; <strong>Equipment:</strong> Cones, 4 foam balls</p>
+  </header>
+  <p class="overview">Some students are dogs (they can act like a dog if they want). The dogs are trying to chase people away from their yard. Another fun tag game idea to try in your PE class (thanks to Deric Hafer).</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Cone off several small “yards.” Place a foam ball (bone/toy) in each yard if you want a steal object.</li><li>Assign one dog per yard. Dogs may act like dogs but stay in or right beside their own yard.</li><li>The rest of the class are visitors trying to sneak into a yard (and optionally steal the bone) without being tagged.</li><li>A tagged visitor leaves that yard. Optional swap: the tagged player becomes the new dog.</li><li>Play 45–90 second rounds and rotate dogs often.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=o7gXRuMMmAA">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/backyard-dog-tag/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-02">
+  <header>
+    <p class="num">Game 02</p>
+    <h3>Massive 10 Second Tag</h3>
+    <p class="meta"><strong>Grades:</strong> 1-6 &nbsp;·&nbsp; <strong>Equipment:</strong> none</p>
+  </header>
+  <p class="overview">Tried a quick modification of Joel Sweetland’s ’10-second tag’ for a large group that I had. Wasn’t sure if it’d work but it went really good! Note: the cycles don’t have to be exactly 10 seconds (to keep the flow of the game going, you might add or subtract a few seconds here or there).</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Everyone spreads out. On GO, EVERYONE is it for about 10 seconds.</li><li>Gentle two-finger shoulder tags only. You can tag others even if you get tagged during the burst.</li><li>Whistle ends the burst. Anyone tagged in that burst sits or takes a knee.</li><li>Start the next burst with whoever is still standing. Continue until a few remain, then reset sitters back in.</li><li>Bursts can be 7–12 seconds — keep the flow, not the stopwatch. Split the gym if numbers are huge.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=aGw7mJO8_3U">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/massive-10-second-tag/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-03">
+  <header>
+    <p class="num">Game 03</p>
+    <h3>Angry Neighbour</h3>
+    <p class="meta"><strong>Grades:</strong> 1-5 &nbsp;·&nbsp; <strong>Equipment:</strong> pool noodles, exercise mats</p>
+  </header>
+  <p class="overview">This game is quick and easy and angry. For some reason, the neighbours (taggers) are not happy with the players on their yard, so they chase them around with a broomstick. At least that’s how the story goes. A good game for some laughs and quality exercise. Thanks James Barton for another game idea!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Lay exercise mats as houses along one side. The open floor is the yard.</li><li>Give 3–6 “neighbours” a pool noodle (the broom).</li><li>Players start in the yard. Neighbours chase and tag with the noodle (legs/hips).</li><li>Tagged players go to a house mat. Re-enter on a teacher call (“new yard!”) or a teammate high-five — pick one rule.</li><li>Rotate neighbours every 60–90 seconds.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=jfoDC0LEhPQ">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/angry-neighbour/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-04">
+  <header>
+    <p class="num">Game 04</p>
+    <h3>Large Group Wolf’s Den</h3>
+    <p class="meta"><strong>Grades:</strong> 1-6 &nbsp;·&nbsp; <strong>Equipment:</strong> scarves (or pinnies)</p>
+  </header>
+  <p class="overview">This is now my new favourite LARGE GROUP game. Depending on your space, it could work with 40, 50, maybe even 60 players. Not sure why I’ve never done it this way after all these years, but I will definitely more often use this when I have 2 or more classes doubled up. It could even be done outdoors in a large area and throw done cones to form a wolf’s den. I can personally vouch that I’ve had an awesome time with this game recently with different age groups doubled up. Hope you enjoy a ‘new’ version of an old favourite. And if it’s a completely new game for you, it’s normally played with the den along the width of the gym, instead of along the length (the set-up for a regular group of 15-30 players).</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Mark a long, narrow den down the LENGTH of the gym (the large-group setup). Wolves must stay inside that strip.</li><li>Pinny several wolves (more wolves for 40–60 players).</li><li>Rabbits start on one end line. On GO they run through the den to the far end without being tagged.</li><li>Two-finger tags. Tagged rabbits become wolves (put on a scarf) or visit a crate/jail until the next wave.</li><li>After each wave, rabbits turn and run back through. Add an optional crate in the den for dropped scarves.</li><li>Play 3–5 minutes, then choose new starting wolves. Outdoors: cone the den.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=kXxZJ6_fG-o">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/large-group-wolfs-den/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-05">
+  <header>
+    <p class="num">Game 05</p>
+    <h3>Wolf’s Den</h3>
+    <p class="meta"><strong>Grades:</strong> K-6 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">Watch out for the wolves! In this game, the wolf roams around his den trying to catch the rabbits as they run back-and-forth through the wolf’s territory. Action-packed and always great for a laugh in PE class, outside, or at camp. 
+Using lines or cones as markers, create a wolf’s den area right in the middle of two safe areas.
+The wolf must stay in his den.
+The rabbits attempt to run through the den from side to side without getting tagged by the wolf.
+If a rabbit gets tagged, he becomes a wolf.
+A good idea is to have a stash of pinnies so that when a rabbit is tagged, he first quickly puts on a pinnie so you can distinguish who is a wolf and who is a rabbit.
+Play until all of the rabbits have been caught!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>This is the standard (width-of-the-gym) version for about 15–30 players. For 40–60 use Large Group Wolf’s Den instead.</li><li>Mark a den strip across the WIDTH of the gym. 2–4 wolves stay in the den.</li><li>Rabbits start on one end, run through the den to the other end, then back on the next signal.</li><li>Tagged rabbits become wolves or sit a turn. Wolves may not leave the den.</li><li>Play several waves, then new wolves.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=fQKSipovfYI">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/wolfs-den/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-06">
+  <header>
+    <p class="num">Game 06</p>
+    <h3>Mystery Number Tag</h3>
+    <p class="meta"><strong>Grades:</strong> 2-6 &nbsp;·&nbsp; <strong>Equipment:</strong> sticky notes, or pieces of paper</p>
+  </header>
+  <p class="overview">This game is a mystery! Players don’t know who the catchers are. But they’ll soon find out. Try this game out for lots of laughs and lots of running! It’s another game that will not disappoint! (Thanks Chantal Dubois)</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Prepare sticky notes. A few say IT (or a special number); the rest are blank/free.</li><li>Every player gets a folded note. They look only when you say GO.</li><li>ITs tag. Runners flee. Tagged runners freeze until a free player high-fives them, or they become IT (pick one).</li><li>After 1–2 minutes, reshuffle notes so new mystery taggers appear.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=OhUiuvpDGw0">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/mystery-number-tag/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-07">
+  <header>
+    <p class="num">Game 07</p>
+    <h3>Home Free Bad Guy Blob Tag</h3>
+    <p class="meta"><strong>Grades:</strong> 1-6 &nbsp;·&nbsp; <strong>Equipment:</strong> Hula hoops, pool noodles</p>
+  </header>
+  <p class="overview">What a great game, seriously one of the best tag games out there. This is a must play. Lots of Dynamics, lots going on in this unique idea thanks to Dan Penna for another hit.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Scatter hoops as short-stay “home free” bases (about 3 seconds max — no camping).</li><li>2–4 bad guys with pool noodles tag runners.</li><li>A tagged runner joins the blob by holding hands/wrists with a bad guy. Only noodle ends tag; the chain may not break.</li><li>Optional rescue: a free runner at a hoop calls HOME FREE and releases one blob player.</li><li>Reset when the blob is huge or after 2–3 minutes.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=aiukdRx1yNs">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/home-free-bad-guy-blob-tag/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-08">
+  <header>
+    <p class="num">Game 08</p>
+    <h3>Freedom Catch</h3>
+    <p class="meta"><strong>Grades:</strong> 1-6 &nbsp;·&nbsp; <strong>Equipment:</strong> Cones, foam balls</p>
+  </header>
+  <p class="overview">New favourite activity! Tagging, throwing, catching, strategy all jam-packed into one awesome game from Jennifer Holub. Really fun, a must try, especially if you’re looking for a game for large groups (50 players +).</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Large coned field. Several taggers; free players have foam balls.</li><li>Taggers freeze runners in place with hands ready to catch.</li><li>A teammate frees a frozen player by completing a catch to them.</li><li>A drop leaves the player frozen (or freezes the thrower — pick one and teach it).</li><li>Timed rounds; rotate taggers. Built for 50+ if space is big.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=NKI8YENdwhI">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/freedom-catch/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-09">
+  <header>
+    <p class="num">Game 09</p>
+    <h3>Everybody’s It</h3>
+    <p class="meta"><strong>Grades:</strong> 1-8 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">‘Everybody’s It’ is a classic all-time favorite tag game with non-stop action! Everybody is it, and everybody can also get tagged. If a player gets tagged, he must sit where he was tagged.  He is stuck down until the player who tagged him gets tagged, and then he’s back up.  It’s that simple!  This is a very active game; lots of running. If players are sitting too long then the teacher can yell out, “free pass” and then they can get back up. If players tag eachother at the same time then they play a round of ‘Rock, Paper, Scissors’ to see who sits. 
+Players spread out around the gym.
+Everyone is ‘It’ but everyone can also get tagged.
+Players sit if tagged.
+Players get back up when player who tagged them gets tagged.
+If a player is sitting too long, give a ‘free pass’ so he can get back up.
+If two players tag each other at the same time, they play ‘Rock, Paper, Scissors’ to see who sits.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Everybody is it AND everybody can be tagged. No equipment.</li><li>If you are tagged, sit where you were tagged. You stay down until the person who tagged you gets tagged — then you stand up.</li><li>Lots of running. If people sit too long, the teacher calls “free pass” and everyone stands.</li><li>If two players tag each other at the same time, they play Rock-Paper-Scissors to see who sits.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=4ohNNSKIRQQ">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/everybodys-it/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-10">
+  <header>
+    <p class="num">Game 10</p>
+    <h3>Dead Ant Tag</h3>
+    <p class="meta"><strong>Grades:</strong> K-5 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">Hilarious idea for a simple tag game: if a player gets tagged, he must turn over on his back and put arms and legs up in the air like a dead ant on its back. To get back up? 4 players who aren’t tagged must attach themselves to an arm or leg and then that player is free. Tagger can’t guard or tag those who are helping. This is a great game to use with large groups of students. Give it a go!
+ Everyone spreads out in playing area.
+Choose a couple of taggers.
+When tagged, player turns into a dead ant.
+4 other players go and save that ant by attaching to the limbs.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Choose 3–6 taggers. Everyone else runs.</li><li>A tagged player lies on their back with arms and legs in the air like a dead ant.</li><li>To free them, FOUR untagged players must each hold one arm or one leg. Then the ant stands and all five are free.</li><li>If a rescuer gets tagged on the way, they become a dead ant too.</li><li>Rotate taggers often.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=aiX68ZVy-Cw">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/dead-ant-tag/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-11">
+  <header>
+    <p class="num">Game 11</p>
+    <h3>Banana Tag</h3>
+    <p class="meta"><strong>Grades:</strong> K-5 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">Such a simple tag game; kids go bananas, literally! As players get tagged, they must curve their bodies into the shape of a banana. Someone else will come along and ‘peel’ them so that they are free.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Choose taggers. Everyone else is a runner.</li><li>A tagged player must curve their body into a banana shape and hold it.</li><li>A free teammate “peels” them (a two-hand sweep down the sides, agreed and appropriate) to free them.</li><li>Rotate taggers. Keep tags gentle.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=5yLIWF_R2-g">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/banana-tag/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-12">
+  <header>
+    <p class="num">Game 12</p>
+    <h3>Fruit Salad</h3>
+    <p class="meta"><strong>Grades:</strong> K-5 &nbsp;·&nbsp; <strong>Equipment:</strong> Pinnies (different colors)</p>
+  </header>
+  <p class="overview">Fruit salad is a tag game for kindergarten to grade 5. Give out different color pinnies to the taggers and ask the students to name fruits that are the same colors of the pinnies. If students get tagged by a certain color then they freeze into the shape of the particular fruit that matches the color. As a class you can decide upon different ideas of how to freeze into a particular fruit. The class also determines how to unfreeze the different pieces of fruit so there are lots of different kinds of actions and they can make up a new version almost every time. 
+Examples: Apple – Cut, Banana – Peel, Blueberry – Wash, Watermelon – Roll, etc. 
+Try it out with the VEGETABLE theme as well! Move and learn at the same time with the Fruit Salad physical education game.
+(Thanks to Curtis Glasgow for this game idea)</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Give taggers different-coloured pinnies. As a class, name a fruit for each colour and a freeze shape for that fruit (apple = round; banana = curve).</li><li>Also agree how each fruit gets unfrozen (apple is “cut,” banana is “peeled,” blueberry is “washed,” watermelon is “rolled,” etc.).</li><li>Taggers tag. A tagged player freezes in that fruit’s shape until the matching unfreeze action is done by a free teammate.</li><li>Play short rounds and let the class invent a vegetable version next time.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=BpNu1bRO4as">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/fruit-salad/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-13">
+  <header>
+    <p class="num">Game 13</p>
+    <h3>Reindeer Roundup</h3>
+    <p class="meta"><strong>Grades:</strong> K-6 &nbsp;·&nbsp; <strong>Equipment:</strong> Hula hoops, pool noodles</p>
+  </header>
+  <p class="overview">A Christmas game for the holidays (thanks to Angela Crepeele).</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Scatter hula hoops as stables. Give 3–6 elves / herders pool noodles.</li><li>Everyone else is a reindeer and gallops around the gym.</li><li>Elves tag reindeer with a noodle touch on the hip or shoulder (not the head).</li><li>A tagged reindeer must stand inside the nearest hoop.</li><li>Free reindeer may rescue by joining hands and galloping a captured reindeer out of the hoop without being tagged.</li><li>Play 1–2 minute rounds and switch elves. Holiday music optional.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=r8RravG-g9g">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/reindeer-roundup/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+</section><section class="category"><h2 id="Dodgeball &amp; Throwing">Dodgeball &amp; Throwing</h2>
+<article class="game" id="game-14">
+  <header>
+    <p class="num">Game 14</p>
+    <h3>Bench Dodgeball</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> benches, dodgeballs</p>
+  </header>
+  <p class="overview">It’s the classic game of bench dodgeball, at least I think it’s a classic. It might just be classic for me? Note: this game is different from BENCHBALL (where you try to get all players onto the bench – that’s not a dodgeball game, though it’s also a really good game). In this game, you try to help your players get OFF the bench. Mrs. Gracie at my school really likes to play this game when I’m away. The kids really like it and of course, it works on lots of skills!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Place a bench on each end line. Two teams, one half each. Foam dodgeballs only.</li><li>This is NOT Bench Ball. Here you are trying to get your own players OFF the bench.</li><li>When you legally hit an opponent (below the shoulders), one teammate on your bench may re-enter.</li><li>A player who is hit goes to their own bench and waits to be freed.</li><li>Play timed rounds. Winner: more live players at the whistle, or first team to empty its bench.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=ONbSKth10sk">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/bench-dodgeball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-15">
+  <header>
+    <p class="num">Game 15</p>
+    <h3>Backboard Dodgeball</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> basketball backboards, dodgeballs</p>
+  </header>
+  <p class="overview">Highly requested game of dodgeball. Lots of fun, and lots of skills as usual! Two teams faceoff in this fun version that uses the basketball court (full court or half court), thanks to Michelle Weaver!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams on a basketball court (full or half). Foam dodgeballs.</li><li>Play regular throwing/dodging on the floor. Hits below the shoulders.</li><li>Bonus: a throw that hits the opponent’s backboard (or goes in the hoop — choose) returns all of your out players or scores a point.</li><li>Hit players wait on the sideline until a bonus or a catch brings them back.</li><li>Timed games keep sitting-out time short.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=PY_70Zh-_Uw">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/backboard-dodgeball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-16">
+  <header>
+    <p class="num">Game 16</p>
+    <h3>Prison Ball</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Foam Balls</p>
+  </header>
+  <p class="overview">Prison ball is a dodgeball-type game where 2 teams face-off against each other. Along the ends of the gym, behind each team is a prison area. Whenever a player gets hit, he or she must head to prison behind the opposite team on that end. They are stuck there until they can throw a ball and successfully hit someone while they’re in prison — and then they can return home to their team, while the player they hit must then go to prison! Very interesting type of dodgeball game where players must be aware of their complete surroundings, front, back, sides. Balls flying from all over the place makes it challenging and lots of fun!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams, each half. Behind each end is a PRISON zone.</li><li>If you are hit with a foam ball (below shoulders), go to the prison BEHIND the other team.</li><li>From prison you may throw at the team in front of you. If you hit someone, you return home and they go to prison.</li><li>Balls fly from front and behind, so players must check all directions.</li><li>Play timed games. Foam balls only.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=-jufBJCAxDg">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/prison-ball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-17">
+  <header>
+    <p class="num">Game 17</p>
+    <h3>Battleball</h3>
+    <p class="meta"><strong>Grades:</strong> 1-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 4 foam balls</p>
+  </header>
+  <p class="overview">This is a special type of dodgeball game with official rules, refs, and the whole show! With sportsmanship being the number 1 rule, teams will compete in an epic battle to be the last ones standing. Great game incorporating lots of skills. Popular in Australia, kids love this one and get nice and sweaty. There’s talk of some major tournament play and school-wide fun. Try it out! 
+Also see the official rules manual (WORD DOCUMENT DOWNLOAD) posted below:
+BATTLEBALL RULES 2014</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams, 4 foam balls, official-style dodgeball with sportsmanship as rule #1.</li><li>Agree on refs (teachers or trained students) and the school’s hit / catch / boundary rules before the first throw.</li><li>Play to last players standing or a time cap with “all out players return” resets so nobody sits long.</li><li>Download the posted rules sheet from the game page if you want the full tournament version: https://physedgames.com/i/BATTLEBALL-RULES-2014.doc</li><li>Keep it recreational: foam balls, no head shots, no targeting from close range.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=b-aj8WV9kNs">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/battleball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-18">
+  <header>
+    <p class="num">Game 18</p>
+    <h3>Net Dodgeball</h3>
+    <p class="meta"><strong>Grades:</strong> 3-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Dodgeballs, nets/goals</p>
+  </header>
+  <p class="overview">Net dodgeball is basically a standard game of dodgeball, except that each team also has a net and a goalie. Any time a team scores a goal by throwing a dodgeball past the opposing goalie, all of the players who were out get to enter back into the game. Also use detective dodgeball rules to ensure players are getting maximum participation and movement time…if you’re unsure what detective dodgeball rules are, find the rules to that game on this site!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Standard two-team foam dodgeball, PLUS a net and a goalie on each end.</li><li>If a team throws a ball past the other goalie into the net, ALL of that team’s out players come back in.</li><li>Use Detective Dodgeball re-entry if you also want hit-players tracking who hit them.</li><li>Goalies may use hands; field players follow your regular dodgeball rules.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=9e0pew5DbvU">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/net-dodgeball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-19">
+  <header>
+    <p class="num">Game 19</p>
+    <h3>Warzone Dodgeball</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Dodgeballs, ‘walls’ (mats, benches)</p>
+  </header>
+  <p class="overview">Warzone Dodgeball is definitely what the name says – a dodgeball warzone. Also known as ‘Paintball Dodgeball’, to set up for this game, place some obstacles and barriers for players to hide behind. Things like mats and tubes that represent walls and trenches. Then let the teams go at it. Add in a Capture the Flag element to further increase the intensity. At physedgames, we realize that dodgeball games may not be an acceptable game for all groups.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Build cover with mats, benches, and safe “walls” / trenches. Two teams. Also called Paintball Dodgeball.</li><li>Play foam dodgeball using the barriers as hiding spots. No moving the walls into people.</li><li>Optional: add a Capture-the-Flag object in each back zone to raise the objective beyond just getting people out.</li><li>Not every school community wants dodgeball — choose this only if it fits your program. Foam balls, no head shots.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=DpnTLRUyLjQ">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/warzone-dodgeball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-20">
+  <header>
+    <p class="num">Game 20</p>
+    <h3>Standard Dodgeball</h3>
+    <p class="meta"><strong>Grades:</strong> 2-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Dodgeballs</p>
+  </header>
+  <p class="overview">Standard dodgeball is the classic version of the game. In our opinion, many of the variations of this game are huge improvements and should be played in place of the standard version, however, here it is for you to take a look at.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams, one half each. Foam dodgeballs in the middle. On the whistle, rush the balls.</li><li>Hit an opponent below the shoulders to send them out. A caught ball typically sends the thrower out and can return a teammate — confirm your house rules.</li><li>No crossing the mid-line. Play until one team is eliminated, then reset.</li><li>PHYSEDGAMES notes that many variations keep more kids moving and are often a better daily choice.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=fxUP4Z2_QMQ">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/standard-dodgeball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-21">
+  <header>
+    <p class="num">Game 21</p>
+    <h3>Detective Dodgeball</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Dodgeballs</p>
+  </header>
+  <p class="overview">This is a dodgeball game where if a player is hit, he must remember who hit him, because he’s out until the player who hit him gets hit. That’s the whole detective part. A great advancement to regular dodgeball to keep things flowing better. 
+Create 2 teams, each on one half of the gym. Add in the dodgeballs.
+When a player is hit, he must go off to the side. He must remember who got him out, because when that person gets hit, he is able to return to play.
+If players are sitting out for too long, give everyone a ‘free pass’ back in the game.
+When one team has no players left, start a new round!
+This has been the favorite dodgeball game of choice for many grade 8 classes.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams, each on one half. Foam dodgeballs in play.</li><li>If you are hit, go to the side and REMEMBER who hit you. You are out only until THAT person is hit, then you come back in.</li><li>That “detective” memory rule keeps the game flowing and cuts long sit-outs.</li><li>If anyone sits too long, call a free pass and everyone returns.</li><li>When one team has nobody left on the floor, start a new round. A favourite for older grades.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=lrOKbNcgeM8">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/detective-dodgeball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-22">
+  <header>
+    <p class="num">Game 22</p>
+    <h3>Pin Knockover</h3>
+    <p class="meta"><strong>Grades:</strong> 2-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Plastic bowling pins, dodgeballs</p>
+  </header>
+  <p class="overview">Pin Knockover is a classic target throwing or rolling game. Two teams match-up on each side of the gym and be the first team to knock over all of the opposing teams pins. Other skills involved are blocking, goaltending, running, underhand, overhand, ducking, etc. Great team game for development and enjoyment. 
+Create 2 teams, each on one half of the gym.
+Set-up an equal amount of pins on both sides. Those are the targets.
+Use a line in front of the pins where students can’t ‘puppy guard’ behind.
+Add in the dodgeballs.
+First team to knock over all the other teams pins wins. If a player accidentally knocks over his own pin, too bad.
+Play over and over again!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams, each with a row of plastic pins on its end. Foam dodgeballs.</li><li>Throw or roll to knock down the other team’s pins. First team to knock all opponent pins wins, or most pins down at time.</li><li>Players may block and “goal tend” in front of their own pins. No crossing mid-line if you want a throwing-only game.</li><li>Reset pins and play again. Skills: underhand, overhand, blocking, ducking.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=RS4qjekAdXY">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/pin-knockover/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-23">
+  <header>
+    <p class="num">Game 23</p>
+    <h3>Powerball</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 3 exercise balls, dodgeballs</p>
+  </header>
+  <p class="overview">Powerball is intense. It’s a target throwing game to get the heart-rate and excitement up! Teams throw dodgeballs at large exercise balls in order to push them passed the opposing teams goal line. Points are scored everytime that happens. Try it out sometime! 
+Create 2 teams on the sides of the gym at the lines.
+Place exercise balls or other in the middle as targets.
+Give players dodgeballs.
+Players throw dodgeballs at the exercise balls in order to push them across the opposite line to score points.
+Play for determined amount of time or score.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Place 3 large exercise balls on a centre strip. Two teams on opposite halves with foam dodgeballs.</li><li>Throw dodgeballs at the exercise balls to push them over the other team’s goal line.</li><li>Each exercise ball that fully crosses the opponent goal line scores a point. Roll it back to centre and continue.</li><li>No kicking the exercise balls unless you add that as a house rule. Watch toes and pile-ups.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=8t75NB1b-ho">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/powerball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+</section><section class="category"><h2 id="Soccer &amp; Kicking">Soccer &amp; Kicking</h2>
+<article class="game" id="game-24">
+  <header>
+    <p class="num">Game 24</p>
+    <h3>End Wall Soccer</h3>
+    <p class="meta"><strong>Grades:</strong> 3-8 &nbsp;·&nbsp; <strong>Equipment:</strong> foam soccer ball, pinnies</p>
+  </header>
+  <p class="overview">A fun type of soccer game, can be especially good with large groups (thanks CIRA Ontario for this idea: https://www.ciraontario.com/)!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Make two teams (pinnies on one side). Play the full gym or a large field.</li><li>Each team’s GOAL is the entire end wall / end line — no small net required. That is what makes this work with a crowd.</li><li>Play soccer rules with a foam soccer ball: feet only. Decide in advance whether a goalie is allowed to use hands.</li><li>A goal counts when the ball hits the opponent’s end wall or fully crosses the end line (choose one and stick to it).</li><li>Restart at centre after each goal. Add a second foam ball if numbers are very high so more players get touches.</li><li>Play 4–6 minute periods and rotate roles.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=p1iFRDwnfnk">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/end-wall-soccer/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-25">
+  <header>
+    <p class="num">Game 25</p>
+    <h3>Sideline Soccer</h3>
+    <p class="meta"><strong>Grades:</strong> 2-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Foam Balls</p>
+  </header>
+  <p class="overview">In sideline soccer, teams become goalies along their respective sidelines, using their best goaltending skills. Imagine the set-up as big lines of goalies stretching across the entire length of the sidelines – for each team. Meanwhile the first 5 players from each team enter the playing area from the front of their line to play some soccer (choose 2-3 balls to use all at the same time). Whenever a goal is scored on a team, just put the ball back into play and keep going – no need to stop the play for anything! After 2 minutes blow the whistle and the 5 players from each team that were on the playing area will go to the back of their teams line of goalies and 5 new players who were at the front of the line enter in as players. Great game to play to work on all the soccer (football) skills. Also a great game for large groups.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Each team lines its entire sideline as a wall of goalies.</li><li>The first 5 players from each line step onto the floor and play soccer with 2–3 foam balls at once.</li><li>If a ball is kicked through a sideline, that is a save / miss — put it straight back in. Do not stop play for celebrations.</li><li>Every 2 minutes, the 5 floor players go to the BACK of their goalie line and the next 5 step on.</li><li>Works well for large groups because everyone is either playing or goalkeeping.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=I80jFWJLzyw">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/sideline-soccer/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-26">
+  <header>
+    <p class="num">Game 26</p>
+    <h3>Crazy Ball Soccer</h3>
+    <p class="meta"><strong>Grades:</strong> K-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Various soft or foam balls</p>
+  </header>
+  <p class="overview">Great for any grade or age level, Crazy Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipment you might have to kick around! Some tested equipment that works well in this game are foam footballs, large foam dice, or beach balls – use all of them at the same time and watch them bounce all crazy-like around the field or gym as the players try to kick them. Add in whatever rules desired when it comes to goalies, points, etc. 
+Set-up your soccer playing area.
+Add in crazy but safe equipment as the soccer balls.
+Have fun!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Set up soccer as usual, then add extra “crazy” kickable objects at the same time (foam football, large foam die, beach ball, foam soccer balls).</li><li>Feet only on all objects. Choose whether goalies and regular goals still count.</li><li>Every object that crosses a goal line can score, or assign different points to different objects.</li><li>Keep heads up — many bouncing objects. Foam / soft equipment only.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=WAwM2ALIl8c">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/crazy-ball-soccer/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-27">
+  <header>
+    <p class="num">Game 27</p>
+    <h3>3-Ball Soccer</h3>
+    <p class="meta"><strong>Grades:</strong> K-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 3 soccer balls</p>
+  </header>
+  <p class="overview">For more action, and more touches, play 3 ball soccer. It’s essentially a big soccer game with the added bonus of 2 more soccer balls. Great to play especially with large classes or groups of students.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Play soccer with THREE balls at once.</li><li>Use regular soccer rules otherwise (feet, out of bounds, goalies optional).</li><li>Any ball that enters the goal counts. Restart that ball at centre or from the goalie.</li><li>Heads up — three balls means more traffic. Foam balls in a gym. Ideal for large classes.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=xbAbk0Zw3yg">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/3-ball-soccer/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-28">
+  <header>
+    <p class="num">Game 28</p>
+    <h3>4-Goal Soccer</h3>
+    <p class="meta"><strong>Grades:</strong> 2-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Soccer balls, 4 goals</p>
+  </header>
+  <p class="overview">4 Goal Soccer is another popular soccer PE game, especially with larger groups. 4 nets are set-up on each side. 4 teams go at it with whatever soccer rules the teacher wants to implement. Teams can score in any net except their own – that’s obvious. Definitely worth taking a look at; lots of movement, exercise, and skill development potential in this game.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Set 4 nets, one on each side of a square or gym. Four teams, each defending one net.</li><li>Teams may score in ANY net except their own.</li><li>Use 2–3 soccer balls for a large group. Agree on goalie rules and whether a team can score in the same net twice in a row.</li><li>Play timed quarters and optionally rotate which net each team defends.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=vd-gPr7rRDk">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/4-goal-soccer/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-29">
+  <header>
+    <p class="num">Game 29</p>
+    <h3>Pin Galore Soccer</h3>
+    <p class="meta"><strong>Grades:</strong> 1-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Plastic pins, foam soccer balls</p>
+  </header>
+  <p class="overview">This is a great modification to the regular game of soccer that has proven to increase participation and motivation in the gym. Instead of the typical scoring into the other team’s goal, players will try to knock over the other team’s pins instead! If a player kicks the ball and it knocks down a pin from the other team, he gets to bring that pin (or pins if it’s more than 1) to his side and add them to his own team’s amount. The game goes until 1 team has all the pins or until the time runs out. Great lead-up soccer game for physical education.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Each team lines plastic pins on its end. Use foam soccer balls.</li><li>Play soccer (feet only). Instead of a net, you score by knocking over an opponent’s pin.</li><li>When you knock a pin down, carry that pin back and add it to your own row.</li><li>Game ends when one team has every pin, or when time expires (most pins wins).</li><li>Great soccer lead-up because every pin is a scoring chance.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=b26-f6k9y0c">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/pin-galore-soccer/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-30">
+  <header>
+    <p class="num">Game 30</p>
+    <h3>5 Soccer Circle Ideas</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Soccerballs, cones</p>
+  </header>
+  <p class="overview">Here are 5 soccer circle ideas you can use to work on passing (and dribbling) as well as more skills! They range from simple to moderately advanced and there’s really not much more to say about them – just find some space, bring a whole bunch of soccerballs, and have fun. Turn them into 5 different stations that groups rotate through, or have everyone doing the same one at the same time then switch to the next, or whatever works for your situation!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Make several circles of 6–10 players with cones and plenty of soccer balls.</li><li>Idea 1 — Circle pass: pass around the circle with 2-touch limits.</li><li>Idea 2 — Inside-out: one or two players in the middle try to intercept; swap on a steal.</li><li>Idea 3 — Through-gate: add a cone gate and require passes through it.</li><li>Idea 4 — Dribble-in / pass-out: players take turns dribbling into the circle and passing out.</li><li>Idea 5 — Two-ball circle: two balls at once for extra touches.</li><li>Run as 5 rotating stations or do one idea at a time with the whole class.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=pOhAOFKBCLg">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/5-soccer-circle-ideas/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-31">
+  <header>
+    <p class="num">Game 31</p>
+    <h3>Slappers!</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 4 nets, 4 bouncy balls (ex racquetball ball)</p>
+  </header>
+  <p class="overview">Try out this amazing game called SLAPPERS. It’s a game that mainly uses the striking skill (or swatting, smacking, slapping – however you want to call it). 4 teams, 4 nets in the corners, 1 for each team. Throw a few balls in and players will go around SLAPPING the balls to try to score goals. Players can of course move around and strategize, position themselves, work on offense or defense, etc. They just can’t pick up the ball, or run with ball in hand, or throw/catch. Just slapping the ball around for some good old fun as well as developing many skills!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>4 teams, 4 nets in the 4 corners, 1 net per team. Toss in several bouncy balls (racquetballs or similar).</li><li>Players SLAP / strike balls with an open hand to send them into any opponent net.</li><li>No picking the ball up, no running with it, no throwing or catching — striking only.</li><li>Players may move, defend their net, and set up teammates.</li><li>A slap that goes in an opponent net scores. Play timed quarters and rotate net corners.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=lE7f6BDXLSw">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/slappers/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+</section><section class="category"><h2 id="Kickball, Striking &amp; Targets">Kickball, Striking &amp; Targets</h2>
+<article class="game" id="game-32">
+  <header>
+    <p class="num">Game 32</p>
+    <h3>Shark Ball</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 1 foam ball</p>
+  </header>
+  <p class="overview">A kickball variation that mixes in some sharks &amp; minnows (thanks to Kevin Williams)!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Mark two safe end lines with a large open “ocean” in the middle. One foam ball only.</li><li>Pick 2–4 sharks as fielders / taggers. Everyone else is a minnow / kicker.</li><li>A minnow kicks the foam ball and immediately runs toward the far safe line.</li><li>Sharks field the ball. With the ball they may tag a runner (ball-in-hand tag or a below-shoulder throw — decide first).</li><li>A tagged runner becomes a shark. A runner who reaches the far line is safe and rejoins the kicking line.</li><li>Keep the next kicker ready so the game never stops.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=bGCb-sYG78M">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/shark-ball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-33">
+  <header>
+    <p class="num">Game 33</p>
+    <h3>Massive Kickball Dodgeball</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 2 foam balls, exercise mats</p>
+  </header>
+  <p class="overview">Great large group game (can use with up to 50 players). It’s a combination of kickball and dodgeball. As usual, lots of fun, lots of laughs, and lots of skills. A must try if you have a huge group and want to do something a bit different.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams. Use exercise mats as bases/islands. Two foam balls.</li><li>A kicker kicks one ball and runs to a mat. Fielders may throw a foam ball to hit the runner below the shoulders.</li><li>A hit runner is out. A runner who reaches a mat is safe.</li><li>Keep both balls live so the field never stalls. Switch kicking/fielding after a set number of kickers.</li><li>Works with up to about 50 players.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=_k-hzjYlYeg">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/massive-kickball-dodgeball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-34">
+  <header>
+    <p class="num">Game 34</p>
+    <h3>Longball</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 2 mats, foam soccer balls</p>
+  </header>
+  <p class="overview">Longball is another kickball type activity (or baseball activity if you want to use a big oversized plastic bat and a foam ball) that gets more players moving more often. With some important modifications to regular kickball, groups will get more sweaty and active, with lots of laughs and fun. Some strategy is for sure important, but in the end it’s about having a good time as a class or a group. (Thanks to Sabine Crandall for this idea).</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two mats as far bases / safe zones. Foam soccer balls (or a foam ball + plastic bat).</li><li>Kicker puts the ball in play and runs. Extra movement rules keep more people running than classic kickball (watch the video for the exact running pattern they use).</li><li>Fielders play the ball to stop the run. Use a tag-with-ball or throw-to-mat out, not a hard hit.</li><li>Kick the next ball quickly so the field never waits. Switch sides after a time cap rather than 3 outs if you want more activity.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=5Ob12wzsmEk">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/longball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-35">
+  <header>
+    <p class="num">Game 35</p>
+    <h3>Castleball</h3>
+    <p class="meta"><strong>Grades:</strong> 4-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Dodgeballs, hula-hoops</p>
+  </header>
+  <p class="overview">Castle Ball might be one of physedgames’ favourites! A must play! This target game adds a huge teamwork component as well as team strategy. It also ties in throwing, catching, blocking, building, and awareness. Defend your castles, and topple over the opponent castles before they get yours. WARNING: LOTS OF FUN. 
+Create 2 teams. One team on each half of the gym. Players can never leave their own side.
+Spend some time practicing building castles made of hula hoops.
+To build a castle, it requires 6 hula hoops: 1 for the base at the bottom, 4 for the sides, and 1 for the top.
+It also takes some patience and teamwork to build a sturdy castle.
+After practicing building castles and getting the hang of it, it is time to set-up for the game.
+Each team builds 2 castles towards the back of their playing area.
+Once castles are built, add in the dodgeballs.
+On signal, players attmpt to throw dodgeballs at other teams castles to topple them over.
+A point is scored every time a castle is toppled over.
+When a castle is down, players simply rebuild it while the game continues.
+Play for as long as desired. Add in any modifications as desired.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams, each must stay on its own half.</li><li>Practice building a 6-hoop castle: 1 hoop base, 4 standing side hoops, 1 roof hoop.</li><li>Each team builds 2 castles toward the back of its area, then add foam dodgeballs.</li><li>On the signal, throw at the other team’s castles to topple them. 1 point per castle down.</li><li>When a castle falls, that team rebuilds while play continues. Play a set time.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=ZTQNIj7J4fk">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/castleball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-36">
+  <header>
+    <p class="num">Game 36</p>
+    <h3>Castleball 2.0</h3>
+    <p class="meta"><strong>Grades:</strong> 3-8 &nbsp;·&nbsp; <strong>Equipment:</strong> balls, hula hoops, cones</p>
+  </header>
+  <p class="overview">Another winning idea from Deric Hafer. As a variation to the original Castleball game (one of the best games there is) the modifications in this game make for another super fun, skill-building, and action-packed game. Set-up the castles, choose the roles, launch the cannon balls, and build together. There’s something for everyone!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Each team builds hoop castles in its back zone (6 hoops: 1 base, 4 walls, 1 roof).</li><li>Assign roles: builders, throwers/cannons, gatherers, guards.</li><li>On GO, cannons throw foam balls to topple the other castle. Builders only rebuild — they do not throw.</li><li>Rotate roles every 2–3 minutes.</li><li>1 point each time a castle is fully toppled. Rebuild and continue.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=2Jkr9vHvA9E">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/castleball-2-0/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-37">
+  <header>
+    <p class="num">Game 37</p>
+    <h3>Bombardment</h3>
+    <p class="meta"><strong>Grades:</strong> 3-7 &nbsp;·&nbsp; <strong>Equipment:</strong> variety</p>
+  </header>
+  <p class="overview">Here’s a multi-skills game idea, lots of skills involved (mostly basketball skills practice but could be modified) – thanks Dan Kirsch!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams, each defending a half and a row of targets (pins, cones, or stacked items) near their end line.</li><li>Scatter basketballs or foam balls at mid-court.</li><li>On the whistle, players dribble/pass (basketball skills) and throw or shoot to knock down the other team’s targets.</li><li>Score 1 point per target down, or capture the fallen target and add it to your side (pick one scoring rule).</li><li>No player-to-player contact. Defenders may block balls and gather rebounds.</li><li>Reset targets after a time cap or when one side is cleared. Modify to soccer-style (feet only) if you want.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=agG5BSXK8M8">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/bombardment/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-38">
+  <header>
+    <p class="num">Game 38</p>
+    <h3>Strikeball</h3>
+    <p class="meta"><strong>Grades:</strong> K-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Ball</p>
+  </header>
+  <p class="overview">Strikeball is a great little game to work on aspects of goaltending, fielding, striking, and reaction time. Circle groups of any size can play this game together and try to score points by striking the ball between the legs of another player. Continuous fun and practice. 
+Groups form a circle in the playing area, each person standing foot-to-foot with the people beside them.
+Group sizes should range anywhere from 4 – 8 per group.
+Give each group a ball.
+Keeping the ball inside the circle, players must strike the ball around with their hand, trying to score a point through another players legs.
+Players can try to stop or block the ball with their hands or arms, but can’t close their legs up to prevent a goal.
+When a point is scored, the person who was scored on must go and retrieve the ball.
+Play continues on for determined amount of time or score.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Players stand in a circle, feet wide, one ball in play.</li><li>The player with the ball strikes / rolls it, trying to send it between another player’s legs.</li><li>That player tries to stop it with hands or by closing the gap (agree the legal save before you start).</li><li>A ball that goes through scores a point for the striker, or the defender does a quick exercise — pick one.</li><li>Keep the ball moving. Works in several circles for a large class.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=XhvBg3o4aKs">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/strikeball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-39">
+  <header>
+    <p class="num">Game 39</p>
+    <h3>Catch &amp; Step</h3>
+    <p class="meta"><strong>Grades:</strong> 1-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Type of ball, or water balloons</p>
+  </header>
+  <p class="overview">This is a classic PE or camp game with the focus on throwing and catching. As players are successful, the game becomes more challenging. When unsuccessful, they might just get soaked! 
+How To Play:
+Pairs or partners start by facing eachother with a ball or water balloon. Start about 1 foot apart.
+The partners will be tossing the ball or balloon back and forth.
+For every successful catch, the person who caught it steps back.
+For every unsuccessful catch, the person who missed it steps forward.
+See how far apart groups can make it.
+This game is best played first with a ball until students are skilled, then take them outside to try with waterballons!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Partners start close and play catch with a ball (or, outdoors in warm weather, a water balloon).</li><li>After every successful catch, both players take one step backward.</li><li>On a drop, they take a step forward (or, if you are using water balloons, that pair is wet and rejoins with a ball).</li><li>See which pair ends farthest apart after a time cap.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=kDMU8tZhfLU">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/catch-step/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+</section><section class="category"><h2 id="Fitness, Warm-ups &amp; Locomotor">Fitness, Warm-ups &amp; Locomotor</h2>
+<article class="game" id="game-40">
+  <header>
+    <p class="num">Game 40</p>
+    <h3>RPS Warm-up</h3>
+    <p class="meta"><strong>Grades:</strong> 1-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 4 cones</p>
+  </header>
+  <p class="overview">Such a simple warm-up idea that students really enjoy. Once players know how to play it, it’s an instant activity to use to get your PE class started. Also doesn’t require any equipment really, except for 4 cones. It could be played anywhere, and is another great large group game! Guaranteed fun and movement.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Mark a centre meeting strip and two home end lines with 4 cones.</li><li>Students pair up and meet at the centre. They play one round of Rock-Paper-Scissors.</li><li>Winner chases loser toward the loser’s home line. A tag before the line scores for the winner; reaching the line first scores for the runner.</li><li>Both jog back to centre and play again immediately.</li><li>After 2–3 minutes, switch partners and repeat.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=3Th655zBdag">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/rps-warm-up/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-41">
+  <header>
+    <p class="num">Game 41</p>
+    <h3>Minute Fitness</h3>
+    <p class="meta"><strong>Grades:</strong> 3-8 &nbsp;·&nbsp; <strong>Equipment:</strong> None (or a variety)</p>
+  </header>
+  <p class="overview">Came up with an easy fitness activity that had maximal engagement. In this activity, students will go full-out exercise for 1 minute, then a 20s break, then on again for 1 minute, then a break, etc. I also use laminated posters as visuals to help students choose which exercises they wish to complete, but that’s optional. Here’s a link to the posters if you want (free download, absolutely no spam or promotion, etc): https://drive.google.com/file/d/1clLqzemKN-USZ7tOMx2oXah6YKJVVBC3/view</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Students spread out in personal space.</li><li>Optional: put up exercise posters so they can choose movements. Free posters: https://drive.google.com/file/d/1clLqzemKN-USZ7tOMx2oXah6YKJVVBC3/view</li><li>Work 1 minute at a strong effort (jumping jacks, squats, high knees, plank, mountain climbers, etc.).</li><li>Rest 20 seconds (walk / shake out).</li><li>Repeat 8–12 rounds. Students may change exercises each work interval.</li><li>Cool down with easy walking and name one exercise that raised heart rate.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=aWC3wPUOcY0">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/minute-fitness/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-42">
+  <header>
+    <p class="num">Game 42</p>
+    <h3>Immersive Workout ADVENTURE All Ages Brain Break</h3>
+    <p class="meta"><strong>Grades:</strong> 1-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Projector</p>
+  </header>
+  <p class="overview">A 5-minute interactive and active warm-up/workout. This one has an adventure theme all over the world with people, places, and things of all sorts. Included fitness activities such as jogging, jumping, swinging, climbing and more. A Physedgames version to play in PE class!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Project the official 5-minute adventure video so the whole class can see the screen.</li><li>Students stand in personal space facing the screen.</li><li>Play the video. Students copy every travel and fitness action (jog, jump, swing, climb, etc.).</li><li>Teacher models energy and safe spacing. Pause only if a movement needs a quick reteach.</li><li>Use as a warm-up, brain break, or indoor instant activity.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=bRjxhwZusns">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/immersive-workout-adventure-all-ages-brain-break/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-43">
+  <header>
+    <p class="num">Game 43</p>
+    <h3>Rush Hour</h3>
+    <p class="meta"><strong>Grades:</strong> K-3 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">A simple game. A ‘try not to crash’ game. And actually another really fun game. It’s a fantastic LARGE GROUP game too! (Thanks to Jiang Xiaolei)</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Students are cars in personal space. Review “look where you go” and no crashing.</li><li>Call a locomotor skill and a speed (slow traffic, city, highway).</li><li>Add rules: red light freeze, green light go, reverse, flat tire (hop), out of gas (sit or plank), carpool (join a partner).</li><li>If two cars touch, both do 5 jumping jacks and re-enter traffic.</li><li>Play 3–5 minutes as a primary warm-up.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=tLKsXd86naA">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/rush-hour/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-44">
+  <header>
+    <p class="num">Game 44</p>
+    <h3>Sneak &amp; React</h3>
+    <p class="meta"><strong>Grades:</strong> K-8 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">Great for all ages, super fun. Works on reaction timing. Use this one as an instant activity or a warm-up but it can be a stand alone game as well. You also don’t need any equipment either.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Class faces a leader in scattered formation.</li><li>On a sneak cue, students tiptoe forward. On a react cue (clap, colour, “TURN”) they sprint back or change action.</li><li>Mix in freeze, plank, jump-turn, partner high-five.</li><li>False start = 3 jumping jacks and rejoin. Let older students lead cue sequences.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=xPCr8CPp2Uw">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/sneak-react/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-45">
+  <header>
+    <p class="num">Game 45</p>
+    <h3>Throw &amp; Go</h3>
+    <p class="meta"><strong>Grades:</strong> 3-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Type of ball</p>
+  </header>
+  <p class="overview">Quick, easy, effective warm-up or instant activity, best played outside but could work indoors with a smaller group.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Pairs, one ball each, lots of space (best outside).</li><li>A throws a lead pass. B catches. Both immediately run and switch roles so the next throw happens on the move.</li><li>Continue down the field. On a drop, 3 jumps and keep going — no standing.</li><li>Change the throw type each round (bounce, roll, football). Switch partners after 2–3 minutes.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=QKjOqBPLG3g">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/throw-go/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-46">
+  <header>
+    <p class="num">Game 46</p>
+    <h3>Jump The River</h3>
+    <p class="meta"><strong>Grades:</strong> K-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 2 skipping ropes</p>
+  </header>
+  <p class="overview">Super simple, super fun jumping activity, especially for long jump practice :p (Thanks Deric Hafer)</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Lay two jump ropes parallel as river banks, starting close together.</li><li>Students jump the river (two-foot takeoff and landing, or a running long jump for older grades).</li><li>After a successful full-class pass, widen the ropes a little.</li><li>Touching a rope or the “water” means a quick swim motion or 5 bank jumps, then try again — do not eliminate anyone.</li><li>Vary the approach: hop, jump-turn, partner jump.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=jdaHgN9qHew">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/jump-the-river/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-47">
+  <header>
+    <p class="num">Game 47</p>
+    <h3>Pair Running</h3>
+    <p class="meta"><strong>Grades:</strong> 3-8 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">A German running method – literally means “Pair Run” – Wunderbar! (Thanks Brian Loeppky)</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>This is Paarlauf (“pair run”), a German relay method.</li><li>Partner A starts running a loop or shuttle. Partner B waits at the exchange point.</li><li>A tags / hands off to B. B runs while A recovers. They keep exchanging so one partner is always running.</li><li>Use a track, gym perimeter, or out-and-back cones. Set a time (3–6 minutes) rather than a distance so every pair stays moving.</li><li>Coach even pacing and a gentle tag handoff — no shoving.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=AWHUboD1uj0">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/paarlauf/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-48">
+  <header>
+    <p class="num">Game 48</p>
+    <h3>Mirror Mirror</h3>
+    <p class="meta"><strong>Grades:</strong> 1-5 &nbsp;·&nbsp; <strong>Equipment:</strong> Music</p>
+  </header>
+  <p class="overview">Mirror Mirror could be a stand-alone game, could be used as a warm-up, or fitness activity. Quite a bit of action in this one. Start by dividing players into 2 equal groups. One group stands outside the basketball court line, while the other group stands inside. When the music plays, the group on the outside runs in one direction, while the group on the inside runs in the opposite direction. When the music stops, the group on the outside STOPS and FREEZES into any position/pose that they want. The players from the inside must then go and stand in front (1-2 meters apart) of a frozen player and copy or mirror the pose. Then the outside group becomes the inside group, vice-versa. If there’s an odd number, assign 1 player that is allowed to join a group. For older students, challenge them with a fitness pose – like a plank, side plank, lunge, squat, etc. Give it a go, let us know what you think! (Thanks to Anne Guilmaine for this idea)</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two equal groups. Group A stands outside the basketball court line; Group B stands inside.</li><li>Music on: outside group runs one direction, inside group runs the opposite direction.</li><li>Music off: the outside group FREEZES in any pose. Inside players each stand 1–2 metres in front of a frozen player and mirror the pose.</li><li>Swap roles (outside becomes inside). If numbers are odd, allow one extra player to join a group.</li><li>For older students require fitness poses (plank, lunge, squat).</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=ox-HgTgaJHA">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/mirror-mirror/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-49">
+  <header>
+    <p class="num">Game 49</p>
+    <h3>Fitness Musical Hoops</h3>
+    <p class="meta"><strong>Grades:</strong> 2-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Hula hoops, music</p>
+  </header>
+  <p class="overview">In this fitness or warm-up game, hula hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. Players cannot cross through center. Once the music starts they perform the cardio exercise of the teacher’s choice: jogging, running, skipping, cross-overs, etc. When the music stops they must get to a hoop within a few seconds. There can be as many people inside any hoop as possible, however everyone must be in a hoop. If anyone person is not standing inside a hoop, including all feet, then the entire class must do reps of a muscular exercise (push-ups for example). Once completed, a new cardio activity is given, the music begins again and the students do the next activity, however, once the music begins and the students are moving, the instructor removes one hula hoop from the game, etc, etc, until there is only one hoop left. At this point, give two jumping jacks per person for every one person that doesn’t make it into the hoop. And that’s fitness musical hoops!
+(Thanks to Paul Ford for this game idea)</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Place hoops around the basketball-court perimeter. Students travel OUTSIDE the court line only — no cutting through the middle.</li><li>Music on: perform the cardio you name (jog, skip, carioca, etc.).</li><li>Music off: everyone must stand inside a hoop (all feet in) within a few seconds. Hoops may be shared.</li><li>If anyone is not in a hoop, the WHOLE class does a muscular exercise (e.g. push-ups).</li><li>When music restarts, remove one hoop. Repeat until one hoop remains. Then use a lighter consequence (e.g. 2 jumping jacks per person left out).</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=_QEnsaWZsoM">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/fitness-musical-hoops/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-50">
+  <header>
+    <p class="num">Game 50</p>
+    <h3>The Number Game</h3>
+    <p class="meta"><strong>Grades:</strong> K-6 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">This warm-up or teambuilding game is simple, yet awesome! Students spread out in the playing area. Give maybe 20-30 seconds for them to just run around and around (or skip, hop, gallop, spin, etc). When the time is right, the teacher yells out a number (example, “SIX!”) and then the students must quickly form groups of 6 (or whatever number is called). Any players who didn’t make a group must complete 6 jumping jacks or exercise of choice. Then play again! Great to play along with music. Especially a great idea for large groups of students. Also, a good discussion about inclusion and personal/social feelings could be attached to this game.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Students spread out and travel for 20–30 seconds (run, skip, hop, gallop, spin).</li><li>Teacher yells a number (“SIX!”). Students instantly form groups of that size.</li><li>Anyone left out does that many jumping jacks (or a chosen exercise) and rejoins.</li><li>Travel again and call a new number. Use music if you like.</li><li>After play, a short talk on inclusion and how it feels to be left out / invited in.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=Y63CWQOyh90">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/the-number-game/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-51">
+  <header>
+    <p class="num">Game 51</p>
+    <h3>Rainbow Road</h3>
+    <p class="meta"><strong>Grades:</strong> K-4 &nbsp;·&nbsp; <strong>Equipment:</strong> Colored spots (lilly pads), or hula hoops</p>
+  </header>
+  <p class="overview">In ‘Rainbow Road’ teams of players will move in different patterns along spots on the floor depending on which color sequence is called out. A variety of movement skills can be used to spice things up. 
+Create 4 teams. Each team stands against a side wall.
+Place different colored spots or hula-hoops randomly throughout the gym.
+Call out a pattern: for example, ‘red, blue, green, blue, yellow’.
+All players run from spot to spot, following the pattern. Once finished, players return to their team’s side.
+Call out a new pattern. Repeat as you’d like for as many rounds.
+Switch the movement skill from running to something like hopping, skipping, galloping, lunging, etc.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Create 4 teams, each against a different side wall.</li><li>Scatter coloured spots or hoops all over the gym.</li><li>Call a colour pattern (“red, blue, green, blue, yellow”). All players run spot-to-spot in that order, then return to their wall.</li><li>Call a new pattern. Change the locomotor skill (hop, skip, gallop, lunge) each round.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=4p-UsGMiVjg">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/843/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-52">
+  <header>
+    <p class="num">Game 52</p>
+    <h3>Bridges &amp; Rivers</h3>
+    <p class="meta"><strong>Grades:</strong> K-4 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">Players will form either bridges or rivers and perform jumps or crawls depending what’s called out. Lots of fun to be had by all, especially if this game is played along to music. 
+Choose half of the players to be bridges and the other half rivers.
+When music starts (or on signal), all players start running or moving around.
+When music stops, yell out either ‘bridges’ or ‘rivers’.
+If ‘bridges’ is called, then all bridges form a bridge with their body and the rivers crawl under as many bridges as they can.
+If ‘rivers’ is called, then all rivers form a river by laying flat and the bridges jump over as many as they can.
+Start music back up and players resume running around until music stops, etc.
+Continue rounds as desired.
+Switch players roles after awhile.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>On “BRIDGES,” some students make a stable bridge (hands and feet on the floor, back flat). Others are rivers and crawl under.</li><li>On “RIVERS,” some students lie or crouch as a low river. Others jump over.</li><li>Teacher (or a student caller) switches the call. Play to music.</li><li>Rotate who is the structure and who is travelling so everyone jumps and everyone holds.</li><li>Cue safe landings and no collapsing on a crawler.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=5fJAYYhodzo">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/bridges-rivers/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-53">
+  <header>
+    <p class="num">Game 53</p>
+    <h3>Hula Hoop Twister</h3>
+    <p class="meta"><strong>Grades:</strong> K-4 &nbsp;·&nbsp; <strong>Equipment:</strong> Hula hoops, music</p>
+  </header>
+  <p class="overview">It’s a combo of musical chairs and the Twister board game which for sure means it’s fun and active, definitely worth giving it a play or 10 in your PE class 😀 (thanks Deric Hafer)</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Scatter coloured hoops like a giant Twister board.</li><li>Music on: travel around the hoops with the locomotor skill you name.</li><li>Music off: call a body part + colour (“right hand, blue”). Students place that body part in a matching hoop.</li><li>Sharing a hoop is allowed. Anyone who cannot get in does 5 fun reps and rejoins.</li><li>Remove 1–2 hoops each round.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=vFE9utBS084">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/hula-hoop-twister/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-54">
+  <header>
+    <p class="num">Game 54</p>
+    <h3>Hulahoop Madness</h3>
+    <p class="meta"><strong>Grades:</strong> K-5 &nbsp;·&nbsp; <strong>Equipment:</strong> Hula hoops, music</p>
+  </header>
+  <p class="overview">Another movement game to help enhance discussions and awareness of personal space. Hula hoop madness starts with lots of hula hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away after every round, there won’t be many left, and things start to get squishy. 
+Place hulas all along the floor.
+Students spread out in the area.
+When the music starts, students move and run around all over the gym, except not in the hula hoops.
+When the music stops, they quickly jump into the closest hula hoop.
+Take a hoop away and start the music up again.
+Students continue moving around, until the music stops.
+Etc, etc, keep taking hoops away and eventually students start crowding eachothers personal space.
+Great for laughs and getting sweaty!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Start with many hoops on the floor and music playing. Students travel among the hoops.</li><li>When music stops, every student must jump into a hoop (sharing allowed).</li><li>Remove hoops each round. Space gets tighter — talk about personal space and consent before bodies get close.</li><li>When few hoops remain, end the game rather than forcing an unsafe squash. Use a fitness challenge instead of elimination.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=JIBAnKESha0">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/hulahoop-madness/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-55">
+  <header>
+    <p class="num">Game 55</p>
+    <h3>The Video Camera Game</h3>
+    <p class="meta"><strong>Grades:</strong> K-5 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">Very simple warm-up game with a simple idea: the teacher calls out familiar actions that you would find on a video camera – play, stop, rewind, fast forward, etc. For each word that’s called out, the students will have to perform the related action within the playing area. Call random orders and mix it up! Switch leaders after awhile too to create their own patterns or sequences. Here’s what we have to get you started: 
+Play – walk around
+Rewind – travel backwards
+Pause – jump!
+Fast forward – run
+Stop – stop movement
+Slow motion – slow movement
+Delete – face down lying flat on the floor
+Can you think of some other actions?</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Teach the camera words and actions, for example: PLAY = jog forward; STOP = freeze; REWIND = run backward; FAST FORWARD = sprint; PAUSE = freeze in a pose; SLOW MOTION = exaggerated slow move; RECORD = wave an imaginary camera.</li><li>Caller mixes the words. Students perform the matching action in the playing area.</li><li>After a minute, switch callers so students invent sequences.</li><li>Use as a K–5 warm-up.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=wm8MZpiX28g">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/the-video-camera-game/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-56">
+  <header>
+    <p class="num">Game 56</p>
+    <h3>Animals</h3>
+    <p class="meta"><strong>Grades:</strong> K-2 &nbsp;·&nbsp; <strong>Equipment:</strong> None</p>
+  </header>
+  <p class="overview">Such a simple warm-up game! Choose a theme – for example, the jungle. Then students can choose a jungle animal that they will pretend to be, perhaps a monkey or parrot, and spend a minute moving around like that animal, making the animal noises. After a minute, change the theme. For example, the arctic. Students will then choose an arctic animal like a penguin or seal and do the same thing.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Call a habitat theme (jungle, arctic, farm, ocean).</li><li>Each student picks an animal from that habitat and moves + makes the sound for about one minute.</li><li>Change the theme and repeat. Encourage different levels (high bird, low snake) and speeds.</li><li>K–2 warm-up; no equipment.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=snc-gHEyKSA">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/animals/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-57">
+  <header>
+    <p class="num">Game 57</p>
+    <h3>Red Line</h3>
+    <p class="meta"><strong>Grades:</strong> K-6 &nbsp;·&nbsp; <strong>Equipment:</strong> Cones, balls</p>
+  </header>
+  <p class="overview">Here’s a unique commands and directions game, with a ‘race’ and competition element, can be used pretty much through all the grade levels (thanks James Barton)!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Use court lines or cone several parallel lines. Students start on a baseline.</li><li>Teach a small set of commands (example: “red line,” “back,” “spin,” “ball”).</li><li>Call commands in mixed order. Students race to the correct line or perform the action.</li><li>Add a team race: first team to finish a sequence correctly scores.</li><li>For older students add two-part commands or a fitness hold on arrival.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=Ep0mCxGB8cI">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/red-line/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-58">
+  <header>
+    <p class="num">Game 58</p>
+    <h3>Oyster Shell</h3>
+    <p class="meta"><strong>Grades:</strong> 2-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 1 beanbag, floor lines (or cones)</p>
+  </header>
+  <p class="overview">Here’s a fun little reacting and running competition that can basically be used for all ages. You don’t need much for equipment either. Split the group into 2 teams, they don’t even have to be even numbers. If you’ve got cones, you could try it outside too!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams on opposite sidelines facing a centre line. Teams do not need even numbers.</li><li>Place one beanbag on the centre line (the oyster).</li><li>Number the players on each side. Call a number; those two sprint to the beanbag.</li><li>Whoever grabs it tries to run it home across their sideline. The other player tries to tag them.</li><li>1 point for a successful return OR 1 point for a tag. Reset and call a new number. Call two numbers for 2-v-2.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=yqsQAKs5fTw">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/oyster-shell/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+</section><section class="category"><h2 id="Team-building &amp; Cooperative">Team-building &amp; Cooperative</h2>
+<article class="game" id="game-59">
+  <header>
+    <p class="num">Game 59</p>
+    <h3>Ice Cream Cone Relays</h3>
+    <p class="meta"><strong>Grades:</strong> K-4 &nbsp;·&nbsp; <strong>Equipment:</strong> foam balls, cones</p>
+  </header>
+  <p class="overview">Here are 3 relay ideas with an ice cream theme to use as a team-building, stand-alone, or field day event!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Split the class into even relay teams. Give each team a home marker and foam balls (scoops) plus cones (the waffle cones).</li><li>Relay A — Scoop stack: Runner 1 carries one foam ball to the far cone, balances it as a scoop, and sprints back to tag the next player. First team to stack the set number of scoops without a collapse wins.</li><li>Relay B — Build the cone: Cones start nested at home. Runners take turns carrying one cone out and stacking a taller ice-cream cone at the far end. Rebuild if it falls.</li><li>Relay C — Take the order: Teacher calls an order (“3 scoops”). The runner must carry that many balls in one trip, place them on the cone, and return.</li><li>Change locomotor skills between relays (run, skip, gallop). Use as a field-day rotation or a single lesson.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=K65d2E4q3mU">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/ice-cream-cone-relays/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-60">
+  <header>
+    <p class="num">Game 60</p>
+    <h3>Cooperative Wall Ball</h3>
+    <p class="meta"><strong>Grades:</strong> 1-8 &nbsp;·&nbsp; <strong>Equipment:</strong> ball, exercise ball</p>
+  </header>
+  <p class="overview">Here’s a fun teamwork game. It’s very easy to play, and it’s great to use to for a fun cooperative experience. There are actually 3 ways to play, each with a varying level of difficulty. Start by asking your players to explain what cooperation means. And they will soon realize that if they work together, they will accomplish the task quickly and effectively!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Ask the class what cooperation looks like and sounds like.</li><li>Level 1: Keep a playground ball going against a wall for a target number of hits. Drop = restart the count together.</li><li>Level 2: Same task, but no player may touch the ball twice in a row.</li><li>Level 3: Switch to a large exercise ball that the group must control off the wall together.</li><li>Time attempts. Celebrate the group streak, not star players. Split a huge class into wall groups.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=WPo9dTpj-Fg">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/cooperative-wall-ball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-61">
+  <header>
+    <p class="num">Game 61</p>
+    <h3>Pass It On</h3>
+    <p class="meta"><strong>Grades:</strong> 2-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Hula hoops, various items</p>
+  </header>
+  <p class="overview">This team-building game is great for any physical education class. Players will work together to pass objects to each other to be the first team to successfully move all objects from one end to the other. There’s a catch though…players are must all lay down on their backs and pass only with their feet. 
+Create teams of even numbers.
+In their teams, players lay down on their backs and form a line, head to toe.
+One hula hoop is placed at the foot of the first person in line. This hula hoop contains random objects to be moved.
+One hula hoop is placed at the head of the last person in line. This hula hoop is the collection bin.
+On the signal, players work together to be the first team to successfully pass all of their objects from one hoop to the other by only using their feet. 
+Play as many times as desired.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Teams lie on their backs in a line from one end of the gym toward the other.</li><li>Objects start at one end. Players may pass ONLY with their feet — no hands.</li><li>Move every object down the line into a hoop or pile at the far end.</li><li>First team to move all objects wins. If an item touches a hand or the floor off-plan, restart that item.</li><li>Great team-builder; mix item sizes to change difficulty.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=MlUpvUQIvng">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/pass-it-on/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-62">
+  <header>
+    <p class="num">Game 62</p>
+    <h3>Hoop Pass</h3>
+    <p class="meta"><strong>Grades:</strong> K-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Hula Hoop</p>
+  </header>
+  <p class="overview">Team-building game. A group holds hands in a circle or line and passes a hula hoop from player to player without breaking the chain-link. Not as easy as it sounds! Time trials, team vs. team, or large group are all fun ways to play this game.</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>A group holds hands in a circle or line. A hula hoop starts on one person’s arm.</li><li>Pass the hoop around the group WITHOUT letting go of hands — step through, wriggle it over bodies.</li><li>Time trials, team vs team, or one giant class circle all work.</li><li>If the chain breaks, restart the hoop at the break. Talk about communication.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=PGB_LJKKqX0">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/hoop-pass/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-63">
+  <header>
+    <p class="num">Game 63</p>
+    <h3>The Great Outdoor Treasure Hunt</h3>
+    <p class="meta"><strong>Grades:</strong> K-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Nature</p>
+  </header>
+  <p class="overview">What better way to use outdoor space than a scavenger hunt!? This hunt is a bit different from your typical hunt, because instead of a list that players need to just check off when they see the items, they must BRING THE ITEMS HOME to their collection area. You can and should create a secret treasure item that you’ve hidden somewhere outside beforehand (for example hide a Kleenex box somewhere good and players need to also retrieve a tissue from the box). Simply start by creating a home area where individuals or partners (depending how you want to do it) put their hula hoop on the ground, which is their collection area to bring the items into. Next, go over the rules with all students, and give them a list of the items (or leave a master poster at the home area so they have to use their memory). Note that they can only bring 1 item back at a time! Obviously choose items that students can find or access in your area/community. Stress the importance of respecting property and not taking things that they shouldn’t. At the end, players will return all the items that need to be returned!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Each student or pair places a hoop as HOME / collection zone.</li><li>Give a list of natural or outdoor items they may collect (or post one master list at home base). Hide one secret “treasure” (example: a tissue from a hidden box).</li><li>Players may carry only ONE item home at a time.</li><li>Respect property: take only what you listed; no harming plants or taking things that are not allowed.</li><li>At the end, return every item that should be returned. Count collections and who found the secret treasure.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=JHPxFTPkzNo">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/the-great-outdoor-treasure-hunt/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+</section><section class="category"><h2 id="Invasion, Capture &amp; Role Games">Invasion, Capture &amp; Role Games</h2>
+<article class="game" id="game-64">
+  <header>
+    <p class="num">Game 64</p>
+    <h3>Capture The Flag Outdoors</h3>
+    <p class="meta"><strong>Grades:</strong> 3-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 2 Flags, large playing area</p>
+  </header>
+  <p class="overview">This has been the GAME OF THE YEAR at our school. LOTS of Fun, many skills and laughs have been had. Competition at its finest, and what a workout. It’s the standard version of Capture The Flag brought to physical education class! Find a large area (field, community center, playground, bushes, forest), make 2 teams, and get started. Teams spend a minute hiding their flag on their half of the area (no peeking). Once hidden, GO! The goal of the game is to capture the other teams flag before they capture yours and bring it across the middle line. Careful on the opponents side, because if you get tagged, you go to the jail for 2 mins. The tagger needs to tap the jail (a bench or something) and then they can resume play. No puppy-guarding the flag. Add in extra rules as you see fit, please watch the video for more specifics, I don’t have the time or the will to type everything out… just want to say thanks to Paul Grosskopf, a friend and colleague for setting all these things up for us this year (rules, mods, locations, flags, etc).</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Find a large outdoor area and split it in half. Two teams, one flag each.</li><li>Give teams about a minute to hide their flag on their own half (no peeking). No “puppy-guarding” the flag.</li><li>On GO, teams try to steal the other flag and carry it back across the middle line.</li><li>If you are tagged on the opponent’s half, go to jail for 2 minutes. A teammate can free you by tagging the jail object after a tagger taps it — follow the video for the exact jail sequence used at their school.</li><li>Add house rules as needed (boundary, flag-hide limits). Watch the official video before the first play.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=E1TJQ_W-bPA">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/capture-the-flag-outdoors/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-65">
+  <header>
+    <p class="num">Game 65</p>
+    <h3>Ultimate Warriors</h3>
+    <p class="meta"><strong>Grades:</strong> K-8 &nbsp;·&nbsp; <strong>Equipment:</strong> Foam balls, cones</p>
+  </header>
+  <p class="overview">Ultimate Warriors is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodgeball going on at the same time (each 3rd correlates with a group: farmers -} knights -} warriors). If a player is hit with a ball, the player moves down and the thrower moves up. The goal is to get to the top league (the warriors). If you’re in the top league (the warriors) and you hit someone you don’t move up and if you’re in the bottom league (the farmers) you don’t move down. Set a time limit to the game. The winners are the players who finish in the top league at the end of the round. Use your own dodgeball rules and as always HAVE FUN!!! (Thanks to Joe Defreitas)</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Cone the gym into 3 zones: Farmers (bottom), Knights (middle), Warriors (top).</li><li>Three mini-dodgeball games run at once, one in each zone, with foam balls.</li><li>If you HIT someone, you move UP a league. If you GET hit, you move DOWN a league.</li><li>Farmers cannot go lower. Warriors cannot go higher. Use your regular PE dodgeball hit rules (below shoulders, foam only).</li><li>Play a time cap. Winners are whoever finishes the round as Warriors.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=-URBEEkYyWg">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/ultimate-warriors/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-66">
+  <header>
+    <p class="num">Game 66</p>
+    <h3>Home Alone</h3>
+    <p class="meta"><strong>Grades:</strong> K-4 &nbsp;·&nbsp; <strong>Equipment:</strong> Hula hoops, cones</p>
+  </header>
+  <p class="overview">A great game to help with visual awareness, strategic play, attacking, and defense. Try out HOME ALONE. Basically goes like this: lay out 8 hoops in a playing area and choose 1 player to stand in each hoop. Give the players in the hoop a cone (or item of your choice) – the cone/item represents the key to their house. THEY MUST PROTECT THE KEY!! Everyone else who doesn’t have a key is a theif and they will try to take the key without getting tagged by the player in the hoop. If tagged then they try stealing from someone else, however, if successful, then they swap with the player in the hoop. Give it a go!!! (Thanks to Joe Defreitas)</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Lay out about 8 hoops. One player stands in each hoop with a cone — that cone is the KEY to the house. They must protect it.</li><li>Everyone else is a thief and tries to steal a key without being tagged by the player in that hoop.</li><li>If tagged, try a different house. If the steal succeeds, thief and homeowner swap roles.</li><li>House players may tag only while keeping one foot in (or next to) their hoop.</li><li>Play short rounds so many students get to be homeowners.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=4CE6Z8rnCSc">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/home-alone/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+
+<article class="game" id="game-67">
+  <header>
+    <p class="num">Game 67</p>
+    <h3>Bench Ball</h3>
+    <p class="meta"><strong>Grades:</strong> 3-8 &nbsp;·&nbsp; <strong>Equipment:</strong> 2 benches, dodgeballs</p>
+  </header>
+  <p class="overview">Bench ball is arguably one of the best low organized throwing and catching games. The goal is to be the first team to get your players onto the bench. But how do you get on the bench? Your ball must be caught by your teammate(s) who are already on the bench. Every catch adds another player to the bench. Teams can guard and block as well to increase the challenge. Lots of fun to be had by all, and lots of skill work and development as well. 
+Set-up the benches in the gym – 1 on each side.
+Create 2 teams. 1 player from each team starts on the opposite bench.
+Add in the dodgeballs. Teams try to be the first team to get their players on the bench (for example first to have 6 on the bench).
+Players get to go to the bench when their ball is caught by their teammate on the bench.
+Players can block to make it harder for the catchers.
+Play many, many rounds and get lots of throwing and catching reps. As well as HAVING FUN!</p>
+  <h4>How to play</h4>
+  <ol class="steps"><li>Two teams. A bench at each far end. Start with 1–2 teammates already on your bench.</li><li>Stay on your half. Throw a foam ball so a teammate ON THE BENCH catches it.</li><li>Every legal catch lets one new teammate climb onto the bench.</li><li>Defense may intercept or block throws. First team to get all (or a target number) of its players on the bench wins.</li><li>This is the catch-onto-the-bench game — not Bench Dodgeball.</li></ol>
+  <p class="links">
+    <a href="https://www.youtube.com/watch?v=W7L2Z39pLK8">YouTube video</a>
+    &nbsp;·&nbsp;
+    <a href="https://physedgames.com/bench-ball/">Original PHYSEDGAMES page</a>
+  </p>
+</article>
+</section>
+
+  <footer class="page-foot">
+    Games and videos © PHYSEDGAMES (physedgames.com) and credited teachers.
+    Handbook compiled as a teaching aid with source and video links for each game.
+  </footer>
+</div>
+</body>
+</html>

@@ -246,8 +246,9 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
     function gslug(name) {
       return name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
     }
-    function typeOf(name) {
-      const low = String(name || "").toLowerCase();
+    function typeOf(g) {
+      if (g && typeof g === "object" && g.type) return g.type;
+      const low = String((g && g.name) || g || "").toLowerCase();
       for (const t of TYPES) {
         for (const w of TYPE_WORDS[t.id] || []) {
           if (low.includes(w)) return t.id;
@@ -268,8 +269,8 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       unique.push(g);
     });
     unique.sort((a, b) => {
-      const ta = TYPES.findIndex((t) => t.id === typeOf(a.name));
-      const tb = TYPES.findIndex((t) => t.id === typeOf(b.name));
+      const ta = TYPES.findIndex((t) => t.id === typeOf(a));
+      const tb = TYPES.findIndex((t) => t.id === typeOf(b));
       if (ta !== tb) return ta - tb;
       return a.name.localeCompare(b.name, "en");
     });
@@ -294,17 +295,17 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       const term = (q && q.value || "").toLowerCase();
       const EX = window.GAME_EXTRAS || {};
       const filtered = unique.filter((g) => {
-        if (activeType !== "all" && typeOf(g.name) !== activeType) return false;
+        if (activeType !== "all" && typeOf(g) !== activeType) return false;
         const x = EX[g.name] || {};
         const hay = [g.name, g.source, g.purpose, (g.play || []).join(" "), (g.months || []).join(" "),
-          (x.more || []).join(" "), (x.variations || []).join(" "), x.look || "", typeLabel(typeOf(g.name))].join(" ").toLowerCase();
+          (x.more || []).join(" "), (x.variations || []).join(" "), x.look || "", typeLabel(typeOf(g))].join(" ").toLowerCase();
         return !term || hay.includes(term);
       });
 
       if (indexBox) {
         const groups = TYPES.map((t) => ({
           ...t,
-          games: filtered.filter((g) => typeOf(g.name) === t.id),
+          games: filtered.filter((g) => typeOf(g) === t.id),
         })).filter((t) => t.games.length);
         indexBox.innerHTML = groups.map((group) =>
           `<h3 style="margin:16px 0 6px;color:var(--green);font-size:.92rem;text-transform:uppercase;letter-spacing:.08em">${group.label}</h3>
@@ -378,20 +379,52 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
     const q = document.getElementById("q");
     const box = document.getElementById("list");
     const clips = window.VIDEOS || [];
+    const TYPES = [
+      { id: "tag", label: "Tag & chase" },
+      { id: "invasion", label: "Invasion & team" },
+      { id: "target", label: "Target & send" },
+      { id: "strike", label: "Strike & field" },
+      { id: "relay", label: "Relays & stations" },
+      { id: "loco", label: "Locomotor & listen" },
+      { id: "coop", label: "Cooperative & circus" },
+      { id: "fitness", label: "Fitness & landings" },
+      { id: "dodge", label: "Dodgeball" },
+      { id: "other", label: "Gymnastics & other" },
+    ];
+    const byName = {};
+    (window.GAME_DETAILS || []).forEach((g) => { byName[String(g.name).toLowerCase()] = g.type || "loco"; });
+    const dodgeNames = new Set((window.DODGE_GAMES || []).map((g) => String(g.name).toLowerCase()));
+    function groupOf(v) {
+      for (const n of v.games || []) {
+        const low = String(n).toLowerCase();
+        if (dodgeNames.has(low) || low.includes("dodgeball")) return "dodge";
+        if (byName[low]) return byName[low];
+      }
+      if (/gymnast|log roll/i.test((v.title || "") + (v.about || ""))) return "other";
+      return "other";
+    }
     function render() {
       const term = ((q && q.value) || "").toLowerCase();
-      const cards = clips.filter((v) => {
+      const filtered = clips.filter((v) => {
         const hay = [v.title, v.channel, v.about, (v.games || []).join(" ")].join(" ").toLowerCase();
         return !term || hay.includes(term);
-      }).map((v) => `
+      });
+      const html = TYPES.map((t) => {
+        const group = filtered.filter((v) => groupOf(v) === t.id);
+        if (!group.length) return "";
+        return `<h2 style="margin:24px 0 8px;color:var(--navy)">${t.label}</h2>` + group.map((v) => `
         <article class="gcard">
           <div class="ghead"><h2>${v.title}</h2></div>
           <p class="meta">${v.channel}</p>
           <p>${v.about}</p>
-          <p class="meta"><strong>Use with:</strong> ${(v.games || []).join(" · ")}</p>
+          <p class="meta"><strong>Use with:</strong> ${(v.games || []).map((n) => {
+            const sl = String(n).toLowerCase().replace(/[^a-z0-9]+/g, "-");
+            return `<a href="games.html#${sl}">${n}</a>`;
+          }).join(" · ")}</p>
           <p class="yt"><a href="${v.url}" target="_blank" rel="noopener">Open on YouTube</a></p>
         </article>`).join("");
-      box.innerHTML = cards || "<p>No matches.</p>";
+      }).join("");
+      box.innerHTML = html || "<p>No matches.</p>";
     }
     if (q) q.addEventListener("input", render);
     render();
