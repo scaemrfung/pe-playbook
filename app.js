@@ -20,6 +20,28 @@
     return String(name).toLowerCase().replace(/[^a-z0-9]+/g, "-");
   }
 
+  /** Stable 2–4 look-fors for the month table. Full list stays on the game card. */
+  function pickMonthOutcomes(list, seed) {
+    const src = (list || []).filter((it) => it && it.look);
+    if (src.length <= 4) return src;
+    let h = 2166136261;
+    const key = String(seed || "");
+    for (let i = 0; i < key.length; i++) {
+      h ^= key.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    const copy = src.slice();
+    for (let i = copy.length - 1; i > 0; i--) {
+      h = (h * 1664525 + 1013904223) >>> 0;
+      const j = h % (i + 1);
+      const tmp = copy[i];
+      copy[i] = copy[j];
+      copy[j] = tmp;
+    }
+    const n = 2 + (h % 3); // 2, 3, or 4
+    return copy.slice(0, Math.min(n, copy.length));
+  }
+
   function gameCatalog() {
     const names = new Set(Object.keys(window.GAME_EXTRAS || {}));
     [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || [], window.SKILL_DETAILS || [], window.BG30_DETAILS || []).forEach((g) => {
@@ -202,13 +224,14 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       </div>
       <div class="panel">
         <h2>Big-group games this month</h2>
-        <p class="note">These are the 30-minute classroom versions. Simplify for Grades 1–2: walk more, fewer taggers, skip grabbing games until Grade 3+.</p>
+        <p class="note">These are the 30-minute classroom versions. Simplify for Grades 1–2: walk more, fewer taggers, skip grabbing games until Grade 3+. Month table shows 2–4 look-fors; open the game card for all seven PEW outcomes.</p>
         <table class="games">
           <thead><tr><th>Game</th><th>How we run it</th><th>Outcomes</th></tr></thead>
           <tbody>${bank.map((r) => {
           const sl = r[0].toLowerCase().replace(/[^a-z0-9]+/g, "-");
           const x = (window.GAME_EXTRAS || {})[r[0]] || {};
-          const out = (x.outcomes || []).map((it) => `<strong>${it.code}.</strong> ${it.look}`).join("<br>");
+          const picked = pickMonthOutcomes(x.outcomes || [], r[0]);
+          const out = picked.map((it) => `<strong>${it.code}.</strong> ${it.look}`).join("<br>");
           return `<tr><td><strong><a href="games.html#${sl}">${r[0]}</a></strong></td><td>${r[2]}</td><td>${out}</td></tr>`;
         }).join("")}</tbody>
         </table>
