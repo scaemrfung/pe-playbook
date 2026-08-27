@@ -20,10 +20,10 @@
     return String(name).toLowerCase().replace(/[^a-z0-9]+/g, "-");
   }
 
-  /** Stable 2–4 look-fors for the month table. Full list stays on the game card. */
+  /** Stable 2–3 look-fors for the month table. Full list stays on the game card. */
   function pickMonthOutcomes(list, seed) {
     const src = (list || []).filter((it) => it && it.look);
-    if (src.length <= 4) return src;
+    if (src.length <= 3) return src;
     let h = 2166136261;
     const key = String(seed || "");
     for (let i = 0; i < key.length; i++) {
@@ -38,7 +38,7 @@
       copy[i] = copy[j];
       copy[j] = tmp;
     }
-    const n = 2 + (h % 3); // 2, 3, or 4
+    const n = 2 + (h % 2); // 2 or 3
     return copy.slice(0, Math.min(n, copy.length));
   }
 
@@ -186,10 +186,10 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
         head = `<h2 class="week-title">${m.name} · Week ${week}</h2>`;
       }
       const o = LO[`${m.name}-${L.w}-${L.c}`];
-      const items = (o && o.items) || [];
+      const items = pickMonthOutcomes((o && o.items) || [], `${m.name}-${L.w}-${L.c}`);
       const outRow = items.length ? `<div class="row out"><div class="t">Outcomes</div>
             <div class="d">${items.map((it) => `<div><strong>${it.code}.</strong> ${it.look}</div>`).join("")}
-            <span class="meta">PEW K–6 · LearnAlberta</span></div></div>` : "";
+            <span class="meta">PEW K–6 · LearnAlberta · 2–3 look-fors</span></div></div>` : "";
       return head + `<article class="lesson" data-week="${L.w}">
         <div class="top"><h3>W${L.w} · C${L.c} — ${L.title}</h3><small>${L.focus}</small></div>
         <div class="rows">
@@ -224,7 +224,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       </div>
       <div class="panel">
         <h2>Big-group games this month</h2>
-        <p class="note">These are the 30-minute classroom versions. Simplify for Grades 1–2: walk more, fewer taggers, skip grabbing games until Grade 3+. Month table shows 2–4 look-fors; open the game card for all seven PEW outcomes.</p>
+        <p class="note">These are the 30-minute classroom versions. Simplify for Grades 1–2: walk more, fewer taggers, skip grabbing games until Grade 3+. This table shows 2–3 look-fors per game. Open the game card for all seven PEW outcomes.</p>
         <table class="games">
           <thead><tr><th>Game</th><th>How we run it</th><th>Outcomes</th></tr></thead>
           <tbody>${bank.map((r) => {
@@ -340,7 +340,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
 
       const cardGroups = TYPES.map((t) => ({
         ...t,
-        games: filtered.filter((g) => typeOf(g.name) === t.id),
+        games: filtered.filter((g) => typeOf(g) === t.id),
       })).filter((t) => t.games.length);
 
       const cards = cardGroups.map((group) => {
@@ -353,8 +353,9 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
           <article class="gcard" id="${gslug(g.name)}">
             <div class="ghead">
               <h2>${numbers[g.name]}. ${g.name}</h2>
+              <span class="src">${group.label}</span>
             </div>
-            <p class="meta"><strong>Type:</strong> ${group.label} · <strong>When:</strong> ${(g.months || []).join(", ") || "Anytime"} · <strong>Slot:</strong> ${g.slot || "—"}${x.numbers ? ` · ${x.numbers}` : ""}</p>
+            <p class="meta"><strong>When:</strong> ${(g.months || []).join(", ") || "Anytime"} · <strong>Slot:</strong> ${g.slot || "—"}${x.numbers ? ` · ${x.numbers}` : ""}</p>
             <p>${g.purpose || ""}</p>
             <p class="meta"><strong>Equipment:</strong> ${g.equipment || ""}</p>
             <p class="meta"><strong>Set-up:</strong> ${g.setup || ""}</p>
@@ -362,11 +363,11 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
             <ol class="clean">${(g.play || []).map((s) => `<li>${s}</li>`).join("")}${more}</ol>
             ${cues ? `<p><strong>Cues</strong></p><ul class="clean">${cues}</ul>` : ""}
             ${vars ? `<p><strong>Variations</strong></p><ul class="clean">${vars}</ul>` : ""}
-            ${videoHtml(g.name)}${x.look ? `<p class="note"><strong>Look-for.</strong> ${x.look}</p>` : ""}
+            ${videoHtml(g.name)}
             ${(() => {
               const outs = (x.outcomes && x.outcomes.length) ? x.outcomes : (x.look ? [{ code: "Look-for", look: x.look }] : []);
-              if (!outs.length) return "";
-              return `<div class="outcomes-box"><h3>Alberta PEW outcomes</h3><ul class="clean">${outs.map((it) => `<li><strong>${it.code}.</strong> ${it.look}</li>`).join("")}</ul></div>`;
+              if (!outs.length) return x.look ? `<p class="note"><strong>Look-for.</strong> ${x.look}</p>` : "";
+              return `<div class="outcomes-box"><h3>Alberta PEW outcomes</h3><p class="note" style="margin:0 0 8px;font-style:normal">Pick one or two look-fors per class.</p><ul class="clean out-list">${outs.map((it) => `<li><strong>${it.code}.</strong> ${it.look}</li>`).join("")}</ul></div>`;
             })()}
             <div class="bands-block">
               <div><strong>Grades 1–2.</strong> ${g.g12 || ""}</div>
