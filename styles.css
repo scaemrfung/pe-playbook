@@ -253,7 +253,7 @@ a.btn:hover { opacity: .92; }
   border-radius: 10px;
 }
 .outcomes-box h3 {
-  margin: 0 0 8px;
+  margin: 0 0 4px;
   color: var(--navy);
   font-size: 1rem;
 }
@@ -262,6 +262,16 @@ a.btn:hover { opacity: .92; }
 }
 .outcomes-box li {
   margin: 0 0 6px;
+}
+.out-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px 16px;
+}
+@media (min-width: 800px) {
+  .out-list {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 
