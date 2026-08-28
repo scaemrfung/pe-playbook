@@ -245,6 +245,8 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
     const box = document.getElementById("list");
     const indexBox = document.getElementById("game-index");
     const filterBox = document.getElementById("type-filters");
+    const monthBox = document.getElementById("month-filters");
+    const MONTH_NAMES = ["September","October","November","December","January","February","March","April","May","June"];
     const details = [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || [], window.SKILL_DETAILS || [], window.BG30_DETAILS || []);
     const TYPES = [
       { id: "tag", label: "Tag & chase" },
@@ -301,6 +303,19 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
     unique.forEach((g, i) => { numbers[g.name] = i + 1; });
 
     let activeType = "all";
+    let activeMonth = "all";
+    if (monthBox) {
+      monthBox.innerHTML =
+        `<button type="button" data-month="all" class="on">All months</button>` +
+        MONTH_NAMES.map((n) => `<button type="button" data-month="${n}">${n.slice(0, 3)}</button>`).join("");
+      monthBox.addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-month]");
+        if (!btn) return;
+        activeMonth = btn.getAttribute("data-month");
+        monthBox.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b === btn));
+        render();
+      });
+    }
     if (filterBox) {
       filterBox.innerHTML =
         `<button type="button" data-type="all" class="on">All types</button>` +
@@ -319,6 +334,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       const EX = window.GAME_EXTRAS || {};
       const filtered = unique.filter((g) => {
         if (activeType !== "all" && typeOf(g) !== activeType) return false;
+        if (activeMonth !== "all" && !(g.months || []).includes(activeMonth)) return false;
         const x = EX[g.name] || {};
         const hay = [g.name, g.source, g.purpose, (g.play || []).join(" "), (g.months || []).join(" "),
           (x.more || []).join(" "), (x.variations || []).join(" "), x.look || "", typeLabel(typeOf(g))].join(" ").toLowerCase();

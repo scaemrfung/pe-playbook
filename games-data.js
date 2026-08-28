@@ -3,8 +3,7 @@ window.GAME_DETAILS = [
     "name": "Angry Neighbour",
     "source": "",
     "months": [
-      "September",
-      "January"
+      "December"
     ],
     "purpose": "This game is quick and easy and angry. For some reason, the neighbours (taggers) are not happy with the players on their yard, so they chase them around with a broomstick. At least that’s how the story goes. A good game ",
     "equipment": "pool noodles, exercise mats",
@@ -27,8 +26,8 @@ window.GAME_DETAILS = [
     "name": "Backyard Dog Tag",
     "source": "",
     "months": [
-      "September",
-      "January"
+      "December",
+      "September"
     ],
     "purpose": "Some students are dogs (they can act like a dog if they want). The dogs are trying to chase people away from their yard. Another fun tag game idea to try in your PE class (thanks to Deric Hafer).",
     "equipment": "Cones, 4 foam balls",
@@ -51,8 +50,7 @@ window.GAME_DETAILS = [
     "name": "Banana Tag",
     "source": "",
     "months": [
-      "September",
-      "January"
+      "December"
     ],
     "purpose": "Such a simple tag game; kids go bananas, literally! As players get tagged, they must curve their bodies into the shape of a banana. Someone else will come along and ‘peel’ them so that they are free.",
     "equipment": "None",
@@ -74,7 +72,7 @@ window.GAME_DETAILS = [
     "name": "Blob Tag",
     "source": "",
     "months": [
-      "January"
+      "December"
     ],
     "purpose": "Cooperative chasing. The chain grows, then splits if it gets unsafe.",
     "equipment": "Optional pinnies for the starting pair.",
@@ -95,8 +93,8 @@ window.GAME_DETAILS = [
     "name": "Bug Tag / Dead Ant",
     "source": "",
     "months": [
-      "January",
-      "March"
+      "December",
+      "September"
     ],
     "purpose": "Team carry or escort to a hospital hoop.",
     "equipment": "2–4 noodles for taggers. Hoops as hospitals.",
@@ -117,7 +115,8 @@ window.GAME_DETAILS = [
     "name": "Buzz Off / hoop free zones",
     "source": "",
     "months": [
-      "February"
+      "December",
+      "September"
     ],
     "purpose": "Hoops are rest spots. A new player takes the hoop with a kind phrase.",
     "equipment": "Hoops (fewer than students).",
@@ -137,8 +136,8 @@ window.GAME_DETAILS = [
     "name": "Chicken Checkers",
     "source": "",
     "months": [
-      "January",
-      "February"
+      "February",
+      "December"
     ],
     "purpose": "Tag game with built-in hoop rests and name-saying swaps.",
     "equipment": "Many hoops. 2–4 tag pairs.",
@@ -159,7 +158,8 @@ window.GAME_DETAILS = [
     "name": "Clothespin Tag",
     "source": "",
     "months": [
-      "November"
+      "December",
+      "September"
     ],
     "purpose": "Steal one pin at a time. Built-in rest when you kneel to clip.",
     "equipment": "3–4 clothespins per student.",
@@ -180,7 +180,8 @@ window.GAME_DETAILS = [
     "name": "Duck Duck Dash",
     "source": "",
     "months": [
-      "June"
+      "December",
+      "September"
     ],
     "purpose": "A short chase. Both players stay in.",
     "equipment": "None.",
@@ -201,7 +202,8 @@ window.GAME_DETAILS = [
     "name": "Everybody’s It",
     "source": "",
     "months": [
-      "September"
+      "September",
+      "December"
     ],
     "purpose": "Everyone is both tagger and runner.",
     "equipment": "None.",
@@ -222,8 +224,8 @@ window.GAME_DETAILS = [
     "name": "Freedom Catch",
     "source": "",
     "months": [
-      "September",
-      "January"
+      "December",
+      "September"
     ],
     "purpose": "New favourite activity! Tagging, throwing, catching, strategy all jam-packed into one awesome game from Jennifer Holub. Really fun, a must try, especially if you’re looking for a game for large groups (50 players +).",
     "equipment": "Cones, foam balls",
@@ -246,6 +248,7 @@ window.GAME_DETAILS = [
     "name": "Frozen Tag",
     "source": "",
     "months": [
+      "December",
       "September"
     ],
     "purpose": "Classic freeze-and-free. Practise asking a teammate for help.",
@@ -267,8 +270,8 @@ window.GAME_DETAILS = [
     "name": "Home Free Bad Guy Blob Tag",
     "source": "",
     "months": [
-      "September",
-      "January"
+      "December",
+      "September"
     ],
     "purpose": "What a great game, seriously one of the best tag games out there. This is a must play. Lots of Dynamics, lots going on in this unique idea thanks to Dan Penna for another hit.",
     "equipment": "Hula hoops, pool noodles",
@@ -292,7 +295,7 @@ window.GAME_DETAILS = [
     "source": "",
     "months": [
       "September",
-      "January"
+      "December"
     ],
     "purpose": "Fast warm-up. Everyone tags; nobody sits out for long.",
     "equipment": "None required. Optional pinnies.",
@@ -314,8 +317,8 @@ window.GAME_DETAILS = [
     "name": "Hot Dog Tag",
     "source": "",
     "months": [
-      "September",
-      "January"
+      "November",
+      "December"
     ],
     "purpose": "Cooperative unfreeze. Practise asking for help.",
     "equipment": "2–4 pinnies or noodles for taggers.",
@@ -337,7 +340,8 @@ window.GAME_DETAILS = [
     "name": "Icebergs",
     "source": "",
     "months": [
-      "February"
+      "December",
+      "September"
     ],
     "purpose": "Hoop islands that shrink. Same family as Sharks and Dolphins.",
     "equipment": "8–12 hoops.",
@@ -358,6 +362,7 @@ window.GAME_DETAILS = [
     "name": "Kangaroos and Crocodiles",
     "source": "",
     "months": [
+      "December",
       "September"
     ],
     "purpose": "Reaction and sprint home. First-week listening game.",
@@ -380,8 +385,8 @@ window.GAME_DETAILS = [
     "name": "Line Tag / Pac-Man",
     "source": "",
     "months": [
-      "September",
-      "May"
+      "December",
+      "September"
     ],
     "purpose": "Run on lines. Practice pathways and change of speed.",
     "equipment": "1–2 pinnies to mark taggers.",
@@ -402,8 +407,7 @@ window.GAME_DETAILS = [
     "name": "Massive 10 Second Tag",
     "source": "",
     "months": [
-      "September",
-      "January"
+      "December"
     ],
     "purpose": "Tried a quick modification of Joel Sweetland’s ’10-second tag’ for a large group that I had. Wasn’t sure if it’d work but it went really good! Note: the cycles don’t have to be exactly 10 seconds (to keep the flow of the",
     "equipment": "none",
@@ -426,7 +430,8 @@ window.GAME_DETAILS = [
     "name": "Mr. Clean",
     "source": "",
     "months": [
-      "March"
+      "December",
+      "September"
     ],
     "purpose": "Get rid of your two pins by clipping them on someone else’s back, then check in.",
     "equipment": "2 clothespins or tape pieces each, 1 hoop (clean zone).",
@@ -447,8 +452,8 @@ window.GAME_DETAILS = [
     "name": "Mystery Number Tag",
     "source": "",
     "months": [
-      "September",
-      "January"
+      "December",
+      "September"
     ],
     "purpose": "This game is a mystery! Players don’t know who the catchers are. But they’ll soon find out. Try this game out for lots of laughs and lots of running! It’s another game that will not disappoint! (Thanks Chantal Dubois)",
     "equipment": "sticky notes, or pieces of paper",
@@ -470,6 +475,7 @@ window.GAME_DETAILS = [
     "name": "Octopus",
     "source": "",
     "months": [
+      "December",
       "September"
     ],
     "purpose": "Cross the gym. Tagged players become planted taggers.",
@@ -491,8 +497,8 @@ window.GAME_DETAILS = [
     "name": "Reindeer Roundup",
     "source": "",
     "months": [
-      "September",
-      "January"
+      "February",
+      "December"
     ],
     "purpose": "A Christmas game for the holidays (thanks to Angela Crepeele).",
     "equipment": "Hula hoops, pool noodles",
@@ -536,9 +542,8 @@ window.GAME_DETAILS = [
     "name": "Sharks and Dolphins",
     "source": "",
     "months": [
-      "September",
-      "February",
-      "March"
+      "October",
+      "December"
     ],
     "purpose": "Flee to a safe island. Shrink space each round.",
     "equipment": "8–12 hoops (islands). 1–2 pinnies for sharks.",
@@ -560,7 +565,8 @@ window.GAME_DETAILS = [
     "name": "Slap Rover",
     "source": "",
     "months": [
-      "December"
+      "December",
+      "September"
     ],
     "purpose": "Call a name, choose with a hand-slap, chase back to the line. Style walking on the way over.",
     "equipment": "Cones for two team lines.",
@@ -582,7 +588,8 @@ window.GAME_DETAILS = [
     "name": "Squirrel’s Tail",
     "source": "",
     "months": [
-      "June"
+      "December",
+      "September"
     ],
     "purpose": "Outdoor Grade 3–6. Steal nuts or tails. Buy a tail back with two nuts.",
     "equipment": "Fabric tails, hoops, beanbags (nuts), 4-colour pinnies.",
@@ -603,7 +610,8 @@ window.GAME_DETAILS = [
     "name": "Survivor Tag",
     "source": "",
     "months": [
-      "May"
+      "December",
+      "September"
     ],
     "purpose": "Tag then a skill to re-enter. No elimination.",
     "equipment": "2–3 pinnies.",
@@ -623,7 +631,8 @@ window.GAME_DETAILS = [
     "name": "Tail Tag",
     "source": "",
     "months": [
-      "February"
+      "October",
+      "April"
     ],
     "purpose": "Pull a bib tail, then hand it on.",
     "equipment": "Bibs or flags.",
@@ -644,8 +653,8 @@ window.GAME_DETAILS = [
     "name": "Ten-Second Tag",
     "source": "",
     "months": [
-      "September",
-      "May"
+      "December",
+      "September"
     ],
     "purpose": "Short bursts of run and recover. New taggers so nobody is ‘it’ forever.",
     "equipment": "Centre line of cones, whistle.",
@@ -667,7 +676,8 @@ window.GAME_DETAILS = [
     "name": "Tripod Tag",
     "source": "",
     "months": [
-      "January"
+      "December",
+      "September"
     ],
     "purpose": "Small-group roles: three protect, one tags.",
     "equipment": "None.",
@@ -688,7 +698,7 @@ window.GAME_DETAILS = [
     "name": "Tunnel Freeze",
     "source": "",
     "months": [
-      "January",
+      "December",
       "September"
     ],
     "purpose": "Freeze and a fair unfreeze.",
@@ -711,7 +721,7 @@ window.GAME_DETAILS = [
     "name": "Wake-Up Bear",
     "source": "",
     "months": [
-      "May",
+      "December",
       "September"
     ],
     "purpose": "Listen, freeze, then a short chase to the wall.",
@@ -734,7 +744,8 @@ window.GAME_DETAILS = [
     "name": "Waspital",
     "source": "",
     "months": [
-      "January"
+      "December",
+      "September"
     ],
     "purpose": "Everyone-is-it tag with a stretch hospital.",
     "equipment": "1–2 hoops.",
@@ -754,9 +765,7 @@ window.GAME_DETAILS = [
     "name": "Wolf’s Den",
     "source": "",
     "months": [
-      "May",
-      "January",
-      "September"
+      "December"
     ],
     "purpose": "Cross a middle zone. Tagged players re-enter — they are not out for the period.",
     "equipment": "Two end lines and a 3-m middle strip.",
@@ -777,7 +786,8 @@ window.GAME_DETAILS = [
     "name": "3-Ball Soccer",
     "source": "",
     "months": [
-      "September"
+      "September",
+      "October"
     ],
     "purpose": "For more action, and more touches, play 3 ball soccer. It’s essentially a big soccer game with the added bonus of 2 more soccer balls. Great to play especially with large classes or groups of students.",
     "equipment": "3 soccer balls",
@@ -799,7 +809,8 @@ window.GAME_DETAILS = [
     "name": "4-Goal Soccer",
     "source": "",
     "months": [
-      "September"
+      "September",
+      "October"
     ],
     "purpose": "4 Goal Soccer is another popular soccer PE game, especially with larger groups. 4 nets are set-up on each side. 4 teams go at it with whatever soccer rules the teacher wants to implement. Teams can score in any net excep",
     "equipment": "Soccer balls, 4 goals",
@@ -821,7 +832,8 @@ window.GAME_DETAILS = [
     "name": "5 Soccer Circle Ideas",
     "source": "",
     "months": [
-      "September"
+      "September",
+      "October"
     ],
     "purpose": "Here are 5 soccer circle ideas you can use to work on passing (and dribbling) as well as more skills! They range from simple to moderately advanced and there’s really not much more to say about them – just find some spac",
     "equipment": "Soccerballs, cones",
@@ -846,8 +858,8 @@ window.GAME_DETAILS = [
     "name": "Bench Ball",
     "source": "",
     "months": [
-      "November",
-      "June"
+      "December",
+      "October"
     ],
     "purpose": "Bench ball is arguably one of the best low organized throwing and catching games. The goal is to be the first team to get your players onto the bench. But how do you get on the bench? Your ball must be caught by your tea",
     "equipment": "2 benches, dodgeballs",
@@ -870,7 +882,8 @@ window.GAME_DETAILS = [
     "name": "Booger Ball",
     "source": "",
     "months": [
-      "October"
+      "October",
+      "January"
     ],
     "purpose": "Grade 5–6 invasion. Tag the ball-carrier; they must pass.",
     "equipment": "1 basketball or playground ball, pinnies, a net and/or hoop.",
@@ -891,7 +904,8 @@ window.GAME_DETAILS = [
     "name": "Captain Ball",
     "source": "",
     "months": [
-      "November"
+      "October",
+      "January"
     ],
     "purpose": "Pass to a teammate who must stay in a hoop.",
     "equipment": "Soccer or playground ball, pinnies, 2 hoops.",
@@ -912,7 +926,8 @@ window.GAME_DETAILS = [
     "name": "Capture the Egg",
     "source": "",
     "months": [
-      "May"
+      "October",
+      "January"
     ],
     "purpose": "Carry a beanbag through traffic.",
     "equipment": "Beanbags, pinnies.",
@@ -933,7 +948,8 @@ window.GAME_DETAILS = [
     "name": "Capture The Flag Outdoors",
     "source": "",
     "months": [
-      "June"
+      "December",
+      "October"
     ],
     "purpose": "This has been the GAME OF THE YEAR at our school. LOTS of Fun, many skills and laughs have been had. Competition at its finest, and what a workout. It’s the standard version of Capture The Flag brought to physical educat",
     "equipment": "2 Flags, large playing area",
@@ -956,7 +972,8 @@ window.GAME_DETAILS = [
     "name": "Collect the Treasure",
     "source": "",
     "months": [
-      "January"
+      "January",
+      "October"
     ],
     "purpose": "Cooperative collect with a walk-back if tagged.",
     "equipment": "Beanbags, 4 hoops.",
@@ -977,7 +994,8 @@ window.GAME_DETAILS = [
     "name": "Cornerball",
     "source": "",
     "months": [
-      "June"
+      "October",
+      "January"
     ],
     "purpose": "Score in any of four corners.",
     "equipment": "4 hoops, playground ball, pinnies.",
@@ -998,7 +1016,9 @@ window.GAME_DETAILS = [
     "name": "Crab Football",
     "source": "",
     "months": [
-      "January"
+      "October",
+      "September",
+      "June"
     ],
     "purpose": "Core strength and a short cooperative carry.",
     "equipment": "Playground ball, two end lines.",
@@ -1019,7 +1039,9 @@ window.GAME_DETAILS = [
     "name": "Crazy Ball Soccer",
     "source": "",
     "months": [
-      "September"
+      "September",
+      "October",
+      "June"
     ],
     "purpose": "Great for any grade or age level, Crazy Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipme",
     "equipment": "Various soft or foam balls",
@@ -1041,6 +1063,8 @@ window.GAME_DETAILS = [
     "name": "End Ball",
     "source": "",
     "months": [
+      "October",
+      "September",
       "November"
     ],
     "purpose": "Pass to a catcher in an end zone. Same family as Captain Ball.",
@@ -1062,7 +1086,8 @@ window.GAME_DETAILS = [
     "name": "End Wall Soccer",
     "source": "",
     "months": [
-      "September"
+      "September",
+      "October"
     ],
     "purpose": "A fun type of soccer game, can be especially good with large groups (thanks CIRA Ontario for this idea: https://www.ciraontario.com/)!",
     "equipment": "foam soccer ball, pinnies",
@@ -1086,7 +1111,9 @@ window.GAME_DETAILS = [
     "name": "End Zone Ball",
     "source": "",
     "months": [
-      "October"
+      "September",
+      "December",
+      "January"
     ],
     "purpose": "Roll (not throw) to catchers in an end zone. Intercept.",
     "equipment": "4–8 footballs or soccer balls, pinnies, optional mats as obstacles.",
@@ -1107,8 +1134,8 @@ window.GAME_DETAILS = [
     "name": "Four Corner Flags",
     "source": "",
     "months": [
-      "January",
-      "May"
+      "December",
+      "October"
     ],
     "purpose": "Four-team steal. Safe in your own quadrant.",
     "equipment": "16 beanbags (4 colours), 4 hoops, 4 pinnies colours, cones.",
@@ -1129,7 +1156,8 @@ window.GAME_DETAILS = [
     "name": "Fruit Salad",
     "source": "",
     "months": [
-      "September"
+      "October",
+      "January"
     ],
     "purpose": "Four-corner switch with a middle seeker.",
     "equipment": "Four corner spots.",
@@ -1150,7 +1178,8 @@ window.GAME_DETAILS = [
     "name": "Go for Goal",
     "source": "",
     "months": [
-      "June"
+      "October",
+      "January"
     ],
     "purpose": "Small-sided kick or shot at cone goals.",
     "equipment": "Soccer balls, cone goals, pinnies.",
@@ -1170,7 +1199,8 @@ window.GAME_DETAILS = [
     "name": "Guard the Gates",
     "source": "",
     "months": [
-      "October"
+      "October",
+      "January"
     ],
     "purpose": "Dribble through gates. Defenders intercept the ball, not the body.",
     "equipment": "Cone gates, soccer balls, pinnies.",
@@ -1191,6 +1221,7 @@ window.GAME_DETAILS = [
     "name": "Heist the Treasure",
     "source": "",
     "months": [
+      "October",
       "January"
     ],
     "purpose": "Steal from a middle pile. Same family as Collect the Treasure.",
@@ -1212,8 +1243,8 @@ window.GAME_DETAILS = [
     "name": "Home Alone",
     "source": "",
     "months": [
-      "January",
-      "June"
+      "October",
+      "January"
     ],
     "purpose": "A great game to help with visual awareness, strategic play, attacking, and defense. Try out HOME ALONE. Basically goes like this: lay out 8 hoops in a playing area and choose 1 player to stand in each hoop. Give the play",
     "equipment": "Hula hoops, cones",
@@ -1236,7 +1267,8 @@ window.GAME_DETAILS = [
     "name": "Hurley Burley",
     "source": "",
     "months": [
-      "June"
+      "October",
+      "January"
     ],
     "purpose": "One ball, many legal sends. A tip forces an instant pass.",
     "equipment": "Soccer or playground ball, two goals, pinnies.",
@@ -1257,7 +1289,8 @@ window.GAME_DETAILS = [
     "name": "Numbers Hockey",
     "source": "",
     "months": [
-      "June"
+      "November",
+      "October"
     ],
     "purpose": "Short hockey points. Many get a turn.",
     "equipment": "Floor-hockey sticks or hands, hockey ball, two cone goals.",
@@ -1277,7 +1310,8 @@ window.GAME_DETAILS = [
     "name": "Pin Galore Soccer",
     "source": "",
     "months": [
-      "September"
+      "September",
+      "October"
     ],
     "purpose": "This is a great modification to the regular game of soccer that has proven to increase participation and motivation in the gym. Instead of the typical scoring into the other team’s goal, players will try to knock over th",
     "equipment": "Plastic pins, foam soccer balls",
@@ -1300,8 +1334,8 @@ window.GAME_DETAILS = [
     "name": "Protect the King",
     "source": "",
     "months": [
-      "November",
-      "January"
+      "October",
+      "November"
     ],
     "purpose": "Pass to an opening. Defend without body-checking.",
     "equipment": "One football or playground ball, pinnies.",
@@ -1322,6 +1356,7 @@ window.GAME_DETAILS = [
     "name": "Reverse Soccer",
     "source": "",
     "months": [
+      "September",
       "October"
     ],
     "purpose": "Invasion with hands. Opposite of a kick game.",
@@ -1343,7 +1378,8 @@ window.GAME_DETAILS = [
     "name": "Rob the Nest (dribble)",
     "source": "",
     "months": [
-      "October"
+      "October",
+      "January"
     ],
     "purpose": "Dribble collect. Same idea as Robin’s Nest, feet only.",
     "equipment": "4 hoops, soccer balls.",
@@ -1364,7 +1400,8 @@ window.GAME_DETAILS = [
     "name": "Sideline Soccer",
     "source": "",
     "months": [
-      "September"
+      "September",
+      "October"
     ],
     "purpose": "In sideline soccer, teams become goalies along their respective sidelines, using their best goaltending skills. Imagine the set-up as big lines of goalies stretching across the entire length of the sidelines – for each t",
     "equipment": "Foam Balls",
@@ -1387,8 +1424,8 @@ window.GAME_DETAILS = [
     "name": "Slappers!",
     "source": "",
     "months": [
-      "September",
-      "May"
+      "June",
+      "October"
     ],
     "purpose": "Try out this amazing game called SLAPPERS. It’s a game that mainly uses the striking skill (or swatting, smacking, slapping – however you want to call it). 4 teams, 4 nets in the corners, 1 for each team. Throw a few bal",
     "equipment": "4 nets, 4 bouncy balls (ex racquetball ball)",
@@ -1411,8 +1448,8 @@ window.GAME_DETAILS = [
     "name": "Steal the Bacon",
     "source": "",
     "months": [
-      "October",
-      "November"
+      "September",
+      "October"
     ],
     "purpose": "React to a number. Grab a ball or beanbag, not a person.",
     "equipment": "One ball or beanbag.",
@@ -1433,6 +1470,7 @@ window.GAME_DETAILS = [
     "name": "Stones",
     "source": "",
     "months": [
+      "October",
       "January"
     ],
     "purpose": "Two-team capture. Tagged players are walked home by a teammate.",
@@ -1454,9 +1492,8 @@ window.GAME_DETAILS = [
     "name": "Switch",
     "source": "",
     "months": [
-      "September",
-      "February",
-      "April"
+      "January",
+      "October"
     ],
     "purpose": "Steal a corner on a signal. Fast feet, no contact.",
     "equipment": "4 cones, hoops, or mats as corners. Optional centre pylon.",
@@ -1478,7 +1515,9 @@ window.GAME_DETAILS = [
     "name": "Team Tag",
     "source": "",
     "months": [
-      "October"
+      "October",
+      "January",
+      "November"
     ],
     "purpose": "Invasion lead-up. Pass to get close enough to tag.",
     "equipment": "1 playground ball or pinnie, bag of extra pinnies.",
@@ -1500,7 +1539,7 @@ window.GAME_DETAILS = [
     "source": "",
     "months": [
       "October",
-      "November"
+      "January"
     ],
     "purpose": "Force passing before a score.",
     "equipment": "Soccer or playground ball, pinnies, two end lines or hoops.",
@@ -1521,7 +1560,8 @@ window.GAME_DETAILS = [
     "name": "Through the Gates",
     "source": "",
     "months": [
-      "October"
+      "September",
+      "November"
     ],
     "purpose": "Accurate kick or push-pass through a cone gate.",
     "equipment": "Cone pairs as gates, soccer balls.",
@@ -1541,7 +1581,8 @@ window.GAME_DETAILS = [
     "name": "Traffic Lights (kick)",
     "source": "",
     "months": [
-      "October"
+      "October",
+      "January"
     ],
     "purpose": "Dribble, trap, and stop on a colour.",
     "equipment": "Soccer balls, one per student if you can.",
@@ -1561,6 +1602,7 @@ window.GAME_DETAILS = [
     "name": "Wall Soccer",
     "source": "",
     "months": [
+      "September",
       "October"
     ],
     "purpose": "Small-sided kick game. Everyone is either a field player or a moving wall-goalie.",
@@ -1582,7 +1624,8 @@ window.GAME_DETAILS = [
     "name": "Battleships",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Four-team throw and defend a pin.",
     "equipment": "4 hoops, 4 pins, playground balls, cones for zones.",
@@ -1603,7 +1646,8 @@ window.GAME_DETAILS = [
     "name": "Bucket Ball",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Pass-only score: a teammate on a bench catches into a bucket.",
     "equipment": "Playground or basketball, 2 hoops or mats, a bucket or crate, pinnies.",
@@ -1624,8 +1668,8 @@ window.GAME_DETAILS = [
     "name": "Card Sharks",
     "source": "",
     "months": [
-      "October",
-      "May"
+      "January",
+      "March"
     ],
     "purpose": "Underhand accuracy relay. Collect cards by hitting a hoop.",
     "equipment": "Hoops, decks of cards, beanbags.",
@@ -1646,7 +1690,8 @@ window.GAME_DETAILS = [
     "name": "FLY BACK",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Throw and catch under a little pressure. Retrieve an object and send it home.",
     "equipment": "Discs or balls, cones, pinnies.",
@@ -1667,7 +1712,8 @@ window.GAME_DETAILS = [
     "name": "Flying Saucers",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Long underhand or disc throw at hoops.",
     "equipment": "Discs or rings, hoops, cones.",
@@ -1687,7 +1733,8 @@ window.GAME_DETAILS = [
     "name": "Frisbee Flingers",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Disc throw and catch into a hoop.",
     "equipment": "Discs, hoops.",
@@ -1707,8 +1754,8 @@ window.GAME_DETAILS = [
     "name": "Guard the Cone",
     "source": "",
     "months": [
-      "March",
-      "October"
+      "January",
+      "March"
     ],
     "purpose": "Defend a target. Pass before a throw.",
     "equipment": "One cone, one soccer or playground ball.",
@@ -1729,6 +1776,7 @@ window.GAME_DETAILS = [
     "name": "Hockey pin knockdown",
     "source": "",
     "months": [
+      "November",
       "January"
     ],
     "purpose": "One controlled shot after a dribble.",
@@ -1748,7 +1796,8 @@ window.GAME_DETAILS = [
     "name": "Low-ball",
     "source": "",
     "months": [
-      "October"
+      "January",
+      "March"
     ],
     "purpose": "Send a dodgeball below the waist. A hit is a stretch, not an out.",
     "equipment": "4–6 dodgeballs, centre line.",
@@ -1769,8 +1818,8 @@ window.GAME_DETAILS = [
     "name": "Overarm throw-and-catch",
     "source": "",
     "months": [
-      "June",
-      "November"
+      "January",
+      "June"
     ],
     "purpose": "Overarm send and a ready catch.",
     "equipment": "Playground ball, hoop.",
@@ -1789,7 +1838,8 @@ window.GAME_DETAILS = [
     "name": "Poison Ball",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Dodge in a circle. Switch roles — nobody is out for the game.",
     "equipment": "Dodgeballs, a cone circle.",
@@ -1810,7 +1860,8 @@ window.GAME_DETAILS = [
     "name": "Protect the Castle",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Throw at a target while others defend by catching.",
     "equipment": "Hoop, pins or cones, playground balls.",
@@ -1831,7 +1882,8 @@ window.GAME_DETAILS = [
     "name": "Punt to the line",
     "source": "",
     "months": [
-      "May",
+      "October",
+      "September",
       "June"
     ],
     "purpose": "Drop-kick a football toward a zone.",
@@ -1851,7 +1903,8 @@ window.GAME_DETAILS = [
     "name": "Robin’s Nest",
     "source": "",
     "months": [
-      "October"
+      "January",
+      "March"
     ],
     "purpose": "Foot-eye send. Collect three balls in your hoop.",
     "equipment": "4 hoops, 12+ soccer or playground balls, 4 pinnies.",
@@ -1872,7 +1925,8 @@ window.GAME_DETAILS = [
     "name": "Skittle Ball",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Underhand accuracy at pins.",
     "equipment": "Pins or cones, playground balls, a throwing line.",
@@ -1893,7 +1947,8 @@ window.GAME_DETAILS = [
     "name": "Skittles",
     "source": "",
     "months": [
-      "October"
+      "January",
+      "March"
     ],
     "purpose": "Underhand accuracy. Knock the other team’s cone-pins.",
     "equipment": "Cones (skittles), playground balls, a marked safe zone.",
@@ -1914,7 +1969,8 @@ window.GAME_DETAILS = [
     "name": "Slide Sling Save",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Slide a beanbag to tag feet. A catch frees a teammate.",
     "equipment": "Beanbags, dodgeballs, two jail hoops.",
@@ -1935,7 +1991,8 @@ window.GAME_DETAILS = [
     "name": "Survivor Dodgeball",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Below-waist dodgeballs. Hit = switch, not sit out.",
     "equipment": "Many dodgeballs.",
@@ -1955,7 +2012,8 @@ window.GAME_DETAILS = [
     "name": "Team Bowling",
     "source": "",
     "months": [
-      "June"
+      "January",
+      "March"
     ],
     "purpose": "Bowl at your own line of pins. Fetch and go again.",
     "equipment": "Many pins or cones, playground balls.",
@@ -1976,7 +2034,8 @@ window.GAME_DETAILS = [
     "name": "Tidy the Bedroom",
     "source": "",
     "months": [
-      "November"
+      "January",
+      "March"
     ],
     "purpose": "Underhand send to a hoop target.",
     "equipment": "Beanbags or playground balls, hoops.",
@@ -1997,7 +2056,8 @@ window.GAME_DETAILS = [
     "name": "Tunnel kick knockdown",
     "source": "",
     "months": [
-      "October"
+      "January",
+      "March"
     ],
     "purpose": "Dribble, then one controlled kick at a pin.",
     "equipment": "Cone tunnel, one pin or stacked cone, soccer ball.",
@@ -2016,7 +2076,7 @@ window.GAME_DETAILS = [
     "name": "Aces",
     "source": "",
     "months": [
-      "May"
+      "June"
     ],
     "purpose": "Outdoor Grade 5–6. Active war with a card-master hoop.",
     "equipment": "3 decks of cards, 2 hoops, pinnies.",
@@ -2059,7 +2119,6 @@ window.GAME_DETAILS = [
     "name": "Beat Ball / Beat the Ball",
     "source": "",
     "months": [
-      "November",
       "June"
     ],
     "purpose": "Hit or kick, then race the ball around the horn.",
@@ -2081,7 +2140,8 @@ window.GAME_DETAILS = [
     "name": "Bombardment",
     "source": "",
     "months": [
-      "November",
+      "September",
+      "January",
       "June"
     ],
     "purpose": "Here’s a multi-skills game idea, lots of skills involved (mostly basketball skills practice but could be modified) – thanks Dan Kirsch!",
@@ -2106,8 +2166,7 @@ window.GAME_DETAILS = [
     "name": "Castleball",
     "source": "",
     "months": [
-      "November",
-      "June"
+      "December"
     ],
     "purpose": "Castle Ball might be one of physedgames’ favourites! A must play! This target game adds a huge teamwork component as well as team strategy. It also ties in throwing, catching, blocking, building, and awareness. Defend yo",
     "equipment": "Dodgeballs, hula-hoops",
@@ -2130,7 +2189,6 @@ window.GAME_DETAILS = [
     "name": "Catch & Step",
     "source": "",
     "months": [
-      "November",
       "June"
     ],
     "purpose": "This is a classic PE or camp game with the focus on throwing and catching. As players are successful, the game becomes more challenging. When unsuccessful, they might just get soaked! How To Play: Pairs or partners start",
@@ -2153,8 +2211,6 @@ window.GAME_DETAILS = [
     "name": "Chuck the Chicken",
     "source": "",
     "months": [
-      "October",
-      "November",
       "June"
     ],
     "purpose": "Throw, then score laps while the other team lines up and passes.",
@@ -2177,7 +2233,6 @@ window.GAME_DETAILS = [
     "name": "Continuous Kick Ball",
     "source": "",
     "months": [
-      "November",
       "June"
     ],
     "purpose": "Kickball cousin. Many runners. Play stops when a named partner replaces the ball on a cone.",
@@ -2286,7 +2341,7 @@ window.GAME_DETAILS = [
     "name": "Longball",
     "source": "",
     "months": [
-      "November",
+      "September",
       "June"
     ],
     "purpose": "Longball is another kickball type activity (or baseball activity if you want to use a big oversized plastic bat and a foam ball) that gets more players moving more often. With some important modifications to regular kick",
@@ -2309,7 +2364,6 @@ window.GAME_DETAILS = [
     "name": "Quick Baseball",
     "source": "",
     "months": [
-      "November",
       "June"
     ],
     "purpose": "Hit, run a short path, field to a tee.",
@@ -2331,6 +2385,8 @@ window.GAME_DETAILS = [
     "name": "RPS Rounders",
     "source": "",
     "months": [
+      "October",
+      "September",
       "June"
     ],
     "purpose": "Two runners meet, play rock-paper-scissors, winner keeps the ball toward the end zone.",
@@ -2353,7 +2409,6 @@ window.GAME_DETAILS = [
     "name": "Shark Ball",
     "source": "",
     "months": [
-      "November",
       "June"
     ],
     "purpose": "A kickball variation that mixes in some sharks & minnows (thanks to Kevin Williams)!",
@@ -2378,7 +2433,6 @@ window.GAME_DETAILS = [
     "name": "Strikeball",
     "source": "",
     "months": [
-      "November",
       "June"
     ],
     "purpose": "Strikeball is a great little game to work on aspects of goaltending, fielding, striking, and reaction time. Circle groups of any size can play this game together and try to score points by striking the ball between the l",
@@ -2402,7 +2456,6 @@ window.GAME_DETAILS = [
     "name": "Thunderball",
     "source": "",
     "months": [
-      "November",
       "June"
     ],
     "purpose": "Hit or kick through rows of cones for 1–2–3 points.",
@@ -2424,6 +2477,8 @@ window.GAME_DETAILS = [
     "name": "Around the Bases Relay",
     "source": "",
     "months": [
+      "June",
+      "December",
       "May"
     ],
     "purpose": "Team running the diamond.",
@@ -2445,6 +2500,8 @@ window.GAME_DETAILS = [
     "name": "Attention Relay",
     "source": "",
     "months": [
+      "December",
+      "February",
       "May"
     ],
     "purpose": "Numbered files. Call a number; those runners loop their team.",
@@ -2465,8 +2522,9 @@ window.GAME_DETAILS = [
     "name": "Circle run relay",
     "source": "",
     "months": [
-      "May",
-      "September"
+      "December",
+      "February",
+      "May"
     ],
     "purpose": "Sustained run and a fair tag.",
     "equipment": "Cone circle.",
@@ -2485,6 +2543,7 @@ window.GAME_DETAILS = [
     "name": "Cone Relay",
     "source": "",
     "months": [
+      "December",
       "May"
     ],
     "purpose": "Run cones in a called order (memory + speed).",
@@ -2506,8 +2565,9 @@ window.GAME_DETAILS = [
     "name": "Crab-bear walk relay",
     "source": "",
     "months": [
-      "September",
-      "April"
+      "December",
+      "February",
+      "May"
     ],
     "purpose": "Two animal travels in a short bout.",
     "equipment": "Two cones per lane.",
@@ -2527,7 +2587,8 @@ window.GAME_DETAILS = [
     "name": "Dash and Dribble",
     "source": "",
     "months": [
-      "October"
+      "December",
+      "February"
     ],
     "purpose": "Relay with a trap at the turn.",
     "equipment": "Soccer balls, cones.",
@@ -2547,7 +2608,8 @@ window.GAME_DETAILS = [
     "name": "Dribble the gates",
     "source": "",
     "months": [
-      "January"
+      "January",
+      "September"
     ],
     "purpose": "Finger-pad bounce through gates.",
     "equipment": "4 cone gates, basketball.",
@@ -2566,7 +2628,8 @@ window.GAME_DETAILS = [
     "name": "Hockey hurdle dribble",
     "source": "",
     "months": [
-      "January"
+      "November",
+      "May"
     ],
     "purpose": "Tiny touches, blade on the floor.",
     "equipment": "Low cones as ‘hurdles,’ stick, hockey ball.",
@@ -2585,8 +2648,9 @@ window.GAME_DETAILS = [
     "name": "Hoop underhand relay",
     "source": "",
     "months": [
-      "November",
-      "June"
+      "September",
+      "December",
+      "May"
     ],
     "purpose": "Underhand accuracy.",
     "equipment": "Beanbags, two hoops.",
@@ -2605,7 +2669,7 @@ window.GAME_DETAILS = [
     "name": "Hop-the-hoops relay",
     "source": "",
     "months": [
-      "September",
+      "December",
       "February",
       "May"
     ],
@@ -2626,7 +2690,8 @@ window.GAME_DETAILS = [
     "name": "Hungry Snake",
     "source": "",
     "months": [
-      "January"
+      "December",
+      "February"
     ],
     "purpose": "Whole team stays linked. The head collects objects and passes them back.",
     "equipment": "20–40 beanbags or yarn balls, 2 bags or bins.",
@@ -2647,8 +2712,10 @@ window.GAME_DETAILS = [
     "name": "Ice Cream Cone Relays",
     "source": "",
     "months": [
-      "March",
-      "June"
+      "December",
+      "January",
+      "February",
+      "May"
     ],
     "purpose": "Here are 3 relay ideas with an ice cream theme to use as a team-building, stand-alone, or field day event!",
     "equipment": "foam balls, cones",
@@ -2671,6 +2738,8 @@ window.GAME_DETAILS = [
     "name": "Jungle Run Relays",
     "source": "",
     "months": [
+      "December",
+      "February",
       "May"
     ],
     "purpose": "Relay with a hoop, a jump, and a cone.",
@@ -2691,6 +2760,8 @@ window.GAME_DETAILS = [
     "name": "Memory Relay",
     "source": "",
     "months": [
+      "December",
+      "February",
       "May"
     ],
     "purpose": "Peek at a hidden card pattern, then rebuild it at home.",
@@ -2712,7 +2783,8 @@ window.GAME_DETAILS = [
     "name": "Pip, Squeak and Wilbur",
     "source": "",
     "months": [
-      "March"
+      "December",
+      "February"
     ],
     "purpose": "Trio relay around a circle to a centre beanbag.",
     "equipment": "Beanbags or letter cards in the centre.",
@@ -2733,7 +2805,8 @@ window.GAME_DETAILS = [
     "name": "Plant the Trees",
     "source": "",
     "months": [
-      "January"
+      "December",
+      "February"
     ],
     "purpose": "Relay planting. Turn-taking.",
     "equipment": "Cones or beanbags, hoops.",
@@ -2753,7 +2826,9 @@ window.GAME_DETAILS = [
     "name": "Rescue Relay",
     "source": "",
     "months": [
-      "January"
+      "December",
+      "February",
+      "May"
     ],
     "purpose": "Run across, take a teammate by the hand, bring them home.",
     "equipment": "None, or a beanbag to carry.",
@@ -2774,7 +2849,9 @@ window.GAME_DETAILS = [
     "name": "Soccer weave relay",
     "source": "",
     "months": [
-      "October"
+      "September",
+      "December",
+      "May"
     ],
     "purpose": "Small-touch dribble through cones.",
     "equipment": "6 cones, one soccer ball per team.",
@@ -2794,6 +2871,7 @@ window.GAME_DETAILS = [
     "source": "",
     "months": [
       "December",
+      "February",
       "May"
     ],
     "purpose": "Short shuttle with a skill at the turn.",
@@ -2814,7 +2892,9 @@ window.GAME_DETAILS = [
     "name": "Throw-clap-catch relay",
     "source": "",
     "months": [
-      "November"
+      "September",
+      "December",
+      "May"
     ],
     "purpose": "Eyes on the ball after a toss.",
     "equipment": "3 cones, hoop, soccer or beanbag.",
@@ -2833,7 +2913,9 @@ window.GAME_DETAILS = [
     "name": "Toe-tap hoop relay",
     "source": "",
     "months": [
-      "October"
+      "September",
+      "December",
+      "May"
     ],
     "purpose": "Dribble plus a still foot-skill.",
     "equipment": "Cones, hoop, soccer ball.",
@@ -2852,8 +2934,9 @@ window.GAME_DETAILS = [
     "name": "Wall chest-pass relay",
     "source": "",
     "months": [
-      "November",
-      "January"
+      "January",
+      "December",
+      "May"
     ],
     "purpose": "Step-and-push chest pass.",
     "equipment": "Hoop, soccer or basketball, wall space.",
@@ -2872,7 +2955,8 @@ window.GAME_DETAILS = [
     "name": "Zig-zag touch relay",
     "source": "",
     "months": [
-      "September",
+      "December",
+      "February",
       "May"
     ],
     "purpose": "Change direction and tag the next runner fairly.",
@@ -2893,7 +2977,8 @@ window.GAME_DETAILS = [
     "name": "Back to Base",
     "source": "",
     "months": [
-      "March"
+      "December",
+      "September"
     ],
     "purpose": "Recall to a home hoop on the whistle.",
     "equipment": "Home hoops or spots.",
@@ -2914,8 +2999,8 @@ window.GAME_DETAILS = [
     "name": "Buffalo",
     "source": "",
     "months": [
-      "September",
-      "May"
+      "December",
+      "September"
     ],
     "purpose": "Paired jogging intervals with a meet-up.",
     "equipment": "Music. Cones to mark an inside and outside track.",
@@ -2936,8 +3021,8 @@ window.GAME_DETAILS = [
     "name": "Captain’s Deck / Shipwreck",
     "source": "",
     "months": [
-      "September",
-      "December"
+      "December",
+      "September"
     ],
     "purpose": "Listen under movement. Change locomotor skills on a command.",
     "equipment": "None. Optional drum.",
@@ -2958,8 +3043,8 @@ window.GAME_DETAILS = [
     "name": "Crazy Beans",
     "source": "",
     "months": [
-      "September",
-      "December"
+      "December",
+      "September"
     ],
     "purpose": "Change locomotor on a word cue.",
     "equipment": "None.",
@@ -2980,7 +3065,7 @@ window.GAME_DETAILS = [
     "source": "",
     "months": [
       "December",
-      "May"
+      "September"
     ],
     "purpose": "React to a colour and sprint to a corner.",
     "equipment": "4 coloured cones or walls.",
@@ -3001,7 +3086,8 @@ window.GAME_DETAILS = [
     "name": "Daytime / Nighttime",
     "source": "",
     "months": [
-      "April"
+      "April",
+      "December"
     ],
     "purpose": "Travel, then freeze in a gymnastic statue.",
     "equipment": "None.",
@@ -3022,8 +3108,8 @@ window.GAME_DETAILS = [
     "name": "Elements Sprint",
     "source": "",
     "months": [
-      "September",
-      "December"
+      "December",
+      "September"
     ],
     "purpose": "Hear a cue and run to the right wall.",
     "equipment": "Three wall signs: Fire, Earth, Water.",
@@ -3044,6 +3130,7 @@ window.GAME_DETAILS = [
     "name": "European Rhythmic Running",
     "source": "",
     "months": [
+      "February",
       "December"
     ],
     "purpose": "Match locomotor changes to a steady beat.",
@@ -3066,7 +3153,7 @@ window.GAME_DETAILS = [
     "source": "",
     "months": [
       "December",
-      "April"
+      "September"
     ],
     "purpose": "Copy a locomotor or shape in a small line.",
     "equipment": "Optional drum.",
@@ -3086,8 +3173,8 @@ window.GAME_DETAILS = [
     "name": "Four Corners Stay-In",
     "source": "",
     "months": [
-      "June",
-      "September"
+      "February",
+      "March"
     ],
     "purpose": "Choose a space. A called corner stays in the game.",
     "equipment": "Four numbered corners.",
@@ -3108,9 +3195,8 @@ window.GAME_DETAILS = [
     "name": "Group Numbers",
     "source": "",
     "months": [
-      "September",
-      "February",
-      "April"
+      "December",
+      "September"
     ],
     "purpose": "Listen, group, and include leftovers.",
     "equipment": "None.",
@@ -3152,7 +3238,8 @@ window.GAME_DETAILS = [
     "name": "Human Bop-It",
     "source": "",
     "months": [
-      "December"
+      "December",
+      "September"
     ],
     "purpose": "React to a spoken action on the beat.",
     "equipment": "None. Optional music.",
@@ -3172,7 +3259,8 @@ window.GAME_DETAILS = [
     "name": "Land and Sea",
     "source": "",
     "months": [
-      "September"
+      "September",
+      "December"
     ],
     "purpose": "Jump a line on a call. Body control.",
     "equipment": "A centre line.",
@@ -3192,7 +3280,8 @@ window.GAME_DETAILS = [
     "name": "Laps and Lines / Signals",
     "source": "",
     "months": [
-      "September"
+      "February",
+      "December"
     ],
     "purpose": "Instant activity. Change locomotor skill or level on a whistle.",
     "equipment": "Whistle or drum.",
@@ -3212,6 +3301,7 @@ window.GAME_DETAILS = [
     "name": "Rikki Tikki",
     "source": "",
     "months": [
+      "December",
       "September"
     ],
     "purpose": "Partner reaction and body-part awareness.",
@@ -3232,7 +3322,8 @@ window.GAME_DETAILS = [
     "name": "Rubber Band",
     "source": "",
     "months": [
-      "February"
+      "December",
+      "September"
     ],
     "purpose": "Travel away from a circle, then sprint back on a second signal.",
     "equipment": "A centre circle of spots or a centre cone.",
@@ -3253,7 +3344,8 @@ window.GAME_DETAILS = [
     "name": "Signals / shapes",
     "source": "",
     "months": [
-      "April"
+      "April",
+      "December"
     ],
     "purpose": "Whistle changes level or gymnastic shape.",
     "equipment": "Whistle or drum. Mats if rolling later.",
@@ -3273,7 +3365,8 @@ window.GAME_DETAILS = [
     "name": "Silly Bananas",
     "source": "",
     "months": [
-      "December"
+      "December",
+      "September"
     ],
     "purpose": "Imaginative travel and a freeze.",
     "equipment": "None.",
@@ -3293,8 +3386,8 @@ window.GAME_DETAILS = [
     "name": "Simon Says Stay-In",
     "source": "",
     "months": [
-      "September",
-      "December"
+      "December",
+      "September"
     ],
     "purpose": "Listen for the phrase. A miss is a skill, not an out.",
     "equipment": "None.",
@@ -3315,7 +3408,8 @@ window.GAME_DETAILS = [
     "name": "Video Game",
     "source": "",
     "months": [
-      "December"
+      "December",
+      "September"
     ],
     "purpose": "Creative movement using media cues.",
     "equipment": "None.",
@@ -3335,6 +3429,7 @@ window.GAME_DETAILS = [
     "name": "Volcanoes and Ice-Cream Cones",
     "source": "",
     "months": [
+      "December",
       "September"
     ],
     "purpose": "Continuous movement and a simple team task.",
@@ -3357,7 +3452,8 @@ window.GAME_DETAILS = [
     "name": "Balloon Keep-Up",
     "source": "",
     "months": [
-      "March"
+      "March",
+      "October"
     ],
     "purpose": "Toss-catch and timing. Circus lead-up.",
     "equipment": "Balloons or a beach ball.",
@@ -3377,6 +3473,7 @@ window.GAME_DETAILS = [
     "name": "Birthday Lineup",
     "source": "",
     "months": [
+      "November",
       "December"
     ],
     "purpose": "Communicate without talking.",
@@ -3398,7 +3495,8 @@ window.GAME_DETAILS = [
     "name": "Bucket Carry",
     "source": "",
     "months": [
-      "March"
+      "December",
+      "October"
     ],
     "purpose": "Lift together. No one person owns the bucket.",
     "equipment": "Hoop, 4–6 beanbags, or a light bucket. Optional strings on a hoop.",
@@ -3419,8 +3517,8 @@ window.GAME_DETAILS = [
     "name": "Caterpillar Walk",
     "source": "",
     "months": [
-      "February",
-      "December"
+      "December",
+      "October"
     ],
     "purpose": "Move as one line.",
     "equipment": "Cones. Optional shared hoop.",
@@ -3441,8 +3539,9 @@ window.GAME_DETAILS = [
     "name": "Circle Hoop Pass",
     "source": "",
     "months": [
+      "November",
       "December",
-      "February"
+      "June"
     ],
     "purpose": "Move a hoop around a held-hands circle.",
     "equipment": "1–2 hoops.",
@@ -3463,8 +3562,8 @@ window.GAME_DETAILS = [
     "name": "Cooperative Wall Ball",
     "source": "",
     "months": [
-      "March",
-      "June"
+      "December",
+      "March"
     ],
     "purpose": "Here’s a fun teamwork game. It’s very easy to play, and it’s great to use to for a fun cooperative experience. There are actually 3 ways to play, each with a varying level of difficulty. Start by asking your players to e",
     "equipment": "ball, exercise ball",
@@ -3487,8 +3586,8 @@ window.GAME_DETAILS = [
     "name": "Cross the River",
     "source": "",
     "months": [
-      "January",
-      "April"
+      "December",
+      "June"
     ],
     "purpose": "Share three hoops or spots to cross the gym.",
     "equipment": "3 hoops or poly spots per team of 6–8.",
@@ -3509,7 +3608,8 @@ window.GAME_DETAILS = [
     "name": "Elves, Giants, Wizards",
     "source": "",
     "months": [
-      "January"
+      "December",
+      "October"
     ],
     "purpose": "Team rock-paper-scissors then a short chase. No elimination.",
     "equipment": "Cones for two team lines and two safe zones.",
@@ -3530,7 +3630,8 @@ window.GAME_DETAILS = [
     "name": "Helicopter / Snake rope",
     "source": "",
     "months": [
-      "February"
+      "February",
+      "December"
     ],
     "purpose": "Jump or step a long rope that travels along the floor.",
     "equipment": "One long rope.",
@@ -3551,7 +3652,8 @@ window.GAME_DETAILS = [
     "name": "Human Knot",
     "source": "",
     "months": [
-      "January"
+      "December",
+      "October"
     ],
     "purpose": "Problem-solve in a small group. Consent first.",
     "equipment": "None.",
@@ -3572,7 +3674,7 @@ window.GAME_DETAILS = [
     "name": "Invent-a-game",
     "source": "",
     "months": [
-      "January"
+      "December"
     ],
     "purpose": "Students write three fair rules and teach the class.",
     "equipment": "Whatever the group chooses from a teacher-approved pile.",
@@ -3593,7 +3695,8 @@ window.GAME_DETAILS = [
     "name": "Object Toss mixer",
     "source": "",
     "months": [
-      "March"
+      "October",
+      "December"
     ],
     "purpose": "Say a name, toss a scarf. Add objects until several are in the air.",
     "equipment": "Scarves, then beanbags.",
@@ -3614,7 +3717,8 @@ window.GAME_DETAILS = [
     "name": "Parachute popcorn / dome / cat-and-mouse",
     "source": "",
     "months": [
-      "March"
+      "October",
+      "December"
     ],
     "purpose": "Core chute set: waves, mushroom, and a chase under the silk.",
     "equipment": "Parachute or king-size sheet, beanbags.",
@@ -3636,8 +3740,7 @@ window.GAME_DETAILS = [
     "name": "Pass It On",
     "source": "",
     "months": [
-      "March",
-      "June"
+      "December"
     ],
     "purpose": "This team-building game is great for any physical education class. Players will work together to pass objects to each other to be the first team to successfully move all objects from one end to the other. There’s a catch",
     "equipment": "Hula hoops, various items",
@@ -3660,7 +3763,8 @@ window.GAME_DETAILS = [
     "name": "Pulse Race",
     "source": "",
     "months": [
-      "January"
+      "December",
+      "October"
     ],
     "purpose": "Quiet teamwork. A squeeze is the signal.",
     "equipment": "A coin or coloured card, one ball.",
@@ -3681,7 +3785,8 @@ window.GAME_DETAILS = [
     "name": "Sharks and Dolphins (chute)",
     "source": "",
     "months": [
-      "March"
+      "October",
+      "December"
     ],
     "purpose": "Same island idea, but the parachute shrinks instead of removing hoops.",
     "equipment": "Parachute or large sheet.",
@@ -3702,7 +3807,8 @@ window.GAME_DETAILS = [
     "name": "Slippery Snakes",
     "source": "",
     "months": [
-      "February"
+      "December",
+      "October"
     ],
     "purpose": "Jump a low moving rope.",
     "equipment": "1–2 long ropes.",
@@ -3722,8 +3828,8 @@ window.GAME_DETAILS = [
     "name": "The Great Outdoor Treasure Hunt",
     "source": "",
     "months": [
-      "March",
-      "June"
+      "December",
+      "October"
     ],
     "purpose": "What better way to use outdoor space than a scavenger hunt!? This hunt is a bit different from your typical hunt, because instead of a list that players need to just check off when they see the items, they must BRING THE",
     "equipment": "Nature",
@@ -3746,7 +3852,8 @@ window.GAME_DETAILS = [
     "name": "Voice Path",
     "source": "",
     "months": [
-      "April"
+      "March",
+      "December"
     ],
     "purpose": "Give and follow a short direction.",
     "equipment": "Scattered cones. No benches.",
@@ -3767,8 +3874,8 @@ window.GAME_DETAILS = [
     "name": "Animals",
     "source": "",
     "months": [
-      "February",
-      "April"
+      "April",
+      "February"
     ],
     "purpose": "Such a simple warm-up game! Choose a theme – for example, the jungle. Then students can choose a jungle animal that they will pretend to be, perhaps a monkey or parrot, and spend a minute moving around like that animal, ",
     "equipment": "None",
@@ -3790,7 +3897,7 @@ window.GAME_DETAILS = [
     "name": "Beanbag head walk",
     "source": "",
     "months": [
-      "December",
+      "February",
       "April"
     ],
     "purpose": "Still head, airplane arms.",
@@ -3810,6 +3917,7 @@ window.GAME_DETAILS = [
     "name": "Body-part beanbags",
     "source": "",
     "months": [
+      "February",
       "April"
     ],
     "purpose": "On a signal, a named body part must touch a spot.",
@@ -3856,7 +3964,8 @@ window.GAME_DETAILS = [
     "source": "",
     "months": [
       "February",
-      "April"
+      "January",
+      "June"
     ],
     "purpose": "In this fitness or warm-up game, hula hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. ",
     "equipment": "Hula hoops, music",
@@ -3879,7 +3988,8 @@ window.GAME_DETAILS = [
     "name": "Floor rope walk",
     "source": "",
     "months": [
-      "April"
+      "April",
+      "February"
     ],
     "purpose": "Balance on a floor line — no bench.",
     "equipment": "Rope or tape.",
@@ -3898,7 +4008,8 @@ window.GAME_DETAILS = [
     "name": "Frogs on the Lily Pads",
     "source": "",
     "months": [
-      "April"
+      "April",
+      "February"
     ],
     "purpose": "Two-foot jump and stick. Gymnastics landings.",
     "equipment": "Hoops.",
@@ -3918,8 +4029,7 @@ window.GAME_DETAILS = [
     "name": "Hula Hoop Twister",
     "source": "",
     "months": [
-      "February",
-      "April"
+      "February"
     ],
     "purpose": "It’s a combo of musical chairs and the Twister board game which for sure means it’s fun and active, definitely worth giving it a play or 10 in your PE class 😀 (thanks Deric Hafer)",
     "equipment": "Hula hoops, music",
@@ -3943,7 +4053,7 @@ window.GAME_DETAILS = [
     "source": "",
     "months": [
       "February",
-      "April"
+      "May"
     ],
     "purpose": "Another movement game to help enhance discussions and awareness of personal space. Hula hoop madness starts with lots of hula hoops on the floor for students to jump into when the music stops. But eventually as you take ",
     "equipment": "Hula hoops, music",
@@ -3989,8 +4099,9 @@ window.GAME_DETAILS = [
     "name": "Jump The River",
     "source": "",
     "months": [
-      "May",
-      "February"
+      "February",
+      "April",
+      "May"
     ],
     "purpose": "Super simple, super fun jumping activity, especially for long jump practice :p (Thanks Deric Hafer)",
     "equipment": "2 skipping ropes",
@@ -4014,7 +4125,7 @@ window.GAME_DETAILS = [
     "source": "",
     "months": [
       "February",
-      "May"
+      "April"
     ],
     "purpose": "Hold an object while jumping.",
     "equipment": "Soft ball, two cones.",
@@ -4033,8 +4144,8 @@ window.GAME_DETAILS = [
     "name": "Magic Numbers",
     "source": "",
     "months": [
-      "December",
-      "April"
+      "April",
+      "February"
     ],
     "purpose": "String three movements (10-10-10 or 7-7-7).",
     "equipment": "None.",
@@ -4054,7 +4165,8 @@ window.GAME_DETAILS = [
     "name": "Mass Challenges",
     "source": "",
     "months": [
-      "December"
+      "February",
+      "April"
     ],
     "purpose": "Whole class does the same short sequence together.",
     "equipment": "None.",
@@ -4076,7 +4188,7 @@ window.GAME_DETAILS = [
     "source": "",
     "months": [
       "February",
-      "May"
+      "April"
     ],
     "purpose": "Came up with an easy fitness activity that had maximal engagement. In this activity, students will go full-out exercise for 1 minute, then a 20s break, then on again for 1 minute, then a break, etc. I also use laminated ",
     "equipment": "None (or a variety)",
@@ -4100,8 +4212,8 @@ window.GAME_DETAILS = [
     "name": "Mirror Mirror",
     "source": "",
     "months": [
-      "February",
-      "April"
+      "January",
+      "June"
     ],
     "purpose": "Mirror Mirror could be a stand-alone game, could be used as a warm-up, or fitness activity. Quite a bit of action in this one. Start by dividing players into 2 equal groups. One group stands outside the basketball court ",
     "equipment": "Music",
@@ -4173,7 +4285,7 @@ window.GAME_DETAILS = [
     "source": "",
     "months": [
       "February",
-      "March"
+      "April"
     ],
     "purpose": "Balance then a short toss.",
     "equipment": "Racquet or hoop, beanbag, target hoop.",
@@ -4192,8 +4304,7 @@ window.GAME_DETAILS = [
     "name": "Rainbow Road",
     "source": "",
     "months": [
-      "February",
-      "April"
+      "February"
     ],
     "purpose": "In ‘Rainbow Road’ teams of players will move in different patterns along spots on the floor depending on which color sequence is called out. A variety of movement skills can be used to spice things up. Create 4 teams. Ea",
     "equipment": "Colored spots (lilly pads), or hula hoops",
@@ -4239,8 +4350,8 @@ window.GAME_DETAILS = [
     "name": "RPS Warm-up",
     "source": "",
     "months": [
-      "September",
-      "January"
+      "February",
+      "April"
     ],
     "purpose": "Such a simple warm-up idea that students really enjoy. Once players know how to play it, it’s an instant activity to use to get your PE class started. Also doesn’t require any equipment really, except for 4 cones. It cou",
     "equipment": "4 cones",
@@ -4287,6 +4398,7 @@ window.GAME_DETAILS = [
     "name": "Safe to Shore",
     "source": "",
     "months": [
+      "February",
       "April"
     ],
     "purpose": "Cross on mats without touching the floor.",
@@ -4330,6 +4442,7 @@ window.GAME_DETAILS = [
     "name": "Spot-jump path",
     "source": "",
     "months": [
+      "February",
       "April",
       "May"
     ],
@@ -4373,8 +4486,9 @@ window.GAME_DETAILS = [
     "name": "Throw & Go",
     "source": "",
     "months": [
-      "February",
-      "April"
+      "January",
+      "October",
+      "September"
     ],
     "purpose": "Quick, easy, effective warm-up or instant activity, best played outside but could work indoors with a smaller group.",
     "equipment": "Type of ball",
