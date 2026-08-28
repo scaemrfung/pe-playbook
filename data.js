@@ -2184,222 +2184,620 @@ const months = [
 const MONTH_GAMES = {
   "September": [
     [
+      "Everybody’s It",
+      "",
+      "Everyone is both tagger and runner."
+    ],
+    [
       "Hospital Tag",
       "",
-      "Everyone is it. Cover the tag with a hand. Third tag = stretch hospital, then re-enter. 5 min max as a warm-up."
-    ],
-    [
-      "Hot Dog Tag",
-      "",
-      "Tagged player is the wiener and calls for a bun. Two classmates stand either side, all three shout, then 5-second free."
-    ],
-    [
-      "Line Tag / Pac-Man",
-      "",
-      "Stay on gym lines. No jumping lines. Use as the run-skill game."
-    ],
-    [
-      "Sharks and Dolphins",
-      "",
-      "Hoop islands. On “Shark attack!” taggers enter. Take one hoop away each round. No sitting out — extra sharks."
-    ],
-    [
-      "Captain’s Deck / Shipwreck",
-      "",
-      "Command game: bow, stern, port, starboard, hit the deck, attention. Skip elimination — last group does 5 jumping jacks and stays in."
-    ],
-    [
-      "Switch",
-      "",
-      "Four corners, one in the middle. On “Switch,” steal a corner. No pushing; first foot on the spot keeps it."
-    ],
-    [
-      "Rikki Tikki",
-      "",
-      "Pairs race to the middle and match called body parts. Last pair does jumping jacks next round — still playing."
-    ],
-    [
-      "Frozen Tag",
-      "",
-      "Arms out when frozen. One high-five frees. Keep 2–3 taggers."
-    ],
-    [
-      "Buffalo",
-      "",
-      "Pairs on inside/outside track, opposite ways. Music on = jog. Music off = meet and sit back-to-back. Last pair leads the next stretch."
-    ],
-    [
-      "Laps and Lines / Signals",
-      "",
-      "Change locomotor or level on the whistle. Daily September instant activity."
-    ]
-  ],
-  "October": [
-    [
-      "Medic dodgeball",
-      "",
-      "Stay-in dodgeball — medic tap. See Dodgeball page."
-    ],
-    [
-      "Robin’s Nest",
-      "",
-      "Four hoop nests, balls in the middle. Feet only. Steal from the middle or another nest. First to 3."
-    ],
-    [
-      "Wall Soccer",
-      "",
-      "2–3 field players per team; everyone else is a wall-goalie. Rotate every 2–3 minutes."
-    ],
-    [
-      "Team Tag",
-      "",
-      "Tag team may only tag with a held ball. No throw, no walking with the ball. Tagged players join the tag team."
-    ],
-    [
-      "Chuck the Chicken",
-      "",
-      "Throw the chicken, run laps around your huddle while the other team lines up and passes over-under."
-    ],
-    [
-      "Skittles",
-      "",
-      "Knock the other team’s cone-skittles. Hits below the waist sit 10 steamboats, then back in. One fetcher in the safe zone."
+      "Fast warm-up. Everyone tags; nobody sits out for long."
     ],
     [
       "End Zone Ball",
       "",
-      "Roll (not throw) a football or soccer ball to your end-zone catchers. Other team intercepts."
+      "Roll (not throw) to catchers in an end zone. Intercept."
     ],
     [
-      "Card Sharks",
+      "Steal the Bacon",
       "",
-      "Relay: beanbag into a hoop to claim a card. Accuracy over speed."
+      "React to a number. Grab a ball or beanbag, not a person."
     ],
     [
-      "Booger Ball",
+      "Through the Gates",
       "",
-      "G5–6 invasion: tag the ball-carrier, they must pass, cannot shoot on the tag. Net = 1, hoop = 2."
-    ]
-  ],
-  "November": [
-    [
-      "FLY BACK",
-      "",
-      "Cross, grab a disc or ball from the safe zone, throw it home. Caught = collected. Dropped = goes back."
+      "Accurate kick or push-pass through a cone gate."
     ],
     [
-      "Bucket Ball",
+      "Wall Soccer",
       "",
-      "Pass-only; ball-carrier frozen. Score by a catch in a hoop or bucket zone. Rotate the catcher."
+      "Small-sided kick game. Everyone is either a field player or a moving wall-goalie."
     ],
     [
-      "Continuous Kick Ball",
+      "Hoop underhand relay",
       "",
-      "Kick off a saucer cone. Partner on the other team replaces the ball to stop the play. Multiple runners."
+      "Underhand accuracy."
     ],
     [
-      "Chuck the Chicken",
+      "Soccer weave relay",
       "",
-      "Same as October — now a throwing-accuracy closer."
+      "Small-touch dribble through cones."
     ],
     [
-      "Beat Ball / Beat the Ball",
+      "Throw-clap-catch relay",
       "",
-      "Throw or kick, run the bases while fielders throw around the horn."
+      "Eyes on the ball after a toss."
     ],
     [
-      "Thunderball",
+      "Here, There, Everywhere",
       "",
-      "Hit or kick through cone rows for 1–2–3 points. Defence stops it before the next row."
+      "Travel toward, away, or scatter on a point."
     ],
     [
-      "Clothespin Tag",
+      "Land and Sea",
       "",
-      "Steal one pin at a time from backs. Kneel to clip a stolen pin on the front (safe). Front pins stay."
-    ]
-  ],
-  "December": [
-    [
-      "European Rhythmic Running",
-      "",
-      "Locomotor changes on a drum, tambourine, or chanted 8-count."
+      "Jump a line on a call. Body control."
     ],
     [
-      "Human Bop-It",
+      "Backyard Dog Tag",
       "",
-      "Kick it, twist it, spin it, pull it, bop it — on the beat."
-    ],
-    [
-      "Video Game",
-      "",
-      "Play, rewind, fast-forward, pause, eject, slow-motion."
-    ],
-    [
-      "Captain’s Deck",
-      "",
-      "Same commands as September, now with dance levels and shapes."
-    ],
-    [
-      "Slap Rover",
-      "",
-      "Call a name over, slap-hand choose, chase back to the line. Use as a rhythm/style walk."
-    ],
-    [
-      "Mass Challenges",
-      "",
-      "Whole class: 3 slides left, jump high, freeze in a shape. End with a clap."
-    ],
-    [
-      "Magic Numbers",
-      "",
-      "10-10-10 or 7-7-7 of three named movements."
-    ]
-  ],
-  "January": [
-    [
-      "Switch-sides",
-      "",
-      "Hit means join the other team. See Dodgeball page."
-    ],
-    [
-      "Hot Dog Tag",
-      "",
-      "Cooperative unfreeze. Default January tag."
-    ],
-    [
-      "Blob Tag",
-      "",
-      "Start with one pair linked. Tagged players join. Break blobs at 4 if the chain gets dangerous."
-    ],
-    [
-      "Tripod Tag",
-      "",
-      "Groups of 4: three join hands, one tags. Short rounds, switch the tagger."
+      "Some students are dogs (they can act like a dog if they want). The dogs are trying to chase people away from their yard. Another fun tag game idea to try in you"
     ],
     [
       "Bug Tag / Dead Ant",
       "",
-      "Tagged player is a bug on their back. Four classmates carry by wrists/ankles to a hoop hospital. No lifting off the ground for G1–2 — walk-escort instead."
+      "Team carry or escort to a hospital hoop."
     ],
     [
-      "Chicken Checkers",
+      "Buzz Off / hoop free zones",
       "",
-      "2–4 tag pairs. Rest stand in hoops. Step in, say the name, swap. Keep people moving."
+      "Hoops are rest spots. A new player takes the hoop with a kind phrase."
+    ]
+  ],
+  "October": [
+    [
+      "Sharks and Dolphins",
+      "",
+      "Flee to a safe island. Shrink space each round."
+    ],
+    [
+      "Tail Tag",
+      "",
+      "Pull a bib tail, then hand it on."
+    ],
+    [
+      "Protect the King",
+      "",
+      "Pass to an opening. Defend without body-checking."
+    ],
+    [
+      "Steal the Bacon",
+      "",
+      "React to a number. Grab a ball or beanbag, not a person."
+    ],
+    [
+      "3-Ball Soccer",
+      "",
+      "For more action, and more touches, play 3 ball soccer. It’s essentially a big soccer game with the added bonus of 2 more soccer balls. Great to play especially "
+    ],
+    [
+      "4-Goal Soccer",
+      "",
+      "4 Goal Soccer is another popular soccer PE game, especially with larger groups. 4 nets are set-up on each side. 4 teams go at it with whatever soccer rules the "
+    ],
+    [
+      "5 Soccer Circle Ideas",
+      "",
+      "Here are 5 soccer circle ideas you can use to work on passing (and dribbling) as well as more skills! They range from simple to moderately advanced and there’s "
+    ],
+    [
+      "Bench Ball",
+      "",
+      "Bench ball is arguably one of the best low organized throwing and catching games. The goal is to be the first team to get your players onto the bench. But how d"
+    ],
+    [
+      "Booger Ball",
+      "",
+      "Grade 5–6 invasion. Tag the ball-carrier; they must pass."
+    ],
+    [
+      "Captain Ball",
+      "",
+      "Pass to a teammate who must stay in a hoop."
+    ],
+    [
+      "Capture the Egg",
+      "",
+      "Carry a beanbag through traffic."
+    ],
+    [
+      "Capture The Flag Outdoors",
+      "",
+      "This has been the GAME OF THE YEAR at our school. LOTS of Fun, many skills and laughs have been had. Competition at its finest, and what a workout. It’s the sta"
+    ],
+    [
+      "Collect the Treasure",
+      "",
+      "Cooperative collect with a walk-back if tagged."
+    ],
+    [
+      "Cornerball",
+      "",
+      "Score in any of four corners."
+    ]
+  ],
+  "November": [
+    [
+      "Hot Dog Tag",
+      "",
+      "Cooperative unfreeze. Practise asking for help."
+    ],
+    [
+      "Numbers Hockey",
+      "",
+      "Short hockey points. Many get a turn."
+    ],
+    [
+      "Protect the King",
+      "",
+      "Pass to an opening. Defend without body-checking."
+    ],
+    [
+      "Hockey pin knockdown",
+      "",
+      "One controlled shot after a dribble."
+    ],
+    [
+      "Hockey hurdle dribble",
+      "",
+      "Tiny touches, blade on the floor."
+    ],
+    [
+      "Birthday Lineup",
+      "",
+      "Communicate without talking."
+    ],
+    [
+      "Circle Hoop Pass",
+      "",
+      "Move a hoop around a held-hands circle."
+    ],
+    [
+      "End Ball",
+      "",
+      "Pass to a catcher in an end zone. Same family as Captain Ball."
+    ],
+    [
+      "Team Tag",
+      "",
+      "Invasion lead-up. Pass to get close enough to tag."
+    ],
+    [
+      "Through the Gates",
+      "",
+      "Accurate kick or push-pass through a cone gate."
+    ]
+  ],
+  "December": [
+    [
+      "Angry Neighbour",
+      "",
+      "This game is quick and easy and angry. For some reason, the neighbours (taggers) are not happy with the players on their yard, so they chase them around with a "
+    ],
+    [
+      "Banana Tag",
+      "",
+      "Such a simple tag game; kids go bananas, literally! As players get tagged, they must curve their bodies into the shape of a banana. Someone else will come along"
+    ],
+    [
+      "Blob Tag",
+      "",
+      "Cooperative chasing. The chain grows, then splits if it gets unsafe."
+    ],
+    [
+      "Everybody’s It",
+      "",
+      "Everyone is both tagger and runner."
+    ],
+    [
+      "Hospital Tag",
+      "",
+      "Fast warm-up. Everyone tags; nobody sits out for long."
+    ],
+    [
+      "Hot Dog Tag",
+      "",
+      "Cooperative unfreeze. Practise asking for help."
+    ],
+    [
+      "Massive 10 Second Tag",
+      "",
+      "Tried a quick modification of Joel Sweetland’s ’10-second tag’ for a large group that I had. Wasn’t sure if it’d work but it went really good! Note: the cycles "
+    ],
+    [
+      "Shadow Tag",
+      "",
+      "Tag a shadow or a spot, not a body."
+    ],
+    [
+      "Wolf’s Den",
+      "",
+      "Cross a middle zone. Tagged players re-enter — they are not out for the period."
+    ],
+    [
+      "Bench Ball",
+      "",
+      "Bench ball is arguably one of the best low organized throwing and catching games. The goal is to be the first team to get your players onto the bench. But how d"
+    ],
+    [
+      "Capture The Flag Outdoors",
+      "",
+      "This has been the GAME OF THE YEAR at our school. LOTS of Fun, many skills and laughs have been had. Competition at its finest, and what a workout. It’s the sta"
+    ],
+    [
+      "End Zone Ball",
+      "",
+      "Roll (not throw) to catchers in an end zone. Intercept."
     ],
     [
       "Four Corner Flags",
       "",
-      "Four teams steal beanbag flags. Safe in your quadrant. No puppy-guarding the hoop."
+      "Four-team steal. Safe in your own quadrant."
     ],
     [
-      "Stones",
+      "Castleball",
       "",
-      "Two-team capture the beanbags. Tagged sit; a teammate links and walks you home."
+      "Castle Ball might be one of physedgames’ favourites! A must play! This target game adds a huge teamwork component as well as team strategy. It also ties in thro"
+    ]
+  ],
+  "January": [
+    [
+      "Collect the Treasure",
+      "",
+      "Cooperative collect with a walk-back if tagged."
     ],
     [
-      "Elves, Giants, Wizards",
+      "End Zone Ball",
       "",
-      "Team RPS: elf beats wizard, wizard beats giant, giant beats elf. Winners chase; tagged join. No elimination."
+      "Roll (not throw) to catchers in an end zone. Intercept."
+    ],
+    [
+      "Switch",
+      "",
+      "Steal a corner on a signal. Fast feet, no contact."
+    ],
+    [
+      "Overarm throw-and-catch",
+      "",
+      "Overarm send and a ready catch."
+    ],
+    [
+      "Dribble the gates",
+      "",
+      "Finger-pad bounce through gates."
+    ],
+    [
+      "Wall chest-pass relay",
+      "",
+      "Step-and-push chest pass."
+    ],
+    [
+      "Throw & Go",
+      "",
+      "Quick, easy, effective warm-up or instant activity, best played outside but could work indoors with a smaller group."
+    ],
+    [
+      "Booger Ball",
+      "",
+      "Grade 5–6 invasion. Tag the ball-carrier; they must pass."
+    ],
+    [
+      "Captain Ball",
+      "",
+      "Pass to a teammate who must stay in a hoop."
+    ],
+    [
+      "Capture the Egg",
+      "",
+      "Carry a beanbag through traffic."
+    ],
+    [
+      "Cornerball",
+      "",
+      "Score in any of four corners."
+    ],
+    [
+      "Fruit Salad",
+      "",
+      "Four-corner switch with a middle seeker."
+    ],
+    [
+      "Go for Goal",
+      "",
+      "Small-sided kick or shot at cone goals."
+    ],
+    [
+      "Guard the Gates",
+      "",
+      "Dribble through gates. Defenders intercept the ball, not the body."
+    ]
+  ],
+  "February": [
+    [
+      "Chicken Checkers",
+      "",
+      "Tag game with built-in hoop rests and name-saying swaps."
+    ],
+    [
+      "Four Corners Stay-In",
+      "",
+      "Choose a space. A called corner stays in the game."
+    ],
+    [
+      "Fitness Musical Hoops",
+      "",
+      "In this fitness or warm-up game, hula hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clo"
+    ],
+    [
+      "Jump The River",
+      "",
+      "Super simple, super fun jumping activity, especially for long jump practice :p (Thanks Deric Hafer)"
+    ],
+    [
+      "Reindeer Roundup",
+      "",
+      "A Christmas game for the holidays (thanks to Angela Crepeele)."
+    ],
+    [
+      "Attention Relay",
+      "",
+      "Numbered files. Call a number; those runners loop their team."
+    ],
+    [
+      "Circle run relay",
+      "",
+      "Sustained run and a fair tag."
+    ],
+    [
+      "Crab-bear walk relay",
+      "",
+      "Two animal travels in a short bout."
+    ],
+    [
+      "Dash and Dribble",
+      "",
+      "Relay with a trap at the turn."
+    ],
+    [
+      "Hop-the-hoops relay",
+      "",
+      "One-foot hop with a planned landing."
+    ],
+    [
+      "Hungry Snake",
+      "",
+      "Whole team stays linked. The head collects objects and passes them back."
+    ],
+    [
+      "Ice Cream Cone Relays",
+      "",
+      "Here are 3 relay ideas with an ice cream theme to use as a team-building, stand-alone, or field day event!"
+    ],
+    [
+      "Jungle Run Relays",
+      "",
+      "Relay with a hoop, a jump, and a cone."
+    ],
+    [
+      "Memory Relay",
+      "",
+      "Peek at a hidden card pattern, then rebuild it at home."
+    ]
+  ],
+  "March": [
+    [
+      "Four Corners Stay-In",
+      "",
+      "Choose a space. A called corner stays in the game."
+    ],
+    [
+      "Balloon Keep-Up",
+      "",
+      "Toss-catch and timing. Circus lead-up."
+    ],
+    [
+      "Cooperative Wall Ball",
+      "",
+      "Here’s a fun teamwork game. It’s very easy to play, and it’s great to use to for a fun cooperative experience. There are actually 3 ways to play, each with a va"
+    ],
+    [
+      "Battleships",
+      "",
+      "Four-team throw and defend a pin."
+    ],
+    [
+      "Bucket Ball",
+      "",
+      "Pass-only score: a teammate on a bench catches into a bucket."
+    ],
+    [
+      "Card Sharks",
+      "",
+      "Underhand accuracy relay. Collect cards by hitting a hoop."
+    ],
+    [
+      "FLY BACK",
+      "",
+      "Throw and catch under a little pressure. Retrieve an object and send it home."
+    ],
+    [
+      "Flying Saucers",
+      "",
+      "Long underhand or disc throw at hoops."
+    ],
+    [
+      "Frisbee Flingers",
+      "",
+      "Disc throw and catch into a hoop."
+    ],
+    [
+      "Guard the Cone",
+      "",
+      "Defend a target. Pass before a throw."
+    ],
+    [
+      "Low-ball",
+      "",
+      "Send a dodgeball below the waist. A hit is a stretch, not an out."
+    ],
+    [
+      "Poison Ball",
+      "",
+      "Dodge in a circle. Switch roles — nobody is out for the game."
+    ],
+    [
+      "Protect the Castle",
+      "",
+      "Throw at a target while others defend by catching."
+    ],
+    [
+      "Robin’s Nest",
+      "",
+      "Foot-eye send. Collect three balls in your hoop."
+    ]
+  ],
+  "April": [
+    [
+      "Animals",
+      "",
+      "Such a simple warm-up game! Choose a theme – for example, the jungle. Then students can choose a jungle animal that they will pretend to be, perhaps a monkey or"
+    ],
+    [
+      "Floor rope walk",
+      "",
+      "Balance on a floor line — no bench."
+    ],
+    [
+      "Jump The River",
+      "",
+      "Super simple, super fun jumping activity, especially for long jump practice :p (Thanks Deric Hafer)"
+    ],
+    [
+      "Tail Tag",
+      "",
+      "Pull a bib tail, then hand it on."
+    ],
+    [
+      "Daytime / Nighttime",
+      "",
+      "Travel, then freeze in a gymnastic statue."
+    ],
+    [
+      "Signals / shapes",
+      "",
+      "Whistle changes level or gymnastic shape."
+    ],
+    [
+      "Beanbag head walk",
+      "",
+      "Still head, airplane arms."
+    ],
+    [
+      "Body-part beanbags",
+      "",
+      "On a signal, a named body part must touch a spot."
+    ],
+    [
+      "Bridges & Rivers",
+      "",
+      "Players will form either bridges or rivers and perform jumps or crawls depending what’s called out. Lots of fun to be had by all, especially if this game is pla"
+    ],
+    [
+      "Frogs on the Lily Pads",
+      "",
+      "Two-foot jump and stick. Gymnastics landings."
+    ],
+    [
+      "Immersive Workout ADVENTURE All Ages Brain Break",
+      "",
+      "A 5-minute interactive and active warm-up/workout. This one has an adventure theme all over the world with people, places, and things of all sorts. Included fit"
+    ],
+    [
+      "Knee-ball jumps",
+      "",
+      "Hold an object while jumping."
+    ],
+    [
+      "Magic Numbers",
+      "",
+      "String three movements (10-10-10 or 7-7-7)."
+    ],
+    [
+      "Mass Challenges",
+      "",
+      "Whole class does the same short sequence together."
+    ]
+  ],
+  "May": [
+    [
+      "Jump The River",
+      "",
+      "Super simple, super fun jumping activity, especially for long jump practice :p (Thanks Deric Hafer)"
+    ],
+    [
+      "Around the Bases Relay",
+      "",
+      "Team running the diamond."
+    ],
+    [
+      "Attention Relay",
+      "",
+      "Numbered files. Call a number; those runners loop their team."
+    ],
+    [
+      "Circle run relay",
+      "",
+      "Sustained run and a fair tag."
+    ],
+    [
+      "Cone Relay",
+      "",
+      "Run cones in a called order (memory + speed)."
+    ],
+    [
+      "Crab-bear walk relay",
+      "",
+      "Two animal travels in a short bout."
+    ],
+    [
+      "Hockey hurdle dribble",
+      "",
+      "Tiny touches, blade on the floor."
+    ],
+    [
+      "Hoop underhand relay",
+      "",
+      "Underhand accuracy."
+    ],
+    [
+      "Hop-the-hoops relay",
+      "",
+      "One-foot hop with a planned landing."
+    ],
+    [
+      "Ice Cream Cone Relays",
+      "",
+      "Here are 3 relay ideas with an ice cream theme to use as a team-building, stand-alone, or field day event!"
+    ],
+    [
+      "Jungle Run Relays",
+      "",
+      "Relay with a hoop, a jump, and a cone."
+    ],
+    [
+      "Memory Relay",
+      "",
+      "Peek at a hidden card pattern, then rebuild it at home."
     ],
     [
       "Rescue Relay",
@@ -2407,199 +2805,81 @@ const MONTH_GAMES = {
       "Run across, take a teammate by the hand, bring them home."
     ],
     [
-      "Hungry Snake",
+      "Soccer weave relay",
       "",
-      "Whole team stays linked. Head picks up objects, passes them back to the bag."
-    ],
-    [
-      "Keep Away",
-      "",
-      "4v1 or 3v1. Three completes, then switch the middle player."
-    ],
-    [
-      "End Zone Ball",
-      "",
-      "No running with the ball. Three completes or a catch in the end zone."
-    ],
-    [
-      "Rob the Nest (dribble)",
-      "",
-      "Dribble or carry one soccer or hockey ball at a time back to a hoop nest."
-    ]
-  ],
-  "February": [
-    [
-      "Chicken Checkers",
-      "",
-      "Hoop rest-spots during rope/hoop cardio."
-    ],
-    [
-      "Sharks and Dolphins",
-      "",
-      "Hoop islands after hoop-skill practice."
-    ],
-    [
-      "Switch",
-      "",
-      "Fast feet, hoop or poly-spot corners."
-    ],
-    [
-      "Helicopter / Snake rope",
-      "",
-      "Low long-rope circle. Jump or step over. G1–2: walk the snake."
-    ],
-    [
-      "Buzz Off / hoop free zones",
-      "",
-      "Hoops are rest. New player says “Buzz off” to take the hoop."
-    ],
-    [
-      "Rubber Band",
-      "",
-      "Face out from a circle, travel on signal, sprint back on the second signal."
-    ]
-  ],
-  "March": [
-    [
-      "Sharks and Dolphins (chute)",
-      "",
-      "Parachute shrinks each round instead of removing hoops."
-    ],
-    [
-      "Bug Tag / Dead Ant",
-      "",
-      "Carry-to-hospital — circus-strong teamwork. G1–2 walk-escort."
-    ],
-    [
-      "Object Toss mixer",
-      "",
-      "Say a name, toss a scarf. Add objects until several are in the air."
-    ],
-    [
-      "Pip, Squeak and Wilbur",
-      "",
-      "Trios. Called name runs the circle, through a teammate arch, to a centre beanbag."
-    ],
-    [
-      "Mr. Clean",
-      "",
-      "Get rid of your two clothespins by clipping them on someone else’s back. Check in the clean hoop."
-    ],
-    [
-      "Parachute popcorn / dome / cat-and-mouse",
-      "",
-      "Core chute set from the month’s lessons."
-    ]
-  ],
-  "April": [
-    [
-      "Signals / shapes",
-      "",
-      "Whistle changes level or shape. Gymnastics language: tuck, pike, stretch."
-    ],
-    [
-      "Body-part beanbags",
-      "",
-      "Move around spots. Called body part must touch the spot."
-    ],
-    [
-      "Magic Numbers",
-      "",
-      "3 movements × 7, done as travel-jump-shape."
-    ],
-    [
-      "Daytime / Nighttime",
-      "",
-      "Night = freeze in a gymnastic statue."
-    ],
-    [
-      "Switch",
-      "",
-      "Corners are mats. Quiet feet only."
-    ]
-  ],
-  "May": [
-    [
-      "Buffalo",
-      "",
-      "Track intervals with a partner meet-up."
-    ],
-    [
-      "Around the Bases Relay",
-      "",
-      "Teams at each base, run the diamond."
-    ],
-    [
-      "Cone Relay",
-      "",
-      "Teacher calls 2-4-3-1; run the cones in that order."
-    ],
-    [
-      "Memory Relay",
-      "",
-      "Peek at a card pattern behind a cone wall, rebuild it at home."
-    ],
-    [
-      "Card Sharks",
-      "",
-      "Throw a beanbag to a hoop to collect a card — throw review."
-    ],
-    [
-      "Aces",
-      "",
-      "Outdoor if you can. Active war with a card master hoop. G5–6."
-    ],
-    [
-      "Four Corner Flags",
-      "",
-      "Orienteering-style steal with a map-optional outdoor version."
-    ],
-    [
-      "Attention Relay",
-      "",
-      "Numbered files. Call a number; those runners loop their team."
+      "Small-touch dribble through cones."
     ]
   ],
   "June": [
     [
+      "Overarm throw-and-catch",
+      "",
+      "Overarm send and a ready catch."
+    ],
+    [
       "Continuous Kick Ball",
       "",
-      "T-ball cousin. Kick off a cone; partner replaces the ball to freeze runners."
+      "Kickball cousin. Many runners. Play stops when a named partner replaces the ball on a cone."
     ],
     [
-      "Beat Ball",
+      "Quick Baseball",
       "",
-      "Runner vs the ball around the horn."
+      "Hit, run a short path, field to a tee."
     ],
     [
-      "RPS Rounders",
+      "Circle Hoop Pass",
       "",
-      "Meet in the middle, rock-paper-scissors, winner keeps the ball toward the end zone."
+      "Move a hoop around a held-hands circle."
     ],
     [
-      "Thunderball",
+      "Cross the River",
       "",
-      "Hit/kick through point-rows of cones."
+      "Share three hoops or spots to cross the gym."
     ],
     [
-      "Team Bowling",
+      "Crab Football",
       "",
-      "Bowl at your own line of pins. Fetch and go again."
+      "Core strength and a short cooperative carry."
+    ],
+    [
+      "Crazy Ball Soccer",
+      "",
+      "Great for any grade or age level, Crazy Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instea"
+    ],
+    [
+      "Slappers!",
+      "",
+      "Try out this amazing game called SLAPPERS. It’s a game that mainly uses the striking skill (or swatting, smacking, slapping – however you want to call it). 4 te"
+    ],
+    [
+      "Punt to the line",
+      "",
+      "Drop-kick a football toward a zone."
+    ],
+    [
+      "Aces",
+      "",
+      "Outdoor Grade 5–6. Active war with a card-master hoop."
     ],
     [
       "Barkball",
       "",
-      "Hit, run to the end line, fielders tag with the ball in hand."
+      "Hit, run to an end line; fielders tag with the ball in hand."
     ],
     [
-      "Chuck the Chicken",
+      "Beat Ball / Beat the Ball",
       "",
-      "Festival closer."
+      "Hit or kick, then race the ball around the horn."
     ],
     [
-      "Squirrel’s Tail",
+      "Bombardment",
       "",
-      "Tails + nuts in the middle. Steal a nut or a tail. Buy a tail back with two nuts. Outdoor G3–6."
+      "Here’s a multi-skills game idea, lots of skills involved (mostly basketball skills practice but could be modified) – thanks Dan Kirsch!"
+    ],
+    [
+      "Catch & Step",
+      "",
+      "This is a classic PE or camp game with the focus on throwing and catching. As players are successful, the game becomes more challenging. When unsuccessful, they"
     ]
   ]
 };
