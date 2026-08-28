@@ -29,7 +29,16 @@
     <div class="panel">
       <h1 style="margin-top:0;color:var(--navy)">Alberta PEW outcomes &amp; assessment</h1>
       <p>This page maps the <strong>Physical Education and Wellness (K–6)</strong> curriculum to a 4 × 30-minute PE week. Use it when you plan the month, write report-card comments, or check who needs another look.</p>
-      <p class="meta">Source: <a href="https://curriculum.learnalberta.ca/curriculum/en/gfc/PDE" target="_blank" rel="noopener">LearnAlberta · Physical Education and Wellness K–6</a> (implemented 2022; minor updates 2026). Confirm the exact learning-outcome wording for your grade before reporting.</p>
+      <p class="meta">Source: <a href="https://curriculum.learnalberta.ca/curriculum/en/gfc/PDE" target="_blank" rel="noopener">LearnAlberta · Physical Education and Wellness K–6</a> (implemented 2022; minor updates 2026). Use the <a href="#report-card">report-card outcomes</a> below for school wording; monthly look-fors still help you gather evidence.</p>
+    </div>
+
+    <div class="panel" id="report-card">
+      <h2>Report-card outcomes (every term)</h2>
+      <p>These are the school's official <strong>Physical Education</strong> reporting lines. Match report comments to the grade's wording here. Monthly look-fors further down still help you gather evidence in the gym.</p>
+      <p class="meta" id="report-outcome-line"></p>
+      <div class="filters" id="report-grade-filters"></div>
+      <div id="report-grade-outcomes"></div>
+      <p class="note">This gym plan is Grades 1–6. Kindergarten wording is included for report cards. Wellness reporting (food, money, growth) is usually outside the 30-minute PE block and is not listed here.</p>
     </div>
 
     <div class="panel">
@@ -54,7 +63,7 @@
           <tr><td><strong>Each class</strong></td><td>Soft tag, freeze on the whistle, kind language</td><td>Safety line on the game card</td></tr>
           <tr><td><strong>Each week</strong></td><td>One skill cue (eyes up, opposite foot, two-hand catch)</td><td>Lesson 5–16 block on the month page</td></tr>
           <tr><td><strong>Each month</strong></td><td>2–4 assessment rows (what / how / evidence)</td><td>Table below · also on each month page</td></tr>
-          <tr><td><strong>Report period</strong></td><td>Match comments to the PEW learning outcome for that grade</td><td>LearnAlberta LO for your grade</td></tr>
+          <tr><td><strong>Report period</strong></td><td>Match comments to the PEW learning outcome for that grade</td><td><a href="#report-card">Report-card outcomes</a> on this page</td></tr>
         </tbody>
       </table>
     </div>
@@ -87,6 +96,7 @@
   </main>
   <footer class="site wrap">Alberta PEW K–6 · assess the outcome, not the score · fitness stays private.</footer>
   <script src="outcomes-data.js"></script>
+  <script src="reporting-outcomes.js"></script>
   <script>
     const OIS = [
       { id: "Active Living", focus: true, text: "Developing physical literacy through movement and active living supports well-being across a lifespan." },
@@ -105,6 +115,37 @@
         <p>${o.text}</p>
         <p class="meta">${o.focus ? "Used often in this gym plan" : "Link when the lesson names it"}</p>
       </article>`).join("");
+
+    const REPORT = window.REPORTING_PE || { grades: [] };
+    const reportFilters = document.getElementById("report-grade-filters");
+    const reportBox = document.getElementById("report-grade-outcomes");
+    const reportLine = document.getElementById("report-outcome-line");
+    let reportGrade = (REPORT.grades.find((g) => g.id === "1") || REPORT.grades[0] || {}).id;
+
+    function renderReport() {
+      if (!reportFilters || !reportBox) return;
+      const grades = REPORT.grades || [];
+      reportFilters.innerHTML = grades.map((g) =>
+        `<button type="button" data-g="${g.id}" class="${g.id === reportGrade ? "on" : ""}">${g.label}</button>`
+      ).join("");
+      const g = grades.find((x) => x.id === reportGrade) || grades[0];
+      if (!g) { reportBox.innerHTML = ""; return; }
+      if (reportLine) {
+        reportLine.innerHTML = `<strong>Reporting outcome</strong> (${REPORT.frequency || "Every term"}): ${g.reporting}`;
+      }
+      reportBox.innerHTML = `
+        <p class="meta">Gym band ${g.band} · ${g.label}</p>
+        <ul class="clean">${(g.outcomes || []).map((x) => `<li>${x}</li>`).join("")}</ul>`;
+    }
+    if (reportFilters) {
+      reportFilters.addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-g]");
+        if (!btn) return;
+        reportGrade = btn.getAttribute("data-g");
+        renderReport();
+      });
+      renderReport();
+    }
 
     const UNIT = window.UNIT_OUTCOMES || {};
     const months = Object.keys(UNIT);
@@ -151,7 +192,7 @@
             ).join("")}</tbody>
           </table>
         </div>
-        <p class="note">Print tip: use landscape, or copy one criterion row into your gradebook. Match final report comments to the LearnAlberta learning outcome for the grade.</p>`;
+        <p class="note">Print tip: use landscape, or copy one criterion row into your gradebook. Match final report comments to the <a href="#report-card">report-card outcomes</a> for the grade.</p>`;
     }
 
     filters.addEventListener("click", (e) => {
