@@ -366,7 +366,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
           const x = EX[g.name] || {};
           const more = (x.more || []).map((s) => `<li>${s}</li>`).join("");
           const cues = (x.cues || []).map((s) => `<li>${s}</li>`).join("");
-          const vars = (x.variations || []).map((s) => `<li>${s}</li>`).join("");
+          const vars = (x.variations || []).filter((s) => !/^source:|^credit:/i.test(s)).map((s) => `<li>${s}</li>`).join("");
           return `
           <article class="gcard" id="${gslug(g.name)}">
             <div class="ghead">
@@ -378,9 +378,10 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
             <p class="meta"><strong>Equipment:</strong> ${g.equipment || ""}</p>
             <p class="meta"><strong>Set-up:</strong> ${g.setup || ""}</p>
             <p><strong>How we play</strong></p>
-            <ol class="clean">${(g.play || []).map((s) => `<li>${s}</li>`).join("")}${more}</ol>
+            <ol class="clean">${(g.play || []).map((s) => `<li>${s}</li>`).join("")}</ol>
             ${cues ? `<p><strong>Cues</strong></p><ul class="clean">${cues}</ul>` : ""}
             ${vars ? `<p><strong>Variations</strong></p><ul class="clean">${vars}</ul>` : ""}
+            ${more ? `<p><strong>Teaching tips</strong></p><ul class="clean">${more}</ul>` : ""}
             ${videoHtml(g.name)}
             ${(() => {
               const outs = (x.outcomes && x.outcomes.length) ? x.outcomes : (x.look ? [{ code: "Look-for", look: x.look }] : []);
