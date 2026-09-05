@@ -9754,5 +9754,1797 @@ window.GAME_EXTRAS = {
       "Hand It Over",
       "Ball Run"
     ]
+  },
+  "Bottle Flip": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Two or three boxes. Two-hand set-down counts.",
+      "Six boxes. One-hand flip.",
+      "Time cap or team relay."
+    ],
+    "look": "Everyone is moving or has a job in Bottle Flip. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Bottle Flip for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Bottle Flip with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Bottle Flip instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Bottle Flip."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Bottle Flip."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Two or three boxes. Two-hand set-down counts.",
+      "Six boxes. One-hand flip.",
+      "Time cap or team relay."
+    ],
+    "aka": [
+      "Daly Exercise: Bottle Flip"
+    ]
+  },
+  "Bottle Flip Challenge": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Flip onto a mat. Walking tag.",
+      "Jog tag. Two winners become two taggers.",
+      "Full reset each round."
+    ],
+    "look": "Everyone is moving or has a job in Bottle Flip Challenge. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Bottle Flip Challenge for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Bottle Flip Challenge with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Bottle Flip Challenge instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Bottle Flip Challenge."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Bottle Flip Challenge."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Flip onto a mat. Walking tag.",
+      "Jog tag. Two winners become two taggers.",
+      "Full reset each round."
+    ],
+    "aka": [
+      "Daly Exercise: Bottle Flip Challenge"
+    ]
+  },
+  "Boom Clap Snatch": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Two words only.",
+      "All three words. Mix the order.",
+      "Add dummy words."
+    ],
+    "look": "Everyone is moving or has a job in Boom Clap Snatch. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Boom Clap Snatch for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Boom Clap Snatch with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Boom Clap Snatch instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Boom Clap Snatch."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Boom Clap Snatch."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Two words only.",
+      "All three words. Mix the order.",
+      "Add dummy words."
+    ],
+    "aka": [
+      "Daly Exercise: Boom Clap Snatch"
+    ]
+  },
+  "Cardboard Balance": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "One ball. Larger hole.",
+      "Two or three balls.",
+      "Three holders on a bigger tray."
+    ],
+    "look": "Everyone is moving or has a job in Cardboard Balance. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Cardboard Balance for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Cardboard Balance with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Cardboard Balance instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Cardboard Balance."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Cardboard Balance."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "One ball. Larger hole.",
+      "Two or three balls.",
+      "Three holders on a bigger tray."
+    ],
+    "aka": [
+      "Daly Exercise: Cardboard Balance"
+    ]
+  },
+  "Blindfold Walk": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Closed eyes or a visor. Elbow guide allowed.",
+      "Voice cues only. No dragging.",
+      "Silent spotter, then voice."
+    ],
+    "look": "Everyone is moving or has a job in Blindfold Walk. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Blindfold Walk for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Blindfold Walk with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Blindfold Walk instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Blindfold Walk."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Blindfold Walk."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Closed eyes or a visor. Elbow guide allowed.",
+      "Voice cues only. No dragging.",
+      "Silent spotter, then voice."
+    ],
+    "aka": [
+      "Daly Exercise: Blindfold Walk"
+    ]
+  },
+  "Guess Who": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Allow two guesses.",
+      "One guess. Keep the circle moving.",
+      "Two middle players."
+    ],
+    "look": "Everyone is moving or has a job in Guess Who. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Guess Who for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Guess Who with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Guess Who instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Guess Who."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Guess Who."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Allow two guesses.",
+      "One guess. Keep the circle moving.",
+      "Two middle players."
+    ],
+    "aka": [
+      "Daly Exercise: Guess Who"
+    ]
+  },
+  "Human Catapult": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Seated chest-pass. No sit-up required.",
+      "Sit-up then throw.",
+      "Non-dominant throw."
+    ],
+    "look": "Everyone is moving or has a job in Human Catapult. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Human Catapult for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Human Catapult with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Human Catapult instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Human Catapult."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Human Catapult."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Seated chest-pass. No sit-up required.",
+      "Sit-up then throw.",
+      "Non-dominant throw."
+    ],
+    "aka": [
+      "Daly Exercise: Human Catapult"
+    ]
+  },
+  "Bean Bag Core": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Standing athletic stance.",
+      "Knees-down plank. 30 seconds.",
+      "Full plank. Non-dominant hand."
+    ],
+    "look": "Everyone is moving or has a job in Bean Bag Core. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Bean Bag Core for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Bean Bag Core with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Bean Bag Core instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Bean Bag Core."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Bean Bag Core."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Standing athletic stance.",
+      "Knees-down plank. 30 seconds.",
+      "Full plank. Non-dominant hand."
+    ],
+    "aka": [
+      "Daly Exercise: Bean Bag Core"
+    ]
+  },
+  "Shoot for the Stars": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "March behind the cone.",
+      "Jumping jacks. Swap after every hit.",
+      "Two-cone gate."
+    ],
+    "look": "Everyone is moving or has a job in Shoot for the Stars. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Shoot for the Stars for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Shoot for the Stars with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Shoot for the Stars instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Shoot for the Stars."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Shoot for the Stars."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "March behind the cone.",
+      "Jumping jacks. Swap after every hit.",
+      "Two-cone gate."
+    ],
+    "aka": [
+      "Daly Exercise: Shoot for the Stars"
+    ]
+  },
+  "Chain Train": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "No stealing. Add from a central pile.",
+      "Steal allowed. Must keep one hoop.",
+      "Must hit the newest hoop before you steal."
+    ],
+    "look": "Everyone is moving or has a job in Chain Train. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Chain Train for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Chain Train with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Chain Train instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Chain Train."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Chain Train."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "No stealing. Add from a central pile.",
+      "Steal allowed. Must keep one hoop.",
+      "Must hit the newest hoop before you steal."
+    ],
+    "aka": [
+      "Daly Exercise: Chain Train"
+    ]
+  },
+  "Cone Raider": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Underarm only. Fewer cones.",
+      "Four cones each.",
+      "2v2."
+    ],
+    "look": "Everyone is moving or has a job in Cone Raider. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Cone Raider for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Cone Raider with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Cone Raider instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Cone Raider."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Cone Raider."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Underarm only. Fewer cones.",
+      "Four cones each.",
+      "2v2."
+    ],
+    "aka": [
+      "Daly Exercise: Cone Raider"
+    ]
+  },
+  "Catch the Cone": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Drop-in from 10 cm counts.",
+      "Gentle flip from a step away.",
+      "Partner holds the target."
+    ],
+    "look": "Everyone is moving or has a job in Catch the Cone. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Catch the Cone for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Catch the Cone with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Catch the Cone instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Catch the Cone."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Catch the Cone."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Drop-in from 10 cm counts.",
+      "Gentle flip from a step away.",
+      "Partner holds the target."
+    ],
+    "aka": [
+      "Daly Exercise: Catch the Cone"
+    ]
+  },
+  "Popcorn Flip": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Larger cone. Allow a second bounce.",
+      "Own cone. Time cap.",
+      "Non-dominant hand."
+    ],
+    "look": "Everyone is moving or has a job in Popcorn Flip. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Popcorn Flip for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Popcorn Flip with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Popcorn Flip instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Popcorn Flip."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Popcorn Flip."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Larger cone. Allow a second bounce.",
+      "Own cone. Time cap.",
+      "Non-dominant hand."
+    ],
+    "aka": [
+      "Daly Exercise: Popcorn Flip"
+    ]
+  },
+  "Ghostbusters": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Hit after one bounce is legal.",
+      "Must hit in the air.",
+      "Three roles: tosser, hitter, retriever."
+    ],
+    "look": "Everyone is moving or has a job in Ghostbusters. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Ghostbusters for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Ghostbusters with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Ghostbusters instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Ghostbusters."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Ghostbusters."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Hit after one bounce is legal.",
+      "Must hit in the air.",
+      "Three roles: tosser, hitter, retriever."
+    ],
+    "aka": [
+      "Daly Exercise: Ghostbusters"
+    ]
+  },
+  "Inchworm Rescue": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Fewer balls. A knee down is legal.",
+      "Five balls. Feet stay planted.",
+      "Time cap."
+    ],
+    "look": "Everyone is moving or has a job in Inchworm Rescue. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Inchworm Rescue for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Inchworm Rescue with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Inchworm Rescue instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Inchworm Rescue."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Inchworm Rescue."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Fewer balls. A knee down is legal.",
+      "Five balls. Feet stay planted.",
+      "Time cap."
+    ],
+    "aka": [
+      "Daly Exercise: Inchworm Rescue"
+    ]
+  },
+  "Hula Hut": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Fewer hoops. Slide instead of a full lift.",
+      "Six hoops. Slow walk.",
+      "Picture only. Time cap."
+    ],
+    "look": "Everyone is moving or has a job in Hula Hut. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Hula Hut for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Hula Hut with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Hula Hut instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Hula Hut."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Hula Hut."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Fewer hoops. Slide instead of a full lift.",
+      "Six hoops. Slow walk.",
+      "Picture only. Time cap."
+    ],
+    "aka": [
+      "Daly Exercise: Hula Hut"
+    ]
+  },
+  "Partner Orienteering": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Colour-coded first loop.",
+      "Full simple course.",
+      "More controls. No splitting up."
+    ],
+    "look": "Everyone is moving or has a job in Partner Orienteering. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Partner Orienteering for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Partner Orienteering with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Partner Orienteering instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Partner Orienteering."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Partner Orienteering."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Colour-coded first loop.",
+      "Full simple course.",
+      "More controls. No splitting up."
+    ],
+    "aka": [
+      "Daly Exercise: Partner Orienteering"
+    ]
+  },
+  "Stick Tic-Tac-Toe": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Step-in counts. Teacher names the shape.",
+      "Landing must stick.",
+      "Teacher calls the shape just before they jump."
+    ],
+    "look": "Everyone is moving or has a job in Stick Tic-Tac-Toe. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Stick Tic-Tac-Toe for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Stick Tic-Tac-Toe with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Stick Tic-Tac-Toe instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Stick Tic-Tac-Toe."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Stick Tic-Tac-Toe."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Step-in counts. Teacher names the shape.",
+      "Landing must stick.",
+      "Teacher calls the shape just before they jump."
+    ],
+    "aka": [
+      "Daly Exercise: Stick Tic-Tac-Toe"
+    ]
+  },
+  "Jumping Jack Hoop Challenge": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Marching instead of jacks.",
+      "Jacks. Quality over count.",
+      "Record a weekly personal best."
+    ],
+    "look": "Everyone is moving or has a job in Jumping Jack Hoop Challenge. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Jumping Jack Hoop Challenge for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Jumping Jack Hoop Challenge with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Jumping Jack Hoop Challenge instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Jumping Jack Hoop Challenge."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Jumping Jack Hoop Challenge."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Marching instead of jacks.",
+      "Jacks. Quality over count.",
+      "Record a weekly personal best."
+    ],
+    "aka": [
+      "Daly Exercise: Jumping Jack Hoop Challenge"
+    ]
+  },
+  "Tennis Jump": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Larger cone. Rolled bean bag.",
+      "Tennis ball. First to 5 traps.",
+      "Longer roll."
+    ],
+    "look": "Everyone is moving or has a job in Tennis Jump. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Tennis Jump for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Tennis Jump with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Tennis Jump instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Tennis Jump."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Tennis Jump."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Larger cone. Rolled bean bag.",
+      "Tennis ball. First to 5 traps.",
+      "Longer roll."
+    ],
+    "aka": [
+      "Daly Exercise: Tennis Jump"
+    ]
+  },
+  "Catch the Ice Cream": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Larger cone.",
+      "Seated catchers.",
+      "Tennis ball progression."
+    ],
+    "look": "Everyone is moving or has a job in Catch the Ice Cream. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Catch the Ice Cream for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Catch the Ice Cream with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Catch the Ice Cream instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Catch the Ice Cream."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Catch the Ice Cream."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Larger cone.",
+      "Seated catchers.",
+      "Tennis ball progression."
+    ],
+    "aka": [
+      "Daly Exercise: Catch the Ice Cream"
+    ]
+  },
+  "Hula Balance": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Allow one fingertip.",
+      "Shorter distance.",
+      "Three people, one hoop."
+    ],
+    "look": "Everyone is moving or has a job in Hula Balance. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Hula Balance for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Hula Balance with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Hula Balance instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Hula Balance."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Hula Balance."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Allow one fingertip.",
+      "Shorter distance.",
+      "Three people, one hoop."
+    ],
+    "aka": [
+      "Daly Exercise: Hula Balance"
+    ]
+  },
+  "Halloween Chase": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Walking.",
+      "Sit-down freeze.",
+      "Two teams for infants."
+    ],
+    "look": "Everyone is moving or has a job in Halloween Chase. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Halloween Chase for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Halloween Chase with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Halloween Chase instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Halloween Chase."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Halloween Chase."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Walking.",
+      "Sit-down freeze.",
+      "Two teams for infants."
+    ],
+    "aka": [
+      "Daly Exercise: Halloween Chase"
+    ]
+  },
+  "Ghostbusters (cone ghosts)": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Roll only.",
+      "One designated thrower at a time.",
+      "Add a protector in front of the ghosts."
+    ],
+    "look": "Everyone is moving or has a job in Ghostbusters (cone ghosts). A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Ghostbusters (cone ghosts) for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Ghostbusters (cone ghosts) with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Ghostbusters (cone ghosts) instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Ghostbusters (cone ghosts)."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Ghostbusters (cone ghosts)."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Roll only.",
+      "One designated thrower at a time.",
+      "Add a protector in front of the ghosts."
+    ],
+    "aka": [
+      "Daly Exercise: Ghostbusters (cone ghosts)"
+    ]
+  },
+  "Bounce & Scoop": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Larger ball and bucket.",
+      "Allow two bounces.",
+      "Bounce to a hoop."
+    ],
+    "look": "Everyone is moving or has a job in Bounce & Scoop. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Bounce & Scoop for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Bounce & Scoop with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Bounce & Scoop instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Bounce & Scoop."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Bounce & Scoop."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Larger ball and bucket.",
+      "Allow two bounces.",
+      "Bounce to a hoop."
+    ],
+    "aka": [
+      "Daly Exercise: Bounce & Scoop"
+    ]
+  },
+  "Side to Side": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Clap then jump, no ball.",
+      "Larger hoops.",
+      "Bounce pass only."
+    ],
+    "look": "Everyone is moving or has a job in Side to Side. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Side to Side for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Side to Side with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Side to Side instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Side to Side."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Side to Side."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Clap then jump, no ball.",
+      "Larger hoops.",
+      "Bounce pass only."
+    ],
+    "aka": [
+      "Daly Exercise: Side to Side"
+    ]
+  },
+  "Jump to Hoop Race": {
+    "numbers": "Daly Exercise · slot 16-25.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Step-in allowed.",
+      "Larger hoops.",
+      "Travel back as well."
+    ],
+    "look": "Everyone is moving or has a job in Jump to Hoop Race. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Jump to Hoop Race for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Jump to Hoop Race with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Jump to Hoop Race instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Jump to Hoop Race."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Jump to Hoop Race."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 16-25.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Step-in allowed.",
+      "Larger hoops.",
+      "Travel back as well."
+    ],
+    "aka": [
+      "Daly Exercise: Jump to Hoop Race"
+    ]
+  },
+  "Crawl and Roll Challenge": {
+    "numbers": "Daly Exercise · slot 8-15.",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "One job at a time. Extra players fetch or count.",
+      "A miss is a short task, then back in."
+    ],
+    "variations": [
+      "Log roll only.",
+      "Crawl only.",
+      "Add a balance at the end."
+    ],
+    "look": "Everyone is moving or has a job in Crawl and Roll Challenge. A miss is a short task, then back in.",
+    "outcomes": [
+      {
+        "code": "Active Living",
+        "look": "Stays in Crawl and Roll Challenge for the set time; can name breath or enjoyment after — not a ranking."
+      },
+      {
+        "code": "Movement Skill Development",
+        "look": "Uses the taught action in Crawl and Roll Challenge with control, not a rush that knocks kit or people."
+      },
+      {
+        "code": "Movement Tactics and Strategies",
+        "look": "Chooses space, timing, or a partner job in Crawl and Roll Challenge instead of crowding."
+      },
+      {
+        "code": "Personal and Social Development",
+        "look": "Takes a role and shares kit in Crawl and Roll Challenge."
+      },
+      {
+        "code": "Character Development",
+        "look": "Honest about a miss, a tag, or a line in Crawl and Roll Challenge."
+      },
+      {
+        "code": "Safety",
+        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+      },
+      {
+        "code": "Healthy Relationships",
+        "look": "Helps a classmate re-enter after a miss or a tag."
+      }
+    ],
+    "more": [
+      "Grouping: Daly Exercise · slot 8-15.",
+      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
+      "Watch for crowding at one piece of kit. Add a second station before you add speed."
+    ],
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Log roll only.",
+      "Crawl only.",
+      "Add a balance at the end."
+    ],
+    "aka": [
+      "Daly Exercise: Crawl and Roll Challenge"
+    ]
   }
 };
