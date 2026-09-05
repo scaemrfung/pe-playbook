@@ -43,6 +43,43 @@ nav a {
   opacity: .92;
 }
 nav a:hover, nav a.active { text-decoration: underline; opacity: 1; }
+.site-search {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-left: auto;
+}
+.site-search input {
+  border: 0;
+  border-radius: 999px;
+  padding: 7px 12px;
+  min-width: 180px;
+  font: inherit;
+}
+.site-search button {
+  border: 0;
+  border-radius: 999px;
+  background: var(--gold);
+  color: #1c1c1c;
+  font: inherit;
+  font-weight: 700;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+@media (max-width: 720px) {
+  .site-search { width: 100%; margin-left: 0; }
+  .site-search input { flex: 1; min-width: 0; }
+}
 .hero {
   padding: 42px 0 28px;
 }
@@ -111,7 +148,7 @@ a.card:hover { border-color: var(--green-mid); transform: translateY(-1px); }
   font: inherit;
 }
 .filters button.on { background: var(--navy); color: #fff; border-color: var(--navy); }
-.search { min-width: 220px; }
+.search { min-width: 220px; width: min(520px, 100%); }
 .lesson {
   border: 1px solid var(--line);
   border-radius: 12px;
