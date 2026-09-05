@@ -4736,5 +4736,1038 @@ window.GAME_DETAILS = [
       "Hand It Over",
       "Ball Run"
     ]
+  },
+  {
+    "name": "Bottle Flip",
+    "source": "",
+    "months": [
+      "December"
+    ],
+    "purpose": "Flip the bottle so it stands in box 1, then 2, then 3. No skipping. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Part-filled bottles; tape for six boxes",
+    "setup": "Tape six boxes in a line. A little water in each bottle.",
+    "play": [
+      "Flip in box 1.",
+      "Upright = move to the next box.",
+      "On its side = stay. Partner turn.",
+      "First upright landing in box 6 wins.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Two or three boxes. Two-hand set-down counts.",
+    "g34": "Six boxes. One-hand flip.",
+    "g56": "Time cap or team relay.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "target",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Two or three boxes. Two-hand set-down counts.",
+      "Six boxes. One-hand flip.",
+      "Time cap or team relay."
+    ],
+    "aka": [
+      "Daly Exercise: Bottle Flip"
+    ]
+  },
+  {
+    "name": "Bottle Flip Challenge",
+    "source": "",
+    "months": [
+      "September",
+      "December"
+    ],
+    "purpose": "First upright cone-flip claims the centre ball and becomes the tagger. Daly Exercise game. Nobody sits the period.",
+    "equipment": "One cone per pupil; centre hoop; one soft ball",
+    "setup": "Stand around a hoop. Soft ball inside. Each pupil holds a cone.",
+    "play": [
+      "On go, everyone flips their cone.",
+      "First upright cone takes the ball and becomes it.",
+      "Held-ball tag only. Tagged player does 5 jacks and stays in.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Flip onto a mat. Walking tag.",
+    "g34": "Jog tag. Two winners become two taggers.",
+    "g56": "Full reset each round.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "tag",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Flip onto a mat. Walking tag.",
+      "Jog tag. Two winners become two taggers.",
+      "Full reset each round."
+    ],
+    "aka": [
+      "Daly Exercise: Bottle Flip Challenge"
+    ]
+  },
+  {
+    "name": "Boom Clap Snatch",
+    "source": "",
+    "months": [
+      "December",
+      "November"
+    ],
+    "purpose": "Move only on the right word: Boom, Clap, Snatch. Daly Exercise game. Nobody sits the period.",
+    "equipment": "One beanbag or cone per pair",
+    "setup": "Pairs face each other. Object in the middle. Hands on knees.",
+    "play": [
+      "Boom = smack the floor.",
+      "Clap = clap.",
+      "Snatch = grab. Early grab gives the point away.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Two words only.",
+    "g34": "All three words. Mix the order.",
+    "g56": "Add dummy words.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "loco",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Two words only.",
+      "All three words. Mix the order.",
+      "Add dummy words."
+    ],
+    "aka": [
+      "Daly Exercise: Boom Clap Snatch"
+    ]
+  },
+  {
+    "name": "Cardboard Balance",
+    "source": "",
+    "months": [
+      "December",
+      "February",
+      "October"
+    ],
+    "purpose": "Tilt together so balls fall through the hole, not off the edge. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Cardboard tray with four corner strings, 2-3 balls, box",
+    "setup": "Hole in the centre. Pair opposite, two strings each.",
+    "play": [
+      "Tilt together. Talk: left, right, hold.",
+      "Ball through the hole stays in the box.",
+      "Ball off an edge: stop, put it back.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "One ball. Larger hole.",
+    "g34": "Two or three balls.",
+    "g56": "Three holders on a bigger tray.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "coop",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "One ball. Larger hole.",
+      "Two or three balls.",
+      "Three holders on a bigger tray."
+    ],
+    "aka": [
+      "Daly Exercise: Cardboard Balance"
+    ]
+  },
+  {
+    "name": "Blindfold Walk",
+    "source": "",
+    "months": [
+      "April",
+      "December"
+    ],
+    "purpose": "Walk a taped path with a talking spotter. Closed eyes are legal. Daly Exercise game. Nobody sits the period.",
+    "equipment": "One blindfold per team; tape lines",
+    "setup": "Tape lines to step over. Spotter beside, not behind.",
+    "play": [
+      "Walker covers eyes at the start.",
+      "Foot on tape = stop, return, no point.",
+      "Clean crossing = 1. Swap jobs.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Closed eyes or a visor. Elbow guide allowed.",
+    "g34": "Voice cues only. No dragging.",
+    "g56": "Silent spotter, then voice.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "coop",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Closed eyes or a visor. Elbow guide allowed.",
+      "Voice cues only. No dragging.",
+      "Silent spotter, then voice."
+    ],
+    "aka": [
+      "Daly Exercise: Blindfold Walk"
+    ]
+  },
+  {
+    "name": "Guess Who",
+    "source": "",
+    "months": [
+      "September",
+      "December"
+    ],
+    "purpose": "Notice who took the ball while the circle keeps moving. Daly Exercise game. Nobody sits the period.",
+    "equipment": "One soft ball",
+    "setup": "One pupil in the middle. Others walk a circle.",
+    "play": [
+      "Circle walks.",
+      "Teacher points to one walker who takes the ball.",
+      "Middle player guesses. Correct = swap.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Allow two guesses.",
+    "g34": "One guess. Keep the circle moving.",
+    "g56": "Two middle players.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "loco",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Allow two guesses.",
+      "One guess. Keep the circle moving.",
+      "Two middle players."
+    ],
+    "aka": [
+      "Daly Exercise: Guess Who"
+    ]
+  },
+  {
+    "name": "Human Catapult",
+    "source": "",
+    "months": [
+      "January",
+      "March"
+    ],
+    "purpose": "The sit-up is the throw. Accuracy after a sit-up is the skill. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Mat, soft ball, cone behind each partner",
+    "setup": "Partners sit back-to-back. Cone behind each, out of the face line.",
+    "play": [
+      "A sit-up throws at B's cone.",
+      "Knockdown = 1. Reset.",
+      "Swap. Freeze on the whistle."
+    ],
+    "g12": "Seated chest-pass. No sit-up required.",
+    "g34": "Sit-up then throw.",
+    "g56": "Non-dominant throw.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "target",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Seated chest-pass. No sit-up required.",
+      "Sit-up then throw.",
+      "Non-dominant throw."
+    ],
+    "aka": [
+      "Daly Exercise: Human Catapult"
+    ]
+  },
+  {
+    "name": "Bean Bag Core",
+    "source": "",
+    "months": [
+      "February",
+      "April",
+      "January"
+    ],
+    "purpose": "From a plank, empty your hoop into someone else's. Daly Exercise game. Nobody sits the period.",
+    "equipment": "One hoop and bean bags per player",
+    "setup": "Hoops close enough to reach. Default plank is knees-down.",
+    "play": [
+      "Stay in plank. Move one bag at a time.",
+      "Feet and knees do not walk the hoop.",
+      "30-45 seconds. Rest. Repeat.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Standing athletic stance.",
+    "g34": "Knees-down plank. 30 seconds.",
+    "g56": "Full plank. Non-dominant hand.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "fitness",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Standing athletic stance.",
+      "Knees-down plank. 30 seconds.",
+      "Full plank. Non-dominant hand."
+    ],
+    "aka": [
+      "Daly Exercise: Bean Bag Core"
+    ]
+  },
+  {
+    "name": "Shoot for the Stars",
+    "source": "",
+    "months": [
+      "January",
+      "May"
+    ],
+    "purpose": "One rolls at a cone. Partner works behind it. Then swap. Daly Exercise game. Nobody sits the period.",
+    "equipment": "One ball and one cone per pair",
+    "setup": "Cone in the middle. Roller faces it. Partner behind it marches or jacks.",
+    "play": [
+      "Roll along the floor at the cone.",
+      "Hit = 1 and swap.",
+      "Miss = retrieve and try again.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "March behind the cone.",
+    "g34": "Jumping jacks. Swap after every hit.",
+    "g56": "Two-cone gate.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "fitness",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "March behind the cone.",
+      "Jumping jacks. Swap after every hit.",
+      "Two-cone gate."
+    ],
+    "aka": [
+      "Daly Exercise: Shoot for the Stars"
+    ]
+  },
+  {
+    "name": "Chain Train",
+    "source": "",
+    "months": [
+      "December",
+      "February"
+    ],
+    "purpose": "Hit your first hoop, then steal another group's hoop. Every group keeps one. Daly Exercise game. Nobody sits the period.",
+    "equipment": "4 hoops and 1 bean bag per group of 4",
+    "setup": "Four hoops in a short line. Last hoop cannot be raided.",
+    "play": [
+      "Throw the bag into your first hoop.",
+      "Hit = take one hoop from another group.",
+      "A group down to one hoop is safe.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "No stealing. Add from a central pile.",
+    "g34": "Steal allowed. Must keep one hoop.",
+    "g56": "Must hit the newest hoop before you steal.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "target",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "No stealing. Add from a central pile.",
+      "Steal allowed. Must keep one hoop.",
+      "Must hit the newest hoop before you steal."
+    ],
+    "aka": [
+      "Daly Exercise: Chain Train"
+    ]
+  },
+  {
+    "name": "Cone Raider",
+    "source": "",
+    "months": [
+      "December",
+      "January"
+    ],
+    "purpose": "Hit a partner's cone and it becomes yours. Daly Exercise game. Nobody sits the period.",
+    "equipment": "4-5 cones each; one tennis ball per pair",
+    "setup": "Each partner sets a row of cones. Shared throwing line.",
+    "play": [
+      "A throws at B's cones.",
+      "Hit = take that cone.",
+      "Miss = B's throw.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Underarm only. Fewer cones.",
+    "g34": "Four cones each.",
+    "g56": "2v2.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "target",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Underarm only. Fewer cones.",
+      "Four cones each.",
+      "2v2."
+    ],
+    "aka": [
+      "Daly Exercise: Cone Raider"
+    ]
+  },
+  {
+    "name": "Catch the Cone",
+    "source": "",
+    "months": [
+      "December",
+      "February",
+      "June"
+    ],
+    "purpose": "Flip a small cone so it lands inside a larger one. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Two cones per player",
+    "setup": "Large cone upright. Small cone in hand.",
+    "play": [
+      "Flip or toss the small cone into the large one.",
+      "Make = 1. Reset.",
+      "Miss = pick up and try again.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Drop-in from 10 cm counts.",
+    "g34": "Gentle flip from a step away.",
+    "g56": "Partner holds the target.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "target",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Drop-in from 10 cm counts.",
+      "Gentle flip from a step away.",
+      "Partner holds the target."
+    ],
+    "aka": [
+      "Daly Exercise: Catch the Cone"
+    ]
+  },
+  {
+    "name": "Popcorn Flip",
+    "source": "",
+    "months": [
+      "December"
+    ],
+    "purpose": "Bounce a tennis ball onto an upside-down cone so it flips upright. Daly Exercise game. Nobody sits the period.",
+    "equipment": "One saucer cone and one tennis ball each",
+    "setup": "Cone upside down. Player a short step away.",
+    "play": [
+      "Bounce or roll onto the rim.",
+      "Flip to upright = 1.",
+      "Miss = fetch and retry.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Larger cone. Allow a second bounce.",
+    "g34": "Own cone. Time cap.",
+    "g56": "Non-dominant hand.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "target",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Larger cone. Allow a second bounce.",
+      "Own cone. Time cap.",
+      "Non-dominant hand."
+    ],
+    "aka": [
+      "Daly Exercise: Popcorn Flip"
+    ]
+  },
+  {
+    "name": "Ghostbusters",
+    "source": "",
+    "months": [
+      "October"
+    ],
+    "purpose": "Hit a thrown bib in the air. Stand side-on. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Pairs: one softball, one bib",
+    "setup": "Pairs stand side-on. Tosser has the bib.",
+    "play": [
+      "Tosser throws the bib up.",
+      "Hitter throws the ball at the bib.",
+      "Hit = 1. Swap jobs.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Hit after one bounce is legal.",
+    "g34": "Must hit in the air.",
+    "g56": "Three roles: tosser, hitter, retriever.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "target",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Hit after one bounce is legal.",
+      "Must hit in the air.",
+      "Three roles: tosser, hitter, retriever."
+    ],
+    "aka": [
+      "Daly Exercise: Ghostbusters"
+    ]
+  },
+  {
+    "name": "Inchworm Rescue",
+    "source": "",
+    "months": [
+      "April"
+    ],
+    "purpose": "Feet stay planted. Walk the hands out and back with one ball. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Two hoops per pupil; five balls in the far hoop",
+    "setup": "Feet in home hoop. Five balls wait in hoop 2.",
+    "play": [
+      "Walk hands out, grab one ball, walk back, drop it in hoop 1.",
+      "One ball per trip.",
+      "Repeat until all five are home.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Fewer balls. A knee down is legal.",
+    "g34": "Five balls. Feet stay planted.",
+    "g56": "Time cap.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "fitness",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Fewer balls. A knee down is legal.",
+      "Five balls. Feet stay planted.",
+      "Time cap."
+    ],
+    "aka": [
+      "Daly Exercise: Inchworm Rescue"
+    ]
+  },
+  {
+    "name": "Hula Hut",
+    "source": "",
+    "months": [
+      "February",
+      "December"
+    ],
+    "purpose": "Build a six-hoop hut from a picture and carry it to a cone. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Six hoops per group; a picture; a cone 10-15 m away",
+    "setup": "Show a finished hut first.",
+    "play": [
+      "Group builds to match the picture.",
+      "When it stands, lift and walk toward the cone.",
+      "Collapse = carry back, rebuild.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Fewer hoops. Slide instead of a full lift.",
+    "g34": "Six hoops. Slow walk.",
+    "g56": "Picture only. Time cap.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "coop",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Fewer hoops. Slide instead of a full lift.",
+      "Six hoops. Slow walk.",
+      "Picture only. Time cap."
+    ],
+    "aka": [
+      "Daly Exercise: Hula Hut"
+    ]
+  },
+  {
+    "name": "Partner Orienteering",
+    "source": "",
+    "months": [
+      "May",
+      "June"
+    ],
+    "purpose": "Map-to-ground. The pair stays together. Both hold the map. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Simple maps; controls; record cards",
+    "setup": "Map matches the real space. Show how to turn the map.",
+    "play": [
+      "Orient the map, walk to the first control.",
+      "Record the answer. Swap who leads.",
+      "Pairs stay together the whole time.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Colour-coded first loop.",
+    "g34": "Full simple course.",
+    "g56": "More controls. No splitting up.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "loco",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Colour-coded first loop.",
+      "Full simple course.",
+      "More controls. No splitting up."
+    ],
+    "aka": [
+      "Daly Exercise: Partner Orienteering"
+    ]
+  },
+  {
+    "name": "Stick Tic-Tac-Toe",
+    "source": "",
+    "months": [
+      "April"
+    ],
+    "purpose": "A stuck landing claims the hoop. Three in a row wins. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Nine hoops in a 3x3; agreed shapes",
+    "setup": "Agree legal shapes. One player in the grid at a time.",
+    "play": [
+      "Perform the shape and stick the landing in a free hoop.",
+      "That hoop is yours. Other team plays.",
+      "Three in a row or the grid is full.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Step-in counts. Teacher names the shape.",
+    "g34": "Landing must stick.",
+    "g56": "Teacher calls the shape just before they jump.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "fitness",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Step-in counts. Teacher names the shape.",
+      "Landing must stick.",
+      "Teacher calls the shape just before they jump."
+    ],
+    "aka": [
+      "Daly Exercise: Stick Tic-Tac-Toe"
+    ]
+  },
+  {
+    "name": "Jumping Jack Hoop Challenge",
+    "source": "",
+    "months": [
+      "February",
+      "May"
+    ],
+    "purpose": "Spin, jack, catch. Personal best, not a race. Daly Exercise game. Nobody sits the period.",
+    "equipment": "One hoop each; personal space",
+    "setup": "Show a clean rim-spin and a two-hand catch.",
+    "play": [
+      "Spin the hoop upright on the floor.",
+      "Do 1 jumping jack, then catch.",
+      "Next try: 2, then 3. A drop returns you to your last clean number.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Marching instead of jacks.",
+    "g34": "Jacks. Quality over count.",
+    "g56": "Record a weekly personal best.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "fitness",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Marching instead of jacks.",
+      "Jacks. Quality over count.",
+      "Record a weekly personal best."
+    ],
+    "aka": [
+      "Daly Exercise: Jumping Jack Hoop Challenge"
+    ]
+  },
+  {
+    "name": "Tennis Jump",
+    "source": "",
+    "months": [
+      "April",
+      "May"
+    ],
+    "purpose": "Jump so the rolling ball ends up inside the cone between your feet. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Pairs: one cone, one tennis ball",
+    "setup": "Receiver stands the cone between their feet.",
+    "play": [
+      "Partner rolls the ball gently.",
+      "Jump and land so the ball is trapped in the cone.",
+      "Clean trap = 1. Swap.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Larger cone. Rolled bean bag.",
+    "g34": "Tennis ball. First to 5 traps.",
+    "g56": "Longer roll.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "fitness",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Larger cone. Rolled bean bag.",
+      "Tennis ball. First to 5 traps.",
+      "Longer roll."
+    ],
+    "aka": [
+      "Daly Exercise: Tennis Jump"
+    ]
+  },
+  {
+    "name": "Catch the Ice Cream",
+    "source": "",
+    "months": [
+      "September",
+      "October",
+      "January",
+      "March",
+      "June"
+    ],
+    "purpose": "Throw a bean bag into a partner's cone without a hand trap. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Cone and bean bag per pair",
+    "setup": "Pairs stand a short distance apart, each with a cone.",
+    "play": [
+      "Gentle toss to the cone.",
+      "Receiver uses the cone only.",
+      "Step back if consistent.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Larger cone.",
+    "g34": "Seated catchers.",
+    "g56": "Tennis ball progression.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "target",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Larger cone.",
+      "Seated catchers.",
+      "Tennis ball progression."
+    ],
+    "aka": [
+      "Daly Exercise: Catch the Ice Cream"
+    ]
+  },
+  {
+    "name": "Hula Balance",
+    "source": "",
+    "months": [
+      "October",
+      "February"
+    ],
+    "purpose": "Carry a hoop between two stomachs with no hands and drop it over a cone. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Hoops; a target cone",
+    "setup": "Pair face each other, hoop pinched at the waist. Cone ahead.",
+    "play": [
+      "Walk to the cone without hands on the hoop.",
+      "Drop it so it lands around the cone.",
+      "Run back and tag the next pair.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Allow one fingertip.",
+    "g34": "Shorter distance.",
+    "g56": "Three people, one hoop.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "fitness",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Allow one fingertip.",
+      "Shorter distance.",
+      "Three people, one hoop."
+    ],
+    "aka": [
+      "Daly Exercise: Hula Balance"
+    ]
+  },
+  {
+    "name": "Halloween Chase",
+    "source": "",
+    "months": [
+      "October"
+    ],
+    "purpose": "Hunters tag ghosts, ghosts tag vampires, vampires tag hunters. Crawl through legs to free. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Three bib colours",
+    "setup": "Even teams, clear boundaries.",
+    "play": [
+      "Legal tags only.",
+      "Frozen player stands feet apart until someone crawls through.",
+      "Freeze on the whistle."
+    ],
+    "g12": "Walking.",
+    "g34": "Sit-down freeze.",
+    "g56": "Two teams for infants.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "tag",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Walking.",
+      "Sit-down freeze.",
+      "Two teams for infants."
+    ],
+    "aka": [
+      "Daly Exercise: Halloween Chase"
+    ]
+  },
+  {
+    "name": "Ghostbusters (cone ghosts)",
+    "source": "",
+    "months": [
+      "October"
+    ],
+    "purpose": "Knock over the other team's cone-ghosts; protect your own. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Cones as ghosts, soft balls",
+    "setup": "Each team has a line of standing cones.",
+    "play": [
+      "Throw to knock opponent ghosts.",
+      "Team with most ghosts still standing wins.",
+      "Freeze on the whistle."
+    ],
+    "g12": "Roll only.",
+    "g34": "One designated thrower at a time.",
+    "g56": "Add a protector in front of the ghosts.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "target",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Roll only.",
+      "One designated thrower at a time.",
+      "Add a protector in front of the ghosts."
+    ],
+    "aka": [
+      "Daly Exercise: Ghostbusters (cone ghosts)"
+    ]
+  },
+  {
+    "name": "Bounce & Scoop",
+    "source": "",
+    "months": [
+      "September",
+      "January",
+      "March",
+      "June"
+    ],
+    "purpose": "Scoop a one-bounce feed in a cone. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Tennis balls and a cone",
+    "setup": "Feeder has the balls. Partner has the cone.",
+    "play": [
+      "Bounce one at a time.",
+      "Scoop after one bounce.",
+      "Caught balls stay.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Larger ball and bucket.",
+    "g34": "Allow two bounces.",
+    "g56": "Bounce to a hoop.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "coop",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Larger ball and bucket.",
+      "Allow two bounces.",
+      "Bounce to a hoop."
+    ],
+    "aka": [
+      "Daly Exercise: Bounce & Scoop"
+    ]
+  },
+  {
+    "name": "Side to Side",
+    "source": "",
+    "months": [
+      "January",
+      "March",
+      "June"
+    ],
+    "purpose": "Pass, then both side-jump into the next hoop. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Line of hoops; 1 ball per pair",
+    "setup": "Facing partners in hoop 1 of a ladder.",
+    "play": [
+      "Underarm or chest pass.",
+      "After a catch, both jump sideways to the next hoop.",
+      "Finish, sit, next pair goes.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Clap then jump, no ball.",
+    "g34": "Larger hoops.",
+    "g56": "Bounce pass only.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "relay",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Clap then jump, no ball.",
+      "Larger hoops.",
+      "Bounce pass only."
+    ],
+    "aka": [
+      "Daly Exercise: Side to Side"
+    ]
+  },
+  {
+    "name": "Jump to Hoop Race",
+    "source": "",
+    "months": [
+      "February",
+      "May"
+    ],
+    "purpose": "Jump hoop-to-hoop; next runner waits for a sit at the end. Daly Exercise game. Nobody sits the period.",
+    "equipment": "One hoop per player as stepping-stones",
+    "setup": "Hoops in a lane. Team behind hoop 1.",
+    "play": [
+      "Jump to the finish and sit.",
+      "Sitting starts the next teammate.",
+      "First team all seated wins.",
+      "Freeze on the whistle. Reset kit, then the next round."
+    ],
+    "g12": "Step-in allowed.",
+    "g34": "Larger hoops.",
+    "g56": "Travel back as well.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "16-25",
+    "type": "relay",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Step-in allowed.",
+      "Larger hoops.",
+      "Travel back as well."
+    ],
+    "aka": [
+      "Daly Exercise: Jump to Hoop Race"
+    ]
+  },
+  {
+    "name": "Crawl and Roll Challenge",
+    "source": "",
+    "months": [
+      "April"
+    ],
+    "purpose": "Link a crawl into a roll across a mat lane. Daly Exercise game. Nobody sits the period.",
+    "equipment": "Mats",
+    "setup": "Mat lanes. Demo the exact sequence once.",
+    "play": [
+      "Crawl to the mat, perform the taught roll, stand, finish the lane.",
+      "Freeze on the whistle."
+    ],
+    "g12": "Log roll only.",
+    "g34": "Crawl only.",
+    "g56": "Add a balance at the end.",
+    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "slot": "8-15",
+    "type": "fitness",
+    "ifThis": [
+      "Kit knocks a person: pause, widen space, restart.",
+      "Argument over a point: teacher call, play on.",
+      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
+    ],
+    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
+    "skins": [
+      "Log roll only.",
+      "Crawl only.",
+      "Add a balance at the end."
+    ],
+    "aka": [
+      "Daly Exercise: Crawl and Roll Challenge"
+    ]
   }
 ];
