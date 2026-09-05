@@ -21,25 +21,30 @@
   </style>
 </head>
 <body data-page="fitness">
-  <header class="site">
+    <header class="site">
     <div class="wrap row">
-      <a class="brand" href="index.html">SCA Elementary PE Playbook<span>Grades 1–6 · Alberta · 4 × 30 min</span></a>
-      <nav>
-        <a href="index.html">Year</a>
-        <a href="how.html">How to use</a>
-        <a href="gymnastics.html">Gymnastics</a>
-        <a href="track-day.html">Track Day</a>
-        <a href="videos.html">Videos</a>
-        <a href="games.html">Games</a>
-        <a href="dodgeball.html">Dodgeball</a>
-        <a href="outcomes.html">Outcomes</a>
-        <a class="active" href="fitness.html">Fitness</a>
-      </nav>
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 4v16M4 12h16M6.6 7.2c3 2.2 7.8 2.2 10.8 0M6.6 16.8c3-2.2 7.8-2.2 10.8 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">SCA PE Playbook<span>Alberta PEW · Grades 1–6 · 4 × 30 min</span></span>
+      </a>
       <form class="site-search" action="games.html" method="get" role="search">
         <label class="sr-only" for="site-q">Search games</label>
         <input id="site-q" name="q" type="search" placeholder="Search games…" autocomplete="off" />
-        <button type="submit">Search</button>
+        <button type="submit" aria-label="Search games">Search</button>
       </form>
+      <nav>
+        <a href="index.html">Year</a>
+        <a href="games.html">Games</a>
+        <a href="dodgeball.html">Dodgeball</a>
+        <a href="gymnastics.html">Gymnastics</a>
+        <a href="track-day.html">Track Day</a>
+        <a href="videos.html">Videos</a>
+        <a href="outcomes.html">PEW</a>
+        <a class="active" href="fitness.html">Fitness</a>
+        <a href="how.html">How</a>
+      </nav>
     </div>
   </header>
   <main class="wrap" style="padding:28px 0 40px">
@@ -148,7 +153,12 @@
 
     <div id="months"></div>
   </main>
-  <footer class="site wrap">Private fitness · PEW Active Living · not a scoreboard</footer>
+    <footer class="site">
+    <div class="wrap foot">
+      <p class="foot-brand">SCA PE Playbook</p>
+      <p>Grades 1–6 · four 30-minute classes a week · Alberta Physical Education and Wellness. Real sport balls, stay-in dodgeball, no elimination, floor-only gymnastics. Follow your school’s safety rules.</p>
+    </div>
+  </footer>
   <script>
 const MONTHS = [
       { name: "September", theme: "Soccer · gym routines · baseline", focus: "Starting point (not a scoreboard)",

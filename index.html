@@ -12,40 +12,112 @@
 <body data-page="home">
   <header class="site">
     <div class="wrap row">
-      <a class="brand" href="index.html">SCA Elementary PE Playbook<span>Grades 1–6 · Alberta · 4 × 30 min</span></a>
-      <nav>
-        <a class="active" href="index.html">Year</a>
-        <a href="how.html">How to use</a>
-        <a href="gymnastics.html">Gymnastics</a>
-        <a href="track-day.html">Track Day</a>
-        <a href="videos.html">Videos</a>
-        <a href="games.html">Games</a>
-        <a href="dodgeball.html">Dodgeball</a>
-        <a href="outcomes.html">Outcomes</a>
-        <a href="fitness.html">Fitness</a>
-      </nav>
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 4v16M4 12h16M6.6 7.2c3 2.2 7.8 2.2 10.8 0M6.6 16.8c3-2.2 7.8-2.2 10.8 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">SCA PE Playbook<span>Alberta PEW · Grades 1–6 · 4 × 30 min</span></span>
+      </a>
       <form class="site-search" action="games.html" method="get" role="search">
         <label class="sr-only" for="site-q">Search games</label>
         <input id="site-q" name="q" type="search" placeholder="Search games…" autocomplete="off" />
-        <button type="submit">Search</button>
+        <button type="submit" aria-label="Search games">Search</button>
       </form>
+      <nav>
+        <a class="active" href="index.html">Year</a>
+        <a href="games.html">Games</a>
+        <a href="dodgeball.html">Dodgeball</a>
+        <a href="gymnastics.html">Gymnastics</a>
+        <a href="track-day.html">Track Day</a>
+        <a href="videos.html">Videos</a>
+        <a href="outcomes.html">PEW</a>
+        <a href="fitness.html">Fitness</a>
+        <a href="how.html">How</a>
+      </nav>
     </div>
   </header>
-  <main class="wrap">
-    <section class="hero">
-      <h1>Yearly lesson playbook</h1>
-      <p>Four 30-minute classes a week for Grades 1–6. Soccer, football, and Terry Fox in September; football and circus in October; floor hockey in November; games in December; basketball and scoop in January; ropes and JR4H in February; volleyball in March; gymnastics in April; Track and Field prep in May; Track Day then baseball in June.</p>
-      <div class="pills">
-        <span class="pill">No elimination</span>
-        <span class="pill">Soft tags</span>
-        <span class="pill">Grade bands 1–2 / 3–4 / 5–6</span>
-        <span class="pill">Indoor default</span>
+  <main>
+    <section class="home-hero wrap">
+      <div>
+        <p class="kicker">Physical Education and Wellness · Grades 1–6</p>
+        <h1>Four 30-minute PE classes a week a substitute can teach from the page.</h1>
+        <p class="lede">Soccer, football, and Terry Fox in September; football and circus in October; floor hockey in November; games in December; basketball and scoop in January; ropes and Jump Rope for Heart in February; volleyball in March; gymnastics in April; Track and Field prep in May; Track Day then baseball in June. Big-group games so 24 kids are moving, not waiting.</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="games.html">Open the games library</a>
+          <a class="btn-ghost" href="how.html">How the week works</a>
+        </div>
+        <ul class="hero-facts">
+          <li>4 × 30 min</li>
+          <li>Bands 1–2 / 3–4 / 5–6</li>
+          <li>No elimination</li>
+        </ul>
+      </div>
+      <article class="this-month">
+        <p class="kicker">This month</p>
+        <h2>September: Soccer</h2>
+        <p>Soccer (Weeks 1–2) · football intro (Week 3) · Terry Fox (Week 4)</p>
+        <ul>
+          <li>Four 30-minute classes a week, written so a substitute can teach from the page</li>
+          <li>Named games, stay-in dodgeball, demo clips</li>
+          <li>House rules: real sport balls, stay-in dodgeball, floor-only gymnastics</li>
+        </ul>
+        <a href="month.html?m=September">Open September →</a>
+      </article>
+    </section>
+
+    <section class="wrap year-block">
+      <p class="kicker">The year</p>
+      <h2 class="section-title">Ten months of play</h2>
+      <div id="months" class="month-grid"></div>
+    </section>
+
+    <section class="grades-band">
+      <div class="wrap">
+        <p class="kicker">Grades</p>
+        <h2 class="section-title">Jump in by grade</h2>
+        <div class="grade-grid">
+          <a href="month.html?m=September">G1</a>
+          <a href="month.html?m=September">G2</a>
+          <a href="month.html?m=September">G3</a>
+          <a href="month.html?m=September">G4</a>
+          <a href="month.html?m=September">G5</a>
+          <a href="month.html?m=September">G6</a>
+        </div>
       </div>
     </section>
-    <div id="months" class="grid"></div>
+
+    <section class="wrap bag-block">
+      <p class="kicker">Also in the gym bag</p>
+      <h2 class="section-title">House rules, stay-in games, clips</h2>
+      <div class="bag-grid">
+        <a class="bag-card" href="how.html">
+          <p class="kicker">Teacher notes</p>
+          <h3>How to use</h3>
+          <p>No elimination, real sport balls, stay-in dodgeball, sticks low, floor-only gymnastics, no skating.</p>
+        </a>
+        <a class="bag-card" href="dodgeball.html">
+          <p class="kicker">October · January</p>
+          <h3>Dodgeball</h3>
+          <p>Stay-in games. Hits below the waist. A catch is a save.</p>
+        </a>
+        <a class="bag-card" href="track-day.html">
+          <p class="kicker">First week of June</p>
+          <h3>Track Day</h3>
+          <p>18 events with rules and scoring for Grades 4–6. Beanbags, not balloons.</p>
+        </a>
+        <a class="bag-card" href="videos.html">
+          <p class="kicker">YouTube</p>
+          <h3>Demo videos</h3>
+          <p>Public PE clips, also linked on matching game pages.</p>
+        </a>
+      </div>
+    </section>
   </main>
-  <footer class="site wrap">
-    Grades 1–6 · 4 classes a week · 30 minutes · big-group games.
+  <footer class="site">
+    <div class="wrap foot">
+      <p class="foot-brand">SCA PE Playbook</p>
+      <p>Grades 1–6 · four 30-minute classes a week · Alberta Physical Education and Wellness. Real sport balls, stay-in dodgeball, no elimination, floor-only gymnastics. Follow your school’s safety rules.</p>
+    </div>
   </footer>
   <script src="data.js"></script>
   <script src="k2-games.js"></script>
