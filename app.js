@@ -304,6 +304,8 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
 
     let activeType = "all";
     let activeMonth = "all";
+    const urlQ = (qs.get("q") || "").trim();
+    if (q && urlQ) q.value = urlQ;
     if (monthBox) {
       monthBox.innerHTML =
         `<button type="button" data-month="all" class="on">All months</button>` +
