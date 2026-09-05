@@ -1,13 +1,13 @@
 :root {
-  --green: #245c45;
-  --green-mid: #1d4d39;
-  --green-lt: #dce8e1;
-  --navy: #245c45;
-  --navy-lt: #dce8e1;
-  --gold: #245c45;
-  --ink: #1b241e;
-  --muted: #5e685f;
-  --subtle: #7a847b;
+  --green: #2f6b4a;
+  --green-mid: #245c45;
+  --green-lt: #dceadf;
+  --navy: #1d5a7a;
+  --navy-lt: #d7e6ee;
+  --gold: #1d5a7a;
+  --ink: #1b2228;
+  --muted: #5a6570;
+  --subtle: #74808a;
   --line: #d5d0c4;
   --bg: #f3f0e8;
   --card: #fffdf8;
