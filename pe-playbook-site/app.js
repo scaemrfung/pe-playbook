@@ -366,7 +366,8 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
         if (activeMonth !== "all" && !(g.months || []).includes(activeMonth)) return false;
         const x = EX[g.name] || {};
         const hay = [g.name, g.source, g.purpose, (g.play || []).join(" "), (g.months || []).join(" "),
-          (x.more || []).join(" "), (x.variations || []).join(" "), x.look || "", typeLabel(typeOf(g))].join(" ").toLowerCase();
+          (x.more || []).join(" "), (x.variations || []).join(" "), (x.skins || []).join(" "),
+          (x.ifThis || []).join(" "), (x.aka || []).join(" "), x.look || "", typeLabel(typeOf(g))].join(" ").toLowerCase();
         return !term || hay.includes(term);
       });
 
@@ -391,22 +392,31 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       const cards = cardGroups.map((group) => {
         const articles = group.games.map((g) => {
           const x = EX[g.name] || {};
-          const more = (x.more || []).map((s) => `<li>${s}</li>`).join("");
+          const more = (x.more || []).filter((s) => !/^If this happens|^How a round ends|^Grouping:/.test(s)).map((s) => `<li>${s}</li>`).join("");
           const cues = (x.cues || []).map((s) => `<li>${s}</li>`).join("");
-          const vars = (x.variations || []).filter((s) => !/^source:|^credit:/i.test(s)).map((s) => `<li>${s}</li>`).join("");
+          const skins = (g.skins || x.skins || []).map((s) => `<li>${s}</li>`).join("");
+          const vars = skins ? "" : (x.variations || []).filter((s) => !/^source:|^credit:/i.test(s)).map((s) => `<li>${s}</li>`).join("");
+          const ifThis = (g.ifThis || x.ifThis || []).map((s) => `<li>${s}</li>`).join("");
+          const akaAnchors = (g.aka || x.aka || []).map((n) => `<span id="${gslug(n)}"></span>`).join("");
+          const akaLine = (g.aka || x.aka || []).length ? `<p class="meta"><strong>Also called:</strong> ${(g.aka || x.aka).join(" · ")}</p>` : "";
           return `
           <article class="gcard" id="${gslug(g.name)}">
+            ${akaAnchors}
             <div class="ghead">
               <h2>${numbers[g.name]}. ${g.name}</h2>
               <span class="src">${group.label}</span>
             </div>
             <p class="meta"><strong>When:</strong> ${(g.months || []).join(", ") || "Anytime"} · <strong>Slot:</strong> ${g.slot || "—"}${x.numbers ? ` · ${x.numbers}` : ""}</p>
             <p>${g.purpose || ""}</p>
+            ${akaLine}
             <p class="meta"><strong>Equipment:</strong> ${g.equipment || ""}</p>
             <p class="meta"><strong>Set-up:</strong> ${g.setup || ""}</p>
             <p><strong>How we play</strong></p>
             <ol class="clean">${(g.play || []).map((s) => `<li>${s}</li>`).join("")}</ol>
+            ${ifThis ? `<p><strong>If this happens</strong></p><ul class="clean">${ifThis}</ul>` : ""}
+            ${g.roundEnds || x.roundEnds ? `<p><strong>How a round ends.</strong> ${g.roundEnds || x.roundEnds}</p>` : ""}
             ${cues ? `<p><strong>Cues</strong></p><ul class="clean">${cues}</ul>` : ""}
+            ${skins ? `<p><strong>Skins — same game, different wrapper</strong></p><ul class="clean">${skins}</ul>` : ""}
             ${vars ? `<p><strong>Variations</strong></p><ul class="clean">${vars}</ul>` : ""}
             ${more ? `<p><strong>Teaching tips</strong></p><ul class="clean">${more}</ul>` : ""}
             ${videoHtml(g.name)}

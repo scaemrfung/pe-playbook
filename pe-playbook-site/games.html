@@ -4,35 +4,52 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Game descriptions · SCA Elementary PE Playbook</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@450;700;800&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&family=Newsreader:opsz,wght@6..72,500;6..72,560;6..72,650&display=swap" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-page="games">
-  <header class="site">
+    <header class="site">
     <div class="wrap row">
-      <a class="brand" href="index.html">SCA Elementary PE Playbook<span>Grades 1–6 · Alberta · 4 × 30 min</span></a>
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 4v16M4 12h16M6.6 7.2c3 2.2 7.8 2.2 10.8 0M6.6 16.8c3-2.2 7.8-2.2 10.8 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">SCA PE Playbook<span>Alberta PEW · Grades 1–6 · 4 × 30 min</span></span>
+      </a>
+      <form class="site-search" action="games.html" method="get" role="search">
+        <label class="sr-only" for="site-q">Search games</label>
+        <input id="site-q" name="q" type="search" placeholder="Search games…" autocomplete="off" />
+        <button type="submit" aria-label="Search games">Search</button>
+      </form>
       <nav>
         <a href="index.html">Year</a>
-        <a href="how.html">How to use</a>
-<a href="gymnastics.html">Gymnastics</a>
-                <a href="videos.html">Videos</a>
         <a class="active" href="games.html">Games</a>
         <a href="dodgeball.html">Dodgeball</a>
+        <a href="gymnastics.html">Gymnastics</a>
+        <a href="track-day.html">Track Day</a>
+        <a href="videos.html">Videos</a>
+        <a href="outcomes.html">PEW</a>
+        <a href="fitness.html">Fitness</a>
+        <a href="how.html">How</a>
       </nav>
     </div>
   </header>
   <main class="wrap" style="padding: 28px 0 40px">
     <div class="panel">
       <h1 style="margin-top:0;color:var(--navy)">Big-group games</h1>
-      <p class="meta">Numbered and sorted by type. Setup, how we play, grade bands, and safety for every named game in the year plan. Written for a 30-minute class. No elimination. Soft tags. Sport games use the real ball.</p>
-      <p class="meta" style="margin-top:8px"><a href="dodgeball.html">Dodgeball</a> · <a href="videos.html">Demo videos</a></p>
+      <p class="meta">Numbered and sorted by type. Daly Exercise and SCA titles that were the same game now live on one card — setup, how we play, if this happens, how a round ends, and skins. Written for a 30-minute class. No elimination. Soft tags. Sport games use the real ball.</p>
+      <p class="meta" style="margin-top:8px"><a href="dodgeball.html">Dodgeball</a> · <a href="videos.html">Demo videos</a> · <a href="large-group-pe-games.html">PHYSEDGAMES handbook</a></p>
+      <label class="meta" for="q" style="display:block;margin:14px 0 6px;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700">Find a game</label>
+      <p><input class="search" id="q" type="search" placeholder="Type a name — Hospital Tag, Castleball, scoop…" autofocus style="width:min(520px,100%)" /></p>
+      <p class="meta" style="margin-top:14px;margin-bottom:6px;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700">Month</p>
+      <div class="filters" id="month-filters"></div>
       <p class="meta" style="margin-top:14px;margin-bottom:6px;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700">Type</p>
       <div class="filters" id="type-filters"></div>
-      <p><input class="search" id="q" type="search" placeholder="Search a game or month…" /></p>
       <div id="game-index"></div>
     </div>
     <div id="list"></div>
   </main>
+  <script src="chrome.js"></script>
   <script src="data.js"></script>
   <script src="games-data.js"></script>
   <script src="game-extras.js"></script>

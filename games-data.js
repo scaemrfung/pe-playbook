@@ -21,7 +21,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. Noodles tap hips or shoes; they are not swords. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Backyard Dog Tag",
@@ -45,32 +49,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
-  },
-  {
-    "name": "Banana Tag",
-    "source": "",
-    "months": [
-      "December",
-      "September"
-    ],
-    "purpose": "Such a simple tag game; kids go bananas, literally! As players get tagged, they must curve their bodies into the shape of a banana. Someone else will come along and ‘peel’ them so that they are free. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "None",
-    "setup": "Choose taggers. Everyone else is a runner. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "A tagged player must curve their body into a banana shape and hold it.",
-      "A free teammate “peels” them (a two-hand sweep down the sides, agreed and appropriate) to free them.",
-      "Rotate taggers. Keep tags gentle.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "Choose taggers.",
-      "Everyone else is a runner."
-    ],
-    "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
-    "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
-    "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Blob Tag",
@@ -79,71 +62,38 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Cooperative chasing. The chain grows, then splits if it gets unsafe. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "Optional pinnies for the starting pair.",
-    "setup": "Start with one pair linked by hands or elbows. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
+    "purpose": "Tagged players join the blob. Reset before the last runner is hunted for minutes. Folded in: Daly Witches / Zombie / Alien Tag + SCA Blob Tag / Home Free Bad Guy Blob.",
+    "equipment": "Optional noodles or cone hats · spare kit at the side",
+    "setup": "Mark the court. Starters bibbed or holding noodles. Spare kit at the side if the blob needs gear.",
     "play": [
-      "The pair stays linked and tags with the free outer hands.",
-      "Tagged players join the blob.",
-      "Break a blob at 4 if the chain is whipping or dragging.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "Freeze on the whistle. Reset spots, then the next round."
+      "Starters tag. Tagged player joins the blob (hold wrists, put on a cone hat, pick up a hoop).",
+      "Only the agreed tag counts (noodle end, two fingers).",
+      "When few runners remain, freeze, new starters."
     ],
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "tag"
-  },
-  {
-    "name": "Bug Tag / Dead Ant",
-    "source": "",
-    "months": [
-      "December",
-      "September"
+    "type": "tag",
+    "ifThis": [
+      "Chain breaks and still tags: no tag until it is linked.",
+      "Cone thrown as a hat: sit one turn.",
+      "Blob walls someone into a corner: open a corridor."
     ],
-    "purpose": "Team carry or escort to a hospital hoop. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "2–4 noodles for taggers. Hoops as hospitals.",
-    "setup": "Scatter hoops. Choose a few taggers. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Tagged player lies on their back with arms and legs up (a bug).",
-      "Four classmates hold wrists/ankles and walk-escort them to a hoop.",
-      "At the hoop they have 5 seconds free. Helpers cannot be tagged while holding a limb.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "Freeze on the whistle. Reset spots, then the next round."
+    "roundEnds": "Last few runners, then reset. No one is out for the period.",
+    "skins": [
+      "Witches: cone on the head.",
+      "Zombies: one foot stays in a sliding hoop.",
+      "Aliens: waist hoop, 5 jacks to rejoin if you prefer a non-blob re-entry.",
+      "Home Free Bad Guy Blob: a home hoop that resets a runner once."
     ],
-    "g12": "Do not lift. Two friends walk-escort beside them to the hoop. Teacher may hold the only extra noodle.",
-    "g34": "Four-person carry close to the floor.",
-    "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "No lifting off the ground for Grades 1–2. Never pick up under the back or neck. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "tag"
-  },
-  {
-    "name": "Buzz Off / hoop free zones",
-    "source": "",
-    "months": [
-      "February",
-      "December",
-      "September"
-    ],
-    "purpose": "Hoops are rest spots. A new player takes the hoop with a kind phrase. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "Hoops (fewer than students).",
-    "setup": "Scatter hoops. Music on. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Show the boundary, the freeze signal, and who starts as tagger before GO.",
-      "Move around hoops. When you need a rest, step in.",
-      "A new player says “Buzz off” (or a kinder class phrase) and takes the hoop. The old player leaves and moves again.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "Play Buzz Off / hoop free zones in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
-    "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
-    "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "0–5",
-    "type": "tag"
+    "aka": [
+      "Home Free Bad Guy Blob Tag",
+      "Witches Tag",
+      "Zombie Tag",
+      "Alien Tag"
+    ]
   },
   {
     "name": "Chicken Checkers",
@@ -152,48 +102,36 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Tag game with built-in hoop rests and name-saying swaps. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "Many hoops. 2–4 tag pairs.",
-    "setup": "Scatter hoops. Most students stand in a hoop. A few tag pairs roam. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
+    "purpose": "On ‘switch,’ leave your base and claim a new one. No base = you are it, or you do the short task. Folded in: Daly Graveyard Guard / Hoop Dog + SCA Chicken Checkers / Icebergs / Buzz Off.",
+    "equipment": "Hoops or cones as bases",
+    "setup": "Bases spread. One player per base to start if you can. Show the switch call.",
     "play": [
-      "Roamers try to tag anyone off a hoop.",
-      "A player may step into an occupied hoop, say the person’s name, and swap — the old player must leave.",
-      "Keep people moving. Change tag pairs often.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "A tagged player takes the next role or uses the game’s re-enter rule right away — nobody sits out.",
-      "Freeze on the whistle. Reset spots, then the next round."
+      "Call ‘switch.’ Everyone must leave and claim a new base.",
+      "Two on one base: both leave.",
+      "Player left without a base becomes the tagger, or does 5 jacks and stays in."
     ],
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Must use a first name and a kind word to swap.",
-    "safety": "One extra person per hoop during the swap. No shoving out. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "One extra person per hoop during the swap. No shoving out. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "tag"
-  },
-  {
-    "name": "Clothespin Tag",
-    "source": "",
-    "months": [
-      "December",
-      "September"
+    "type": "tag",
+    "ifThis": [
+      "Dive onto a cone: no claim.",
+      "Camping through the call: they must leave."
     ],
-    "purpose": "Steal one pin at a time. Built-in rest when you kneel to clip. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "3–4 clothespins per student.",
-    "setup": "Clip pins on the back of shirts. Long hair tucked or pins placed lower. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Steal one pin at a time from someone else’s back.",
-      "Kneel to clip a stolen pin on your own front — you are safe until you stand.",
-      "Front pins stay. Play to a time.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "A tagged player takes the next role or uses the game’s re-enter rule right away — nobody sits out.",
-      "Freeze on the whistle. Reset spots, then the next round."
+    "roundEnds": "Rotate the leftover player. Play 4–6 switches.",
+    "skins": [
+      "Mummy steals a stone (Graveyard Guard).",
+      "Tigers keep feet in hoops and tag from there (Hoop Dog).",
+      "Rest hoop you may step into (Buzz Off)."
     ],
-    "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
-    "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
-    "g56": "Four pins. Optional noodle for a student who needs more reach.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "tag"
+    "aka": [
+      "Buzz Off / hoop free zones",
+      "Buzz Off",
+      "Graveyard Guard",
+      "Hoop Dog"
+    ]
   },
   {
     "name": "Duck Duck Dash",
@@ -218,7 +156,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "Tap the shoulder, not the head. Circle stays still. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Everybody’s It",
@@ -227,22 +169,35 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Everyone is both tagger and runner. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "None.",
-    "setup": "Gym boundaries. Agree the freeze signal before the first round.",
+    "purpose": "Anyone may tag. A tag has a small cost. Then you keep playing. Folded in: Daly Hot Potato / Pizza Tag + SCA Everybody’s It / Clothespin Tag.",
+    "equipment": "Optional one soft ball or spot markers · optional clothespins",
+    "setup": "Court marked. Soft two-finger tags. Show the cost.",
     "play": [
-      "Soft tag anyone.",
-      "If two people tag at the same time, they play rock-paper-scissors. The slower pose does 3 squats, then both keep playing.",
-      "60–90 second rounds, then a water freeze.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "Play Everybody’s It in short rounds so more students get the key job, then freeze and reset."
+      "On go, tag anyone.",
+      "If two people tag at once, RPS. The slower pose does 3 squats. Both stay in.",
+      "Keep playing until the whistle."
     ],
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [
+      "Hard tag: warning, then sit 10 seconds.",
+      "Ball version thrown at a head: switch to hold-and-touch only."
+    ],
+    "roundEnds": "Timed rounds. No winner required.",
+    "skins": [
+      "Hot Potato: only the person holding the ball may tag, by touch, no throw.",
+      "Pizza: spot marker on one hand; knock other pizzas off.",
+      "Clothespin: steal one pin from a back, clip it on yourself."
+    ],
+    "aka": [
+      "Clothespin Tag",
+      "Hot Potato",
+      "Pizza Tag"
+    ]
   },
   {
     "name": "Freedom Catch",
@@ -267,7 +222,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Frozen Tag",
@@ -276,120 +235,51 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Classic freeze-and-free. Practise asking a teammate for help. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "2–3 pinnies.",
-    "setup": "Choose 2–3 taggers. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
+    "purpose": "Tag freezes you in a shape. A teammate frees you. Nobody sits the period. Folded in: Daly Frog / Present / Jack Frost / Sun and Ice / Caterpillar Tag + SCA Frozen Tag / Hospital / Hot Dog / Banana / Bug Tag.",
+    "equipment": "Optional noodles · optional hoops for Hospital",
+    "setup": "Show the freeze shape once. Show the rescue once. Soft tag only.",
     "play": [
-      "Tagged players freeze with arms out.",
-      "A free player gives a high-five to unfreeze them.",
-      "Keep 2–3 taggers. Rotate every minute.",
-      "Play Frozen Tag in short rounds so more students get the key job, then freeze and reset."
+      "Taggers chase. Tagged player freezes in the shape and stays there.",
+      "A free teammate does the rescue (high-five, hoop-over, peel, bun, copy-the-dance, four-person carry).",
+      "Both are free. Out of bounds = frozen."
     ],
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Must be unfrozen by two high-fives.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "0–5",
-    "type": "tag"
-  },
-  {
-    "name": "Home Free Bad Guy Blob Tag",
-    "source": "",
-    "months": [
-      "December",
-      "September"
+    "type": "tag",
+    "ifThis": [
+      "Statue moves: they stay frozen.",
+      "Rough rescue: switch the whole class to a two-finger touch.",
+      "All frozen: new taggers, restart."
     ],
-    "purpose": "What a great game, seriously one of the best tag games out there. This is a must play. Lots of Dynamics, lots going on in this unique idea thanks to Dan Penna for another hit. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "Hula hoops, pool noodles",
-    "setup": "Scatter hoops as short-stay “home free” bases (about 3 seconds max — no camping). Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "2–4 bad guys with pool noodles tag runners.",
-      "A tagged runner joins the blob by holding hands/wrists with a bad guy. Only noodle ends tag; the chain may not break.",
-      "Optional rescue: a free runner at a hoop calls HOME FREE and releases one blob player.",
-      "Reset when the blob is huge or after 2–3 minutes.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "Freeze on the whistle. Reset spots, then the next round."
+    "roundEnds": "Timed rounds. Rotate taggers every 60–90 seconds.",
+    "skins": [
+      "Default: arms out, high-five.",
+      "Hospital: cover the spot, third tag = walk a hoop lap and rejoin.",
+      "Hot Dog: stand still, two classmates are the bun.",
+      "Banana: curve the body, two-hand peel.",
+      "Present (December): sit with hands in a bow, classmate ‘opens’ you.",
+      "Jack Frost: hug or high-five melt.",
+      "Bug / Dead Ant: freeze on your back with legs up; a teammate taps both feet.",
+      "Waspital: same hospital rule with a wasp story.",
+      "Unmask Tag (Daly Silly Bananas): one foot up, hands on head, teammate touches the hands. Do not call this Silly Bananas."
     ],
-    "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule. Teacher may hold the only extra noodle.",
-    "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
-    "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. Noodles tap hips or shoes; they are not swords. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "tag"
-  },
-  {
-    "name": "Hospital Tag",
-    "source": "",
-    "months": [
-      "December",
-      "September"
-    ],
-    "purpose": "Fast warm-up. Everyone tags; nobody sits out for long. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "None required. Optional pinnies.",
-    "setup": "Gym boundaries. Teach a two-hand tag on the shoulder or back only. Agree the freeze signal before the first round.",
-    "play": [
-      "Everyone is it. Soft two-finger tag.",
-      "First tag: cover that spot with one hand and keep playing.",
-      "Second tag: cover with the other hand.",
-      "Third tag: walk to a hoop “hospital,” do a named stretch (10 seconds), then re-enter with both hands free.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Walk-jog only. Teacher is the only extra tagger if the class is shy.",
-    "g34": "Jog and skip rounds. Students lead the hospital stretch.",
-    "g56": "Add a rule: you may only tag with your free hand.",
-    "safety": "No head tags. Cap at 5 minutes as a warm-up. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "0–5 warm-up",
-    "type": "tag"
-  },
-  {
-    "name": "Hot Dog Tag",
-    "source": "",
-    "months": [
-      "December",
-      "September"
-    ],
-    "purpose": "Cooperative unfreeze. Practise asking for help. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "2–4 pinnies or noodles for taggers.",
-    "setup": "Choose 2–4 taggers. Teach the freeze pose: standing still, calling for a bun. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Taggers tag runners (soft tag).",
-      "Tagged player stands still and calls for a bun.",
-      "Two classmates stand one on each side. All three say a short team word, then have 5 seconds free to leave.",
-      "While you are a bun, you cannot be tagged.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Walk tag. Teacher may help form the first few buns. Teacher may hold the only extra noodle.",
-    "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
-    "g56": "Add a helper zone if the gym is crowded.",
-    "safety": "No slamming into the frozen player. Hands only on air beside them, not a squeeze. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "0–5 or 16–25",
-    "type": "tag"
-  },
-  {
-    "name": "Icebergs",
-    "source": "",
-    "months": [
-      "December",
-      "September"
-    ],
-    "purpose": "Hoop islands that shrink. Same family as Sharks and Dolphins. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "8–12 hoops.",
-    "setup": "Scatter hoops. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Travel between icebergs on the call.",
-      "Remove one hoop each round.",
-      "Share an iceberg. Nobody sits out.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "A tagged player takes the next role or uses the game’s re-enter rule right away — nobody sits out.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
-    "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
-    "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "tag"
+    "aka": [
+      "Hospital Tag",
+      "Hot Dog Tag",
+      "Banana Tag",
+      "Bug Tag / Dead Ant",
+      "Bug Tag",
+      "Dead Ant",
+      "Waspital",
+      "Present Tag",
+      "Jack Frost",
+      "Sun and Ice",
+      "Caterpillar Tag",
+      "Frog Tag"
+    ]
   },
   {
     "name": "Kangaroos and Crocodiles",
@@ -398,48 +288,74 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Reaction and sprint home. First-week listening game. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "Cones for two end zones and a centre line.",
-    "setup": "Two teams face each other at the centre, each with a home end. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
+    "purpose": "Hear your name. Turn. Get home. The other team tags. Folded in: Daly Kangaroo Tag / Jumping Pumpkins + SCA Kangaroos and Crocodiles / Captain’s Deck.",
+    "equipment": "None · two home lines and a centre line",
+    "setup": "Teams on a centre line, facing you. Homes behind each.",
     "play": [
-      "Call “Kangaroos” or “Crocodiles.”",
-      "The named team turns and runs home. The other team tags.",
-      "Tagged players do 5 jumping jacks at home and stay in.",
-      "Play short rounds. Change the start shape (one-foot, all-fours).",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "A tagged player takes the next role or uses the game’s re-enter rule right away — nobody sits out.",
-      "Freeze on the whistle. Reset spots, then the next round."
+      "Call ‘Kangaroos’ or ‘Crocodiles.’",
+      "The named team turns and runs (or hops) home. The other team tags.",
+      "Tagged players do 5 jumps and re-enter."
     ],
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Add bib tails instead of a body tag.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "0–5",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [
+      "False start: send that team back.",
+      "Wrong team runs: they are taggable."
+    ],
+    "roundEnds": "Play several calls. No one sits out.",
+    "skins": [
+      "Hop only (Kangaroo Tag).",
+      "What’s-the-time: jump the called number toward the witch, flee when she turns.",
+      "Jumping Pumpkins: same turn-and-home on a Halloween call."
+    ],
+    "aka": [
+      "Kangaroo Tag",
+      "Jumping Pumpkins"
+    ]
   },
   {
-    "name": "Line Tag / Pac-Man",
+    "name": "Line Tag",
     "source": "",
     "months": [
       "December",
       "September"
     ],
-    "purpose": "Run on lines. Practice pathways and change of speed. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "1–2 pinnies to mark taggers.",
-    "setup": "Use painted gym lines. Show legal paths. No jumping to a new line. Agree the freeze signal before the first round.",
+    "purpose": "Travel only on painted lines. Leave a line and you are tagged. Folded in: Daly Line / Block Tag + SCA Line Tag / Pac-Man.",
+    "equipment": "Painted gym lines · optional noodles",
+    "setup": "Everyone on a line before go. Show legal direction changes.",
     "play": [
-      "Everyone must stay on a line.",
-      "Move forward or backward. You may not pass through a person on the same line — wait or turn.",
-      "Tagged players become taggers or do 5 jumping jacks on a spot and re-enter.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "Freeze on the whistle. Reset spots, then the next round."
+      "Move forward or back on the lines. You may not step through a person on the same line.",
+      "Tag = sit on the line as a block.",
+      "A teammate high-fives to free you.",
+      "Off a line = tagged."
     ],
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Two taggers; students set a lap goal on the perimeter line.",
-    "safety": "No sliding on lines. Eyes up at corners. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No sliding on lines. Eyes up at corners. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25 run-skill game",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [
+      "Shortcut across open floor: tagged.",
+      "Block stands up early: sit back down.",
+      "Jam at a crossing: freeze, sort, restart 10 seconds."
+    ],
+    "roundEnds": "Timed rounds. Rotate taggers.",
+    "skins": [
+      "Noodle taggers.",
+      "Crawl-through-legs free instead of a high-five.",
+      "Pac-Man: only travel on lines, same freeze-and-free."
+    ],
+    "aka": [
+      "Line Tag / Pac-Man",
+      "Pac-Man",
+      "Block Tag",
+      "Line / Block Tag"
+    ]
   },
   {
     "name": "Massive 10 Second Tag",
@@ -463,32 +379,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
-  },
-  {
-    "name": "Mr. Clean",
-    "source": "",
-    "months": [
-      "December",
-      "September"
-    ],
-    "purpose": "Get rid of your two pins by clipping them on someone else’s back, then check in. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "2 clothespins or tape pieces each, 1 hoop (clean zone).",
-    "setup": "Give every player two pins. One hoop is the check station. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Clip your pins onto other people’s backs, one pin per person.",
-      "When you think you are clean, go to the hoop to be checked — one at a time.",
-      "Players in the check line can still receive a pin.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "A tagged player takes the next role or uses the game’s re-enter rule right away — nobody sits out.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
-    "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
-    "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "Pins on clothing only. Do not drop pins on the floor as a cheat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Mystery Number Tag",
@@ -513,7 +408,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Octopus",
@@ -537,7 +436,11 @@ window.GAME_DETAILS = [
     "g56": "Must cross with a skip or slide.",
     "safety": "Feet stay planted for seaweed. No trips. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Reindeer Roundup",
@@ -563,7 +466,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. Noodles tap hips or shoes; they are not swords. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Shadow Tag",
@@ -587,7 +494,11 @@ window.GAME_DETAILS = [
     "g56": "Must tag and say the person’s name.",
     "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Sharks and Dolphins",
@@ -596,24 +507,36 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Flee to a safe island. Shrink space each round. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "8–12 hoops (islands). 1–2 pinnies for sharks.",
-    "setup": "Scatter hoops. Start with one shark. Dolphins start on islands. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
+    "purpose": "Sharks tag. Dolphins freeze, then get rescued. Folded in: Daly Shark and Fish + SCA Sharks and Dolphins + chute version.",
+    "equipment": "2 noodles · marked sea · optional parachute",
+    "setup": "Sea boundary. Two sharks. Show the freeze (T or agreed shape) and the rescue.",
     "play": [
-      "On “Swim!” dolphins jog between islands.",
-      "On “Shark attack!” they must reach a hoop.",
-      "Tagged dolphins become extra sharks (no sitting out).",
-      "Remove one hoop each round so islands get scarce.",
-      "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
-      "A tagged player takes the next role or uses the game’s re-enter rule right away — nobody sits out.",
-      "Freeze on the whistle. Reset spots, then the next round."
+      "Sharks tag with noodles.",
+      "Tagged dolphin freezes.",
+      "A free dolphin rescues them (under the arms, high-five, or chute peek).",
+      "Out of bounds = frozen."
     ],
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Add a rescue: a free dolphin high-fives a newly tagged shark to bring them back once.",
-    "safety": "Feet only in hoops — no diving. One or two per hoop for older grades. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Feet only in hoops — no diving. One or two per hoop for older grades. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [
+      "Freeze shape not clear: no rescue until it is.",
+      "Shark guards one frozen player all game: send them hunting.",
+      "Rough rescue: high-five only."
+    ],
+    "roundEnds": "Sharks win if all are frozen at the whistle. Otherwise most free dolphins.",
+    "skins": [
+      "Parachute cat-and-mouse.",
+      "More sharks.",
+      "Shark and Fish: same freeze-and-rescue."
+    ],
+    "aka": [
+      "Sharks and Dolphins (chute)",
+      "Shark and Fish"
+    ]
   },
   {
     "name": "Slap Rover",
@@ -639,7 +562,11 @@ window.GAME_DETAILS = [
     "g56": "Beat-box from the calling team.",
     "safety": "Slap hands only, not arms. No diving tags. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Squirrel’s Tail",
@@ -663,7 +590,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "Tails tuck loosely. No grabbing clothing. Grade 3+ only. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25 outdoor",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Survivor Tag",
@@ -687,7 +618,11 @@ window.GAME_DETAILS = [
     "g56": "Skill is a skip-30 or a peer stretch.",
     "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Tail Tag",
@@ -712,7 +647,11 @@ window.GAME_DETAILS = [
     "g56": "Must say the name as you pull.",
     "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Ten-Second Tag",
@@ -736,7 +675,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "Soft tag. Taggers wait behind the line until the whistle. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Tripod Tag",
@@ -760,7 +703,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "Joined hands stay at waist height. No dragging the target. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Tunnel Freeze",
@@ -784,7 +731,11 @@ window.GAME_DETAILS = [
     "g56": "Optional tunnel; consent first.",
     "safety": "No crawling under a moving person. Head up. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Wake-Up Bear",
@@ -810,30 +761,11 @@ window.GAME_DETAILS = [
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
     "safety": "No blindfold. Chase to the wall, not into a pile. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
-  },
-  {
-    "name": "Waspital",
-    "source": "",
-    "months": [
-      "December",
-      "September"
-    ],
-    "purpose": "Everyone-is-it tag with a stretch hospital. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "1–2 hoops.",
-    "setup": "Hoops are the waspital. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Show the boundary, the freeze signal, and who starts as tagger before GO.",
-      "Everyone is it. Soft two-finger tag.",
-      "Two tags = walk to the hoop, stretch, re-enter.",
-      "Play Waspital in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
-    "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
-    "g56": "Students lead the hospital stretch.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "0–5",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Wolf’s Den",
@@ -858,7 +790,11 @@ window.GAME_DETAILS = [
     "g56": "Wolves may only tag in the den.",
     "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "tag"
+    "type": "tag",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "3-Ball Soccer",
@@ -881,7 +817,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "4-Goal Soccer",
@@ -904,7 +844,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "5 Soccer Circle Ideas",
@@ -930,7 +874,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Bench Ball",
@@ -955,7 +903,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. Foam dodgeballs. Hits below the waist. A high ball is dead. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Booger Ball",
@@ -979,7 +931,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Captain Ball",
@@ -1003,55 +959,11 @@ window.GAME_DETAILS = [
     "g56": "Must pass twice before the captain catch.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
-  },
-  {
-    "name": "Capture the Egg",
-    "source": "",
-    "months": [
-      "October",
-      "January"
-    ],
-    "purpose": "Carry a beanbag through traffic. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
-    "equipment": "Beanbags, pinnies.",
-    "setup": "Two ends. A few taggers in the middle. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
-    "play": [
-      "Carry an egg across.",
-      "If tagged, hand the egg to the tagger and switch jobs.",
-      "Count fair crossings.",
-      "Play 4–6 minute periods. Extra players are bumpers, walls, or the next wave — they stay in a job.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
-    "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
-    "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "invasion"
-  },
-  {
-    "name": "Capture The Flag Outdoors",
-    "source": "",
-    "months": [
-      "September",
-      "October"
-    ],
-    "purpose": "This has been the GAME OF THE YEAR at our school. LOTS of Fun, many skills and laughs have been had. Competition at its finest, and what a workout. It’s the standard version of Capture The Flag brought to physical educat. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
-    "equipment": "2 Flags, large playing area",
-    "setup": "Find a large outdoor area and split it in half. Two teams, one flag each. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
-    "play": [
-      "Give teams about a minute to hide their flag on their own half (no peeking). No “puppy-guarding” the flag.",
-      "On GO, teams try to steal the other flag and carry it back across the middle line.",
-      "If you are tagged on the opponent’s half, go to jail for 2 minutes. A teammate can free you by tagging the jail object after a tagger taps it — follow the video for the exact jail sequence used at their school.",
-      "Add house rules as needed (boundary, flag-hide limits). Watch the official video before the first play.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
-    "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
-    "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Collect the Treasure",
@@ -1075,7 +987,11 @@ window.GAME_DETAILS = [
     "g56": "Two treasures allowed if you pair up.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Cornerball",
@@ -1099,7 +1015,11 @@ window.GAME_DETAILS = [
     "g56": "3-second hold. One extra defender in the hoop ring.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Crab Football",
@@ -1123,7 +1043,11 @@ window.GAME_DETAILS = [
     "g56": "Must pass once while still in crab.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Crazy Ball Soccer",
@@ -1146,7 +1070,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "End Ball",
@@ -1170,7 +1098,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "End Wall Soccer",
@@ -1194,7 +1126,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "End Zone Ball",
@@ -1218,7 +1154,11 @@ window.GAME_DETAILS = [
     "g56": "Add a 3-second hold and a must-pass rule.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Four Corner Flags",
@@ -1242,7 +1182,11 @@ window.GAME_DETAILS = [
     "g56": "Outdoor map-optional version in May.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Fruit Salad",
@@ -1266,7 +1210,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "First foot on the spot keeps it. No shoving. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Go for Goal",
@@ -1290,7 +1238,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Guard the Gates",
@@ -1313,7 +1265,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Heist the Treasure",
@@ -1337,7 +1293,11 @@ window.GAME_DETAILS = [
     "g56": "Two taggers. Pair heist allowed.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Home Alone",
@@ -1362,7 +1322,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Hurley Burley",
@@ -1386,7 +1350,11 @@ window.GAME_DETAILS = [
     "g56": "Three-pass rule before a shot.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Numbers Hockey",
@@ -1409,55 +1377,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
-  },
-  {
-    "name": "Pin Galore Soccer",
-    "source": "",
-    "months": [
-      "September"
-    ],
-    "purpose": "This is a great modification to the regular game of soccer that has proven to increase participation and motivation in the gym. Instead of the typical scoring into the other team’s goal, players will try to knock over th. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
-    "equipment": "Plastic pins, foam soccer balls",
-    "setup": "Each team lines plastic pins on its end. Use foam soccer balls. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
-    "play": [
-      "Play soccer (feet only). Instead of a net, you score by knocking over an opponent’s pin.",
-      "When you knock a pin down, carry that pin back and add it to your own row.",
-      "Game ends when one team has every pin, or when time expires (most pins wins).",
-      "Great soccer lead-up because every pin is a scoring chance.",
-      "Play 4–6 minute periods. Extra players are bumpers, walls, or the next wave — they stay in a job.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
-    "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
-    "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "invasion"
-  },
-  {
-    "name": "Protect the King",
-    "source": "",
-    "months": [
-      "October",
-      "January"
-    ],
-    "purpose": "Pass to an opening. Defend without body-checking. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
-    "equipment": "One football or playground ball, pinnies.",
-    "setup": "One king in a hoop. Four defenders. The rest pass around the outside. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
-    "play": [
-      "Attackers must pass at least twice, then throw below the waist at the king.",
-      "A hit on the king is a point. Rotate the king and two defenders.",
-      "Defenders block with hands — no pushing the king. If you throw at the king, switch to dodgeballs.",
-      "Play 4–6 minute periods. Extra players are bumpers, walls, or the next wave — they stay in a job.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
-    "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
-    "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "If the ball is thrown at a person, use dodgeballs and stay below the waist. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Reverse Soccer",
@@ -1480,31 +1404,57 @@ window.GAME_DETAILS = [
     "g56": "Everyone on the team touches before a shot.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
-    "name": "Rob the Nest (dribble)",
+    "name": "Rob the Nest",
     "source": "",
     "months": [
       "September",
       "January"
     ],
-    "purpose": "Dribble collect. Same idea as Robin’s Nest, feet only. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
-    "equipment": "4 hoops, soccer balls.",
-    "setup": "Four teams, four nests. Balls in the middle. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
+    "purpose": "Get objects into your nest. One per trip. Folded in: Daly Capture the Ball / Beanbag / Fishing + SCA Rob the Nest / Capture the Egg / Capture the Flag / Bucket Ball.",
+    "equipment": "Centre pile of objects · team hoops as nests",
+    "setup": "Objects in the middle or in other nests. Teams at their hoop. Show the carry or dribble you want.",
     "play": [
-      "Dribble a ball into your nest.",
-      "First to 3, or count on the whistle.",
-      "Later round: you may take from another nest. No standing in the hoop.",
-      "Play 4–6 minute periods. Extra players are bumpers, walls, or the next wave — they stay in a job.",
-      "Play Rob the Nest (dribble) in short rounds so more students get the key job, then freeze and reset."
+      "First player runs in, takes one object, gets it into the nest, tags.",
+      "Wrong action (two objects, no dribble if required) = object goes back.",
+      "Later round: you may steal from another nest. No standing in a hoop to guard it."
     ],
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [
+      "Two hands on the same object: first hand keeps it.",
+      "Centre traffic jam: one way in, other way out.",
+      "Puppy-guarding the nest: send them out."
+    ],
+    "roundEnds": "Most objects in the nest, or first to a target number.",
+    "skins": [
+      "Dribble a ball (Rob the Nest).",
+      "Hook cones with a noodle (Fishing).",
+      "Outdoor flag and a jail.",
+      "Carry an egg; tagged = hand it over.",
+      "Bucket Ball: drop in a bucket instead of a hoop.",
+      "Robin’s Nest: same one-per-trip rule."
+    ],
+    "aka": [
+      "Rob the Nest (dribble)",
+      "Capture the Egg",
+      "Capture The Flag Outdoors",
+      "Capture the Flag",
+      "Bucket Ball",
+      "Robin’s Nest",
+      "Capture the Ball",
+      "Fishing"
+    ]
   },
   {
     "name": "Sideline Soccer",
@@ -1527,7 +1477,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Slappers!",
@@ -1552,7 +1506,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Steal the Bacon",
@@ -1561,22 +1519,37 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "React to a number. Grab a ball or beanbag, not a person. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
-    "equipment": "One ball or beanbag.",
-    "setup": "Two lines, matching numbers facing each other. Object in the middle. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
+    "purpose": "Your number is called. Beat the other player to the object and get home. Folded in: Daly Sneaky Races / Reaction Speed + SCA Steal the Bacon / Oyster Shell / Sneak & React.",
+    "equipment": "One object in the middle · two numbered lines",
+    "setup": "Two teams on opposite lines, same numbers. Object centre.",
     "play": [
-      "Call a number. Both students run for the bacon.",
-      "The one who picks it up tries to get home. The other may tag the carrier — not grab the shirt.",
-      "If the tag happens before home, the bacon goes back. Both return to their line.",
-      "Play 4–6 minute periods. Extra players are bumpers, walls, or the next wave — they stay in a job.",
-      "Freeze on the whistle. Reset spots, then the next round."
+      "Call a number (or two). Those players race the object.",
+      "First hand on it tries to get back over their line. The other may tag.",
+      "Soft tag only. Then reset."
     ],
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [
+      "False start: send them back.",
+      "Two numbers collide: dead ball, replay.",
+      "Object kicked away: replace and redo."
+    ],
+    "roundEnds": "First team to 5 clean returns, or play a set list of numbers.",
+    "skins": [
+      "Oyster: one beanbag on the centre line.",
+      "Sneak & React: tiptoe on ‘sneak,’ sprint home on the clap.",
+      "Drop-catch at chin height instead of a sprint."
+    ],
+    "aka": [
+      "Oyster Shell",
+      "Sneak & React",
+      "Sneaky Races",
+      "Reaction Speed"
+    ]
   },
   {
     "name": "Stones",
@@ -1600,7 +1573,11 @@ window.GAME_DETAILS = [
     "g56": "Add a jail hoop that needs two rescuers.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Switch",
@@ -1625,7 +1602,11 @@ window.GAME_DETAILS = [
     "g56": "Students call Switch. Mats only in gymnastics month — quiet feet.",
     "safety": "No body checks. If two arrive, rock-paper-scissors, both stay in. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Team Tag",
@@ -1649,7 +1630,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "Tag with the ball in two hands, not a shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "The Perfect Pass",
@@ -1673,7 +1658,11 @@ window.GAME_DETAILS = [
     "g56": "Five completes or a 3-second hold.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Through the Gates",
@@ -1696,7 +1685,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "5–16",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Traffic Lights (kick)",
@@ -1720,7 +1713,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "5–16 or 0–5",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Wall Soccer",
@@ -1743,7 +1740,11 @@ window.GAME_DETAILS = [
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "invasion"
+    "type": "invasion",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Battleships",
@@ -1767,55 +1768,11 @@ window.GAME_DETAILS = [
     "g56": "Catch a thrown ball to freeze that thrower for a 10-count.",
     "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
-  },
-  {
-    "name": "Bucket Ball",
-    "source": "",
-    "months": [
-      "January",
-      "March"
-    ],
-    "purpose": "Pass-only score: a teammate on a bench catches into a bucket. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "Playground or basketball, 2 hoops or mats, a bucket or crate, pinnies.",
-    "setup": "Two halves. Each team has a catcher in a hoop behind a bucket. Agree the freeze signal before the first round.",
-    "play": [
-      "The ball-carrier is frozen and must pass within 5 seconds.",
-      "No grabbing the ball from another player.",
-      "Score by a catch that then goes in the bucket. Rotate the catcher.",
-      "Balls come back along the side. Restart on a teacher call, not a scramble through the middle.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Walking. Teacher is the first catcher.",
-    "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
-    "g56": "Bonus point for extra passes before the score.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "target"
-  },
-  {
-    "name": "Card Sharks",
-    "source": "",
-    "months": [
-      "January",
-      "March"
-    ],
-    "purpose": "Underhand accuracy relay. Collect cards by hitting a hoop. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "Hoops, decks of cards, beanbags.",
-    "setup": "Relay teams behind a line. Cards and hoops scattered in the far space. Agree the freeze signal before the first round.",
-    "play": [
-      "First player runs out with a beanbag, stands by a card, and throws until the bag lands in a hoop.",
-      "They take that card and the bag home. Next player goes.",
-      "Play until cards are gone. Score by points or by pairs.",
-      "Balls come back along the side. Restart on a teacher call, not a scramble through the middle.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Short distance. Adult may bounce a missed bag back.",
-    "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
-    "g56": "Opposite-hand throws for a bonus card.",
-    "safety": "Throwing line is sacred. No rushing a thrower. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "FLY BACK",
@@ -1839,7 +1796,11 @@ window.GAME_DETAILS = [
     "g56": "Add a defender who may intercept in the air only.",
     "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Flying Saucers",
@@ -1863,7 +1824,11 @@ window.GAME_DETAILS = [
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
     "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Frisbee Flingers",
@@ -1887,53 +1852,11 @@ window.GAME_DETAILS = [
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
     "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
-  },
-  {
-    "name": "Guard the Cone",
-    "source": "",
-    "months": [
-      "January",
-      "March"
-    ],
-    "purpose": "Defend a target. Pass before a throw. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "One cone, one soccer or playground ball.",
-    "setup": "Three defenders hold hands around the cone. Attackers around them. Agree the freeze signal before the first round.",
-    "play": [
-      "Attackers pass, then throw to knock the cone.",
-      "Defenders block with their bodies without letting go. No kicking the cone.",
-      "Rotate defenders every minute.",
-      "Balls come back along the side. Restart on a teacher call, not a scramble through the middle.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
-    "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
-    "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "target"
-  },
-  {
-    "name": "Hockey pin knockdown",
-    "source": "",
-    "months": [
-      "November"
-    ],
-    "purpose": "One controlled shot after a dribble. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "Tunnel, pin, stick, hockey ball.",
-    "setup": "Tunnel to a pin. Agree the freeze signal before the first round.",
-    "play": [
-      "One shooter at a time. Next waits behind the home cone. Fetchers stay to the side of the pin.",
-      "Dribble the tunnel. One push at the pin. Dribble home.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "Play Hockey pin knockdown in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Kick the hockey ball if no sticks.",
-    "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
-    "g56": "Receive a partner pass before the shot.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Low-ball",
@@ -1957,7 +1880,11 @@ window.GAME_DETAILS = [
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
     "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Foam dodgeballs. Hits below the waist. A high ball is dead. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Overarm throw-and-catch",
@@ -1980,7 +1907,11 @@ window.GAME_DETAILS = [
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
     "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Poison Ball",
@@ -2004,7 +1935,11 @@ window.GAME_DETAILS = [
     "g56": "Timed 2-minute waves. Count how long a group stays in.",
     "safety": "No last-one-standing as the only version. Dodgeballs. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Protect the Castle",
@@ -2013,22 +1948,39 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Throw at a target while others defend by catching. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "Hoop, pins or cones, playground balls.",
-    "setup": "Castle in the middle. Attackers around. 3–4 defenders. Agree the freeze signal before the first round.",
+    "purpose": "Attackers knock the castle. Defenders block. Rotate before anyone lives in one job. Folded in: Daly Protect the House + SCA Protect the Castle / Guard the Cone / Protect the King.",
+    "equipment": "Pins or cones · soft balls · 2–4 defender bibs",
+    "setup": "Castle in the middle (pin, cone, or ‘king’ in a hoop). Defenders around it. Attackers behind a line with balls.",
     "play": [
-      "Attackers throw playground balls to knock pins.",
-      "Defenders catch or block with their hands, no shoving.",
-      "Rotate attackers and defenders every 2 minutes.",
-      "Balls come back along the side. Restart on a teacher call, not a scramble through the middle.",
-      "Freeze on the whistle. Reset spots, then the next round."
+      "On go, attackers throw or roll to knock the castle.",
+      "Defenders block with hands or body. They may not hold the target on.",
+      "Knockdown = 1. Reset.",
+      "Rotate defenders every 60–90 seconds."
     ],
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Below-waist throws at pins, not people.",
     "g56": "Two balls at once, still below waist.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [
+      "Throw at a face: that thrower sits one reset.",
+      "Defender holds the pin on: no block, reset.",
+      "Nobody can score: must roll, or add a second castle."
+    ],
+    "roundEnds": "Most knockdowns, or longest defender shut-out.",
+    "skins": [
+      "Noodle balanced on the cone (Daly house).",
+      "King in a hoop; two-pass before a shot.",
+      "Below-waist only.",
+      "Soccer or hockey ball on sport days.",
+      "Guard the Cone: one cone, same rotate."
+    ],
+    "aka": [
+      "Protect the House",
+      "Guard the Cone",
+      "Protect the King"
+    ]
   },
   {
     "name": "Punt to the line",
@@ -2051,31 +2003,11 @@ window.GAME_DETAILS = [
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
     "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
-  },
-  {
-    "name": "Robin’s Nest",
-    "source": "",
-    "months": [
-      "January",
-      "March"
-    ],
-    "purpose": "Foot-eye send. Collect three balls in your hoop. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "4 hoops, 12+ soccer or playground balls, 4 pinnies.",
-    "setup": "Four corner hoops (nests). Balls start in the middle. Four teams. Agree the freeze signal before the first round.",
-    "play": [
-      "On go, players send balls into their nest using feet only.",
-      "They may take from the middle or, in the later round, from another nest.",
-      "First nest to 3 (or play to a whistle and count).",
-      "Balls come back along the side. Restart on a teacher call, not a scramble through the middle.",
-      "Play Robin’s Nest in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Hands allowed to trap. Steal from the middle only.",
-    "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
-    "g56": "May steal from other nests. No guarding by standing in the hoop.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Skittle Ball",
@@ -2084,46 +2016,42 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Underhand accuracy at pins. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "Pins or cones, playground balls, a throwing line.",
-    "setup": "Pins at one end. Throwers behind a line. Agree the freeze signal before the first round.",
+    "purpose": "Knock a pin, then either count it or collect it. Folded in: Daly Knock the Pin / Build Your Tower + SCA Skittle Ball / Pin Knockover / Roll to hit the pin.",
+    "equipment": "Standing pins or cones · balls · a fetch line",
+    "setup": "Pins out. Throwers on a mark. One fetcher at a time.",
     "play": [
-      "Underhand throws at pins.",
-      "One fetcher at a time.",
-      "Reset and rotate.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "Play Skittle Ball in short rounds so more students get the key job, then freeze and reset."
+      "Underhand throw or roll at a pin.",
+      "Knockdown = 1 point, or collect that pin and stack it at your base.",
+      "Fetcher resets or delivers. Next thrower.",
+      "Continue until pins are gone or time ends."
     ],
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "target"
-  },
-  {
-    "name": "Skittles",
-    "source": "",
-    "months": [
-      "January",
-      "March"
+    "type": "target",
+    "ifThis": [
+      "Two pins from one ball: take both only if you have said so.",
+      "Human wall in front of every pin: send them back to the mark.",
+      "Tower collapses: rebuild from the fallen pins, no extra collect."
     ],
-    "purpose": "Underhand accuracy. Knock the other team’s cone-pins. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "Cones (skittles), playground balls, a marked safe zone.",
-    "setup": "Two teams. Each has a row of cones behind a throwing line. Agree the freeze signal before the first round.",
-    "play": [
-      "Players roll or throw playground balls to knock opponent cones. Do not throw at people.",
-      "A hit player sits a 10-count then re-enters (no true knock-out).",
-      "One fetcher at a time may enter the safe zone to gather balls.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "Play Skittles in short rounds so more students get the key job, then freeze and reset."
+    "roundEnds": "Most pins, tallest tower, or points in a time cap.",
+    "skins": [
+      "Run a small triangle before the throw (Daly Knock the Pin).",
+      "Kick the ball (Pin Galore).",
+      "Build a tower from collected cones.",
+      "Hockey pin knockdown on hockey days."
     ],
-    "g12": "Beanbags. Tag cones only, not people.",
-    "g34": "Below-waist throws at pins, not people.",
-    "g56": "Two-ball, still below the waist.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "target"
+    "aka": [
+      "Skittles",
+      "Knock the Pin",
+      "Build Your Tower",
+      "Pin Knockover",
+      "Pin Galore Soccer",
+      "Hockey pin knockdown",
+      "Roll to hit the pin"
+    ]
   },
   {
     "name": "Slide Sling Save",
@@ -2147,7 +2075,11 @@ window.GAME_DETAILS = [
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
     "safety": "Slides on the floor only. Hits at feet, not shins with force. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Survivor Dodgeball",
@@ -2171,7 +2103,11 @@ window.GAME_DETAILS = [
     "g56": "Timed sides. No last-one-standing.",
     "safety": "Dodgeballs. Below the waist. No head shots. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Team Bowling",
@@ -2180,21 +2116,37 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Bowl at your own line of pins. Fetch and go again. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "Many pins or cones, playground balls.",
-    "setup": "Two teams at centre. Pins along each end line. Agree the freeze signal before the first round.",
+    "purpose": "Land in the target. Add the points. Rotate. Folded in: Daly Rolling 21 / hoop bowling / Christmas Lights + SCA Team Bowling / Land the ball in the hoop / Chip into buckets.",
+    "equipment": "Hoops or pins with values · balls or bags · a throw line",
+    "setup": "Targets out. Agree values (any hoop = 1, or big = 3 and small = 7). Throw line marked.",
     "play": [
-      "Bowl toward your own end’s pins.",
-      "Fetch your ball and bowl again.",
-      "Count pins at the whistle, reset, play a second round.",
-      "Play Team Bowling in short rounds so more students get the key job, then freeze and reset."
+      "Take turns sending the ball.",
+      "Call the running total aloud.",
+      "Miss = 0. Next player."
     ],
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [
+      "Ball on the rim: teacher call.",
+      "Forgot the score: rewind to last agreed total."
+    ],
+    "roundEnds": "First team to the target score, or most in a time cap.",
+    "skins": [
+      "Exactly 21. Over 21 drops you to 15 (Rolling 21).",
+      "Slide the bag into cones to ‘turn lights on.’",
+      "Kick instead of throw."
+    ],
+    "aka": [
+      "Rolling 21",
+      "Hoop bowling",
+      "Christmas Lights",
+      "Land the ball in the hoop",
+      "Chip into buckets"
+    ]
   },
   {
     "name": "Tidy the Bedroom",
@@ -2203,22 +2155,37 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Underhand send to a hoop target. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "Beanbags or playground balls, hoops.",
-    "setup": "Hoops are drawers. Mess is scattered on the floor. Agree the freeze signal before the first round.",
+    "purpose": "Your half is tidy when the whistle goes. Folded in: Daly Tidy Up / Messy Rooms + SCA Tidy the Bedroom / Mr. Clean.",
+    "equipment": "Equal light objects · centre line · optional hoops",
+    "setup": "Centre line. Equal objects. Stay on your side.",
     "play": [
-      "Underhand throw objects into hoops.",
-      "Optional: one team tidies, one scatters with below-waist rolls.",
-      "Whistle and count tidy hoops.",
-      "Balls come back along the side. Restart on a teacher call, not a scramble through the middle.",
-      "Play Tidy the Bedroom in short rounds so more students get the key job, then freeze and reset."
+      "On go, send objects onto the other side or into tidy hoops.",
+      "Gentle throws. No crossing. No throwing at people.",
+      "Whistle after 60–90 seconds. Count what is left on your half."
     ],
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Step back after each fair throw.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "No overhand smash. Below the waist if scattering. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No overhand smash. Below the waist if scattering. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [
+      "Object at a person: that thrower sits the next bout.",
+      "Step over the line: that object comes back.",
+      "Two objects in two hands if you have said one: extra goes back."
+    ],
+    "roundEnds": "Fewer objects on your side wins.",
+    "skins": [
+      "Chase a moving bucket and put balls in one at a time (Daly Tidy Up).",
+      "One team tidies, one scatters.",
+      "Clothespins clipped onto backs (Mr. Clean)."
+    ],
+    "aka": [
+      "Tidy Up",
+      "Messy Rooms",
+      "Mr. Clean",
+      "Mr Clean"
+    ]
   },
   {
     "name": "Tunnel kick knockdown",
@@ -2241,7 +2208,11 @@ window.GAME_DETAILS = [
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
     "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "target"
+    "type": "target",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Aces",
@@ -2265,7 +2236,11 @@ window.GAME_DETAILS = [
     "g56": "Outdoor if you can. Bigger space is better.",
     "safety": "Soft tags. No grabbing cards out of a hand. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Barkball",
@@ -2288,54 +2263,11 @@ window.GAME_DETAILS = [
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
-  },
-  {
-    "name": "Beat Ball / Beat the Ball",
-    "source": "",
-    "months": [
-      "June"
-    ],
-    "purpose": "Hit or kick, then race the ball around the horn. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
-    "equipment": "Playground or t-ball, 4 bases.",
-    "setup": "Diamond. One batter at a time. Fielders at each base. Agree the freeze signal before the first round.",
-    "play": [
-      "Batter throws or kicks, then runs 1–2–3–home.",
-      "Fielders field and throw first–second–third–home.",
-      "If the runner beats the ball home, they score. If not, they rotate to the field.",
-      "Balls come back along the side. Restart on a teacher call, not a scramble through the middle.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Teacher is the thrower. Two bases.",
-    "g34": "Live send (kick, strike, or throw). Three chances, then a run so the line moves.",
-    "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
-    "safety": "Ball is thrown to the base, not at the runner. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "strike"
-  },
-  {
-    "name": "Bombardment",
-    "source": "",
-    "months": [
-      "June"
-    ],
-    "purpose": "Here’s a multi-skills game idea, lots of skills involved (mostly basketball skills practice but could be modified) – thanks Dan Kirsch! In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "variety",
-    "setup": "Two teams, each defending a half and a row of targets (pins, cones, or stacked items) near their end line. Agree the freeze signal before the first round.",
-    "play": [
-      "Scatter basketballs or foam balls at mid-court.",
-      "On the whistle, players dribble/pass (basketball skills) and throw or shoot to knock down the other team’s targets.",
-      "Score 1 point per target down, or capture the fallen target and add it to your side (pick one scoring rule).",
-      "No player-to-player contact. Defenders may block balls and gather rebounds.",
-      "Reset targets after a time cap or when one side is cleared. Modify to soccer-style (feet only) if you want.",
-      "Balls come back along the side. Restart on a teacher call, not a scramble through the middle."
-    ],
-    "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
-    "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
-    "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "target"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Castleball",
@@ -2343,23 +2275,41 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Castle Ball might be one of physedgames’ favourites! A must play! This target game adds a huge teamwork component as well as team strategy. It also ties in throwing, catching, blocking, building, and awareness. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
-    "equipment": "Dodgeballs, hula-hoops",
-    "setup": "Two teams, each must stay on its own half. Agree the freeze signal before the first round.",
+    "purpose": "Stay on your half. Knock the other team’s structures. Rebuild and keep playing. Folded in: Daly Star Wars / Shooting Pumpkins / Snowball Fight / Snowman Run + SCA Castleball / Bombardment / Battleball.",
+    "equipment": "Equal castles each side · soft balls",
+    "setup": "Equal castles each side. Balls on each half. Below-waist or structure-only throws.",
     "play": [
-      "Practice building a 6-hoop castle: 1 hoop base, 4 standing side hoops, 1 roof hoop.",
-      "Each team builds 2 castles toward the back of its area, then add foam dodgeballs.",
-      "On the signal, throw at the other team’s castles to topple them. 1 point per castle down.",
-      "When a castle falls, that team rebuilds while play continues. Play a set time.",
-      "Balls come back along the side. Restart on a teacher call, not a scramble through the middle.",
-      "Freeze on the whistle. Reset spots, then the next round."
+      "On go, throw at the other castles.",
+      "1 point per castle down. That team rebuilds while play continues.",
+      "Whistle. Count standing castles or points."
     ],
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Foam dodgeballs. Hits below the waist. A high ball is dead. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Foam dodgeballs. Hits below the waist. A high ball is dead. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "target"
+    "type": "strike",
+    "ifThis": [
+      "Throw at a person: no point, warning.",
+      "Cross the centre: that throw does not count.",
+      "All down in 10 seconds: play two bouts and add."
+    ],
+    "roundEnds": "Most standing castles, or most knockdowns.",
+    "skins": [
+      "Yoga ball only, push it onto the other bench (Star Wars).",
+      "Pumpkin cones on a centre bench; touch your wall before you throw.",
+      "Retrievers vs throwers with a present hoop (Snowball Fight).",
+      "Bombardment / Battleball: same halves, same rebuild."
+    ],
+    "aka": [
+      "Bombardment",
+      "Battleball",
+      "Star Wars",
+      "Shooting Pumpkins",
+      "Snowball Fight",
+      "Snowman Run",
+      "Castleball 2.0"
+    ]
   },
   {
     "name": "Catch & Step",
@@ -2382,7 +2332,11 @@ window.GAME_DETAILS = [
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Balloons stay in the pair’s square. Tie extra balloons so they are not mouthed. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Chuck the Chicken",
@@ -2406,7 +2360,11 @@ window.GAME_DETAILS = [
     "g56": "Two games of 4 teams if the class is large.",
     "safety": "No throwing at people. A beanbag substitute is fine. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25 closer",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Continuous Kick Ball",
@@ -2430,7 +2388,11 @@ window.GAME_DETAILS = [
     "g56": "Full diamond. Force at two bases.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Diamond Strike",
@@ -2454,7 +2416,11 @@ window.GAME_DETAILS = [
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
     "safety": "Bowl from the middle only. No throw at runners. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Hit and Run",
@@ -2477,7 +2443,11 @@ window.GAME_DETAILS = [
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Jailbreakers",
@@ -2501,7 +2471,11 @@ window.GAME_DETAILS = [
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
     "safety": "Throw to a hoop, not at the runner. Bat in a hoop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Kick It (mats)",
@@ -2524,7 +2498,11 @@ window.GAME_DETAILS = [
     "g56": "Runners may try a return run on the next kick.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Longball",
@@ -2547,7 +2525,11 @@ window.GAME_DETAILS = [
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Quick Baseball",
@@ -2570,31 +2552,11 @@ window.GAME_DETAILS = [
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
     "safety": "Bat in a hoop after the hit. T-ball or wiffle only. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
-  },
-  {
-    "name": "RPS Rounders",
-    "source": "",
-    "months": [
-      "June"
-    ],
-    "purpose": "Two runners meet, play rock-paper-scissors, winner keeps the ball toward the end zone. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
-    "equipment": "4 cones, 1 ball or beanbag.",
-    "setup": "A lane with four cones. Two teams at opposite ends. Agree the freeze signal before the first round.",
-    "play": [
-      "One player from each team runs in. The ball starts with one team.",
-      "They stop, put the ball down, and play RPS.",
-      "Winner takes the ball onward. Loser walks off; the next teammate comes out to intercept.",
-      "A score is a ball that reaches the far end. Play to 3.",
-      "Balls come back along the side. Restart on a teacher call, not a scramble through the middle.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Tee or a bounced toss. Run to one base or hoop and stay. Teacher fields the first few.",
-    "g34": "Live send (kick, strike, or throw). Three chances, then a run so the line moves.",
-    "g56": "Football-field version with more than two teams.",
-    "safety": "Stop before contact. No running around the person. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Shark Ball",
@@ -2619,7 +2581,11 @@ window.GAME_DETAILS = [
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Strikeball",
@@ -2643,7 +2609,11 @@ window.GAME_DETAILS = [
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
     "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Thunderball",
@@ -2666,54 +2636,58 @@ window.GAME_DETAILS = [
     "g56": "Live toss. Defence must pass once before they can stop it.",
     "safety": "Hitters wait behind a line. No full hard bats indoors — wiffle or t-ball only. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "strike"
+    "type": "strike",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
-    "name": "Around the Bases Relay",
-    "source": "",
-    "months": [
-      "June"
-    ],
-    "purpose": "Team running the diamond. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
-    "equipment": "4 bases or hoops.",
-    "setup": "Teams start at each base. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
-    "play": [
-      "On go, the first runner from each team runs the full diamond and tags the next.",
-      "Stay in a lane around the outside of the bases.",
-      "Sit when your team is finished.",
-      "High-five the next runner at home. First team sitting quietly after two rotations earns a cheer, then play a quality round.",
-      "Freeze on the whistle. Reset spots, then the next round."
-    ],
-    "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
-    "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
-    "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
-    "safety": "Pass on the outside. No cutting the diamond. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "relay"
-  },
-  {
-    "name": "Attention Relay",
+    "name": "Fetch Relay",
     "source": "",
     "months": [
       "December",
       "February"
     ],
-    "purpose": "Numbered files. Call a number; those runners loop their team. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
-    "equipment": "None.",
-    "setup": "Teams in files. Number students 1, 2, 3… from the front. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
+    "purpose": "One item per trip. Tag. Next person. Folded in: Daly Candy / Santa / Snowball / Cone Flipper / Three Course Meal / Cone Collector + SCA Attention Relay / Bucket Carry / Around the Bases.",
+    "equipment": "Item pile · home hoop or sack",
+    "setup": "Pile at the far end. Home hoop at the start. Show what ‘one item’ looks like.",
     "play": [
-      "One runner at a time. Next player starts behind the home cone and goes on a high-five — not a shout from halfway.",
-      "Call a number. Those students run around their own file and back to place.",
-      "Mix numbers. Later, call two numbers.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "Play Attention Relay in short rounds so more students get the key job, then freeze and reset."
+      "On go (and on a colour if you are using colours), first runner fetches one legal item, places it home, tags.",
+      "Wrong item goes back.",
+      "Continue until the pile is gone or time ends."
     ],
     "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
     "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
     "g56": "Add a skill on the loop (3 jumps, a skip).",
-    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "0–5 or 16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [
+      "Two items: extra goes back.",
+      "Sack or bucket left behind: return for it."
+    ],
+    "roundEnds": "Most correct items, or first team finished.",
+    "skins": [
+      "Teacher calls the colour after go (Candy).",
+      "Bib-sack must travel (Santa).",
+      "Roll the ball around a slalom cone (Snowball).",
+      "Flip three cones, three tries each (Cone Flipper).",
+      "Move one ‘course’ one hoop forward (Three Course Meal).",
+      "Cone balanced on one foot home (Cone Collector).",
+      "Around the Bases: one item is a touch of each base.",
+      "Bucket Carry: the bucket must travel with the item."
+    ],
+    "aka": [
+      "Attention Relay",
+      "Bucket Carry",
+      "Around the Bases Relay",
+      "Candy Relay",
+      "Santa Relay",
+      "Cone Flipper",
+      "Three Course Meal",
+      "Cone Collector"
+    ]
   },
   {
     "name": "Circle run relay",
@@ -2736,7 +2710,11 @@ window.GAME_DETAILS = [
     "g56": "Choose a pace they can keep.",
     "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Cone Relay",
@@ -2760,7 +2738,11 @@ window.GAME_DETAILS = [
     "g56": "Students write the next order.",
     "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Crab-bear walk relay",
@@ -2784,7 +2766,11 @@ window.GAME_DETAILS = [
     "g56": "Switch which animal goes first.",
     "safety": "Hips stay off the floor on the crab. Stop if wrists hurt. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Dash and Dribble",
@@ -2808,7 +2794,11 @@ window.GAME_DETAILS = [
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
     "safety": "Eyes up at the turn. No long lines — more teams. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Dribble the gates",
@@ -2831,7 +2821,11 @@ window.GAME_DETAILS = [
     "g56": "Jog; switch hands at the turn.",
     "safety": "Dribble below the waist. Head up. Real basketballs. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Hockey hurdle dribble",
@@ -2855,7 +2849,11 @@ window.GAME_DETAILS = [
     "g56": "Two-touch through each gate.",
     "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Hoop underhand relay",
@@ -2877,29 +2875,11 @@ window.GAME_DETAILS = [
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
     "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
-  },
-  {
-    "name": "Hop-the-hoops relay",
-    "source": "",
-    "months": [
-      "February"
-    ],
-    "purpose": "One-foot hop with a planned landing. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
-    "equipment": "6 hoops per team.",
-    "setup": "Hoops almost touching in a line. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
-    "play": [
-      "One runner at a time. Next player starts behind the home cone and goes on a high-five — not a shout from halfway.",
-      "Hop on the right foot to the end. Hop on the left foot home.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "Play Hop-the-hoops relay in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
-    "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
-    "g56": "Two-foot jump out, hop back.",
-    "safety": "Quiet land. No pushing a hoop into the next jumper. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Hungry Snake",
@@ -2923,7 +2903,11 @@ window.GAME_DETAILS = [
     "g56": "Travel the whole gym. No talking round.",
     "safety": "No running while linked in a long chain. Break at 6 if it whips. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Ice Cream Cone Relays",
@@ -2948,55 +2932,51 @@ window.GAME_DETAILS = [
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
     "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
-    "name": "Jungle Run Relays",
+    "name": "Jungle Relay",
     "source": "",
     "months": [
       "December",
       "February"
     ],
-    "purpose": "Relay with a hoop, a jump, and a cone. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
-    "equipment": "Cones, hoops, optional hurdles (low).",
-    "setup": "A short obstacle path per team. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
+    "purpose": "Each runner uses a real animal movement. Disguised sprinting does not count. Folded in: Daly Jungle Relay / Animal Crawl / Turtle Race / Rabbit Hole + SCA Animals / Jungle Run Relays / Bridges & Rivers.",
+    "equipment": "Turn cone 8–15 m away · optional bag or cone for the back",
+    "setup": "Show 6 legal animals. Separate lanes. Cone 8–15 m away.",
     "play": [
-      "One runner at a time. Next player starts behind the home cone and goes on a high-five — not a shout from halfway.",
-      "Run the path, return, hand off.",
-      "Next runner waits for the touch.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "Play Jungle Run Relays in short rounds so more students get the key job, then freeze and reset."
+      "First player animal-moves to the cone and back, tags.",
+      "Next player must pick a different animal unless you have allowed repeats.",
+      "Whole team goes."
     ],
     "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
     "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
-    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "relay"
-  },
-  {
-    "name": "Memory Relay",
-    "source": "",
-    "months": [
-      "December",
-      "February"
+    "type": "relay",
+    "ifThis": [
+      "Disguised sprint: send them back to do the animal.",
+      "Bag or cone falls off the back: replace and continue from there."
     ],
-    "purpose": "Peek at a hidden card pattern, then rebuild it at home. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
-    "equipment": "Playing cards, a cone wall or stacked hoops as a screen.",
-    "setup": "Teacher builds a small card pattern behind the screen. Each team has a matching set at home. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
-    "play": [
-      "One runner at a time peeks, sprints home, and places what they remember.",
-      "The next runner peeks and adds or corrects.",
-      "First team to match the pattern, or play to a time and check.",
-      "High-five the next runner at home. First team sitting quietly after two rotations earns a cheer, then play a quality round.",
-      "Freeze on the whistle. Reset spots, then the next round."
+    "roundEnds": "First team home, or fewest drops.",
+    "skins": [
+      "Cone on the mid-back (Turtle).",
+      "Crawl under a hoop-on-cones (Rabbit Hole).",
+      "Class as tunnels and bridges, other half travels.",
+      "Animals: pick from a posted list."
     ],
-    "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
-    "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
-    "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
-    "safety": "One peeker at a time. Walk around the screen. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "relay"
+    "aka": [
+      "Jungle Run Relays",
+      "Animals",
+      "Animal Crawl",
+      "Turtle Race",
+      "Rabbit Hole"
+    ]
   },
   {
     "name": "Pip, Squeak and Wilbur",
@@ -3020,7 +3000,11 @@ window.GAME_DETAILS = [
     "g56": "Add a letter to collect and spell a class word.",
     "safety": "Run outside the circle. Arch is arms, not a trip-line. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Plant the Trees",
@@ -3043,7 +3027,11 @@ window.GAME_DETAILS = [
     "g56": "Plant in a pattern (triangle, line).",
     "safety": "No throwing trees. More teams, shorter lines. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Rescue Relay",
@@ -3067,7 +3055,11 @@ window.GAME_DETAILS = [
     "g56": "Silent rescue or weak-hand hold.",
     "safety": "Hands only, no pulling a teammate off their feet. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Soccer weave relay",
@@ -3089,7 +3081,11 @@ window.GAME_DETAILS = [
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
     "safety": "Balls stay on the floor. No slide tackles. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Speed Run Relay",
@@ -3113,52 +3109,90 @@ window.GAME_DETAILS = [
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
     "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
-    "name": "Throw-clap-catch relay",
+    "name": "Throw-Clap-Catch",
     "source": "",
     "months": [
       "May",
       "June"
     ],
-    "purpose": "Eyes on the ball after a toss. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
-    "equipment": "3 cones, hoop, soccer or beanbag.",
-    "setup": "Cones on the way to a hoop. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
+    "purpose": "Clap first, then catch. A fake that draws a clap is a miss. Folded in: Daly Bounce and Clap / Catch Clap + SCA Throw-clap-catch relay.",
+    "equipment": "1 ball per circle or pair",
+    "setup": "Show the three fail states: clap on a fake, drop, catch with no clap.",
     "play": [
-      "One runner at a time. Next player starts behind the home cone and goes on a high-five — not a shout from halfway.",
-      "At each cone: toss, clap, catch. At the hoop: one high toss and catch. Home.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "Play Throw-clap-catch relay in short rounds so more students get the key job, then freeze and reset."
+      "Throw or bounce to a player.",
+      "They clap once, then catch.",
+      "Miss = short task (5 marches) and they stay in. Next player.",
+      "Relay version: clap-catch, then pass down the lane."
     ],
     "g12": "No clap — toss and catch only.",
     "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
-    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [
+      "Uncatchable throw: replay, no miss.",
+      "Whole class claps on a fake: laugh, reset, no mass out."
+    ],
+    "roundEnds": "Personal clean catches, or first pair through the relay.",
+    "skins": [
+      "Teacher in the middle of a circle.",
+      "Pair relay down the gym."
+    ],
+    "aka": [
+      "Throw-clap-catch relay",
+      "Bounce and Clap",
+      "Catch Clap"
+    ]
   },
   {
-    "name": "Toe-tap hoop relay",
+    "name": "Hoop Relay",
     "source": "",
     "months": [
       "February"
     ],
-    "purpose": "Dribble plus a still foot-skill. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
-    "equipment": "Cones, hoop, soccer ball.",
-    "setup": "Weave to a hoop. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
+    "purpose": "Advance hoop to hoop with the agreed action. Next runner waits for the signal. Folded in: Daly Rabbit Relay / Hula Stick / Hula Balance / Caterpillar Relay / Side to Side + SCA Toe-tap hoop relay / Circle Hoop.",
+    "equipment": "Lane of hoops · optional ball, stick, or shared hoop",
+    "setup": "Hoops in a lane. Show the action once (jump in, pass then jump, stick-push, shared carry, step through).",
     "play": [
-      "One runner at a time. Next player starts behind the home cone and goes on a high-five — not a shout from halfway.",
-      "Weave to the hoop. Ten toe-taps, switching feet. Dribble home.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "Play Toe-tap hoop relay in short rounds so more students get the key job, then freeze and reset."
+      "Complete the action in hoop 1, then hoop 2, and so on.",
+      "Drop or miss = redo that hoop.",
+      "Sit or high-five at the end to release the next runner."
     ],
     "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
     "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
-    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [
+      "Early start: back to hoop 1.",
+      "Hands on a no-hands carry: restart that pair."
+    ],
+    "roundEnds": "First team with everyone through.",
+    "skins": [
+      "Bag must stay in the hoop before you jump in.",
+      "Hoop pinched between two stomachs, drop it over a cone.",
+      "Growing caterpillar steps through after each out-and-back.",
+      "Circle Hoop Pass: pass the hoop down a line without breaking hands.",
+      "Hop-the-hoops: two-foot jumps only."
+    ],
+    "aka": [
+      "Toe-tap hoop relay",
+      "Circle Hoop Pass",
+      "Circle Hoop",
+      "Hop-the-hoops relay",
+      "Rabbit Relay",
+      "Hula Stick",
+      "Caterpillar Relay"
+    ]
   },
   {
     "name": "Wall chest-pass relay",
@@ -3180,7 +3214,11 @@ window.GAME_DETAILS = [
     "g56": "One bounce-pass in the three.",
     "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Zig-zag touch relay",
@@ -3203,7 +3241,11 @@ window.GAME_DETAILS = [
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
     "safety": "Pass on the right. No diving at the hoop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "relay"
+    "type": "relay",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Back to Base",
@@ -3226,7 +3268,11 @@ window.GAME_DETAILS = [
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5 closer",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Buffalo",
@@ -3250,31 +3296,11 @@ window.GAME_DETAILS = [
     "g56": "Talk about race pace vs sprint on the long loop.",
     "safety": "Pass on the outside. No racing through a sitting pair. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "loco"
-  },
-  {
-    "name": "Captain’s Deck / Shipwreck",
-    "source": "",
-    "months": [
-      "September",
-      "December"
-    ],
-    "purpose": "Listen under movement. Change locomotor skills on a command. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
-    "equipment": "None. Optional drum.",
-    "setup": "Name the four walls: bow, stern, port, starboard. Practise each once. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Call commands: bow, stern, port, starboard, hit the deck, attention, scrub the deck.",
-      "Students move to the place or do the action.",
-      "No elimination. A late group does 5 jumping jacks and stays in.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "If you miss a signal, skip the next one and rejoin — no extra laps as punishment."
-    ],
-    "g12": "Three commands only at first.",
-    "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
-    "g56": "Students take turns as captain.",
-    "safety": "No pushing to a wall. Last one there is still in. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "0–5 or 16–25",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Crazy Beans",
@@ -3298,7 +3324,11 @@ window.GAME_DETAILS = [
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Dash for Safety",
@@ -3322,7 +3352,11 @@ window.GAME_DETAILS = [
     "g56": "Dribble a sport ball to the colour.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5 or 16–25",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Daytime / Nighttime",
@@ -3346,7 +3380,11 @@ window.GAME_DETAILS = [
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Elements Sprint",
@@ -3370,7 +3408,11 @@ window.GAME_DETAILS = [
     "g56": "Add “air” as the centre freeze.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "European Rhythmic Running",
@@ -3393,55 +3435,47 @@ window.GAME_DETAILS = [
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. Floor rope or tape only — no benches. One walker on a line. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5 or 16–25",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
-    "name": "Follow the Leader",
+    "name": "Four Corners",
     "source": "",
     "months": [
       "September",
       "December"
     ],
-    "purpose": "Copy a locomotor or shape in a small line. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
-    "equipment": "Optional drum.",
-    "setup": "Lines of 4. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
+    "purpose": "Get to a corner on the call. Everyone stays in the game. Folded in: Daly Four Corners + SCA Four Corners Stay-In.",
+    "equipment": "Four labelled corners (numbers or colours)",
+    "setup": "Label 1–4 or by colour. Pupils start centre.",
     "play": [
-      "Spread out so you cannot touch a neighbour with an arm stretched. First command is a walk.",
-      "Leader travels or holds a shape.",
-      "Switch leader every 20 seconds.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "If you miss a signal, skip the next one and rejoin — no extra laps as punishment."
-    ],
-    "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
-    "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
-    "g56": "Must include a level change.",
-    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "0–5",
-    "type": "loco"
-  },
-  {
-    "name": "Four Corners Stay-In",
-    "source": "",
-    "months": [
-      "September",
-      "December"
-    ],
-    "purpose": "Choose a space. A called corner stays in the game. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
-    "equipment": "Four numbered corners.",
-    "setup": "One caller faces the wall and counts from 10. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Students walk to a corner before the count ends.",
-      "Caller names a number. That corner does 8 jumping jacks or a named stretch, then everyone plays again.",
-      "New caller each round.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "If you miss a signal, skip the next one and rejoin — no extra laps as punishment."
+      "Call a travel style and a corner: ‘Skip to blue.’",
+      "Everyone travels. The named corner (or last arrivals, your choice) does 5–8 jumping jacks or a stretch.",
+      "Back to centre. New call."
     ],
     "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "No diving at a corner. First two feet on the spot keep it. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No diving at a corner. First two feet on the spot keep it. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [
+      "Sliding into corners: send them back to travel again.",
+      "Two corners called: they must choose one.",
+      "Use the last call to line up."
+    ],
+    "roundEnds": "3–6 minutes, then into the main game.",
+    "skins": [
+      "Numbers.",
+      "Colours.",
+      "Maths: even corners only."
+    ],
+    "aka": [
+      "Four Corners Stay-In"
+    ]
   },
   {
     "name": "Group Numbers",
@@ -3465,7 +3499,11 @@ window.GAME_DETAILS = [
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Here, There, Everywhere",
@@ -3489,7 +3527,11 @@ window.GAME_DETAILS = [
     "g56": "Students take the pointer role.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Human Bop-It",
@@ -3513,7 +3555,11 @@ window.GAME_DETAILS = [
     "g56": "Syncopated calls. Student DJs.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Land and Sea",
@@ -3537,31 +3583,11 @@ window.GAME_DETAILS = [
     "g56": "Student callers. Fake calls.",
     "safety": "Two-foot landings. Space along the line. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5",
-    "type": "loco"
-  },
-  {
-    "name": "Laps and Lines / Signals",
-    "source": "",
-    "months": [
-      "September",
-      "December"
-    ],
-    "purpose": "Instant activity. Change locomotor skill or level on a whistle. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
-    "equipment": "Whistle or drum.",
-    "setup": "Show the gym lines and the general-space rule (eyes up, no collisions). Agree the freeze signal before the first round.",
-    "play": [
-      "Spread out so you cannot touch a neighbour with an arm stretched. First command is a walk.",
-      "Students move. On each whistle, change direction, level, or locomotor (walk, skip, gallop, slide).",
-      "Optional: a 5-second stretch on a freeze.",
-      "If you miss a signal, skip the next one and rejoin — no extra laps as punishment.",
-      "Play Laps and Lines / Signals in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
-    "g34": "Add levels and animal walks.",
-    "g56": "Students invent the next signal.",
-    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "0–5 daily instant activity",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Rikki Tikki",
@@ -3585,7 +3611,11 @@ window.GAME_DETAILS = [
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Rubber Band",
@@ -3609,31 +3639,11 @@ window.GAME_DETAILS = [
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
     "safety": "Eyes up on the return. Leave a gap at the circle. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5",
-    "type": "loco"
-  },
-  {
-    "name": "Signals / shapes",
-    "source": "",
-    "months": [
-      "September",
-      "December"
-    ],
-    "purpose": "Whistle changes level or gymnastic shape. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
-    "equipment": "Whistle or drum. Mats if rolling later.",
-    "setup": "Teach tuck, pike, straddle, stretch. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Spread out so you cannot touch a neighbour with an arm stretched. First command is a walk.",
-      "Travel. On the whistle, freeze in the named shape for 3 seconds.",
-      "Change level: high, medium, low.",
-      "If you miss a signal, skip the next one and rejoin — no extra laps as punishment.",
-      "Play Signals / shapes in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
-    "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
-    "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "Still shapes. No neck-loading inversions. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "0–5",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Silly Bananas",
@@ -3642,22 +3652,29 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Imaginative travel and a freeze. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
-    "equipment": "None.",
-    "setup": "Scatter. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
+    "purpose": "Travel the fruit or animal that was called. ‘Peel’ means freeze in a shape. Folded in: SCA Silly Bananas only. Daly’s one-foot tag is Unmask Tag under Frozen Tag.",
+    "equipment": "None",
+    "setup": "Teach three travel words and ‘Peel’ before you speed up.",
     "play": [
-      "Spread out so you cannot touch a neighbour with an arm stretched. First command is a walk.",
-      "Call a fruit or animal. Students travel that way.",
+      "First command is a walk.",
+      "Call a fruit or animal. Class travels that way.",
       "‘Peel’ = freeze in a shape.",
-      "If you miss a signal, skip the next one and rejoin — no extra laps as punishment.",
-      "Play Silly Bananas in short rounds so more students get the key job, then freeze and reset."
+      "Miss a signal: skip the next one and rejoin."
     ],
     "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "0–5",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [
+      "Do not add a one-foot unmask rule under this name. That is Frozen Tag, skin Unmask Tag."
+    ],
+    "roundEnds": "3–5 minutes as a warm-up or brain break.",
+    "skins": [
+      "None from Daly. Keep this card as the fruit/animal travel game only."
+    ],
+    "aka": []
   },
   {
     "name": "Simon Says Stay-In",
@@ -3681,7 +3698,11 @@ window.GAME_DETAILS = [
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
     "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Video Game",
@@ -3705,7 +3726,11 @@ window.GAME_DETAILS = [
     "g56": "Student narrators stack two cues.",
     "safety": "Fast-forward is quick feet, not a sprint into people. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Volcanoes and Ice-Cream Cones",
@@ -3714,22 +3739,34 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Continuous movement and a simple team task. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
-    "equipment": "15+ cones.",
-    "setup": "Scatter cones. Some stand (volcanoes), some sit upside-down (ice-cream). Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
+    "purpose": "Flip every cone to your shape before the whistle. Folded in: Daly Jack-O’-Lantern + SCA Volcanoes and Ice-Cream Cones.",
+    "equipment": "Many scattered cones",
+    "setup": "Scatter cones mixed upright (ice-cream / volcano up) and upside down. Team Up vs Team Down. No guarding a cone with your body.",
     "play": [
-      "One team flips cones up. The other flips them down.",
-      "No guarding a cone.",
-      "Whistle: hands on heads. Count each shape.",
-      "Switch teams and play again.",
-      "If you miss a signal, skip the next one and rejoin — no extra laps as punishment."
+      "On go, flip cones to your state. Hands only.",
+      "Whistle. Hands on heads. Count each shape.",
+      "Switch jobs and play again."
     ],
     "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "0–5 or 16–25",
-    "type": "loco"
+    "type": "loco",
+    "ifThis": [
+      "Kicked cone: put it back as it was.",
+      "Held so the other team cannot touch it: let go.",
+      "Count dispute: teacher counts."
+    ],
+    "roundEnds": "Most cones in your state after 45–90 seconds.",
+    "skins": [
+      "Halloween: Team Light vs Team Dim (Jack-O’-Lantern).",
+      "Progression: ball on top vs ball underneath."
+    ],
+    "aka": [
+      "Jack-O’-Lantern",
+      "Jack-O-Lantern"
+    ]
   },
   {
     "name": "Balloon Keep-Up",
@@ -3739,22 +3776,37 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Toss-catch and timing. Circus lead-up. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
-    "equipment": "Balloons or a beach ball.",
-    "setup": "Small groups or one class balloon. Agree the freeze signal before the first round.",
+    "purpose": "Keep one balloon up. Count hits. A drop restarts the count, not the person. Folded in: Daly Balloon Keep-Ups + SCA Balloon Keep-Up.",
+    "equipment": "One inflated balloon per circle · optional noodles or rulers",
+    "setup": "Circles with arm’s-length space. One inflated balloon each.",
     "play": [
-      "Name the shared goal out loud so the class is not chasing a winner.",
-      "Keep it up. Count hits.",
-      "A drop restarts the count, not the person.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "Play Balloon Keep-Up in short rounds so more students get the key job, then freeze and reset."
+      "Name the shared goal out loud — you are not chasing a winner between circles unless you say so.",
+      "Toss the balloon in. Soft taps only.",
+      "Count hits aloud. Floor = restart that circle’s count.",
+      "Play 3–6 minutes."
     ],
     "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Class record. Weak hand only.",
-    "safety": "No heading hard balls. Latex allergy: use a beach ball. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No heading hard balls. Latex allergy: use a beach ball. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [
+      "Hard swat: sit one restart, then rejoin.",
+      "Sticks clash: widen the circle.",
+      "Balloon leaves the circle: retrieve and restart that count."
+    ],
+    "roundEnds": "Highest consecutive count, or first circle to 20.",
+    "skins": [
+      "Hands only.",
+      "Noodle/ruler only.",
+      "Second balloon.",
+      "Seated chairs."
+    ],
+    "aka": [
+      "Balloon Keep-Ups",
+      "Balloon Keep-Up station"
+    ]
   },
   {
     "name": "Birthday Lineup",
@@ -3778,31 +3830,11 @@ window.GAME_DETAILS = [
     "g56": "Add a silent ‘same week’ huddle.",
     "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "coop"
-  },
-  {
-    "name": "Bucket Carry",
-    "source": "",
-    "months": [
-      "December",
-      "October"
-    ],
-    "purpose": "Lift together. No one person owns the bucket. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
-    "equipment": "Hoop, 4–6 beanbags, or a light bucket. Optional strings on a hoop.",
-    "setup": "Start hoop and a far hoop. Agree the freeze signal before the first round.",
-    "play": [
-      "Team holds the hoop rim (or strings) and walks the bags to the far hoop.",
-      "If a bag drops, freeze, reload, and keep going.",
-      "Every hand stays on the hoop.",
-      "A drop or a tangle is a restart from the last good shape, not a loss.",
-      "Play Bucket Carry in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
-    "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
-    "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Caterpillar Walk",
@@ -3826,80 +3858,51 @@ window.GAME_DETAILS = [
     "g56": "Add a hoop the line must step through.",
     "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
-    "name": "Circle Hoop Pass",
+    "name": "Wall Rally",
     "source": "",
     "months": [
-      "February",
       "December",
       "October"
     ],
-    "purpose": "Move a hoop around a held-hands circle. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
-    "equipment": "1–2 hoops.",
-    "setup": "Class circle, hands joined. Slip a hoop onto one arm first. Agree the freeze signal before the first round.",
+    "purpose": "Keep a legal rally going. One bounce. Point on a miss. Folded in: Daly Hand Tennis / Floorball + SCA Wall-ball rally / Rally over a rope / Keep your ball in the square / Gaga.",
+    "equipment": "1 soft ball · wall, rope, or taped square",
+    "setup": "Small court. Underhand serve. Soft hands or a low racket.",
     "play": [
-      "Step, duck, or wiggle the hoop along without letting go.",
-      "If the chain breaks, freeze, rejoin, and keep going.",
-      "Add a second hoop the other way when the first hoop is halfway.",
-      "A drop or a tangle is a restart from the last good shape, not a loss.",
-      "Play Circle Hoop Pass in short rounds so more students get the key job, then freeze and reset."
+      "Serve so it lands on the other side or on the wall legally.",
+      "Return after one bounce.",
+      "More than one bounce, out, or a high racket = point. Winner serves."
     ],
     "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "No yanking arms. A student may leave the circle. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "coop"
-  },
-  {
-    "name": "Cooperative Wall Ball",
-    "source": "",
-    "months": [
-      "December",
-      "October"
+    "type": "coop",
+    "ifThis": [
+      "Fist smash: redo as an open-hand hit.",
+      "Ball lifted in floorball: dead ball, restart."
     ],
-    "purpose": "Here’s a fun teamwork game. It’s very easy to play, and it’s great to use to for a fun cooperative experience. There are actually 3 ways to play, each with a varying level of difficulty. Start by asking your players to e. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
-    "equipment": "ball, exercise ball",
-    "setup": "Ask the class what cooperation looks like and sounds like. Agree the freeze signal before the first round.",
-    "play": [
-      "Level 1: Keep a playground ball going against a wall for a target number of hits. Drop = restart the count together.",
-      "Level 2: Same task, but no player may touch the ball twice in a row.",
-      "Level 3: Switch to a large exercise ball that the group must control off the wall together.",
-      "Time attempts. Celebrate the group streak, not star players. Split a huge class into wall groups.",
-      "Freeze on the whistle. Reset spots, then the next round."
+    "roundEnds": "First to 7, or highest score at time.",
+    "skins": [
+      "Bench as a net.",
+      "Mini goals (Floorball).",
+      "Taped gaga pit, hits below the waist.",
+      "Cooperative wall ball: count consecutive hits, drop restarts the count."
     ],
-    "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
-    "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
-    "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "coop"
-  },
-  {
-    "name": "Cross the River",
-    "source": "",
-    "months": [
-      "December",
-      "October"
-    ],
-    "purpose": "Share three hoops or spots to cross the gym. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
-    "equipment": "3 hoops or poly spots per team of 6–8.",
-    "setup": "Start line and far ‘bank.’. Agree the freeze signal before the first round.",
-    "play": [
-      "Nobody may step on the floor. Only on a hoop or spot.",
-      "The last person picks up the back hoop and passes it forward.",
-      "If a foot touches the floor, the team takes two steps back and resets that hoop.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "A drop or a tangle is a restart from the last good shape, not a loss."
-    ],
-    "g12": "Four hoops. Teacher may hold one.",
-    "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
-    "g56": "Three hoops and a silent crossing.",
-    "safety": "No stacking people on one hoop. Floor only — no benches. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "coop"
+    "aka": [
+      "Cooperative Wall Ball",
+      "Hand Tennis",
+      "Floorball",
+      "Wall-ball rally",
+      "Gaga"
+    ]
   },
   {
     "name": "Elves, Giants, Wizards",
@@ -3923,32 +3926,11 @@ window.GAME_DETAILS = [
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
     "safety": "Soft tag. Stop at the safe line. (Use this standard PE version — not a throwing game.). No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "coop"
-  },
-  {
-    "name": "Helicopter / Snake rope",
-    "source": "",
-    "months": [
-      "February",
-      "December",
-      "October"
-    ],
-    "purpose": "Jump or step a long rope that travels along the floor. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
-    "equipment": "One long rope.",
-    "setup": "Two students sit and swing a rope in a low circle (helicopter) or wiggle it as a snake. Agree the freeze signal before the first round.",
-    "play": [
-      "Others jump or step over as it passes.",
-      "Rotate turners every 45 seconds.",
-      "Snake: the rope travels the floor; jump it as it comes.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "A drop or a tangle is a restart from the last good shape, not a loss."
-    ],
-    "g12": "Walk the snake. Very low helicopter.",
-    "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
-    "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Rope stays low. Never at head height. Ropes never thrown at people. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Human Knot",
@@ -3972,7 +3954,11 @@ window.GAME_DETAILS = [
     "g56": "Groups of 8. Time a second try.",
     "safety": "No lifts. Stop if a wrist or neck is twisted. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Invent-a-game",
@@ -3996,7 +3982,11 @@ window.GAME_DETAILS = [
     "g56": "Add an equipment rule and a referee.",
     "safety": "Teacher vetoes any elimination or hard-throw rule. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Object Toss mixer",
@@ -4020,7 +4010,11 @@ window.GAME_DETAILS = [
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
     "safety": "Toss to a window above the head, not at faces. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Parachute popcorn / dome / cat-and-mouse",
@@ -4045,31 +4039,52 @@ window.GAME_DETAILS = [
     "g56": "Students count the lift. Pop to a target hoop.",
     "safety": "Shoulders down. No wrapping anyone. One cat, one mouse. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
-    "name": "Pass It On",
+    "name": "Copy Chain",
     "source": "",
     "months": [
       "December",
       "October"
     ],
-    "purpose": "This team-building game is great for any physical education class. Players will work together to pass objects to each other to be the first team to successfully move all objects from one end to the other. There’s a catch. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
-    "equipment": "Hula hoops, various items",
-    "setup": "Teams lie on their backs in a line from one end of the gym toward the other. Agree the freeze signal before the first round.",
+    "purpose": "Copy what you saw, then add one move. A mix-up restarts the phrase. Folded in: Daly Dance Whispers / Dance Chain / Dance Tag + SCA Pass It On / Mirror Mirror / Follow the Leader.",
+    "equipment": "Optional music",
+    "setup": "Agree: mix-up restarts, nobody sits the period. Keep phrases to 4–8 counts.",
     "play": [
-      "Objects start at one end. Players may pass ONLY with their feet — no hands.",
-      "Move every object down the line into a hoop or pile at the far end.",
-      "First team to move all objects wins. If an item touches a hand or the floor off-plan, restart that item.",
-      "Great team-builder; mix item sizes to change difficulty.",
-      "Freeze on the whistle. Reset spots, then the next round."
+      "Person 1 shows one move.",
+      "Person 2 copies it and adds one. Continue.",
+      "If the order is lost, restart from that person. Celebrate mutations."
     ],
     "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [
+      "Phrase becomes a 30-second routine: cut it down.",
+      "Someone shouts the moves ahead: start again silently."
+    ],
+    "roundEnds": "Longest clean chain, or likeness score out of 5 if you passed it as a whisper.",
+    "skins": [
+      "Whisper down a line, last person performs.",
+      "Mirror Mirror: freeze in a pose, partner matches.",
+      "Dance Tag: start a clear dance before the tag to be safe.",
+      "Follow the Leader: one leader, class copies, swap often."
+    ],
+    "aka": [
+      "Pass It On",
+      "Mirror Mirror",
+      "Follow the Leader",
+      "Dance Whispers",
+      "Dance Chain",
+      "Dance Tag"
+    ]
   },
   {
     "name": "Pulse Race",
@@ -4078,46 +4093,36 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Quiet teamwork. A squeeze is the signal. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
-    "equipment": "A coin or coloured card, one ball.",
-    "setup": "Two sitting lines, holding hands, facing away from the teacher. Agree the freeze signal before the first round.",
+    "purpose": "A legal pulse beats a guessed grab. Honesty is the skill. Folded in: Daly Pulse + SCA Pulse Race.",
+    "equipment": "Coin or colour card · one grab-object per line",
+    "setup": "Sit or kneel in files, hands touching the next person. Object beyond the last player. First players face you.",
     "play": [
-      "Teacher shows heads/tails or a colour only the first players can see.",
-      "On ‘yes,’ the first player squeezes. The pulse travels. The last player grabs the ball.",
-      "False start: stand, sit, and try again. Nobody is out.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "A drop or a tangle is a restart from the last good shape, not a loss."
+      "Show heads/tails or a colour only the front players can see.",
+      "Tails / wrong colour: nobody moves. A squeeze here is a false start.",
+      "Heads / right colour: front player squeezes. The pulse travels. Last player grabs.",
+      "Fastest legal grab wins the round. Reset hands and the object."
     ],
     "g12": "Teacher stands where the line can see a thumbs-up.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "coop"
-  },
-  {
-    "name": "Sharks and Dolphins (chute)",
-    "source": "",
-    "months": [
-      "December",
-      "October"
+    "type": "coop",
+    "ifThis": [
+      "Squeeze on tails: that line cannot score the round.",
+      "Pulse dies mid-line: no grab, replay.",
+      "Last player peeks and grabs early: same as a false start."
     ],
-    "purpose": "Same island idea, but the parachute shrinks instead of removing hoops. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
-    "equipment": "Parachute or large sheet.",
-    "setup": "Class holds the chute. One or two sharks wait off the chute. Agree the freeze signal before the first round.",
-    "play": [
-      "On “Swim,” students may travel under or around.",
-      "On “Shark attack,” they must get a hand back on the chute.",
-      "Fold the chute smaller each round.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "A drop or a tangle is a restart from the last good shape, not a loss."
+    "roundEnds": "First line to 5 legal grabs, or play 4–6 rounds.",
+    "skins": [
+      "Classroom sit-down.",
+      "Standing gym lines.",
+      "Hockey day: sticks parked, pulse with hands only."
     ],
-    "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
-    "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
-    "g56": "Three-mouse version: named colours change places under a dome.",
-    "safety": "Heads up when running under. No wrapping the chute around a person. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "coop"
+    "aka": [
+      "Pulse",
+      "Daly Pulse"
+    ]
   },
   {
     "name": "Slippery Snakes",
@@ -4141,32 +4146,11 @@ window.GAME_DETAILS = [
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
     "safety": "Rope stays on the floor. Never at head height. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "coop"
-  },
-  {
-    "name": "The Great Outdoor Treasure Hunt",
-    "source": "",
-    "months": [
-      "December",
-      "October"
-    ],
-    "purpose": "What better way to use outdoor space than a scavenger hunt!? In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
-    "equipment": "Nature",
-    "setup": "Each student or pair places a hoop as HOME / collection zone. Agree the freeze signal before the first round.",
-    "play": [
-      "Give a list of natural or outdoor items they may collect (or post one master list at home base). Hide one secret “treasure” (example: a tissue from a hidden box).",
-      "Players may carry only ONE item home at a time.",
-      "Respect property: take only what you listed; no harming plants or taking things that are not allowed.",
-      "At the end, return every item that should be returned. Count collections and who found the secret treasure.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "A drop or a tangle is a restart from the last good shape, not a loss."
-    ],
-    "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
-    "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
-    "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. Floor rope or tape only — no benches. One walker on a line. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Voice Path",
@@ -4190,128 +4174,53 @@ window.GAME_DETAILS = [
     "g56": "Optional eyes-closed with consent.",
     "safety": "No running. Caller stays on the perimeter. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "coop"
+    "type": "coop",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
-    "name": "Animals",
-    "source": "",
-    "months": [
-      "February",
-      "April"
-    ],
-    "purpose": "Such a simple warm-up game! Choose a theme – for example, the jungle. Then students can choose a jungle animal that they will pretend to be, perhaps a monkey or parrot, and spend a minute moving around like that animal,. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "None",
-    "setup": "Call a habitat theme (jungle, arctic, farm, ocean). Agree the freeze signal before the first round.",
-    "play": [
-      "Each student picks an animal from that habitat and moves + makes the sound for about one minute.",
-      "Change the theme and repeat. Encourage different levels (high bird, low snake) and speeds.",
-      "K–2 warm-up; no equipment.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
-    ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "Beanbag head walk",
-    "source": "",
-    "months": [
-      "February",
-      "April"
-    ],
-    "purpose": "Still head, airplane arms. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Beanbag and a hoop per team.",
-    "setup": "Lane to a hoop. Agree the freeze signal before the first round.",
-    "play": [
-      "Show the quality cue first (quiet land, airplane arms, still head). Count quality reps, not speed.",
-      "Bag on the head. Walk to the hoop. Drop it in. Jog home without the bag.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set.",
-      "Play Beanbag head walk in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Hold the bag with one finger if it slips.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "Body-part beanbags",
-    "source": "",
-    "months": [
-      "February",
-      "April"
-    ],
-    "purpose": "On a signal, a named body part must touch a spot. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Scattered beanbags or hoops.",
-    "setup": "Objects around the gym. Agree the freeze signal before the first round.",
-    "play": [
-      "Students travel around and over the objects.",
-      "Teacher calls a body part. That part must touch a spot.",
-      "Repeat with travel in between.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
-    ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Two parts at once (one hand and one foot).",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "0–5",
-    "type": "fitness"
-  },
-  {
-    "name": "Bridges & Rivers",
-    "source": "",
-    "months": [
-      "February",
-      "April"
-    ],
-    "purpose": "Players will form either bridges or rivers and perform jumps or crawls depending what’s called out. Lots of fun to be had by all, especially if this game is played along to music. Choose half of the players to be bridges. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "None",
-    "setup": "On “BRIDGES,” some students make a stable bridge (hands and feet on the floor, back flat). Others are rivers and crawl under. Agree the freeze signal before the first round.",
-    "play": [
-      "On “RIVERS,” some students lie or crouch as a low river. Others jump over.",
-      "Teacher (or a student caller) switches the call. Play to music.",
-      "Rotate who is the structure and who is travelling so everyone jumps and everyone holds.",
-      "Cue safe landings and no collapsing on a crawler.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
-    ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "Fitness Musical Hoops",
+    "name": "Musical Hoops",
     "source": "",
     "months": [
       "February"
     ],
-    "purpose": "In this fitness or warm-up game, hula hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Hula hoops, music",
-    "setup": "Place hoops around the basketball-court perimeter. Students travel OUTSIDE the court line only — no cutting through the middle. Agree the freeze signal before the first round.",
+    "purpose": "Travel on the music. When it stops, get into a hoop. Share. Nobody sits the period. Folded in: Daly Musical Hoops / Rings / Cones + SCA Fitness Musical Hoops + Icebergs + Hula Hoop Twister.",
+    "equipment": "Music · hoops or cones",
+    "setup": "Scatter hoops. Music ready. Name the travel skill. Start with enough hoops for everyone to share.",
     "play": [
-      "Music on: perform the cardio you name (jog, skip, carioca, etc.).",
-      "Music off: everyone must stand inside a hoop (all feet in) within a few seconds. Hoops may be shared.",
-      "If anyone is not in a hoop, the WHOLE class does a muscular exercise (e.g. push-ups).",
-      "When music restarts, remove one hoop. Repeat until one hoop remains. Then use a lighter consequence (e.g. 2 jumping jacks per person left out).",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
+      "Music on: travel the named skill around the hoops. Do not camp a hoop.",
+      "Music off: all feet in a hoop within a few seconds. Sharing is allowed.",
+      "Anyone not in does 5 fun reps with the class, then stays in.",
+      "Remove 1–2 hoops. Repeat until one or two remain."
     ],
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [
+      "Camping while music plays: they must leave it.",
+      "Collision: walking travel.",
+      "Tears at the last hoop: keep two hoops and stop."
+    ],
+    "roundEnds": "Several music stops, then a light closer.",
+    "skins": [
+      "Icebergs: remove hoops with no music.",
+      "Twister: ‘right hand, blue.’",
+      "Cones instead of hoops.",
+      "Hulahoop Madness: extra hoop jobs for extras."
+    ],
+    "aka": [
+      "Fitness Musical Hoops",
+      "Icebergs",
+      "Hula Hoop Twister",
+      "Hulahoop Madness",
+      "Musical Rings",
+      "Musical Cones"
+    ]
   },
   {
     "name": "Floor rope walk",
@@ -4334,7 +4243,11 @@ window.GAME_DETAILS = [
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
     "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. Floor rope or tape only — no benches. One walker on a line. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Frogs on the Lily Pads",
@@ -4358,54 +4271,11 @@ window.GAME_DETAILS = [
     "g56": "Farther pads. Quiet landings.",
     "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "5–16 or 16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "Hula Hoop Twister",
-    "source": "",
-    "months": [
-      "February"
-    ],
-    "purpose": "It’s a combo of musical chairs and the Twister board game which for sure means it’s fun and active, definitely worth giving it a play or 10 in your PE class 😀 (thanks Deric Hafer). In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Hula hoops, music",
-    "setup": "Scatter coloured hoops like a giant Twister board. Agree the freeze signal before the first round.",
-    "play": [
-      "Music on: travel around the hoops with the locomotor skill you name.",
-      "Music off: call a body part + colour (“right hand, blue”). Students place that body part in a matching hoop.",
-      "Sharing a hoop is allowed. Anyone who cannot get in does 5 fun reps and rejoins.",
-      "Remove 1–2 hoops each round.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
-    ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "Hulahoop Madness",
-    "source": "",
-    "months": [
-      "February"
-    ],
-    "purpose": "Another movement game to help enhance discussions and awareness of personal space. Hula hoop madness starts with lots of hula hoops on the floor for students to jump into when the music stops. But eventually as you take. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Hula hoops, music",
-    "setup": "Start with many hoops on the floor and music playing. Students travel among the hoops. Agree the freeze signal before the first round.",
-    "play": [
-      "When music stops, every student must jump into a hoop (sharing allowed).",
-      "Remove hoops each round. Space gets tighter — talk about personal space and consent before bodies get close.",
-      "When few hoops remain, end the game rather than forcing an unsafe squash. Use a fitness challenge instead of elimination.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
-    ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Immersive Workout ADVENTURE All Ages Brain Break",
@@ -4430,32 +4300,11 @@ window.GAME_DETAILS = [
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
     "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "Jump The River",
-    "source": "",
-    "months": [
-      "May",
-      "June"
-    ],
-    "purpose": "Super simple, super fun jumping activity, especially for long jump practice :p (Thanks Deric Hafer). In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "2 skipping ropes",
-    "setup": "Lay two jump ropes parallel as river banks, starting close together. Agree the freeze signal before the first round.",
-    "play": [
-      "Students jump the river (two-foot takeoff and landing, or a running long jump for older grades).",
-      "After a successful full-class pass, widen the ropes a little.",
-      "Touching a rope or the “water” means a quick swim motion or 5 bank jumps, then try again — do not eliminate anyone.",
-      "Vary the approach: hop, jump-turn, partner jump.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
-    ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Floor rope or tape only — no benches. One walker on a line. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Knee-ball jumps",
@@ -4479,7 +4328,11 @@ window.GAME_DETAILS = [
     "g56": "Add a hoop to drop the ball into.",
     "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Magic Numbers",
@@ -4503,7 +4356,11 @@ window.GAME_DETAILS = [
     "g56": "10-10-10 plus a direction change.",
     "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5 or fitness",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Mass Challenges",
@@ -4527,7 +4384,11 @@ window.GAME_DETAILS = [
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
     "safety": "Still ending. No tumbling unless on mats in April. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Minute Fitness",
@@ -4553,56 +4414,11 @@ window.GAME_DETAILS = [
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
     "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "Mirror Mirror",
-    "source": "",
-    "months": [
-      "February",
-      "April"
-    ],
-    "purpose": "Mirror Mirror could be a stand-alone game, could be used as a warm-up, or fitness activity. Quite a bit of action in this one. Start by dividing players into 2 equal groups. One group stands outside the basketball court. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Music",
-    "setup": "Two equal groups. Group A stands outside the basketball court line; Group B stands inside. Agree the freeze signal before the first round.",
-    "play": [
-      "Music on: outside group runs one direction, inside group runs the opposite direction.",
-      "Music off: the outside group FREEZES in any pose. Inside players each stand 1–2 metres in front of a frozen player and mirror the pose.",
-      "Swap roles (outside becomes inside). If numbers are odd, allow one extra player to join a group.",
-      "For older students require fitness poses (plank, lunge, squat).",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
-    ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "Oyster Shell",
-    "source": "",
-    "months": [
-      "February",
-      "April"
-    ],
-    "purpose": "Here’s a fun little reacting and running competition that can basically be used for all ages. You don’t need much for equipment either. Split the group into 2 teams, they don’t even have to be even numbers. If you’ve got. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "1 beanbag, floor lines (or cones)",
-    "setup": "Two teams on opposite sidelines facing a centre line. Teams do not need even numbers. Agree the freeze signal before the first round.",
-    "play": [
-      "Place one beanbag on the centre line (the oyster).",
-      "Number the players on each side. Call a number; those two sprint to the beanbag.",
-      "Whoever grabs it tries to run it home across their sideline. The other player tries to tag them.",
-      "1 point for a successful return OR 1 point for a tag. Reset and call a new number. Call two numbers for 2-v-2.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
-    ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
     "name": "Pair Running",
@@ -4627,31 +4443,54 @@ window.GAME_DETAILS = [
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
     "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   {
-    "name": "Racquet waiter",
+    "name": "Balance Carry",
     "source": "",
     "months": [
       "February",
       "April"
     ],
-    "purpose": "Balance then a short toss. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Racquet or hoop, beanbag, target hoop.",
-    "setup": "Lane to a cone and hoop. Agree the freeze signal before the first round.",
+    "purpose": "The object stays on. If it falls, reset and continue. Folded in: Daly Protect the Ice Cream / Cone Collector / Cone Stack / Bench Balance / Core Beanbag Rescue + SCA Racquet waiter / Beanbag head walk / Body-part beanbags.",
+    "equipment": "One object per person or pair (ball on cone, bag on racquet, bag on head)",
+    "setup": "Show the carry (ball on cone, bag on racquet, bag on head). No body checks.",
     "play": [
-      "Show the quality cue first (quiet land, airplane arms, still head). Count quality reps, not speed.",
-      "Bag on the racquet or hoop to the cone. Toss into the target. Three tries.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set.",
-      "Play Racquet waiter in short rounds so more students get the key job, then freeze and reset."
+      "On go, travel.",
+      "If it falls, stop, replace, continue from there.",
+      "Optional: knock other ice creams off for a point."
     ],
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Walk around a cone before the toss.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [
+      "Thumb pinching the ball on the whole time: remind them it must sit.",
+      "Shoulder charge: no point, both reset."
+    ],
+    "roundEnds": "First across with it still on, or fewest drops.",
+    "skins": [
+      "Cone on one foot, hop home (Cone Collector).",
+      "Bib in the air, place a cone in a hoop, catch the bib (Cone Stack).",
+      "Feet stay in hoop 1, rescue bags from hoop 2 (Core Beanbag Rescue).",
+      "Racquet waiter: bag on a racquet.",
+      "Beanbag head walk.",
+      "Body-part beanbags: named body part holds the bag."
+    ],
+    "aka": [
+      "Racquet waiter",
+      "Beanbag head walk",
+      "Body-part beanbags",
+      "Protect the Ice Cream",
+      "Cone Stack",
+      "Core Beanbag Rescue"
+    ]
   },
   {
     "name": "Rainbow Road",
@@ -4660,47 +4499,39 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "In ‘Rainbow Road’ teams of players will move in different patterns along spots on the floor depending on which color sequence is called out. A variety of movement skills can be used to spice things up. Create 4 teams. Ea. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Colored spots (lilly pads), or hula hoops",
-    "setup": "Create 4 teams, each against a different side wall. Agree the freeze signal before the first round.",
+    "purpose": "Go to the colour that was called. One object or one touch per call. Folded in: Daly Colour Hunt / Memory Colour + SCA Rainbow Road / Memory Relay / Treasure Hunt / Card Sharks.",
+    "equipment": "Scattered colour objects · home base",
+    "setup": "Scatter colours. Class starts in a home base. You will name a colour and a travel skill.",
     "play": [
-      "Scatter coloured spots or hoops all over the gym.",
-      "Call a colour pattern (“red, blue, green, blue, yellow”). All players run spot-to-spot in that order, then return to their wall.",
-      "Call a new pattern. Change the locomotor skill (hop, skip, gallop, lunge) each round.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
+      "Call ‘skip to red.’ Collect or touch that colour, return.",
+      "Next call: new colour, new travel.",
+      "Progression: a sequence of three they must remember."
     ],
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "Red Line",
-    "source": "",
-    "months": [
-      "February",
-      "April"
+    "type": "fitness",
+    "ifThis": [
+      "Two items taken: extra goes back.",
+      "Wrong colour: return it, no score."
     ],
-    "purpose": "Here’s a unique commands and directions game, with a ‘race’ and competition element, can be used pretty much through all the grade levels (thanks James Barton)! In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Cones, balls",
-    "setup": "Use court lines or cone several parallel lines. Students start on a baseline. Agree the freeze signal before the first round.",
-    "play": [
-      "Teach a small set of commands (example: “red line,” “back,” “spin,” “ball”).",
-      "Call commands in mixed order. Students race to the correct line or perform the action.",
-      "Add a team race: first team to finish a sequence correctly scores.",
-      "For older students add two-part commands or a fitness hold on arrival.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
+    "roundEnds": "Most correct collections, or first pair back from a sequence.",
+    "skins": [
+      "Cups over hidden colours (Memory Colour).",
+      "Memory Relay: sequence of three colours.",
+      "Card Sharks: flip a card for the next colour.",
+      "Outdoor controls with a simple map (keep Partner Orienteering separate if you want real map work)."
     ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
+    "aka": [
+      "Memory Relay",
+      "The Great Outdoor Treasure Hunt",
+      "Treasure Hunt",
+      "Card Sharks",
+      "Colour Hunt",
+      "Memory Colour"
+    ]
   },
   {
     "name": "RPS Warm-up",
@@ -4709,47 +4540,82 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "Such a simple warm-up idea that students really enjoy. Once players know how to play it, it’s an instant activity to use to get your PE class started. Also doesn’t require any equipment really, except for 4 cones. It cou. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "4 cones",
-    "setup": "Mark a centre meeting strip and two home end lines with 4 cones. Agree the freeze signal before the first round.",
+    "purpose": "Rock-paper-scissors decides who chases or who takes the object. Folded in: Daly Carraig Páipéar Siosúr hop / cone-grab + SCA RPS Warm-up / RPS Rounders.",
+    "equipment": "None · optional cone between pairs",
+    "setup": "Pairs meet at the centre. Home lines behind each.",
     "play": [
-      "Students pair up and meet at the centre. They play one round of Rock-Paper-Scissors.",
-      "Winner chases loser toward the loser’s home line. A tag before the line scores for the winner; reaching the line first scores for the runner.",
-      "Both jog back to centre and play again immediately.",
-      "After 2–3 minutes, switch partners and repeat.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
+      "Play one RPS on a count of three.",
+      "Winner chases loser toward the loser’s home line.",
+      "Tag before the line = point to the winner. Safe over the line = point to the runner.",
+      "New partner next bout."
     ],
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [
+      "RPS argument: teacher calls it, play on.",
+      "Push instead of a tag: no point.",
+      "Need a classroom version: Boom / Clap / Snatch on an object between two seated pupils."
+    ],
+    "roundEnds": "Best of five bouts, or 3–5 minutes.",
+    "skins": [
+      "Hop hoop-to-hoop until you meet, then RPS (Daly hop version).",
+      "Cone between pairs; grab on the word ‘cone.’",
+      "RPS Rounders: winner bats, loser fields a short diamond."
+    ],
+    "aka": [
+      "RPS Rounders",
+      "Carraig Páipéar Siosúr"
+    ]
   },
   {
-    "name": "Rush Hour",
+    "name": "Command Warm-Up",
     "source": "",
     "months": [
       "February",
       "April"
     ],
-    "purpose": "A simple game. A ‘try not to crash’ game. And actually another really fun game. It’s a fantastic LARGE GROUP game too! (Thanks to Jiang Xiaolei). In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "None",
-    "setup": "Students are cars in personal space. Review “look where you go” and no crashing. Agree the freeze signal before the first round.",
+    "purpose": "Hear the word. Do that shape or travel. Mix the order. Folded in: Daly Christmas Warm-Up + SCA Rush Hour / Red Line / Video Camera / Shipwreck / Signals.",
+    "equipment": "None · optional music",
+    "setup": "Teach 4–6 commands before you speed up.",
     "play": [
-      "Call a locomotor skill and a speed (slow traffic, city, highway).",
-      "Add rules: red light freeze, green light go, reverse, flat tire (hop), out of gas (sit or plank), carpool (join a partner).",
-      "If two cars touch, both do 5 jumping jacks and re-enter traffic.",
-      "Play 3–5 minutes as a primary warm-up.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
+      "Call a command for about 5 seconds.",
+      "Call the next. Do not pattern them.",
+      "A miss = skip the next command and rejoin. No extra laps."
     ],
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "fitness"
+    "type": "loco",
+    "ifThis": [
+      "Space collisions: smaller shapes, more room.",
+      "Need a pulse-raiser: add music and travel the commands."
+    ],
+    "roundEnds": "2–4 minutes, then the main game.",
+    "skins": [
+      "Christmas shapes.",
+      "Traffic speeds and red light (Rush Hour / Red Line).",
+      "Ship deck commands (Captain’s Deck / Shipwreck).",
+      "Video Camera: freeze in the pose that was called.",
+      "Signals / Laps and Lines: named gym lines.",
+      "Student caller."
+    ],
+    "aka": [
+      "Rush Hour",
+      "Red Line",
+      "The Video Camera Game",
+      "Video Camera",
+      "Captain’s Deck / Shipwreck",
+      "Shipwreck",
+      "Signals / shapes",
+      "Laps and Lines / Signals",
+      "Christmas Warm-Up"
+    ]
   },
   {
     "name": "Safe to Shore",
@@ -4758,94 +4624,80 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "Cross on mats without touching the floor. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Mats, hoops, or spots.",
-    "setup": "A river of floor between two shores. Agree the freeze signal before the first round.",
+    "purpose": "The floor is out. Cross using only the islands. Folded in: Daly Polar Express / Flip Flop + SCA Safe to Shore / Icebergs / Bridges & Rivers.",
+    "equipment": "Hoops or mats as islands · start and finish lines",
+    "setup": "Islands between the lines. Show a legal step. Agree the restart: full restart or last safe island.",
     "play": [
-      "Show the quality cue first (quiet land, airplane arms, still head). Count quality reps, not speed.",
-      "Cross using only the islands.",
-      "If a foot touches water, go back and try a new path.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
+      "Slide or lift islands forward.",
+      "A foot on the floor outside an island = back to the last safe island.",
+      "All people and all islands must finish."
     ],
     "g12": "Wide islands. Teacher spots.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [
+      "Spare hoop left behind: they need it — send someone back.",
+      "Island pile-up: one quiet leader talks."
+    ],
+    "roundEnds": "First team fully across, or all groups succeed.",
+    "skins": [
+      "Classmates are tunnels and bridges; the other half travels, then swap.",
+      "Carry a built 6-hoop hut without collapse (Hula Hut — keep as its own card if the build is the lesson).",
+      "Polar Express / Flip Flop: flip mats as you go.",
+      "Cross the River: same islands, one spare hoop."
+    ],
+    "aka": [
+      "Bridges & Rivers",
+      "Cross the River",
+      "Polar Express",
+      "Flip Flop"
+    ]
   },
   {
-    "name": "Sneak & React",
-    "source": "",
-    "months": [
-      "February",
-      "April"
-    ],
-    "purpose": "Great for all ages, super fun. Works on reaction timing. Use this one as an instant activity or a warm-up but it can be a stand alone game as well. You also don’t need any equipment either. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "None",
-    "setup": "Class faces a leader in scattered formation. Agree the freeze signal before the first round.",
-    "play": [
-      "On a sneak cue, students tiptoe forward. On a react cue (clap, colour, “TURN”) they sprint back or change action.",
-      "Mix in freeze, plank, jump-turn, partner high-five.",
-      "False start = 3 jumping jacks and rejoin. Let older students lead cue sequences.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set.",
-      "Play Sneak & React in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "Spot-jump path",
+    "name": "Spot-Jump Path",
     "source": "",
     "months": [
       "May",
       "June"
     ],
-    "purpose": "Two-foot jump and stick. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Poly spots.",
-    "setup": "Zig-zag spots. Agree the freeze signal before the first round.",
+    "purpose": "Jump the targets. Quiet stick. Quality before speed. Folded in: Daly Helicopter / Frogs & Toads / hoop jump races / long jump + SCA Spot-jump path / Jump The River / hurdle hops.",
+    "equipment": "Spots, hoops, or a taped river · optional noodle",
+    "setup": "Lane of spots or a taped river. Show two-foot take-off and a still landing.",
     "play": [
-      "Show the quality cue first (quiet land, airplane arms, still head). Count quality reps, not speed.",
-      "Two-foot jump spot to spot. Quiet stick. Walk back.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set.",
-      "Play Spot-jump path in short rounds so more students get the key job, then freeze and reset."
+      "Jump target to target. Land inside, not on the rim.",
+      "Miss or a noisy fall-back: go back one target.",
+      "Walk back along the side. Next jumper."
     ],
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain. Feet-only if sticks are new.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Add a half-turn on the last spot.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "fitness"
-  },
-  {
-    "name": "The Video Camera Game",
-    "source": "",
-    "months": [
-      "February",
-      "April"
+    "type": "fitness",
+    "ifThis": [
+      "Toe over the take-off line: no jump.",
+      "Lane clash: pause and separate."
     ],
-    "purpose": "Very simple warm-up game with a simple idea: the teacher calls out familiar actions that you would find on a video camera – play, stop, rewind, fast forward, etc. For each word that’s called out, the students will have t. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "None",
-    "setup": "Teach the camera words and actions, for example: PLAY = jog forward; STOP = freeze; REWIND = run backward; FAST FORWARD = sprint; PAUSE = freeze in a pose; SLOW MOTION = exaggerated slow move; RECORD = wave an imaginary camera. Agree the freeze signal before the first round.",
-    "play": [
-      "Caller mixes the words. Students perform the matching action in the playing area.",
-      "After a minute, switch callers so students invent sequences.",
-      "Use as a K–5 warm-up.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
+    "roundEnds": "First team through, farthest jump, or most quiet sticks.",
+    "skins": [
+      "Noodle swept on the floor around a circle (Helicopter).",
+      "Beat jumping.",
+      "Standing long jump, cone behind the heels.",
+      "What’s-the-time jumps toward a caller, then flee.",
+      "Jump The River: one taped river that grows.",
+      "Hurdle hops: low hurdles, same quiet stick."
     ],
-    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
-    "g34": "Full lane or full set. Quiet landings. Partner counts.",
-    "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "fitness"
+    "aka": [
+      "Spot-jump path",
+      "Jump The River",
+      "Helicopter / Snake rope",
+      "Helicopter",
+      "Frogs & Toads",
+      "Hurdle hops"
+    ]
   },
   {
     "name": "Throw & Go",
@@ -4854,21 +4706,35 @@ window.GAME_DETAILS = [
       "May",
       "June"
     ],
-    "purpose": "Quick, easy, effective warm-up or instant activity, best played outside but could work indoors with a smaller group. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
-    "equipment": "Type of ball",
-    "setup": "Pairs, one ball each, lots of space (best outside). Agree the freeze signal before the first round.",
+    "purpose": "Pass, then both movers relocate so the next pass happens on the move. Folded in: Daly Hand It Over / Ball Run + SCA Throw & Go / Beat Ball.",
+    "equipment": "1 ball per pair or circle",
+    "setup": "Show a lead pass. Drop = 3 jumps and continue, not an out.",
     "play": [
-      "A throws a lead pass. B catches. Both immediately run and switch roles so the next throw happens on the move.",
-      "Continue down the field. On a drop, 3 jumps and keep going — no standing.",
-      "Change the throw type each round (bounce, roll, football). Switch partners after 2–3 minutes.",
-      "Freeze on the whistle. Reset spots, then the next round.",
-      "After two rounds, 20 seconds of a named stretch, then one more quality set."
+      "A throws a lead pass. B catches. Both run and switch roles.",
+      "Continue down the field.",
+      "Circle version: pass while music plays; music off and the last thrower races the ball around the outside."
     ],
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "slot": "16–25",
-    "type": "fitness"
+    "type": "fitness",
+    "ifThis": [
+      "Who last threw is unclear: the holder when the music stopped runs.",
+      "Two balls in a line of three is the hard version — teach one ball first."
+    ],
+    "roundEnds": "First pair to the line, or several music stops.",
+    "skins": [
+      "Beat Ball: batter hits, then races the fielded ball around the bases.",
+      "Hand It Over / Ball Run: same pass-then-move."
+    ],
+    "aka": [
+      "Throw & Go",
+      "Beat Ball / Beat the Ball",
+      "Beat Ball",
+      "Hand It Over",
+      "Ball Run"
+    ]
   }
 ];
