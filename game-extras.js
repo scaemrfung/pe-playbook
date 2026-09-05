@@ -8,14 +8,6 @@ window.GAME_EXTRAS = {
       "If you are tagged, show it honestly and take the next job.",
       "Noodle is a tap on a hip or shoe — never a swing at a head."
     ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Angry Neighbour.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Noodles: demo a hip tap on a volunteer, then a wrong swing, then the hip tap again.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/angry-neighbour/."
-    ],
     "variations": [
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
       "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
@@ -53,7 +45,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Angry Neighbour.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Noodles: demo a hip tap on a volunteer, then a wrong swing, then the hip tap again.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/angry-neighbour/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Backyard Dog Tag": {
     "numbers": "Large group · K-4 · 5–8 min rounds.",
@@ -62,13 +66,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Backyard Dog Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/backyard-dog-tag/."
     ],
     "variations": [
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
@@ -106,63 +103,21 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
       }
-    ]
-  },
-  "Banana Tag": {
-    "numbers": "Large group · K-5 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Soft two-finger or noodle tag on the back or shoulder — never the head.",
-      "Change pathway. Do not run someone over to make a tag.",
-      "If you are tagged, show it honestly and take the next job."
     ],
     "more": [
       "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Banana Tag.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Backyard Dog Tag.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
       "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/banana-tag/."
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/backyard-dog-tag/."
     ],
-    "variations": [
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/banana-tag/."
-    ],
-    "look": "Everyone is moving or has a role in Banana Tag. A tagged player re-enters instead of sitting.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Banana Tag for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Changes speed and pathway to avoid a tag in Banana Tag."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Banana Tag."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Banana Tag; does not crowd a hospital, jail, or throwing line."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Banana Tag."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Blob Tag": {
-    "numbers": "Whole class · 5–7 min · 1 starter blob.",
+    "numbers": "2–4 starters · optional noodles or cone hats",
     "cues": [
       "Hold hands, do not yank.",
       "Split at four.",
@@ -171,22 +126,13 @@ window.GAME_EXTRAS = {
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
     ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Blob Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "One pair starts as the blob (hands joined). They tag with the outside hands.",
-      "A tagged runner joins the end. The blob grows."
-    ],
     "variations": [
-      "Chain of three only — never four.",
-      "Blob may only travel on gym lines (Pac-Man blob).",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
+      "Witches: cone on the head.",
+      "Zombies: one foot stays in a sliding hoop.",
+      "Aliens: waist hoop, 5 jacks to rejoin if you prefer a non-blob re-entry.",
+      "Home Free Bad Guy Blob: a home hoop that resets a runner once."
     ],
-    "look": "No six-person whip. Splits happen without a reminder.",
+    "look": "Everyone is moving or has a job in Blob Tag. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -216,124 +162,37 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
-  },
-  "Bug Tag / Dead Ant": {
-    "numbers": "Whole class · 5 min · 3–4 taggers.",
-    "cues": [
-      "Dead ant = on your back, arms and legs up.",
-      "Four helpers, one limb each, to unfreeze.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Soft two-finger or noodle tag on the back or shoulder — never the head.",
-      "Change pathway. Do not run someone over to make a tag.",
-      "If you are tagged, show it honestly and take the next job."
     ],
     "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bug Tag / Dead Ant.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Noodles: demo a hip tap on a volunteer, then a wrong swing, then the hip tap again.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Tagged player lies as a dead ant (or stands as a beetle if you do not want floor work)."
+      "Grouping: 2–4 starters · optional noodles or cone hats",
+      "How a round ends: Last few runners, then reset. No one is out for the period.",
+      "If this happens — Chain breaks and still tags: no tag until it is linked.",
+      "If this happens — Cone thrown as a hat: sit one turn.",
+      "If this happens — Blob walls someone into a corner: open a corridor.",
+      "Also called: Home Free Bad Guy Blob Tag; Witches Tag; Zombie Tag; Alien Tag.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
-    "variations": [
-      "Two-helper version for Grade 1.",
-      "Must crawl one body-length after you stand.",
-      "Large-group setup from PHYSEDGAMES: Choose 3–6 taggers. Everyone else runs.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one."
+    "ifThis": [
+      "Chain breaks and still tags: no tag until it is linked.",
+      "Cone thrown as a hat: sit one turn.",
+      "Blob walls someone into a corner: open a corridor."
     ],
-    "look": "Helpers are on four different limbs. No dragging.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Bug Tag / Dead Ant for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Soft tag; the tagged player has a way back in."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Bug Tag / Dead Ant."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Someone helps unfreeze or walks a classmate to ‘hospital.’"
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Bug Tag / Dead Ant."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
-      }
-    ]
-  },
-  "Buzz Off / hoop free zones": {
-    "numbers": "Whole class · 5 min · hoops as hives.",
-    "cues": [
-      "Two in a hoop max.",
-      "Five seconds of safety, then buzz off.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Soft two-finger or noodle tag on the back or shoulder — never the head.",
-      "Change pathway. Do not run someone over to make a tag.",
-      "If you are tagged, show it honestly and take the next job."
+    "roundEnds": "Last few runners, then reset. No one is out for the period.",
+    "skins": [
+      "Witches: cone on the head.",
+      "Zombies: one foot stays in a sliding hoop.",
+      "Aliens: waist hoop, 5 jacks to rejoin if you prefer a non-blob re-entry.",
+      "Home Free Bad Guy Blob: a home hoop that resets a runner once."
     ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Buzz Off / hoop free zones.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: February, December, September — match the month’s sport ball when you can.",
-      "Hoops are hives. A runner may step in for 5 seconds of safety, then must leave.",
-      "Taggers cannot wait on a hoop. Tagged players do 5 jumps and re-enter."
-    ],
-    "variations": [
-      "Must skip between hives.",
-      "Colour hives: only your colour is safe.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
-    ],
-    "look": "Hoops are not forts. People leave after a count of 5.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Buzz Off / hoop free zones for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Leaves the hoop after a count of 5."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Buzz Off / hoop free zones."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Buzz Off / hoop free zones; does not crowd a hospital, jail, or throwing line."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Buzz Off / hoop free zones."
-      },
-      {
-        "code": "Safety",
-        "look": "No camping on a hive."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
-      }
+    "aka": [
+      "Home Free Bad Guy Blob Tag",
+      "Witches Tag",
+      "Zombie Tag",
+      "Alien Tag"
     ]
   },
   "Chicken Checkers": {
-    "numbers": "Two teams · 6 min · rubber chickens or beanbags + a grid of hoops.",
+    "numbers": "Hoops or cones as bases · fewer bases than people",
     "cues": [
       "One chicken per hoop.",
       "No sliding a chicken into a person.",
@@ -342,22 +201,12 @@ window.GAME_EXTRAS = {
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
     ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Chicken Checkers.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Hoops in a 4×4 or 5×5 grid. Teams try to get three of their colour in a row.",
-      "Carry one object at a time. A tag sends it back to the start."
-    ],
     "variations": [
-      "Must hop to a hoop.",
-      "Four in a row for a bigger grid.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
+      "Mummy steals a stone (Graveyard Guard).",
+      "Tigers keep feet in hoops and tag from there (Hoop Dog).",
+      "Rest hoop you may step into (Buzz Off)."
     ],
-    "look": "Only one player is in a hoop at a time.",
+    "look": "Everyone is moving or has a job in Chicken Checkers. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -387,63 +236,30 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
-  },
-  "Clothespin Tag": {
-    "numbers": "Whole class · 5 min · 2–3 pins per waistband.",
-    "cues": [
-      "Pins only, not clothing.",
-      "Hand a stolen pin to a hoop or clip it on yourself.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Soft two-finger or noodle tag on the back or shoulder — never the head.",
-      "Change pathway. Do not run someone over to make a tag.",
-      "If you are tagged, show it honestly and take the next job."
     ],
     "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Clothespin Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Clip 2–3 pins on the back of each waistband.",
-      "Steal one pin at a time with two fingers. Either clip it on yourself or drop it in your team hoop."
+      "Grouping: Hoops or cones as bases · fewer bases than people",
+      "How a round ends: Rotate the leftover player. Play 4–6 switches.",
+      "If this happens — Dive onto a cone: no claim.",
+      "If this happens — Camping through the call: they must leave.",
+      "Also called: Buzz Off / hoop free zones; Buzz Off; Graveyard Guard; Hoop Dog.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
-    "variations": [
-      "Team colours.",
-      "Only steal from the side, not a dive.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
+    "ifThis": [
+      "Dive onto a cone: no claim.",
+      "Camping through the call: they must leave."
     ],
-    "look": "Everyone is moving or has a role in Clothespin Tag. A tagged player re-enters instead of sitting.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Clothespin Tag for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Hands the pin or tail back."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Clothespin Tag."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Clothespin Tag; does not crowd a hospital, jail, or throwing line."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Clothespin Tag."
-      },
-      {
-        "code": "Safety",
-        "look": "Two fingers on the tail or pin, not on clothes."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
-      }
+    "roundEnds": "Rotate the leftover player. Play 4–6 switches.",
+    "skins": [
+      "Mummy steals a stone (Graveyard Guard).",
+      "Tigers keep feet in hoops and tag from there (Hoop Dog).",
+      "Rest hoop you may step into (Buzz Off)."
+    ],
+    "aka": [
+      "Buzz Off / hoop free zones",
+      "Buzz Off",
+      "Graveyard Guard",
+      "Hoop Dog"
     ]
   },
   "Duck Duck Dash": {
@@ -455,13 +271,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Duck Duck Dash.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "‘Duck… dash!’ Chase once. Both stay in."
     ],
     "variations": [
       "Walk for 1–2.",
@@ -499,10 +308,21 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Duck Duck Dash.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "‘Duck… dash!’ Chase once. Both stay in."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Everybody’s It": {
-    "numbers": "Whole class · 60–90 s.",
+    "numbers": "Whole class · optional one soft ball or spot markers",
     "cues": [
       "Everyone tags.",
       "RPS, then both stay in.",
@@ -511,22 +331,12 @@ window.GAME_EXTRAS = {
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
     ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Everybody’s It.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Double-tag: 3 squats for one pose, then play on.",
-      "Credit: PHYSEDGAMES large-group version: https://physedgames.com/everybodys-it/"
-    ],
     "variations": [
-      "Walk for 1–2.",
-      "Large-group setup from PHYSEDGAMES: Everybody is it AND everybody can be tagged. No equipment.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
+      "Hot Potato: only the person holding the ball may tag, by touch, no throw.",
+      "Pizza: spot marker on one hand; knock other pizzas off.",
+      "Clothespin: steal one pin from a back, clip it on yourself."
     ],
-    "look": "Everyone is moving or has a role in Everybody’s It. A tagged player re-enters instead of sitting.",
+    "look": "Everyone is moving or has a job in Everybody’s It. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -556,6 +366,29 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
+    ],
+    "more": [
+      "Grouping: Whole class · optional one soft ball or spot markers",
+      "How a round ends: Timed rounds. No winner required.",
+      "If this happens — Hard tag: warning, then sit 10 seconds.",
+      "If this happens — Ball version thrown at a head: switch to hold-and-touch only.",
+      "Also called: Clothespin Tag; Hot Potato; Pizza Tag.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Hard tag: warning, then sit 10 seconds.",
+      "Ball version thrown at a head: switch to hold-and-touch only."
+    ],
+    "roundEnds": "Timed rounds. No winner required.",
+    "skins": [
+      "Hot Potato: only the person holding the ball may tag, by touch, no throw.",
+      "Pizza: spot marker on one hand; knock other pizzas off.",
+      "Clothespin: steal one pin from a back, clip it on yourself."
+    ],
+    "aka": [
+      "Clothespin Tag",
+      "Hot Potato",
+      "Pizza Tag"
     ]
   },
   "Freedom Catch": {
@@ -565,13 +398,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Freedom Catch.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/freedom-catch/."
     ],
     "variations": [
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
@@ -609,10 +435,21 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Freedom Catch.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/freedom-catch/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Frozen Tag": {
-    "numbers": "Whole class · 4–6 min · everyone is it, or 3–4 taggers.",
+    "numbers": "2–4 taggers · optional noodles · an agreed freeze shape and rescue",
     "cues": [
       "Freeze tall — eyes up.",
       "Unfreeze is a two-hand tap, not a shove.",
@@ -621,22 +458,18 @@ window.GAME_EXTRAS = {
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
     ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Frozen Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Everyone-is-it version: a tag freezes you in a star or stork. A free player taps both of your hands to unfreeze.",
-      "You may not unfreeze the person who just unfroze you (no pairs camping)."
-    ],
     "variations": [
-      "Fire and ice: blue noodles freeze, red yarn balls unfreeze on a catch.",
-      "Skill freeze: frozen players do a balance until helped.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
+      "Default: arms out, high-five.",
+      "Hospital: cover the spot, third tag = walk a hoop lap and rejoin.",
+      "Hot Dog: stand still, two classmates are the bun.",
+      "Banana: curve the body, two-hand peel.",
+      "Present (December): sit with hands in a bow, classmate ‘opens’ you.",
+      "Jack Frost: hug or high-five melt.",
+      "Bug / Dead Ant: freeze on your back with legs up; a teammate taps both feet.",
+      "Waspital: same hospital rule with a wasp story.",
+      "Unmask Tag (Daly Silly Bananas): one foot up, hands on head, teammate touches the hands. Do not call this Silly Bananas."
     ],
-    "look": "Helpers are moving toward frozen players, not hiding.",
+    "look": "Everyone is moving or has a job in Frozen Tag. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -666,238 +499,50 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
-  },
-  "Home Free Bad Guy Blob Tag": {
-    "numbers": "Large group · 1-6 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Soft two-finger or noodle tag on the back or shoulder — never the head.",
-      "Change pathway. Do not run someone over to make a tag.",
-      "If you are tagged, show it honestly and take the next job.",
-      "Noodle is a tap on a hip or shoe — never a swing at a head.",
-      "One extra person in a hoop during a swap — no shoving out."
     ],
     "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Home Free Bad Guy Blob Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Noodles: demo a hip tap on a volunteer, then a wrong swing, then the hip tap again.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/home-free-bad-guy-blob-tag/."
+      "Grouping: 2–4 taggers · optional noodles · an agreed freeze shape and rescue",
+      "How a round ends: Timed rounds. Rotate taggers every 60–90 seconds.",
+      "If this happens — Statue moves: they stay frozen.",
+      "If this happens — Rough rescue: switch the whole class to a two-finger touch.",
+      "If this happens — All frozen: new taggers, restart.",
+      "Also called: Hospital Tag; Hot Dog Tag; Banana Tag; Bug Tag / Dead Ant; Bug Tag; Dead Ant; Waspital; Present Tag; Jack Frost; Sun and Ice; Caterpillar Tag; Frog Tag.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
-    "variations": [
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting.",
-      "Teacher holds the only extra noodle in grades 1–2.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/home-free-bad-guy-blob-tag/."
+    "ifThis": [
+      "Statue moves: they stay frozen.",
+      "Rough rescue: switch the whole class to a two-finger touch.",
+      "All frozen: new taggers, restart."
     ],
-    "look": "Everyone is moving or has a role in Home Free Bad Guy Blob Tag. A tagged player re-enters instead of sitting.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Home Free Bad Guy Blob Tag for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Changes speed and pathway to avoid a tag in Home Free Bad Guy Blob Tag."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Home Free Bad Guy Blob Tag."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Home Free Bad Guy Blob Tag; does not crowd a hospital, jail, or throwing line."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Home Free Bad Guy Blob Tag."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
-      }
-    ]
-  },
-  "Hospital Tag": {
-    "numbers": "Whole class · 4–6 min · everyone is it (or 2 taggers + 2 hospitals).",
-    "cues": [
-      "Two fingers on the back or shoulder.",
-      "Hospital is a stretch, then you are back in.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Soft two-finger or noodle tag on the back or shoulder — never the head.",
-      "Change pathway. Do not run someone over to make a tag.",
-      "If you are tagged, show it honestly and take the next job."
+    "roundEnds": "Timed rounds. Rotate taggers every 60–90 seconds.",
+    "skins": [
+      "Default: arms out, high-five.",
+      "Hospital: cover the spot, third tag = walk a hoop lap and rejoin.",
+      "Hot Dog: stand still, two classmates are the bun.",
+      "Banana: curve the body, two-hand peel.",
+      "Present (December): sit with hands in a bow, classmate ‘opens’ you.",
+      "Jack Frost: hug or high-five melt.",
+      "Bug / Dead Ant: freeze on your back with legs up; a teammate taps both feet.",
+      "Waspital: same hospital rule with a wasp story.",
+      "Unmask Tag (Daly Silly Bananas): one foot up, hands on head, teammate touches the hands. Do not call this Silly Bananas."
     ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hospital Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Mark two opposite corners as hospitals with 4 cones each.",
-      "Start with everyone it, or pick 2–3 noodle taggers if the class is new."
-    ],
-    "variations": [
-      "Ambulance (older): two students on scooters + a mat pick up a player who is lying down and drive them to hospital. Skip scooters in a crowded Grade 1–2 gym.",
-      "Wound-spot: hand must cover the exact place you were tagged, not the chest.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
-    ],
-    "look": "Players re-enter in under 15 seconds. No pile-ups at the hospital.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Hospital Tag for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Soft tag; the tagged player has a way back in."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Hospital Tag."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Someone helps unfreeze or walks a classmate to ‘hospital.’"
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Hospital Tag."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
-      }
-    ]
-  },
-  "Hot Dog Tag": {
-    "numbers": "Whole class · 5–8 min · 3–5 noodle taggers.",
-    "cues": [
-      "Call ‘I need buns!’ so helpers can find you.",
-      "Buns stand beside you — they do not squeeze you.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Soft two-finger or noodle tag on the back or shoulder — never the head.",
-      "Change pathway. Do not run someone over to make a tag.",
-      "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hot Dog Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Noodles: demo a hip tap on a volunteer, then a wrong swing, then the hip tap again.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Give 3–5 taggers a short noodle. Everyone else is a runner."
-    ],
-    "variations": [
-      "Ketchup/mustard safe: a runner may freeze as a bottle (hands together over the head) for 5 seconds, once per round.",
-      "Relish helper: one extra player may only unfreeze, not run for points.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
-    ],
-    "look": "Frozen players are calling. Buns are on opposite sides.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Hot Dog Tag for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Soft tag; the tagged player has a way back in."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Hot Dog Tag."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Someone helps unfreeze or walks a classmate to ‘hospital.’"
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Hot Dog Tag."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
-      }
-    ]
-  },
-  "Icebergs": {
-    "numbers": "Whole class · 5 min · hoops.",
-    "cues": [
-      "Share an iceberg.",
-      "Remove one hoop each round — nobody sits out.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Soft two-finger or noodle tag on the back or shoulder — never the head.",
-      "Change pathway. Do not run someone over to make a tag.",
-      "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Icebergs.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Hoops are icebergs. Move between them on the call.",
-      "Remove one hoop each round. Two or three students may share."
-    ],
-    "variations": [
-      "Must jump-stick onto a hoop.",
-      "Musical icebergs.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
-    ],
-    "look": "Hoops are not pulled out from under feet.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Icebergs for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Crosses on the call, not after a wait."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Icebergs."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Icebergs; does not crowd a hospital, jail, or throwing line."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Icebergs."
-      },
-      {
-        "code": "Safety",
-        "look": "Tagged player re-enters next wave — no last-one-standing."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
-      }
+    "aka": [
+      "Hospital Tag",
+      "Hot Dog Tag",
+      "Banana Tag",
+      "Bug Tag / Dead Ant",
+      "Bug Tag",
+      "Dead Ant",
+      "Waspital",
+      "Present Tag",
+      "Jack Frost",
+      "Sun and Ice",
+      "Caterpillar Tag",
+      "Frog Tag"
     ]
   },
   "Kangaroos and Crocodiles": {
-    "numbers": "Two teams on a centre line · 6–8 crossings.",
+    "numbers": "Two teams · a centre line · two home lines",
     "cues": [
       "Wait for the name.",
       "Tagged players jump 5 and re-enter next call.",
@@ -906,22 +551,12 @@ window.GAME_EXTRAS = {
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
     ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Kangaroos and Crocodiles.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Teams face each other on the centre line, a few steps apart. Each team has a home end line.",
-      "Call “Kangaroos!” — that team runs home; crocodiles tag. Then switch the call."
-    ],
     "variations": [
-      "Add a third animal that everyone jogs.",
-      "Dribble a sport ball home.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
+      "Hop only (Kangaroo Tag).",
+      "What’s-the-time: jump the called number toward the witch, flee when she turns.",
+      "Jumping Pumpkins: same turn-and-home on a Halloween call."
     ],
-    "look": "The called team turns and runs — they do not wait to see who tags.",
+    "look": "Everyone is moving or has a job in Kangaroos and Crocodiles. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -951,10 +586,32 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
+    ],
+    "more": [
+      "Grouping: Two teams · a centre line · two home lines",
+      "How a round ends: Play several calls. No one sits out.",
+      "If this happens — False start: send that team back.",
+      "If this happens — Wrong team runs: they are taggable.",
+      "Also called: Kangaroo Tag; Jumping Pumpkins.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "False start: send that team back.",
+      "Wrong team runs: they are taggable."
+    ],
+    "roundEnds": "Play several calls. No one sits out.",
+    "skins": [
+      "Hop only (Kangaroo Tag).",
+      "What’s-the-time: jump the called number toward the witch, flee when she turns.",
+      "Jumping Pumpkins: same turn-and-home on a Halloween call."
+    ],
+    "aka": [
+      "Kangaroo Tag",
+      "Jumping Pumpkins"
     ]
   },
-  "Line Tag / Pac-Man": {
-    "numbers": "Whole class · 6–8 min · 1–2 taggers on gym lines.",
+  "Line Tag": {
+    "numbers": "Hall lines · 3–4 taggers · optional noodles",
     "cues": [
       "Stay on the paint.",
       "No jumping to a new line.",
@@ -963,22 +620,12 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag."
     ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Line Tag / Pac-Man.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Use basketball-court lines. If you have no paint, tape a few long paths.",
-      "Everyone — taggers and runners — may only travel on a line. Forward or back. Wait if someone is on the same segment."
-    ],
     "variations": [
-      "Change-of-speed whistle: jog the long lines, walk the short ones.",
-      "Two colours of tagger: red may only travel sideline, blue only key lines.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
+      "Noodle taggers.",
+      "Crawl-through-legs free instead of a high-five.",
+      "Pac-Man: only travel on lines, same freeze-and-free."
     ],
-    "look": "Nobody cuts a corner through the key. Traffic yields.",
+    "look": "Everyone is moving or has a job in Line Tag. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -1008,6 +655,32 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
+    ],
+    "more": [
+      "Grouping: Hall lines · 3–4 taggers · optional noodles",
+      "How a round ends: Timed rounds. Rotate taggers.",
+      "If this happens — Shortcut across open floor: tagged.",
+      "If this happens — Block stands up early: sit back down.",
+      "If this happens — Jam at a crossing: freeze, sort, restart 10 seconds.",
+      "Also called: Line Tag / Pac-Man; Pac-Man; Block Tag; Line / Block Tag.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Shortcut across open floor: tagged.",
+      "Block stands up early: sit back down.",
+      "Jam at a crossing: freeze, sort, restart 10 seconds."
+    ],
+    "roundEnds": "Timed rounds. Rotate taggers.",
+    "skins": [
+      "Noodle taggers.",
+      "Crawl-through-legs free instead of a high-five.",
+      "Pac-Man: only travel on lines, same freeze-and-free."
+    ],
+    "aka": [
+      "Line Tag / Pac-Man",
+      "Pac-Man",
+      "Block Tag",
+      "Line / Block Tag"
     ]
   },
   "Massive 10 Second Tag": {
@@ -1017,13 +690,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Massive 10 Second Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/massive-10-second-tag/."
     ],
     "variations": [
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
@@ -1061,63 +727,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
       }
-    ]
-  },
-  "Mr. Clean": {
-    "numbers": "Two teams · 45-second rounds.",
-    "cues": [
-      "Same as Clean Your Room — send stays low.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Soft two-finger or noodle tag on the back or shoulder — never the head.",
-      "Change pathway. Do not run someone over to make a tag.",
-      "If you are tagged, show it honestly and take the next job.",
-      "One extra person in a hoop during a swap — no shoving out."
     ],
     "more": [
       "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Mr. Clean.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Massive 10 Second Tag.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
       "Year plan: December, September — match the month’s sport ball when you can.",
-      "Identical shape to Clean Your Room. Use it when you want a new name for the same send.",
-      "Add a ‘Mr. Clean’ who may only roll, to model a trap-and-send."
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/massive-10-second-tag/."
     ],
-    "variations": [
-      "One team uses only rolls, the other only throws.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
-    ],
-    "look": "Everyone is moving or has a role in Mr. Clean. A tagged player re-enters instead of sitting.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Mr. Clean for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Sends stay below the waist."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Mr. Clean."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Mr. Clean; does not crowd a hospital, jail, or throwing line."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Mr. Clean."
-      },
-      {
-        "code": "Safety",
-        "look": "Hands up on the whistle."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Mystery Number Tag": {
     "numbers": "Large group · 2-6 · 5–8 min rounds.",
@@ -1127,14 +748,6 @@ window.GAME_EXTRAS = {
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job.",
       "Blade or stick stays below the knee. No slapshots."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Mystery Number Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/mystery-number-tag/."
     ],
     "variations": [
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
@@ -1173,7 +786,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Mystery Number Tag.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/mystery-number-tag/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Octopus": {
     "numbers": "Whole class · 6–8 min · 1 octopus to start.",
@@ -1184,14 +809,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Octopus.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Runners on one end line. One octopus in the middle.",
-      "On “Octopus!” everyone crosses. Tagged players become seaweed: feet planted where they were tagged, arms may tag the next wave."
     ],
     "variations": [
       "Hoop octopus: the tagger holds a hoop as ‘tentacles’ — tag only with the hoop.",
@@ -1230,7 +847,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Octopus.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Runners on one end line. One octopus in the middle.",
+      "On “Octopus!” everyone crosses. Tagged players become seaweed: feet planted where they were tagged, arms may tag the next wave."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Reindeer Roundup": {
     "numbers": "Large group · K-6 · 5–8 min rounds.",
@@ -1241,14 +870,6 @@ window.GAME_EXTRAS = {
       "If you are tagged, show it honestly and take the next job.",
       "Noodle is a tap on a hip or shoe — never a swing at a head.",
       "One extra person in a hoop during a swap — no shoving out."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Reindeer Roundup.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Noodles: demo a hip tap on a volunteer, then a wrong swing, then the hip tap again.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/reindeer-roundup/."
     ],
     "variations": [
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
@@ -1287,7 +908,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Reindeer Roundup.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Noodles: demo a hip tap on a volunteer, then a wrong swing, then the hip tap again.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/reindeer-roundup/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Shadow Tag": {
     "numbers": "Pairs or whole class · 4 min · sun or poly-spot ‘shadows’.",
@@ -1298,14 +931,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Shadow Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Outdoors: tag by stepping on a shadow. Indoors: each player drags a poly-spot on a string or just plays freeze-tag on spots.",
-      "Soft feet. No stomps on ankles."
     ],
     "variations": [
       "Pairs: stay in your partner’s shadow.",
@@ -1344,10 +969,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Shadow Tag.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Outdoors: tag by stepping on a shadow. Indoors: each player drags a poly-spot on a string or just plays freeze-tag on spots.",
+      "Soft feet. No stomps on ankles."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Sharks and Dolphins": {
-    "numbers": "Whole class · 6–8 min · start with 1–2 sharks.",
+    "numbers": "2 sharks · noodles · marked sea",
     "cues": [
       "Cross on the call — do not wait on the line.",
       "Safe once both feet are over the end line or in a hoop.",
@@ -1356,22 +993,12 @@ window.GAME_EXTRAS = {
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
     ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Sharks and Dolphins.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Dolphins start on one end line (or on hoop islands). Sharks stand on the centre line until you say “Swim!”",
-      "On the call, dolphins must cross. Out of bounds = tagged."
-    ],
     "variations": [
-      "Flag belts: lose a flag instead of a body tag.",
-      "Dribble sharks: everyone travels with a soccer ball; lose the ball and you restart that crossing.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
+      "Parachute cat-and-mouse.",
+      "More sharks.",
+      "Shark and Fish: same freeze-and-rescue."
     ],
-    "look": "A full class crossing in under 8 seconds. Sharks not camping one door.",
+    "look": "Everyone is moving or has a job in Sharks and Dolphins. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -1401,6 +1028,30 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
+    ],
+    "more": [
+      "Grouping: 2 sharks · noodles · marked sea",
+      "How a round ends: Sharks win if all are frozen at the whistle. Otherwise most free dolphins.",
+      "If this happens — Freeze shape not clear: no rescue until it is.",
+      "If this happens — Shark guards one frozen player all game: send them hunting.",
+      "If this happens — Rough rescue: high-five only.",
+      "Also called: Sharks and Dolphins (chute); Shark and Fish.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Freeze shape not clear: no rescue until it is.",
+      "Shark guards one frozen player all game: send them hunting.",
+      "Rough rescue: high-five only."
+    ],
+    "roundEnds": "Sharks win if all are frozen at the whistle. Otherwise most free dolphins.",
+    "skins": [
+      "Parachute cat-and-mouse.",
+      "More sharks.",
+      "Shark and Fish: same freeze-and-rescue."
+    ],
+    "aka": [
+      "Sharks and Dolphins (chute)",
+      "Shark and Fish"
     ]
   },
   "Slap Rover": {
@@ -1412,14 +1063,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slap Rover.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "A classic crossing game. Taggers in the middle. Call ‘Red rover, red rover, send everyone over’ (or a colour, or a clothing detail).",
-      "Tagged players become taggers, then stretch and re-enter as runners after two crossings so it does not become last-one-standing."
     ],
     "variations": [
       "Send a colour only.",
@@ -1458,7 +1101,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slap Rover.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "A classic crossing game. Taggers in the middle. Call ‘Red rover, red rover, send everyone over’ (or a colour, or a clothing detail).",
+      "Tagged players become taggers, then stretch and re-enter as runners after two crossings so it does not become last-one-standing."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Squirrel’s Tail": {
     "numbers": "Pairs or whole class · 5 min · pinnies as tails.",
@@ -1469,14 +1124,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Squirrel’s Tail.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Same family as Tail Tag. One squirrel with a tail, or everyone with a tail.",
-      "Steal and return, or clip the tail on yourself and become the squirrel."
     ],
     "variations": [
       "Mother squirrel may only walk.",
@@ -1514,7 +1161,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Squirrel’s Tail.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Same family as Tail Tag. One squirrel with a tail, or everyone with a tail.",
+      "Steal and return, or clip the tail on yourself and become the squirrel."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Survivor Tag": {
     "numbers": "Whole class · 5 min · 2–3 taggers.",
@@ -1525,14 +1184,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Survivor Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Tagged players do a named skill (5 jumps, a stretch, a log roll on a mat) then re-enter.",
-      "Do not play last-survivor. The game is the movement."
     ],
     "variations": [
       "Skill is a balance until a helper taps.",
@@ -1571,7 +1222,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Survivor Tag.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Tagged players do a named skill (5 jumps, a stretch, a log roll on a mat) then re-enter.",
+      "Do not play last-survivor. The game is the movement."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Tail Tag": {
     "numbers": "Whole class · 5 min · every player has a tail, or 6–8 hunters.",
@@ -1582,14 +1245,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Tail Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Tuck a pinnie or flag in the back of the waistband so a tail hangs.",
-      "Pull a tail, say the name, and hand it back. That player is the new hunter — or they do 5 jumps and tuck it in again."
     ],
     "variations": [
       "Team tails: two colours. Steal the other colour home.",
@@ -1628,7 +1283,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Tail Tag.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Tuck a pinnie or flag in the back of the waistband so a tail hangs.",
+      "Pull a tail, say the name, and hand it back. That player is the new hunter — or they do 5 jumps and tuck it in again."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Ten-Second Tag": {
     "numbers": "Whole class · 4–6 min · new taggers every 10 s.",
@@ -1639,13 +1306,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Ten-Second Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Half gym. Whistle starts a tagger group. Next whistle: they freeze, a new group goes."
     ],
     "variations": [
       "Walk-tag for 1–2.",
@@ -1683,7 +1343,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Ten-Second Tag.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Half gym. Whistle starts a tagger group. Next whistle: they freeze, a new group goes."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Tripod Tag": {
     "numbers": "Whole class · 5 min.",
@@ -1694,14 +1365,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Tripod Tag.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "A runner is safe in a tripod (two feet and one hand, or two hands and one foot) for 3 seconds, once at a time.",
-      "Taggers cannot wait beside a tripod. Tagged players do 5 jumps and re-enter."
     ],
     "variations": [
       "Safe shape is a stork.",
@@ -1740,7 +1403,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Tripod Tag.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "A runner is safe in a tripod (two feet and one hand, or two hands and one foot) for 3 seconds, once at a time.",
+      "Taggers cannot wait beside a tripod. Tagged players do 5 jumps and re-enter."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Tunnel Freeze": {
     "numbers": "Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
@@ -1751,13 +1426,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Tunnel Freeze.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "1–2: high-five only. 5–6: optional tunnel with consent."
     ],
     "variations": [
       "Hospital tag if the class is crowded.",
@@ -1795,7 +1463,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Accepts a ‘no’ to the tunnel."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Tunnel Freeze.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "1–2: high-five only. 5–6: optional tunnel with consent."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Wake-Up Bear": {
     "numbers": "1 bear · 45 s rounds.",
@@ -1806,13 +1485,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Wake-Up Bear.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Chant. Bear stands on the secret count. Tagged: 5 jacks, then a turn as bear."
     ],
     "variations": [
       "No blindfold — ever.",
@@ -1850,64 +1522,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
-  },
-  "Waspital": {
-    "numbers": "Whole class · 4–6 min · everyone is it.",
-    "cues": [
-      "Same as Hospital Tag.",
-      "Two tags, then the hoop hospital.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Soft two-finger or noodle tag on the back or shoulder — never the head.",
-      "Change pathway. Do not run someone over to make a tag.",
-      "If you are tagged, show it honestly and take the next job."
     ],
     "more": [
       "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Waspital.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Wake-Up Bear.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
       "Year plan: December, September — match the month’s sport ball when you can.",
-      "Hospital-tag cousin. Two tags and you walk to a hoop hospital, stretch, re-enter.",
-      "Use it when you want a new name for the same warm-up."
+      "Chant. Bear stands on the secret count. Tagged: 5 jacks, then a turn as bear."
     ],
-    "variations": [
-      "One tagger is a ‘doctor’ who can unfreeze on the way.",
-      "Weak-hand tags only.",
-      "Walk-tag first, then jog. Add a second tagger only when space is clean.",
-      "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
-    ],
-    "look": "Hospitals are not crowded. Stretches are real.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Waspital for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Soft tag; the tagged player has a way back in."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Waspital."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Someone helps unfreeze or walks a classmate to ‘hospital.’"
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Waspital."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Wolf’s Den": {
     "numbers": "2 wolves · 3 crossings, then reset.",
@@ -1918,14 +1544,6 @@ window.GAME_EXTRAS = {
       "Soft two-finger or noodle tag on the back or shoulder — never the head.",
       "Change pathway. Do not run someone over to make a tag.",
       "If you are tagged, show it honestly and take the next job."
-    ],
-    "more": [
-      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Wolf’s Den.",
-      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Cross on the call. Tagged help for one crossing. Reset wolves.",
-      "PHYSEDGAMES large-group setup lives on this card — no separate game."
     ],
     "variations": [
       "Walk for 1–2.",
@@ -1964,7 +1582,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Wolf’s Den.",
+      "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+      "Year plan: December, September — match the month’s sport ball when you can.",
+      "Cross on the call. Tagged help for one crossing. Reset wolves.",
+      "PHYSEDGAMES large-group setup lives on this card — no separate game."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "3-Ball Soccer": {
     "numbers": "Large group · K-8 · 5–8 min rounds.",
@@ -1974,13 +1604,6 @@ window.GAME_EXTRAS = {
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set.",
       "Small touches. Foot stays near the ball."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 3-Ball Soccer.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/3-ball-soccer/."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -2018,7 +1641,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 3-Ball Soccer.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/3-ball-soccer/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "4-Goal Soccer": {
     "numbers": "Large group · 2-8 · 5–8 min rounds.",
@@ -2028,13 +1662,6 @@ window.GAME_EXTRAS = {
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set.",
       "Small touches. Foot stays near the ball."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 4-Goal Soccer.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/4-goal-soccer/."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -2072,7 +1699,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 4-Goal Soccer.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/4-goal-soccer/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "5 Soccer Circle Ideas": {
     "numbers": "Large group · 4-8 · 5–8 min rounds.",
@@ -2082,13 +1720,6 @@ window.GAME_EXTRAS = {
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set.",
       "Small touches. Foot stays near the ball."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 5 Soccer Circle Ideas.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/5-soccer-circle-ideas/."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -2126,7 +1757,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 5 Soccer Circle Ideas.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/5-soccer-circle-ideas/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Bench Ball": {
     "numbers": "Large group · 3-8 · 5–8 min rounds.",
@@ -2136,13 +1778,6 @@ window.GAME_EXTRAS = {
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set.",
       "Below the waist. A high ball is dead."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bench Ball.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/bench-ball/."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -2180,7 +1815,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bench Ball.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/bench-ball/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Booger Ball": {
     "numbers": "Two teams · 6 min · sticky-name send.",
@@ -2191,14 +1837,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Booger Ball.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Whoever catches is ‘it’ with the ball and cannot run. They pass to unstick.",
-      "Score by a catch in a hoop or by tagging a cone."
     ],
     "variations": [
       "Must pass with the other hand.",
@@ -2236,7 +1874,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a name before the catch."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Booger Ball.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Whoever catches is ‘it’ with the ball and cannot run. They pass to unstick.",
+      "Score by a catch in a hoop or by tagging a cone."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Captain Ball": {
     "numbers": "Two teams · 6–8 min · one captain per team in a hoop.",
@@ -2247,14 +1897,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Captain Ball.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Captain may catch only — no running, no leaving the hoop.",
-      "Field players pass to the captain. Three successful captain-catches = a point, then rotate the captain."
     ],
     "variations": [
       "Two captains.",
@@ -2293,117 +1935,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
-  },
-  "Capture the Egg": {
-    "numbers": "Two teams · 8–10 min.",
-    "cues": [
-      "One egg at a time.",
-      "Walk a rescue home.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Head up. Pass or move — do not crowd the ball.",
-      "Find a passing lane, not a pile-up.",
-      "Soft send; the ball stays below the chest unless the sport needs a high set."
     ],
     "more": [
       "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Capture the Egg.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Captain Ball.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
       "Year plan: October, January — match the month’s sport ball when you can.",
-      "Beanbag ‘eggs’ in a centre hoop or in each end hoop.",
-      "Carry one egg across to your nest. A tag means you hand the egg to the tagger (or walk it back) and switch roles."
+      "Captain may catch only — no running, no leaving the hoop.",
+      "Field players pass to the captain. Three successful captain-catches = a point, then rotate the captain."
     ],
-    "variations": [
-      "Four-team eggs (see Four Corner Flags).",
-      "Dribble the egg as a sport ball.",
-      "Must complete one pass before a shot or a score.",
-      "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score."
-    ],
-    "look": "Eggs stay in hands until they are in a hoop.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Capture the Egg for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "One object or one rescue at a time."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Walks a jailed teammate home."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
-      },
-      {
-        "code": "Safety",
-        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
-      }
-    ]
-  },
-  "Capture The Flag Outdoors": {
-    "numbers": "Large group · 3-8 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Head up. Pass or move — do not crowd the ball.",
-      "Find a passing lane, not a pile-up.",
-      "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Capture The Flag Outdoors.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September, October — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/capture-the-flag-outdoors/."
-    ],
-    "variations": [
-      "Must complete one pass before a shot or a score.",
-      "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/capture-the-flag-outdoors/."
-    ],
-    "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Capture The Flag Outdoors.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Capture The Flag Outdoors for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Uses space: spread out, fake, or change speed to get past a defender."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Honest tags; no puppy-guarding a flag or hoop."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
-      },
-      {
-        "code": "Safety",
-        "look": "Two-finger or noodle tag; jail is a short wait, then a way home."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Collect the Treasure": {
     "numbers": "4 teams · 5–6 min · beanbags in the middle.",
@@ -2414,14 +1958,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Collect the Treasure.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Beanbags in a centre hoop. Teams carry one at a time to a home hoop.",
-      "Tagged players walk the treasure back to the middle. No guarding the hoop."
     ],
     "variations": [
       "Must crab-walk.",
@@ -2460,7 +1996,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Collect the Treasure.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Beanbags in a centre hoop. Teams carry one at a time to a home hoop.",
+      "Tagged players walk the treasure back to the middle. No guarding the hoop."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Cornerball": {
     "numbers": "Two or four teams · 6 min · four corner hoops.",
@@ -2471,14 +2019,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Cornerball.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Score by a catch in any of four corner hoops.",
-      "The carrier cannot run. Defence intercepts without contact."
     ],
     "variations": [
       "Must visit two hoops.",
@@ -2516,7 +2056,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Cornerball.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Score by a catch in any of four corner hoops.",
+      "The carrier cannot run. Defence intercepts without contact."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Crab Football": {
     "numbers": "Two teams · 3 × 60-second rounds.",
@@ -2527,14 +2079,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crab Football.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September, October — match the month’s sport ball when you can.",
-      "Crab-walk and carry or kick a playground ball to a line.",
-      "60 seconds, then stand, shake wrists, switch."
     ],
     "variations": [
       "Must pass to a crab teammate.",
@@ -2573,7 +2117,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crab Football.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September, October — match the month’s sport ball when you can.",
+      "Crab-walk and carry or kick a playground ball to a line.",
+      "60 seconds, then stand, shake wrists, switch."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Crazy Ball Soccer": {
     "numbers": "Large group · K-8 · 5–8 min rounds.",
@@ -2583,13 +2139,6 @@ window.GAME_EXTRAS = {
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set.",
       "Small touches. Foot stays near the ball."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crazy Ball Soccer.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/crazy-ball-soccer/."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -2627,7 +2176,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crazy Ball Soccer.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/crazy-ball-soccer/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "End Ball": {
     "numbers": "Two teams of 6–10 · 2 × 4 min · sport ball, two end zones.",
@@ -2638,14 +2198,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in End Ball.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "End zones are 2–3 metres deep (mats or cones).",
-      "Score with a catch in the far end zone. The carrier cannot run — pivot only."
     ],
     "variations": [
       "Must complete 3 passes before a score (The Perfect Pass).",
@@ -2684,7 +2236,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in End Ball.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "End zones are 2–3 metres deep (mats or cones).",
+      "Score with a catch in the far end zone. The carrier cannot run — pivot only."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "End Wall Soccer": {
     "numbers": "Large group · 3-8 · 5–8 min rounds.",
@@ -2695,14 +2259,6 @@ window.GAME_EXTRAS = {
       "Soft send; the ball stays below the chest unless the sport needs a high set.",
       "Blade or stick stays below the knee. No slapshots.",
       "Small touches. Foot stays near the ball."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in End Wall Soccer.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/end-wall-soccer/."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -2741,7 +2297,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in End Wall Soccer.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/end-wall-soccer/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "End Zone Ball": {
     "numbers": "Same family as End Ball · 2 × 4 min.",
@@ -2752,14 +2320,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in End Zone Ball.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September, October — match the month’s sport ball when you can.",
-      "Flag-football shape with a sport ball or beanbag.",
-      "3-second or 5-second hold. No running with the ball."
     ],
     "variations": [
       "Two balls for a big class.",
@@ -2798,7 +2358,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in End Zone Ball.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September, October — match the month’s sport ball when you can.",
+      "Flag-football shape with a sport ball or beanbag.",
+      "3-second or 5-second hold. No running with the ball."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Four Corner Flags": {
     "numbers": "Four teams · 8–12 min · one hoop and 2–3 flags per corner.",
@@ -2809,14 +2381,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Four Corner Flags.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September, October — match the month’s sport ball when you can.",
-      "Split the gym into four. Each team has a hoop (flag nest) and a jail cone.",
-      "Start with 2 flags of each other colour in every nest, or 3 like-coloured flags to steal."
     ],
     "variations": [
       "Two-team Capture the Flag: one flag each, prison, walk-home rescue.",
@@ -2855,7 +2419,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Four Corner Flags.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September, October — match the month’s sport ball when you can.",
+      "Split the gym into four. Each team has a hoop (flag nest) and a jail cone.",
+      "Start with 2 flags of each other colour in every nest, or 3 like-coloured flags to steal."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Fruit Salad": {
     "numbers": "Whole class · 5 min · hoops or spots in a circle + one extra player.",
@@ -2866,14 +2442,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Fruit Salad.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Give every seated or standing player a fruit name (4 names). One player in the middle.",
-      "Call a fruit — those players swap spots. Middle player steals a spot. The leftover is the new middle."
     ],
     "variations": [
       "Add a locomotor (skip to your new spot).",
@@ -2912,7 +2480,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Fruit Salad.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Give every seated or standing player a fruit name (4 names). One player in the middle.",
+      "Call a fruit — those players swap spots. Middle player steals a spot. The leftover is the new middle."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Go for Goal": {
     "numbers": "Stations or 1v1 · 8 min.",
@@ -2923,14 +2503,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Go for Goal.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Small cone goals. 1v1 or 2v2. Rotate after a goal or after 45 seconds.",
-      "Use hockey sticks only if you already taught a safe grip and the ball is a hockey ball or a puck."
     ],
     "variations": [
       "Must shoot with the weak foot or off-hand.",
@@ -2969,7 +2541,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Go for Goal.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Small cone goals. 1v1 or 2v2. Rotate after a goal or after 45 seconds.",
+      "Use hockey sticks only if you already taught a safe grip and the ball is a hockey ball or a puck."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Guard the Gates": {
     "numbers": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
@@ -2980,14 +2564,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Guard the Gates.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Several cone gates. Attackers score by dribbling through a gate. Defenders intercept the ball, not the person.",
-      "After a score, the ball goes back to the attack start."
     ],
     "variations": [
       "Hands-only reverse version.",
@@ -3026,7 +2602,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Guard the Gates.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "Several cone gates. Attackers score by dribbling through a gate. Defenders intercept the ball, not the person.",
+      "After a score, the ball goes back to the attack start."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Heist the Treasure": {
     "numbers": "Same family as Collect the Treasure / 4-way flag.",
@@ -3037,14 +2625,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Heist the Treasure.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Guarded middle or four nests. Steal one beanbag at a time.",
-      "A tag returns the bag. Rescue a jailed teammate before another steal if you added jails."
     ],
     "variations": [
       "Must dribble the treasure.",
@@ -3083,7 +2663,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Heist the Treasure.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Guarded middle or four nests. Steal one beanbag at a time.",
+      "A tag returns the bag. Rescue a jailed teammate before another steal if you added jails."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Home Alone": {
     "numbers": "Large group · K-4 · 5–8 min rounds.",
@@ -3092,13 +2684,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Home Alone.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/home-alone/."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -3136,7 +2721,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Home Alone.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/home-alone/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Hurley Burley": {
     "numbers": "Grades 3–6 · 8 min · one sport ball.",
@@ -3147,14 +2743,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hurley Burley.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Any legal send: kick, bounce, or throw. If the ball is only tipped, that player must pass immediately.",
-      "Score into a cone goal. Keep a simple 3–2–1 tally."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -3191,7 +2779,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hurley Burley.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Any legal send: kick, bounce, or throw. If the ball is only tipped, that player must pass immediately.",
+      "Score into a cone goal. Keep a simple 3–2–1 tally."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Numbers Hockey": {
     "numbers": "Two teams numbered · 8 min · puck, sticks if taught.",
@@ -3202,14 +2802,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Numbers Hockey.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
-      "Year plan: November — match the month’s sport ball when you can.",
-      "Teams sit on opposite sidelines, numbered 1–n. Call one or two numbers. Those players play 1v1 or 2v2 to a small goal."
     ],
     "variations": [
       "Call two numbers always.",
@@ -3248,116 +2840,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
-  },
-  "Pin Galore Soccer": {
-    "numbers": "Large group · 1-8 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Head up. Pass or move — do not crowd the ball.",
-      "Find a passing lane, not a pile-up.",
-      "Soft send; the ball stays below the chest unless the sport needs a high set.",
-      "Small touches. Foot stays near the ball."
     ],
     "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Pin Galore Soccer.",
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Numbers Hockey.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/pin-galore-soccer/."
+      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
+      "Year plan: November — match the month’s sport ball when you can.",
+      "Teams sit on opposite sidelines, numbered 1–n. Call one or two numbers. Those players play 1v1 or 2v2 to a small goal."
     ],
-    "variations": [
-      "Must complete one pass before a shot or a score.",
-      "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/pin-galore-soccer/."
-    ],
-    "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Pin Galore Soccer.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Pin Galore Soccer for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Uses the inside of the foot or a taught kick; looks up before sending."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Moves to space after a pass; does not crowd the ball."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
-      },
-      {
-        "code": "Safety",
-        "look": "No slide tackles; foam or school soccer ball as listed."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
-      }
-    ]
-  },
-  "Protect the King": {
-    "numbers": "1 king · 4 defenders · 1 min rotations.",
-    "cues": [
-      "Pass first.",
-      "Below the waist.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Head up. Pass or move — do not crowd the ball.",
-      "Find a passing lane, not a pile-up.",
-      "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Protect the King.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Two passes, then a throw. Rotate the king."
-    ],
-    "variations": [
-      "Roll for 1–2.",
-      "Must complete one pass before a shot or a score.",
-      "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score."
-    ],
-    "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Protect the King.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Protect the King for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Passes before the shot."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
-      },
-      {
-        "code": "Safety",
-        "look": "Throws stay low."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Reverse Soccer": {
     "numbers": "Two teams · 6–8 min · soccer ball, two goals.",
@@ -3368,14 +2863,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Reverse Soccer.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Field players may only send with hands (volleyball tap or two-hand pass). They cannot run with the ball.",
-      "Keepers save with feet. Rotate keepers every 2 minutes."
     ],
     "variations": [
       "Everyone touches before a shot.",
@@ -3414,10 +2901,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Reverse Soccer.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "Field players may only send with hands (volleyball tap or two-hand pass). They cannot run with the ball.",
+      "Keepers save with feet. Rotate keepers every 2 minutes."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
-  "Rob the Nest (dribble)": {
-    "numbers": "4 teams · 6–8 min · 12–20 sport balls.",
+  "Rob the Nest": {
+    "numbers": "Centre pile of objects · team hoops as nests · one object per trip",
     "cues": [
       "One ball at a time.",
       "No standing in a hoop.",
@@ -3426,22 +2925,15 @@ window.GAME_EXTRAS = {
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
     ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Rob the Nest (dribble).",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September, January — match the month’s sport ball when you can.",
-      "Four hoop nests, one team per nest. Balls start in the middle (or already split).",
-      "Dribble or carry (Grade 1) one ball home. Later, you may steal from other nests."
-    ],
     "variations": [
-      "Hands only (beanbags).",
-      "Must trap before you pick up.",
-      "Must complete one pass before a shot or a score.",
-      "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score."
+      "Dribble a ball (Rob the Nest).",
+      "Hook cones with a noodle (Fishing).",
+      "Outdoor flag and a jail.",
+      "Carry an egg; tagged = hand it over.",
+      "Bucket Ball: drop in a bucket instead of a hoop.",
+      "Robin’s Nest: same one-per-trip rule."
     ],
-    "look": "Nests are not guarded by a wall of bodies.",
+    "look": "Everyone is moving or has a job in Rob the Nest. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -3471,6 +2963,39 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
+    ],
+    "more": [
+      "Grouping: Centre pile of objects · team hoops as nests · one object per trip",
+      "How a round ends: Most objects in the nest, or first to a target number.",
+      "If this happens — Two hands on the same object: first hand keeps it.",
+      "If this happens — Centre traffic jam: one way in, other way out.",
+      "If this happens — Puppy-guarding the nest: send them out.",
+      "Also called: Rob the Nest (dribble); Capture the Egg; Capture The Flag Outdoors; Capture the Flag; Bucket Ball; Robin’s Nest; Capture the Ball; Fishing.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Two hands on the same object: first hand keeps it.",
+      "Centre traffic jam: one way in, other way out.",
+      "Puppy-guarding the nest: send them out."
+    ],
+    "roundEnds": "Most objects in the nest, or first to a target number.",
+    "skins": [
+      "Dribble a ball (Rob the Nest).",
+      "Hook cones with a noodle (Fishing).",
+      "Outdoor flag and a jail.",
+      "Carry an egg; tagged = hand it over.",
+      "Bucket Ball: drop in a bucket instead of a hoop.",
+      "Robin’s Nest: same one-per-trip rule."
+    ],
+    "aka": [
+      "Rob the Nest (dribble)",
+      "Capture the Egg",
+      "Capture The Flag Outdoors",
+      "Capture the Flag",
+      "Bucket Ball",
+      "Robin’s Nest",
+      "Capture the Ball",
+      "Fishing"
     ]
   },
   "Sideline Soccer": {
@@ -3481,13 +3006,6 @@ window.GAME_EXTRAS = {
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set.",
       "Small touches. Foot stays near the ball."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Sideline Soccer.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/sideline-soccer/."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -3525,7 +3043,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Sideline Soccer.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/sideline-soccer/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Slappers!": {
     "numbers": "Large group · 4-8 · 5–8 min rounds.",
@@ -3534,13 +3063,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slappers!.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/slappers/."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -3578,10 +3100,21 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slappers!.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/slappers/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Steal the Bacon": {
-    "numbers": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+    "numbers": "Two numbered lines · one object in the middle",
     "cues": [
       "Grab the object, not the person.",
       "Soft tag the carrier.",
@@ -3590,20 +3123,12 @@ window.GAME_EXTRAS = {
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
     ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Steal the Bacon.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Call a number. Home with the bacon, or tag and reset."
-    ],
     "variations": [
-      "Two numbers at once for 5–6.",
-      "Must complete one pass before a shot or a score.",
-      "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score."
+      "Oyster: one beanbag on the centre line.",
+      "Sneak & React: tiptoe on ‘sneak,’ sprint home on the clap.",
+      "Drop-catch at chin height instead of a sprint."
     ],
-    "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Steal the Bacon.",
+    "look": "Everyone is moving or has a job in Steal the Bacon. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -3633,6 +3158,32 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
+    ],
+    "more": [
+      "Grouping: Two numbered lines · one object in the middle",
+      "How a round ends: First team to 5 clean returns, or play a set list of numbers.",
+      "If this happens — False start: send them back.",
+      "If this happens — Two numbers collide: dead ball, replay.",
+      "If this happens — Object kicked away: replace and redo.",
+      "Also called: Oyster Shell; Sneak & React; Sneaky Races; Reaction Speed.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "False start: send them back.",
+      "Two numbers collide: dead ball, replay.",
+      "Object kicked away: replace and redo."
+    ],
+    "roundEnds": "First team to 5 clean returns, or play a set list of numbers.",
+    "skins": [
+      "Oyster: one beanbag on the centre line.",
+      "Sneak & React: tiptoe on ‘sneak,’ sprint home on the clap.",
+      "Drop-catch at chin height instead of a sprint."
+    ],
+    "aka": [
+      "Oyster Shell",
+      "Sneak & React",
+      "Sneaky Races",
+      "Reaction Speed"
     ]
   },
   "Stones": {
@@ -3644,14 +3195,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Stones.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Scatter stones. Students collect one at a time to a nest, or move stones to build a path across the ‘river.’",
-      "Taggers return a carried stone to the scatter."
     ],
     "variations": [
       "Must hop the finished path.",
@@ -3690,7 +3233,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Stones.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Scatter stones. Students collect one at a time to a nest, or move stones to build a path across the ‘river.’",
+      "Taggers return a carried stone to the scatter."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Switch": {
     "numbers": "Whole class · 4 min · spots or hoops.",
@@ -3701,14 +3256,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Switch.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "One fewer spot than students, or one extra caller.",
-      "On the call, everyone must change spots. The leftover gives the next call."
     ],
     "variations": [
       "Call a colour to switch.",
@@ -3747,7 +3294,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Switch.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "One fewer spot than students, or one extra caller.",
+      "On the call, everyone must change spots. The leftover gives the next call."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Team Tag": {
     "numbers": "Two colours · 5 min.",
@@ -3758,14 +3317,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Team Tag.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Pinnies on one team. Soft tag the other colour.",
-      "House rule: a tag is a pinnie swap or a 8-jump stretch, then stay in."
     ],
     "variations": [
       "Must be holding a ball to tag.",
@@ -3804,7 +3355,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Team Tag.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Pinnies on one team. Soft tag the other colour.",
+      "House rule: a tag is a pinnie swap or a 8-jump stretch, then stay in."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "The Perfect Pass": {
     "numbers": "Two teams · 4-minute games · set a pass number (3–5).",
@@ -3815,14 +3378,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in The Perfect Pass.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Score only after the set number of completed passes.",
-      "The player with the ball cannot run."
     ],
     "variations": [
       "Everyone on the team must touch.",
@@ -3861,7 +3416,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in The Perfect Pass.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Score only after the set number of completed passes.",
+      "The player with the ball cannot run."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Through the Gates": {
     "numbers": "Pairs · 6 min · cone gates all over the gym.",
@@ -3872,14 +3439,6 @@ window.GAME_EXTRAS = {
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set.",
       "Small touches. Foot stays near the ball."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Through the Gates.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "8–12 cone gates. Pairs: one kicks through, one traps, then swap.",
-      "Count gates in 60 seconds, then change partners."
     ],
     "variations": [
       "Must use the weak foot.",
@@ -3918,7 +3477,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Through the Gates.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "8–12 cone gates. Pairs: one kicks through, one traps, then swap.",
+      "Count gates in 60 seconds, then change partners."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Traffic Lights (kick)": {
     "numbers": "Whole class · 4–5 min · one sport ball each if you have them.",
@@ -3929,14 +3500,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Traffic Lights (kick).",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Scatter. Each student with a sport ball, or share 1:2.",
-      "Call colours. Add weak-foot on a second round."
     ],
     "variations": [
       "Add blue = change direction.",
@@ -3975,7 +3538,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Traffic Lights (kick).",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: October, January — match the month’s sport ball when you can.",
+      "Scatter. Each student with a sport ball, or share 1:2.",
+      "Call colours. Add weak-foot on a second round."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Wall Soccer": {
     "numbers": "2–3 out, rest as wall goalies · 6 min.",
@@ -3986,14 +3561,6 @@ window.GAME_EXTRAS = {
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
       "Soft send; the ball stays below the chest unless the sport needs a high set."
-    ],
-    "more": [
-      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Wall Soccer.",
-      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Two or three attackers try to score on a wall of classmates who may only save, not leave the line.",
-      "Rotate attackers every 60–90 seconds."
     ],
     "variations": [
       "One-touch finish.",
@@ -4032,7 +3599,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a teammate’s name; includes a player who has not touched the ball."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Wall Soccer.",
+      "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "Two or three attackers try to score on a wall of classmates who may only save, not leave the line.",
+      "Rotate attackers every 60–90 seconds."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Battleships": {
     "numbers": "2–4 teams · 8–10 min · pins, playground balls, optional standing mats.",
@@ -4043,14 +3622,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Battleships.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Each team has a pin in a hoop (the ship) and a throwing line.",
-      "Throw playground balls to knock other ships. A downed pin is stood up by that team after a count of 3, or you keep a knockdown tally."
     ],
     "variations": [
       "Four-corner ships.",
@@ -4089,121 +3660,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
-    ]
-  },
-  "Bucket Ball": {
-    "numbers": "2–4 teams · 6 min · buckets or hoops + playground balls.",
-    "cues": [
-      "Underhand into the bucket.",
-      "One throw, then to the back of the line.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Opposite-foot step. Eyes on the target, not the teacher.",
-      "Wait for the fetch before the next throw.",
-      "One object in the air at a time per pair or lane."
     ],
     "more": [
       "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bucket Ball.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Battleships.",
       "Watch for fetchers walking through the throwing line. Make them a job to the side.",
       "Year plan: January, March — match the month’s sport ball when you can.",
-      "A bucket, crate, or hoop is the target. Teams throw from a line.",
-      "A made throw stays in for a team count, or you empty each minute so everyone keeps throwing."
+      "Each team has a pin in a hoop (the ship) and a throwing line.",
+      "Throw playground balls to knock other ships. A downed pin is stood up by that team after a count of 3, or you keep a knockdown tally."
     ],
-    "variations": [
-      "Step back after each make.",
-      "Opposite-hand round.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers."
-    ],
-    "look": "Throws look the same under a little pressure: opposite-foot step, eyes on the target in Bucket Ball.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Bucket Ball for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Underhand or below-shoulder send to a target."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Waits a turn; collects on the call so the next player can send."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records or resets honestly; a miss is another try."
-      },
-      {
-        "code": "Safety",
-        "look": "Fetchers are not in the throwing lane."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Cheers a classmate’s send; does not block someone from a turn."
-      }
-    ]
-  },
-  "Card Sharks": {
-    "numbers": "Whole class · 6 min · a deck of cards or colour cards.",
-    "cues": [
-      "Read your card, then move.",
-      "Same number finds a partner.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Opposite-foot step. Eyes on the target, not the teacher.",
-      "Wait for the fetch before the next throw.",
-      "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Card Sharks.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Scatter cards. On the whistle, each student takes one.",
-      "Call a rule: all hearts jog a lap, all 7s make a group, red cards skip, black cards balance."
-    ],
-    "variations": [
-      "Add a skill to each suit.",
-      "Must find the matching number without talking.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers."
-    ],
-    "look": "Cards are on the floor or in hands — not being thrown.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Card Sharks for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Crosses on the call, not after a wait."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Waits a turn; collects on the call so the next player can send."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records or resets honestly; a miss is another try."
-      },
-      {
-        "code": "Safety",
-        "look": "Tagged player re-enters next wave — no last-one-standing."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Cheers a classmate’s send; does not block someone from a turn."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "FLY BACK": {
     "numbers": "Whole class or two teams · 6 min · sport ball or beanbag.",
@@ -4214,14 +3683,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in FLY BACK.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "A thrower sends the ball. Fielders catch to send the thrower ‘back’ or to score a team point.",
-      "Use it as a Newcomb cousin without a net: catch and throw to a home hoop."
     ],
     "variations": [
       "Must catch one-handed for a bonus (Grade 5–6).",
@@ -4259,7 +3720,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses a name or ‘mine’ before the send."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in FLY BACK.",
+      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+      "Year plan: January, March — match the month’s sport ball when you can.",
+      "A thrower sends the ball. Fielders catch to send the thrower ‘back’ or to score a team point.",
+      "Use it as a Newcomb cousin without a net: catch and throw to a home hoop."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Flying Saucers": {
     "numbers": "Pairs or teams · 6 min · discs or rings.",
@@ -4270,14 +3743,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Flying Saucers.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Send discs at hoop targets. Fetch only after the whistle or from a safe line.",
-      "Count hoop hits as a team."
     ],
     "variations": [
       "Catch in a scoring hoop (Frisbee Flingers).",
@@ -4316,7 +3781,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses a name or ‘mine’ before the send."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Flying Saucers.",
+      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+      "Year plan: January, March — match the month’s sport ball when you can.",
+      "Send discs at hoop targets. Fetch only after the whistle or from a safe line.",
+      "Count hoop hits as a team."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Frisbee Flingers": {
     "numbers": "Pairs or two teams · 6–8 min.",
@@ -4327,14 +3804,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Frisbee Flingers.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Complete a catch in a scoring hoop or end zone.",
-      "The thrower cannot run. The receiver may move."
     ],
     "variations": [
       "Must throw to a moving partner.",
@@ -4373,119 +3842,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses a name or ‘mine’ before the send."
       }
-    ]
-  },
-  "Guard the Cone": {
-    "numbers": "3 defenders · 1 min.",
-    "cues": [
-      "Pass first.",
-      "Hands, not a charge.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Opposite-foot step. Eyes on the target, not the teacher.",
-      "Wait for the fetch before the next throw.",
-      "One object in the air at a time per pair or lane."
     ],
     "more": [
       "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Guard the Cone.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Frisbee Flingers.",
       "Watch for fetchers walking through the throwing line. Make them a job to the side.",
       "Year plan: January, March — match the month’s sport ball when you can.",
-      "Knock the cone with a sport ball. Rotate defenders."
+      "Complete a catch in a scoring hoop or end zone.",
+      "The thrower cannot run. The receiver may move."
     ],
-    "variations": [
-      "Roll for 1–2.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers."
-    ],
-    "look": "Throws look the same under a little pressure: opposite-foot step, eyes on the target in Guard the Cone.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Guard the Cone for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Sends to a target with a taught force (roll, underhand, bounce, or kick)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Passes to an opening."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Waits a turn; collects on the call so the next player can send."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records or resets honestly; a miss is another try."
-      },
-      {
-        "code": "Safety",
-        "look": "Does not charge the defenders."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Cheers a classmate’s send; does not block someone from a turn."
-      }
-    ]
-  },
-  "Hockey pin knockdown": {
-    "numbers": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-    "cues": [
-      "One push.",
-      "Fetch from the side.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Opposite-foot step. Eyes on the target, not the teacher.",
-      "Wait for the fetch before the next throw.",
-      "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hockey pin knockdown.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
-      "Year plan: November — match the month’s sport ball when you can.",
-      "Tunnel, one shot, home."
-    ],
-    "variations": [
-      "Kick if no sticks.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers.",
-      "Feet-only hockey-ball version if sticks are new or the class is tired."
-    ],
-    "look": "Throws look the same under a little pressure: opposite-foot step, eyes on the target in Hockey pin knockdown.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Hockey pin knockdown for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "One controlled push at the pin."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Waits a turn; collects on the call so the next player can send."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records or resets honestly; a miss is another try."
-      },
-      {
-        "code": "Safety",
-        "look": "Stick stays low."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Cheers a classmate’s send; does not block someone from a turn."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Low-ball": {
     "numbers": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
@@ -4496,13 +3865,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Low-ball.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "A high ball is dead. A hit is 10 seconds, not an out."
     ],
     "variations": [
       "Roll only for 1–2.",
@@ -4540,7 +3902,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Low-ball.",
+      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+      "Year plan: January, March — match the month’s sport ball when you can.",
+      "A high ball is dead. A hit is 10 seconds, not an out."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Overarm throw-and-catch": {
     "numbers": "1 ball, 1 hoop catcher.",
@@ -4551,13 +3924,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Overarm throw-and-catch.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: May, June — match the month’s sport ball when you can.",
-      "Throw to the hoop. Catcher runs it home. Swap."
     ],
     "variations": [
       "Underhand for 1–2.",
@@ -4595,7 +3961,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls the catch."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Overarm throw-and-catch.",
+      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+      "Year plan: May, June — match the month’s sport ball when you can.",
+      "Throw to the hoop. Catcher runs it home. Swap."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Poison Ball": {
     "numbers": "Grades 3–6 · 6 min · 6–10 dodgeballs.",
@@ -4606,14 +3983,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Poison Ball.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Four teams or two. Dodgeballs.",
-      "A below-waist hit sends you to the team that threw it (or to a sideline stretch, then back in)."
     ],
     "variations": [
       "4-corner dodge.",
@@ -4652,10 +4021,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Poison Ball.",
+      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+      "Year plan: January, March — match the month’s sport ball when you can.",
+      "Four teams or two. Dodgeballs.",
+      "A below-waist hit sends you to the team that threw it (or to a sideline stretch, then back in)."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Protect the Castle": {
-    "numbers": "1 castle + attackers · rotate every 2 min.",
+    "numbers": "Pins or cones as the castle · soft balls · 2–4 defenders · attackers outside",
     "cues": [
       "Defenders catch or block — no body-check.",
       "Attackers throw below the shoulders.",
@@ -4664,22 +4045,14 @@ window.GAME_EXTRAS = {
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
     ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Protect the Castle.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Hoop-and-pin castle in the middle (or one castle per team).",
-      "Attackers throw playground balls to knock pins. Defenders may catch and roll the ball out."
-    ],
     "variations": [
-      "Two castles, two armies.",
-      "Must hit the pin on a bounce.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers."
+      "Noodle balanced on the cone (Daly house).",
+      "King in a hoop; two-pass before a shot.",
+      "Below-waist only.",
+      "Soccer or hockey ball on sport days.",
+      "Guard the Cone: one cone, same rotate."
     ],
-    "look": "Defenders are in an athletic stance, not a rugby pile.",
+    "look": "Everyone is moving or has a job in Protect the Castle. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -4709,6 +4082,33 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
+    ],
+    "more": [
+      "Grouping: Pins or cones as the castle · soft balls · 2–4 defenders · attackers outside",
+      "How a round ends: Most knockdowns, or longest defender shut-out.",
+      "If this happens — Throw at a face: that thrower sits one reset.",
+      "If this happens — Defender holds the pin on: no block, reset.",
+      "If this happens — Nobody can score: must roll, or add a second castle.",
+      "Also called: Protect the House; Guard the Cone; Protect the King.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Throw at a face: that thrower sits one reset.",
+      "Defender holds the pin on: no block, reset.",
+      "Nobody can score: must roll, or add a second castle."
+    ],
+    "roundEnds": "Most knockdowns, or longest defender shut-out.",
+    "skins": [
+      "Noodle balanced on the cone (Daly house).",
+      "King in a hoop; two-pass before a shot.",
+      "Below-waist only.",
+      "Soccer or hockey ball on sport days.",
+      "Guard the Cone: one cone, same rotate."
+    ],
+    "aka": [
+      "Protect the House",
+      "Guard the Cone",
+      "Protect the King"
     ]
   },
   "Punt to the line": {
@@ -4720,13 +4120,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Punt to the line.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Kick toward the line. Kick again if needed. Run it home."
     ],
     "variations": [
       "Place-kick for 1–2.",
@@ -4764,67 +4157,21 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
-    ]
-  },
-  "Robin’s Nest": {
-    "numbers": "4 teams · 6 min · balls in a centre nest.",
-    "cues": [
-      "One egg at a time.",
-      "Hands or feet as the lesson needs.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Opposite-foot step. Eyes on the target, not the teacher.",
-      "Wait for the fetch before the next throw.",
-      "One object in the air at a time per pair or lane."
     ],
     "more": [
       "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Robin’s Nest.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Punt to the line.",
       "Watch for fetchers walking through the throwing line. Make them a job to the side.",
       "Year plan: January, March — match the month’s sport ball when you can.",
-      "Same shape as Rob the Nest. Centre nest first, then steal from other nests.",
-      "No standing in a hoop. Count on the whistle."
+      "Kick toward the line. Kick again if needed. Run it home."
     ],
-    "variations": [
-      "Must trap before you pick up.",
-      "Colour eggs to colour nests.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers."
-    ],
-    "look": "Nests are open. Eggs travel one at a time.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Robin’s Nest for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Ball stays close; trap or dribble under control."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "One ball at a time; looks before sending."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Waits a turn; collects on the call so the next player can send."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records or resets honestly; a miss is another try."
-      },
-      {
-        "code": "Safety",
-        "look": "Sends toward the target, not a face. Walks to collect. Freeze on the whistle."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Cheers a classmate’s send; does not block someone from a turn."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Skittle Ball": {
-    "numbers": "Same family as Skittles.",
+    "numbers": "Standing pins or cones · balls · a fetch line",
     "cues": [
       "One throw, then fetch.",
       "Safe at the pin line.",
@@ -4833,22 +4180,13 @@ window.GAME_EXTRAS = {
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
     ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Skittle Ball.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Hitters wait behind a throwing line. Knock a pin, retrieve your ball, go to the back of the line.",
-      "Keep a group tally, not a personal ranking."
-    ],
     "variations": [
-      "Left-hand round.",
-      "Kick to knock pins.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers."
+      "Run a small triangle before the throw (Daly Knock the Pin).",
+      "Kick the ball (Pin Galore).",
+      "Build a tower from collected cones.",
+      "Hockey pin knockdown on hockey days."
     ],
-    "look": "No one is standing among flying balls.",
+    "look": "Everyone is moving or has a job in Skittle Ball. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -4878,63 +4216,36 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
-    ]
-  },
-  "Skittles": {
-    "numbers": "2–4 teams or a circle · 6 min · pins + playground balls.",
-    "cues": [
-      "Underhand or below the waist.",
-      "Hitters wait behind a line.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Opposite-foot step. Eyes on the target, not the teacher.",
-      "Wait for the fetch before the next throw.",
-      "One object in the air at a time per pair or lane."
     ],
     "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Skittles.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Pins in a line or in hoops. Throw to knock them.",
-      "A ‘hit’ on a player (if you allow it) is below the waist and that player sits 10 seconds, then re-enters."
+      "Grouping: Standing pins or cones · balls · a fetch line",
+      "How a round ends: Most pins, tallest tower, or points in a time cap.",
+      "If this happens — Two pins from one ball: take both only if you have said so.",
+      "If this happens — Human wall in front of every pin: send them back to the mark.",
+      "If this happens — Tower collapses: rebuild from the fallen pins, no extra collect.",
+      "Also called: Skittles; Knock the Pin; Build Your Tower; Pin Knockover; Pin Galore Soccer; Hockey pin knockdown; Roll to hit the pin.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
-    "variations": [
-      "Team Bowling: timed knockdown of a long pin line.",
-      "Must bounce first.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers."
+    "ifThis": [
+      "Two pins from one ball: take both only if you have said so.",
+      "Human wall in front of every pin: send them back to the mark.",
+      "Tower collapses: rebuild from the fallen pins, no extra collect."
     ],
-    "look": "Pins stand again quickly. Throws stay low.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Skittles for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Underhand or below-shoulder send to a target."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Waits a turn; collects on the call so the next player can send."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records or resets honestly; a miss is another try."
-      },
-      {
-        "code": "Safety",
-        "look": "Fetchers are not in the throwing lane."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Cheers a classmate’s send; does not block someone from a turn."
-      }
+    "roundEnds": "Most pins, tallest tower, or points in a time cap.",
+    "skins": [
+      "Run a small triangle before the throw (Daly Knock the Pin).",
+      "Kick the ball (Pin Galore).",
+      "Build a tower from collected cones.",
+      "Hockey pin knockdown on hockey days."
+    ],
+    "aka": [
+      "Skittles",
+      "Knock the Pin",
+      "Build Your Tower",
+      "Pin Knockover",
+      "Pin Galore Soccer",
+      "Hockey pin knockdown",
+      "Roll to hit the pin"
     ]
   },
   "Slide Sling Save": {
@@ -4946,14 +4257,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slide Sling Save.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Slide beanbags along the floor at feet. A hit player walks to a jail hoop.",
-      "A teammate may catch a bag to free one jailed player."
     ],
     "variations": [
       "Must bounce once.",
@@ -4991,7 +4294,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slide Sling Save.",
+      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+      "Year plan: January, March — match the month’s sport ball when you can.",
+      "Slide beanbags along the floor at feet. A hit player walks to a jail hoop.",
+      "A teammate may catch a bag to free one jailed player."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Survivor Dodgeball": {
     "numbers": "Grades 3–6 · short rounds.",
@@ -5002,14 +4317,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Survivor Dodgeball.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "If a video version eliminates players, ignore that. A hit is 10 jumping jacks, then back in, or join the thrower’s team.",
-      "Keep 4–6 balls in play. Freeze on the whistle."
     ],
     "variations": [
       "Doctor: one teammate may unfreeze with a two-hand touch.",
@@ -5048,10 +4355,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Survivor Dodgeball.",
+      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+      "Year plan: January, March — match the month’s sport ball when you can.",
+      "If a video version eliminates players, ignore that. A hit is 10 jumping jacks, then back in, or join the thrower’s team.",
+      "Keep 4–6 balls in play. Freeze on the whistle."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Team Bowling": {
-    "numbers": "2 teams · 2-minute rounds · many pins.",
+    "numbers": "Hoops or pins with values · balls or bags · a throw line",
     "cues": [
       "Everyone throws.",
       "Count, reset, switch sides.",
@@ -5060,22 +4379,12 @@ window.GAME_EXTRAS = {
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
     ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Team Bowling.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "A line of pins at one end. Mixed playground balls and beanbags.",
-      "Timed round. Everyone throws. Count pins down, reset, switch."
-    ],
     "variations": [
-      "Must hit on a roll.",
-      "Colour pins worth extra.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers."
+      "Exactly 21. Over 21 drops you to 15 (Rolling 21).",
+      "Slide the bag into cones to ‘turn lights on.’",
+      "Kick instead of throw."
     ],
-    "look": "Both teams stay behind the line until the whistle.",
+    "look": "Everyone is moving or has a job in Team Bowling. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -5105,10 +4414,35 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
+    ],
+    "more": [
+      "Grouping: Hoops or pins with values · balls or bags · a throw line",
+      "How a round ends: First team to the target score, or most in a time cap.",
+      "If this happens — Ball on the rim: teacher call.",
+      "If this happens — Forgot the score: rewind to last agreed total.",
+      "Also called: Rolling 21; Hoop bowling; Christmas Lights; Land the ball in the hoop; Chip into buckets.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Ball on the rim: teacher call.",
+      "Forgot the score: rewind to last agreed total."
+    ],
+    "roundEnds": "First team to the target score, or most in a time cap.",
+    "skins": [
+      "Exactly 21. Over 21 drops you to 15 (Rolling 21).",
+      "Slide the bag into cones to ‘turn lights on.’",
+      "Kick instead of throw."
+    ],
+    "aka": [
+      "Rolling 21",
+      "Hoop bowling",
+      "Christmas Lights",
+      "Land the ball in the hoop",
+      "Chip into buckets"
     ]
   },
   "Tidy the Bedroom": {
-    "numbers": "Whole class or two teams · 5 min · beanbags + hoops.",
+    "numbers": "Two halves · equal light objects · centre line · optional hoops",
     "cues": [
       "Underhand into the drawer.",
       "One piece of clothing at a time.",
@@ -5117,22 +4451,12 @@ window.GAME_EXTRAS = {
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
     ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Tidy the Bedroom.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Hoops are drawers. Beanbags are clothes.",
-      "Tidy team underhand-throws into hoops. Scatter team empties drawers (still below the waist)."
-    ],
     "variations": [
-      "Colour-match bag to hoop.",
-      "Feet-only send.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers."
+      "Chase a moving bucket and put balls in one at a time (Daly Tidy Up).",
+      "One team tidies, one scatters.",
+      "Clothespins clipped onto backs (Mr. Clean)."
     ],
-    "look": "Throws are underhand. Fetchers are not hit.",
+    "look": "Everyone is moving or has a job in Tidy the Bedroom. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -5162,6 +4486,32 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
+    ],
+    "more": [
+      "Grouping: Two halves · equal light objects · centre line · optional hoops",
+      "How a round ends: Fewer objects on your side wins.",
+      "If this happens — Object at a person: that thrower sits the next bout.",
+      "If this happens — Step over the line: that object comes back.",
+      "If this happens — Two objects in two hands if you have said one: extra goes back.",
+      "Also called: Tidy Up; Messy Rooms; Mr. Clean; Mr Clean.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Object at a person: that thrower sits the next bout.",
+      "Step over the line: that object comes back.",
+      "Two objects in two hands if you have said one: extra goes back."
+    ],
+    "roundEnds": "Fewer objects on your side wins.",
+    "skins": [
+      "Chase a moving bucket and put balls in one at a time (Daly Tidy Up).",
+      "One team tidies, one scatters.",
+      "Clothespins clipped onto backs (Mr. Clean)."
+    ],
+    "aka": [
+      "Tidy Up",
+      "Messy Rooms",
+      "Mr. Clean",
+      "Mr Clean"
     ]
   },
   "Tunnel kick knockdown": {
@@ -5173,13 +4523,6 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane."
-    ],
-    "more": [
-      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Tunnel kick knockdown.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: January, March — match the month’s sport ball when you can.",
-      "Tunnel, one shot, dribble home. Keep going until the pin falls."
     ],
     "variations": [
       "Kick from a line for 1–2.",
@@ -5217,7 +4560,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Cheers a classmate’s send; does not block someone from a turn."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: 3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Tunnel kick knockdown.",
+      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+      "Year plan: January, March — match the month’s sport ball when you can.",
+      "Tunnel, one shot, dribble home. Keep going until the pin falls."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Aces": {
     "numbers": "Small groups of 5–6 · 8 min · sport ball, a wall or a hoop.",
@@ -5228,14 +4582,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Aces.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "One server, the rest in a receiving line or a small court.",
-      "Underhand serve to a wall target or over a line. A clean catch or rebound scores."
     ],
     "variations": [
       "Two-bounce allowed.",
@@ -5274,7 +4620,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Aces.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "One server, the rest in a receiving line or a small court.",
+      "Underhand serve to a wall target or over a line. A clean catch or rebound scores."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Barkball": {
     "numbers": "Two teams · 6–8 min · sport ball.",
@@ -5285,14 +4643,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Barkball.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "A noisy sending game: you must call a teammate’s name before they can catch.",
-      "A silent catch does not count. Turn over on a drop."
     ],
     "variations": [
       "Must use the other team’s names (harder listen).",
@@ -5331,122 +4681,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls a name before the catch."
       }
-    ]
-  },
-  "Beat Ball / Beat the Ball": {
-    "numbers": "Whole class in a kicking order · 8 min.",
-    "cues": [
-      "Runner is racing the ball, not a person.",
-      "Field to first, then around.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Ready position in the field — feet still, hands out.",
-      "Hit, then run the path. Do not watch your own hit.",
-      "Fielders send to the base or hoop, not at a runner."
     ],
     "more": [
       "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Beat Ball / Beat the Ball.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Barkball.",
       "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
       "Year plan: June — match the month’s sport ball when you can.",
-      "One kicker. Fielders must throw the ball to first, then around the bases (or to a centre cone) while the kicker runs.",
-      "If the runner beats the ball home, that is a point. Then the next kicker."
+      "A noisy sending game: you must call a teammate’s name before they can catch.",
+      "A silent catch does not count. Turn over on a drop."
     ],
-    "variations": [
-      "Two bases only.",
-      "Must touch every fielder’s hands before the ball can beat the runner.",
-      "Tee or a bounced teacher-toss for grades 1–2.",
-      "Three-pitch maximum, then a run-out anyway so the line keeps moving.",
-      "Fielders rotate one spot after each batter."
-    ],
-    "look": "Throws are to a person at a base, not a race of kids chasing one runner.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Beat Ball / Beat the Ball for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Everyone gets a kick or hit."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Ball goes to a base or hoop, not at the runner."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest out or safe; no arguing a force."
-      },
-      {
-        "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
-      }
-    ]
-  },
-  "Bombardment": {
-    "numbers": "Large group · 3-7 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Opposite-foot step. Eyes on the target, not the teacher.",
-      "Wait for the fetch before the next throw.",
-      "One object in the air at a time per pair or lane.",
-      "Small touches. Foot stays near the ball.",
-      "Finger pads. Ball stays below the waist on the dribble."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bombardment.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/bombardment/."
-    ],
-    "variations": [
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/bombardment/."
-    ],
-    "look": "Throws look the same under a little pressure: opposite-foot step, eyes on the target in Bombardment.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Bombardment for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Strikes or kicks to a space; ready hands on a catch."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Knows when to run and when to hold."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest out or safe; no arguing a force."
-      },
-      {
-        "code": "Safety",
-        "look": "Looks up after contact; throws at a runner stay low."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Castleball": {
-    "numbers": "Large group · 4-8 · 5–8 min rounds.",
+    "numbers": "Two halves · structures (pins, cone-castles, benches) · soft balls",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
       "Opposite-foot step. Eyes on the target, not the teacher.",
@@ -5454,22 +4704,13 @@ window.GAME_EXTRAS = {
       "One object in the air at a time per pair or lane.",
       "Below the waist. A high ball is dead."
     ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Castleball.",
-      "Watch for fetchers walking through the throwing line. Make them a job to the side.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Also filed as Castleball 2.0 (merged).",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/castleball/."
-    ],
     "variations": [
-      "Castleball 2.0: assign roles (builders, cannons, gatherers, guards) and rebuild after a knock-down. Same stay-on-your-half rule.",
-      "Step back one giant step after each make (grades 3–6).",
-      "Opposite hand or weaker foot for the last round.",
-      "Team score is ‘makes in two minutes’ — not a ranking of throwers.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/castleball/."
+      "Yoga ball only, push it onto the other bench (Star Wars).",
+      "Pumpkin cones on a centre bench; touch your wall before you throw.",
+      "Retrievers vs throwers with a present hoop (Snowball Fight).",
+      "Bombardment / Battleball: same halves, same rebuild."
     ],
-    "look": "Throws look the same under a little pressure: opposite-foot step, eyes on the target in Castleball.",
+    "look": "Everyone is moving or has a job in Castleball. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -5499,6 +4740,36 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
+    ],
+    "more": [
+      "Grouping: Two halves · structures (pins, cone-castles, benches) · soft balls",
+      "How a round ends: Most standing castles, or most knockdowns.",
+      "If this happens — Throw at a person: no point, warning.",
+      "If this happens — Cross the centre: that throw does not count.",
+      "If this happens — All down in 10 seconds: play two bouts and add.",
+      "Also called: Bombardment; Battleball; Star Wars; Shooting Pumpkins; Snowball Fight; Snowman Run; Castleball 2.0.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Throw at a person: no point, warning.",
+      "Cross the centre: that throw does not count.",
+      "All down in 10 seconds: play two bouts and add."
+    ],
+    "roundEnds": "Most standing castles, or most knockdowns.",
+    "skins": [
+      "Yoga ball only, push it onto the other bench (Star Wars).",
+      "Pumpkin cones on a centre bench; touch your wall before you throw.",
+      "Retrievers vs throwers with a present hoop (Snowball Fight).",
+      "Bombardment / Battleball: same halves, same rebuild."
+    ],
+    "aka": [
+      "Bombardment",
+      "Battleball",
+      "Star Wars",
+      "Shooting Pumpkins",
+      "Snowball Fight",
+      "Snowman Run",
+      "Castleball 2.0"
     ]
   },
   "Catch & Step": {
@@ -5509,13 +4780,6 @@ window.GAME_EXTRAS = {
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner.",
       "Open-hand tap. Do not catch or punch the balloon."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Catch & Step.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/catch-step/."
     ],
     "variations": [
       "Tee or a bounced teacher-toss for grades 1–2.",
@@ -5553,7 +4817,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Catch & Step.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/catch-step/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Chuck the Chicken": {
     "numbers": "Two teams · 8 min · one rubber chicken or beanbag.",
@@ -5564,14 +4839,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Chuck the Chicken.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "One player throws or kicks the chicken. Their team runs a group lap around that thrower, counting runs.",
-      "The fielding team fetches and must complete a set number of passes (or get the chicken back to a cone) to stop the count."
     ],
     "variations": [
       "Must use an underhand throw.",
@@ -5610,7 +4877,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Chuck the Chicken.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "One player throws or kicks the chicken. Their team runs a group lap around that thrower, counting runs.",
+      "The fielding team fetches and must complete a set number of passes (or get the chicken back to a cone) to stop the count."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Continuous Kick Ball": {
     "numbers": "Two teams · 10 min · playground ball, 3–4 hoops as bases.",
@@ -5621,14 +4900,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Continuous Kick Ball.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Pitcher rolls. Kicker kicks and runs. There are no strikeouts — a miss is a re-roll or a walk to first after two misses.",
-      "Fielders get an ‘out’ by catching a fly, or by getting the ball to the base the runner is going to."
     ],
     "variations": [
       "One-base and back (Quick Baseball).",
@@ -5667,7 +4938,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Continuous Kick Ball.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "Pitcher rolls. Kicker kicks and runs. There are no strikeouts — a miss is a re-roll or a walk to first after two misses.",
+      "Fielders get an ‘out’ by catching a fly, or by getting the ball to the base the runner is going to."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Diamond Strike": {
     "numbers": "Grades 3–6 · 10 min · four hitters start on bases.",
@@ -5678,14 +4961,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Diamond Strike.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Four hitters occupy the bases. One hit (or kick) and all four run one base.",
-      "Fielders return the ball to a middle cone to stop the next bowl."
     ],
     "variations": [
       "Must hit to the opposite field.",
@@ -5724,7 +4999,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Diamond Strike.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "Four hitters occupy the bases. One hit (or kick) and all four run one base.",
+      "Fielders return the ball to a middle cone to stop the next bowl."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Hit and Run": {
     "numbers": "Stations or a small diamond · 8 min.",
@@ -5735,14 +5022,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hit and Run.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Hit or kick, run a short marked path.",
-      "Fielders throw to a hoop, never at the runner."
     ],
     "variations": [
       "Opposite-side hits.",
@@ -5781,7 +5060,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hit and Run.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "Hit or kick, run a short marked path.",
+      "Fielders throw to a hoop, never at the runner."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Jailbreakers": {
     "numbers": "Two teams · 6–8 min.",
@@ -5792,14 +5083,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Jailbreakers.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Tagged players go to a jail. A teammate tags the first person in line and walks them home.",
-      "You cannot steal an object while you are on a rescue walk."
     ],
     "variations": [
       "Two-hand join on the walk.",
@@ -5838,7 +5121,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Jailbreakers.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "Tagged players go to a jail. A teammate tags the first person in line and walks them home.",
+      "You cannot steal an object while you are on a rescue walk."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Kick It (mats)": {
     "numbers": "Two teams · 8 min · mats as bases.",
@@ -5849,14 +5144,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Kick It (mats).",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Kick, then run mat to mat.",
-      "A fielder tags a runner by touching them with the ball held in two hands."
     ],
     "variations": [
       "Must bounce the ball once before a tag.",
@@ -5895,7 +5182,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Kick It (mats).",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "Kick, then run mat to mat.",
+      "A fielder tags a runner by touching them with the ball held in two hands."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Longball": {
     "numbers": "Large group · 4-8 · 5–8 min rounds.",
@@ -5905,13 +5204,6 @@ window.GAME_EXTRAS = {
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner.",
       "Small touches. Foot stays near the ball."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Longball.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/longball/."
     ],
     "variations": [
       "Tee or a bounced teacher-toss for grades 1–2.",
@@ -5949,7 +5241,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Longball.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/longball/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Quick Baseball": {
     "numbers": "Whole class · 8 min · tee or coach toss, one hoop.",
@@ -5960,14 +5263,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Quick Baseball.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Hit off a tee. Run to one hoop and back. Fielders throw to the tee to stop the run.",
-      "Everyone hits. Bat stays in a hoop. Next hitter is waiting."
     ],
     "variations": [
       "Add second hoop.",
@@ -6006,64 +5301,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
-  },
-  "RPS Rounders": {
-    "numbers": "Pairs, then grow · 6 min.",
-    "cues": [
-      "Show on three.",
-      "Winner jogs on; loser does a skill and finds a new game.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Ready position in the field — feet still, hands out.",
-      "Hit, then run the path. Do not watch your own hit.",
-      "Fielders send to the base or hoop, not at a runner."
     ],
     "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in RPS Rounders.",
+      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Quick Baseball.",
       "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
       "Year plan: June — match the month’s sport ball when you can.",
-      "Rock-paper-scissors. The winner takes a hoop or a base; the other does 5 jumps and challenges someone else.",
-      "You can grow a line of winners toward a finish cone (rounders path)."
+      "Hit off a tee. Run to one hoop and back. Fielders throw to the tee to stop the run.",
+      "Everyone hits. Bat stays in a hoop. Next hitter is waiting."
     ],
-    "variations": [
-      "Must skip to the next game.",
-      "Use elves-giants-wizards shapes.",
-      "Tee or a bounced teacher-toss for grades 1–2.",
-      "Three-pitch maximum, then a run-out anyway so the line keeps moving.",
-      "Fielders rotate one spot after each batter."
-    ],
-    "look": "Games last 5 seconds. Nobody is waiting in a long line.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in RPS Rounders for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Strikes or kicks to a space; ready hands or feet on a catch or stop."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "One throw and go — no long stalls."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Loser does a skill and finds a new game."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest out or safe; no arguing a force."
-      },
-      {
-        "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Shark Ball": {
     "numbers": "Large group · 4-8 · 5–8 min rounds.",
@@ -6072,13 +5322,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Shark Ball.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/shark-ball/."
     ],
     "variations": [
       "Tee or a bounced teacher-toss for grades 1–2.",
@@ -6116,7 +5359,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Shark Ball.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/shark-ball/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Strikeball": {
     "numbers": "Large group · K-8 · 5–8 min rounds.",
@@ -6125,13 +5379,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Strikeball.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/strikeball/."
     ],
     "variations": [
       "Tee or a bounced teacher-toss for grades 1–2.",
@@ -6169,7 +5416,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Strikeball.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/strikeball/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Thunderball": {
     "numbers": "Whole class · 6 min · wiffle or t-ball, 30 cones.",
@@ -6180,14 +5438,6 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner."
-    ],
-    "more": [
-      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Thunderball.",
-      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Three cone rows. Hit or kick. Past row 1 = 1 point, row 2 = 2, row 3 = 3.",
-      "Defence in the lanes stops the ball before the next row."
     ],
     "variations": [
       "One hitter at a time; next batter ready.",
@@ -6225,67 +5475,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
       }
-    ]
-  },
-  "Around the Bases Relay": {
-    "numbers": "Teams of 4–5 · 6 min · four hoops.",
-    "cues": [
-      "Touch each hoop.",
-      "Next runner goes on a hand-off.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Wait behind the cone. Go on the high-five.",
-      "Stay in your lane. Pass on the right if you meet someone.",
-      "Quality over sprint — reset if the skill falls apart."
     ],
     "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Around the Bases Relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Thunderball.",
+      "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
       "Year plan: June — match the month’s sport ball when you can.",
-      "Four hoops as bases. First runner circles the diamond and tags the next.",
-      "Bat or beanbag is the baton. It stays in a hoop when you are not running."
+      "Three cone rows. Hit or kick. Past row 1 = 1 point, row 2 = 2, row 3 = 3.",
+      "Defence in the lanes stops the ball before the next row."
     ],
-    "variations": [
-      "Must skip the bases.",
-      "Carry a sport ball and trap at each hoop.",
-      "Change the locomotor: walk, skip, gallop, side-slide. Running is not the only option.",
-      "Quality round: the team must redo a trip if the ball, bag, or pin is dropped.",
-      "Weaker hand or weaker foot home on the last rotation (grades 5–6)."
-    ],
-    "look": "Two teams are not on the same base path.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Around the Bases Relay for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Waits behind the line for the tag."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Hands off — does not throw at a teammate."
-      },
-      {
-        "code": "Character Development",
-        "look": "No extra steps past the line; a drop is picked up and the leg continues."
-      },
-      {
-        "code": "Safety",
-        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Encourages the next runner; does not shame a drop."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
-  "Attention Relay": {
-    "numbers": "Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+  "Fetch Relay": {
+    "numbers": "File of runners · item pile · home hoop or sack",
     "cues": [
       "Wait for the call.",
       "Start on your number or colour.",
@@ -6294,22 +5499,17 @@ window.GAME_EXTRAS = {
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
     ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Attention Relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "Runners wait in a line. Teacher calls a colour, number, or body part. Only that runner goes.",
-      "If you go on the wrong call, jog back and wait."
-    ],
     "variations": [
-      "Add a skill at the cone (jump-stick, 5 skips).",
-      "Two calls at once.",
-      "Change the locomotor: walk, skip, gallop, side-slide. Running is not the only option.",
-      "Quality round: the team must redo a trip if the ball, bag, or pin is dropped.",
-      "Weaker hand or weaker foot home on the last rotation (grades 5–6)."
+      "Teacher calls the colour after go (Candy).",
+      "Bib-sack must travel (Santa).",
+      "Roll the ball around a slalom cone (Snowball).",
+      "Flip three cones, three tries each (Cone Flipper).",
+      "Move one ‘course’ one hoop forward (Three Course Meal).",
+      "Cone balanced on one foot home (Cone Collector).",
+      "Around the Bases: one item is a touch of each base.",
+      "Bucket Carry: the bucket must travel with the item."
     ],
-    "look": "False starts come back without an argument.",
+    "look": "Everyone is moving or has a job in Fetch Relay. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -6339,6 +5539,39 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
+    ],
+    "more": [
+      "Grouping: File of runners · item pile · home hoop or sack",
+      "How a round ends: Most correct items, or first team finished.",
+      "If this happens — Two items: extra goes back.",
+      "If this happens — Sack or bucket left behind: return for it.",
+      "Also called: Attention Relay; Bucket Carry; Around the Bases Relay; Candy Relay; Santa Relay; Cone Flipper; Three Course Meal; Cone Collector.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Two items: extra goes back.",
+      "Sack or bucket left behind: return for it."
+    ],
+    "roundEnds": "Most correct items, or first team finished.",
+    "skins": [
+      "Teacher calls the colour after go (Candy).",
+      "Bib-sack must travel (Santa).",
+      "Roll the ball around a slalom cone (Snowball).",
+      "Flip three cones, three tries each (Cone Flipper).",
+      "Move one ‘course’ one hoop forward (Three Course Meal).",
+      "Cone balanced on one foot home (Cone Collector).",
+      "Around the Bases: one item is a touch of each base.",
+      "Bucket Carry: the bucket must travel with the item."
+    ],
+    "aka": [
+      "Attention Relay",
+      "Bucket Carry",
+      "Around the Bases Relay",
+      "Candy Relay",
+      "Santa Relay",
+      "Cone Flipper",
+      "Three Course Meal",
+      "Cone Collector"
     ]
   },
   "Circle run relay": {
@@ -6350,13 +5583,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Circle run relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "One lap. Next runner."
     ],
     "variations": [
       "Walk-jog for 1–2.",
@@ -6394,7 +5620,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Circle run relay.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: December, February — match the month’s sport ball when you can.",
+      "One lap. Next runner."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Cone Relay": {
     "numbers": "Teams of 4 · 5 min · a stack of cones.",
@@ -6405,14 +5642,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Cone Relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "Carry one cone to the far line, set it, come back, tag.",
-      "Next round: unstack and bring them home."
     ],
     "variations": [
       "Must sidestep.",
@@ -6451,7 +5680,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Cone Relay.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: December, February — match the month’s sport ball when you can.",
+      "Carry one cone to the far line, set it, come back, tag.",
+      "Next round: unstack and bring them home."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Crab-bear walk relay": {
     "numbers": "Short lanes · 3 rounds.",
@@ -6462,13 +5703,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crab-bear walk relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "Crab out, bear back, stretch wrists."
     ],
     "variations": [
       "Knees down if wrists complain.",
@@ -6506,7 +5740,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crab-bear walk relay.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: December, February — match the month’s sport ball when you can.",
+      "Crab out, bear back, stretch wrists."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Dash and Dribble": {
     "numbers": "Relay teams of 4 · 6 min.",
@@ -6517,14 +5762,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Dash and Dribble.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: September, January — match the month’s sport ball when you can.",
-      "Dribble to a cone, trap, sprint back, tag the next hand.",
-      "If the ball runs away, recover it and keep the turn — no sitting out."
     ],
     "variations": [
       "Weak foot only.",
@@ -6563,7 +5800,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Dash and Dribble.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: September, January — match the month’s sport ball when you can.",
+      "Dribble to a cone, trap, sprint back, tag the next hand.",
+      "If the ball runs away, recover it and keep the turn — no sitting out."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Dribble the gates": {
     "numbers": "Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
@@ -6574,13 +5823,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Dribble the gates.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: September, January — match the month’s sport ball when you can.",
-      "Through the gates and home."
     ],
     "variations": [
       "Two-hand bounce-catch for 1–2.",
@@ -6618,7 +5860,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Dribble the gates.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: September, January — match the month’s sport ball when you can.",
+      "Through the gates and home."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Hockey hurdle dribble": {
     "numbers": "Low cones, sport ball.",
@@ -6629,14 +5882,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hockey hurdle dribble.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
-      "Year plan: September, November, January — match the month’s sport ball when you can.",
-      "Push through the cones. No slapshot."
     ],
     "variations": [
       "Feet-only for 1–2.",
@@ -6675,7 +5920,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hockey hurdle dribble.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
+      "Year plan: September, November, January — match the month’s sport ball when you can.",
+      "Push through the cones. No slapshot."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Hoop underhand relay": {
     "numbers": "Beanbags and two hoops.",
@@ -6686,13 +5943,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hoop underhand relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: February — match the month’s sport ball when you can.",
-      "Three tries. Leave a make."
     ],
     "variations": [
       "Opposite hand for 5–6.",
@@ -6730,62 +5980,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
-  },
-  "Hop-the-hoops relay": {
-    "numbers": "6 hoops · teams of 5.",
-    "cues": [
-      "Soft land.",
-      "Switch feet at the end.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Wait behind the cone. Go on the high-five.",
-      "Stay in your lane. Pass on the right if you meet someone.",
-      "Quality over sprint — reset if the skill falls apart."
     ],
     "more": [
       "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hop-the-hoops relay.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hoop underhand relay.",
       "Watch for early starts. Next runner stays behind the cone until the high-five.",
       "Year plan: February — match the month’s sport ball when you can.",
-      "Right-foot hop out. Left-foot hop home."
+      "Three tries. Leave a make."
     ],
-    "variations": [
-      "Step instead of hop for Grade 1.",
-      "Change the locomotor: walk, skip, gallop, side-slide. Running is not the only option.",
-      "Quality round: the team must redo a trip if the ball, bag, or pin is dropped.",
-      "Weaker hand or weaker foot home on the last rotation (grades 5–6)."
-    ],
-    "look": "Fair starts, a clean skill, and a high-five. Speed does not replace the skill in Hop-the-hoops relay.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Hop-the-hoops relay for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Hops and sticks inside the hoop."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Waits behind the line; tags the next runner kindly."
-      },
-      {
-        "code": "Character Development",
-        "look": "No extra steps past the line; a drop is picked up and the leg continues."
-      },
-      {
-        "code": "Safety",
-        "look": "Does not kick a hoop into the next jumper."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Encourages the next runner; does not shame a drop."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Hungry Snake": {
     "numbers": "One snake of 4–6 · 5 min.",
@@ -6796,14 +6002,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hungry Snake.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "A small chain is the snake. The head tags runners. A tagged runner joins the tail.",
-      "Split at 6 into two snakes."
     ],
     "variations": [
       "Must stay on lines.",
@@ -6842,7 +6040,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hungry Snake.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: December, February — match the month’s sport ball when you can.",
+      "A small chain is the snake. The head tags runners. A tagged runner joins the tail.",
+      "Split at 6 into two snakes."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Ice Cream Cone Relays": {
     "numbers": "Large group · K-4 · 5–8 min rounds.",
@@ -6851,13 +6061,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Ice Cream Cone Relays.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/ice-cream-cone-relays/."
     ],
     "variations": [
       "Change the locomotor: walk, skip, gallop, side-slide. Running is not the only option.",
@@ -6895,10 +6098,21 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses names and kind words; waits a turn without grabbing."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Ice Cream Cone Relays.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: December, February — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/ice-cream-cone-relays/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
-  "Jungle Run Relays": {
-    "numbers": "Teams of 4 · 6 min · cones, a hoop, a jump.",
+  "Jungle Relay": {
+    "numbers": "Even teams · a turn cone · optional bag or cone for the back",
     "cues": [
       "Complete the course.",
       "Hand-off, not a shout.",
@@ -6907,22 +6121,13 @@ window.GAME_EXTRAS = {
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
     ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Jungle Run Relays.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "A short course: weave cones, step in a hoop, jump a line, tag the next runner.",
-      "Walk the course once. Then time a round or race two teams at a time."
-    ],
     "variations": [
-      "Crab one segment.",
-      "Carry a beanbag.",
-      "Change the locomotor: walk, skip, gallop, side-slide. Running is not the only option.",
-      "Quality round: the team must redo a trip if the ball, bag, or pin is dropped.",
-      "Weaker hand or weaker foot home on the last rotation (grades 5–6)."
+      "Cone on the mid-back (Turtle).",
+      "Crawl under a hoop-on-cones (Rabbit Hole).",
+      "Class as tunnels and bridges, other half travels.",
+      "Animals: pick from a posted list."
     ],
-    "look": "The next runner is behind a start cone.",
+    "look": "Everyone is moving or has a job in Jungle Relay. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -6952,63 +6157,32 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
-  },
-  "Memory Relay": {
-    "numbers": "Teams of 4 · 6 min · a card or object sequence.",
-    "cues": [
-      "Look, run, say the sequence.",
-      "Next runner adds one.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Wait behind the cone. Go on the high-five.",
-      "Stay in your lane. Pass on the right if you meet someone.",
-      "Quality over sprint — reset if the skill falls apart."
     ],
     "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Memory Relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "A teacher sequence of 4–6 cones, cards, or locomotor pictures at the far end.",
-      "First runner looks and comes back to tell the team. Second runner checks and adds a move."
+      "Grouping: Even teams · a turn cone · optional bag or cone for the back",
+      "How a round ends: First team home, or fewest drops.",
+      "If this happens — Disguised sprint: send them back to do the animal.",
+      "If this happens — Bag or cone falls off the back: replace and continue from there.",
+      "Also called: Jungle Run Relays; Animals; Animal Crawl; Turtle Race; Rabbit Hole.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
-    "variations": [
-      "Must do the locomotor as well as name it.",
-      "Two sequences.",
-      "Change the locomotor: walk, skip, gallop, side-slide. Running is not the only option.",
-      "Quality round: the team must redo a trip if the ball, bag, or pin is dropped.",
-      "Weaker hand or weaker foot home on the last rotation (grades 5–6)."
+    "ifThis": [
+      "Disguised sprint: send them back to do the animal.",
+      "Bag or cone falls off the back: replace and continue from there."
     ],
-    "look": "Only one runner is at the sequence at a time.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Memory Relay for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Waits behind the line for the tag."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Hands off — does not throw at a teammate."
-      },
-      {
-        "code": "Character Development",
-        "look": "No extra steps past the line; a drop is picked up and the leg continues."
-      },
-      {
-        "code": "Safety",
-        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Encourages the next runner; does not shame a drop."
-      }
+    "roundEnds": "First team home, or fewest drops.",
+    "skins": [
+      "Cone on the mid-back (Turtle).",
+      "Crawl under a hoop-on-cones (Rabbit Hole).",
+      "Class as tunnels and bridges, other half travels.",
+      "Animals: pick from a posted list."
+    ],
+    "aka": [
+      "Jungle Run Relays",
+      "Animals",
+      "Animal Crawl",
+      "Turtle Race",
+      "Rabbit Hole"
     ]
   },
   "Pip, Squeak and Wilbur": {
@@ -7020,14 +6194,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Pip, Squeak and Wilbur.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "Give every student one of three names. Call a name to move; the next name in the story chases.",
-      "Or: three students are Pip, Squeak, and Wilbur and run a chase around a circle while the others are a still wall."
     ],
     "variations": [
       "Whole-class locomotor when your name is called.",
@@ -7066,7 +6232,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Pip, Squeak and Wilbur.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: December, February — match the month’s sport ball when you can.",
+      "Give every student one of three names. Call a name to move; the next name in the story chases.",
+      "Or: three students are Pip, Squeak, and Wilbur and run a chase around a circle while the others are a still wall."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Plant the Trees": {
     "numbers": "Relay teams · 5 min · cones or beanbags + hoops.",
@@ -7077,14 +6255,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Plant the Trees.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "Take one cone or bag, plant it in a hoop (right-way-up), run back, tag.",
-      "Team with a tidy forest (all standing, all in hoops) at the whistle."
     ],
     "variations": [
       "Must skip to the forest.",
@@ -7123,7 +6293,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Plant the Trees.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: December, February — match the month’s sport ball when you can.",
+      "Take one cone or bag, plant it in a hoop (right-way-up), run back, tag.",
+      "Team with a tidy forest (all standing, all in hoops) at the whistle."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Rescue Relay": {
     "numbers": "Teams of 4–5 · 6 min.",
@@ -7134,14 +6316,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Rescue Relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "One runner brings the next teammate back (joined hands or sharing a hoop).",
-      "Then those two rescue the third, and so on."
     ],
     "variations": [
       "Must crab the last rescue.",
@@ -7180,7 +6354,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Rescue Relay.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: December, February — match the month’s sport ball when you can.",
+      "One runner brings the next teammate back (joined hands or sharing a hoop).",
+      "Then those two rescue the third, and so on."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Soccer weave relay": {
     "numbers": "Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
@@ -7191,13 +6377,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Soccer weave relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Weave out. Straight home."
     ],
     "variations": [
       "Weaker foot home in 5–6.",
@@ -7235,7 +6414,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Soccer weave relay.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: September — match the month’s sport ball when you can.",
+      "Weave out. Straight home."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Speed Run Relay": {
     "numbers": "Many teams of 3–4 · 5 min.",
@@ -7246,14 +6436,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Speed Run Relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "Out to a cone, do a named skill (3 jumps, a trap, a touch), back, tag.",
-      "Keep teams short so the wait is one person."
     ],
     "variations": [
       "Weak-foot dribble.",
@@ -7292,10 +6474,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Speed Run Relay.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: December, February — match the month’s sport ball when you can.",
+      "Out to a cone, do a named skill (3 jumps, a trap, a touch), back, tag.",
+      "Keep teams short so the wait is one person."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
-  "Throw-clap-catch relay": {
-    "numbers": "Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+  "Throw-Clap-Catch": {
+    "numbers": "1 ball · circle or pair relay lanes",
     "cues": [
       "Eyes on the ball.",
       "Hands underneath.",
@@ -7304,20 +6498,11 @@ window.GAME_EXTRAS = {
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
     ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Throw-clap-catch relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: May, June — match the month’s sport ball when you can.",
-      "Toss-clap-catch at each cone. High toss at the hoop."
-    ],
     "variations": [
-      "No clap for 1–2.",
-      "Change the locomotor: walk, skip, gallop, side-slide. Running is not the only option.",
-      "Quality round: the team must redo a trip if the ball, bag, or pin is dropped.",
-      "Weaker hand or weaker foot home on the last rotation (grades 5–6)."
+      "Teacher in the middle of a circle.",
+      "Pair relay down the gym."
     ],
-    "look": "Fair starts, a clean skill, and a high-five. Speed does not replace the skill in Throw-clap-catch relay.",
+    "look": "Everyone is moving or has a job in Throw-Clap-Catch. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -7347,10 +6532,32 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
+    ],
+    "more": [
+      "Grouping: 1 ball · circle or pair relay lanes",
+      "How a round ends: Personal clean catches, or first pair through the relay.",
+      "If this happens — Uncatchable throw: replay, no miss.",
+      "If this happens — Whole class claps on a fake: laugh, reset, no mass out.",
+      "Also called: Throw-clap-catch relay; Bounce and Clap; Catch Clap.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Uncatchable throw: replay, no miss.",
+      "Whole class claps on a fake: laugh, reset, no mass out."
+    ],
+    "roundEnds": "Personal clean catches, or first pair through the relay.",
+    "skins": [
+      "Teacher in the middle of a circle.",
+      "Pair relay down the gym."
+    ],
+    "aka": [
+      "Throw-clap-catch relay",
+      "Bounce and Clap",
+      "Catch Clap"
     ]
   },
-  "Toe-tap hoop relay": {
-    "numbers": "Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+  "Hoop Relay": {
+    "numbers": "Lane of hoops · optional ball, stick, or shared hoop",
     "cues": [
       "Taps in the hoop.",
       "Switch feet.",
@@ -7359,20 +6566,14 @@ window.GAME_EXTRAS = {
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
     ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Toe-tap hoop relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: February — match the month’s sport ball when you can.",
-      "Weave, ten toe-taps, home."
-    ],
     "variations": [
-      "Five taps for 1–2.",
-      "Change the locomotor: walk, skip, gallop, side-slide. Running is not the only option.",
-      "Quality round: the team must redo a trip if the ball, bag, or pin is dropped.",
-      "Weaker hand or weaker foot home on the last rotation (grades 5–6)."
+      "Bag must stay in the hoop before you jump in.",
+      "Hoop pinched between two stomachs, drop it over a cone.",
+      "Growing caterpillar steps through after each out-and-back.",
+      "Circle Hoop Pass: pass the hoop down a line without breaking hands.",
+      "Hop-the-hoops: two-foot jumps only."
     ],
-    "look": "Fair starts, a clean skill, and a high-five. Speed does not replace the skill in Toe-tap hoop relay.",
+    "look": "Everyone is moving or has a job in Hoop Relay. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -7402,6 +6603,35 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
+    ],
+    "more": [
+      "Grouping: Lane of hoops · optional ball, stick, or shared hoop",
+      "How a round ends: First team with everyone through.",
+      "If this happens — Early start: back to hoop 1.",
+      "If this happens — Hands on a no-hands carry: restart that pair.",
+      "Also called: Toe-tap hoop relay; Circle Hoop Pass; Circle Hoop; Hop-the-hoops relay; Rabbit Relay; Hula Stick; Caterpillar Relay.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Early start: back to hoop 1.",
+      "Hands on a no-hands carry: restart that pair."
+    ],
+    "roundEnds": "First team with everyone through.",
+    "skins": [
+      "Bag must stay in the hoop before you jump in.",
+      "Hoop pinched between two stomachs, drop it over a cone.",
+      "Growing caterpillar steps through after each out-and-back.",
+      "Circle Hoop Pass: pass the hoop down a line without breaking hands.",
+      "Hop-the-hoops: two-foot jumps only."
+    ],
+    "aka": [
+      "Toe-tap hoop relay",
+      "Circle Hoop Pass",
+      "Circle Hoop",
+      "Hop-the-hoops relay",
+      "Rabbit Relay",
+      "Hula Stick",
+      "Caterpillar Relay"
     ]
   },
   "Wall chest-pass relay": {
@@ -7413,13 +6643,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Wall chest-pass relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: January — match the month’s sport ball when you can.",
-      "Three chest-passes off the wall. Ball back in the hoop."
     ],
     "variations": [
       "Catch-bounce for 1–2.",
@@ -7457,7 +6680,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Wall chest-pass relay.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: January — match the month’s sport ball when you can.",
+      "Three chest-passes off the wall. Ball back in the hoop."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Zig-zag touch relay": {
     "numbers": "Teams of 4–6 · 4–6 min.",
@@ -7468,13 +6702,6 @@ window.GAME_EXTRAS = {
       "Wait behind the cone. Go on the high-five.",
       "Stay in your lane. Pass on the right if you meet someone.",
       "Quality over sprint — reset if the skill falls apart."
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Zig-zag touch relay.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "One runner. Zig-zag. Beanbag from the last hoop. Sit when your team is done."
     ],
     "variations": [
       "Walk for 1–2. Skip for 5–6.",
@@ -7512,7 +6739,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Encourages the next runner; does not shame a drop."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Zig-zag touch relay.",
+      "Watch for early starts. Next runner stays behind the cone until the high-five.",
+      "Year plan: December, February — match the month’s sport ball when you can.",
+      "One runner. Zig-zag. Beanbag from the last hoop. Sit when your team is done."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Back to Base": {
     "numbers": "Whole class · 2 min as a closer.",
@@ -7523,14 +6761,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Back to Base.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Each student or pair has a home hoop.",
-      "On the whistle, everyone returns. Use after circus or station work."
     ],
     "variations": [
       "Must travel a named locomotor home.",
@@ -7569,7 +6799,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Back to Base.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: June — match the month’s sport ball when you can.",
+      "Each student or pair has a home hoop.",
+      "On the whistle, everyone returns. Use after circus or station work."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Buffalo": {
     "numbers": "Whole class · 5–6 min.",
@@ -7580,14 +6822,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Buffalo.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "A small group of ‘buffalo’ link elbows and jog as a herd. 2–3 hunters try to tag a free side.",
-      "A tag joins the herd, or the hunter becomes buffalo and a new hunter steps out."
     ],
     "variations": [
       "Must stay on lines.",
@@ -7625,64 +6859,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
-  },
-  "Captain’s Deck / Shipwreck": {
-    "numbers": "Whole class · 4–6 min · teacher or a student is captain.",
-    "cues": [
-      "Move first, then look.",
-      "Hit the deck means hands and knees, not a dive.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Move the way I named (walk, skip, gallop) — not a race.",
-      "Stop in a balanced shape: two feet, knees soft.",
-      "Give neighbours a hoop of space."
     ],
     "more": [
       "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Captain’s Deck / Shipwreck.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Buffalo.",
       "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
       "Year plan: September, December — match the month’s sport ball when you can.",
-      "Name the four walls once: bow (front), stern (back), port (left), starboard (right). Face the bow to learn left/right.",
-      "Add 3–4 actions: hit the deck, attention (salute and freeze), scrub the deck (knees), climb the rigging (high knees), shark (sit with feet up), freeze."
+      "A small group of ‘buffalo’ link elbows and jog as a herd. 2–3 hunters try to tag a free side.",
+      "A tag joins the herd, or the hunter becomes buffalo and a new hunter steps out."
     ],
-    "variations": [
-      "Storm: jog until ‘calm seas.’",
-      "Two captains: they take turns so listening stays sharp.",
-      "Whisper round, then a music round. Same skills, different energy.",
-      "Let a student call two commands (teacher stays on freeze and safety).",
-      "Add a shape at the freeze: tuck, star, or stork."
-    ],
-    "look": "The whole class commits to the same wall. No sliding into the wall.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Captain’s Deck / Shipwreck for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Shows the named locomotor or shape."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Finds an open pathway on the go signal; does not cut a neighbour in Captain’s Deck / Shipwreck."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Freezes honestly on the signal even if it is fun to keep running."
-      },
-      {
-        "code": "Safety",
-        "look": "Changes movement on the first signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Moves around people, not through them; helps a classmate who missed the cue."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Crazy Beans": {
     "numbers": "Whole class · 4 min.",
@@ -7692,14 +6881,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crazy Beans.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Jumping bean, runner bean, jelly bean, broad bean (wide shape), frozen bean, chilli bean (fast jog), coffee bean (grind / small circle).",
-      "Change every 8–10 seconds. Frozen bean is a still shape for 3 seconds."
     ],
     "variations": [
       "Students invent a bean.",
@@ -7738,7 +6919,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crazy Beans.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: September, December — match the month’s sport ball when you can.",
+      "Jumping bean, runner bean, jelly bean, broad bean (wide shape), frozen bean, chilli bean (fast jog), coffee bean (grind / small circle).",
+      "Change every 8–10 seconds. Frozen bean is a still shape for 3 seconds."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Dash for Safety": {
     "numbers": "Whole class · 5 min · colour hoops.",
@@ -7749,14 +6942,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Dash for Safety.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Students start in a centre square. Call a colour; they dash to that hoop.",
-      "2–3 taggers in the gaps. A tag is a stretch, then you join the next dash."
     ],
     "variations": [
       "Two colours at once.",
@@ -7795,7 +6980,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Dash for Safety.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: September, December — match the month’s sport ball when you can.",
+      "Students start in a centre square. Call a colour; they dash to that hoop.",
+      "2–3 taggers in the gaps. A tag is a stretch, then you join the next dash."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Daytime / Nighttime": {
     "numbers": "Whole class · 4 min.",
@@ -7806,14 +7003,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Daytime / Nighttime.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Teacher or a student faces away and calls ‘daytime’ (jog) or ‘nighttime’ (freeze).",
-      "If you move at night, jog to a wall and back, then re-enter. No sitting out."
     ],
     "variations": [
       "Dawn = slow motion.",
@@ -7852,7 +7041,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Daytime / Nighttime.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: September, December — match the month’s sport ball when you can.",
+      "Teacher or a student faces away and calls ‘daytime’ (jog) or ‘nighttime’ (freeze).",
+      "If you move at night, jog to a wall and back, then re-enter. No sitting out."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Elements Sprint": {
     "numbers": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
@@ -7863,13 +7064,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Elements Sprint.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Fire, Earth, Water — or an animal. Late group: 5 jacks, stay in."
     ],
     "variations": [
       "Two walls for 1–2.",
@@ -7907,7 +7101,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Elements Sprint.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: September, December — match the month’s sport ball when you can.",
+      "Fire, Earth, Water — or an animal. Late group: 5 jacks, stay in."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "European Rhythmic Running": {
     "numbers": "Whole class · 4–6 min.",
@@ -7918,14 +7123,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in European Rhythmic Running.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: February — match the month’s sport ball when you can.",
-      "Jog a circle or a figure-8 on the drum or music.",
-      "Change: walk, skip, side-slide, freeze on a stop in the music."
     ],
     "variations": [
       "Levels on the phrase.",
@@ -7964,67 +7161,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
-  },
-  "Follow the Leader": {
-    "numbers": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-    "cues": [
-      "Leader is silent after the first demo.",
-      "Switch on the drum.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Move the way I named (walk, skip, gallop) — not a race.",
-      "Stop in a balanced shape: two feet, knees soft.",
-      "Give neighbours a hoop of space."
     ],
     "more": [
       "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Follow the Leader.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in European Rhythmic Running.",
       "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Leader chooses a locomotor or a gymnastic shape. Followers copy.",
-      "Every 20 seconds the back of the line becomes leader."
+      "Year plan: February — match the month’s sport ball when you can.",
+      "Jog a circle or a figure-8 on the drum or music.",
+      "Change: walk, skip, side-slide, freeze on a stop in the music."
     ],
-    "variations": [
-      "Must include a level change.",
-      "Mirror (opposite) leader.",
-      "Whisper round, then a music round. Same skills, different energy.",
-      "Let a student call two commands (teacher stays on freeze and safety).",
-      "Add a shape at the freeze: tuck, star, or stork."
-    ],
-    "look": "New leaders are changing the movement, not just jogging.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Follow the Leader for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the beat or the leader."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Finds an open pathway on the go signal; does not cut a neighbour in Follow the Leader."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Freezes honestly on the signal even if it is fun to keep running."
-      },
-      {
-        "code": "Safety",
-        "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Moves around people, not through them; helps a classmate who missed the cue."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
-  "Four Corners Stay-In": {
-    "numbers": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+  "Four Corners": {
+    "numbers": "Four labelled corners · class in the centre",
     "cues": [
       "Walk to a corner.",
       "Called corner does a skill, then stays.",
@@ -8033,20 +7185,12 @@ window.GAME_EXTRAS = {
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
     ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Four Corners Stay-In.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Count from 10. Name a number. Jacks or stretch. New caller."
-    ],
     "variations": [
-      "Teacher calls for 1–2.",
-      "Whisper round, then a music round. Same skills, different energy.",
-      "Let a student call two commands (teacher stays on freeze and safety).",
-      "Add a shape at the freeze: tuck, star, or stork."
+      "Numbers.",
+      "Colours.",
+      "Maths: even corners only."
     ],
-    "look": "The class matches the named movement and can freeze in a balanced shape during Four Corners Stay-In.",
+    "look": "Everyone is moving or has a job in Four Corners. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -8076,6 +7220,29 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
+    ],
+    "more": [
+      "Grouping: Four labelled corners · class in the centre",
+      "How a round ends: 3–6 minutes, then into the main game.",
+      "If this happens — Sliding into corners: send them back to travel again.",
+      "If this happens — Two corners called: they must choose one.",
+      "If this happens — Use the last call to line up.",
+      "Also called: Four Corners Stay-In.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Sliding into corners: send them back to travel again.",
+      "Two corners called: they must choose one.",
+      "Use the last call to line up."
+    ],
+    "roundEnds": "3–6 minutes, then into the main game.",
+    "skins": [
+      "Numbers.",
+      "Colours.",
+      "Maths: even corners only."
+    ],
+    "aka": [
+      "Four Corners Stay-In"
     ]
   },
   "Group Numbers": {
@@ -8087,14 +7254,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Group Numbers.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Jog in space. Call a number. Students make groups of that size in 5 seconds.",
-      "Leftovers make a group with you. Then jog again."
     ],
     "variations": [
       "Must hold a shape in the group.",
@@ -8133,7 +7292,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Group Numbers.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: September, December — match the month’s sport ball when you can.",
+      "Jog in space. Call a number. Students make groups of that size in 5 seconds.",
+      "Leftovers make a group with you. Then jog again."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Here, There, Everywhere": {
     "numbers": "Whole class · 4 min.",
@@ -8143,14 +7314,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Here, There, Everywhere.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Point and call. Change locomotor each round (walk, skip, side-slide).",
-      "Freeze on a drum. No elimination."
     ],
     "variations": [
       "Add ‘home’ = a colour hoop.",
@@ -8189,7 +7352,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Here, There, Everywhere.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: September, December — match the month’s sport ball when you can.",
+      "Point and call. Change locomotor each round (walk, skip, side-slide).",
+      "Freeze on a drum. No elimination."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Human Bop-It": {
     "numbers": "Whole class · 4 min.",
@@ -8200,14 +7375,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Human Bop-It.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Call Bop-It actions as locomotor or shapes: twist, pull (high stretch), spin, bop (jump), pass it (high-five a neighbour).",
-      "Speed up. A wrong move is 3 jumping jacks, stay in."
     ],
     "variations": [
       "Add ‘repeat’ to do the last action twice.",
@@ -8246,7 +7413,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Human Bop-It.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: September, December — match the month’s sport ball when you can.",
+      "Call Bop-It actions as locomotor or shapes: twist, pull (high stretch), spin, bop (jump), pass it (high-five a neighbour).",
+      "Speed up. A wrong move is 3 jumping jacks, stay in."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Land and Sea": {
     "numbers": "Whole class · 4 min · one long line.",
@@ -8257,14 +7436,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Land and Sea.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "A line is the shore. One side is land, the other is sea.",
-      "Jump to the called side. Late jumpers do 5 jumps and stay in."
     ],
     "variations": [
       "Add ‘shark’ = sit with feet up.",
@@ -8303,64 +7474,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
-  },
-  "Laps and Lines / Signals": {
-    "numbers": "Whole class · 5 min.",
-    "cues": [
-      "Signal first, then move.",
-      "Stay on the line you were given.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Move the way I named (walk, skip, gallop) — not a race.",
-      "Stop in a balanced shape: two feet, knees soft.",
-      "Give neighbours a hoop of space."
     ],
     "more": [
       "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Laps and Lines / Signals.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Land and Sea.",
       "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
       "Year plan: September, December — match the month’s sport ball when you can.",
-      "Teach 3–4 hand or whistle signals: jog the perimeter, walk a line, skip to a colour, freeze.",
-      "Students respond without extra talking."
+      "A line is the shore. One side is land, the other is sea.",
+      "Jump to the called side. Late jumpers do 5 jumps and stay in."
     ],
-    "variations": [
-      "Student signal leader.",
-      "Add a muscle-name stretch signal.",
-      "Whisper round, then a music round. Same skills, different energy.",
-      "Let a student call two commands (teacher stays on freeze and safety).",
-      "Add a shape at the freeze: tuck, star, or stork."
-    ],
-    "look": "The class freezes on the first whistle.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Laps and Lines / Signals for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Shows the named locomotor or shape."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Finds an open pathway on the go signal; does not cut a neighbour in Laps and Lines / Signals."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Freezes honestly on the signal even if it is fun to keep running."
-      },
-      {
-        "code": "Safety",
-        "look": "Changes movement on the first signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Moves around people, not through them; helps a classmate who missed the cue."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Rikki Tikki": {
     "numbers": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
@@ -8371,14 +7497,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Rikki Tikki.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Pairs face. Teacher calls two body parts (knee-elbow, toe-shoulder). Partners touch those parts together and freeze.",
-      "Then jog and find a new partner on the drum."
     ],
     "variations": [
       "Add a locomotor between calls.",
@@ -8417,7 +7535,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Rikki Tikki.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: September, December — match the month’s sport ball when you can.",
+      "Pairs face. Teacher calls two body parts (knee-elbow, toe-shoulder). Partners touch those parts together and freeze.",
+      "Then jog and find a new partner on the drum."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Rubber Band": {
     "numbers": "Whole class · 4–5 min · a long rope or elastic, or just a circle of hands.",
@@ -8428,14 +7558,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Rubber Band.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Class holds a rope circle or joins hands. On ‘stretch,’ step back; on ‘snap,’ step in; on ‘travel,’ the whole band jogs.",
-      "If the band breaks, freeze, rejoin, continue."
     ],
     "variations": [
       "Add a shape in the middle.",
@@ -8473,67 +7595,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
-  },
-  "Signals / shapes": {
-    "numbers": "Whole class · 4 min.",
-    "cues": [
-      "Show the shape on the first call.",
-      "Still for 3.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Move the way I named (walk, skip, gallop) — not a race.",
-      "Stop in a balanced shape: two feet, knees soft.",
-      "Give neighbours a hoop of space."
     ],
     "more": [
       "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Signals / shapes.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Rubber Band.",
       "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
       "Year plan: September, December — match the month’s sport ball when you can.",
-      "Teach 4 shapes (tuck, star, stretch, twist) and 3 signals (clap, drum, colour card).",
-      "Students show the matching shape and hold."
+      "Class holds a rope circle or joins hands. On ‘stretch,’ step back; on ‘snap,’ step in; on ‘travel,’ the whole band jogs.",
+      "If the band breaks, freeze, rejoin, continue."
     ],
-    "variations": [
-      "Opposite shape.",
-      "Student signaler.",
-      "Whisper round, then a music round. Same skills, different energy.",
-      "Let a student call two commands (teacher stays on freeze and safety).",
-      "Add a shape at the freeze: tuck, star, or stork."
-    ],
-    "look": "Shapes are tight. Travel stops on the signal.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Signals / shapes for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Shows the named locomotor or shape."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Finds an open pathway on the go signal; does not cut a neighbour in Signals / shapes."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Freezes honestly on the signal even if it is fun to keep running."
-      },
-      {
-        "code": "Safety",
-        "look": "Changes movement on the first signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Moves around people, not through them; helps a classmate who missed the cue."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Silly Bananas": {
-    "numbers": "Whole class · 3–4 min.",
+    "numbers": "Scatter space · no kit",
     "cues": [
       "Be the fruit.",
       "Peel = freeze in a shape.",
@@ -8542,22 +7619,10 @@ window.GAME_EXTRAS = {
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
     ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Silly Bananas.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Call fruits or animals. Students move that way. ‘Peel’ is a still banana shape.",
-      "Use as a rhythm or gymnastics warm-up."
-    ],
     "variations": [
-      "Add a level (low banana).",
-      "Pair bananas.",
-      "Whisper round, then a music round. Same skills, different energy.",
-      "Let a student call two commands (teacher stays on freeze and safety).",
-      "Add a shape at the freeze: tuck, star, or stork."
+      "None from Daly. Keep this card as the fruit/animal travel game only."
     ],
-    "look": "The class matches the named movement and can freeze in a balanced shape during Silly Bananas.",
+    "look": "Everyone is moving or has a job in Silly Bananas. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -8587,7 +7652,21 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Scatter space · no kit",
+      "How a round ends: 3–5 minutes as a warm-up or brain break.",
+      "If this happens — Do not add a one-foot unmask rule under this name. That is Frozen Tag, skin Unmask Tag.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Do not add a one-foot unmask rule under this name. That is Frozen Tag, skin Unmask Tag."
+    ],
+    "roundEnds": "3–5 minutes as a warm-up or brain break.",
+    "skins": [
+      "None from Daly. Keep this card as the fruit/animal travel game only."
+    ],
+    "aka": []
   },
   "Simon Says Stay-In": {
     "numbers": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
@@ -8598,13 +7677,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Simon Says Stay-In.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Keep playing. Student leads the last minute."
     ],
     "variations": [
       "Slow locomotor cues for 1–2.",
@@ -8642,7 +7714,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Simon Says Stay-In.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: September, December — match the month’s sport ball when you can.",
+      "Keep playing. Student leads the last minute."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Video Game": {
     "numbers": "Whole class · 5 min.",
@@ -8653,14 +7736,6 @@ window.GAME_EXTRAS = {
       "Move the way I named (walk, skip, gallop) — not a race.",
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
-    ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Video Game.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Teach 4–5 button actions: A = jump, B = spin, start = jog, pause = freeze, select = change locomotor.",
-      "Call a sequence (A-A-B). Students play the combo."
     ],
     "variations": [
       "Two-player: half the class is player 1.",
@@ -8699,10 +7774,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Video Game.",
+      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+      "Year plan: September, December — match the month’s sport ball when you can.",
+      "Teach 4–5 button actions: A = jump, B = spin, start = jog, pause = freeze, select = change locomotor.",
+      "Call a sequence (A-A-B). Students play the combo."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Volcanoes and Ice-Cream Cones": {
-    "numbers": "Two teams · 3 × 45-second rounds · 20–30 cones.",
+    "numbers": "Two teams · many scattered cones",
     "cues": [
       "Flip, don’t kick.",
       "No guarding a cone.",
@@ -8711,22 +7798,11 @@ window.GAME_EXTRAS = {
       "Stop in a balanced shape: two feet, knees soft.",
       "Give neighbours a hoop of space."
     ],
-    "more": [
-      "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Volcanoes and Ice-Cream Cones.",
-      "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
-      "Year plan: September, December — match the month’s sport ball when you can.",
-      "Scatter cones: half standing (volcanoes), half upside-down (ice-cream).",
-      "One team turns every cone to volcano. The other turns them to ice-cream."
-    ],
     "variations": [
-      "Three teams, three cone states (add on-its-side).",
-      "Must crab-walk.",
-      "Whisper round, then a music round. Same skills, different energy.",
-      "Let a student call two commands (teacher stays on freeze and safety).",
-      "Add a shape at the freeze: tuck, star, or stork."
+      "Halloween: Team Light vs Team Dim (Jack-O’-Lantern).",
+      "Progression: ball on top vs ball underneath."
     ],
-    "look": "Cones are flipped, not thrown. Even work across the gym.",
+    "look": "Everyone is moving or has a job in Volcanoes and Ice-Cream Cones. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -8756,10 +7832,33 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Moves around people, not through them; helps a classmate who missed the cue."
       }
+    ],
+    "more": [
+      "Grouping: Two teams · many scattered cones",
+      "How a round ends: Most cones in your state after 45–90 seconds.",
+      "If this happens — Kicked cone: put it back as it was.",
+      "If this happens — Held so the other team cannot touch it: let go.",
+      "If this happens — Count dispute: teacher counts.",
+      "Also called: Jack-O’-Lantern; Jack-O-Lantern.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Kicked cone: put it back as it was.",
+      "Held so the other team cannot touch it: let go.",
+      "Count dispute: teacher counts."
+    ],
+    "roundEnds": "Most cones in your state after 45–90 seconds.",
+    "skins": [
+      "Halloween: Team Light vs Team Dim (Jack-O’-Lantern).",
+      "Progression: ball on top vs ball underneath."
+    ],
+    "aka": [
+      "Jack-O’-Lantern",
+      "Jack-O-Lantern"
     ]
   },
   "Balloon Keep-Up": {
-    "numbers": "Class or groups of 4–6 · 4–5 min.",
+    "numbers": "Circles of 4–8 · one balloon per circle · optional noodles or rulers",
     "cues": [
       "Call it.",
       "A drop restarts the count, not the player.",
@@ -8768,22 +7867,13 @@ window.GAME_EXTRAS = {
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Balloon Keep-Up.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: March, December, October — match the month’s sport ball when you can.",
-      "Beach ball or balloon. Keep it up. Count a class or group record.",
-      "A drop is a new count. Everyone stays in."
-    ],
     "variations": [
-      "Sit and keep-up.",
-      "Add a second ball.",
-      "Station version: hit, do not catch. Count hits. A drop restarts the count, not the player.",
-      "Smaller groups of 6 if the whole-class version tangles.",
-      "Silent round: only gestures, then talk again to plan."
+      "Hands only.",
+      "Noodle/ruler only.",
+      "Second balloon.",
+      "Seated chairs."
     ],
-    "look": "Players make space after they touch.",
+    "look": "Everyone is moving or has a job in Balloon Keep-Up. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -8813,6 +7903,31 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses a name or ‘mine’ before the send."
       }
+    ],
+    "more": [
+      "Grouping: Circles of 4–8 · one balloon per circle · optional noodles or rulers",
+      "How a round ends: Highest consecutive count, or first circle to 20.",
+      "If this happens — Hard swat: sit one restart, then rejoin.",
+      "If this happens — Sticks clash: widen the circle.",
+      "If this happens — Balloon leaves the circle: retrieve and restart that count.",
+      "Also called: Balloon Keep-Ups; Balloon Keep-Up station.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Hard swat: sit one restart, then rejoin.",
+      "Sticks clash: widen the circle.",
+      "Balloon leaves the circle: retrieve and restart that count."
+    ],
+    "roundEnds": "Highest consecutive count, or first circle to 20.",
+    "skins": [
+      "Hands only.",
+      "Noodle/ruler only.",
+      "Second balloon.",
+      "Seated chairs."
+    ],
+    "aka": [
+      "Balloon Keep-Ups",
+      "Balloon Keep-Up station"
     ]
   },
   "Birthday Lineup": {
@@ -8824,13 +7939,6 @@ window.GAME_EXTRAS = {
       "Use names. Ask before you grab a hoop, rope, or balloon.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
-    ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Birthday Lineup.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "January left, December right. Check once. Try again."
     ],
     "variations": [
       "Teacher may whisper for 1–2.",
@@ -8868,62 +7976,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses gestures, not a shove."
       }
-    ]
-  },
-  "Bucket Carry": {
-    "numbers": "4–6 hands on one hoop.",
-    "cues": [
-      "Every hand stays on.",
-      "Walk.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
-      "If it drops, restart together — no blame.",
-      "Quiet voices so the group can hear the next job."
     ],
     "more": [
       "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bucket Carry.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Birthday Lineup.",
       "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
       "Year plan: December, October — match the month’s sport ball when you can.",
-      "Carry bags in a hoop or light bucket. Reload a drop."
+      "January left, December right. Check once. Try again."
     ],
-    "variations": [
-      "Two bags for 1–2.",
-      "Smaller groups of 6 if the whole-class version tangles.",
-      "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
-    ],
-    "look": "The group solves the task together. Voices stay kind when Bucket Carry gets messy.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Bucket Carry for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Plans a simple order or role with teammates before rushing."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "All hands stay on the hoop."
-      },
-      {
-        "code": "Character Development",
-        "look": "Restarts a drop without blaming a classmate."
-      },
-      {
-        "code": "Safety",
-        "look": "Walks; light load."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Uses names and kind words; waits a turn without pulling equipment away."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Caterpillar Walk": {
     "numbers": "Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
@@ -8934,13 +7998,6 @@ window.GAME_EXTRAS = {
       "Use names. Ask before you grab a hoop, rope, or balloon.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
-    ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Caterpillar Walk.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Hold waist or a shared hoop. Walk the cones. New leader each lap."
     ],
     "variations": [
       "Shoulders for 1–2.",
@@ -8978,87 +8035,34 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
-    ]
-  },
-  "Circle Hoop Pass": {
-    "numbers": "1–2 hoops · whole class.",
-    "cues": [
-      "Do not let go.",
-      "Step or duck.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
-      "If it drops, restart together — no blame.",
-      "Quiet voices so the group can hear the next job."
     ],
     "more": [
       "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Circle Hoop Pass.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: February, December, October — match the month’s sport ball when you can.",
-      "Hoop on one arm first. Travel the circle. Add a second hoop if it is easy.",
-      "Credit: PHYSEDGAMES large-group version: https://physedgames.com/hoop-pass/"
-    ],
-    "variations": [
-      "Large hoop for 1–2.",
-      "Large-group setup from PHYSEDGAMES: A group holds hands in a circle or line. A hula hoop starts on one person’s arm.",
-      "Smaller groups of 6 if the whole-class version tangles.",
-      "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
-    ],
-    "look": "A break is a freeze, not a fail.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Circle Hoop Pass for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Moves the hoop without a yank."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Plans a simple order or role with teammates before rushing."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Keeps the chain unless they need to leave."
-      },
-      {
-        "code": "Character Development",
-        "look": "Restarts a drop without blaming a classmate."
-      },
-      {
-        "code": "Safety",
-        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Uses names and kind words; waits a turn without pulling equipment away."
-      }
-    ]
-  },
-  "Cooperative Wall Ball": {
-    "numbers": "Large group · 1-8 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
-      "If it drops, restart together — no blame.",
-      "Quiet voices so the group can hear the next job."
-    ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Cooperative Wall Ball.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Caterpillar Walk.",
       "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
       "Year plan: December, October — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/cooperative-wall-ball/."
+      "Hold waist or a shared hoop. Walk the cones. New leader each lap."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
+  },
+  "Wall Rally": {
+    "numbers": "Wall, rope, or taped square · 1 soft ball · pairs or 2v2",
+    "cues": [
+      "Freeze on the whistle — then eyes on the teacher.",
+      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "If it drops, restart together — no blame.",
+      "Quiet voices so the group can hear the next job."
     ],
     "variations": [
-      "Smaller groups of 6 if the whole-class version tangles.",
-      "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/cooperative-wall-ball/."
+      "Bench as a net.",
+      "Mini goals (Floorball).",
+      "Taped gaga pit, hits below the waist.",
+      "Cooperative wall ball: count consecutive hits, drop restarts the count."
     ],
-    "look": "The group solves the task together. Voices stay kind when Cooperative Wall Ball gets messy.",
+    "look": "Everyone is moving or has a job in Wall Rally. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -9088,61 +8092,32 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses names and kind words; waits a turn without grabbing."
       }
-    ]
-  },
-  "Cross the River": {
-    "numbers": "Teams of 6–8 · 3 hoops.",
-    "cues": [
-      "Only on a hoop.",
-      "Pass the back hoop forward.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
-      "If it drops, restart together — no blame.",
-      "Quiet voices so the group can hear the next job."
     ],
     "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Cross the River.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Floor touch = two steps back. Floor only — no benches."
+      "Grouping: Wall, rope, or taped square · 1 soft ball · pairs or 2v2",
+      "How a round ends: First to 7, or highest score at time.",
+      "If this happens — Fist smash: redo as an open-hand hit.",
+      "If this happens — Ball lifted in floorball: dead ball, restart.",
+      "Also called: Cooperative Wall Ball; Hand Tennis; Floorball; Wall-ball rally; Gaga.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
-    "variations": [
-      "Four hoops for 1–2.",
-      "Smaller groups of 6 if the whole-class version tangles.",
-      "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+    "ifThis": [
+      "Fist smash: redo as an open-hand hit.",
+      "Ball lifted in floorball: dead ball, restart."
     ],
-    "look": "The group solves the task together. Voices stay kind when Cross the River gets messy.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Cross the River for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Plans where the empty hoop goes."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Waits for a teammate before moving."
-      },
-      {
-        "code": "Character Development",
-        "look": "Restarts a drop without blaming a classmate."
-      },
-      {
-        "code": "Safety",
-        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Uses names and kind words; waits a turn without pulling equipment away."
-      }
+    "roundEnds": "First to 7, or highest score at time.",
+    "skins": [
+      "Bench as a net.",
+      "Mini goals (Floorball).",
+      "Taped gaga pit, hits below the waist.",
+      "Cooperative wall ball: count consecutive hits, drop restarts the count."
+    ],
+    "aka": [
+      "Cooperative Wall Ball",
+      "Hand Tennis",
+      "Floorball",
+      "Wall-ball rally",
+      "Gaga"
     ]
   },
   "Elves, Giants, Wizards": {
@@ -9154,14 +8129,6 @@ window.GAME_EXTRAS = {
       "Use names. Ask before you grab a hoop, rope, or balloon.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Elves, Giants, Wizards.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Like Rock-Paper-Scissors as a team: elves beat giants, giants beat wizards, wizards beat elves. Teach the three shapes.",
-      "Teams huddle, choose one shape, meet at the centre, show on a count of 3."
     ],
     "variations": [
       "Teacher picks the shape for Grade 1.",
@@ -9200,63 +8167,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
-    ]
-  },
-  "Helicopter / Snake rope": {
-    "numbers": "Whole class · 4–5 min · one long rope.",
-    "cues": [
-      "Jump when it comes.",
-      "The rope stays low.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
-      "If it drops, restart together — no blame.",
-      "Quiet voices so the group can hear the next job."
     ],
     "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Helicopter / Snake rope.",
+      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Elves, Giants, Wizards.",
       "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: February, December, October — match the month’s sport ball when you can.",
-      "Helicopter: teacher or a student turns a long rope on the floor in a circle. Jump it as it comes. If you touch, skip out and re-enter after 5 jumps.",
-      "Snake: two turners wiggle a rope on the floor. Step or jump over."
+      "Year plan: December, October — match the month’s sport ball when you can.",
+      "Like Rock-Paper-Scissors as a team: elves beat giants, giants beat wizards, wizards beat elves. Teach the three shapes.",
+      "Teams huddle, choose one shape, meet at the centre, show on a count of 3."
     ],
-    "variations": [
-      "Travel around the helicopter path.",
-      "Smaller groups of 6 if the whole-class version tangles.",
-      "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
-    ],
-    "look": "Heads are up. The rope is not whipped.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Helicopter / Snake rope for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Jumps or steps the rope; quiet land."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Plans a simple order or role with teammates before rushing."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes turns and solves a small problem without grabbing."
-      },
-      {
-        "code": "Character Development",
-        "look": "Restarts a drop without blaming a classmate."
-      },
-      {
-        "code": "Safety",
-        "look": "Rope stays low; no whipping."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Uses names and kind words; waits a turn without pulling equipment away."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Human Knot": {
     "numbers": "Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
@@ -9267,13 +8190,6 @@ window.GAME_EXTRAS = {
       "Use names. Ask before you grab a hoop, rope, or balloon.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
-    ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Human Knot.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Two different hands. Untangle. A leaver becomes a coach."
     ],
     "variations": [
       "Skip for 1–2; use hoop-pass.",
@@ -9311,7 +8227,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Stops when someone says no."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Human Knot.",
+      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
+      "Year plan: December, October — match the month’s sport ball when you can.",
+      "Two different hands. Untangle. A leaver becomes a coach."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Invent-a-game": {
     "numbers": "Groups of 4 · 15–20 min across a lesson.",
@@ -9321,14 +8248,6 @@ window.GAME_EXTRAS = {
       "Use names. Ask before you grab a hoop, rope, or balloon.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
-    ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Invent-a-game.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Give each group a sport ball and 4 cones. They invent a game with a start, a way to score, and one safety rule.",
-      "Play-test for 2 minutes, change one rule, then teach another group."
     ],
     "variations": [
       "Must include a send.",
@@ -9367,7 +8286,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Invent-a-game.",
+      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
+      "Year plan: December, October — match the month’s sport ball when you can.",
+      "Give each group a sport ball and 4 cones. They invent a game with a start, a way to score, and one safety rule.",
+      "Play-test for 2 minutes, change one rule, then teach another group."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Object Toss mixer": {
     "numbers": "Whole class · 5 min · mixed balls, beanbags, and rings.",
@@ -9378,14 +8309,6 @@ window.GAME_EXTRAS = {
       "Use names. Ask before you grab a hoop, rope, or balloon.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
-    ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Object Toss mixer.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Beanbags, light balls, rings in a middle pile.",
-      "On the whistle, take one, find a partner, complete 5 sends, switch objects."
     ],
     "variations": [
       "Non-dominant hand.",
@@ -9424,7 +8347,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Object Toss mixer.",
+      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
+      "Year plan: December, October — match the month’s sport ball when you can.",
+      "Beanbags, light balls, rings in a middle pile.",
+      "On the whistle, take one, find a partner, complete 5 sends, switch objects."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Parachute popcorn / dome / cat-and-mouse": {
     "numbers": "Whole class on the chute · 8–10 min.",
@@ -9435,14 +8370,6 @@ window.GAME_EXTRAS = {
       "Use names. Ask before you grab a hoop, rope, or balloon.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
-    ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Parachute popcorn / dome / cat-and-mouse.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: October, December — match the month’s sport ball when you can.",
-      "Ripples: small waves. Popcorn: light balls or beanbags on the chute — keep them on. Dome: step in, lift, sit on the edge if you taught it.",
-      "Cat and mouse: one student on top (walking), one underneath — only if the dome is well-held and you have taught it. Skip for Grade 1 if the chute is chaotic."
     ],
     "variations": [
       "Number games under the chute.",
@@ -9481,10 +8408,22 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Parachute popcorn / dome / cat-and-mouse.",
+      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
+      "Year plan: October, December — match the month’s sport ball when you can.",
+      "Ripples: small waves. Popcorn: light balls or beanbags on the chute — keep them on. Dome: step in, lift, sit on the edge if you taught it.",
+      "Cat and mouse: one student on top (walking), one underneath — only if the dome is well-held and you have taught it. Skip for Grade 1 if the chute is chaotic."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
-  "Pass It On": {
-    "numbers": "Large group · 2-8 · 5–8 min rounds.",
+  "Copy Chain": {
+    "numbers": "Lines or circles of 6–10 · optional music",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
       "Use names. Ask before you grab a hoop, rope, or balloon.",
@@ -9492,20 +8431,13 @@ window.GAME_EXTRAS = {
       "Quiet voices so the group can hear the next job.",
       "One extra person in a hoop during a swap — no shoving out."
     ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Pass It On.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/pass-it-on/."
-    ],
     "variations": [
-      "Smaller groups of 6 if the whole-class version tangles.",
-      "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/pass-it-on/."
+      "Whisper down a line, last person performs.",
+      "Mirror Mirror: freeze in a pose, partner matches.",
+      "Dance Tag: start a clear dance before the tag to be safe.",
+      "Follow the Leader: one leader, class copies, swap often."
     ],
-    "look": "The group solves the task together. Voices stay kind when Pass It On gets messy.",
+    "look": "Everyone is moving or has a job in Copy Chain. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -9535,10 +8467,37 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses names and kind words; waits a turn without grabbing."
       }
+    ],
+    "more": [
+      "Grouping: Lines or circles of 6–10 · optional music",
+      "How a round ends: Longest clean chain, or likeness score out of 5 if you passed it as a whisper.",
+      "If this happens — Phrase becomes a 30-second routine: cut it down.",
+      "If this happens — Someone shouts the moves ahead: start again silently.",
+      "Also called: Pass It On; Mirror Mirror; Follow the Leader; Dance Whispers; Dance Chain; Dance Tag.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Phrase becomes a 30-second routine: cut it down.",
+      "Someone shouts the moves ahead: start again silently."
+    ],
+    "roundEnds": "Longest clean chain, or likeness score out of 5 if you passed it as a whisper.",
+    "skins": [
+      "Whisper down a line, last person performs.",
+      "Mirror Mirror: freeze in a pose, partner matches.",
+      "Dance Tag: start a clear dance before the tag to be safe.",
+      "Follow the Leader: one leader, class copies, swap often."
+    ],
+    "aka": [
+      "Pass It On",
+      "Mirror Mirror",
+      "Follow the Leader",
+      "Dance Whispers",
+      "Dance Chain",
+      "Dance Tag"
     ]
   },
   "Pulse Race": {
-    "numbers": "Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
+    "numbers": "Two or more lines of 6–10 · coin or colour card · one grab-object per line",
     "cues": [
       "Gentle squeeze.",
       "Last player takes the ball.",
@@ -9547,20 +8506,12 @@ window.GAME_EXTRAS = {
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Pulse Race.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Teacher signal to the first player only. False start: sit and try again."
-    ],
     "variations": [
-      "Thumbs-up for 1–2.",
-      "Smaller groups of 6 if the whole-class version tangles.",
-      "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+      "Classroom sit-down.",
+      "Standing gym lines.",
+      "Hockey day: sticks parked, pulse with hands only."
     ],
-    "look": "The group solves the task together. Voices stay kind when Pulse Race gets messy.",
+    "look": "Everyone is moving or has a job in Pulse Race. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -9590,63 +8541,30 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
-    ]
-  },
-  "Sharks and Dolphins (chute)": {
-    "numbers": "Whole class · 5 min · parachute.",
-    "cues": [
-      "Sharks crawl under. Dolphins hold the chute.",
-      "Soft tag on a foot or ankle.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
-      "If it drops, restart together — no blame.",
-      "Quiet voices so the group can hear the next job."
     ],
     "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Sharks and Dolphins (chute).",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Most students sit or kneel holding the chute (waves). 2–3 sharks under the chute tag a foot.",
-      "A tagged dolphin switches with that shark."
+      "Grouping: Two or more lines of 6–10 · coin or colour card · one grab-object per line",
+      "How a round ends: First line to 5 legal grabs, or play 4–6 rounds.",
+      "If this happens — Squeeze on tails: that line cannot score the round.",
+      "If this happens — Pulse dies mid-line: no grab, replay.",
+      "If this happens — Last player peeks and grabs early: same as a false start.",
+      "Also called: Pulse; Daly Pulse.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
-    "variations": [
-      "Colour sharks: only tag a called colour.",
-      "No under-the-chute for Grade 1 — play island sharks instead.",
-      "Smaller groups of 6 if the whole-class version tangles.",
-      "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+    "ifThis": [
+      "Squeeze on tails: that line cannot score the round.",
+      "Pulse dies mid-line: no grab, replay.",
+      "Last player peeks and grabs early: same as a false start."
     ],
-    "look": "Heads are not under a collapsing chute. Knees are down on the edge.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Sharks and Dolphins (chute) for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Crosses on the call, not after a wait."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Plans a simple order or role with teammates before rushing."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes turns and solves a small problem without grabbing."
-      },
-      {
-        "code": "Character Development",
-        "look": "Restarts a drop without blaming a classmate."
-      },
-      {
-        "code": "Safety",
-        "look": "Tagged player re-enters next wave — no last-one-standing."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Uses names and kind words; waits a turn without pulling equipment away."
-      }
+    "roundEnds": "First line to 5 legal grabs, or play 4–6 rounds.",
+    "skins": [
+      "Classroom sit-down.",
+      "Standing gym lines.",
+      "Hockey day: sticks parked, pulse with hands only."
+    ],
+    "aka": [
+      "Pulse",
+      "Daly Pulse"
     ]
   },
   "Slippery Snakes": {
@@ -9658,14 +8576,6 @@ window.GAME_EXTRAS = {
       "Use names. Ask before you grab a hoop, rope, or balloon.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
-    ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slippery Snakes.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Two turners wiggle a rope. The class lines up and steps or jumps over as it travels.",
-      "Grade 1–2 walk the snake. Grade 3+ jump a faster wiggle."
     ],
     "variations": [
       "Two snakes to cross.",
@@ -9704,62 +8614,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Uses names and kind words; waits a turn without pulling equipment away."
       }
-    ]
-  },
-  "The Great Outdoor Treasure Hunt": {
-    "numbers": "Large group · K-8 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
-      "If it drops, restart together — no blame.",
-      "Quiet voices so the group can hear the next job.",
-      "One extra person in a hoop during a swap — no shoving out.",
-      "Airplane arms on a line. Step off to a stick — do not hop a bench."
     ],
     "more": [
       "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in The Great Outdoor Treasure Hunt.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slippery Snakes.",
       "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
       "Year plan: December, October — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/the-great-outdoor-treasure-hunt/."
+      "Two turners wiggle a rope. The class lines up and steps or jumps over as it travels.",
+      "Grade 1–2 walk the snake. Grade 3+ jump a faster wiggle."
     ],
-    "variations": [
-      "Smaller groups of 6 if the whole-class version tangles.",
-      "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/the-great-outdoor-treasure-hunt/."
-    ],
-    "look": "The group solves the task together. Voices stay kind when The Great Outdoor Treasure Hunt gets messy.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in The Great Outdoor Treasure Hunt for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Plans a simple order or role with teammates before rushing."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "The group finishes the task together."
-      },
-      {
-        "code": "Character Development",
-        "look": "Restarts a drop without blaming a classmate."
-      },
-      {
-        "code": "Safety",
-        "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Uses names and kind words; waits a turn without grabbing."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Voice Path": {
     "numbers": "Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
@@ -9770,13 +8637,6 @@ window.GAME_EXTRAS = {
       "Use names. Ask before you grab a hoop, rope, or balloon.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
-    ],
-    "more": [
-      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Voice Path.",
-      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
-      "Year plan: December, October — match the month’s sport ball when you can.",
-      "Caller on the side. Walker to the far line. Swap."
     ],
     "variations": [
       "Eyes on the floor for most classes.",
@@ -9814,227 +8674,21 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Gives short, kind directions."
       }
-    ]
-  },
-  "Animals": {
-    "numbers": "Large group · K-2 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush."
     ],
     "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Animals.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/animals/."
+      "Grouping: Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Voice Path.",
+      "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
+      "Year plan: December, October — match the month’s sport ball when you can.",
+      "Caller on the side. Walker to the far line. Swap."
     ],
-    "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/animals/."
-    ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Animals.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in the bout for the set time; names breath or warmth after."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the called movement (run, skip, jump, freeze)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft landings; freeze on the signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
-  "Beanbag head walk": {
-    "numbers": "Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-    "cues": [
-      "Airplane arms.",
-      "Walk.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Beanbag head walk.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Bag on the head to the hoop. Drop it in."
-    ],
-    "variations": [
-      "One finger help for 1–2.",
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race."
-    ],
-    "look": "No running with the bag on the head.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Beanbag head walk for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Head still; arms wide."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Walks, does not run."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
-    ]
-  },
-  "Body-part beanbags": {
-    "numbers": "Whole class · 4–5 min · one beanbag each.",
-    "cues": [
-      "Balance, then travel.",
-      "If it drops, pick it up and freeze 3 seconds.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Body-part beanbags.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Place a beanbag on a called part: head, shoulder, back of the hand, elbow.",
-      "Walk, then skip, then change level. Freeze on the drum."
-    ],
-    "variations": [
-      "Must sit and stand with the bag on the head.",
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race."
-    ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Body-part beanbags.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Body-part beanbags for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the send to the object."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Moves on the call, not before."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
-    ]
-  },
-  "Bridges & Rivers": {
-    "numbers": "Large group · K-4 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bridges & Rivers.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/bridges-rivers/."
-    ],
-    "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/bridges-rivers/."
-    ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Bridges & Rivers.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in the bout for the set time; names breath or warmth after."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the called movement (run, skip, jump, freeze)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft landings; freeze on the signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
-    ]
-  },
-  "Fitness Musical Hoops": {
-    "numbers": "Large group · 2-8 · 5–8 min rounds.",
+  "Musical Hoops": {
+    "numbers": "Music · hoops or cones · start with enough for everyone to share",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
       "Quiet landings. Bend ankles, knees, and hips.",
@@ -10042,20 +8696,13 @@ window.GAME_EXTRAS = {
       "Breathe out on the work; do not hold a breath to rush.",
       "Finger pads. Ball stays below the waist on the dribble."
     ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Fitness Musical Hoops.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/fitness-musical-hoops/."
-    ],
     "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/fitness-musical-hoops/."
+      "Icebergs: remove hoops with no music.",
+      "Twister: ‘right hand, blue.’",
+      "Cones instead of hoops.",
+      "Hulahoop Madness: extra hoop jobs for extras."
     ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Fitness Musical Hoops.",
+    "look": "Everyone is moving or has a job in Musical Hoops. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -10085,6 +8732,35 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
+    ],
+    "more": [
+      "Grouping: Music · hoops or cones · start with enough for everyone to share",
+      "How a round ends: Several music stops, then a light closer.",
+      "If this happens — Camping while music plays: they must leave it.",
+      "If this happens — Collision: walking travel.",
+      "If this happens — Tears at the last hoop: keep two hoops and stop.",
+      "Also called: Fitness Musical Hoops; Icebergs; Hula Hoop Twister; Hulahoop Madness; Musical Rings; Musical Cones.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Camping while music plays: they must leave it.",
+      "Collision: walking travel.",
+      "Tears at the last hoop: keep two hoops and stop."
+    ],
+    "roundEnds": "Several music stops, then a light closer.",
+    "skins": [
+      "Icebergs: remove hoops with no music.",
+      "Twister: ‘right hand, blue.’",
+      "Cones instead of hoops.",
+      "Hulahoop Madness: extra hoop jobs for extras."
+    ],
+    "aka": [
+      "Fitness Musical Hoops",
+      "Icebergs",
+      "Hula Hoop Twister",
+      "Hulahoop Madness",
+      "Musical Rings",
+      "Musical Cones"
     ]
   },
   "Floor rope walk": {
@@ -10096,14 +8772,6 @@ window.GAME_EXTRAS = {
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Floor rope walk.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
-      "Year plan: February — match the month’s sport ball when you can.",
-      "Walk the rope or tape. Step off to a stick."
     ],
     "variations": [
       "Wide tape for 1–2. Stork pause for 5–6.",
@@ -10142,7 +8810,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Floor rope walk.",
+      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
+      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
+      "Year plan: February — match the month’s sport ball when you can.",
+      "Walk the rope or tape. Step off to a stick."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Frogs on the Lily Pads": {
     "numbers": "Whole class · 5 min · hoop path.",
@@ -10153,14 +8833,6 @@ window.GAME_EXTRAS = {
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Frogs on the Lily Pads.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Hoop lily pads in 3–4 paths. Jump hoop to hoop and hold the land for a count of 3."
     ],
     "variations": [
       "Two-to-one landings.",
@@ -10199,113 +8871,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
-  },
-  "Hula Hoop Twister": {
-    "numbers": "Large group · K-4 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush."
     ],
     "more": [
       "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hula Hoop Twister.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Frogs on the Lily Pads.",
       "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/hula-hoop-twister/."
+      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
+      "Year plan: February, April — match the month’s sport ball when you can.",
+      "Hoop lily pads in 3–4 paths. Jump hoop to hoop and hold the land for a count of 3."
     ],
-    "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/hula-hoop-twister/."
-    ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Hula Hoop Twister.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in the bout for the set time; names breath or warmth after."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the called movement (run, skip, jump, freeze)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft landings; freeze on the signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
-    ]
-  },
-  "Hulahoop Madness": {
-    "numbers": "Large group · K-5 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hulahoop Madness.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/hulahoop-madness/."
-    ],
-    "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/hulahoop-madness/."
-    ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Hulahoop Madness.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in the bout for the set time; names breath or warmth after."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the called movement (run, skip, jump, freeze)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft landings; freeze on the signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Immersive Workout ADVENTURE All Ages Brain Break": {
     "numbers": "Large group · 1-8 · 5–8 min rounds.",
@@ -10314,13 +8892,6 @@ window.GAME_EXTRAS = {
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Immersive Workout ADVENTURE All Ages Brain Break.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/immersive-workout-adventure-all-ages-brain-break/."
     ],
     "variations": [
       "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
@@ -10358,61 +8929,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
-  },
-  "Jump The River": {
-    "numbers": "Large group · K-8 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush.",
-      "Airplane arms on a line. Step off to a stick — do not hop a bench."
     ],
     "more": [
       "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Jump The River.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Immersive Workout ADVENTURE All Ages Brain Break.",
       "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: May, June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/jump-the-river/."
+      "Year plan: February, April — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/immersive-workout-adventure-all-ages-brain-break/."
     ],
-    "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/jump-the-river/."
-    ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Jump The River.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in the bout for the set time; names breath or warmth after."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the called movement (run, skip, jump, freeze)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft landings; freeze on the signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Knee-ball jumps": {
     "numbers": "Soft ball, short lane.",
@@ -10423,13 +8951,6 @@ window.GAME_EXTRAS = {
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Knee-ball jumps.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: May, June — match the month’s sport ball when you can.",
-      "Ball between the knees. Jump the lane. Reset if it drops."
     ],
     "variations": [
       "Walk-squeeze for 1–2.",
@@ -10467,7 +8988,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Knee-ball jumps.",
+      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
+      "Year plan: May, June — match the month’s sport ball when you can.",
+      "Ball between the knees. Jump the lane. Reset if it drops."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Magic Numbers": {
     "numbers": "Whole class · 4 min.",
@@ -10478,14 +9010,6 @@ window.GAME_EXTRAS = {
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Magic Numbers.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Call a number. Groups build it lying or standing (a 4, an 8).",
-      "Or call a sum (‘make 10’) and they choose a group size."
     ],
     "variations": [
       "Must use a level change.",
@@ -10524,7 +9048,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Magic Numbers.",
+      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
+      "Year plan: February, April — match the month’s sport ball when you can.",
+      "Call a number. Groups build it lying or standing (a 4, an 8).",
+      "Or call a sum (‘make 10’) and they choose a group size."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Mass Challenges": {
     "numbers": "Whole class · 6–8 min.",
@@ -10534,14 +9070,6 @@ window.GAME_EXTRAS = {
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Mass Challenges.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Give a class problem: move all the beanbags in 30 seconds; everyone across the gym touching only mats; keep three beach balls up for 20 seconds.",
-      "If you fail, change one rule and try again."
     ],
     "variations": [
       "Must use only two body parts.",
@@ -10579,7 +9107,19 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Mass Challenges.",
+      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
+      "Year plan: February, April — match the month’s sport ball when you can.",
+      "Give a class problem: move all the beanbags in 30 seconds; everyone across the gym touching only mats; keep three beach balls up for 20 seconds.",
+      "If you fail, change one rule and try again."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Minute Fitness": {
     "numbers": "Large group · 3-8 · 5–8 min rounds.",
@@ -10588,13 +9128,6 @@ window.GAME_EXTRAS = {
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Minute Fitness.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/minute-fitness/."
     ],
     "variations": [
       "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
@@ -10632,114 +9165,18 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
-  },
-  "Mirror Mirror": {
-    "numbers": "Large group · 1-5 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush.",
-      "Finger pads. Ball stays below the waist on the dribble."
     ],
     "more": [
       "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Mirror Mirror.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Minute Fitness.",
       "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
       "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/mirror-mirror/."
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/minute-fitness/."
     ],
-    "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/mirror-mirror/."
-    ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Mirror Mirror.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in the bout for the set time; names breath or warmth after."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the called movement (run, skip, jump, freeze)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft landings; freeze on the signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
-    ]
-  },
-  "Oyster Shell": {
-    "numbers": "Large group · 2-8 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Oyster Shell.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/oyster-shell/."
-    ],
-    "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/oyster-shell/."
-    ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Oyster Shell.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in the bout for the set time; names breath or warmth after."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the called movement (run, skip, jump, freeze)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft landings; freeze on the signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
-    ]
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
   "Pair Running": {
     "numbers": "Large group · 3-8 · 5–8 min rounds.",
@@ -10748,13 +9185,6 @@ window.GAME_EXTRAS = {
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
-    ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Pair Running.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/paarlauf/."
     ],
     "variations": [
       "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
@@ -10792,10 +9222,21 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
+    ],
+    "more": [
+      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Pair Running.",
+      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
+      "Year plan: February, April — match the month’s sport ball when you can.",
+      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/paarlauf/."
+    ],
+    "ifThis": [],
+    "roundEnds": "",
+    "skins": [],
+    "aka": []
   },
-  "Racquet waiter": {
-    "numbers": "Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
+  "Balance Carry": {
+    "numbers": "One object per person or pair · a finish or a court",
     "cues": [
       "Palm up.",
       "Soft toss.",
@@ -10804,20 +9245,15 @@ window.GAME_EXTRAS = {
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
     ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Racquet waiter.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Carry to the cone. Toss into a hoop."
-    ],
     "variations": [
-      "Two-hand carry for 1–2.",
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race."
+      "Cone on one foot, hop home (Cone Collector).",
+      "Bib in the air, place a cone in a hoop, catch the bib (Cone Stack).",
+      "Feet stay in hoop 1, rescue bags from hoop 2 (Core Beanbag Rescue).",
+      "Racquet waiter: bag on a racquet.",
+      "Beanbag head walk.",
+      "Body-part beanbags: named body part holds the bag."
     ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Racquet waiter.",
+    "look": "Everyone is moving or has a job in Balance Carry. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -10847,30 +9283,52 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
+    ],
+    "more": [
+      "Grouping: One object per person or pair · a finish or a court",
+      "How a round ends: First across with it still on, or fewest drops.",
+      "If this happens — Thumb pinching the ball on the whole time: remind them it must sit.",
+      "If this happens — Shoulder charge: no point, both reset.",
+      "Also called: Racquet waiter; Beanbag head walk; Body-part beanbags; Protect the Ice Cream; Cone Stack; Core Beanbag Rescue.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Thumb pinching the ball on the whole time: remind them it must sit.",
+      "Shoulder charge: no point, both reset."
+    ],
+    "roundEnds": "First across with it still on, or fewest drops.",
+    "skins": [
+      "Cone on one foot, hop home (Cone Collector).",
+      "Bib in the air, place a cone in a hoop, catch the bib (Cone Stack).",
+      "Feet stay in hoop 1, rescue bags from hoop 2 (Core Beanbag Rescue).",
+      "Racquet waiter: bag on a racquet.",
+      "Beanbag head walk.",
+      "Body-part beanbags: named body part holds the bag."
+    ],
+    "aka": [
+      "Racquet waiter",
+      "Beanbag head walk",
+      "Body-part beanbags",
+      "Protect the Ice Cream",
+      "Cone Stack",
+      "Core Beanbag Rescue"
     ]
   },
   "Rainbow Road": {
-    "numbers": "Large group · K-4 · 5–8 min rounds.",
+    "numbers": "Scattered colours · home base",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
     ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Rainbow Road.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/843/."
-    ],
     "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/843/."
+      "Cups over hidden colours (Memory Colour).",
+      "Memory Relay: sequence of three colours.",
+      "Card Sharks: flip a card for the next colour.",
+      "Outdoor controls with a simple map (keep Partner Orienteering separate if you want real map work)."
     ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Rainbow Road.",
+    "look": "Everyone is moving or has a job in Rainbow Road. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -10900,83 +9358,49 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
-  },
-  "Red Line": {
-    "numbers": "Large group · K-6 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush."
     ],
     "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Red Line.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/red-line/."
+      "Grouping: Scattered colours · home base",
+      "How a round ends: Most correct collections, or first pair back from a sequence.",
+      "If this happens — Two items taken: extra goes back.",
+      "If this happens — Wrong colour: return it, no score.",
+      "Also called: Memory Relay; The Great Outdoor Treasure Hunt; Treasure Hunt; Card Sharks; Colour Hunt; Memory Colour.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
-    "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/red-line/."
+    "ifThis": [
+      "Two items taken: extra goes back.",
+      "Wrong colour: return it, no score."
     ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Red Line.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in the bout for the set time; names breath or warmth after."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the called movement (run, skip, jump, freeze)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft landings; freeze on the signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
+    "roundEnds": "Most correct collections, or first pair back from a sequence.",
+    "skins": [
+      "Cups over hidden colours (Memory Colour).",
+      "Memory Relay: sequence of three colours.",
+      "Card Sharks: flip a card for the next colour.",
+      "Outdoor controls with a simple map (keep Partner Orienteering separate if you want real map work)."
+    ],
+    "aka": [
+      "Memory Relay",
+      "The Great Outdoor Treasure Hunt",
+      "Treasure Hunt",
+      "Card Sharks",
+      "Colour Hunt",
+      "Memory Colour"
     ]
   },
   "RPS Warm-up": {
-    "numbers": "Large group · 1-8 · 5–8 min rounds.",
+    "numbers": "Pairs · home lines · no kit",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
     ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in RPS Warm-up.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/rps-warm-up/."
-    ],
     "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/rps-warm-up/."
+      "Hop hoop-to-hoop until you meet, then RPS (Daly hop version).",
+      "Cone between pairs; grab on the word ‘cone.’",
+      "RPS Rounders: winner bats, loser fields a short diamond."
     ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in RPS Warm-up.",
+    "look": "Everyone is moving or has a job in RPS Warm-up. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -11006,30 +9430,49 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
+    ],
+    "more": [
+      "Grouping: Pairs · home lines · no kit",
+      "How a round ends: Best of five bouts, or 3–5 minutes.",
+      "If this happens — RPS argument: teacher calls it, play on.",
+      "If this happens — Push instead of a tag: no point.",
+      "If this happens — Need a classroom version: Boom / Clap / Snatch on an object between two seated pupils.",
+      "Also called: RPS Rounders; Carraig Páipéar Siosúr.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "RPS argument: teacher calls it, play on.",
+      "Push instead of a tag: no point.",
+      "Need a classroom version: Boom / Clap / Snatch on an object between two seated pupils."
+    ],
+    "roundEnds": "Best of five bouts, or 3–5 minutes.",
+    "skins": [
+      "Hop hoop-to-hoop until you meet, then RPS (Daly hop version).",
+      "Cone between pairs; grab on the word ‘cone.’",
+      "RPS Rounders: winner bats, loser fields a short diamond."
+    ],
+    "aka": [
+      "RPS Rounders",
+      "Carraig Páipéar Siosúr"
     ]
   },
-  "Rush Hour": {
-    "numbers": "Large group · K-3 · 5–8 min rounds.",
+  "Command Warm-Up": {
+    "numbers": "Scatter space · no kit · a short word list",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
     ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Rush Hour.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/rush-hour/."
-    ],
     "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/rush-hour/."
+      "Christmas shapes.",
+      "Traffic speeds and red light (Rush Hour / Red Line).",
+      "Ship deck commands (Captain’s Deck / Shipwreck).",
+      "Video Camera: freeze in the pose that was called.",
+      "Signals / Laps and Lines: named gym lines.",
+      "Student caller."
     ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Rush Hour.",
+    "look": "Everyone is moving or has a job in Command Warm-Up. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -11059,10 +9502,42 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
+    ],
+    "more": [
+      "Grouping: Scatter space · no kit · a short word list",
+      "How a round ends: 2–4 minutes, then the main game.",
+      "If this happens — Space collisions: smaller shapes, more room.",
+      "If this happens — Need a pulse-raiser: add music and travel the commands.",
+      "Also called: Rush Hour; Red Line; The Video Camera Game; Video Camera; Captain’s Deck / Shipwreck; Shipwreck; Signals / shapes; Laps and Lines / Signals; Christmas Warm-Up.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Space collisions: smaller shapes, more room.",
+      "Need a pulse-raiser: add music and travel the commands."
+    ],
+    "roundEnds": "2–4 minutes, then the main game.",
+    "skins": [
+      "Christmas shapes.",
+      "Traffic speeds and red light (Rush Hour / Red Line).",
+      "Ship deck commands (Captain’s Deck / Shipwreck).",
+      "Video Camera: freeze in the pose that was called.",
+      "Signals / Laps and Lines: named gym lines.",
+      "Student caller."
+    ],
+    "aka": [
+      "Rush Hour",
+      "Red Line",
+      "The Video Camera Game",
+      "Video Camera",
+      "Captain’s Deck / Shipwreck",
+      "Shipwreck",
+      "Signals / shapes",
+      "Laps and Lines / Signals",
+      "Christmas Warm-Up"
     ]
   },
   "Safe to Shore": {
-    "numbers": "Whole class · 5–6 min · mats/hoops as stones.",
+    "numbers": "Start and finish lines · hoops or mats as islands · one spare per team if you want the hard version",
     "cues": [
       "New path if you touch the ‘water.’",
       "Freeze on the whistle — then eyes on the teacher.",
@@ -11070,22 +9545,13 @@ window.GAME_EXTRAS = {
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
     ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Safe to Shore.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Cross the gym on mats or hoops without touching the floor.",
-      "If the water tags your foot, go back and try a new path."
-    ],
     "variations": [
-      "Must log-roll one mat.",
-      "Carry a beanbag.",
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race."
+      "Classmates are tunnels and bridges; the other half travels, then swap.",
+      "Carry a built 6-hoop hut without collapse (Hula Hut — keep as its own card if the build is the lesson).",
+      "Polar Express / Flip Flop: flip mats as you go.",
+      "Cross the River: same islands, one spare hoop."
     ],
-    "look": "Mats stay put. No diving onto a mat.",
+    "look": "Everyone is moving or has a job in Safe to Shore. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -11115,63 +9581,35 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
-  },
-  "Sneak & React": {
-    "numbers": "Large group · K-8 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush."
     ],
     "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Sneak & React.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/sneak-react/."
+      "Grouping: Start and finish lines · hoops or mats as islands · one spare per team if you want the hard version",
+      "How a round ends: First team fully across, or all groups succeed.",
+      "If this happens — Spare hoop left behind: they need it — send someone back.",
+      "If this happens — Island pile-up: one quiet leader talks.",
+      "Also called: Bridges & Rivers; Cross the River; Polar Express; Flip Flop.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
-    "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/sneak-react/."
+    "ifThis": [
+      "Spare hoop left behind: they need it — send someone back.",
+      "Island pile-up: one quiet leader talks."
     ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Sneak & React.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in the bout for the set time; names breath or warmth after."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the called movement (run, skip, jump, freeze)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft landings; freeze on the signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
+    "roundEnds": "First team fully across, or all groups succeed.",
+    "skins": [
+      "Classmates are tunnels and bridges; the other half travels, then swap.",
+      "Carry a built 6-hoop hut without collapse (Hula Hut — keep as its own card if the build is the lesson).",
+      "Polar Express / Flip Flop: flip mats as you go.",
+      "Cross the River: same islands, one spare hoop."
+    ],
+    "aka": [
+      "Bridges & Rivers",
+      "Cross the River",
+      "Polar Express",
+      "Flip Flop"
     ]
   },
-  "Spot-jump path": {
-    "numbers": "Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
+  "Spot-Jump Path": {
+    "numbers": "Spots, hoops, or a river line · clear landing",
     "cues": [
       "Two feet.",
       "Quiet stick.",
@@ -11180,22 +9618,15 @@ window.GAME_EXTRAS = {
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
     ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Spot-jump path.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
-      "Year plan: May, June — match the month’s sport ball when you can.",
-      "Spot to spot. Walk back."
-    ],
     "variations": [
-      "Half-turn on the last spot for 5–6.",
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Feet-only hockey-ball version if sticks are new or the class is tired."
+      "Noodle swept on the floor around a circle (Helicopter).",
+      "Beat jumping.",
+      "Standing long jump, cone behind the heels.",
+      "What’s-the-time jumps toward a caller, then flee.",
+      "Jump The River: one taped river that grows.",
+      "Hurdle hops: low hurdles, same quiet stick."
     ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Spot-jump path.",
+    "look": "Everyone is moving or has a job in Spot-Jump Path. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -11225,83 +9656,50 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
-    ]
-  },
-  "The Video Camera Game": {
-    "numbers": "Large group · K-5 · 5–8 min rounds.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Quiet landings. Bend ankles, knees, and hips.",
-      "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush."
     ],
     "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in The Video Camera Game.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/the-video-camera-game/."
+      "Grouping: Spots, hoops, or a river line · clear landing",
+      "How a round ends: First team through, farthest jump, or most quiet sticks.",
+      "If this happens — Toe over the take-off line: no jump.",
+      "If this happens — Lane clash: pause and separate.",
+      "Also called: Spot-jump path; Jump The River; Helicopter / Snake rope; Helicopter; Frogs & Toads; Hurdle hops.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
-    "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/the-video-camera-game/."
+    "ifThis": [
+      "Toe over the take-off line: no jump.",
+      "Lane clash: pause and separate."
     ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in The Video Camera Game.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in the bout for the set time; names breath or warmth after."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Matches the called movement (run, skip, jump, freeze)."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Paces the set so they can finish, not sprint and collapse."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
-      },
-      {
-        "code": "Character Development",
-        "look": "Records a private number honestly, or skips the number and names effort."
-      },
-      {
-        "code": "Safety",
-        "look": "Soft landings; freeze on the signal."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
-      }
+    "roundEnds": "First team through, farthest jump, or most quiet sticks.",
+    "skins": [
+      "Noodle swept on the floor around a circle (Helicopter).",
+      "Beat jumping.",
+      "Standing long jump, cone behind the heels.",
+      "What’s-the-time jumps toward a caller, then flee.",
+      "Jump The River: one taped river that grows.",
+      "Hurdle hops: low hurdles, same quiet stick."
+    ],
+    "aka": [
+      "Spot-jump path",
+      "Jump The River",
+      "Helicopter / Snake rope",
+      "Helicopter",
+      "Frogs & Toads",
+      "Hurdle hops"
     ]
   },
   "Throw & Go": {
-    "numbers": "Large group · 3-8 · 5–8 min rounds.",
+    "numbers": "Pairs or a circle · 1 ball · space to run a loop",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
       "Breathe out on the work; do not hold a breath to rush."
     ],
-    "more": [
-      "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Throw & Go.",
-      "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: May, June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/throw-go/."
-    ],
     "variations": [
-      "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
-      "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/throw-go/."
+      "Beat Ball: batter hits, then races the fielded ball around the bases.",
+      "Hand It Over / Ball Run: same pass-then-move."
     ],
-    "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Throw & Go.",
+    "look": "Everyone is moving or has a job in Throw & Go. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -11331,6 +9729,30 @@ window.GAME_EXTRAS = {
         "code": "Healthy Relationships",
         "look": "Lets a classmate have a hoop or spot; no blocking a landing."
       }
+    ],
+    "more": [
+      "Grouping: Pairs or a circle · 1 ball · space to run a loop",
+      "How a round ends: First pair to the line, or several music stops.",
+      "If this happens — Who last threw is unclear: the holder when the music stopped runs.",
+      "If this happens — Two balls in a line of three is the hard version — teach one ball first.",
+      "Also called: Throw & Go; Beat Ball / Beat the Ball; Beat Ball; Hand It Over; Ball Run.",
+      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+    ],
+    "ifThis": [
+      "Who last threw is unclear: the holder when the music stopped runs.",
+      "Two balls in a line of three is the hard version — teach one ball first."
+    ],
+    "roundEnds": "First pair to the line, or several music stops.",
+    "skins": [
+      "Beat Ball: batter hits, then races the fielded ball around the bases.",
+      "Hand It Over / Ball Run: same pass-then-move."
+    ],
+    "aka": [
+      "Throw & Go",
+      "Beat Ball / Beat the Ball",
+      "Beat Ball",
+      "Hand It Over",
+      "Ball Run"
     ]
   }
 };
