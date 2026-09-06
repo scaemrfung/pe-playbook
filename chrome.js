@@ -96,27 +96,6 @@
     document.body.insertAdjacentHTML("afterbegin", topbar());
   }
 
-  function printOneGame(card) {
-    if (!card) return;
-    document.querySelectorAll(".print-target").forEach((el) => el.classList.remove("print-target"));
-    card.classList.add("print-target");
-    document.body.classList.add("print-one-game");
-    const cleanup = () => {
-      document.body.classList.remove("print-one-game");
-      card.classList.remove("print-target");
-      window.removeEventListener("afterprint", cleanup);
-    };
-    window.addEventListener("afterprint", cleanup);
-    window.print();
-    setTimeout(cleanup, 1500);
-  }
-  document.addEventListener("click", (e) => {
-    const btn = e.target.closest(".print-game-btn");
-    if (!btn) return;
-    e.preventDefault();
-    printOneGame(btn.closest("article"));
-  });
-
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", mount);
   } else {

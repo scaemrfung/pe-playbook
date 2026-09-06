@@ -714,38 +714,3 @@ body[data-page="home"] > main.wrap { width: auto; }
 }
 
 
-
-
-/* Print this game */
-.print-actions { margin: 0 0 12px; }
-button.btn-ghost {
-  display: inline-flex;
-  align-items: center;
-  height: 36px;
-  padding: 0 14px;
-  border-radius: 999px;
-  font: inherit;
-  font-weight: 650;
-  font-size: .9rem;
-  cursor: pointer;
-  background: var(--card);
-  color: var(--ink);
-  border: 1px solid var(--line);
-}
-button.btn-ghost:hover { background: var(--surface); }
-
-@media print {
-  body.print-one-game * { visibility: hidden !important; }
-  body.print-one-game .print-target,
-  body.print-one-game .print-target * { visibility: visible !important; }
-  body.print-one-game .print-target {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    box-shadow: none !important;
-    border: none !important;
-  }
-  body.print-one-game .print-actions,
-  body.print-one-game .print-game-btn { display: none !important; }
-}
