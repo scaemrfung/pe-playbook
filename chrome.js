@@ -1,4 +1,10 @@
 (function () {
+  if (!document.querySelector('link[href="palette.css"]')) {
+    const pal = document.createElement("link");
+    pal.rel = "stylesheet";
+    pal.href = "palette.css";
+    document.head.appendChild(pal);
+  }
   const MONTHS = [
     ["September", "Soccer"],
     ["October", "Football"],

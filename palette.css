@@ -1,0 +1,15 @@
+:root {
+  --navy: #1a4f6e;
+  --navy-lt: #d5e6f0;
+  --gold: #c4a035;
+  --accent: #c4a035;
+  --highlight: #1a4f6e;
+}
+body::before {
+  content: "";
+  display: block;
+  height: 6px;
+  background: linear-gradient(90deg, var(--green) 0 34%, var(--gold) 34% 67%, var(--navy) 67% 100%);
+}
+.kicker { color: var(--navy); }
+@media print { body::before { display: none; } }
