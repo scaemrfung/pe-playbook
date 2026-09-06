@@ -406,6 +406,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
               <h2>${numbers[g.name]}. ${g.name}</h2>
               <span class="src">${group.label}</span>
             </div>
+            <p class="print-actions"><button type="button" class="btn-ghost print-game-btn">Print this game</button></p>
             <p class="meta"><strong>When:</strong> ${(g.months || []).join(", ") || "Anytime"} · <strong>Slot:</strong> ${g.slot || "—"}${x.numbers ? ` · ${x.numbers}` : ""}</p>
             <p>${g.purpose || ""}</p>
             ${akaLine}
