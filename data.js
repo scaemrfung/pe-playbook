@@ -1,11 +1,11 @@
 const months = [
   {
     "name": "September",
-    "guide": "Soccer (Weeks 1–2) · football intro (Week 3) · Terry Fox (Week 4)",
+    "guide": "Soccer Weeks 1–2 (Terry Fox Fri Sept 18) · football intro Week 3 · Week 4 buffer / festival",
     "pew": "Movement Skill Development, Safety, Active Living, Healthy Relationships",
     "equipment": "Soccer balls, cones/gates, footballs or foam footballs, pinnies",
     "fitness": "Pulse check after a dribble game. Private skip once late in the month.",
-    "notes": "Soccer balls, no slide tackles. Week 3 is a football intro (hike, catch, throw). Week 4 is Terry Fox — shift the day if your school run falls elsewhere.",
+    "notes": "Soccer balls, no slide tackles. This year Terry Fox is Fri Sept 18 during Soccer Week 2 (no gym soccer that day). Week 3 is football intro (hike, catch, throw). Week 4 is a buffer / September festival if the run already happened.",
     "lessons": [
       {
         "w": 1,
@@ -2887,7 +2887,7 @@ const MONTH_GAMES = {
 const GLANCE = [
   [
     "September",
-    "Soccer · football intro · Terry Fox",
+    "Soccer · Terry Fox (Sept 18) · football intro",
     "16 lessons"
   ],
   [
