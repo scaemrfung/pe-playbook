@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weekly plans · SCA Elementary PE Playbook</title>
+  <meta name="description" content="Download weekly PE lesson plan documents for teachers (Grades 1–6)." />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&family=Newsreader:opsz,wght@6..72,500;6..72,560;6..72,650&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="weekly-plans">
+  <header class="site">
+    <div class="wrap row">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 4v16M4 12h16M6.6 7.2c3 2.2 7.8 2.2 10.8 0M6.6 16.8c3-2.2 7.8-2.2 10.8 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">SCA PE Playbook<span>Alberta PEW · Grades 1–6 · 4 × 30 min</span></span>
+      </a>
+      <form class="site-search" action="games.html" method="get" role="search">
+        <label class="sr-only" for="site-q">Search games</label>
+        <input id="site-q" name="q" type="search" placeholder="Search games…" autocomplete="off" />
+        <button type="submit" aria-label="Search games">Search</button>
+      </form>
+      <nav>
+        <a href="index.html">Year</a>
+        <a href="games.html">Games</a>
+        <a href="dodgeball.html">Dodgeball</a>
+        <a href="gymnastics.html">Gymnastics</a>
+        <a href="track-day.html">Track Day</a>
+        <a href="videos.html">Videos</a>
+        <a href="outcomes.html">PEW</a>
+        <a href="fitness.html">Fitness</a>
+        <a class="active" href="weekly-plans.html">Weekly plans</a>
+        <a href="how.html">How</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" style="padding:28px 0 40px">
+    <div class="panel">
+      <h1 style="margin-top:0;color:var(--navy)">Weekly PE plans</h1>
+      <p>Download the Word handouts for each school week (Grades 1–2 / 3–4 / 5–6). Built to match this playbook — warm-up, skill, game, cool-down, with PEW look-fors and game links.</p>
+      <p class="meta">Newest weeks are at the top. Open in Word or Google Docs.</p>
+    </div>
+    <div class="panel">
+      <div id="plan-list"><p class="meta">Loading plans…</p></div>
+    </div>
+  </main>
+  <script src="chrome.js"></script>
+  <script src="weekly-plans-data.js"></script>
+  <script>
+    (function () {
+      const box = document.getElementById("plan-list");
+      const plans = window.WEEKLY_PLANS || [];
+      if (!plans.length) {
+        box.innerHTML = "<p>No weekly plans posted yet.</p>";
+        return;
+      }
+      const byMonth = {};
+      plans.forEach((p) => {
+        const m = p.month || "Other";
+        (byMonth[m] = byMonth[m] || []).push(p);
+      });
+      const months = Object.keys(byMonth);
+      box.innerHTML = months.map((month) => {
+        const rows = byMonth[month].map((p) => {
+          const name = (p.file || "").split("/").pop() || "plan.docx";
+          return `<tr>
+            <td><strong>${p.title}</strong>${p.note ? `<div class="meta">${p.note}</div>` : ""}</td>
+            <td><a class="btn" href="${p.file}" download="${name}">Download .docx</a></td>
+          </tr>`;
+        }).join("");
+        return `<h2 style="margin-top:0;color:var(--green)">${month}</h2>
+          <table class="games"><thead><tr><th>Week</th><th>Download</th></tr></thead>
+          <tbody>${rows}</tbody></table>`;
+      }).join("");
+    })();
+  </script>
+</body>
+</html>

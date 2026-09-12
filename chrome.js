@@ -43,13 +43,14 @@
       ["dodgeball.html", "04", "Dodgeball"],
       ["outcomes.html", "05", "Alberta PEW"],
       ["fitness.html", "06", "Fitness"],
-      ["videos.html", "07", "Videos"],
+      ["weekly-plans.html", "07", "Weekly plans"],
+      ["videos.html", "08", "Videos"],
     ]
       .map(([h, n, l]) => link(h, n, l, mark(h)))
       .join("");
     const events = [
-      ["gymnastics.html", "08", "Gymnastics"],
-      ["track-day.html", "09", "Track Day"],
+      ["gymnastics.html", "09", "Gymnastics"],
+      ["track-day.html", "10", "Track Day"],
     ]
       .map(([h, n, l]) => link(h, n, l, mark(h)))
       .join("");
@@ -74,6 +75,7 @@
       <a href="how.html">How to teach</a>
       <a href="games.html">Games</a>
       <a href="dodgeball.html">Dodgeball</a>
+      <a href="weekly-plans.html">Weekly plans</a>
       <a href="month.html?m=September">September</a>
     </nav>`;
   }
