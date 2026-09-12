@@ -32,11 +32,21 @@
         <a href="videos.html">Videos</a>
         <a href="outcomes.html">PEW</a>
         <a href="fitness.html">Fitness</a>
+        <a href="weekly-plans.html">Weekly plans</a>
         <a href="how.html">How</a>
       </nav>
     </div>
   </header>
   <main>
+    <section class="wrap whats-new-wrap" aria-label="What's new this week">
+      <aside class="whats-new" id="whats-new">
+        <p class="whats-new-kicker">What's New This Week</p>
+        <div id="whats-new-body">
+          <p class="whats-new-title">Loading…</p>
+        </div>
+      </aside>
+    </section>
+
     <section class="home-hero wrap">
       <div>
         <p class="kicker">Physical Education and Wellness · Grades 1–6</p>
@@ -120,6 +130,27 @@
     </div>
   </footer>
   <script src="chrome.js"></script>
+  <script src="weekly-plans-data.js"></script>
+  <script>
+    (function () {
+      const body = document.getElementById("whats-new-body");
+      if (!body) return;
+      const plan = (window.WEEKLY_PLANS || [])[0];
+      if (!plan) {
+        body.innerHTML = "<p class=\"whats-new-title\">No weekly plan posted yet.</p><p><a href=\"weekly-plans.html\">See weekly plans</a></p>";
+        return;
+      }
+      const note = plan.note ? `<p class="whats-new-note">${plan.note}</p>` : "";
+      const name = (plan.file || "").split("/").pop() || "plan.docx";
+      body.innerHTML = `
+        <p class="whats-new-title">${plan.title}</p>
+        ${note}
+        <p class="whats-new-actions">
+          <a class="whats-new-btn" href="${plan.file}" download="${name}">Download this week's plan</a>
+          <a class="whats-new-link" href="weekly-plans.html">All weekly plans</a>
+        </p>`;
+    })();
+  </script>
   <script src="data.js"></script>
   <script src="k2-games.js"></script>
   <script src="g36-games.js"></script>
