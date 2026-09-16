@@ -135,7 +135,8 @@
     (function () {
       const body = document.getElementById("whats-new-body");
       if (!body) return;
-      const plan = (window.WEEKLY_PLANS || [])[0];
+      const plans = window.WEEKLY_PLANS || [];
+      const plan = plans.find((p) => p.featured) || plans[plans.length - 1];
       if (!plan) {
         body.innerHTML = "<p class=\"whats-new-title\">No weekly plan posted yet.</p><p><a href=\"weekly-plans.html\">See weekly plans</a></p>";
         return;
