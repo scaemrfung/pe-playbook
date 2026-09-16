@@ -1,12 +1,12 @@
 /* Teacher download list for weekly PE plans (from PE Game Ideas).
-   Chronological order (oldest → newest). Mark the current school week with featured: true for What’s New. */
+   Newest → oldest. Mark the current school week with featured: true for What’s New. */
 window.WEEKLY_PLANS = [
   {
-    title: "Sept 8–11 2026 · Soccer Week 2",
+    title: "Sept 21–25 2026 · Football Week 4",
     month: "September 2026",
-    theme: "Soccer",
-    file: "weekly-plans/PE-Weekly-Plan-Sept-8-11-2026-Soccer.docx",
-    note: "Short week (Labour Day Mon) · Week 2 soccer"
+    theme: "Football",
+    file: "weekly-plans/PE-Weekly-Plan-Sept-21-25-2026-Football-Week-4.docx",
+    note: "Next week · football intro (hike, catch, throw, move to the catch)"
   },
   {
     title: "Sept 14–18 2026 · Soccer Week 3",
@@ -17,10 +17,10 @@ window.WEEKLY_PLANS = [
     featured: true
   },
   {
-    title: "Sept 21–25 2026 · Football Week 4",
+    title: "Sept 8–11 2026 · Soccer Week 2",
     month: "September 2026",
-    theme: "Football",
-    file: "weekly-plans/PE-Weekly-Plan-Sept-21-25-2026-Football-Week-4.docx",
-    note: "Next week · football intro (hike, catch, throw, move to the catch)"
+    theme: "Soccer",
+    file: "weekly-plans/PE-Weekly-Plan-Sept-8-11-2026-Soccer.docx",
+    note: "Short week (Labour Day Mon) · Week 2 soccer"
   }
 ];
