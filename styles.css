@@ -776,3 +776,14 @@ a.whats-new-link {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+.site-updated-stamp {
+  font-size: 11px;
+  line-height: 1.3;
+  color: #6b7280;
+  text-align: right;
+  padding: 3px 16px;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+  background: transparent;
+}
+@media print { .site-updated-stamp { display: none !important; } }
