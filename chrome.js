@@ -79,6 +79,46 @@
       <a href="month.html?m=September">September</a>
     </nav>`;
   }
+
+  function ensureUpdatedStamp(repo) {
+    if (document.querySelector(".site-updated-stamp")) return;
+    const el = document.createElement("div");
+    el.className = "site-updated-stamp no-print";
+    el.setAttribute("aria-label", "Site last updated");
+    el.textContent = "Updated …";
+    document.body.insertBefore(el, document.body.firstChild);
+
+    function formatStamp(iso) {
+      const d = new Date(iso);
+      if (isNaN(d.getTime())) return "Updated …";
+      const formatted = new Intl.DateTimeFormat("en-CA", {
+        timeZone: "America/Edmonton",
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+        hour: "numeric",
+        minute: "2-digit",
+      }).format(d);
+      return `Updated ${formatted} MT`;
+    }
+
+    function fallback() {
+      el.textContent = formatStamp(document.lastModified || new Date().toISOString());
+    }
+
+    fetch(`https://api.github.com/repos/${repo}/commits?per_page=1`)
+      .then((r) => {
+        if (!r.ok) throw new Error("bad status");
+        return r.json();
+      })
+      .then((data) => {
+        const date = data?.[0]?.commit?.committer?.date;
+        if (date) el.textContent = formatStamp(date);
+        else fallback();
+      })
+      .catch(fallback);
+  }
+
   function mount() {
     if (document.body.dataset.chrome === "1") return;
     document.body.dataset.chrome = "1";
@@ -96,6 +136,7 @@
     wrap.appendChild(main);
     main.classList.add("main");
     document.body.insertAdjacentHTML("afterbegin", topbar());
+    ensureUpdatedStamp("scaemrfung/pe-playbook");
   }
 
   if (document.readyState === "loading") {
