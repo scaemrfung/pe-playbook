@@ -6,15 +6,15 @@ window.WEEKLY_PLANS = [
     month: "September 2026",
     theme: "Football",
     file: "weekly-plans/PE-Weekly-Plan-Sept-21-25-2026-Football-Week-4.docx",
-    note: "Next week · football intro (hike, catch, throw, move to the catch)"
+    note: "Football intro · Perfect Pass, Mat Football, optional Football Frenzy · Horse and Jockey warm-up",
+    featured: true
   },
   {
     title: "Sept 14–18 2026 · Soccer Week 3",
     month: "September 2026",
     theme: "Soccer",
     file: "weekly-plans/PE-Weekly-Plan-Sept-14-18-2026-Soccer-Week-3.docx",
-    note: "Mon–Thu soccer Week 3 · Fri Sept 18 Terry Fox Day / Run (no gym soccer PE)",
-    featured: true
+    note: "Mon–Thu soccer Week 3 · Fri Sept 18 Terry Fox Day / Run (no gym soccer PE)"
   },
   {
     title: "Sept 8–11 2026 · Soccer Week 2",
