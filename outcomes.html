@@ -61,11 +61,13 @@
     <div class="panel">
       <h2>How to assess in this playbook</h2>
       <ul class="clean">
-        <li><strong>Report the learning outcome, not the score.</strong> Who won Hospital Tag does not go on the report card.</li>
+        <li><strong>Report the learning outcome, not the score.</strong> Who won Hospital Tag does not go on the report card. Score PE outcome achievement, not behaviour-as-mark.</li>
+        <li><strong>School achievement scales.</strong> <em>K–2:</em> Not Yet · Meeting · Mastering (tick NY · M · Ma). <em>Grades 3–6:</em> Not Yet · Minimally Meeting · Solidifying · Mastering (tick NY · Min · S · Ma).</li>
+        <li><strong>Bands.</strong> Below Standards = Not Yet (+ Minimally Meeting on 3–6). Meeting Standards = Meeting/Solidifying + Mastering. <strong>Mastering</strong> = grade-level transfer/explain — not beyond grade or extra volume.</li>
         <li><strong>One or two look-fors per class</strong> is enough. Tick a checklist once a week, not every 30 minutes.</li>
         <li><strong>Fitness numbers stay private.</strong> Never post times or ranks. Date the sheet; compare a student to their own baseline.</li>
         <li><strong>Use three tools:</strong> observation during the game, a short exit question (name a muscle, show a freeze), and a monthly skill look-for.</li>
-        <li><strong>Grade bands.</strong> Same game, different evidence: Grades 1–2 walk and listen; 3–4 refine and cooperate; 5–6 lead and adapt.</li>
+        <li><strong>Grade bands for evidence.</strong> Same game, different look-fors: Grades 1–2 walk and listen; 3–4 refine and cooperate; 5–6 lead and adapt — still within grade-level Mastering.</li>
       </ul>
       <table class="games" style="margin-top:12px">
         <thead><tr><th>When</th><th>What you collect</th><th>Where it lives on this site</th></tr></thead>
@@ -196,19 +198,39 @@
       const R = (window.UNIT_RUBRICS || {})[active];
       if (!rubBox) return;
       if (!R) { rubBox.innerHTML = ""; return; }
-      const heads = (R.levels || []).map((lv) => `<th>${lv}</th>`).join("");
+      const levels36 = R.levels || ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"];
+      const levelsK2 = R.levelsK2 || ["Not Yet", "Meeting", "Mastering"];
+      const heads36 = levels36.map((lv) => `<th>${lv}</th>`).join("");
+      const headsK2 = levelsK2.map((lv) => `<th>${lv}</th>`).join("");
+      const cellsK2 = (row) => {
+        if (row.levelsK2 && row.levelsK2.length) return row.levelsK2;
+        // Fallback: collapse 4-level row to K–2 (skip Minimally Meeting)
+        const L = row.levels || [];
+        if (L.length >= 4) return [L[0], L[2], L[3]];
+        return L;
+      };
       rubBox.innerHTML = `
         <h3 style="color:var(--navy);margin:28px 0 8px">Assessment rubric · ${R.title || active}</h3>
-        <p class="meta">Four levels for report comments and checklists. Tick the level that fits <em>most of the time</em> this month. Fitness rows stay private — never rank the class.</p>
+        <p class="meta">School achievement scales. Tick the level that fits <em>most of the time</em> this month. <strong>K–2:</strong> Not Yet · Meeting · Mastering. <strong>3–6:</strong> Not Yet · Minimally Meeting · Solidifying · Mastering. Mastering = grade-level transfer/explain — not beyond grade. Fitness rows stay private — never rank the class.</p>
+        <h4 style="color:var(--navy);margin:16px 0 6px">Grades K–2 (3 levels)</h4>
         <div class="rubric-wrap">
           <table class="games rubric">
-            <thead><tr><th>Criterion</th><th>OI</th>${heads}</tr></thead>
+            <thead><tr><th>Criterion</th><th>OI</th>${headsK2}</tr></thead>
+            <tbody>${(R.rows || []).map((row) =>
+              `<tr><td><strong>${row.criterion}</strong></td><td class="meta">${row.oi || ""}</td>${cellsK2(row).map((cell) => `<td>${cell}</td>`).join("")}</tr>`
+            ).join("")}</tbody>
+          </table>
+        </div>
+        <h4 style="color:var(--navy);margin:20px 0 6px">Grades 3–6 (4 levels)</h4>
+        <div class="rubric-wrap">
+          <table class="games rubric">
+            <thead><tr><th>Criterion</th><th>OI</th>${heads36}</tr></thead>
             <tbody>${(R.rows || []).map((row) =>
               `<tr><td><strong>${row.criterion}</strong></td><td class="meta">${row.oi || ""}</td>${(row.levels || []).map((cell) => `<td>${cell}</td>`).join("")}</tr>`
             ).join("")}</tbody>
           </table>
         </div>
-        <p class="note">Print tip: use landscape, or copy one criterion row into your gradebook. Match final report comments to the <a href="#report-card">report-card outcomes</a> for the grade.</p>`;
+        <p class="note">Print tip: use landscape, or copy one criterion row into your gradebook. Match final report comments to the <a href="#report-card">report-card outcomes</a> for the grade and to the school achievement scales. See also <a href="rubric.html">sample rubric</a>.</p>`;
     }
 
     filters.addEventListener("click", (e) => {
