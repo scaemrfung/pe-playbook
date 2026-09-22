@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Warm Up Games - No Gym, No Problem · SCA Elementary PE Playbook</title>
+  <meta name="description" content="Warm-up games for classroom, hallway, gym, and outside when the gym isn’t available or you need a quick start." />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&family=Newsreader:opsz,wght@6..72,500;6..72,560;6..72,650&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .space-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
+    .space-tag {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--navy-lt);
+      color: var(--navy);
+    }
+    .game-note {
+      margin: 10px 0 0;
+      padding: 10px 12px;
+      background: #eef5fb;
+      border-left: 4px solid var(--navy);
+      border-radius: 0 8px 8px 0;
+      font-size: .92rem;
+    }
+    .download-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
+  </style>
+</head>
+<body data-page="warmup-nogym">
+  <header class="site">
+    <div class="wrap row">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 4v16M4 12h16M6.6 7.2c3 2.2 7.8 2.2 10.8 0M6.6 16.8c3-2.2 7.8-2.2 10.8 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">SCA PE Playbook<span>Alberta PEW · Grades 1–6 · 4 × 30 min</span></span>
+      </a>
+      <form class="site-search" action="games.html" method="get" role="search">
+        <label class="sr-only" for="site-q">Search games</label>
+        <input id="site-q" name="q" type="search" placeholder="Search games…" autocomplete="off" />
+        <button type="submit" aria-label="Search games">Search</button>
+      </form>
+      <nav>
+        <a href="index.html">Year</a>
+        <a href="games.html">Games</a>
+        <a class="active" href="warmup-nogym.html">Warm-ups</a>
+        <a href="dodgeball.html">Dodgeball</a>
+        <a href="gymnastics.html">Gymnastics</a>
+        <a href="track-day.html">Track Day</a>
+        <a href="videos.html">Videos</a>
+        <a href="outcomes.html">PEW</a>
+        <a href="fitness.html">Fitness</a>
+        <a href="how.html">How</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" style="padding:28px 0 40px">
+    <div class="panel">
+      <h1 style="margin-top:0;color:var(--navy)">Warm Up Games - No Gym, No Problem</h1>
+      <p>Quick warm-ups when the gym isn’t available, you’re stuck in a classroom or hallway, or you need a fast start before the main lesson. Games are tagged by <strong>Classroom</strong>, <strong>Gym</strong>, <strong>Outside</strong>, and <strong>Hallway</strong> — use the filters to match your space.</p>
+      <p class="meta">Soft tags where possible. Prefer stay-in / no-elimination endings (freezes, role swaps, fitness side tasks, time limits) so nobody sits the period out. Follow your school’s safety rules.</p>
+      <div class="download-row no-print">
+        <a class="btn" href="warmup-nogym-part1.pdf" download>Download source PDF · Part 1 (games 1–18)</a>
+        <a class="btn" href="warmup-nogym-part2.pdf" download>Download source PDF · Part 2 (games 19–34)</a>
+      </div>
+      <p class="meta" style="margin-top:10px">Source pack updated Sept. 2017 · classroom + gym + outside warm-ups in one list.</p>
+      <label class="meta" for="warmup-q" style="display:block;margin:14px 0 6px;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700">Find a warm-up</label>
+      <p><input class="search" id="warmup-q" type="search" placeholder="Alphabet Soup, Bean Bag Relays, Chuck the Chicken…" style="width:min(520px,100%)" /></p>
+      <p class="meta" style="margin-top:14px;margin-bottom:6px;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700">Space</p>
+      <div class="filters" id="space-filters" role="group" aria-label="Filter by space"></div>
+      <p class="meta" id="result-count"></p>
+    </div>
+    <div id="list"></div>
+  </main>
+  <script src="chrome.js"></script>
+  <script src="warmup-nogym-data.js"></script>
+  <script>
+    (function () {
+      const games = window.WARMUP_NOGYM_GAMES || [];
+      const box = document.getElementById("list");
+      const q = document.getElementById("warmup-q");
+      const filters = document.getElementById("space-filters");
+      const countEl = document.getElementById("result-count");
+      const SPACES = ["Any", "Classroom", "Gym", "Outside", "Hallway"];
+      let space = "Any";
+
+      function labelSpace(s) {
+        return s.charAt(0).toUpperCase() + s.slice(1);
+      }
+
+      function hay(g) {
+        return [
+          g.number, g.title, g.equipment,
+          (g.space || []).join(" "),
+          (g.how || []).join(" "),
+          (g.variations || []).join(" "),
+          g.notes || "",
+        ].join(" ").toLowerCase();
+      }
+
+      function drawFilters() {
+        filters.innerHTML = SPACES.map((s) => {
+          const on = space === s ? " on" : "";
+          return `<button type="button" class="${on}" data-space="${s}">${s}</button>`;
+        }).join("");
+        filters.querySelectorAll("button").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            space = btn.getAttribute("data-space");
+            draw();
+          });
+        });
+      }
+
+      function draw() {
+        drawFilters();
+        const term = ((q && q.value) || "").toLowerCase().trim();
+        const list = games.filter((g) => {
+          if (term && !hay(g).includes(term)) return false;
+          if (space !== "Any") {
+            const key = space.toLowerCase();
+            if (!(g.space || []).includes(key)) return false;
+          }
+          return true;
+        });
+        countEl.textContent = list.length
+          ? `${list.length} warm-up${list.length === 1 ? "" : "s"}`
+          : "No matches.";
+        box.innerHTML = list.map((g) => {
+          const tags = (g.space || []).map((s) => `<span class="space-tag">${labelSpace(s)}</span>`).join("");
+          const steps = (g.how || []).map((s) => `<li>${s}</li>`).join("");
+          const vars = g.variations && g.variations.length
+            ? `<h3>Variations</h3><ul class="clean">${g.variations.map((s) => `<li>${s}</li>`).join("")}</ul>`
+            : "";
+          const note = g.notes ? `<p class="game-note">${g.notes}</p>` : "";
+          return `
+          <article class="panel" id="${g.id}">
+            <p class="meta">#${g.number}</p>
+            <h2 style="color:var(--navy);margin-top:4px">${g.title}</h2>
+            <div class="space-tags">${tags}</div>
+            <p><strong>Equipment:</strong> ${g.equipment}</p>
+            <h3>How to play</h3>
+            <ol>${steps}</ol>
+            ${vars}
+            ${note}
+          </article>`;
+        }).join("") || `<div class="panel"><p>No matches. Try another search or space filter.</p></div>`;
+      }
+
+      if (q) q.addEventListener("input", draw);
+      draw();
+    })();
+  </script>
+</body>
+</html>
