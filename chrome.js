@@ -40,17 +40,18 @@
       ["index.html", "01", "Year map"],
       ["how.html", "02", "How to teach"],
       ["games.html", "03", "Games"],
-      ["dodgeball.html", "04", "Dodgeball"],
-      ["outcomes.html", "05", "Alberta PEW"],
-      ["fitness.html", "06", "Fitness"],
-      ["weekly-plans.html", "07", "Weekly plans"],
-      ["videos.html", "08", "Videos"],
+      ["warmup-nogym.html", "04", "Warm-ups"],
+      ["dodgeball.html", "05", "Dodgeball"],
+      ["outcomes.html", "06", "Alberta PEW"],
+      ["fitness.html", "07", "Fitness"],
+      ["weekly-plans.html", "08", "Weekly plans"],
+      ["videos.html", "09", "Videos"],
     ]
       .map(([h, n, l]) => link(h, n, l, mark(h)))
       .join("");
     const events = [
-      ["gymnastics.html", "09", "Gymnastics"],
-      ["track-day.html", "10", "Track Day"],
+      ["gymnastics.html", "10", "Gymnastics"],
+      ["track-day.html", "11", "Track Day"],
     ]
       .map(([h, n, l]) => link(h, n, l, mark(h)))
       .join("");
@@ -74,6 +75,7 @@
       <a href="index.html">Year map</a>
       <a href="how.html">How to teach</a>
       <a href="games.html">Games</a>
+      <a href="warmup-nogym.html">Warm-ups</a>
       <a href="dodgeball.html">Dodgeball</a>
       <a href="weekly-plans.html">Weekly plans</a>
       <a href="month.html?m=September">September</a>
