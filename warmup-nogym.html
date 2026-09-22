@@ -29,6 +29,32 @@
       font-size: .92rem;
     }
     .download-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
+    .watch-demo {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 10px 0 4px;
+      padding: 8px 12px;
+      background: #fff4f0;
+      border: 1px solid #f0c9bc;
+      border-radius: 10px;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--navy);
+    }
+    .watch-demo:hover { background: #ffe8e0; }
+    .watch-demo .meta { font-weight: 500; color: var(--muted); }
+    .how-list { margin: 8px 0 12px; padding-left: 1.25rem; }
+    .how-list li { margin: 0.35rem 0; }
+    .how-list .how-phase {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--navy);
+      margin-right: 6px;
+    }
   </style>
 </head>
 <body data-page="warmup-nogym">
@@ -100,7 +126,23 @@
           (g.how || []).join(" "),
           (g.variations || []).join(" "),
           g.notes || "",
+          g.youtubeLabel || "",
         ].join(" ").toLowerCase();
+      }
+
+      function formatStep(s) {
+        const m = String(s).match(/^(Setup|Play|End(?:\s*\/\s*reset)?|Commands|House rule|Tip)\s*[:—-]\s*(.*)$/i);
+        if (!m) return escapeHtml(s);
+        const phase = m[1].replace(/\s+/g, " ");
+        return `<span class="how-phase">${escapeHtml(phase)}</span>${escapeHtml(m[2])}`;
+      }
+
+      function escapeHtml(str) {
+        return String(str)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
       }
 
       function drawFilters() {
@@ -132,19 +174,24 @@
           : "No matches.";
         box.innerHTML = list.map((g) => {
           const tags = (g.space || []).map((s) => `<span class="space-tag">${labelSpace(s)}</span>`).join("");
-          const steps = (g.how || []).map((s) => `<li>${s}</li>`).join("");
+          const steps = (g.how || []).map((s) => `<li>${formatStep(s)}</li>`).join("");
           const vars = g.variations && g.variations.length
-            ? `<h3>Variations</h3><ul class="clean">${g.variations.map((s) => `<li>${s}</li>`).join("")}</ul>`
+            ? `<h3>Variations</h3><ul class="clean">${g.variations.map((s) => `<li>${escapeHtml(s)}</li>`).join("")}</ul>`
             : "";
-          const note = g.notes ? `<p class="game-note">${g.notes}</p>` : "";
+          const note = g.notes ? `<p class="game-note">${escapeHtml(g.notes)}</p>` : "";
+          const demo = g.youtube
+            ? `<a class="watch-demo" href="${escapeHtml(g.youtube)}" target="_blank" rel="noopener">Watch demo${g.youtubeLabel ? ` <span class="meta">· ${escapeHtml(g.youtubeLabel)}</span>` : ""}</a>
+               <p class="meta" style="margin-top:4px">Clip is a demo. Our house rules still apply (soft tag, stay-in, hits below the shoulders).</p>`
+            : "";
           return `
           <article class="panel" id="${g.id}">
             <p class="meta">#${g.number}</p>
-            <h2 style="color:var(--navy);margin-top:4px">${g.title}</h2>
+            <h2 style="color:var(--navy);margin-top:4px">${escapeHtml(g.title)}</h2>
             <div class="space-tags">${tags}</div>
-            <p><strong>Equipment:</strong> ${g.equipment}</p>
+            <p><strong>Equipment:</strong> ${escapeHtml(g.equipment)}</p>
+            ${demo}
             <h3>How to play</h3>
-            <ol>${steps}</ol>
+            <ol class="how-list">${steps}</ol>
             ${vars}
             ${note}
           </article>`;
