@@ -787,3 +787,33 @@ a.whats-new-link {
   background: transparent;
 }
 @media print { .site-updated-stamp { display: none !important; } }
+
+/* ---- Month page grade picker (month-page.js) ---- */
+.grade-picker { margin: 16px 0 8px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+.grade-picker[hidden] { display: none; }
+.grade-picker-label { margin: 0 0 6px; text-transform: uppercase; letter-spacing: .12em; font-size: .78rem; font-weight: 700; }
+.grade-picker .filters { margin: 0 0 6px; }
+.grade-picker .filters a {
+  display: inline-flex; align-items: center; height: 34px; padding: 0 14px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); color: var(--ink); font-weight: 600; text-decoration: none;
+}
+.grade-picker .filters a.on, .grade-picker .filters a[aria-pressed="true"] { background: var(--navy); color: var(--primary-fg, #fff); border-color: var(--navy); }
+.grade-status { margin: 0; }
+.grade-tag { color: var(--navy); }
+.bands-cell .band { display: block; margin: 0 0 4px; }
+.band-t { display: none; }
+body[data-band] .band-t-all, body[data-band] .band-sep { display: none; }
+body[data-band="g12"] [data-band]:not([data-band="g12"]),
+body[data-band="g34"] [data-band]:not([data-band="g34"]),
+body[data-band="g56"] [data-band]:not([data-band="g56"]) { display: none !important; }
+body[data-band="g12"] .band-t[data-for="g12"],
+body[data-band="g34"] .band-t[data-for="g34"],
+body[data-band="g56"] .band-t[data-for="g56"] { display: inline; font-weight: 700; }
+body[data-band] .band[data-band] { background: var(--gold-lt, #fbf3d9); border-radius: 6px; padding: 2px 6px; }
+body[data-band] .out-grid { grid-template-columns: 1fr; }
+.noscript-note { border-left: 4px solid var(--gold, #c4a035); padding-left: 10px; }
+.month-list li { margin: 0 0 8px; }
+.month-card.current { outline: 2px solid var(--navy); }
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.shell > main, .shell .main { min-width: 0; }
+@media (max-width: 640px) { #month-games table.games { min-width: 560px; } }

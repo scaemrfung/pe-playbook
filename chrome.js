@@ -5,6 +5,10 @@
     pal.href = "palette.css";
     document.head.appendChild(pal);
   }
+  /* SITE:START — single source of truth for the nav and month list.
+     tools/build.js reads this block to write the static <nav> in every HTML
+     page, so the no-JS nav, the sidebar and the mobile nav always match.
+     After editing, run: node tools/build.js */
   const MONTHS = [
     ["September", "Soccer"],
     ["October", "Football"],
@@ -17,52 +21,59 @@
     ["May", "Track"],
     ["June", "Baseball"],
   ];
+  const NAV = [
+    ["index.html", "Year"],
+    ["weekly-plans.html", "Weekly plans"],
+    ["games.html", "Games"],
+    ["warmup-nogym.html", "Warm Up Games"],
+    ["dodgeball.html", "Dodgeball"],
+    ["gymnastics.html", "Gymnastics"],
+    ["track-day.html", "Track Day"],
+    ["videos.html", "Videos"],
+    ["outcomes.html", "Outcomes"],
+    ["fitness.html", "Fitness"],
+    ["how.html", "How to teach"],
+  ];
+  /* SITE:END */
+  function monthFile(name) {
+    return `month-${String(name).toLowerCase()}.html`;
+  }
   function file() {
     return (location.pathname.split("/").pop() || "index.html") || "index.html";
   }
-  function qs(name) {
-    return new URLSearchParams(location.search).get(name) || "";
+  function currentMonthName() {
+    const sy = window.SCHOOL_YEAR;
+    if (sy && sy.currentMonth) return sy.currentMonth().name;
+    const n = new Date().getMonth(); // 0-11
+    const order = [4, 5, 6, 7, 8, 9, null, null, 0, 1, 2, 3]; // Jan..Dec → index in MONTHS
+    const i = order[n];
+    return MONTHS[i == null ? 0 : i][0];
   }
-  function mark(href, extra) {
+  function pageMonth() {
     const f = file();
-    if (extra) return extra;
+    const m = /^month-([a-z]+)\.html$/.exec(f);
+    if (m) return m[1];
+    return "";
+  }
+  function mark(href) {
+    const f = file();
     if (href === "index.html") return f === "index.html" || f === "" || f === "pe-playbook";
-    if (href === "month.html") return f === "month.html";
     return f === href;
   }
   function link(href, ico, label, active) {
-    return `<a class="nav-link${active ? " active" : ""}" href="${href}"><span class="nav-ico">${ico}</span>${label}</a>`;
+    return `<a class="nav-link${active ? " active" : ""}" href="${href}"${active ? ' aria-current="page"' : ""}><span class="nav-ico">${ico}</span>${label}</a>`;
   }
   function sidebar() {
-    const f = file();
-    const month = qs("m");
-    const classroom = [
-      ["index.html", "01", "Year map"],
-      ["how.html", "02", "How to teach"],
-      ["games.html", "03", "Games"],
-      ["warmup-nogym.html", "04", "Warm-ups"],
-      ["dodgeball.html", "05", "Dodgeball"],
-      ["outcomes.html", "06", "Alberta PEW"],
-      ["fitness.html", "07", "Fitness"],
-      ["weekly-plans.html", "08", "Weekly plans"],
-      ["videos.html", "09", "Videos"],
-    ]
-      .map(([h, n, l]) => link(h, n, l, mark(h)))
-      .join("");
-    const events = [
-      ["gymnastics.html", "10", "Gymnastics"],
-      ["track-day.html", "11", "Track Day"],
-    ]
-      .map(([h, n, l]) => link(h, n, l, mark(h)))
-      .join("");
+    const pm = pageMonth();
+    const main = NAV.map(([h, l], i) => link(h, String(i + 1).padStart(2, "0"), l, mark(h))).join("");
     const year = MONTHS.map(([name, sport], i) => {
-      const href = `month.html?m=${encodeURIComponent(name)}`;
-      const active = f === "month.html" && month.toLowerCase() === name.toLowerCase();
-      return link(href, String(i + 1).padStart(2, "0"), `${name.slice(0, 3)} · ${sport}`, active);
+      const active = pm === name.toLowerCase();
+      return link(monthFile(name), String(i + 1).padStart(2, "0"), `${name.slice(0, 3)} · ${sport}`, active);
     }).join("");
-    return `<div class="nav-label">Classroom</div>${classroom}<div class="nav-label">Events</div>${events}<div class="nav-label">Year</div>${year}`;
+    return `<nav aria-label="Site"><div class="nav-label">Playbook</div>${main}</nav><nav aria-label="Months"><div class="nav-label">Year</div>${year}</nav>`;
   }
   function topbar() {
+    const cur = currentMonthName();
     return `<header class="topbar">
       <a class="brand" href="index.html">
         <span class="logo" aria-hidden="true">
@@ -72,13 +83,8 @@
       </a>
     </header>
     <nav class="mobile-nav" aria-label="Mobile">
-      <a href="index.html">Year map</a>
-      <a href="how.html">How to teach</a>
-      <a href="games.html">Games</a>
-      <a href="warmup-nogym.html">Warm-ups</a>
-      <a href="dodgeball.html">Dodgeball</a>
-      <a href="weekly-plans.html">Weekly plans</a>
-      <a href="month.html?m=September">September</a>
+      ${NAV.map(([h, l]) => `<a href="${h}"${mark(h) ? ' class="active" aria-current="page"' : ""}>${l}</a>`).join("")}
+      <a href="${monthFile(cur)}">${cur}</a>
     </nav>`;
   }
 
