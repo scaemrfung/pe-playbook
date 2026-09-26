@@ -22,17 +22,18 @@
         <input id="site-q" name="q" type="search" placeholder="Search games…" autocomplete="off" />
         <button type="submit" aria-label="Search games">Search</button>
       </form>
-      <nav>
+      <nav aria-label="Site">
         <a href="index.html">Year</a>
+        <a href="weekly-plans.html">Weekly plans</a>
         <a href="games.html">Games</a>
-        <a href="warmup-nogym.html">Warm-ups</a>
+        <a href="warmup-nogym.html">Warm Up Games</a>
         <a href="dodgeball.html">Dodgeball</a>
         <a href="gymnastics.html">Gymnastics</a>
         <a href="track-day.html">Track Day</a>
         <a href="videos.html">Videos</a>
-        <a class="active" href="outcomes.html">PEW</a>
+        <a class="active" aria-current="page" href="outcomes.html">Outcomes</a>
         <a href="fitness.html">Fitness</a>
-        <a href="how.html">How</a>
+        <a href="how.html">How to teach</a>
       </nav>
     </div>
   </header>
@@ -182,7 +183,7 @@
         <h3 style="color:var(--navy);margin:16px 0 6px">${active}</h3>
         <p class="meta"><strong>Organizing ideas this month:</strong> ${(u.oi || []).join(" · ")}</p>
         <p>${u.why || ""}</p>
-        <p class="meta"><a href="month.html?m=${encodeURIComponent(active)}">Open full ${active} lesson page →</a></p>
+        <p class="meta"><a href="month-${String(active).toLowerCase()}.html">Open full ${active} lesson page →</a></p>
         <div class="out-grid">
           <div><h3>Grades 1–2</h3><ul class="clean">${(u.g12 || []).map((x) => `<li>${x}</li>`).join("")}</ul></div>
           <div><h3>Grades 3–4</h3><ul class="clean">${(u.g34 || []).map((x) => `<li>${x}</li>`).join("")}</ul></div>

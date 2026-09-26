@@ -23,18 +23,18 @@
         <input id="site-q" name="q" type="search" placeholder="Search games…" autocomplete="off" />
         <button type="submit" aria-label="Search games">Search</button>
       </form>
-      <nav>
-        <a class="active" href="index.html">Year</a>
+      <nav aria-label="Site">
+        <a class="active" aria-current="page" href="index.html">Year</a>
+        <a href="weekly-plans.html">Weekly plans</a>
         <a href="games.html">Games</a>
-        <a href="warmup-nogym.html">Warm-ups</a>
+        <a href="warmup-nogym.html">Warm Up Games</a>
         <a href="dodgeball.html">Dodgeball</a>
         <a href="gymnastics.html">Gymnastics</a>
         <a href="track-day.html">Track Day</a>
         <a href="videos.html">Videos</a>
-        <a href="outcomes.html">PEW</a>
+        <a href="outcomes.html">Outcomes</a>
         <a href="fitness.html">Fitness</a>
-        <a href="weekly-plans.html">Weekly plans</a>
-        <a href="how.html">How</a>
+        <a href="how.html">How to teach</a>
       </nav>
     </div>
   </header>
@@ -63,36 +63,104 @@
           <li>No elimination</li>
         </ul>
       </div>
-      <article class="this-month">
+      <article class="this-month" id="this-month">
         <p class="kicker">This month</p>
-        <h2>September: Soccer</h2>
-        <p>Soccer Weeks 2–3 (Terry Fox Fri Sept 18) · football intro Week 4</p>
+        <!-- build:this-month -->
+        <h2 id="this-month-title">September: Soccer</h2>
+        <p id="this-month-guide">Soccer Weeks 2–3 (Terry Fox Fri Sept 18) · football intro Week 4</p>
+        <p class="note" id="this-month-note" hidden></p>
+        <!-- /build:this-month -->
         <ul>
           <li>Four 30-minute classes a week, written as weekly lessons you can teach from the page</li>
           <li>Named games, stay-in dodgeball, demo clips</li>
           <li>House rules: real sport balls, stay-in dodgeball, floor-only gymnastics</li>
         </ul>
-        <a href="month.html?m=September">Open September →</a>
+        <a id="this-month-link" href="month.html">Open this month →</a>
+        <noscript><p class="note">JavaScript is off, so this box shows September. Pick any month from “Ten months of play” below.</p></noscript>
       </article>
     </section>
 
     <section class="wrap year-block">
       <p class="kicker">The year</p>
       <h2 class="section-title">Ten months of play</h2>
-      <div id="months" class="month-grid"></div>
+      <div id="months" class="month-grid">
+        <!-- build:months -->
+        <a class="month-card" href="month-september.html">
+          <div class="mc-top"><span class="mc-kicker">01 · September</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></span></div>
+          <h3>Soccer</h3>
+          <p>Soccer Weeks 2–3 (Terry Fox Fri Sept 18) · football intro Week 4</p>
+          <span class="mc-go">16 lessons →</span>
+        </a>
+        <a class="month-card" href="month-october.html">
+          <div class="mc-top"><span class="mc-kicker">02 · October</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M5 21V4h9l-1.5 4L14 12H5"/></svg></span></div>
+          <h3>Football</h3>
+          <p>Football (Weeks 1–2) · parachute and circus (Weeks 3–4)</p>
+          <span class="mc-go">16 lessons →</span>
+        </a>
+        <a class="month-card" href="month-november.html">
+          <div class="mc-top"><span class="mc-kicker">03 · November</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 20h7l9-16"/><circle cx="6" cy="18" r="2"/></svg></span></div>
+          <h3>Hockey</h3>
+          <p>Floor hockey — stick safety, dribble, pass, small-sided games</p>
+          <span class="mc-go">16 lessons →</span>
+        </a>
+        <a class="month-card" href="month-december.html">
+          <div class="mc-top"><span class="mc-kicker">04 · December</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="16" cy="16" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg></span></div>
+          <h3>Games</h3>
+          <p>Tag, cooperative, invasion and festival games · three weeks if the calendar is short</p>
+          <span class="mc-go">16 lessons →</span>
+        </a>
+        <a class="month-card" href="month-january.html">
+          <div class="mc-top"><span class="mc-kicker">05 · January</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M12 3c2 3 2 15 0 18M3 12c3-2 15-2 18 0"/></svg></span></div>
+          <h3>Basketball</h3>
+          <p>Basketball (Weeks 1–2) · scoop send/receive (Weeks 3–4)</p>
+          <span class="mc-go">16 lessons →</span>
+        </a>
+        <a class="month-card" href="month-february.html">
+          <div class="mc-top"><span class="mc-kicker">06 · February</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></span></div>
+          <h3>Ropes</h3>
+          <p>Rope skills · hoop skills · Jump Rope for Heart the week your school runs it</p>
+          <span class="mc-go">16 lessons →</span>
+        </a>
+        <a class="month-card" href="month-march.html">
+          <div class="mc-top"><span class="mc-kicker">07 · March</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M5 8c3 2 11 2 14 0M5 16c3-2 11-2 14 0"/></svg></span></div>
+          <h3>Volleyball</h3>
+          <p>Volleyball all four weeks · Newcomb to bump/set · send/receive games</p>
+          <span class="mc-go">16 lessons →</span>
+        </a>
+        <a class="month-card" href="month-april.html">
+          <div class="mc-top"><span class="mc-kicker">08 · April</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="5" r="2"/><path d="M8 22l4-9 4 9M5 12h14"/></svg></span></div>
+          <h3>Gymnastics</h3>
+          <p>Floor-only gymnastics · shapes, rolls, balances, jump-stick</p>
+          <span class="mc-go">16 lessons →</span>
+        </a>
+        <a class="month-card" href="month-may.html">
+          <div class="mc-top"><span class="mc-kicker">09 · May</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 3h6"/></svg></span></div>
+          <h3>Track</h3>
+          <p>Track and Field Day practice for Grades 4–6 · play versions for 1–2</p>
+          <span class="mc-go">16 lessons →</span>
+        </a>
+        <a class="month-card" href="month-june.html">
+          <div class="mc-top"><span class="mc-kicker">10 · June</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 20V8l8-4 8 4v12"/><path d="M4 8l8 4 8-4M12 12v8"/></svg></span></div>
+          <h3>Baseball</h3>
+          <p>Week 1: Track and Field Day · Weeks 2–4: T-ball / baseball</p>
+          <span class="mc-go">16 lessons →</span>
+        </a>
+        <!-- /build:months -->
+      </div>
     </section>
 
     <section class="grades-band">
       <div class="wrap">
         <p class="kicker">Grades</p>
         <h2 class="section-title">Jump in by grade</h2>
-        <div class="grade-grid">
-          <a href="month.html?m=September">G1</a>
-          <a href="month.html?m=September">G2</a>
-          <a href="month.html?m=September">G3</a>
-          <a href="month.html?m=September">G4</a>
-          <a href="month.html?m=September">G5</a>
-          <a href="month.html?m=September">G6</a>
+        <p class="meta">Opens this month’s lessons filtered to that grade’s band (Grades 1–2, 3–4 or 5–6).</p>
+        <div class="grade-grid" id="grade-grid">
+          <a href="month.html?grade=1" data-grade="1" aria-label="Grade 1: this month, Grades 1–2 band">G1</a>
+          <a href="month.html?grade=2" data-grade="2" aria-label="Grade 2: this month, Grades 1–2 band">G2</a>
+          <a href="month.html?grade=3" data-grade="3" aria-label="Grade 3: this month, Grades 3–4 band">G3</a>
+          <a href="month.html?grade=4" data-grade="4" aria-label="Grade 4: this month, Grades 3–4 band">G4</a>
+          <a href="month.html?grade=5" data-grade="5" aria-label="Grade 5: this month, Grades 5–6 band">G5</a>
+          <a href="month.html?grade=6" data-grade="6" aria-label="Grade 6: this month, Grades 5–6 band">G6</a>
         </div>
       </div>
     </section>
@@ -130,7 +198,7 @@
       <p>Grades 1–6 · four 30-minute classes a week · Alberta Physical Education and Wellness. Real sport balls, stay-in dodgeball, no elimination, floor-only gymnastics. Follow your school’s safety rules.</p>
     </div>
   </footer>
-  <script src="chrome.js"></script>
+  <script src="chrome.js" defer></script>
   <script src="weekly-plans-data.js"></script>
   <script>
     (function () {
@@ -153,11 +221,8 @@
         </p>`;
     })();
   </script>
-  <script src="data.js"></script>
-  <script src="k2-games.js"></script>
-  <script src="g36-games.js"></script>
-  <script src="skill-pack.js"></script>
-  <script src="big-group.js"></script>
-  <script src="app.js"></script>
+  <script src="school-year.js" defer></script>
+  <script src="months-index.js" defer></script>
+  <script src="home.js" defer></script>
 </body>
 </html>
