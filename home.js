@@ -22,12 +22,30 @@
   if (title) title.textContent = m.name + ": " + m.theme;
   if (guide) guide.textContent = SY.fill(m.guide);
   if (note) {
-    if (cur.summer) {
+    if (cur.summer && cur.week && cur.week.kind === "summer") {
+      note.textContent = "The school year is over — here is September so you can plan the first month back.";
+      note.hidden = false;
+    } else if (cur.summer) {
       note.textContent = "Summer break — here is September so you can plan the first month back.";
       note.hidden = false;
     } else note.hidden = true;
   }
-  if (link) { link.href = href(); link.textContent = "Open " + m.name + " →"; }
+  // This week: school week + month week from the PE week plan (school-year.js)
+  var pw = cur.week, box0 = document.getElementById("this-month");
+  if (box0 && pw && pw.month && !document.getElementById("this-week-line")) {
+    var line = document.createElement("p");
+    line.id = "this-week-line";
+    line.className = "this-week-line" + (pw.kind === "break" ? " break" : "");
+    var wk = pw.w === 0 ? "Start-up week" : "Week " + pw.w;
+    var txt = pw.kind === "break"
+      ? pw.message + " Next: " + pw.month + " " + wk + " (" + pw.range + ")."
+      : (pw.kind === "before" ? "First week: " : "This week: ") + pw.month + " " + wk + " · " + pw.range +
+        (pw.note ? " · " + pw.note : "") + (pw.planNote ? " · " + pw.planNote : "") + (pw.today ? " · " + pw.today : "");
+    line.textContent = txt;
+    var g = document.getElementById("this-month-guide");
+    if (g && g.parentNode) g.parentNode.insertBefore(line, g.nextSibling); else box0.appendChild(line);
+  }
+  if (link) { link.href = href() + (pw && pw.w ? "#week-" + pw.w : ""); link.textContent = "Open " + m.name + " →"; }
   var box = document.getElementById("this-month");
   if (box) box.setAttribute("data-month", m.name);
   document.querySelectorAll("#grade-grid a[data-grade]").forEach(function (a) {

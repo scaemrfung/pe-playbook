@@ -817,3 +817,16 @@ body[data-band] .out-grid { grid-template-columns: 1fr; }
 .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .shell > main, .shell .main { min-width: 0; }
 @media (max-width: 640px) { #month-games table.games { min-width: 560px; } }
+
+/* School-year dates (school-year.js / tools/build.js) */
+.week-title .week-dates { display: block; margin-top: 2px; font-size: .8rem; font-weight: 500; color: #5b6770; font-family: inherit; }
+.week-title .week-dates.extra { color: #8a5a00; }
+.week-title .this-week-pill { display: inline-block; margin-left: 8px; padding: 1px 9px; border-radius: 999px; font-size: .72rem; font-weight: 700; vertical-align: middle; background: #fdf1dc; color: #8a5a00; }
+.school-weeks { margin-top: 6px; }
+.school-weeks ul { margin: 4px 0 0; }
+.school-weeks li { margin: 2px 0; font-size: .92rem; }
+.school-weeks li.current { font-weight: 600; }
+.school-weeks li.current::after { content: " ← this week"; color: #8a5a00; font-weight: 700; }
+.this-week-line { margin: 6px 0 0; font-size: .95rem; }
+.this-week-line.break { background: #fdf1dc; color: #6b4a00; border-radius: 10px; padding: 6px 10px; }
+@media print { .week-title .this-week-pill, .school-weeks li.current::after { display: none; } }

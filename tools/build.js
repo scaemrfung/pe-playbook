@@ -188,6 +188,19 @@ function gradePicker(m) {
       </div>`;
 }
 
+/* "School weeks this month" — from the PE week plan in school-year.js. */
+function schoolWeeks(name) {
+  if (!SY.peWeeksForMonth) return "";
+  const list = SY.peWeeksForMonth(name);
+  if (!list.length) return "";
+  const li = list.map((x) => {
+    const label = x.w === 0 ? "Start-up" : `<a href="#week-${x.w}">Week ${x.w}</a>`;
+    const bits = [x.note, x.planNote].filter(Boolean).join(" · ");
+    return `<li data-school-week="${x.schoolWeek}" data-start="${x.start}" data-end="${x.end}"><strong>${label}</strong> · ${x.range}${bits ? ` <span class="meta">(${bits})</span>` : ""}</li>`;
+  }).join("");
+  return `<div class="school-weeks" id="school-weeks"><p class="meta"><strong>School weeks this month (${SY.config.label}):</strong></p><ul class="clean">${li}</ul></div>`;
+}
+
 function renderMonth(m) {
   const bank = monthBank(m.name);
   const nav = months.map((x) =>
@@ -199,7 +212,9 @@ function renderMonth(m) {
     let head = "";
     if (L.w !== week) {
       week = L.w;
-      head = `<h2 class="week-title">${m.name} · Week ${week}</h2>`;
+      const wl = SY.peWeekLabel ? SY.peWeekLabel(m.name, week) : null;
+      const dates = wl ? `<span class="week-dates${wl.extra ? " extra" : ""}">${wl.text}</span>` : "";
+      head = `<h2 class="week-title" id="week-${week}" data-week="${week}">${m.name} · Week ${week}${dates}</h2>`;
     }
     const o = LO[`${m.name}-${L.w}-${L.c}`];
     const items = pickMonthOutcomes((o && o.items) || [], `${m.name}-${L.w}-${L.c}`);
@@ -246,6 +261,7 @@ function renderMonth(m) {
         <p class="meta"><strong>Equipment:</strong> ${fill(m.equipment)}</p>
         <p class="meta"><strong>Fitness update:</strong> ${fill(m.fitness)}</p>
         <p class="note">${fill(m.notes)}</p>
+        ${schoolWeeks(m.name)}
       </div>
       <noscript><p class="note noscript-note">JavaScript is off, so the grade picker and sidebar are not available. Everything below is shown for all grade bands (1–2 / 3–4 / 5–6) and prints as-is.</p></noscript>
       ${gradePicker(m)}
