@@ -196,24 +196,51 @@
   <script src="chrome.js" defer></script>
   <script src="weekly-plans-data.js"></script>
   <script>
+    /* What's New This Week follows the date: the plan whose `week` (Monday) matches the
+       current school week from school-year.js. ?today=YYYY-MM-DD previews another date. */
     (function () {
-      const body = document.getElementById("whats-new-body");
-      if (!body) return;
-      const plans = window.WEEKLY_PLANS || [];
-      const plan = plans.find((p) => p.featured) || plans[plans.length - 1];
-      if (!plan) {
-        body.innerHTML = "<p class=\"whats-new-title\">No weekly plan posted yet.</p><p><a href=\"weekly-plans.html\">See weekly plans</a></p>";
-        return;
-      }
-      const note = plan.note ? `<p class="whats-new-note">${plan.note}</p>` : "";
-      const name = (plan.file || "").split("/").pop() || "plan.docx";
-      body.innerHTML = `
-        <p class="whats-new-title">${plan.title}</p>
+      function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+      function planHTML(plan, lead) {
+        const note = plan.note ? `<p class="whats-new-note">${plan.note}</p>` : "";
+        const name = (plan.file || "").split("/").pop() || "plan.docx";
+        return `${lead || ""}<p class="whats-new-title">${plan.title}</p>
         ${note}
         <p class="whats-new-actions">
           <a class="whats-new-btn" href="${plan.file}" download="${name}">Download this week's plan</a>
           <a class="whats-new-link" href="weekly-plans.html">All weekly plans</a>
         </p>`;
+      }
+      function render() {
+        const body = document.getElementById("whats-new-body");
+        if (!body) return;
+        const plans = (window.WEEKLY_PLANS || []).slice().sort((a, b) => String(b.week || "").localeCompare(String(a.week || "")));
+        const SY = window.SCHOOL_YEAR;
+        if (!plans.length) {
+          body.innerHTML = "<p class=\"whats-new-title\">No weekly plan posted yet.</p><p><a href=\"weekly-plans.html\">See weekly plans</a></p>";
+          return;
+        }
+        if (!SY || !SY.status) { body.innerHTML = planHTML(plans[0]); return; }
+        const today = SY.todayISO();
+        const st = SY.status(today);
+        const pe = SY.peWeek ? SY.peWeek(today) : null;
+        let week = st.week;
+        if (st.kind === "break" || st.kind === "before") week = (SY.weeks || []).find((w) => w.start > today) || null;
+        if (st.kind === "summer" || !week) {
+          body.innerHTML = `<p class="whats-new-title">No school this week.</p><p class="whats-new-note">${esc(st.kind === "summer" ? "The " + ((SY.calendar && SY.calendar.label) || "") + " school year is over." : st.message || "")}</p>
+            <p class="whats-new-actions"><a class="whats-new-link" href="weekly-plans.html">All weekly plans</a></p>`;
+          return;
+        }
+        const lead = st.kind === "break" || st.kind === "before"
+          ? `<p class="whats-new-note"><strong>${esc(st.message.replace(/ with Week \d+\.$/, "."))}</strong> Next week's plan:</p>` : "";
+        const plan = plans.find((p) => p.week === week.monday);
+        if (plan) { body.innerHTML = planHTML(plan, lead); return; }
+        const where = pe && pe.month ? (pe.w ? `${pe.month} · Week ${pe.w}` : `${pe.month} · Start-up week`) : "";
+        const monthLink = pe && pe.month ? `<a class="whats-new-btn" href="month-${pe.month.toLowerCase()}.html${pe.w ? "#week-" + pe.w : ""}">Open ${esc(where)}</a>` : "";
+        body.innerHTML = `${lead}<p class="whats-new-title">${esc(week.range)}${where ? " · " + esc(where) : ""}</p>
+          <p class="whats-new-note">No downloadable plan posted for this week yet. The month page has this week's lessons.${week.note ? " " + esc(week.note) + "." : ""}</p>
+          <p class="whats-new-actions">${monthLink}<a class="whats-new-link" href="weekly-plans.html">All weekly plans</a></p>`;
+      }
+      if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", render); else render();
     })();
   </script>
   <script src="school-year.js" defer></script>
