@@ -1,11 +1,11 @@
 const months = [
   {
     "name": "September",
-    "guide": "Soccer Weeks 2–3 (Terry Fox run {{terryFox}} in Week 3) · football Weeks 4–5 (Sept 21–Oct 2)",
+    "guide": "Soccer Weeks 2–3 (Terry Fox run {{terryFox}} in Week 3) · football intro Week 4 (Sept 21–25), then October football",
     "pew": "Movement Skill Development, Safety, Active Living, Healthy Relationships",
     "equipment": "Soccer balls, cones/gates, footballs or foam footballs, pinnies",
     "fitness": "Pulse check after a dribble game. Private skip once late in the month.",
-    "notes": "Week numbers count school weeks from Aug 31 (Week 1 = start-up week, gym routines). Soccer balls, no slide tackles. Weeks 2–3 are soccer (Sept 8–18, lessons W1–W2 below). Terry Fox prep and run are Week 3, the week of the school run ({{terryFox}}). Weeks 4–5 are football (Sept 21–Oct 2): Week 4 is football intro (hike, catch, throw; W3 below). Week 5 (Sept 28–Oct 1, a 3-day week) stays on football: the weekly plan teaches October W1 (flag or two-hand touch, routes, end-zone catch); W4 below is a soccer and football review if you need it.",
+    "notes": "Week numbers count school weeks from Aug 31 (Week 1 = start-up week, gym routines). Soccer balls, no slide tackles. Weeks 2–3 are soccer (Sept 8–18, lessons W1–W2 below). Terry Fox prep and run are Week 3, the week of the school run ({{terryFox}}). Week 4 (Sept 21–25) is football intro (hike, catch, throw; W3 below). Week 5 (Sept 28–Oct 1) goes straight on to October W1 football. W4 below (soccer and football review) has no school week this year — use it any time.",
     "lessons": [
       {
         "w": 1,
@@ -223,7 +223,7 @@ const months = [
     "pew": "Movement Skill Development, Movement Tactics, Safety, Healthy Relationships",
     "equipment": "Footballs, flag belts or pinnies, parachute, scarves, beanbags, plates or rings",
     "fitness": "Throw-and-catch pulse check. Private wall-pass later in the month.",
-    "notes": "Football uses the real ball (foam is fine for 1–2). W3–W4 are parachute and circus so October is not all collision games.",
+    "notes": "Football uses the real ball (foam is fine for 1–2). W1 starts in Week 5 (Sept 28–Oct 1), right after September's football intro. W3–W4 are parachute and circus so October is not all collision games.",
     "lessons": [
       {
         "w": 1,
