@@ -95,6 +95,7 @@
     if (+li.getAttribute("data-school-week") === pw.schoolWeek) li.classList.add("current");
   });
   var head = document.getElementById("week-" + pw.w);
+  if (head && head.classList.contains("anchor-alias")) head = head.parentNode; // merged weeks (e.g. June W3–4)
   if (head && !head.querySelector(".this-week-pill")) {
     var pill = document.createElement("span");
     pill.className = "this-week-pill";

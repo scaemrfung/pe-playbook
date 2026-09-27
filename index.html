@@ -67,7 +67,7 @@
         <p class="kicker">This month</p>
         <!-- build:this-month -->
         <h2 id="this-month-title">September: Soccer and Football</h2>
-        <p id="this-month-guide">Soccer Weeks 2–3 (Terry Fox run Fri Sept 18 in Week 3) · football intro Week 4 (Sept 21–25), then October football</p>
+        <p id="this-month-guide">Start-up Week 1 · soccer Weeks 2–3 (Terry Fox run Fri Sept 18 in Week 3) · football Weeks 4–5 (intro, then flag, routes and end-zone catch)</p>
         <p class="note" id="this-month-note" hidden></p>
         <!-- /build:this-month -->
         <ul>
@@ -88,25 +88,25 @@
         <a class="month-card" href="month-september.html">
           <div class="mc-top"><span class="mc-kicker">01 · September</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></span></div>
           <h3>Soccer and Football</h3>
-          <p>Soccer Weeks 2–3 (Terry Fox run Fri Sept 18 in Week 3) · football intro Week 4 (Sept 21–25), then October football</p>
+          <p>Start-up Week 1 · soccer Weeks 2–3 (Terry Fox run Fri Sept 18 in Week 3) · football Weeks 4–5 (intro, then flag, routes and end-zone catch)</p>
           <span class="mc-go">16 lessons →</span>
         </a>
         <a class="month-card" href="month-october.html">
           <div class="mc-top"><span class="mc-kicker">02 · October</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M5 21V4h9l-1.5 4L14 12H5"/></svg></span></div>
           <h3>Football</h3>
-          <p>Football (W1–W2) · parachute and circus (W3–W4)</p>
+          <p>Football (W1) · parachute and circus (W2–W3) · floor hockey starts W4 (Oct 26–30)</p>
           <span class="mc-go">16 lessons →</span>
         </a>
         <a class="month-card" href="month-november.html">
           <div class="mc-top"><span class="mc-kicker">03 · November</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 20h7l9-16"/><circle cx="6" cy="18" r="2"/></svg></span></div>
           <h3>Hockey</h3>
-          <p>Floor hockey — stick safety, dribble, pass, small-sided games</p>
+          <p>Floor hockey (started Oct 26) — dribble, pass, small-sided games · W4 (Nov 30–Dec 4) starts December's games</p>
           <span class="mc-go">16 lessons →</span>
         </a>
         <a class="month-card" href="month-december.html">
           <div class="mc-top"><span class="mc-kicker">04 · December</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="16" cy="16" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg></span></div>
           <h3>Games</h3>
-          <p>Tag, cooperative, invasion and festival games · three weeks if the calendar is short</p>
+          <p>Tag, cooperative, invasion and festival games · two school weeks this year (plus Nov 30–Dec 4 on the November page)</p>
           <span class="mc-go">16 lessons →</span>
         </a>
         <a class="month-card" href="month-january.html">
@@ -136,13 +136,13 @@
         <a class="month-card" href="month-may.html">
           <div class="mc-top"><span class="mc-kicker">09 · May</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 3h6"/></svg></span></div>
           <h3>Track</h3>
-          <p>Track and Field Day practice for Grades 4–6 · play versions for 1–2</p>
+          <p>Track and Field Day practice for Grades 4–6 · play versions for 1–2 · W5 (May 31–June 4) is Track and Field Day week</p>
           <span class="mc-go">16 lessons →</span>
         </a>
         <a class="month-card" href="month-june.html">
           <div class="mc-top"><span class="mc-kicker">10 · June</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 20V8l8-4 8 4v12"/><path d="M4 8l8 4 8-4M12 12v8"/></svg></span></div>
           <h3>Baseball</h3>
-          <p>W1: Track and Field Day · W2–W4: T-ball / baseball</p>
+          <p>T-ball / baseball (W1–W3) · last class Mon June 28 (W4)</p>
           <span class="mc-go">16 lessons →</span>
         </a>
         <!-- /build:months -->
@@ -234,9 +234,9 @@
           ? `<p class="whats-new-note"><strong>${esc(st.message.replace(/ with Week \d+\.$/, "."))}</strong> Next week's plan:</p>` : "";
         const plan = plans.find((p) => p.week === week.monday);
         if (plan) { body.innerHTML = planHTML(plan, lead); return; }
-        // School-year week name (Week 5 · Football); the button opens that month-week section.
-        const where = pe && pe.month ? (pe.name || "Week " + pe.schoolWeek) + (pe.w ? ` (${pe.month} W${pe.w})` : " · start-up week") : "";
-        const monthLink = pe && pe.month ? `<a class="whats-new-btn" href="month-${pe.month.toLowerCase()}.html${pe.w ? "#week-" + pe.w : ""}">Open ${esc(pe.w ? pe.month + " W" + pe.w : pe.month)}</a>` : "";
+        // School-year week name (Week 5 · Football) and its month (the month it starts in); the button opens that week.
+        const where = pe && pe.month ? (pe.name || "Week " + pe.schoolWeek) + ` (${pe.month} W${pe.w})` : "";
+        const monthLink = pe && pe.month ? `<a class="whats-new-btn" href="month-${pe.month.toLowerCase()}.html#week-${pe.w}">Open ${esc(pe.month + " W" + pe.w)}</a>` : "";
         body.innerHTML = `${lead}<p class="whats-new-title">${esc(week.range)}${where ? " · " + esc(where) : ""}</p>
           <p class="whats-new-note">No downloadable plan posted for this week yet. The month page has this week's lessons.${week.note ? " " + esc(week.note) + "." : ""}</p>
           <p class="whats-new-actions">${monthLink}<a class="whats-new-link" href="weekly-plans.html">All weekly plans</a></p>`;

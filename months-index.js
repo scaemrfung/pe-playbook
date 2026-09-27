@@ -4,28 +4,28 @@ window.PE_MONTHS = [
     "name": "September",
     "file": "month-september.html",
     "theme": "Soccer and Football",
-    "guide": "Soccer Weeks 2–3 (Terry Fox run Fri Sept 18 in Week 3) · football intro Week 4 (Sept 21–25), then October football",
+    "guide": "Start-up Week 1 · soccer Weeks 2–3 (Terry Fox run Fri Sept 18 in Week 3) · football Weeks 4–5 (intro, then flag, routes and end-zone catch)",
     "lessons": 16
   },
   {
     "name": "October",
     "file": "month-october.html",
     "theme": "Football",
-    "guide": "Football (W1–W2) · parachute and circus (W3–W4)",
+    "guide": "Football (W1) · parachute and circus (W2–W3) · floor hockey starts W4 (Oct 26–30)",
     "lessons": 16
   },
   {
     "name": "November",
     "file": "month-november.html",
     "theme": "Hockey",
-    "guide": "Floor hockey — stick safety, dribble, pass, small-sided games",
+    "guide": "Floor hockey (started Oct 26) — dribble, pass, small-sided games · W4 (Nov 30–Dec 4) starts December's games",
     "lessons": 16
   },
   {
     "name": "December",
     "file": "month-december.html",
     "theme": "Games",
-    "guide": "Tag, cooperative, invasion and festival games · three weeks if the calendar is short",
+    "guide": "Tag, cooperative, invasion and festival games · two school weeks this year (plus Nov 30–Dec 4 on the November page)",
     "lessons": 16
   },
   {
@@ -60,14 +60,14 @@ window.PE_MONTHS = [
     "name": "May",
     "file": "month-may.html",
     "theme": "Track",
-    "guide": "Track and Field Day practice for Grades 4–6 · play versions for 1–2",
+    "guide": "Track and Field Day practice for Grades 4–6 · play versions for 1–2 · W5 (May 31–June 4) is Track and Field Day week",
     "lessons": 16
   },
   {
     "name": "June",
     "file": "month-june.html",
     "theme": "Baseball",
-    "guide": "W1: Track and Field Day · W2–W4: T-ball / baseball",
+    "guide": "T-ball / baseball (W1–W3) · last class Mon June 28 (W4)",
     "lessons": 16
   }
 ];

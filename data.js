@@ -1,11 +1,11 @@
 const months = [
   {
     "name": "September",
-    "guide": "Soccer Weeks 2–3 (Terry Fox run {{terryFox}} in Week 3) · football intro Week 4 (Sept 21–25), then October football",
+    "guide": "Start-up Week 1 · soccer Weeks 2–3 (Terry Fox run {{terryFox}} in Week 3) · football Weeks 4–5 (intro, then flag, routes and end-zone catch)",
     "pew": "Movement Skill Development, Safety, Active Living, Healthy Relationships",
     "equipment": "Soccer balls, cones/gates, footballs or foam footballs, pinnies",
     "fitness": "Pulse check after a dribble game. Private skip once late in the month.",
-    "notes": "Week numbers count school weeks from Aug 31 (Week 1 = start-up week, gym routines). Soccer balls, no slide tackles. Weeks 2–3 are soccer (Sept 8–18, lessons W1–W2 below). Terry Fox prep and run are Week 3, the week of the school run ({{terryFox}}). Week 4 (Sept 21–25) is football intro (hike, catch, throw; W3 below). Week 5 (Sept 28–Oct 1) goes straight on to October W1 football. W4 below (soccer and football review) has no school week this year — use it any time.",
+    "notes": "A week belongs to the month it starts in, so Week 5 (Mon Sept 28–Oct 1) is September W5. Week numbers count school weeks from Aug 31. Soccer balls, no slide tackles. Week 1 (Aug 31–Sept 4) is the start-up week (gym routines). Weeks 2–3 are soccer (Sept 8–18). Terry Fox prep and run are Week 3, the week of the school run ({{terryFox}}). Week 4 is football intro (hike, catch, throw). Week 5 goes on to flag or two-hand touch, routes and end-zone catch (a 3-day week). The soccer and football review set is an extra at the bottom — use it any time.",
     "lessons": [
       {
         "w": 1,
@@ -219,11 +219,11 @@ const months = [
   },
   {
     "name": "October",
-    "guide": "Football (W1–W2) · parachute and circus (W3–W4)",
+    "guide": "Football (W1) · parachute and circus (W2–W3) · floor hockey starts W4 (Oct 26–30)",
     "pew": "Movement Skill Development, Movement Tactics, Safety, Healthy Relationships",
     "equipment": "Footballs, flag belts or pinnies, parachute, scarves, beanbags, plates or rings",
     "fitness": "Throw-and-catch pulse check. Private wall-pass later in the month.",
-    "notes": "Football uses the real ball (foam is fine for 1–2). W1 starts in Week 5 (Sept 28–Oct 1), right after September's football intro. W3–W4 are parachute and circus so October is not all collision games.",
+    "notes": "Football uses the real ball (foam is fine for 1–2). October's first football week (flag, routes, end-zone catch) is Week 5, Sept 28–Oct 1, on the September page, because a week belongs to the month it starts in. W2–W3 are parachute and circus so October is not all collision games. W4 starts floor hockey: stick safety first.",
     "lessons": [
       {
         "w": 1,
@@ -437,11 +437,11 @@ const months = [
   },
   {
     "name": "November",
-    "guide": "Floor hockey — stick safety, dribble, pass, small-sided games",
+    "guide": "Floor hockey (started Oct 26) — dribble, pass, small-sided games · W4 (Nov 30–Dec 4) starts December's games",
     "pew": "Movement Skill Development, Safety, Movement Tactics, Character Development",
     "equipment": "Floor-hockey sticks, soft balls or pucks, tape goals, pinnies, cones",
     "fitness": "Stick-handle shuttle. Private skip once late in the month.",
-    "notes": "Sticks below the knee. No slapshots. No ice. Everyone has a stick or rotates fairly.",
+    "notes": "Sticks below the knee. No slapshots. No ice. Everyone has a stick or rotates fairly. The first hockey week (stick safety) is October W4. W4 here (Nov 30–Dec 4) starts December's big-group games.",
     "lessons": [
       {
         "w": 1,
@@ -655,7 +655,7 @@ const months = [
   },
   {
     "name": "December",
-    "guide": "Tag, cooperative, invasion and festival games · three weeks if the calendar is short",
+    "guide": "Tag, cooperative, invasion and festival games · two school weeks this year (plus Nov 30–Dec 4 on the November page)",
     "pew": "Active Living, Personal and Social Development, Character, Safety, Healthy Relationships",
     "equipment": "Pinnies, noodles, hoops, foam balls, benches, flags — as each game card lists",
     "fitness": "Private skip or shuttle on the last class. No ranking.",
@@ -1745,11 +1745,11 @@ const months = [
   },
   {
     "name": "May",
-    "guide": "Track and Field Day practice for Grades 4–6 · play versions for 1–2",
+    "guide": "Track and Field Day practice for Grades 4–6 · play versions for 1–2 · W5 (May 31–June 4) is Track and Field Day week",
     "pew": "Movement Skill Development, Active Living, Safety, Character Development",
     "equipment": "Hurdles, high-jump mat, hoops, beanbags (not balloons), pins, sacks, javelin trainers; Grade 6 discus and shot outside",
     "fitness": "Private timed run or skip late in the month. No class ranking.",
-    "notes": "May is school practice so June Track Day is familiar. Use the Track Day page for descriptions, rules, faults, and scoring. Beanbags replace water balloons. High-jump mat and hurdles are available.",
+    "notes": "May is school practice so Track Day is familiar. W5 (May 31–June 4) is Track and Field Day week — it starts in May, so it is on this page. Use the Track Day page for descriptions, rules, faults, and scoring. Beanbags replace water balloons. High-jump mat and hurdles are available.",
     "lessons": [
       {
         "w": 1,
@@ -1963,11 +1963,11 @@ const months = [
   },
   {
     "name": "June",
-    "guide": "W1: Track and Field Day · W2–W4: T-ball / baseball",
+    "guide": "T-ball / baseball (W1–W3) · last class Mon June 28 (W4)",
     "pew": "Movement Skill Development, Active Living, Character, Safety",
     "equipment": "Week 1: kit on the Track Day page. Weeks 2–4: tees, bats, balls, hoop bases.",
     "fitness": "Final private check after the meet: skip, short run, or jump-stick.",
-    "notes": "Track and Field Day is the first week of June (event page for rules and scoring). W2–W4 are T-ball/baseball — everyone bats, throw to a hoop at first, not at the runner.",
+    "notes": "Track and Field Day week (May 31–June 4) is May W5 on the May page, because a week belongs to the month it starts in. W1–W3 are T-ball/baseball — everyone bats, throw to a hoop at first, not at the runner. W4 is the last class, Mon June 28.",
     "lessons": [
       {
         "w": 1,

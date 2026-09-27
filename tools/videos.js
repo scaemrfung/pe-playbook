@@ -98,6 +98,13 @@ function readDocx(file) {
 
 // ------------------------------------------------------------------ main
 module.exports = function buildVideos(ctx) {
+  // Where a plan lesson lives on the site: month pages group school weeks by the
+  // month they start in, so a plan lesson can sit on another month's page (build.js LESSON_REF).
+  const lessonRef = (m, L) => {
+    const r = (ctx.LESSON_REF || {})[`${m}-${L.w}-${L.c}`];
+    if (r) return { page: "lessons", month: r.month, label: `${r.label} · Class ${L.c}: ${ctx.fill(L.title)}`, href: r.href, order: r.order };
+    return { page: "lessons", month: m, label: `${m} Week ${L.w} · Class ${L.c}: ${ctx.fill(L.title)}`, href: `month-${m.toLowerCase()}.html#w${L.w}-c${L.c}`, order: MONTH_ORDER.indexOf(m) * 100 + L.w * 10 + L.c };
+  };
   const { ROOT, W, months, monthBank, fill, gslug, ALIASES, SITE } = ctx;
   const read = (f) => fs.readFileSync(path.join(ROOT, f), "utf8");
   const exists = (f) => fs.existsSync(path.join(ROOT, f));
@@ -258,7 +265,7 @@ module.exports = function buildVideos(ctx) {
       const re = new RegExp("(^|[^A-Za-z])" + esc(n) + "(?![A-Za-z])", "i");
       lessons.forEach(({ m, L, text }) => {
         if (re.test(text)) {
-          addRef(e, { page: "lessons", month: m, label: `${m} Week ${L.w} · Class ${L.c}: ${fill(L.title)}`, href: `month-${m.toLowerCase()}.html#w${L.w}-c${L.c}`, order: MONTH_ORDER.indexOf(m) * 100 + L.w * 10 + L.c });
+          addRef(e, lessonRef(m, L));
           e.months.add("lesson:" + m);
         }
       });
@@ -282,7 +289,7 @@ module.exports = function buildVideos(ctx) {
     const re = new RegExp("(^|[^A-Za-z])" + esc(t) + "(?![A-Za-z])", "i");
     lessons.forEach(({ m, L, text }) => {
       if (re.test(text + " " + fill(L.title))) {
-        addRef(e, { page: "lessons", month: m, label: `${m} Week ${L.w} · Class ${L.c}: ${fill(L.title)}`, href: `month-${m.toLowerCase()}.html#w${L.w}-c${L.c}`, order: MONTH_ORDER.indexOf(m) * 100 + L.w * 10 + L.c });
+        addRef(e, lessonRef(m, L));
         e.months.add("lesson:" + m);
       }
     });

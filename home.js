@@ -36,8 +36,9 @@
     var line = document.createElement("p");
     line.id = "this-week-line";
     line.className = "this-week-line" + (pw.kind === "break" ? " break" : "");
-    // School-year week name (Week 4 · Football), then the month-week section (September W3).
-    var wk = (pw.name || "Week " + pw.schoolWeek) + (pw.w === 0 ? " · start-up week" : " (" + pw.month + " W" + pw.w + ")");
+    // School-year week name (Week 5 · Football), then its month and week (September W5):
+    // a week belongs to the month it starts in.
+    var wk = (pw.name || "Week " + pw.schoolWeek) + " (" + pw.month + " W" + pw.w + (pw.startup ? ", start-up week" : "") + ")";
     var txt = pw.kind === "break"
       ? pw.message + " Next: " + wk + " · " + pw.range + "."
       : (pw.kind === "before" ? "First week: " : "This week: ") + wk + " · " + pw.range +

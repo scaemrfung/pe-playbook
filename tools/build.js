@@ -188,49 +188,35 @@ function gradePicker(m) {
       </div>`;
 }
 
-/* "School weeks this month" — from the PE week plan in school-year.js. */
+/* "School weeks this month" — from the PE week plan in school-year.js.
+   A week belongs to the month it starts in (Sept 28–Oct 1 is September W5). */
+const PLAN = {};
+months.forEach((mm) => mm.lessons.forEach((L) => { (PLAN[`${mm.name}-${L.w}`] = PLAN[`${mm.name}-${L.w}`] || []).push(L); }));
 function schoolWeeks(name) {
   if (!SY.peWeeksForMonth) return "";
   const list = SY.peWeeksForMonth(name);
   if (!list.length) return "";
   const li = list.map((x) => {
-    // School-year week number (Week 4 = Sept 21–25); the link goes to the month-week section.
-    const name = `Week ${x.schoolWeek}${x.theme ? " · " + x.theme : ""}`;
-    const label = x.w === 0 ? `${name} · Start-up` : `<a href="#week-${x.w}">${name}</a>`;
-    const bits = [x.w ? `${x.month} W${x.w} below` : "", x.note, x.planNote].filter(Boolean).join(" · ");
+    const label = `<a href="#week-${x.w}">Week ${x.schoolWeek}${x.theme ? " · " + x.theme : ""}</a>`;
+    const bits = [`${x.month} W${x.w}`, x.startup ? "start-up" : "", x.note, x.planNote].filter(Boolean).join(" · ");
     return `<li data-school-week="${x.schoolWeek}" data-start="${x.start}" data-end="${x.end}"><strong>${label}</strong> · ${x.range}${bits ? ` <span class="meta">(${bits})</span>` : ""}</li>`;
   }).join("");
-  return `<div class="school-weeks" id="school-weeks"><p class="meta"><strong>School weeks this month (${SY.config.label}):</strong></p><ul class="clean">${li}</ul></div>`;
+  // Lessons planned under this month but taught in a week that starts in another month.
+  const away = SY.peWeekList().filter((x) => x.planMonth === name && x.month !== name);
+  const awayNote = away.length ? `<p class="meta school-weeks-away">Also from ${name}'s lessons: ${away.map((x) =>
+    `<a href="${monthFile(x.month)}#week-${x.w}">Week ${x.schoolWeek} (${x.range})</a> is on the ${x.month} page`).join("; ")}, because a week belongs to the month it starts in.</p>` : "";
+  return `<div class="school-weeks" id="school-weeks"><p class="meta"><strong>School weeks this month (${SY.config.label}):</strong></p><ul class="clean">${li}</ul>${awayNote}</div>`;
 }
 
-function renderMonth(m) {
-  const bank = monthBank(m.name);
-  const nav = months.map((x) =>
-    `<a href="${monthFile(x.name)}" class="${x.name === m.name ? "active" : ""}"${x.name === m.name ? ' aria-current="page"' : ""}>${x.name.slice(0, 3)}</a>`
-  ).join(" · ");
-  let week = 0;
-  let missingBands = 0;
-  const lessons = m.lessons.map((L) => {
-    let head = "";
-    if (L.w !== week) {
-      week = L.w;
-      const wl = SY.peWeekLabel ? SY.peWeekLabel(m.name, week) : null;
-      const dates = wl ? `<span class="week-dates${wl.extra ? " extra" : ""}">${wl.text}</span>` : "";
-      // Heading names the school-year week(s) taught from this section (Week 4 · Football),
-      // then the month-week code (September W3). The id stays week-N so links keep working.
-      const sw = wl && !wl.extra ? wl.weeks : [];
-      const swName = sw.length ? "Week" + (sw.length > 1 ? "s " : " ") + sw.map((x) => x.schoolWeek).join(" + ") + (sw[0].theme ? " · " + sw[0].theme : "") : "";
-      head = swName
-        ? `<h2 class="week-title" id="week-${week}" data-week="${week}">${swName} <span class="plan-week">${m.name} W${week}</span>${dates}</h2>`
-        : `<h2 class="week-title" id="week-${week}" data-week="${week}">${m.name} W${week}${dates}</h2>`;
-    }
-    const o = LO[`${m.name}-${L.w}-${L.c}`];
-    const items = pickMonthOutcomes((o && o.items) || [], `${m.name}-${L.w}-${L.c}`);
-    const outRow = items.length ? `<div class="row out"><div class="t">Outcomes</div>
+function lessonCard(L, id, wlabel, planMonth, calW) {
+  const key = `${planMonth}-${L.w}-${L.c}`;
+  const o = LO[key];
+  const items = pickMonthOutcomes((o && o.items) || [], key);
+  const outRow = items.length ? `<div class="row out"><div class="t">Outcomes</div>
             <div class="d">${items.map((it) => `<div><strong>${it.code}.</strong> ${it.look}</div>`).join("")}
             <span class="meta">PEW K–6 · LearnAlberta · 2–3 look-fors</span></div></div>` : "";
-    return head + `<article class="lesson" id="w${L.w}-c${L.c}" data-week="${L.w}">
-        <div class="top"><h3>W${L.w} · C${L.c} — ${fill(L.title)}</h3><small>${fill(L.focus)}</small></div>
+  return `<article class="lesson" id="${id}" data-week="${calW}">
+        <div class="top"><h3>${wlabel} · C${L.c} — ${fill(L.title)}</h3><small>${fill(L.focus)}</small></div>
         <div class="rows">
           ${outRow}
           <div class="row"><div class="t">0–5</div><div class="d">${fill(L.wu)}</div></div>
@@ -242,7 +228,50 @@ function renderMonth(m) {
           </div>
         </div>
       </article>`;
-  }).join("");
+}
+
+/* Month page sections: one per school week that starts in this month (W1, W2, …),
+   each with the lessons that week teaches, then any unscheduled extra sets. */
+const LESSON_REF = {}; // "October-1-2" (plan month-week-class) -> where that lesson is on the site
+const MONTHS_ORDER_IDX = (n) => months.findIndex((x) => x.name === n);
+function monthSections(m) {
+  const groups = [];
+  SY.peWeeksForMonth(m.name).forEach((x) => {
+    const g = groups[groups.length - 1];
+    if (g && !x.startup && g.planMonth === x.planMonth && g.planW === x.planW) g.weeks.push(x);
+    else groups.push({ planMonth: x.planMonth, planW: x.planW, startup: x.startup, weeks: [x] });
+  });
+  let html = "", count = 0;
+  groups.forEach((g) => {
+    const ws = g.weeks, first = ws[0];
+    const name = "Week" + (ws.length > 1 ? "s " : " ") + ws.map((x) => x.schoolWeek).join(" + ") + (first.theme ? " · " + first.theme : "");
+    const tag = `${m.name} W${ws.map((x) => x.w).join("–")}`;
+    const from = !g.startup && g.planMonth !== m.name ? ` · lessons from the ${g.planMonth} plan` : "";
+    const dates = ws.map((x) => x.range + (x.note ? " · " + x.note : "") + (x.planNote ? " · " + x.planNote : "")).join(" + ") + from;
+    const aliases = ws.slice(1).map((x) => `<span id="week-${x.w}" class="anchor-alias"></span>`).join("");
+    html += `<h2 class="week-title" id="week-${first.w}" data-week="${first.w}">${aliases}${name} <span class="plan-week">${tag}</span><span class="week-dates">${dates}</span></h2>`;
+    if (g.startup) return;
+    (PLAN[`${g.planMonth}-${g.planW}`] || []).forEach((L) => { count++;
+      LESSON_REF[`${g.planMonth}-${g.planW}-${L.c}`] = { href: `${monthFile(m.name)}#w${first.w}-c${L.c}`, label: `${tag} (Week ${first.schoolWeek})`, month: m.name, order: MONTHS_ORDER_IDX(m.name) * 100 + first.w * 10 + L.c };
+      html += lessonCard(L, `w${first.w}-c${L.c}`, `W${first.w}`, g.planMonth, first.w); });
+  });
+  SY.peExtras(m.name).forEach((ex) => {
+    html += `<h2 class="week-title" id="extra-${ex.planW}" data-week="extra-${ex.planW}">Extra lessons <span class="plan-week">${m.name} · use any time</span><span class="week-dates extra">${ex.text}</span></h2>`;
+    (PLAN[`${m.name}-${ex.planW}`] || []).forEach((L) => { count++;
+      LESSON_REF[`${m.name}-${ex.planW}-${L.c}`] = { href: `${monthFile(m.name)}#x${ex.planW}-c${L.c}`, label: `${m.name} extra lessons`, month: m.name, order: MONTHS_ORDER_IDX(m.name) * 100 + 90 + L.c };
+      html += lessonCard(L, `x${ex.planW}-c${L.c}`, "Extra", m.name, `extra-${ex.planW}`); });
+  });
+  return { html, count };
+}
+
+function renderMonth(m) {
+  const bank = monthBank(m.name);
+  const nav = months.map((x) =>
+    `<a href="${monthFile(x.name)}" class="${x.name === m.name ? "active" : ""}"${x.name === m.name ? ' aria-current="page"' : ""}>${x.name.slice(0, 3)}</a>`
+  ).join(" · ");
+  let missingBands = 0;
+  const sec = monthSections(m);
+  const lessons = sec.html;
 
   const seen = new Set();
   const rows = bank.filter((r) => r && r[0] && !seen.has(r[0]) && seen.add(r[0])).map((r) => {
@@ -294,7 +323,7 @@ function renderMonth(m) {
       </div>
       ${lessons}
     `;
-  return { content, games: rows.length, missingBands };
+  return { content, games: rows.length, missingBands, lessons: sec.count };
 }
 
 // --------------------------------------------------------------- templates
@@ -335,7 +364,7 @@ months.forEach((m) => {
   <script src="chrome.js" defer></script>
   <script src="month-page.js" defer></script>`,
   });
-  report.push(`${monthFile(m.name)}: ${m.lessons.length} lessons, ${r.games} games (${r.missingBands} without band notes)`);
+  report.push(`${monthFile(m.name)}: ${r.lessons} lessons, ${r.games} games (${r.missingBands} without band notes)`);
 });
 
 // month.html — legacy router (?m=September&grade=4) + no-JS month list
@@ -415,7 +444,7 @@ outputs["index.html"] = withStaticNav(index, "index.html");
 for (const f of ["youtube-data.js", "warmup-nogym-data.js", "new-games-data.js", "dodgeball-data.js", "weekly-plans-data.js"]) {
   if (fs.existsSync(path.join(ROOT, f))) vm.runInContext(read(f), sandbox, { filename: f });
 }
-const VID = require("./videos.js")({ ROOT, W, months, monthBank, fill, gslug, ALIASES, SITE });
+const VID = require("./videos.js")({ ROOT, W, LESSON_REF, months, monthBank, fill, gslug, ALIASES, SITE });
 outputs["videos-data.js"] = VID.js;
 report.push(`videos-data.js: ${VID.data.count} videos from ${VID.data.occurrences} links (link-check index only)`);
 

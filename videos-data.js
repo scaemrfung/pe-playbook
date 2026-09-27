@@ -429,13 +429,13 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "September",
-     "label": "September Week 2 · Class 1: Inside-foot pass",
-     "href": "month-september.html#w2-c1"
+     "label": "September W3 (Week 3) · Class 1: Inside-foot pass",
+     "href": "month-september.html#w3-c1"
     },
     {
      "page": "lessons",
      "month": "January",
-     "label": "January Week 2 · Class 3: Give and go",
+     "label": "January W2 (Week 17) · Class 3: Give and go",
      "href": "month-january.html#w2-c3"
     },
     {
@@ -588,14 +588,14 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "September",
-     "label": "September Week 2 · Class 4: Terry Fox run or September festival",
-     "href": "month-september.html#w2-c4"
+     "label": "September W3 (Week 3) · Class 4: Terry Fox run or September festival",
+     "href": "month-september.html#w3-c4"
     },
     {
      "page": "lessons",
-     "month": "December",
-     "label": "December Week 1 · Class 2: Everybody’s It",
-     "href": "month-december.html#w1-c2"
+     "month": "November",
+     "label": "November W4 (Week 13) · Class 2: Everybody’s It",
+     "href": "month-november.html#w4-c2"
     },
     {
      "page": "monthgames",
@@ -650,14 +650,14 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "September",
-     "label": "September Week 2 · Class 4: Terry Fox run or September festival",
-     "href": "month-september.html#w2-c4"
+     "label": "September W3 (Week 3) · Class 4: Terry Fox run or September festival",
+     "href": "month-september.html#w3-c4"
     },
     {
      "page": "lessons",
-     "month": "December",
-     "label": "December Week 1 · Class 2: Everybody’s It",
-     "href": "month-december.html#w1-c2"
+     "month": "November",
+     "label": "November W4 (Week 13) · Class 2: Everybody’s It",
+     "href": "month-november.html#w4-c2"
     },
     {
      "page": "monthgames",
@@ -784,26 +784,26 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "September",
-     "label": "September Week 1 · Class 2: Toe-taps and sole trap",
-     "href": "month-september.html#w1-c2"
+     "label": "September W2 (Week 2) · Class 2: Toe-taps and sole trap",
+     "href": "month-september.html#w2-c2"
     },
     {
      "page": "lessons",
      "month": "September",
-     "label": "September Week 2 · Class 4: Terry Fox run or September festival",
-     "href": "month-september.html#w2-c4"
+     "label": "September W3 (Week 3) · Class 4: Terry Fox run or September festival",
+     "href": "month-september.html#w3-c4"
+    },
+    {
+     "page": "lessons",
+     "month": "November",
+     "label": "November W4 (Week 13) · Class 1: Hospital Tag",
+     "href": "month-november.html#w4-c1"
     },
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 1 · Class 1: Hospital Tag",
-     "href": "month-december.html#w1-c1"
-    },
-    {
-     "page": "lessons",
-     "month": "December",
-     "label": "December Week 4 · Class 1: Student-choice tag",
-     "href": "month-december.html#w4-c1"
+     "label": "December W2 (Week 15) · Class 1: Student-choice tag",
+     "href": "month-december.html#w2-c1"
     },
     {
      "page": "monthgames",
@@ -955,14 +955,14 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "September",
-     "label": "September Week 3 · Class 1: Hold and hike",
-     "href": "month-september.html#w3-c1"
+     "label": "September W4 (Week 4) · Class 1: Hold and hike",
+     "href": "month-september.html#w4-c1"
     },
     {
      "page": "lessons",
-     "month": "October",
-     "label": "October Week 1 · Class 4: Football games day",
-     "href": "month-october.html#w1-c4"
+     "month": "September",
+     "label": "September W5 (Week 5) · Class 4: Football games day",
+     "href": "month-september.html#w5-c4"
     },
     {
      "page": "monthgames",
@@ -1056,14 +1056,14 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "September",
-     "label": "September Week 3 · Class 1: Hold and hike",
-     "href": "month-september.html#w3-c1"
+     "label": "September W4 (Week 4) · Class 1: Hold and hike",
+     "href": "month-september.html#w4-c1"
     },
     {
      "page": "lessons",
-     "month": "October",
-     "label": "October Week 1 · Class 4: Football games day",
-     "href": "month-october.html#w1-c4"
+     "month": "September",
+     "label": "September W5 (Week 5) · Class 4: Football games day",
+     "href": "month-september.html#w5-c4"
     },
     {
      "page": "monthgames",
@@ -1196,25 +1196,25 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "September",
-     "label": "September Week 1 · Class 1: Gym freeze + soccer space",
-     "href": "month-september.html#w1-c1"
+     "label": "September W2 (Week 2) · Class 1: Gym freeze + soccer space",
+     "href": "month-september.html#w2-c1"
     },
     {
      "page": "lessons",
      "month": "January",
-     "label": "January Week 3 · Class 1: Scoop hold and cradle",
+     "label": "January W3 (Week 18) · Class 1: Scoop hold and cradle",
      "href": "month-january.html#w3-c1"
     },
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 1 · Class 1: Shapes: tuck, pike, straddle, stretch",
+     "label": "April W1 (Week 28) · Class 1: Shapes: tuck, pike, straddle, stretch",
      "href": "month-april.html#w1-c1"
     },
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 4 · Class 3: Gymnastics buffet",
+     "label": "April W4 (Week 31) · Class 3: Gymnastics buffet",
      "href": "month-april.html#w4-c3"
     },
     {
@@ -1255,25 +1255,25 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "September",
-     "label": "September Week 2 · Class 2: Move after you pass",
-     "href": "month-september.html#w2-c2"
+     "label": "September W3 (Week 3) · Class 2: Move after you pass",
+     "href": "month-september.html#w3-c2"
     },
     {
      "page": "lessons",
      "month": "November",
-     "label": "November Week 2 · Class 1: Receive and move",
-     "href": "month-november.html#w2-c1"
+     "label": "November W1 (Week 10) · Class 1: Receive and move",
+     "href": "month-november.html#w1-c1"
     },
     {
      "page": "lessons",
      "month": "January",
-     "label": "January Week 1 · Class 2: Protect the dribble",
+     "label": "January W1 (Week 16) · Class 2: Protect the dribble",
      "href": "month-january.html#w1-c2"
     },
     {
      "page": "lessons",
      "month": "January",
-     "label": "January Week 2 · Class 4: Basketball games day",
+     "label": "January W2 (Week 17) · Class 4: Basketball games day",
      "href": "month-january.html#w2-c4"
     },
     {
@@ -1352,14 +1352,14 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "September",
-     "label": "September Week 1 · Class 4: Fair-play soccer closer",
-     "href": "month-september.html#w1-c4"
+     "label": "September W2 (Week 2) · Class 4: Fair-play soccer closer",
+     "href": "month-september.html#w2-c4"
     },
     {
      "page": "lessons",
      "month": "October",
-     "label": "October Week 3 · Class 3: Parachute change-places",
-     "href": "month-october.html#w3-c3"
+     "label": "October W2 (Week 7) · Class 3: Parachute change-places",
+     "href": "month-october.html#w2-c3"
     },
     {
      "page": "monthgames",
@@ -1801,9 +1801,9 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "lessons",
-     "month": "October",
-     "label": "October Week 1 · Class 3: End-zone catch",
-     "href": "month-october.html#w1-c3"
+     "month": "September",
+     "label": "September W5 (Week 5) · Class 3: End-zone catch",
+     "href": "month-september.html#w5-c3"
     },
     {
      "page": "monthgames",
@@ -1874,8 +1874,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "October",
-     "label": "October Week 3 · Class 3: Parachute change-places",
-     "href": "month-october.html#w3-c3"
+     "label": "October W2 (Week 7) · Class 3: Parachute change-places",
+     "href": "month-october.html#w2-c3"
     },
     {
      "page": "monthgames",
@@ -1913,9 +1913,9 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "lessons",
-     "month": "October",
-     "label": "October Week 1 · Class 1: Flag or two-hand touch",
-     "href": "month-october.html#w1-c1"
+     "month": "September",
+     "label": "September W5 (Week 5) · Class 1: Flag or two-hand touch",
+     "href": "month-september.html#w5-c1"
     },
     {
      "page": "monthgames",
@@ -2030,8 +2030,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "October",
-     "label": "October Week 2 · Class 4: Jail-catch football",
-     "href": "month-october.html#w2-c4"
+     "label": "October W1 (Week 6) · Class 4: Jail-catch football",
+     "href": "month-october.html#w1-c4"
     },
     {
      "page": "games",
@@ -2070,9 +2070,9 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "lessons",
-     "month": "October",
-     "label": "October Week 1 · Class 1: Flag or two-hand touch",
-     "href": "month-october.html#w1-c1"
+     "month": "September",
+     "label": "September W5 (Week 5) · Class 1: Flag or two-hand touch",
+     "href": "month-september.html#w5-c1"
     },
     {
      "page": "monthgames",
@@ -2345,20 +2345,20 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "November",
-     "label": "November Week 3 · Class 3: Circle Hoop Pass closer",
-     "href": "month-november.html#w3-c3"
+     "label": "November W2 (Week 11) · Class 3: Circle Hoop Pass closer",
+     "href": "month-november.html#w2-c3"
     },
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 2 · Class 2: Hoop Pass",
-     "href": "month-december.html#w2-c2"
+     "label": "December W1 (Week 14) · Class 2: Hoop Pass",
+     "href": "month-december.html#w1-c2"
     },
     {
      "page": "lessons",
      "month": "June",
-     "label": "June Week 4 · Class 2: Cooperative closer",
-     "href": "month-june.html#w4-c2"
+     "label": "June W3–4 (Week 39) · Class 2: Cooperative closer",
+     "href": "month-june.html#w3-c2"
     },
     {
      "page": "monthgames",
@@ -2501,8 +2501,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "November",
-     "label": "November Week 2 · Class 3: 2v1 to a goal",
-     "href": "month-november.html#w2-c3"
+     "label": "November W1 (Week 10) · Class 3: 2v1 to a goal",
+     "href": "month-november.html#w1-c3"
     },
     {
      "page": "monthgames",
@@ -2619,8 +2619,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 3 · Class 2: Capture the Flag",
-     "href": "month-december.html#w3-c2"
+     "label": "December extra lessons · Class 2: Capture the Flag",
+     "href": "month-december.html#x3-c2"
     },
     {
      "page": "monthgames",
@@ -2663,8 +2663,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 4 · Class 1: Student-choice tag",
-     "href": "month-december.html#w4-c1"
+     "label": "December W2 (Week 15) · Class 1: Student-choice tag",
+     "href": "month-december.html#w2-c1"
     },
     {
      "page": "monthgames",
@@ -2751,8 +2751,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 4 · Class 1: Student-choice tag",
-     "href": "month-december.html#w4-c1"
+     "label": "December W2 (Week 15) · Class 1: Student-choice tag",
+     "href": "month-december.html#w2-c1"
     },
     {
      "page": "monthgames",
@@ -2831,8 +2831,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 3 · Class 3: Bench Ball",
-     "href": "month-december.html#w3-c3"
+     "label": "December extra lessons · Class 3: Bench Ball",
+     "href": "month-december.html#x3-c3"
     },
     {
      "page": "monthgames",
@@ -2917,8 +2917,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 4 · Class 1: Student-choice tag",
-     "href": "month-december.html#w4-c1"
+     "label": "December W2 (Week 15) · Class 1: Student-choice tag",
+     "href": "month-december.html#w2-c1"
     },
     {
      "page": "monthgames",
@@ -2962,8 +2962,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 3 · Class 4: Castleball",
-     "href": "month-december.html#w3-c4"
+     "label": "December extra lessons · Class 4: Castleball",
+     "href": "month-december.html#x3-c4"
     },
     {
      "page": "monthgames",
@@ -3009,8 +3009,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 3 · Class 2: Capture the Flag",
-     "href": "month-december.html#w3-c2"
+     "label": "December extra lessons · Class 2: Capture the Flag",
+     "href": "month-december.html#x3-c2"
     }
    ],
    "status": "ok",
@@ -3044,8 +3044,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 3 · Class 2: Capture the Flag",
-     "href": "month-december.html#w3-c2"
+     "label": "December extra lessons · Class 2: Capture the Flag",
+     "href": "month-december.html#x3-c2"
     },
     {
      "page": "monthgames",
@@ -3094,8 +3094,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 3 · Class 4: Castleball",
-     "href": "month-december.html#w3-c4"
+     "label": "December extra lessons · Class 4: Castleball",
+     "href": "month-december.html#x3-c4"
     },
     {
      "page": "monthgames",
@@ -3138,8 +3138,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 3 · Class 4: Castleball",
-     "href": "month-december.html#w3-c4"
+     "label": "December extra lessons · Class 4: Castleball",
+     "href": "month-december.html#x3-c4"
     },
     {
      "page": "monthgames",
@@ -3184,13 +3184,13 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 4 · Class 3: Cooperative closer",
-     "href": "month-december.html#w4-c3"
+     "label": "December W2 (Week 15) · Class 3: Cooperative closer",
+     "href": "month-december.html#w2-c3"
     },
     {
      "page": "lessons",
      "month": "March",
-     "label": "March Week 3 · Class 4: Send and receive games",
+     "label": "March W3 (Week 26) · Class 4: Send and receive games",
      "href": "month-march.html#w3-c4"
     },
     {
@@ -3298,9 +3298,9 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "lessons",
-     "month": "December",
-     "label": "December Week 1 · Class 2: Everybody’s It",
-     "href": "month-december.html#w1-c2"
+     "month": "November",
+     "label": "November W4 (Week 13) · Class 2: Everybody’s It",
+     "href": "month-november.html#w4-c2"
     },
     {
      "page": "monthgames",
@@ -3373,8 +3373,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 4 · Class 1: Student-choice tag",
-     "href": "month-december.html#w4-c1"
+     "label": "December W2 (Week 15) · Class 1: Student-choice tag",
+     "href": "month-december.html#w2-c1"
     },
     {
      "page": "monthgames",
@@ -3447,8 +3447,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 2 · Class 3: Relays and Pass It On",
-     "href": "month-december.html#w2-c3"
+     "label": "December W1 (Week 14) · Class 3: Relays and Pass It On",
+     "href": "month-december.html#w1-c3"
     },
     {
      "page": "monthgames",
@@ -3496,9 +3496,9 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "lessons",
-     "month": "December",
-     "label": "December Week 1 · Class 3: Wolf’s Den",
-     "href": "month-december.html#w1-c3"
+     "month": "November",
+     "label": "November W4 (Week 13) · Class 3: Wolf’s Den",
+     "href": "month-november.html#w4-c3"
     },
     {
      "page": "monthgames",
@@ -3540,9 +3540,9 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "lessons",
-     "month": "December",
-     "label": "December Week 1 · Class 4: Massive 10 Second Tag",
-     "href": "month-december.html#w1-c4"
+     "month": "November",
+     "label": "November W4 (Week 13) · Class 4: Massive 10 Second Tag",
+     "href": "month-november.html#w4-c4"
     },
     {
      "page": "monthgames",
@@ -3620,8 +3620,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "December",
-     "label": "December Week 2 · Class 3: Relays and Pass It On",
-     "href": "month-december.html#w2-c3"
+     "label": "December W1 (Week 14) · Class 3: Relays and Pass It On",
+     "href": "month-december.html#w1-c3"
     },
     {
      "page": "games",
@@ -3900,9 +3900,9 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "lessons",
-     "month": "December",
-     "label": "December Week 1 · Class 3: Wolf’s Den",
-     "href": "month-december.html#w1-c3"
+     "month": "November",
+     "label": "November W4 (Week 13) · Class 3: Wolf’s Den",
+     "href": "month-november.html#w4-c3"
     },
     {
      "page": "monthgames",
@@ -4035,7 +4035,7 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "January",
-     "label": "January Week 3 · Class 2: Scoop toss to self",
+     "label": "January W3 (Week 18) · Class 2: Scoop toss to self",
      "href": "month-january.html#w3-c2"
     },
     {
@@ -4148,7 +4148,7 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "February",
-     "label": "February Week 4 · Class 3: Jump Rope for Heart or rope/hoop games",
+     "label": "February W4 (Week 23) · Class 3: Jump Rope for Heart or rope/hoop games",
      "href": "month-february.html#w4-c3"
     },
     {
@@ -4203,7 +4203,7 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "February",
-     "label": "February Week 4 · Class 3: Jump Rope for Heart or rope/hoop games",
+     "label": "February W4 (Week 23) · Class 3: Jump Rope for Heart or rope/hoop games",
      "href": "month-february.html#w4-c3"
     },
     {
@@ -4277,19 +4277,19 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "February",
-     "label": "February Week 1 · Class 2: Two-foot jump",
+     "label": "February W1 (Week 20) · Class 2: Two-foot jump",
      "href": "month-february.html#w1-c2"
     },
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 1 · Class 4: Jump and land",
+     "label": "April W1 (Week 28) · Class 4: Jump and land",
      "href": "month-april.html#w1-c4"
     },
     {
      "page": "lessons",
      "month": "May",
-     "label": "May Week 2 · Class 1: Standing long jump",
+     "label": "May W2 (Week 33) · Class 1: Standing long jump",
      "href": "month-may.html#w2-c1"
     },
     {
@@ -4595,7 +4595,7 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "March",
-     "label": "March Week 2 · Class 4: Volleyball festival",
+     "label": "March W2 (Week 25) · Class 4: Volleyball festival",
      "href": "month-march.html#w2-c4"
     },
     {
@@ -4732,7 +4732,7 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 1 · Class 2: Travel like a gymnast",
+     "label": "April W1 (Week 28) · Class 2: Travel like a gymnast",
      "href": "month-april.html#w1-c2"
     },
     {
@@ -4810,19 +4810,19 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 2 · Class 1: Log roll",
+     "label": "April W2 (Week 29) · Class 1: Log roll",
      "href": "month-april.html#w2-c1"
     },
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 2 · Class 4: April stations — travel, jump, roll, balance",
+     "label": "April W2 (Week 29) · Class 4: April stations — travel, jump, roll, balance",
      "href": "month-april.html#w2-c4"
     },
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 3 · Class 2: Hoop and floor pathways",
+     "label": "April W3 (Week 30) · Class 2: Hoop and floor pathways",
      "href": "month-april.html#w3-c2"
     }
    ],
@@ -4889,19 +4889,19 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 2 · Class 1: Log roll",
+     "label": "April W2 (Week 29) · Class 1: Log roll",
      "href": "month-april.html#w2-c1"
     },
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 2 · Class 4: April stations — travel, jump, roll, balance",
+     "label": "April W2 (Week 29) · Class 4: April stations — travel, jump, roll, balance",
      "href": "month-april.html#w2-c4"
     },
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 3 · Class 2: Hoop and floor pathways",
+     "label": "April W3 (Week 30) · Class 2: Hoop and floor pathways",
      "href": "month-april.html#w3-c2"
     }
    ],
@@ -4933,25 +4933,25 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 2 · Class 1: Log roll",
+     "label": "April W2 (Week 29) · Class 1: Log roll",
      "href": "month-april.html#w2-c1"
     },
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 2 · Class 2: Rock and roll (not a neck roll)",
+     "label": "April W2 (Week 29) · Class 2: Rock and roll (not a neck roll)",
      "href": "month-april.html#w2-c2"
     },
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 2 · Class 4: April stations — travel, jump, roll, balance",
+     "label": "April W2 (Week 29) · Class 4: April stations — travel, jump, roll, balance",
      "href": "month-april.html#w2-c4"
     },
     {
      "page": "lessons",
      "month": "April",
-     "label": "April Week 3 · Class 2: Hoop and floor pathways",
+     "label": "April W3 (Week 30) · Class 2: Hoop and floor pathways",
      "href": "month-april.html#w3-c2"
     }
    ],
@@ -5349,14 +5349,14 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "June",
-     "label": "June Week 2 · Class 2: Strike and catch",
-     "href": "month-june.html#w2-c2"
+     "label": "June W1 (Week 37) · Class 2: Strike and catch",
+     "href": "month-june.html#w1-c2"
     },
     {
      "page": "lessons",
      "month": "June",
-     "label": "June Week 3 · Class 2: Base running",
-     "href": "month-june.html#w3-c2"
+     "label": "June W2 (Week 38) · Class 2: Base running",
+     "href": "month-june.html#w2-c2"
     },
     {
      "page": "monthgames",
@@ -5429,8 +5429,8 @@ window.VIDEO_INDEX = {
     {
      "page": "lessons",
      "month": "June",
-     "label": "June Week 3 · Class 2: Base running",
-     "href": "month-june.html#w3-c2"
+     "label": "June W2 (Week 38) · Class 2: Base running",
+     "href": "month-june.html#w2-c2"
     },
     {
      "page": "games",

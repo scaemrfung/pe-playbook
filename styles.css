@@ -827,6 +827,7 @@ body[data-band] .out-grid { grid-template-columns: 1fr; }
 .school-weeks ul { margin: 4px 0 0; }
 .school-weeks li { margin: 2px 0; font-size: .92rem; }
 .school-weeks li.current { font-weight: 600; }
+.school-weeks-away { margin: 6px 0 0; }
 .school-weeks li.current::after { content: " ← this week"; color: #8a5a00; font-weight: 700; }
 .this-week-line { margin: 6px 0 0; font-size: .95rem; }
 .this-week-line.break { background: #fdf1dc; color: #6b4a00; border-radius: 10px; padding: 6px 10px; }
