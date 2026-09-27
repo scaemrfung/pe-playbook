@@ -117,7 +117,7 @@
 
       function hay(g) {
         return [
-          g.number, g.title, g.equipment,
+          g.number, g.title, window.oldNamesFor ? window.oldNamesFor(g.title) : "", g.equipment,
           (g.space || []).join(" "),
           (g.how || []).join(" "),
           (g.variations || []).join(" "),

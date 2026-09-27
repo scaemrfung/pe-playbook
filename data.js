@@ -284,7 +284,7 @@ const months = [
         "focus": "Soft give, then run",
         "wu": "Partner hand-off walk.",
         "skill": "QB hands to a runner who goes to a hoop.",
-        "game": "Gauntlet run — football at the hip, not a tackle.",
+        "game": "Dodge Lane — football at the hip, not a tackle.",
         "cd": "Give, don’t throw at the runner.",
         "g12": "Walk hand-off",
         "g34": "Jog",
@@ -1153,7 +1153,7 @@ const months = [
         "w": 2,
         "c": 1,
         "title": "Hoop — spin and space",
-        "focus": "Control, not just hula",
+        "focus": "Control, not just hip spins",
         "wu": "Hoop on the floor, jump in and out.",
         "skill": "Waist spin, arm spin, roll a hoop to a partner.",
         "game": "Chicken Checkers — hoops are rest spots.",
@@ -2536,7 +2536,7 @@ const MONTH_GAMES = {
     [
       "Fitness Musical Hoops",
       "",
-      "In this fitness or warm-up game, hula hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clo"
+      "In this fitness or warm-up game, hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clo"
     ],
     [
       "Jump The River",
@@ -2842,9 +2842,9 @@ const MONTH_GAMES = {
       "Core strength and a short cooperative carry."
     ],
     [
-      "Crazy Ball Soccer",
+      "Wild Ball Soccer",
       "",
-      "Great for any grade or age level, Crazy Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instea"
+      "Great for any grade or age level, Wild Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instea"
     ],
     [
       "Slappers!",

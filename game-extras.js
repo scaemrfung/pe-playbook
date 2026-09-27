@@ -2121,7 +2121,7 @@ window.GAME_EXTRAS = {
     "skins": [],
     "aka": []
   },
-  "Crazy Ball Soccer": {
+  "Wild Ball Soccer": {
     "numbers": "Large group · K-8 · 5–8 min rounds.",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
@@ -2135,11 +2135,11 @@ window.GAME_EXTRAS = {
       "Add a second foam ball if more than 24 students so more players get a touch.",
       "Extra players are walking walls — they may deflect a ball with feet but may not score."
     ],
-    "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Crazy Ball Soccer.",
+    "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Wild Ball Soccer.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Stays in Crazy Ball Soccer for the set time; can name breath or enjoyment after — not a ranking."
+        "look": "Stays in Wild Ball Soccer for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
         "code": "Movement Skill Development",
@@ -2168,7 +2168,7 @@ window.GAME_EXTRAS = {
     ],
     "more": [
       "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crazy Ball Soccer.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Wild Ball Soccer.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
       "Year plan: September — match the month’s sport ball when you can."
     ],
@@ -6584,7 +6584,7 @@ window.GAME_EXTRAS = {
       "How a round ends: First team with everyone through.",
       "If this happens — Early start: back to hoop 1.",
       "If this happens — Hands on a no-hands carry: restart that pair.",
-      "Also called: Toe-tap hoop relay; Circle Hoop Pass; Circle Hoop; Hop-the-hoops relay; Rabbit Relay; Hula Stick; Caterpillar Relay.",
+      "Also called: Toe-tap hoop relay; Circle Hoop Pass; Circle Hoop; Hop-the-hoops relay; Rabbit Relay; Hoop Stick; Caterpillar Relay.",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -6605,7 +6605,7 @@ window.GAME_EXTRAS = {
       "Circle Hoop",
       "Hop-the-hoops relay",
       "Rabbit Relay",
-      "Hula Stick",
+      "Hoop Stick",
       "Caterpillar Relay"
     ]
   },
@@ -6848,7 +6848,7 @@ window.GAME_EXTRAS = {
     "skins": [],
     "aka": []
   },
-  "Crazy Beans": {
+  "Jumping Beans": {
     "numbers": "Whole class · 4 min.",
     "cues": [
       "Show the bean, then freeze on ‘frozen bean.’",
@@ -6868,7 +6868,7 @@ window.GAME_EXTRAS = {
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Stays in Crazy Beans for the set time; can name breath or enjoyment after — not a ranking."
+        "look": "Stays in Jumping Beans for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
         "code": "Movement Skill Development",
@@ -6876,7 +6876,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Finds an open pathway on the go signal; does not cut a neighbour in Crazy Beans."
+        "look": "Finds an open pathway on the go signal; does not cut a neighbour in Jumping Beans."
       },
       {
         "code": "Personal and Social Development",
@@ -6897,7 +6897,7 @@ window.GAME_EXTRAS = {
     ],
     "more": [
       "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crazy Beans.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Jumping Beans.",
       "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
       "Year plan: September, December — match the month’s sport ball when you can.",
       "Jumping bean, runner bean, jelly bean, broad bean (wide shape), frozen bean, chilli bean (fast jog), coffee bean (grind / small circle).",
@@ -7463,7 +7463,7 @@ window.GAME_EXTRAS = {
     "skins": [],
     "aka": []
   },
-  "Rikki Tikki": {
+  "Mongoose Tag": {
     "numbers": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
     "cues": [
       "Match the body part.",
@@ -7480,11 +7480,11 @@ window.GAME_EXTRAS = {
       "Let a student call two commands (teacher stays on freeze and safety).",
       "Add a shape at the freeze: tuck, star, or stork."
     ],
-    "look": "The class matches the named movement and can freeze in a balanced shape during Rikki Tikki.",
+    "look": "The class matches the named movement and can freeze in a balanced shape during Mongoose Tag.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Stays in Rikki Tikki for the set time; can name breath or enjoyment after — not a ranking."
+        "look": "Stays in Mongoose Tag for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
         "code": "Movement Skill Development",
@@ -7492,7 +7492,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Finds an open pathway on the go signal; does not cut a neighbour in Rikki Tikki."
+        "look": "Finds an open pathway on the go signal; does not cut a neighbour in Mongoose Tag."
       },
       {
         "code": "Personal and Social Development",
@@ -7513,7 +7513,7 @@ window.GAME_EXTRAS = {
     ],
     "more": [
       "Grouping: Whole class in open space · 4–8 minutes · freeze on the signal, then the next command.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Rikki Tikki.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Mongoose Tag.",
       "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
       "Year plan: September, December — match the month’s sport ball when you can.",
       "Pairs face. Teacher calls two body parts (knee-elbow, toe-shoulder). Partners touch those parts together and freeze.",
@@ -8673,7 +8673,7 @@ window.GAME_EXTRAS = {
       "Icebergs: remove hoops with no music.",
       "Twister: ‘right hand, blue.’",
       "Cones instead of hoops.",
-      "Hulahoop Madness: extra hoop jobs for extras."
+      "Hoop Madness: extra hoop jobs for extras."
     ],
     "look": "Everyone is moving or has a job in Musical Hoops. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
@@ -8712,7 +8712,7 @@ window.GAME_EXTRAS = {
       "If this happens — Camping while music plays: they must leave it.",
       "If this happens — Collision: walking travel.",
       "If this happens — Tears at the last hoop: keep two hoops and stop.",
-      "Also called: Fitness Musical Hoops; Icebergs; Hula Hoop Twister; Hulahoop Madness; Musical Rings; Musical Cones.",
+      "Also called: Fitness Musical Hoops; Icebergs; Hoop Twister; Hoop Madness; Musical Rings; Musical Cones.",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -8725,12 +8725,12 @@ window.GAME_EXTRAS = {
       "Icebergs: remove hoops with no music.",
       "Twister: ‘right hand, blue.’",
       "Cones instead of hoops.",
-      "Hulahoop Madness: extra hoop jobs for extras."
+      "Hoop Madness: extra hoop jobs for extras."
     ],
     "aka": [
       "Fitness Musical Hoops",
       "Icebergs",
-      "Hulahoop Madness",
+      "Hoop Madness",
       "Musical Rings",
       "Musical Cones"
     ]
@@ -9514,7 +9514,7 @@ window.GAME_EXTRAS = {
     ],
     "variations": [
       "Classmates are tunnels and bridges; the other half travels, then swap.",
-      "Carry a built 6-hoop hut without collapse (Hula Hut — keep as its own card if the build is the lesson).",
+      "Carry a built 6-hoop hut without collapse (Hoop Hut — keep as its own card if the build is the lesson).",
       "Polar Express / Flip Flop: flip mats as you go.",
       "Cross the River: same islands, one spare hoop."
     ],
@@ -9564,7 +9564,7 @@ window.GAME_EXTRAS = {
     "roundEnds": "First team fully across, or all groups succeed.",
     "skins": [
       "Classmates are tunnels and bridges; the other half travels, then swap.",
-      "Carry a built 6-hoop hut without collapse (Hula Hut — keep as its own card if the build is the lesson).",
+      "Carry a built 6-hoop hut without collapse (Hoop Hut — keep as its own card if the build is the lesson).",
       "Polar Express / Flip Flop: flip mats as you go.",
       "Cross the River: same islands, one spare hoop."
     ],
@@ -10680,7 +10680,7 @@ window.GAME_EXTRAS = {
       "Daly Exercise: Inchworm Rescue"
     ]
   },
-  "Hula Hut": {
+  "Hoop Hut": {
     "numbers": "Daly Exercise · slot 16-25.",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
@@ -10692,27 +10692,27 @@ window.GAME_EXTRAS = {
       "Six hoops. Slow walk.",
       "Picture only. Time cap."
     ],
-    "look": "Everyone is moving or has a job in Hula Hut. A miss is a short task, then back in.",
+    "look": "Everyone is moving or has a job in Hoop Hut. A miss is a short task, then back in.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Stays in Hula Hut for the set time; can name breath or enjoyment after — not a ranking."
+        "look": "Stays in Hoop Hut for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Uses the taught action in Hula Hut with control, not a rush that knocks kit or people."
+        "look": "Uses the taught action in Hoop Hut with control, not a rush that knocks kit or people."
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Chooses space, timing, or a partner job in Hula Hut instead of crowding."
+        "look": "Chooses space, timing, or a partner job in Hoop Hut instead of crowding."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares kit in Hula Hut."
+        "look": "Takes a role and shares kit in Hoop Hut."
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Hula Hut."
+        "look": "Honest about a miss, a tag, or a line in Hoop Hut."
       },
       {
         "code": "Safety",
@@ -10741,7 +10741,7 @@ window.GAME_EXTRAS = {
       "Picture only. Time cap."
     ],
     "aka": [
-      "Daly Exercise: Hula Hut"
+      "Daly Exercise: Hoop Hut"
     ]
   },
   "Partner Orienteering": {
@@ -11064,7 +11064,7 @@ window.GAME_EXTRAS = {
       "Daly Exercise: Catch the Ice Cream"
     ]
   },
-  "Hula Balance": {
+  "Hoop Balance": {
     "numbers": "Daly Exercise · slot 8-15.",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
@@ -11076,27 +11076,27 @@ window.GAME_EXTRAS = {
       "Shorter distance.",
       "Three people, one hoop."
     ],
-    "look": "Everyone is moving or has a job in Hula Balance. A miss is a short task, then back in.",
+    "look": "Everyone is moving or has a job in Hoop Balance. A miss is a short task, then back in.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Stays in Hula Balance for the set time; can name breath or enjoyment after — not a ranking."
+        "look": "Stays in Hoop Balance for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Uses the taught action in Hula Balance with control, not a rush that knocks kit or people."
+        "look": "Uses the taught action in Hoop Balance with control, not a rush that knocks kit or people."
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Chooses space, timing, or a partner job in Hula Balance instead of crowding."
+        "look": "Chooses space, timing, or a partner job in Hoop Balance instead of crowding."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares kit in Hula Balance."
+        "look": "Takes a role and shares kit in Hoop Balance."
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Hula Balance."
+        "look": "Honest about a miss, a tag, or a line in Hoop Balance."
       },
       {
         "code": "Safety",
@@ -11125,7 +11125,7 @@ window.GAME_EXTRAS = {
       "Three people, one hoop."
     ],
     "aka": [
-      "Daly Exercise: Hula Balance"
+      "Daly Exercise: Hoop Balance"
     ]
   },
   "Halloween Chase": {

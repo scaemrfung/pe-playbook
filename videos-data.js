@@ -257,13 +257,13 @@ window.VIDEO_INDEX = {
    "old": "https://www.youtube.com/watch?v=97ukVJD-ZaM",
    "new": "",
    "newTitle": "removed",
-   "reason": "Pin knock-over clip attached to a land-in-the-target scoring game (clip moved to Skittle Ball). Old: “Physical Education - Crazy Ball Pin Knockover”. No verified classroom demo of this game found, so the clip was removed."
+   "reason": "Pin knock-over clip attached to a land-in-the-target scoring game (clip moved to Skittle Ball). Old: “Physical Education - Wild Ball Pin Knockover”. No verified classroom demo of this game found, so the clip was removed."
   },
   {
    "where": "Flying Saucers",
    "old": "https://www.youtube.com/watch?v=AjDKYyIHF_8",
    "new": "https://www.youtube.com/watch?v=e5B3zKLZ7L4",
-   "newTitle": "Frisbee Hula Hoop Target Team Challenge — Tim Mueller",
+   "newTitle": "Frisbee Hoop Target Team Challenge — Tim Mueller",
    "reason": "Football clip attached to a disc-at-hoops game. Old: “4 Fun Elementary PE FOOTBALL ACTIVITIES”."
   },
   {
@@ -2272,50 +2272,12 @@ window.VIDEO_INDEX = {
    "ytTitle": "CLEAN YOUR ROOM!"
   },
   {
-   "key": "yt:97ukVJD-ZaM",
-   "url": "https://www.youtube.com/watch?v=97ukVJD-ZaM",
-   "kind": "video",
-   "title": "Crazy Ball Pin Knockover",
-   "channel": "PhysEdGames",
-   "about": "A line of pins. Throw mixed soft objects. Timed round. Everyone throws.",
-   "games": [
-    "Skittle Ball"
-   ],
-   "month": "November",
-   "unit": "November · Hockey",
-   "months": [
-    "November",
-    "January",
-    "March"
-   ],
-   "pages": [
-    "monthgames",
-    "games"
-   ],
-   "refs": [
-    {
-     "page": "monthgames",
-     "month": "November",
-     "label": "November · Big-group games: Skittle Ball",
-     "href": "month-november.html#month-games"
-    },
-    {
-     "page": "games",
-     "label": "Big-Group Games · Skittle Ball",
-     "href": "games.html#skittle-ball"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Physical Education - Crazy Ball Pin Knockover"
-  },
-  {
    "key": "yt:e5B3zKLZ7L4",
    "url": "https://www.youtube.com/watch?v=e5B3zKLZ7L4",
    "kind": "video",
-   "title": "Frisbee Hula Hoop Target",
+   "title": "Frisbee Hoop Target",
    "channel": "Tim Mueller",
-   "about": "Teams take turns landing foam frisbees in their hula hoops.",
+   "about": "Teams take turns landing foam frisbees in their hoops.",
    "games": [
     "Flying Saucers"
    ],
@@ -2351,7 +2313,7 @@ window.VIDEO_INDEX = {
    ],
    "status": "ok",
    "checked": "2026-09-27",
-   "ytTitle": "Frisbee Hula Hoop Target Team Challenge"
+   "ytTitle": "Frisbee Hoop Target Team Challenge"
   },
   {
    "key": "yt:PGB_LJKKqX0",
@@ -2359,7 +2321,7 @@ window.VIDEO_INDEX = {
    "kind": "video",
    "title": "Hoop Pass",
    "channel": "PhysEdGames",
-   "about": "Team-building game. A group holds hands in a circle or line and passes a hula hoop from player to player without breaking the chain-link. Not as easy as it sounds! Time trials, team vs. team, or large group are all fun ways to play this gam…",
+   "about": "Team-building game. A group holds hands in a circle or line and passes a hoop from player to player without breaking the chain-link. Not as easy as it sounds! Time trials, team vs. team, or large group are all fun ways to play this gam…",
    "games": [
     "Circle Hoop Pass",
     "Hoop Pass",
@@ -2563,6 +2525,44 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "The numbers game - Try this activity for your hockey, basketball & soccer PE lessons"
+  },
+  {
+   "key": "yt:97ukVJD-ZaM",
+   "url": "https://www.youtube.com/watch?v=97ukVJD-ZaM",
+   "kind": "video",
+   "title": "Wild Ball Pin Knockover",
+   "channel": "PhysEdGames",
+   "about": "A line of pins. Throw mixed soft objects. Timed round. Everyone throws.",
+   "games": [
+    "Skittle Ball"
+   ],
+   "month": "November",
+   "unit": "November · Hockey",
+   "months": [
+    "November",
+    "January",
+    "March"
+   ],
+   "pages": [
+    "monthgames",
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "monthgames",
+     "month": "November",
+     "label": "November · Big-group games: Skittle Ball",
+     "href": "month-november.html#month-games"
+    },
+    {
+     "page": "games",
+     "label": "Big-Group Games · Skittle Ball",
+     "href": "games.html#skittle-ball"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Physical Education - Wild Ball Pin Knockover"
   },
   {
    "key": "yt:mf7WYMBG45Q",
@@ -3396,11 +3396,11 @@ window.VIDEO_INDEX = {
    "key": "yt:NVpUzALtp_4",
    "url": "https://www.youtube.com/watch?v=NVpUzALtp_4",
    "kind": "video",
-   "title": "Hula Hut Knock Down⭕️ Back to school PE game #pegames #school #games #teacher",
+   "title": "Hoop Hut Knock Down⭕️ Back to school PE game #pegames #school #games #teacher",
    "channel": "Daly Exercise",
    "about": "",
    "games": [
-    "Hula Hut Knock Down"
+    "Hoop Hut Knock Down"
    ],
    "month": "December",
    "unit": "December · Games",
@@ -3413,13 +3413,13 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "newgames",
-     "label": "New Games · Hula Hut Knock Down",
-     "href": "new-games.html#hula-hut-knock-down"
+     "label": "New Games · Hoop Hut Knock Down",
+     "href": "new-games.html#hoop-hut-knock-down"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
-   "ytTitle": "Hula Hut Knock Down⭕️ Back to school PE game #pegames #school #games #teacher"
+   "ytTitle": "Hoop Hut Knock Down⭕️ Back to school PE game #pegames #school #games #teacher"
   },
   {
    "key": "yt:K65d2E4q3mU",
@@ -3809,11 +3809,11 @@ window.VIDEO_INDEX = {
    "key": "yt:-URBEEkYyWg",
    "url": "https://www.youtube.com/watch?v=-URBEEkYyWg",
    "kind": "video",
-   "title": "Ultimate Warriors",
+   "title": "Three-Court Dodgeball",
    "channel": "PhysEdGames",
-   "about": "Ultimate Warriors is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodgeball going on at th…",
+   "about": "Three-Court Dodgeball is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodgeball going on at th…",
    "games": [
-    "Ultimate Warriors"
+    "Three-Court Dodgeball"
    ],
    "month": "December",
    "unit": "December · Games",
@@ -3828,18 +3828,18 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "games",
-     "label": "Big-Group Games · Ultimate Warriors",
-     "href": "games.html#ultimate-warriors"
+     "label": "Big-Group Games · Three-Court Dodgeball",
+     "href": "games.html#three-court-dodgeball"
     },
     {
      "page": "dodgeball",
-     "label": "Dodgeball · Ultimate Warriors",
-     "href": "dodgeball.html#ultimate-warriors"
+     "label": "Dodgeball · Three-Court Dodgeball",
+     "href": "dodgeball.html#three-court-dodgeball"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
-   "ytTitle": "P.E. Game - Ultimate Warriors!!!"
+   "ytTitle": "P.E. Game - Three-Court Dodgeball!!!"
   },
   {
    "key": "yt:DpnTLRUyLjQ",
@@ -4128,7 +4128,7 @@ window.VIDEO_INDEX = {
    "kind": "video",
    "title": "Fitness Musical Hoops",
    "channel": "PhysEdGames",
-   "about": "In this fitness or warm-up game, hula hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. Players cannot cross…",
+   "about": "In this fitness or warm-up game, hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. Players cannot cross…",
    "games": [
     "Fitness Musical Hoops",
     "Musical Hoops"
@@ -4179,43 +4179,14 @@ window.VIDEO_INDEX = {
    "ytTitle": "Physed Games - Fitness Musical Hoops"
   },
   {
-   "key": "yt:vFE9utBS084",
-   "url": "https://www.youtube.com/watch?v=vFE9utBS084",
-   "kind": "video",
-   "title": "Hula Hoop Twister",
-   "channel": "PhysEdGames",
-   "about": "It’s a combo of musical chairs and the Twister board game which for sure means it’s fun and active, definitely worth giving it a play or 10 in your PE class 😀 (thanks Deric Hafer)",
-   "games": [
-    "Hula Hoop Twister"
-   ],
-   "month": "February",
-   "unit": "February · Ropes",
-   "months": [
-    "February"
-   ],
-   "pages": [
-    "games"
-   ],
-   "refs": [
-    {
-     "page": "games",
-     "label": "Big-Group Games · Hula Hoop Twister",
-     "href": "games.html#hula-hoop-twister"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Hula Hoop Twister - PE Game"
-  },
-  {
    "key": "yt:JIBAnKESha0",
    "url": "https://www.youtube.com/watch?v=JIBAnKESha0",
    "kind": "video",
-   "title": "Hulahoop Madness",
+   "title": "Hoop Madness",
    "channel": "PhysEdGames",
-   "about": "Another movement game to help enhance discussions and awareness of personal space. Hula hoop madness starts with lots of hula hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away a…",
+   "about": "Another movement game to help enhance discussions and awareness of personal space. Hoop madness starts with lots of hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away a…",
    "games": [
-    "Hulahoop Madness",
+    "Hoop Madness",
     "Musical Hoops"
    ],
    "month": "February",
@@ -4249,7 +4220,36 @@ window.VIDEO_INDEX = {
    ],
    "status": "ok",
    "checked": "2026-09-27",
-   "ytTitle": "Gym Games - Hulahoop Madness"
+   "ytTitle": "Gym Games - Hoop Madness"
+  },
+  {
+   "key": "yt:vFE9utBS084",
+   "url": "https://www.youtube.com/watch?v=vFE9utBS084",
+   "kind": "video",
+   "title": "Hoop Twister",
+   "channel": "PhysEdGames",
+   "about": "It’s a combo of musical chairs and the Twister board game which for sure means it’s fun and active, definitely worth giving it a play or 10 in your PE class 😀 (thanks Deric Hafer)",
+   "games": [
+    "Hoop Twister"
+   ],
+   "month": "February",
+   "unit": "February · Ropes",
+   "months": [
+    "February"
+   ],
+   "pages": [
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Big-Group Games · Hoop Twister",
+     "href": "games.html#hoop-twister"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Hoop Twister - PE Game"
   },
   {
    "key": "yt:jdaHgN9qHew",
@@ -5261,43 +5261,6 @@ window.VIDEO_INDEX = {
    "ytTitle": "P.E. Games - Catch & Step"
   },
   {
-   "key": "yt:WAwM2ALIl8c",
-   "url": "https://www.youtube.com/watch?v=WAwM2ALIl8c",
-   "kind": "video",
-   "title": "Crazy Ball Soccer",
-   "channel": "PhysEdGames",
-   "about": "Great for any grade or age level, Crazy Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipment you might have to…",
-   "games": [
-    "Crazy Ball Soccer"
-   ],
-   "month": "June",
-   "unit": "June · Baseball",
-   "months": [
-    "September",
-    "June"
-   ],
-   "pages": [
-    "monthgames",
-    "games"
-   ],
-   "refs": [
-    {
-     "page": "monthgames",
-     "month": "June",
-     "label": "June · Big-group games: Crazy Ball Soccer",
-     "href": "month-june.html#month-games"
-    },
-    {
-     "page": "games",
-     "label": "Big-Group Games · Crazy Ball Soccer",
-     "href": "games.html#crazy-ball-soccer"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "PE Games - Crazy Ball Soccer"
-  },
-  {
    "key": "yt:s7LFvMRqbgg",
    "url": "https://www.youtube.com/watch?v=s7LFvMRqbgg",
    "kind": "video",
@@ -5610,6 +5573,43 @@ window.VIDEO_INDEX = {
    "ytTitle": "Strikerball"
   },
   {
+   "key": "yt:WAwM2ALIl8c",
+   "url": "https://www.youtube.com/watch?v=WAwM2ALIl8c",
+   "kind": "video",
+   "title": "Wild Ball Soccer",
+   "channel": "PhysEdGames",
+   "about": "Great for any grade or age level, Wild Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipment you might have to…",
+   "games": [
+    "Wild Ball Soccer"
+   ],
+   "month": "June",
+   "unit": "June · Baseball",
+   "months": [
+    "September",
+    "June"
+   ],
+   "pages": [
+    "monthgames",
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "monthgames",
+     "month": "June",
+     "label": "June · Big-group games: Wild Ball Soccer",
+     "href": "month-june.html#month-games"
+    },
+    {
+     "page": "games",
+     "label": "Big-Group Games · Wild Ball Soccer",
+     "href": "games.html#wild-ball-soccer"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "PE Games - Wild Ball Soccer"
+  },
+  {
    "key": "yt:BUvxkXLgSRQ",
    "url": "https://www.youtube.com/watch?v=BUvxkXLgSRQ",
    "kind": "video",
@@ -5777,7 +5777,7 @@ window.VIDEO_INDEX = {
    "channel": "PhysEdGames",
    "about": "",
    "games": [
-    "Chinese Wall"
+    "Castle Wall"
    ],
    "month": "",
    "unit": "Any time",
@@ -5788,7 +5788,7 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "warmups",
-     "label": "Warm Up Games · Chinese Wall",
+     "label": "Warm Up Games · Castle Wall",
      "href": "warmup-nogym.html#warmup-8"
     }
    ],

@@ -850,7 +850,7 @@ window.NEW_GAMES = {
    "addedOn": "2026-09-14",
    "name": "Four Square Paddle Ball",
    "section": "Net–wall",
-   "desc": "Hula-hoop courts with paddles/soft ball; three progressive distances (Close / Challenge / Championship); striking, teamwork, hand-eye, spatial awareness",
+   "desc": "Hoop courts with paddles/soft ball; three progressive distances (Close / Challenge / Championship); striking, teamwork, hand-eye, spatial awareness",
    "sports": "paddle, tennis, hand-eye",
    "flag": "stay-in",
    "stayIn": true,
@@ -864,7 +864,7 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "2–6",
    "gradesFrom": "inferred",
-   "equipment": "Hula hoops as courts; paddles; soft balls",
+   "equipment": "Hoops as courts; paddles; soft balls",
    "setup": "Groups of four; hoop courts set at three distances (Close / Challenge / Championship).",
    "how": [
     "Hit the ball with the paddle so it bounces into another player’s hoop court.",
@@ -959,10 +959,10 @@ window.NEW_GAMES = {
    ]
   },
   {
-   "id": "hula-hut-knock-down",
+   "id": "hoop-hut-knock-down",
    "added": "2026-09-07",
    "addedOn": "2026-09-07",
-   "name": "Hula Hut Knock Down",
+   "name": "Hoop Hut Knock Down",
    "section": "Target / throwing",
    "desc": "Teams build 6-hoop hut (base + 4 upright + top), run back, throw/roll soft ball to knock own hut for points, rebuild and repeat",
    "sports": "throwing, teamwork",
@@ -978,6 +978,12 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "oldNames": [
+    "Hula Hut Knock Down"
+   ],
+   "aliases": [
+    "hula-hut-knock-down"
+   ],
    "equipment": "6 hoops per team; soft balls",
    "setup": "Teams build a 6-hoop hut: base, 4 upright, 1 on top.",
    "how": [

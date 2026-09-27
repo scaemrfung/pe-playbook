@@ -53,8 +53,9 @@
     if (notes) more.push("<li><strong>Notes:</strong> " + notes + "</li>");
     if (added) more.push("<li>" + esc(added) + "</li>");
     if (g.siteCard) more.push('<li><a href="' + esc(g.siteCard.href) + '">Also on the ' + esc(g.siteCard.label) + "</a></li>");
-    var hay = [g.name, g.desc, g.sports, g.section, g.equipment, (g.how || []).join(" "), (g.variations || []).join(" "), g.unit, u ? u.sport : "", g.source].join(" ").toLowerCase();
+    var hay = [g.name, (g.oldNames || []).join(" "), g.desc, g.sports, g.section, g.equipment, (g.how || []).join(" "), (g.variations || []).join(" "), g.unit, u ? u.sport : "", g.source].join(" ").toLowerCase();
     return '<article class="gcard ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.unit) + '" data-type="' + esc(typeLabel(g.section)) + '" data-hay="' + esc(hay) + '">' +
+      (g.aliases || []).map(function (x) { return '<span id="' + esc(x) + '"></span>'; }).join("") +
       '<div class="ghead"><h3>' + esc(g.name) + "</h3>" +
       (g.section ? '<span class="src">' + esc(typeLabel(g.section)) + "</span>" : "") + "</div>" +
       (opts.isNew ? '<p class="meta ng-newtag"><strong>New this week</strong></p>' : "") +

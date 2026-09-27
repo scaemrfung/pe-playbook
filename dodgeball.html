@@ -78,7 +78,7 @@
     const box = document.getElementById("list");
     const q = document.getElementById("dodge-q");
     function hay(g) {
-      return [g.name, g.purpose, g.kind, (g.play || []).join(" "), (g.cues || []).join(" "), (g.more || []).join(" ")].join(" ").toLowerCase();
+      return [g.name, window.oldNamesFor ? window.oldNamesFor(g.name) : "", g.purpose, g.kind, (g.play || []).join(" "), (g.cues || []).join(" "), (g.more || []).join(" ")].join(" ").toLowerCase();
     }
     function draw() {
       const term = ((q && q.value) || "").toLowerCase();

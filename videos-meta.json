@@ -10,7 +10,7 @@
   "yt:-URBEEkYyWg": {
    "status": "ok",
    "http": 200,
-   "title": "P.E. Game - Ultimate Warriors!!!",
+   "title": "P.E. Game - Three-Court Dodgeball!!!",
    "channel": "PhysEdGames",
    "url": "https://www.youtube.com/watch?v=-URBEEkYyWg",
    "checked": "2026-09-27"
@@ -194,7 +194,7 @@
   "yt:97ukVJD-ZaM": {
    "status": "ok",
    "http": 200,
-   "title": "Physical Education - Crazy Ball Pin Knockover",
+   "title": "Physical Education - Wild Ball Pin Knockover",
    "channel": "PhysEdGames",
    "url": "https://www.youtube.com/watch?v=97ukVJD-ZaM",
    "checked": "2026-09-27"
@@ -346,7 +346,7 @@
   "yt:FsmEIRAD890": {
    "status": "ok",
    "http": 200,
-   "title": "4 PE Games You Can Play Using Hula Hoops by Daly Exercise",
+   "title": "4 PE Games You Can Play Using Hoops by Daly Exercise",
    "channel": "Daly Exercise",
    "url": "https://www.youtube.com/watch?v=FsmEIRAD890",
    "checked": "2026-09-27"
@@ -418,7 +418,7 @@
   "yt:JIBAnKESha0": {
    "status": "ok",
    "http": 200,
-   "title": "Gym Games - Hulahoop Madness",
+   "title": "Gym Games - Hoop Madness",
    "channel": "PhysEdGames",
    "url": "https://www.youtube.com/watch?v=JIBAnKESha0",
    "checked": "2026-09-27"
@@ -506,7 +506,7 @@
   "yt:NVpUzALtp_4": {
    "status": "ok",
    "http": 200,
-   "title": "Hula Hut Knock Down⭕️ Back to school PE game #pegames #school #games #teacher",
+   "title": "Hoop Hut Knock Down⭕️ Back to school PE game #pegames #school #games #teacher",
    "channel": "Daly Exercise",
    "url": "https://www.youtube.com/watch?v=NVpUzALtp_4",
    "checked": "2026-09-27"
@@ -642,7 +642,7 @@
   "yt:WAwM2ALIl8c": {
    "status": "ok",
    "http": 200,
-   "title": "PE Games - Crazy Ball Soccer",
+   "title": "PE Games - Wild Ball Soccer",
    "channel": "PhysEdGames",
    "url": "https://www.youtube.com/watch?v=WAwM2ALIl8c",
    "checked": "2026-09-27"
@@ -930,7 +930,7 @@
   "yt:e5B3zKLZ7L4": {
    "status": "ok",
    "http": 200,
-   "title": "Frisbee Hula Hoop Target Team Challenge",
+   "title": "Frisbee Hoop Target Team Challenge",
    "channel": "Tim Mueller",
    "url": "https://www.youtube.com/watch?v=e5B3zKLZ7L4",
    "checked": "2026-09-27"
@@ -1290,7 +1290,7 @@
   "yt:vFE9utBS084": {
    "status": "ok",
    "http": 200,
-   "title": "Hula Hoop Twister - PE Game",
+   "title": "Hoop Twister - PE Game",
    "channel": "PhysEdGames",
    "url": "https://www.youtube.com/watch?v=vFE9utBS084",
    "checked": "2026-09-27"
@@ -1527,13 +1527,13 @@
    "old": "https://www.youtube.com/watch?v=97ukVJD-ZaM",
    "new": "",
    "newTitle": "removed",
-   "reason": "Pin knock-over clip attached to a land-in-the-target scoring game (clip moved to Skittle Ball). Old: “Physical Education - Crazy Ball Pin Knockover”. No verified classroom demo of this game found, so the clip was removed."
+   "reason": "Pin knock-over clip attached to a land-in-the-target scoring game (clip moved to Skittle Ball). Old: “Physical Education - Wild Ball Pin Knockover”. No verified classroom demo of this game found, so the clip was removed."
   },
   {
    "where": "Flying Saucers",
    "old": "https://www.youtube.com/watch?v=AjDKYyIHF_8",
    "new": "https://www.youtube.com/watch?v=e5B3zKLZ7L4",
-   "newTitle": "Frisbee Hula Hoop Target Team Challenge — Tim Mueller",
+   "newTitle": "Frisbee Hoop Target Team Challenge — Tim Mueller",
    "reason": "Football clip attached to a disc-at-hoops game. Old: “4 Fun Elementary PE FOOTBALL ACTIVITIES”."
   },
   {

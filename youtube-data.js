@@ -212,12 +212,12 @@ window.VIDEOS = [
     ]
   },
   {
-    "title": "Crazy Ball Soccer",
+    "title": "Wild Ball Soccer",
     "url": "https://www.youtube.com/watch?v=WAwM2ALIl8c",
     "channel": "PhysEdGames",
-    "about": "Great for any grade or age level, Crazy Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipment you might have to…",
+    "about": "Great for any grade or age level, Wild Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipment you might have to…",
     "games": [
-      "Crazy Ball Soccer"
+      "Wild Ball Soccer"
     ]
   },
   {
@@ -324,7 +324,7 @@ window.VIDEOS = [
     ]
   },
   {
-    "title": "Crazy Ball Pin Knockover",
+    "title": "Wild Ball Pin Knockover",
     "url": "https://www.youtube.com/watch?v=97ukVJD-ZaM",
     "channel": "PhysEdGames",
     "about": "A line of pins. Throw mixed soft objects. Timed round. Everyone throws.",
@@ -459,7 +459,7 @@ window.VIDEOS = [
     "title": "Hoop Pass",
     "url": "https://www.youtube.com/watch?v=PGB_LJKKqX0",
     "channel": "PhysEdGames",
-    "about": "Team-building game. A group holds hands in a circle or line and passes a hula hoop from player to player without breaking the chain-link. Not as easy as it sounds! Time trials, team vs. team, or large group are all fun ways to play this gam…",
+    "about": "Team-building game. A group holds hands in a circle or line and passes a hoop from player to player without breaking the chain-link. Not as easy as it sounds! Time trials, team vs. team, or large group are all fun ways to play this gam…",
     "games": [
       "Circle Hoop Pass",
       "Hoop Pass"
@@ -524,28 +524,28 @@ window.VIDEOS = [
     "title": "Fitness Musical Hoops",
     "url": "https://www.youtube.com/watch?v=_QEnsaWZsoM",
     "channel": "PhysEdGames",
-    "about": "In this fitness or warm-up game, hula hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. Players cannot cross…",
+    "about": "In this fitness or warm-up game, hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. Players cannot cross…",
     "games": [
       "Fitness Musical Hoops",
       "Musical Hoops"
     ]
   },
   {
-    "title": "Hula Hoop Twister",
+    "title": "Hoop Twister",
     "url": "https://www.youtube.com/watch?v=vFE9utBS084",
     "channel": "PhysEdGames",
     "about": "It’s a combo of musical chairs and the Twister board game which for sure means it’s fun and active, definitely worth giving it a play or 10 in your PE class 😀 (thanks Deric Hafer)",
     "games": [
-      "Hula Hoop Twister"
+      "Hoop Twister"
     ]
   },
   {
-    "title": "Hulahoop Madness",
+    "title": "Hoop Madness",
     "url": "https://www.youtube.com/watch?v=JIBAnKESha0",
     "channel": "PhysEdGames",
-    "about": "Another movement game to help enhance discussions and awareness of personal space. Hula hoop madness starts with lots of hula hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away a…",
+    "about": "Another movement game to help enhance discussions and awareness of personal space. Hoop madness starts with lots of hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away a…",
     "games": [
-      "Hulahoop Madness",
+      "Hoop Madness",
       "Musical Hoops"
     ]
   },
@@ -772,12 +772,12 @@ window.VIDEOS = [
     ]
   },
   {
-    "title": "Ultimate Warriors",
+    "title": "Three-Court Dodgeball",
     "url": "https://www.youtube.com/watch?v=-URBEEkYyWg",
     "channel": "PhysEdGames",
-    "about": "Ultimate Warriors is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodgeball going on at th…",
+    "about": "Three-Court Dodgeball is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodgeball going on at th…",
     "games": [
-      "Ultimate Warriors"
+      "Three-Court Dodgeball"
     ]
   },
   {
@@ -882,10 +882,10 @@ window.VIDEOS = [
     ]
   },
   {
-    "title": "Frisbee Hula Hoop Target",
+    "title": "Frisbee Hoop Target",
     "url": "https://www.youtube.com/watch?v=e5B3zKLZ7L4",
     "channel": "Tim Mueller",
-    "about": "Teams take turns landing foam frisbees in their hula hoops.",
+    "about": "Teams take turns landing foam frisbees in their hoops.",
     "games": [
       "Flying Saucers"
     ]

@@ -192,7 +192,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       target: ["robin","skittles","card sharks","fly back","bucket ball","tidy the bedroom","protect the castle","skittle ball","team bowling","battleships","poison ball","slide sling","flying saucers","survivor dodgeball","frisbee","low-ball","guard the cone","tunnel kick","hockey pin","punt to the line","overarm"],
       strike: ["chuck the chicken","continuous kick","beat ball","thunderball","aces","rps rounders","barkball","quick baseball","jailbreakers","diamond strike","kick it","hit and run","striking"],
       relay: ["rescue relay","hungry snake","pip, squeak","around the bases","cone relay","memory relay","attention relay","dash and dribble","plant the trees","jungle run","speed run","zig-zag","crab-bear","hop-the-hoops","soccer weave","toe-tap","wall chest","throw-clap","hoop underhand","dribble the gates","hockey hurdle","circle run"],
-      loco: ["captain’s deck","captain's deck","rikki","buffalo","laps and lines","european rhythmic","human bop","video game","rubber band","signals","daytime","volcanoes","crazy beans","group numbers","land and sea","here, there","follow the leader","silly bananas","back to base","dash for safety","four corners stay","elements","simon says","moving","bouncing"],
+      loco: ["captain’s deck","captain's deck","mongoose tag","buffalo","laps and lines","european rhythmic","human bop","video game","rubber band","signals","daytime","volcanoes","jumping beans","group numbers","land and sea","here, there","follow the leader","silly bananas","back to base","dash for safety","four corners stay","elements","simon says","moving","bouncing"],
       coop: ["elves","invent-a-game","helicopter","sharks and dolphins (chute)","object toss","parachute","slippery snakes","balloon keep-up","birthday","circle hoop","cross the river","human knot","pulse race","caterpillar","bucket carry","voice path"],
       fitness: ["mass challenges","magic numbers","body-part","frogs on the lily","safe to shore","beanbag head","knee-ball","racquet waiter","balloon keep-up station","floor rope","spot-jump","throwing and catching","kicking"],
     };
@@ -266,7 +266,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
         if (activeType !== "all" && typeOf(g) !== activeType) return false;
         if (activeMonth !== "all" && !(g.months || []).includes(activeMonth)) return false;
         const x = EX[g.name] || {};
-        const hay = [g.name, g.source, g.purpose, (g.play || []).join(" "), (g.months || []).join(" "),
+        const hay = [g.name, window.oldNamesFor ? window.oldNamesFor(g.name) : "", g.source, g.purpose, (g.play || []).join(" "), (g.months || []).join(" "),
           (x.more || []).join(" "), (x.variations || []).join(" "), (x.skins || []).join(" "),
           (x.ifThis || []).join(" "), (x.aka || []).join(" "), (g.aka || []).join(" "), x.look || "", typeLabel(typeOf(g)),
           pegFor(g.name).map((h) => h.name + " " + h.category).join(" ")].join(" ").toLowerCase();

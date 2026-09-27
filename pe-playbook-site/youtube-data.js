@@ -85,7 +85,7 @@ window.VIDEOS = [
     games: ["Continuous Kick Ball", "Quick Baseball", "Diamond Strike", "Beat Ball / Beat the Ball"]
   },
   {
-    title: "Crazy Ball Pin Knockover",
+    title: "Wild Ball Pin Knockover",
     url: "https://www.youtube.com/watch?v=97ukVJD-ZaM",
     channel: "PhysEdGames",
     about: "A line of pins. Throw mixed soft objects. Timed round. Everyone throws.",

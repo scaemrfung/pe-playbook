@@ -1,3 +1,59 @@
+/* Renamed games (Sep 27 2026, approved by Mr. Fung): old names still find the
+   game in search (window.oldNamesFor) and old #anchors jump to the new card. */
+(function () {
+  var NAMES = {
+ "Chinese Wall": "Castle Wall",
+ "Hula Hut Knock Down": "Hoop Hut Knock Down",
+ "Hula Hut / Hula Stick": "Hoop Hut / Hoop Stick",
+ "Hula-hoop ball collect": "Hoop ball collect",
+ "Hula Hut": "Hoop Hut",
+ "Hula Balance": "Hoop Balance",
+ "Hula Stick": "Hoop Stick",
+ "Hulahoop Madness": "Hoop Madness",
+ "Hula Hoop Madness": "Hoop Madness",
+ "Hula hoop madness": "Hoop madness",
+ "Hula Hoop Twister": "Hoop Twister",
+ "Hula Hoop Bowling": "Hoop Target Bowling",
+ "Hula hoop twirl": "Hoop twirl",
+ "Gauntlet run": "Dodge Lane",
+ "Gauntlet Run": "Dodge Lane",
+ "Rikki Tikki": "Mongoose Tag",
+ "Ultimate Warriors": "Three-Court Dodgeball",
+ "Crazy Ball Soccer": "Wild Ball Soccer",
+ "Crazy Beans": "Jumping Beans",
+ "Crazy beans": "Jumping beans"
+};
+  var IDS = {
+ "hula-hut-knock-down": "hoop-hut-knock-down",
+ "hula-hut": "hoop-hut",
+ "hula-balance": "hoop-balance",
+ "hula-stick": "hoop-stick",
+ "hulahoop-madness": "hoop-madness",
+ "hula-hoop-twister": "hoop-twister",
+ "hula-hoop-bowling": "hoop-target-bowling",
+ "hula-hoop-twirl": "hoop-twirl",
+ "hula-hoop-ball-collect": "hoop-ball-collect",
+ "ultimate-warriors": "three-court-dodgeball",
+ "crazy-ball-soccer": "wild-ball-soccer",
+ "crazy-beans": "jumping-beans",
+ "rikki-tikki": "mongoose-tag",
+ "chinese-wall": "castle-wall",
+ "gauntlet-run": "dodge-lane",
+ "gauntlet": "dodge-lane"
+};
+  window.RENAMED_GAMES = NAMES;
+  window.oldNamesFor = function (name) {
+    return Object.keys(NAMES).filter(function (o) { return NAMES[o] === name; }).join(" ");
+  };
+  function fix(replace) {
+    var h = decodeURIComponent((location.hash || "").slice(1));
+    if (!IDS[h]) return;
+    if (replace) location.replace("#" + IDS[h]);
+    else history.replaceState(null, "", location.pathname + location.search + "#" + IDS[h]);
+  }
+  fix(false);
+  window.addEventListener("hashchange", function () { fix(true); });
+})();
 (function () {
   const MONTHS = [
     ["September", "Soccer"],
