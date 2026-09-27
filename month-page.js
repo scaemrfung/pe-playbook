@@ -80,3 +80,26 @@
   else initial = stored() || "all";
   apply(initial);
 })();
+
+/* "This week" marker: highlight the school week that matches today's date
+   (school-year.js). Test another date with ?today=YYYY-MM-DD. */
+(function () {
+  var SY = window.SCHOOL_YEAR;
+  if (!SY || !SY.peWeek) return;
+  var h1 = document.querySelector(".month-head h1");
+  if (!h1) return;
+  var month = (h1.firstChild && h1.firstChild.nodeValue || "").trim();
+  var pw = SY.peWeek();
+  if (!pw || pw.kind === "summer" || pw.month !== month) return;
+  document.querySelectorAll("#school-weeks li[data-school-week]").forEach(function (li) {
+    if (+li.getAttribute("data-school-week") === pw.schoolWeek) li.classList.add("current");
+  });
+  var head = document.getElementById("week-" + pw.w);
+  if (head && !head.querySelector(".this-week-pill")) {
+    var pill = document.createElement("span");
+    pill.className = "this-week-pill";
+    pill.textContent = pw.kind === "break" ? "Next week back" : "This week";
+    var dates = head.querySelector(".week-dates");
+    head.insertBefore(pill, dates);
+  }
+})();

@@ -1,11 +1,11 @@
 const months = [
   {
     "name": "September",
-    "guide": "Soccer Weeks 2–3 (Terry Fox {{terryFox}}) · football intro Week 4",
+    "guide": "Soccer Weeks 1–2 (Terry Fox run {{terryFox}} in Week 2) · football intro Week 3 · review Week 4",
     "pew": "Movement Skill Development, Safety, Active Living, Healthy Relationships",
     "equipment": "Soccer balls, cones/gates, footballs or foam footballs, pinnies",
     "fitness": "Pulse check after a dribble game. Private skip once late in the month.",
-    "notes": "Soccer balls, no slide tackles. School weeks: Week 2–3 soccer; Terry Fox is {{terryFox}} during Soccer Week 3 (no gym soccer that day). Week 4 is football intro (hike, catch, throw).",
+    "notes": "Soccer balls, no slide tackles. Weeks 1–2 soccer (Sept 8–18). Terry Fox prep and run are Week 2, the week of the school run ({{terryFox}}). Week 3 is football intro (hike, catch, throw). Week 4 (Sept 28–Oct 1, a 3-day week) is soccer and football review. Aug 31–Sept 4 is the start-up week (gym routines).",
     "lessons": [
       {
         "w": 1,
@@ -88,28 +88,28 @@ const months = [
       {
         "w": 2,
         "c": 3,
-        "title": "Receive a moving ball",
-        "focus": "Cushion, then send",
-        "wu": "Teacher rolls, class traps.",
-        "skill": "Trap a partner pass, then return through a gate.",
-        "game": "King of the Court trap — stay in if you trap.",
-        "cd": "Give with the ball.",
-        "g12": "Hands OK",
-        "g34": "Feet preferred",
-        "g56": "One-touch trap-pass"
+        "title": "Terry Fox prep",
+        "focus": "Pace, kindness, why we run",
+        "wu": "Easy jog-walk. Practise the freeze signal.",
+        "skill": "One sentence about Terry Fox. Practise a steady jog-walk, not a sprint. Pair a slower runner with a cheer partner.",
+        "game": "Land and Sea or Here, There, Everywhere as paced travel — no racing the last minute.",
+        "cd": "Water. Name one way we look after a classmate on a long run.",
+        "g12": "Walk-jog. Teacher may walk with a group.",
+        "g34": "Jog-walk loops. Pair up.",
+        "g56": "Steady pace; student leaders for a loop."
       },
       {
         "w": 2,
         "c": 4,
-        "title": "2v1 to a gate",
-        "focus": "Simple tactic",
-        "wu": "Dribble tag.",
-        "skill": "Two attackers, one shadow defender. Pass before the gate.",
-        "game": "End-zone soccer — three passes to score.",
-        "cd": "Hands to yourself.",
-        "g12": "No defender",
-        "g34": "Passive defender",
-        "g56": "Active intercept"
+        "title": "Terry Fox run or September festival",
+        "focus": "School Terry Fox run day ({{terryFox}}) — or soccer games if your run is another date",
+        "wu": "Easy walk-jog of the route or gym.",
+        "skill": "On Terry Fox day: join the school run/walk. If your run is another day: soccer gates + inside-foot pass review.",
+        "game": "Hospital Tag or Everybody’s It if you have gym time after the run.",
+        "cd": "Thank a classmate. Private pulse check — not a rank.",
+        "g12": "Calmer game",
+        "g34": "Two games",
+        "g56": "Students host"
       },
       {
         "w": 3,
@@ -192,28 +192,28 @@ const months = [
       {
         "w": 4,
         "c": 3,
-        "title": "Terry Fox prep",
-        "focus": "Pace, kindness, why we run",
-        "wu": "Easy jog-walk. Practise the freeze signal.",
-        "skill": "One sentence about Terry Fox. Practise a steady jog-walk, not a sprint. Pair a slower runner with a cheer partner.",
-        "game": "Land and Sea or Here, There, Everywhere as paced travel — no racing the last minute.",
-        "cd": "Water. Name one way we look after a classmate on a long run.",
-        "g12": "Walk-jog. Teacher may walk with a group.",
-        "g34": "Jog-walk loops. Pair up.",
-        "g56": "Steady pace; student leaders for a loop."
+        "title": "Receive a moving ball",
+        "focus": "Cushion, then send",
+        "wu": "Teacher rolls, class traps.",
+        "skill": "Trap a partner pass, then return through a gate.",
+        "game": "King of the Court trap — stay in if you trap.",
+        "cd": "Give with the ball.",
+        "g12": "Hands OK",
+        "g34": "Feet preferred",
+        "g56": "One-touch trap-pass"
       },
       {
         "w": 4,
         "c": 4,
-        "title": "Terry Fox run or September festival",
-        "focus": "School Terry Fox day — or soccer/football games if the run is another date",
-        "wu": "Easy walk-jog of the route or gym.",
-        "skill": "If it is Terry Fox day: join the school run/walk. If not: soccer gates + a football catch station.",
-        "game": "Hospital Tag or Everybody’s It if you have gym time after the run.",
-        "cd": "Thank a classmate. Private pulse check — not a rank.",
-        "g12": "Calmer game",
-        "g34": "Two games",
-        "g56": "Students host"
+        "title": "2v1 to a gate",
+        "focus": "Simple tactic",
+        "wu": "Dribble tag.",
+        "skill": "Two attackers, one shadow defender. Pass before the gate.",
+        "game": "End-zone soccer — three passes to score.",
+        "cd": "Hands to yourself.",
+        "g12": "No defender",
+        "g34": "Passive defender",
+        "g56": "Active intercept"
       }
     ]
   },

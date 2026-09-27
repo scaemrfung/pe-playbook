@@ -4,7 +4,7 @@ window.PE_MONTHS = [
     "name": "September",
     "file": "month-september.html",
     "theme": "Soccer",
-    "guide": "Soccer Weeks 2–3 (Terry Fox Fri Sept 18) · football intro Week 4",
+    "guide": "Soccer Weeks 1–2 (Terry Fox run Fri Sept 18 in Week 2) · football intro Week 3 · review Week 4",
     "lessons": 16
   },
   {

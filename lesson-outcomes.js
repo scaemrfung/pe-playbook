@@ -36,13 +36,13 @@ window.LESSON_OUTCOMES = {
     { code: "Movement · shapes and balance", look: "Names the muscle that did the work." }
     ]
   },
-  "September-2-3": {
+  "September-4-3": {
     items: [
     { code: "Safety", look: "Copies a stretch and holds without bouncing." },
     { code: "Active Living", look: "Breathes during the stretch." }
     ]
   },
-  "September-2-4": {
+  "September-4-4": {
     items: [
     { code: "Active Living", look: "Completes the private check without comparing scores." },
     { code: "Active Living", look: "Treats the sheet as a starting point, not a race." }
@@ -84,13 +84,13 @@ window.LESSON_OUTCOMES = {
     { code: "Safety", look: "Lands on the mat or line, not on a person." }
     ]
   },
-  "September-4-3": {
+  "September-2-3": {
     items: [
     { code: "Active Living", look: "Finishes the walk–run loop with the class." },
     { code: "Movement · fair play and teamwork", look: "Encourages a classmate during the loop." }
     ]
   },
-  "September-4-4": {
+  "September-2-4": {
     items: [
     { code: "Active Living", look: "Stays in the celebration or recovery game." },
     { code: "Movement · fair play and teamwork", look: "Cheers effort, not a winner." }
