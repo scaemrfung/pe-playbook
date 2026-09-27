@@ -150,7 +150,7 @@ window.WARMUP_NOGYM_GAMES = [
     "id": "warmup-7a",
     "number": "7A",
     "title": "Chariot Races",
-    "equipment": "One hula hoop for every 2 students",
+    "equipment": "One hoop for every 2 students",
     "space": [
       "gym",
       "outside"
@@ -168,7 +168,7 @@ window.WARMUP_NOGYM_GAMES = [
   {
     "id": "warmup-8",
     "number": "8",
-    "title": "Chinese Wall",
+    "title": "Castle Wall",
     "equipment": "16–20 pylons",
     "space": [
       "gym",
@@ -215,7 +215,7 @@ window.WARMUP_NOGYM_GAMES = [
     "id": "warmup-10",
     "number": "10",
     "title": "Circle to Circle",
-    "equipment": "1 hula hoop per group",
+    "equipment": "1 hoop per group",
     "space": [
       "classroom",
       "gym",

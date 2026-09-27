@@ -183,10 +183,10 @@ window.DODGE_GAMES = [
     ]
   },
   {
-    slug: "gauntlet",
+    slug: "dodge-lane",
     kind: "Area · October / May",
     time: "5–6 min",
-    name: "Gauntlet run",
+    name: "Dodge Lane",
     purpose: "Cross a lane. Throwers stay in marked zones.",
     equipment: "Two throw lines, a centre lane, dodgeballs.",
     setup: "Throwers on both long sides. Runners at one end.",

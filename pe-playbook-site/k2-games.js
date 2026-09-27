@@ -2,7 +2,7 @@ window.K2_MONTH_GAMES = {
   September: [
     ["Kangaroos and Crocodiles", "", "Two teams on a centre line. Call one name; that team runs home, the other tags. Tagged players do 5 jumps and re-enter."],
     ["Volcanoes and Ice-Cream Cones", "", "Half the cones stand up, half sit upside-down. Teams flip cones to their shape. No guarding. Count on the whistle."],
-    ["Crazy Beans", "", "Call a bean: jumping, runner, jelly, frozen. Students change locomotor. Frozen bean is a still shape."],
+    ["Jumping Beans", "", "Call a bean: jumping, runner, jelly, frozen. Students change locomotor. Frozen bean is a still shape."],
     ["Octopus", "", "One or two taggers in the middle. Tagged players become seaweed (feet planted, arms tag). Last few become the next octopi."],
     ["Group Numbers", "", "Jog in space. Call a number; students make groups of that size. Leftovers make a group with the teacher."],
     ["Fruit Salad", "", "Four fruit names. Call a fruit to swap places; ‘fruit salad’ is everyone. Middle player steals a spot."],
@@ -92,7 +92,7 @@ window.K2_DETAILS = [
   slot: "0–5 or 16–25"
 },
 {
-  name: "Crazy Beans", source: "", months: ["September","December"],
+  name: "Jumping Beans", source: "", months: ["September","December"],
   purpose: "Change locomotor on a word cue.",
   equipment: "None.",
   setup: "Scatter in general space. Teach 4 beans.",

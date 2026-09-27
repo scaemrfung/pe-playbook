@@ -450,8 +450,8 @@ window.GAME_DETAILS = [
       "September"
     ],
     "purpose": "A Christmas game for the holidays (thanks to Angela Crepeele). In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
-    "equipment": "Hula hoops, pool noodles",
-    "setup": "Scatter hula hoops as stables. Give 3–6 elves / herders pool noodles. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
+    "equipment": "Hoops, pool noodles",
+    "setup": "Scatter hoops as stables. Give 3–6 elves / herders pool noodles. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
       "Everyone else is a reindeer and gallops around the gym.",
       "Elves tag reindeer with a noodle touch on the hip or shoulder (not the head).",
@@ -1050,12 +1050,12 @@ window.GAME_DETAILS = [
     "aka": []
   },
   {
-    "name": "Crazy Ball Soccer",
+    "name": "Wild Ball Soccer",
     "source": "",
     "months": [
       "September"
     ],
-    "purpose": "Great for any grade or age level, Crazy Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipme. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Great for any grade or age level, Wild Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipme. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
     "equipment": "Various soft or foam balls",
     "setup": "Set up soccer as usual, then add extra “crazy” kickable objects at the same time (foam football, large foam die, beach ball, foam soccer balls). Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1307,7 +1307,7 @@ window.GAME_DETAILS = [
       "January"
     ],
     "purpose": "A great game to help with visual awareness, strategic play, attacking, and defense. Try out HOME ALONE. Basically goes like this: lay out 8 hoops in a playing area and choose 1 player to stand in each hoop. Give the play. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
-    "equipment": "Hula hoops, cones",
+    "equipment": "Hoops, cones",
     "setup": "Lay out about 8 hoops. One player stands in each hoop with a cone — that cone is the KEY to the house. They must protect it. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
       "Everyone else is a thief and tries to steal a key without being tagged by the player in that hoop.",
@@ -3158,7 +3158,7 @@ window.GAME_DETAILS = [
     "months": [
       "February"
     ],
-    "purpose": "Advance hoop to hoop with the agreed action. Next runner waits for the signal. Folded in: Daly Rabbit Relay / Hula Stick / Hula Balance / Caterpillar Relay / Side to Side + SCA Toe-tap hoop relay / Circle Hoop.",
+    "purpose": "Advance hoop to hoop with the agreed action. Next runner waits for the signal. Folded in: Daly Rabbit Relay / Hoop Stick / Hoop Balance / Caterpillar Relay / Side to Side + SCA Toe-tap hoop relay / Circle Hoop.",
     "equipment": "Lane of hoops · optional ball, stick, or shared hoop",
     "setup": "Hoops in a lane. Show the action once (jump in, pass then jump, stick-push, shared carry, step through).",
     "play": [
@@ -3190,7 +3190,7 @@ window.GAME_DETAILS = [
       "Circle Hoop",
       "Hop-the-hoops relay",
       "Rabbit Relay",
-      "Hula Stick",
+      "Hoop Stick",
       "Caterpillar Relay"
     ]
   },
@@ -3303,7 +3303,7 @@ window.GAME_DETAILS = [
     "aka": []
   },
   {
-    "name": "Crazy Beans",
+    "name": "Jumping Beans",
     "source": "",
     "months": [
       "September",
@@ -3590,7 +3590,7 @@ window.GAME_DETAILS = [
     "aka": []
   },
   {
-    "name": "Rikki Tikki",
+    "name": "Mongoose Tag",
     "source": "",
     "months": [
       "September",
@@ -4186,7 +4186,7 @@ window.GAME_DETAILS = [
     "months": [
       "February"
     ],
-    "purpose": "Travel on the music. When it stops, get into a hoop. Share. Nobody sits the period. Folded in: Daly Musical Hoops / Rings / Cones + SCA Fitness Musical Hoops + Icebergs + Hula Hoop Twister.",
+    "purpose": "Travel on the music. When it stops, get into a hoop. Share. Nobody sits the period. Folded in: Daly Musical Hoops / Rings / Cones + SCA Fitness Musical Hoops + Icebergs + Hoop Twister.",
     "equipment": "Music · hoops or cones",
     "setup": "Scatter hoops. Music ready. Name the travel skill. Start with enough hoops for everyone to share.",
     "play": [
@@ -4211,13 +4211,13 @@ window.GAME_DETAILS = [
       "Icebergs: remove hoops with no music.",
       "Twister: ‘right hand, blue.’",
       "Cones instead of hoops.",
-      "Hulahoop Madness: extra hoop jobs for extras."
+      "Hoop Madness: extra hoop jobs for extras."
     ],
     "aka": [
       "Fitness Musical Hoops",
       "Icebergs",
-      "Hula Hoop Twister",
-      "Hulahoop Madness",
+      "Hoop Twister",
+      "Hoop Madness",
       "Musical Rings",
       "Musical Cones"
     ]
@@ -4645,7 +4645,7 @@ window.GAME_DETAILS = [
     "roundEnds": "First team fully across, or all groups succeed.",
     "skins": [
       "Classmates are tunnels and bridges; the other half travels, then swap.",
-      "Carry a built 6-hoop hut without collapse (Hula Hut — keep as its own card if the build is the lesson).",
+      "Carry a built 6-hoop hut without collapse (Hoop Hut — keep as its own card if the build is the lesson).",
       "Polar Express / Flip Flop: flip mats as you go.",
       "Cross the River: same islands, one spare hoop."
     ],
@@ -5292,7 +5292,7 @@ window.GAME_DETAILS = [
     ]
   },
   {
-    "name": "Hula Hut",
+    "name": "Hoop Hut",
     "source": "",
     "months": [
       "February",
@@ -5325,7 +5325,7 @@ window.GAME_DETAILS = [
       "Picture only. Time cap."
     ],
     "aka": [
-      "Daly Exercise: Hula Hut"
+      "Daly Exercise: Hoop Hut"
     ]
   },
   {
@@ -5516,7 +5516,7 @@ window.GAME_DETAILS = [
     ]
   },
   {
-    "name": "Hula Balance",
+    "name": "Hoop Balance",
     "source": "",
     "months": [
       "October",
@@ -5549,7 +5549,7 @@ window.GAME_DETAILS = [
       "Three people, one hoop."
     ],
     "aka": [
-      "Daly Exercise: Hula Balance"
+      "Daly Exercise: Hoop Balance"
     ]
   },
   {

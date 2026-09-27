@@ -17,7 +17,7 @@ window.BG30_MONTH = {
     ["Steal the Bacon", "", "Use a football as the bacon."],
     ["Ghostbusters", "", "Toss a bib up. Hit it with a soft ball before it lands. Stand side-on."],
     ["Balloon Keep-Up", "", "Keep a shared balloon up. Circus / keep-it-up without the parachute."],
-    ["Hula Balance", "", "Carry a hoop between two stomachs, no hands, drop it over a cone."],
+    ["Hoop Balance", "", "Carry a hoop between two stomachs, no hands, drop it over a cone."],
     ["Halloween Chase", "", "Three bib colours hunt each other. Crawl through legs to free a frozen player."],
     ["Jack-O’-Lantern", "", "One team stands cones up; the other flips them down. Hands on cones, not people."],
     ["Ghostbusters (cone ghosts)", "", "Knock the other team’s cone-ghosts. Stay on your side."]
@@ -39,7 +39,7 @@ window.BG30_MONTH = {
     ["Chain Train", "", "Hit your first hoop, then steal another group’s hoop. Every group keeps one."],
     ["Popcorn Flip", "", "Bounce a tennis ball onto an upside-down cone to flip it up. Not parachute popcorn."],
     ["Rolling 21", "", "Big hoop 3, small hoop 7. Exactly 21. Bust back to 15."],
-    ["Hula Hut", "", "Build a six-hoop hut from a picture and carry it to a cone."],
+    ["Hoop Hut", "", "Build a six-hoop hut from a picture and carry it to a cone."],
     ["Cardboard Balance", "", "Pair tilts a string-tray so balls fall through the hole."],
     ["Frog Tag", "", "Tagged players crouch. A leapfrog or step-over frees them."],
     ["Polar Express", "", "Cross only inside hoops. Touching the floor outside means restart."],
@@ -62,7 +62,7 @@ window.BG30_MONTH = {
     ["Bean Bag Core", "", "From a knees-down plank, empty your hoop into other hoops."],
     ["Cone Stack", "", "Bib in the air. Place one cone in the hoop and catch the bib."],
     ["Jumping Jack Hoop Challenge", "", "Spin a hoop, jack, catch. Personal best, not a race."],
-    ["Hula Hut", "", "Build and carry a hoop hut after rope or hoop skill."],
+    ["Hoop Hut", "", "Build and carry a hoop hut after rope or hoop skill."],
     ["Jump to Hoop Race", "", "Two-foot landings hoop to hoop. Next runner goes when the first sits."],
     ["Helicopter Jump", "", "Jump a sliding noodle. Stick the landing. Rope timing without a rope."],
     ["Musical Hoops", "", "Music stops: crawl through a hoop and race the centre cone."],
@@ -103,6 +103,6 @@ window.BG30_MONTH = {
     ["Catch the Cone", "", "Flip a small cone into a larger one. Festival station."],
     ["Bounce & Scoop", "", "Grounder into a cone. Fielding without a hardball."],
     ["Knock the Pin", "", "Run a triangle, then throw to knock the centre pin."],
-    ["Hula Hoop Bowling", "", "Overarm into a floor hoop. First base can be a hoop."]
+    ["Hoop Target Bowling", "", "Overarm into a floor hoop. First base can be a hoop."]
   ]
 };

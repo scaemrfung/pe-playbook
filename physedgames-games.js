@@ -260,7 +260,7 @@ window.PEG_DETAILS = [
     "type": "strike"
   },
   {
-    "name": "Ultimate Warriors",
+    "name": "Three-Court Dodgeball",
     "source": "PHYSEDGAMES",
     "months": [
       "December",
@@ -419,13 +419,13 @@ window.PEG_DETAILS = [
     "type": "coop"
   },
   {
-    "name": "Hula Hoop Twister",
+    "name": "Hoop Twister",
     "source": "PHYSEDGAMES",
     "months": [
       "February"
     ],
     "purpose": "Musical hoops meets Twister: when the music stops, put the called body part in a hoop of the called colour.",
-    "equipment": "Coloured hula hoops, music",
+    "equipment": "Coloured hoops, music",
     "setup": "Scatter coloured hoops like a giant Twister board.",
     "play": [
       "Music on: travel around the hoops with the skill you name.",
@@ -471,7 +471,7 @@ window.PEG_DETAILS = [
       "February"
     ],
     "purpose": "Teams lie in a line and move every object from one end to the other using only their feet.",
-    "equipment": "Hula hoops, a mix of soft items (balls, beanbags, noodles)",
+    "equipment": "Hoops, a mix of soft items (balls, beanbags, noodles)",
     "setup": "Teams lie on their backs in a line from one end of the gym. Objects start at one end; a hoop at the far end.",
     "play": [
       "Pass only with your feet — no hands.",
@@ -493,8 +493,8 @@ window.PEG_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Hold hands in a circle and pass a hula hoop all the way around without letting go.",
-    "equipment": "One hula hoop per group",
+    "purpose": "Hold hands in a circle and pass a hoop all the way around without letting go.",
+    "equipment": "One hoop per group",
     "setup": "Groups hold hands in a circle or line. A hoop starts on one person’s arm.",
     "play": [
       "Pass the hoop around without letting go of hands — step through and wriggle it over.",
@@ -684,7 +684,7 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Tag & Chasing",
       "grades": "1-6",
-      "equipment": "Hula hoops, pool noodles",
+      "equipment": "Hoops, pool noodles",
       "overview": "What a great game, seriously one of the best tag games out there. This is a must play. Lots of Dynamics, lots going on in this unique idea thanks to Dan Penna for another hit.",
       "steps": [
         "Scatter hoops as short-stay “home free” bases (about 3 seconds max — no camping).",
@@ -789,10 +789,10 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Tag & Chasing",
       "grades": "K-6",
-      "equipment": "Hula hoops, pool noodles",
+      "equipment": "Hoops, pool noodles",
       "overview": "A Christmas game for the holidays (thanks to Angela Crepeele).",
       "steps": [
-        "Scatter hula hoops as stables. Give 3–6 elves / herders pool noodles.",
+        "Scatter hoops as stables. Give 3–6 elves / herders pool noodles.",
         "Everyone else is a reindeer and gallops around the gym.",
         "Elves tag reindeer with a noodle touch on the hip or shoulder (not the head).",
         "A tagged reindeer must stand inside the nearest hoop.",
@@ -1015,13 +1015,13 @@ window.PEG_HANDBOOK = {
       "page": "https://physedgames.com/sideline-soccer/"
     },
     {
-      "name": "Crazy Ball Soccer",
-      "card": "Crazy Ball Soccer",
+      "name": "Wild Ball Soccer",
+      "card": "Wild Ball Soccer",
       "merged": true,
       "category": "Soccer & Kicking",
       "grades": "K-8",
       "equipment": "Various soft or foam balls",
-      "overview": "Great for any grade or age level, Crazy Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipment you might have to kick around! Some tested equipment that works well in this game are foam footballs, large foam dice, or beach balls – use all of them at the same time and watch them bounce all crazy-like around the field or gym as the players try to kick them. Add in whatever rules desired when it comes to goalies, points, etc. Set-up your soccer playing area. Add in crazy but safe equipment as the soccer balls. Have fun!",
+      "overview": "Great for any grade or age level, Wild Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipment you might have to kick around! Some tested equipment that works well in this game are foam footballs, large foam dice, or beach balls – use all of them at the same time and watch them bounce all crazy-like around the field or gym as the players try to kick them. Add in whatever rules desired when it comes to goalies, points, etc. Set-up your soccer playing area. Add in crazy but safe equipment as the soccer balls. Have fun!",
       "steps": [
         "Set up soccer as usual, then add extra “crazy” kickable objects at the same time (foam football, large foam die, beach ball, foam soccer balls).",
         "Feet only on all objects. Choose whether goalies and regular goals still count.",
@@ -1181,8 +1181,8 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Kickball, Striking & Targets",
       "grades": "4-8",
-      "equipment": "Dodgeballs, hula-hoops",
-      "overview": "Castle Ball might be one of physedgames’ favourites! A must play! This target game adds a huge teamwork component as well as team strategy. It also ties in throwing, catching, blocking, building, and awareness. Defend your castles, and topple over the opponent castles before they get yours. WARNING: LOTS OF FUN. Create 2 teams. One team on each half of the gym. Players can never leave their own side. Spend some time practicing building castles made of hula hoops. To build a castle, it requires 6 hula hoops: 1 for the base at the bottom, 4 for the sides, and 1 for the top. It also takes some patience and teamwork to build a sturdy castle. After practicing building castles and getting the hang of it, it is time to set-up for the game. Each team builds 2 castles towards the back of their playing area. Once castles are built, add in the dodgeballs. On signal, players attmpt to throw dodgeballs at other teams castles to topple them over. A point is scored every time a castle is toppled over. When a castle is down, players simply rebuild it while the game continues. Play for as long as desired. Add in any modifications as desired.",
+      "equipment": "Dodgeballs, hoops",
+      "overview": "Castle Ball might be one of physedgames’ favourites! A must play! This target game adds a huge teamwork component as well as team strategy. It also ties in throwing, catching, blocking, building, and awareness. Defend your castles, and topple over the opponent castles before they get yours. WARNING: LOTS OF FUN. Create 2 teams. One team on each half of the gym. Players can never leave their own side. Spend some time practicing building castles made of hoops. To build a castle, it requires 6 hoops: 1 for the base at the bottom, 4 for the sides, and 1 for the top. It also takes some patience and teamwork to build a sturdy castle. After practicing building castles and getting the hang of it, it is time to set-up for the game. Each team builds 2 castles towards the back of their playing area. Once castles are built, add in the dodgeballs. On signal, players attmpt to throw dodgeballs at other teams castles to topple them over. A point is scored every time a castle is toppled over. When a castle is down, players simply rebuild it while the game continues. Play for as long as desired. Add in any modifications as desired.",
       "steps": [
         "Two teams, each must stay on its own half.",
         "Practice building a 6-hoop castle: 1 hoop base, 4 standing side hoops, 1 roof hoop.",
@@ -1199,7 +1199,7 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Kickball, Striking & Targets",
       "grades": "3-8",
-      "equipment": "balls, hula hoops, cones",
+      "equipment": "balls, hoops, cones",
       "overview": "Another winning idea from Deric Hafer. As a variation to the original Castleball game (one of the best games there is) the modifications in this game make for another super fun, skill-building, and action-packed game. Set-up the castles, choose the roles, launch the cannon balls, and build together. There’s something for everyone!",
       "steps": [
         "Each team builds hoop castles in its back zone (6 hoops: 1 base, 4 walls, 1 roof).",
@@ -1432,8 +1432,8 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "2-8",
-      "equipment": "Hula hoops, music",
-      "overview": "In this fitness or warm-up game, hula hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. Players cannot cross through center. Once the music starts they perform the cardio exercise of the teacher’s choice: jogging, running, skipping, cross-overs, etc. When the music stops they must get to a hoop within a few seconds. There can be as many people inside any hoop as possible, however everyone must be in a hoop. If anyone person is not standing inside a hoop, including all feet, then the entire class must do reps of a muscular exercise (push-ups for example). Once completed, a new cardio activity is given, the music begins again and the students do the next activity, however, once the music begins and the students are moving, the instructor removes one hula hoop from the game, etc, etc, until there is only one hoop left. At this point, give two jumping jacks per person for every one person that doesn’t make it into the hoop. And that’s fitness musical hoops! (Thanks to Paul Ford for this game idea)",
+      "equipment": "Hoops, music",
+      "overview": "In this fitness or warm-up game, hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. Players cannot cross through center. Once the music starts they perform the cardio exercise of the teacher’s choice: jogging, running, skipping, cross-overs, etc. When the music stops they must get to a hoop within a few seconds. There can be as many people inside any hoop as possible, however everyone must be in a hoop. If anyone person is not standing inside a hoop, including all feet, then the entire class must do reps of a muscular exercise (push-ups for example). Once completed, a new cardio activity is given, the music begins again and the students do the next activity, however, once the music begins and the students are moving, the instructor removes one hoop from the game, etc, etc, until there is only one hoop left. At this point, give two jumping jacks per person for every one person that doesn’t make it into the hoop. And that’s fitness musical hoops! (Thanks to Paul Ford for this game idea)",
       "steps": [
         "Place hoops around the basketball-court perimeter. Students travel OUTSIDE the court line only — no cutting through the middle.",
         "Music on: perform the cardio you name (jog, skip, carioca, etc.).",
@@ -1468,8 +1468,8 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-4",
-      "equipment": "Colored spots (lilly pads), or hula hoops",
-      "overview": "In ‘Rainbow Road’ teams of players will move in different patterns along spots on the floor depending on which color sequence is called out. A variety of movement skills can be used to spice things up. Create 4 teams. Each team stands against a side wall. Place different colored spots or hula-hoops randomly throughout the gym. Call out a pattern: for example, ‘red, blue, green, blue, yellow’. All players run from spot to spot, following the pattern. Once finished, players return to their team’s side. Call out a new pattern. Repeat as you’d like for as many rounds. Switch the movement skill from running to something like hopping, skipping, galloping, lunging, etc.",
+      "equipment": "Colored spots (lilly pads), or hoops",
+      "overview": "In ‘Rainbow Road’ teams of players will move in different patterns along spots on the floor depending on which color sequence is called out. A variety of movement skills can be used to spice things up. Create 4 teams. Each team stands against a side wall. Place different colored spots or hoops randomly throughout the gym. Call out a pattern: for example, ‘red, blue, green, blue, yellow’. All players run from spot to spot, following the pattern. Once finished, players return to their team’s side. Call out a new pattern. Repeat as you’d like for as many rounds. Switch the movement skill from running to something like hopping, skipping, galloping, lunging, etc.",
       "steps": [
         "Create 4 teams, each against a different side wall.",
         "Scatter coloured spots or hoops all over the gym.",
@@ -1498,12 +1498,12 @@ window.PEG_HANDBOOK = {
       "page": "https://physedgames.com/bridges-rivers/"
     },
     {
-      "name": "Hula Hoop Twister",
-      "card": "Hula Hoop Twister",
+      "name": "Hoop Twister",
+      "card": "Hoop Twister",
       "merged": false,
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-4",
-      "equipment": "Hula hoops, music",
+      "equipment": "Hoops, music",
       "overview": "It’s a combo of musical chairs and the Twister board game which for sure means it’s fun and active, definitely worth giving it a play or 10 in your PE class 😀 (thanks Deric Hafer)",
       "steps": [
         "Scatter coloured hoops like a giant Twister board.",
@@ -1516,13 +1516,13 @@ window.PEG_HANDBOOK = {
       "page": "https://physedgames.com/hula-hoop-twister/"
     },
     {
-      "name": "Hulahoop Madness",
+      "name": "Hoop Madness",
       "card": "Musical Hoops",
       "merged": true,
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-5",
-      "equipment": "Hula hoops, music",
-      "overview": "Another movement game to help enhance discussions and awareness of personal space. Hula hoop madness starts with lots of hula hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away after every round, there won’t be many left, and things start to get squishy. Place hulas all along the floor. Students spread out in the area. When the music starts, students move and run around all over the gym, except not in the hula hoops. When the music stops, they quickly jump into the closest hula hoop. Take a hoop away and start the music up again. Students continue moving around, until the music stops. Etc, etc, keep taking hoops away and eventually students start crowding eachothers personal space. Great for laughs and getting sweaty!",
+      "equipment": "Hoops, music",
+      "overview": "Another movement game to help enhance discussions and awareness of personal space. Hoop madness starts with lots of hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away after every round, there won’t be many left, and things start to get squishy. Place hoops all along the floor. Students spread out in the area. When the music starts, students move and run around all over the gym, except not in the hoops. When the music stops, they quickly jump into the closest hoop. Take a hoop away and start the music up again. Students continue moving around, until the music stops. Etc, etc, keep taking hoops away and eventually students start crowding eachothers personal space. Great for laughs and getting sweaty!",
       "steps": [
         "Start with many hoops on the floor and music playing. Students travel among the hoops.",
         "When music stops, every student must jump into a hoop (sharing allowed).",
@@ -1644,8 +1644,8 @@ window.PEG_HANDBOOK = {
       "merged": false,
       "category": "Team-building & Cooperative",
       "grades": "2-8",
-      "equipment": "Hula hoops, various items",
-      "overview": "This team-building game is great for any physical education class. Players will work together to pass objects to each other to be the first team to successfully move all objects from one end to the other. There’s a catch though…players are must all lay down on their backs and pass only with their feet. Create teams of even numbers. In their teams, players lay down on their backs and form a line, head to toe. One hula hoop is placed at the foot of the first person in line. This hula hoop contains random objects to be moved. One hula hoop is placed at the head of the last person in line. This hula hoop is the collection bin. On the signal, players work together to be the first team to successfully pass all of their objects from one hoop to the other by only using their feet. Play as many times as desired.",
+      "equipment": "Hoops, various items",
+      "overview": "This team-building game is great for any physical education class. Players will work together to pass objects to each other to be the first team to successfully move all objects from one end to the other. There’s a catch though…players are must all lay down on their backs and pass only with their feet. Create teams of even numbers. In their teams, players lay down on their backs and form a line, head to toe. One hoop is placed at the foot of the first person in line. This hoop contains random objects to be moved. One hoop is placed at the head of the last person in line. This hoop is the collection bin. On the signal, players work together to be the first team to successfully pass all of their objects from one hoop to the other by only using their feet. Play as many times as desired.",
       "steps": [
         "Teams lie on their backs in a line from one end of the gym toward the other.",
         "Objects start at one end. Players may pass ONLY with their feet — no hands.",
@@ -1662,10 +1662,10 @@ window.PEG_HANDBOOK = {
       "merged": false,
       "category": "Team-building & Cooperative",
       "grades": "K-8",
-      "equipment": "Hula Hoop",
-      "overview": "Team-building game. A group holds hands in a circle or line and passes a hula hoop from player to player without breaking the chain-link. Not as easy as it sounds! Time trials, team vs. team, or large group are all fun ways to play this game.",
+      "equipment": "Hoop",
+      "overview": "Team-building game. A group holds hands in a circle or line and passes a hoop from player to player without breaking the chain-link. Not as easy as it sounds! Time trials, team vs. team, or large group are all fun ways to play this game.",
       "steps": [
-        "A group holds hands in a circle or line. A hula hoop starts on one person’s arm.",
+        "A group holds hands in a circle or line. A hoop starts on one person’s arm.",
         "Pass the hoop around the group WITHOUT letting go of hands — step through, wriggle it over bodies.",
         "Time trials, team vs team, or one giant class circle all work.",
         "If the chain breaks, restart the hoop at the break. Talk about communication."
@@ -1680,7 +1680,7 @@ window.PEG_HANDBOOK = {
       "category": "Team-building & Cooperative",
       "grades": "K-8",
       "equipment": "Nature",
-      "overview": "What better way to use outdoor space than a scavenger hunt!? This hunt is a bit different from your typical hunt, because instead of a list that players need to just check off when they see the items, they must BRING THE ITEMS HOME to their collection area. You can and should create a secret treasure item that you’ve hidden somewhere outside beforehand (for example hide a Kleenex box somewhere good and players need to also retrieve a tissue from the box). Simply start by creating a home area where individuals or partners (depending how you want to do it) put their hula hoop on the ground, which is their collection area to bring the items into. Next, go over the rules with all students, and give them a list of the items (or leave a master poster at the home area so they have to use their memory). Note that they can only bring 1 item back at a time! Obviously choose items that students can find or access in your area/community. Stress the importance of respecting property and not taking things that they shouldn’t. At the end, players will return all the items that need to be returned!",
+      "overview": "What better way to use outdoor space than a scavenger hunt!? This hunt is a bit different from your typical hunt, because instead of a list that players need to just check off when they see the items, they must BRING THE ITEMS HOME to their collection area. You can and should create a secret treasure item that you’ve hidden somewhere outside beforehand (for example hide a Kleenex box somewhere good and players need to also retrieve a tissue from the box). Simply start by creating a home area where individuals or partners (depending how you want to do it) put their hoop on the ground, which is their collection area to bring the items into. Next, go over the rules with all students, and give them a list of the items (or leave a master poster at the home area so they have to use their memory). Note that they can only bring 1 item back at a time! Obviously choose items that students can find or access in your area/community. Stress the importance of respecting property and not taking things that they shouldn’t. At the end, players will return all the items that need to be returned!",
       "steps": [
         "Each student or pair places a hoop as HOME / collection zone.",
         "Give a list of natural or outdoor items they may collect (or post one master list at home base). Hide one secret “treasure” (example: a tissue from a hidden box).",
@@ -1710,13 +1710,13 @@ window.PEG_HANDBOOK = {
       "page": "https://physedgames.com/capture-the-flag-outdoors/"
     },
     {
-      "name": "Ultimate Warriors",
-      "card": "Ultimate Warriors",
+      "name": "Three-Court Dodgeball",
+      "card": "Three-Court Dodgeball",
       "merged": false,
       "category": "Invasion, Capture & Role Games",
       "grades": "K-8",
       "equipment": "Foam balls, cones",
-      "overview": "Ultimate Warriors is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodgeball going on at the same time (each 3rd correlates with a group: farmers -} knights -} warriors). If a player is hit with a ball, the player moves down and the thrower moves up. The goal is to get to the top league (the warriors). If you’re in the top league (the warriors) and you hit someone you don’t move up and if you’re in the bottom league (the farmers) you don’t move down. Set a time limit to the game. The winners are the players who finish in the top league at the end of the round. Use your own dodgeball rules and as always HAVE FUN!!! (Thanks to Joe Defreitas)",
+      "overview": "Three-Court Dodgeball is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodgeball going on at the same time (each 3rd correlates with a group: farmers -} knights -} warriors). If a player is hit with a ball, the player moves down and the thrower moves up. The goal is to get to the top league (the warriors). If you’re in the top league (the warriors) and you hit someone you don’t move up and if you’re in the bottom league (the farmers) you don’t move down. Set a time limit to the game. The winners are the players who finish in the top league at the end of the round. Use your own dodgeball rules and as always HAVE FUN!!! (Thanks to Joe Defreitas)",
       "steps": [
         "Cone the gym into 3 zones: Farmers (bottom), Knights (middle), Warriors (top).",
         "Three mini-dodgeball games run at once, one in each zone, with foam balls.",
@@ -1733,7 +1733,7 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Invasion, Capture & Role Games",
       "grades": "K-4",
-      "equipment": "Hula hoops, cones",
+      "equipment": "Hoops, cones",
       "overview": "A great game to help with visual awareness, strategic play, attacking, and defense. Try out HOME ALONE. Basically goes like this: lay out 8 hoops in a playing area and choose 1 player to stand in each hoop. Give the players in the hoop a cone (or item of your choice) – the cone/item represents the key to their house. THEY MUST PROTECT THE KEY!! Everyone else who doesn’t have a key is a theif and they will try to take the key without getting tagged by the player in the hoop. If tagged then they try stealing from someone else, however, if successful, then they swap with the player in the hoop. Give it a go!!! (Thanks to Joe Defreitas)",
       "steps": [
         "Lay out about 8 hoops. One player stands in each hoop with a cone — that cone is the KEY to the house. They must protect it.",

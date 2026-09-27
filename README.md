@@ -68,6 +68,15 @@ grouped by week.
   Equipment, Set-up, How we play, Variations, Video, More details, Safety,
   Source). It lives in `new-games.js`, so every weekly rebuild keeps it.
 
+## Renamed games (Sep 2026)
+
+Some game names were changed because they were culturally insensitive or ableist
+(e.g. Chinese Wall -> Castle Wall, Hula Hut -> Hoop Hut, Ultimate Warriors ->
+Three-Court Dodgeball, Crazy Beans -> Jumping Beans). The map lives at the top of
+`chrome.js` (`window.RENAMED_GAMES` + old anchor ids). Old `#anchors` redirect to
+the new card, and the searches still find a game by its old name. The New Games
+updater (on the box) maps old names in the library doc to the new ones.
+
 ## Video links (Videos page retired Sep 2026)
 
 The Videos page was removed. `videos.html` is now a tiny redirect to

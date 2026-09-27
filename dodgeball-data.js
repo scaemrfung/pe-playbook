@@ -584,10 +584,10 @@ window.DODGE_GAMES = [
     "slug": "quad"
   },
   {
-    "id": "gauntlet",
+    "id": "dodge-lane",
     "kind": "Area · October / May",
     "time": "5–6 min",
-    "name": "Gauntlet run",
+    "name": "Dodge Lane",
     "purpose": "Cross a lane. Throwers stay in marked zones. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
     "equipment": "Two throw lines, a centre lane, dodgeballs.",
     "setup": "Throwers on both long sides. Runners at one end. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
@@ -652,9 +652,9 @@ window.DODGE_GAMES = [
       "Grouping: two even teams, 6–8 foam dodgeballs, 6–8 minute rounds.",
       "Reset: balls back to the centre line; change medic / jail / captain; then GO.",
       "Watch for: head-hunting, players sitting after a hit, and one student holding every ball.",
-      "House rule still wins over any clip you show for Gauntlet run."
+      "House rule still wins over any clip you show for Dodge Lane."
     ],
-    "slug": "gauntlet"
+    "slug": "dodge-lane"
   },
   {
     "id": "island",
@@ -1971,11 +1971,11 @@ window.DODGE_GAMES = [
     "slug": "standard-dodgeball"
   },
   {
-    "id": "ultimate-warriors",
+    "id": "three-court-dodgeball",
     "kind": "PHYSEDGAMES · October / January",
     "time": "6–8 min",
-    "name": "Ultimate Warriors",
-    "purpose": "Ultimate Warriors is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodg.",
+    "name": "Three-Court Dodgeball",
+    "purpose": "Three-Court Dodgeball is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodg.",
     "equipment": "Foam balls, cones",
     "setup": "Cone the gym into 3 zones: Farmers (bottom), Knights (middle), Warriors (top). Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
     "play": [
@@ -2039,9 +2039,9 @@ window.DODGE_GAMES = [
       "Grouping: two even teams, 6–8 foam dodgeballs, 6–8 minute rounds.",
       "Reset: balls back to the centre line; change medic / jail / captain; then GO.",
       "Watch for: head-hunting, players sitting after a hit, and one student holding every ball.",
-      "House rule still wins over any clip you show for Ultimate Warriors."
+      "House rule still wins over any clip you show for Three-Court Dodgeball."
     ],
-    "slug": "ultimate-warriors"
+    "slug": "three-court-dodgeball"
   },
   {
     "id": "warzone-dodgeball",
