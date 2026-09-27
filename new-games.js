@@ -27,52 +27,74 @@
     return String(section || "").replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
   }
   function card(g, data, opts) {
+    // Same elements, order and classes as a Big-Group Games card (app.js):
+    // head + type pill, When/Slot/grouping, purpose, Also called, Equipment,
+    // Set-up, How we play, If this happens, How a round ends, Cues, Variations,
+    // Teaching tips, Video + note, More details, Alberta PEW outcomes,
+    // Grades 1–2 / 3–4 / 5–6, Safety, Source.
     var U = unitMap(data);
-    var u = U[g.unit];
     var li = function (s) { return "<li>" + esc(s) + "</li>"; };
-    var also = (g.alsoFits || []).filter(function (m) { return U[m]; }).map(function (m) { return unitLink(U[m]); }).join(", ");
-    var when = "<strong>When:</strong> " + (u ? unitLink(u) : "Anytime") + (also ? " (also " + also + ")" : "") +
-      " · <strong>Grades:</strong> " + esc(g.grades) + (g.gradesFrom === "doc" ? "" : " (est.)") +
-      " · " + (g.stayIn ? "Stay-in" : "<strong>Adapt:</strong> " + esc(g.flag || "see safety"));
-    var steps = (g.how || []).map(li).join("");
-    var vars = (g.variations || []).map(li).join("");
-    var videos = [], sources = [];
-    (g.links || []).forEach(function (url) { (linkLabel(url) === "Watch demo" ? videos : sources).push(url); });
-    var videoHtml = videos.length
-      ? '<p class="yt"><strong>Video.</strong> ' + videos.map(function (url, i) {
-          return '<a href="' + esc(url) + '" target="_blank" rel="noopener">Watch demo' + (videos.length > 1 ? " " + (i + 1) : "") + "</a>";
-        }).join(" · ") + "</p>"
+    var list = function (title, arr, ordered) {
+      return (arr && arr.length) ? "<p><strong>" + title + "</strong></p><" + (ordered ? "ol" : "ul") + ' class="clean">' + arr.map(li).join("") + "</" + (ordered ? "ol" : "ul") + ">" : "";
+    };
+    var months = [g.unit].concat(g.alsoFits || []).filter(function (m, i, a) { return m && U[m] && a.indexOf(m) === i; });
+    var when = "<strong>When:</strong> " + (months.length ? months.map(function (m) { return '<a href="' + esc(U[m].href) + '">' + esc(m) + "</a>"; }).join(", ") : "Anytime") +
+      " · <strong>Slot:</strong> " + esc(g.slot || "—") + (g.grouping ? " · " + esc(g.grouping) : "");
+    var vids = g.videos || [];
+    var videoHtml = vids.length
+      ? '<p class="yt"><strong>Video.</strong> ' + vids.map(function (v) {
+          return '<a href="' + esc(v.url) + '" target="_blank" rel="noopener">' + esc(v.title) + "</a>" + (v.channel ? ' <span class="meta">(' + esc(v.channel) + ")</span>" : "");
+        }).join(" · ") + '</p>\n      <p class="meta">' + esc(g.videoNote || "Clips are demos. Our house rules still apply.") + "</p>"
       : "";
-    var notes = (g.notes || []).map(esc).join(" · ");
+    var srcs = g.sources || [];
     var wk = (data.weeks || []).filter(function (w) { return w.key === g.added; })[0];
     var added = g.added === "baseline" ? "In the starting library" : (wk ? "Added " + (wk.addedOnLabel || wk.label) : "");
-    var more = [];
-    if (g.sports) more.push("<li><strong>Sports:</strong> " + esc(g.sports) + "</li>");
-    if (g.section) more.push("<li><strong>Library section:</strong> " + esc(g.section) + "</li>");
-    if (g.source) more.push("<li><strong>From:</strong> " + esc(g.source) + "</li>");
-    if (notes) more.push("<li><strong>Notes:</strong> " + notes + "</li>");
-    if (added) more.push("<li>" + esc(added) + "</li>");
-    if (g.siteCard) more.push('<li><a href="' + esc(g.siteCard.href) + '">Also on the ' + esc(g.siteCard.label) + "</a></li>");
-    var hay = [g.name, (g.oldNames || []).join(" "), g.desc, g.sports, g.section, g.equipment, (g.how || []).join(" "), (g.variations || []).join(" "), g.unit, u ? u.sport : "", g.source].join(" ").toLowerCase();
-    return '<article class="gcard ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.unit) + '" data-type="' + esc(typeLabel(g.section)) + '" data-hay="' + esc(hay) + '">' +
+    var grades = esc(g.grades) + (g.gradesFrom === "doc" ? "" : " (est.)");
+    var overview = [g.sports ? "Sports: " + g.sports : "", g.section ? "Library section: " + g.section : "", g.source ? "From: " + g.source : "", added].filter(Boolean).join(" · ");
+    var notes = (g.notes || []).map(esc).join(" · ");
+    var moreLinks = [];
+    srcs.forEach(function (u) { moreLinks.push('<a href="' + esc(u) + '" target="_blank" rel="noopener">Source</a>'); });
+    vids.forEach(function (v) { moreLinks.push('<a href="' + esc(v.url) + '" target="_blank" rel="noopener">Video</a>'); });
+    if (g.siteCard) moreLinks.push('<a href="' + esc(g.siteCard.href) + '">Also on the ' + esc(g.siteCard.label) + "</a>");
+    var more = '<details class="peg"><summary><strong>More details</strong> <span class="meta">· Grades ' + grades + "</span></summary>\n      " +
+      '<p class="meta"><strong>Equipment:</strong> ' + esc(g.equipment || "") + "</p>" +
+      "<p>" + esc(g.desc) + (notes ? " " + notes + "." : "") + "</p>" +
+      (overview ? '<p class="meta">' + esc(overview) + "</p>" : "") +
+      (moreLinks.length ? '<p class="meta">' + moreLinks.join(" · ") + "</p>" : "") + "</details>";
+    var outs = g.outcomes || [];
+    var outBox = outs.length
+      ? '<div class="outcomes-box"><h3>Alberta PEW outcomes</h3><p class="note" style="margin:0 0 8px;font-style:normal">Pick one or two look-fors per class.</p><ul class="clean out-list">' +
+        outs.map(function (o) { return "<li><strong>" + esc(o.code) + ".</strong> " + esc(o.look) + "</li>"; }).join("") + "</ul></div>"
+      : "";
+    var bands = (g.g12 || g.g34 || g.g56)
+      ? '<div class="bands-block"><div><strong>Grades 1–2.</strong> ' + esc(g.g12 || "") + "</div><div><strong>Grades 3–4.</strong> " + esc(g.g34 || "") + "</div><div><strong>Grades 5–6.</strong> " + esc(g.g56 || "") + "</div></div>"
+      : "";
+    var safety = (g.stayIn ? "" : "Adapt: " + (g.flag || "see the notes") + ". ") + (g.safety || "") + (g.safetyTail ? " " + g.safetyTail : "");
+    var hay = [g.name, (g.oldNames || []).join(" "), g.desc, g.sports, g.section, g.typeLabel, g.equipment, (g.how || []).join(" "), (g.variations || []).join(" "), (g.cues || []).join(" "), g.unit, g.source].join(" ").toLowerCase();
+    return '<article class="gcard ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.unit) + '" data-type="' + esc(g.typeLabel || typeLabel(g.section)) + '" data-hay="' + esc(hay) + '">' +
       (g.aliases || []).map(function (x) { return '<span id="' + esc(x) + '"></span>'; }).join("") +
-      '<div class="ghead"><h3>' + esc(g.name) + "</h3>" +
-      (g.section ? '<span class="src">' + esc(typeLabel(g.section)) + "</span>" : "") + "</div>" +
+      '<div class="ghead"><h3>' + (opts.num ? esc(opts.num) + ". " : "") + esc(g.name) + "</h3>" +
+      '<span class="src">' + esc(g.typeLabel || typeLabel(g.section)) + "</span></div>" +
       (opts.isNew ? '<p class="meta ng-newtag"><strong>New this week</strong></p>' : "") +
       '<p class="meta">' + when + "</p>" +
       "<p>" + esc(g.desc) + "</p>" +
+      ((g.aka || []).length ? '<p class="meta"><strong>Also called:</strong> ' + g.aka.map(esc).join(" · ") + "</p>" : "") +
       '<p class="meta"><strong>Equipment:</strong> ' + esc(g.equipment || "") + "</p>" +
-      (g.setup ? '<p class="meta"><strong>Set-up:</strong> ' + esc(g.setup) + "</p>" : "") +
+      '<p class="meta"><strong>Set-up:</strong> ' + esc(g.setup || "") + "</p>" +
       "<p><strong>How we play</strong></p>" +
-      '<ol class="clean">' + steps + "</ol>" +
-      (vars ? '<p><strong>Variations</strong></p><ul class="clean">' + vars + "</ul>" : "") +
+      '<ol class="clean">' + (g.how || []).map(li).join("") + "</ol>" +
+      list("If this happens", g.ifThis) +
+      (g.roundEnds ? "<p><strong>How a round ends.</strong> " + esc(g.roundEnds) + "</p>" : "") +
+      list("Cues", g.cues) +
+      list("Variations", g.variations) +
+      list("Teaching tips", g.tips) +
       videoHtml +
       (g.auto ? '<p class="note">Quick card built from the library line — watch the demo before teaching.</p>' : "") +
       (g.removedFromDoc ? '<p class="note">No longer listed in the PE Games Library (since ' + esc(g.removedFromDoc) + ").</p>" : "") +
-      '<details class="peg"><summary><strong>More details</strong> <span class="meta">· from the PE Games Library</span></summary><ul class="clean">' + more.join("") + "</ul></details>" +
-      '<p class="note"><strong>Safety.</strong> ' + esc(g.safety || "House rules: soft tags below the shoulders, no elimination.") + "</p>" +
-      (sources.length ? '<p class="meta card-source">' + sources.map(function (url, i) {
-        return '<a href="' + esc(url) + '" target="_blank" rel="noopener">Source' + (sources.length > 1 ? " " + (i + 1) : "") + "</a>";
+      more + outBox + bands +
+      '<p class="note"><strong>Safety.</strong> ' + esc(safety) + "</p>" +
+      (srcs.length ? '<p class="meta card-source">' + srcs.map(function (u, i) {
+        return '<a href="' + esc(u) + '" target="_blank" rel="noopener">Source' + (srcs.length > 1 ? " " + (i + 1) : "") + "</a>";
       }).join(" · ") + "</p>" : "") +
       "</article>";
   }
@@ -86,6 +108,9 @@
     var out = [];
     var latestGames = latest ? games.filter(function (g) { return g.added === latest.key; }) : [];
     var sameWeek = latest && latest.key === data.docWeek;
+    var num = {}, n = 0;
+    latestGames.forEach(function (g) { num[g.id] = ++n; });
+    weeks.slice(1).forEach(function (w) { games.forEach(function (g) { if (g.added === w.key && !num[g.id]) num[g.id] = ++n; }); });
 
     out.push('<section class="panel ng-this-week" id="this-week" aria-labelledby="ng-this-week-h">');
     out.push('<p class="ng-kicker">Added this week</p>');
@@ -105,7 +130,7 @@
 
     out.push('<section class="ng-week-block" id="this-weeks-games" data-week="' + esc(latest ? latest.key : "") + '">');
     out.push('<h2 class="ng-h">This week’s games <span class="ng-count">' + esc(latestGames.length) + "</span></h2>");
-    out.push(latestGames.map(function (g) { return card(g, data, { isNew: true }); }).join(""));
+    out.push(latestGames.map(function (g) { return card(g, data, { isNew: true, num: num[g.id] }); }).join(""));
     out.push("</section>");
 
     out.push('<h2 class="ng-h" id="archive">Archive — earlier weeks</h2>');
@@ -117,7 +142,7 @@
         (w.addedOnLabel ? ' <span class="ng-mini">added ' + esc(w.addedOnLabel) + "</span>" : "") + "</summary>" +
         (w.note ? '<p class="note">' + esc(w.note) + "</p>" : "") +
         '<ul class="ng-toc">' + list.map(function (g) { return '<li><a href="#' + esc(g.id) + '">' + esc(g.name) + "</a></li>"; }).join("") + "</ul>" +
-        list.map(function (g) { return card(g, data, { isNew: false }); }).join("") +
+        list.map(function (g) { return card(g, data, { isNew: false, num: num[g.id] }); }).join("") +
         "</details>");
     });
     return out.join("\n");
@@ -143,7 +168,7 @@
     var used = {};
     (data.games || []).forEach(function (g) { used[g.unit] = (used[g.unit] || 0) + 1; });
     var types = [];
-    (data.games || []).forEach(function (g) { var t = typeLabel(g.section); if (t && types.indexOf(t) < 0) types.push(t); });
+    (data.games || []).forEach(function (g) { var t = g.typeLabel || typeLabel(g.section); if (t && types.indexOf(t) < 0) types.push(t); });
     if (tbox) tbox.innerHTML = '<button type="button" data-type="all" class="on">All types</button>' +
       types.map(function (t) { return '<button type="button" data-type="' + esc(t) + '">' + esc(t) + "</button>"; }).join("");
     box.innerHTML = '<button type="button" data-unit="all" class="on">All months</button>' +

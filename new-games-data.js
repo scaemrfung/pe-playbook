@@ -115,6 +115,67 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command",
+   "cues": [
+    "On GO, Knockers tip cones over with a hand (or a foot in soccer month).",
+    "Pickers stand cones back up at the same time.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Move the way I named (walk, skip, gallop) — not a race.",
+    "Stop in a balanced shape: two feet, knees soft.",
+    "Give neighbours a hoop of space."
+   ],
+   "ifThis": [
+    "Crashing on a freeze: practise a walk-freeze before any faster command.",
+    "Missed signal: skip the next one and rejoin — no extra laps."
+   ],
+   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Knock ’em Downers.",
+    "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+    "Year plan: September, December — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Knock ’em Downers for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the named locomotor or shape."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Finds an open pathway on the go signal; does not cut a neighbour in Knock ’em Downers."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Listens with the group; leftover players join the teacher — they are never out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Freezes honestly on the signal even if it is fun to keep running."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Moves around people, not through them; helps a classmate who missed the cue."
+    }
+   ],
+   "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
+   "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
+   "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [
+    "https://physedgames.com/knock-em-downers-pick-em-uppers/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "20–30 cones or pins spread out; pinnies for two teams",
    "setup": "Scatter cones standing up across the gym. Split the class into Knockers and Pickers.",
    "how": [
@@ -148,6 +209,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command",
+   "cues": [
+    "Walk around doing your level’s action and find someone at the same level.",
+    "Play rock–paper–scissors.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Move the way I named (walk, skip, gallop) — not a race.",
+    "Stop in a balanced shape: two feet, knees soft.",
+    "Give neighbours a hoop of space."
+   ],
+   "ifThis": [
+    "Crashing on a freeze: practise a walk-freeze before any faster command.",
+    "Missed signal: skip the next one and rejoin — no extra laps."
+   ],
+   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in The Food Chain.",
+    "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+    "Year plan: December — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in The Food Chain for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the named locomotor or shape."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Finds an open pathway on the go signal; does not cut a neighbour in The Food Chain."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Listens with the group; leftover players join the teacher — they are never out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Freezes honestly on the signal even if it is fun to keep running."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Moves around people, not through them; helps a classmate who missed the cue."
+    }
+   ],
+   "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
+   "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
+   "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=1Tt5yiI1SFc",
+     "title": "PhysEdZone: \"The Food Chain\" Physical Education activity",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "None",
    "setup": "Everyone starts at the bottom level (e.g. egg). Teach the levels and an action for each: egg → chicken → dinosaur → human (or class choice).",
    "how": [
@@ -158,7 +284,8 @@ window.NEW_GAMES = {
    ],
    "variations": [
     "Use sport-themed levels (dribble → pass → shoot → score)."
-   ]
+   ],
+   "safety": "Leave a hoop of space around you. Walk-freeze first, then speed up."
   },
   {
    "id": "numbers-body-shapes",
@@ -179,6 +306,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command",
+   "cues": [
+    "Travel around the space.",
+    "Teacher calls a number.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Move the way I named (walk, skip, gallop) — not a race.",
+    "Stop in a balanced shape: two feet, knees soft.",
+    "Give neighbours a hoop of space."
+   ],
+   "ifThis": [
+    "Crashing on a freeze: practise a walk-freeze before any faster command.",
+    "Missed signal: skip the next one and rejoin — no extra laps."
+   ],
+   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Numbers (body shapes).",
+    "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+    "Year plan: April — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Numbers (body shapes) for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the named locomotor or shape."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Finds an open pathway on the go signal; does not cut a neighbour in Numbers (body shapes)."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Listens with the group; leftover players join the teacher — they are never out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Freezes honestly on the signal even if it is fun to keep running."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Moves around people, not through them; helps a classmate who missed the cue."
+    }
+   ],
+   "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
+   "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
+   "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=1V5lTrBa0ZY",
+     "title": "PhysEdZone: \"Numbers\" PE Fitness Warm-Up | Brain Break",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "None (optional number cards)",
    "setup": "Personal space. Teach a body shape for each number 1–10 (e.g. 1 = pencil stand, 2 = two-foot balance, 5 = star).",
    "how": [
@@ -190,7 +382,8 @@ window.NEW_GAMES = {
    "variations": [
     "Groups make the number shape together.",
     "Hold the shape on one foot."
-   ]
+   ],
+   "safety": "Leave a hoop of space around you. Walk-freeze first, then speed up."
   },
   {
    "id": "freeze-dance",
@@ -213,6 +406,71 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command",
+   "cues": [
+    "Music on: dance or move in place and around the space.",
+    "Music off: freeze in a shape.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Move the way I named (walk, skip, gallop) — not a race.",
+    "Stop in a balanced shape: two feet, knees soft.",
+    "Give neighbours a hoop of space."
+   ],
+   "ifThis": [
+    "Crashing on a freeze: practise a walk-freeze before any faster command.",
+    "Missed signal: skip the next one and rejoin — no extra laps."
+   ],
+   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Freeze Dance.",
+    "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+    "Year plan: December, October — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Freeze Dance for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the named locomotor or shape."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Finds an open pathway on the go signal; does not cut a neighbour in Freeze Dance."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Listens with the group; leftover players join the teacher — they are never out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Freezes honestly on the signal even if it is fun to keep running."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Moves around people, not through them; helps a classmate who missed the cue."
+    }
+   ],
+   "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
+   "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
+   "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=uV9iBkdnokM",
+     "title": "PhysEdZone: “Freeze Dance” PE Dance Fitness Workout | Brain Break",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Music",
    "setup": "Personal space; teacher controls the music.",
    "how": [
@@ -249,6 +507,71 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command",
+   "cues": [
+    "Planters stand cones up.",
+    "Play 45–60 seconds, freeze and count.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Move the way I named (walk, skip, gallop) — not a race.",
+    "Stop in a balanced shape: two feet, knees soft.",
+    "Give neighbours a hoop of space."
+   ],
+   "ifThis": [
+    "Crashing on a freeze: practise a walk-freeze before any faster command.",
+    "Missed signal: skip the next one and rejoin — no extra laps."
+   ],
+   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Plant the Trees.",
+    "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+    "Year plan: May, September, January — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Plant the Trees for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the named locomotor or shape."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Finds an open pathway on the go signal; does not cut a neighbour in Plant the Trees."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Listens with the group; leftover players join the teacher — they are never out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Freezes honestly on the signal even if it is fun to keep running."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Moves around people, not through them; helps a classmate who missed the cue."
+    }
+   ],
+   "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
+   "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
+   "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=auWty338fhw",
+     "title": "Warm up game: 'Plant the trees' (K-6) | Teaching Fundamentals of PE",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Many cones or markers",
    "setup": "Scatter cones; half are ‘planted’ (standing) and half ‘cut’ (on their side). Two teams: planters and loggers.",
    "how": [
@@ -256,7 +579,8 @@ window.NEW_GAMES = {
     "Play 45–60 seconds, freeze and count.",
     "Switch roles.",
     "Add a ball: must dribble to each cone."
-   ]
+   ],
+   "safety": "Leave a hoop of space around you. Walk-freeze first, then speed up."
   },
   {
    "id": "chair-yoga",
@@ -277,6 +601,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command",
+   "cues": [
+    "Lead 5–8 simple poses: seated mountain, twist, forward fold, seated cat–cow, figure-4…",
+    "Hold each pose 3–5 slow breaths.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Move the way I named (walk, skip, gallop) — not a race.",
+    "Stop in a balanced shape: two feet, knees soft.",
+    "Give neighbours a hoop of space."
+   ],
+   "ifThis": [
+    "Crashing on a freeze: practise a walk-freeze before any faster command.",
+    "Missed signal: skip the next one and rejoin — no extra laps."
+   ],
+   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Chair Yoga.",
+    "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+    "Year plan: April — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Chair Yoga for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the named locomotor or shape."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Finds an open pathway on the go signal; does not cut a neighbour in Chair Yoga."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Listens with the group; leftover players join the teacher — they are never out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Freezes honestly on the signal even if it is fun to keep running."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Moves around people, not through them; helps a classmate who missed the cue."
+    }
+   ],
+   "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
+   "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
+   "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=W8pdDt6kYZM",
+     "title": "PhysEdZone: “Chair Yoga” Distance learning PE | Brain Break",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Chairs (classroom) or none",
    "setup": "Seated at desks or on the floor.",
    "how": [
@@ -286,7 +675,8 @@ window.NEW_GAMES = {
    ],
    "variations": [
     "Students lead a pose."
-   ]
+   ],
+   "safety": "Leave a hoop of space around you. Walk-freeze first, then speed up."
   },
   {
    "id": "horse-and-jockey",
@@ -308,6 +698,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command",
+   "cues": [
+    "Teacher calls ‘Horse!’ or ‘Jockey!’.",
+    "The named role runs once around the outside of the circle.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Move the way I named (walk, skip, gallop) — not a race.",
+    "Stop in a balanced shape: two feet, knees soft.",
+    "Give neighbours a hoop of space."
+   ],
+   "ifThis": [
+    "Crashing on a freeze: practise a walk-freeze before any faster command.",
+    "Missed signal: skip the next one and rejoin — no extra laps."
+   ],
+   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Horse and Jockey.",
+    "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+    "Year plan: May — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Horse and Jockey for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the named locomotor or shape."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Finds an open pathway on the go signal; does not cut a neighbour in Horse and Jockey."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Listens with the group; leftover players join the teacher — they are never out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Freezes honestly on the signal even if it is fun to keep running."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Moves around people, not through them; helps a classmate who missed the cue."
+    }
+   ],
+   "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
+   "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
+   "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=Gn4Uai6dbpU",
+     "title": "Horse and Jockey 🐴🏇",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "None (music optional)",
    "setup": "Pairs around a big circle: one Horse (standing, feet wide), one Jockey.",
    "how": [
@@ -343,6 +798,71 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command",
+   "cues": [
+    "Show one letter.",
+    "Combine 3–4 letters into a ‘code’ (e.g. B-A-D).",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Move the way I named (walk, skip, gallop) — not a race.",
+    "Stop in a balanced shape: two feet, knees soft.",
+    "Give neighbours a hoop of space."
+   ],
+   "ifThis": [
+    "Crashing on a freeze: practise a walk-freeze before any faster command.",
+    "Missed signal: skip the next one and rejoin — no extra laps."
+   ],
+   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Dance Code.",
+    "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+    "Year plan: October, December — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Dance Code for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the named locomotor or shape."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Finds an open pathway on the go signal; does not cut a neighbour in Dance Code."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Listens with the group; leftover players join the teacher — they are never out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Freezes honestly on the signal even if it is fun to keep running."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Moves around people, not through them; helps a classmate who missed the cue."
+    }
+   ],
+   "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
+   "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
+   "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=9YB-Lk0vbIA",
+     "title": "3 Brand New Games with Dancing by Daly Exercise💃",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Letter cards or whiteboard; music",
    "setup": "Teach letters mapped to moves, e.g. A = jump, B = spin, C = clap, D = balance, E = slide, F = freeze.",
    "how": [
@@ -350,7 +870,8 @@ window.NEW_GAMES = {
     "Combine 3–4 letters into a ‘code’ (e.g. B-A-D).",
     "Students memorise and perform the code to the beat.",
     "Groups write their own code for another group to perform."
-   ]
+   ],
+   "safety": "Leave a hoop of space around you. Walk-freeze first, then speed up."
   },
   {
    "id": "dance-levels-directions",
@@ -374,6 +895,71 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in open space · 4–8 minutes · freeze on the signal, then the next command",
+   "cues": [
+    "Teacher calls a level + direction (‘low and sideways’).",
+    "Students invent a safe way to travel matching the call.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Move the way I named (walk, skip, gallop) — not a race.",
+    "Stop in a balanced shape: two feet, knees soft.",
+    "Give neighbours a hoop of space."
+   ],
+   "ifThis": [
+    "Crashing on a freeze: practise a walk-freeze before any faster command.",
+    "Missed signal: skip the next one and rejoin — no extra laps."
+   ],
+   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Dance Levels & Directions.",
+    "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
+    "Year plan: October, April — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Dance Levels & Directions for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the named locomotor or shape."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Finds an open pathway on the go signal; does not cut a neighbour in Dance Levels & Directions."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Listens with the group; leftover players join the teacher — they are never out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Freezes honestly on the signal even if it is fun to keep running."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Moves around people, not through them; helps a classmate who missed the cue."
+    }
+   ],
+   "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
+   "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
+   "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=9YB-Lk0vbIA",
+     "title": "3 Brand New Games with Dancing by Daly Exercise💃",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Music",
    "setup": "Personal space. Teach levels (high / middle / low) and directions (forward / sideways / backward).",
    "how": [
@@ -404,6 +990,72 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total",
+   "cues": [
+    "Runners can drop onto their back like a turtle (arms and legs up) to be safe for up to 5…",
+    "Longer only if a tagger is hovering.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Soft two-finger or noodle tag on the back or shoulder — never the head.",
+    "Change pathway. Do not run someone over to make a tag.",
+    "If you are tagged, show it honestly and take the next job."
+   ],
+   "ifThis": [
+    "Hard tag: warning, then sit 10 seconds.",
+    "Same few students chasing all period: swap taggers now."
+   ],
+   "roundEnds": "Timed rounds (45–90 seconds). Swap taggers. No winner required.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Turtle Tag.",
+    "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+    "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "Year plan: December — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Turtle Tag for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Changes speed and pathway to avoid a tag in Turtle Tag."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Uses space, a fake, or a safe zone instead of a pile-up in Turtle Tag."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role and shares space in Turtle Tag; does not crowd a hospital, jail, or throwing line."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest about a tag, a catch, or a line — no argument that stalls Turtle Tag."
+    },
+    {
+     "code": "Safety",
+     "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
+    }
+   ],
+   "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
+   "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
+   "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/shorts/mf7WYMBG45Q",
+     "title": "\"Turtle Tag\" Classic game! #physicaleducation #physed",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Pool noodles for taggers",
    "setup": "2–3 noodle taggers.",
    "how": [
@@ -434,6 +1086,72 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "K–5",
    "gradesFrom": "doc",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total",
+   "cues": [
+    "Chef calls the rhyme: ‘Run, run, as fast as you can…’.",
+    "Gingerbreads switch to another mat.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Soft two-finger or noodle tag on the back or shoulder — never the head.",
+    "Change pathway. Do not run someone over to make a tag.",
+    "If you are tagged, show it honestly and take the next job."
+   ],
+   "ifThis": [
+    "Hard tag: warning, then sit 10 seconds.",
+    "Same few students chasing all period: swap taggers now."
+   ],
+   "roundEnds": "Timed rounds (45–90 seconds). Swap taggers. No winner required.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Gingerbread Man Tag.",
+    "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+    "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "Year plan: December — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Gingerbread Man Tag for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Changes speed and pathway to avoid a tag in Gingerbread Man Tag."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Uses space, a fake, or a safe zone instead of a pile-up in Gingerbread Man Tag."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role and shares space in Gingerbread Man Tag; does not crowd a hospital, jail, or throwing line."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest about a tag, a catch, or a line — no argument that stalls Gingerbread Man Tag."
+    },
+    {
+     "code": "Safety",
+     "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
+    }
+   ],
+   "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
+   "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
+   "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=WKWzotw2cLI",
+     "title": "PE Games - Gingerbread Man Tag",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "4 mats in the corners; noodles for chefs",
    "setup": "Gingerbreads start on corner mats. 1–2 chefs in the middle.",
    "how": [
@@ -464,6 +1182,72 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total",
+   "cues": [
+    "Move only in crab walk.",
+    "Taggers tag with a foot touch (gentle).",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Soft two-finger or noodle tag on the back or shoulder — never the head.",
+    "Change pathway. Do not run someone over to make a tag.",
+    "If you are tagged, show it honestly and take the next job."
+   ],
+   "ifThis": [
+    "Hard tag: warning, then sit 10 seconds.",
+    "Same few students chasing all period: swap taggers now."
+   ],
+   "roundEnds": "Timed rounds (45–90 seconds). Swap taggers. No winner required.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crab Tag.",
+    "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
+    "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "Year plan: April — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Crab Tag for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Changes speed and pathway to avoid a tag in Crab Tag."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Uses space, a fake, or a safe zone instead of a pile-up in Crab Tag."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role and shares space in Crab Tag; does not crowd a hospital, jail, or throwing line."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest about a tag, a catch, or a line — no argument that stalls Crab Tag."
+    },
+    {
+     "code": "Safety",
+     "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Helps a tagged classmate re-enter (high-five, stretch, hospital, or role swap)."
+    }
+   ],
+   "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
+   "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
+   "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=P3_lkGM1FIc",
+     "title": "3 Animal Themed Games To Use For Your PE 🦀🦈🐛",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "None (mats optional)",
    "setup": "Everyone in crab-walk position. 2–3 crab taggers.",
    "how": [
@@ -493,6 +1277,67 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
+   "cues": [
+    "Rows can move sideways only, staying linked.",
+    "Kick the ball toward the other team’s goal.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Head up. Pass or move — do not crowd the ball.",
+    "Find a passing lane, not a pile-up.",
+    "Soft send; the ball stays below the chest unless the sport needs a high set."
+   ],
+   "ifThis": [
+    "One student keeps the ball: cue a pass or a 3-second pivot.",
+    "Crowd around the ball: freeze, spread to your zone, restart."
+   ],
+   "roundEnds": "4–6 minute periods. Rotate teams or the waiting wave. Keep score without ranking classmates.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Foosball Soccer.",
+    "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+    "Year plan: September — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Foosball Soccer for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest score and honest tags; tries again after a miss."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+    }
+   ],
+   "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
+   "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
+   "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [
+    "https://physedgames.com/foosball-soccer/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Pool noodles; soccer balls; two goals",
    "setup": "Players in rows across the gym holding noodles to link with teammates (like foosball rods).",
    "how": [
@@ -500,7 +1345,8 @@ window.NEW_GAMES = {
     "Kick the ball toward the other team’s goal.",
     "Break the line (drop the noodle link) = turnover to the other team.",
     "Rotate rows so everyone plays forward and back."
-   ]
+   ],
+   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
    "id": "4-vs-1",
@@ -523,6 +1369,71 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
+   "cues": [
+    "Attackers pass around the defender.",
+    "Defender tries to intercept.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Head up. Pass or move — do not crowd the ball.",
+    "Find a passing lane, not a pile-up.",
+    "Soft send; the ball stays below the chest unless the sport needs a high set."
+   ],
+   "ifThis": [
+    "One student keeps the ball: cue a pass or a 3-second pivot.",
+    "Crowd around the ball: freeze, spread to your zone, restart."
+   ],
+   "roundEnds": "4–6 minute periods. Rotate teams or the waiting wave. Keep score without ranking classmates.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 4 vs 1.",
+    "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+    "Year plan: September, January — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in 4 vs 1 for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest score and honest tags; tries again after a miss."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+    }
+   ],
+   "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
+   "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
+   "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=s3djeKGMYno",
+     "title": "4 vs 1 - strategic attacking and defending physical education game",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Cones for a small grid; one ball per group of 5",
    "setup": "Grids about 8 × 8 m. Four attackers on the outside, one defender in the middle.",
    "how": [
@@ -530,7 +1441,8 @@ window.NEW_GAMES = {
     "Defender tries to intercept.",
     "After a touch or 45 seconds, rotate a new defender in.",
     "Count passes before an interception."
-   ]
+   ],
+   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
    "id": "dice-wave-dribble",
@@ -552,6 +1464,65 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
+   "cues": [
+    "Roll the die.",
+    "The group with that number dribbles to the far line and back (a ‘wave’).",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Head up. Pass or move — do not crowd the ball.",
+    "Find a passing lane, not a pile-up.",
+    "Soft send; the ball stays below the chest unless the sport needs a high set."
+   ],
+   "ifThis": [
+    "One student keeps the ball: cue a pass or a 3-second pivot.",
+    "Crowd around the ball: freeze, spread to your zone, restart."
+   ],
+   "roundEnds": "4–6 minute periods. Rotate teams or the waiting wave. Keep score without ranking classmates.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Dice Wave Dribble.",
+    "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+    "Year plan: January, September, November — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Dice Wave Dribble for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest score and honest tags; tries again after a miss."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+    }
+   ],
+   "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
+   "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
+   "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Large foam die; one ball per student (soccer, basketball, or hockey)",
    "setup": "Groups numbered 1–6 on one end line.",
    "how": [
@@ -559,7 +1530,8 @@ window.NEW_GAMES = {
     "The group with that number dribbles to the far line and back (a ‘wave’).",
     "Roll again quickly so groups overlap.",
     "Change the dribble skill each round."
-   ]
+   ],
+   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
    "id": "noodle-tag-basketball",
@@ -578,6 +1550,65 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
+   "cues": [
+    "Dribble toward the basket and shoot to score.",
+    "Noodle defenders tag dribblers below the shoulders.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Head up. Pass or move — do not crowd the ball.",
+    "Find a passing lane, not a pile-up.",
+    "Soft send; the ball stays below the chest unless the sport needs a high set."
+   ],
+   "ifThis": [
+    "One student keeps the ball: cue a pass or a 3-second pivot.",
+    "Crowd around the ball: freeze, spread to your zone, restart."
+   ],
+   "roundEnds": "4–6 minute periods. Rotate teams or the waiting wave. Keep score without ranking classmates.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Noodle Tag Basketball.",
+    "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+    "Year plan: January — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Noodle Tag Basketball for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest score and honest tags; tries again after a miss."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+    }
+   ],
+   "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
+   "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
+   "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Basketballs; noodles for defenders; hoops",
    "setup": "Two teams; some players are noodle defenders.",
    "how": [
@@ -585,7 +1616,8 @@ window.NEW_GAMES = {
     "Noodle defenders tag dribblers below the shoulders.",
     "Tagged dribblers go back to their half and restart.",
     "Rotate defenders."
-   ]
+   ],
+   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
    "id": "perfect-pass-the-perfect-pass",
@@ -610,6 +1642,71 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
+   "cues": [
+    "Passer throws or kicks to the receiver standing in a hoop.",
+    "A catch/stop inside the hoop = point.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Head up. Pass or move — do not crowd the ball.",
+    "Find a passing lane, not a pile-up.",
+    "Soft send; the ball stays below the chest unless the sport needs a high set."
+   ],
+   "ifThis": [
+    "One student keeps the ball: cue a pass or a 3-second pivot.",
+    "Crowd around the ball: freeze, spread to your zone, restart."
+   ],
+   "roundEnds": "4–6 minute periods. Rotate teams or the waiting wave. Keep score without ranking classmates.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Perfect Pass / The Perfect Pass.",
+    "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+    "Year plan: October, September, January, November — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Perfect Pass / The Perfect Pass for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest score and honest tags; tries again after a miss."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+    }
+   ],
+   "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
+   "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
+   "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=fMOA2Lewl7o",
+     "title": "The Perfect Pass - A great PE game for accuracy, power & technique!",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Hoops; balls for the unit",
    "setup": "Pairs or small groups; a hoop target for the receiver.",
    "how": [
@@ -617,7 +1714,8 @@ window.NEW_GAMES = {
     "A catch/stop inside the hoop = point.",
     "Move the hoop farther after 3 successes.",
     "Rotate roles."
-   ]
+   ],
+   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
    "id": "avoid-the-mines",
@@ -641,6 +1739,71 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
+   "cues": [
+    "Dribble through the space without touching a mine.",
+    "Touch a mine = do a quick skill (3 toe taps) then continue.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Head up. Pass or move — do not crowd the ball.",
+    "Find a passing lane, not a pile-up.",
+    "Soft send; the ball stays below the chest unless the sport needs a high set."
+   ],
+   "ifThis": [
+    "One student keeps the ball: cue a pass or a 3-second pivot.",
+    "Crowd around the ball: freeze, spread to your zone, restart."
+   ],
+   "roundEnds": "4–6 minute periods. Rotate teams or the waiting wave. Keep score without ranking classmates.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Avoid the Mines.",
+    "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+    "Year plan: September, January, November — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Avoid the Mines for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest score and honest tags; tries again after a miss."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+    }
+   ],
+   "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
+   "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
+   "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=MEkbscKPASU",
+     "title": "Quick soccer drills: Avoid the mines (for ages 5-12) ⚽️",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Many cones as ‘mines’; one ball per student",
    "setup": "Scatter cones across the gym.",
    "how": [
@@ -648,7 +1811,8 @@ window.NEW_GAMES = {
     "Touch a mine = do a quick skill (3 toe taps) then continue.",
     "Add taggers or shrink the space.",
     "Switch to basketball or hockey dribble."
-   ]
+   ],
+   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
    "id": "elementary-ultimate-frisbee",
@@ -669,6 +1833,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "3–6",
    "gradesFrom": "inferred",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
+   "cues": [
+    "Pass the frisbee.",
+    "Defenders keep one arm’s length.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Head up. Pass or move — do not crowd the ball.",
+    "Find a passing lane, not a pile-up.",
+    "Soft send; the ball stays below the chest unless the sport needs a high set."
+   ],
+   "ifThis": [
+    "One student keeps the ball: cue a pass or a 3-second pivot.",
+    "Crowd around the ball: freeze, spread to your zone, restart."
+   ],
+   "roundEnds": "4–6 minute periods. Rotate teams or the waiting wave. Keep score without ranking classmates.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Elementary Ultimate Frisbee.",
+    "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+    "Year plan: October — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Elementary Ultimate Frisbee for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest score and honest tags; tries again after a miss."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+    }
+   ],
+   "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
+   "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
+   "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=GxtCSOCerA8",
+     "title": "Elementary Ultimate Frisbee (how to play with simple rules)",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Soft frisbees; pinnies; cone end zones",
    "setup": "Small-sided teams (4v4) with end zones.",
    "how": [
@@ -676,7 +1905,8 @@ window.NEW_GAMES = {
     "Defenders keep one arm’s length.",
     "Score by catching in the end zone.",
     "Dropped or intercepted = turnover."
-   ]
+   ],
+   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
    "id": "eagles-vs-seahawks",
@@ -699,6 +1929,73 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "K–4",
    "gradesFrom": "doc",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
+   "cues": [
+    "Seahawks get a 5-second head start to grab fish.",
+    "Eagles chase and may tag Seahawks to steal their fish.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Head up. Pass or move — do not crowd the ball.",
+    "Find a passing lane, not a pile-up.",
+    "Soft send; the ball stays below the chest unless the sport needs a high set."
+   ],
+   "ifThis": [
+    "One student keeps the ball: cue a pass or a 3-second pivot.",
+    "Crowd around the ball: freeze, spread to your zone, restart."
+   ],
+   "roundEnds": "4–6 minute periods. Rotate teams or the waiting wave. Keep score without ranking classmates.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Eagles vs Seahawks.",
+    "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+    "Year plan: December — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Eagles vs Seahawks for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest score and honest tags; tries again after a miss."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+    }
+   ],
+   "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
+   "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
+   "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=ATj3B12FUXw",
+     "title": "Eagles vs Seahawks",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "sources": [
+    "https://physedgames.com/eagles-vs-seahawks/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Beanbags as fish; hoop ‘lake’ in the centre; hoop nests",
    "setup": "Two teams (Eagles and Seahawks); beanbag fish in the centre lake.",
    "how": [
@@ -706,7 +2003,8 @@ window.NEW_GAMES = {
     "Eagles chase and may tag Seahawks to steal their fish.",
     "Return fish to your team’s nest.",
     "Most fish in the nest wins; switch roles."
-   ]
+   ],
+   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
    "id": "collect-em-all",
@@ -728,6 +2026,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
+   "cues": [
+    "Move as a team holding the hoop.",
+    "Use feet only to kick one centre foam ball at a time back to your corner.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Head up. Pass or move — do not crowd the ball.",
+    "Find a passing lane, not a pile-up.",
+    "Soft send; the ball stays below the chest unless the sport needs a high set."
+   ],
+   "ifThis": [
+    "One student keeps the ball: cue a pass or a 3-second pivot.",
+    "Crowd around the ball: freeze, spread to your zone, restart."
+   ],
+   "roundEnds": "4–6 minute periods. Rotate teams or the waiting wave. Keep score without ranking classmates.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Collect Em All.",
+    "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
+    "Year plan: September — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Collect Em All for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest score and honest tags; tries again after a miss."
+    },
+    {
+     "code": "Safety",
+     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+    }
+   ],
+   "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
+   "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
+   "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=G7P7d46IRTA",
+     "title": "3 Back-To-School Games (all grade levels)",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Hoops (one per team); foam balls in the centre",
    "setup": "Teams of 4–5 hold a shared hoop together at their corner.",
    "how": [
@@ -735,7 +2098,8 @@ window.NEW_GAMES = {
     "Use feet only to kick one centre foam ball at a time back to your corner.",
     "Keep holding the hoop the whole time.",
     "Most balls at the end wins."
-   ]
+   ],
+   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
    "id": "skip-rope-net-3v3",
@@ -754,6 +2118,65 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line",
+   "cues": [
+    "Serve with an underhand toss over the rope.",
+    "Bump, set, or catch-and-throw over the rope.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Opposite-foot step. Eyes on the target, not the teacher.",
+    "Wait for the fetch before the next throw.",
+    "One object in the air at a time per pair or lane."
+   ],
+   "ifThis": [
+    "Someone walks into the throwing lane: freeze all throws, clear the lane, restart.",
+    "A throw at a face: that player switches to rolling for the round."
+   ],
+   "roundEnds": "Timed rounds or when the targets are down. Count, reset, rotate jobs.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Skip-rope Net 3v3.",
+    "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+    "Year plan: March — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Skip-rope Net 3v3 for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Skip-rope Net 3v3 with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits a turn; collects on the call so the next player can send."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records or resets honestly; a miss is another try."
+    },
+    {
+     "code": "Safety",
+     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers a classmate’s send; does not block someone from a turn."
+    }
+   ],
+   "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
+   "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
+   "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Long skipping rope; volleyball or beach ball",
    "setup": "Teams of 3 on each side; a middle player holds the rope at net height.",
    "how": [
@@ -761,7 +2184,8 @@ window.NEW_GAMES = {
     "Bump, set, or catch-and-throw over the rope.",
     "Rotate the net holder every point.",
     "Keep score as rally count or points."
-   ]
+   ],
+   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
    "id": "card-pass-challenge",
@@ -780,6 +2204,65 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line",
+   "cues": [
+    "Draw a card — that’s the target number of passes.",
+    "Bump/set in the circle trying to reach that many in a row.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Opposite-foot step. Eyes on the target, not the teacher.",
+    "Wait for the fetch before the next throw.",
+    "One object in the air at a time per pair or lane."
+   ],
+   "ifThis": [
+    "Someone walks into the throwing lane: freeze all throws, clear the lane, restart.",
+    "A throw at a face: that player switches to rolling for the round."
+   ],
+   "roundEnds": "Timed rounds or when the targets are down. Count, reset, rotate jobs.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Card Pass Challenge.",
+    "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+    "Year plan: March — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Card Pass Challenge for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Card Pass Challenge with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits a turn; collects on the call so the next player can send."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records or resets honestly; a miss is another try."
+    },
+    {
+     "code": "Safety",
+     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers a classmate’s send; does not block someone from a turn."
+    }
+   ],
+   "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
+   "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
+   "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Deck of cards; volleyballs",
    "setup": "Groups in small circles.",
    "how": [
@@ -787,7 +2270,8 @@ window.NEW_GAMES = {
     "Bump/set in the circle trying to reach that many in a row.",
     "Beat the card, draw a new one.",
     "Face cards = 10."
-   ]
+   ],
+   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
    "id": "hoop-collect-set-volley",
@@ -806,6 +2290,65 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "relay",
+   "typeLabel": "Relays & stations",
+   "slot": "16–25",
+   "grouping": "Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking)",
+   "cues": [
+    "Pass the ball down the line using sets or volleys.",
+    "The last player places it in the hoop.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Wait behind the cone. Go on the high-five.",
+    "Stay in your lane. Pass on the right if you meet someone.",
+    "Quality over sprint — reset if the skill falls apart."
+   ],
+   "ifThis": [
+    "Early start: that runner goes back to the cone and restarts.",
+    "Skill falls apart in the rush: one quality redo, no penalty lap."
+   ],
+   "roundEnds": "Two full rotations, then a quality round. Celebrate form, not a ranking.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hoop Collect (set/volley).",
+    "Watch for early starts. Next runner stays behind the cone until the high-five.",
+    "Year plan: March — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Hoop Collect (set/volley) for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Repeats the named locomotor or send with control to the line and back."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits behind the line; tags the next runner kindly."
+    },
+    {
+     "code": "Character Development",
+     "look": "No extra steps past the line; a drop is picked up and the leg continues."
+    },
+    {
+     "code": "Safety",
+     "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Encourages the next runner; does not shame a drop."
+    }
+   ],
+   "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
+   "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
+   "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Volleyballs or beach balls; one hoop per team",
    "setup": "Teams line up; balls at one end, team hoop at the other.",
    "how": [
@@ -813,7 +2356,8 @@ window.NEW_GAMES = {
     "The last player places it in the hoop.",
     "Collect as many as possible in the time.",
     "Rotate positions."
-   ]
+   ],
+   "safety": "Lanes wide apart; stop at the cone, no diving for the finish."
   },
   {
    "id": "slam-ball",
@@ -835,6 +2379,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line",
+   "cues": [
+    "Rock–paper–scissors to decide who starts.",
+    "Bounce the ball into the hoop.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Opposite-foot step. Eyes on the target, not the teacher.",
+    "Wait for the fetch before the next throw.",
+    "One object in the air at a time per pair or lane."
+   ],
+   "ifThis": [
+    "Someone walks into the throwing lane: freeze all throws, clear the lane, restart.",
+    "A throw at a face: that player switches to rolling for the round."
+   ],
+   "roundEnds": "Timed rounds or when the targets are down. Count, reset, rotate jobs.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slam Ball.",
+    "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+    "Year plan: March — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Slam Ball for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Slam Ball with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits a turn; collects on the call so the next player can send."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records or resets honestly; a miss is another try."
+    },
+    {
+     "code": "Safety",
+     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers a classmate’s send; does not block someone from a turn."
+    }
+   ],
+   "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
+   "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
+   "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/shorts/WQwhGw7g8_Y",
+     "title": "Slam Ball ⚽🎯",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Soft ball and hoop per pair",
    "setup": "Partners with a hoop on the floor between them.",
    "how": [
@@ -842,7 +2451,8 @@ window.NEW_GAMES = {
     "Bounce the ball into the hoop; partner palm-slaps it forward back into the hoop.",
     "Miss the hoop = your partner’s point.",
     "Play to 7; switch partners."
-   ]
+   ],
+   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
    "id": "four-square-paddle-ball",
@@ -864,6 +2474,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "2–6",
    "gradesFrom": "inferred",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line",
+   "cues": [
+    "Hit the ball with the paddle so it bounces into another player’s hoop court.",
+    "Return it after one bounce.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Opposite-foot step. Eyes on the target, not the teacher.",
+    "Wait for the fetch before the next throw.",
+    "One object in the air at a time per pair or lane."
+   ],
+   "ifThis": [
+    "Someone walks into the throwing lane: freeze all throws, clear the lane, restart.",
+    "A throw at a face: that player switches to rolling for the round."
+   ],
+   "roundEnds": "Timed rounds or when the targets are down. Count, reset, rotate jobs.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Four Square Paddle Ball.",
+    "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+    "Year plan: March — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Four Square Paddle Ball for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Four Square Paddle Ball with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits a turn; collects on the call so the next player can send."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records or resets honestly; a miss is another try."
+    },
+    {
+     "code": "Safety",
+     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers a classmate’s send; does not block someone from a turn."
+    }
+   ],
+   "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
+   "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
+   "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=KDnodWqzTFU",
+     "title": "\"Four Square Paddle Ball\" 3 Levels #physicaleducation #physed #elementarype",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Hoops as courts; paddles; soft balls",
    "setup": "Groups of four; hoop courts set at three distances (Close / Challenge / Championship).",
    "how": [
@@ -871,7 +2546,8 @@ window.NEW_GAMES = {
     "Return it after one bounce.",
     "Win a rally at Close, move to Challenge, then Championship.",
     "Rotate groups."
-   ]
+   ],
+   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
    "id": "air-hockey-cone-puck",
@@ -893,6 +2569,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line",
+   "cues": [
+    "Slide the cone puck to score past your partner’s goal.",
+    "Start on knees.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Opposite-foot step. Eyes on the target, not the teacher.",
+    "Wait for the fetch before the next throw.",
+    "One object in the air at a time per pair or lane."
+   ],
+   "ifThis": [
+    "Someone walks into the throwing lane: freeze all throws, clear the lane, restart.",
+    "A throw at a face: that player switches to rolling for the round."
+   ],
+   "roundEnds": "Timed rounds or when the targets are down. Count, reset, rotate jobs.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Air Hockey (cone puck).",
+    "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+    "Year plan: November — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Air Hockey (cone puck) for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Air Hockey (cone puck) with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits a turn; collects on the call so the next player can send."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records or resets honestly; a miss is another try."
+    },
+    {
+     "code": "Safety",
+     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers a classmate’s send; does not block someone from a turn."
+    }
+   ],
+   "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
+   "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
+   "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=sN1CPbhfdKc",
+     "title": "Air Hockey PE Game🥅 #dalyexercise #sports #pegames #inclusivepe #teacher",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "About 5 cones per pair",
    "setup": "Partners set two cone goals facing each other; one flat cone is the puck.",
    "how": [
@@ -900,7 +2641,8 @@ window.NEW_GAMES = {
     "Start on knees; progress to squat/hunker for harder saves.",
     "Play to 5, switch partners.",
     "Try off-hand only."
-   ]
+   ],
+   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
    "id": "bullseye",
@@ -923,6 +2665,67 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line",
+   "cues": [
+    "Throw tennis balls to knock volleyballs off cones.",
+    "Knocked balls roll to the other side — they can’t reset them.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Opposite-foot step. Eyes on the target, not the teacher.",
+    "Wait for the fetch before the next throw.",
+    "One object in the air at a time per pair or lane."
+   ],
+   "ifThis": [
+    "Someone walks into the throwing lane: freeze all throws, clear the lane, restart.",
+    "A throw at a face: that player switches to rolling for the round."
+   ],
+   "roundEnds": "Timed rounds or when the targets are down. Count, reset, rotate jobs.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bullseye.",
+    "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+    "Year plan: June, December — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Bullseye for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Bullseye with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits a turn; collects on the call so the next player can send."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records or resets honestly; a miss is another try."
+    },
+    {
+     "code": "Safety",
+     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers a classmate’s send; does not block someone from a turn."
+    }
+   ],
+   "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
+   "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
+   "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [
+    "https://physedgames.com/bullseye/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Volleyballs on cones; tennis balls; pinnies",
    "setup": "Two teams; volleyballs balanced on cones along the middle.",
    "how": [
@@ -930,7 +2733,8 @@ window.NEW_GAMES = {
     "Knocked balls roll to the other side — they can’t reset them.",
     "Retrieve tennis balls from your side only.",
     "Most balls on the other side wins."
-   ]
+   ],
+   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
    "id": "bozo-bucket-toss",
@@ -949,6 +2753,65 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "K–3",
    "gradesFrom": "inferred",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line",
+   "cues": [
+    "Underhand toss beanbags into buckets.",
+    "Farther buckets score more points.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Opposite-foot step. Eyes on the target, not the teacher.",
+    "Wait for the fetch before the next throw.",
+    "One object in the air at a time per pair or lane."
+   ],
+   "ifThis": [
+    "Someone walks into the throwing lane: freeze all throws, clear the lane, restart.",
+    "A throw at a face: that player switches to rolling for the round."
+   ],
+   "roundEnds": "Timed rounds or when the targets are down. Count, reset, rotate jobs.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bozo / bucket toss.",
+    "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+    "Year plan: June — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Bozo / bucket toss for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Bozo / bucket toss with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits a turn; collects on the call so the next player can send."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records or resets honestly; a miss is another try."
+    },
+    {
+     "code": "Safety",
+     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers a classmate’s send; does not block someone from a turn."
+    }
+   ],
+   "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
+   "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
+   "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Buckets at increasing distances; beanbags",
    "setup": "Rows of buckets set at close, middle, and far distances.",
    "how": [
@@ -956,7 +2819,8 @@ window.NEW_GAMES = {
     "Farther buckets score more points.",
     "Retrieve and rotate.",
     "Try non-dominant hand."
-   ]
+   ],
+   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
    "id": "hoop-hut-knock-down",
@@ -978,6 +2842,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line",
+   "cues": [
+    "Build the hut, run back to the line.",
+    "Throw or roll soft balls to knock your own hut down for points.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Opposite-foot step. Eyes on the target, not the teacher.",
+    "Wait for the fetch before the next throw.",
+    "One object in the air at a time per pair or lane."
+   ],
+   "ifThis": [
+    "Someone walks into the throwing lane: freeze all throws, clear the lane, restart.",
+    "A throw at a face: that player switches to rolling for the round."
+   ],
+   "roundEnds": "Timed rounds or when the targets are down. Count, reset, rotate jobs.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Hoop Hut Knock Down.",
+    "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+    "Year plan: December — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Hoop Hut Knock Down for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Hoop Hut Knock Down with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits a turn; collects on the call so the next player can send."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records or resets honestly; a miss is another try."
+    },
+    {
+     "code": "Safety",
+     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers a classmate’s send; does not block someone from a turn."
+    }
+   ],
+   "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
+   "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
+   "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/shorts/NVpUzALtp_4",
+     "title": "Hoop Hut Knock Down⭕️ Back to school PE game #pegames #school #games #teacher",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "oldNames": [
     "Hula Hut Knock Down"
    ],
@@ -991,7 +2920,8 @@ window.NEW_GAMES = {
     "Throw or roll soft balls to knock your own hut down for points.",
     "Rebuild and repeat.",
     "Most knockdowns in the time wins."
-   ]
+   ],
+   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
    "id": "4-ball-kickball",
@@ -1012,6 +2942,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "strike",
+   "typeLabel": "Strike & field",
+   "slot": "16–25",
+   "grouping": "Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often",
+   "cues": [
+    "Four kickers kick at once.",
+    "Fielders return all four balls to the pitcher’s zone to stop runners.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Ready position in the field — feet still, hands out.",
+    "Hit, then run the path. Do not watch your own hit.",
+    "Fielders send to the base or hoop, not at a runner."
+   ],
+   "ifThis": [
+    "Long batting line: switch to a continuous format or a 3-pitch max.",
+    "Bat or ball thrown after a hit: that turn is a do-over with a set-down."
+   ],
+   "roundEnds": "Everyone hits, then the teams switch. No sit-outs for an out — go to the back of the line.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 4 Ball Kickball.",
+    "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+    "Year plan: June — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in 4 Ball Kickball for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Strikes or kicks to a space; ready hands on a catch."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Knows when to run and when to hold."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest out or safe; no arguing a force."
+    },
+    {
+     "code": "Safety",
+     "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+    }
+   ],
+   "g12": "Tee or a bounced toss. Run to one base or hoop and stay. Teacher fields the first few.",
+   "g34": "Live send (kick, strike, or throw). Three chances, then a run so the line moves.",
+   "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=Kjiotn-kWL4",
+     "title": "PE Game: \"4 ball Kickball\"        #physed #shorts #short",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Four kickballs; bases",
    "setup": "Standard kickball diamond with four balls.",
    "how": [
@@ -1019,7 +3014,8 @@ window.NEW_GAMES = {
     "Fielders return all four balls to the pitcher’s zone to stop runners.",
     "Runners advance as far as they can.",
     "Adapt outs: stretch then back in."
-   ]
+   ],
+   "safety": "Only the batter/kicker swings or kicks. Fielders stand well back and wait for GO."
   },
   {
    "id": "fun-kickball",
@@ -1040,6 +3036,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "2–8",
    "gradesFrom": "doc",
+   "type": "strike",
+   "typeLabel": "Strike & field",
+   "slot": "16–25",
+   "grouping": "Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often",
+   "cues": [
+    "Kicker kicks and runs the six bases.",
+    "More bases = more runners moving.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Ready position in the field — feet still, hands out.",
+    "Hit, then run the path. Do not watch your own hit.",
+    "Fielders send to the base or hoop, not at a runner."
+   ],
+   "ifThis": [
+    "Long batting line: switch to a continuous format or a 3-pitch max.",
+    "Bat or ball thrown after a hit: that turn is a do-over with a set-down."
+   ],
+   "roundEnds": "Everyone hits, then the teams switch. No sit-outs for an out — go to the back of the line.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Fun Kickball.",
+    "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
+    "Year plan: June — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Fun Kickball for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Strikes or kicks to a space; ready hands on a catch."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Knows when to run and when to hold."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest out or safe; no arguing a force."
+    },
+    {
+     "code": "Safety",
+     "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+    }
+   ],
+   "g12": "Tee or a bounced toss. Run to one base or hoop and stay. Teacher fields the first few.",
+   "g34": "Live send (kick, strike, or throw). Three chances, then a run so the line moves.",
+   "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=VM-KGUMB0io",
+     "title": "Fun Kickball Game",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Kickball; six bases",
    "setup": "Six-base diamond.",
    "how": [
@@ -1047,7 +3108,8 @@ window.NEW_GAMES = {
     "More bases = more runners moving.",
     "Fielders throw to home to stop runners.",
     "Adapt outs — no sit-outs."
-   ]
+   ],
+   "safety": "Only the batter/kicker swings or kicks. Fielders stand well back and wait for GO."
   },
   {
    "id": "gymball-dodgeball-mayhem",
@@ -1068,6 +3130,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "3–6",
    "gradesFrom": "inferred",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line",
+   "cues": [
+    "Outside players roll/throw gym balls toward the middle.",
+    "Middle players dodge.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Opposite-foot step. Eyes on the target, not the teacher.",
+    "Wait for the fetch before the next throw.",
+    "One object in the air at a time per pair or lane."
+   ],
+   "ifThis": [
+    "Someone walks into the throwing lane: freeze all throws, clear the lane, restart.",
+    "A throw at a face: that player switches to rolling for the round."
+   ],
+   "roundEnds": "Timed rounds or when the targets are down. Count, reset, rotate jobs.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Gymball Dodgeball Mayhem.",
+    "Watch for fetchers walking through the throwing line. Make them a job to the side.",
+    "Year plan: December — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Gymball Dodgeball Mayhem for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Gymball Dodgeball Mayhem with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits a turn; collects on the call so the next player can send."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records or resets honestly; a miss is another try."
+    },
+    {
+     "code": "Safety",
+     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers a classmate’s send; does not block someone from a turn."
+    }
+   ],
+   "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
+   "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
+   "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=0eyapUhwN9k",
+     "title": "Gymball dodgeball mayhem, a crazy whole-class PE game!",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Large gym balls; soft balls",
    "setup": "Middle players dodge; outside players throw or roll.",
    "how": [
@@ -1097,6 +3224,65 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "fitness",
+   "typeLabel": "Fitness & landings",
+   "slot": "16–25",
+   "grouping": "Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch",
+   "cues": [
+    "Run or walk the lap aiming to hit your cone in exactly X seconds.",
+    "Teacher calls the time.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Quiet landings. Bend ankles, knees, and hips.",
+    "Quality beats speed. Stop if a wrist, knee, or back complains.",
+    "Breathe out on the work; do not hold a breath to rush."
+   ],
+   "ifThis": [
+    "Sloppy form when racing: drop the race, keep the quality set.",
+    "Wrist, knee, or back complains: switch to the easier option or a stretch, then rejoin."
+   ],
+   "roundEnds": "Timed bouts with rest between. Finish with a stretch and one word about effort — no ranking.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Pace lap.",
+    "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
+    "Year plan: May, September — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Pace lap for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Pace lap with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Paces the set so they can finish, not sprint and collapse."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Works beside a partner or in a hoop without bumping others out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records a private number honestly, or skips the number and names effort."
+    },
+    {
+     "code": "Safety",
+     "look": "Soft landings; freeze on the signal."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+    }
+   ],
+   "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
+   "g34": "Full lane or full set. Quiet landings. Partner counts.",
+   "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Cones around a lap; timer",
    "setup": "Each student picks a cone target and a target time.",
    "how": [
@@ -1104,7 +3290,8 @@ window.NEW_GAMES = {
     "Teacher calls the time; check how close you were.",
     "Adjust your pace and try again.",
     "Terry Fox run prep."
-   ]
+   ],
+   "safety": "Pick your own pace; water and rest are always allowed."
   },
   {
    "id": "challenge-mat",
@@ -1125,6 +3312,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "coop",
+   "typeLabel": "Cooperative & circus",
+   "slot": "16–25",
+   "grouping": "Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner",
+   "cues": [
+    "Complete a cooperative balance or movement challenge on the mat.",
+    "Everyone must be on the mat for it to count.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Use names. Ask before you grab a hoop, rope, or balloon.",
+    "If it drops, restart together — no blame.",
+    "Quiet voices so the group can hear the next job."
+   ],
+   "ifThis": [
+    "One student doing all the work: add a ‘must-touch’ rule for everyone.",
+    "Group stuck: 20-second huddle, pick one plan, try again."
+   ],
+   "roundEnds": "When the group finishes the task or the time is up. Celebrate the group, then try a harder version.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Challenge Mat.",
+    "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
+    "Year plan: April — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Challenge Mat for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Plans a simple order or role with teammates before rushing."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes turns and solves a small problem without grabbing."
+    },
+    {
+     "code": "Character Development",
+     "look": "Restarts a drop without blaming a classmate."
+    },
+    {
+     "code": "Safety",
+     "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Uses names and kind words; waits a turn without pulling equipment away."
+    }
+   ],
+   "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
+   "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
+   "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=l3UErQTCxLI",
+     "title": "PhysEdZone: \"Challenge Mat\" Physical Education cooperative activity",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "4–10 yoga or gym mats; challenge cards",
    "setup": "Groups at mats with a challenge card each.",
    "how": [
@@ -1132,7 +3384,8 @@ window.NEW_GAMES = {
     "Everyone must be on the mat for it to count.",
     "Rotate mats.",
     "Harder cards for older grades."
-   ]
+   ],
+   "safety": "Move at a speed the group can control. Ask before any partner lift or shape."
   },
   {
    "id": "slip-and-slide-mat-relay",
@@ -1154,6 +3407,71 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "relay",
+   "typeLabel": "Relays & stations",
+   "slot": "16–25",
+   "grouping": "Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking)",
+   "cues": [
+    "Push the mat forward by sliding on it with your body.",
+    "Hand off at the cone.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Wait behind the cone. Go on the high-five.",
+    "Stay in your lane. Pass on the right if you meet someone.",
+    "Quality over sprint — reset if the skill falls apart."
+   ],
+   "ifThis": [
+    "Early start: that runner goes back to the cone and restarts.",
+    "Skill falls apart in the rush: one quality redo, no penalty lap."
+   ],
+   "roundEnds": "Two full rotations, then a quality round. Celebrate form, not a ranking.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slip and Slide (mat relay).",
+    "Watch for early starts. Next runner stays behind the cone until the high-five.",
+    "Year plan: April — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Slip and Slide (mat relay) for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Repeats the named locomotor or send with control to the line and back."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits behind the line; tags the next runner kindly."
+    },
+    {
+     "code": "Character Development",
+     "look": "No extra steps past the line; a drop is picked up and the leg continues."
+    },
+    {
+     "code": "Safety",
+     "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Encourages the next runner; does not shame a drop."
+    }
+   ],
+   "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
+   "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
+   "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=hf2o83t-o0g",
+     "title": "3 Simple Group PE Games by Daly Exercise",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Mats; smooth gym floor",
    "setup": "Teams with one mat each.",
    "how": [
@@ -1183,13 +3501,79 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "3–6",
    "gradesFrom": "inferred",
+   "type": "fitness",
+   "typeLabel": "Fitness & landings",
+   "slot": "16–25",
+   "grouping": "Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch",
+   "cues": [
+    "Snatchers run to the far cone and grab a ball.",
+    "Chasers may only tag after the snatch.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Quiet landings. Bend ankles, knees, and hips.",
+    "Quality beats speed. Stop if a wrist, knee, or back complains.",
+    "Breathe out on the work; do not hold a breath to rush."
+   ],
+   "ifThis": [
+    "Sloppy form when racing: drop the race, keep the quality set.",
+    "Wrist, knee, or back complains: switch to the easier option or a stretch, then rejoin."
+   ],
+   "roundEnds": "Timed bouts with rest between. Finish with a stretch and one word about effort — no ranking.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bull Chasers.",
+    "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
+    "Year plan: May — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Bull Chasers for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Bull Chasers with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Paces the set so they can finish, not sprint and collapse."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Works beside a partner or in a hoop without bumping others out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records a private number honestly, or skips the number and names effort."
+    },
+    {
+     "code": "Safety",
+     "look": "Soft landings; freeze on the signal."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+    }
+   ],
+   "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
+   "g34": "Full lane or full set. Quiet landings. Partner counts.",
+   "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=khde7TTPt6Q",
+     "title": "My TOP 5 PE RACING games for athletics 🏅🏃🏽‍♀️‍➡️🏃🏼‍♂️‍➡️",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Cones; balls at a far cone",
    "setup": "Lines of snatchers and chasers.",
    "how": [
     "Snatchers run to the far cone and grab a ball.",
     "Chasers may only tag after the snatch.",
     "Rotate lines each round."
-   ]
+   ],
+   "safety": "Pick your own pace; water and rest are always allowed."
   },
   {
    "id": "shuttles-cone-ball",
@@ -1211,13 +3595,79 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "1–6",
    "gradesFrom": "inferred",
+   "type": "relay",
+   "typeLabel": "Relays & stations",
+   "slot": "16–25",
+   "grouping": "Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking)",
+   "cues": [
+    "Move a tennis ball cone by cone out to the end.",
+    "Then bring it back cone by cone.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Wait behind the cone. Go on the high-five.",
+    "Stay in your lane. Pass on the right if you meet someone.",
+    "Quality over sprint — reset if the skill falls apart."
+   ],
+   "ifThis": [
+    "Early start: that runner goes back to the cone and restarts.",
+    "Skill falls apart in the rush: one quality redo, no penalty lap."
+   ],
+   "roundEnds": "Two full rotations, then a quality round. Celebrate form, not a ranking.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Shuttles (cone ball).",
+    "Watch for early starts. Next runner stays behind the cone until the high-five.",
+    "Year plan: May — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Shuttles (cone ball) for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Repeats the named locomotor or send with control to the line and back."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits behind the line; tags the next runner kindly."
+    },
+    {
+     "code": "Character Development",
+     "look": "No extra steps past the line; a drop is picked up and the leg continues."
+    },
+    {
+     "code": "Safety",
+     "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Encourages the next runner; does not shame a drop."
+    }
+   ],
+   "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
+   "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
+   "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=khde7TTPt6Q",
+     "title": "My TOP 5 PE RACING games for athletics 🏅🏃🏽‍♀️‍➡️🏃🏼‍♂️‍➡️",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Cones in a line; tennis ball per team",
    "setup": "Teams with a line of cones.",
    "how": [
     "Move a tennis ball cone by cone out to the end.",
     "Then bring it back cone by cone.",
     "First team finished wins."
-   ]
+   ],
+   "safety": "Lanes wide apart; stop at the cone, no diving for the finish."
   },
   {
    "id": "catch-me-if-you-can-sprint",
@@ -1239,13 +3689,79 @@ window.NEW_GAMES = {
    "alsoFits": [],
    "grades": "3–6",
    "gradesFrom": "inferred",
+   "type": "fitness",
+   "typeLabel": "Fitness & landings",
+   "slot": "16–25",
+   "grouping": "Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch",
+   "cues": [
+    "On GO, escaper sprints for the finish.",
+    "Chaser tries to tag before the finish line.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Quiet landings. Bend ankles, knees, and hips.",
+    "Quality beats speed. Stop if a wrist, knee, or back complains.",
+    "Breathe out on the work; do not hold a breath to rush."
+   ],
+   "ifThis": [
+    "Sloppy form when racing: drop the race, keep the quality set.",
+    "Wrist, knee, or back complains: switch to the easier option or a stretch, then rejoin."
+   ],
+   "roundEnds": "Timed bouts with rest between. Finish with a stretch and one word about effort — no ranking.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Catch Me If You Can (sprint).",
+    "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
+    "Year plan: May — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Catch Me If You Can (sprint) for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the taught action in Catch Me If You Can (sprint) with control, not a rush that knocks kit or people."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Paces the set so they can finish, not sprint and collapse."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Works beside a partner or in a hoop without bumping others out."
+    },
+    {
+     "code": "Character Development",
+     "look": "Records a private number honestly, or skips the number and names effort."
+    },
+    {
+     "code": "Safety",
+     "look": "Soft landings; freeze on the signal."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+    }
+   ],
+   "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
+   "g34": "Full lane or full set. Quiet landings. Partner counts.",
+   "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=khde7TTPt6Q",
+     "title": "My TOP 5 PE RACING games for athletics 🏅🏃🏽‍♀️‍➡️🏃🏼‍♂️‍➡️",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Cones for start and finish",
    "setup": "Pairs: escaper starts about 2 m ahead of the chaser.",
    "how": [
     "On GO, escaper sprints for the finish.",
     "Chaser tries to tag before the finish line.",
     "Continuous lines; swap roles."
-   ]
+   ],
+   "safety": "Pick your own pace; water and rest are always allowed."
   },
   {
    "id": "wheelbarrow-walk-olympics",
@@ -1270,6 +3786,73 @@ window.NEW_GAMES = {
    ],
    "grades": "3–6",
    "gradesFrom": "inferred",
+   "type": "coop",
+   "typeLabel": "Cooperative & circus",
+   "slot": "16–25",
+   "grouping": "Whole class or groups of 6–10 · 6–10 minutes · celebrate the group task, not a winner",
+   "cues": [
+    "Wheelbarrow walk around the bronze cone without breaking apart.",
+    "Success? Try silver, then gold.",
+    "Freeze on the whistle — then eyes on the teacher.",
+    "Use names. Ask before you grab a hoop, rope, or balloon.",
+    "If it drops, restart together — no blame.",
+    "Quiet voices so the group can hear the next job."
+   ],
+   "ifThis": [
+    "One student doing all the work: add a ‘must-touch’ rule for everyone.",
+    "Group stuck: 20-second huddle, pick one plan, try again."
+   ],
+   "roundEnds": "When the group finishes the task or the time is up. Celebrate the group, then try a harder version.",
+   "tips": [
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Wheelbarrow Walk Olympics.",
+    "Watch for one student doing all the work. Give every group a ‘must-touch’ rule.",
+    "Year plan: April, February — match the month’s sport ball when you can."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in Wheelbarrow Walk Olympics for the set time; can name breath or enjoyment after — not a ranking."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Plans a simple order or role with teammates before rushing."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes turns and solves a small problem without grabbing."
+    },
+    {
+     "code": "Character Development",
+     "look": "Restarts a drop without blaming a classmate."
+    },
+    {
+     "code": "Safety",
+     "look": "Moves at a speed the group can control. Consent for partner shapes — a student may say no."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Uses names and kind words; waits a turn without pulling equipment away."
+    }
+   ],
+   "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
+   "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
+   "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=YzlMMgnY2aQ",
+     "title": "Teamwork Instant Activity - Wheelbarrow Walk Olympics",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "sources": [
+    "https://physedgames.com/wheelbarrow-walk-olympics/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "equipment": "Cones at bronze, silver, gold distances",
    "setup": "Pairs: one walker on hands, one holding ankles.",
    "how": [

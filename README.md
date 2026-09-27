@@ -64,9 +64,13 @@ grouped by week.
   named in its exclusion list (`dedupe.json`, same game or a clearly similar
   variant) and any game whose name matches a Big-Group Games card or aka.
   Games there keep one card, on the Big-Group Games page.
-- Card layout matches the Big-Group Games cards (head + type pill, When,
-  Equipment, Set-up, How we play, Variations, Video, More details, Safety,
-  Source). It lives in `new-games.js`, so every weekly rebuild keeps it.
+- Card layout = the full Big-Group Games card (same elements and order as
+  Everybody's It): head + type pill, When/Slot/grouping, purpose, Equipment,
+  Set-up, How we play, If this happens, How a round ends, Cues, Variations,
+  Teaching tips, Video, More details, Alberta PEW outcomes (the site's 7 codes),
+  Grades 1–2 / 3–4 / 5–6, Safety, Source. It lives in `new-games.js`; the
+  generator fills the extra fields by game type from `card-templates.json`
+  (per-game overrides in `details.json`), so every weekly rebuild keeps them.
 
 ## Renamed games (Sep 2026)
 
