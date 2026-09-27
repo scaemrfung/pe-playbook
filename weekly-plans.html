@@ -67,9 +67,10 @@
       box.innerHTML = months.map((month) => {
         const rows = byMonth[month].map((p) => {
           const name = (p.file || "").split("/").pop() || "plan.docx";
-          return `<tr>
+          const id = "plan-" + name.replace(/\.docx$/i, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+          return `<tr id="${id}">
             <td><strong>${p.title}</strong>${p.note ? `<div class="meta">${p.note}</div>` : ""}</td>
-            <td><a class="btn" href="${p.file}" download="${name}">Download .docx</a></td>
+            <td><a class="btn" href="${p.file}" download="${name}">Download .docx</a> <a class="meta" href="videos.html?q=${encodeURIComponent(p.title)}">Videos</a></td>
           </tr>`;
         }).join("");
         return `<h2 style="margin-top:0;color:var(--green)">${month}</h2>

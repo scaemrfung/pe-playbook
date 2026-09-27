@@ -221,7 +221,7 @@ function renderMonth(m) {
     const outRow = items.length ? `<div class="row out"><div class="t">Outcomes</div>
             <div class="d">${items.map((it) => `<div><strong>${it.code}.</strong> ${it.look}</div>`).join("")}
             <span class="meta">PEW K–6 · LearnAlberta · 2–3 look-fors</span></div></div>` : "";
-    return head + `<article class="lesson" data-week="${L.w}">
+    return head + `<article class="lesson" id="w${L.w}-c${L.c}" data-week="${L.w}">
         <div class="top"><h3>W${L.w} · C${L.c} — ${fill(L.title)}</h3><small>${fill(L.focus)}</small></div>
         <div class="rows">
           ${outRow}
@@ -399,6 +399,25 @@ index = between(index, "this-month", `        <h2 id="this-month-title">${first.
         <p id="this-month-guide">${first.guide}</p>
         <p class="note" id="this-month-note" hidden></p>`);
 outputs["index.html"] = withStaticNav(index, "index.html");
+
+// videos-data.js + baked videos.html — every video the site links, with the
+// lessons / games / pages that use it (tools/videos.js; link checks in
+// videos-meta.json from tools/check-videos.js)
+for (const f of ["youtube-data.js", "warmup-nogym-data.js", "new-games-data.js", "dodgeball-data.js", "weekly-plans-data.js"]) {
+  if (fs.existsSync(path.join(ROOT, f))) vm.runInContext(read(f), sandbox, { filename: f });
+}
+const VID = require("./videos.js")({ ROOT, W, months, monthBank, fill, gslug, ALIASES, SITE });
+outputs["videos-data.js"] = VID.js;
+{
+  vm.runInContext("window.VIDEO_INDEX = " + JSON.stringify(VID.data) + ";", sandbox);
+  vm.runInContext(read("videos-page.js"), sandbox, { filename: "videos-page.js" });
+  const baked = W.VideosRender.render(W.VIDEO_INDEX);
+  const vhtml = read("videos.html");
+  const re = /(<!-- videos:start[^>]*-->)[\s\S]*?(<!-- videos:end -->)/;
+  if (!re.test(vhtml)) throw new Error("videos.html is missing <!-- videos:start --> / <!-- videos:end --> markers");
+  outputs["videos.html"] = withStaticNav(vhtml.replace(re, (m, a, b) => `${a}\n${baked}\n      ${b}`), "videos.html");
+  report.push(`videos.html: ${VID.data.count} videos from ${VID.data.occurrences} links`);
+}
 
 // every other hand-written page: static nav from chrome.js NAV
 const SKIP = new Set(Object.keys(outputs).concat(["large-group-pe-games.html"]));
