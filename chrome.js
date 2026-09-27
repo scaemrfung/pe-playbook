@@ -144,43 +144,35 @@
     </nav>`;
   }
 
-  function ensureUpdatedStamp(repo) {
+  /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
+     before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
+  const SITE_UPDATED = "2026-09-27T17:37:26Z";
+  function ensureUpdatedStamp() {
     if (document.querySelector(".site-updated-stamp")) return;
     const el = document.createElement("div");
     el.className = "site-updated-stamp no-print";
     el.setAttribute("aria-label", "Site last updated");
-    el.textContent = "Updated …";
+    const d = new Date(SITE_UPDATED || document.lastModified || Date.now());
+    el.textContent = isNaN(d.getTime()) ? "Updated …" : "Updated " + new Intl.DateTimeFormat("en-CA", {
+      timeZone: "America/Edmonton", year: "numeric", month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
+    }).format(d) + " MT";
     document.body.insertBefore(el, document.body.firstChild);
+  }
 
-    function formatStamp(iso) {
-      const d = new Date(iso);
-      if (isNaN(d.getTime())) return "Updated …";
-      const formatted = new Intl.DateTimeFormat("en-CA", {
-        timeZone: "America/Edmonton",
-        year: "numeric",
-        month: "short",
-        day: "numeric",
-        hour: "numeric",
-        minute: "2-digit",
-      }).format(d);
-      return `Updated ${formatted} MT`;
-    }
-
-    function fallback() {
-      el.textContent = formatStamp(document.lastModified || new Date().toISOString());
-    }
-
-    fetch(`https://api.github.com/repos/${repo}/commits?per_page=1`)
-      .then((r) => {
-        if (!r.ok) throw new Error("bad status");
-        return r.json();
-      })
-      .then((data) => {
-        const date = data?.[0]?.commit?.committer?.date;
-        if (date) el.textContent = formatStamp(date);
-        else fallback();
-      })
-      .catch(fallback);
+  /* Shared "Mr. Fung's sites" footer. Student-facing sites never link to Sub Day Plans. */
+  const MF_SITES = [
+    ["pe-playbook", "PE Playbook"], ["Grade-1-Music", "Grade 1 Music"], ["music-practice-studio", "Music Practice Studio"],
+    ["grade5health", "Grade 5 Health"], ["Grade5-iMovie", "Grade 5 iMovie"], ["Grade-6-Canva", "Grade 6 Canva"], ["Grade-6-Scratch", "Grade 6 Scratch"],
+  ];
+  function ensureSitesFooter() {
+    if (document.querySelector(".mf-sites")) return;
+    const nav = document.createElement("nav");
+    nav.className = "mf-sites no-print";
+    nav.setAttribute("aria-label", "Mr. Fung's sites");
+    nav.innerHTML = "<p>Mr. Fung's sites</p><ul>" + MF_SITES.map(([slug, name]) => slug === "pe-playbook"
+      ? `<li><span aria-current="page">${name}</span></li>`
+      : `<li><a href="https://scaemrfung.github.io/${slug}/">${name}</a></li>`).join("") + "</ul>";
+    document.body.appendChild(nav);
   }
 
   function mount() {
@@ -200,7 +192,8 @@
     wrap.appendChild(main);
     main.classList.add("main");
     document.body.insertAdjacentHTML("afterbegin", topbar());
-    ensureUpdatedStamp("scaemrfung/pe-playbook");
+    ensureUpdatedStamp();
+    ensureSitesFooter();
   }
 
   if (document.readyState === "loading") {

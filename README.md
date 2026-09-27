@@ -93,3 +93,11 @@ The Videos page was removed. `videos.html` is now a tiny redirect to
   videos) calls YouTube oEmbed and records title/status in
   `videos-meta.json`. Replace a broken link in its source only with a verified
   working video and log it under `replacements` in `videos-meta.json`.
+
+## "Updated" stamp and "Mr. Fung's sites" footer
+
+`chrome.js` adds the "Updated … MT" stamp and the shared "Mr. Fung's sites" footer to every page. The date is baked into `chrome.js` (`SITE_UPDATED`), so pages make no GitHub API calls. Before committing a change, run:
+
+    sh tools/bake-updated.sh && git add chrome.js
+
+The footer never links to Sub Day Plans.
