@@ -20,54 +20,60 @@
     return "Source";
   }
 
+  // Card layout mirrors the Big-Group Games cards (games.html, app.js):
+  // head + type pill, When line, purpose, Equipment, Set-up, How we play,
+  // Variations, Video, More details (collapsible), Safety, Source.
+  function typeLabel(section) {
+    return String(section || "").replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+  }
   function card(g, data, opts) {
     var U = unitMap(data);
     var u = U[g.unit];
-    var chips = [];
-    if (opts.isNew) chips.push('<span class="ng-chip ng-new">New this week</span>');
-    chips.push('<span class="ng-chip ng-unit">Unit: ' + unitLink(u) + "</span>");
-    chips.push('<span class="ng-chip">Grades ' + esc(g.grades) + (g.gradesFrom === "doc" ? "" : " (est.)") + "</span>");
-    chips.push(g.stayIn ? '<span class="ng-chip ng-ok">Stay-in</span>' : '<span class="ng-chip ng-warn">Adapt: ' + esc(g.flag || "see note") + "</span>");
-    if (g.section) chips.push('<span class="ng-chip ng-sec">' + esc(g.section) + "</span>");
-    var steps = (g.how || []).map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("");
-    var vars = (g.variations || []).length
-      ? '<h4>Variations</h4><ul class="clean">' + g.variations.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul>"
-      : "";
-    var notes = (g.notes || []).map(function (n) { return esc(n); }).join(" · ");
-    var safety = g.safety || notes
-      ? '<p class="game-note"><strong>Safety / house rules:</strong> ' + esc(g.safety || "") + (notes ? " " + notes + "." : "") + "</p>"
-      : "";
+    var li = function (s) { return "<li>" + esc(s) + "</li>"; };
     var also = (g.alsoFits || []).filter(function (m) { return U[m]; }).map(function (m) { return unitLink(U[m]); }).join(", ");
-    var nLab = {};
-    (g.links || []).forEach(function (url) { nLab[linkLabel(url)] = (nLab[linkLabel(url)] || 0) + 1; });
-    var seenLab = {};
-    var links = (g.links || []).map(function (url) {
-      var lab = linkLabel(url);
-      seenLab[lab] = (seenLab[lab] || 0) + 1;
-      return '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + lab + (nLab[lab] > 1 ? " " + seenLab[lab] : "") + "</a>";
-    });
-    if (g.siteCard) links.push('<a href="' + esc(g.siteCard.href) + '">Full card on ' + esc(g.siteCard.label) + "</a>");
+    var when = "<strong>When:</strong> " + (u ? unitLink(u) : "Anytime") + (also ? " (also " + also + ")" : "") +
+      " · <strong>Grades:</strong> " + esc(g.grades) + (g.gradesFrom === "doc" ? "" : " (est.)") +
+      " · " + (g.stayIn ? "Stay-in" : "<strong>Adapt:</strong> " + esc(g.flag || "see safety"));
+    var steps = (g.how || []).map(li).join("");
+    var vars = (g.variations || []).map(li).join("");
+    var videos = [], sources = [];
+    (g.links || []).forEach(function (url) { (linkLabel(url) === "Watch demo" ? videos : sources).push(url); });
+    var videoHtml = videos.length
+      ? '<p class="yt"><strong>Video.</strong> ' + videos.map(function (url, i) {
+          return '<a href="' + esc(url) + '" target="_blank" rel="noopener">Watch demo' + (videos.length > 1 ? " " + (i + 1) : "") + "</a>";
+        }).join(" · ") + "</p>"
+      : "";
+    var notes = (g.notes || []).map(esc).join(" · ");
     var wk = (data.weeks || []).filter(function (w) { return w.key === g.added; })[0];
     var added = g.added === "baseline" ? "In the starting library" : (wk ? "Added " + (wk.addedOnLabel || wk.label) : "");
-    var hay = [g.name, g.desc, g.sports, g.section, g.equipment, (g.how || []).join(" "), g.unit, u ? u.sport : "", g.source].join(" ").toLowerCase();
-    return '<article class="panel ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.unit) + '" data-hay="' + esc(hay) + '">' +
-      '<h3 class="ng-title">' + esc(g.name) + "</h3>" +
-      '<div class="ng-chips">' + chips.join("") + "</div>" +
-      '<p class="ng-desc">' + esc(g.desc) + "</p>" +
-      '<p><strong>Equipment:</strong> ' + esc(g.equipment) + "</p>" +
-      (g.setup ? '<p><strong>Set-up:</strong> ' + esc(g.setup) + "</p>" : "") +
-      "<h4>How to play</h4>" +
-      '<ol class="how-list">' + steps + "</ol>" +
-      vars + safety +
-      (g.auto ? '<p class="note">Quick card built from the library line — watch the source clip before teaching.</p>' : "") +
+    var more = [];
+    if (g.sports) more.push("<li><strong>Sports:</strong> " + esc(g.sports) + "</li>");
+    if (g.section) more.push("<li><strong>Library section:</strong> " + esc(g.section) + "</li>");
+    if (g.source) more.push("<li><strong>From:</strong> " + esc(g.source) + "</li>");
+    if (notes) more.push("<li><strong>Notes:</strong> " + notes + "</li>");
+    if (added) more.push("<li>" + esc(added) + "</li>");
+    if (g.siteCard) more.push('<li><a href="' + esc(g.siteCard.href) + '">Also on the ' + esc(g.siteCard.label) + "</a></li>");
+    var hay = [g.name, g.desc, g.sports, g.section, g.equipment, (g.how || []).join(" "), (g.variations || []).join(" "), g.unit, u ? u.sport : "", g.source].join(" ").toLowerCase();
+    return '<article class="gcard ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.unit) + '" data-type="' + esc(typeLabel(g.section)) + '" data-hay="' + esc(hay) + '">' +
+      '<div class="ghead"><h3>' + esc(g.name) + "</h3>" +
+      (g.section ? '<span class="src">' + esc(typeLabel(g.section)) + "</span>" : "") + "</div>" +
+      (opts.isNew ? '<p class="meta ng-newtag"><strong>New this week</strong></p>' : "") +
+      '<p class="meta">' + when + "</p>" +
+      "<p>" + esc(g.desc) + "</p>" +
+      '<p class="meta"><strong>Equipment:</strong> ' + esc(g.equipment || "") + "</p>" +
+      (g.setup ? '<p class="meta"><strong>Set-up:</strong> ' + esc(g.setup) + "</p>" : "") +
+      "<p><strong>How we play</strong></p>" +
+      '<ol class="clean">' + steps + "</ol>" +
+      (vars ? '<p><strong>Variations</strong></p><ul class="clean">' + vars + "</ul>" : "") +
+      videoHtml +
+      (g.auto ? '<p class="note">Quick card built from the library line — watch the demo before teaching.</p>' : "") +
       (g.removedFromDoc ? '<p class="note">No longer listed in the PE Games Library (since ' + esc(g.removedFromDoc) + ").</p>" : "") +
-      '<p class="meta ng-foot">' +
-      (also ? "<strong>Also fits:</strong> " + also + "<br>" : "") +
-      "<strong>Sports:</strong> " + esc(g.sports) +
-      (g.source ? " · <strong>Source:</strong> " + esc(g.source) : "") +
-      (added ? " · " + esc(added) : "") +
-      (links.length ? '<br><span class="ng-links">' + links.join(" · ") + "</span>" : "") +
-      "</p></article>";
+      '<details class="peg"><summary><strong>More details</strong> <span class="meta">· from the PE Games Library</span></summary><ul class="clean">' + more.join("") + "</ul></details>" +
+      '<p class="note"><strong>Safety.</strong> ' + esc(g.safety || "House rules: soft tags below the shoulders, no elimination.") + "</p>" +
+      (sources.length ? '<p class="meta card-source">' + sources.map(function (url, i) {
+        return '<a href="' + esc(url) + '" target="_blank" rel="noopener">Source' + (sources.length > 1 ? " " + (i + 1) : "") + "</a>";
+      }).join(" · ") + "</p>" : "") +
+      "</article>";
   }
 
   function render(data) {
@@ -87,7 +93,7 @@
       out.push('<p class="meta">' + (latest.addedOnLabel ? "Added " + esc(latest.addedOnLabel) + " · " : "") +
         esc(latestGames.length) + " new game" + (latestGames.length === 1 ? "" : "s") +
         " · PE Games Library last updated " + esc(sd.lastUpdatedLabel || sd.lastUpdated || "") + "</p>");
-      if (!sameWeek) out.push('<p class="note">No new games in the latest library update — these are the most recent additions.</p>');
+      if (!sameWeek) out.push('<p class="note">No new games in the latest library update' + (data.dedupe ? ' that aren’t already on the <a href="games.html">Big-Group Games page</a>' : '') + ' — these are the most recent additions.</p>');
       out.push('<ul class="ng-new-list">' + latestGames.map(function (g) {
         return '<li><a href="#' + esc(g.id) + '"><strong>' + esc(g.name) + "</strong></a> — " + esc(g.desc) +
           ' <span class="ng-mini">' + esc(unitLabel(U[g.unit])) + " · Gr " + esc(g.grades) + "</span></li>";
@@ -128,23 +134,28 @@
     var tools = document.getElementById("ng-tools");
     var q = document.getElementById("ng-q");
     var box = document.getElementById("ng-unit-filters");
+    var tbox = document.getElementById("ng-type-filters");
     var count = document.getElementById("ng-count");
     if (!tools) return;
     tools.hidden = false;
-    var unit = "all";
+    var unit = "all", type = "all";
     var used = {};
     (data.games || []).forEach(function (g) { used[g.unit] = (used[g.unit] || 0) + 1; });
-    box.innerHTML = '<button type="button" data-unit="all" class="on">All units</button>' +
+    var types = [];
+    (data.games || []).forEach(function (g) { var t = typeLabel(g.section); if (t && types.indexOf(t) < 0) types.push(t); });
+    if (tbox) tbox.innerHTML = '<button type="button" data-type="all" class="on">All types</button>' +
+      types.map(function (t) { return '<button type="button" data-type="' + esc(t) + '">' + esc(t) + "</button>"; }).join("");
+    box.innerHTML = '<button type="button" data-unit="all" class="on">All months</button>' +
       (data.units || []).filter(function (u) { return used[u.month]; }).map(function (u) {
         return '<button type="button" data-unit="' + esc(u.month) + '">' + esc(unitLabel(u)) + "</button>";
       }).join("");
     function apply() {
       var term = (q.value || "").toLowerCase().trim();
-      var filtering = term || unit !== "all";
+      var filtering = term || unit !== "all" || type !== "all";
       var shown = 0;
       var seen = {};
       el.querySelectorAll(".ng-card").forEach(function (c) {
-        var ok = (!term || c.getAttribute("data-hay").indexOf(term) >= 0) && (unit === "all" || c.getAttribute("data-unit") === unit);
+        var ok = (!term || c.getAttribute("data-hay").indexOf(term) >= 0) && (unit === "all" || c.getAttribute("data-unit") === unit) && (type === "all" || c.getAttribute("data-type") === type);
         c.hidden = !ok;
         if (ok && !seen[c.id]) { seen[c.id] = 1; shown++; }
       });
@@ -165,6 +176,13 @@
       if (!b) return;
       unit = b.getAttribute("data-unit");
       box.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
+      apply();
+    });
+    if (tbox) tbox.addEventListener("click", function (e) {
+      var b = e.target.closest("button[data-type]");
+      if (!b) return;
+      type = b.getAttribute("data-type");
+      tbox.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
       apply();
     });
     // open the archive week that holds a linked game

@@ -13,8 +13,12 @@ window.NEW_GAMES = {
   "lastUpdatedLabel": "Mon Sept 21, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
- "latestWeek": "2026-09-21",
+ "latestWeek": "2026-09-14",
  "docWeek": "2026-09-21",
+ "dedupe": {
+  "excluded": 66,
+  "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
+ },
  "units": [
   {
    "month": "September",
@@ -69,30 +73,23 @@ window.NEW_GAMES = {
  ],
  "weeks": [
   {
-   "key": "2026-09-21",
-   "label": "Week of Sept 21, 2026",
-   "count": 3,
-   "addedOn": "2026-09-21",
-   "addedOnLabel": "Mon Sept 21, 2026"
-  },
-  {
    "key": "2026-09-14",
    "label": "Week of Sept 14, 2026",
-   "count": 7,
+   "count": 6,
    "addedOn": "2026-09-14",
    "addedOnLabel": "Mon Sept 14, 2026"
   },
   {
    "key": "2026-09-07",
    "label": "Week of Sept 7, 2026",
-   "count": 26,
+   "count": 11,
    "addedOn": "2026-09-07",
    "addedOnLabel": "Mon Sept 7, 2026"
   },
   {
    "key": "baseline",
    "label": "Starting library",
-   "count": 70,
+   "count": 23,
    "note": "Games already in the library before weekly tracking started (library as of Sept 6, 2026)."
   }
  ],
@@ -133,44 +130,6 @@ window.NEW_GAMES = {
    ]
   },
   {
-   "id": "mirror-mirror",
-   "added": "baseline",
-   "name": "Mirror Mirror",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Two rings run opposite ways; music off = freeze & mirror pose",
-   "sports": "fitness, creative movement",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://physedgames.com/mirror-mirror/"
-   ],
-   "order": 2,
-   "unit": "December",
-   "alsoFits": [
-    "October"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#mirror-mirror",
-    "label": "Games page"
-   },
-   "equipment": "Music; two circles of cones or floor tape",
-   "setup": "Make an inner ring and an outer ring. Students on each ring face the direction of travel.",
-   "how": [
-    "Music on: inner ring jogs one way, outer ring the other.",
-    "Music off: freeze and face the nearest person on the other ring.",
-    "Teacher calls a pose or movement; partners mirror each other.",
-    "Music back on and repeat with a new partner each time."
-   ],
-   "variations": [
-    "Change the travel (skip, side-step, gallop) each round.",
-    "Let a student pick the mirror pose."
-   ]
-  },
-  {
    "id": "the-food-chain",
    "added": "baseline",
    "name": "The Food Chain",
@@ -184,7 +143,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=1Tt5yiI1SFc"
    ],
-   "order": 3,
+   "order": 2,
    "unit": "December",
    "alsoFits": [],
    "grades": "1–6",
@@ -202,41 +161,6 @@ window.NEW_GAMES = {
    ]
   },
   {
-   "id": "animal-action",
-   "added": "baseline",
-   "name": "Animal Action",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Pretend animal movements",
-   "sports": "K–3 locomotor",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Gelardi",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=c8Ean9Gmur8"
-   ],
-   "order": 4,
-   "unit": "April",
-   "alsoFits": [
-    "December"
-   ],
-   "grades": "K–3",
-   "gradesFrom": "doc",
-   "equipment": "Optional music",
-   "setup": "Students spread out in personal space.",
-   "how": [
-    "Call an animal (frog, bear, crab, snake, kangaroo, flamingo).",
-    "Students move like that animal until the next call.",
-    "Freeze on the whistle; hold an animal balance for 3 seconds.",
-    "Change animals every 20–30 seconds."
-   ],
-   "safety": "Look up while crawling; keep space bubbles.",
-   "variations": [
-    "Students suggest the next animal.",
-    "Add a level (high/low) or speed."
-   ]
-  },
-  {
    "id": "numbers-body-shapes",
    "added": "baseline",
    "name": "Numbers (body shapes)",
@@ -250,7 +174,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=1V5lTrBa0ZY"
    ],
-   "order": 5,
+   "order": 3,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -282,7 +206,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=uV9iBkdnokM"
    ],
-   "order": 6,
+   "order": 4,
    "unit": "December",
    "alsoFits": [
     "October"
@@ -304,118 +228,6 @@ window.NEW_GAMES = {
    ]
   },
   {
-   "id": "ball-run",
-   "added": "baseline",
-   "name": "Ball Run",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Pass then run around the group",
-   "sports": "running, throw/catch",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=SWETk3sJ9W8"
-   ],
-   "order": 7,
-   "unit": "May",
-   "alsoFits": [
-    "January"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#ball-run",
-    "label": "Games page"
-   },
-   "equipment": "One ball per group of 5–6",
-   "setup": "Small circles of 5–6 students, one ball each.",
-   "how": [
-    "Pass the ball to someone in the circle.",
-    "After you pass, run once around the outside of your circle and back to your spot.",
-    "Keep the ball moving so passing and running overlap.",
-    "Change the pass (bounce, chest, underhand) each round."
-   ],
-   "variations": [
-    "Soccer month: pass with feet.",
-    "Count passes in 60 seconds."
-   ]
-  },
-  {
-   "id": "cross-the-river",
-   "added": "baseline",
-   "name": "Cross the River",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Cross a marked river using teacher-set movement rules",
-   "sports": "soccer, basketball, hockey, rugby",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Prime",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=g-OA78IGGCc"
-   ],
-   "order": 8,
-   "unit": "September",
-   "alsoFits": [
-    "January",
-    "November"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#cross-the-river",
-    "label": "Games page"
-   },
-   "equipment": "Cones or lines to mark two riverbanks; optional sport balls",
-   "setup": "Mark a river across the middle of the gym. Students start on one bank.",
-   "how": [
-    "Teacher calls a movement rule (hop, bear walk, dribble with feet/hands).",
-    "Students cross the river using only that movement.",
-    "Arrive on the far bank and wait for the next call.",
-    "Add stepping stones (spots) or a crocodile tagger — tagged do a task and continue."
-   ],
-   "variations": [
-    "Use the unit ball: dribble across in soccer, basketball, hockey."
-   ]
-  },
-  {
-   "id": "fruit-salad",
-   "added": "baseline",
-   "name": "Fruit Salad",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Respond to fruit calls by moving/changing places",
-   "sports": "reaction, any sport",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Prime",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=hQHbdH-rEm0"
-   ],
-   "order": 9,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#fruit-salad",
-    "label": "Games page"
-   },
-   "equipment": "Cones or spots for each player (one fewer than players)",
-   "setup": "Circle of spots. Give each student a fruit name (apple, banana, orange). One caller stands in the middle.",
-   "how": [
-    "The caller names a fruit. Everyone with that fruit must change spots.",
-    "The caller tries to grab a free spot; whoever is left becomes the caller.",
-    "Call ‘Fruit salad!’ and everyone changes.",
-    "Add a movement rule (skip, side-step)."
-   ],
-   "safety": "Walk-fast first; no diving for spots.",
-   "variations": [
-    "Sport version: call skills instead of fruit and add a ball."
-   ]
-  },
-  {
    "id": "plant-the-trees",
    "added": "baseline",
    "name": "Plant the Trees",
@@ -429,7 +241,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=auWty338fhw"
    ],
-   "order": 10,
+   "order": 5,
    "unit": "May",
    "alsoFits": [
     "September",
@@ -437,10 +249,6 @@ window.NEW_GAMES = {
    ],
    "grades": "1–6",
    "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#plant-the-trees",
-    "label": "Games page"
-   },
    "equipment": "Many cones or markers",
    "setup": "Scatter cones; half are ‘planted’ (standing) and half ‘cut’ (on their side). Two teams: planters and loggers.",
    "how": [
@@ -448,41 +256,6 @@ window.NEW_GAMES = {
     "Play 45–60 seconds, freeze and count.",
     "Switch roles.",
     "Add a ball: must dribble to each cone."
-   ]
-  },
-  {
-   "id": "the-numbers-game",
-   "added": "baseline",
-   "name": "The Numbers Game",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Called numbers create quick small-sided actions",
-   "sports": "hockey, basketball, soccer, rugby",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Prime",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=OCqaag_wKa0"
-   ],
-   "order": 11,
-   "unit": "November",
-   "alsoFits": [
-    "September",
-    "January"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Balls or pucks for the unit; two small goals",
-   "setup": "Two teams on opposite end lines; each player has a number (matching pairs across teams).",
-   "how": [
-    "Teacher calls one or more numbers.",
-    "Those players run out and play a quick 1v1, 2v2 or 3v3 to a goal.",
-    "Play ends on a score or 30 seconds; players return and new numbers are called.",
-    "Waiting players cheer and count scores."
-   ],
-   "safety": "Call several numbers so everyone gets frequent turns.",
-   "variations": [
-    "Change the unit ball: soccer, basketball, hockey."
    ]
   },
   {
@@ -499,7 +272,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=W8pdDt6kYZM"
    ],
-   "order": 12,
+   "order": 6,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -516,206 +289,6 @@ window.NEW_GAMES = {
    ]
   },
   {
-   "id": "rps-warm-up",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "RPS Warm-Up",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Four cones; play RPS; winner advances clockwise, loser stays (lose 3 in a row = advance); optional stick per full lap",
-   "sports": "reaction, warm-up",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=G7P7d46IRTA"
-   ],
-   "order": 13,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#rps-warm-up",
-    "label": "Games page"
-   },
-   "equipment": "Four cones in a square; optional sticks/popsicle sticks as lap tokens",
-   "setup": "Four cones in a square. Split students evenly at the cones.",
-   "how": [
-    "Find someone at your cone and play rock–paper–scissors.",
-    "Winner jogs clockwise to the next cone; loser stays and plays again.",
-    "Lose three in a row? You advance anyway.",
-    "Optional: collect a stick each full lap. Play 3–4 minutes."
-   ],
-   "variations": [
-    "Change travel between cones (skip, side-step, bear walk)."
-   ]
-  },
-  {
-   "id": "dance-tag",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Dance Tag",
-   "section": "Warm-ups & brain breaks",
-   "desc": "2–3 noodle taggers; freers dance 5 sec before approach; tagged do teacher exercise then back in",
-   "sports": "dance, fitness",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=WiJTeCG8oxY"
-   ],
-   "order": 14,
-   "unit": "October",
-   "alsoFits": [
-    "December"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#dance-tag",
-    "label": "Games page"
-   },
-   "equipment": "2–3 pool noodles; music",
-   "setup": "Pick 2–3 noodle taggers. Music on.",
-   "how": [
-    "Taggers chase with noodles (soft tag below the shoulders).",
-    "A runner who is dancing for 5 seconds cannot be approached until they stop.",
-    "Tagged players do the teacher’s exercise (e.g. 5 squats) then rejoin.",
-    "Switch taggers every minute."
-   ]
-  },
-  {
-   "id": "dance-with-me-tag",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Dance with Me Tag",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Tagged dance in place until a peer copies 3 sec (helpers safe while freeing)",
-   "sports": "dance, fitness",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=WiJTeCG8oxY"
-   ],
-   "order": 15,
-   "unit": "October",
-   "alsoFits": [
-    "December"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "2–3 pool noodles; music",
-   "setup": "Pick 2–3 noodle taggers.",
-   "how": [
-    "Tagged players freeze and dance in place.",
-    "A free player frees them by copying their dance for 3 seconds.",
-    "Helpers cannot be tagged while freeing.",
-    "Switch taggers often."
-   ]
-  },
-  {
-   "id": "dance-whispers",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Dance Whispers",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Line passes a dance move like telephone; last shows the group",
-   "sports": "dance, teamwork",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=WiJTeCG8oxY"
-   ],
-   "order": 16,
-   "unit": "October",
-   "alsoFits": [
-    "December"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#dance-whispers",
-    "label": "Games page"
-   },
-   "equipment": "Music",
-   "setup": "Lines of 5–6 students facing the back of the person in front.",
-   "how": [
-    "The last person taps the next and shows a short dance move (2–4 counts).",
-    "Each person passes it forward like telephone.",
-    "The front person performs it for the group — compare with the original.",
-    "Rotate so a new person starts."
-   ]
-  },
-  {
-   "id": "hot-air-balloon-parachute",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Hot Air Balloon (parachute)",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Lift chute, 5 steps in under canopy, 5 out; repeat",
-   "sports": "parachute, teamwork",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Gelardi",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/shorts/IagOSoHKS1U"
-   ],
-   "order": 17,
-   "unit": "October",
-   "alsoFits": [],
-   "grades": "K–3",
-   "gradesFrom": "inferred",
-   "equipment": "Parachute",
-   "setup": "Everyone holds the parachute edge with two hands, spread evenly.",
-   "how": [
-    "On ‘Up!’, lift the chute together.",
-    "Take 5 steps in under the canopy as it rises.",
-    "Take 5 steps back out as it floats down.",
-    "Repeat; try to keep it up longer each time."
-   ],
-   "safety": "Walk only; watch toes when stepping in.",
-   "variations": [
-    "Call names to run under and swap sides."
-   ]
-  },
-  {
-   "id": "backburst-parachute",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "BackBurst (parachute)",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Lift bubble, sit on edge trapping air, scoot backward on feet to burst bubble into the middle",
-   "sports": "parachute, teamwork",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Gelardi",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/shorts/a64g_GpRaSE"
-   ],
-   "order": 18,
-   "unit": "October",
-   "alsoFits": [],
-   "grades": "K–3",
-   "gradesFrom": "inferred",
-   "equipment": "Parachute",
-   "setup": "Everyone holds the parachute edge.",
-   "how": [
-    "Lift to make a big bubble.",
-    "Pull the edge down behind you and sit on it to trap the air (mushroom).",
-    "On the signal, scoot backward on your feet so the bubble bursts into the middle.",
-    "Stand and repeat."
-   ],
-   "safety": "Keep heads out of the middle; sit carefully."
-  },
-  {
    "id": "horse-and-jockey",
    "added": "2026-09-14",
    "addedOn": "2026-09-14",
@@ -730,7 +303,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=Gn4Uai6dbpU"
    ],
-   "order": 19,
+   "order": 7,
    "unit": "May",
    "alsoFits": [],
    "grades": "1–6",
@@ -763,7 +336,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=9YB-Lk0vbIA"
    ],
-   "order": 20,
+   "order": 8,
    "unit": "October",
    "alsoFits": [
     "December"
@@ -794,7 +367,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=9YB-Lk0vbIA"
    ],
-   "order": 21,
+   "order": 9,
    "unit": "October",
    "alsoFits": [
     "April"
@@ -812,439 +385,6 @@ window.NEW_GAMES = {
    "safety": "Backward travel slowly with eyes over the shoulder."
   },
   {
-   "id": "dance-mirroring-partner",
-   "added": "2026-09-14",
-   "addedOn": "2026-09-14",
-   "name": "Dance Mirroring (partner)",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Distinct from Mirror Mirror: pairs face each other; leader moves, partner mirrors closely ~30–45s then switch",
-   "sports": "dance, creative movement",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=9YB-Lk0vbIA"
-   ],
-   "order": 22,
-   "unit": "October",
-   "alsoFits": [
-    "April"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Music",
-   "setup": "Partners face each other; one is leader.",
-   "how": [
-    "Leader moves slowly (arms, levels, steps); partner mirrors like a reflection.",
-    "Keep moves smooth so the mirror can follow.",
-    "Switch leader every 30–45 seconds.",
-    "Try it with no talking."
-   ]
-  },
-  {
-   "id": "four-corners",
-   "added": "2026-09-21",
-   "addedOn": "2026-09-21",
-   "name": "Four Corners",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Label room/gym corners 1–4; students move, then each picks a corner on signal; teacher calls a corner; those there do a quick exercise then all stay in and play again (adapt classic elimination to exercise re-entry)",
-   "sports": "classroom break, reaction, warm-up",
-   "flag": "stay-in (exercise re-entry)",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=bN16QYpk1I8"
-   ],
-   "order": 23,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#four-corners",
-    "label": "Games page"
-   },
-   "equipment": "Four labelled corners (numbers or colours)",
-   "setup": "Label corners 1–4. Students start in the middle.",
-   "how": [
-    "Students travel on the signal; then each picks a corner.",
-    "Teacher (eyes closed) calls a corner.",
-    "Players in that corner do a quick exercise (5–8 jumping jacks) — nobody is out.",
-    "Everyone returns to the middle and plays again."
-   ],
-   "safety": "No diving into corners.",
-   "variations": [
-    "Use a student caller.",
-    "Change the travel style each round."
-   ]
-  },
-  {
-   "id": "guess-who-whos-the-leader",
-   "added": "2026-09-21",
-   "addedOn": "2026-09-21",
-   "name": "Guess Who (Who’s the Leader)",
-   "section": "Warm-ups & brain breaks",
-   "desc": "One detective faces away; secret leader starts movements and class copies; detective turns and guesses the leader; rotate so everyone moves",
-   "sports": "classroom break, creative movement, observation",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=bN16QYpk1I8"
-   ],
-   "order": 24,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#guess-who",
-    "label": "Games page"
-   },
-   "equipment": "None",
-   "setup": "Circle. One detective steps away or faces away.",
-   "how": [
-    "Pick a secret leader who starts a movement; everyone copies.",
-    "The detective turns back and watches.",
-    "The leader changes moves every few seconds; the detective has 3 guesses.",
-    "Rotate detective and leader."
-   ]
-  },
-  {
-   "id": "6-7-tag",
-   "added": "baseline",
-   "name": "6-7 Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "Tagged → “7” pose; teammate slides under for “6” then “7” free",
-   "sports": "general",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Gelardi / WeAreTeachers",
-   "notes": [],
-   "links": [],
-   "order": 25,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Pool noodles for taggers",
-   "setup": "2–3 taggers with noodles.",
-   "how": [
-    "Tagged players make a ‘7’ shape (one arm out, one leg bent).",
-    "A free player slides or crawls under the arm to change them into a ‘6’.",
-    "A second pass frees them.",
-    "Switch taggers every minute."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
-  },
-  {
-   "id": "bridge-tag",
-   "added": "baseline",
-   "name": "Bridge Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "Tagged → bridge; crawl-under frees",
-   "sports": "general",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Gelardi tips",
-   "notes": [],
-   "links": [],
-   "order": 26,
-   "unit": "December",
-   "alsoFits": [
-    "April"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "warmup-nogym.html#warmup-5",
-    "label": "Warm Up Games"
-   },
-   "equipment": "Pool noodles for taggers",
-   "setup": "2–3 taggers.",
-   "how": [
-    "Tagged players make a bridge (hands and feet on the floor).",
-    "A free player crawls under the bridge to free them.",
-    "Switch taggers often."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
-  },
-  {
-   "id": "leapfrog-tag",
-   "added": "baseline",
-   "name": "Leapfrog Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "Tagged → frog; leapfrog frees",
-   "sports": "general",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "",
-   "notes": [],
-   "links": [],
-   "order": 27,
-   "unit": "December",
-   "alsoFits": [
-    "April"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Pool noodles for taggers",
-   "setup": "2–3 taggers.",
-   "how": [
-    "Tagged players crouch low like a frog.",
-    "A free player gently leapfrogs over (or walks around 3 times for younger grades) to free them.",
-    "Switch taggers often."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out. Leap only with hands on the back, not the head."
-  },
-  {
-   "id": "spaceship-tag",
-   "added": "baseline",
-   "name": "Spaceship Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "Move in hoop ships; freeze until rescued",
-   "sports": "K–4 spatial",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "",
-   "notes": [],
-   "links": [],
-   "order": 28,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "K–4",
-   "gradesFrom": "doc",
-   "equipment": "Hula hoops (one per student or pair)",
-   "setup": "Students hold a hoop at waist height as a spaceship.",
-   "how": [
-    "Fly your ship around without bumping others.",
-    "Taggers tag a spaceship; tagged ships freeze.",
-    "A free ship flies around the frozen ship to rescue it.",
-    "Switch taggers."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
-  },
-  {
-   "id": "hospital-tag",
-   "added": "baseline",
-   "name": "Hospital Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "Tags = stretch hospital, then back",
-   "sports": "soccer dribble warm-up",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "",
-   "notes": [],
-   "links": [],
-   "order": 29,
-   "unit": "September",
-   "alsoFits": [
-    "December"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#hospital-tag",
-    "label": "Games page"
-   },
-   "equipment": "Pool noodles; 1–2 hoops or mats as the hospital",
-   "setup": "Mark a hospital with a mat or hoop. Everyone can be ‘it’ or pick 3 taggers.",
-   "how": [
-    "Tagged players go to the hospital and do a stretch (10 seconds).",
-    "Then they rejoin the game.",
-    "Soccer month: everyone dribbles a ball while playing."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
-  },
-  {
-   "id": "massive-10-second-tag",
-   "added": "baseline",
-   "name": "Massive 10 Second Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "Large-group / doubled class version",
-   "sports": "1–6 locomotor",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=aGw7mJO8_3U"
-   ],
-   "order": 30,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "doc",
-   "siteCard": {
-    "href": "games.html#massive-10-second-tag",
-    "label": "Games page"
-   },
-   "equipment": "Pool noodles or pinnies",
-   "setup": "Large group (two classes) in a big space.",
-   "how": [
-    "The tagger has 10 seconds to tag anyone.",
-    "Tagged player becomes the new tagger with a fresh 10 seconds.",
-    "Everyone counts the 10 seconds aloud.",
-    "Add more taggers for big groups."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
-  },
-  {
-   "id": "bull-rush",
-   "added": "baseline",
-   "name": "Bull Rush",
-   "section": "Tag (stay-in style)",
-   "desc": "Runners cross while avoiding taggers",
-   "sports": "soccer, rugby, basketball agility",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Prime",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=0vsnwrVD0f4"
-   ],
-   "order": 31,
-   "unit": "September",
-   "alsoFits": [
-    "January",
-    "October"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Cones to mark two end zones",
-   "setup": "Runners on one end line; 2–3 bulls (taggers) in the middle.",
-   "how": [
-    "On ‘Bull rush!’ runners cross to the other end.",
-    "Bulls soft-tag runners; tagged runners do a quick task then continue as runners (or join the bulls for one round).",
-    "Swap bulls every 2–3 crossings.",
-    "Add a ball: runners must dribble."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out. Tag only — no tackling."
-  },
-  {
-   "id": "waspital",
-   "added": "baseline",
-   "name": "Waspital",
-   "section": "Tag (stay-in style)",
-   "desc": "Tip-and-tag with hospital/recovery theme",
-   "sports": "agility, any sport",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Prime",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=HktopQ1x1Lo"
-   ],
-   "order": 32,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#waspital",
-    "label": "Games page"
-   },
-   "equipment": "1–2 hoops as the waspital",
-   "setup": "Everyone is ‘it’.",
-   "how": [
-    "Everyone tries to tag everyone (soft two-finger tag).",
-    "Tagged twice? Walk to the waspital hoop, stretch 10 seconds, rejoin.",
-    "Cap at 5 minutes."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
-  },
-  {
-   "id": "cops-robbers",
-   "added": "baseline",
-   "name": "Cops & Robbers",
-   "section": "Tag (stay-in style)",
-   "desc": "Chasing/tagging with assigned roles",
-   "sports": "invasion, spatial",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Prime",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=yBzhmClFiWc"
-   ],
-   "order": 33,
-   "unit": "December",
-   "alsoFits": [
-    "October"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Pinnies; beanbags as ‘loot’; a mat as jail",
-   "setup": "Two roles: cops (fewer) and robbers. Loot in the middle.",
-   "how": [
-    "Robbers try to take loot back to their base.",
-    "Cops tag robbers; tagged robbers go to jail.",
-    "A free robber high-fives the jailed robber to release them.",
-    "Switch roles every round."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out. Jail is short — always a way back in."
-  },
-  {
-   "id": "pacman",
-   "added": "baseline",
-   "name": "Pacman",
-   "section": "Tag (stay-in style)",
-   "desc": "Move on marked lines; avoid/tag others",
-   "sports": "agility, change of direction",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Prime",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=Zzz5BAzCD6Y"
-   ],
-   "order": 34,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Existing gym floor lines; pinnies",
-   "setup": "Everyone must move on the painted lines. 2–3 Pacman taggers.",
-   "how": [
-    "Move only along the lines; no jumping between lines.",
-    "Pacmen tag others on the lines.",
-    "Tagged players become ‘ghost blockers’ who stand still on a line for 10 seconds, then rejoin.",
-    "Switch taggers."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
-  },
-  {
-   "id": "push-up-plank-chicken-taco-superman-toilet-tag",
-   "added": "baseline",
-   "name": "Push-up / Plank / Chicken Taco / Superman / Toilet Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "Tag variants; freeze/exercise then back in",
-   "sports": "general, fitness",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Gelardi",
-   "notes": [],
-   "links": [],
-   "order": 35,
-   "unit": "February",
-   "alsoFits": [
-    "December"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Pool noodles for taggers",
-   "setup": "2–3 taggers. Teacher names the freeze shape (push-up, plank, chicken taco, superman, toilet).",
-   "how": [
-    "Tagged players freeze in the named shape or exercise.",
-    "A free player does the matching rescue move (e.g. high-five, crawl under, flush) to free them.",
-    "Change the shape every round."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
-  },
-  {
    "id": "turtle-tag",
    "added": "2026-09-07",
    "addedOn": "2026-09-07",
@@ -1259,7 +399,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/shorts/mf7WYMBG45Q"
    ],
-   "order": 36,
+   "order": 10,
    "unit": "December",
    "alsoFits": [],
    "grades": "1–6",
@@ -1289,7 +429,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=WKWzotw2cLI"
    ],
-   "order": 37,
+   "order": 11,
    "unit": "December",
    "alsoFits": [],
    "grades": "K–5",
@@ -1319,7 +459,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=P3_lkGM1FIc"
    ],
-   "order": 38,
+   "order": 12,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -1335,139 +475,6 @@ window.NEW_GAMES = {
    "safety": "Short rounds (wrists tire). Gentle foot taps only."
   },
   {
-   "id": "shark-tag",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Shark Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "Shark noodle-taggers; tagged freeze arms-out T; peers duck under arms to free",
-   "sports": "locomotor",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=P3_lkGM1FIc"
-   ],
-   "order": 39,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Pool noodles for sharks",
-   "setup": "2–3 sharks with noodles.",
-   "how": [
-    "Sharks tag minnows.",
-    "Tagged minnows freeze with arms out in a T.",
-    "Free minnows duck under an arm to free them.",
-    "Switch sharks often."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
-  },
-  {
-   "id": "sneak-react",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Sneak & React",
-   "section": "Tag (stay-in style)",
-   "desc": "Walker faces forward ~20 ft; sneaker taps shoulder; walker chases back to start; rotate lines",
-   "sports": "reaction, sprint",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=G7P7d46IRTA"
-   ],
-   "order": 40,
-   "unit": "May",
-   "alsoFits": [],
-   "grades": "3–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#sneak-react",
-    "label": "Games page"
-   },
-   "equipment": "Cones to mark start lines ~20 ft apart",
-   "setup": "Pairs: a walker faces forward about 20 ft from the start; a sneaker behind them.",
-   "how": [
-    "The sneaker creeps up and taps the walker’s shoulder.",
-    "The walker turns and chases the sneaker back to the start line.",
-    "Swap roles; rotate lines."
-   ],
-   "safety": "Tap the shoulder — no pushing. Run straight lines."
-  },
-  {
-   "id": "wake-up-bear",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Wake Up Bear",
-   "section": "Tag (stay-in style)",
-   "desc": "Circle chant “wake up bear”; secret count wakes bear(s) to tag; ⚠️ original uses cave sit-out — adapt: hospital stretch then back, or tagged join bears next round with continuous re-entry",
-   "sports": "reaction, K–4",
-   "flag": "adapt",
-   "stayIn": false,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://physedgames.com/wake-up-bear/",
-    "https://www.youtube.com/watch?v=F_9XyDzD2EQ"
-   ],
-   "order": 41,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "K–4",
-   "gradesFrom": "doc",
-   "siteCard": {
-    "href": "games.html#wake-up-bear",
-    "label": "Games page"
-   },
-   "equipment": "Mat or hoop for the bear’s cave",
-   "setup": "Circle around a sleeping bear (or two).",
-   "how": [
-    "The class chants ‘Wake up, bear!’ and steps closer on each chant.",
-    "On a secret count the bear wakes and chases.",
-    "Tagged players do a hospital stretch and come back, or join the bears next round.",
-    "No sit-out cave: always re-entry."
-   ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
-  },
-  {
-   "id": "bottle-flip",
-   "added": "2026-09-21",
-   "addedOn": "2026-09-21",
-   "name": "Bottle Flip",
-   "section": "Tag (stay-in style)",
-   "desc": "Everyone has a cone (“bottle”); on GO flip cone to land upright; first successful flip grabs a soft ball while others flee; thrower soft-tags below shoulders for points (not outs)",
-   "sports": "reaction, agility, hand-eye",
-   "flag": "stay-in (points)",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=bN16QYpk1I8",
-    "https://www.youtube.com/watch?v=fWs3Q9VEzVA"
-   ],
-   "order": 42,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#bottle-flip",
-    "label": "Games page"
-   },
-   "equipment": "One cone per student; 3–4 soft balls",
-   "setup": "Everyone stands by a cone (the ‘bottle’).",
-   "how": [
-    "On GO, flip your cone to land upright.",
-    "The first successful flip grabs a soft ball; others flee.",
-    "The thrower soft-tags others below the shoulders for points (not outs).",
-    "Reset and go again."
-   ],
-   "safety": "Soft balls, below the shoulders only."
-  },
-  {
    "id": "foosball-soccer",
    "added": "baseline",
    "name": "Foosball Soccer",
@@ -1481,7 +488,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/foosball-soccer/"
    ],
-   "order": 43,
+   "order": 13,
    "unit": "September",
    "alsoFits": [],
    "grades": "1–6",
@@ -1493,95 +500,6 @@ window.NEW_GAMES = {
     "Kick the ball toward the other team’s goal.",
     "Break the line (drop the noodle link) = turnover to the other team.",
     "Rotate rows so everyone plays forward and back."
-   ]
-  },
-  {
-   "id": "through-the-gates",
-   "added": "baseline",
-   "name": "Through the Gates",
-   "section": "Invasion / soccer–basketball–football",
-   "desc": "Accuracy kick/pass through cone gates",
-   "sports": "soccer",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [],
-   "order": 44,
-   "unit": "September",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#through-the-gates",
-    "label": "Games page"
-   },
-   "equipment": "Cone gates (pairs of cones) scattered; one soccer ball per pair",
-   "setup": "Scatter 10–15 cone gates around the gym.",
-   "how": [
-    "Partners pass the ball through a gate to each other.",
-    "Each successful gate pass = 1 point.",
-    "Move to a new gate after each pass.",
-    "Count points in 60 seconds; try to beat your score."
-   ],
-   "variations": [
-    "Dribble through gates solo.",
-    "Basketball or hockey version."
-   ]
-  },
-  {
-   "id": "wall-soccer-end-wall-soccer",
-   "added": "baseline",
-   "name": "Wall Soccer / End Wall Soccer",
-   "section": "Invasion / soccer–basketball–football",
-   "desc": "Continuous soccer toward walls",
-   "sports": "soccer",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=p1iFRDwnfnk"
-   ],
-   "order": 45,
-   "unit": "September",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Soccer balls (2–3 in play); cones to mark lines",
-   "setup": "Two teams; each defends an end wall.",
-   "how": [
-    "Score by kicking the ball below cone height into the other team’s wall.",
-    "No goalies — defenders stay on their feet.",
-    "Use several balls so everyone touches it.",
-    "Rotate teams/courts for small-sided play."
-   ],
-   "safety": "Low kicks only (below knee or cone height)."
-  },
-  {
-   "id": "end-zone-soccer",
-   "added": "baseline",
-   "name": "End-zone soccer",
-   "section": "Invasion / soccer–basketball–football",
-   "desc": "Three passes to score",
-   "sports": "soccer",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "",
-   "notes": [],
-   "links": [],
-   "order": 46,
-   "unit": "September",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Soccer balls; cones for end zones; pinnies",
-   "setup": "Small-sided teams (4v4 or 5v5) with an end zone at each end.",
-   "how": [
-    "Pass the ball along the ground.",
-    "Complete three passes before you can score.",
-    "Score by stopping the ball in the end zone.",
-    "Rotate teams every few minutes."
    ]
   },
   {
@@ -1598,7 +516,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=s3djeKGMYno"
    ],
-   "order": 47,
+   "order": 14,
    "unit": "September",
    "alsoFits": [
     "January"
@@ -1626,7 +544,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 48,
+   "order": 15,
    "unit": "January",
    "alsoFits": [
     "September",
@@ -1655,7 +573,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 49,
+   "order": 16,
    "unit": "January",
    "alsoFits": [],
    "grades": "1–6",
@@ -1667,32 +585,6 @@ window.NEW_GAMES = {
     "Noodle defenders tag dribblers below the shoulders.",
     "Tagged dribblers go back to their half and restart.",
     "Rotate defenders."
-   ]
-  },
-  {
-   "id": "mat-football",
-   "added": "baseline",
-   "name": "Mat Football",
-   "section": "Invasion / soccer–basketball–football",
-   "desc": "Throw foam footballs into mat end zones",
-   "sports": "football",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "",
-   "notes": [],
-   "links": [],
-   "order": 50,
-   "unit": "October",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Foam footballs; mats as end zones; pinnies",
-   "setup": "Two teams; a mat end zone at each end.",
-   "how": [
-    "Pass the foam football to teammates.",
-    "No running with the ball — pivot and pass.",
-    "Score by catching a pass while standing on the mat.",
-    "Turnover on a drop or interception."
    ]
   },
   {
@@ -1709,7 +601,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=fMOA2Lewl7o"
    ],
-   "order": 51,
+   "order": 17,
    "unit": "October",
    "alsoFits": [
     "September",
@@ -1728,100 +620,6 @@ window.NEW_GAMES = {
    ]
   },
   {
-   "id": "jailbreak-foot-jail",
-   "added": "baseline",
-   "name": "Jailbreak / Foot Jail",
-   "section": "Invasion / soccer–basketball–football",
-   "desc": "Beanbag hit foot → jail; catch frees",
-   "sports": "football",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "",
-   "notes": [],
-   "links": [],
-   "order": 52,
-   "unit": "October",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Beanbags or soft balls; mat as jail",
-   "setup": "Two teams on their own halves.",
-   "how": [
-    "Slide or toss beanbags to hit opponents’ feet.",
-    "Hit on the foot → go to the other team’s jail mat.",
-    "A teammate’s catchable throw that is caught in jail frees you.",
-    "Keep rounds short."
-   ],
-   "safety": "Feet only; soft beanbags."
-  },
-  {
-   "id": "rob-the-nest",
-   "added": "baseline",
-   "name": "Rob the Nest",
-   "section": "Invasion / soccer–basketball–football",
-   "desc": "Retrieve from centre to team nest",
-   "sports": "soccer, basketball, hockey",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames / Prime",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=ne-uS98wClw"
-   ],
-   "order": 53,
-   "unit": "September",
-   "alsoFits": [
-    "January",
-    "November"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#rob-the-nest-dribble-",
-    "label": "Games page"
-   },
-   "equipment": "Many balls in a centre ‘nest’; 4 hoops as team nests",
-   "setup": "Four teams, one hoop nest per team in the corners; balls in the centre.",
-   "how": [
-    "One player at a time runs to the centre and brings back one ball.",
-    "Balls must be dribbled (feet, hands, or stick for the unit).",
-    "When the centre is empty, rob from other nests.",
-    "Freeze on the whistle and count."
-   ],
-   "safety": "No guarding nests; one ball at a time."
-  },
-  {
-   "id": "gold-rush",
-   "added": "baseline",
-   "name": "Gold Rush",
-   "section": "Invasion / soccer–basketball–football",
-   "desc": "Get gold to base; mats as jails (temporary)",
-   "sports": "invasion",
-   "flag": "jail OK; not sit-out",
-   "stayIn": false,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=uiCgecP6_jc"
-   ],
-   "order": 54,
-   "unit": "December",
-   "alsoFits": [
-    "October"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Beanbags or balls as gold; mats as temporary jails; pinnies",
-   "setup": "Two teams; each has a base with gold at the back.",
-   "how": [
-    "Cross into the other half and bring gold back to your base.",
-    "Tagged in the other half? Go to their jail mat briefly.",
-    "Teammates free you with a high-five — jail is never a sit-out.",
-    "Most gold when time is up wins."
-   ],
-   "safety": "Jail is temporary; no sit-outs."
-  },
-  {
    "id": "avoid-the-mines",
    "added": "baseline",
    "name": "Avoid the Mines",
@@ -1835,7 +633,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=MEkbscKPASU"
    ],
-   "order": 55,
+   "order": 18,
    "unit": "September",
    "alsoFits": [
     "January",
@@ -1866,7 +664,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=GxtCSOCerA8"
    ],
-   "order": 56,
+   "order": 19,
    "unit": "October",
    "alsoFits": [],
    "grades": "3–6",
@@ -1896,7 +694,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/eagles-vs-seahawks/",
     "https://www.youtube.com/watch?v=ATj3B12FUXw"
    ],
-   "order": 57,
+   "order": 20,
    "unit": "December",
    "alsoFits": [],
    "grades": "K–4",
@@ -1925,7 +723,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=G7P7d46IRTA"
    ],
-   "order": 58,
+   "order": 21,
    "unit": "September",
    "alsoFits": [],
    "grades": "1–6",
@@ -1951,7 +749,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 59,
+   "order": 22,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -1977,7 +775,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 60,
+   "order": 23,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2003,7 +801,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 61,
+   "order": 24,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2032,7 +830,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/shorts/WQwhGw7g8_Y"
    ],
-   "order": 62,
+   "order": 25,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2061,7 +859,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=KDnodWqzTFU"
    ],
-   "order": 63,
+   "order": 26,
    "unit": "March",
    "alsoFits": [],
    "grades": "2–6",
@@ -2090,7 +888,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=sN1CPbhfdKc"
    ],
-   "order": 64,
+   "order": 27,
    "unit": "November",
    "alsoFits": [],
    "grades": "1–6",
@@ -2118,7 +916,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/bullseye/"
    ],
-   "order": 65,
+   "order": 28,
    "unit": "June",
    "alsoFits": [
     "December"
@@ -2135,197 +933,6 @@ window.NEW_GAMES = {
    ]
   },
   {
-   "id": "castleball",
-   "added": "baseline",
-   "name": "Castleball",
-   "section": "Target / throwing",
-   "desc": "Build hoop castles; throw to topple; rebuild while play continues",
-   "sports": "throwing, Dec games",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://physedgames.com/castleball/"
-   ],
-   "order": 66,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#castleball",
-    "label": "Games page"
-   },
-   "equipment": "Hula hoops to build castles; soft balls",
-   "setup": "Teams build hoop castles in their area.",
-   "how": [
-    "Throw soft balls to topple the other teams’ castles.",
-    "Rebuild your castle while play continues.",
-    "Defend with body blocks (no holding hoops).",
-    "Points for each topple."
-   ],
-   "safety": "Soft balls only; throw at castles, not people."
-  },
-  {
-   "id": "coconut-knockdown",
-   "added": "baseline",
-   "name": "Coconut Knockdown",
-   "section": "Target / throwing",
-   "desc": "Throw at coconut/targets to knock down",
-   "sports": "dodgeball, handball, baseball",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Prime",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=lPWCkZo5wnM"
-   ],
-   "order": 67,
-   "unit": "December",
-   "alsoFits": [
-    "June"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Balls on cones as ‘coconuts’; throwing balls",
-   "setup": "Place coconuts (balls on cones) along a line.",
-   "how": [
-    "Throw from behind a line to knock coconuts down.",
-    "Retrieve and reset between rounds.",
-    "Move the line back for challenge.",
-    "Use handball or baseball throws."
-   ]
-  },
-  {
-   "id": "protect-the-castle",
-   "added": "baseline",
-   "name": "Protect the Castle",
-   "section": "Target / throwing",
-   "desc": "Defend castle/target while throwing",
-   "sports": "dodgeball, handball, invasion",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Prime",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=4kkgD4-6ODs"
-   ],
-   "order": 68,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#protect-the-castle",
-    "label": "Games page"
-   },
-   "equipment": "Pins or cones as the castle; soft balls",
-   "setup": "Groups: one or two guards protect a castle; others throw.",
-   "how": [
-    "Throwers try to knock over the castle.",
-    "Guards block with hands and body.",
-    "Knock it over = swap guards.",
-    "Keep several balls moving."
-   ]
-  },
-  {
-   "id": "pinball",
-   "added": "baseline",
-   "name": "Pinball",
-   "section": "Target / throwing",
-   "desc": "Knock pins with roll/throw/kick",
-   "sports": "hockey, throwing, K–8",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=DEsZWTGK144"
-   ],
-   "order": 69,
-   "unit": "December",
-   "alsoFits": [
-    "November"
-   ],
-   "grades": "K–8",
-   "gradesFrom": "doc",
-   "equipment": "Bowling pins; balls (roll, throw, or kick)",
-   "setup": "Pins scattered around each team’s side.",
-   "how": [
-    "Knock over the other team’s pins by rolling, throwing, or kicking.",
-    "Reset your own pins during play.",
-    "Most pins standing on your side at the end wins.",
-    "Hockey version: shoot with sticks."
-   ]
-  },
-  {
-   "id": "bombardment",
-   "added": "baseline",
-   "name": "Bombardment",
-   "section": "Target / throwing",
-   "desc": "Foam balls + targets; basketball skill flavour",
-   "sports": "basketball, 3–7",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=agG5BSXK8M8"
-   ],
-   "order": 70,
-   "unit": "January",
-   "alsoFits": [
-    "December"
-   ],
-   "grades": "3–7",
-   "gradesFrom": "doc",
-   "siteCard": {
-    "href": "games.html#bombardment",
-    "label": "Games page"
-   },
-   "equipment": "Foam balls; targets (pins, cones, balls on cones)",
-   "setup": "Two teams; targets at the back of each side.",
-   "how": [
-    "Throw foam balls to knock down targets on the other side.",
-    "Basketball flavour: pass and shoot at targets.",
-    "Defend targets with blocks, not by standing on them.",
-    "Rounds of 2–3 minutes."
-   ]
-  },
-  {
-   "id": "star-wars-daly",
-   "added": "baseline",
-   "name": "Star Wars (Daly)",
-   "section": "Target / throwing",
-   "desc": "Soft balls move a big yoga ball to benches",
-   "sports": "throwing",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=lQ-RSM6ACk8"
-   ],
-   "order": 71,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#star-wars",
-    "label": "Games page"
-   },
-   "equipment": "Large yoga ball; soft balls; benches as goals",
-   "setup": "A big yoga ball in the middle; two teams behind lines.",
-   "how": [
-    "Throw soft balls at the yoga ball to move it.",
-    "Push it to the other team’s bench to score.",
-    "Retrieve balls behind your line.",
-    "Reset to the middle after a score."
-   ]
-  },
-  {
    "id": "bozo-bucket-toss",
    "added": "baseline",
    "name": "Bozo / bucket toss",
@@ -2337,7 +944,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 72,
+   "order": 29,
    "unit": "June",
    "alsoFits": [],
    "grades": "K–3",
@@ -2366,7 +973,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/shorts/NVpUzALtp_4"
    ],
-   "order": 73,
+   "order": 30,
    "unit": "December",
    "alsoFits": [],
    "grades": "1–6",
@@ -2378,127 +985,6 @@ window.NEW_GAMES = {
     "Throw or roll soft balls to knock your own hut down for points.",
     "Rebuild and repeat.",
     "Most knockdowns in the time wins."
-   ]
-  },
-  {
-   "id": "shoe-for-the-stars",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Shoe for the Stars",
-   "section": "Target / throwing",
-   "desc": "One rolls/throws to knock cone while partner does jumping jacks; swap on knockdown; timed points",
-   "sports": "rolling, fitness",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=BRVcYi-v7es"
-   ],
-   "order": 74,
-   "unit": "June",
-   "alsoFits": [
-    "February"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Cones; soft balls",
-   "setup": "Pairs: one thrower, one doing jumping jacks.",
-   "how": [
-    "Roll or throw to knock over a cone.",
-    "Partner does jumping jacks until the cone falls.",
-    "Swap on a knockdown.",
-    "Timed rounds; count points."
-   ]
-  },
-  {
-   "id": "clean-your-room-bibs",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Clean Your Room (bibs)",
-   "section": "Target / throwing",
-   "desc": "Two sides throw bibs/soft objects onto other side; fewest on your side when time ends wins",
-   "sports": "throwing",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=BRVcYi-v7es"
-   ],
-   "order": 75,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Bibs/pinnies or soft objects; centre line",
-   "setup": "Two teams on either side of a centre line with lots of bibs.",
-   "how": [
-    "Throw bibs onto the other side.",
-    "Keep throwing until the whistle.",
-    "Fewest objects on your side wins.",
-    "Repeat."
-   ]
-  },
-  {
-   "id": "longball",
-   "added": "baseline",
-   "name": "Longball",
-   "section": "Striking–fielding",
-   "desc": "Kickball-style with mats; more runners moving",
-   "sports": "baseball, kickball, T-ball",
-   "flag": "adapt outs → hospital stretch",
-   "stayIn": false,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://physedgames.com/longball/"
-   ],
-   "order": 76,
-   "unit": "June",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#longball",
-    "label": "Games page"
-   },
-   "equipment": "Mats as bases; kickball or foam bat and ball",
-   "setup": "Two teams; home and a far mat base.",
-   "how": [
-    "Kick or hit the ball, run to the long mat base.",
-    "Multiple runners can be on the mat.",
-    "Run home when safe.",
-    "Outs → stretch at the hospital then rejoin (no sit-outs)."
-   ],
-   "safety": "Adapt outs to hospital stretch."
-  },
-  {
-   "id": "mini-baseball-small-sided",
-   "added": "baseline",
-   "name": "Mini baseball / small-sided",
-   "section": "Striking–fielding",
-   "desc": "Small groups, foam bat + foam ball, more reps",
-   "sports": "baseball, softball",
-   "flag": "",
-   "stayIn": true,
-   "source": "",
-   "notes": [
-    "Keep teams of 4–5"
-   ],
-   "links": [],
-   "order": 77,
-   "unit": "June",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Foam bats; foam balls; cones as bases",
-   "setup": "Small teams of 4–5 on several mini-diamonds.",
-   "how": [
-    "Batter hits off a tee or soft toss.",
-    "Fielders stop the ball and throw to a base.",
-    "Everyone bats every inning.",
-    "Rotate positions each inning."
    ]
   },
   {
@@ -2515,7 +1001,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=Kjiotn-kWL4"
    ],
-   "order": 78,
+   "order": 31,
    "unit": "June",
    "alsoFits": [],
    "grades": "1–6",
@@ -2543,7 +1029,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=VM-KGUMB0io"
    ],
-   "order": 79,
+   "order": 32,
    "unit": "June",
    "alsoFits": [],
    "grades": "2–8",
@@ -2556,68 +1042,6 @@ window.NEW_GAMES = {
     "Fielders throw to home to stop runners.",
     "Adapt outs — no sit-outs."
    ]
-  },
-  {
-   "id": "shark-ball",
-   "added": "baseline",
-   "name": "Shark Ball",
-   "section": "Striking–fielding",
-   "desc": "Minnows run; ball hit → become sharks",
-   "sports": "kicking",
-   "flag": "adapt to stretch then back",
-   "stayIn": false,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=bGCb-sYG78M"
-   ],
-   "order": 80,
-   "unit": "June",
-   "alsoFits": [
-    "September"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#shark-ball",
-    "label": "Games page"
-   },
-   "equipment": "Soft balls; cones for the ocean",
-   "setup": "Minnows run across the ocean; sharks roll or kick balls.",
-   "how": [
-    "Sharks try to hit minnows below the knees.",
-    "Hit minnows do a stretch then back in (instead of becoming sharks).",
-    "Swap sharks every round.",
-    "Kicking version for soccer month."
-   ],
-   "safety": "Soft balls, below the knees."
-  },
-  {
-   "id": "swamp-ball",
-   "added": "baseline",
-   "name": "Swamp Ball",
-   "section": "Dodgeball-style (stay-in)",
-   "desc": "Hit → swamp mat; teammate catch frees",
-   "sports": "dodgeball",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [],
-   "order": 81,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Soft dodgeballs; mats as the swamp",
-   "setup": "Two teams; each has a swamp mat behind the other team.",
-   "how": [
-    "Hit below the shoulders = go to the swamp.",
-    "A teammate’s thrown ball caught in the swamp frees you.",
-    "Swamps empty often — keep it moving.",
-    "Short rounds."
-   ],
-   "safety": "Soft balls; below the shoulders."
   },
   {
    "id": "gymball-dodgeball-mayhem",
@@ -2633,7 +1057,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=0eyapUhwN9k"
    ],
-   "order": 82,
+   "order": 33,
    "unit": "December",
    "alsoFits": [],
    "grades": "3–6",
@@ -2649,57 +1073,6 @@ window.NEW_GAMES = {
    "safety": "Large balls rolled or tossed low; immediate re-entry."
   },
   {
-   "id": "1-on-20s-off",
-   "added": "baseline",
-   "name": "1-on / 20s off",
-   "section": "Fitness & stations",
-   "desc": "1 min work, 20s rest",
-   "sports": "fitness",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [],
-   "order": 83,
-   "unit": "February",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Timer or interval music; station cards",
-   "setup": "Stations or personal space with an exercise per interval.",
-   "how": [
-    "Work for 1 minute at your station.",
-    "Rest 20 seconds and move to the next.",
-    "Repeat for 4–6 rounds.",
-    "Offer an easier and harder version each station."
-   ]
-  },
-  {
-   "id": "partner-switch-fitness",
-   "added": "baseline",
-   "name": "Partner switch fitness",
-   "section": "Fitness & stations",
-   "desc": "One exercises 45s while partner shuttles",
-   "sports": "fitness, stations",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "",
-   "notes": [],
-   "links": [],
-   "order": 84,
-   "unit": "February",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Cones for a shuttle line; exercise cards",
-   "setup": "Partners: one at an exercise spot, one at a shuttle line.",
-   "how": [
-    "One partner exercises for 45 seconds while the other shuttles back and forth.",
-    "Switch on the signal.",
-    "Change the exercise each round."
-   ]
-  },
-  {
    "id": "pace-lap",
    "added": "baseline",
    "name": "Pace lap",
@@ -2711,7 +1084,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 85,
+   "order": 34,
    "unit": "May",
    "alsoFits": [
     "September"
@@ -2728,89 +1101,6 @@ window.NEW_GAMES = {
    ]
   },
   {
-   "id": "soccer-circle-stations",
-   "added": "baseline",
-   "name": "Soccer circle stations",
-   "section": "Fitness & stations",
-   "desc": "Rotate circle pass, gate dribble, wall pass, soft target",
-   "sports": "soccer",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "",
-   "notes": [],
-   "links": [],
-   "order": 86,
-   "unit": "September",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Soccer balls; cone gates; wall space; soft targets",
-   "setup": "Four stations: circle pass, gate dribble, wall pass, soft target.",
-   "how": [
-    "Groups rotate stations every 3 minutes.",
-    "Circle pass: pass around the circle.",
-    "Gate dribble and wall pass for accuracy.",
-    "Soft target: kick to knock a target."
-   ]
-  },
-  {
-   "id": "pin-course-dribble",
-   "added": "baseline",
-   "name": "Pin-course dribble",
-   "section": "Fitness & stations",
-   "desc": "Partners build pin line; dribble without knocking",
-   "sports": "basketball, soccer, hockey",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "",
-   "notes": [],
-   "links": [],
-   "order": 87,
-   "unit": "January",
-   "alsoFits": [
-    "September",
-    "November"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Bowling pins or cones; balls for the unit",
-   "setup": "Partners build a line of pins.",
-   "how": [
-    "Dribble through the pin line without knocking any over.",
-    "Partner resets pins and times the run.",
-    "Switch roles.",
-    "Try with the other hand/foot."
-   ]
-  },
-  {
-   "id": "tic-tac-toe-relay",
-   "added": "baseline",
-   "name": "Tic Tac Toe Relay",
-   "section": "Fitness & stations",
-   "desc": "Relay to play tic-tac-toe",
-   "sports": "teamwork",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Gelardi",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=yxf9_nlC_2Y"
-   ],
-   "order": 88,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Hoops in a 3×3 grid; 3 beanbags per team",
-   "setup": "Two teams in lines; tic-tac-toe grid a distance away.",
-   "how": [
-    "One runner at a time places a beanbag in the grid.",
-    "Once all three are placed, runners move a beanbag to try to make 3 in a row.",
-    "First line wins the round.",
-    "Change travel style each round."
-   ]
-  },
-  {
    "id": "challenge-mat",
    "added": "baseline",
    "name": "Challenge Mat",
@@ -2824,7 +1114,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=l3UErQTCxLI"
    ],
-   "order": 89,
+   "order": 35,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -2836,162 +1126,6 @@ window.NEW_GAMES = {
     "Everyone must be on the mat for it to count.",
     "Rotate mats.",
     "Harder cards for older grades."
-   ]
-  },
-  {
-   "id": "jungle-relay",
-   "added": "baseline",
-   "name": "Jungle Relay",
-   "section": "Fitness & stations",
-   "desc": "Animal movements to cone, hand off",
-   "sports": "locomotor",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=WDXc0AkyGEg"
-   ],
-   "order": 90,
-   "unit": "April",
-   "alsoFits": [
-    "May"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#jungle-relay",
-    "label": "Games page"
-   },
-   "equipment": "Cones",
-   "setup": "Relay lines; a cone at the far end.",
-   "how": [
-    "Move like an animal (bear, crab, frog) to the cone and back.",
-    "Hand off to the next teammate.",
-    "Change animals each round."
-   ]
-  },
-  {
-   "id": "hula-hut-hula-stick",
-   "added": "baseline",
-   "name": "Hula Hut / Hula Stick",
-   "section": "Fitness & stations",
-   "desc": "Carry hoop structure or stick-push hoop",
-   "sports": "teamwork, hockey",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=FsmEIRAD890"
-   ],
-   "order": 91,
-   "unit": "November",
-   "alsoFits": [
-    "December"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Hula hoops; hockey sticks",
-   "setup": "Teams at a start line.",
-   "how": [
-    "Hula Hut: carry a hoop structure together to the end without dropping it.",
-    "Hula Stick: push a hoop along the floor with a stick.",
-    "Relay format; switch roles."
-   ]
-  },
-  {
-   "id": "rabbit-hole",
-   "added": "baseline",
-   "name": "Rabbit Hole",
-   "section": "Fitness & stations",
-   "desc": "Crawl under hoop; if it falls, retry",
-   "sports": "gymnastics",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=EsOdkzWL28E"
-   ],
-   "order": 92,
-   "unit": "April",
-   "alsoFits": [],
-   "grades": "K–3",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#rabbit-hole",
-    "label": "Games page"
-   },
-   "equipment": "Hoops held upright (or on cones)",
-   "setup": "Hoops propped up as rabbit holes.",
-   "how": [
-    "Crawl through the hoop without knocking it down.",
-    "If it falls, reset and retry.",
-    "Try different crawls (bear, army, crab)."
-   ]
-  },
-  {
-   "id": "animal-crawl-race",
-   "added": "baseline",
-   "name": "Animal Crawl Race",
-   "section": "Fitness & stations",
-   "desc": "Beanbag on back, crawl course, tag next",
-   "sports": "gymnastics, fitness",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=EsOdkzWL28E"
-   ],
-   "order": 93,
-   "unit": "April",
-   "alsoFits": [],
-   "grades": "K–3",
-   "gradesFrom": "inferred",
-   "equipment": "Beanbags; cones for a course",
-   "setup": "Relay teams at a course.",
-   "how": [
-    "Put a beanbag on your back and crawl the course.",
-    "If it falls, stop and put it back.",
-    "Tag the next teammate.",
-    "Try different crawls."
-   ]
-  },
-  {
-   "id": "cone-collector",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Cone Collector",
-   "section": "Fitness & stations",
-   "desc": "Relay: pick centre cone, balance on one foot, hop back; reset if dropped",
-   "sports": "balance, athletics",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=hf2o83t-o0g"
-   ],
-   "order": 94,
-   "unit": "May",
-   "alsoFits": [
-    "April"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#cone-collector",
-    "label": "Games page"
-   },
-   "equipment": "Cones in the centre",
-   "setup": "Relay lines around a centre pile of cones.",
-   "how": [
-    "Run to the centre, pick up a cone.",
-    "Balance on one foot and hop back.",
-    "Drop it? Go back and restart.",
-    "Most cones wins."
    ]
   },
   {
@@ -3009,7 +1143,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=hf2o83t-o0g"
    ],
-   "order": 95,
+   "order": 36,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -3022,105 +1156,6 @@ window.NEW_GAMES = {
     "First team to finish wins."
    ],
    "safety": "Clear lanes; one person on a mat at a time."
-  },
-  {
-   "id": "caterpillar-relay",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Caterpillar Relay",
-   "section": "Fitness & stations",
-   "desc": "First runs in hoop around cone; each return adds a teammate inside the shared hoop until whole team fits",
-   "sports": "teamwork, locomotor",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=P3_lkGM1FIc"
-   ],
-   "order": 96,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#caterpillar-relay",
-    "label": "Games page"
-   },
-   "equipment": "One hoop per team; a cone",
-   "setup": "Teams in lines; one hoop per team.",
-   "how": [
-    "First runner runs with the hoop around the cone and back.",
-    "Each return adds another teammate inside the hoop.",
-    "Keep going until the whole team fits.",
-    "Walk-fast with bigger groups."
-   ]
-  },
-  {
-   "id": "bean-bag-core",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Bean Bag Core",
-   "section": "Fitness & stations",
-   "desc": "Plank beside hoop; move beanbags into others’ hoops; fewest/empty hoop wins",
-   "sports": "core fitness",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=BRVcYi-v7es"
-   ],
-   "order": 97,
-   "unit": "February",
-   "alsoFits": [
-    "April"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#bean-bag-core",
-    "label": "Games page"
-   },
-   "equipment": "Hoops; beanbags",
-   "setup": "Students in plank beside a hoop with beanbags.",
-   "how": [
-    "Hold a plank and move beanbags from your hoop into others’ hoops.",
-    "Fewest or empty hoop wins.",
-    "Rest in child’s pose when needed."
-   ]
-  },
-  {
-   "id": "human-catapult",
-   "added": "2026-09-07",
-   "addedOn": "2026-09-07",
-   "name": "Human Catapult",
-   "section": "Fitness & stations",
-   "desc": "Partner sit-ups; throw ball over head toward cone behind partner; timed points",
-   "sports": "core, throwing",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=BRVcYi-v7es"
-   ],
-   "order": 98,
-   "unit": "February",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "siteCard": {
-    "href": "games.html#human-catapult",
-    "label": "Games page"
-   },
-   "equipment": "Soft balls; cones",
-   "setup": "Partners with a cone behind one partner.",
-   "how": [
-    "Do a sit-up and throw the ball over your head toward the cone behind your partner.",
-    "Partner fetches and returns.",
-    "Timed rounds for points."
-   ]
   },
   {
    "id": "bull-chasers",
@@ -3137,7 +1172,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=khde7TTPt6Q"
    ],
-   "order": 99,
+   "order": 37,
    "unit": "May",
    "alsoFits": [],
    "grades": "3–6",
@@ -3165,7 +1200,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=khde7TTPt6Q"
    ],
-   "order": 100,
+   "order": 38,
    "unit": "May",
    "alsoFits": [],
    "grades": "1–6",
@@ -3193,7 +1228,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=khde7TTPt6Q"
    ],
-   "order": 101,
+   "order": 39,
    "unit": "May",
    "alsoFits": [],
    "grades": "3–6",
@@ -3222,7 +1257,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/wheelbarrow-walk-olympics/",
     "https://www.youtube.com/watch?v=YzlMMgnY2aQ"
    ],
-   "order": 102,
+   "order": 40,
    "unit": "April",
    "alsoFits": [
     "February"
@@ -3237,111 +1272,6 @@ window.NEW_GAMES = {
     "Switch roles and try farther."
    ],
    "safety": "Hold at the ankles, go slow, stop if wrists hurt."
-  },
-  {
-   "id": "hula-hoop-ball-collect",
-   "added": "baseline",
-   "name": "Hula-hoop ball collect",
-   "section": "Team-building / seasonal",
-   "desc": "Team collects balls into shared hoop",
-   "sports": "general, Dec",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [],
-   "order": 103,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Hoops; many balls",
-   "setup": "Teams with a shared hoop base.",
-   "how": [
-    "Collect balls from the middle into your team hoop.",
-    "One ball at a time.",
-    "Most balls wins."
-   ]
-  },
-  {
-   "id": "ice-cream-themed-relays",
-   "added": "baseline",
-   "name": "Ice-cream themed relays",
-   "section": "Team-building / seasonal",
-   "desc": "Short coop relays",
-   "sports": "field day, Dec",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "PhysEdGames",
-   "notes": [],
-   "links": [],
-   "order": 104,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Cones (cones = ‘ice cream cones’); beanbags or balls as scoops",
-   "setup": "Relay lines.",
-   "how": [
-    "Carry a ‘scoop’ on a cone to the end and back.",
-    "Stack scoops for harder rounds.",
-    "Short cooperative relays."
-   ]
-  },
-  {
-   "id": "capture-the-snowman",
-   "added": "baseline",
-   "name": "Capture the Snowman",
-   "section": "Team-building / seasonal",
-   "desc": "Capture-the-flag winter twist",
-   "sports": "Dec games",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Gelardi",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=0ruUq9BqTOs"
-   ],
-   "order": 105,
-   "unit": "December",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Pinnies; ‘snowman’ object (stacked balls); mats as jail",
-   "setup": "Two teams; a snowman at each end.",
-   "how": [
-    "Capture the other team’s snowman and bring it home.",
-    "Tagged in the other half → short jail; a teammate frees you.",
-    "Winter twist on capture the flag."
-   ],
-   "safety": "Jail is short; always re-entry."
-  },
-  {
-   "id": "colour-hunt-partner-orienteering-map-orientation",
-   "added": "baseline",
-   "name": "Colour Hunt / Partner Orienteering / Map Orientation",
-   "section": "Orienteering (Daly)",
-   "desc": "Colour find, partner nav, map basics",
-   "sports": "orienteering",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=EHJttwigaG4"
-   ],
-   "order": 106,
-   "unit": "May",
-   "alsoFits": [],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "equipment": "Coloured markers; simple gym/field maps",
-   "setup": "Place colour markers around the space.",
-   "how": [
-    "Colour Hunt: find and record colours.",
-    "Partner orienteering: navigate together using a map.",
-    "Map orientation: turn the map to match the space."
-   ]
   }
  ]
 };

@@ -1,6 +1,6 @@
 /* PHYSEDGAMES large-group games (moved from the old handbook page, Sep 2026).
    PEG_DETAILS = cards that were not in the playbook yet (same card format as games-data.js).
-   PEG_HANDBOOK.games = all 67 original entries; "card" names the Games card that holds each one. Credit: PHYSEDGAMES (physedgames.com). */
+   PEG_HANDBOOK.games = all 67 original entries; "card" names the Big-Group Games card that holds each one. Credit: PHYSEDGAMES (physedgames.com). */
 window.PEG_DETAILS = [
   {
     "name": "Dead Ant Tag",

@@ -3,7 +3,7 @@
  * Check every video in videos-data.js and record the result in videos-meta.json.
  *   node tools/check-videos.js            check all (network), write videos-meta.json
  *   node tools/check-videos.js --new      only videos never checked
- * Then run node tools/build.js so the Videos page picks up titles/status.
+ * Then run node tools/build.js to refresh videos-data.js.
  *
  * Method: YouTube oEmbed (200 = public video, gives title + channel;
  * 401/403 = exists but embedding is off, still watchable = ok-noembed;
