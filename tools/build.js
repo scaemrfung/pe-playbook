@@ -33,7 +33,7 @@ const read = (f) => fs.readFileSync(path.join(ROOT, f), "utf8");
 const DATA_FILES = [
   "school-year.js", "data.js", "games-data.js", "outcomes-data.js", "lesson-outcomes.js",
   "game-extras.js", "k2-games.js", "g36-games.js", "skill-pack.js", "big-group.js",
-  "daly-games.js", "daly-month-games.js",
+  "daly-games.js", "daly-month-games.js", "physedgames-games.js",
 ];
 const sandbox = { console };
 sandbox.window = sandbox;
@@ -105,7 +105,7 @@ const ALIASES = {
   "Hospital Tag": "Hospital Tag", "Hot Dog Tag": "Hot Dog Tag", "Blob Tag": "Blob Tag",
   "Octopus": "Octopus", "Sharks and Dolphins": "Sharks and Dolphins",
 };
-const DETAILS = [].concat(W.GAME_DETAILS || [], W.K2_DETAILS || [], W.G36_DETAILS || [], W.SKILL_DETAILS || [], W.BG30_DETAILS || [], W.DALY_DETAILS || []);
+const DETAILS = [].concat(W.GAME_DETAILS || [], W.K2_DETAILS || [], W.G36_DETAILS || [], W.SKILL_DETAILS || [], W.BG30_DETAILS || [], W.DALY_DETAILS || [], W.PEG_DETAILS || []);
 const NAMES = new Set(Object.keys(EXTRAS));
 DETAILS.forEach((g) => { if (g && g.name) NAMES.add(g.name); });
 const DETAIL_BY_NAME = {};
@@ -420,7 +420,7 @@ outputs["videos-data.js"] = VID.js;
 }
 
 // every other hand-written page: static nav from chrome.js NAV
-const SKIP = new Set(Object.keys(outputs).concat(["large-group-pe-games.html"]));
+const SKIP = new Set(Object.keys(outputs));
 fs.readdirSync(ROOT).filter((f) => f.endsWith(".html") && !SKIP.has(f) && !/^month-/.test(f)).forEach((f) => {
   const html = read(f);
   if (!/<header class="site">[\s\S]*?<nav\b/.test(html)) return;

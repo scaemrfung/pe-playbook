@@ -58,9 +58,10 @@
     var jump = (data.groups || []).filter(function (g) { return vids.some(function (v) { return (v.month || "") === g.id; }); })
       .map(function (g) { return '<a href="#' + (g.id ? "unit-" + g.id.toLowerCase() : "unit-any") + '">' + esc(g.id ? g.id.slice(0, 3) : "Any time") + "</a>"; }).join(" · ");
     var rep = (data.replacements || []).length
-      ? '<details class="vd-rep"><summary>' + data.replacements.length + " broken link" + (data.replacements.length === 1 ? "" : "s") + " replaced</summary><ul>" +
+      ? '<details class="vd-rep"><summary>' + data.replacements.length + " video fix" + (data.replacements.length === 1 ? "" : "es") + " (replaced or removed)</summary><ul>" +
         data.replacements.map(function (r) {
-          return "<li><strong>" + esc(r.where) + ":</strong> " + esc(r.old) + " → <a href=\"" + esc(r["new"]) + '" target="_blank" rel="noopener">' + esc(r.newTitle || r["new"]) + "</a>" + (r.reason ? " — " + esc(r.reason) : "") + "</li>";
+          var to = r["new"] ? '<a href="' + esc(r["new"]) + '" target="_blank" rel="noopener">' + esc(r.newTitle || r["new"]) + "</a>" : "<em>removed</em>";
+          return "<li><strong>" + esc(r.where) + ":</strong> " + esc(r.old) + " → " + to + (r.reason ? " — " + esc(r.reason) : "") + "</li>";
         }).join("") + "</ul></details>"
       : "";
     return '<p class="meta vd-summary"><strong>' + vids.length + " videos</strong> from " + esc(data.occurrences) + " links across the site" +

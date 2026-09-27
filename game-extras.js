@@ -2990,7 +2990,6 @@ window.GAME_EXTRAS = {
     "aka": [
       "Rob the Nest (dribble)",
       "Capture the Egg",
-      "Capture The Flag Outdoors",
       "Capture the Flag",
       "Bucket Ball",
       "Robin’s Nest",
@@ -3181,7 +3180,6 @@ window.GAME_EXTRAS = {
     ],
     "aka": [
       "Oyster Shell",
-      "Sneak & React",
       "Sneaky Races",
       "Reaction Speed"
     ]
@@ -4243,7 +4241,6 @@ window.GAME_EXTRAS = {
       "Knock the Pin",
       "Build Your Tower",
       "Pin Knockover",
-      "Pin Galore Soccer",
       "Hockey pin knockdown",
       "Roll to hit the pin"
     ]
@@ -4764,7 +4761,6 @@ window.GAME_EXTRAS = {
     ],
     "aka": [
       "Bombardment",
-      "Battleball",
       "Star Wars",
       "Shooting Pumpkins",
       "Snowball Fight",
@@ -6179,7 +6175,6 @@ window.GAME_EXTRAS = {
     ],
     "aka": [
       "Jungle Run Relays",
-      "Animals",
       "Animal Crawl",
       "Turtle Race",
       "Rabbit Hole"
@@ -8488,8 +8483,6 @@ window.GAME_EXTRAS = {
       "Follow the Leader: one leader, class copies, swap often."
     ],
     "aka": [
-      "Pass It On",
-      "Mirror Mirror",
       "Follow the Leader",
       "Dance Whispers",
       "Dance Chain",
@@ -8757,7 +8750,6 @@ window.GAME_EXTRAS = {
     "aka": [
       "Fitness Musical Hoops",
       "Icebergs",
-      "Hula Hoop Twister",
       "Hulahoop Madness",
       "Musical Rings",
       "Musical Cones"
@@ -9380,7 +9372,6 @@ window.GAME_EXTRAS = {
     ],
     "aka": [
       "Memory Relay",
-      "The Great Outdoor Treasure Hunt",
       "Treasure Hunt",
       "Card Sharks",
       "Colour Hunt",
@@ -9525,7 +9516,6 @@ window.GAME_EXTRAS = {
       "Student caller."
     ],
     "aka": [
-      "Rush Hour",
       "Red Line",
       "The Video Camera Game",
       "Video Camera",
@@ -9602,7 +9592,6 @@ window.GAME_EXTRAS = {
       "Cross the River: same islands, one spare hoop."
     ],
     "aka": [
-      "Bridges & Rivers",
       "Cross the River",
       "Polar Express",
       "Flip Flop"
@@ -9680,7 +9669,6 @@ window.GAME_EXTRAS = {
     ],
     "aka": [
       "Spot-jump path",
-      "Jump The River",
       "Helicopter / Snake rope",
       "Helicopter",
       "Frogs & Toads",

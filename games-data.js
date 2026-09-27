@@ -1448,7 +1448,6 @@ window.GAME_DETAILS = [
     "aka": [
       "Rob the Nest (dribble)",
       "Capture the Egg",
-      "Capture The Flag Outdoors",
       "Capture the Flag",
       "Bucket Ball",
       "Robin’s Nest",
@@ -1519,7 +1518,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Your number is called. Beat the other player to the object and get home. Folded in: Daly Sneaky Races / Reaction Speed + SCA Steal the Bacon / Oyster Shell / Sneak & React.",
+    "purpose": "Your number is called. Beat the other player to the object and get home. Folded in: Daly Sneaky Races / Reaction Speed + SCA Steal the Bacon / Oyster Shell.",
     "equipment": "One object in the middle · two numbered lines",
     "setup": "Two teams on opposite lines, same numbers. Object centre.",
     "play": [
@@ -1546,7 +1545,6 @@ window.GAME_DETAILS = [
     ],
     "aka": [
       "Oyster Shell",
-      "Sneak & React",
       "Sneaky Races",
       "Reaction Speed"
     ]
@@ -2048,7 +2046,6 @@ window.GAME_DETAILS = [
       "Knock the Pin",
       "Build Your Tower",
       "Pin Knockover",
-      "Pin Galore Soccer",
       "Hockey pin knockdown",
       "Roll to hit the pin"
     ]
@@ -2275,7 +2272,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Stay on your half. Knock the other team’s structures. Rebuild and keep playing. Folded in: Daly Star Wars / Shooting Pumpkins / Snowball Fight / Snowman Run + SCA Castleball / Bombardment / Battleball.",
+    "purpose": "Stay on your half. Knock the other team’s structures. Rebuild and keep playing. Folded in: Daly Star Wars / Shooting Pumpkins / Snowball Fight / Snowman Run + SCA Castleball / Bombardment.",
     "equipment": "Equal castles each side · soft balls",
     "setup": "Equal castles each side. Balls on each half. Below-waist or structure-only throws.",
     "play": [
@@ -2303,7 +2300,6 @@ window.GAME_DETAILS = [
     ],
     "aka": [
       "Bombardment",
-      "Battleball",
       "Star Wars",
       "Shooting Pumpkins",
       "Snowball Fight",
@@ -2945,7 +2941,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Each runner uses a real animal movement. Disguised sprinting does not count. Folded in: Daly Jungle Relay / Animal Crawl / Turtle Race / Rabbit Hole + SCA Animals / Jungle Run Relays / Bridges & Rivers.",
+    "purpose": "Each runner uses a real animal movement. Disguised sprinting does not count. Folded in: Daly Jungle Relay / Animal Crawl / Turtle Race / Rabbit Hole + SCA Jungle Run Relays.",
     "equipment": "Turn cone 8–15 m away · optional bag or cone for the back",
     "setup": "Show 6 legal animals. Separate lanes. Cone 8–15 m away.",
     "play": [
@@ -2972,7 +2968,6 @@ window.GAME_DETAILS = [
     ],
     "aka": [
       "Jungle Run Relays",
-      "Animals",
       "Animal Crawl",
       "Turtle Race",
       "Rabbit Hole"
@@ -4052,7 +4047,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Copy what you saw, then add one move. A mix-up restarts the phrase. Folded in: Daly Dance Whispers / Dance Chain / Dance Tag + SCA Pass It On / Mirror Mirror / Follow the Leader.",
+    "purpose": "Copy what you saw, then add one move. A mix-up restarts the phrase. Folded in: Daly Dance Whispers / Dance Chain / Dance Tag + SCA Follow the Leader.",
     "equipment": "Optional music",
     "setup": "Agree: mix-up restarts, nobody sits the period. Keep phrases to 4–8 counts.",
     "play": [
@@ -4078,8 +4073,6 @@ window.GAME_DETAILS = [
       "Follow the Leader: one leader, class copies, swap often."
     ],
     "aka": [
-      "Pass It On",
-      "Mirror Mirror",
       "Follow the Leader",
       "Dance Whispers",
       "Dance Chain",
@@ -4186,7 +4179,7 @@ window.GAME_DETAILS = [
     "months": [
       "February"
     ],
-    "purpose": "Travel on the music. When it stops, get into a hoop. Share. Nobody sits the period. Folded in: Daly Musical Hoops / Rings / Cones + SCA Fitness Musical Hoops + Icebergs + Hula Hoop Twister.",
+    "purpose": "Travel on the music. When it stops, get into a hoop. Share. Nobody sits the period. Folded in: Daly Musical Hoops / Rings / Cones + SCA Fitness Musical Hoops + Icebergs.",
     "equipment": "Music · hoops or cones",
     "setup": "Scatter hoops. Music ready. Name the travel skill. Start with enough hoops for everyone to share.",
     "play": [
@@ -4216,7 +4209,6 @@ window.GAME_DETAILS = [
     "aka": [
       "Fitness Musical Hoops",
       "Icebergs",
-      "Hula Hoop Twister",
       "Hulahoop Madness",
       "Musical Rings",
       "Musical Cones"
@@ -4526,7 +4518,6 @@ window.GAME_DETAILS = [
     ],
     "aka": [
       "Memory Relay",
-      "The Great Outdoor Treasure Hunt",
       "Treasure Hunt",
       "Card Sharks",
       "Colour Hunt",
@@ -4578,7 +4569,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "Hear the word. Do that shape or travel. Mix the order. Folded in: Daly Christmas Warm-Up + SCA Rush Hour / Red Line / Video Camera / Shipwreck / Signals.",
+    "purpose": "Hear the word. Do that shape or travel. Mix the order. Folded in: Daly Christmas Warm-Up + SCA Red Line / Video Camera / Shipwreck / Signals.",
     "equipment": "None · optional music",
     "setup": "Teach 4–6 commands before you speed up.",
     "play": [
@@ -4606,7 +4597,6 @@ window.GAME_DETAILS = [
       "Student caller."
     ],
     "aka": [
-      "Rush Hour",
       "Red Line",
       "The Video Camera Game",
       "Video Camera",
@@ -4624,7 +4614,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "The floor is out. Cross using only the islands. Folded in: Daly Polar Express / Flip Flop + SCA Safe to Shore / Icebergs / Bridges & Rivers.",
+    "purpose": "The floor is out. Cross using only the islands. Folded in: Daly Polar Express / Flip Flop + SCA Safe to Shore / Icebergs.",
     "equipment": "Hoops or mats as islands · start and finish lines",
     "setup": "Islands between the lines. Show a legal step. Agree the restart: full restart or last safe island.",
     "play": [
@@ -4650,7 +4640,6 @@ window.GAME_DETAILS = [
       "Cross the River: same islands, one spare hoop."
     ],
     "aka": [
-      "Bridges & Rivers",
       "Cross the River",
       "Polar Express",
       "Flip Flop"
@@ -4663,7 +4652,7 @@ window.GAME_DETAILS = [
       "May",
       "June"
     ],
-    "purpose": "Jump the targets. Quiet stick. Quality before speed. Folded in: Daly Helicopter / Frogs & Toads / hoop jump races / long jump + SCA Spot-jump path / Jump The River / hurdle hops.",
+    "purpose": "Jump the targets. Quiet stick. Quality before speed. Folded in: Daly Helicopter / Frogs & Toads / hoop jump races / long jump + SCA Spot-jump path / hurdle hops.",
     "equipment": "Spots, hoops, or a taped river · optional noodle",
     "setup": "Lane of spots or a taped river. Show two-foot take-off and a still landing.",
     "play": [
@@ -4692,7 +4681,6 @@ window.GAME_DETAILS = [
     ],
     "aka": [
       "Spot-jump path",
-      "Jump The River",
       "Helicopter / Snake rope",
       "Helicopter",
       "Frogs & Toads",
