@@ -821,6 +821,7 @@ body[data-band] .out-grid { grid-template-columns: 1fr; }
 /* School-year dates (school-year.js / tools/build.js) */
 .week-title .week-dates { display: block; margin-top: 2px; font-size: .8rem; font-weight: 500; color: #5b6770; font-family: inherit; }
 .week-title .week-dates.extra { color: #8a5a00; }
+.week-title .plan-week { display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 999px; font-size: .72rem; font-weight: 650; vertical-align: middle; background: #eef3f0; color: #3d5a4a; font-family: inherit; }
 .week-title .this-week-pill { display: inline-block; margin-left: 8px; padding: 1px 9px; border-radius: 999px; font-size: .72rem; font-weight: 700; vertical-align: middle; background: #fdf1dc; color: #8a5a00; }
 .school-weeks { margin-top: 6px; }
 .school-weeks ul { margin: 4px 0 0; }

@@ -1,11 +1,11 @@
 const months = [
   {
     "name": "September",
-    "guide": "Soccer Weeks 1–2 (Terry Fox run {{terryFox}} in Week 2) · football intro Week 3 · review Week 4",
+    "guide": "Soccer Weeks 2–3 (Terry Fox run {{terryFox}} in Week 3) · football Weeks 4–5 (Sept 21–Oct 2)",
     "pew": "Movement Skill Development, Safety, Active Living, Healthy Relationships",
     "equipment": "Soccer balls, cones/gates, footballs or foam footballs, pinnies",
     "fitness": "Pulse check after a dribble game. Private skip once late in the month.",
-    "notes": "Soccer balls, no slide tackles. Weeks 1–2 soccer (Sept 8–18). Terry Fox prep and run are Week 2, the week of the school run ({{terryFox}}). Week 3 is football intro (hike, catch, throw). Week 4 (Sept 28–Oct 1, a 3-day week) is soccer and football review. Aug 31–Sept 4 is the start-up week (gym routines).",
+    "notes": "Week numbers count school weeks from Aug 31 (Week 1 = start-up week, gym routines). Soccer balls, no slide tackles. Weeks 2–3 are soccer (Sept 8–18, lessons W1–W2 below). Terry Fox prep and run are Week 3, the week of the school run ({{terryFox}}). Weeks 4–5 are football (Sept 21–Oct 2): Week 4 is football intro (hike, catch, throw; W3 below). Week 5 (Sept 28–Oct 1, a 3-day week) stays on football: the weekly plan teaches October W1 (flag or two-hand touch, routes, end-zone catch); W4 below is a soccer and football review if you need it.",
     "lessons": [
       {
         "w": 1,
@@ -219,11 +219,11 @@ const months = [
   },
   {
     "name": "October",
-    "guide": "Football (Weeks 1–2) · parachute and circus (Weeks 3–4)",
+    "guide": "Football (W1–W2) · parachute and circus (W3–W4)",
     "pew": "Movement Skill Development, Movement Tactics, Safety, Healthy Relationships",
     "equipment": "Footballs, flag belts or pinnies, parachute, scarves, beanbags, plates or rings",
     "fitness": "Throw-and-catch pulse check. Private wall-pass later in the month.",
-    "notes": "Football uses the real ball (foam is fine for 1–2). Weeks 3–4 are parachute and circus so October is not all collision games.",
+    "notes": "Football uses the real ball (foam is fine for 1–2). W3–W4 are parachute and circus so October is not all collision games.",
     "lessons": [
       {
         "w": 1,
@@ -873,7 +873,7 @@ const months = [
   },
   {
     "name": "January",
-    "guide": "Basketball (Weeks 1–2) · scoop send/receive (Weeks 3–4)",
+    "guide": "Basketball (W1–W2) · scoop send/receive (W3–W4)",
     "pew": "Movement Skill Development, Movement Tactics, Safety, Healthy Relationships",
     "equipment": "Basketballs, hoops or buckets, plastic scoops, wiffle or foam balls, pinnies",
     "fitness": "Wall-pass or skip check. Private record — not a rank.",
@@ -1095,7 +1095,7 @@ const months = [
     "pew": "Active Living, Movement Skill Development, Safety",
     "equipment": "Short ropes, long rope, hoops, music",
     "fitness": "Skip check is the month’s fitness. Private count — not a class rank.",
-    "notes": "Slide Jump Rope for Heart into the week your school actually runs it (often Week 4). Marching counts.",
+    "notes": "Slide Jump Rope for Heart into the week your school actually runs it (often W4). Marching counts.",
     "lessons": [
       {
         "w": 1,
@@ -1963,11 +1963,11 @@ const months = [
   },
   {
     "name": "June",
-    "guide": "Week 1: Track and Field Day · Weeks 2–4: T-ball / baseball",
+    "guide": "W1: Track and Field Day · W2–W4: T-ball / baseball",
     "pew": "Movement Skill Development, Active Living, Character, Safety",
     "equipment": "Week 1: kit on the Track Day page. Weeks 2–4: tees, bats, balls, hoop bases.",
     "fitness": "Final private check after the meet: skip, short run, or jump-stick.",
-    "notes": "Track and Field Day is the first week of June (event page for rules and scoring). Weeks 2–4 are T-ball/baseball — everyone bats, throw to a hoop at first, not at the runner.",
+    "notes": "Track and Field Day is the first week of June (event page for rules and scoring). W2–W4 are T-ball/baseball — everyone bats, throw to a hoop at first, not at the runner.",
     "lessons": [
       {
         "w": 1,

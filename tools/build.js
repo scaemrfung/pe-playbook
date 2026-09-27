@@ -194,8 +194,10 @@ function schoolWeeks(name) {
   const list = SY.peWeeksForMonth(name);
   if (!list.length) return "";
   const li = list.map((x) => {
-    const label = x.w === 0 ? "Start-up" : `<a href="#week-${x.w}">Week ${x.w}</a>`;
-    const bits = [x.note, x.planNote].filter(Boolean).join(" · ");
+    // School-year week number (Week 4 = Sept 21–25); the link goes to the month-week section.
+    const name = `Week ${x.schoolWeek}${x.theme ? " · " + x.theme : ""}`;
+    const label = x.w === 0 ? `${name} · Start-up` : `<a href="#week-${x.w}">${name}</a>`;
+    const bits = [x.w ? `${x.month} W${x.w} below` : "", x.note, x.planNote].filter(Boolean).join(" · ");
     return `<li data-school-week="${x.schoolWeek}" data-start="${x.start}" data-end="${x.end}"><strong>${label}</strong> · ${x.range}${bits ? ` <span class="meta">(${bits})</span>` : ""}</li>`;
   }).join("");
   return `<div class="school-weeks" id="school-weeks"><p class="meta"><strong>School weeks this month (${SY.config.label}):</strong></p><ul class="clean">${li}</ul></div>`;
@@ -214,7 +216,13 @@ function renderMonth(m) {
       week = L.w;
       const wl = SY.peWeekLabel ? SY.peWeekLabel(m.name, week) : null;
       const dates = wl ? `<span class="week-dates${wl.extra ? " extra" : ""}">${wl.text}</span>` : "";
-      head = `<h2 class="week-title" id="week-${week}" data-week="${week}">${m.name} · Week ${week}${dates}</h2>`;
+      // Heading names the school-year week(s) taught from this section (Week 4 · Football),
+      // then the month-week code (September W3). The id stays week-N so links keep working.
+      const sw = wl && !wl.extra ? wl.weeks : [];
+      const swName = sw.length ? "Week" + (sw.length > 1 ? "s " : " ") + sw.map((x) => x.schoolWeek).join(" + ") + (sw[0].theme ? " · " + sw[0].theme : "") : "";
+      head = swName
+        ? `<h2 class="week-title" id="week-${week}" data-week="${week}">${swName} <span class="plan-week">${m.name} W${week}</span>${dates}</h2>`
+        : `<h2 class="week-title" id="week-${week}" data-week="${week}">${m.name} W${week}${dates}</h2>`;
     }
     const o = LO[`${m.name}-${L.w}-${L.c}`];
     const items = pickMonthOutcomes((o && o.items) || [], `${m.name}-${L.w}-${L.c}`);

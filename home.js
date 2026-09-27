@@ -36,10 +36,11 @@
     var line = document.createElement("p");
     line.id = "this-week-line";
     line.className = "this-week-line" + (pw.kind === "break" ? " break" : "");
-    var wk = pw.w === 0 ? "Start-up week" : "Week " + pw.w;
+    // School-year week name (Week 4 · Football), then the month-week section (September W3).
+    var wk = (pw.name || "Week " + pw.schoolWeek) + (pw.w === 0 ? " · start-up week" : " (" + pw.month + " W" + pw.w + ")");
     var txt = pw.kind === "break"
-      ? pw.message + " Next: " + pw.month + " " + wk + " (" + pw.range + ")."
-      : (pw.kind === "before" ? "First week: " : "This week: ") + pw.month + " " + wk + " · " + pw.range +
+      ? pw.message + " Next: " + wk + " · " + pw.range + "."
+      : (pw.kind === "before" ? "First week: " : "This week: ") + wk + " · " + pw.range +
         (pw.note ? " · " + pw.note : "") + (pw.planNote ? " · " + pw.planNote : "") + (pw.today ? " · " + pw.today : "");
     line.textContent = txt;
     var g = document.getElementById("this-month-guide");
