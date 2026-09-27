@@ -33,8 +33,7 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "One tagger starts. Tagged players join hands and the blob grows. Split at four so it stays safe.",
     "games": [
-      "Blob Tag",
-      "Line Tag / Pac-Man"
+      "Blob Tag"
     ]
   },
   {
@@ -134,9 +133,7 @@ window.VIDEOS = [
     "channel": "Mrs. Carly Glanzman",
     "about": "Runners cross the gym. Taggers in the middle. Tagged players become seaweed and can tag with their arms. Short rounds.",
     "games": [
-      "Sharks and Dolphins",
-      "Octopus",
-      "Safe to Shore"
+      "Sharks and Dolphins"
     ]
   },
   {
@@ -172,7 +169,7 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Four teams, four colours. Bring all of your colour objects home. Sit where you are tagged until a teammate frees you.",
     "games": [
-      "Heist the Treasure"
+      "Four Corner Flags"
     ]
   },
   {
@@ -199,8 +196,6 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Two halves, a flag hoop, and a jail. Steal the flag without a tag. Walk a rescued player home.",
     "games": [
-      "Four Corner Flags",
-      "Capture the Egg",
       "Capture the Flag Classic"
     ]
   },
@@ -232,45 +227,13 @@ window.VIDEOS = [
     ]
   },
   {
-    "title": "End Zone Escape",
-    "url": "https://www.youtube.com/watch?v=S5dS4G_uY24",
-    "channel": "PhysEdGames",
-    "about": "Players in an end zone need a catch to run home. Football pass, punt, and flag work.",
-    "games": [
-      "Crab Football"
-    ]
-  },
-  {
-    "title": "End Zone Possession",
-    "url": "https://www.youtube.com/watch?v=MHv79ckKACw&t=1s",
-    "channel": "KS Performance",
-    "about": "End zone possession, through balls, and decision making — football/soccer demo.",
-    "games": [
-      "End Zone Ball"
-    ]
-  },
-  {
     "title": "Endball",
     "url": "https://www.youtube.com/watch?v=WIeSjFXoJNs",
     "channel": "Newt's PE Games",
     "about": "Ultimate-style passing into an end zone. Pivot only. Incomplete or intercept changes possession.",
     "games": [
       "End Ball",
-      "End Zone Ball",
-      "Captain Ball",
-      "The Perfect Pass",
       "End-zone catch"
-    ]
-  },
-  {
-    "title": "Floor-hockey knockout",
-    "url": "https://www.youtube.com/watch?v=ln-DkPNvoUE",
-    "channel": "Newt's PE Games",
-    "about": "Stickhandle your puck. Knock others out of the box. Shrink the space as numbers drop. We re-enter after toe-taps.",
-    "games": [
-      "Numbers Hockey",
-      "Hockey hurdle dribble",
-      "Hockey pin knockdown"
     ]
   },
   {
@@ -316,14 +279,8 @@ window.VIDEOS = [
     "about": "Walk, run, skip, hop, and jump on green. Freeze on red. Slow motion on yellow.",
     "games": [
       "Traffic Lights (kick)",
-      "Land and Sea",
-      "Here, There, Everywhere",
-      "Captain’s Deck / Shipwreck",
-      "Human Bop-It",
       "Signals / shapes",
-      "Shadow Tag",
-      "Red Light, Green Light",
-      "Simon Says Stay-In"
+      "Red Light, Green Light"
     ]
   },
   {
@@ -342,17 +299,6 @@ window.VIDEOS = [
     "about": "Try out this amazing game called SLAPPERS. It’s a game that mainly uses the striking skill (or swatting, smacking, slapping – however you want to call it). 4 teams, 4 nets in the corners, 1 for each team. Throw a few balls in and players wi…",
     "games": [
       "Slappers!"
-    ]
-  },
-  {
-    "title": "4-Corner Dodgeball",
-    "url": "https://www.youtube.com/watch?v=_QQMwlYbru8",
-    "channel": "PhysEdGames",
-    "about": "Four teams, dodgeballs. A hit sends you to the team that tagged you. We keep everyone moving.",
-    "games": [
-      "Poison Ball",
-      "Survivor Dodgeball",
-      "Low-ball"
     ]
   },
   {
@@ -380,17 +326,7 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "A line of pins. Throw mixed soft objects. Timed round. Everyone throws.",
     "games": [
-      "Team Bowling"
-    ]
-  },
-  {
-    "title": "Elementary football throw-and-catch",
-    "url": "https://www.youtube.com/watch?v=AjDKYyIHF_8",
-    "channel": "Kid Fitness Challenge",
-    "about": "Partner routes, hoop catches, and a freeze-tag rescue with a catch. Soft footballs.",
-    "games": [
-      "Flying Saucers",
-      "Frisbee Flingers"
+      "Skittle Ball"
     ]
   },
   {
@@ -401,8 +337,6 @@ window.VIDEOS = [
     "games": [
       "Skittles",
       "Skittle Ball",
-      "Protect the Castle",
-      "Protect the King",
       "Guard the Cone"
     ]
   },
@@ -448,10 +382,7 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Roll, kick, run the bases. No strikeouts. Soft playground ball.",
     "games": [
-      "Continuous Kick Ball",
-      "Quick Baseball",
-      "Diamond Strike",
-      "Beat Ball / Beat the Ball"
+      "Continuous Kick Ball"
     ]
   },
   {
@@ -482,18 +413,6 @@ window.VIDEOS = [
     ]
   },
   {
-    "title": "Dribble Knockout",
-    "url": "https://www.youtube.com/watch?v=pddq9A1vYq4",
-    "channel": "The PE Specialist",
-    "about": "Dribble and protect the ball. Knock someone else’s ball away. Five taps and you come back in.",
-    "games": [
-      "Dash and Dribble",
-      "Rob the Nest (dribble)",
-      "Rob the Nest",
-      "Dribble the gates"
-    ]
-  },
-  {
     "title": "Ice Cream Cone Relays",
     "url": "https://www.youtube.com/watch?v=K65d2E4q3mU",
     "channel": "PhysEdGames",
@@ -509,7 +428,8 @@ window.VIDEOS = [
     "about": "Side-by-side demos of pencil roll, log, egg, forward roll, and back rocker. Skip a diving roll unless taught.",
     "games": [
       "April gymnastics",
-      "Follow the Leader"
+      "Tuck rocks",
+      "Log roll"
     ]
   },
   {
@@ -540,15 +460,6 @@ window.VIDEOS = [
     ]
   },
   {
-    "title": "Newcomb",
-    "url": "https://www.youtube.com/watch?v=1nddWJRgbC4",
-    "channel": "Mrs. Carly Glanzman",
-    "about": "Volleyball with a throw and catch over the net. Underhand serve. Lead-up to a bump.",
-    "games": [
-      "Balloon Keep-Up"
-    ]
-  },
-  {
     "title": "Pass It On",
     "url": "https://www.youtube.com/watch?v=MlUpvUQIvng",
     "channel": "PhysEdGames",
@@ -563,7 +474,6 @@ window.VIDEOS = [
     "channel": "PE Game Changers",
     "about": "Same crossing game with flag belts and a safe zone. Useful before Capture the Flag.",
     "games": [
-      "Sharks and Dolphins (chute)",
       "Tail Tag"
     ]
   },
@@ -601,7 +511,6 @@ window.VIDEOS = [
     "about": "Students show a long, tight log roll down a mat.",
     "games": [
       "April gymnastics",
-      "Floor rope walk",
       "Log roll"
     ]
   },
@@ -864,6 +773,153 @@ window.VIDEOS = [
     "about": "Warzone Dodgeball is definitely what the name says – a dodgeball warzone. Also known as ‘Paintball Dodgeball’, to set up for this game, place some obstacles and barriers for players to hide behind. Things like mats and tubes that represent …",
     "games": [
       "Warzone Dodgeball"
+    ]
+  },
+  {
+    "title": "Pac-Man / Line Tag",
+    "url": "https://www.youtube.com/watch?v=Zzz5BAzCD6Y",
+    "channel": "Prime Coaching Sport",
+    "about": "Tag game on the court lines: everyone, taggers included, may only move along the lines.",
+    "games": [
+      "Line Tag",
+      "Line Tag / Pac-Man"
+    ]
+  },
+  {
+    "title": "Ollie Ollie Octopus",
+    "url": "https://www.youtube.com/watch?v=s5EdpydUKoc",
+    "channel": "PhysEdGames",
+    "about": "Octopus crossing game: tagged runners stay on the spot as seaweed/urchins and help tag.",
+    "games": [
+      "Octopus"
+    ]
+  },
+  {
+    "title": "River Crossing",
+    "url": "https://www.youtube.com/watch?v=bSW4FWgRhhQ",
+    "channel": "PE Game Changers",
+    "about": "Team crossing: the floor is out, cross using only the islands/stepping spots.",
+    "games": [
+      "Safe to Shore"
+    ]
+  },
+  {
+    "title": "How to Play Crab Football",
+    "url": "https://www.youtube.com/watch?v=9c21ChJTt7Q",
+    "channel": "How2PlayGames",
+    "about": "Football/soccer played in the crab position.",
+    "games": [
+      "Crab Football"
+    ]
+  },
+  {
+    "title": "Captain's Ball",
+    "url": "https://www.youtube.com/watch?v=ZLA7skp-0Wo",
+    "channel": "Physical Education Videos For All",
+    "about": "Pass the ball to your captain, who stays in a raised spot/hoop and may not run.",
+    "games": [
+      "Captain Ball"
+    ]
+  },
+  {
+    "title": "The Perfect Pass",
+    "url": "https://www.youtube.com/watch?v=fMOA2Lewl7o",
+    "channel": "Prime Coaching Sport",
+    "about": "Complete a set number of passes before a team can score.",
+    "games": [
+      "The Perfect Pass"
+    ]
+  },
+  {
+    "title": "The Numbers Game (hockey)",
+    "url": "https://www.youtube.com/watch?v=OCqaag_wKa0",
+    "channel": "Prime Coaching Sport",
+    "about": "Call numbers; those players come out to play a short point to goal (works with hockey sticks).",
+    "games": [
+      "Numbers Hockey"
+    ]
+  },
+  {
+    "title": "Captain's Coming!",
+    "url": "https://www.youtube.com/watch?v=BGjr8T8CqrQ",
+    "channel": "Coach Meger Fitness Games",
+    "about": "Caller shouts ship commands (bow, stern, captain's coming…) and the class responds.",
+    "games": [
+      "Captain’s Deck / Shipwreck",
+      "Command Warm-Up"
+    ]
+  },
+  {
+    "title": "Emma's Shadow Tag",
+    "url": "https://www.youtube.com/watch?v=SD5W0ENyoYY",
+    "channel": "Ever Active",
+    "about": "No-contact shadow tag.",
+    "games": [
+      "Shadow Tag"
+    ]
+  },
+  {
+    "title": "Simon Says",
+    "url": "https://www.youtube.com/watch?v=C3DeICZ3HCU",
+    "channel": "The PE Teacher",
+    "about": "Classic Simon Says listening and movement game.",
+    "games": [
+      "Simon Says Stay-In"
+    ]
+  },
+  {
+    "title": "Frisbee Hula Hoop Target",
+    "url": "https://www.youtube.com/watch?v=e5B3zKLZ7L4",
+    "channel": "Tim Mueller",
+    "about": "Teams take turns landing foam frisbees in their hula hoops.",
+    "games": [
+      "Flying Saucers"
+    ]
+  },
+  {
+    "title": "Protect the Castle",
+    "url": "https://www.youtube.com/watch?v=4kkgD4-6ODs",
+    "channel": "Prime Coaching Sport",
+    "about": "Attackers throw to knock the castle; defenders block.",
+    "games": [
+      "Protect the Castle"
+    ]
+  },
+  {
+    "title": "Diamond Cricket",
+    "url": "https://www.youtube.com/watch?v=s7LFvMRqbgg",
+    "channel": "The Games Gurus",
+    "about": "Four batters on a diamond run together while the bowler feeds from the middle.",
+    "games": [
+      "Diamond Strike"
+    ]
+  },
+  {
+    "title": "Rob the Nest",
+    "url": "https://www.youtube.com/watch?v=ne-uS98wClw",
+    "channel": "Prime Coaching Sport",
+    "about": "Race to bring objects back to your nest one at a time; later rounds steal from other nests.",
+    "games": [
+      "Rob the Nest",
+      "Rob the Nest (dribble)"
+    ]
+  },
+  {
+    "title": "Balloon Keep Up",
+    "url": "https://www.youtube.com/watch?v=UyscH3vx0LA",
+    "channel": "CIRAOntario",
+    "about": "Circle keep-up with balloons; add balloons or limits for a challenge.",
+    "games": [
+      "Balloon Keep-Up"
+    ]
+  },
+  {
+    "title": "Parachute Sharks & Lifeguards",
+    "url": "https://www.youtube.com/watch?v=N4vcO2DFuOk",
+    "channel": "Paul Fischenich",
+    "about": "Parachute game: sharks under the chute pull swimmers under; lifeguards rescue.",
+    "games": [
+      "Sharks and Dolphins (chute)"
     ]
   }
 ];
