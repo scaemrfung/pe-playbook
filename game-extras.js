@@ -12,8 +12,7 @@ window.GAME_EXTRAS = {
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
       "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
       "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting.",
-      "Teacher holds the only extra noodle in grades 1–2.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/angry-neighbour/."
+      "Teacher holds the only extra noodle in grades 1–2."
     ],
     "look": "Everyone is moving or has a role in Angry Neighbour. A tagged player re-enters instead of sitting.",
     "outcomes": [
@@ -51,13 +50,13 @@ window.GAME_EXTRAS = {
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Angry Neighbour.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
       "Noodles: demo a hip tap on a volunteer, then a wrong swing, then the hip tap again.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/angry-neighbour/."
+      "Year plan: December, September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/angry-neighbour/"
   },
   "Backyard Dog Tag": {
     "numbers": "Large group · K-4 · 5–8 min rounds.",
@@ -70,8 +69,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
       "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/backyard-dog-tag/."
+      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
     ],
     "look": "Everyone is moving or has a role in Backyard Dog Tag. A tagged player re-enters instead of sitting.",
     "outcomes": [
@@ -108,13 +106,13 @@ window.GAME_EXTRAS = {
       "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Backyard Dog Tag.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/backyard-dog-tag/."
+      "Year plan: December, September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/backyard-dog-tag/"
   },
   "Blob Tag": {
     "numbers": "2–4 starters · optional noodles or cone hats",
@@ -402,8 +400,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
       "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/freedom-catch/."
+      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
     ],
     "look": "Everyone is moving or has a role in Freedom Catch. A tagged player re-enters instead of sitting.",
     "outcomes": [
@@ -440,13 +437,13 @@ window.GAME_EXTRAS = {
       "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Freedom Catch.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/freedom-catch/."
+      "Year plan: December, September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/freedom-catch/"
   },
   "Frozen Tag": {
     "numbers": "2–4 taggers · optional noodles · an agreed freeze shape and rescue",
@@ -694,8 +691,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
       "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
-      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/massive-10-second-tag/."
+      "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting."
     ],
     "look": "Everyone is moving or has a role in Massive 10 Second Tag. A tagged player re-enters instead of sitting.",
     "outcomes": [
@@ -732,13 +728,13 @@ window.GAME_EXTRAS = {
       "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Massive 10 Second Tag.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/massive-10-second-tag/."
+      "Year plan: December, September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/massive-10-second-tag/"
   },
   "Mystery Number Tag": {
     "numbers": "Large group · 2-6 · 5–8 min rounds.",
@@ -753,8 +749,7 @@ window.GAME_EXTRAS = {
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
       "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
       "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting.",
-      "Feet-only hockey-ball version if sticks are new or the class is tired.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/mystery-number-tag/."
+      "Feet-only hockey-ball version if sticks are new or the class is tired."
     ],
     "look": "Everyone is moving or has a role in Mystery Number Tag. A tagged player re-enters instead of sitting.",
     "outcomes": [
@@ -792,13 +787,13 @@ window.GAME_EXTRAS = {
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Mystery Number Tag.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
       "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/mystery-number-tag/."
+      "Year plan: December, September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/mystery-number-tag/"
   },
   "Octopus": {
     "numbers": "Whole class · 6–8 min · 1 octopus to start.",
@@ -875,8 +870,7 @@ window.GAME_EXTRAS = {
       "Walk-tag first, then jog. Add a second tagger only when space is clean.",
       "Safe islands: three hoops that freeze a tagger for three seconds if a runner reaches one.",
       "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting.",
-      "Teacher holds the only extra noodle in grades 1–2.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/reindeer-roundup/."
+      "Teacher holds the only extra noodle in grades 1–2."
     ],
     "look": "Everyone is moving or has a role in Reindeer Roundup. A tagged player re-enters instead of sitting.",
     "outcomes": [
@@ -914,13 +908,13 @@ window.GAME_EXTRAS = {
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Reindeer Roundup.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
       "Noodles: demo a hip tap on a volunteer, then a wrong swing, then the hip tap again.",
-      "Year plan: December, September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/reindeer-roundup/."
+      "Year plan: December, September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/reindeer-roundup/"
   },
   "Shadow Tag": {
     "numbers": "Pairs or whole class · 4 min · sun or poly-spot ‘shadows’.",
@@ -1608,8 +1602,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Must complete one pass before a shot or a score.",
       "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/3-ball-soccer/."
+      "Extra players are walking walls — they may deflect a ball with feet but may not score."
     ],
     "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in 3-Ball Soccer.",
     "outcomes": [
@@ -1646,13 +1639,13 @@ window.GAME_EXTRAS = {
       "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 3-Ball Soccer.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/3-ball-soccer/."
+      "Year plan: September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/3-ball-soccer/"
   },
   "4-Goal Soccer": {
     "numbers": "Large group · 2-8 · 5–8 min rounds.",
@@ -1666,8 +1659,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Must complete one pass before a shot or a score.",
       "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/4-goal-soccer/."
+      "Extra players are walking walls — they may deflect a ball with feet but may not score."
     ],
     "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in 4-Goal Soccer.",
     "outcomes": [
@@ -1704,13 +1696,13 @@ window.GAME_EXTRAS = {
       "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 4-Goal Soccer.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/4-goal-soccer/."
+      "Year plan: September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/4-goal-soccer/"
   },
   "5 Soccer Circle Ideas": {
     "numbers": "Large group · 4-8 · 5–8 min rounds.",
@@ -1724,8 +1716,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Must complete one pass before a shot or a score.",
       "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/5-soccer-circle-ideas/."
+      "Extra players are walking walls — they may deflect a ball with feet but may not score."
     ],
     "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in 5 Soccer Circle Ideas.",
     "outcomes": [
@@ -1762,13 +1753,13 @@ window.GAME_EXTRAS = {
       "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in 5 Soccer Circle Ideas.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/5-soccer-circle-ideas/."
+      "Year plan: September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/5-soccer-circle-ideas/"
   },
   "Bench Ball": {
     "numbers": "Large group · 3-8 · 5–8 min rounds.",
@@ -1782,8 +1773,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Must complete one pass before a shot or a score.",
       "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/bench-ball/."
+      "Extra players are walking walls — they may deflect a ball with feet but may not score."
     ],
     "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Bench Ball.",
     "outcomes": [
@@ -1820,13 +1810,13 @@ window.GAME_EXTRAS = {
       "Grouping: Two teams · 8–12 minutes · extra players fetch, rebuild, or take the next wave.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bench Ball.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/bench-ball/."
+      "Year plan: October, January — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/bench-ball/"
   },
   "Booger Ball": {
     "numbers": "Two teams · 6 min · sticky-name send.",
@@ -2143,8 +2133,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Must complete one pass before a shot or a score.",
       "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/crazy-ball-soccer/."
+      "Extra players are walking walls — they may deflect a ball with feet but may not score."
     ],
     "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Crazy Ball Soccer.",
     "outcomes": [
@@ -2181,13 +2170,13 @@ window.GAME_EXTRAS = {
       "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Crazy Ball Soccer.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/crazy-ball-soccer/."
+      "Year plan: September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/crazy-ball-soccer/"
   },
   "End Ball": {
     "numbers": "Two teams of 6–10 · 2 × 4 min · sport ball, two end zones.",
@@ -2264,8 +2253,7 @@ window.GAME_EXTRAS = {
       "Must complete one pass before a shot or a score.",
       "Add a second foam ball if more than 24 students so more players get a touch.",
       "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Feet-only hockey-ball version if sticks are new or the class is tired.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/end-wall-soccer/."
+      "Feet-only hockey-ball version if sticks are new or the class is tired."
     ],
     "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in End Wall Soccer.",
     "outcomes": [
@@ -2303,13 +2291,13 @@ window.GAME_EXTRAS = {
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in End Wall Soccer.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
       "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/end-wall-soccer/."
+      "Year plan: September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/end-wall-soccer/"
   },
   "End Zone Ball": {
     "numbers": "Same family as End Ball · 2 × 4 min.",
@@ -2688,8 +2676,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Must complete one pass before a shot or a score.",
       "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/home-alone/."
+      "Extra players are walking walls — they may deflect a ball with feet but may not score."
     ],
     "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Home Alone.",
     "outcomes": [
@@ -2726,13 +2713,13 @@ window.GAME_EXTRAS = {
       "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Home Alone.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/home-alone/."
+      "Year plan: October, January — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/home-alone/"
   },
   "Hurley Burley": {
     "numbers": "Grades 3–6 · 8 min · one sport ball.",
@@ -3009,8 +2996,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Must complete one pass before a shot or a score.",
       "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/sideline-soccer/."
+      "Extra players are walking walls — they may deflect a ball with feet but may not score."
     ],
     "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Sideline Soccer.",
     "outcomes": [
@@ -3047,13 +3033,13 @@ window.GAME_EXTRAS = {
       "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Sideline Soccer.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: September — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/sideline-soccer/."
+      "Year plan: September — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/sideline-soccer/"
   },
   "Slappers!": {
     "numbers": "Large group · 4-8 · 5–8 min rounds.",
@@ -3066,8 +3052,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Must complete one pass before a shot or a score.",
       "Add a second foam ball if more than 24 students so more players get a touch.",
-      "Extra players are walking walls — they may deflect a ball with feet but may not score.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/slappers/."
+      "Extra players are walking walls — they may deflect a ball with feet but may not score."
     ],
     "look": "The ball (or object) keeps moving. Players spread into space instead of a pile-up in Slappers!.",
     "outcomes": [
@@ -3104,13 +3089,13 @@ window.GAME_EXTRAS = {
       "Grouping: Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Slappers!.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
-      "Year plan: October, January — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/slappers/."
+      "Year plan: October, January — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/slappers/"
   },
   "Steal the Bacon": {
     "numbers": "Two numbered lines · one object in the middle",
@@ -4780,8 +4765,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Tee or a bounced teacher-toss for grades 1–2.",
       "Three-pitch maximum, then a run-out anyway so the line keeps moving.",
-      "Fielders rotate one spot after each batter.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/catch-step/."
+      "Fielders rotate one spot after each batter."
     ],
     "look": "A send, a run, and a field job happen in one rotation. Nobody waits a whole period to strike in Catch & Step.",
     "outcomes": [
@@ -4818,13 +4802,13 @@ window.GAME_EXTRAS = {
       "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Catch & Step.",
       "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/catch-step/."
+      "Year plan: June — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/catch-step/"
   },
   "Chuck the Chicken": {
     "numbers": "Two teams · 8 min · one rubber chicken or beanbag.",
@@ -5204,8 +5188,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Tee or a bounced teacher-toss for grades 1–2.",
       "Three-pitch maximum, then a run-out anyway so the line keeps moving.",
-      "Fielders rotate one spot after each batter.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/longball/."
+      "Fielders rotate one spot after each batter."
     ],
     "look": "A send, a run, and a field job happen in one rotation. Nobody waits a whole period to strike in Longball.",
     "outcomes": [
@@ -5242,13 +5225,13 @@ window.GAME_EXTRAS = {
       "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Longball.",
       "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/longball/."
+      "Year plan: June — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/longball/"
   },
   "Quick Baseball": {
     "numbers": "Whole class · 8 min · tee or coach toss, one hoop.",
@@ -5322,8 +5305,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Tee or a bounced teacher-toss for grades 1–2.",
       "Three-pitch maximum, then a run-out anyway so the line keeps moving.",
-      "Fielders rotate one spot after each batter.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/shark-ball/."
+      "Fielders rotate one spot after each batter."
     ],
     "look": "A send, a run, and a field job happen in one rotation. Nobody waits a whole period to strike in Shark Ball.",
     "outcomes": [
@@ -5360,13 +5342,13 @@ window.GAME_EXTRAS = {
       "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Shark Ball.",
       "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/shark-ball/."
+      "Year plan: June — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/shark-ball/"
   },
   "Strikeball": {
     "numbers": "Large group · K-8 · 5–8 min rounds.",
@@ -5379,8 +5361,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Tee or a bounced teacher-toss for grades 1–2.",
       "Three-pitch maximum, then a run-out anyway so the line keeps moving.",
-      "Fielders rotate one spot after each batter.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/strikeball/."
+      "Fielders rotate one spot after each batter."
     ],
     "look": "A send, a run, and a field job happen in one rotation. Nobody waits a whole period to strike in Strikeball.",
     "outcomes": [
@@ -5417,13 +5398,13 @@ window.GAME_EXTRAS = {
       "Grouping: Batting team and fielding team, or a continuous line · 8–12 minutes · rotate the strike job often.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Strikeball.",
       "Watch for a long batting line. Use a continuous format or a 3-pitch max.",
-      "Year plan: June — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/strikeball/."
+      "Year plan: June — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/strikeball/"
   },
   "Thunderball": {
     "numbers": "Whole class · 6 min · wiffle or t-ball, 30 cones.",
@@ -6061,8 +6042,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Change the locomotor: walk, skip, gallop, side-slide. Running is not the only option.",
       "Quality round: the team must redo a trip if the ball, bag, or pin is dropped.",
-      "Weaker hand or weaker foot home on the last rotation (grades 5–6).",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/ice-cream-cone-relays/."
+      "Weaker hand or weaker foot home on the last rotation (grades 5–6)."
     ],
     "look": "Fair starts, a clean skill, and a high-five. Speed does not replace the skill in Ice Cream Cone Relays.",
     "outcomes": [
@@ -6099,13 +6079,13 @@ window.GAME_EXTRAS = {
       "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Ice Cream Cone Relays.",
       "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/ice-cream-cone-relays/."
+      "Year plan: December, February — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/ice-cream-cone-relays/"
   },
   "Jungle Relay": {
     "numbers": "Even teams · a turn cone · optional bag or cone for the back",
@@ -8888,8 +8868,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
       "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/immersive-workout-adventure-all-ages-brain-break/."
+      "Last round is ‘show your best three’ — not a race."
     ],
     "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Immersive Workout ADVENTURE All Ages Brain Break.",
     "outcomes": [
@@ -8926,13 +8905,13 @@ window.GAME_EXTRAS = {
       "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Immersive Workout ADVENTURE All Ages Brain Break.",
       "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/immersive-workout-adventure-all-ages-brain-break/."
+      "Year plan: February, April — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/immersive-workout-adventure-all-ages-brain-break/"
   },
   "Knee-ball jumps": {
     "numbers": "Soft ball, short lane.",
@@ -9124,8 +9103,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
       "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/minute-fitness/."
+      "Last round is ‘show your best three’ — not a race."
     ],
     "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Minute Fitness.",
     "outcomes": [
@@ -9162,13 +9140,13 @@ window.GAME_EXTRAS = {
       "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Minute Fitness.",
       "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/minute-fitness/."
+      "Year plan: February, April — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/minute-fitness/"
   },
   "Pair Running": {
     "numbers": "Large group · 3-8 · 5–8 min rounds.",
@@ -9181,8 +9159,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
       "Partner count: one moves, one counts out loud, then swap.",
-      "Last round is ‘show your best three’ — not a race.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/paarlauf/."
+      "Last round is ‘show your best three’ — not a race."
     ],
     "look": "Landings and shapes stay tidy when tired. Quality reps, not a race, in Pair Running.",
     "outcomes": [
@@ -9219,13 +9196,13 @@ window.GAME_EXTRAS = {
       "Grouping: Lanes, spots, or a perimeter path · 6–10 minutes · quality reps, then a stretch.",
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Pair Running.",
       "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
-      "Year plan: February, April — match the month’s sport ball when you can.",
-      "Credit: PHYSEDGAMES. Original page: https://physedgames.com/paarlauf/."
+      "Year plan: February, April — match the month’s sport ball when you can."
     ],
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [],
+    "source": "https://physedgames.com/paarlauf/"
   },
   "Balance Carry": {
     "numbers": "One object per person or pair · a finish or a court",

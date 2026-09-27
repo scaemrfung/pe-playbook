@@ -838,3 +838,5 @@ body { overflow-wrap: break-word; }
 @media (max-width: 480px) {
   table.games th, table.games td { padding: 6px 7px; overflow-wrap: anywhere; }
 }
+.card-source { font-size: .8rem; margin-top: 6px; }
+.card-source a { color: var(--muted); }

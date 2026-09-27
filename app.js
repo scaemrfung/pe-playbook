@@ -6,11 +6,11 @@
   function pegHtml(name) {
     const list = pegFor(name);
     if (!list.length) return "";
-    return list.map((h) => `<details class="peg" id="peg-${h.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}"><summary><strong>From PHYSEDGAMES${h.name !== name ? ": " + h.name : ""}</strong> <span class="meta">· ${h.category} · Grades ${h.grades}</span></summary>
+    return list.map((h) => `<details class="peg" id="peg-${h.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}"><summary><strong>More details${h.name !== name ? ": " + h.name : ""}</strong> <span class="meta">· Grades ${h.grades}</span></summary>
       <p class="meta"><strong>Equipment:</strong> ${h.equipment}</p>
       <p>${h.overview}</p>
       <ol class="clean">${h.steps.map((s) => `<li>${s}</li>`).join("")}</ol>
-      <p class="meta"><a href="${h.page}" target="_blank" rel="noopener">Original PHYSEDGAMES page</a> · <a href="${h.video}" target="_blank" rel="noopener">PHYSEDGAMES video</a></p></details>`).join("");
+      <p class="meta"><a href="${h.page}" target="_blank" rel="noopener">Source</a> · <a href="${h.video}" target="_blank" rel="noopener">Video</a></p></details>`).join("");
   }
 
   function videoHtml(name) {
@@ -335,6 +335,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
               <div><strong>Grades 5–6.</strong> ${g.g56 || ""}</div>
             </div>
             <p class="note"><strong>Safety.</strong> ${g.safety || ""}</p>
+            ${(() => { const src = x.source || (pegFor(g.name)[0] || {}).page; return src ? `<p class="meta card-source"><a href="${src}" target="_blank" rel="noopener">Source</a></p>` : ""; })()}
           </article>`;
         }).join("");
         return `<h2 class="week-title">${group.label}</h2>${articles}`;
