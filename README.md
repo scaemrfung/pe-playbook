@@ -41,3 +41,18 @@ page (from the `NAV` list in `chrome.js`).
 Month pages accept `?grade=1`…`6` (or `?grade=all`) to show one grade band's
 differentiation. The homepage picks “This month” from today's date
 (Mountain Time); test another date with `?today=2026-10-05`.
+
+## New Games This Week (`new-games.html`)
+
+Shows the games PE Game Ideas added to the **PE Games Library** doc this week
+(Drive: My Drive/SCAE/2026-2027/PE Weekly Plan/PE Games Library.docx), then
+every game with a how-to card, suggested unit and grade band, and an archive
+grouped by week.
+
+- Data: `new-games-data.js` (generated). Renderer: `new-games.js` (the same
+  code bakes the no-JS copy between the `newgames:start/end` markers in
+  `new-games.html`).
+- Weekly update: run the update script (`update.py`, kept on the box in
+  `/workspace/pe-newgames`) on the new docx. It diffs the doc against
+  `new-games-data.js`, files new games under that Monday's week, and rewrites
+  only `new-games-data.js` and the baked block in `new-games.html`.
