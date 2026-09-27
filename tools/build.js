@@ -400,24 +400,16 @@ index = between(index, "this-month", `        <h2 id="this-month-title">${first.
         <p class="note" id="this-month-note" hidden></p>`);
 outputs["index.html"] = withStaticNav(index, "index.html");
 
-// videos-data.js + baked videos.html — every video the site links, with the
-// lessons / games / pages that use it (tools/videos.js; link checks in
-// videos-meta.json from tools/check-videos.js)
+// videos-data.js — index of every video the site links, with the lessons /
+// games / pages that use it (tools/videos.js). No page shows it any more (the
+// Videos page was retired Sep 2026; videos.html is a redirect to games.html);
+// tools/check-videos.js uses it to check links (results in videos-meta.json).
 for (const f of ["youtube-data.js", "warmup-nogym-data.js", "new-games-data.js", "dodgeball-data.js", "weekly-plans-data.js"]) {
   if (fs.existsSync(path.join(ROOT, f))) vm.runInContext(read(f), sandbox, { filename: f });
 }
 const VID = require("./videos.js")({ ROOT, W, months, monthBank, fill, gslug, ALIASES, SITE });
 outputs["videos-data.js"] = VID.js;
-{
-  vm.runInContext("window.VIDEO_INDEX = " + JSON.stringify(VID.data) + ";", sandbox);
-  vm.runInContext(read("videos-page.js"), sandbox, { filename: "videos-page.js" });
-  const baked = W.VideosRender.render(W.VIDEO_INDEX);
-  const vhtml = read("videos.html");
-  const re = /(<!-- videos:start[^>]*-->)[\s\S]*?(<!-- videos:end -->)/;
-  if (!re.test(vhtml)) throw new Error("videos.html is missing <!-- videos:start --> / <!-- videos:end --> markers");
-  outputs["videos.html"] = withStaticNav(vhtml.replace(re, (m, a, b) => `${a}\n${baked}\n      ${b}`), "videos.html");
-  report.push(`videos.html: ${VID.data.count} videos from ${VID.data.occurrences} links`);
-}
+report.push(`videos-data.js: ${VID.data.count} videos from ${VID.data.occurrences} links (link-check index only)`);
 
 // every other hand-written page: static nav from chrome.js NAV
 const SKIP = new Set(Object.keys(outputs));

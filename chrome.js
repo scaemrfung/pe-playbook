@@ -30,7 +30,6 @@
     ["dodgeball.html", "Dodgeball"],
     ["gymnastics.html", "Gymnastics"],
     ["track-day.html", "Track Day"],
-    ["videos.html", "Videos"],
     ["outcomes.html", "Outcomes"],
     ["fitness.html", "Fitness"],
     ["how.html", "How to teach"],

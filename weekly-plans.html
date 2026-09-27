@@ -31,7 +31,6 @@
         <a href="dodgeball.html">Dodgeball</a>
         <a href="gymnastics.html">Gymnastics</a>
         <a href="track-day.html">Track Day</a>
-        <a href="videos.html">Videos</a>
         <a href="outcomes.html">Outcomes</a>
         <a href="fitness.html">Fitness</a>
         <a href="how.html">How to teach</a>
@@ -70,7 +69,7 @@
           const id = "plan-" + name.replace(/\.docx$/i, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
           return `<tr id="${id}">
             <td><strong>${p.title}</strong>${p.note ? `<div class="meta">${p.note}</div>` : ""}</td>
-            <td><a class="btn" href="${p.file}" download="${name}">Download .docx</a> <a class="meta" href="videos.html?q=${encodeURIComponent(p.title)}">Videos</a></td>
+            <td><a class="btn" href="${p.file}" download="${name}">Download .docx</a></td>
           </tr>`;
         }).join("");
         return `<h2 style="margin-top:0;color:var(--green)">${month}</h2>
