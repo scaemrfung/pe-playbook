@@ -1287,7 +1287,7 @@ window.NEW_GAMES = {
    "source": "PhysEdGames",
    "notes": [],
    "links": [
-    "https://www.youtube.com/shorts/hs4Ucby_Fbw"
+    "https://www.youtube.com/watch?v=WKWzotw2cLI"
    ],
    "order": 37,
    "unit": "December",
