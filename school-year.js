@@ -97,7 +97,7 @@
   }
 
   /** The school month to feature today. Follows the PE week plan below, so
-      Sept 28–Oct 1 (school Week 5) is still September (plan W4) and
+      Sept 28–Oct 1 (school Week 5) is October (plan W1) and
       Mar 30–Apr 2 is March (plan W4). Breaks point at the next school week. Summer → September. */
   function currentMonth(now) {
     var t = today(now);
@@ -321,10 +321,12 @@
     [1, "September", 0, "Start-up week: gym routines, signals and name games. September W1 lessons start Sept 8 (Week 2)."],
     [2, "September", 1, "", "Soccer"], [3, "September", 2, "Terry Fox run Fri Sept 18", "Soccer"],
     [4, "September", 3, "Football intro", "Football"],
-    [5, "September", 4, "Football Week 5: the weekly plan teaches October W1 (flag or two-hand touch, routes, end-zone catch)", "Football"],
-    [6, "October", 1], [7, "October", 2], [8, "October", 3], [9, "October", 4],
-    [10, "November", 1], [11, "November", 2], [12, "November", 3], [13, "November", 4],
-    [14, "December", 1], [15, "December", 4, "Last week before Christmas: festival stations and closers (W2–W3 are extra games this year)"],
+    // Week 5 starts October's football (matches the weekly plans), so October–November
+    // run one week early and December W2 (an extra week before) absorbs the shift.
+    // From January on, school weeks and month weeks line up as before.
+    [5, "October", 1, "", "Football"], [6, "October", 2, "", "Football"], [7, "October", 3], [8, "October", 4],
+    [9, "November", 1], [10, "November", 2], [11, "November", 3], [12, "November", 4],
+    [13, "December", 1], [14, "December", 2], [15, "December", 4, "Last week before Christmas: festival stations and closers (W3 is extra games this year)"],
     [16, "January", 1], [17, "January", 2], [18, "January", 3], [19, "January", 4],
     [20, "February", 1], [21, "February", 2], [22, "February", 3], [23, "February", 4],
     [24, "March", 1], [25, "March", 2], [26, "March", 3], [27, "March", 4, "Right after Spring Break"],
@@ -334,7 +336,10 @@
     [40, "June", 4, "Last class of the year"]
   ];
   // Month weeks that have no school week this year.
-  var PE_EXTRA = { "December": { 2: "Extra games — no school week for these this year. Use them any time.", 3: "Extra games — no school week for these this year. Use them any time." } };
+  var PE_EXTRA = {
+    "September": { 4: "Soccer and football review — no school week for this one this year (Week 5 goes on to October W1 football). Use it any time." },
+    "December": { 3: "Extra games — no school week for these this year. Use them any time." }
+  };
 
   function peEntry(n) {
     for (var i = 0; i < PE_WEEKS.length; i++) if (PE_WEEKS[i][0] === n) return PE_WEEKS[i];
@@ -378,6 +383,6 @@
   var API = { config: CONFIG, dates: dates, tokens: tokens, fill: fill, today: today, currentMonth: currentMonth,
     calendar: CAL, weeks: WEEKS, breaks: BREAKS, todayISO: todayISO, status: status, closedReason: closedReason,
     peWeeks: PE_WEEKS, peWeek: peWeek, peWeeksForMonth: peWeeksForMonth, peWeekLabel: peWeekLabel };
-  if (root) root.SCHOOL_YEAR = API;
+  if (root) { root.SCHOOL_YEAR = API; root.PE_SCHOOL_YEAR = API; } // PE_SCHOOL_YEAR: read by Sub Day Plans for the PE week plan
   if (typeof module !== "undefined" && module.exports) module.exports = API;
 })(typeof window !== "undefined" ? window : null);
