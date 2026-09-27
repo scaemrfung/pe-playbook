@@ -1545,7 +1545,7 @@ window.DODGE_GAMES = [
       "Two teams, 4 foam balls, official-style dodgeball with sportsmanship as rule #1.",
       "Agree on refs (teachers or trained students) and the school’s hit / catch / boundary rules before the first throw.",
       "Play to last players standing or a time cap with “all out players return” resets so nobody sits long.",
-      "Download the posted rules sheet from the game page if you want the full tournament version: https://physedgames.com/i/BATTLEBALL-RULES-2014.doc",
+      "For the full tournament version, use the <a href=\"https://physedgames.com/i/BATTLEBALL-RULES-2014.doc\" target=\"_blank\" rel=\"noopener\">rules sheet</a> from PHYSEDGAMES.",
       "Keep it recreational: foam balls, no head shots, no targeting from close range.",
       "House rule: hits below the waist. A catch is a save. A hit is a stretch, jail, bench, or switch — never sitting the period out.",
       "A catch is a save. The thrower takes a 10-second stretch, then stays in."

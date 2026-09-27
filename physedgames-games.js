@@ -562,7 +562,7 @@ window.PEG_HANDBOOK = {
     "source": "https://physedgames.com/category/large-group/",
     "playlist": "https://www.youtube.com/playlist?list=PLqApWQm0obyHE1dVucdzlTPmrzd7Hg3LH",
     "notes": [
-      "All 67 games from the PHYSEDGAMES large-group catalogue now live on these cards. Look for the “From PHYSEDGAMES” box on a card for the original overview, steps, and a link back to the source page.",
+      "All 67 games from the PHYSEDGAMES large-group catalogue now live on these cards. Open “More details” on a card for the original overview, steps, and source.",
       "Large group in this catalogue often means doubled classes (about 40–60) if you have the space. Shrink boundaries and tagger counts for a single class.",
       "Safety defaults for throwing and kicking games: foam or soft balls, tags below the shoulders, no head shots, two-finger or noodle tags.",
       "Dodgeball is optional programming. Prefer Detective, Net, Bench, or Prison Ball when you want more students moving; full house rules are on the Dodgeball page.",
@@ -868,7 +868,7 @@ window.PEG_HANDBOOK = {
         "Two teams, 4 foam balls, official-style dodgeball with sportsmanship as rule #1.",
         "Agree on refs (teachers or trained students) and the school’s hit / catch / boundary rules before the first throw.",
         "Play to last players standing or a time cap with “all out players return” resets so nobody sits long.",
-        "Download the posted rules sheet from the game page if you want the full tournament version: https://physedgames.com/i/BATTLEBALL-RULES-2014.doc",
+        "For the full tournament version, use the <a href=\"https://physedgames.com/i/BATTLEBALL-RULES-2014.doc\" target=\"_blank\" rel=\"noopener\">rules sheet</a> from PHYSEDGAMES.",
         "Keep it recreational: foam balls, no head shots, no targeting from close range."
       ],
       "video": "https://www.youtube.com/watch?v=b-aj8WV9kNs",
