@@ -659,7 +659,7 @@ const months = [
     "pew": "Active Living, Personal and Social Development, Character, Safety, Healthy Relationships",
     "equipment": "Pinnies, noodles, hoops, foam balls, benches, flags — as each game card lists",
     "fitness": "Private skip or shuttle on the last class. No ranking.",
-    "notes": "December is games, not a new sport. House rules: no elimination, soft tags. Use the Games library. Extra days: repeat a favourite.",
+    "notes": "December is games, not a new sport. House rules: no elimination, soft tags. Use the Big-Group Games page. Extra days: repeat a favourite.",
     "lessons": [
       {
         "w": 1,

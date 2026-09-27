@@ -24,7 +24,7 @@
   const NAV = [
     ["index.html", "Year"],
     ["weekly-plans.html", "Weekly plans"],
-    ["games.html", "Games"],
+    ["games.html", "Big-Group Games"],
     ["new-games.html", "New Games"],
     ["warmup-nogym.html", "Warm Up Games"],
     ["dodgeball.html", "Dodgeball"],

@@ -7,7 +7,7 @@ Open `index.html` in a browser. No install needed.
 
 Includes the year plan, games library, dodgeball (stay-in), demo videos,
 PEW outcomes, monthly fitness checklist, and Track Day event sheet. The 67
-PHYSEDGAMES large-group games are Games page cards (`physedgames-games.js`:
+PHYSEDGAMES large-group games are Big-Group Games page cards (`physedgames-games.js`:
 new cards in `PEG_DETAILS`, and every original entry in `PEG_HANDBOOK`, shown
 as a “From PHYSEDGAMES” box on the card that holds it). The old handbook page
 was retired in Sep 2026.
@@ -59,6 +59,14 @@ grouped by week.
   `/workspace/pe-newgames`) on the new docx. It diffs the doc against
   `new-games-data.js`, files new games under that Monday's week, and rewrites
   only `new-games-data.js` and the baked block in `new-games.html`.
+- Dedupe: New Games lists only games that are NOT already on the Big-Group
+  Games page (`games.html`). The update script leaves out every library game
+  named in its exclusion list (`dedupe.json`, same game or a clearly similar
+  variant) and any game whose name matches a Big-Group Games card or aka.
+  Games there keep one card, on the Big-Group Games page.
+- Card layout matches the Big-Group Games cards (head + type pill, When,
+  Equipment, Set-up, How we play, Variations, Video, More details, Safety,
+  Source). It lives in `new-games.js`, so every weekly rebuild keeps it.
 
 ## Videos page (`videos.html`)
 

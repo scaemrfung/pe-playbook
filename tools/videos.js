@@ -11,7 +11,7 @@
  *   games page               game cards that show a curated clip (exact name)
  *   warmup-nogym-data.js     Warm Up Games  (youtube field)
  *   new-games-data.js        New Games      (links[])
- *   physedgames-games.js     PHYSEDGAMES large-group games (Games page cards + playlist)
+ *   physedgames-games.js     PHYSEDGAMES large-group games (Big-Group Games page cards + playlist)
  *   weekly-plans/*.docx      Weekly plans   (hyperlinks, per grade band + day)
  *   data.js lessons          month lessons that name a game with a video
  *   month game tables        "Big-group games this month" rows with a video
@@ -136,7 +136,7 @@ module.exports = function buildVideos(ctx) {
     e.games.forEach((n) => {
       const card = cardNames.get(normName(n));
       if (card) {
-        addRef(e, { page: "games", label: `Games · ${card.name}`, href: `games.html#${gslug(card.name)}` });
+        addRef(e, { page: "games", label: `Big-Group Games · ${card.name}`, href: `games.html#${gslug(card.name)}` });
         (card.months || []).forEach((mo) => e.months.add("detail:" + mo));
       }
     });
@@ -170,7 +170,7 @@ module.exports = function buildVideos(ctx) {
     });
   });
 
-  // 5. PHYSEDGAMES large-group games (on the Games page; the old handbook page was retired)
+  // 5. PHYSEDGAMES large-group games (on the Big-Group Games page; the old handbook page was retired)
   const PEG = W.PEG_HANDBOOK;
   if (PEG && PEG.intro && PEG.intro.playlist) {
     const key = ytKey(PEG.intro.playlist);
@@ -179,7 +179,7 @@ module.exports = function buildVideos(ctx) {
       const e = entry(key, PEG.intro.playlist);
       e.labels.push("Large Group Games (playlist)");
       e.channels.push("PhysEdGames");
-      addRef(e, { page: "games", label: "Games · PHYSEDGAMES large-group games (playlist)", href: "games.html#peg-intro" });
+      addRef(e, { page: "games", label: "Big-Group Games · PHYSEDGAMES large-group games (playlist)", href: "games.html#peg-intro" });
     }
   }
 
@@ -290,7 +290,7 @@ module.exports = function buildVideos(ctx) {
 
   // ------------------------------------------------------------ finalize
   const PAGE_ORDER = ["lessons", "monthgames", "weekly", "games", "warmups", "newgames", "dodgeball"];
-  const PAGE_LABEL = { lessons: "Month lessons", monthgames: "Month game tables", weekly: "Weekly plans", games: "Games", warmups: "Warm Up Games", newgames: "New Games", dodgeball: "Dodgeball" };
+  const PAGE_LABEL = { lessons: "Month lessons", monthgames: "Month game tables", weekly: "Weekly plans", games: "Big-Group Games", warmups: "Warm Up Games", newgames: "New Games", dodgeball: "Dodgeball" };
   function primaryMonth(e) {
     for (const kind of ["lesson", "table", "unit", "weekly", "detail"]) {
       const hits = MONTH_ORDER.filter((mo) => e.months.has(kind + ":" + mo));
