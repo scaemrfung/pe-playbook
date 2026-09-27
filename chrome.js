@@ -66,7 +66,7 @@
      page, so the no-JS nav, the sidebar and the mobile nav always match.
      After editing, run: node tools/build.js */
   const MONTHS = [
-    ["September", "Soccer"],
+    ["September", "Soccer and Football"],
     ["October", "Football"],
     ["November", "Hockey"],
     ["December", "Games"],
@@ -146,7 +146,7 @@
 
   /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
      before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
-  const SITE_UPDATED = "2026-09-27T17:37:26Z";
+  const SITE_UPDATED = "2026-09-27T18:27:34Z";
   function ensureUpdatedStamp() {
     if (document.querySelector(".site-updated-stamp")) return;
     const el = document.createElement("div");

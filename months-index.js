@@ -3,15 +3,15 @@ window.PE_MONTHS = [
   {
     "name": "September",
     "file": "month-september.html",
-    "theme": "Soccer",
-    "guide": "Soccer Weeks 1–2 (Terry Fox run Fri Sept 18 in Week 2) · football intro Week 3 · review Week 4",
+    "theme": "Soccer and Football",
+    "guide": "Soccer Weeks 2–3 (Terry Fox run Fri Sept 18 in Week 3) · football Weeks 4–5 (Sept 21–Oct 2)",
     "lessons": 16
   },
   {
     "name": "October",
     "file": "month-october.html",
     "theme": "Football",
-    "guide": "Football (Weeks 1–2) · parachute and circus (Weeks 3–4)",
+    "guide": "Football (W1–W2) · parachute and circus (W3–W4)",
     "lessons": 16
   },
   {
@@ -32,7 +32,7 @@ window.PE_MONTHS = [
     "name": "January",
     "file": "month-january.html",
     "theme": "Basketball",
-    "guide": "Basketball (Weeks 1–2) · scoop send/receive (Weeks 3–4)",
+    "guide": "Basketball (W1–W2) · scoop send/receive (W3–W4)",
     "lessons": 16
   },
   {
@@ -67,7 +67,7 @@ window.PE_MONTHS = [
     "name": "June",
     "file": "month-june.html",
     "theme": "Baseball",
-    "guide": "Week 1: Track and Field Day · Weeks 2–4: T-ball / baseball",
+    "guide": "W1: Track and Field Day · W2–W4: T-ball / baseball",
     "lessons": 16
   }
 ];

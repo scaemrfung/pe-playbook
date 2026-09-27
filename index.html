@@ -66,8 +66,8 @@
       <article class="this-month" id="this-month">
         <p class="kicker">This month</p>
         <!-- build:this-month -->
-        <h2 id="this-month-title">September: Soccer</h2>
-        <p id="this-month-guide">Soccer Weeks 1–2 (Terry Fox run Fri Sept 18 in Week 2) · football intro Week 3 · review Week 4</p>
+        <h2 id="this-month-title">September: Soccer and Football</h2>
+        <p id="this-month-guide">Soccer Weeks 2–3 (Terry Fox run Fri Sept 18 in Week 3) · football Weeks 4–5 (Sept 21–Oct 2)</p>
         <p class="note" id="this-month-note" hidden></p>
         <!-- /build:this-month -->
         <ul>
@@ -87,14 +87,14 @@
         <!-- build:months -->
         <a class="month-card" href="month-september.html">
           <div class="mc-top"><span class="mc-kicker">01 · September</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></span></div>
-          <h3>Soccer</h3>
-          <p>Soccer Weeks 1–2 (Terry Fox run Fri Sept 18 in Week 2) · football intro Week 3 · review Week 4</p>
+          <h3>Soccer and Football</h3>
+          <p>Soccer Weeks 2–3 (Terry Fox run Fri Sept 18 in Week 3) · football Weeks 4–5 (Sept 21–Oct 2)</p>
           <span class="mc-go">16 lessons →</span>
         </a>
         <a class="month-card" href="month-october.html">
           <div class="mc-top"><span class="mc-kicker">02 · October</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M5 21V4h9l-1.5 4L14 12H5"/></svg></span></div>
           <h3>Football</h3>
-          <p>Football (Weeks 1–2) · parachute and circus (Weeks 3–4)</p>
+          <p>Football (W1–W2) · parachute and circus (W3–W4)</p>
           <span class="mc-go">16 lessons →</span>
         </a>
         <a class="month-card" href="month-november.html">
@@ -112,7 +112,7 @@
         <a class="month-card" href="month-january.html">
           <div class="mc-top"><span class="mc-kicker">05 · January</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M12 3c2 3 2 15 0 18M3 12c3-2 15-2 18 0"/></svg></span></div>
           <h3>Basketball</h3>
-          <p>Basketball (Weeks 1–2) · scoop send/receive (Weeks 3–4)</p>
+          <p>Basketball (W1–W2) · scoop send/receive (W3–W4)</p>
           <span class="mc-go">16 lessons →</span>
         </a>
         <a class="month-card" href="month-february.html">
@@ -142,7 +142,7 @@
         <a class="month-card" href="month-june.html">
           <div class="mc-top"><span class="mc-kicker">10 · June</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 20V8l8-4 8 4v12"/><path d="M4 8l8 4 8-4M12 12v8"/></svg></span></div>
           <h3>Baseball</h3>
-          <p>Week 1: Track and Field Day · Weeks 2–4: T-ball / baseball</p>
+          <p>W1: Track and Field Day · W2–W4: T-ball / baseball</p>
           <span class="mc-go">16 lessons →</span>
         </a>
         <!-- /build:months -->
@@ -234,8 +234,9 @@
           ? `<p class="whats-new-note"><strong>${esc(st.message.replace(/ with Week \d+\.$/, "."))}</strong> Next week's plan:</p>` : "";
         const plan = plans.find((p) => p.week === week.monday);
         if (plan) { body.innerHTML = planHTML(plan, lead); return; }
-        const where = pe && pe.month ? (pe.w ? `${pe.month} · Week ${pe.w}` : `${pe.month} · Start-up week`) : "";
-        const monthLink = pe && pe.month ? `<a class="whats-new-btn" href="month-${pe.month.toLowerCase()}.html${pe.w ? "#week-" + pe.w : ""}">Open ${esc(where)}</a>` : "";
+        // School-year week name (Week 5 · Football); the button opens that month-week section.
+        const where = pe && pe.month ? (pe.name || "Week " + pe.schoolWeek) + (pe.w ? ` (${pe.month} W${pe.w})` : " · start-up week") : "";
+        const monthLink = pe && pe.month ? `<a class="whats-new-btn" href="month-${pe.month.toLowerCase()}.html${pe.w ? "#week-" + pe.w : ""}">Open ${esc(pe.w ? pe.month + " W" + pe.w : pe.month)}</a>` : "";
         body.innerHTML = `${lead}<p class="whats-new-title">${esc(week.range)}${where ? " · " + esc(where) : ""}</p>
           <p class="whats-new-note">No downloadable plan posted for this week yet. The month page has this week's lessons.${week.note ? " " + esc(week.note) + "." : ""}</p>
           <p class="whats-new-actions">${monthLink}<a class="whats-new-link" href="weekly-plans.html">All weekly plans</a></p>`;

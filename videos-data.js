@@ -6,7 +6,7 @@ window.VIDEO_INDEX = {
  "groups": [
   {
    "id": "September",
-   "label": "September · Soccer",
+   "label": "September · Soccer and Football",
    "href": "month-september.html"
   },
   {
@@ -385,7 +385,7 @@ window.VIDEO_INDEX = {
     "Collect Em All"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September"
    ],
@@ -415,7 +415,7 @@ window.VIDEO_INDEX = {
     "4 vs 1 / keep-away"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "January"
@@ -464,7 +464,7 @@ window.VIDEO_INDEX = {
     "Backyard Dog Tag"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -502,7 +502,7 @@ window.VIDEO_INDEX = {
     "Dead Ant Tag"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -532,7 +532,7 @@ window.VIDEO_INDEX = {
     "End Wall Soccer"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September"
    ],
@@ -573,7 +573,7 @@ window.VIDEO_INDEX = {
     "It Tag"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -636,7 +636,7 @@ window.VIDEO_INDEX = {
     "Everybody’s It"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -697,7 +697,7 @@ window.VIDEO_INDEX = {
     "Freedom Catch"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -727,7 +727,7 @@ window.VIDEO_INDEX = {
     "Fruit Salad"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "October",
@@ -771,7 +771,7 @@ window.VIDEO_INDEX = {
     "Hospital Tag"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -833,7 +833,7 @@ window.VIDEO_INDEX = {
     "Mirror Mirror"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "February"
@@ -863,7 +863,7 @@ window.VIDEO_INDEX = {
     "Mystery Number Tag"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -894,7 +894,7 @@ window.VIDEO_INDEX = {
     "Run Octopus Run"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -938,7 +938,7 @@ window.VIDEO_INDEX = {
     "Steal the Bacon"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "October",
@@ -1010,7 +1010,7 @@ window.VIDEO_INDEX = {
     "Line Tag / Pac-Man"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -1040,7 +1040,7 @@ window.VIDEO_INDEX = {
     "Steal the Bacon"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "October",
@@ -1115,7 +1115,7 @@ window.VIDEO_INDEX = {
     "Pin Galore Soccer"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September"
    ],
@@ -1144,7 +1144,7 @@ window.VIDEO_INDEX = {
     "Avoid the Mines"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September"
    ],
@@ -1181,7 +1181,7 @@ window.VIDEO_INDEX = {
     "Red Light, Green Light"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "October",
@@ -1239,7 +1239,7 @@ window.VIDEO_INDEX = {
     "Rob the Nest (dribble)"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "October",
@@ -1307,7 +1307,7 @@ window.VIDEO_INDEX = {
     "Rush Hour"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "February"
@@ -1337,7 +1337,7 @@ window.VIDEO_INDEX = {
     "Sharks and Dolphins"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "October",
@@ -1388,7 +1388,7 @@ window.VIDEO_INDEX = {
     "Sideline Soccer"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September"
    ],
@@ -1417,7 +1417,7 @@ window.VIDEO_INDEX = {
     "Simon Says Stay-In"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -1447,7 +1447,7 @@ window.VIDEO_INDEX = {
     "Sneak & React"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "May"
@@ -1477,7 +1477,7 @@ window.VIDEO_INDEX = {
     "Group Numbers"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September",
     "December"
@@ -1514,7 +1514,7 @@ window.VIDEO_INDEX = {
     "End Zone"
    ],
    "month": "September",
-   "unit": "September · Soccer",
+   "unit": "September · Soccer and Football",
    "months": [
     "September"
    ],

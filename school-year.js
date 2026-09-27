@@ -97,8 +97,8 @@
   }
 
   /** The school month to feature today. Follows the PE week plan below, so
-      Sept 28–Oct 1 is still September (Week 4) and Mar 30–Apr 2 is March
-      (Week 4). Breaks point at the next school week. Summer → September. */
+      Sept 28–Oct 1 (school Week 5) is still September (plan W4) and
+      Mar 30–Apr 2 is March (plan W4). Breaks point at the next school week. Summer → September. */
   function currentMonth(now) {
     var t = today(now);
     var name = MONTH_NAMES[t.m];
@@ -313,13 +313,18 @@
 
   /* ---- PE month plan on the real calendar ---------------------------------
      Each school week (1 = Aug 31–Sept 4) teaches one month week (W1–W4).
-     [school week, month, month week, note]  (month week 0 = start-up week) */
+     Weeks are named by the school-year count (Week 4 = Sept 21–25); the month
+     week is the plan section on the month page (month-september.html#week-3).
+     [school week, month, month week, note, theme]  (month week 0 = start-up week;
+     theme is optional and shown next to the week name, e.g. "Week 4 · Football") */
   var PE_WEEKS = [
-    [1, "September", 0, "Start-up week: gym routines, signals and name games. September Week 1 starts Sept 8."],
-    [2, "September", 1], [3, "September", 2, "Terry Fox run Fri Sept 18"], [4, "September", 3], [5, "September", 4],
+    [1, "September", 0, "Start-up week: gym routines, signals and name games. September W1 lessons start Sept 8 (Week 2)."],
+    [2, "September", 1, "", "Soccer"], [3, "September", 2, "Terry Fox run Fri Sept 18", "Soccer"],
+    [4, "September", 3, "Football intro", "Football"],
+    [5, "September", 4, "Football Week 5: the weekly plan teaches October W1 (flag or two-hand touch, routes, end-zone catch)", "Football"],
     [6, "October", 1], [7, "October", 2], [8, "October", 3], [9, "October", 4],
     [10, "November", 1], [11, "November", 2], [12, "November", 3], [13, "November", 4],
-    [14, "December", 1], [15, "December", 4, "Last week before Christmas: festival stations and closers (Weeks 2–3 are extra games this year)"],
+    [14, "December", 1], [15, "December", 4, "Last week before Christmas: festival stations and closers (W2–W3 are extra games this year)"],
     [16, "January", 1], [17, "January", 2], [18, "January", 3], [19, "January", 4],
     [20, "February", 1], [21, "February", 2], [22, "February", 3], [23, "February", 4],
     [24, "March", 1], [25, "March", 2], [26, "March", 3], [27, "March", 4, "Right after Spring Break"],
@@ -339,7 +344,8 @@
     var e = w && peEntry(w.n);
     if (!e) return null;
     return { kind: kind || "week", schoolWeek: w.n, month: e[1], w: e[2], range: w.range, start: w.start, end: w.end,
-      days: w.days, off: w.off, note: w.note, planNote: e[3] || "" };
+      days: w.days, off: w.off, note: w.note, planNote: e[3] || "", theme: e[4] || "",
+      name: "Week " + w.n + (e[4] ? " · " + e[4] : ""), plan: e[2] ? e[1] + " W" + e[2] : e[1] + " start-up" };
   }
   /** PE week for a date (default today): {month, w, range, note, planNote, kind}.
       kind: week | break (next school week) | summer | before */
