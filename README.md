@@ -5,12 +5,12 @@ Live: https://scaemrfung.github.io/pe-playbook/
 
 Open `index.html` in a browser. No install needed.
 
-Includes the year plan, games library, dodgeball (stay-in), demo videos,
+Includes the year plan, Big-Group Games, New Games, dodgeball (stay-in), per-card demo videos,
 PEW outcomes, monthly fitness checklist, and Track Day event sheet. The 67
 PHYSEDGAMES large-group games are Big-Group Games page cards (`physedgames-games.js`:
 new cards in `PEG_DETAILS`, and every original entry in `PEG_HANDBOOK`, shown
 as a “From PHYSEDGAMES” box on the card that holds it). The old handbook page
-was retired in Sep 2026.
+was retired in Sep 2026; `large-group-pe-games.html` now redirects to `games.html`.
 
 ## Yearly review (one file)
 
