@@ -24,7 +24,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Such a simple tag game; kids go bananas, literally! As players get tagged, they must curve their bodies into the shape of a banana. Someone else will come along and ‘peel’ them so that they are free.",
     "games": [
-      "Banana Tag"
+      "Banana Tag",
+      "Frozen Tag"
     ]
   },
   {
@@ -42,7 +43,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Hilarious idea for a simple tag game: if a player gets tagged, he must turn over on his back and put arms and legs up in the air like a dead ant on its back. To get back up? 4 players who aren’t tagged must attach themselves to an arm or le…",
     "games": [
-      "Bug Tag / Dead Ant"
+      "Bug Tag / Dead Ant",
+      "Dead Ant Tag"
     ]
   },
   {
@@ -79,7 +81,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "What a great game, seriously one of the best tag games out there. This is a must play. Lots of Dynamics, lots going on in this unique idea thanks to Dan Penna for another hit.",
     "games": [
-      "Home Free Bad Guy Blob Tag"
+      "Home Free Bad Guy Blob Tag",
+      "Blob Tag"
     ]
   },
   {
@@ -346,7 +349,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Here’s a multi-skills game idea, lots of skills involved (mostly basketball skills practice but could be modified) – thanks Dan Kirsch!",
     "games": [
-      "Bombardment"
+      "Bombardment",
+      "Castleball"
     ]
   },
   {
@@ -447,7 +451,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Here’s a fun teamwork game. It’s very easy to play, and it’s great to use to for a fun cooperative experience. There are actually 3 ways to play, each with a varying level of difficulty. Start by asking your players to explain what cooperat…",
     "games": [
-      "Cooperative Wall Ball"
+      "Cooperative Wall Ball",
+      "Wall Rally"
     ]
   },
   {
@@ -456,7 +461,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Team-building game. A group holds hands in a circle or line and passes a hula hoop from player to player without breaking the chain-link. Not as easy as it sounds! Time trials, team vs. team, or large group are all fun ways to play this gam…",
     "games": [
-      "Circle Hoop Pass"
+      "Circle Hoop Pass",
+      "Hoop Pass"
     ]
   },
   {
@@ -520,7 +526,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "In this fitness or warm-up game, hula hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. Players cannot cross…",
     "games": [
-      "Fitness Musical Hoops"
+      "Fitness Musical Hoops",
+      "Musical Hoops"
     ]
   },
   {
@@ -538,7 +545,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Another movement game to help enhance discussions and awareness of personal space. Hula hoop madness starts with lots of hula hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away a…",
     "games": [
-      "Hulahoop Madness"
+      "Hulahoop Madness",
+      "Musical Hoops"
     ]
   },
   {
@@ -592,7 +600,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Here’s a fun little reacting and running competition that can basically be used for all ages. You don’t need much for equipment either. Split the group into 2 teams, they don’t even have to be even numbers. If you’ve got cones, you could tr…",
     "games": [
-      "Oyster Shell"
+      "Oyster Shell",
+      "Steal the Bacon"
     ]
   },
   {
@@ -619,7 +628,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Here’s a unique commands and directions game, with a ‘race’ and competition element, can be used pretty much through all the grade levels (thanks James Barton)!",
     "games": [
-      "Red Line"
+      "Red Line",
+      "Command Warm-Up"
     ]
   },
   {
@@ -655,7 +665,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Very simple warm-up game with a simple idea: the teacher calls out familiar actions that you would find on a video camera – play, stop, rewind, fast forward, etc. For each word that’s called out, the students will have to perform the relate…",
     "games": [
-      "The Video Camera Game"
+      "The Video Camera Game",
+      "Command Warm-Up"
     ]
   },
   {
@@ -709,7 +720,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Great large group game (can use with up to 50 players). It’s a combination of kickball and dodgeball. As usual, lots of fun, lots of laughs, and lots of skills. A must try if you have a huge group and want to do something a bit different.",
     "games": [
-      "Kickball-dodge"
+      "Kickball-dodge",
+      "Massive Kickball Dodgeball"
     ]
   },
   {
@@ -727,7 +739,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Pin Knockover is a classic target throwing or rolling game. Two teams match-up on each side of the gym and be the first team to knock over all of the opposing teams pins. Other skills involved are blocking, goaltending, running, underhand, …",
     "games": [
-      "Pin Knockover"
+      "Pin Knockover",
+      "Skittle Ball"
     ]
   },
   {
@@ -745,7 +758,8 @@ window.VIDEOS = [
     "channel": "PhysEdGames",
     "about": "Prison ball is a dodgeball-type game where 2 teams face-off against each other. Along the ends of the gym, behind each team is a prison area. Whenever a player gets hit, he or she must head to prison behind the opposite team on that end. Th…",
     "games": [
-      "Jail-catch (prisonball)"
+      "Jail-catch (prisonball)",
+      "Prison Ball"
     ]
   },
   {

@@ -1,4 +1,18 @@
 (function () {
+  function pegFor(name) {
+    const P = window.PEG_HANDBOOK;
+    return P ? P.games.filter((h) => h.card === name) : [];
+  }
+  function pegHtml(name) {
+    const list = pegFor(name);
+    if (!list.length) return "";
+    return list.map((h) => `<details class="peg" id="peg-${h.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}"><summary><strong>From PHYSEDGAMES${h.name !== name ? ": " + h.name : ""}</strong> <span class="meta">· ${h.category} · Grades ${h.grades}</span></summary>
+      <p class="meta"><strong>Equipment:</strong> ${h.equipment}</p>
+      <p>${h.overview}</p>
+      <ol class="clean">${h.steps.map((s) => `<li>${s}</li>`).join("")}</ol>
+      <p class="meta"><a href="${h.page}" target="_blank" rel="noopener">Original PHYSEDGAMES page</a> · <a href="${h.video}" target="_blank" rel="noopener">PHYSEDGAMES video</a></p></details>`).join("");
+  }
+
   function videoHtml(name) {
     const clips = window.VIDEOS || [];
     if (!name) return "";
@@ -44,7 +58,7 @@
 
   function gameCatalog() {
     const names = new Set(Object.keys(window.GAME_EXTRAS || {}));
-    [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || [], window.SKILL_DETAILS || [], window.BG30_DETAILS || []).forEach((g) => {
+    [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || [], window.SKILL_DETAILS || [], window.BG30_DETAILS || [], window.PEG_DETAILS || []).forEach((g) => {
       if (g && g.name) names.add(g.name);
     });
     const aliases = {
@@ -161,7 +175,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
     const filterBox = document.getElementById("type-filters");
     const monthBox = document.getElementById("month-filters");
     const MONTH_NAMES = ["September","October","November","December","January","February","March","April","May","June"];
-    const details = [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || [], window.SKILL_DETAILS || [], window.BG30_DETAILS || []);
+    const details = [].concat(window.GAME_DETAILS || [], window.K2_DETAILS || [], window.G36_DETAILS || [], window.SKILL_DETAILS || [], window.BG30_DETAILS || [], window.PEG_DETAILS || []);
     const TYPES = [
       { id: "tag", label: "Tag & chase" },
       { id: "invasion", label: "Invasion & team" },
@@ -254,7 +268,8 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
         const x = EX[g.name] || {};
         const hay = [g.name, g.source, g.purpose, (g.play || []).join(" "), (g.months || []).join(" "),
           (x.more || []).join(" "), (x.variations || []).join(" "), (x.skins || []).join(" "),
-          (x.ifThis || []).join(" "), (x.aka || []).join(" "), x.look || "", typeLabel(typeOf(g))].join(" ").toLowerCase();
+          (x.ifThis || []).join(" "), (x.aka || []).join(" "), (g.aka || []).join(" "), x.look || "", typeLabel(typeOf(g)),
+          pegFor(g.name).map((h) => h.name + " " + h.category).join(" ")].join(" ").toLowerCase();
         return !term || hay.includes(term);
       });
 
@@ -284,7 +299,8 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
           const skins = (g.skins || x.skins || []).map((s) => `<li>${s}</li>`).join("");
           const vars = skins ? "" : (x.variations || []).filter((s) => !/^source:|^credit:/i.test(s)).map((s) => `<li>${s}</li>`).join("");
           const ifThis = (g.ifThis || x.ifThis || []).map((s) => `<li>${s}</li>`).join("");
-          const akaAnchors = (g.aka || x.aka || []).map((n) => `<span id="${gslug(n)}"></span>`).join("");
+          const pegNames = pegFor(g.name).map((h) => h.name).filter((n) => gslug(n) !== gslug(g.name) && !(g.aka || x.aka || []).some((a) => gslug(a) === gslug(n)));
+          const akaAnchors = (g.aka || x.aka || []).concat(pegNames).map((n) => `<span id="${gslug(n)}"></span>`).join("");
           const akaLine = (g.aka || x.aka || []).length ? `<p class="meta"><strong>Also called:</strong> ${(g.aka || x.aka).join(" · ")}</p>` : "";
           return `
           <article class="gcard" id="${gslug(g.name)}">
@@ -307,6 +323,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
             ${vars ? `<p><strong>Variations</strong></p><ul class="clean">${vars}</ul>` : ""}
             ${more ? `<p><strong>Teaching tips</strong></p><ul class="clean">${more}</ul>` : ""}
             ${videoHtml(g.name)}
+            ${pegHtml(g.name)}
             ${(() => {
               const outs = (x.outcomes && x.outcomes.length) ? x.outcomes : (x.look ? [{ code: "Look-for", look: x.look }] : []);
               if (!outs.length) return x.look ? `<p class="note"><strong>Look-for.</strong> ${x.look}</p>` : "";

@@ -11,7 +11,7 @@
  *   games page               game cards that show a curated clip (exact name)
  *   warmup-nogym-data.js     Warm Up Games  (youtube field)
  *   new-games-data.js        New Games      (links[])
- *   large-group-pe-games.html PHYSEDGAMES handbook (article.game links)
+ *   physedgames-games.js     PHYSEDGAMES large-group games (Games page cards + playlist)
  *   weekly-plans/*.docx      Weekly plans   (hyperlinks, per grade band + day)
  *   data.js lessons          month lessons that name a game with a video
  *   month game tables        "Big-group games this month" rows with a video
@@ -129,7 +129,7 @@ module.exports = function buildVideos(ctx) {
   });
 
   // 2. games page cards (videoHtml shows curated clips whose games[] match the card name)
-  const DETAILS = [].concat(W.GAME_DETAILS || [], W.K2_DETAILS || [], W.G36_DETAILS || [], W.SKILL_DETAILS || [], W.BG30_DETAILS || [], W.DALY_DETAILS || []);
+  const DETAILS = [].concat(W.GAME_DETAILS || [], W.K2_DETAILS || [], W.G36_DETAILS || [], W.SKILL_DETAILS || [], W.BG30_DETAILS || [], W.DALY_DETAILS || [], W.PEG_DETAILS || []);
   const cardNames = new Map();
   DETAILS.forEach((g) => { if (g && g.name && !cardNames.has(normName(g.name))) cardNames.set(normName(g.name), g); });
   Object.values(V).forEach((e) => {
@@ -170,34 +170,19 @@ module.exports = function buildVideos(ctx) {
     });
   });
 
-  // 5. PHYSEDGAMES handbook
-  if (exists("large-group-pe-games.html")) {
-    const html = read("large-group-pe-games.html");
-    const artRe = /<article class="game" id="([^"]+)">([\s\S]*?)<\/article>/g;
-    let m;
-    while ((m = artRe.exec(html))) {
-      const id = m[1], body = m[2];
-      const title = decodeEnt(((/<h3>([\s\S]*?)<\/h3>/.exec(body) || [])[1] || "").replace(/<[^>]+>/g, "").trim());
-      const num = decodeEnt(((/<p class="num">([\s\S]*?)<\/p>/.exec(body) || [])[1] || "").trim());
-      (body.match(/href="([^"]+)"/g) || []).map((h) => decodeEnt(h.slice(6, -1))).forEach((url) => {
-        const key = ytKey(url);
-        if (!key) return;
-        seenOcc.push(["PHYSEDGAMES handbook", key]);
-        const e = entry(key, url);
-        e.games.add(title);
-        addRef(e, { page: "handbook", label: `PHYSEDGAMES handbook · ${num ? num + ": " : ""}${title}`, href: `large-group-pe-games.html#${id}` });
-      });
-    }
-    const pl = /href="(https:\/\/www\.youtube\.com\/playlist\?list=[^"]+)"/.exec(html);
-    if (pl) {
-      const key = ytKey(decodeEnt(pl[1]));
-      seenOcc.push(["PHYSEDGAMES handbook", key]);
-      const e = entry(key, pl[1]);
+  // 5. PHYSEDGAMES large-group games (on the Games page; the old handbook page was retired)
+  const PEG = W.PEG_HANDBOOK;
+  if (PEG && PEG.intro && PEG.intro.playlist) {
+    const key = ytKey(PEG.intro.playlist);
+    if (key) {
+      seenOcc.push(["Games", key]);
+      const e = entry(key, PEG.intro.playlist);
       e.labels.push("Large Group Games (playlist)");
       e.channels.push("PhysEdGames");
-      addRef(e, { page: "handbook", label: "PHYSEDGAMES handbook · Playlist of all games", href: "large-group-pe-games.html" });
+      addRef(e, { page: "games", label: "Games · PHYSEDGAMES large-group games (playlist)", href: "games.html#peg-intro" });
     }
   }
+
 
   // 6. Weekly plans (.docx)
   (W.WEEKLY_PLANS || []).forEach((p) => {
@@ -304,8 +289,8 @@ module.exports = function buildVideos(ctx) {
   });
 
   // ------------------------------------------------------------ finalize
-  const PAGE_ORDER = ["lessons", "monthgames", "weekly", "games", "warmups", "newgames", "dodgeball", "handbook"];
-  const PAGE_LABEL = { lessons: "Month lessons", monthgames: "Month game tables", weekly: "Weekly plans", games: "Games", warmups: "Warm Up Games", newgames: "New Games", dodgeball: "Dodgeball", handbook: "PHYSEDGAMES handbook" };
+  const PAGE_ORDER = ["lessons", "monthgames", "weekly", "games", "warmups", "newgames", "dodgeball"];
+  const PAGE_LABEL = { lessons: "Month lessons", monthgames: "Month game tables", weekly: "Weekly plans", games: "Games", warmups: "Warm Up Games", newgames: "New Games", dodgeball: "Dodgeball" };
   function primaryMonth(e) {
     for (const kind of ["lesson", "table", "unit", "weekly", "detail"]) {
       const hits = MONTH_ORDER.filter((mo) => e.months.has(kind + ":" + mo));

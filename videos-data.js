@@ -2,7 +2,7 @@
    Edit the source pages/data, then run: node tools/build.js */
 window.VIDEO_INDEX = {
  "count": 162,
- "occurrences": 275,
+ "occurrences": 208,
  "groups": [
   {
    "id": "September",
@@ -88,10 +88,6 @@ window.VIDEO_INDEX = {
   {
    "id": "dodgeball",
    "label": "Dodgeball"
-  },
-  {
-   "id": "handbook",
-   "label": "PHYSEDGAMES handbook"
   }
  ],
  "replacements": [
@@ -489,8 +485,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -503,16 +498,42 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Backyard Dog Tag",
      "href": "games.html#backyard-dog-tag"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 01: Backyard Dog Tag",
-     "href": "large-group-pe-games.html#game-01"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Backyard Dog Tag - Primary P.E. Game"
+  },
+  {
+   "key": "yt:aiX68ZVy-Cw",
+   "url": "https://www.youtube.com/watch?v=aiX68ZVy-Cw",
+   "kind": "video",
+   "title": "Dead Ant Tag",
+   "channel": "PhysEdGames",
+   "about": "Hilarious idea for a simple tag game: if a player gets tagged, he must turn over on his back and put arms and legs up in the air like a dead ant on its back. To get back up? 4 players who aren’t tagged must attach themselves to an arm or le…",
+   "games": [
+    "Bug Tag / Dead Ant",
+    "Dead Ant Tag"
+   ],
+   "month": "September",
+   "unit": "September · Soccer",
+   "months": [
+    "September",
+    "December"
+   ],
+   "pages": [
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Dead Ant Tag",
+     "href": "games.html#dead-ant-tag"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Physical Education Games - Dead Ant Tag"
   },
   {
    "key": "yt:p1iFRDwnfnk",
@@ -535,8 +556,7 @@ window.VIDEO_INDEX = {
     "monthgames",
     "weekly",
     "games",
-    "newgames",
-    "handbook"
+    "newgames"
    ],
    "refs": [
     {
@@ -570,11 +590,6 @@ window.VIDEO_INDEX = {
      "page": "newgames",
      "label": "New Games · Wall Soccer / End Wall Soccer",
      "href": "new-games.html#wall-soccer-end-wall-soccer"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 24: End Wall Soccer",
-     "href": "large-group-pe-games.html#game-24"
     }
    ],
    "status": "ok",
@@ -602,8 +617,7 @@ window.VIDEO_INDEX = {
     "lessons",
     "monthgames",
     "games",
-    "warmups",
-    "handbook"
+    "warmups"
    ],
    "refs": [
     {
@@ -639,11 +653,6 @@ window.VIDEO_INDEX = {
      "page": "warmups",
      "label": "Warm Up Games · It Tag",
      "href": "warmup-nogym.html#warmup-19"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 09: Everybody’s It",
-     "href": "large-group-pe-games.html#game-09"
     }
    ],
    "status": "ok",
@@ -729,19 +738,13 @@ window.VIDEO_INDEX = {
     "December"
    ],
    "pages": [
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
      "page": "games",
      "label": "Games · Freedom Catch",
      "href": "games.html#freedom-catch"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 08: Freedom Catch",
-     "href": "large-group-pe-games.html#game-08"
     }
    ],
    "status": "ok",
@@ -767,8 +770,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -787,11 +789,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Fruit Salad",
      "href": "games.html#fruit-salad"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 12: Fruit Salad",
-     "href": "large-group-pe-games.html#game-12"
     }
    ],
    "status": "ok",
@@ -861,6 +858,36 @@ window.VIDEO_INDEX = {
    "ytTitle": "Primary PE Games - Hospital Tag"
   },
   {
+   "key": "yt:ox-HgTgaJHA",
+   "url": "https://www.youtube.com/watch?v=ox-HgTgaJHA",
+   "kind": "video",
+   "title": "Mirror Mirror",
+   "channel": "PhysEdGames",
+   "about": "Mirror Mirror could be a stand-alone game, could be used as a warm-up, or fitness activity. Quite a bit of action in this one. Start by dividing players into 2 equal groups. One group stands outside the basketball court line, while the othe…",
+   "games": [
+    "Mirror Mirror"
+   ],
+   "month": "September",
+   "unit": "September · Soccer",
+   "months": [
+    "September",
+    "February"
+   ],
+   "pages": [
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Mirror Mirror",
+     "href": "games.html#mirror-mirror"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Mirror Mirror on the wall - Phys Ed Game"
+  },
+  {
    "key": "yt:OhUiuvpDGw0",
    "url": "https://www.youtube.com/watch?v=OhUiuvpDGw0",
    "kind": "video",
@@ -877,19 +904,13 @@ window.VIDEO_INDEX = {
     "December"
    ],
    "pages": [
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
      "page": "games",
      "label": "Games · Mystery Number Tag",
      "href": "games.html#mystery-number-tag"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 06: Mystery Number Tag",
-     "href": "large-group-pe-games.html#game-06"
     }
    ],
    "status": "ok",
@@ -939,6 +960,78 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Physical Education Games - Ollie Ollie Octopus"
+  },
+  {
+   "key": "yt:yqsQAKs5fTw",
+   "url": "https://www.youtube.com/watch?v=yqsQAKs5fTw",
+   "kind": "video",
+   "title": "Oyster Shell",
+   "channel": "PhysEdGames",
+   "about": "Here’s a fun little reacting and running competition that can basically be used for all ages. You don’t need much for equipment either. Split the group into 2 teams, they don’t even have to be even numbers. If you’ve got cones, you could tr…",
+   "games": [
+    "Oyster Shell",
+    "Steal the Bacon"
+   ],
+   "month": "September",
+   "unit": "September · Soccer",
+   "months": [
+    "September",
+    "October",
+    "January",
+    "May",
+    "June"
+   ],
+   "pages": [
+    "lessons",
+    "monthgames",
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "lessons",
+     "month": "September",
+     "label": "September Week 3 · Class 1: Hold and hike",
+     "href": "month-september.html#w3-c1"
+    },
+    {
+     "page": "lessons",
+     "month": "October",
+     "label": "October Week 1 · Class 4: Football games day",
+     "href": "month-october.html#w1-c4"
+    },
+    {
+     "page": "monthgames",
+     "month": "September",
+     "label": "September · Big-group games: Steal the Bacon",
+     "href": "month-september.html#month-games"
+    },
+    {
+     "page": "monthgames",
+     "month": "October",
+     "label": "October · Big-group games: Steal the Bacon",
+     "href": "month-october.html#month-games"
+    },
+    {
+     "page": "monthgames",
+     "month": "May",
+     "label": "May · Big-group games: Steal the Bacon",
+     "href": "month-may.html#month-games"
+    },
+    {
+     "page": "monthgames",
+     "month": "June",
+     "label": "June · Big-group games: Steal the Bacon",
+     "href": "month-june.html#month-games"
+    },
+    {
+     "page": "games",
+     "label": "Games · Steal the Bacon",
+     "href": "games.html#steal-the-bacon"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Oyster Shell - Physical Education"
   },
   {
    "key": "yt:5U7vaay5Nmk",
@@ -1014,6 +1107,35 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Physical Education Games - Steal The Bacon"
+  },
+  {
+   "key": "yt:b26-f6k9y0c",
+   "url": "https://www.youtube.com/watch?v=b26-f6k9y0c",
+   "kind": "video",
+   "title": "Pin Galore Soccer",
+   "channel": "PhysEdGames",
+   "about": "This is a great modification to the regular game of soccer that has proven to increase participation and motivation in the gym. Instead of the typical scoring into the other team’s goal, players will try to knock over the other team’s pins …",
+   "games": [
+    "Pin Galore Soccer"
+   ],
+   "month": "September",
+   "unit": "September · Soccer",
+   "months": [
+    "September"
+   ],
+   "pages": [
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Pin Galore Soccer",
+     "href": "games.html#pin-galore-soccer"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Gym Games - Pin Galore Soccer"
   },
   {
    "key": "yt:MEkbscKPASU",
@@ -1185,6 +1307,36 @@ window.VIDEO_INDEX = {
    "ytTitle": "'Rob the nest' - A PE game for all grades and ages"
   },
   {
+   "key": "yt:tLKsXd86naA",
+   "url": "https://www.youtube.com/watch?v=tLKsXd86naA",
+   "kind": "video",
+   "title": "Rush Hour",
+   "channel": "PhysEdGames",
+   "about": "A simple game. A ‘try not to crash’ game. And actually another really fun game. It’s a fantastic LARGE GROUP game too! (Thanks to Jiang Xiaolei)",
+   "games": [
+    "Rush Hour"
+   ],
+   "month": "September",
+   "unit": "September · Soccer",
+   "months": [
+    "September",
+    "February"
+   ],
+   "pages": [
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Rush Hour",
+     "href": "games.html#rush-hour"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Rush Hour - Primary Physical Education Game"
+  },
+  {
    "key": "yt:MQkCWiTIW7k",
    "url": "https://www.youtube.com/watch?v=MQkCWiTIW7k",
    "kind": "video",
@@ -1251,19 +1403,13 @@ window.VIDEO_INDEX = {
     "September"
    ],
    "pages": [
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
      "page": "games",
      "label": "Games · Sideline Soccer",
      "href": "games.html#sideline-soccer"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 25: Sideline Soccer",
-     "href": "large-group-pe-games.html#game-25"
     }
    ],
    "status": "ok",
@@ -1301,6 +1447,36 @@ window.VIDEO_INDEX = {
    "ytTitle": "Simon Says (Brain Break for kids)"
   },
   {
+   "key": "yt:xPCr8CPp2Uw",
+   "url": "https://www.youtube.com/watch?v=xPCr8CPp2Uw",
+   "kind": "video",
+   "title": "Sneak & React",
+   "channel": "PhysEdGames",
+   "about": "Great for all ages, super fun. Works on reaction timing. Use this one as an instant activity or a warm-up but it can be a stand alone game as well. You also don’t need any equipment either.",
+   "games": [
+    "Sneak & React"
+   ],
+   "month": "September",
+   "unit": "September · Soccer",
+   "months": [
+    "September",
+    "May"
+   ],
+   "pages": [
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Sneak & React",
+     "href": "games.html#sneak-react"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Sneak And React - Physical Education Game"
+  },
+  {
    "key": "yt:Y63CWQOyh90",
    "url": "https://www.youtube.com/watch?v=Y63CWQOyh90",
    "kind": "video",
@@ -1308,8 +1484,7 @@ window.VIDEO_INDEX = {
    "channel": "PhysEdGames",
    "about": "This warm-up or teambuilding game is simple, yet awesome! Students spread out in the playing area. Give maybe 20-30 seconds for them to just run around and around (or skip, hop, gallop, spin, etc). When the time is right, the teacher yells …",
    "games": [
-    "Group Numbers",
-    "The Number Game"
+    "Group Numbers"
    ],
    "month": "September",
    "unit": "September · Soccer",
@@ -1319,8 +1494,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -1333,11 +1507,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Group Numbers",
      "href": "games.html#group-numbers"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 50: The Number Game",
-     "href": "large-group-pe-games.html#game-50"
     }
    ],
    "status": "ok",
@@ -1551,8 +1720,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -1565,11 +1733,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · 3-Ball Soccer",
      "href": "games.html#3-ball-soccer"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 27: 3-Ball Soccer",
-     "href": "large-group-pe-games.html#game-27"
     }
    ],
    "status": "ok",
@@ -1594,8 +1757,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -1608,11 +1770,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · 4-Goal Soccer",
      "href": "games.html#4-goal-soccer"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 28: 4-Goal Soccer",
-     "href": "large-group-pe-games.html#game-28"
     }
    ],
    "status": "ok",
@@ -1637,8 +1794,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -1651,11 +1807,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · 5 Soccer Circle Ideas",
      "href": "games.html#5-soccer-circle-ideas"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 30: 5 Soccer Circle Ideas",
-     "href": "large-group-pe-games.html#game-30"
     }
    ],
    "status": "ok",
@@ -1817,19 +1968,13 @@ window.VIDEO_INDEX = {
     "January"
    ],
    "pages": [
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
      "page": "games",
      "label": "Games · Home Alone",
      "href": "games.html#home-alone"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 66: Home Alone",
-     "href": "large-group-pe-games.html#game-66"
     }
    ],
    "status": "ok",
@@ -2061,11 +2206,13 @@ window.VIDEO_INDEX = {
    "month": "October",
    "unit": "October · Football",
    "months": [
-    "October"
+    "October",
+    "December",
+    "January"
    ],
    "pages": [
     "lessons",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -2075,9 +2222,9 @@ window.VIDEO_INDEX = {
      "href": "month-october.html#w2-c4"
     },
     {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 16: Prison Ball",
-     "href": "large-group-pe-games.html#game-16"
+     "page": "games",
+     "label": "Games · Prison Ball",
+     "href": "games.html#prison-ball"
     }
    ],
    "status": "ok",
@@ -2447,12 +2594,13 @@ window.VIDEO_INDEX = {
    "about": "Team-building game. A group holds hands in a circle or line and passes a hula hoop from player to player without breaking the chain-link. Not as easy as it sounds! Time trials, team vs. team, or large group are all fun ways to play this gam…",
    "games": [
     "Circle Hoop Pass",
-    "Circle to Circle",
-    "Hoop Pass"
+    "Hoop Pass",
+    "Circle to Circle"
    ],
    "month": "November",
    "unit": "November · Hockey",
    "months": [
+    "September",
     "November",
     "December",
     "June"
@@ -2460,8 +2608,8 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "warmups",
-    "handbook"
+    "games",
+    "warmups"
    ],
    "refs": [
     {
@@ -2495,19 +2643,64 @@ window.VIDEO_INDEX = {
      "href": "month-june.html#month-games"
     },
     {
+     "page": "games",
+     "label": "Games · Hoop Pass",
+     "href": "games.html#hoop-pass"
+    },
+    {
      "page": "warmups",
      "label": "Warm Up Games · Circle to Circle",
      "href": "warmup-nogym.html#warmup-10"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 62: Hoop Pass",
-     "href": "large-group-pe-games.html#game-62"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Team-building Game - Hoop Pass"
+  },
+  {
+   "key": "yt:RS4qjekAdXY",
+   "url": "https://www.youtube.com/watch?v=RS4qjekAdXY",
+   "kind": "video",
+   "title": "Pin Knockover",
+   "channel": "PhysEdGames",
+   "about": "Pin Knockover is a classic target throwing or rolling game. Two teams match-up on each side of the gym and be the first team to knock over all of the opposing teams pins. Other skills involved are blocking, goaltending, running, underhand, …",
+   "games": [
+    "Pin Knockover",
+    "Skittle Ball"
+   ],
+   "month": "November",
+   "unit": "November · Hockey",
+   "months": [
+    "November",
+    "January",
+    "March"
+   ],
+   "pages": [
+    "monthgames",
+    "games",
+    "dodgeball"
+   ],
+   "refs": [
+    {
+     "page": "monthgames",
+     "month": "November",
+     "label": "November · Big-group games: Skittle Ball",
+     "href": "month-november.html#month-games"
+    },
+    {
+     "page": "games",
+     "label": "Games · Skittle Ball",
+     "href": "games.html#skittle-ball"
+    },
+    {
+     "page": "dodgeball",
+     "label": "Dodgeball · Pin Knockover",
+     "href": "dodgeball.html#pin-knockover"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "P.E. Games - Pin Knockover"
   },
   {
    "key": "yt:4kkgD4-6ODs",
@@ -2854,8 +3047,7 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -2874,11 +3066,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Angry Neighbour",
      "href": "games.html#angry-neighbour"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 03: Angry Neighbour",
-     "href": "large-group-pe-games.html#game-03"
     }
    ],
    "status": "ok",
@@ -2915,6 +3102,49 @@ window.VIDEO_INDEX = {
    "ytTitle": "Another fun Circle Game for elementary PE (kindergarten to grade 3)"
   },
   {
+   "key": "yt:PY_70Zh-_Uw",
+   "url": "https://www.youtube.com/watch?v=PY_70Zh-_Uw",
+   "kind": "video",
+   "title": "Backboard Dodgeball",
+   "channel": "PhysEdGames",
+   "about": "Highly requested game of dodgeball. Lots of fun, and lots of skills as usual! Two teams faceoff in this fun version that uses the basketball court (full court or half court), thanks to Michelle Weaver!",
+   "games": [
+    "Backboard Dodgeball",
+    "Backboard Dodge Ball"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December",
+    "January"
+   ],
+   "pages": [
+    "games",
+    "warmups",
+    "dodgeball"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Backboard Dodgeball",
+     "href": "games.html#backboard-dodgeball"
+    },
+    {
+     "page": "warmups",
+     "label": "Warm Up Games · Backboard Dodge Ball",
+     "href": "warmup-nogym.html#warmup-2a"
+    },
+    {
+     "page": "dodgeball",
+     "label": "Dodgeball · Backboard Dodgeball",
+     "href": "dodgeball.html#backboard-dodgeball"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Backboard Dodgeball"
+  },
+  {
    "key": "yt:5yLIWF_R2-g",
    "url": "https://www.youtube.com/watch?v=5yLIWF_R2-g",
    "kind": "video",
@@ -2922,17 +3152,19 @@ window.VIDEO_INDEX = {
    "channel": "PhysEdGames",
    "about": "Such a simple tag game; kids go bananas, literally! As players get tagged, they must curve their bodies into the shape of a banana. Someone else will come along and ‘peel’ them so that they are free.",
    "games": [
-    "Banana Tag"
+    "Banana Tag",
+    "Frozen Tag"
    ],
    "month": "December",
    "unit": "December · Games",
    "months": [
+    "September",
     "December"
    ],
    "pages": [
     "lessons",
     "monthgames",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -2948,14 +3180,49 @@ window.VIDEO_INDEX = {
      "href": "month-december.html#month-games"
     },
     {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 11: Banana Tag",
-     "href": "large-group-pe-games.html#game-11"
+     "page": "games",
+     "label": "Games · Frozen Tag",
+     "href": "games.html#frozen-tag"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "P.E. Games - Banana Tag"
+  },
+  {
+   "key": "yt:b-aj8WV9kNs",
+   "url": "https://www.youtube.com/watch?v=b-aj8WV9kNs",
+   "kind": "video",
+   "title": "Battleball",
+   "channel": "PhysEdGames",
+   "about": "This is a special type of dodgeball game with official rules, refs, and the whole show! With sportsmanship being the number 1 rule, teams will compete in an epic battle to be the last ones standing. Great game incorporating lots of skills. …",
+   "games": [
+    "Battleball"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December"
+   ],
+   "pages": [
+    "games",
+    "dodgeball"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Battleball",
+     "href": "games.html#battleball"
+    },
+    {
+     "page": "dodgeball",
+     "label": "Dodgeball · Battleball",
+     "href": "dodgeball.html#battleball"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "PE Games - Battleball"
   },
   {
    "key": "yt:W7L2Z39pLK8",
@@ -2977,8 +3244,7 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -3003,16 +3269,47 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Bench Ball",
      "href": "games.html#bench-ball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 67: Bench Ball",
-     "href": "large-group-pe-games.html#game-67"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Physical Education Games - Benchball"
+  },
+  {
+   "key": "yt:ONbSKth10sk",
+   "url": "https://www.youtube.com/watch?v=ONbSKth10sk",
+   "kind": "video",
+   "title": "Bench Dodgeball",
+   "channel": "PhysEdGames",
+   "about": "It’s the classic game of bench dodgeball, at least I think it’s a classic. It might just be classic for me? Note: this game is different from BENCHBALL (where you try to get all players onto the bench – that’s not a dodgeball game, though i…",
+   "games": [
+    "Bench Dodgeball"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December",
+    "January"
+   ],
+   "pages": [
+    "games",
+    "dodgeball"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Bench Dodgeball",
+     "href": "games.html#bench-dodgeball"
+    },
+    {
+     "page": "dodgeball",
+     "label": "Dodgeball · Bench Dodgeball",
+     "href": "dodgeball.html#bench-dodgeball"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Bench Dodgeball - Phys ed games"
   },
   {
    "key": "yt:urQld9xI_H0",
@@ -3057,6 +3354,64 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Physical Education Games - Blob Tag"
+  },
+  {
+   "key": "yt:agG5BSXK8M8",
+   "url": "https://www.youtube.com/watch?v=agG5BSXK8M8",
+   "kind": "video",
+   "title": "Bombardment",
+   "channel": "PhysEdGames",
+   "about": "Here’s a multi-skills game idea, lots of skills involved (mostly basketball skills practice but could be modified) – thanks Dan Kirsch!",
+   "games": [
+    "Bombardment",
+    "Castleball"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December",
+    "January",
+    "June"
+   ],
+   "pages": [
+    "lessons",
+    "monthgames",
+    "games",
+    "newgames"
+   ],
+   "refs": [
+    {
+     "page": "lessons",
+     "month": "December",
+     "label": "December Week 3 · Class 4: Castleball",
+     "href": "month-december.html#w3-c4"
+    },
+    {
+     "page": "monthgames",
+     "month": "December",
+     "label": "December · Big-group games: Castleball",
+     "href": "month-december.html#month-games"
+    },
+    {
+     "page": "monthgames",
+     "month": "June",
+     "label": "June · Big-group games: Bombardment",
+     "href": "month-june.html#month-games"
+    },
+    {
+     "page": "games",
+     "label": "Games · Castleball",
+     "href": "games.html#castleball"
+    },
+    {
+     "page": "newgames",
+     "label": "New Games · Bombardment",
+     "href": "new-games.html#bombardment"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Bombardment PE Game"
   },
   {
    "key": "yt:fWs3Q9VEzVA",
@@ -3138,12 +3493,14 @@ window.VIDEO_INDEX = {
    "unit": "December · Games",
    "months": [
     "October",
-    "December"
+    "December",
+    "May",
+    "June"
    ],
    "pages": [
     "lessons",
     "monthgames",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -3165,9 +3522,9 @@ window.VIDEO_INDEX = {
      "href": "month-december.html#month-games"
     },
     {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 64: Capture The Flag Outdoors",
-     "href": "large-group-pe-games.html#game-64"
+     "page": "games",
+     "label": "Games · Capture The Flag Outdoors",
+     "href": "games.html#capture-the-flag-outdoors"
     }
    ],
    "status": "ok",
@@ -3193,8 +3550,7 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -3213,11 +3569,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Castleball",
      "href": "games.html#castleball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 35: Castleball",
-     "href": "large-group-pe-games.html#game-35"
     }
    ],
    "status": "ok",
@@ -3232,8 +3583,7 @@ window.VIDEO_INDEX = {
    "channel": "PhysEdGames",
    "about": "Another winning idea from Deric Hafer. As a variation to the original Castleball game (one of the best games there is) the modifications in this game make for another super fun, skill-building, and action-packed game. Set-up the castles, ch…",
    "games": [
-    "Castleball",
-    "Castleball 2.0"
+    "Castleball"
    ],
    "month": "December",
    "unit": "December · Games",
@@ -3244,8 +3594,7 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -3264,11 +3613,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Castleball",
      "href": "games.html#castleball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 36: Castleball 2.0",
-     "href": "large-group-pe-games.html#game-36"
     }
    ],
    "status": "ok",
@@ -3283,18 +3627,20 @@ window.VIDEO_INDEX = {
    "channel": "PhysEdGames",
    "about": "Here’s a fun teamwork game. It’s very easy to play, and it’s great to use to for a fun cooperative experience. There are actually 3 ways to play, each with a varying level of difficulty. Start by asking your players to explain what cooperat…",
    "games": [
-    "Cooperative Wall Ball"
+    "Cooperative Wall Ball",
+    "Wall Rally"
    ],
    "month": "December",
    "unit": "December · Games",
    "months": [
+    "October",
     "December",
     "March"
    ],
    "pages": [
     "lessons",
     "monthgames",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -3316,9 +3662,9 @@ window.VIDEO_INDEX = {
      "href": "month-march.html#month-games"
     },
     {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 60: Cooperative Wall Ball",
-     "href": "large-group-pe-games.html#game-60"
+     "page": "games",
+     "label": "Games · Wall Rally",
+     "href": "games.html#wall-rally"
     }
    ],
    "status": "ok",
@@ -3375,6 +3721,42 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Cross the river!! Play this game with every elementary PE class"
+  },
+  {
+   "key": "yt:lrOKbNcgeM8",
+   "url": "https://www.youtube.com/watch?v=lrOKbNcgeM8",
+   "kind": "video",
+   "title": "Detective Dodgeball",
+   "channel": "PhysEdGames",
+   "about": "This is a dodgeball game where if a player is hit, he must remember who hit him, because he’s out until the player who hit him gets hit. That’s the whole detective part. A great advancement to regular dodgeball to keep things flowing better…",
+   "games": [
+    "Detective Dodgeball"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December",
+    "January"
+   ],
+   "pages": [
+    "games",
+    "dodgeball"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Detective Dodgeball",
+     "href": "games.html#detective-dodgeball"
+    },
+    {
+     "page": "dodgeball",
+     "label": "Dodgeball · Detective Dodgeball",
+     "href": "dodgeball.html#detective-dodgeball"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Physical Education Games - Detective Dodgeball"
   },
   {
    "key": "yt:ATj3B12FUXw",
@@ -3479,6 +3861,51 @@ window.VIDEO_INDEX = {
    "ytTitle": "Gymball dodgeball mayhem, a crazy whole-class PE game!"
   },
   {
+   "key": "yt:aiukdRx1yNs",
+   "url": "https://www.youtube.com/watch?v=aiukdRx1yNs",
+   "kind": "video",
+   "title": "Home Free Bad Guy Blob Tag",
+   "channel": "PhysEdGames",
+   "about": "What a great game, seriously one of the best tag games out there. This is a must play. Lots of Dynamics, lots going on in this unique idea thanks to Dan Penna for another hit.",
+   "games": [
+    "Home Free Bad Guy Blob Tag",
+    "Blob Tag"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "September",
+    "December"
+   ],
+   "pages": [
+    "lessons",
+    "monthgames",
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "lessons",
+     "month": "December",
+     "label": "December Week 4 · Class 1: Student-choice tag",
+     "href": "month-december.html#w4-c1"
+    },
+    {
+     "page": "monthgames",
+     "month": "December",
+     "label": "December · Big-group games: Blob Tag",
+     "href": "month-december.html#month-games"
+    },
+    {
+     "page": "games",
+     "label": "Games · Blob Tag",
+     "href": "games.html#blob-tag"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Best Tag Game Ever?!"
+  },
+  {
    "key": "yt:NVpUzALtp_4",
    "url": "https://www.youtube.com/watch?v=NVpUzALtp_4",
    "kind": "video",
@@ -3527,8 +3954,7 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -3553,11 +3979,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Ice Cream Cone Relays",
      "href": "games.html#ice-cream-cone-relays"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 59: Ice Cream Cone Relays",
-     "href": "large-group-pe-games.html#game-59"
     }
    ],
    "status": "ok",
@@ -3572,8 +3993,7 @@ window.VIDEO_INDEX = {
    "channel": "PhysEdGames",
    "about": "This is now my new favourite LARGE GROUP game. Depending on your space, it could work with 40, 50, maybe even 60 players. Not sure why I’ve never done it this way after all these years, but I will definitely more often use this when I have …",
    "games": [
-    "Wolf’s Den",
-    "Large Group Wolf’s Den"
+    "Wolf’s Den"
    ],
    "month": "December",
    "unit": "December · Games",
@@ -3584,8 +4004,7 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -3604,11 +4023,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Wolf’s Den",
      "href": "games.html#wolf-s-den"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 04: Large Group Wolf’s Den",
-     "href": "large-group-pe-games.html#game-04"
     }
    ],
    "status": "ok",
@@ -3635,8 +4049,7 @@ window.VIDEO_INDEX = {
     "lessons",
     "monthgames",
     "games",
-    "newgames",
-    "handbook"
+    "newgames"
    ],
    "refs": [
     {
@@ -3660,16 +4073,47 @@ window.VIDEO_INDEX = {
      "page": "newgames",
      "label": "New Games · Massive 10 Second Tag",
      "href": "new-games.html#massive-10-second-tag"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 02: Massive 10 Second Tag",
-     "href": "large-group-pe-games.html#game-02"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Large Group Game for Physical Education"
+  },
+  {
+   "key": "yt:9e0pew5DbvU",
+   "url": "https://www.youtube.com/watch?v=9e0pew5DbvU",
+   "kind": "video",
+   "title": "Net Dodgeball",
+   "channel": "PhysEdGames",
+   "about": "Net dodgeball is basically a standard game of dodgeball, except that each team also has a net and a goalie. Any time a team scores a goal by throwing a dodgeball past the opposing goalie, all of the players who were out get to enter back in…",
+   "games": [
+    "Net Dodgeball"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December",
+    "March"
+   ],
+   "pages": [
+    "games",
+    "dodgeball"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Net Dodgeball",
+     "href": "games.html#net-dodgeball"
+    },
+    {
+     "page": "dodgeball",
+     "label": "Dodgeball · Net Dodgeball",
+     "href": "dodgeball.html#net-dodgeball"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Physical Education Games - Net Dodgeball"
   },
   {
    "key": "yt:Zzz5BAzCD6Y",
@@ -3722,11 +4166,12 @@ window.VIDEO_INDEX = {
    "month": "December",
    "unit": "December · Games",
    "months": [
-    "December"
+    "December",
+    "February"
    ],
    "pages": [
     "lessons",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -3736,9 +4181,9 @@ window.VIDEO_INDEX = {
      "href": "month-december.html#w2-c3"
     },
     {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 61: Pass It On",
-     "href": "large-group-pe-games.html#game-61"
+     "page": "games",
+     "label": "Games · Pass It On",
+     "href": "games.html#pass-it-on"
     }
    ],
    "status": "ok",
@@ -3934,6 +4379,77 @@ window.VIDEO_INDEX = {
    "ytTitle": "Pinball - Rolling and Throwing PE game"
   },
   {
+   "key": "yt:8t75NB1b-ho",
+   "url": "https://www.youtube.com/watch?v=8t75NB1b-ho",
+   "kind": "video",
+   "title": "Powerball",
+   "channel": "PhysEdGames",
+   "about": "Powerball is intense. It’s a target throwing game to get the heart-rate and excitement up! Teams throw dodgeballs at large exercise balls in order to push them passed the opposing teams goal line. Points are scored everytime that happens. T…",
+   "games": [
+    "Powerball"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December",
+    "March"
+   ],
+   "pages": [
+    "games",
+    "dodgeball"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Powerball",
+     "href": "games.html#powerball"
+    },
+    {
+     "page": "dodgeball",
+     "label": "Dodgeball · Powerball",
+     "href": "dodgeball.html#powerball"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Monster Ball - Powerball"
+  },
+  {
+   "key": "yt:fxUP4Z2_QMQ",
+   "url": "https://www.youtube.com/watch?v=fxUP4Z2_QMQ",
+   "kind": "video",
+   "title": "Standard Dodgeball",
+   "channel": "PhysEdGames",
+   "about": "Standard dodgeball is the classic version of the game. In our opinion, many of the variations of this game are huge improvements and should be played in place of the standard version, however, here it is for you to take a look at.",
+   "games": [
+    "Standard Dodgeball"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December"
+   ],
+   "pages": [
+    "games",
+    "dodgeball"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Standard Dodgeball",
+     "href": "games.html#standard-dodgeball"
+    },
+    {
+     "page": "dodgeball",
+     "label": "Dodgeball · Standard Dodgeball",
+     "href": "dodgeball.html#standard-dodgeball"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Physical Education Games - Standard Dodgeball"
+  },
+  {
    "key": "yt:yBzhmClFiWc",
    "url": "https://www.youtube.com/watch?v=yBzhmClFiWc",
    "kind": "video",
@@ -3963,6 +4479,77 @@ window.VIDEO_INDEX = {
    "ytTitle": "Tip & tag warm-up game: 'Cops & Robbers' (K-6) | Teaching Fundamentals of PE"
   },
   {
+   "key": "yt:-URBEEkYyWg",
+   "url": "https://www.youtube.com/watch?v=-URBEEkYyWg",
+   "kind": "video",
+   "title": "Ultimate Warriors",
+   "channel": "PhysEdGames",
+   "about": "Ultimate Warriors is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodgeball going on at th…",
+   "games": [
+    "Ultimate Warriors"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December",
+    "January"
+   ],
+   "pages": [
+    "games",
+    "dodgeball"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Ultimate Warriors",
+     "href": "games.html#ultimate-warriors"
+    },
+    {
+     "page": "dodgeball",
+     "label": "Dodgeball · Ultimate Warriors",
+     "href": "dodgeball.html#ultimate-warriors"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "P.E. Game - Ultimate Warriors!!!"
+  },
+  {
+   "key": "yt:DpnTLRUyLjQ",
+   "url": "https://www.youtube.com/watch?v=DpnTLRUyLjQ",
+   "kind": "video",
+   "title": "Warzone Dodgeball",
+   "channel": "PhysEdGames",
+   "about": "Warzone Dodgeball is definitely what the name says – a dodgeball warzone. Also known as ‘Paintball Dodgeball’, to set up for this game, place some obstacles and barriers for players to hide behind. Things like mats and tubes that represent …",
+   "games": [
+    "Warzone Dodgeball"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December"
+   ],
+   "pages": [
+    "games",
+    "dodgeball"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Warzone Dodgeball",
+     "href": "games.html#warzone-dodgeball"
+    },
+    {
+     "page": "dodgeball",
+     "label": "Dodgeball · Warzone Dodgeball",
+     "href": "dodgeball.html#warzone-dodgeball"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "P.E. Games - Warzone Dodgeball"
+  },
+  {
    "key": "yt:fQKSipovfYI",
    "url": "https://www.youtube.com/watch?v=fQKSipovfYI",
    "kind": "video",
@@ -3981,8 +4568,7 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -4001,11 +4587,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Wolf’s Den",
      "href": "games.html#wolf-s-den"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 05: Wolf’s Den",
-     "href": "large-group-pe-games.html#game-05"
     }
    ],
    "status": "ok",
@@ -4191,8 +4772,7 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -4211,11 +4791,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Throw & Go",
      "href": "games.html#throw-go"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 45: Throw & Go",
-     "href": "large-group-pe-games.html#game-45"
     }
    ],
    "status": "ok",
@@ -4428,8 +5003,8 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "warmups",
-    "handbook"
+    "games",
+    "warmups"
    ],
    "refs": [
     {
@@ -4451,19 +5026,92 @@ window.VIDEO_INDEX = {
      "href": "month-february.html#month-games"
     },
     {
+     "page": "games",
+     "label": "Games · Musical Hoops",
+     "href": "games.html#musical-hoops"
+    },
+    {
      "page": "warmups",
      "label": "Warm Up Games · Musical Hoops",
      "href": "warmup-nogym.html#warmup-20"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 49: Fitness Musical Hoops",
-     "href": "large-group-pe-games.html#game-49"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Physed Games - Fitness Musical Hoops"
+  },
+  {
+   "key": "yt:vFE9utBS084",
+   "url": "https://www.youtube.com/watch?v=vFE9utBS084",
+   "kind": "video",
+   "title": "Hula Hoop Twister",
+   "channel": "PhysEdGames",
+   "about": "It’s a combo of musical chairs and the Twister board game which for sure means it’s fun and active, definitely worth giving it a play or 10 in your PE class 😀 (thanks Deric Hafer)",
+   "games": [
+    "Hula Hoop Twister"
+   ],
+   "month": "February",
+   "unit": "February · Ropes",
+   "months": [
+    "February"
+   ],
+   "pages": [
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Hula Hoop Twister",
+     "href": "games.html#hula-hoop-twister"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Hula Hoop Twister - PE Game"
+  },
+  {
+   "key": "yt:JIBAnKESha0",
+   "url": "https://www.youtube.com/watch?v=JIBAnKESha0",
+   "kind": "video",
+   "title": "Hulahoop Madness",
+   "channel": "PhysEdGames",
+   "about": "Another movement game to help enhance discussions and awareness of personal space. Hula hoop madness starts with lots of hula hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away a…",
+   "games": [
+    "Hulahoop Madness",
+    "Musical Hoops"
+   ],
+   "month": "February",
+   "unit": "February · Ropes",
+   "months": [
+    "February"
+   ],
+   "pages": [
+    "lessons",
+    "monthgames",
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "lessons",
+     "month": "February",
+     "label": "February Week 4 · Class 3: Jump Rope for Heart or rope/hoop games",
+     "href": "month-february.html#w4-c3"
+    },
+    {
+     "page": "monthgames",
+     "month": "February",
+     "label": "February · Big-group games: Musical Hoops",
+     "href": "month-february.html#month-games"
+    },
+    {
+     "page": "games",
+     "label": "Games · Musical Hoops",
+     "href": "games.html#musical-hoops"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Gym Games - Hulahoop Madness"
   },
   {
    "key": "yt:jdaHgN9qHew",
@@ -4485,7 +5133,7 @@ window.VIDEO_INDEX = {
    "pages": [
     "lessons",
     "monthgames",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -4525,9 +5173,9 @@ window.VIDEO_INDEX = {
      "href": "month-may.html#month-games"
     },
     {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 46: Jump The River",
-     "href": "large-group-pe-games.html#game-46"
+     "page": "games",
+     "label": "Games · Jump The River",
+     "href": "games.html#jump-the-river"
     }
    ],
    "status": "ok",
@@ -4551,19 +5199,13 @@ window.VIDEO_INDEX = {
     "April"
    ],
    "pages": [
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
      "page": "games",
      "label": "Games · Minute Fitness",
      "href": "games.html#minute-fitness"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 41: Minute Fitness",
-     "href": "large-group-pe-games.html#game-41"
     }
    ],
    "status": "ok",
@@ -4587,19 +5229,13 @@ window.VIDEO_INDEX = {
     "April"
    ],
    "pages": [
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
      "page": "games",
      "label": "Games · Pair Running",
      "href": "games.html#pair-running"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 47: Pair Running",
-     "href": "large-group-pe-games.html#game-47"
     }
    ],
    "status": "ok",
@@ -4623,24 +5259,49 @@ window.VIDEO_INDEX = {
     "April"
    ],
    "pages": [
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
      "page": "games",
      "label": "Games · Rainbow Road",
      "href": "games.html#rainbow-road"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 51: Rainbow Road",
-     "href": "large-group-pe-games.html#game-51"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Primary Physical Education Games - Rainbow Road"
+  },
+  {
+   "key": "yt:Ep0mCxGB8cI",
+   "url": "https://www.youtube.com/watch?v=Ep0mCxGB8cI",
+   "kind": "video",
+   "title": "Red Line",
+   "channel": "PhysEdGames",
+   "about": "Here’s a unique commands and directions game, with a ‘race’ and competition element, can be used pretty much through all the grade levels (thanks James Barton)!",
+   "games": [
+    "Red Line",
+    "Command Warm-Up"
+   ],
+   "month": "February",
+   "unit": "February · Ropes",
+   "months": [
+    "February",
+    "April"
+   ],
+   "pages": [
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Command Warm-Up",
+     "href": "games.html#command-warm-up"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Red Line"
   },
   {
    "key": "yt:r8RravG-g9g",
@@ -4661,8 +5322,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -4675,11 +5335,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Reindeer Roundup",
      "href": "games.html#reindeer-roundup"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 13: Reindeer Roundup",
-     "href": "large-group-pe-games.html#game-13"
     }
    ],
    "status": "ok",
@@ -4703,24 +5358,49 @@ window.VIDEO_INDEX = {
     "April"
    ],
    "pages": [
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
      "page": "games",
      "label": "Games · RPS Warm-up",
      "href": "games.html#rps-warm-up"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 40: RPS Warm-up",
-     "href": "large-group-pe-games.html#game-40"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Fun Warm-up Game!"
+  },
+  {
+   "key": "yt:wm8MZpiX28g",
+   "url": "https://www.youtube.com/watch?v=wm8MZpiX28g",
+   "kind": "video",
+   "title": "The Video Camera Game",
+   "channel": "PhysEdGames",
+   "about": "Very simple warm-up game with a simple idea: the teacher calls out familiar actions that you would find on a video camera – play, stop, rewind, fast forward, etc. For each word that’s called out, the students will have to perform the relate…",
+   "games": [
+    "The Video Camera Game",
+    "Command Warm-Up"
+   ],
+   "month": "February",
+   "unit": "February · Ropes",
+   "months": [
+    "February",
+    "April"
+   ],
+   "pages": [
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Games · Command Warm-Up",
+     "href": "games.html#command-warm-up"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Gym Games - The Video Camera Game"
   },
   {
    "key": "yt:KDnodWqzTFU",
@@ -4915,12 +5595,13 @@ window.VIDEO_INDEX = {
    "month": "April",
    "unit": "April · Gymnastics",
    "months": [
+    "September",
     "April"
    ],
    "pages": [
     "lessons",
     "monthgames",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -4936,9 +5617,9 @@ window.VIDEO_INDEX = {
      "href": "month-april.html#month-games"
     },
     {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 56: Animals",
-     "href": "large-group-pe-games.html#game-56"
+     "page": "games",
+     "label": "Games · Animals",
+     "href": "games.html#animals"
     }
    ],
    "status": "ok",
@@ -4962,7 +5643,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -4972,9 +5653,9 @@ window.VIDEO_INDEX = {
      "href": "month-april.html#month-games"
     },
     {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 52: Bridges & Rivers",
-     "href": "large-group-pe-games.html#game-52"
+     "page": "games",
+     "label": "Games · Bridges & Rivers",
+     "href": "games.html#bridges-rivers"
     }
    ],
    "status": "ok",
@@ -5042,8 +5723,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -5056,11 +5736,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Immersive Workout ADVENTURE All Ages Brain Break",
      "href": "games.html#immersive-workout-adventure-all-ages-brain-break"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 42: Immersive Workout ADVENTURE All Ages Brain Break",
-     "href": "large-group-pe-games.html#game-42"
     }
    ],
    "status": "ok",
@@ -5539,47 +6214,34 @@ window.VIDEO_INDEX = {
    "ytTitle": "My TOP 5 PE RACING games for athletics 🏅🏃🏽‍♀️‍➡️🏃🏼‍♂️‍➡️"
   },
   {
-   "key": "yt:agG5BSXK8M8",
-   "url": "https://www.youtube.com/watch?v=agG5BSXK8M8",
+   "key": "yt:JHPxFTPkzNo",
+   "url": "https://www.youtube.com/watch?v=JHPxFTPkzNo",
    "kind": "video",
-   "title": "Bombardment",
+   "title": "The Great Outdoor Treasure Hunt",
    "channel": "PhysEdGames",
-   "about": "Here’s a multi-skills game idea, lots of skills involved (mostly basketball skills practice but could be modified) – thanks Dan Kirsch!",
+   "about": "What better way to use outdoor space than a scavenger hunt!? This hunt is a bit different from your typical hunt, because instead of a list that players need to just check off when they see the items, they must BRING THE ITEMS HOME to their…",
    "games": [
-    "Bombardment"
+    "The Great Outdoor Treasure Hunt"
    ],
-   "month": "June",
-   "unit": "June · Baseball",
+   "month": "May",
+   "unit": "May · Track",
    "months": [
-    "January",
+    "May",
     "June"
    ],
    "pages": [
-    "monthgames",
-    "newgames",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
-     "page": "monthgames",
-     "month": "June",
-     "label": "June · Big-group games: Bombardment",
-     "href": "month-june.html#month-games"
-    },
-    {
-     "page": "newgames",
-     "label": "New Games · Bombardment",
-     "href": "new-games.html#bombardment"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 37: Bombardment",
-     "href": "large-group-pe-games.html#game-37"
+     "page": "games",
+     "label": "Games · The Great Outdoor Treasure Hunt",
+     "href": "games.html#the-great-outdoor-treasure-hunt"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
-   "ytTitle": "Bombardment PE Game"
+   "ytTitle": "Physed Games - The Great Outdoor Treasure Hunt"
   },
   {
    "key": "yt:kDMU8tZhfLU",
@@ -5598,8 +6260,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -5612,11 +6273,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Catch & Step",
      "href": "games.html#catch-step"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 39: Catch & Step",
-     "href": "large-group-pe-games.html#game-39"
     }
    ],
    "status": "ok",
@@ -5641,8 +6297,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -5655,11 +6310,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Crazy Ball Soccer",
      "href": "games.html#crazy-ball-soccer"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 26: Crazy Ball Soccer",
-     "href": "large-group-pe-games.html#game-26"
     }
    ],
    "status": "ok",
@@ -5796,19 +6446,13 @@ window.VIDEO_INDEX = {
     "June"
    ],
    "pages": [
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
      "page": "games",
      "label": "Games · Longball",
      "href": "games.html#longball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 34: Longball",
-     "href": "large-group-pe-games.html#game-34"
     }
    ],
    "status": "ok",
@@ -5829,12 +6473,13 @@ window.VIDEO_INDEX = {
    "month": "June",
    "unit": "June · Baseball",
    "months": [
+    "December",
     "June"
    ],
    "pages": [
     "lessons",
-    "dodgeball",
-    "handbook"
+    "games",
+    "dodgeball"
    ],
    "refs": [
     {
@@ -5844,14 +6489,14 @@ window.VIDEO_INDEX = {
      "href": "month-june.html#w3-c2"
     },
     {
+     "page": "games",
+     "label": "Games · Massive Kickball Dodgeball",
+     "href": "games.html#massive-kickball-dodgeball"
+    },
+    {
      "page": "dodgeball",
      "label": "Dodgeball · Kickball-dodge",
      "href": "dodgeball.html#kick-dodge"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 33: Massive Kickball Dodgeball",
-     "href": "large-group-pe-games.html#game-33"
     }
    ],
    "status": "ok",
@@ -5904,8 +6549,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "games",
-    "newgames",
-    "handbook"
+    "newgames"
    ],
    "refs": [
     {
@@ -5917,11 +6561,6 @@ window.VIDEO_INDEX = {
      "page": "newgames",
      "label": "New Games · Shark Ball",
      "href": "new-games.html#shark-ball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 32: Shark Ball",
-     "href": "large-group-pe-games.html#game-32"
     }
    ],
    "status": "ok",
@@ -5947,8 +6586,7 @@ window.VIDEO_INDEX = {
    ],
    "pages": [
     "monthgames",
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
@@ -5961,11 +6599,6 @@ window.VIDEO_INDEX = {
      "page": "games",
      "label": "Games · Slappers!",
      "href": "games.html#slappers-"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 31: Slappers!",
-     "href": "large-group-pe-games.html#game-31"
     }
    ],
    "status": "ok",
@@ -5988,130 +6621,18 @@ window.VIDEO_INDEX = {
     "June"
    ],
    "pages": [
-    "games",
-    "handbook"
+    "games"
    ],
    "refs": [
     {
      "page": "games",
      "label": "Games · Strikeball",
      "href": "games.html#strikeball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 38: Strikeball",
-     "href": "large-group-pe-games.html#game-38"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Strikerball"
-  },
-  {
-   "key": "yt:PY_70Zh-_Uw",
-   "url": "https://www.youtube.com/watch?v=PY_70Zh-_Uw",
-   "kind": "video",
-   "title": "Backboard Dodgeball",
-   "channel": "PhysEdGames",
-   "about": "Highly requested game of dodgeball. Lots of fun, and lots of skills as usual! Two teams faceoff in this fun version that uses the basketball court (full court or half court), thanks to Michelle Weaver!",
-   "games": [
-    "Backboard Dodgeball",
-    "Backboard Dodge Ball"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "warmups",
-    "dodgeball",
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "warmups",
-     "label": "Warm Up Games · Backboard Dodge Ball",
-     "href": "warmup-nogym.html#warmup-2a"
-    },
-    {
-     "page": "dodgeball",
-     "label": "Dodgeball · Backboard Dodgeball",
-     "href": "dodgeball.html#backboard-dodgeball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 15: Backboard Dodgeball",
-     "href": "large-group-pe-games.html#game-15"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Backboard Dodgeball"
-  },
-  {
-   "key": "yt:b-aj8WV9kNs",
-   "url": "https://www.youtube.com/watch?v=b-aj8WV9kNs",
-   "kind": "video",
-   "title": "Battleball",
-   "channel": "PhysEdGames",
-   "about": "This is a special type of dodgeball game with official rules, refs, and the whole show! With sportsmanship being the number 1 rule, teams will compete in an epic battle to be the last ones standing. Great game incorporating lots of skills. …",
-   "games": [
-    "Battleball"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "dodgeball",
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "dodgeball",
-     "label": "Dodgeball · Battleball",
-     "href": "dodgeball.html#battleball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 17: Battleball",
-     "href": "large-group-pe-games.html#game-17"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "PE Games - Battleball"
-  },
-  {
-   "key": "yt:ONbSKth10sk",
-   "url": "https://www.youtube.com/watch?v=ONbSKth10sk",
-   "kind": "video",
-   "title": "Bench Dodgeball",
-   "channel": "PhysEdGames",
-   "about": "It’s the classic game of bench dodgeball, at least I think it’s a classic. It might just be classic for me? Note: this game is different from BENCHBALL (where you try to get all players onto the bench – that’s not a dodgeball game, though i…",
-   "games": [
-    "Bench Dodgeball"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "dodgeball",
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "dodgeball",
-     "label": "Dodgeball · Bench Dodgeball",
-     "href": "dodgeball.html#bench-dodgeball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 14: Bench Dodgeball",
-     "href": "large-group-pe-games.html#game-14"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Bench Dodgeball - Phys ed games"
   },
   {
    "key": "yt:BUvxkXLgSRQ",
@@ -6168,67 +6689,6 @@ window.VIDEO_INDEX = {
    "ytTitle": "Clothespin Tag"
   },
   {
-   "key": "yt:aiX68ZVy-Cw",
-   "url": "https://www.youtube.com/watch?v=aiX68ZVy-Cw",
-   "kind": "video",
-   "title": "Dead Ant Tag",
-   "channel": "PhysEdGames",
-   "about": "Hilarious idea for a simple tag game: if a player gets tagged, he must turn over on his back and put arms and legs up in the air like a dead ant on its back. To get back up? 4 players who aren’t tagged must attach themselves to an arm or le…",
-   "games": [
-    "Bug Tag / Dead Ant",
-    "Dead Ant Tag"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 10: Dead Ant Tag",
-     "href": "large-group-pe-games.html#game-10"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Physical Education Games - Dead Ant Tag"
-  },
-  {
-   "key": "yt:lrOKbNcgeM8",
-   "url": "https://www.youtube.com/watch?v=lrOKbNcgeM8",
-   "kind": "video",
-   "title": "Detective Dodgeball",
-   "channel": "PhysEdGames",
-   "about": "This is a dodgeball game where if a player is hit, he must remember who hit him, because he’s out until the player who hit him gets hit. That’s the whole detective part. A great advancement to regular dodgeball to keep things flowing better…",
-   "games": [
-    "Detective Dodgeball"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "dodgeball",
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "dodgeball",
-     "label": "Dodgeball · Detective Dodgeball",
-     "href": "dodgeball.html#detective-dodgeball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 21: Detective Dodgeball",
-     "href": "large-group-pe-games.html#game-21"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Physical Education Games - Detective Dodgeball"
-  },
-  {
    "key": "yt:uAe2mM1j064",
    "url": "https://www.youtube.com/watch?v=uAe2mM1j064",
    "kind": "video",
@@ -6256,87 +6716,6 @@ window.VIDEO_INDEX = {
    "ytTitle": "Gym Games - Crows & Cranes"
   },
   {
-   "key": "yt:aiukdRx1yNs",
-   "url": "https://www.youtube.com/watch?v=aiukdRx1yNs",
-   "kind": "video",
-   "title": "Home Free Bad Guy Blob Tag",
-   "channel": "PhysEdGames",
-   "about": "What a great game, seriously one of the best tag games out there. This is a must play. Lots of Dynamics, lots going on in this unique idea thanks to Dan Penna for another hit.",
-   "games": [
-    "Home Free Bad Guy Blob Tag"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 07: Home Free Bad Guy Blob Tag",
-     "href": "large-group-pe-games.html#game-07"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Best Tag Game Ever?!"
-  },
-  {
-   "key": "yt:vFE9utBS084",
-   "url": "https://www.youtube.com/watch?v=vFE9utBS084",
-   "kind": "video",
-   "title": "Hula Hoop Twister",
-   "channel": "PhysEdGames",
-   "about": "It’s a combo of musical chairs and the Twister board game which for sure means it’s fun and active, definitely worth giving it a play or 10 in your PE class 😀 (thanks Deric Hafer)",
-   "games": [
-    "Hula Hoop Twister"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 53: Hula Hoop Twister",
-     "href": "large-group-pe-games.html#game-53"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Hula Hoop Twister - PE Game"
-  },
-  {
-   "key": "yt:JIBAnKESha0",
-   "url": "https://www.youtube.com/watch?v=JIBAnKESha0",
-   "kind": "video",
-   "title": "Hulahoop Madness",
-   "channel": "PhysEdGames",
-   "about": "Another movement game to help enhance discussions and awareness of personal space. Hula hoop madness starts with lots of hula hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away a…",
-   "games": [
-    "Hulahoop Madness"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 54: Hulahoop Madness",
-     "href": "large-group-pe-games.html#game-54"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Gym Games - Hulahoop Madness"
-  },
-  {
    "key": "pl:PLqApWQm0obyHE1dVucdzlTPmrzd7Hg3LH",
    "url": "https://www.youtube.com/playlist?list=PLqApWQm0obyHE1dVucdzlTPmrzd7Hg3LH",
    "kind": "playlist",
@@ -6348,105 +6727,18 @@ window.VIDEO_INDEX = {
    "unit": "Any time",
    "months": [],
    "pages": [
-    "handbook"
+    "games"
    ],
    "refs": [
     {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Playlist of all games",
-     "href": "large-group-pe-games.html"
+     "page": "games",
+     "label": "Games · PHYSEDGAMES large-group games (playlist)",
+     "href": "games.html#peg-intro"
     }
    ],
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Large Group Games"
-  },
-  {
-   "key": "yt:ox-HgTgaJHA",
-   "url": "https://www.youtube.com/watch?v=ox-HgTgaJHA",
-   "kind": "video",
-   "title": "Mirror Mirror",
-   "channel": "PhysEdGames",
-   "about": "Mirror Mirror could be a stand-alone game, could be used as a warm-up, or fitness activity. Quite a bit of action in this one. Start by dividing players into 2 equal groups. One group stands outside the basketball court line, while the othe…",
-   "games": [
-    "Mirror Mirror"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 48: Mirror Mirror",
-     "href": "large-group-pe-games.html#game-48"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Mirror Mirror on the wall - Phys Ed Game"
-  },
-  {
-   "key": "yt:9e0pew5DbvU",
-   "url": "https://www.youtube.com/watch?v=9e0pew5DbvU",
-   "kind": "video",
-   "title": "Net Dodgeball",
-   "channel": "PhysEdGames",
-   "about": "Net dodgeball is basically a standard game of dodgeball, except that each team also has a net and a goalie. Any time a team scores a goal by throwing a dodgeball past the opposing goalie, all of the players who were out get to enter back in…",
-   "games": [
-    "Net Dodgeball"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "dodgeball",
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "dodgeball",
-     "label": "Dodgeball · Net Dodgeball",
-     "href": "dodgeball.html#net-dodgeball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 18: Net Dodgeball",
-     "href": "large-group-pe-games.html#game-18"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Physical Education Games - Net Dodgeball"
-  },
-  {
-   "key": "yt:yqsQAKs5fTw",
-   "url": "https://www.youtube.com/watch?v=yqsQAKs5fTw",
-   "kind": "video",
-   "title": "Oyster Shell",
-   "channel": "PhysEdGames",
-   "about": "Here’s a fun little reacting and running competition that can basically be used for all ages. You don’t need much for equipment either. Split the group into 2 teams, they don’t even have to be even numbers. If you’ve got cones, you could tr…",
-   "games": [
-    "Oyster Shell"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 58: Oyster Shell",
-     "href": "large-group-pe-games.html#game-58"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Oyster Shell - Physical Education"
   },
   {
    "key": "yt:x7trfjjVOfo",
@@ -6476,153 +6768,6 @@ window.VIDEO_INDEX = {
    "ytTitle": "P.E. Games - Dr Dodgeball"
   },
   {
-   "key": "yt:b26-f6k9y0c",
-   "url": "https://www.youtube.com/watch?v=b26-f6k9y0c",
-   "kind": "video",
-   "title": "Pin Galore Soccer",
-   "channel": "PhysEdGames",
-   "about": "This is a great modification to the regular game of soccer that has proven to increase participation and motivation in the gym. Instead of the typical scoring into the other team’s goal, players will try to knock over the other team’s pins …",
-   "games": [
-    "Pin Galore Soccer"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 29: Pin Galore Soccer",
-     "href": "large-group-pe-games.html#game-29"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Gym Games - Pin Galore Soccer"
-  },
-  {
-   "key": "yt:RS4qjekAdXY",
-   "url": "https://www.youtube.com/watch?v=RS4qjekAdXY",
-   "kind": "video",
-   "title": "Pin Knockover",
-   "channel": "PhysEdGames",
-   "about": "Pin Knockover is a classic target throwing or rolling game. Two teams match-up on each side of the gym and be the first team to knock over all of the opposing teams pins. Other skills involved are blocking, goaltending, running, underhand, …",
-   "games": [
-    "Pin Knockover"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "dodgeball",
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "dodgeball",
-     "label": "Dodgeball · Pin Knockover",
-     "href": "dodgeball.html#pin-knockover"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 22: Pin Knockover",
-     "href": "large-group-pe-games.html#game-22"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "P.E. Games - Pin Knockover"
-  },
-  {
-   "key": "yt:8t75NB1b-ho",
-   "url": "https://www.youtube.com/watch?v=8t75NB1b-ho",
-   "kind": "video",
-   "title": "Powerball",
-   "channel": "PhysEdGames",
-   "about": "Powerball is intense. It’s a target throwing game to get the heart-rate and excitement up! Teams throw dodgeballs at large exercise balls in order to push them passed the opposing teams goal line. Points are scored everytime that happens. T…",
-   "games": [
-    "Powerball"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "dodgeball",
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "dodgeball",
-     "label": "Dodgeball · Powerball",
-     "href": "dodgeball.html#powerball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 23: Powerball",
-     "href": "large-group-pe-games.html#game-23"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Monster Ball - Powerball"
-  },
-  {
-   "key": "yt:Ep0mCxGB8cI",
-   "url": "https://www.youtube.com/watch?v=Ep0mCxGB8cI",
-   "kind": "video",
-   "title": "Red Line",
-   "channel": "PhysEdGames",
-   "about": "Here’s a unique commands and directions game, with a ‘race’ and competition element, can be used pretty much through all the grade levels (thanks James Barton)!",
-   "games": [
-    "Red Line"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 57: Red Line",
-     "href": "large-group-pe-games.html#game-57"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Red Line"
-  },
-  {
-   "key": "yt:tLKsXd86naA",
-   "url": "https://www.youtube.com/watch?v=tLKsXd86naA",
-   "kind": "video",
-   "title": "Rush Hour",
-   "channel": "PhysEdGames",
-   "about": "A simple game. A ‘try not to crash’ game. And actually another really fun game. It’s a fantastic LARGE GROUP game too! (Thanks to Jiang Xiaolei)",
-   "games": [
-    "Rush Hour"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 43: Rush Hour",
-     "href": "large-group-pe-games.html#game-43"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Rush Hour - Primary Physical Education Game"
-  },
-  {
    "key": "yt:YHs_tN85-gs",
    "url": "https://www.youtube.com/watch?v=YHs_tN85-gs",
    "kind": "video",
@@ -6650,93 +6795,6 @@ window.VIDEO_INDEX = {
    "ytTitle": "Ships & Sailors"
   },
   {
-   "key": "yt:xPCr8CPp2Uw",
-   "url": "https://www.youtube.com/watch?v=xPCr8CPp2Uw",
-   "kind": "video",
-   "title": "Sneak & React",
-   "channel": "PhysEdGames",
-   "about": "Great for all ages, super fun. Works on reaction timing. Use this one as an instant activity or a warm-up but it can be a stand alone game as well. You also don’t need any equipment either.",
-   "games": [
-    "Sneak & React"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 44: Sneak & React",
-     "href": "large-group-pe-games.html#game-44"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Sneak And React - Physical Education Game"
-  },
-  {
-   "key": "yt:fxUP4Z2_QMQ",
-   "url": "https://www.youtube.com/watch?v=fxUP4Z2_QMQ",
-   "kind": "video",
-   "title": "Standard Dodgeball",
-   "channel": "PhysEdGames",
-   "about": "Standard dodgeball is the classic version of the game. In our opinion, many of the variations of this game are huge improvements and should be played in place of the standard version, however, here it is for you to take a look at.",
-   "games": [
-    "Standard Dodgeball"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "dodgeball",
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "dodgeball",
-     "label": "Dodgeball · Standard Dodgeball",
-     "href": "dodgeball.html#standard-dodgeball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 20: Standard Dodgeball",
-     "href": "large-group-pe-games.html#game-20"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Physical Education Games - Standard Dodgeball"
-  },
-  {
-   "key": "yt:JHPxFTPkzNo",
-   "url": "https://www.youtube.com/watch?v=JHPxFTPkzNo",
-   "kind": "video",
-   "title": "The Great Outdoor Treasure Hunt",
-   "channel": "PhysEdGames",
-   "about": "What better way to use outdoor space than a scavenger hunt!? This hunt is a bit different from your typical hunt, because instead of a list that players need to just check off when they see the items, they must BRING THE ITEMS HOME to their…",
-   "games": [
-    "The Great Outdoor Treasure Hunt"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 63: The Great Outdoor Treasure Hunt",
-     "href": "large-group-pe-games.html#game-63"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Physed Games - The Great Outdoor Treasure Hunt"
-  },
-  {
    "key": "yt:3RW11Sq0gvQ",
    "url": "https://www.youtube.com/watch?v=3RW11Sq0gvQ",
    "kind": "video",
@@ -6762,99 +6820,6 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "The Great Wall"
-  },
-  {
-   "key": "yt:wm8MZpiX28g",
-   "url": "https://www.youtube.com/watch?v=wm8MZpiX28g",
-   "kind": "video",
-   "title": "The Video Camera Game",
-   "channel": "PhysEdGames",
-   "about": "Very simple warm-up game with a simple idea: the teacher calls out familiar actions that you would find on a video camera – play, stop, rewind, fast forward, etc. For each word that’s called out, the students will have to perform the relate…",
-   "games": [
-    "The Video Camera Game"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 55: The Video Camera Game",
-     "href": "large-group-pe-games.html#game-55"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Gym Games - The Video Camera Game"
-  },
-  {
-   "key": "yt:-URBEEkYyWg",
-   "url": "https://www.youtube.com/watch?v=-URBEEkYyWg",
-   "kind": "video",
-   "title": "Ultimate Warriors",
-   "channel": "PhysEdGames",
-   "about": "Ultimate Warriors is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodgeball going on at th…",
-   "games": [
-    "Ultimate Warriors"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "dodgeball",
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "dodgeball",
-     "label": "Dodgeball · Ultimate Warriors",
-     "href": "dodgeball.html#ultimate-warriors"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 65: Ultimate Warriors",
-     "href": "large-group-pe-games.html#game-65"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "P.E. Game - Ultimate Warriors!!!"
-  },
-  {
-   "key": "yt:DpnTLRUyLjQ",
-   "url": "https://www.youtube.com/watch?v=DpnTLRUyLjQ",
-   "kind": "video",
-   "title": "Warzone Dodgeball",
-   "channel": "PhysEdGames",
-   "about": "Warzone Dodgeball is definitely what the name says – a dodgeball warzone. Also known as ‘Paintball Dodgeball’, to set up for this game, place some obstacles and barriers for players to hide behind. Things like mats and tubes that represent …",
-   "games": [
-    "Warzone Dodgeball"
-   ],
-   "month": "",
-   "unit": "Any time",
-   "months": [],
-   "pages": [
-    "dodgeball",
-    "handbook"
-   ],
-   "refs": [
-    {
-     "page": "dodgeball",
-     "label": "Dodgeball · Warzone Dodgeball",
-     "href": "dodgeball.html#warzone-dodgeball"
-    },
-    {
-     "page": "handbook",
-     "label": "PHYSEDGAMES handbook · Game 19: Warzone Dodgeball",
-     "href": "large-group-pe-games.html#game-19"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "P.E. Games - Warzone Dodgeball"
   },
   {
    "key": "yt:ldsU-tOgW2Y",
