@@ -830,3 +830,11 @@ body[data-band] .out-grid { grid-template-columns: 1fr; }
 .this-week-line { margin: 6px 0 0; font-size: .95rem; }
 .this-week-line.break { background: #fdf1dc; color: #6b4a00; border-radius: 10px; padding: 6px 10px; }
 @media print { .week-title .this-week-pill, .school-weeks li.current::after { display: none; } }
+
+/* Phone overflow fix (Sep 2026): long unbroken text (URLs such as
+   "Original page: https://physedgames.com/…") pushed games.html and
+   dodgeball.html ~20px wider than the screen. Let long words wrap. */
+body { overflow-wrap: break-word; }
+@media (max-width: 480px) {
+  table.games th, table.games td { padding: 6px 7px; overflow-wrap: anywhere; }
+}
