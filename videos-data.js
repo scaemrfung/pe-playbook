@@ -2,7 +2,7 @@
    Edit the source pages/data, then run: node tools/build.js */
 window.VIDEO_INDEX = {
  "count": 138,
- "occurrences": 162,
+ "occurrences": 167,
  "groups": [
   {
    "id": "September",
@@ -1091,6 +1091,11 @@ window.VIDEO_INDEX = {
     },
     {
      "page": "weekly",
+     "label": "Weekly plan Oct 5–9 2026 · Football Week 6: Steal the Bacon (Gr 1–2 Day 5 Fri, Gr 3–4 Day 5 Fri, Gr 5–6 Day 5 Fri)",
+     "href": "weekly-plans.html#plan-pe-weekly-plan-oct-5-9-2026-football-week-6"
+    },
+    {
+     "page": "weekly",
      "label": "Weekly plan Sept 21–25 2026 · Football Week 4: Steal the Bacon (Gr 1–2 Day 1 Mon, Gr 3–4 Day 1 Mon, Gr 5–6 Day 1 Mon)",
      "href": "weekly-plans.html#plan-pe-weekly-plan-sept-21-25-2026-football-week-4"
     },
@@ -1516,12 +1521,18 @@ window.VIDEO_INDEX = {
    "month": "September",
    "unit": "September · Soccer and Football",
    "months": [
-    "September"
+    "September",
+    "October"
    ],
    "pages": [
     "weekly"
    ],
    "refs": [
+    {
+     "page": "weekly",
+     "label": "Weekly plan Oct 5–9 2026 · Football Week 6: End Zone (Gr 1–2 Day 3 Wed, Gr 3–4 Day 3 Wed, Gr 5–6 Day 3 Wed, Gr 5–6 Day 5 Fri)",
+     "href": "weekly-plans.html#plan-pe-weekly-plan-oct-5-9-2026-football-week-6"
+    },
     {
      "page": "weekly",
      "label": "Weekly plan Sept 21–25 2026 · Football Week 4: End Zone (Gr 1–2 Day 4 Thu, Gr 3–4 Day 4 Thu, Gr 3–4 Day 5 Fri, Gr 5–6 Day 4 Thu, Gr 5–6 Day 5 Fri)",
@@ -1755,6 +1766,11 @@ window.VIDEO_INDEX = {
     "newgames"
    ],
    "refs": [
+    {
+     "page": "weekly",
+     "label": "Weekly plan Oct 5–9 2026 · Football Week 6: Elementary Ultimate (Gr 1–2 Day 5 Fri, Gr 3–4 Day 5 Fri, Gr 5–6 Day 3 Wed, Gr 5–6 Day 5 Fri)",
+     "href": "weekly-plans.html#plan-pe-weekly-plan-oct-5-9-2026-football-week-6"
+    },
     {
      "page": "weekly",
      "label": "Weekly plan Sept 21–25 2026 · Football Week 4: Elementary Ultimate (Gr 1–2 Day 4 Thu, Gr 5–6 Day 4 Thu)",
@@ -2133,6 +2149,11 @@ window.VIDEO_INDEX = {
      "month": "October",
      "label": "October · Big-group games: The Perfect Pass",
      "href": "month-october.html#month-games"
+    },
+    {
+     "page": "weekly",
+     "label": "Weekly plan Oct 5–9 2026 · Football Week 6: Perfect Pass (Gr 1–2 Day 5 Fri, Gr 3–4 Day 2 Tue, Gr 3–4 Day 5 Fri, Gr 5–6 Day 2 Tue, Gr 5–6 Day 5 Fri)",
+     "href": "weekly-plans.html#plan-pe-weekly-plan-oct-5-9-2026-football-week-6"
     },
     {
      "page": "weekly",
@@ -5126,6 +5147,7 @@ window.VIDEO_INDEX = {
    "unit": "May · Track",
    "months": [
     "September",
+    "October",
     "May"
    ],
    "pages": [
@@ -5133,6 +5155,11 @@ window.VIDEO_INDEX = {
     "newgames"
    ],
    "refs": [
+    {
+     "page": "weekly",
+     "label": "Weekly plan Oct 5–9 2026 · Football Week 6: Horse and Jockey (Gr 1–2 Day 2 Tue, Gr 1–2 Day 5 Fri, Gr 3–4 Day 2 Tue, Gr 3–4 Day 5 Fri, Gr 5–6 Day 2 Tue, Gr 5–6 Day 5 Fri)",
+     "href": "weekly-plans.html#plan-pe-weekly-plan-oct-5-9-2026-football-week-6"
+    },
     {
      "page": "weekly",
      "label": "Weekly plan Sept 21–25 2026 · Football Week 4: Horse and Jockey (Gr 1–2 Day 2 Tue, Gr 1–2 Day 5 Fri, Gr 3–4 Day 2 Tue, Gr 3–4 Day 5 Fri, Gr 5–6 Day 2 Tue, Gr 5–6 Day 5 Fri)",
