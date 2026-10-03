@@ -68,7 +68,7 @@
           const name = (p.file || "").split("/").pop() || "plan.docx";
           const id = "plan-" + name.replace(/\.docx$/i, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
           return `<tr id="${id}">
-            <td><strong>${p.title}</strong>${p.note ? `<div class="meta">${p.note}</div>` : ""}</td>
+            <td><strong>${p.title}</strong>${p.note ? `<div class="meta">${p.note}</div>` : ""}${p.rubric ? `<div class="meta"><a href="${p.rubric}">Weekly rubric for this week →</a></div>` : ""}</td>
             <td><a class="btn" href="${p.file}" download="${name}">Download .docx</a></td>
           </tr>`;
         }).join("");

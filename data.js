@@ -656,7 +656,7 @@ const months = [
   {
     "name": "December",
     "guide": "Tag, cooperative, invasion and festival games · two school weeks this year (plus Nov 30–Dec 4 on the November page)",
-    "pew": "Active Living, Personal and Social Development, Character, Safety, Healthy Relationships",
+    "pew": "Active Living, Personal and Social Development, Character Development, Safety, Healthy Relationships",
     "equipment": "Pinnies, noodles, hoops, foam balls, benches, flags — as each game card lists",
     "fitness": "Private skip or shuttle on the last class. No ranking.",
     "notes": "December is games, not a new sport. House rules: no elimination, soft tags. Use the Big-Group Games page. Extra days: repeat a favourite.",
@@ -1964,7 +1964,7 @@ const months = [
   {
     "name": "June",
     "guide": "T-ball / baseball (W1–W3) · last class Mon June 28 (W4)",
-    "pew": "Movement Skill Development, Active Living, Character, Safety",
+    "pew": "Movement Skill Development, Active Living, Character Development, Safety",
     "equipment": "Week 1: kit on the Track Day page. Weeks 2–4: tees, bats, balls, hoop bases.",
     "fitness": "Final private check after the meet: skip, short run, or jump-stick.",
     "notes": "Track and Field Day week (May 31–June 4) is May W5 on the May page, because a week belongs to the month it starts in. W1–W3 are T-ball/baseball — everyone bats, throw to a hoop at first, not at the runner. W4 is the last class, Mon June 28.",

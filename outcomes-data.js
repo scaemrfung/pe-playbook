@@ -1,148 +1,284 @@
 window.UNIT_OUTCOMES = {
   September: {
-    oi: ["Active Living", "Movement Skill Development", "Safety", "Healthy Relationships"],
-    why: "September is soccer: dribble, trap, pass, shoot. Week 1 still teaches freeze and space. Soccer balls, no slide tackles.",
+    oi: [
+      "Active Living",
+      "Movement Skill Development",
+      "Safety",
+      "Healthy Relationships"
+    ],
+    why: "September is soccer (Weeks 2–3, with the Terry Fox run) and the football intro (Weeks 4–5): dribble, trap, pass; hike, catch, throw, then flag. Week 1 is start-up: freeze, space and gym routines. Soccer balls, no slide tackles.",
     g12: [
-      "Investigate how physical activity changes the body (breath, heart, warmth).",
       "Exhibit spatial awareness: freeze, personal space, gym boundaries.",
-      "Demonstrate walk, jog, skip, jump, and a soft landing.",
-      "Explain how gym rules and signals connect to safety.",
-      "Practise words and actions that support friendship in play."
+      "Walk-dribble a soccer ball with small touches and trap it with the sole.",
+      "Catch a soft toss with ready hands and throw underhand to a hoop or partner.",
+      "Walk or jog a steady pace on Terry Fox day and cheer a classmate.",
+      "Explain how gym rules and signals connect to safety."
     ],
     g34: [
-      "Relate personal experience of work and rest during games.",
-      "Refine locomotor skills and change speed or pathway on a signal.",
+      "Jog-dribble with head up and pass with the inside of the foot (plant foot beside the ball).",
+      "Throw overarm with an opposite-foot step and catch while moving.",
+      "Apply a simple tactic: pass before the gate in 2v1.",
       "Apply fair-play rules in tag (no elimination, soft tag).",
-      "Examine and apply personal safety in emergency line-ups and freeze.",
-      "Connect healthy relationships to taking turns and unfreezing a classmate."
+      "Examine and apply personal safety in emergency line-ups and freeze."
     ],
     g56: [
-      "Examine how choices (pace, water, effort) affect active living.",
-      "Adapt run/jump patterns in a dynamic tag game.",
-      "Take a brief leadership role (caller, hospital stretch lead).",
+      "Dribble with the weaker foot, change direction after each trap, and move after you pass.",
+      "Throw to where a moving partner will be; hike and catch in football.",
+      "Take a brief leadership role (caller, hospital stretch lead, pace partner on Terry Fox day).",
       "Analyze how following a signal protects the group.",
       "Use kind language when a tag or freeze happens."
     ],
     assess: [
-      { what: "Safety and listening", how: "Observation in the first two weeks", evidence: "Freezes on the whistle; lines up for fire/lockdown without a second reminder; stays in bounds." },
-      { what: "Body awareness", how: "Exit question + movement", evidence: "Can name heart, lungs, or a muscle used today; shows bubble space in a travel task." },
-      { what: "Run / jump cues", how: "Skill look-fors during Week 4", evidence: "Eyes up and quiet feet on a jog; bend–jump–stick on a two-foot landing." },
-      { what: "Fitness baseline", how: "Private record (not posted)", evidence: "Completes skip, shuttle, sit-and-reach, and a hold. Teacher dates the sheet. No class ranking." },
-      { what: "Relationships", how: "Game behaviour", evidence: "Helps unfreeze a peer; accepts a tag; no public picking." }
+      {
+        what: "Safety and listening",
+        how: "Observation in the first two weeks",
+        evidence: "Freezes on the whistle; lines up for fire/lockdown without a second reminder; stays in bounds."
+      },
+      {
+        what: "Soccer touch and pass",
+        how: "Skill look-fors in Weeks 2–3",
+        evidence: "Small touches with head up; sole trap keeps the ball close; plant foot beside the ball on an inside-foot pass."
+      },
+      {
+        what: "Football hike, catch and throw",
+        how: "Partner or hoop task in Weeks 4–5",
+        evidence: "Ready hands; opposite-foot step and follow-through; soft two-hand touch or flag pull."
+      },
+      {
+        what: "Body awareness and pulse check",
+        how: "Exit question after a dribble game",
+        evidence: "Finds the pulse or names a body change (heart, breath, warmth) after play; shows bubble space in a travel task."
+      },
+      {
+        what: "Fitness baseline",
+        how: "Private record (not posted)",
+        evidence: "Pulse check after a dribble game and a private skip once late in the month. Teacher dates the sheet. No class ranking."
+      },
+      {
+        what: "Relationships",
+        how: "Game behaviour",
+        evidence: "Helps unfreeze a peer; accepts a tag; no public picking."
+      }
     ]
   },
   October: {
-    oi: ["Movement Skill Development", "Active Living", "Safety"],
-    why: "October is football: hike, catch, throw, flag or two-hand touch, end-zone. Real footballs. No tackling.",
+    oi: [
+      "Movement Skill Development",
+      "Safety",
+      "Healthy Relationships",
+      "Active Living"
+    ],
+    why: "October is football (W1: pitch and hand-off, defend the lane, small-sided flag, jail-catch), then parachute (W2), circus (W3) and the start of floor hockey (W4). Real footballs, no tackling. The Sept 28–Oct 1 football lessons (flag, routes, end-zone catch) are on the September page.",
     g12: [
-      "Demonstrate an underhand send and a two-hand or scoop receive.",
-      "Kick a still soccer or football to a target or partner.",
-      "Show ready position (eyes on the sender, body behind the ball).",
-      "Move safely when many balls are in the gym."
+      "Place a soft hand-off into a runner's pocket and walk to a hoop.",
+      "Shadow a receiver without contact; throw underhand or catch a soft toss.",
+      "Lift the parachute together on a count; toss and catch a scarf.",
+      "Balance a beanbag on the head or hold a flamingo; watch an act kindly."
     ],
     g34: [
-      "Modify a kick or throw to improve accuracy (plant foot, opposite-foot step).",
-      "Utilize a send from one activity in another (gate pass → small game).",
-      "Begin simple tactics: pass before a shot; move after you send.",
-      "Apply below-waist throws only in dodgeball, and use dodgeballs for those games."
+      "Jog a soft hand-off; contest the catch (tip or soft intercept) without contact.",
+      "Play 4v4 two-hand touch or flag: hike, pass, score, reset so everyone plays.",
+      "Perform dome, popcorn and change-places under the chute.",
+      "Link toss-catch and a still pose; use dodgeballs, below the waist, for jail-catch."
     ],
     g56: [
-      "Select a send (kick vs throw) that fits the task.",
-      "Implement a tactic in 3v1 or 3v3 (lead the receiver, intercept without contact).",
-      "Use the non-dominant foot or hand for a short round.",
-      "Explain why accuracy is safer than power indoors."
+      "Pull flags fairly on the hand-off; intercept without contact and keep the head up.",
+      "Play 5v5 flag with one rush after a count; take a student QB or ref role.",
+      "Order a chute sequence and count the lift; peer-coach a circus station.",
+      "Explain why jail-catch uses dodgeballs, below the waist, not footballs."
     ],
     assess: [
-      { what: "Throw cue", how: "Partner or hoop task", evidence: "Opposite-foot step and follow-through on most attempts (underhand for 1–2)." },
-      { what: "Kick / trap", how: "Gate or partner task", evidence: "Plant foot beside the ball; trap that stays near the body." },
-      { what: "Tactics", how: "Small-sided game", evidence: "Looks for a teammate before blasting; 3–4 / 5–6 pass before a shot." },
-      { what: "Safety", how: "Ongoing", evidence: "Uses the real sport ball; no kicking at people; waits for space to swing an implement. Dodgeball games stay on the Dodgeball page." }
+      {
+        what: "Hand-off and pitch",
+        how: "Partner or hoop task in W1",
+        evidence: "Gives the ball into the runner's pocket (does not throw it at the runner) and the runner goes; G5–6 pull flags fairly."
+      },
+      {
+        what: "Defend the lane",
+        how: "Small game",
+        evidence: "Stays between receiver and ball; contests the catch without contact; head up."
+      },
+      {
+        what: "Small-sided flag",
+        how: "3v3, 4v4 or 5v5 game",
+        evidence: "Hikes, passes and scores with soft touch or flag; resets so everyone plays."
+      },
+      {
+        what: "Parachute and circus",
+        how: "Group observation and stations (W2–W3)",
+        evidence: "Lifts together on a count; keeps popcorn bags up; still start and still end on a toss or balance; resets a drop without blame."
+      },
+      {
+        what: "Safety",
+        how: "Ongoing",
+        evidence: "Uses the real football; no tackling; dodgeballs only for jail-catch, below the waist (Dodgeball games stay on the Dodgeball page); stick blade stays low in W4."
+      }
     ]
   },
   November: {
-    oi: ["Movement Skill Development", "Active Living", "Healthy Relationships", "Safety"],
-    why: "November is basketball: finger-pad dribble, chest and bounce pass, shoot, 3v3. Balls stay below the waist.",
+    oi: [
+      "Movement Skill Development",
+      "Safety",
+      "Active Living",
+      "Healthy Relationships"
+    ],
+    why: "November is floor hockey: blade down, tiny touches, push-pass, low shot, pass-first 3v3. Sticks below the knee, no slapshots, no ice. The last November week (Nov 30–Dec 4) is December's tag games.",
     g12: [
-      "Catch a beanbag or basketball with ready hands.",
-      "Stop a rolling ball with the body in front.",
-      "Hit off a tee and run to a hoop.",
-      "Call for a turn and wait at a station."
+      "Keep the stick blade on the floor and stop a rolling ball with the blade.",
+      "Push a hockey ball in tiny touches inside a space.",
+      "Push-pass to a partner or through a gate.",
+      "Freeze with sticks down on the whistle."
     ],
     g34: [
-      "Move feet to the catch; thumbs-together / pinkies-together as appropriate.",
-      "Field, pivot, and throw to a base or hoop.",
-      "Integrate a simple tactic (call “mine”; throw to the base, not the runner).",
-      "Demonstrate fair play in Newcomb or kickball (everyone bats)."
+      "Dribble with a forehand and a gentle backhand tap, head up.",
+      "Push-pass through a gate; the receiver traps with the blade.",
+      "Pass before a shot in 2v1; shoot low to a tape goal.",
+      "Shadow a player with the stick on the floor and body side-on (no hook)."
     ],
     g56: [
-      "Sustain a catch-throw rally and recover after a drop without blame.",
-      "Select where to throw on a force play.",
-      "Show Throw Level 1 with both overhand form and accuracy to a hoop.",
-      "Support a teammate’s call or give a peer cue."
+      "Handle the ball on both sides of the blade (weaker side).",
+      "Trap, take three touches and pass back; use the extra pass in a 4v2 power play.",
+      "Play 3v3 where everyone touches the ball before a shot.",
+      "Host a hockey station and keep sticks below the knee."
     ],
     assess: [
-      { what: "Catch", how: "Partner rally or game", evidence: "Feet move to the ball; soft hands; G3+ calls “mine” before contact." },
-      { what: "Throw Level 1", how: "Hoop or wall set", evidence: "Opposite foot, eyes on target, follow-through. Quality over distance." },
-      { what: "Field / hit", how: "Station or modified game", evidence: "Body in front of a roller; bat or noodle goes in a hoop after the hit." },
-      { what: "Team talk", how: "Observation", evidence: "Uses a call; resets after a drop; does not rank classmates." }
+      {
+        what: "Stick control",
+        how: "Hurdle or gate dribble",
+        evidence: "Two-hand grip, blade down; tiny touches; ball stays close; stops it with the blade."
+      },
+      {
+        what: "Push-pass and trap",
+        how: "Gate or partner task",
+        evidence: "Passes through a gate (accuracy, not a slap); receiver traps with the blade."
+      },
+      {
+        what: "Shot and tactics",
+        how: "2v1 and 3v3 games",
+        evidence: "Passes before a shot; low shot only; everyone touches the ball."
+      },
+      {
+        what: "Stick safety and fair play",
+        how: "Ongoing",
+        evidence: "Sticks below the knee; no slapshots; sticks down on the whistle; shadows without a hook."
+      }
     ]
   },
   December: {
-    oi: ["Movement Skill Development", "Active Living", "Character Development"],
-    why: "December is floor hockey: blade down, tiny touches, push-pass, low shot. No skating. Three weeks if Advent is short.",
+    oi: [
+      "Active Living",
+      "Healthy Relationships",
+      "Safety",
+      "Character Development"
+    ],
+    why: "December is games, not a new sport: tag, co-operative and invasion games, then festival stations. No elimination, soft tags. Two school weeks this year (plus Nov 30–Dec 4 on the November page).",
     g12: [
-      "Start and stop on a drum or freeze cue.",
-      "Show high / medium / low shapes.",
-      "Travel a straight or curved pathway without colliding."
+      "Tag softly, take a short stretch in the hospital and re-enter.",
+      "Move in a shared space without collisions (Wolf's Den, 10-second tag).",
+      "Pass a hoop around the circle without breaking hands.",
+      "Say a kind word after a tag or a miss."
     ],
     g34: [
-      "Match locomotor changes to an 8-count.",
-      "Remember a short A-B-A phrase (travel, shape, travel).",
-      "Work with a partner or small group to keep a beat."
+      "Apply fair-play rules in tag and relays (no elimination).",
+      "Send to a catcher in an end zone or Bench Ball with a simple tactic.",
+      "Work in a group of four to name a game and give one safety rule.",
+      "Unfreeze or help a classmate in a co-operative game."
     ],
     g56: [
-      "Build and perform 16–32 counts with a formation change.",
-      "Lead a phrase or take the drum.",
-      "Persevere when a sequence is forgotten — reset and try again."
+      "Lead a station or teach a game rule in about 60 seconds.",
+      "Use a tactic in Capture the Flag or Castleball (spread out, send, protect).",
+      "Write and run a class-invented game with a re-entry rule.",
+      "Include everyone: accept teacher-formed teams and role changes."
     ],
     assess: [
-      { what: "Timing", how: "Observation to drum or music", evidence: "Freezes on silence; changes level or locomotor on the phrase, not late." },
-      { what: "Shapes / pathways", how: "Museum or travel task", evidence: "Holds a shape 3 seconds; pathway does not collide." },
-      { what: "Sequence", how: "Small performance", evidence: "G3+ repeats a class phrase; G5–6 shows a still ending." },
-      { what: "Character", how: "Rehearsal behaviour", evidence: "Compliments an idea; does not mock a forgotten step." }
+      {
+        what: "Fair play",
+        how: "Observation in tag games",
+        evidence: "Soft tag; stretches in the hospital then re-enters; no arguing about a tag."
+      },
+      {
+        what: "Co-operation",
+        how: "Hoop Pass, Pass It On, relays",
+        evidence: "Hoop travels without breaking hands; team tasks continue without blame after a drop."
+      },
+      {
+        what: "Invent-a-game",
+        how: "Group task",
+        evidence: "Group names the game, lists equipment, and gives one safety rule and a re-entry rule."
+      },
+      {
+        what: "Inclusion and character",
+        how: "Festival stations",
+        evidence: "Hosts or joins a station; no public picking; encourages others."
+      },
+      {
+        what: "Fitness update",
+        how: "Private",
+        evidence: "Private skip or shuttle on the last class. No class ranking."
+      }
     ]
   },
   January: {
-    oi: ["Movement Skill Development", "Safety", "Healthy Relationships", "Active Living"],
-    why: "January continues floor hockey: tactics, 3v3, inclusion. No ice. One class may use a stay-in dodgeball game.",
+    oi: [
+      "Movement Skill Development",
+      "Safety",
+      "Healthy Relationships",
+      "Active Living"
+    ],
+    why: "January is basketball in Weeks 1–2 (dribble, chest and bounce pass, shoot, give-and-go) and scoop send and receive in Weeks 3–4 (cradle, toss, partner catch). Real basketballs stay below the waist; scoops are a second send/receive tool, not a full lacrosse unit.",
     g12: [
-      "Solve a simple partner task (move an object together).",
-      "Follow a playground turn-taking rule (four-square serve, rope wait).",
-      "Bounce a basketball or push-pass a hockey ball to a partner.",
-      "Keep a hockey stick blade on the floor."
+      "Walk-dribble with finger pads, eyes on a wall mark.",
+      "Bounce- or chest-pass to a partner or a wall.",
+      "Cradle a foam or wiffle ball in a scoop while walking.",
+      "Catch a short underhand toss in a scoop (two hands in Grades 1–2)."
     ],
     g34: [
-      "Demonstrate teamwork in a group of four.",
-      "Walk-dribble with eyes up.",
-      "Chest or bounce pass to a moving partner.",
-      "Push-pass through a gate; blade stays down."
+      "Jog-dribble with head up and protect the ball from a shadow defender.",
+      "Chest pass (thumbs down, step to the target) and bounce pass to the belly.",
+      "Jump-stop, then shoot into a hoop or bucket.",
+      "Pass and cut to a hoop (give-and-go); catch a partner's scoop toss with a call."
     ],
     g56: [
-      "Jog-dribble and switch hands.",
-      "Pass, then move to space in a small-sided game.",
-      "Receive and send a hockey ball in two touches.",
-      "Show perseverance on a personal-best station (not vs peers)."
+      "Switch hands on the dribble and protect it.",
+      "Pass, then move to space in a 3v1 or 3v3.",
+      "Choose a basketball shot or a scoop catch and explain the shared send/receive idea.",
+      "Play scoop End Zone Ball with a call; show perseverance on a personal-best station."
     ],
     assess: [
-      { what: "Cooperation", how: "Partner / group challenges", evidence: "Uses helpful words; stays with the assigned pair." },
-      { what: "Invasion skills", how: "Dribble, pass, stick safety", evidence: "Head up on a dribble; blade down; no running with the ball." },
-      { what: "Inclusion", how: "Observation", evidence: "Offers or accepts a helper job; no public picking." },
-      { what: "Balance", how: "Line walk", evidence: "Walks a floor line and stands up from a side sit without a rush." }
+      {
+        what: "Dribble",
+        how: "Gate or space task",
+        evidence: "Ball below the waist, finger pads, head up; protects the ball with the body."
+      },
+      {
+        what: "Chest and bounce pass",
+        how: "Partner or wall task",
+        evidence: "Thumbs down and a step to the target; bounce pass arrives at the belly."
+      },
+      {
+        what: "Shoot and give-and-go",
+        how: "Hoop task and 3v1",
+        evidence: "Bend, push, follow through; stops under control; passes, then cuts to a hoop."
+      },
+      {
+        what: "Scoop cradle and catch",
+        how: "Partner task",
+        evidence: "Scoop faces up and the ball stays in while walking; steps toward the catch and calls the partner's name."
+      },
+      {
+        what: "Inclusion",
+        how: "Observation",
+        evidence: "Offers or accepts a helper job; no public picking. Private wall-pass or skip check is not a rank."
+      }
     ]
   },
   February: {
-    oi: ["Movement Skill Development", "Active Living", "Safety"],
-    why: "Rope and hoop skills. The monthly fitness signature is a private 30-second skip.",
+    oi: [
+      "Movement Skill Development",
+      "Active Living",
+      "Safety"
+    ],
+    why: "Rope and hoop skills, plus Jump Rope for Heart the week your school runs it. The monthly fitness signature is a private 30-second skip.",
     g12: [
       "Swing a rope as a rainbow and jump a floor rope or river.",
       "Enter a long rope with teacher turners, or run through.",
@@ -159,45 +295,101 @@ window.UNIT_OUTCOMES = {
       "Set a private jump or spin record and try a new variation (jog-step, criss-cross, weak-hand spin).",
       "Turn a rope for a partner.",
       "Host a station or interval.",
-      "Compare only to their own January skip, not to classmates."
+      "Compare only to their own last skip check, not to classmates."
     ],
     assess: [
-      { what: "Rope skill", how: "Private count + observation", evidence: "G1–2: safe rainbow or run-through. G3+: several two-foot jumps. Soft landing." },
-      { what: "Hoop skill", how: "Station", evidence: "Controlled roll or spin; hoop is not thrown at people." },
-      { what: "Fitness update", how: "30-second skip, private", evidence: "Dated record. March-in-place is accepted if jumping is frustrating." },
-      { what: "Safety", how: "Ongoing", evidence: "Ropes down before anyone talks; space to turn." }
+      {
+        what: "Rope skill",
+        how: "Private count + observation",
+        evidence: "G1–2: safe rainbow or run-through. G3+: several two-foot jumps. Soft landing."
+      },
+      {
+        what: "Long rope and partner turning",
+        how: "Long-rope or partner station",
+        evidence: "G3+: enters, jumps and exits a long rope; G5–6 turn for a partner."
+      },
+      {
+        what: "Hoop skill",
+        how: "Station",
+        evidence: "Controlled roll or spin; hoop is not thrown at people."
+      },
+      {
+        what: "Jump Rope for Heart effort",
+        how: "Song-length participation",
+        evidence: "Stays in a skip or alternative movement for the set time."
+      },
+      {
+        what: "Fitness update",
+        how: "30-second skip, private",
+        evidence: "Dated record. March-in-place is accepted if jumping is frustrating."
+      },
+      {
+        what: "Safety",
+        how: "Ongoing",
+        evidence: "Ropes down before anyone talks; space to turn."
+      }
     ]
   },
   March: {
-    oi: ["Healthy Relationships", "Movement Skill Development", "Active Living", "Safety"],
-    why: "Parachute work (timing as a group) and circus skills (toss-catch, balance, showmanship). No aerials.",
+    oi: [
+      "Movement Skill Development",
+      "Active Living",
+      "Safety",
+      "Healthy Relationships"
+    ],
+    why: "March is volleyball: ready position, underhand send, bump, set, serve receive and 3v3 over a rope. Catch is allowed in Grades 1–2 and on first contact in 3v3 for Grades 1–4. Newcomb and keep-it-up keep everyone in.",
     g12: [
-      "Lift the chute on a count with the class.",
-      "Toss and catch a scarf.",
-      "Walk a line with a beanbag on the head or hold a flamingo.",
-      "Watch an act and clap at the end."
+      "Move the feet and catch a beach ball or trainer with ready hands.",
+      "Send underhand over a low rope or to a hoop target.",
+      "Keep a beach ball up with the group (keep-it-up).",
+      "Wait for a turn and rotate to a new spot."
     ],
     g34: [
-      "Perform dome, popcorn, and a change-places under the chute.",
-      "Link toss-catch and a still pose into a 20–30 second act.",
-      "Name shoulders or core as working muscles.",
-      "Name one safety rule that kept the chute round."
+      "Bump a self-toss and a partner toss with a flat platform.",
+      "Set (finger pass) a self-toss and a partner toss.",
+      "Serve underhand over a low rope; receive by catching or bumping.",
+      "Play 3v3 over a rope and rotate every few points."
     ],
     g56: [
-      "Order a class chute sequence and count the lift.",
-      "Build a 30–45 second act with a start pose and still ending.",
-      "MC or peer-coach a station.",
-      "Explain why rest between lifts matters."
+      "Rally bump and set with a partner or small group.",
+      "Dig a low ball with a platform under the ball.",
+      "Cover space in a 3-person rotation and call the ball.",
+      "Play small-sided volleyball and recover a drop without blame."
     ],
     assess: [
-      { what: "Chute timing", how: "Group observation", evidence: "Lifts together; does not pull a neighbour off balance." },
-      { what: "Circus skill", how: "Station + act", evidence: "Eyes on the object; still start and still end; drops are reset without blame." },
-      { what: "Audience / character", how: "Performance day", evidence: "Watches the act; claps at the end; compliments a still ending." },
-      { what: "Safety", how: "Ongoing", evidence: "Heads up under the chute; no wrapping a person." }
+      {
+        what: "Ready position and catch",
+        how: "Partner task or Newcomb",
+        evidence: "Feet set, hands ready; moves the feet to the ball; soft catch."
+      },
+      {
+        what: "Underhand send / serve",
+        how: "Low rope or target",
+        evidence: "Steps, contacts the ball and sends it over a low rope most of the time."
+      },
+      {
+        what: "Bump and set",
+        how: "Partner toss, keep-it-up",
+        evidence: "Flat platform, no swing; set shapes the ball up (G3+; catching is fine in G1–2)."
+      },
+      {
+        what: "Rotate and cover",
+        how: "3v3 game",
+        evidence: "Rotates every point; everyone plays every spot; calls the ball."
+      },
+      {
+        what: "Fitness update",
+        how: "Private",
+        evidence: "Personal skip or timed keep-up. Not a class rank."
+      }
     ]
   },
   April: {
-    oi: ["Movement Skill Development", "Safety", "Character Development"],
+    oi: [
+      "Movement Skill Development",
+      "Safety",
+      "Character Development"
+    ],
     why: "Gymnastics: shapes, travel, balance, jump-land, log roll and rock (no neck-loading). Control over speed.",
     g12: [
       "Show tuck and stretch (and other copied shapes) with tight muscles.",
@@ -218,66 +410,144 @@ window.UNIT_OUTCOMES = {
       "Explain why control beats speed."
     ],
     assess: [
-      { what: "Shapes and stillness", how: "Museum / holds", evidence: "Named shape held 3 seconds; muscles tight." },
-      { what: "Jump / land", how: "Mat task", evidence: "Bend–jump–stick. No uncontrolled landings." },
-      { what: "Roll / rock", how: "Mat station", evidence: "Log is long and tight; rock stays on shoulder-blades, not the neck." },
-      { what: "Routine / character", how: "Week 4 performance", evidence: "Still ending; kind watching; student may say no to a partner shape." },
-      { what: "Floor safety", how: "Ongoing", evidence: "One student per tape line; waiting students hold a shape." }
+      {
+        what: "Shapes and stillness",
+        how: "Museum / holds",
+        evidence: "Named shape held 3 seconds; muscles tight."
+      },
+      {
+        what: "Jump / land",
+        how: "Mat task",
+        evidence: "Bend–jump–stick. No uncontrolled landings."
+      },
+      {
+        what: "Roll / rock",
+        how: "Mat station",
+        evidence: "Log is long and tight; rock stays on shoulder-blades, not the neck."
+      },
+      {
+        what: "Balance and tape beam",
+        how: "Tape-line walk and flamingo",
+        evidence: "One-foot or small-base balance held 3 seconds; walks the tape line and steps off to a stick; one student per line."
+      },
+      {
+        what: "Routine / character",
+        how: "Week 4 performance",
+        evidence: "Still ending; kind watching; student may say no to a partner shape."
+      },
+      {
+        what: "Floor safety",
+        how: "Ongoing",
+        evidence: "One student per tape line; waiting students hold a shape."
+      }
     ]
   },
   May: {
-    oi: ["Active Living", "Movement Skill Development", "Safety"],
-    why: "May Weeks 1–2 are volleyball (Newcomb to bump/set). Weeks 3–4 are track and field. Slide Jump Rope for Heart if your school runs it.",
+    oi: [
+      "Active Living",
+      "Movement Skill Development",
+      "Safety",
+      "Character Development"
+    ],
+    why: "May is Track and Field Day practice: dash, shuttle, hurdles, jumps and throws in Weeks 1–3, combined-group stations in Week 4, then Track Day itself in Week 5 (May 31–Jun 4). Use the Track Day page for rules, faults and scoring.",
     g12: [
-      "Pace a walk-jog and stick a standing jump.",
-      "Send to a zone (underhand).",
-      "Keep a rope or marching rhythm for a short song.",
-      "Find a few picture controls with an adult or partner."
+      "Run the 100 m with a fair start and cheer every heat.",
+      "Pace a walk-jog and stick a standing jump on a mat.",
+      "Throw to a zone with an opposite-foot step.",
+      "Rotate through two events calmly and cheer a classmate."
     ],
     g34: [
-      "Use a standing or three-point start and stay in a lane.",
-      "Hand off a baton and run a small relay.",
-      "Complete a numbered orienteering loop with a partner.",
-      "Connect skipping to why the heart likes continuous work."
+      "Use a standing or crouch start and stay in a lane.",
+      "Run the four-hurdle flight over, not through; stick a standing or running long jump.",
+      "Throw a ring or ball with an opposite-foot step.",
+      "Rotate combined-group stations (beanbag toss, pins, canoe, tug, sack race) with fair play."
     ],
     g56: [
-      "Talk about race pace vs sprint and set a private meet goal.",
-      "Act as a student official or timer.",
-      "Plan a Score-O route and return by the whistle.",
+      "Talk about race pace versus sprint and set a private meet goal.",
+      "Act as a student official, timer or measurer.",
+      "Run the high jump (mat) safely; Grade 6 shot put or discus outside only, with a clear sector.",
       "Record skip and a timed run privately."
     ],
     assess: [
-      { what: "Run / start / relay", how: "Track practice", evidence: "Waits for the signal; stays in a cone lane; G3+ hand-off is a pass, not a toss at a person." },
-      { what: "Jump / throw review", how: "Zone or ribbon (not a rank)", evidence: "Stick landing; opposite-foot throw to a zone." },
-      { what: "JR4H effort", how: "Song-length participation", evidence: "Stays in a skip or alternative movement for the set time." },
-      { what: "Orienteering", how: "Course completion", evidence: "Thumb on the map; visits controls in order (or Score-O plan); knows to stop and look if lost." }
+      {
+        what: "Run, start and hurdles",
+        how: "Track practice",
+        evidence: "Waits for the signal; stays in a cone lane; hurdles are cleared over, not through."
+      },
+      {
+        what: "Jumps and landing",
+        how: "Event card, measured privately",
+        evidence: "Behind the board; stick landing; high jump lands on the mat, never head or neck."
+      },
+      {
+        what: "Throws",
+        how: "Zone or distance bands (not a rank)",
+        evidence: "Opposite-foot step; throws only on the call; fetches on the call; carries implements vertically."
+      },
+      {
+        what: "Combined-group stations and Track Day",
+        how: "Rotation and the meet (W5)",
+        evidence: "Stops on the whistle; beanbags, not balloons; waits in line, cheers more than one team, finishes the event."
+      },
+      {
+        what: "Fitness update",
+        how: "Private",
+        evidence: "Timed run or skip late in the month. No class ranking."
+      }
     ]
   },
   June: {
-    oi: ["Movement Skill Development", "Active Living", "Character Development", "Healthy Relationships"],
-    why: "June is track and field: meet rehearsal, relays, field events, then a year-end festival. Optional T-ball closer.",
+    oi: [
+      "Movement Skill Development",
+      "Active Living",
+      "Character Development",
+      "Healthy Relationships"
+    ],
+    why: "June is T-ball / baseball (everyone bats, throw to a hoop at first), then a year-end festival, thank-you lessons and the last class. Track and Field Day is May W5 (May 31–Jun 4).",
     g12: [
-      "Rotate two events calmly and cheer a classmate.",
-      "Catch a beanbag, run through first, hit off a tee.",
+      "Hit off a tee, put the bat in the hoop, and run through first.",
+      "Catch a short toss with ready hands and call “mine.”",
+      "Take turns in the batting order so everyone bats.",
       "Name one favourite game and one way to stay active in summer."
     ],
     g34: [
-      "Complete three meet events with fair starts.",
       "Field a grounder and throw to a hoop at first.",
       "Play modified T-ball so everyone bats.",
+      "Run the bases through the hoop without stopping on it.",
       "Write or say one personal goal from the year."
     ],
     g56: [
-      "Official or lead a younger heat if asked.",
-      "Decide where to throw and when to run.",
-      "Host a festival station.",
-      "Compare private September and June checks only with themselves."
+      "Decide where to throw and when to run or hold the ball.",
+      "Host a year-end festival station.",
+      "Show one skill from the year and name its cue.",
+      "Compare private skip, run or jump–stick checks only with themselves."
     ],
     assess: [
-      { what: "Meet behaviour", how: "Rehearsal + meet", evidence: "Waits in line; cheers more than one team; finishes the event." },
-      { what: "T-ball skills", how: "Stations then a modified game", evidence: "Ready hands; through first; bat in the hoop; throw to the base." },
-      { what: "Tactics", how: "Small-sided game (G3+)", evidence: "Calls “I got it”; holds the ball when a throw to first is not on." },
-      { what: "Year-end growth", how: "Private fitness + conversation", evidence: "Repeats September checks quietly; shares only if they want to; names one skill and one teammate." }
+      {
+        what: "T-ball skills",
+        how: "Stations then a modified game",
+        evidence: "Ready hands; through first; bat in the hoop; throw to the base."
+      },
+      {
+        what: "Base running",
+        how: "Four-hoop path",
+        evidence: "Runs through the hoop and does not stop on it; looks up after contact before running."
+      },
+      {
+        what: "Tactics",
+        how: "Small-sided game (G3+)",
+        evidence: "Calls “I got it”; throws to the hoop at first, not the runner; holds the ball when a throw to first is not on."
+      },
+      {
+        what: "Festival and thank-you",
+        how: "Stations and a skill gallery",
+        evidence: "Includes a classmate at a station; shows one skill from the year and names the cue."
+      },
+      {
+        what: "Year-end growth",
+        how: "Private fitness + conversation",
+        evidence: "Repeats an earlier check quietly; shares only if they want to; names one skill and one teammate."
+      }
     ]
   }
 };
@@ -303,9 +573,18 @@ window.ASSESS_PRINCIPLES = [
    Fitness rows never rank students against each other — only against their own baseline. */
 window.UNIT_RUBRICS = {
   September: {
-    title: "September · Soccer & gym routines",
-    levels: ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"],
-    levelsK2: ["Not Yet", "Meeting", "Mastering"],
+    title: "September · Soccer, football intro & gym routines",
+    levels: [
+      "Not Yet",
+      "Minimally Meeting",
+      "Solidifying",
+      "Mastering"
+    ],
+    levelsK2: [
+      "Not Yet",
+      "Meeting",
+      "Mastering"
+    ],
     rows: [
       {
         criterion: "Safety & listening",
@@ -323,33 +602,48 @@ window.UNIT_RUBRICS = {
         ]
       },
       {
-        criterion: "Body awareness",
+        criterion: "Soccer touch & pass",
+        oi: "Movement Skill Development",
+        levels: [
+          "Kicks the ball away or runs through it; trap or pass not yet successful.",
+          "Small touches when reminded; trap or pass often rolls away.",
+          "Small touches with head up; sole trap keeps the ball close; plant foot beside the ball on an inside-foot pass.",
+          "Passes accurately through a gate, then moves to space; can name one cue for a peer."
+        ],
+        levelsK2: [
+          "Kicks the ball away or runs through it; trap or pass not yet successful.",
+          "Small touches with head up; sole trap keeps the ball close; plant foot beside the ball on an inside-foot pass.",
+          "Passes accurately through a gate, then moves to space; can name one cue for a peer."
+        ]
+      },
+      {
+        criterion: "Football hike, catch & throw",
+        oi: "Movement Skill Development",
+        levels: [
+          "Turns away or throws without a step; catch or throw not yet successful.",
+          "Ready hands or an opposite-foot step sometimes; needs a short, soft toss.",
+          "Ready hands, eyes on the ball; opposite-foot step and follow-through to a hoop or partner.",
+          "Catches on the move and throws to where a partner will be; can name the cue used."
+        ],
+        levelsK2: [
+          "Turns away or throws without a step; catch or throw not yet successful.",
+          "Ready hands, eyes on the ball; opposite-foot step and follow-through to a hoop or partner.",
+          "Catches on the move and throws to where a partner will be; can name the cue used."
+        ]
+      },
+      {
+        criterion: "Body awareness & pulse check",
         oi: "Active Living",
         levels: [
           "Cannot yet connect activity to a body change.",
           "Names one change (heart, breath, warmth) when the idea is modelled.",
-          "Names heart, breath, or a muscle used today; shows personal space.",
+          "Finds the pulse or names a body change after a dribble game; shows personal space.",
           "Connects effort, recovery, and how the body feels in their own words."
         ],
         levelsK2: [
           "Cannot yet connect activity to a body change.",
-          "Names heart, breath, or a muscle used today; shows personal space.",
+          "Finds the pulse or names a body change after a dribble game; shows personal space.",
           "Connects effort, recovery, and how the body feels in their own words."
-        ]
-      },
-      {
-        criterion: "Run / jump cues",
-        oi: "Movement Skill Development",
-        levels: [
-          "Head-down run or stiff landings; cues not yet successful.",
-          "Sometimes eyes up; landings uneven.",
-          "Eyes up and quiet feet on a jog; bend–jump–stick landing.",
-          "Changes speed on a signal; can explain one cue to a peer."
-        ],
-        levelsK2: [
-          "Head-down run or stiff landings; cues not yet successful.",
-          "Eyes up and quiet feet on a jog; bend–jump–stick landing.",
-          "Changes speed on a signal; can explain one cue to a peer."
         ]
       },
       {
@@ -370,277 +664,352 @@ window.UNIT_RUBRICS = {
     ]
   },
   October: {
-    title: "October · Football (send / receive)",
-    levels: ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"],
-    levelsK2: ["Not Yet", "Meeting", "Mastering"],
+    title: "October · Football, parachute & circus",
+    levels: [
+      "Not Yet",
+      "Minimally Meeting",
+      "Solidifying",
+      "Mastering"
+    ],
+    levelsK2: [
+      "Not Yet",
+      "Meeting",
+      "Mastering"
+    ],
     rows: [
       {
-        criterion: "Throw / send cue",
+        criterion: "Hand-off & pitch",
         oi: "Movement Skill Development",
         levels: [
-          "Uncontrolled or unsafe send; cue not yet successful.",
-          "Underhand/overhand with a model; often misses target zone.",
-          "Opposite-foot step; send lands in hoop/partner zone most of the time.",
-          "Adjusts power and aim; can name the cue used."
+          "I throw at the runner or drop the give.",
+          "I give softly sometimes, but my pace is uneven.",
+          "I give softly into the runner's pocket and the runner goes.",
+          "I give softly every time and can coach a teammate (pull flags fairly in Gr 5–6)."
         ],
         levelsK2: [
-          "Uncontrolled or unsafe send; cue not yet successful.",
-          "Opposite-foot step; send lands in hoop/partner zone most of the time.",
-          "Adjusts power and aim; can name the cue used."
+          "I throw at the runner or drop the give.",
+          "I give softly into the runner's pocket and the runner goes.",
+          "I give softly every time and can coach a teammate (pull flags fairly in Gr 5–6)."
         ]
       },
       {
-        criterion: "Catch / trap",
+        criterion: "Defending the lane",
         oi: "Movement Skill Development",
         levels: [
-          "Turns away or one-hand without control; not yet successful.",
-          "Two-hand/scoop attempt; frequent drops.",
-          "Two-hand or scoop ready; eyes on the ball.",
-          "Moves feet to the ball; resets for the next send."
+          "I contact the person or just stand still.",
+          "I stay near the receiver but rarely contest the catch.",
+          "I stay between receiver and ball and contest the catch without contact.",
+          "I tip or intercept cleanly and keep my head up."
         ],
         levelsK2: [
-          "Turns away or one-hand without control; not yet successful.",
-          "Two-hand or scoop ready; eyes on the ball.",
-          "Moves feet to the ball; resets for the next send."
+          "I contact the person or just stand still.",
+          "I stay between receiver and ball and contest the catch without contact.",
+          "I tip or intercept cleanly and keep my head up."
         ]
       },
       {
-        criterion: "Simple tactics",
+        criterion: "Small-sided flag",
         oi: "Movement Skill Development",
         levels: [
-          "Stays still or crowds the ball; tactic not yet shown.",
-          "Moves after the structure is made obvious.",
-          "Moves to space after a send; passes before a score when required.",
-          "Calls for the ball; creates space for a teammate."
+          "I forget to hike or reset, or I tackle.",
+          "I hike and pass when reminded.",
+          "I hike, pass and score with soft flag pulls or touches, and I reset so everyone plays.",
+          "I run the whole sequence and can take a QB or ref role (Gr 5–6)."
         ],
         levelsK2: [
-          "Stays still or crowds the ball; tactic not yet shown.",
-          "Moves to space after a send; passes before a score when required.",
-          "Calls for the ball; creates space for a teammate."
+          "I forget to hike or reset, or I tackle.",
+          "I hike, pass and score with soft flag pulls or touches, and I reset so everyone plays.",
+          "I run the whole sequence and can take a QB or ref role (Gr 5–6)."
+        ]
+      },
+      {
+        criterion: "Parachute & circus (W2–W3)",
+        oi: "Movement Skill Development",
+        levels: [
+          "Lets go, pulls a neighbour off balance, or drops the object without resetting.",
+          "Lifts with the group when reminded; a toss or balance works for a short bout.",
+          "Lifts and lowers on the count; shows the toss or balance with a still start and still end.",
+          "Leads a short count or combines two skills; recovers a drop calmly."
+        ],
+        levelsK2: [
+          "Lets go, pulls a neighbour off balance, or drops the object without resetting.",
+          "Lifts and lowers on the count; shows the toss or balance with a still start and still end.",
+          "Leads a short count or combines two skills; recovers a drop calmly."
         ]
       },
       {
         criterion: "Safety with a real ball",
         oi: "Safety",
         levels: [
-          "Throws at heads or chases people; safety not yet met.",
-          "Needs a clear model for below-shoulder / safe sends.",
-          "Keeps throws away from heads; stops on the whistle.",
-          "Reminds a peer of a safety rule without shaming."
+          "Throws at heads, tackles, or uses a football to throw at a person.",
+          "Follows a safety rule after a reminder.",
+          "Real ball only; dodgeballs below the waist for jail-catch; soft tag.",
+          "Reminds a peer of a safety rule kindly and explains why."
         ],
         levelsK2: [
-          "Throws at heads or chases people; safety not yet met.",
-          "Keeps throws away from heads; stops on the whistle.",
-          "Reminds a peer of a safety rule without shaming."
+          "Throws at heads, tackles, or uses a football to throw at a person.",
+          "Real ball only; dodgeballs below the waist for jail-catch; soft tag.",
+          "Reminds a peer of a safety rule kindly and explains why."
         ]
       }
     ]
   },
   November: {
-    title: "November · Basketball & small-sided games",
-    levels: ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"],
-    levelsK2: ["Not Yet", "Meeting", "Mastering"],
+    title: "November · Floor hockey",
+    levels: [
+      "Not Yet",
+      "Minimally Meeting",
+      "Solidifying",
+      "Mastering"
+    ],
+    levelsK2: [
+      "Not Yet",
+      "Meeting",
+      "Mastering"
+    ],
     rows: [
       {
-        criterion: "Catch & ready position",
+        criterion: "Stick control",
         oi: "Movement Skill Development",
         levels: [
-          "Hands down; catch not yet successful.",
-          "Hands up after a model; inconsistent.",
-          "Ready hands; two-hand catch on most partner tosses.",
-          "Calls for the ball; shows a hand target."
+          "Stick comes up or the ball runs away; control not yet successful.",
+          "Blade down with reminders; ball often runs away.",
+          "Two-hand grip, blade down; tiny touches keep the ball close.",
+          "Handles both sides of the blade and changes direction with control."
         ],
         levelsK2: [
-          "Hands down; catch not yet successful.",
-          "Ready hands; two-hand catch on most partner tosses.",
-          "Calls for the ball; shows a hand target."
+          "Stick comes up or the ball runs away; control not yet successful.",
+          "Two-hand grip, blade down; tiny touches keep the ball close.",
+          "Handles both sides of the blade and changes direction with control."
         ]
       },
       {
-        criterion: "Send / bounce pass",
+        criterion: "Push-pass & trap",
         oi: "Movement Skill Development",
         levels: [
-          "Wild or uncontrolled push; not yet successful.",
-          "Chest/bounce with a model.",
-          "Step-and-push pass to partner/hoop most of the time.",
-          "Chooses chest or bounce to fit the gap."
+          "Slaps or swings; pass or trap not yet successful.",
+          "Pushes the ball with a model; trap often bounces away.",
+          "Push-passes through a gate most of the time; traps with the blade.",
+          "Passes to a moving partner and traps on the weaker side."
         ],
         levelsK2: [
-          "Wild or uncontrolled push; not yet successful.",
-          "Step-and-push pass to partner/hoop most of the time.",
-          "Chooses chest or bounce to fit the gap."
+          "Slaps or swings; pass or trap not yet successful.",
+          "Push-passes through a gate most of the time; traps with the blade.",
+          "Passes to a moving partner and traps on the weaker side."
         ]
       },
       {
-        criterion: "Team talk",
-        oi: "Healthy Relationships",
+        criterion: "Pass-first tactics",
+        oi: "Movement Skill Development",
         levels: [
-          "Negative talk after a miss; expectation not yet met.",
-          "Quiet reset when the expectation is restated.",
-          "Kind phrase after a drop; takes a turn.",
-          "Encourages a teammate; resets play quickly."
+          "Holds the ball and shoots alone.",
+          "Passes when reminded; stands still after a pass.",
+          "Passes before a low shot and moves to space; everyone touches the ball.",
+          "Uses the extra pass in a power play and explains the choice."
         ],
         levelsK2: [
-          "Negative talk after a miss; expectation not yet met.",
-          "Kind phrase after a drop; takes a turn.",
-          "Encourages a teammate; resets play quickly."
+          "Holds the ball and shoots alone.",
+          "Passes before a low shot and moves to space; everyone touches the ball.",
+          "Uses the extra pass in a power play and explains the choice."
         ]
       },
       {
-        criterion: "Fair play & safety",
+        criterion: "Stick safety & fair play",
         oi: "Safety",
         levels: [
-          "Body-checks or grabs from hands; not yet safe/fair.",
-          "Contests ball (not body) when modelled.",
-          "Hands off body; soft contests; freezes on whistle.",
-          "Models “ball not body” for the group."
+          "Stick above the knee, hooks or swings at others; not yet safe.",
+          "Keeps the blade low after a reminder.",
+          "Blade stays low; sticks down on the whistle; soft contests.",
+          "Models “ball not body” and reminds a peer kindly."
         ],
         levelsK2: [
-          "Body-checks or grabs from hands; not yet safe/fair.",
-          "Hands off body; soft contests; freezes on whistle.",
-          "Models “ball not body” for the group."
+          "Stick above the knee, hooks or swings at others; not yet safe.",
+          "Blade stays low; sticks down on the whistle; soft contests.",
+          "Models “ball not body” and reminds a peer kindly."
         ]
       }
     ]
   },
   December: {
-    title: "December · Floor hockey & rhythm",
-    levels: ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"],
-    levelsK2: ["Not Yet", "Meeting", "Mastering"],
+    title: "December · Tag, co-operative & festival games",
+    levels: [
+      "Not Yet",
+      "Minimally Meeting",
+      "Solidifying",
+      "Mastering"
+    ],
+    levelsK2: [
+      "Not Yet",
+      "Meeting",
+      "Mastering"
+    ],
     rows: [
       {
-        criterion: "Timing / rhythm",
-        oi: "Movement Skill Development",
+        criterion: "Fair play in tag",
+        oi: "Healthy Relationships",
         levels: [
-          "Movement does not match beat/signal; not yet successful.",
-          "Matches some beats when modelled.",
-          "Matches locomotor changes to a steady beat or whistle.",
-          "Leads a short count or keeps the group on the beat."
+          "Argues about a tag or refuses to re-enter; not yet shown.",
+          "Accepts a tag when the structure is clear.",
+          "Soft tag; stretches in the hospital and re-enters; accepts a tag without arguing.",
+          "Reminds a peer of the re-entry rule kindly and keeps the game going."
         ],
         levelsK2: [
-          "Movement does not match beat/signal; not yet successful.",
-          "Matches locomotor changes to a steady beat or whistle.",
-          "Leads a short count or keeps the group on the beat."
+          "Argues about a tag or refuses to re-enter; not yet shown.",
+          "Soft tag; stretches in the hospital and re-enters; accepts a tag without arguing.",
+          "Reminds a peer of the re-entry rule kindly and keeps the game going."
         ]
       },
       {
-        criterion: "Shapes & pathways",
-        oi: "Movement Skill Development",
+        criterion: "Co-operation",
+        oi: "Healthy Relationships",
         levels: [
-          "Shape collapses or pathway random; not yet successful.",
-          "Holds briefly; pathway needs a clear model.",
-          "Holds a shape; travels a clear pathway.",
-          "Links two shapes with controlled travel."
+          "Breaks the chain or blames others after a drop.",
+          "Works with an assigned partner when the structure is clear.",
+          "Keeps the hoop or team task going; resets after a drop without blame.",
+          "Encourages the group and suggests a fix when the task stalls."
         ],
         levelsK2: [
-          "Shape collapses or pathway random; not yet successful.",
-          "Holds a shape; travels a clear pathway.",
-          "Links two shapes with controlled travel."
+          "Breaks the chain or blames others after a drop.",
+          "Keeps the hoop or team task going; resets after a drop without blame.",
+          "Encourages the group and suggests a fix when the task stalls."
         ]
       },
       {
-        criterion: "Stick / equipment safety",
-        oi: "Safety",
-        levels: [
-          "High stick or uncontrolled swing; not yet safe.",
-          "Stick low when modelled.",
-          "Blade/implement stays low; parks equipment when asked.",
-          "Checks peers’ sticks; models a safe stop."
-        ],
-        levelsK2: [
-          "High stick or uncontrolled swing; not yet safe.",
-          "Blade/implement stays low; parks equipment when asked.",
-          "Checks peers’ sticks; models a safe stop."
-        ]
-      },
-      {
-        criterion: "Character in rehearsal",
+        criterion: "Invent / lead a game",
         oi: "Character Development",
         levels: [
-          "Stops after a mistake; perseverance not yet shown.",
-          "Tries again when the next step is clear.",
-          "Retries a sequence; listens in group practice.",
-          "Helps a partner fix one cue without taking over."
+          "Does not yet join the group task.",
+          "Shares an idea when asked.",
+          "Helps name the game, lists equipment, and gives one safety rule.",
+          "Leads the group and teaches the rule in about 60 seconds."
         ],
         levelsK2: [
-          "Stops after a mistake; perseverance not yet shown.",
-          "Retries a sequence; listens in group practice.",
-          "Helps a partner fix one cue without taking over."
+          "Does not yet join the group task.",
+          "Helps name the game, lists equipment, and gives one safety rule.",
+          "Leads the group and teaches the rule in about 60 seconds."
+        ]
+      },
+      {
+        criterion: "Safety & inclusion",
+        oi: "Safety",
+        levels: [
+          "Runs into others or leaves a classmate out; not yet safe.",
+          "Follows a rule after a reminder.",
+          "Soft tags; keeps space; no public picking.",
+          "Invites a left-out peer and models safe play."
+        ],
+        levelsK2: [
+          "Runs into others or leaves a classmate out; not yet safe.",
+          "Soft tags; keeps space; no public picking.",
+          "Invites a left-out peer and models safe play."
         ]
       }
     ]
   },
   January: {
-    title: "January · Invasion & inclusion",
-    levels: ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"],
-    levelsK2: ["Not Yet", "Meeting", "Mastering"],
+    title: "January · Basketball & scoops",
+    levels: [
+      "Not Yet",
+      "Minimally Meeting",
+      "Solidifying",
+      "Mastering"
+    ],
+    levelsK2: [
+      "Not Yet",
+      "Meeting",
+      "Mastering"
+    ],
     rows: [
       {
-        criterion: "Cooperation",
-        oi: "Healthy Relationships",
-        levels: [
-          "Works alone; partner expectation not yet met.",
-          "Joins when the partnership is structured.",
-          "Shares a role in a partner/small-group challenge.",
-          "Includes a peer who was left out."
-        ],
-        levelsK2: [
-          "Works alone; partner expectation not yet met.",
-          "Shares a role in a partner/small-group challenge.",
-          "Includes a peer who was left out."
-        ]
-      },
-      {
-        criterion: "Invasion skills",
+        criterion: "Dribble",
         oi: "Movement Skill Development",
         levels: [
-          "Loses ball immediately; no pass; not yet successful.",
-          "Dribbles/carries with a model; rare pass.",
-          "Controlled dribble/carry; passes before a score when required.",
-          "Passes to open space; can name a simple tactic."
+          "Slaps the ball or carries it; control not yet successful.",
+          "Walk-dribbles with a model; ball sometimes rolls away.",
+          "Finger-pad dribble below the waist with head up.",
+          "Jog-dribbles, switches hands and protects the ball from a shadow."
         ],
         levelsK2: [
-          "Loses ball immediately; no pass; not yet successful.",
-          "Controlled dribble/carry; passes before a score when required.",
-          "Passes to open space; can name a simple tactic."
+          "Slaps the ball or carries it; control not yet successful.",
+          "Finger-pad dribble below the waist with head up.",
+          "Jog-dribbles, switches hands and protects the ball from a shadow."
         ]
       },
       {
-        criterion: "Inclusion",
+        criterion: "Chest & bounce pass",
+        oi: "Movement Skill Development",
+        levels: [
+          "Throws without a step; pass not yet successful.",
+          "Steps sometimes; pass is off target or too hard.",
+          "Thumbs down, step to the target; bounce pass arrives at the belly.",
+          "Chooses chest or bounce to fit the gap and passes to a moving partner."
+        ],
+        levelsK2: [
+          "Throws without a step; pass not yet successful.",
+          "Thumbs down, step to the target; bounce pass arrives at the belly.",
+          "Chooses chest or bounce to fit the gap and passes to a moving partner."
+        ]
+      },
+      {
+        criterion: "Shoot & give-and-go",
+        oi: "Movement Skill Development",
+        levels: [
+          "Travels or throws without stopping; not yet successful.",
+          "Jump-stops with reminders; shot is rushed.",
+          "Bend, push, follow through; passes, then cuts to a hoop.",
+          "Passes to open space and can name a simple tactic."
+        ],
+        levelsK2: [
+          "Travels or throws without stopping; not yet successful.",
+          "Bend, push, follow through; passes, then cuts to a hoop.",
+          "Passes to open space and can name a simple tactic."
+        ]
+      },
+      {
+        criterion: "Scoop cradle & catch",
+        oi: "Movement Skill Development",
+        levels: [
+          "Ball falls out or scoop faces down; not yet successful.",
+          "Cradles with a model; catch needs a short toss.",
+          "Cradles while walking; steps to the catch and calls the name.",
+          "Catches on the move and sends back accurately."
+        ],
+        levelsK2: [
+          "Ball falls out or scoop faces down; not yet successful.",
+          "Cradles while walking; steps to the catch and calls the name.",
+          "Catches on the move and sends back accurately."
+        ]
+      },
+      {
+        criterion: "Inclusion & co-operation",
         oi: "Healthy Relationships",
         levels: [
-          "Excludes during role changes; expectation not yet met.",
-          "Accepts roles when assignments are clear.",
-          "Accepts teacher-formed teams and role switches.",
+          "Leaves others out or argues about turns.",
+          "Accepts teacher-formed teams and role switches when the structure is clear.",
+          "Offers or accepts a helper job; no public picking.",
           "Advocates for a fair turn for someone else."
         ],
         levelsK2: [
-          "Excludes during role changes; expectation not yet met.",
-          "Accepts teacher-formed teams and role switches.",
+          "Leaves others out or argues about turns.",
+          "Offers or accepts a helper job; no public picking.",
           "Advocates for a fair turn for someone else."
-        ]
-      },
-      {
-        criterion: "Balance & control",
-        oi: "Movement Skill Development",
-        levels: [
-          "Frequent falls; recovery not yet successful.",
-          "Recovers when given a clear next step.",
-          "Holds a line/freeze with control; soft landings.",
-          "Controlled balance; helps a peer spot safely."
-        ],
-        levelsK2: [
-          "Frequent falls; recovery not yet successful.",
-          "Holds a line/freeze with control; soft landings.",
-          "Controlled balance; helps a peer spot safely."
         ]
       }
     ]
   },
   February: {
     title: "February · Rope, hoop & fitness",
-    levels: ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"],
-    levelsK2: ["Not Yet", "Meeting", "Mastering"],
+    levels: [
+      "Not Yet",
+      "Minimally Meeting",
+      "Solidifying",
+      "Mastering"
+    ],
+    levelsK2: [
+      "Not Yet",
+      "Meeting",
+      "Mastering"
+    ],
     rows: [
       {
         criterion: "Rope skill",
@@ -655,6 +1024,21 @@ window.UNIT_RUBRICS = {
           "Avoids rope or stops after one miss; not yet successful.",
           "Basic rhythm or side-swing for a short set.",
           "Self-counts a short set; tries a harder grade-level pattern."
+        ]
+      },
+      {
+        criterion: "Long rope & partner turning",
+        oi: "Movement Skill Development",
+        levels: [
+          "Avoids the long rope or stops after one miss; not yet successful.",
+          "Enters and exits with a teacher turner; one jump.",
+          "Enters, jumps 1–3 times and exits; turns for a partner with a model.",
+          "Jumps several times and turns for a partner so both succeed."
+        ],
+        levelsK2: [
+          "Avoids the long rope or stops after one miss; not yet successful.",
+          "Enters, jumps 1–3 times and exits; turns for a partner with a model.",
+          "Jumps several times and turns for a partner so both succeed."
         ]
       },
       {
@@ -688,6 +1072,21 @@ window.UNIT_RUBRICS = {
         ]
       },
       {
+        criterion: "Effort in Jump Rope for Heart",
+        oi: "Active Living",
+        levels: [
+          "Stops early without a plan; active-living expectation not yet met.",
+          "Participates with breaks when structure supports it.",
+          "Stays in the song-length or station block with steady effort.",
+          "Paces effort and encourages others to keep moving."
+        ],
+        levelsK2: [
+          "Stops early without a plan; active-living expectation not yet met.",
+          "Stays in the song-length or station block with steady effort.",
+          "Paces effort and encourages others to keep moving."
+        ]
+      },
+      {
         criterion: "Rope / hoop safety",
         oi: "Safety",
         levels: [
@@ -705,76 +1104,94 @@ window.UNIT_RUBRICS = {
     ]
   },
   March: {
-    title: "March · Parachute & circus",
-    levels: ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"],
-    levelsK2: ["Not Yet", "Meeting", "Mastering"],
+    title: "March · Volleyball",
+    levels: [
+      "Not Yet",
+      "Minimally Meeting",
+      "Solidifying",
+      "Mastering"
+    ],
+    levelsK2: [
+      "Not Yet",
+      "Meeting",
+      "Mastering"
+    ],
     rows: [
       {
-        criterion: "Chute timing",
+        criterion: "Ready position & catch",
         oi: "Movement Skill Development",
         levels: [
-          "Pulls early/late every time; not yet with the group.",
-          "Matches some group lifts.",
-          "Lifts and lowers with the group on the count.",
-          "Leads a short count for mushroom or wave."
+          "Turns away or lets the ball drop; not yet successful.",
+          "Hands late; needs a short toss.",
+          "Feet set, hands ready; moves the feet and makes a soft catch.",
+          "Calls the ball and catches on the move in a game."
         ],
         levelsK2: [
-          "Pulls early/late every time; not yet with the group.",
-          "Lifts and lowers with the group on the count.",
-          "Leads a short count for mushroom or wave."
+          "Turns away or lets the ball drop; not yet successful.",
+          "Feet set, hands ready; moves the feet and makes a soft catch.",
+          "Calls the ball and catches on the move in a game."
         ]
       },
       {
-        criterion: "Circus / object skill",
+        criterion: "Underhand send / serve",
         oi: "Movement Skill Development",
         levels: [
-          "Avoids prop or one attempt only; not yet successful.",
-          "Attempts scarf/balloon/plate with a model.",
-          "Shows the taught skill for a short bout.",
-          "Combines two skills or teaches a peer one cue."
+          "Throws without a step or misses the rope; not yet successful.",
+          "Steps sometimes; send often stays under the rope.",
+          "Steps, contacts the ball and sends it over a low rope most of the time.",
+          "Aims to a zone and can name the cue used."
         ],
         levelsK2: [
-          "Avoids prop or one attempt only; not yet successful.",
-          "Shows the taught skill for a short bout.",
-          "Combines two skills or teaches a peer one cue."
+          "Throws without a step or misses the rope; not yet successful.",
+          "Steps, contacts the ball and sends it over a low rope most of the time.",
+          "Aims to a zone and can name the cue used."
         ]
       },
       {
-        criterion: "Audience & character",
-        oi: "Character Development",
+        criterion: "Bump & set",
+        oi: "Movement Skill Development",
         levels: [
-          "Disrupts others’ turns; expectation not yet met.",
-          "Watches when expectations are clear.",
-          "Watches quietly; claps; takes a turn without rushing others.",
-          "Encourages performers; recovers from a drop gracefully."
+          "Swings the arms or lets the ball drop; not yet successful.",
+          "Bumps or sets a short toss with a model.",
+          "Flat platform bump or set most of the time (catching is fine in Grades 1–2).",
+          "Keeps a short rally going and explains one cue to a peer."
         ],
         levelsK2: [
-          "Disrupts others’ turns; expectation not yet met.",
-          "Watches quietly; claps; takes a turn without rushing others.",
-          "Encourages performers; recovers from a drop gracefully."
+          "Swings the arms or lets the ball drop; not yet successful.",
+          "Flat platform bump or set most of the time (catching is fine in Grades 1–2).",
+          "Keeps a short rally going and explains one cue to a peer."
         ]
       },
       {
-        criterion: "Group safety",
-        oi: "Safety",
+        criterion: "Rotate, cover & fair play",
+        oi: "Healthy Relationships",
         levels: [
-          "Pulls chute/props toward faces; not yet safe.",
-          "Grip/space when modelled.",
-          "Safe grip; eyes up; no diving under without a call.",
-          "Stops unsafe play and resets the group calmly."
+          "Stays in one spot or blames others after a drop.",
+          "Rotates when reminded.",
+          "Rotates every point and covers a spot; resets after a drop without blame.",
+          "Calls the ball, supports a teammate's call and keeps the game moving."
         ],
         levelsK2: [
-          "Pulls chute/props toward faces; not yet safe.",
-          "Safe grip; eyes up; no diving under without a call.",
-          "Stops unsafe play and resets the group calmly."
+          "Stays in one spot or blames others after a drop.",
+          "Rotates every point and covers a spot; resets after a drop without blame.",
+          "Calls the ball, supports a teammate's call and keeps the game moving."
         ]
       }
     ]
   },
   April: {
     title: "April · Gymnastics",
-    levels: ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"],
-    levelsK2: ["Not Yet", "Meeting", "Mastering"],
+    levels: [
+      "Not Yet",
+      "Minimally Meeting",
+      "Solidifying",
+      "Mastering"
+    ],
+    levelsK2: [
+      "Not Yet",
+      "Meeting",
+      "Mastering"
+    ],
     rows: [
       {
         criterion: "Shapes & stillness",
@@ -822,8 +1239,23 @@ window.UNIT_RUBRICS = {
         ]
       },
       {
+        criterion: "Balance & tape beam",
+        oi: "Movement Skill Development",
+        levels: [
+          "Steps off or wobbles at once; not yet successful.",
+          "Holds 1–2 seconds with a model or a wall spot.",
+          "Holds a one-foot balance 3 seconds; walks a tape line and steps off to a stick.",
+          "Holds a balance with control, walks the line with a change of direction, and can leave a pair shape instantly."
+        ],
+        levelsK2: [
+          "Steps off or wobbles at once; not yet successful.",
+          "Holds a one-foot balance 3 seconds; walks a tape line and steps off to a stick.",
+          "Holds a balance with control, walks the line with a change of direction, and can leave a pair shape instantly."
+        ]
+      },
+      {
         criterion: "Floor safety & character",
-        oi: "Safety · Character",
+        oi: "Safety · Character Development",
         levels: [
           "Runs on mats; ignores wait spots; not yet safe.",
           "One-at-a-time when structure is clear.",
@@ -839,79 +1271,66 @@ window.UNIT_RUBRICS = {
     ]
   },
   May: {
-    title: "May · Volleyball / track / jump rope",
-    levels: ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"],
-    levelsK2: ["Not Yet", "Meeting", "Mastering"],
+    title: "May · Track and field practice & Track Day",
+    levels: [
+      "Not Yet",
+      "Minimally Meeting",
+      "Solidifying",
+      "Mastering"
+    ],
+    levelsK2: [
+      "Not Yet",
+      "Meeting",
+      "Mastering"
+    ],
     rows: [
       {
-        criterion: "Run / start / relay",
+        criterion: "Run, start & hurdles",
         oi: "Movement Skill Development",
         levels: [
-          "False starts or cuts lane; not yet successful.",
+          "False starts, cuts the lane, or runs through the hurdles; not yet successful.",
           "Runs the path with a clear model.",
-          "Fair start; stays in lane; tags next runner.",
-          "Cheers a teammate; clean exchange."
+          "Fair start; stays in lane; clears the hurdles over, not through.",
+          "Paces the run and can explain one starting cue to a peer."
         ],
         levelsK2: [
-          "False starts or cuts lane; not yet successful.",
-          "Fair start; stays in lane; tags next runner.",
-          "Cheers a teammate; clean exchange."
+          "False starts, cuts the lane, or runs through the hurdles; not yet successful.",
+          "Fair start; stays in lane; clears the hurdles over, not through.",
+          "Paces the run and can explain one starting cue to a peer."
         ]
       },
       {
-        criterion: "Jump / throw review",
+        criterion: "Jumps & landing",
         oi: "Movement Skill Development",
         levels: [
-          "Avoids event or unsafe throw; not yet successful.",
-          "Attempts with cues modelled.",
-          "Shows taught jump/throw cue in a zone task.",
+          "Steps over the board or lands unsafely; not yet successful.",
+          "Attempts with the cues modelled.",
+          "Behind the board; approach, take-off and a stick landing as taught.",
           "Self-checks one cue and improves a second try."
         ],
         levelsK2: [
-          "Avoids event or unsafe throw; not yet successful.",
-          "Shows taught jump/throw cue in a zone task.",
+          "Steps over the board or lands unsafely; not yet successful.",
+          "Behind the board; approach, take-off and a stick landing as taught.",
           "Self-checks one cue and improves a second try."
         ]
       },
       {
-        criterion: "Effort in long activity",
-        oi: "Active Living",
+        criterion: "Throws",
+        oi: "Movement Skill Development",
         levels: [
-          "Stops early without a plan; active-living expectation not yet met.",
-          "Participates with breaks when structure supports it.",
-          "Stays in the song-length or station block with steady effort.",
-          "Paces effort and encourages others to keep moving."
+          "Throws before the call or at people; not yet safe.",
+          "Throws with a model; step is inconsistent.",
+          "Opposite-foot step; throws and fetches on the call; carries implements vertically.",
+          "Adjusts for distance with control and coaches a peer on one cue."
         ],
         levelsK2: [
-          "Stops early without a plan; active-living expectation not yet met.",
-          "Stays in the song-length or station block with steady effort.",
-          "Paces effort and encourages others to keep moving."
+          "Throws before the call or at people; not yet safe.",
+          "Opposite-foot step; throws and fetches on the call; carries implements vertically.",
+          "Adjusts for distance with control and coaches a peer on one cue."
         ]
       },
       {
-        criterion: "Course / safety",
-        oi: "Safety",
-        levels: [
-          "Leaves course or blocks others; not yet successful.",
-          "Completes with redirects when path is clarified.",
-          "Follows course markers; safe spacing.",
-          "Helps a peer find the next marker."
-        ],
-        levelsK2: [
-          "Leaves course or blocks others; not yet successful.",
-          "Follows course markers; safe spacing.",
-          "Helps a peer find the next marker."
-        ]
-      }
-    ]
-  },
-  June: {
-    title: "June · Track meet & T-ball / festival",
-    levels: ["Not Yet", "Minimally Meeting", "Solidifying", "Mastering"],
-    levelsK2: ["Not Yet", "Meeting", "Mastering"],
-    rows: [
-      {
-        criterion: "Meet behaviour",
+        criterion: "Meet behaviour (Track Day, W5)",
         oi: "Character Development",
         levels: [
           "Disrupts lines/events; expectation not yet met.",
@@ -924,7 +1343,23 @@ window.UNIT_RUBRICS = {
           "Ready when called; kind to opponents; tidy equipment.",
           "Leads a small group to the next event calmly."
         ]
-      },
+      }
+    ]
+  },
+  June: {
+    title: "June · T-ball & year-end festival",
+    levels: [
+      "Not Yet",
+      "Minimally Meeting",
+      "Solidifying",
+      "Mastering"
+    ],
+    levelsK2: [
+      "Not Yet",
+      "Meeting",
+      "Mastering"
+    ],
+    rows: [
       {
         criterion: "T-ball / striking skills",
         oi: "Movement Skill Development",
@@ -956,17 +1391,32 @@ window.UNIT_RUBRICS = {
         ]
       },
       {
+        criterion: "Festival & thank-you",
+        oi: "Character Development",
+        levels: [
+          "Does not yet take a turn at a station or share a skill.",
+          "Joins a station when invited; shows a skill after a model.",
+          "Takes turns, joins fairly and shows one skill from the year.",
+          "Hosts a station or names the cue for a classmate; includes someone new."
+        ],
+        levelsK2: [
+          "Does not yet take a turn at a station or share a skill.",
+          "Takes turns, joins fairly and shows one skill from the year.",
+          "Hosts a station or names the cue for a classmate; includes someone new."
+        ]
+      },
+      {
         criterion: "Year-end growth (private)",
-        oi: "Active Living · Character",
+        oi: "Active Living · Character Development",
         levels: [
           "No reflection yet.",
           "Names one thing tried this year when prompted by a clear question.",
-          "Compares private fitness/skill to own September baseline; names one growth.",
+          "Compares private fitness/skill to own earlier baseline; names one growth.",
           "Sets a summer or next-year movement goal in their own words."
         ],
         levelsK2: [
           "No reflection yet.",
-          "Compares private fitness/skill to own September baseline; names one growth.",
+          "Compares private fitness/skill to own earlier baseline; names one growth.",
           "Sets a summer or next-year movement goal in their own words."
         ]
       }

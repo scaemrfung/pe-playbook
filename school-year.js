@@ -127,7 +127,7 @@
     catchUpWhy: {
       "2026-12-14": "Catch-up week before Christmas (concerts, finish Week 14 or review)",
       "2027-02-01": "Catch-up week (Teachers' Convention Thu–Fri; semester 2 starts)",
-      "2027-06-21": "Catch-up week (year-end: finish Week 36 or review)"
+      "2027-06-21": "Catch-up week (year-end: finish Week 38 or review)"
     },
     // Weekday non-school days: [first, last, reason]
     closed: [
@@ -268,20 +268,23 @@
       var nx = nextWeekAfter(probe), nl = nx && nextLessonWeekFrom(nx);
       return { date: k, kind: "break", label: "Next lesson", lesson: nl ? nl.lesson : 36, week: nl,
         message: br.name + (br.range ? " (" + br.range + ")" : "") + " — no school." +
-          (nx ? " Back " + DOW_LONG[dow(parse(nx.start))] + " " + short(parse(nx.start)) + (nl ? " with Week " + nl.lesson + "." : ".") : "") };
+          (nx ? " Back " + DOW_LONG[dow(parse(nx.start))] + " " + short(parse(nx.start)) + (nl ? " with Week " + nl.n + "." : ".") : "") };
     }
     out.week = w;
     if (w.kind === "catchup") {
-      var prevL = 0; for (var i = 0; i < WEEKS.length && WEEKS[i] !== w; i++) if (WEEKS[i].lesson) prevL = WEEKS[i].lesson;
+      /* Week numbers in messages are school-week numbers (the ones the site shows: Week 5 = Sept 28–Oct 1),
+         not lesson counts; "lesson" stays the lesson count used for linking. */
+      var prevL = 0, prevW = null; for (var i = 0; i < WEEKS.length && WEEKS[i] !== w; i++) if (WEEKS[i].lesson) { prevL = WEEKS[i].lesson; prevW = WEEKS[i]; }
       var nl2 = nextLessonWeekFrom(w);
       out.kind = "catchup"; out.label = "Catch-up week"; out.lesson = prevL || 1;
-      out.message = "Catch-up week (" + w.range + "): no new lesson. Finish Week " + prevL + " or review." +
-        (nl2 ? " Week " + nl2.lesson + " starts " + short(parse(nl2.start)) + "." : "") + (w.note ? " " + w.note + "." : "");
+      out.message = "Catch-up week (" + w.range + "): no new lesson. Finish " + (prevW ? "Week " + prevW.n : "the last lesson") + " or review." +
+        (nl2 ? " Week " + nl2.n + " starts " + short(parse(nl2.start)) + "." : "") + (w.note ? " " + w.note + "." : "");
       return out;
     }
     if (w.kind === "yearend") {
       out.kind = "yearend"; out.label = "Last day"; out.lesson = CAL.lessons;
-      out.message = "Last day of school: " + dayLabel(parse(w.start)) + ". Week " + CAL.lessons + " was the last lesson.";
+      var lastL = weekOfLesson(CAL.lessons);
+      out.message = "Last day of school: " + dayLabel(parse(w.start)) + ". Week " + (lastL ? lastL.n : CAL.lessons) + " was the last lesson.";
       return out;
     }
     out.kind = "lesson"; out.label = "This week’s lesson"; out.lesson = w.lesson;
@@ -332,15 +335,17 @@
     // before) absorbs the shift. From January on nothing moves.
     [5, "October", 1, "", "Football"], [6, "October", 2, "", "Football"], [7, "October", 3], [8, "October", 4],
     [9, "November", 1], [10, "November", 2], [11, "November", 3], [12, "November", 4],
-    [13, "December", 1], [14, "December", 2], [15, "December", 4, "Last week before Christmas: festival stations and closers"],
+    [13, "December", 1], [14, "December", 2], [15, "December", 4, "Last week before Christmas: festival stations and closers. Catch-up week: finish Week 14 or review; this set is the suggested plan"],
     [16, "January", 1], [17, "January", 2], [18, "January", 3], [19, "January", 4],
-    [20, "February", 1], [21, "February", 2], [22, "February", 3], [23, "February", 4],
+    [20, "February", 1, "Catch-up week: finish Week 19 or review; otherwise start rope skills here"], [21, "February", 2], [22, "February", 3], [23, "February", 4],
     [24, "March", 1], [25, "March", 2], [26, "March", 3], [27, "March", 4, "Right after Spring Break"],
     [28, "April", 1], [29, "April", 2], [30, "April", 3], [31, "April", 4],
     [32, "May", 1], [33, "May", 2], [34, "May", 3], [35, "May", 4],
-    [36, "June", 1, "Track and Field Day week"], [37, "June", 2], [38, "June", 3], [39, "June", 4],
+    [36, "June", 1, "Track and Field Day week"], [37, "June", 2], [38, "June", 3], [39, "June", 4, "Catch-up week: finish Week 38 or review; this set is the suggested plan"],
     [40, "June", 4, "Last class of the year"]
   ];
+  // Catch-up weeks (Dec 14, Feb 1, Jun 21) add no lesson to the count, but they keep the lesson set listed
+  // above as the suggested plan for that week (least-disruptive reading); the note says so on the month page.
   // Lesson sets with no school week this year (shown as extras on that month's page).
   var PE_EXTRA = {
     "September": { 4: "Soccer and football review — no school week for this set this year. Use it any time." },

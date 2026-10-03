@@ -198,7 +198,7 @@ const MONTHS = [
         ],
         g12: "Teacher helps count. Walk more than jog. Play versions are full success.",
         g56: "Self-count one station. Write one word about how your body felt." },
-      { name: "October", theme: "Football · send and receive", focus: "Throwing power and recovery",
+      { name: "October", theme: "Football · parachute · circus", focus: "Throwing power and recovery",
         tasks: [
           { title: "Warm pulse", how: [
             "After end-zone, flags, or a throw game, stand still.",
@@ -225,7 +225,58 @@ const MONTHS = [
         ],
         g12: "Soft ball. Underhand only. Teacher may count with you.",
         g56: "Record only your own catch–throw number." },
-      { name: "November", theme: "Basketball · pass and dribble", focus: "Hand control and steady effort",
+      { name: "November", theme: "Floor hockey", focus: "Stick control and steady effort",
+        tasks: [
+          { title: "20-second stick-handle", how: [
+            "Ball or puck starts inside a hoop. Stick blade stays low.",
+            "On “go,” make tiny touches side to side for 20 seconds.",
+            "If it leaves the hoop, guide it back and continue.",
+            "No high sticks. Feet-only taps if you have no stick."
+          ]},
+          { title: "Gate push-pass count", how: [
+            "Push-pass through a gate to a partner or a wall, about 2–3 m away.",
+            "Blade stays low. Receiver traps with the blade.",
+            "Count clean passes in 30 seconds. Write only your own count.",
+            "If the ball leaves, guide it back and continue."
+          ]},
+          { title: "Easy jog / walk", how: [
+            "One full lap of the gym at a talking pace.",
+            "You should be able to say a short sentence while moving.",
+            "Walk is fine. No sprinting this station."
+          ]},
+          { title: "Equipment park", how: [
+            "On the signal, place stick and ball in the marked zone.",
+            "Hands free before the next game starts.",
+            "This station is about safety habits, not speed."
+          ]}
+        ],
+        g12: "Feet-only dribble if no sticks. Two-hand bounce counts for passes.",
+        g56: "Backhand touches if safe and taught." },
+      { name: "December", theme: "Tag and co-operative games", focus: "Private skip or shuttle (not a rank)",
+        tasks: [
+          { title: "Easy jog or walk", how: [
+            "Two continuous minutes around the gym.",
+            "Talking pace — you can speak in short phrases.",
+            "Walk the whole time if you need to."
+          ]},
+          { title: "Short shuttle", how: [
+            "Use two cones or floor lines.",
+            "Easy walk–jog to the far mark, soft stop, return.",
+            "Work for 20 seconds with control, not speed. Write a private count if you have one.",
+            "Freeze on the whistle."
+          ]},
+          { title: "Pulse after play", how: [
+            "After a tag or invasion game, stand still.",
+            "Count heartbeat for 15 seconds. Record privately."
+          ]},
+          { title: "Cool stretch", how: [
+            "Arms: reach up, then across the body.",
+            "Calves: one foot back, heel down, hold 5–10 seconds each side."
+          ]}
+        ],
+        g12: "Play versions of every station.",
+        g56: "Write one private goal for winter PE." },
+      { name: "January", theme: "Basketball · scoop", focus: "Hand control and steady effort",
         tasks: [
           { title: "30-second dribble", how: [
             "Stand inside a hoop or small square with a basketball or playground ball.",
@@ -251,56 +302,6 @@ const MONTHS = [
         ],
         g12: "Two-hand bounce is fine. Teacher may count with you.",
         g56: "Try weaker-hand dribble for part of the 30 seconds." },
-      { name: "December", theme: "Floor hockey · rhythm", focus: "Stick control and stillness",
-        tasks: [
-          { title: "20-second stick-handle", how: [
-            "Ball or puck starts inside a hoop. Stick blade stays low.",
-            "On “go,” make tiny touches side to side for 20 seconds.",
-            "If it leaves the hoop, guide it back and continue.",
-            "No high sticks. Feet-only taps if you have no stick."
-          ]},
-          { title: "Shape holds", how: [
-            "Teacher names a still shape (e.g. star, tuck, balance on one foot).",
-            "Hold with quiet body and steady breath for 10–15 seconds.",
-            "If you tip, reset and try once more."
-          ]},
-          { title: "Rhythm travel", how: [
-            "Teacher or music sets a steady beat.",
-            "Walk or jog matching the beat for about 30 seconds.",
-            "Change level or pathway only if the teacher calls it."
-          ]},
-          { title: "Equipment park", how: [
-            "On the signal, place stick and ball in the marked zone.",
-            "Hands free before the next game starts.",
-            "This station is about safety habits, not speed."
-          ]}
-        ],
-        g12: "Feet-only dribble if no sticks.",
-        g56: "Backhand touches if safe and taught." },
-      { name: "January", theme: "Invasion · inclusion", focus: "Welcome-back private check",
-        tasks: [
-          { title: "Easy jog or walk", how: [
-            "Two continuous minutes around the gym.",
-            "Talking pace — you can speak in short phrases.",
-            "Walk the whole time if you need to."
-          ]},
-          { title: "20-second handle or shuttle", how: [
-            "Choose one: stick-handle in a hoop, basketball dribble in a square, or short shuttle.",
-            "Work for 20 seconds with control, not speed.",
-            "Write which one you chose and a private count if you have one."
-          ]},
-          { title: "Balance line", how: [
-            "Use a painted floor line or tape line.",
-            "Walk heel-to-toe to the end of the short line once.",
-            "Arms out for balance. Step off, reset, and finish if you wobble."
-          ]},
-          { title: "Pulse after play", how: [
-            "After a tag or invasion game, stand still.",
-            "Count heartbeat for 15 seconds. Record privately."
-          ]}
-        ],
-        g12: "Play versions of every station.",
-        g56: "Write one private goal for winter PE." },
       { name: "February", theme: "Rope · hoop", focus: "30-second skip (month signature)",
         tasks: [
           { title: "30-second skip", how: [
@@ -325,19 +326,18 @@ const MONTHS = [
           ]}
         ],
         g12: "Rainbow rope or jump-the-river if a full rope is hard.",
-        g56: "Compare only to your own January number — never to a classmate." },
-      { name: "March", theme: "Parachute · circus", focus: "Core and shoulder endurance",
+        g56: "Compare only to your own earlier skip or wall-pass number — never to a classmate." },
+      { name: "March", theme: "Volleyball", focus: "Steady effort and soft hands",
         tasks: [
-          { title: "Chute hold", how: [
-            "Grip the parachute edge with both hands, knuckles on top.",
-            "On the count, lift together to shoulder or overhead height.",
-            "Hold for a slow count of 10 while the group stays together.",
-            "Lower slowly on the teacher’s call. Do not pull peers off balance."
+          { title: "30-second keep-up", how: [
+            "Keep a balloon or beach ball in the air with soft bumps or finger taps for 30 seconds.",
+            "If it drops, pick it up and continue. Stay in your space.",
+            "Count your own number privately; keeping control matters more than the count."
           ]},
-          { title: "Scarf or balloon keep-up", how: [
-            "Soft taps only — hands, not spikes.",
-            "Keep your scarf or balloon in the air for up to 30 seconds.",
-            "If it drops, pick it up and continue. Stay in your space."
+          { title: "Underhand send count", how: [
+            "Stand 2–3 m from a low rope or wall target.",
+            "Send underhand 10 times; count clean sends over the rope or onto the target.",
+            "Step with the opposite foot. Fetch only after everyone has sent."
           ]},
           { title: "Shoulder circles", how: [
             "Arms out or hands on shoulders.",
@@ -345,12 +345,12 @@ const MONTHS = [
             "Small circles if shoulders feel tight."
           ]},
           { title: "Breath check", how: [
-            "After chute work, stand or sit still.",
+            "After the keep-up bout, stand or sit still.",
             "Notice: is your breath fast or calm?",
             "Optional: write “fast” or “calm” on your sheet."
           ]}
         ],
-        g12: "Sit at the edge if standing grip is tiring.",
+        g12: "Catching is fine; hands may help the keep-up. Sit if standing is tiring.",
         g56: "Lead one short count for the group if asked." },
       { name: "April", theme: "Gymnastics", focus: "Strength, flexibility, stillness",
         tasks: [
@@ -377,7 +377,7 @@ const MONTHS = [
         ],
         g12: "Floor shapes only unless the teacher teaches something else.",
         g56: "Link two shapes with a controlled travel if asked." },
-      { name: "May", theme: "Volleyball / track / jump rope", focus: "Run, jump, skip endurance",
+      { name: "May", theme: "Track and field practice", focus: "Run, jump, skip endurance",
         tasks: [
           { title: "Personal timed run or skip", how: [
             "Teacher sets a short time (e.g. 1 minute) or a short distance.",
@@ -385,14 +385,15 @@ const MONTHS = [
             "Stay in your lane or path. Write what you chose, not a class rank."
           ]},
           { title: "Jump or throw zone", how: [
-            "Show the cue of the day once with control (jump-stick, underhand throw, etc.).",
+            "Show the cue of the day once with control (standing long jump stick, opposite-foot throw, etc.).",
             "Quality of the cue matters more than distance.",
             "Fetch equipment from the side, not through the throwing lane."
           ]},
-          { title: "Relay practice", how: [
-            "Wait behind the line until tagged or handed the baton/beanbag.",
-            "Fair start — no early leave.",
-            "Soft tag or hand-off to the next runner; then clear the lane."
+          { title: "Beanbag shuttle", how: [
+            "Face-down start behind the line; do not grab a bag on the first rise.",
+            "Run the 10 m shuttle, one bag at a time, and place (do not throw) each bag.",
+            "Fair start — no early leave. Time privately if the teacher asks.",
+            "Clear the lane for the next runner."
           ]},
           { title: "Recovery walk", how: [
             "One easy lap after the timed bout.",
@@ -402,14 +403,14 @@ const MONTHS = [
         ],
         g12: "Walk–jog is fine for the whole timed bout.",
         g56: "Name whether you used race pace or sprint." },
-      { name: "June", theme: "Track Day (first week) · festival · T-ball", focus: "Final private check + growth",
+      { name: "June", theme: "T-ball · year-end festival", focus: "Final private check + growth",
         tasks: [
           { title: "Skip, short run, or jump–stick", how: [
             "Choose one station you did in September or February.",
             "Same rules: 30-second skip/march, short easy run, or controlled jump–stick.",
             "Private note only — this is for your growth, not a contest."
           ]},
-          { title: "Meet behaviour", how: [
+          { title: "Festival behaviour", how: [
             "Practise ready position when your name or group is called.",
             "Quiet waiting feet and hands while others perform.",
             "Kind words only; tidy equipment after your turn."

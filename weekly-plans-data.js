@@ -9,6 +9,7 @@ window.WEEKLY_PLANS = [
     month: "October 2026",
     theme: "Football",
     file: "weekly-plans/PE-Weekly-Plan-Oct-5-9-2026-Football-Week-6.docx",
+    rubric: "outcomes.html#football-week-6",
     note: "Full teaching week (no holidays) · Wed Oct 7 early dismissal · Football Week 6: pitch and hand-off, defend the passing lane, small-sided flag, jail-catch football"
   },
   {

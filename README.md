@@ -22,6 +22,8 @@ tokens such as `{{terryFox}}` that are filled from that file. Each August:
 2. Run `node tools/build.js`.
 3. Commit.
 
+Catch-up weeks (Dec 14, Feb 1, Jun 21) add no lesson to the lesson count, but keep the lesson set listed in `PE_WEEKS` as the suggested plan; the month page notes this. Week numbers in messages are school-week numbers (Week 5 = Sept 28–Oct 1).
+
 Weekly plans (`weekly-plans-data.js`) are dated on purpose — they are a record
 of each week's plan.
 

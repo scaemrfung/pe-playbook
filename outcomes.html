@@ -75,8 +75,8 @@
         <thead><tr><th>When</th><th>What you collect</th><th>Where it lives on this site</th></tr></thead>
         <tbody>
           <tr><td><strong>Each class</strong></td><td>Soft tag, freeze on the whistle, kind language</td><td>Safety line on the game card</td></tr>
-          <tr><td><strong>Each week</strong></td><td>One skill cue (eyes up, opposite foot, two-hand catch)</td><td>Lesson 5–16 block on the month page</td></tr>
-          <tr><td><strong>Each month</strong></td><td>2–4 assessment rows (what / how / evidence)</td><td>Table below · also on each month page</td></tr>
+          <tr><td><strong>Each week</strong></td><td>One skill cue (eyes up, opposite foot, two-hand catch)</td><td>5–16 min skill block of each lesson on the month page</td></tr>
+          <tr><td><strong>Each month</strong></td><td>4–6 assessment rows (what / how / evidence)</td><td>Table below · also on each month page</td></tr>
           <tr><td><strong>Report period</strong></td><td>Match comments to the PEW learning outcome for that grade</td><td><a href="#report-card">Report-card outcomes</a> on this page</td></tr>
         </tbody>
       </table>
@@ -181,7 +181,7 @@
       </section>
     </div>
 
-    <div class="panel">
+    <div class="panel" id="month-assessment">
       <h2>Month-by-month assessment</h2>
       <p class="meta">Pick the month you are in. Focus organizing ideas, grade-band outcomes, and concrete evidence for Grades 1–6.</p>
       <div class="filters" id="month-filters"></div>
@@ -271,6 +271,12 @@
     const filters = document.getElementById("month-filters");
     const box = document.getElementById("month-outcomes");
     let active = months[0] || "September";
+    // ?month=October (linked from each month page) opens that month's assessment.
+    try {
+      const want = new URLSearchParams(location.search).get("month");
+      const hit = months.find((m) => m.toLowerCase() === String(want || "").toLowerCase());
+      if (hit) active = hit;
+    } catch (e) { /* ignore */ }
 
     function render() {
       filters.innerHTML = months.map((m) =>
