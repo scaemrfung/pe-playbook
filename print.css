@@ -1,0 +1,29 @@
+/* Print-friendly month pages (linked with media="print" from the month template).
+   Hides the navigation chrome, puts the content on the full page width and keeps each
+   lesson card and table row together. */
+@page { margin: 12mm; }
+@media print {
+  html { scroll-behavior: auto; }
+  body { background: #fff !important; color: #000; font-size: 10.5pt; line-height: 1.35; }
+  body::before, .topbar, .mobile-nav, .sidebar, .site-updated-stamp, .mf-sites, header.site, footer.site,
+  .grade-picker, .month-nav, .no-print, .to-filters { display: none !important; }
+  .shell { display: block !important; width: auto !important; margin: 0 !important; min-height: 0 !important; }
+  .shell > main, .shell .main, main { padding: 0 !important; max-width: none !important; width: auto !important; margin: 0 !important; }
+  a, a:visited { color: inherit; text-decoration: none; }
+  h1 { font-size: 20pt; margin: 0 0 6pt; }
+  h2 { font-size: 13pt; }
+  .panel, .lesson, .card, .gcard { box-shadow: none !important; background: #fff !important; border: 1px solid #888 !important; border-radius: 4px !important; }
+  .panel { padding: 8pt 10pt; margin: 0 0 8pt; }
+  .week-title { break-after: avoid; margin: 12pt 0 6pt; }
+  .lesson { break-inside: avoid; margin: 0 0 8pt; }
+  .lesson .rows .row { break-inside: avoid; }
+  .table-scroll { overflow: visible !important; }
+  table.games { width: 100%; font-size: 8.5pt; border-collapse: collapse; }
+  table.games th, table.games td { border: 1px solid #aaa; padding: 3pt 4pt; vertical-align: top; }
+  table.games thead { display: table-header-group; }
+  table.games tr { break-inside: avoid; }
+  .clock { display: none !important; }
+  .row .t, .row .d { font-size: 9.5pt; }
+  .out-grid { display: block; }
+  .this-week-pill { display: none !important; }
+}

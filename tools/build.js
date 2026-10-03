@@ -554,12 +554,25 @@ report.push(`search-index.js: ${SEARCH.length} games (${(outputs["search-index.j
   });
 }
 
+// Downloads page: static list of every weekly plan (+ the newest as the no-JS default for "this week")
+function fillDownloads(html) {
+  const li = (p) => `        <li class="dl-row">
+          <div class="dl-text"><strong>${esc(p.title)}</strong><span class="meta">${esc(p.note || "")}</span></div>
+          <a class="btn" href="${esc(p.file)}" download>Download <span class="dl-fmt">Word</span></a>
+        </li>`;
+  html = between(html, "dl-plans", PLANS.map(li).join("\n"));
+  html = between(html, "dl-latest", PLANS.length
+    ? `        <p class="meta">Newest plan (with JavaScript on, this shows the plan for the current week):</p>\n        <ul class="dl-list clean">\n${li(PLANS[0])}\n        </ul>` : `        <p class="meta">No weekly plan posted yet.</p>`);
+  return html;
+}
+
 // every other hand-written page: static nav from chrome.js NAV
 const SKIP = new Set(Object.keys(outputs));
 fs.readdirSync(ROOT).filter((f) => f.endsWith(".html") && !SKIP.has(f) && !/^month-/.test(f)).forEach((f) => {
   let html = read(f);
   if (!/<header class="site">[\s\S]*?<nav\b/.test(html)) return;
   if (f === "games-hub.html") html = fillCounts(html);
+  if (f === "downloads.html") html = fillDownloads(html);
   outputs[f] = withStaticNav(html, f);
 });
 

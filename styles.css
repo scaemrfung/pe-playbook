@@ -950,3 +950,11 @@ header.site nav.subnav { width: 100%; }
   .gcard.gcard-link .gsum { display: none; }
 }
 @media print { .to-filters, .gsum { display: none !important; } }
+
+/* ---- Downloads page ---- */
+.dl-list { margin: 8px 0 18px; padding: 0; list-style: none; display: grid; gap: 8px; }
+.dl-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 12px 14px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
+.dl-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1 1 260px; }
+.dl-text .meta { font-size: .85rem; }
+.dl-fmt { font-weight: 500; opacity: .8; font-size: .8em; margin-left: 4px; }
+.dl-this .tw-warn { margin-top: 0; }
