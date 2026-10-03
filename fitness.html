@@ -163,7 +163,7 @@
   </footer>
   <script>
 const MONTHS = [
-      { name: "September", theme: "Soccer · gym routines · baseline", focus: "Starting point (not a scoreboard)",
+      { name: "September", theme: "Soccer · football intro · baseline", focus: "Starting point (not a scoreboard)",
         tasks: [
           { title: "Pulse check", how: [
             "After a short game or jog, stand still.",
@@ -198,18 +198,12 @@ const MONTHS = [
         ],
         g12: "Teacher helps count. Walk more than jog. Play versions are full success.",
         g56: "Self-count one station. Write one word about how your body felt." },
-      { name: "October", theme: "Football · parachute · circus", focus: "Throwing power and recovery",
+      { name: "October", theme: "Football · parachute · circus", focus: "Throwing, grip strength and balance",
         tasks: [
           { title: "Warm pulse", how: [
-            "After end-zone, flags, or a throw game, stand still.",
+            "After end-zone, flags, or chute work, stand still.",
             "Two fingers on neck or wrist. Count beats for 15 seconds.",
             "Write your number privately."
-          ]},
-          { title: "Shuttle or line run", how: [
-            "Use two cones or floor lines.",
-            "Easy walk–jog to the far mark, soft stop, return.",
-            "Keep feet quiet; no diving or sliding.",
-            "Freeze on the whistle."
           ]},
           { title: "Catch–throw count", how: [
             "Partner or wall, about 2–3 m apart. Soft ball only.",
@@ -217,14 +211,25 @@ const MONTHS = [
             "On “go,” count how many clean catches you make in 30 seconds.",
             "Dropped ball: pick up and keep going. Write only your count."
           ]},
+          { title: "Chute hold", how: [
+            "Grip the parachute edge with both hands, knuckles on top.",
+            "On the count, lift together to shoulder or overhead height.",
+            "Hold for a slow count of 10 while the group stays together.",
+            "Lower slowly on the teacher’s call. Do not pull peers off balance."
+          ]},
+          { title: "Balance hold", how: [
+            "Beanbag on the head, or stand on one foot on a poly spot.",
+            "Hold still with steady breath for 10 seconds, eyes on a fixed point.",
+            "If the bag falls or you wobble, reset and try once more."
+          ]},
           { title: "Stretch", how: [
             "Shoulders: gentle arm across the chest, then the other side.",
             "Legs: calf stretch against a wall or seated hamstring reach.",
             "No bouncing. Breathe out into the stretch."
           ]}
         ],
-        g12: "Soft ball. Underhand only. Teacher may count with you.",
-        g56: "Record only your own catch–throw number." },
+        g12: "Soft ball. Underhand only. Sit at the chute edge if standing grip is tiring. Teacher may count with you.",
+        g56: "Record only your own catch–throw number. Lead one short chute count if asked." },
       { name: "November", theme: "Floor hockey", focus: "Stick control and steady effort",
         tasks: [
           { title: "20-second stick-handle", how: [
@@ -266,7 +271,7 @@ const MONTHS = [
             "Freeze on the whistle."
           ]},
           { title: "Pulse after play", how: [
-            "After a tag or invasion game, stand still.",
+            "After a tag or co-operative game, stand still.",
             "Count heartbeat for 15 seconds. Record privately."
           ]},
           { title: "Cool stretch", how: [
@@ -302,7 +307,7 @@ const MONTHS = [
         ],
         g12: "Two-hand bounce is fine. Teacher may count with you.",
         g56: "Try weaker-hand dribble for part of the 30 seconds." },
-      { name: "February", theme: "Rope · hoop", focus: "30-second skip (month signature)",
+      { name: "February", theme: "Rope · hoops · Jump Rope for Heart", focus: "30-second skip (month signature)",
         tasks: [
           { title: "30-second skip", how: [
             "Rope: turn with wrists, jump just high enough to clear the rope.",
@@ -326,7 +331,7 @@ const MONTHS = [
           ]}
         ],
         g12: "Rainbow rope or jump-the-river if a full rope is hard.",
-        g56: "Compare only to your own earlier skip or wall-pass number — never to a classmate." },
+        g56: "Compare only to your own earlier skip number — never to a classmate." },
       { name: "March", theme: "Volleyball", focus: "Steady effort and soft hands",
         tasks: [
           { title: "30-second keep-up", how: [
@@ -406,7 +411,7 @@ const MONTHS = [
       { name: "June", theme: "T-ball · year-end festival", focus: "Final private check + growth",
         tasks: [
           { title: "Skip, short run, or jump–stick", how: [
-            "Choose one station you did in September or February.",
+            "Choose one station you did earlier this year: skip or shuttle (September, February) or jump–stick (April).",
             "Same rules: 30-second skip/march, short easy run, or controlled jump–stick.",
             "Private note only — this is for your growth, not a contest."
           ]},
@@ -438,7 +443,7 @@ const MONTHS = [
       <div class="panel" id="${m.name.toLowerCase()}">
         <h2>${m.name}</h2>
         <p class="meta">${m.theme} · <strong>${m.focus}</strong></p>
-        <p class="fit-meta">Name: ______________ Grade: ____ Date: ________ Teacher: ____</p>
+        <p class="fit-meta">Name: ______________ Grade: ____ Date: ________ Teacher: Mr. Fung</p>
         ${m.tasks.map((task) => `
           <div class="fit-task">
             <input type="checkbox" />

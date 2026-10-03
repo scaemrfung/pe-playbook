@@ -222,7 +222,7 @@ const months = [
     "guide": "Football (W1) · parachute and circus (W2–W3) · floor hockey starts W4 (Oct 26–30)",
     "pew": "Movement Skill Development, Movement Tactics, Safety, Healthy Relationships",
     "equipment": "Footballs, flag belts or pinnies, parachute, scarves, beanbags, plates or rings",
-    "fitness": "Throw-and-catch pulse check. Private wall-pass later in the month.",
+    "fitness": "Throw-and-catch pulse check, chute hold and balance hold. Private catch–throw count later in the month.",
     "notes": "Football uses the real ball (foam is fine for 1–2). October's first football week (flag, routes, end-zone catch) is Week 5, Sept 28–Oct 1, on the September page, because a week belongs to the month it starts in. W2–W3 are parachute and circus so October is not all collision games. W4 starts floor hockey: stick safety first.",
     "lessons": [
       {
@@ -440,7 +440,7 @@ const months = [
     "guide": "Floor hockey (started Oct 26) — dribble, pass, small-sided games · W4 (Nov 30–Dec 4) starts December's games",
     "pew": "Movement Skill Development, Safety, Movement Tactics, Character Development",
     "equipment": "Floor-hockey sticks, soft balls or pucks, tape goals, pinnies, cones",
-    "fitness": "Stick-handle shuttle. Private skip once late in the month.",
+    "fitness": "20-second stick-handle and gate push-pass count. Private record late in the month.",
     "notes": "Sticks below the knee. No slapshots. No ice. Everyone has a stick or rotates fairly. The first hockey week (stick safety) is October W4. W4 here (Nov 30–Dec 4) starts December's big-group games.",
     "lessons": [
       {
