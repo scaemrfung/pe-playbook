@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Warm Up Games · SCA Elementary PE Playbook</title>
   <meta name="description" content="Warm-up games for classroom, hallway, gym, and outside when the gym isn’t available or you need a quick start." />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&family=Newsreader:opsz,wght@6..72,500;6..72,560;6..72,650&display=swap" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="preload" href="fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="styles.css?v=4c0e3a5c" />
   <style>
     .space-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
     .space-tag {
@@ -103,8 +104,8 @@
     </div>
     <div id="list"></div>
   </main>
-  <script src="chrome.js"></script>
-  <script src="warmup-nogym-data.js"></script>
+  <script src="chrome.js?v=c7824226"></script>
+  <script src="warmup-nogym-data.js?v=640e9f99"></script>
   <script>
     (function () {
       const games = window.WARMUP_NOGYM_GAMES || [];

@@ -1,3 +1,7 @@
+/* Self-hosted fonts (latin subset). Other characters fall back to the system font. */
+@font-face { font-family: "Figtree"; font-style: normal; font-weight: 400 700; font-display: swap; src: url(fonts/figtree-latin.woff2) format("woff2"); }
+@font-face { font-family: "Figtree"; font-style: italic; font-weight: 400 700; font-display: swap; src: url(fonts/figtree-italic-latin.woff2) format("woff2"); }
+@font-face { font-family: "Newsreader"; font-style: normal; font-weight: 500 650; font-display: swap; src: url(fonts/newsreader-latin.woff2) format("woff2"); }
 :root {
   --green: #245c45;
   --green-mid: #1d4d39;

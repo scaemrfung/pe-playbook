@@ -581,9 +581,31 @@ fs.readdirSync(ROOT).filter((f) => f.endsWith(".html") && !SKIP.has(f) && !/^mon
   outputs[f] = withStaticNav(html, f);
 });
 
+
+// ---------------------------------------------------------- load weight
+// Fonts are self-hosted (fonts/ + @font-face in styles.css): drop any Google Fonts link, preload the two main files,
+// and add ?v=<hash of the file> to every local script/stylesheet so a deploy is never served stale from cache.
+const crypto = require("crypto");
+const verCache = {};
+function fileVer(name) {
+  if (verCache[name]) return verCache[name];
+  let txt = fs.readFileSync(path.join(ROOT, name), "utf8");
+  if (name === "chrome.js") txt = txt.replace(/(SITE_UPDATED = ")[^"]*(")/, "$1$2"); // the Updated stamp must not change the hash
+  return (verCache[name] = crypto.createHash("md5").update(txt).digest("hex").slice(0, 8));
+}
+const FONT_PRELOAD = ["figtree-latin", "newsreader-latin"].map((f) => `  <link rel="preload" href="fonts/${f}.woff2" as="font" type="font/woff2" crossorigin />`).join("\n");
+function finalize(html) {
+  html = html.replace(/[ \t]*<link rel="preconnect" href="https:\/\/fonts\.(googleapis|gstatic)\.com"[^>]*>\n?/g, "")
+             .replace(/[ \t]*<link rel="stylesheet" href="https:\/\/fonts\.googleapis\.com[^>]*>\n?/g, "");
+  if (!html.includes("fonts/figtree-latin.woff2")) html = html.replace(/([ \t]*)(<link rel="stylesheet" href="styles\.css)/, `${FONT_PRELOAD}\n$1$2`);
+  return html.replace(/(<script\b[^>]*?\bsrc="|<link\b[^>]*?\bhref=")([\w.\/-]+\.(?:js|css))(?:\?v=[\w]*)?"/g, (m, pre, f) =>
+    fs.existsSync(path.join(ROOT, f)) ? `${pre}${f}?v=${fileVer(f)}"` : m);
+}
+
 // ------------------------------------------------------------------- write
 let stale = [];
-for (const [f, content] of Object.entries(outputs)) {
+for (let [f, content] of Object.entries(outputs)) {
+  content = finalize(content);
   const p = path.join(ROOT, f);
   const cur = fs.existsSync(p) ? fs.readFileSync(p, "utf8") : null;
   if (cur === content) continue;
