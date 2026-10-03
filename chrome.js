@@ -263,7 +263,7 @@
 
   /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
      before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
-  const SITE_UPDATED = "2026-10-03T16:47:34Z";
+  const SITE_UPDATED = "2026-10-03T17:09:01Z";
   function ensureUpdatedStamp() {
     if (document.querySelector(".site-updated-stamp")) return;
     const el = document.createElement("div");
@@ -274,22 +274,6 @@
       timeZone: "America/Edmonton", year: "numeric", month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
     }).format(d) + " MT";
     document.body.insertBefore(el, document.body.firstChild);
-  }
-
-  /* Shared "Mr. Fung's sites" footer. Student-facing sites never link to Sub Day Plans. */
-  const MF_SITES = [
-    ["pe-playbook", "PE Playbook"], ["Grade-1-Music", "Grade 1 Music"], ["music-practice-studio", "Music Practice Studio"],
-    ["grade5health", "Grade 5 Health"], ["Grade5-iMovie", "Grade 5 iMovie"], ["Grade-6-Canva", "Grade 6 Canva"], ["Grade-6-Scratch", "Grade 6 Scratch"],
-  ];
-  function ensureSitesFooter() {
-    if (document.querySelector(".mf-sites")) return;
-    const nav = document.createElement("nav");
-    nav.className = "mf-sites no-print";
-    nav.setAttribute("aria-label", "Mr. Fung's sites");
-    nav.innerHTML = "<p>Mr. Fung's sites</p><ul>" + MF_SITES.map(([slug, name]) => slug === "pe-playbook"
-      ? `<li><span aria-current="page">${name}</span></li>`
-      : `<li><a href="https://scaemrfung.github.io/${slug}/">${name}</a></li>`).join("") + "</ul>";
-    document.body.appendChild(nav);
   }
 
   function mount() {
@@ -314,7 +298,6 @@
     if (ts) wireSearch(ts);
     /* SEARCHWIRE:END */
     ensureUpdatedStamp();
-    ensureSitesFooter();
   }
 
   if (document.readyState === "loading") {

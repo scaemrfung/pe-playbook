@@ -847,13 +847,6 @@ body { overflow-wrap: break-word; }
 .card-source { font-size: .8rem; margin-top: 6px; }
 .card-source a { color: var(--muted); }
 
-/* Shared "Mr. Fung's sites" footer (added by chrome.js) */
-.mf-sites{box-sizing:border-box;max-width:1100px;margin:32px auto 0;padding:16px 16px 28px;border-top:1px solid rgba(128,128,128,.35);font-size:14px;line-height:1.5;text-align:center}
-.mf-sites p{margin:0 0 8px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;opacity:.75}
-.mf-sites ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px}
-.mf-sites a{color:inherit;text-decoration:underline;text-underline-offset:2px}
-.mf-sites [aria-current]{font-weight:700;text-decoration:none}
-@media print{.mf-sites{display:none!important}}
 
 /* ---- Nav: six items + section menus (Games, Plans, Outcomes, More) ---- */
 .nav-sub { display: flex; flex-direction: column; gap: 1px; margin: 2px 0 6px 28px; padding-left: 8px; border-left: 2px solid var(--line); }
