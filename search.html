@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Games · SCA Elementary PE Playbook</title>
-  <meta name="description" content="All the PE games in one place: Big-Group Games, New Games, Warm Up Games and Dodgeball, with one search box." />
+  <title>Search games · SCA Elementary PE Playbook</title>
+  <meta name="description" content="Search Big-Group, New, Warm Up and Dodgeball games by name." />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&family=Newsreader:opsz,wght@6..72,500;6..72,560;6..72,650&display=swap" />
   <link rel="stylesheet" href="styles.css" />
   <noscript><style>header.site{display:block!important}</style></noscript>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Ccircle cx=%2712%27 cy=%2712%27 r=%2711%27 fill=%27%231f6f4a%27/%3E%3Cpath d=%27M12 4v16M4 12h16%27 stroke=%27white%27 stroke-width=%271.6%27/%3E%3C/svg%3E" />
 </head>
-<body data-page="games-hub">
+<body data-page="search">
     <header class="site">
     <div class="wrap row">
       <a class="brand" href="index.html">
@@ -42,36 +42,16 @@
   </header>
   <main class="wrap" style="padding: 28px 0 40px">
     <div class="panel">
-      <h1 style="margin-top:0;color:var(--navy)">Games</h1>
-      <p class="meta">Four game libraries, one search box. Type a name to find a game on any of them.</p>
+      <h1 style="margin-top:0;color:var(--navy)">Search games</h1>
+      <p class="meta">Finds a game by name on Big-Group Games, New Games, Warm Up Games or Dodgeball. The badge shows which page it is on.</p>
       <form class="hub-search" action="search.html" method="get" role="search">
-        <label class="sr-only" for="hub-q">Search all games</label>
-        <input class="search" id="hub-q" name="q" type="search" placeholder="Search all games — Hospital Tag, Castle Wall, Medic…" autocomplete="off" />
+        <label class="sr-only" for="sp-q">Search all games</label>
+        <input class="search" id="sp-q" name="q" type="search" placeholder="Type a game name…" autocomplete="off" autofocus />
         <button class="btn-primary" type="submit">Search</button>
       </form>
-      <div class="bag-grid hub-grid">
-        <a class="bag-card" href="games.html">
-          <p class="kicker"><!--count:bg-->246<!--/count--> games</p>
-          <h3>Big-Group Games</h3>
-          <p>The main library: 30-minute-class games sorted by type, with Month and Type filters, grade 1–2 / 3–4 / 5–6 notes and PEW look-fors.</p>
-        </a>
-        <a class="bag-card" href="new-games.html">
-          <p class="kicker"><!--count:ng-->43<!--/count--> games · added Mondays</p>
-          <h3>New Games</h3>
-          <p>Games added to the library each week, with how-to cards, a suggested month and an archive by week.</p>
-        </a>
-        <a class="bag-card" href="warmup-nogym.html">
-          <p class="kicker"><!--count:wu-->39<!--/count--> warm-ups</p>
-          <h3>Warm Up Games</h3>
-          <p>No gym, no problem: quick starts for the classroom, hallway, gym or outside.</p>
-        </a>
-        <a class="bag-card" href="dodgeball.html">
-          <p class="kicker"><!--count:db-->29<!--/count--> games · Oct &amp; Jan</p>
-          <h3>Dodgeball</h3>
-          <p>Stay-in dodgeball only. Hits below the waist, a catch is a save, nobody sits out.</p>
-        </a>
-      </div>
-      <p class="meta" style="margin-top:18px">A game lives on one page only. If a game shows on two lists, one of them is a short “see this page” card that links to the full version. Also: <a href="indigenous.html">Indigenous games</a> · <a href="how.html">How to teach</a> (house rules).</p>
+      <p class="meta" id="sp-count" aria-live="polite"></p>
+      <div class="search-results" id="sp-results"></div>
+      <noscript><p class="note">JavaScript is off, so search is not available. Browse the lists instead: <a href="games.html">Big-Group Games</a> · <a href="new-games.html">New Games</a> · <a href="warmup-nogym.html">Warm Up Games</a> · <a href="dodgeball.html">Dodgeball</a>.</p></noscript>
     </div>
   </main>
     <footer class="site">
@@ -81,5 +61,28 @@
     </div>
   </footer>
   <script src="chrome.js"></script>
+  <script>
+    (function () {
+      var q = document.getElementById("sp-q"), out = document.getElementById("sp-results"), count = document.getElementById("sp-count");
+      var S = window.PESearch;
+      if (!S || !q) return;
+      q.value = new URLSearchParams(location.search).get("q") || "";
+      function run() {
+        var term = q.value.trim();
+        if (term.length < 1) { out.innerHTML = ""; count.textContent = "Type a name above."; return; }
+        S.load(function (err) {
+          if (err) { count.textContent = "Search could not load. Try the lists on the Games page."; return; }
+          var res = S.query(term, 150);
+          count.textContent = res.length ? res.length + " game" + (res.length === 1 ? "" : "s") + " match “" + term + "”" : "No game matches “" + term + "”. Try a shorter word.";
+          out.innerHTML = res.map(S.rowHtml).join("");
+        });
+      }
+      q.addEventListener("input", function () {
+        try { history.replaceState(null, "", "search.html" + (q.value.trim() ? "?q=" + encodeURIComponent(q.value.trim()) : "")); } catch (e) {}
+        run();
+      });
+      run();
+    })();
+  </script>
 </body>
 </html>
