@@ -259,6 +259,46 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       });
     }
 
+    const cardIds = new Set(unique.map((g) => gslug(g.name)));
+    // Phone cards: title + one-line summary, tap to open the full card.
+    const expanded = new Set();
+    function summaryOf(g) {
+      const raw = String(g.purpose || (g.play || [])[0] || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+      const first = (raw.match(/^.*?[.!?](?=\s|$)/) || [raw])[0];
+      const t = first.length > 140 ? raw.slice(0, 137).replace(/\s+\S*$/, "") + "…" : first;
+      return t.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+    }
+    function setOpen(card, open) {
+      card.classList.toggle("collapsed", !open);
+      const b = card.querySelector(".gtoggle");
+      if (b) {
+        b.setAttribute("aria-expanded", String(open));
+        const c = b.querySelector(".gsum-cta");
+        if (c) c.textContent = open ? "Close" : "Open card";
+      }
+      if (open) expanded.add(card.id); else expanded.delete(card.id);
+    }
+    /** Open the card a #hash points at (its id, an "also called" anchor, or a "More details" box) and scroll to it. */
+    function openHash(scroll) {
+      let id = "";
+      try { id = decodeURIComponent((location.hash || "").slice(1)); } catch (e) { return; }
+      if (!id) return;
+      const t = document.getElementById(id);
+      if (!t) return;
+      const card = t.classList && t.classList.contains("gcard") ? t : t.closest(".gcard");
+      if (card) {
+        setOpen(card, true);
+        const pd = t.closest("details.peg");
+        if (pd) pd.open = true;
+      }
+      if (scroll !== false) {
+        // jump straight there (the page is long and CSS smooth-scroll would still be animating when the layout shifts)
+        const de = document.documentElement, prev = de.style.scrollBehavior;
+        de.style.scrollBehavior = "auto";
+        (card || t).scrollIntoView({ block: "start" });
+        de.style.scrollBehavior = prev;
+      }
+    }
     function render() {
       const term = (q && q.value || "").toLowerCase();
       const EX = window.GAME_EXTRAS || {};
@@ -300,15 +340,18 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
           const vars = skins ? "" : (x.variations || []).filter((s) => !/^source:|^credit:/i.test(s)).map((s) => `<li>${s}</li>`).join("");
           const ifThis = (g.ifThis || x.ifThis || []).map((s) => `<li>${s}</li>`).join("");
           const pegNames = pegFor(g.name).map((h) => h.name).filter((n) => gslug(n) !== gslug(g.name) && !(g.aka || x.aka || []).some((a) => gslug(a) === gslug(n)));
-          const akaAnchors = (g.aka || x.aka || []).concat(pegNames).map((n) => `<span id="${gslug(n)}"></span>`).join("");
+          const ownId = gslug(g.name);
+          // "also called" anchors; skipped when another card already owns that id (no duplicate ids on the page)
+          const akaAnchors = [...new Set((g.aka || x.aka || []).concat(pegNames).map(gslug))].filter((id) => id !== ownId && !cardIds.has(id)).map((id) => `<span id="${id}"></span>`).join("");
           const akaLine = (g.aka || x.aka || []).length ? `<p class="meta"><strong>Also called:</strong> ${(g.aka || x.aka).join(" · ")}</p>` : "";
           return `
-          <article class="gcard" id="${gslug(g.name)}">
+          <article class="gcard${expanded.has(gslug(g.name)) ? "" : " collapsed"}" id="${gslug(g.name)}">
             ${akaAnchors}
             <div class="ghead">
               <h2>${numbers[g.name]}. ${g.name}</h2>
               <span class="src">${group.label}</span>
             </div>
+            <div class="gsum"><button type="button" class="gtoggle" aria-expanded="${expanded.has(gslug(g.name))}"><span class="gsum-text">${summaryOf(g)}</span><span class="gsum-cta">${expanded.has(gslug(g.name)) ? "Close" : "Open card"}</span></button></div>
             <p class="meta"><strong>When:</strong> ${(g.months || []).join(", ") || "Anytime"} · <strong>Slot:</strong> ${g.slot || "—"}${x.numbers ? ` · ${x.numbers}` : ""}</p>
             <p>${g.purpose || ""}</p>
             ${akaLine}
@@ -352,11 +395,44 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
     }
     if (q) q.addEventListener("input", render);
     render();
+    // tap a card's summary (or its title, on a phone) to open / close it
+    box.addEventListener("click", (e) => {
+      const card = e.target.closest(".gcard");
+      if (!card) return;
+      const onToggle = e.target.closest(".gtoggle");
+      const onHead = e.target.closest(".ghead") && window.matchMedia("(max-width: 700px)").matches;
+      if (onToggle || onHead) setOpen(card, card.classList.contains("collapsed"));
+    });
+    // deep links (#hoop-hut, old names, "also called" names) open the card
+    window.addEventListener("hashchange", () => openHash(true));
+    if (indexBox) indexBox.addEventListener("click", (e) => {
+      const a = e.target.closest("a[href^='#']");
+      if (a) setTimeout(() => openHash(true), 0); // same-hash clicks do not fire hashchange
+    });
     if (location.hash) {
-      setTimeout(() => {
-        const target = document.querySelector(location.hash);
-        if (target) target.scrollIntoView();
-      }, 50);
+      setTimeout(() => openHash(true), 50);
+      // fonts / images can shift the layout after the first jump: settle on the card once the page has loaded
+      let moved = false;
+      ["wheel", "touchmove", "keydown", "mousedown"].forEach((ev) => window.addEventListener(ev, () => { moved = true; }, { passive: true, once: true }));
+      const settle = () => [100, 400, 900, 1600, 2600].forEach((ms) => setTimeout(() => { if (!moved) openHash(true); }, ms));
+      if (document.readyState === "complete") settle(); else window.addEventListener("load", settle, { once: true });
+    }
+    // phone: the A–Z jump list starts closed (it is long); desktop keeps it open
+    const gi = document.getElementById("gindex");
+    if (gi && window.matchMedia("(max-width: 700px)").matches) gi.open = false;
+    // sticky "back to top / filters" button
+    const fl = document.getElementById("game-filters");
+    if (fl) {
+      const up = document.createElement("button");
+      up.type = "button";
+      up.className = "to-filters no-print";
+      up.hidden = true;
+      up.textContent = "↑ Top / Filters";
+      up.addEventListener("click", () => fl.scrollIntoView({ behavior: "smooth", block: "start" }));
+      document.body.appendChild(up);
+      const upd = () => { up.hidden = fl.getBoundingClientRect().bottom > 0; };
+      window.addEventListener("scroll", upd, { passive: true });
+      upd();
     }
   }
 

@@ -932,3 +932,21 @@ header.site nav.subnav { width: 100%; }
   .top-search input { width: 100%; }
   .sr-pop { position: fixed; left: 8px; right: 8px; top: 60px; width: auto; }
 }
+
+/* ---- Big-Group Games: phone cards collapse to title + one-line summary ---- */
+.gsum { display: none; }
+.to-filters { position: fixed; right: 14px; bottom: 16px; z-index: 50; border: 0; border-radius: 999px; padding: 11px 16px; background: var(--navy); color: var(--primary-fg); font: inherit; font-weight: 650; font-size: .9rem; box-shadow: 0 6px 18px rgba(0,0,0,.25); cursor: pointer; }
+.to-filters[hidden] { display: none; }
+.gindex { margin-top: 12px; }
+.gindex > summary { cursor: pointer; padding: 6px 0; }
+@media screen and (max-width: 700px) {
+  .gcard .gsum { display: block; margin: 4px 0 0; }
+  .gcard .gtoggle { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 12px; text-align: left; font: inherit; font-size: .92rem; color: var(--muted); background: var(--surface, #f3f1ea); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; cursor: pointer; }
+  .gcard .gsum-cta { flex-shrink: 0; font-weight: 700; font-size: .8rem; color: var(--navy); text-transform: uppercase; letter-spacing: .06em; }
+  .gcard:not(.collapsed) .gsum-text { display: none; }
+  .gcard.collapsed > :not(.ghead):not(.gsum) { display: none; }
+  .gcard .ghead { cursor: pointer; }
+  .gcard.collapsed { padding-bottom: 14px; }
+  .gcard.gcard-link .gsum { display: none; }
+}
+@media print { .to-filters, .gsum { display: none !important; } }
