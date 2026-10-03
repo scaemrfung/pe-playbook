@@ -34,7 +34,7 @@ window.SKILL_MONTH_GAMES = {
   ],
   April: [
     ["Floor rope walk", "", "Walk a rope or tape line. Airplane arms. Step off to a stick."],
-    ["Spot-jump path", "", "Poly spots in a zig-zag. Two-foot jump, quiet stick."]
+    ["Spot-Jump Path", "", "Poly spots in a zig-zag. Two-foot jump, quiet stick."]
   ],
   May: [
     ["Circle run relay", "", "Cone track. One runner at a time; high-five at home."],
@@ -148,12 +148,6 @@ window.SKILL_DETAILS = [
     play: ["Walk the line. Airplane arms. Step off to a stick landing."],
     g12: "Wide tape.", g34: "Rope.", g56: "Pause in a stork.",
     safety: "One walker per line." },
-  { name: "Spot-jump path", months: ["April","May"], purpose: "Two-foot jump and stick.",
-    equipment: "Poly spots.",
-    setup: "Zig-zag spots.",
-    play: ["Two-foot jump spot to spot. Quiet stick. Walk back."],
-    g12: "Close spots.", g34: "Standard.", g56: "Add a half-turn on the last spot.",
-    safety: "One jumper on a path." },
   { name: "Circle run relay", months: ["May","September"], purpose: "Sustained run and a fair tag.",
     equipment: "Cone circle.",
     setup: "Large loop, start cone.",

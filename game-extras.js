@@ -6221,67 +6221,6 @@ window.GAME_EXTRAS = {
     "skins": [],
     "aka": []
   },
-  "Plant the Trees": {
-    "numbers": "Relay teams · 5 min · cones or beanbags + hoops.",
-    "cues": [
-      "Plant, then run.",
-      "Tidy forest at the whistle.",
-      "Freeze on the whistle — then eyes on the teacher.",
-      "Wait behind the cone. Go on the high-five.",
-      "Stay in your lane. Pass on the right if you meet someone.",
-      "Quality over sprint — reset if the skill falls apart."
-    ],
-    "variations": [
-      "Must skip to the forest.",
-      "Two plants per turn.",
-      "Change the locomotor: walk, skip, gallop, side-slide. Running is not the only option.",
-      "Quality round: the team must redo a trip if the ball, bag, or pin is dropped.",
-      "Weaker hand or weaker foot home on the last rotation (grades 5–6)."
-    ],
-    "look": "Next runner waits behind a cone, not on the path.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Plant the Trees for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Finds a group or a spot without diving."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Leftovers stay in — they join the teacher or the next round."
-      },
-      {
-        "code": "Character Development",
-        "look": "No extra steps past the line; a drop is picked up and the leg continues."
-      },
-      {
-        "code": "Safety",
-        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Encourages the next runner; does not shame a drop."
-      }
-    ],
-    "more": [
-      "Grouping: Even teams of 4–6 · 8–12 m lanes · two full rotations then a quality round (not a ranking).",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Plant the Trees.",
-      "Watch for early starts. Next runner stays behind the cone until the high-five.",
-      "Year plan: December, February — match the month’s sport ball when you can.",
-      "Take one cone or bag, plant it in a hoop (right-way-up), run back, tag.",
-      "Team with a tidy forest (all standing, all in hoops) at the whistle."
-    ],
-    "ifThis": [],
-    "roundEnds": "",
-    "skins": [],
-    "aka": []
-  },
   "Rescue Relay": {
     "numbers": "Teams of 4–5 · 6 min.",
     "cues": [

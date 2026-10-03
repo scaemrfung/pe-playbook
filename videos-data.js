@@ -4115,43 +4115,6 @@ window.VIDEO_INDEX = {
    "ytTitle": "Throw & Go Instant Activity"
   },
   {
-   "key": "yt:auWty338fhw",
-   "url": "https://www.youtube.com/watch?v=auWty338fhw",
-   "kind": "video",
-   "title": "Warm up game: 'Plant the trees' (K-6) | Teaching Fundamentals of PE",
-   "channel": "Prime Coaching Sport",
-   "about": "",
-   "games": [
-    "Plant the Trees"
-   ],
-   "month": "January",
-   "unit": "January · Basketball",
-   "months": [
-    "January",
-    "May"
-   ],
-   "pages": [
-    "monthgames",
-    "newgames"
-   ],
-   "refs": [
-    {
-     "page": "monthgames",
-     "month": "January",
-     "label": "January · Big-group games: Plant the Trees",
-     "href": "month-january.html#month-games"
-    },
-    {
-     "page": "newgames",
-     "label": "New Games · Plant the Trees",
-     "href": "new-games.html#plant-the-trees"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Warm up game: 'Plant the trees' (K-6) | Teaching Fundamentals of PE"
-  },
-  {
    "key": "yt:BGjr8T8CqrQ",
    "url": "https://www.youtube.com/watch?v=BGjr8T8CqrQ",
    "kind": "video",
@@ -5289,6 +5252,35 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Physed Games - The Great Outdoor Treasure Hunt"
+  },
+  {
+   "key": "yt:auWty338fhw",
+   "url": "https://www.youtube.com/watch?v=auWty338fhw",
+   "kind": "video",
+   "title": "Warm up game: 'Plant the trees' (K-6) | Teaching Fundamentals of PE",
+   "channel": "Prime Coaching Sport",
+   "about": "",
+   "games": [
+    "Plant the Trees"
+   ],
+   "month": "May",
+   "unit": "May · Track",
+   "months": [
+    "May"
+   ],
+   "pages": [
+    "newgames"
+   ],
+   "refs": [
+    {
+     "page": "newgames",
+     "label": "New Games · Plant the Trees",
+     "href": "new-games.html#plant-the-trees"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Warm up game: 'Plant the trees' (K-6) | Teaching Fundamentals of PE"
   },
   {
    "key": "yt:kDMU8tZhfLU",

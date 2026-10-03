@@ -3002,33 +3002,6 @@ window.GAME_DETAILS = [
     "aka": []
   },
   {
-    "name": "Plant the Trees",
-    "source": "",
-    "months": [
-      "December",
-      "February"
-    ],
-    "purpose": "Relay planting. Turn-taking. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
-    "equipment": "Cones or beanbags, hoops.",
-    "setup": "Relay teams. A hoop forest at the far end. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
-    "play": [
-      "One runner at a time. Next player starts behind the home cone and goes on a high-five — not a shout from halfway.",
-      "Carry one tree, plant it in the hoop, return, tag.",
-      "Whistle: whose forest is planted and tidy?",
-      "Play Plant the Trees in short rounds so more students get the key job, then freeze and reset."
-    ],
-    "g12": "Walk-run. Teacher plants the first.",
-    "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
-    "g56": "Plant in a pattern (triangle, line).",
-    "safety": "No throwing trees. More teams, shorter lines. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-    "slot": "16–25",
-    "type": "relay",
-    "ifThis": [],
-    "roundEnds": "",
-    "skins": [],
-    "aka": []
-  },
-  {
     "name": "Rescue Relay",
     "source": "",
     "months": [
@@ -4649,6 +4622,7 @@ window.GAME_DETAILS = [
     "name": "Spot-Jump Path",
     "source": "",
     "months": [
+      "April",
       "May",
       "June"
     ],

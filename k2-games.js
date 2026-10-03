@@ -29,7 +29,6 @@ window.K2_MONTH_GAMES = {
   ],
   January: [
     ["Collect the Treasure", "", "Beanbags in the middle. Teams carry one at a time to a hoop. Tagged players walk the treasure back. No guarding the hoop."],
-    ["Plant the Trees", "", "Relay: take a cone or beanbag, ‘plant’ it in a hoop, run back. Team with a tidy forest at the whistle."],
     ["Waspital", "", "Hospital-tag cousin. Two tags = walk to a hoop hospital, stretch, re-enter. Everyone is it."]
   ],
   February: [
@@ -384,21 +383,6 @@ window.K2_DETAILS = [
   g34: "Jog.",
   g56: "Two treasures allowed if you pair up.",
   safety: "One object in the hands. Soft tag.",
-  slot: "16–25"
-},
-{
-  name: "Plant the Trees", source: "", months: ["January"],
-  purpose: "Relay planting. Turn-taking.",
-  equipment: "Cones or beanbags, hoops.",
-  setup: "Relay teams. A hoop forest at the far end.",
-  play: [
-    "Carry one tree, plant it in the hoop, return, tag.",
-    "Whistle: whose forest is planted and tidy?"
-  ],
-  g12: "Walk-run. Teacher plants the first.",
-  g34: "Jog.",
-  g56: "Plant in a pattern (triangle, line).",
-  safety: "No throwing trees. More teams, shorter lines.",
   slot: "16–25"
 },
 {
