@@ -1,0 +1,11 @@
+{
+  "name": "pe-playbook",
+  "private": true,
+  "description": "SCA Elementary PE Playbook (static site). No dependencies.",
+  "scripts": {
+    "build": "node tools/build.js",
+    "check": "node tools/build.js --check",
+    "weekly": "sh tools/weekly.sh",
+    "links": "python3 tools/check-links.py"
+  }
+}

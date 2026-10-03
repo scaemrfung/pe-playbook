@@ -5,6 +5,8 @@ Live: https://scaemrfung.github.io/pe-playbook/
 
 Open `index.html` in a browser. No install needed.
 
+The homepage is a **This week** page: this week's plan download, this week's lesson links and the New Games added this week (all follow today's date, with a warning if `weekly-plans-data.js` has no plan for the week). The 10-month Year map sits below it, collapsed.
+
 Includes the year plan, Big-Group Games, New Games, dodgeball (stay-in), per-card demo videos,
 PEW outcomes, monthly fitness checklist, and Track Day event sheet. The 67
 PHYSEDGAMES large-group games are Big-Group Games page cards (`physedgames-games.js`:
@@ -110,3 +112,40 @@ The footer never links to Sub Day Plans.
 **Standing rule (Oct 3, 2026): no weekly rubric panel on the Outcomes page.** `outcomes.html` carries only the monthly rubric/assessment content (the `#month-assessment` panel, built from `outcomes-data.js`). Do not add a "Weekly rubrics by month" panel, `#weekly-rubrics` / `#football-week-6` anchors, a `rubric:` field or "Weekly rubric for this week" link in `weekly-plans-data.js`, or a "Weekly rubrics" link in the month-page rubric line (`tools/build.js`). The weekly-plan updater only adds the plan entry and its `.docx`.
 
 **Fitness checklist PDF.** `Monthly_Fitness_Checklist_Grades_1-6.pdf` is generated from the `MONTHS` array in `fitness.html` by `python3 tools/fitness-pdf.py` (needs reportlab + node). After editing the fitness page, rerun it and commit the PDF.
+
+
+## Navigation, names and page map (Oct 2026)
+
+Top nav (from `NAV` in `chrome.js`, six items): **This week** (`index.html`) · **Games** (`games-hub.html`) · **Plans** (`weekly-plans.html`) · **Month** (opens the current month) · **Outcomes** (`outcomes.html`) · **More** (`more.html`).
+Section menus (`SUBNAV` in `chrome.js`) show under the active item, with no dropdowns or JavaScript needed to read them:
+
+- Games: Big-Group Games (`games.html`) · New Games (`new-games.html`) · Warm Up Games (`warmup-nogym.html`) · Dodgeball (`dodgeball.html`)
+- Plans: Weekly plans · Downloads (`downloads.html`)
+- Outcomes: Outcomes · Sample rubric (`rubric.html`)
+- More: Gymnastics · Track Day · Fitness · How to teach · Indigenous games (`indigenous.html`)
+
+Names used everywhere: **This week**, **Year map** (the 10-month grid), **Outcomes** (Alberta PEW is the curriculum, not a page name), **How to teach**, **Warm Up Games**, **Dodgeball**, **Weekly plans**. Old pages and `#anchors` all still work (`videos.html` and `large-group-pe-games.html` redirect to `games.html`).
+
+## Site search
+
+The search box in the top bar (and `search.html?q=…`) finds games on Big-Group, New, Warm Up and Dodgeball with a page badge. It reads `search-index.js`, a small generated list of `[title, page, anchor, other names]` (about 20 KB). It is loaded the first time someone uses the box, so the big data files are never loaded just to search. `node tools/build.js` regenerates it; it includes old (renamed) names and "also called" names.
+
+## One game, one page (de-duplication)
+
+`game-homes.js` says where a game lives when its title is on more than one page. Today the 9 dodgeball variants live on Dodgeball and 4 warm-ups (Tail Tag, Aces, Chuck the Chicken, Musical Hoops) on Warm Up Games. On Big-Group Games those titles are short "see this page" link cards, and the `#anchor` still works. Month pages and the search link straight to the home page. To move another game, add it to `game-homes.js` (key = the Big-Group card anchor) and run `node tools/build.js`.
+The build also prints a warning for any title that still has a full card on more than one page (warning only, never fails). New games go only on New Games; if one matches a game elsewhere, the warning is the reminder to record it in the updater's `dedupe.json`.
+
+## Big-Group Games on a phone
+
+Under 700 px wide, each card shows the title plus a one-line summary; tap to open the full card (the "Open card / Close" button or the title). Month/Type filters and the jump list stay (the jump list starts closed on a phone), and a floating **↑ Top / Filters** button appears once you scroll. Deep links such as `games.html#hoop-hut`, renamed (old) anchors and "also called" anchors open the card they point to. Printing always prints the full cards. (The old per-card "Print this game" button was removed on purpose in Sept 2026 and was not brought back.)
+
+## Downloads and printing
+
+`downloads.html` lists the current week's plan, every weekly plan, the fitness PDF, the gymnastics files and the Track Day booklet. Files stay where they are (GitHub Pages cannot redirect files, so moving them would break old links). Month pages load `print.css` for a clean printout (no menus, lessons and table rows kept together).
+
+## Upkeep: one command
+
+    npm run weekly        # same as: sh tools/weekly.sh   (add --links for a link/anchor crawl)
+
+It runs `node tools/build.js`, `node tools/build.js --check`, rebuilds the fitness PDF only when the `MONTHS` list in `fitness.html` changed (hash kept in `tools/fitness-pdf.sha1`), optionally `python3 tools/check-links.py` (needs playwright + Chrome; crawls every page, link and anchor), and finally `sh tools/bake-updated.sh` (the "Updated" stamp). Run it right before committing. Optional: a GitHub Action that runs `node tools/build.js --check` on every push (`.github/workflows/check.yml`; it needs a token with the `workflow` scope to add, so it is not installed yet — see the workflow text in `tools/check-workflow.yml.txt`).
+The New Games updater (`update.py`, `renames.py`, `details.json`, `dedupe.json`, `manual.json`) lives on the box in `/workspace/pe-newgames`, not in this repo, because it keeps its own state (history, snapshots, last-run). It calls `node tools/build.js` for you.
