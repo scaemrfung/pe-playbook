@@ -335,11 +335,16 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       const cards = cardGroups.map((group) => {
         const articles = group.games.map((g) => {
           const x = EX[g.name] || {};
+          const pegNames = pegFor(g.name).map((h) => h.name).filter((n) => gslug(n) !== gslug(g.name) && !(g.aka || x.aka || []).some((a) => gslug(a) === gslug(n)));
+          const ownId = gslug(g.name);
+          // "also called" anchors; skipped when another card already owns that id (no duplicate ids on the page)
+          const akaAnchors = [...new Set((g.aka || x.aka || []).concat(pegNames).map(gslug))].filter((id) => id !== ownId && !cardIds.has(id)).map((id) => `<span id="${id}"></span>`).join("");
           const home = HOMES[gslug(g.name)];
           if (home) {
             // Same title lives on another page: short "see this page" card (the #anchor still works)
             return `
           <article class="gcard gcard-link" id="${gslug(g.name)}">
+            ${akaAnchors}
             <div class="ghead">
               <h2>${numbers[g.name]}. ${g.name}</h2>
               <span class="src">${group.label}</span>
@@ -354,10 +359,6 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
           const skins = (g.skins || x.skins || []).map((s) => `<li>${s}</li>`).join("");
           const vars = skins ? "" : (x.variations || []).filter((s) => !/^source:|^credit:/i.test(s)).map((s) => `<li>${s}</li>`).join("");
           const ifThis = (g.ifThis || x.ifThis || []).map((s) => `<li>${s}</li>`).join("");
-          const pegNames = pegFor(g.name).map((h) => h.name).filter((n) => gslug(n) !== gslug(g.name) && !(g.aka || x.aka || []).some((a) => gslug(a) === gslug(n)));
-          const ownId = gslug(g.name);
-          // "also called" anchors; skipped when another card already owns that id (no duplicate ids on the page)
-          const akaAnchors = [...new Set((g.aka || x.aka || []).concat(pegNames).map(gslug))].filter((id) => id !== ownId && !cardIds.has(id)).map((id) => `<span id="${id}"></span>`).join("");
           const akaLine = (g.aka || x.aka || []).length ? `<p class="meta"><strong>Also called:</strong> ${(g.aka || x.aka).join(" · ")}</p>` : "";
           return `
           <article class="gcard${expanded.has(gslug(g.name)) ? "" : " collapsed"}" id="${gslug(g.name)}">

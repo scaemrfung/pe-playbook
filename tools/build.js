@@ -123,8 +123,13 @@ function detailFor(name) {
 
 const HOMES = W.GAME_HOMES || {};
 /** Link to a game's page: its home page if the Big-Group card is only a "see this page" card. */
+const HOME_BY_AKA = {};
+DETAILS.forEach((g) => {
+  if (!g || !g.name || !HOMES[gslug(g.name)]) return;
+  [].concat(g.aka || [], (EXTRAS[g.name] || {}).aka || []).forEach((a) => { HOME_BY_AKA[gslug(a)] = HOMES[gslug(g.name)]; });
+});
 function gameHref(name) {
-  const sl = gslug(name), h = HOMES[sl];
+  const sl = gslug(name), h = HOMES[sl] || HOME_BY_AKA[sl];
   return h ? `${h.page}#${h.anchor}` : `games.html#${sl}`;
 }
 function linkGameText(text) {
