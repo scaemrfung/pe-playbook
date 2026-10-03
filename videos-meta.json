@@ -287,6 +287,14 @@
    "url": "https://www.youtube.com/watch?v=C3DeICZ3HCU",
    "checked": "2026-09-27"
   },
+  "yt:DAgKmt4cXCA": {
+   "status": "ok",
+   "http": 200,
+   "title": "My TOP 5 PE warm up games 🏅",
+   "channel": "Prime Coaching Sport",
+   "url": "https://www.youtube.com/watch?v=DAgKmt4cXCA",
+   "checked": "2026-10-03"
+  },
   "yt:DEsZWTGK144": {
    "status": "ok",
    "http": 200,
@@ -1642,5 +1650,5 @@
    "reason": "Library link was a generic ‘Quick Game 40’ short; replaced with PhysEdGames’ own Gingerbread Man Tag demo (the clip physedgames.com uses for this game). Old: “Quick Game 40 (kindergarten - grade 5)”."
   }
  ],
- "lastChecked": "2026-09-27"
+ "lastChecked": "2026-10-03"
 }

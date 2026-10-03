@@ -37,8 +37,8 @@
     var list = function (title, arr, ordered) {
       return (arr && arr.length) ? "<p><strong>" + title + "</strong></p><" + (ordered ? "ol" : "ul") + ' class="clean">' + arr.map(li).join("") + "</" + (ordered ? "ol" : "ul") + ">" : "";
     };
-    var months = [g.unit].concat(g.alsoFits || []).filter(function (m, i, a) { return m && U[m] && a.indexOf(m) === i; });
-    var when = "<strong>When:</strong> " + (months.length ? months.map(function (m) { return '<a href="' + esc(U[m].href) + '">' + esc(m) + "</a>"; }).join(", ") : "Anytime") +
+    var months = [g.suggestedMonth || g.unit].concat(g.alsoFits || []).filter(function (m, i, a) { return m && U[m] && a.indexOf(m) === i; });
+    var when = "<strong>Suggested month:</strong> " + (months.length ? months.map(function (m, i) { return (i === 1 ? " · also fits " : i > 1 ? ", " : "") + '<a href="' + esc(U[m].href) + '">' + esc(m) + "</a>"; }).join("") : "Anytime") +
       " · <strong>Slot:</strong> " + esc(g.slot || "—") + (g.grouping ? " · " + esc(g.grouping) : "");
     var vids = g.videos || [];
     var videoHtml = vids.length
@@ -71,7 +71,7 @@
       : "";
     var safety = (g.stayIn ? "" : "Adapt: " + (g.flag || "see the notes") + ". ") + (g.safety || "") + (g.safetyTail ? " " + g.safetyTail : "");
     var hay = [g.name, (g.oldNames || []).join(" "), g.desc, g.sports, g.section, g.typeLabel, g.equipment, (g.how || []).join(" "), (g.variations || []).join(" "), (g.cues || []).join(" "), g.unit, g.source].join(" ").toLowerCase();
-    return '<article class="gcard ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.unit) + '" data-type="' + esc(g.typeLabel || typeLabel(g.section)) + '" data-hay="' + esc(hay) + '">' +
+    return '<article class="gcard ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.suggestedMonth || g.unit) + '" data-type="' + esc(g.typeLabel || typeLabel(g.section)) + '" data-hay="' + esc(hay) + '">' +
       (g.aliases || []).map(function (x) { return '<span id="' + esc(x) + '"></span>'; }).join("") +
       '<div class="ghead"><h3>' + (opts.num ? esc(opts.num) + ". " : "") + esc(g.name) + "</h3>" +
       '<span class="src">' + esc(g.typeLabel || typeLabel(g.section)) + "</span></div>" +
@@ -99,7 +99,36 @@
       "</article>";
   }
 
-  function render(data) {
+  function fmtLongDate(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || "");
+    if (!m) return iso || "";
+    var d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+    var dow = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][d.getUTCDay()];
+    var mon = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"][d.getUTCMonth()];
+    return dow + " " + mon + " " + d.getUTCDate() + ", " + d.getUTCFullYear();
+  }
+  // "Last updated" = the most recent day games were added to this page.
+  function lastUpdatedLine(data) {
+    var iso = data.lastUpdated || "";
+    var label = data.lastUpdatedLabel || fmtLongDate(iso) || "";
+    return '<strong>Last updated: ' + esc(label) + "</strong>";
+  }
+  // Short history: games grouped by the day they were added, newest first.
+  function addedHistory(data) {
+    var by = {}, order = [];
+    (data.games || []).forEach(function (g) {
+      if (!g.addedOn) return;
+      if (!by[g.addedOn]) { by[g.addedOn] = []; order.push(g.addedOn); }
+      by[g.addedOn].push(g);
+    });
+    order.sort().reverse();
+    return order.map(function (d) { return { date: d, label: fmtLongDate(d), games: by[d] }; });
+  }
+  function monthOrder(data) { return (data.units || []).map(function (u) { return u.month; }); }
+  function suggested(g) { return g.suggestedMonth || g.unit || ""; }
+
+  function render(data, view) {
+    view = view === "type" || view === "month" ? view : "week";
     var games = data.games || [];
     var weeks = data.weeks || [];
     var latest = weeks[0];
@@ -113,42 +142,83 @@
     weeks.slice(1).forEach(function (w) { games.forEach(function (g) { if (g.added === w.key && !num[g.id]) num[g.id] = ++n; }); });
 
     out.push('<section class="panel ng-this-week" id="this-week" aria-labelledby="ng-this-week-h">');
-    out.push('<p class="ng-kicker">Added this week</p>');
+    out.push('<p class="ng-kicker">Newly added</p>');
     out.push('<h2 id="ng-this-week-h">' + esc(latest ? latest.label : "No games yet") + "</h2>");
     if (latest) {
-      out.push('<p class="meta">' + (latest.addedOnLabel ? "Added " + esc(latest.addedOnLabel) + " · " : "") +
+      out.push('<p class="meta ng-updated-line">' + lastUpdatedLine(data) + " · " +
         esc(latestGames.length) + " new game" + (latestGames.length === 1 ? "" : "s") +
         " · PE Games Library last updated " + esc(sd.lastUpdatedLabel || sd.lastUpdated || "") + "</p>");
       if (!sameWeek) out.push('<p class="note">No new games in the latest library update' + (data.dedupe ? ' that aren’t already on the <a href="games.html">Big-Group Games page</a>' : '') + ' — these are the most recent additions.</p>');
       out.push('<ul class="ng-new-list">' + latestGames.map(function (g) {
         return '<li><a href="#' + esc(g.id) + '"><strong>' + esc(g.name) + "</strong></a> — " + esc(g.desc) +
-          ' <span class="ng-mini">' + esc(unitLabel(U[g.unit])) + " · Gr " + esc(g.grades) + "</span></li>";
+          ' <span class="ng-mini">' + esc(unitLabel(U[suggested(g)])) + " · " + esc(g.typeLabel || "") + " · Gr " + esc(g.grades) + "</span></li>";
       }).join("") + "</ul>");
     }
-    out.push('<p class="meta ng-jump"><a href="#this-weeks-games">This week’s game cards</a> · <a href="#archive">Archive by week</a> · ' + esc(games.length) + " games in total</p>");
+    var hist = addedHistory(data).filter(function (h) { return !latest || !latestGames.some(function (g) { return g.addedOn === h.date; }); }).slice(0, 6);
+    if (hist.length) {
+      out.push('<div class="ng-history"><p class="ng-kicker" style="margin-top:14px">Earlier additions</p><ul class="ng-hist-list">' + hist.map(function (h) {
+        return "<li><strong>" + esc(h.label) + "</strong> — " + h.games.map(function (g) { return '<a href="#' + esc(g.id) + '">' + esc(g.name) + "</a>"; }).join(", ") + "</li>";
+      }).join("") + "</ul></div>");
+    }
+    out.push('<p class="meta ng-jump"><a href="#ng-cards">Game cards</a> · ' + (view === "week" ? '<a href="#archive">Archive by week</a> · ' : "") + esc(games.length) + " games in total</p>");
     out.push("</section>");
 
-    out.push('<section class="ng-week-block" id="this-weeks-games" data-week="' + esc(latest ? latest.key : "") + '">');
-    out.push('<h2 class="ng-h">This week’s games <span class="ng-count">' + esc(latestGames.length) + "</span></h2>");
-    out.push(latestGames.map(function (g) { return card(g, data, { isNew: true, num: num[g.id] }); }).join(""));
-    out.push("</section>");
+    out.push('<div id="ng-cards" data-view="' + view + '">');
+    if (view === "week") {
+      out.push('<section class="ng-week-block" id="this-weeks-games" data-week="' + esc(latest ? latest.key : "") + '">');
+      out.push('<h2 class="ng-h">This week’s games <span class="ng-count">' + esc(latestGames.length) + "</span></h2>");
+      out.push(latestGames.map(function (g) { return card(g, data, { isNew: true, num: num[g.id] }); }).join(""));
+      out.push("</section>");
 
-    out.push('<h2 class="ng-h" id="archive">Archive — earlier weeks</h2>');
-    out.push('<p class="meta ng-archive-note">Every game from earlier weeks, newest week first. Tap a week to open it.</p>');
-    weeks.slice(1).forEach(function (w) {
-      var list = games.filter(function (g) { return g.added === w.key; });
-      out.push('<details class="ng-week ng-week-block" id="week-' + esc(w.key) + '" data-week="' + esc(w.key) + '">' +
-        "<summary><span>" + esc(w.label) + '</span> <span class="ng-count">' + esc(list.length) + " game" + (list.length === 1 ? "" : "s") + "</span>" +
-        (w.addedOnLabel ? ' <span class="ng-mini">added ' + esc(w.addedOnLabel) + "</span>" : "") + "</summary>" +
-        (w.note ? '<p class="note">' + esc(w.note) + "</p>" : "") +
-        '<ul class="ng-toc">' + list.map(function (g) { return '<li><a href="#' + esc(g.id) + '">' + esc(g.name) + "</a></li>"; }).join("") + "</ul>" +
-        list.map(function (g) { return card(g, data, { isNew: false, num: num[g.id] }); }).join("") +
-        "</details>");
-    });
+      out.push('<h2 class="ng-h" id="archive">Archive — earlier weeks</h2>');
+      out.push('<p class="meta ng-archive-note">Every game from earlier weeks, newest week first. Tap a week to open it.</p>');
+      weeks.slice(1).forEach(function (w) {
+        var list = games.filter(function (g) { return g.added === w.key; });
+        out.push('<details class="ng-week ng-week-block" id="week-' + esc(w.key) + '" data-week="' + esc(w.key) + '">' +
+          "<summary><span>" + esc(w.label) + '</span> <span class="ng-count">' + esc(list.length) + " game" + (list.length === 1 ? "" : "s") + "</span>" +
+          (w.addedOnLabel ? ' <span class="ng-mini">added ' + esc(w.addedOnLabel) + "</span>" : "") + "</summary>" +
+          (w.note ? '<p class="note">' + esc(w.note) + "</p>" : "") +
+          '<ul class="ng-toc">' + list.map(function (g) { return '<li><a href="#' + esc(g.id) + '">' + esc(g.name) + "</a></li>"; }).join("") + "</ul>" +
+          list.map(function (g) { return card(g, data, { isNew: false, num: num[g.id] }); }).join("") +
+          "</details>");
+      });
+    } else {
+      // grouped views: every game once, under a type heading or a month heading
+      var isLatest = {};
+      latestGames.forEach(function (g) { isLatest[g.id] = 1; });
+      var groups = [], idx = {};
+      var months = monthOrder(data);
+      var key = view === "type" ? function (g) { return g.typeLabel || typeLabel(g.section) || "Other"; } : suggested;
+      var head = view === "type" ? function (k) { return k; } : function (k) { return U[k] ? U[k].month + " — " + U[k].sport : k; };
+      games.forEach(function (g) {
+        var k = key(g) || "Other";
+        if (!idx[k]) { idx[k] = { key: k, list: [] }; groups.push(idx[k]); }
+        idx[k].list.push(g);
+      });
+      if (view === "type") groups.sort(function (a, b) { return a.key < b.key ? -1 : 1; });
+      else groups.sort(function (a, b) { var i = months.indexOf(a.key), j = months.indexOf(b.key); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); });
+      groups.forEach(function (gr) {
+        // inside a group: the other axis (month inside a type, type inside a month), then library order
+        gr.list.sort(function (a, b) {
+          if (view === "type") { var i = months.indexOf(suggested(a)), j = months.indexOf(suggested(b)); if (i !== j) return i - j; }
+          else { var ta = a.typeLabel || "", tb = b.typeLabel || ""; if (ta !== tb) return ta < tb ? -1 : 1; }
+          return (a.order || 0) - (b.order || 0);
+        });
+        var slugk = String(gr.key).toLowerCase().replace(/[^a-z0-9]+/g, "-");
+        out.push('<section class="ng-week-block ng-group" id="' + view + "-" + esc(slugk) + '" data-group="' + esc(gr.key) + '">');
+        out.push('<h2 class="ng-h">' + esc(head(gr.key)) + ' <span class="ng-count">' + gr.list.length + "</span></h2>");
+        out.push('<ul class="ng-toc">' + gr.list.map(function (g) { return '<li><a href="#' + esc(g.id) + '">' + esc(g.name) + "</a></li>"; }).join("") + "</ul>");
+        out.push(gr.list.map(function (g) {
+          return card(g, data, { isNew: !!isLatest[g.id], num: "" });
+        }).join(""));
+        out.push("</section>");
+      });
+    }
+    out.push("</div>");
     return out.join("\n");
   }
 
-  root.NewGamesRender = { render: render, card: card };
+  root.NewGamesRender = { render: render, card: card, updatedLine: lastUpdatedLine };
 
   // ------------------------------------------------------------ browser
   if (typeof document === "undefined" || !document.getElementById) return;
@@ -156,7 +226,11 @@
     var data = root.NEW_GAMES;
     var el = document.getElementById("ng-root");
     if (!data || !el) return;
-    el.innerHTML = render(data);
+    var view = "week";
+    try { var qv = new URLSearchParams(location.search).get("view"); if (qv === "type" || qv === "month") view = qv; } catch (e) {}
+    var upd = document.getElementById("ng-updated");
+    if (upd) upd.innerHTML = lastUpdatedLine(data);
+    el.innerHTML = render(data, view);
     var tools = document.getElementById("ng-tools");
     var q = document.getElementById("ng-q");
     var box = document.getElementById("ng-unit-filters");
@@ -166,7 +240,7 @@
     tools.hidden = false;
     var unit = "all", type = "all";
     var used = {};
-    (data.games || []).forEach(function (g) { used[g.unit] = (used[g.unit] || 0) + 1; });
+    (data.games || []).forEach(function (g) { var m = g.suggestedMonth || g.unit; used[m] = (used[m] || 0) + 1; });
     var types = [];
     (data.games || []).forEach(function (g) { var t = g.typeLabel || typeLabel(g.section); if (t && types.indexOf(t) < 0) types.push(t); });
     if (tbox) tbox.innerHTML = '<button type="button" data-type="all" class="on">All types</button>' +
@@ -196,6 +270,21 @@
       count.textContent = filtering ? shown + " matching game" + (shown === 1 ? "" : "s") : "";
       if (arch) arch.hidden = false;
     }
+    var vbox = document.getElementById("ng-view-filters");
+    if (vbox) {
+      vbox.innerHTML = [["week", "By week added"], ["type", "By type"], ["month", "By month"]].map(function (v) {
+        return '<button type="button" data-view="' + v[0] + '"' + (v[0] === view ? ' class="on"' : "") + ">" + v[1] + "</button>";
+      }).join("");
+      vbox.addEventListener("click", function (e) {
+        var b = e.target.closest("button[data-view]");
+        if (!b) return;
+        view = b.getAttribute("data-view");
+        vbox.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
+        el.innerHTML = render(data, view);
+        apply();
+        try { history.replaceState(null, "", view === "week" ? location.pathname + location.hash : location.pathname + "?view=" + view + location.hash); } catch (e2) {}
+      });
+    }
     q.addEventListener("input", apply);
     box.addEventListener("click", function (e) {
       var b = e.target.closest("button[data-unit]");
@@ -221,6 +310,7 @@
       if (d && !d.open) { d.open = true; t.scrollIntoView(); }
     }
     window.addEventListener("hashchange", openHash);
+    apply();
     openHash();
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);

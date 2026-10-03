@@ -5,6 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
+ "lastUpdated": "2026-10-03",
+ "lastUpdatedLabel": "Sat Oct 3, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -13,8 +15,8 @@ window.NEW_GAMES = {
   "lastUpdatedLabel": "Mon Sept 21, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
- "latestWeek": "2026-09-14",
- "docWeek": "2026-09-21",
+ "latestWeek": "2026-10-05",
+ "docWeek": "2026-10-05",
  "dedupe": {
   "excluded": 66,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
@@ -22,7 +24,7 @@ window.NEW_GAMES = {
  "units": [
   {
    "month": "September",
-   "sport": "Soccer",
+   "sport": "Soccer and Football",
    "href": "month-september.html"
   },
   {
@@ -72,6 +74,13 @@ window.NEW_GAMES = {
   }
  ],
  "weeks": [
+  {
+   "key": "2026-10-05",
+   "label": "Week of Oct 5, 2026",
+   "count": 3,
+   "addedOn": "2026-10-03",
+   "addedOnLabel": "Sat Oct 3, 2026"
+  },
   {
    "key": "2026-09-14",
    "label": "Week of Sept 14, 2026",
@@ -176,6 +185,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/knock-em-downers-pick-em-uppers/"
    ],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "September",
    "equipment": "20–30 cones or pins spread out; pinnies for two teams",
    "setup": "Scatter cones standing up across the gym. Split the class into Knockers and Pickers.",
    "how": [
@@ -274,6 +284,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "December",
    "equipment": "None",
    "setup": "Everyone starts at the bottom level (e.g. egg). Teach the levels and an action for each: egg → chicken → dinosaur → human (or class choice).",
    "how": [
@@ -371,6 +382,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "April",
    "equipment": "None (optional number cards)",
    "setup": "Personal space. Teach a body shape for each number 1–10 (e.g. 1 = pencil stand, 2 = two-foot balance, 5 = star).",
    "how": [
@@ -471,6 +483,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "December",
    "equipment": "Music",
    "setup": "Personal space; teacher controls the music.",
    "how": [
@@ -572,6 +585,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "May",
    "equipment": "Many cones or markers",
    "setup": "Scatter cones; half are ‘planted’ (standing) and half ‘cut’ (on their side). Two teams: planters and loggers.",
    "how": [
@@ -666,6 +680,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "April",
    "equipment": "Chairs (classroom) or none",
    "setup": "Seated at desks or on the floor.",
    "how": [
@@ -763,6 +778,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "May",
    "equipment": "None (music optional)",
    "setup": "Pairs around a big circle: one Horse (standing, feet wide), one Jockey.",
    "how": [
@@ -863,6 +879,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "October",
    "equipment": "Letter cards or whiteboard; music",
    "setup": "Teach letters mapped to moves, e.g. A = jump, B = spin, C = clap, D = balance, E = slide, F = freeze.",
    "how": [
@@ -960,6 +977,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "October",
    "equipment": "Music",
    "setup": "Personal space. Teach levels (high / middle / low) and directions (forward / sideways / backward).",
    "how": [
@@ -1056,6 +1074,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "December",
    "equipment": "Pool noodles for taggers",
    "setup": "2–3 noodle taggers.",
    "how": [
@@ -1152,6 +1171,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "December",
    "equipment": "4 mats in the corners; noodles for chefs",
    "setup": "Gingerbreads start on corner mats. 1–2 chefs in the middle.",
    "how": [
@@ -1248,6 +1268,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "April",
    "equipment": "None (mats optional)",
    "setup": "Everyone in crab-walk position. 2–3 crab taggers.",
    "how": [
@@ -1338,6 +1359,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/foosball-soccer/"
    ],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "September",
    "equipment": "Pool noodles; soccer balls; two goals",
    "setup": "Players in rows across the gym holding noodles to link with teammates (like foosball rods).",
    "how": [
@@ -1434,6 +1456,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "September",
    "equipment": "Cones for a small grid; one ball per group of 5",
    "setup": "Grids about 8 × 8 m. Four attackers on the outside, one defender in the middle.",
    "how": [
@@ -1523,6 +1546,7 @@ window.NEW_GAMES = {
    "videos": [],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "January",
    "equipment": "Large foam die; one ball per student (soccer, basketball, or hockey)",
    "setup": "Groups numbered 1–6 on one end line.",
    "how": [
@@ -1609,6 +1633,7 @@ window.NEW_GAMES = {
    "videos": [],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "January",
    "equipment": "Basketballs; noodles for defenders; hoops",
    "setup": "Two teams; some players are noodle defenders.",
    "how": [
@@ -1707,6 +1732,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "October",
    "equipment": "Hoops; balls for the unit",
    "setup": "Pairs or small groups; a hoop target for the receiver.",
    "how": [
@@ -1804,6 +1830,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "September",
    "equipment": "Many cones as ‘mines’; one ball per student",
    "setup": "Scatter cones across the gym.",
    "how": [
@@ -1898,6 +1925,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "October",
    "equipment": "Soft frisbees; pinnies; cone end zones",
    "setup": "Small-sided teams (4v4) with end zones.",
    "how": [
@@ -1996,6 +2024,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/eagles-vs-seahawks/"
    ],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "December",
    "equipment": "Beanbags as fish; hoop ‘lake’ in the centre; hoop nests",
    "setup": "Two teams (Eagles and Seahawks); beanbag fish in the centre lake.",
    "how": [
@@ -2091,6 +2120,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "September",
    "equipment": "Hoops (one per team); foam balls in the centre",
    "setup": "Teams of 4–5 hold a shared hoop together at their corner.",
    "how": [
@@ -2177,6 +2207,7 @@ window.NEW_GAMES = {
    "videos": [],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "March",
    "equipment": "Long skipping rope; volleyball or beach ball",
    "setup": "Teams of 3 on each side; a middle player holds the rope at net height.",
    "how": [
@@ -2263,6 +2294,7 @@ window.NEW_GAMES = {
    "videos": [],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "March",
    "equipment": "Deck of cards; volleyballs",
    "setup": "Groups in small circles.",
    "how": [
@@ -2349,6 +2381,7 @@ window.NEW_GAMES = {
    "videos": [],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "March",
    "equipment": "Volleyballs or beach balls; one hoop per team",
    "setup": "Teams line up; balls at one end, team hoop at the other.",
    "how": [
@@ -2444,6 +2477,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "March",
    "equipment": "Soft ball and hoop per pair",
    "setup": "Partners with a hoop on the floor between them.",
    "how": [
@@ -2539,6 +2573,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "March",
    "equipment": "Hoops as courts; paddles; soft balls",
    "setup": "Groups of four; hoop courts set at three distances (Close / Challenge / Championship).",
    "how": [
@@ -2634,6 +2669,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "November",
    "equipment": "About 5 cones per pair",
    "setup": "Partners set two cone goals facing each other; one flat cone is the puck.",
    "how": [
@@ -2726,6 +2762,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/bullseye/"
    ],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "June",
    "equipment": "Volleyballs on cones; tennis balls; pinnies",
    "setup": "Two teams; volleyballs balanced on cones along the middle.",
    "how": [
@@ -2812,6 +2849,7 @@ window.NEW_GAMES = {
    "videos": [],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "June",
    "equipment": "Buckets at increasing distances; beanbags",
    "setup": "Rows of buckets set at close, middle, and far distances.",
    "how": [
@@ -2907,6 +2945,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "December",
    "oldNames": [
     "Hula Hut Knock Down"
    ],
@@ -3007,6 +3046,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "June",
    "equipment": "Four kickballs; bases",
    "setup": "Standard kickball diamond with four balls.",
    "how": [
@@ -3101,6 +3141,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "June",
    "equipment": "Kickball; six bases",
    "setup": "Six-base diamond.",
    "how": [
@@ -3195,6 +3236,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "December",
    "equipment": "Large gym balls; soft balls",
    "setup": "Middle players dodge; outside players throw or roll.",
    "how": [
@@ -3283,6 +3325,7 @@ window.NEW_GAMES = {
    "videos": [],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "May",
    "equipment": "Cones around a lap; timer",
    "setup": "Each student picks a cone target and a target time.",
    "how": [
@@ -3377,6 +3420,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "April",
    "equipment": "4–10 yoga or gym mats; challenge cards",
    "setup": "Groups at mats with a challenge card each.",
    "how": [
@@ -3472,6 +3516,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "April",
    "equipment": "Mats; smooth gym floor",
    "setup": "Teams with one mat each.",
    "how": [
@@ -3566,6 +3611,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "May",
    "equipment": "Cones; balls at a far cone",
    "setup": "Lines of snatchers and chasers.",
    "how": [
@@ -3660,6 +3706,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "May",
    "equipment": "Cones in a line; tennis ball per team",
    "setup": "Teams with a line of cones.",
    "how": [
@@ -3754,6 +3801,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "May",
    "equipment": "Cones for start and finish",
    "setup": "Pairs: escaper starts about 2 m ahead of the chaser.",
    "how": [
@@ -3853,6 +3901,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/wheelbarrow-walk-olympics/"
    ],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "April",
    "equipment": "Cones at bronze, silver, gold distances",
    "setup": "Pairs: one walker on hands, one holding ankles.",
    "how": [
@@ -3861,6 +3910,314 @@ window.NEW_GAMES = {
     "Switch roles and try farther."
    ],
    "safety": "Hold at the ankles, go slow, stop if wrists hurt."
+  },
+  {
+   "id": "zone-tag",
+   "added": "2026-10-05",
+   "addedOn": "2026-10-03",
+   "name": "Zone Tag",
+   "section": "Tag (stay-in style)",
+   "desc": "Cones split the space into four zones with one tagger locked into each; everyone else runs freely across the zones; a tag swaps the tagger and runner; last taggers do a short fitness challenge",
+   "sports": "warm-up, reaction, fitness, spatial awareness, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Prime",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=DAgKmt4cXCA"
+   ],
+   "order": 41,
+   "unit": "October",
+   "alsoFits": [
+    "September"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class · 4 taggers, one per zone · 60–90 second rounds · 6–10 minutes total",
+   "cues": [
+    "Taggers: stay in your zone — you can reach, but not cross the line.",
+    "Runners: look up, cross the zones, change direction.",
+    "If you get tagged, swap places on the spot and take the next job.",
+    "Freeze on the whistle — then eyes on the teacher."
+   ],
+   "ifThis": [
+    "A tagger keeps stepping over the line: warning, then swap that tagger out.",
+    "Same few runners get tagged over and over: add a tagger-swap rule or shorten the round."
+   ],
+   "roundEnds": "Timed rounds (60–90 seconds). The four current taggers lead a quick fitness challenge, then new taggers are chosen. No winner needed.",
+   "tips": [
+    "Mark the zones before class so there is no wasted time. Four equal zones keep it fair.",
+    "Watch the corners where all four zones meet — remind runners to slow down and look before crossing.",
+    "Choose the end challenge together; a fun leader moment keeps tagged students positive. House rules: soft tags, no elimination, taggers always swap back into play.",
+    "Year plan: October, September — a fast warm-up before any football or invasion lesson."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Keeps moving for the whole round and can name how hard they worked afterward."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Changes direction and speed to cross a zone without being tagged."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a zone and gap to run through; taggers choose where to wait inside their zone."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes the tagger or runner role without fuss and swaps quickly."
+    },
+    {
+     "code": "Character Development",
+     "look": "Stays honest about a tag and respects the zone line as a tagger."
+    },
+    {
+     "code": "Safety",
+     "look": "Soft two-finger tags only; scans for others before sprinting through a corner."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers on the group during the fitness challenge and does not tease those who tag or get tagged."
+    }
+   ],
+   "g12": "Walk or jog. Teacher helps choose taggers. 30–45 second rounds. Use two big zones if four feel crowded.",
+   "g34": "Jog. Four taggers, 60 second rounds. Rotate taggers each round and add a movement rule for runners.",
+   "g56": "Full speed with two-finger tags. Add a tactic: taggers may fake, runners decide when to cross. Students can lead the end-of-round challenge.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=DAgKmt4cXCA",
+     "title": "My TOP 5 PE warm up games 🏅",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [
+    "https://www.youtube.com/watch?v=DAgKmt4cXCA"
+   ],
+   "videoNote": "Zone Tag is the first of five warm-up games in this clip (the other four are not on this card). Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "October",
+   "equipment": "8–12 cones or floor markers to mark four zones; pinnies for the four taggers (optional); a whistle or music to start and stop",
+   "setup": "Use cones or lines to cut the playing area into four zones (think four quarters of a gym floor or field). Pick four taggers and send one to stand in each zone. Everyone else scatters anywhere in the space.",
+   "how": [
+    "On the signal, the runners move around freely and may run through any zone.",
+    "Each tagger must stay inside their own zone. They can lean and reach, but they may not step across a cone line to chase.",
+    "When a tagger gently tags a runner, they swap on the spot: the runner becomes the tagger for that zone, and the old tagger is now a runner and can go anywhere.",
+    "Keep playing until the time is up. Freeze on the whistle.",
+    "At the end, the four players who are taggers lead a short fitness challenge for the group (for example 10 push-ups, squats, or jumping jacks). Then pick four new taggers and go again."
+   ],
+   "safety": "Soft two-finger tags on the back or shoulder only. Taggers stay in their zone, so runners must watch for others crossing lines at speed. Keep the zones large enough to spread out.",
+   "variations": [
+    "Change the way runners travel between rounds: skip, gallop, hop, or backward jog.",
+    "Add a fifth or sixth zone for a bigger class, with one more tagger for each.",
+    "Make the zone lines trickier: taggers may only move sideways, or must keep one foot on a spot.",
+    "Let the class vote on the end-of-round challenge so it feels fun, not like a punishment."
+   ]
+  },
+  {
+   "id": "mat-tag",
+   "added": "2026-10-05",
+   "addedOn": "2026-10-03",
+   "name": "Mat Tag",
+   "section": "Tag (stay-in style)",
+   "desc": "Four mats laid out like baseball bases; runners circle the bases and are safe on a mat; two taggers patrol between bases and a runner who is hit becomes a tagger",
+   "sports": "baseball lead-up, fitness, gr 2–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames",
+   "notes": [],
+   "links": [
+    "https://physedgames.com/mat-tag/"
+   ],
+   "order": 42,
+   "unit": "June",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "2–6",
+   "gradesFrom": "doc",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "Whole class · 4 mats as bases · 2 taggers (more with larger classes) · 2–3 minute rounds · 8–12 minutes total",
+   "cues": [
+    "Safe on the mat — then go when the path is clear.",
+    "Everyone runs the same way around the bases.",
+    "Look before you leave your mat.",
+    "If you are tagged, take the soft ball and become a tagger."
+   ],
+   "ifThis": [
+    "Too many students pile onto one mat: lower the limit or add a mat.",
+    "A tagger throws too hard or high: take the ball, swap in a new tagger, remind everyone of the below-waist rule."
+   ],
+   "roundEnds": "Timed rounds (2–3 minutes). Switch taggers and the direction of play. No winner needed.",
+   "tips": [
+    "Walk through the route once, so the whole class knows which mat comes next.",
+    "Keep the number of taggers low enough that runners have lots of safe options.",
+    "Dodgeballs stay on the Dodgeball page — use soft foam balls or hand-tags here. House rules: soft tags, no elimination; a tagged runner changes jobs and stays in.",
+    "Year plan: June, October — a base-running lead-up for baseball month and a cardio warm-up any time."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Keeps running between bases for the whole round with short rests on the mats."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Runs, stops, and changes direction safely; accelerates at the right moment."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a good time to leave a mat and which gap to use; taggers pick the runner furthest from a mat."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Shares the mat space and takes the tagger or runner role cooperatively."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest about being tagged and fair about the mat limit."
+    },
+    {
+     "code": "Safety",
+     "look": "Looks before leaving a mat; uses a soft below-waist throw or hand tag."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Welcomes a tagged classmate into the tagger role and passes the ball gently."
+    }
+   ],
+   "g12": "Use hand-tags only, with a teacher as the tagger. Short distances between mats and 30–45 second rounds.",
+   "g34": "2 taggers with soft balls thrown below the waist. Mats a medium distance apart. 2 minute rounds.",
+   "g56": "Add a rule for baseball tactics: runners can wait and time the tagger's throw; taggers work together to cover two gaps.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [
+    "https://physedgames.com/mat-tag/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "June",
+   "equipment": "4 mats (one per base); 2 soft foam balls or soft tags for the taggers (no hard dodgeballs — those stay on the Dodgeball page); pinnies for taggers",
+   "setup": "Lay the four mats out like a baseball diamond, spaced far enough apart for a good run. Spread the class evenly across the bases, with any extras standing between bases. Choose one direction of travel (all runners go the same way). Pick two taggers, give each a soft ball, and send them into the space between bases.",
+   "how": [
+    "On the signal, runners move from mat to mat in the chosen direction, one base after the next, round and round the diamond.",
+    "A runner standing on a mat is safe. Set a limit of how many can stand on one mat at a time (for example six) so there is always room to move on.",
+    "Runners leave a mat when the way is clear and run to the next one. They cannot go backward.",
+    "Taggers try to touch a runner who is between mats, or gently toss or roll a soft ball at the runner's legs (below the waist).",
+    "A runner who is tagged between mats becomes a tagger, and the tagger who made the tag becomes a runner. Hand the soft ball over, then everyone keeps playing.",
+    "Stop at the whistle, change direction or taggers, and play another round."
+   ],
+   "safety": "Throw soft balls underhand and below the waist, or tag with a gentle hand touch instead. Never throw at the head or face. Keep the mats flat and non-slip, spaced away from walls. Look before leaving a mat to avoid collisions.",
+   "variations": [
+    "Change how runners travel: skip, side-gallop, or hop between mats (with a pause on the mat).",
+    "Add a fitness task on each mat, such as 5 jumping jacks, before moving on.",
+    "Baseball link: label the mats as first, second, third, and home, and call out a base to run to.",
+    "Hand-tag only for younger classes or smaller spaces, with no balls."
+   ]
+  },
+  {
+   "id": "capture-the-flag-relay",
+   "added": "2026-10-05",
+   "addedOn": "2026-10-03",
+   "name": "Capture the Flag Relay",
+   "section": "Target / throwing",
+   "desc": "Team relay lanes with near, middle and far hoops; a thrower sends the ball to a catcher standing in a hoop; each catch earns a run for a flag or beanbag; the hoop moves farther back after five catches; first team to 15 flags wins",
+   "sports": "football warm-up, throw and catch, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames",
+   "notes": [],
+   "links": [
+    "https://physedgames.com/capture-the-flag-relay/"
+   ],
+   "order": 43,
+   "unit": "October",
+   "alsoFits": [
+    "September"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "relay",
+   "typeLabel": "Relays & stations",
+   "slot": "0–5 or 16–25",
+   "grouping": "Teams of 4–6 · one lane per team · 12–15 minutes · first team to 15 flags",
+   "cues": [
+    "Step, point, throw — to the catcher's chest.",
+    "Catch with soft hands and a stable stance in the hoop.",
+    "Run the flag back to the team cone.",
+    "Cheer on every team, not only your own."
+   ],
+   "ifThis": [
+    "The throw is missed several times: move the hoop closer for a few catches, then back.",
+    "Too many missed catches slow the team: teacher or a student coach gives a quick throwing cue."
+   ],
+   "roundEnds": "First team to bring 15 flags to its cone. Celebrate all teams; then reset the flags and swap roles.",
+   "tips": [
+    "Use real football-style skills in October: pointing the lead hand, stepping and following through.",
+    "Remind the catcher to keep both feet inside the hoop until the catch is complete.",
+    "Have older students count the flags aloud together so it is easy to check. House rules: soft throws, no elimination; the game does not end until every team finishes.",
+    "Year plan: October, September — a warm-up that links to football throwing and catching."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays active: throws, catches, and runs for the whole game."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Throws and catches with a clear target, using a step and follow-through."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses how hard and how high to throw as the hoop moves farther away."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes turns in each role and cheers for the team."
+    },
+    {
+     "code": "Character Development",
+     "look": "Counts honestly and stays in the hoop until the catch is complete."
+    },
+    {
+     "code": "Safety",
+     "look": "Throws only at the catcher at a safe height; stays in their own lane."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Encourages a teammate after a miss and celebrates every team."
+    }
+   ],
+   "g12": "Use foam balls and only the near and middle hoops. Underhand throws. Aim for 8–10 flags per team.",
+   "g34": "Foam football or soft ball. All three hoops, with a target of 12 flags.",
+   "g56": "Foam football and full 15 flags. Longer distances; add accuracy goals (e.g., a catch must be above the waist) or timed challenge between teams.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [
+    "https://physedgames.com/capture-the-flag-relay/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "suggestedMonth": "October",
+   "equipment": "Per team: 1 cone for the team base, 3 hoops (near, middle and far), 15 flags or beanbags in a pile at the far end of the lane, 1 ball. Use foam or soft balls for grades 1–2 and foam footballs for grades 3–6.",
+   "setup": "Make a lane for each team. At one end, put a cone as the team base and have the team line up behind it. Lay the three hoops in a line in front of the team at near, middle and far distances (for example about 3, 6 and 9 metres). Put the pile of flags or beanbags at the far end of the lane. One player stands in the near hoop as the catcher and the next in line is the first thrower.",
+   "how": [
+    "The thrower stands behind the team cone and throws the ball to the catcher standing in the near hoop.",
+    "If the catcher catches it, they run out to grab one flag or beanbag and carry it back to the team cone. That is a point for the team. The runner then joins the back of the line.",
+    "At the same time the thrower steps in to be the new catcher. The next player in line becomes the new thrower.",
+    "If the catch is missed, the thrower fetches the ball and throws again. The catcher stays in the hoop until a catch is made.",
+    "After five flags are collected from the near hoop, the catcher moves back to the middle hoop. After five more, they move to the far hoop.",
+    "Five more catches from the far hoop make 15 flags. The first team with 15 flags wins; everyone cheers for the other teams to finish."
+   ],
+   "safety": "Throw gently at a catchable height with two hands. Keep lanes wide apart and the flag pile out of the way. Runners stay in their own lane and walk the flag back if the lane is crowded.",
+   "variations": [
+    "Change the throw: underhand toss, chest pass, or football-style throw.",
+    "Catchers who step out of the hoop do not count the catch.",
+    "Make the hoop spots closer for younger students or farther for grades 5–6.",
+    "Set a target of 10 flags instead of 15 if time is short."
+   ]
   }
  ]
 };

@@ -72,6 +72,9 @@ grouped by week.
   generator fills the extra fields by game type from `card-templates.json`
   (per-game overrides in `details.json`), so every weekly rebuild keeps them.
 
+
+**Standing rules (Oct 3, 2026).** New games are added only to New Games, never to Big-Group Games. The page shows "Last updated", a "Newly added" box and a short history by date. Every game has a `suggestedMonth`, and the page can be viewed by week added, by type (`?view=type`) or by month (`?view=month`). Games added by hand between Monday updates live in the updater's `manual.json` (kept with the updater, not in this repo) and are never flagged as removed. Same or close matches on Big-Group Games, Warm Up Games or Dodgeball are left off and listed in `dedupe.json`.
+
 ## Renamed games (Sep 2026)
 
 Some game names were changed because they were culturally insensitive or ableist
