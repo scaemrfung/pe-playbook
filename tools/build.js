@@ -39,6 +39,7 @@ const sandbox = { console };
 sandbox.window = sandbox;
 vm.createContext(sandbox);
 for (const f of DATA_FILES) vm.runInContext(read(f), sandbox, { filename: f });
+for (const f of ["new-games-data.js", "weekly-plans-data.js"]) if (fs.existsSync(path.join(ROOT, f))) vm.runInContext(read(f), sandbox, { filename: f });
 const W = sandbox;
 const SY = W.SCHOOL_YEAR;
 const fill = (s) => SY.fill(s);
@@ -47,7 +48,7 @@ const fill = (s) => SY.fill(s);
 const chromeSrc = read("chrome.js");
 const siteBlock = /\/\* SITE:START[\s\S]*?\*\/([\s\S]*?)\/\* SITE:END \*\//.exec(chromeSrc);
 if (!siteBlock) throw new Error("chrome.js is missing the SITE:START/SITE:END block");
-const SITE = vm.runInNewContext(siteBlock[1] + "\n;({ MONTHS, NAV })");
+const SITE = vm.runInNewContext(siteBlock[1] + "\n;({ MONTHS, NAV, SUBNAV })");
 const THEME = Object.fromEntries(SITE.MONTHS.map(([n, s]) => [n, s]));
 
 const { months, MONTH_GAMES } = W.PE;
@@ -233,6 +234,7 @@ function lessonCard(L, id, wlabel, planMonth, calW) {
 
 /* Month page sections: one per school week that starts in this month (W1, W2, …),
    each with the lessons that week teaches, then any unscheduled extra sets. */
+const WEEK_LESSONS = {}; // month page -> calendar week -> [[class, title]] (homepage "This week" links)
 const LESSON_REF = {}; // "October-1-2" (plan month-week-class) -> where that lesson is on the site
 const MONTHS_ORDER_IDX = (n) => months.findIndex((x) => x.name === n);
 function monthSections(m) {
@@ -253,6 +255,7 @@ function monthSections(m) {
     html += `<h2 class="week-title" id="week-${first.w}" data-week="${first.w}">${aliases}${name} <span class="plan-week">${tag}</span><span class="week-dates">${dates}</span></h2>`;
     if (g.startup) return;
     (PLAN[`${g.planMonth}-${g.planW}`] || []).forEach((L) => { count++;
+      ((WEEK_LESSONS[m.name] = WEEK_LESSONS[m.name] || {})[first.w] = WEEK_LESSONS[m.name][first.w] || []).push([L.c, strip(fill(L.title))]);
       LESSON_REF[`${g.planMonth}-${g.planW}-${L.c}`] = { href: `${monthFile(m.name)}#w${first.w}-c${L.c}`, label: `${tag} (Week ${first.schoolWeek})`, month: m.name, order: MONTHS_ORDER_IDX(m.name) * 100 + first.w * 10 + L.c };
       html += lessonCard(L, `w${first.w}-c${L.c}`, `W${first.w}`, g.planMonth, first.w); });
   });
@@ -328,23 +331,41 @@ function renderMonth(m) {
 }
 
 // --------------------------------------------------------------- templates
-function navHtml(activeHref) {
-  const items = SITE.NAV.map(([h, l]) =>
-    `        <a ${h === activeHref ? 'class="active" aria-current="page" ' : ""}href="${h}">${l}</a>`
-  ).join("\n");
-  return `<nav aria-label="Site">\n${items}\n      </nav>`;
+/** Which top-nav item a page belongs to (same rules as groupKey() in chrome.js). */
+function groupKey(f) {
+  if (f === "index.html") return "index.html";
+  if (/^month(-[a-z]+)?\.html$/.test(f)) return "month.html";
+  if (f === "search.html") return "games-hub.html";
+  for (const k of Object.keys(SITE.SUBNAV)) if (k === f || SITE.SUBNAV[k].some(([h]) => h === f)) return k;
+  return SITE.NAV.some(([h]) => h === f) ? f : null;
 }
-function withStaticNav(html, activeHref) {
-  return html.replace(/(<header class="site">[\s\S]*?)<nav\b[^>]*>[\s\S]*?<\/nav>/, (m, pre) => pre + navHtml(activeHref));
+function navHtml(file) {
+  const g = groupKey(file);
+  const items = SITE.NAV.map(([h, l]) =>
+    `        <a ${h === g ? 'class="active" aria-current="page" ' : ""}href="${h}">${l}</a>`
+  ).join("\n");
+  const sub = g && SITE.SUBNAV[g];
+  const subHtml = sub ? `\n      <nav aria-label="Section menu" class="subnav">\n${sub.map(([h, l]) =>
+    `        <a ${h === file ? 'class="active" aria-current="page" ' : ""}href="${h}">${l}</a>`).join("\n")}\n      </nav>` : "";
+  return `<nav aria-label="Site">\n${items}\n      </nav>${subHtml}`;
+}
+// tiny inline icon so browsers don't request a missing /favicon.ico (404 in the console)
+const ICON_LINK = '<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Ccircle cx=%2712%27 cy=%2712%27 r=%2711%27 fill=%27%231f6f4a%27/%3E%3Cpath d=%27M12 4v16M4 12h16%27 stroke=%27white%27 stroke-width=%271.6%27/%3E%3C/svg%3E" />';
+const NOSCRIPT_NAV = "<noscript><style>header.site{display:block!important}</style></noscript>";
+function withStaticNav(html, file) {
+  html = html.replace(/(<header class="site">[\s\S]*?)<nav\b[^>]*>[\s\S]*?<\/nav>(\s*<nav\b[^>]*class="subnav"[^>]*>[\s\S]*?<\/nav>)?/, (m, pre) => pre + navHtml(file));
+  if (!html.includes(NOSCRIPT_NAV)) html = html.replace("</head>", `  ${NOSCRIPT_NAV}\n</head>`);
+  if (!/rel="icon"/.test(html)) html = html.replace("</head>", `  ${ICON_LINK}\n</head>`);
+  return html;
 }
 const TEMPLATE = read("tools/month.template.html");
-function page({ title, description, body, scripts }) {
+function page({ file, title, description, body, scripts }) {
   return withStaticNav(
     TEMPLATE.replace("{{TITLE}}", esc(title))
       .replace("{{DESCRIPTION}}", esc(description))
       .replace("{{CONTENT}}", body)
       .replace("{{SCRIPTS}}", scripts),
-    null
+    file
   );
 }
 
@@ -358,6 +379,7 @@ months.forEach((m) => {
   const theme = THEME[m.name] || "";
   const desc = `${m.name} PE lessons (${theme}) for Alberta Grades 1–6: ${strip(fill(m.guide))}. ${r.games} big-group games with Grade 1–2, 3–4 and 5–6 differentiation.`;
   outputs[monthFile(m.name)] = page({
+    file: monthFile(m.name),
     title: `${m.name}: ${theme} · SCA Elementary PE Playbook`,
     description: desc,
     body: `${GEN}\n    <div id="content" data-month="${m.name}">${r.content}</div>`,
@@ -370,6 +392,7 @@ months.forEach((m) => {
 
 // month.html — legacy router (?m=September&grade=4) + no-JS month list
 outputs["month.html"] = page({
+  file: "month.html",
   title: "Months · SCA Elementary PE Playbook",
   description: "Pick a month of Alberta Grades 1–6 PE lessons.",
   body: `${GEN}
@@ -404,7 +427,14 @@ const summary = months.map((m) => ({
   name: m.name, file: monthFile(m.name), theme: THEME[m.name] || m.name,
   guide: fill(m.guide), lessons: m.lessons.length,
 }));
-outputs["months-index.js"] = `/* Generated by tools/build.js — do not edit by hand. */\nwindow.PE_MONTHS = ${JSON.stringify(summary, null, 2)};\n`;
+// New Games added per week (key = the Monday), for the homepage "New games this week" box
+const NEW_BY_WEEK = {};
+((W.NEW_GAMES && W.NEW_GAMES.games) || []).forEach((g) => {
+  if (!g.added || g.added === "baseline" || g.removedFromDoc) return;
+  const wk = ((W.NEW_GAMES.weeks || []).find((x) => x.key === g.added) || {});
+  (NEW_BY_WEEK[g.added] = NEW_BY_WEEK[g.added] || { label: wk.label || g.added, games: [] }).games.push([g.name, g.id]);
+});
+outputs["months-index.js"] = `/* Generated by tools/build.js — do not edit by hand. */\nwindow.PE_MONTHS = ${JSON.stringify(summary, null, 2)};\nwindow.PE_WEEK_LESSONS = ${JSON.stringify(WEEK_LESSONS)};\nwindow.PE_NEW_BY_WEEK = ${JSON.stringify(NEW_BY_WEEK)};\n`;
 
 // index.html — bake month grid + default This-month box; static nav
 const ICONS = {
@@ -436,6 +466,13 @@ index = between(index, "months", grid);
 index = between(index, "this-month", `        <h2 id="this-month-title">${first.name}: ${first.theme}</h2>
         <p id="this-month-guide">${first.guide}</p>
         <p class="note" id="this-month-note" hidden></p>`);
+// static fallback for the "This week" plan box: the newest posted plan (home.js picks the current week's)
+const PLANS = (W.WEEKLY_PLANS || []).slice().sort((a, b) => String(b.week).localeCompare(String(a.week)));
+const planFallback = PLANS.length
+  ? `        <p class="tw-plan-title">Latest plan: ${esc(PLANS[0].title)}</p>
+        <p class="tw-actions"><a class="btn-primary" href="${esc(PLANS[0].file)}" download>Download the plan (.docx)</a><a class="tw-link" href="weekly-plans.html">All weekly plans</a></p>`
+  : `        <p class="tw-note">No weekly plan posted yet.</p>\n        <p class="tw-actions"><a class="tw-link" href="weekly-plans.html">All weekly plans</a></p>`;
+index = between(index, "tw-plan", planFallback);
 outputs["index.html"] = withStaticNav(index, "index.html");
 
 // videos-data.js — index of every video the site links, with the lessons /
@@ -449,13 +486,22 @@ const VID = require("./videos.js")({ ROOT, W, LESSON_REF, months, monthBank, fil
 outputs["videos-data.js"] = VID.js;
 report.push(`videos-data.js: ${VID.data.count} videos from ${VID.data.occurrences} links (link-check index only)`);
 
+// Game lists: the same four libraries the pages show (Big-Group list mirrors app.js).
+const BG_DETAILS = [].concat(W.GAME_DETAILS || [], W.K2_DETAILS || [], W.G36_DETAILS || [], W.SKILL_DETAILS || [], W.BG30_DETAILS || [], W.PEG_DETAILS || []);
+const BG_LIST = [];
+{ const seenBg = new Set(); BG_DETAILS.forEach((g) => { if (g && g.name && !seenBg.has(g.name)) { seenBg.add(g.name); BG_LIST.push(g); } }); }
+const COUNTS = { bg: BG_LIST.length, ng: ((W.NEW_GAMES && W.NEW_GAMES.games) || []).length, wu: (W.WARMUP_NOGYM_GAMES || []).length, db: (W.DODGE_GAMES || []).length };
+function fillCounts(html) {
+  return html.replace(/<!--count:(\w+)-->[\s\S]*?<!--\/count-->/g, (m, k) => `<!--count:${k}-->${COUNTS[k]}<!--/count-->`);
+}
+
 // every other hand-written page: static nav from chrome.js NAV
 const SKIP = new Set(Object.keys(outputs));
 fs.readdirSync(ROOT).filter((f) => f.endsWith(".html") && !SKIP.has(f) && !/^month-/.test(f)).forEach((f) => {
-  const html = read(f);
+  let html = read(f);
   if (!/<header class="site">[\s\S]*?<nav\b/.test(html)) return;
-  const active = SITE.NAV.some(([h]) => h === f) ? f : null;
-  outputs[f] = withStaticNav(html, active);
+  if (f === "games-hub.html") html = fillCounts(html);
+  outputs[f] = withStaticNav(html, f);
 });
 
 // ------------------------------------------------------------------- write

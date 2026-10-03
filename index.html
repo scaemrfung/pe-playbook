@@ -3,11 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SCA Elementary PE Playbook</title>
+  <title>This week · SCA Elementary PE Playbook</title>
   <meta name="description" content="Alberta Grades 1–6 physical education lessons: 4 × 30 minutes a week, big-group games, monthly themes." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&family=Newsreader:opsz,wght@6..72,500;6..72,560;6..72,650&display=swap" />
   <link rel="stylesheet" href="styles.css" />
+  <noscript><style>header.site{display:block!important}</style></noscript>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Ccircle cx=%2712%27 cy=%2712%27 r=%2711%27 fill=%27%231f6f4a%27/%3E%3Cpath d=%27M12 4v16M4 12h16%27 stroke=%27white%27 stroke-width=%271.6%27/%3E%3C/svg%3E" />
 </head>
 <body data-page="home">
   <header class="site">
@@ -24,44 +26,39 @@
         <button type="submit" aria-label="Search games">Search</button>
       </form>
       <nav aria-label="Site">
-        <a class="active" aria-current="page" href="index.html">Year</a>
-        <a href="weekly-plans.html">Weekly plans</a>
-        <a href="games.html">Big-Group Games</a>
-        <a href="new-games.html">New Games</a>
-        <a href="warmup-nogym.html">Warm Up Games</a>
-        <a href="dodgeball.html">Dodgeball</a>
-        <a href="gymnastics.html">Gymnastics</a>
-        <a href="track-day.html">Track Day</a>
+        <a class="active" aria-current="page" href="index.html">This week</a>
+        <a href="games-hub.html">Games</a>
+        <a href="weekly-plans.html">Plans</a>
+        <a href="month.html">Month</a>
         <a href="outcomes.html">Outcomes</a>
-        <a href="fitness.html">Fitness</a>
-        <a href="how.html">How to teach</a>
+        <a href="more.html">More</a>
       </nav>
     </div>
   </header>
   <main>
-    <section class="wrap whats-new-wrap" aria-label="What's new this week">
-      <aside class="whats-new" id="whats-new">
-        <p class="whats-new-kicker">What's New This Week</p>
-        <div id="whats-new-body">
-          <p class="whats-new-title">Loading…</p>
-        </div>
-      </aside>
-    </section>
-
-    <section class="home-hero wrap">
-      <div>
-        <p class="kicker">Physical Education and Wellness · Grades 1–6</p>
-        <h1>Weekly PE lessons — four 30-minute classes you can teach from the page.</h1>
-        <p class="lede">Soccer, football, and Terry Fox in September; football and circus in October; floor hockey in November; games in December; basketball and scoop in January; ropes and Jump Rope for Heart in February; volleyball in March; gymnastics in April; Track and Field prep in May; Track Day then baseball in June. Big-group games so 24 kids are moving, not waiting.</p>
-        <div class="hero-actions">
-          <a class="btn-primary" href="games.html">Open Big-Group Games</a>
-          <a class="btn-ghost" href="how.html">How the week works</a>
-        </div>
-        <ul class="hero-facts">
-          <li>4 × 30 min</li>
-          <li>Bands 1–2 / 3–4 / 5–6</li>
-          <li>No elimination</li>
-        </ul>
+    <section class="wrap tw" id="this-week" aria-labelledby="tw-title">
+      <p class="kicker">This week</p>
+      <h1 id="tw-title">This week in PE</h1>
+      <p class="tw-sub" id="tw-sub">Grades 1–6 · four 30-minute classes a week</p>
+      <p class="tw-warn" id="tw-warn" role="status" hidden></p>
+      <div class="tw-grid">
+        <article class="tw-card tw-plan" id="tw-plan" aria-labelledby="tw-plan-h">
+          <h2 id="tw-plan-h">Weekly plan</h2>
+          <div id="tw-plan-body">
+            <!-- build:tw-plan -->
+        <p class="tw-plan-title">Latest plan: Oct 5–9 2026 · Football Week 6</p>
+        <p class="tw-actions"><a class="btn-primary" href="weekly-plans/PE-Weekly-Plan-Oct-5-9-2026-Football-Week-6.docx" download>Download the plan (.docx)</a><a class="tw-link" href="weekly-plans.html">All weekly plans</a></p>
+        <!-- /build:tw-plan -->
+          </div>
+        </article>
+        <article class="tw-card tw-lessons" id="tw-lessons" aria-labelledby="tw-lessons-h">
+          <h2 id="tw-lessons-h">This week’s lessons</h2>
+          <div id="tw-lessons-body"><p><a href="month.html">Open this month’s lessons →</a></p></div>
+        </article>
+        <article class="tw-card tw-new" id="tw-new" aria-labelledby="tw-new-h">
+          <h2 id="tw-new-h">New games this week</h2>
+          <div id="tw-new-body"><p><a href="new-games.html">See the New Games page →</a></p></div>
+        </article>
       </div>
       <article class="this-month" id="this-month">
         <p class="kicker">This month</p>
@@ -70,20 +67,22 @@
         <p id="this-month-guide">Start-up Week 1 · soccer Weeks 2–3 (Terry Fox run Fri Sept 18 in Week 3) · football Weeks 4–5 (intro, then flag, routes and end-zone catch)</p>
         <p class="note" id="this-month-note" hidden></p>
         <!-- /build:this-month -->
-        <ul>
-          <li>Four 30-minute classes a week, written as weekly lessons you can teach from the page</li>
-          <li>Named games, stay-in dodgeball, demo clips</li>
-          <li>House rules: real sport balls, stay-in dodgeball, floor-only gymnastics</li>
-        </ul>
         <a id="this-month-link" href="month.html">Open this month →</a>
-        <noscript><p class="note">JavaScript is off, so this box shows September. Pick any month from “Ten months of play” below.</p></noscript>
+        <noscript><p class="note">JavaScript is off, so this box shows September. Pick any month from “Year map” below.</p></noscript>
       </article>
+      <ul class="hero-facts">
+        <li>4 × 30 min</li>
+        <li>Bands 1–2 / 3–4 / 5–6</li>
+        <li>No elimination</li>
+      </ul>
     </section>
 
     <section class="wrap year-block">
-      <p class="kicker">The year</p>
-      <h2 class="section-title">Ten months of play</h2>
-      <div id="months" class="month-grid">
+      <details class="fold" id="year-map">
+        <summary><span class="fold-title">Year map</span> <span class="meta">· ten months of play, and jump in by grade</span></summary>
+        <div class="fold-body">
+          <h2 class="section-title">Ten months of play</h2>
+          <div id="months" class="month-grid">
         <!-- build:months -->
         <a class="month-card" href="month-september.html">
           <div class="mc-top"><span class="mc-kicker">01 · September</span><span class="mc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></span></div>
@@ -146,15 +145,11 @@
           <span class="mc-go">16 lessons →</span>
         </a>
         <!-- /build:months -->
-      </div>
-    </section>
-
-    <section class="grades-band">
-      <div class="wrap">
-        <p class="kicker">Grades</p>
-        <h2 class="section-title">Jump in by grade</h2>
-        <p class="meta">Opens this month’s lessons filtered to that grade’s band (Grades 1–2, 3–4 or 5–6).</p>
-        <div class="grade-grid" id="grade-grid">
+          </div>
+          <div class="grades-band">
+            <h2 class="section-title">Jump in by grade</h2>
+            <p class="meta">Opens this month’s lessons filtered to that grade’s band (Grades 1–2, 3–4 or 5–6).</p>
+            <div class="grade-grid" id="grade-grid">
           <a href="month.html?grade=1" data-grade="1" aria-label="Grade 1: this month, Grades 1–2 band">G1</a>
           <a href="month.html?grade=2" data-grade="2" aria-label="Grade 2: this month, Grades 1–2 band">G2</a>
           <a href="month.html?grade=3" data-grade="3" aria-label="Grade 3: this month, Grades 3–4 band">G3</a>
@@ -162,29 +157,34 @@
           <a href="month.html?grade=5" data-grade="5" aria-label="Grade 5: this month, Grades 5–6 band">G5</a>
           <a href="month.html?grade=6" data-grade="6" aria-label="Grade 6: this month, Grades 5–6 band">G6</a>
         </div>
-      </div>
+          </div>
+        </div>
+      </details>
     </section>
 
     <section class="wrap bag-block">
-      <p class="kicker">Also in the gym bag</p>
-      <h2 class="section-title">House rules, stay-in games, clips</h2>
-      <div class="bag-grid">
-        <a class="bag-card" href="how.html">
-          <p class="kicker">Teacher notes</p>
-          <h3>How to use</h3>
-          <p>No elimination, real sport balls, stay-in dodgeball, sticks low, floor-only gymnastics, no skating.</p>
-        </a>
-        <a class="bag-card" href="dodgeball.html">
-          <p class="kicker">October · January</p>
-          <h3>Dodgeball</h3>
-          <p>Stay-in games. Hits below the waist. A catch is a save.</p>
-        </a>
-        <a class="bag-card" href="track-day.html">
-          <p class="kicker">First week of June</p>
-          <h3>Track Day</h3>
-          <p>18 events with rules and scoring for Grades 4–6. Beanbags, not balloons.</p>
-        </a>
-      </div>
+      <details class="fold" id="gym-bag">
+        <summary><span class="fold-title">Also in the gym bag</span> <span class="meta">· house rules, stay-in games, Track Day</span></summary>
+        <div class="fold-body">
+          <div class="bag-grid">
+            <a class="bag-card" href="how.html">
+              <p class="kicker">Teacher notes</p>
+              <h3>How to teach</h3>
+              <p>No elimination, real sport balls, stay-in dodgeball, sticks low, floor-only gymnastics, no skating.</p>
+            </a>
+            <a class="bag-card" href="dodgeball.html">
+              <p class="kicker">October · January</p>
+              <h3>Dodgeball</h3>
+              <p>Stay-in games. Hits below the waist. A catch is a save.</p>
+            </a>
+            <a class="bag-card" href="track-day.html">
+              <p class="kicker">First week of June</p>
+              <h3>Track Day</h3>
+              <p>18 events with rules and scoring for Grades 4–6. Beanbags, not balloons.</p>
+            </a>
+          </div>
+        </div>
+      </details>
     </section>
   </main>
   <footer class="site">
@@ -193,58 +193,9 @@
       <p>Grades 1–6 · four 30-minute classes a week · Alberta Physical Education and Wellness. Real sport balls, stay-in dodgeball, no elimination, floor-only gymnastics. Follow your school’s safety rules.</p>
     </div>
   </footer>
-  <script src="chrome.js" defer></script>
-  <script src="weekly-plans-data.js"></script>
-  <script>
-    /* What's New This Week follows the date: the plan whose `week` (Monday) matches the
-       current school week from school-year.js. ?today=YYYY-MM-DD previews another date. */
-    (function () {
-      function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
-      function planHTML(plan, lead) {
-        const note = plan.note ? `<p class="whats-new-note">${plan.note}</p>` : "";
-        const name = (plan.file || "").split("/").pop() || "plan.docx";
-        return `${lead || ""}<p class="whats-new-title">${plan.title}</p>
-        ${note}
-        <p class="whats-new-actions">
-          <a class="whats-new-btn" href="${plan.file}" download="${name}">Download this week's plan</a>
-          <a class="whats-new-link" href="weekly-plans.html">All weekly plans</a>
-        </p>`;
-      }
-      function render() {
-        const body = document.getElementById("whats-new-body");
-        if (!body) return;
-        const plans = (window.WEEKLY_PLANS || []).slice().sort((a, b) => String(b.week || "").localeCompare(String(a.week || "")));
-        const SY = window.SCHOOL_YEAR;
-        if (!plans.length) {
-          body.innerHTML = "<p class=\"whats-new-title\">No weekly plan posted yet.</p><p><a href=\"weekly-plans.html\">See weekly plans</a></p>";
-          return;
-        }
-        if (!SY || !SY.status) { body.innerHTML = planHTML(plans[0]); return; }
-        const today = SY.todayISO();
-        const st = SY.status(today);
-        const pe = SY.peWeek ? SY.peWeek(today) : null;
-        let week = st.week;
-        if (st.kind === "break" || st.kind === "before") week = (SY.weeks || []).find((w) => w.start > today) || null;
-        if (st.kind === "summer" || !week) {
-          body.innerHTML = `<p class="whats-new-title">No school this week.</p><p class="whats-new-note">${esc(st.kind === "summer" ? "The " + ((SY.calendar && SY.calendar.label) || "") + " school year is over." : st.message || "")}</p>
-            <p class="whats-new-actions"><a class="whats-new-link" href="weekly-plans.html">All weekly plans</a></p>`;
-          return;
-        }
-        const lead = st.kind === "break" || st.kind === "before"
-          ? `<p class="whats-new-note"><strong>${esc(st.message.replace(/ with Week \d+\.$/, "."))}</strong> Next week's plan:</p>` : "";
-        const plan = plans.find((p) => p.week === week.monday);
-        if (plan) { body.innerHTML = planHTML(plan, lead); return; }
-        // School-year week name (Week 5 · Football) and its month (the month it starts in); the button opens that week.
-        const where = pe && pe.month ? (pe.name || "Week " + pe.schoolWeek) + ` (${pe.month} W${pe.w})` : "";
-        const monthLink = pe && pe.month ? `<a class="whats-new-btn" href="month-${pe.month.toLowerCase()}.html#week-${pe.w}">Open ${esc(pe.month + " W" + pe.w)}</a>` : "";
-        body.innerHTML = `${lead}<p class="whats-new-title">${esc(week.range)}${where ? " · " + esc(where) : ""}</p>
-          <p class="whats-new-note">No downloadable plan posted for this week yet. The month page has this week's lessons.${week.note ? " " + esc(week.note) + "." : ""}</p>
-          <p class="whats-new-actions">${monthLink}<a class="whats-new-link" href="weekly-plans.html">All weekly plans</a></p>`;
-      }
-      if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", render); else render();
-    })();
-  </script>
   <script src="school-year.js" defer></script>
+  <script src="chrome.js" defer></script>
+  <script src="weekly-plans-data.js" defer></script>
   <script src="months-index.js" defer></script>
   <script src="home.js" defer></script>
 </body>

@@ -850,3 +850,57 @@ body { overflow-wrap: break-word; }
 .mf-sites a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 .mf-sites [aria-current]{font-weight:700;text-decoration:none}
 @media print{.mf-sites{display:none!important}}
+
+/* ---- Nav: six items + section menus (Games, Plans, Outcomes, More) ---- */
+.nav-sub { display: flex; flex-direction: column; gap: 1px; margin: 2px 0 6px 28px; padding-left: 8px; border-left: 2px solid var(--line); }
+.nav-sublink { padding: 5px 10px; border-radius: 8px; color: var(--muted); text-decoration: none; font-size: 13.5px; }
+.nav-sublink:hover { background: var(--surface); color: var(--ink); text-decoration: none; }
+.nav-sublink.active { background: var(--green-lt); color: var(--green); font-weight: 600; }
+.mobile-nav a.active { background: var(--navy); border-color: var(--navy); color: var(--primary-fg); }
+.mobile-subnav { padding-top: 0; border-bottom: 1px solid var(--line); }
+.mobile-subnav a { background: transparent; font-size: 12.5px; padding: 4px 10px; }
+.mobile-subnav a.active { background: var(--green-lt); border-color: var(--green); color: var(--green); font-weight: 600; }
+header.site nav.subnav { width: 100%; }
+
+/* ---- Hub pages (Games, More) ---- */
+.hub-grid { margin-top: 20px; }
+.hub-grid .bag-card h3 { font-size: 1.3rem; }
+.hub-search { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 6px; }
+.hub-search .search { flex: 1 1 260px; min-width: 0; }
+.hub-search .btn-primary { border: 0; cursor: pointer; font: inherit; font-weight: 650; }
+
+/* ---- Homepage: This week ---- */
+.tw { padding: 20px 0 8px; }
+.tw h1 { margin: 6px 0 0; font-size: clamp(1.7rem, 4vw, 2.4rem); line-height: 1.15; color: var(--ink); }
+.tw-sub { margin: 8px 0 0; color: var(--muted); max-width: 46rem; }
+.tw-warn { margin: 14px 0 0; padding: 10px 14px; border-radius: 12px; background: #fff8e1; border: 1px solid #e0b100; border-left: 6px solid #e0b100; color: #5c4400; font-size: .95rem; }
+.tw-grid { display: grid; gap: 14px; margin-top: 18px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+.tw-card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px 18px; box-shadow: var(--shadow); min-width: 0; }
+.tw-card h2 { margin: 0 0 8px; font-size: 1.05rem; color: var(--navy); }
+.tw-plan { border-left: 6px solid #c62828; }
+.tw-plan-title { margin: 0; font-family: var(--font-display); font-size: 1.2rem; font-weight: 650; color: var(--ink); }
+.tw-note { margin: 6px 0 0; color: var(--muted); font-size: .92rem; }
+.tw-actions { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 12px 0 0; }
+.tw-link { font-weight: 650; }
+.tw-lesson-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.tw-lesson-list a { display: flex; gap: 8px; align-items: baseline; padding: 8px 10px; border-radius: 10px; background: var(--surface, #f3f1ea); text-decoration: none; color: var(--ink); font-size: .95rem; }
+.tw-lesson-list a:hover { background: var(--green-lt); }
+.tw-c { font-weight: 800; color: var(--navy); font-size: .8rem; letter-spacing: .04em; }
+.tw-new-list { margin: 0; padding-left: 1.1rem; display: grid; gap: 4px; }
+.tw .this-month { margin-top: 14px; padding: 14px 18px; border-radius: 18px; }
+.tw .this-month h2 { font-size: 1.15rem; margin-top: 4px; }
+.tw .this-month > a { margin-top: 8px; }
+.tw .hero-facts { margin-top: 14px; font-size: .88rem; }
+.fold { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 0; box-shadow: var(--shadow); }
+.fold > summary { cursor: pointer; padding: 14px 18px; list-style: none; font-size: 1rem; }
+.fold > summary::-webkit-details-marker { display: none; }
+.fold > summary::before { content: "▸"; display: inline-block; width: 1.1em; color: var(--navy); }
+.fold[open] > summary::before { content: "▾"; }
+.fold-title { font-family: var(--font-display); font-weight: 650; font-size: 1.15rem; color: var(--ink); }
+.fold-body { padding: 0 18px 18px; }
+.fold-body .section-title { font-size: 1.3rem; margin-top: 4px; }
+.fold-body .month-grid { margin-top: 16px; }
+.fold-body .grades-band { margin-top: 24px; }
+.year-block.wrap { padding: 12px 0 8px; }
+.bag-block.wrap { padding: 8px 0 40px; }
+@media (max-width: 600px) { .tw-card { padding: 14px; } .tw-actions .btn-primary { width: 100%; justify-content: center; } }

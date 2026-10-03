@@ -77,19 +77,35 @@
     ["May", "Track"],
     ["June", "Baseball"],
   ];
+  /* Top nav: six items. Games, Plans, Outcomes and More each have a short
+     section menu (SUBNAV) that shows under them. "Month" opens the current month. */
   const NAV = [
-    ["index.html", "Year"],
-    ["weekly-plans.html", "Weekly plans"],
-    ["games.html", "Big-Group Games"],
-    ["new-games.html", "New Games"],
-    ["warmup-nogym.html", "Warm Up Games"],
-    ["dodgeball.html", "Dodgeball"],
-    ["gymnastics.html", "Gymnastics"],
-    ["track-day.html", "Track Day"],
+    ["index.html", "This week"],
+    ["games-hub.html", "Games"],
+    ["weekly-plans.html", "Plans"],
+    ["month.html", "Month"],
     ["outcomes.html", "Outcomes"],
-    ["fitness.html", "Fitness"],
-    ["how.html", "How to teach"],
+    ["more.html", "More"],
   ];
+  const SUBNAV = {
+    "games-hub.html": [
+      ["games.html", "Big-Group Games"],
+      ["new-games.html", "New Games"],
+      ["warmup-nogym.html", "Warm Up Games"],
+      ["dodgeball.html", "Dodgeball"],
+    ],
+    "outcomes.html": [
+      ["outcomes.html", "Outcomes"],
+      ["rubric.html", "Sample rubric"],
+    ],
+    "more.html": [
+      ["gymnastics.html", "Gymnastics"],
+      ["track-day.html", "Track Day"],
+      ["fitness.html", "Fitness"],
+      ["how.html", "How to teach"],
+      ["indigenous.html", "Indigenous games"],
+    ],
+  };
   /* SITE:END */
   function monthFile(name) {
     return `month-${String(name).toLowerCase()}.html`;
@@ -111,25 +127,44 @@
     if (m) return m[1];
     return "";
   }
-  function mark(href) {
-    const f = file();
-    if (href === "index.html") return f === "index.html" || f === "" || f === "pe-playbook";
-    return f === href;
+  /* Which top-nav item a page belongs to (month pages -> Month, section pages -> their menu). */
+  function groupKey(f) {
+    if (f === "" || f === "index.html" || f === "pe-playbook") return "index.html";
+    if (/^month(-[a-z]+)?\.html$/.test(f)) return "month.html";
+    if (f === "search.html") return "games-hub.html";
+    for (const k of Object.keys(SUBNAV)) if (k === f || SUBNAV[k].some(([h]) => h === f)) return k;
+    return NAV.some(([h]) => h === f) ? f : "";
+  }
+  function navHref(h) {
+    return h === "month.html" ? monthFile(currentMonthName()) : h;
   }
   function link(href, ico, label, active) {
     return `<a class="nav-link${active ? " active" : ""}" href="${href}"${active ? ' aria-current="page"' : ""}><span class="nav-ico">${ico}</span>${label}</a>`;
   }
   function sidebar() {
     const pm = pageMonth();
-    const main = NAV.map(([h, l], i) => link(h, String(i + 1).padStart(2, "0"), l, mark(h))).join("");
+    const f = file();
+    const g = groupKey(f);
+    const main = NAV.map(([h, l], i) => {
+      let html = link(navHref(h), String(i + 1).padStart(2, "0"), l, g === h);
+      if (g === h && SUBNAV[h]) {
+        html += `<div class="nav-sub">${SUBNAV[h].map(([sh, sl]) =>
+          `<a class="nav-sublink${f === sh ? " active" : ""}" href="${sh}"${f === sh ? ' aria-current="page"' : ""}>${sl}</a>`).join("")}</div>`;
+      }
+      return html;
+    }).join("");
     const year = MONTHS.map(([name, sport], i) => {
       const active = pm === name.toLowerCase();
       return link(monthFile(name), String(i + 1).padStart(2, "0"), `${name.slice(0, 3)} · ${sport}`, active);
     }).join("");
-    return `<nav aria-label="Site"><div class="nav-label">Playbook</div>${main}</nav><nav aria-label="Months"><div class="nav-label">Year</div>${year}</nav>`;
+    return `<nav aria-label="Site"><div class="nav-label">Playbook</div>${main}</nav><nav aria-label="Year map"><div class="nav-label">Year map</div>${year}</nav>`;
   }
+
+  const SEARCH_FORM = "";
   function topbar() {
-    const cur = currentMonthName();
+    const f = file();
+    const g = groupKey(f);
+    const sub = SUBNAV[g];
     return `<header class="topbar">
       <a class="brand" href="index.html">
         <span class="logo" aria-hidden="true">
@@ -137,16 +172,17 @@
         </span>
         <span><span class="brand-title">SCA PE Playbook</span><span class="brand-sub">Alberta PEW · Grades 1–6 · 4 × 30 min</span></span>
       </a>
+      ${SEARCH_FORM}
     </header>
     <nav class="mobile-nav" aria-label="Mobile">
-      ${NAV.map(([h, l]) => `<a href="${h}"${mark(h) ? ' class="active" aria-current="page"' : ""}>${l}</a>`).join("")}
-      <a href="${monthFile(cur)}">${cur}</a>
-    </nav>`;
+      ${NAV.map(([h, l]) => `<a href="${navHref(h)}"${g === h ? ' class="active" aria-current="page"' : ""}>${l}</a>`).join("")}
+    </nav>
+    ${sub ? `<nav class="mobile-nav mobile-subnav" aria-label="${NAV.find(([h]) => h === g)[1]} menu">${sub.map(([h, l]) => `<a href="${h}"${f === h ? ' class="active" aria-current="page"' : ""}>${l}</a>`).join("")}</nav>` : ""}`;
   }
 
   /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
      before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
-  const SITE_UPDATED = "2026-10-03T15:42:59Z";
+  const SITE_UPDATED = "2026-10-03T16:06:51Z";
   function ensureUpdatedStamp() {
     if (document.querySelector(".site-updated-stamp")) return;
     const el = document.createElement("div");
