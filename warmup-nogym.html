@@ -136,6 +136,9 @@
         return `<span class="how-phase">${escapeHtml(phase)}</span>${escapeHtml(m[2])}`;
       }
 
+      // name-style anchor (#tail-tag) next to the numbered one (#warmup-33), so links from other pages work
+      function slugOf(t) { return String(t).toLowerCase().replace(/[^a-z0-9]+/g, "-"); }
+
       function escapeHtml(str) {
         return String(str)
           .replace(/&/g, "&amp;")
@@ -183,7 +186,7 @@
                <p class="meta" style="margin-top:4px">Clip is a demo. Our house rules still apply (soft tag, stay-in, hits below the shoulders).</p>`
             : "";
           return `
-          <article class="panel" id="${g.id}">
+          <article class="panel" id="${g.id}">${slugOf(g.title) !== g.id ? `<span id="${slugOf(g.title)}"></span>` : ""}
             <p class="meta">#${g.number}</p>
             <h2 style="color:var(--navy);margin-top:4px">${escapeHtml(g.title)}</h2>
             <div class="space-tags">${tags}</div>

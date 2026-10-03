@@ -259,6 +259,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       });
     }
 
+    const HOMES = window.GAME_HOMES || {};
     const cardIds = new Set(unique.map((g) => gslug(g.name)));
     // Phone cards: title + one-line summary, tap to open the full card.
     const expanded = new Set();
@@ -334,6 +335,20 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
       const cards = cardGroups.map((group) => {
         const articles = group.games.map((g) => {
           const x = EX[g.name] || {};
+          const home = HOMES[gslug(g.name)];
+          if (home) {
+            // Same title lives on another page: short "see this page" card (the #anchor still works)
+            return `
+          <article class="gcard gcard-link" id="${gslug(g.name)}">
+            <div class="ghead">
+              <h2>${numbers[g.name]}. ${g.name}</h2>
+              <span class="src">${group.label}</span>
+            </div>
+            <p class="meta">This game lives on the <strong>${home.label}</strong> page.</p>
+            <p>${summaryOf(g)}</p>
+            <p><a class="btn" href="${home.page}#${home.anchor}">Open on ${home.label} →</a></p>
+          </article>`;
+          }
           const more = (x.more || []).filter((s) => !/^If this happens|^How a round ends|^Grouping:/.test(s)).map((s) => `<li>${s}</li>`).join("");
           const cues = (x.cues || []).map((s) => `<li>${s}</li>`).join("");
           const skins = (g.skins || x.skins || []).map((s) => `<li>${s}</li>`).join("");
@@ -398,7 +413,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
     // tap a card's summary (or its title, on a phone) to open / close it
     box.addEventListener("click", (e) => {
       const card = e.target.closest(".gcard");
-      if (!card) return;
+      if (!card || card.classList.contains("gcard-link")) return;
       const onToggle = e.target.closest(".gtoggle");
       const onHead = e.target.closest(".ghead") && window.matchMedia("(max-width: 700px)").matches;
       if (onToggle || onHead) setOpen(card, card.classList.contains("collapsed"));
