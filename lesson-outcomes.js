@@ -98,50 +98,50 @@ window.LESSON_OUTCOMES = {
   },
   "October-1-1": {
     items: [
-    { code: "Movement · send, receive, retain", look: "Body is behind the ball before the scoop or catch." },
-    { code: "Safety", look: "Moves among many balls without kicking people." }
+    { code: "Safety", look: "Tags with two hands or a soft flag pull; no shirt grabs." },
+    { code: "Healthy Relationships", look: "Accepts a lost tail (stretch 10) and stays in the game." }
     ]
   },
   "October-1-2": {
     items: [
-    { code: "Movement · send, receive, retain", look: "Underhand send with a step toward the target." },
-    { code: "Character", look: "Repeats the cue even when a throw misses." }
+    { code: "Movement · tactics", look: "Plants and cuts on the route; eyes up before the throw." },
+    { code: "Movement · send, receive, retain", look: "Catches a soft throw with ready hands." }
     ]
   },
   "October-1-3": {
     items: [
-    { code: "Movement · send, receive, retain", look: "Plant foot beside the ball; kick to a partner or gate." },
-    { code: "Character", look: "Tries a second kick after a miss." }
+    { code: "Movement · send, receive, retain", look: "Catches with both feet in the hoop; no running with the ball after the catch." },
+    { code: "Movement · tactics", look: "Shadow defender contests the ball, not the person (Grades 3–6)." }
     ]
   },
   "October-1-4": {
     items: [
-    { code: "Movement · send, receive, retain", look: "Sends, then moves to the ball and traps." },
-    { code: "Movement · locomotor", look: "Travels with the ball under control." }
+    { code: "Healthy Relationships", look: "Accepts teacher-formed teams and the class vote." },
+    { code: "Movement · send, receive, retain", look: "Uses the week's throw and catch cues in the chosen game." }
     ]
   },
   "October-2-1": {
     items: [
-    { code: "Movement · send, receive, retain", look: "Inside-foot pass hits the gate or partner." },
-    { code: "Movement · tactics", look: "Looks for a teammate before shooting." }
+    { code: "Movement · send, receive, retain", look: "Places the ball softly in the runner's pocket (give, don't throw); the runner goes." },
+    { code: "Safety", look: "Carries the ball at the hip; soft tag only." }
     ]
   },
   "October-2-2": {
     items: [
-    { code: "Movement · send, receive, retain", look: "Throws to where the partner will be." },
-    { code: "Movement · tactics", look: "Receiver moves to the ball." }
+    { code: "Movement · tactics", look: "Stays between receiver and ball; contests without contact." },
+    { code: "Safety", look: "Head up; hands stay off the receiver." }
     ]
   },
   "October-2-3": {
     items: [
-    { code: "Movement · send, receive, retain", look: "Trap stays near the body." },
-    { code: "Safety", look: "Gets in front of the ball, not a kick at feet." }
+    { code: "Movement · tactics", look: "Hike, pass, score; resets so everyone plays." },
+    { code: "Safety", look: "Two-hand touch or soft flag only; no tackling." }
     ]
   },
   "October-2-4": {
     items: [
-    { code: "Movement · send, receive, retain", look: "Chooses kick or throw for the task." },
-    { code: "Character", look: "Uses both sends in the same class." }
+    { code: "Safety", look: "Uses dodgeballs, not footballs; throws stay below the waist." },
+    { code: "Healthy Relationships", look: "Brings a teammate back; stretch 10 if hit, then back in." }
     ]
   },
   "October-3-1": {
@@ -911,5 +911,5 @@ window.LESSON_OUTCOMES = {
     { code: "Active Living", look: "Names one favourite game or one summer activity." },
     { code: "Active Living", look: "Compares only to their own September check." }
     ]
-  },
+  }
 };
