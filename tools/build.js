@@ -173,7 +173,7 @@ function outcomesBlock(name) {
         <thead><tr><th>What</th><th>How</th><th>Look-for / evidence</th></tr></thead>
         <tbody>${u.assess.map((a) => `<tr><td><strong>${a.what}</strong></td><td>${a.how}</td><td>${a.evidence}</td></tr>`).join("")}</tbody>
       </table>
-      <p class="meta no-print"><a href="outcomes.html?month=${name}#month-assessment">${name} rubric (K–2 and 3–6)</a> · <a href="outcomes.html#weekly-rubrics">Weekly rubrics</a> · <a href="rubric.html">Sample rubric and comment stems</a></p>
+      <p class="meta no-print"><a href="outcomes.html?month=${name}#month-assessment">${name} rubric (K–2 and 3–6)</a> · <a href="rubric.html">Sample rubric and comment stems</a></p>
       <p class="note">Outcomes follow Physical Education and Wellness K–6 (LearnAlberta, current curriculum). Match report-card comments to the learning outcome on LearnAlberta. Do not rank fitness scores.</p>
     </div>`;
 }

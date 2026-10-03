@@ -106,3 +106,7 @@ The Videos page was removed. `videos.html` is now a tiny redirect to
     sh tools/bake-updated.sh && git add chrome.js
 
 The footer never links to Sub Day Plans.
+
+**Standing rule (Oct 3, 2026): no weekly rubric panel on the Outcomes page.** `outcomes.html` carries only the monthly rubric/assessment content (the `#month-assessment` panel, built from `outcomes-data.js`). Do not add a "Weekly rubrics by month" panel, `#weekly-rubrics` / `#football-week-6` anchors, a `rubric:` field or "Weekly rubric for this week" link in `weekly-plans-data.js`, or a "Weekly rubrics" link in the month-page rubric line (`tools/build.js`). The weekly-plan updater only adds the plan entry and its `.docx`.
+
+**Fitness checklist PDF.** `Monthly_Fitness_Checklist_Grades_1-6.pdf` is generated from the `MONTHS` array in `fitness.html` by `python3 tools/fitness-pdf.py` (needs reportlab + node). After editing the fitness page, rerun it and commit the PDF.

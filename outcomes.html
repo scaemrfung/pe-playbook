@@ -82,105 +82,6 @@
       </table>
     </div>
 
-    <div class="panel" id="weekly-rubrics">
-      <h2>Weekly rubrics by month</h2>
-      <p class="meta">Short rubrics for one teaching week, filed under the month the week starts in. Same school achievement scales as above. <strong>Months:</strong> <a href="#october">October</a></p>
-
-      <section id="october">
-        <h3 style="color:var(--navy);margin:16px 0 6px">October</h3>
-        <div id="football-week-6" style="break-inside:avoid">
-          <h4 style="color:var(--navy);margin:12px 0 6px">Football Week 6 · October W1 (Oct 5–9)</h4>
-        <p class="meta">Teacher: Mr. Fung · Football Week 6, Oct 5–9, 2026 · pitch and hand-off, defend the passing lane, small-sided flag, jail-catch football (dodgeballs, below the waist). Choose the grade-band table that matches the class.</p>
-        <p><strong>Reporting outcome:</strong> Students analyze and apply skills related to physical education. (Wellness reporting is outside the 30-minute PE block; see <a href="#report-card">Report-card outcomes</a>.)</p>
-        <p class="tiny"><strong>Scales:</strong> K–2 = Not Yet (NY) / Meeting (M) / Mastering (Ma). Grades 3–6 = Not Yet (NY) / Minimally Meeting (Min) / Solidifying (S) / Mastering (Ma). Mastering = grade-level skill used with intention and explained, not extra work. Score the skill, not behaviour.<br>
-              <strong>Tick codes:</strong> K–2 = NY · M · Ma &nbsp; Grades 3–6 = NY · Min · S · Ma</p>
-
-        <div class="rubric-wrap"><table class="games rubric">
-                <caption>K–2 — Football Week 6 (3 levels)</caption>
-                <thead>
-                  <tr>
-                    <th>Criterion</th>
-                    <th>Not Yet</th>
-                    <th>Meeting</th>
-                    <th>Mastering</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>Soft hand-off</strong></td>
-                    <td>I need help placing the ball, or I throw it at the runner.</td>
-                    <td>I give the ball softly into the runner's pocket and the runner walks.</td>
-                    <td>I give it softly every time and can show a friend "give, don't throw."</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Safe defending and tagging</strong></td>
-                    <td>I bump or grab, or I forget the soft tag.</td>
-                    <td>I shadow or soft-tag and stay in the game.</td>
-                    <td>I go for the ball, not the person, and tag kindly all period.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Small-sided flag</strong></td>
-                    <td>I forget to hike or reset, or I tackle.</td>
-                    <td>I hike, pass and score with a soft touch, and I reset so everyone plays.</td>
-                    <td>I run the whole sequence and help a friend reset.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Safe throwing (jail-catch)</strong></td>
-                    <td>I throw high or at a person, or I use a football.</td>
-                    <td>I use the dodgeball, throw below the waist and walk back in.</td>
-                    <td>I throw low every time and help a friend get back in.</td>
-                  </tr>
-                </tbody>
-              </table></div>
-
-        <div class="rubric-wrap"><table class="games rubric">
-                <caption>Grades 3–6 — Football Week 6 (4 levels)</caption>
-                <thead>
-                  <tr>
-                    <th>Criterion</th>
-                    <th>Not Yet</th>
-                    <th>Minimally Meeting</th>
-                    <th>Solidifying</th>
-                    <th>Mastering</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>Hand-off</strong></td>
-                    <td>I throw at the runner or drop the give.</td>
-                    <td>I give softly sometimes, but my pace is uneven.</td>
-                    <td>I give softly into the pocket at a jog and the runner goes.</td>
-                    <td>I give softly every time, pull flags fairly (Gr 5–6), and can coach a teammate.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Defending the lane</strong></td>
-                    <td>I contact the person or just stand still.</td>
-                    <td>I stay near the receiver and rarely tip the ball.</td>
-                    <td>I contest the catch without contact.</td>
-                    <td>I tip or intercept cleanly and keep my head up.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Small-sided flag</strong></td>
-                    <td>I forget the hike or reset, or I tackle.</td>
-                    <td>I hike and pass when reminded.</td>
-                    <td>I hike, pass, and score with soft flag pulls, and I reset so everyone plays.</td>
-                    <td>I run the whole sequence and can take a QB or ref role (Gr 5–6).</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Safe throwing (jail-catch)</strong></td>
-                    <td>I throw high or at a person, or I use a football.</td>
-                    <td>I throw below the waist with a dodgeball when reminded.</td>
-                    <td>I use the dodgeball, throw below the waist and bring a teammate back.</td>
-                    <td>I throw low and accurately every time and remind a peer of the rule kindly (Gr 5–6).</td>
-                  </tr>
-                </tbody>
-              </table></div>
-          <p class="tiny">Comment stems for these levels: see <a href="rubric.html#comment-stems">Comment stems</a> on the sample rubric page (same level names).</p>
-        </div>
-        <!-- Add the next October week here as another <div id="..."> with an h4; add a new <section id="november"> (and a link in the Months line above) for each new month. -->
-      </section>
-    </div>
-
     <div class="panel" id="month-assessment">
       <h2>Month-by-month assessment</h2>
       <p class="meta">Pick the month you are in. Focus organizing ideas, grade-band outcomes, and concrete evidence for Grades 1–6.</p>
@@ -349,7 +250,7 @@
     render();
 
     // The month tables above are built by script after the browser's first jump to a #anchor,
-    // so re-jump once the page has settled (keeps #october / #football-week-6 landing on the heading).
+    // so re-jump once the page has settled (keeps #-anchors landing on their heading).
     (function () {
       function jump() {
         const id = decodeURIComponent((location.hash || "").slice(1));
