@@ -2,7 +2,7 @@
    Edit the source pages/data, then run: node tools/build.js */
 window.VIDEO_INDEX = {
  "count": 139,
- "occurrences": 168,
+ "occurrences": 170,
  "groups": [
   {
    "id": "September",
@@ -444,6 +444,11 @@ window.VIDEO_INDEX = {
      "href": "weekly-plans.html#plan-pe-weekly-plan-sept-14-18-2026-soccer-week-3"
     },
     {
+     "page": "weekly",
+     "label": "Weekly plan Sept 8–11 2026 · Soccer Week 2: 4 vs 1 / 4 vs 1 / keep-away (Gr 3–4 Day 2 Wed, Gr 5–6 Day 2 Wed)",
+     "href": "weekly-plans.html#plan-pe-weekly-plan-sept-8-11-2026-soccer"
+    },
+    {
      "page": "newgames",
      "label": "New Games · 4 vs 1",
      "href": "new-games.html#4-vs-1"
@@ -548,7 +553,7 @@ window.VIDEO_INDEX = {
     },
     {
      "page": "weekly",
-     "label": "Weekly plan Sept 8–11 2026 · Soccer Week 2: End Wall Soccer",
+     "label": "Weekly plan Sept 8–11 2026 · Soccer Week 2: End Wall Soccer (Gr 5–6 Day 3 Thu)",
      "href": "weekly-plans.html#plan-pe-weekly-plan-sept-8-11-2026-soccer"
     },
     {
@@ -1285,6 +1290,11 @@ window.VIDEO_INDEX = {
      "page": "weekly",
      "label": "Weekly plan Sept 14–18 2026 · Soccer Week 3: Rob the Nest (Gr 1–2 Day 2 Tue, Gr 3–4 Day 2 Tue, Gr 5–6 Day 2 Tue)",
      "href": "weekly-plans.html#plan-pe-weekly-plan-sept-14-18-2026-soccer-week-3"
+    },
+    {
+     "page": "weekly",
+     "label": "Weekly plan Sept 8–11 2026 · Soccer Week 2: Rob the Nest (Gr 3–4 Day 3 Thu)",
+     "href": "weekly-plans.html#plan-pe-weekly-plan-sept-8-11-2026-soccer"
     },
     {
      "page": "games",
@@ -3735,7 +3745,7 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "weekly",
-     "label": "Weekly plan Sept 8–11 2026 · Soccer Week 2: Freeze Dance",
+     "label": "Weekly plan Sept 8–11 2026 · Soccer Week 2: Freeze Dance (Gr 1–2 Day 1 Tue)",
      "href": "weekly-plans.html#plan-pe-weekly-plan-sept-8-11-2026-soccer"
     },
     {
@@ -3771,7 +3781,7 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "weekly",
-     "label": "Weekly plan Sept 8–11 2026 · Soccer Week 2: The Food Chain",
+     "label": "Weekly plan Sept 8–11 2026 · Soccer Week 2: The Food Chain (Gr 5–6 Day 1 Tue)",
      "href": "weekly-plans.html#plan-pe-weekly-plan-sept-8-11-2026-soccer"
     },
     {
