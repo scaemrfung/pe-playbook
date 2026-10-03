@@ -103,4 +103,32 @@
     var dates = head.querySelector(".week-dates");
     head.insertBefore(pill, dates);
   }
+  if (!head) return;
+  head.classList.add("cw-current");
+  /* "Week N · dates" banner under the month heading, with a jump link */
+  var mh = document.querySelector(".month-head");
+  if (mh && !document.getElementById("cw-banner")) {
+    var b = document.createElement("p");
+    b.className = "cw-banner";
+    b.id = "cw-banner";
+    var lab = pw.kind === "break" ? "Next week back" : "This week";
+    var strong = document.createElement("strong");
+    strong.textContent = lab + ": Week " + pw.schoolWeek + " \u00b7 " + (pw.range || "");
+    var a = document.createElement("a");
+    a.href = "#" + head.id;
+    a.textContent = "Jump to it \u2193";
+    b.appendChild(strong);
+    b.appendChild(document.createTextNode(" "));
+    b.appendChild(a);
+    mh.parentNode.insertBefore(b, mh.nextSibling);
+  }
+  /* open the page on the current week (unless the link already points somewhere, e.g. #week-3 or #w2-c1) */
+  if (!location.hash) {
+    var go = function () { head.scrollIntoView({ block: "start" }); };
+    var y0;
+    go(); y0 = window.pageYOffset;
+    if (document.readyState !== "complete") window.addEventListener("load", function () {
+      if (Math.abs(window.pageYOffset - y0) < 40) go();   // layout shifted while loading; the reader hasn't scrolled yet
+    });
+  }
 })();

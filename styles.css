@@ -962,3 +962,10 @@ header.site nav.subnav { width: 100%; }
 .dl-text .meta { font-size: .85rem; }
 .dl-fmt { font-weight: 500; opacity: .8; font-size: .8em; margin-left: 4px; }
 .dl-this .tw-warn { margin-top: 0; }
+
+/* Month page: current-week banner + highlight */
+.week-title { scroll-margin-top: 84px; }
+.cw-banner { margin: 12px 0 0; padding: 8px 12px; background: #fdf1dc; border: 1px solid #ecd49c; border-radius: 10px; color: #6b4600; font-size: .95rem; }
+.cw-banner a { margin-left: 6px; font-weight: 650; color: #6b4600; white-space: nowrap; }
+.week-title.cw-current { padding: 6px 10px; border-left: 5px solid #d99a1c; background: #fdf6e6; border-radius: 6px; }
+@media print { .cw-banner { display: none !important; } .week-title.cw-current { border-left: 0; background: none; padding: 0; } }
