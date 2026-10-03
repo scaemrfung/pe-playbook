@@ -79,6 +79,12 @@ grouped by week.
 
 **Standing rules (Oct 3, 2026).** New games are added only to New Games, never to Big-Group Games. The page shows "Last updated", a "Newly added" box and a short history by date. Every game has a `suggestedMonth`, and the page can be viewed by week added, by type (`?view=type`) or by month (`?view=month`). Games added by hand between Monday updates live in the updater's `manual.json` (kept with the updater, not in this repo) and are never flagged as removed. Same or close matches on Big-Group Games, Warm Up Games or Dodgeball are left off and listed in `dedupe.json`.
 
+## Month pages: at most 15 games (`month-games.json`)
+
+Each month page lists at most **15** Big-Group games, chosen as the best fit for that month's lessons. The picks live in **`month-games.json`** (`{ "September": ["Game", …], … }`, shown in that order). Names must match a Big-Group Games card (or a Warm Up Games / Dodgeball title; those link to their home page). Edit the file, then run `node tools/build.js`. The full list stays on the Big-Group Games page (`games.html`, with its month filter); each month list ends with a "See all Big-Group games →" link (`games.html?month=September` opens with that month's filter on).
+Choosing: games the month's lessons actually use first, then the best thematic/skill fit. Some Big-Group cards cover several names (e.g. Hospital Tag / Hot Dog Tag / Banana Tag are one card); list a card once.
+Every game a lesson mentions (in any of its rows) is linked to its card on `games.html`, or to Warm Up Games / Dodgeball / New Games when it lives there, whether or not it is in the 15. The build prints `WARNING` lines (it never fails) if a month lists more than 15 games, lists one card twice, names a game with no card, mentions a game without linking it, or links to an anchor that does not exist. To link a lesson's plain-English mention (e.g. "Lily-pad hoop jumps") add it with `addMention(...)` near the top of the "lesson links" block in `tools/build.js`; titles too generic to auto-link are in `MENTION_SKIP`.
+
 ## Renamed games (Sep 2026)
 
 Some game names were changed because they were culturally insensitive or ableist

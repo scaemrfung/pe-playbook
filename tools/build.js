@@ -156,10 +156,88 @@ function linkGameText(text) {
   return out;
 }
 
+const ALL_BANK_ROWS = new Map(); // game name -> its [name, "", "how we run it"] row from any month's bank
+[MONTH_GAMES, K2M, G36M, SKILLM, BG30].forEach((bk) => Object.keys(bk || {}).forEach((mn) => (bk[mn] || []).forEach((r) => { if (r && r[0] && !ALL_BANK_ROWS.has(r[0])) ALL_BANK_ROWS.set(r[0], r); })));
 function monthBank(name) {
   const all = [].concat(MONTH_GAMES[name] || [], K2M[name] || [], G36M[name] || [], SKILLM[name] || [], BG30[name] || []);
   return all;
 }
+
+
+// ---------------------------------------------------- month-games.json + lesson links
+/* month-games.json: the (up to) 15 Big-Group games each month page lists, chosen as the best fit for the month's
+   lessons. The full list stays on the Big-Group Games page. Edit that file, then run node tools/build.js. */
+const MONTH_GAMES_MAX = 15;
+const MONTH_PICKS = JSON.parse(read("month-games.json"));
+const warnings = [];
+const BG_NAMES_ALL = [];
+{ const seen = new Set(); []
+  .concat(W.GAME_DETAILS || [], W.K2_DETAILS || [], W.G36_DETAILS || [], W.SKILL_DETAILS || [], W.BG30_DETAILS || [], W.PEG_DETAILS || [])
+  .forEach((g) => { if (g && g.name && !seen.has(g.name)) { seen.add(g.name); BG_NAMES_ALL.push(g); } }); }
+const PEG_GAMES = (W.PEG_HANDBOOK && W.PEG_HANDBOOK.games) || [];
+// every anchor that exists on each games page (id, "also called" names, handbook names, link-card ids)
+const ANCHORS = { "games.html": new Set(), "warmup-nogym.html": new Set(), "dodgeball.html": new Set(), "new-games.html": new Set() };
+BG_NAMES_ALL.forEach((g) => {
+  ANCHORS["games.html"].add(gslug(g.name));
+  [].concat(g.aka || [], (EXTRAS[g.name] || {}).aka || []).forEach((a) => ANCHORS["games.html"].add(gslug(a)));
+});
+PEG_GAMES.forEach((h) => ANCHORS["games.html"].add(gslug(h.name)));
+(W.WARMUP_NOGYM_GAMES || []).forEach((g) => ANCHORS["warmup-nogym.html"].add(gslug(g.title)));
+(W.DODGE_GAMES || []).forEach((g) => ANCHORS["dodgeball.html"].add(g.slug));
+((W.NEW_GAMES && W.NEW_GAMES.games) || []).forEach((g) => ANCHORS["new-games.html"].add(g.id));
+// anchor -> the card that owns it (so "Four Corners Stay-In" and "Four Corners" count as one game)
+const ANCHOR_CARD = {};
+BG_NAMES_ALL.forEach((g) => { [].concat(g.aka || [], (EXTRAS[g.name] || {}).aka || []).forEach((a) => { if (!ANCHORS["games.html"].has(gslug(a)) || true) ANCHOR_CARD[gslug(a)] = ANCHOR_CARD[gslug(a)] || gslug(g.name); }); });
+BG_NAMES_ALL.forEach((g) => { ANCHOR_CARD[gslug(g.name)] = gslug(g.name); }); // a card's own name always wins
+PEG_GAMES.forEach((h) => { if (!ANCHOR_CARD[gslug(h.name)]) ANCHOR_CARD[gslug(h.name)] = gslug(h.card); });
+const canon = (href) => { const [pg, a] = href.split("#"); return pg === "games.html" && ANCHOR_CARD[a] ? `${pg}#${ANCHOR_CARD[a]}` : href; };
+const anchorOk = (href) => { const [pg, a] = href.split("#"); return !ANCHORS[pg] || ANCHORS[pg].has(a); };
+
+/* Every game title a lesson can mention -> where its card is (Big-Group card, or the home page for
+   Warm Up Games / Dodgeball / New Games). Used to link each mention inside a lesson. */
+const MENTION_SKIP = new Set([ // too generic to link when it appears in ordinary lesson sentences
+  "pulse", "switch", "popcorn", "circle hoop", "hoop relay", "around-the-gym", "animals", "octopus", "volcanoes",
+]);
+const MENTIONS = new Map(); // lowercase title -> { name, href }
+function addMention(t, href) {
+  t = String(t || "").trim();
+  if (t.length < 4 || MENTION_SKIP.has(t.toLowerCase()) || MENTIONS.has(t.toLowerCase())) return;
+  MENTIONS.set(t.toLowerCase(), { name: t, href });
+}
+// Plain-English mentions in lessons that name a game on another page / under another name
+addMention("Jail-catch", "dodgeball.html#prison");
+addMention("Lily-pad hoop jumps", "games.html#frogs-on-the-lily-pads");
+// order = priority when two titles are the same word(s)
+BG_NAMES_ALL.forEach((g) => { addMention(g.name, gameHref(g.name)); [].concat(g.aka || [], (EXTRAS[g.name] || {}).aka || []).forEach((a) => addMention(a, gameHref(g.name))); });
+PEG_GAMES.forEach((h) => addMention(h.name, `games.html#${gslug(h.card)}`));
+(W.WARMUP_NOGYM_GAMES || []).forEach((g) => addMention(g.title, `warmup-nogym.html#${gslug(g.title)}`));
+(W.DODGE_GAMES || []).forEach((g) => addMention(g.name, `dodgeball.html#${g.slug}`));
+((W.NEW_GAMES && W.NEW_GAMES.games) || []).forEach((g) => addMention(g.name, `new-games.html#${g.id}`));
+Object.keys(ALIASES).forEach((a) => addMention(a, gameHref(ALIASES[a])));
+[MONTH_GAMES, K2M, G36M, SKILLM, BG30].forEach((bk) => Object.keys(bk || {}).forEach((mn) => (bk[mn] || []).forEach((r) => { if (r && r[0]) addMention(r[0], gameHref(r[0])); })));
+const MENTION_KEYS = [...MENTIONS.keys()].sort((a, b) => b.length - a.length);
+const MENTION_RE = new RegExp("(^|[^A-Za-z0-9])(" + MENTION_KEYS.map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/[’']/g, "[’']")).join("|") + ")(?![A-Za-z0-9])", "gi");
+function mentionFor(text) {
+  const k = text.toLowerCase();
+  return MENTIONS.get(k) || MENTIONS.get(k.replace(/'/g, "’")) || MENTIONS.get(k.replace(/’/g, "'"));
+}
+/** Link every game title in a lesson row that is not already a link (first mention of each game). */
+function autoLinkMentions(html, found) {
+  return String(html).split(/(<a\b[^>]*>[\s\S]*?<\/a>|<[^>]+>)/).map((part, i) => {
+    if (i % 2 === 1) { // tag or existing link: remember which targets are already linked in this row
+      const m = /^<a\b[^>]*href="([^"]+)"/.exec(part);
+      if (m) found.add(canon(m[1]));
+      return part;
+    }
+    return part.replace(MENTION_RE, (all, pre, title) => {
+      const e = mentionFor(title);
+      if (!e || found.has(canon(e.href))) return all;
+      found.add(canon(e.href));
+      return `${pre}<a href="${e.href}">${title}</a>`;
+    });
+  }).join("");
+}
+function rowLinks(html) { const s = new Set(); String(html).replace(/<a\b[^>]*href="([^"]+)"/g, (m, h) => { s.add(canon(h)); return m; }); return s; }
 
 const BANDS = [["g12", "1–2"], ["g34", "3–4"], ["g56", "5–6"]];
 function bandSpans(obj, sep) {
@@ -221,7 +299,24 @@ function schoolWeeks(name) {
   return `<div class="school-weeks" id="school-weeks"><p class="meta"><strong>School weeks this month (${SY.config.label}):</strong></p><ul class="clean">${li}</ul>${awayNote}</div>`;
 }
 
-function lessonCard(L, id, wlabel, planMonth, calW) {
+/* Games each month page's lessons mention (after linking): month -> [{ lesson, href, title }] */
+const LESSON_REFS = {};
+function lessonCard(L, id, wlabel, planMonth, calW, pageMonth) {
+  const link = (html, isGame) => {
+    let h = isGame ? linkGameText(html) : html;
+    h = autoLinkMentions(h, rowLinks(h));
+    // record + verify: every game title still unlinked in this row, and every game link's target
+    const plain = h.replace(/<a\b[^>]*>[\s\S]*?<\/a>/g, " ").replace(/<[^>]+>/g, " ");
+    const have = rowLinks(h);
+    plain.replace(MENTION_RE, (all, pre, t) => { const e = mentionFor(t); if (e && !have.has(canon(e.href))) warnings.push(`${pageMonth} ${id}: "${e.name}" is mentioned but not linked`); return all; });
+    h.replace(/<a\b[^>]*href="([^"#]+#[^"]+)"[^>]*>([^<]*)<\/a>/g, (all, href, text) => {
+      if (!ANCHORS[href.split("#")[0]]) return all;
+      if (!anchorOk(href)) warnings.push(`${pageMonth} ${id}: link "${text}" -> ${href} has no matching game card`);
+      (LESSON_REFS[pageMonth] = LESSON_REFS[pageMonth] || []).push({ lesson: id, href, title: text });
+      return all;
+    });
+    return h;
+  };
   const key = `${planMonth}-${L.w}-${L.c}`;
   const o = LO[key];
   const items = pickMonthOutcomes((o && o.items) || [], key);
@@ -232,10 +327,10 @@ function lessonCard(L, id, wlabel, planMonth, calW) {
         <div class="top"><h3>${wlabel} · C${L.c} — ${fill(L.title)}</h3><small>${fill(L.focus)}</small></div>
         <div class="rows">
           ${outRow}
-          <div class="row"><div class="t">0–5</div><div class="d">${fill(L.wu)}</div></div>
-          <div class="row"><div class="t">5–16</div><div class="d">${fill(L.skill)}</div></div>
-          <div class="row game"><div class="t">16–25</div><div class="d">${linkGameText(fill(L.game))}</div></div>
-          <div class="row"><div class="t">25–30</div><div class="d">${fill(L.cd)}</div></div>
+          <div class="row"><div class="t">0–5</div><div class="d">${link(fill(L.wu))}</div></div>
+          <div class="row"><div class="t">5–16</div><div class="d">${link(fill(L.skill))}</div></div>
+          <div class="row game"><div class="t">16–25</div><div class="d">${link(fill(L.game), true)}</div></div>
+          <div class="row"><div class="t">25–30</div><div class="d">${link(fill(L.cd))}</div></div>
           <div class="row bands"><div class="t"><span class="band-t-all">1–2 / 3–4 / 5–6</span><span class="band-t" data-for="g12">Grades 1–2</span><span class="band-t" data-for="g34">Grades 3–4</span><span class="band-t" data-for="g56">Grades 5–6</span></div>
             <div class="d">${bandSpans(L, '<span class="band-sep"> &nbsp;·&nbsp; </span>')}</div>
           </div>
@@ -268,13 +363,13 @@ function monthSections(m) {
     (PLAN[`${g.planMonth}-${g.planW}`] || []).forEach((L) => { count++;
       ((WEEK_LESSONS[m.name] = WEEK_LESSONS[m.name] || {})[first.w] = WEEK_LESSONS[m.name][first.w] || []).push([L.c, strip(fill(L.title))]);
       LESSON_REF[`${g.planMonth}-${g.planW}-${L.c}`] = { href: `${monthFile(m.name)}#w${first.w}-c${L.c}`, label: `${tag} (Week ${first.schoolWeek})`, month: m.name, order: MONTHS_ORDER_IDX(m.name) * 100 + first.w * 10 + L.c };
-      html += lessonCard(L, `w${first.w}-c${L.c}`, `W${first.w}`, g.planMonth, first.w); });
+      html += lessonCard(L, `w${first.w}-c${L.c}`, `W${first.w}`, g.planMonth, first.w, m.name); });
   });
   SY.peExtras(m.name).forEach((ex) => {
     html += `<h2 class="week-title" id="extra-${ex.planW}" data-week="extra-${ex.planW}">Extra lessons <span class="plan-week">${m.name} · use any time</span><span class="week-dates extra">${ex.text}</span></h2>`;
     (PLAN[`${m.name}-${ex.planW}`] || []).forEach((L) => { count++;
       LESSON_REF[`${m.name}-${ex.planW}-${L.c}`] = { href: `${monthFile(m.name)}#x${ex.planW}-c${L.c}`, label: `${m.name} extra lessons`, month: m.name, order: MONTHS_ORDER_IDX(m.name) * 100 + 90 + L.c };
-      html += lessonCard(L, `x${ex.planW}-c${L.c}`, "Extra", m.name, `extra-${ex.planW}`); });
+      html += lessonCard(L, `x${ex.planW}-c${L.c}`, "Extra", m.name, `extra-${ex.planW}`, m.name); });
   });
   return { html, count };
 }
@@ -288,13 +383,26 @@ function renderMonth(m) {
   const sec = monthSections(m);
   const lessons = sec.html;
 
-  const seen = new Set();
-  const rows = bank.filter((r) => r && r[0] && !seen.has(r[0]) && seen.add(r[0])).map((r) => {
+  // The games listed on the month page: month-games.json (max 15), in that order.
+  const picks = MONTH_PICKS[m.name] || [];
+  if (picks.length > MONTH_GAMES_MAX) warnings.push(`${m.name}: month-games.json lists ${picks.length} games (max ${MONTH_GAMES_MAX}); only the first ${MONTH_GAMES_MAX} are shown`);
+  { const by = {}; picks.forEach((n) => { (by[canon(gameHref(n))] = by[canon(gameHref(n))] || []).push(n); });
+    Object.values(by).filter((l) => l.length > 1).forEach((l) => warnings.push(`${m.name}: month-games.json lists the same game twice (${l.join(" = ")})`)); }
+  const rowsSrc = picks.slice(0, MONTH_GAMES_MAX).map((n) => {
+    const own = bank.find((r) => r && r[0] === n) || ALL_BANK_ROWS.get(n);
+    if (!own) { const d = detailFor(n); return [n, "", d ? d.purpose || "" : ""]; }
+    return own;
+  });
+  picks.forEach((n) => { if (!anchorOk(gameHref(n))) warnings.push(`${m.name}: month-games.json "${n}" has no game card (${gameHref(n)})`); });
+  const rows = rowsSrc.map((r) => {
     const sl = gslug(r[0]);
-    const x = EXTRAS[r[0]] || {};
+    // a name folded into another card (e.g. Hot Dog Tag -> the Frozen Tag card) uses that card's notes when it has none of its own
+    const cardName = (BG_NAMES_ALL.find((g) => gslug(g.name) === (canon(gameHref(r[0])).split("#")[1])) || {}).name;
+    const x = EXTRAS[r[0]] || (cardName && EXTRAS[cardName]) || {};
     const picked = pickMonthOutcomes(x.outcomes || [], r[0]);
     const out = picked.map((it) => `<strong>${it.code}.</strong> ${it.look}`).join("<br>");
-    const d = detailFor(r[0]);
+    let d = detailFor(r[0]);
+    if (!(d && (d.g12 || d.g34 || d.g56)) && cardName) d = detailFor(cardName);
     let bands;
     if (d && (d.g12 || d.g34 || d.g56)) bands = bandSpans(d, "");
     else {
@@ -326,7 +434,7 @@ function renderMonth(m) {
       </div>
       <div class="panel" id="month-games">
         <h2>Big-group games this month</h2>
-        <p class="note">These are the 30-minute classroom versions. Simplify for Grades 1–2: walk more, fewer taggers, skip grabbing games until Grade 3+. This table shows 2–3 look-fors per game. Open the game card for all seven PEW outcomes.</p>
+        <p class="note">${rows.length} games picked for this month\u2019s lessons. Any other game a lesson uses is linked to its card. These are the 30-minute classroom versions. Simplify for Grades 1–2: walk more, fewer taggers, skip grabbing games until Grade 3+. This table shows 2–3 look-fors per game. Open the game card for all seven PEW outcomes.</p>
         <div class="table-scroll">
         <table class="games">
           <thead><tr><th>Game</th><th>How we run it</th><th>By grade <span class="grade-th" id="grade-th">(1–2 / 3–4 / 5–6)</span></th><th>Outcomes</th></tr></thead>
@@ -335,6 +443,7 @@ function renderMonth(m) {
           </tbody>
         </table>
         </div>
+        <p class="meta see-all no-print"><a href="games.html?month=${m.name}">See all Big-Group games →</a></p>
       </div>
       ${lessons}
     `;
@@ -400,6 +509,17 @@ months.forEach((m) => {
   <script src="month-page.js" defer></script>`,
   });
   report.push(`${monthFile(m.name)}: ${r.lessons} lessons, ${r.games} games (${r.missingBands} without band notes)`);
+  {
+    const listed = new Set((MONTH_PICKS[m.name] || []).slice(0, MONTH_GAMES_MAX).map((n) => canon(gameHref(n))));
+    const extra = new Map();
+    (LESSON_REFS[m.name] || []).forEach((x) => { if (!listed.has(canon(x.href)) && !extra.has(canon(x.href))) extra.set(canon(x.href), x.title); });
+    report.push(`  ${m.name}: lessons also use ${extra.size} game(s) not in the list (each linked): ${[...extra.values()].join(", ")}`);
+    if (process.env.DUMP_REFS) {
+      const cnt = {};
+      (LESSON_REFS[m.name] || []).forEach((x) => { cnt[x.href] = cnt[x.href] || { title: x.title, n: 0, lessons: new Set() }; cnt[x.href].n++; cnt[x.href].lessons.add(x.lesson); });
+      (global.__refs = global.__refs || {})[m.name] = Object.entries(cnt).map(([h, v]) => [h, v.title, v.n, [...v.lessons]]);
+    }
+  }
 });
 
 // month.html — legacy router (?m=September&grade=4) + no-JS month list
@@ -613,6 +733,9 @@ for (let [f, content] of Object.entries(outputs)) {
   else { fs.writeFileSync(p, content); console.log("wrote", f); }
 }
 report.forEach((l) => console.log("  " + l));
+if (process.env.DUMP_REFS) fs.writeFileSync(process.env.DUMP_REFS, JSON.stringify(global.__refs, null, 1));
+warnings.forEach((w) => console.warn("  WARNING " + w)); // month-games / lesson-link checks: warn only, never fail the build
+if (!warnings.length) console.log("  month games + lesson links: OK (every month lists at most " + MONTH_GAMES_MAX + " games; every game a lesson mentions is a link)");
 if (CHECK) {
   if (stale.length) { console.error("Out of date (run node tools/build.js):\n  " + stale.join("\n  ")); process.exit(1); }
   console.log("All generated files are up to date.");

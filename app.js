@@ -246,6 +246,12 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
         render();
       });
     }
+    // ?month=September (from the "See all Big-Group games" link on a month page) starts with that month's filter on
+    const urlMonth = qs.get("month");
+    if (monthBox && MONTH_NAMES.indexOf(urlMonth) >= 0) {
+      activeMonth = urlMonth;
+      monthBox.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.getAttribute("data-month") === urlMonth));
+    }
     if (filterBox) {
       filterBox.innerHTML =
         `<button type="button" data-type="all" class="on">All types</button>` +
