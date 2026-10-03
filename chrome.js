@@ -146,7 +146,7 @@
 
   /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
      before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
-  const SITE_UPDATED = "2026-10-03T15:24:36Z";
+  const SITE_UPDATED = "2026-10-03T15:32:42Z";
   function ensureUpdatedStamp() {
     if (document.querySelector(".site-updated-stamp")) return;
     const el = document.createElement("div");
