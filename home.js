@@ -58,97 +58,47 @@
   });
 })();
 
-/* "This week" block: the weekly plan download, this week's lesson links and the
-   New Games added this week. Everything follows the date (school-year.js);
+/* What's New This Week (red box at the top of the homepage) follows the date: the
+   plan whose `week` (Monday) matches the current school week from school-year.js.
    ?today=YYYY-MM-DD previews another date. */
 (function () {
-  var SY = window.SCHOOL_YEAR;
-  var root = document.getElementById("this-week");
-  if (!SY || !SY.status || !root) return;
+  var body = document.getElementById("whats-new-body");
+  if (!body) return;
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
-  function $(id) { return document.getElementById(id); }
+  function planHTML(plan, lead) {
+    var note = plan.note ? '<p class="whats-new-note">' + plan.note + "</p>" : "";
+    var name = (plan.file || "").split("/").pop() || "plan.docx";
+    return (lead || "") + '<p class="whats-new-title">' + plan.title + "</p>" + note +
+      '<p class="whats-new-actions">' +
+      '<a class="whats-new-btn" href="' + esc(plan.file) + '" download="' + esc(name) + '">Download this week\'s plan</a>' +
+      '<a class="whats-new-link" href="weekly-plans.html">All weekly plans</a></p>';
+  }
+  var plans = (window.WEEKLY_PLANS || []).slice().sort(function (a, b) { return String(b.week || "").localeCompare(String(a.week || "")); });
+  var SY = window.SCHOOL_YEAR;
+  if (!plans.length) {
+    body.innerHTML = '<p class="whats-new-title">No weekly plan posted yet.</p><p><a href="weekly-plans.html">See weekly plans</a></p>';
+    return;
+  }
+  if (!SY || !SY.status) { body.innerHTML = planHTML(plans[0]); return; }
   var today = SY.todayISO();
   var st = SY.status(today);
   var pe = SY.peWeek ? SY.peWeek(today) : null;
   var week = st.week;
   if (st.kind === "break" || st.kind === "before") week = (SY.weeks || []).find(function (w) { return w.start > today; }) || null;
-  var plans = (window.WEEKLY_PLANS || []).slice().sort(function (a, b) { return String(b.week || "").localeCompare(String(a.week || "")); });
-  var qs = new URLSearchParams(location.search), todayQ = qs.get("today");
-  function withToday(href) {
-    if (!todayQ) return href;
-    var i = href.indexOf("#"), base = i < 0 ? href : href.slice(0, i), hash = i < 0 ? "" : href.slice(i);
-    return base + (base.indexOf("?") < 0 ? "?" : "&") + "today=" + encodeURIComponent(todayQ) + hash;
-  }
-
-  // Summer / no week: say so and stop.
   if (st.kind === "summer" || !week) {
-    $("tw-title").textContent = "No school this week";
-    $("tw-sub").textContent = st.kind === "summer"
-      ? "The " + ((SY.calendar && SY.calendar.label) || "") + " school year is over. Week 1 is ready when you want to plan for next year."
-      : (st.message || "");
-    $("tw-plan-body").innerHTML = '<p><a href="weekly-plans.html">All weekly plans →</a></p>';
-    $("tw-lessons-body").innerHTML = '<p><a href="month-september.html#week-1">Open September, Week 1 →</a></p>';
+    body.innerHTML = '<p class="whats-new-title">No school this week.</p><p class="whats-new-note">' +
+      esc(st.kind === "summer" ? "The " + ((SY.calendar && SY.calendar.label) || "") + " school year is over." : st.message || "") + "</p>" +
+      '<p class="whats-new-actions"><a class="whats-new-link" href="weekly-plans.html">All weekly plans</a></p>';
     return;
   }
-
-  // Title + sub-line
-  var named = pe && pe.month ? (pe.name || "Week " + pe.schoolWeek) + " (" + pe.month + " W" + pe.w + (pe.startup ? ", start-up week" : "") + ")" : "";
-  $("tw-title").textContent = (st.kind === "break" || st.kind === "before" ? "Next week: " : "This week: ") + week.range;
-  var bits = [named, week.note, pe && pe.planNote, st.kind === "lesson" || st.kind === "catchup" ? (pe && pe.today) : ""].filter(Boolean);
-  if (st.kind === "break" || st.kind === "before") bits.unshift(st.message.replace(/ with Week \d+\.$/, "."));
-  $("tw-sub").textContent = bits.join(" · ");
-
-  // 1. Weekly plan
+  var lead = st.kind === "break" || st.kind === "before"
+    ? '<p class="whats-new-note"><strong>' + esc(st.message.replace(/ with Week \d+\.$/, ".")) + "</strong> Next week's plan:</p>" : "";
   var plan = plans.find(function (p) { return p.week === week.monday; });
-  var warn = $("tw-warn");
-  if (plan) {
-    var name = (plan.file || "").split("/").pop() || "plan.docx";
-    $("tw-plan-body").innerHTML = '<p class="tw-plan-title">' + esc(plan.title) + '</p>' +
-      (plan.note ? '<p class="tw-note">' + esc(plan.note) + '</p>' : "") +
-      '<p class="tw-actions"><a class="btn-primary" href="' + esc(plan.file) + '" download="' + esc(name) + '">Download this week’s plan (.docx)</a>' +
-      '<a class="tw-link" href="weekly-plans.html">All weekly plans</a></p>';
-  } else {
-    $("tw-plan-body").innerHTML = '<p class="tw-note">No downloadable plan is posted for this week yet. The lessons are on the month page.</p>' +
-      '<p class="tw-actions"><a class="tw-link" href="weekly-plans.html">All weekly plans</a></p>';
-    if (st.kind === "lesson" || st.kind === "catchup" || st.kind === "break" || st.kind === "before") {
-      warn.hidden = false;
-      warn.textContent = "Heads-up for Mr. Fung: the weekly plans list (weekly-plans-data.js) has no entry for the week of " + week.range + ". Upload that week’s plan so the download shows up here.";
-    }
-  }
-
-  // 2. This week's lessons (links into the month page)
-  var lessons = $("tw-lessons-body");
-  if (pe && pe.month) {
-    var file = "month-" + pe.month.toLowerCase() + ".html";
-    var WL = window.PE_WEEK_LESSONS || {};
-    var list = (WL[pe.month] || {})[pe.w] || [];
-    var html = "";
-    if (list.length) {
-      html += '<ol class="tw-lesson-list">' + list.map(function (l) {
-        return '<li><a href="' + withToday(file + "#w" + pe.w + "-c" + l[0]) + '"><span class="tw-c">C' + l[0] + '</span> ' + esc(l[1]) + '</a></li>';
-      }).join("") + '</ol>';
-    } else if (pe.startup) {
-      html += '<p class="tw-note">Start-up week: routines, rules and baseline skills.</p>';
-    }
-    html += '<p class="tw-actions"><a class="btn-ghost" href="' + withToday(file + "#week-" + pe.w) + '">Open ' + esc(pe.month) + " W" + pe.w + ' →</a></p>';
-    lessons.innerHTML = html;
-  }
-
-  // 3. New games added this week
-  var NW = window.PE_NEW_BY_WEEK || {}, nbox = $("tw-new-body");
-  var keys = Object.keys(NW).sort().reverse();
-  var key = NW[week.monday] ? week.monday : keys.find(function (k) { return k <= week.monday; });
-  function gameList(k) {
-    return '<ul class="tw-new-list">' + NW[k].games.map(function (g) {
-      return '<li><a href="new-games.html#' + esc(g[1]) + '">' + esc(g[0]) + '</a></li>';
-    }).join("") + '</ul>';
-  }
-  if (key && key === week.monday) {
-    nbox.innerHTML = gameList(key) + '<p class="tw-actions"><a class="tw-link" href="new-games.html#this-week">All New Games →</a></p>';
-  } else if (key) {
-    nbox.innerHTML = '<p class="tw-note">Nothing new has been added for this week yet. Latest additions (' + esc(NW[key].label) + '):</p>' + gameList(key) +
-      '<p class="tw-actions"><a class="tw-link" href="new-games.html">All New Games →</a></p>';
-  } else {
-    nbox.innerHTML = '<p class="tw-note">No new games yet this week.</p><p class="tw-actions"><a class="tw-link" href="new-games.html">All New Games →</a></p>';
-  }
+  if (plan) { body.innerHTML = planHTML(plan, lead); return; }
+  // School-year week name (Week 5 · Football) and its month (the month it starts in); the button opens that week.
+  var where = pe && pe.month ? (pe.name || "Week " + pe.schoolWeek) + " (" + pe.month + " W" + pe.w + ")" : "";
+  var monthLink = pe && pe.month ? '<a class="whats-new-btn" href="month-' + pe.month.toLowerCase() + ".html#week-" + pe.w + '">Open ' + esc(pe.month + " W" + pe.w) + "</a>" : "";
+  body.innerHTML = lead + '<p class="whats-new-title">' + esc(week.range) + (where ? " · " + esc(where) : "") + "</p>" +
+    '<p class="whats-new-note">No downloadable plan posted for this week yet. The month page has this week\'s lessons.' + (week.note ? " " + esc(week.note) + "." : "") + "</p>" +
+    '<p class="whats-new-actions">' + monthLink + '<a class="whats-new-link" href="weekly-plans.html">All weekly plans</a></p>';
 })();

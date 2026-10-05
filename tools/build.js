@@ -598,13 +598,13 @@ index = between(index, "months", grid);
 index = between(index, "this-month", `        <h2 id="this-month-title">${first.name}: ${first.theme}</h2>
         <p id="this-month-guide">${first.guide}</p>
         <p class="note" id="this-month-note" hidden></p>`);
-// static fallback for the "This week" plan box: the newest posted plan (home.js picks the current week's)
+// static fallback for the "What's New This Week" box: the newest posted plan (home.js picks the current week's)
 const PLANS = (W.WEEKLY_PLANS || []).slice().sort((a, b) => String(b.week).localeCompare(String(a.week)));
 const planFallback = PLANS.length
-  ? `        <p class="tw-plan-title">Latest plan: ${esc(PLANS[0].title)}</p>
-        <p class="tw-actions"><a class="btn-primary" href="${esc(PLANS[0].file)}" download>Download the plan (.docx)</a><a class="tw-link" href="weekly-plans.html">All weekly plans</a></p>`
-  : `        <p class="tw-note">No weekly plan posted yet.</p>\n        <p class="tw-actions"><a class="tw-link" href="weekly-plans.html">All weekly plans</a></p>`;
-index = between(index, "tw-plan", planFallback);
+  ? `          <p class="whats-new-title">${esc(PLANS[0].title)}</p>
+          <p class="whats-new-actions"><a class="whats-new-btn" href="${esc(PLANS[0].file)}" download>Download the latest plan</a><a class="whats-new-link" href="weekly-plans.html">All weekly plans</a></p>`
+  : `          <p class="whats-new-title">No weekly plan posted yet.</p>\n          <p><a href="weekly-plans.html">See weekly plans</a></p>`;
+index = between(index, "whats-new", planFallback);
 outputs["index.html"] = withStaticNav(index, "index.html");
 
 // videos-data.js — index of every video the site links, with the lessons /

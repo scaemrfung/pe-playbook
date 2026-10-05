@@ -866,7 +866,7 @@ header.site nav.subnav { width: 100%; }
 .hub-search .search { flex: 1 1 260px; min-width: 0; }
 .hub-search .btn-primary { border: 0; cursor: pointer; font: inherit; font-weight: 650; }
 
-/* ---- Homepage: This week ---- */
+/* ---- "This week" cards (.tw-*; .tw-warn is used on Downloads) and fold boxes ---- */
 .tw { padding: 20px 0 8px; }
 .tw h1 { margin: 6px 0 0; font-size: clamp(1.7rem, 4vw, 2.4rem); line-height: 1.15; color: var(--ink); }
 .tw-sub { margin: 8px 0 0; color: var(--muted); max-width: 46rem; }
@@ -898,8 +898,6 @@ header.site nav.subnav { width: 100%; }
 .fold-body .section-title { font-size: 1.3rem; margin-top: 4px; }
 .fold-body .month-grid { margin-top: 16px; }
 .fold-body .grades-band { margin-top: 24px; }
-.year-block.wrap { padding: 12px 0 8px; }
-.bag-block.wrap { padding: 8px 0 40px; }
 @media (max-width: 600px) { .tw-card { padding: 14px; } .tw-actions .btn-primary { width: 100%; justify-content: center; } }
 
 /* ---- Site search (topbar box, live results, search page) ---- */
