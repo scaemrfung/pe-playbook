@@ -15,12 +15,8 @@ window.BG30_MONTH = {
     ["Low-ball", "", "Dodgeballs, below the waist. A hit is a 10-second stretch, then back in."],
     ["Guard the Cone", "", "Three defenders hold hands around a cone. Attackers pass a soccer or playground ball to knock it."],
     ["Steal the Bacon", "", "Use a football as the bacon."],
-    ["Ghostbusters", "", "Toss a bib up. Hit it with a soft ball before it lands. Stand side-on."],
     ["Balloon Keep-Up", "", "Keep a shared balloon up. Circus / keep-it-up without the parachute."],
     ["Hoop Balance", "", "Carry a hoop between two stomachs, no hands, drop it over a cone."],
-    ["Halloween Chase", "", "Three bib colours hunt each other. Crawl through legs to free a frozen player."],
-    ["Jack-O’-Lantern", "", "One team stands cones up; the other flips them down. Hands on cones, not people."],
-    ["Ghostbusters (cone ghosts)", "", "Knock the other team’s cone-ghosts. Stay on your side."]
   ],
   November: [
     ["Protect the King", "", "One player is the king in a hoop. If you throw at the king, switch to dodgeballs."],

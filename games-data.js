@@ -25,7 +25,9 @@ window.GAME_DETAILS = [
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": [
+      "On/Off"
+    ]
   },
   {
     "name": "Backyard Dog Tag",
@@ -62,7 +64,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Tagged players join the blob. Reset before the last runner is hunted for minutes. Folded in: Daly Witches / Zombie / Alien Tag + SCA Blob Tag / Home Free Bad Guy Blob.",
+    "purpose": "Tagged players join the blob. Reset before the last runner is hunted for minutes. Folded in: Daly Alien Tag + SCA Blob Tag / Home Free Bad Guy Blob.",
     "equipment": "Optional noodles or cone hats · spare kit at the side",
     "setup": "Mark the court. Starters bibbed or holding noodles. Spare kit at the side if the blob needs gear.",
     "play": [
@@ -83,15 +85,11 @@ window.GAME_DETAILS = [
     ],
     "roundEnds": "Last few runners, then reset. No one is out for the period.",
     "skins": [
-      "Witches: cone on the head.",
-      "Zombies: one foot stays in a sliding hoop.",
       "Aliens: waist hoop, 5 jacks to rejoin if you prefer a non-blob re-entry.",
       "Home Free Bad Guy Blob: a home hoop that resets a runner once."
     ],
     "aka": [
       "Home Free Bad Guy Blob Tag",
-      "Witches Tag",
-      "Zombie Tag",
       "Alien Tag"
     ]
   },
@@ -288,7 +286,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Hear your name. Turn. Get home. The other team tags. Folded in: Daly Kangaroo Tag / Jumping Pumpkins + SCA Kangaroos and Crocodiles / Captain’s Deck.",
+    "purpose": "Hear your name. Turn. Get home. The other team tags. Folded in: Daly Kangaroo Tag + SCA Kangaroos and Crocodiles / Captain’s Deck.",
     "equipment": "None · two home lines and a centre line",
     "setup": "Teams on a centre line, facing you. Homes behind each.",
     "play": [
@@ -309,12 +307,10 @@ window.GAME_DETAILS = [
     "roundEnds": "Play several calls. No one sits out.",
     "skins": [
       "Hop only (Kangaroo Tag).",
-      "What’s-the-time: jump the called number toward the witch, flee when she turns.",
-      "Jumping Pumpkins: same turn-and-home on a Halloween call."
+      "What’s-the-time: jump the called number toward the caller, flee when they turn."
     ],
     "aka": [
-      "Kangaroo Tag",
-      "Jumping Pumpkins"
+      "Kangaroo Tag"
     ]
   },
   {
@@ -2272,7 +2268,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Stay on your half. Knock the other team’s structures. Rebuild and keep playing. Folded in: Daly Star Wars / Shooting Pumpkins / Snowball Fight / Snowman Run + SCA Castleball / Bombardment.",
+    "purpose": "Stay on your half. Knock the other team’s structures. Rebuild and keep playing. Folded in: Daly Star Wars / Snowball Fight / Snowman Run + SCA Castleball / Bombardment.",
     "equipment": "Equal castles each side · soft balls",
     "setup": "Equal castles each side. Balls on each half. Below-waist or structure-only throws.",
     "play": [
@@ -2294,14 +2290,13 @@ window.GAME_DETAILS = [
     "roundEnds": "Most standing castles, or most knockdowns.",
     "skins": [
       "Yoga ball only, push it onto the other bench (Star Wars).",
-      "Pumpkin cones on a centre bench; touch your wall before you throw.",
+      "Cone targets on a centre bench; touch your wall before you throw.",
       "Retrievers vs throwers with a present hoop (Snowball Fight).",
       "Bombardment / Battleball: same halves, same rebuild."
     ],
     "aka": [
       "Bombardment",
       "Star Wars",
-      "Shooting Pumpkins",
       "Snowball Fight",
       "Snowman Run",
       "Castleball 2.0"
@@ -3707,7 +3702,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Flip every cone to your shape before the whistle. Folded in: Daly Jack-O’-Lantern + SCA Volcanoes and Ice-Cream Cones.",
+    "purpose": "Flip every cone to your shape before the whistle. Folded in: SCA Volcanoes and Ice-Cream Cones (year-round On/Off cone flip).",
     "equipment": "Many scattered cones",
     "setup": "Scatter cones mixed upright (ice-cream / volcano up) and upside down. Team Up vs Team Down. No guarding a cone with your body.",
     "play": [
@@ -3728,12 +3723,10 @@ window.GAME_DETAILS = [
     ],
     "roundEnds": "Most cones in your state after 45–90 seconds.",
     "skins": [
-      "Halloween: Team Light vs Team Dim (Jack-O’-Lantern).",
       "Progression: ball on top vs ball underneath."
     ],
     "aka": [
-      "Jack-O’-Lantern",
-      "Jack-O-Lantern"
+      "On/Off"
     ]
   },
   {
@@ -5181,43 +5174,7 @@ window.GAME_DETAILS = [
       "Daly Exercise: Popcorn Flip"
     ]
   },
-  {
-    "name": "Ghostbusters",
-    "source": "",
-    "months": [
-      "October"
-    ],
-    "purpose": "Hit a thrown bib in the air. Stand side-on. Daly Exercise game. Nobody sits the period.",
-    "equipment": "Pairs: one softball, one bib",
-    "setup": "Pairs stand side-on. Tosser has the bib.",
-    "play": [
-      "Tosser throws the bib up.",
-      "Hitter throws the ball at the bib.",
-      "Hit = 1. Swap jobs.",
-      "Freeze on the whistle. Reset kit, then the next round."
-    ],
-    "g12": "Hit after one bounce is legal.",
-    "g34": "Must hit in the air.",
-    "g56": "Three roles: tosser, hitter, retriever.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
-    "slot": "16-25",
-    "type": "target",
-    "ifThis": [
-      "Kit knocks a person: pause, widen space, restart.",
-      "Argument over a point: teacher call, play on.",
-      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
-    ],
-    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
-    "skins": [
-      "Hit after one bounce is legal.",
-      "Must hit in the air.",
-      "Three roles: tosser, hitter, retriever."
-    ],
-    "aka": [
-      "Daly Exercise: Ghostbusters"
-    ]
-  },
-  {
+    {
     "name": "Inchworm Rescue",
     "source": "",
     "months": [
@@ -5514,77 +5471,7 @@ window.GAME_DETAILS = [
       "Daly Exercise: Hoop Balance"
     ]
   },
-  {
-    "name": "Halloween Chase",
-    "source": "",
-    "months": [
-      "October"
-    ],
-    "purpose": "Hunters tag ghosts, ghosts tag vampires, vampires tag hunters. Crawl through legs to free. Daly Exercise game. Nobody sits the period.",
-    "equipment": "Three bib colours",
-    "setup": "Even teams, clear boundaries.",
-    "play": [
-      "Legal tags only.",
-      "Frozen player stands feet apart until someone crawls through.",
-      "Freeze on the whistle."
-    ],
-    "g12": "Walking.",
-    "g34": "Sit-down freeze.",
-    "g56": "Two teams for infants.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
-    "slot": "16-25",
-    "type": "tag",
-    "ifThis": [
-      "Kit knocks a person: pause, widen space, restart.",
-      "Argument over a point: teacher call, play on.",
-      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
-    ],
-    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
-    "skins": [
-      "Walking.",
-      "Sit-down freeze.",
-      "Two teams for infants."
-    ],
-    "aka": [
-      "Daly Exercise: Halloween Chase"
-    ]
-  },
-  {
-    "name": "Ghostbusters (cone ghosts)",
-    "source": "",
-    "months": [
-      "October"
-    ],
-    "purpose": "Knock over the other team's cone-ghosts; protect your own. Daly Exercise game. Nobody sits the period.",
-    "equipment": "Cones as ghosts, soft balls",
-    "setup": "Each team has a line of standing cones.",
-    "play": [
-      "Throw to knock opponent ghosts.",
-      "Team with most ghosts still standing wins.",
-      "Freeze on the whistle."
-    ],
-    "g12": "Roll only.",
-    "g34": "One designated thrower at a time.",
-    "g56": "Add a protector in front of the ghosts.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
-    "slot": "8-15",
-    "type": "target",
-    "ifThis": [
-      "Kit knocks a person: pause, widen space, restart.",
-      "Argument over a point: teacher call, play on.",
-      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
-    ],
-    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
-    "skins": [
-      "Roll only.",
-      "One designated thrower at a time.",
-      "Add a protector in front of the ghosts."
-    ],
-    "aka": [
-      "Daly Exercise: Ghostbusters (cone ghosts)"
-    ]
-  },
-  {
+      {
     "name": "Bounce & Scoop",
     "source": "",
     "months": [

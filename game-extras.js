@@ -125,8 +125,6 @@ window.GAME_EXTRAS = {
       "If you are tagged, show it honestly and take the next job."
     ],
     "variations": [
-      "Witches: cone on the head.",
-      "Zombies: one foot stays in a sliding hoop.",
       "Aliens: waist hoop, 5 jacks to rejoin if you prefer a non-blob re-entry.",
       "Home Free Bad Guy Blob: a home hoop that resets a runner once."
     ],
@@ -167,7 +165,7 @@ window.GAME_EXTRAS = {
       "If this happens — Chain breaks and still tags: no tag until it is linked.",
       "If this happens — Cone thrown as a hat: sit one turn.",
       "If this happens — Blob walls someone into a corner: open a corridor.",
-      "Also called: Home Free Bad Guy Blob Tag; Witches Tag; Zombie Tag; Alien Tag.",
+      "Also called: Home Free Bad Guy Blob Tag; Alien Tag.",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -177,15 +175,11 @@ window.GAME_EXTRAS = {
     ],
     "roundEnds": "Last few runners, then reset. No one is out for the period.",
     "skins": [
-      "Witches: cone on the head.",
-      "Zombies: one foot stays in a sliding hoop.",
       "Aliens: waist hoop, 5 jacks to rejoin if you prefer a non-blob re-entry.",
       "Home Free Bad Guy Blob: a home hoop that resets a runner once."
     ],
     "aka": [
       "Home Free Bad Guy Blob Tag",
-      "Witches Tag",
-      "Zombie Tag",
       "Alien Tag"
     ]
   },
@@ -550,8 +544,7 @@ window.GAME_EXTRAS = {
     ],
     "variations": [
       "Hop only (Kangaroo Tag).",
-      "What’s-the-time: jump the called number toward the witch, flee when she turns.",
-      "Jumping Pumpkins: same turn-and-home on a Halloween call."
+      "What’s-the-time: jump the called number toward the caller, flee when they turn."
     ],
     "look": "Everyone is moving or has a job in Kangaroos and Crocodiles. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
@@ -589,7 +582,7 @@ window.GAME_EXTRAS = {
       "How a round ends: Play several calls. No one sits out.",
       "If this happens — False start: send that team back.",
       "If this happens — Wrong team runs: they are taggable.",
-      "Also called: Kangaroo Tag; Jumping Pumpkins.",
+      "Also called: Kangaroo Tag.",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -599,12 +592,10 @@ window.GAME_EXTRAS = {
     "roundEnds": "Play several calls. No one sits out.",
     "skins": [
       "Hop only (Kangaroo Tag).",
-      "What’s-the-time: jump the called number toward the witch, flee when she turns.",
-      "Jumping Pumpkins: same turn-and-home on a Halloween call."
+      "What’s-the-time: jump the called number toward the caller, flee when they turn."
     ],
     "aka": [
-      "Kangaroo Tag",
-      "Jumping Pumpkins"
+      "Kangaroo Tag"
     ]
   },
   "Line Tag": {
@@ -4688,7 +4679,7 @@ window.GAME_EXTRAS = {
     ],
     "variations": [
       "Yoga ball only, push it onto the other bench (Star Wars).",
-      "Pumpkin cones on a centre bench; touch your wall before you throw.",
+      "Cone targets on a centre bench; touch your wall before you throw.",
       "Retrievers vs throwers with a present hoop (Snowball Fight).",
       "Bombardment / Battleball: same halves, same rebuild."
     ],
@@ -4729,7 +4720,7 @@ window.GAME_EXTRAS = {
       "If this happens — Throw at a person: no point, warning.",
       "If this happens — Cross the centre: that throw does not count.",
       "If this happens — All down in 10 seconds: play two bouts and add.",
-      "Also called: Bombardment; Battleball; Star Wars; Shooting Pumpkins; Snowball Fight; Snowman Run; Castleball 2.0.",
+      "Also called: Bombardment; Battleball; Star Wars; Snowball Fight; Snowman Run; Castleball 2.0.",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -4740,14 +4731,13 @@ window.GAME_EXTRAS = {
     "roundEnds": "Most standing castles, or most knockdowns.",
     "skins": [
       "Yoga ball only, push it onto the other bench (Star Wars).",
-      "Pumpkin cones on a centre bench; touch your wall before you throw.",
+      "Cone targets on a centre bench; touch your wall before you throw.",
       "Retrievers vs throwers with a present hoop (Snowball Fight).",
       "Bombardment / Battleball: same halves, same rebuild."
     ],
     "aka": [
       "Bombardment",
       "Star Wars",
-      "Shooting Pumpkins",
       "Snowball Fight",
       "Snowman Run",
       "Castleball 2.0"
@@ -7713,7 +7703,6 @@ window.GAME_EXTRAS = {
       "Give neighbours a hoop of space."
     ],
     "variations": [
-      "Halloween: Team Light vs Team Dim (Jack-O’-Lantern).",
       "Progression: ball on top vs ball underneath."
     ],
     "look": "Everyone is moving or has a job in Volcanoes and Ice-Cream Cones. A miss is a short task, then back in — nobody sits the period.",
@@ -7753,7 +7742,7 @@ window.GAME_EXTRAS = {
       "If this happens — Kicked cone: put it back as it was.",
       "If this happens — Held so the other team cannot touch it: let go.",
       "If this happens — Count dispute: teacher counts.",
-      "Also called: Jack-O’-Lantern; Jack-O-Lantern.",
+      "Also called: On/Off (year-round name).",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -7763,13 +7752,9 @@ window.GAME_EXTRAS = {
     ],
     "roundEnds": "Most cones in your state after 45–90 seconds.",
     "skins": [
-      "Halloween: Team Light vs Team Dim (Jack-O’-Lantern).",
       "Progression: ball on top vs ball underneath."
     ],
-    "aka": [
-      "Jack-O’-Lantern",
-      "Jack-O-Lantern"
-    ]
+    "aka": ["On/Off"]
   },
   "Balloon Keep-Up": {
     "numbers": "Circles of 4–8 · one balloon per circle · optional noodles or rulers",
@@ -10491,71 +10476,7 @@ window.GAME_EXTRAS = {
       "Daly Exercise: Popcorn Flip"
     ]
   },
-  "Ghostbusters": {
-    "numbers": "Daly Exercise · slot 16-25.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "One job at a time. Extra players fetch or count.",
-      "A miss is a short task, then back in."
-    ],
-    "variations": [
-      "Hit after one bounce is legal.",
-      "Must hit in the air.",
-      "Three roles: tosser, hitter, retriever."
-    ],
-    "look": "Everyone is moving or has a job in Ghostbusters. A miss is a short task, then back in.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Ghostbusters for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Uses the taught action in Ghostbusters with control, not a rush that knocks kit or people."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Chooses space, timing, or a partner job in Ghostbusters instead of crowding."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role and shares kit in Ghostbusters."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Ghostbusters."
-      },
-      {
-        "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
-      }
-    ],
-    "more": [
-      "Grouping: Daly Exercise · slot 16-25.",
-      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
-      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
-      "Watch for crowding at one piece of kit. Add a second station before you add speed."
-    ],
-    "ifThis": [
-      "Kit knocks a person: pause, widen space, restart.",
-      "Argument over a point: teacher call, play on.",
-      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
-    ],
-    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
-    "skins": [
-      "Hit after one bounce is legal.",
-      "Must hit in the air.",
-      "Three roles: tosser, hitter, retriever."
-    ],
-    "aka": [
-      "Daly Exercise: Ghostbusters"
-    ]
-  },
-  "Inchworm Rescue": {
+    "Inchworm Rescue": {
     "numbers": "Daly Exercise · slot 16-25.",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
@@ -11067,135 +10988,7 @@ window.GAME_EXTRAS = {
       "Daly Exercise: Hoop Balance"
     ]
   },
-  "Halloween Chase": {
-    "numbers": "Daly Exercise · slot 16-25.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "One job at a time. Extra players fetch or count.",
-      "A miss is a short task, then back in."
-    ],
-    "variations": [
-      "Walking.",
-      "Sit-down freeze.",
-      "Two teams for infants."
-    ],
-    "look": "Everyone is moving or has a job in Halloween Chase. A miss is a short task, then back in.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Halloween Chase for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Uses the taught action in Halloween Chase with control, not a rush that knocks kit or people."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Chooses space, timing, or a partner job in Halloween Chase instead of crowding."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role and shares kit in Halloween Chase."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Halloween Chase."
-      },
-      {
-        "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
-      }
-    ],
-    "more": [
-      "Grouping: Daly Exercise · slot 16-25.",
-      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
-      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
-      "Watch for crowding at one piece of kit. Add a second station before you add speed."
-    ],
-    "ifThis": [
-      "Kit knocks a person: pause, widen space, restart.",
-      "Argument over a point: teacher call, play on.",
-      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
-    ],
-    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
-    "skins": [
-      "Walking.",
-      "Sit-down freeze.",
-      "Two teams for infants."
-    ],
-    "aka": [
-      "Daly Exercise: Halloween Chase"
-    ]
-  },
-  "Ghostbusters (cone ghosts)": {
-    "numbers": "Daly Exercise · slot 8-15.",
-    "cues": [
-      "Freeze on the whistle — then eyes on the teacher.",
-      "One job at a time. Extra players fetch or count.",
-      "A miss is a short task, then back in."
-    ],
-    "variations": [
-      "Roll only.",
-      "One designated thrower at a time.",
-      "Add a protector in front of the ghosts."
-    ],
-    "look": "Everyone is moving or has a job in Ghostbusters (cone ghosts). A miss is a short task, then back in.",
-    "outcomes": [
-      {
-        "code": "Active Living",
-        "look": "Stays in Ghostbusters (cone ghosts) for the set time; can name breath or enjoyment after — not a ranking."
-      },
-      {
-        "code": "Movement Skill Development",
-        "look": "Uses the taught action in Ghostbusters (cone ghosts) with control, not a rush that knocks kit or people."
-      },
-      {
-        "code": "Movement Tactics and Strategies",
-        "look": "Chooses space, timing, or a partner job in Ghostbusters (cone ghosts) instead of crowding."
-      },
-      {
-        "code": "Personal and Social Development",
-        "look": "Takes a role and shares kit in Ghostbusters (cone ghosts)."
-      },
-      {
-        "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Ghostbusters (cone ghosts)."
-      },
-      {
-        "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
-      },
-      {
-        "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
-      }
-    ],
-    "more": [
-      "Grouping: Daly Exercise · slot 8-15.",
-      "How a round ends: Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
-      "Source: Daly Exercise. Same house rules as the rest of the playbook.",
-      "Watch for crowding at one piece of kit. Add a second station before you add speed."
-    ],
-    "ifThis": [
-      "Kit knocks a person: pause, widen space, restart.",
-      "Argument over a point: teacher call, play on.",
-      "Someone sits out after a miss: they rejoin on the next turn with a short task instead."
-    ],
-    "roundEnds": "Play 3–6 minutes, or first team/player to the posted target, then rotate jobs.",
-    "skins": [
-      "Roll only.",
-      "One designated thrower at a time.",
-      "Add a protector in front of the ghosts."
-    ],
-    "aka": [
-      "Daly Exercise: Ghostbusters (cone ghosts)"
-    ]
-  },
-  "Bounce & Scoop": {
+      "Bounce & Scoop": {
     "numbers": "Daly Exercise · slot 8-15.",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
