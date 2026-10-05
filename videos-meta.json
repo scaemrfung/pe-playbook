@@ -1223,6 +1223,14 @@
    "url": "https://www.youtube.com/watch?v=r8RravG-g9g",
    "checked": "2026-09-27"
   },
+  "yt:rgczzG_Ss6s": {
+   "status": "ok",
+   "http": 200,
+   "title": "Hula Hut Cone Knock Down 🎯⭕️",
+   "channel": "Daly Exercise",
+   "url": "https://www.youtube.com/watch?v=rgczzG_Ss6s",
+   "checked": "2026-10-05"
+  },
   "yt:s3djeKGMYno": {
    "status": "ok",
    "http": 200,
@@ -1666,5 +1674,5 @@
    "reason": "Library link was a generic ‘Quick Game 40’ short; replaced with PhysEdGames’ own Gingerbread Man Tag demo (the clip physedgames.com uses for this game). Old: “Quick Game 40 (kindergarten - grade 5)”."
   }
  ],
- "lastChecked": "2026-10-03"
+ "lastChecked": "2026-10-05"
 }

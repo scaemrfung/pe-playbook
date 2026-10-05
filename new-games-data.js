@@ -11,14 +11,14 @@ window.NEW_GAMES = {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
   "drivePath": "My Drive/SCAE/2026-2027/PE Weekly Plan/PE Games Library.docx",
-  "lastUpdated": "2026-09-21",
-  "lastUpdatedLabel": "Mon Sept 21, 2026",
+  "lastUpdated": "2026-10-05",
+  "lastUpdatedLabel": "Mon Oct 5, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
  "latestWeek": "2026-10-05",
  "docWeek": "2026-10-05",
  "dedupe": {
-  "excluded": 66,
+  "excluded": 67,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
  },
  "units": [
@@ -989,6 +989,117 @@ window.NEW_GAMES = {
    "safety": "Backward travel slowly with eyes over the shoulder."
   },
   {
+   "id": "hoop-run-spin",
+   "added": "2026-10-05",
+   "addedOn": "2026-10-05",
+   "name": "Hoop Run & Spin",
+   "section": "Warm-ups & brain breaks",
+   "desc": "Partners stand facing each other, each holding a hoop upright; on “3-2-1 go” both spin their hoops, swap places and catch the partner’s hoop before it falls; each success = both take a step back to lengthen the run",
+   "sports": "reaction, speed, warm-up",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Daly",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/shorts/4iY1e0N05ek"
+   ],
+   "order": 10,
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "September",
+    "May"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in pairs · one hoop each · 4–8 minutes · freeze on the signal",
+   "cues": [
+    "Spin, then go — do not wait for a perfect hoop.",
+    "Eyes on your partner’s hoop as you run.",
+    "Soft hands to catch; two feet ready.",
+    "Success? One step farther. Miss? Step in and try again."
+   ],
+   "ifThis": [
+    "Hoops flying or thrown: freeze, remind floor-spin only, sit that pair out one turn as helpers.",
+    "Pairs crash in the middle: mark two spots with cones and require a run around the outside."
+   ],
+   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath. No ranking of pairs.",
+   "tips": [
+    "Practise a still spin-and-catch with no run first, then add the swap.",
+    "Scatter pairs across the gym so run paths do not cross. House rules: no elimination; a drop means step closer and stay in.",
+    "Year plan: October, September, May — a quick reaction warm-up any month, especially before invasion or athletics."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Keeps trying spin-and-swap rounds for the set time."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Spins a hoop with control and catches with soft hands after a short run."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Times the run so they arrive before the hoop falls; adjusts distance after success or a miss."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Works with a partner, resets calmly after a drop, and can change partners without fuss."
+    },
+    {
+     "code": "Character Development",
+     "look": "Honest about a missed catch and willing to step closer to succeed."
+    },
+    {
+     "code": "Safety",
+     "look": "Looks before running; spins the hoop on the floor only."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Encourages a partner after a miss; does not blame."
+    }
+   ],
+   "g12": "One shared hoop. Walk the swap. Teacher models spin timing. Short 30–45 second rounds.",
+   "g34": "One hoop each. Jog the swap. Step farther only after two clean catches.",
+   "g56": "Full speed swap with a larger starting gap. Students may design one safe variation (e.g. clap before catching).",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/shorts/4iY1e0N05ek",
+     "title": "Hula Hoop Run & Spin ⭕️🏃‍♂️ A fast, fun PE partner challenge! ⚡ #PE #DalyExercise",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "oldNames": [
+    "Hula Hoop Run & Spin"
+   ],
+   "aliases": [
+    "hula-hoop-run-spin"
+   ],
+   "equipment": "1 hoop per student (or one shared hoop per pair if stock is short); open floor space; music optional",
+   "setup": "Students find a partner and stand facing each other with enough space to spin a hoop. Each partner holds their own hoop upright (or one hoop if sharing). Clear a few metres of space behind each person for the swap run.",
+   "how": [
+    "On GO, both partners spin their hoops on the floor (or give them a gentle spin so they stay upright as long as possible).",
+    "As soon as the hoops are spinning, partners run to swap places.",
+    "Each person tries to catch their partner’s hoop before it falls flat.",
+    "If both catch successfully, take one big step farther apart and try again.",
+    "If a hoop falls, reset closer together, practise one calm spin-and-catch, then build distance again.",
+    "Freeze on the whistle; new partners optional for the next round."
+   ],
+   "safety": "Spin hoops on the floor, not toward faces. Look before you run so you do not collide with another pair. Soft catches — trap the hoop with hands, do not dive. Leave a clear gap between pairs.",
+   "variations": [
+    "One shared hoop: partner A spins, both swap, partner B catches, then reverse.",
+    "Add a locomotor rule for the swap (side-gallop, skip) once catching is reliable.",
+    "Challenge: how many successful catches in a row before a drop.",
+    "Grades 5–6: start farther apart or add a 360 turn during the swap."
+   ]
+  },
+  {
    "id": "turtle-tag",
    "added": "2026-09-07",
    "addedOn": "2026-09-07",
@@ -1003,7 +1114,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/shorts/mf7WYMBG45Q"
    ],
-   "order": 10,
+   "order": 11,
    "unit": "December",
    "alsoFits": [],
    "grades": "1–6",
@@ -1100,7 +1211,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=WKWzotw2cLI"
    ],
-   "order": 11,
+   "order": 12,
    "unit": "December",
    "alsoFits": [],
    "grades": "K–5",
@@ -1197,7 +1308,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=P3_lkGM1FIc"
    ],
-   "order": 12,
+   "order": 13,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -1293,7 +1404,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/foosball-soccer/"
    ],
-   "order": 13,
+   "order": 14,
    "unit": "September",
    "alsoFits": [],
    "grades": "1–6",
@@ -1384,7 +1495,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=s3djeKGMYno"
    ],
-   "order": 14,
+   "order": 15,
    "unit": "September",
    "alsoFits": [
     "January"
@@ -1479,7 +1590,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 15,
+   "order": 16,
    "unit": "January",
    "alsoFits": [
     "September",
@@ -1569,7 +1680,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 16,
+   "order": 17,
    "unit": "January",
    "alsoFits": [],
    "grades": "1–6",
@@ -1658,7 +1769,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=fMOA2Lewl7o"
    ],
-   "order": 17,
+   "order": 18,
    "unit": "October",
    "alsoFits": [
     "September",
@@ -1757,7 +1868,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=MEkbscKPASU"
    ],
-   "order": 18,
+   "order": 19,
    "unit": "September",
    "alsoFits": [
     "January",
@@ -1855,7 +1966,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=GxtCSOCerA8"
    ],
-   "order": 19,
+   "order": 20,
    "unit": "October",
    "alsoFits": [],
    "grades": "3–6",
@@ -1952,7 +2063,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/eagles-vs-seahawks/",
     "https://www.youtube.com/watch?v=ATj3B12FUXw"
    ],
-   "order": 20,
+   "order": 21,
    "unit": "December",
    "alsoFits": [],
    "grades": "K–4",
@@ -2050,7 +2161,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=G7P7d46IRTA"
    ],
-   "order": 21,
+   "order": 22,
    "unit": "September",
    "alsoFits": [],
    "grades": "1–6",
@@ -2143,7 +2254,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 22,
+   "order": 23,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2230,7 +2341,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 23,
+   "order": 24,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2317,7 +2428,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 24,
+   "order": 25,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2407,7 +2518,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/shorts/WQwhGw7g8_Y"
    ],
-   "order": 25,
+   "order": 26,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2503,7 +2614,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=KDnodWqzTFU"
    ],
-   "order": 26,
+   "order": 27,
    "unit": "March",
    "alsoFits": [],
    "grades": "2–6",
@@ -2599,7 +2710,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=sN1CPbhfdKc"
    ],
-   "order": 27,
+   "order": 28,
    "unit": "November",
    "alsoFits": [],
    "grades": "1–6",
@@ -2694,7 +2805,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/bullseye/"
    ],
-   "order": 28,
+   "order": 29,
    "unit": "June",
    "alsoFits": [
     "December"
@@ -2785,7 +2896,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 29,
+   "order": 30,
    "unit": "June",
    "alsoFits": [],
    "grades": "K–3",
@@ -2870,12 +2981,13 @@ window.NEW_GAMES = {
    "sports": "throwing, teamwork",
    "flag": "stay-in",
    "stayIn": true,
-   "source": "Daly",
+   "source": "Daly  (related short: Hoop Hut Cone Knock Down",
    "notes": [],
    "links": [
-    "https://www.youtube.com/shorts/NVpUzALtp_4"
+    "https://www.youtube.com/shorts/NVpUzALtp_4",
+    "https://www.youtube.com/shorts/rgczzG_Ss6s)"
    ],
-   "order": 30,
+   "order": 31,
    "unit": "December",
    "alsoFits": [],
    "grades": "1–6",
@@ -2941,6 +3053,11 @@ window.NEW_GAMES = {
      "url": "https://www.youtube.com/shorts/NVpUzALtp_4",
      "title": "Hoop Hut Knock Down⭕️ Back to school PE game #pegames #school #games #teacher",
      "channel": "Daly Exercise"
+    },
+    {
+     "url": "https://www.youtube.com/shorts/rgczzG_Ss6s)",
+     "title": "Hoop Hut Knock Down demo",
+     "channel": ""
     }
    ],
    "sources": [],
@@ -2976,7 +3093,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=Kjiotn-kWL4"
    ],
-   "order": 31,
+   "order": 32,
    "unit": "June",
    "alsoFits": [],
    "grades": "1–6",
@@ -3071,7 +3188,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=VM-KGUMB0io"
    ],
-   "order": 32,
+   "order": 33,
    "unit": "June",
    "alsoFits": [],
    "grades": "2–8",
@@ -3166,7 +3283,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=0eyapUhwN9k"
    ],
-   "order": 33,
+   "order": 34,
    "unit": "December",
    "alsoFits": [],
    "grades": "3–6",
@@ -3259,7 +3376,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 34,
+   "order": 35,
    "unit": "May",
    "alsoFits": [
     "September"
@@ -3350,7 +3467,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=l3UErQTCxLI"
    ],
-   "order": 35,
+   "order": 36,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -3446,7 +3563,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=hf2o83t-o0g"
    ],
-   "order": 36,
+   "order": 37,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -3541,7 +3658,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=khde7TTPt6Q"
    ],
-   "order": 37,
+   "order": 38,
    "unit": "May",
    "alsoFits": [],
    "grades": "3–6",
@@ -3636,7 +3753,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=khde7TTPt6Q"
    ],
-   "order": 38,
+   "order": 39,
    "unit": "May",
    "alsoFits": [],
    "grades": "1–6",
@@ -3731,7 +3848,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=khde7TTPt6Q"
    ],
-   "order": 39,
+   "order": 40,
    "unit": "May",
    "alsoFits": [],
    "grades": "3–6",
@@ -3827,7 +3944,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/wheelbarrow-walk-olympics/",
     "https://www.youtube.com/watch?v=YzlMMgnY2aQ"
    ],
-   "order": 40,
+   "order": 41,
    "unit": "April",
    "alsoFits": [
     "February"
@@ -3912,6 +4029,212 @@ window.NEW_GAMES = {
    "safety": "Hold at the ankles, go slow, stop if wrists hurt."
   },
   {
+   "id": "pancake-relay",
+   "added": "2026-10-05",
+   "addedOn": "2026-10-05",
+   "name": "Pancake Relay",
+   "section": "Fitness & stations",
+   "desc": "Small teams; each has a tennis racket and a beanbag “pancake”; on signal the first runner balances the beanbag on the racket, travels around the team’s marker cone and back (if it drops, pick it up, replace it and carry on), then carefully hands racket and pancake to the next runner; continue until all have gone",
+   "sports": "athletics, balance, racket-handling (tennis/badminton lead-up)",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Daly",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=43WKN35jXKk"
+   ],
+   "order": 42,
+   "unit": "May",
+   "suggestedMonth": "May",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "inferred",
+   "type": "relay",
+   "typeLabel": "Relays & stations",
+   "slot": "0–5 or 16–25",
+   "grouping": "Even teams of 4–6 · one lane per team · 8–12 m to a turn cone · 8–12 minutes · two rotations then a quality round",
+   "cues": [
+    "Eyes up, soft knees, racket flat like a plate.",
+    "If it falls, stop, replace, continue — no panic sprint.",
+    "Hand off gently at the cone; next runner waits behind the line.",
+    "Stay in your lane; celebrate a clean hand-off."
+   ],
+   "ifThis": [
+    "Pancakes keep falling: slow everyone to a walk and practise a 5-step balance before the next relay.",
+    "Early starts: that runner goes back behind the cone and waits for a clear high-five."
+   ],
+   "roundEnds": "Two full rotations, then one quality round focused on balance and calm hand-offs. Celebrate form, not a ranking.",
+   "tips": [
+    "Demo a slow lap yourself so the class sees replace-and-continue, not a restart.",
+    "Mark wide lanes so rackets never cross. House rules: no elimination; a drop is a pause, then back in.",
+    "Year plan: May, October — athletics balance and a fall fitness relay that also leads into racket skills."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Stays in the relay for every turn and can name how hard the balance work felt."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Keeps the racket level and adjusts speed so the beanbag stays on."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a walk or jog pace that protects the pancake instead of a wild sprint."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Waits behind the line and gives a calm hand-off to the next runner."
+    },
+    {
+     "code": "Character Development",
+     "look": "Replaces a dropped pancake honestly and continues without arguing."
+    },
+    {
+     "code": "Safety",
+     "look": "Keeps the racket low; looks up when turning the cone."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers a teammate after a drop and does not rank teams loudly."
+    }
+   ],
+   "g12": "Walk only. Short lanes (5–6 m). Teacher or a partner may steady the first few hand-offs.",
+   "g34": "Walk then light jog. Full 8–12 m lanes. Students self-check: flat racket, soft knees.",
+   "g56": "Jog with a quality focus. Optional weave through two cones. Peer coach gives one balance cue per lap.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=43WKN35jXKk",
+     "title": "3 PE Games to Get your Class Running by Daly Exercise",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Pancake Relay and Post the Parcel are both shown in this Daly Exercise clip. Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "Per team: 1 tennis racket (or soft racket), 1 beanbag “pancake”, 1 turn cone about 8–12 m away; pinnies optional",
+   "setup": "Make a lane for each team. Put a turn cone at the far end of each lane. Line each team up behind a start cone. Give the first runner a racket with a beanbag balanced on the face (the pancake).",
+   "how": [
+    "On GO, the first runner walks or jogs down the lane with the pancake balanced on the racket, around the turn cone, and back to the start.",
+    "If the beanbag falls, the runner stops, places it back on the racket, and continues from that spot — no restart from the beginning.",
+    "At the start line they carefully hand the racket and pancake to the next runner (no tossing).",
+    "Every teammate goes once. Finish with a quality round where the goal is a smooth hand-off and a pancake that stays on, not a sprint ranking.",
+    "Freeze on the whistle between rounds; reset pancakes and swap who goes first."
+   ],
+   "safety": "Rackets stay low and in front of the body — never swung at people. Walk the first round. Leave a clear gap between lanes. Soft landings if someone stumbles for a dropped pancake.",
+   "variations": [
+    "Younger grades walk only; older grades may jog once balance looks solid.",
+    "Use a soft foam racket or a flat board if tennis rackets are scarce.",
+    "Add a second cone so runners weave, or swap the beanbag for a soft foam ball.",
+    "Partner version: one holds the racket, the other coaches balance cues from the side of the lane."
+   ]
+  },
+  {
+   "id": "post-the-parcel",
+   "added": "2026-10-05",
+   "addedOn": "2026-10-05",
+   "name": "Post the Parcel",
+   "section": "Fitness & stations",
+   "desc": "Small teams, each runner holding a tennis ball; a cone 5–10 m away hides five beanbags underneath; one at a time each runner lifts the cone, leaves their tennis ball, takes a beanbag and races back to tag the next; done when every beanbag has been swapped for a tennis ball",
+   "sports": "athletics, relay, sprint",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Daly",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=43WKN35jXKk"
+   ],
+   "order": 43,
+   "unit": "May",
+   "suggestedMonth": "May",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "3–6",
+   "gradesFrom": "inferred",
+   "type": "relay",
+   "typeLabel": "Relays & stations",
+   "slot": "0–5 or 16–25",
+   "grouping": "Even teams of 4–6 · one lane per team · cone 5–10 m away · 8–12 minutes · finish when all beanbags are swapped",
+   "cues": [
+    "Carry, place, pick, sprint — one job at a time.",
+    "Ball goes down gently at the cone; beanbag comes home.",
+    "Next runner waits behind the line with the next ball ready.",
+    "Cheer every team to the finish — no ranking shout-outs."
+   ],
+   "ifThis": [
+    "Balls get kicked or thrown at the cone: freeze, remind place-down only, restart that leg.",
+    "Lanes collide at the cone: stagger start times by two seconds or widen lanes."
+   ],
+   "roundEnds": "A team is done when all five beanbags are back and five balls are at the far cone. Celebrate every team; then reset for a quality second round.",
+   "tips": [
+    "Count beanbags aloud as they return so teams can self-check.",
+    "Demo one full leg: place the ball, take one beanbag only, sprint back. House rules: no elimination; early finishers become cheerleaders, not winners who sit out.",
+    "Year plan: May, October — sprint fitness that fits track month and a sharp fall warm-up."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "Sprints and recovers for every turn until the team’s parcels are done."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Accelerates in a straight lane and decelerates safely at the cone."
+    },
+    {
+     "code": "Movement Tactics and Strategies",
+     "look": "Chooses a controlled place-and-pick so the next runner gets a clean start."
+    },
+    {
+     "code": "Personal and Social Development",
+     "look": "Takes turns in order and resets equipment for the next round."
+    },
+    {
+     "code": "Character Development",
+     "look": "Takes only one beanbag and places the ball honestly."
+    },
+    {
+     "code": "Safety",
+     "look": "Stays in lane; places the ball down instead of throwing."
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cheers other teams after finishing instead of teasing."
+    }
+   ],
+   "g12": "Walk or jog out, jog back. Use 3 beanbags and a short 5 m cone. Teacher helps at the cone for the first round.",
+   "g34": "Sprint back after a controlled place-and-pick. 5 beanbags, 8 m cone.",
+   "g56": "Full sprint return, 10 m cone. Add a quality rule: ball must sit still on the cone base before the beanbag is taken.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=43WKN35jXKk",
+     "title": "3 PE Games to Get your Class Running by Daly Exercise",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Post the Parcel and Pancake Relay are both shown in this Daly Exercise clip. Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "Per team: 1 turn cone, 5 beanbags stacked or placed at that cone, 5 tennis balls (or soft balls) at the start line; pinnies optional",
+   "setup": "Make a lane for each team. Place a cone 5–10 m from the start line with five beanbags ready under or beside it (the “parcels” waiting to be collected). Give the first runner one tennis ball. Extra balls stay in a pile at the start for the next runners.",
+   "how": [
+    "On GO, the first runner carries a tennis ball to the far cone.",
+    "They leave the ball at the cone (post the parcel) and pick up one beanbag.",
+    "They sprint back to the start and hand the beanbag to the team pile, then the next runner takes a new tennis ball.",
+    "Keep going until all five beanbags have been brought back and five balls sit at the far cone.",
+    "When a team finishes, they cheer other teams in. Reset balls and beanbags, then play a second round with a quality focus (smooth place-and-pick, not wild throws)."
+   ],
+   "safety": "Place the ball down — do not throw it at the cone or at people. Sprint in your own lane. Soft stops at the cone so nobody slides into another lane.",
+   "variations": [
+    "Fewer beanbags (3) for younger grades or a shorter time.",
+    "Carry the ball on a racket for a pancake-style link, or dribble a soccer ball instead of carrying.",
+    "Add a locomotor rule on the way out (skip) and a sprint on the way back.",
+    "Make the cone farther for grades 5–6 once the place-and-pick is clean."
+   ]
+  },
+  {
    "id": "zone-tag",
    "added": "2026-10-05",
    "addedOn": "2026-10-03",
@@ -3926,7 +4249,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=DAgKmt4cXCA"
    ],
-   "order": 41,
+   "order": 44,
    "unit": "October",
    "alsoFits": [
     "September"
@@ -4032,7 +4355,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/mat-tag/"
    ],
-   "order": 42,
+   "order": 45,
    "unit": "June",
    "alsoFits": [
     "October"
@@ -4133,7 +4456,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/capture-the-flag-relay/"
    ],
-   "order": 43,
+   "order": 46,
    "unit": "October",
    "alsoFits": [
     "September"
@@ -4217,317 +4540,6 @@ window.NEW_GAMES = {
     "Catchers who step out of the hoop do not count the catch.",
     "Make the hoop spots closer for younger students or farther for grades 5–6.",
     "Set a target of 10 flags instead of 15 if time is short."
-   ]
-  },
-  {
-   "id": "pancake-relay",
-   "added": "2026-10-05",
-   "addedOn": "2026-10-05",
-   "name": "Pancake Relay",
-   "section": "Fitness & stations",
-   "desc": "Small teams; each runner balances a beanbag “pancake” on a tennis racket around a cone and back; if it falls, replace and continue; hand off to the next runner",
-   "sports": "athletics, balance, racket lead-up, fitness, gr 1–6",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=43WKN35jXKk"
-   ],
-   "order": 44,
-   "unit": "May",
-   "suggestedMonth": "May",
-   "alsoFits": [
-    "October"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "doc",
-   "type": "relay",
-   "typeLabel": "Relays & stations",
-   "slot": "0–5 or 16–25",
-   "grouping": "Even teams of 4–6 · one lane per team · 8–12 m to a turn cone · 8–12 minutes · two rotations then a quality round",
-   "cues": [
-    "Eyes up, soft knees, racket flat like a plate.",
-    "If it falls, stop, replace, continue — no panic sprint.",
-    "Hand off gently at the cone; next runner waits behind the line.",
-    "Stay in your lane; celebrate a clean hand-off."
-   ],
-   "ifThis": [
-    "Pancakes keep falling: slow everyone to a walk and practise a 5-step balance before the next relay.",
-    "Early starts: that runner goes back behind the cone and waits for a clear high-five."
-   ],
-   "roundEnds": "Two full rotations, then one quality round focused on balance and calm hand-offs. Celebrate form, not a ranking.",
-   "tips": [
-    "Demo a slow lap yourself so the class sees replace-and-continue, not a restart.",
-    "Mark wide lanes so rackets never cross. House rules: no elimination; a drop is a pause, then back in.",
-    "Year plan: May, October — athletics balance and a fall fitness relay that also leads into racket skills."
-   ],
-   "outcomes": [
-    {
-     "code": "Active Living",
-     "look": "Stays in the relay for every turn and can name how hard the balance work felt."
-    },
-    {
-     "code": "Movement Skill Development",
-     "look": "Keeps the racket level and adjusts speed so the beanbag stays on."
-    },
-    {
-     "code": "Movement Tactics and Strategies",
-     "look": "Chooses a walk or jog pace that protects the pancake instead of a wild sprint."
-    },
-    {
-     "code": "Personal and Social Development",
-     "look": "Waits behind the line and gives a calm hand-off to the next runner."
-    },
-    {
-     "code": "Character Development",
-     "look": "Replaces a dropped pancake honestly and continues without arguing."
-    },
-    {
-     "code": "Safety",
-     "look": "Keeps the racket low; looks up when turning the cone."
-    },
-    {
-     "code": "Healthy Relationships",
-     "look": "Cheers a teammate after a drop and does not rank teams loudly."
-    }
-   ],
-   "g12": "Walk only. Short lanes (5–6 m). Teacher or a partner may steady the first few hand-offs.",
-   "g34": "Walk then light jog. Full 8–12 m lanes. Students self-check: flat racket, soft knees.",
-   "g56": "Jog with a quality focus. Optional weave through two cones. Peer coach gives one balance cue per lap.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=43WKN35jXKk",
-     "title": "3 PE Games to Get your Class Running by Daly Exercise",
-     "channel": "Daly Exercise"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Pancake Relay and Post the Parcel are both shown in this Daly Exercise clip. Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "Per team: 1 tennis racket (or soft racket), 1 beanbag “pancake”, 1 turn cone about 8–12 m away; pinnies optional",
-   "setup": "Make a lane for each team. Put a turn cone at the far end of each lane. Line each team up behind a start cone. Give the first runner a racket with a beanbag balanced on the face (the pancake).",
-   "how": [
-    "On GO, the first runner walks or jogs down the lane with the pancake balanced on the racket, around the turn cone, and back to the start.",
-    "If the beanbag falls, the runner stops, places it back on the racket, and continues from that spot — no restart from the beginning.",
-    "At the start line they carefully hand the racket and pancake to the next runner (no tossing).",
-    "Every teammate goes once. Finish with a quality round where the goal is a smooth hand-off and a pancake that stays on, not a sprint ranking.",
-    "Freeze on the whistle between rounds; reset pancakes and swap who goes first."
-   ],
-   "safety": "Rackets stay low and in front of the body — never swung at people. Walk the first round. Leave a clear gap between lanes. Soft landings if someone stumbles for a dropped pancake.",
-   "variations": [
-    "Younger grades walk only; older grades may jog once balance looks solid.",
-    "Use a soft foam racket or a flat board if tennis rackets are scarce.",
-    "Add a second cone so runners weave, or swap the beanbag for a soft foam ball.",
-    "Partner version: one holds the racket, the other coaches balance cues from the side of the lane."
-   ]
-  },
-  {
-   "id": "post-the-parcel",
-   "added": "2026-10-05",
-   "addedOn": "2026-10-05",
-   "name": "Post the Parcel",
-   "section": "Fitness & stations",
-   "desc": "Carry a tennis ball to a cone 5–10 m away that has five beanbags under it; leave the ball, take a beanbag, sprint back; done when all beanbags are swapped for balls",
-   "sports": "athletics, sprint, fitness, gr 1–6",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=43WKN35jXKk"
-   ],
-   "order": 45,
-   "unit": "May",
-   "suggestedMonth": "May",
-   "alsoFits": [
-    "October"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "doc",
-   "type": "relay",
-   "typeLabel": "Relays & stations",
-   "slot": "0–5 or 16–25",
-   "grouping": "Even teams of 4–6 · one lane per team · cone 5–10 m away · 8–12 minutes · finish when all beanbags are swapped",
-   "cues": [
-    "Carry, place, pick, sprint — one job at a time.",
-    "Ball goes down gently at the cone; beanbag comes home.",
-    "Next runner waits behind the line with the next ball ready.",
-    "Cheer every team to the finish — no ranking shout-outs."
-   ],
-   "ifThis": [
-    "Balls get kicked or thrown at the cone: freeze, remind place-down only, restart that leg.",
-    "Lanes collide at the cone: stagger start times by two seconds or widen lanes."
-   ],
-   "roundEnds": "A team is done when all five beanbags are back and five balls are at the far cone. Celebrate every team; then reset for a quality second round.",
-   "tips": [
-    "Count beanbags aloud as they return so teams can self-check.",
-    "Demo one full leg: place the ball, take one beanbag only, sprint back. House rules: no elimination; early finishers become cheerleaders, not winners who sit out.",
-    "Year plan: May, October — sprint fitness that fits track month and a sharp fall warm-up."
-   ],
-   "outcomes": [
-    {
-     "code": "Active Living",
-     "look": "Sprints and recovers for every turn until the team’s parcels are done."
-    },
-    {
-     "code": "Movement Skill Development",
-     "look": "Accelerates in a straight lane and decelerates safely at the cone."
-    },
-    {
-     "code": "Movement Tactics and Strategies",
-     "look": "Chooses a controlled place-and-pick so the next runner gets a clean start."
-    },
-    {
-     "code": "Personal and Social Development",
-     "look": "Takes turns in order and resets equipment for the next round."
-    },
-    {
-     "code": "Character Development",
-     "look": "Takes only one beanbag and places the ball honestly."
-    },
-    {
-     "code": "Safety",
-     "look": "Stays in lane; places the ball down instead of throwing."
-    },
-    {
-     "code": "Healthy Relationships",
-     "look": "Cheers other teams after finishing instead of teasing."
-    }
-   ],
-   "g12": "Walk or jog out, jog back. Use 3 beanbags and a short 5 m cone. Teacher helps at the cone for the first round.",
-   "g34": "Sprint back after a controlled place-and-pick. 5 beanbags, 8 m cone.",
-   "g56": "Full sprint return, 10 m cone. Add a quality rule: ball must sit still on the cone base before the beanbag is taken.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=43WKN35jXKk",
-     "title": "3 PE Games to Get your Class Running by Daly Exercise",
-     "channel": "Daly Exercise"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Post the Parcel and Pancake Relay are both shown in this Daly Exercise clip. Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "Per team: 1 turn cone, 5 beanbags stacked or placed at that cone, 5 tennis balls (or soft balls) at the start line; pinnies optional",
-   "setup": "Make a lane for each team. Place a cone 5–10 m from the start line with five beanbags ready under or beside it (the “parcels” waiting to be collected). Give the first runner one tennis ball. Extra balls stay in a pile at the start for the next runners.",
-   "how": [
-    "On GO, the first runner carries a tennis ball to the far cone.",
-    "They leave the ball at the cone (post the parcel) and pick up one beanbag.",
-    "They sprint back to the start and hand the beanbag to the team pile, then the next runner takes a new tennis ball.",
-    "Keep going until all five beanbags have been brought back and five balls sit at the far cone.",
-    "When a team finishes, they cheer other teams in. Reset balls and beanbags, then play a second round with a quality focus (smooth place-and-pick, not wild throws)."
-   ],
-   "safety": "Place the ball down — do not throw it at the cone or at people. Sprint in your own lane. Soft stops at the cone so nobody slides into another lane.",
-   "variations": [
-    "Fewer beanbags (3) for younger grades or a shorter time.",
-    "Carry the ball on a racket for a pancake-style link, or dribble a soccer ball instead of carrying.",
-    "Add a locomotor rule on the way out (skip) and a sprint on the way back.",
-    "Make the cone farther for grades 5–6 once the place-and-pick is clean."
-   ]
-  },
-  {
-   "id": "hoop-run-spin",
-   "added": "2026-10-05",
-   "addedOn": "2026-10-05",
-   "name": "Hoop Run & Spin",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Partners face each other holding hoops; spin the hoops together, swap places, and catch the partner’s hoop before it falls; step farther apart on success",
-   "sports": "warm-up, reaction, speed, partner work, gr 1–6",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/shorts/4iY1e0N05ek"
-   ],
-   "order": 46,
-   "unit": "October",
-   "suggestedMonth": "October",
-   "alsoFits": [
-    "September",
-    "May"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "doc",
-   "type": "loco",
-   "typeLabel": "Locomotor & listen",
-   "slot": "0–5 or 16–25",
-   "grouping": "Whole class in pairs · one hoop each · 4–8 minutes · freeze on the signal",
-   "cues": [
-    "Spin, then go — do not wait for a perfect hoop.",
-    "Eyes on your partner’s hoop as you run.",
-    "Soft hands to catch; two feet ready.",
-    "Success? One step farther. Miss? Step in and try again."
-   ],
-   "ifThis": [
-    "Hoops flying or thrown: freeze, remind floor-spin only, sit that pair out one turn as helpers.",
-    "Pairs crash in the middle: mark two spots with cones and require a run around the outside."
-   ],
-   "roundEnds": "Short bursts on the teacher's signal. End on a calm freeze and one breath. No ranking of pairs.",
-   "tips": [
-    "Practise a still spin-and-catch with no run first, then add the swap.",
-    "Scatter pairs across the gym so run paths do not cross. House rules: no elimination; a drop means step closer and stay in.",
-    "Year plan: October, September, May — a quick reaction warm-up any month, especially before invasion or athletics."
-   ],
-   "outcomes": [
-    {
-     "code": "Active Living",
-     "look": "Keeps trying spin-and-swap rounds for the set time."
-    },
-    {
-     "code": "Movement Skill Development",
-     "look": "Spins a hoop with control and catches with soft hands after a short run."
-    },
-    {
-     "code": "Movement Tactics and Strategies",
-     "look": "Times the run so they arrive before the hoop falls; adjusts distance after success or a miss."
-    },
-    {
-     "code": "Personal and Social Development",
-     "look": "Works with a partner, resets calmly after a drop, and can change partners without fuss."
-    },
-    {
-     "code": "Character Development",
-     "look": "Honest about a missed catch and willing to step closer to succeed."
-    },
-    {
-     "code": "Safety",
-     "look": "Looks before running; spins the hoop on the floor only."
-    },
-    {
-     "code": "Healthy Relationships",
-     "look": "Encourages a partner after a miss; does not blame."
-    }
-   ],
-   "g12": "One shared hoop. Walk the swap. Teacher models spin timing. Short 30–45 second rounds.",
-   "g34": "One hoop each. Jog the swap. Step farther only after two clean catches.",
-   "g56": "Full speed swap with a larger starting gap. Students may design one safe variation (e.g. clap before catching).",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/shorts/4iY1e0N05ek",
-     "title": "Hula Hoop Run & Spin ⭕️🏃‍♂️ A fast, fun PE partner challenge! ⚡ #PE #DalyExercise",
-     "channel": "Daly Exercise"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "1 hoop per student (or one shared hoop per pair if stock is short); open floor space; music optional",
-   "setup": "Students find a partner and stand facing each other with enough space to spin a hoop. Each partner holds their own hoop upright (or one hoop if sharing). Clear a few metres of space behind each person for the swap run.",
-   "how": [
-    "On GO, both partners spin their hoops on the floor (or give them a gentle spin so they stay upright as long as possible).",
-    "As soon as the hoops are spinning, partners run to swap places.",
-    "Each person tries to catch their partner’s hoop before it falls flat.",
-    "If both catch successfully, take one big step farther apart and try again.",
-    "If a hoop falls, reset closer together, practise one calm spin-and-catch, then build distance again.",
-    "Freeze on the whistle; new partners optional for the next round."
-   ],
-   "safety": "Spin hoops on the floor, not toward faces. Look before you run so you do not collide with another pair. Soft catches — trap the hoop with hands, do not dive. Leave a clear gap between pairs.",
-   "variations": [
-    "One shared hoop: partner A spins, both swap, partner B catches, then reverse.",
-    "Add a locomotor rule for the swap (side-gallop, skip) once catching is reliable.",
-    "Challenge: how many successful catches in a row before a drop.",
-    "Grades 5–6: start farther apart or add a 360 turn during the swap."
    ]
   }
  ]
