@@ -80,7 +80,7 @@
   /* Top nav: six items. Games, Plans, Outcomes and More each have a short
      section menu (SUBNAV) that shows under them. "Month" opens the current month. */
   const NAV = [
-    ["index.html", "This week"],
+    ["index.html", "Home"],
     ["games-hub.html", "Games"],
     ["weekly-plans.html", "Plans"],
     ["month.html", "Month"],
