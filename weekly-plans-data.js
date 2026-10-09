@@ -4,6 +4,14 @@
    (school-year.js; ?today=YYYY-MM-DD to preview another date). No need to mark one as featured. */
 window.WEEKLY_PLANS = [
   {
+    week: "2026-10-12",
+    title: "Oct 13–16 2026 · Parachute Week 7",
+    month: "October 2026",
+    theme: "Parachute",
+    file: "weekly-plans/PE-Weekly-Plan-Oct-13-16-2026-Parachute-Week-7.docx",
+    note: "Short week · Mon Oct 12 Thanksgiving (no school) · Wed Oct 14 early dismissal · Parachute Week 7 (October W2): ripples and dome, popcorn, change-places, number games"
+  },
+  {
     week: "2026-10-05",
     title: "Oct 5–9 2026 · Football Week 6",
     month: "October 2026",
