@@ -660,7 +660,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Heads up, soft landings, freeze on the whistle. No pushing to a line."
+     "look": "Leaves a hoop of space around them."
     },
     {
      "code": "Healthy Relationships",
@@ -1359,7 +1359,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Soft two-finger or noodle tag on the back or shoulder — never the head. Freeze on the whistle."
+     "look": "Gentle foot taps only. Freeze on the whistle."
     },
     {
      "code": "Healthy Relationships",
@@ -1730,7 +1730,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+     "look": "Heads up. No body checks. Equipment stays below the agreed height."
     },
     {
      "code": "Healthy Relationships",
@@ -2016,7 +2016,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+     "look": "Heads up when the disc is loose. No body checks."
     },
     {
      "code": "Healthy Relationships",
@@ -2113,7 +2113,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+     "look": "Heads up and spreads out. No body checks."
     },
     {
      "code": "Healthy Relationships",
@@ -2211,7 +2211,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+     "look": "Heads up. No body checks. Equipment stays below the agreed height."
     },
     {
      "code": "Healthy Relationships",
@@ -2304,7 +2304,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+     "look": "Freeze on the whistle. No throws at a face."
     },
     {
      "code": "Healthy Relationships",
@@ -2391,7 +2391,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+     "look": "Freeze on the whistle. No throws at a face."
     },
     {
      "code": "Healthy Relationships",
@@ -2478,7 +2478,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+     "look": "Stays in a wide lane; no diving for the finish."
     },
     {
      "code": "Healthy Relationships",
@@ -2568,7 +2568,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+     "look": "Freeze on the whistle. No throws at a face."
     },
     {
      "code": "Healthy Relationships",
@@ -2664,7 +2664,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+     "look": "Freeze on the whistle. No throws at a face."
     },
     {
      "code": "Healthy Relationships",
@@ -2760,7 +2760,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+     "look": "Freeze on the whistle. No throws at a face."
     },
     {
      "code": "Healthy Relationships",
@@ -2857,7 +2857,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+     "look": "Freeze on the whistle. No throws at a face."
     },
     {
      "code": "Healthy Relationships",
@@ -2946,7 +2946,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+     "look": "Freeze on the whistle. No throws at a face."
     },
     {
      "code": "Healthy Relationships",
@@ -3037,7 +3037,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+     "look": "Freeze on the whistle. No throws at a face."
     },
     {
      "code": "Healthy Relationships",
@@ -3143,7 +3143,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+     "look": "Looks up after contact. Bat or kicker away from the waiting line."
     },
     {
      "code": "Healthy Relationships",
@@ -3238,7 +3238,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+     "look": "Looks up after contact. Bat or kicker away from the waiting line."
     },
     {
      "code": "Healthy Relationships",
@@ -3333,7 +3333,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Freeze on the whistle. Soft tags. No throws at a face."
+     "look": "Freeze on the whistle. No throws at a face."
     },
     {
      "code": "Healthy Relationships",
@@ -3613,7 +3613,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+     "look": "Stays in a clear lane; one person on a mat at a time."
     },
     {
      "code": "Healthy Relationships",

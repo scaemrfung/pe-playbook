@@ -1758,8 +1758,7 @@ window.GAME_EXTRAS = {
       "Freeze on the whistle — then eyes on the teacher.",
       "Head up. Pass or move — do not crowd the ball.",
       "Find a passing lane, not a pile-up.",
-      "Soft send; the ball stays below the chest unless the sport needs a high set.",
-      "Below the waist. A high ball is dead."
+      "Soft send; the ball stays below the chest unless the sport needs a high set."
     ],
     "variations": [
       "Must complete one pass before a shot or a score.",
@@ -1790,7 +1789,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Two-finger or noodle tag; jail is a short wait, then a way home."
+        "look": "No body checks; throws stay away from faces."
       },
       {
         "code": "Healthy Relationships",
@@ -1971,7 +1970,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+        "look": "Heads up. No body checks. Equipment stays below the agreed height."
       },
       {
         "code": "Healthy Relationships",
@@ -2031,7 +2030,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+        "look": "Heads up. No body checks. Equipment stays below the agreed height."
       },
       {
         "code": "Healthy Relationships",
@@ -2392,7 +2391,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+        "look": "Heads up. No body checks. Equipment stays below the agreed height."
       },
       {
         "code": "Healthy Relationships",
@@ -2453,7 +2452,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+        "look": "Heads up. No body checks. Equipment stays below the agreed height."
       },
       {
         "code": "Healthy Relationships",
@@ -2636,7 +2635,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+        "look": "Heads up. No body checks. Equipment stays below the agreed height."
       },
       {
         "code": "Healthy Relationships",
@@ -2693,7 +2692,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Two-finger or noodle tag; jail is a short wait, then a way home."
+        "look": "Two-finger or noodle tag."
       },
       {
         "code": "Healthy Relationships",
@@ -3069,7 +3068,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "No slide tackles; foam or school soccer ball as listed."
+        "look": "No body checks; the ball stays away from faces."
       },
       {
         "code": "Healthy Relationships",
@@ -3201,7 +3200,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+        "look": "Heads up. No body checks. Equipment stays below the agreed height."
       },
       {
         "code": "Healthy Relationships",
@@ -3262,7 +3261,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Heads up. No slide tackles or body checks. Equipment stays below the agreed height."
+        "look": "Heads up. No body checks. Equipment stays below the agreed height."
       },
       {
         "code": "Healthy Relationships",
@@ -4064,7 +4063,7 @@ window.GAME_EXTRAS = {
       "If this happens — Defender holds the pin on: no block, reset.",
       "If this happens — Nobody can score: must roll, or add a second castle.",
       "Also called: Protect the House; Guard the Cone; Protect the King.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Throw at a face: that thrower sits one reset.",
@@ -4198,7 +4197,7 @@ window.GAME_EXTRAS = {
       "If this happens — Human wall in front of every pin: send them back to the mark.",
       "If this happens — Tower collapses: rebuild from the fallen pins, no extra collect.",
       "Also called: Skittles; Knock the Pin; Build Your Tower; Pin Knockover; Pin Galore Soccer; Hockey pin knockdown; Roll to hit the pin.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Two pins from one ball: take both only if you have said so.",
@@ -4394,7 +4393,7 @@ window.GAME_EXTRAS = {
       "If this happens — Ball on the rim: teacher call.",
       "If this happens — Forgot the score: rewind to last agreed total.",
       "Also called: Rolling 21; Hoop bowling; Christmas Lights; Land the ball in the hoop; Chip into buckets.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Ball on the rim: teacher call.",
@@ -4587,7 +4586,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+        "look": "Soft tags; no grabbing cards out of a hand."
       },
       {
         "code": "Healthy Relationships",
@@ -4648,7 +4647,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+        "look": "Looks up after contact. Bat or kicker away from the waiting line."
       },
       {
         "code": "Healthy Relationships",
@@ -4721,7 +4720,7 @@ window.GAME_EXTRAS = {
       "If this happens — Cross the centre: that throw does not count.",
       "If this happens — All down in 10 seconds: play two bouts and add.",
       "Also called: Bombardment; Battleball; Star Wars; Snowball Fight; Snowman Run; Castleball 2.0.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Throw at a person: no point, warning.",
@@ -4781,7 +4780,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact; throws at a runner stay low."
+        "look": "Throws stay away from faces; balloons stay in the pair’s square."
       },
       {
         "code": "Healthy Relationships",
@@ -4841,7 +4840,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+        "look": "Throws into open space, not at people."
       },
       {
         "code": "Healthy Relationships",
@@ -4902,7 +4901,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+        "look": "Looks up after contact. Bat or kicker away from the waiting line."
       },
       {
         "code": "Healthy Relationships",
@@ -4963,7 +4962,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+        "look": "Looks up after contact. Bat or kicker away from the waiting line."
       },
       {
         "code": "Healthy Relationships",
@@ -5024,7 +5023,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+        "look": "Looks up after contact. Bat or kicker away from the waiting line."
       },
       {
         "code": "Healthy Relationships",
@@ -5085,7 +5084,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+        "look": "Looks up after contact. Bat or kicker away from the waiting line."
       },
       {
         "code": "Healthy Relationships",
@@ -5146,7 +5145,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+        "look": "Looks up after contact. Bat or kicker away from the waiting line."
       },
       {
         "code": "Healthy Relationships",
@@ -5264,7 +5263,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact. Throws at a runner stay low. Bat or kicker away from the waiting line."
+        "look": "Looks up after contact. Bat or kicker away from the waiting line."
       },
       {
         "code": "Healthy Relationships",
@@ -5377,7 +5376,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact; throws at a runner stay low."
+        "look": "Looks up after contact; the ball stays away from faces."
       },
       {
         "code": "Healthy Relationships",
@@ -5581,7 +5580,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+        "look": "Runs in a lane. No diving at the line."
       },
       {
         "code": "Healthy Relationships",
@@ -5641,7 +5640,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+        "look": "Runs in a lane. No diving at the line."
       },
       {
         "code": "Healthy Relationships",
@@ -6001,7 +6000,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Runs in a lane. No diving at the line. Equipment carried, not thrown at people."
+        "look": "Equipment carried, not thrown at people."
       },
       {
         "code": "Healthy Relationships",
@@ -6443,7 +6442,7 @@ window.GAME_EXTRAS = {
       "If this happens — Uncatchable throw: replay, no miss.",
       "If this happens — Whole class claps on a fake: laugh, reset, no mass out.",
       "Also called: Throw-clap-catch relay; Bounce and Clap; Catch Clap.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Uncatchable throw: replay, no miss.",
@@ -6514,7 +6513,7 @@ window.GAME_EXTRAS = {
       "If this happens — Early start: back to hoop 1.",
       "If this happens — Hands on a no-hands carry: restart that pair.",
       "Also called: Toe-tap hoop relay; Circle Hoop Pass; Circle Hoop; Hop-the-hoops relay; Rabbit Relay; Hoop Stick; Caterpillar Relay.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Early start: back to hoop 1.",
@@ -7132,7 +7131,7 @@ window.GAME_EXTRAS = {
       "If this happens — Two corners called: they must choose one.",
       "If this happens — Use the last call to line up.",
       "Also called: Four Corners Stay-In.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Sliding into corners: send them back to travel again.",
@@ -7743,7 +7742,7 @@ window.GAME_EXTRAS = {
       "If this happens — Held so the other team cannot touch it: let go.",
       "If this happens — Count dispute: teacher counts.",
       "Also called: On/Off (year-round name).",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Kicked cone: put it back as it was.",
@@ -7810,7 +7809,7 @@ window.GAME_EXTRAS = {
       "If this happens — Sticks clash: widen the circle.",
       "If this happens — Balloon leaves the circle: retrieve and restart that count.",
       "Also called: Balloon Keep-Ups; Balloon Keep-Up station.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Hard swat: sit one restart, then rejoin.",
@@ -7998,7 +7997,7 @@ window.GAME_EXTRAS = {
       "If this happens — Fist smash: redo as an open-hand hit.",
       "If this happens — Ball lifted in floorball: dead ball, restart.",
       "Also called: Cooperative Wall Ball; Hand Tennis; Floorball; Wall-ball rally; Gaga.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Fist smash: redo as an open-hand hit.",
@@ -8590,8 +8589,7 @@ window.GAME_EXTRAS = {
       "Freeze on the whistle — then eyes on the teacher.",
       "Quiet landings. Bend ankles, knees, and hips.",
       "Quality beats speed. Stop if a wrist, knee, or back complains.",
-      "Breathe out on the work; do not hold a breath to rush.",
-      "Finger pads. Ball stays below the waist on the dribble."
+      "Breathe out on the work; do not hold a breath to rush."
     ],
     "variations": [
       "Icebergs: remove hoops with no music.",
@@ -8637,7 +8635,7 @@ window.GAME_EXTRAS = {
       "If this happens — Collision: walking travel.",
       "If this happens — Tears at the last hoop: keep two hoops and stop.",
       "Also called: Fitness Musical Hoops; Icebergs; Hoop Twister; Hoop Madness; Musical Rings; Musical Cones.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Camping while music plays: they must leave it.",
@@ -9183,7 +9181,7 @@ window.GAME_EXTRAS = {
       "If this happens — Thumb pinching the ball on the whole time: remind them it must sit.",
       "If this happens — Shoulder charge: no point, both reset.",
       "Also called: Racquet waiter; Beanbag head walk; Body-part beanbags; Protect the Ice Cream; Cone Stack; Core Beanbag Rescue.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Thumb pinching the ball on the whole time: remind them it must sit.",
@@ -9401,7 +9399,7 @@ window.GAME_EXTRAS = {
       "If this happens — Space collisions: smaller shapes, more room.",
       "If this happens — Need a pulse-raiser: add music and travel the commands.",
       "Also called: Rush Hour; Red Line; The Video Camera Game; Video Camera; Captain’s Deck / Shipwreck; Shipwreck; Signals / shapes; Laps and Lines / Signals; Christmas Warm-Up.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Space collisions: smaller shapes, more room.",
@@ -9466,7 +9464,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Tagged player re-enters next wave — no last-one-standing."
+        "look": "Quiet landings; walks on and off mats."
       },
       {
         "code": "Healthy Relationships",
@@ -9479,7 +9477,7 @@ window.GAME_EXTRAS = {
       "If this happens — Spare hoop left behind: they need it — send someone back.",
       "If this happens — Island pile-up: one quiet leader talks.",
       "Also called: Bridges & Rivers; Cross the River; Polar Express; Flip Flop.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Spare hoop left behind: they need it — send someone back.",
@@ -9625,7 +9623,7 @@ window.GAME_EXTRAS = {
       "If this happens — Who last threw is unclear: the holder when the music stopped runs.",
       "If this happens — Two balls in a line of three is the hard version — teach one ball first.",
       "Also called: Throw & Go; Beat Ball / Beat the Ball; Beat Ball; Hand It Over; Ball Run.",
-      "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Who last threw is unclear: the holder when the music stopped runs.",
@@ -9680,7 +9678,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle. No throws at a face."
       },
       {
         "code": "Healthy Relationships",
@@ -9872,7 +9870,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -9936,7 +9934,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -10000,7 +9998,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -10064,7 +10062,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle. No throws at a face."
       },
       {
         "code": "Healthy Relationships",
@@ -10128,7 +10126,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -10192,7 +10190,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle. No throws at a face."
       },
       {
         "code": "Healthy Relationships",
@@ -10320,7 +10318,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle. No throws at a face."
       },
       {
         "code": "Healthy Relationships",
@@ -10384,7 +10382,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle. No throws at a face."
       },
       {
         "code": "Healthy Relationships",
@@ -10448,7 +10446,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle. No throws at a face."
       },
       {
         "code": "Healthy Relationships",
@@ -10576,7 +10574,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -10640,7 +10638,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -10704,7 +10702,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -10768,7 +10766,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -10832,7 +10830,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle. No throws at a face."
       },
       {
         "code": "Healthy Relationships",
@@ -10960,7 +10958,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle. Soft tags."
       },
       {
         "code": "Healthy Relationships",
@@ -11024,7 +11022,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle. No throws at a face."
       },
       {
         "code": "Healthy Relationships",
@@ -11088,7 +11086,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle. No throws at a face."
       },
       {
         "code": "Healthy Relationships",
@@ -11152,7 +11150,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -11216,7 +11214,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Freeze on the whistle. Soft tags. No throws at a face."
+        "look": "Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",

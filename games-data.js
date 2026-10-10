@@ -3627,7 +3627,7 @@ window.GAME_DETAILS = [
     "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "0–5",
     "type": "loco",
     "ifThis": [
@@ -4468,7 +4468,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
