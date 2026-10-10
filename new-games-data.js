@@ -772,7 +772,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=Gn4Uai6dbpU",
-     "title": "Horse and Jockey 🐴🏇",
+     "title": "Horse and Jockey",
      "channel": "Daly Exercise"
     }
    ],
@@ -873,7 +873,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=9YB-Lk0vbIA",
-     "title": "3 Brand New Games with Dancing by Daly Exercise💃",
+     "title": "Three dance games by Daly Exercise",
      "channel": "Daly Exercise"
     }
    ],
@@ -971,7 +971,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=9YB-Lk0vbIA",
-     "title": "3 Brand New Games with Dancing by Daly Exercise💃",
+     "title": "Three dance games by Daly Exercise",
      "channel": "Daly Exercise"
     }
    ],
@@ -1069,7 +1069,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/shorts/4iY1e0N05ek",
-     "title": "Hula Hoop Run & Spin ⭕️🏃‍♂️ A fast, fun PE partner challenge! ⚡ #PE #DalyExercise",
+     "title": "Hoop Run and Spin: a partner challenge",
      "channel": "Daly Exercise"
     }
    ],
@@ -1122,7 +1122,7 @@ window.NEW_GAMES = {
    "type": "tag",
    "typeLabel": "Tag & chase",
    "slot": "16–25",
-   "grouping": "Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total",
+   "grouping": "Whole class · 2–3 noodle taggers · 45–90 second rounds · 8–12 minutes total",
    "cues": [
     "Runners can drop onto their back like a turtle (arms and legs up) to be safe for up to 5…",
     "Longer only if a tagger is hovering.",
@@ -1179,7 +1179,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/shorts/mf7WYMBG45Q",
-     "title": "\"Turtle Tag\" Classic game! #physicaleducation #physed",
+     "title": "Turtle Tag",
      "channel": "Coach Gelardi"
     }
    ],
@@ -1373,7 +1373,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=P3_lkGM1FIc",
-     "title": "3 Animal Themed Games To Use For Your PE 🦀🦈🐛",
+     "title": "Three animal-themed PE games",
      "channel": "Daly Exercise"
     }
    ],
@@ -1837,7 +1837,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=fMOA2Lewl7o",
-     "title": "The Perfect Pass - A great PE game for accuracy, power & technique!",
+     "title": "The Perfect Pass: accuracy, power and technique",
      "channel": "Prime Coaching Sport"
     }
    ],
@@ -1935,7 +1935,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=MEkbscKPASU",
-     "title": "Quick soccer drills: Avoid the mines (for ages 5-12) ⚽️",
+     "title": "Soccer drill: Avoid the Mines (ages 5–12)",
      "channel": "Prime Coaching Sport"
     }
    ],
@@ -2582,7 +2582,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/shorts/WQwhGw7g8_Y",
-     "title": "Slam Ball ⚽🎯",
+     "title": "Slam Ball",
      "channel": "Daly Exercise"
     }
    ],
@@ -2678,7 +2678,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=KDnodWqzTFU",
-     "title": "\"Four Square Paddle Ball\" 3 Levels #physicaleducation #physed #elementarype",
+     "title": "Four Square Paddle Ball: three levels",
      "channel": "Coach Gelardi"
     }
    ],
@@ -2774,7 +2774,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=sN1CPbhfdKc",
-     "title": "Air Hockey PE Game🥅 #dalyexercise #sports #pegames #inclusivepe #teacher",
+     "title": "Air Hockey PE game",
      "channel": "Daly Exercise"
     }
    ],
@@ -3051,13 +3051,13 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/shorts/NVpUzALtp_4",
-     "title": "Hoop Hut Knock Down⭕️ Back to school PE game #pegames #school #games #teacher",
+     "title": "Hoop Hut Knock Down",
      "channel": "Daly Exercise"
     },
     {
      "url": "https://www.youtube.com/shorts/rgczzG_Ss6s)",
-     "title": "Hoop Hut Knock Down demo",
-     "channel": ""
+     "title": "Hula Hut Cone Knock Down 🎯⭕️",
+     "channel": "Daly Exercise"
     }
    ],
    "sources": [],
@@ -3157,7 +3157,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=Kjiotn-kWL4",
-     "title": "PE Game: \"4 ball Kickball\"        #physed #shorts #short",
+     "title": "PE game: 4 Ball Kickball",
      "channel": "Coach Gelardi"
     }
    ],
@@ -3347,7 +3347,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=0eyapUhwN9k",
-     "title": "Gymball dodgeball mayhem, a crazy whole-class PE game!",
+     "title": "Gymball Dodgeball Mayhem: a whole-class PE game",
      "channel": "Prime Coaching Sport"
     }
    ],
@@ -3722,7 +3722,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=khde7TTPt6Q",
-     "title": "My TOP 5 PE RACING games for athletics 🏅🏃🏽‍♀️‍➡️🏃🏼‍♂️‍➡️",
+     "title": "Top 5 PE racing games for athletics",
      "channel": "Prime Coaching Sport"
     }
    ],
@@ -3817,7 +3817,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=khde7TTPt6Q",
-     "title": "My TOP 5 PE RACING games for athletics 🏅🏃🏽‍♀️‍➡️🏃🏼‍♂️‍➡️",
+     "title": "Top 5 PE racing games for athletics",
      "channel": "Prime Coaching Sport"
     }
    ],
@@ -3912,7 +3912,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=khde7TTPt6Q",
-     "title": "My TOP 5 PE RACING games for athletics 🏅🏃🏽‍♀️‍➡️🏃🏼‍♂️‍➡️",
+     "title": "Top 5 PE racing games for athletics",
      "channel": "Prime Coaching Sport"
     }
    ],
@@ -4314,7 +4314,7 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=DAgKmt4cXCA",
-     "title": "My TOP 5 PE warm up games 🏅",
+     "title": "Top 5 PE warm-up games",
      "channel": "Prime Coaching Sport"
     }
    ],

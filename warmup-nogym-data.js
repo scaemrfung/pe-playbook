@@ -198,9 +198,9 @@ window.WARMUP_NOGYM_GAMES = [
       "outside"
     ],
     "how": [
-      "Setup: Groups of 8–10 split into two teams (offense / defense). Offense starts with the chicken.",
-      "Play — offense: Shout “Chuck the Chicken,” throw the chicken into open space, then form a tight circle. One runner laps the circle while the team counts runs.",
-      "Play — defense: Retrieve the chicken, line up single file, and pass over–under to the back.",
+      "Setup: Groups of 8–10 split into two teams (offence / defence). Offence starts with the chicken.",
+      "Play — offence: Shout “Chuck the Chicken,” throw the chicken into open space, then form a tight circle. One runner laps the circle while the team counts runs.",
+      "Play — defence: Retrieve the chicken, line up single file, and pass over–under to the back.",
       "Play: Last player shouts “Chuck the Chicken,” throws to a new spot, and roles flip.",
       "Play: Rotate so every teammate gets a turn to throw and to run.",
       "End: Most runs after a set time wins (kids often forget to count — that’s fine)."

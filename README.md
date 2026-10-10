@@ -75,6 +75,14 @@ grouped by week.
   Grades 1–2 / 3–4 / 5–6, Safety, Source. It lives in `new-games.js`; the
   generator fills the extra fields by game type from `card-templates.json`
   (per-game overrides in `details.json`), so every weekly rebuild keeps them.
+- Video titles on New Games cards: a `displayTitle` on the video's entry in
+  `videos-meta.json` replaces the copied YouTube title (no emoji, hashtags or
+  hype). The updater uses it every run, and `tools/check-videos.js` keeps it
+  when it refreshes the metadata. Same URL; titles only.
+- Big-Group card text (`games-data.js`, `physedgames-games.js`,
+  `warmup-nogym-data.js`) is hand-maintained, not generated: `tools/build.js`
+  only reads it. Purpose lines are our own plain wording (one or two sentences
+  to the teacher, Canadian spelling); do not paste source-site blurbs back in.
 
 
 **Standing rules (Oct 3, 2026).** New games are added only to New Games, never to Big-Group Games. The page shows "Last updated", a "Newly added" box and a short history by date. Every game has a `suggestedMonth`, and the page can be viewed by week added, by type (`?view=type`) or by month (`?view=month`). Games added by hand between Monday updates live in the updater's `manual.json` (kept with the updater, not in this repo) and are never flagged as removed. Same or close matches on Big-Group Games, Warm Up Games or Dodgeball are left off and listed in `dedupe.json`.

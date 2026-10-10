@@ -6,7 +6,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "This game is quick and easy and angry. For some reason, the neighbours (taggers) are not happy with the players on their yard, so they chase them around with a broomstick. At least that’s how the story goes. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Neighbours with pool noodles chase players off the yard, and tagged players go to a house mat, then re-enter. Use it to practise changing speed and safe noodle tagging.",
     "equipment": "pool noodles, exercise mats",
     "setup": "Lay exercise mats as houses along one side. The open floor is the yard. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -36,7 +36,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Some students are dogs (they can act like a dog if they want). The dogs are trying to chase people away from their yard. Another fun tag game idea to try in your PE class (thanks to Deric Hafer). In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Each dog guards a small yard while visitors try to sneak in, and steal the bone if you use one, without being tagged. Use it to practise changing speed and safe tagging (idea from Deric Hafer).",
     "equipment": "Cones, 4 foam balls",
     "setup": "Cone off several small “yards.” Place a foam ball (bone/toy) in each yard if you want a steal object. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -75,7 +75,7 @@ window.GAME_DETAILS = [
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "tag",
     "ifThis": [
@@ -111,7 +111,7 @@ window.GAME_DETAILS = [
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Must use a first name and a kind word to swap.",
-    "safety": "One extra person per hoop during the swap. No shoving out. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "One extra person per hoop during the swap. No shoving out. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "tag",
     "ifThis": [
@@ -138,7 +138,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "A short chase. Both players stay in. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Run this standing-circle chase like Duck, Duck, Goose, where both players stay in after the chase. Use it to practise a quick start and a safe chase.",
     "equipment": "None.",
     "setup": "Standing circle — sitting makes this too slow for a 30-minute class. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -178,7 +178,7 @@ window.GAME_DETAILS = [
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "tag",
     "ifThis": [
@@ -204,7 +204,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "New favourite activity! Tagging, throwing, catching, strategy all jam-packed into one awesome game from Jennifer Holub. Really fun, a must try, especially if you’re looking for a game for large groups (50 players +). In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Taggers freeze runners, and a teammate frees a frozen player by completing a throw and catch to them. Use it with large groups to practise tagging, throwing and catching together (game by Jennifer Holub).",
     "equipment": "Cones, foam balls",
     "setup": "Large coned field. Several taggers; free players have foam balls. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -244,7 +244,7 @@ window.GAME_DETAILS = [
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Must be unfrozen by two high-fives.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "0–5",
     "type": "tag",
     "ifThis": [
@@ -297,7 +297,7 @@ window.GAME_DETAILS = [
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Add bib tails instead of a body tag.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "0–5",
     "type": "tag",
     "ifThis": [
@@ -332,7 +332,7 @@ window.GAME_DETAILS = [
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Two taggers; students set a lap goal on the perimeter line.",
-    "safety": "No sliding on lines. Eyes up at corners. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "No sliding on lines. Eyes up at corners. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25 run-skill game",
     "type": "tag",
     "ifThis": [
@@ -360,7 +360,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Tried a quick modification of Joel Sweetland’s ’10-second tag’ for a large group that I had. Wasn’t sure if it’d work but it went really good! In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Everyone is a tagger during short bursts of about 10 seconds, and tagged players take a knee until you bring them back in. Use it with large groups to practise quick changes of speed and gentle tags (adapted from Joel Sweetland’s Ten-Second Tag).",
     "equipment": "none",
     "setup": "Everyone spreads out. On GO, EVERYONE is it for about 10 seconds. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -388,7 +388,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "This game is a mystery! Players don’t know who the catchers are. But they’ll soon find out. Try this game out for lots of laughs and lots of running! It’s another game that will not disappoint! (Thanks Chantal Dubois). In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Hand out folded notes so a few students secretly become taggers when you say GO, then reshuffle the notes every 1–2 minutes. Use it to practise changing speed and safe tagging (idea from Chantal Dubois).",
     "equipment": "sticky notes, or pieces of paper",
     "setup": "Prepare sticky notes. A few say IT (or a special number); the rest are blank/free. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -417,7 +417,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Cross the gym. Tagged players become planted taggers. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Runners cross the gym past the octopus, and tagged players plant their feet and become seaweed taggers. Use it to practise dodging and changing speed.",
     "equipment": "Two end lines.",
     "setup": "One octopus in the middle. Runners on one end. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -445,7 +445,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "A Christmas game for the holidays (thanks to Angela Crepeele). In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Elves tag galloping reindeer with a noodle, and free reindeer join hands to rescue a captured reindeer from a hoop. Use it as a holiday tag game in December (idea from Angela Crepeele).",
     "equipment": "Hoops, pool noodles",
     "setup": "Scatter hoops as stables. Give 3–6 elves / herders pool noodles. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -475,7 +475,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Tag a shadow or a spot, not a body. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Players tag by stepping on a shadow or a floor spot, never a body. Use it to practise changing speed and pathway.",
     "equipment": "Poly spots if you have no sun.",
     "setup": "Outdoor shadows, or indoor spots as pretend shadows. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -515,7 +515,7 @@ window.GAME_DETAILS = [
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Add a rescue: a free dolphin high-fives a newly tagged shark to bring them back once.",
-    "safety": "Feet only in hoops — no diving. One or two per hoop for older grades. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Feet only in hoops — no diving. One or two per hoop for older grades. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "tag",
     "ifThis": [
@@ -541,7 +541,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Call a name, choose with a hand-slap, chase back to the line. Style walking on the way over. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "A visitor walks over, slaps one hand on the other team’s line, and races home before the slapped player can tag them. Use it to practise a quick reaction and a safe chase.",
     "equipment": "Cones for two team lines.",
     "setup": "Two teams on opposite lines. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -571,7 +571,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Outdoor Grade 3–6. Steal nuts or tails. Buy a tail back with two nuts. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Four squirrel teams steal nuts from the middle or pull tails, and a player without a tail pays two nuts to buy it back. Use it outdoors with Grades 3–6.",
     "equipment": "Fabric tails, hoops, beanbags (nuts), 4-colour pinnies.",
     "setup": "Four squirrel teams. Nuts in the middle. Each player has a tail. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -599,7 +599,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Tag then a skill to re-enter. No elimination. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Tagged players do a named skill, such as 5 jumps or a stretch, then re-enter. Use it to practise safe tagging with no elimination.",
     "equipment": "2–3 pinnies.",
     "setup": "Choose taggers. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -627,7 +627,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Pull a bib tail, then hand it on. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Players pull a bib tail with two fingers, then hand it back so the game keeps going. Use it to practise dodging and fair, no-grab tagging.",
     "equipment": "Bibs or flags.",
     "setup": "Each player tucks a tail at the back. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -656,7 +656,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Short bursts of run and recover. New taggers so nobody is ‘it’ forever. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Send a new small group of taggers in every 10 seconds, and tagged runners do 5 jumping jacks, then keep running. Use it for short run-and-recover bursts so no one is the tagger for long.",
     "equipment": "Centre line of cones, whistle.",
     "setup": "Split the gym. Taggers on one side, runners on the other. Agree the freeze signal before the first round.",
     "play": [
@@ -684,7 +684,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Small-group roles: three protect, one tags. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "In groups of four, three players hold hands and turn to protect a named teammate from the outside tagger. Use it to practise teamwork and quick footwork.",
     "equipment": "None.",
     "setup": "Groups of 4 in their own space. Three join hands. Name one player in the circle as the target. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -712,7 +712,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Freeze and a fair unfreeze. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Tagged players freeze in a wide stance until a classmate frees them. Use it to practise safe tagging and a fair way back into the game.",
     "equipment": "None.",
     "setup": "3–5 taggers in pinnies. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -740,7 +740,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Listen, freeze, then a short chase to the wall. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "The class chants until the bear wakes on a secret count, then the bear chases runners toward the walls. Use it to practise listening, a quick start and a short chase.",
     "equipment": "A circle of cones. No blindfold.",
     "setup": "Bear sits in the middle facing away. Runners on the circle. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -770,7 +770,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Cross a middle zone. Tagged players re-enter — they are not out for the period. In class we use it to practise change of speed, safe tagging, and a clear way back into the game — nobody sits the period.",
+    "purpose": "Runners cross a middle zone past the wolves, and tagged players help tag for one crossing, then rejoin. Use it to practise changing speed with no one out for the period.",
     "equipment": "Two end lines and a 3-m middle strip.",
     "setup": "Two wolves in the den. Everyone else on one end. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -798,7 +798,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "For more action, and more touches, play 3 ball soccer. It’s essentially a big soccer game with the added bonus of 2 more soccer balls. Great to play especially with large classes or groups of students. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Play soccer with three balls at once so more students get touches. Use it with large classes to practise moving into space and keeping your head up.",
     "equipment": "3 soccer balls",
     "setup": "Play soccer with THREE balls at once. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -825,7 +825,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "4 Goal Soccer is another popular soccer PE game, especially with larger groups. 4 nets are set-up on each side. 4 teams go at it with whatever soccer rules the teacher wants to implement. Teams can score in any net excep. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Four teams each defend one net and may score in any other net. Use it with large groups to practise attacking and defending in more than one direction.",
     "equipment": "Soccer balls, 4 goals",
     "setup": "Set 4 nets, one on each side of a square or gym. Four teams, each defending one net. Agree the freeze signal before the first round.",
     "play": [
@@ -852,7 +852,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "Here are 5 soccer circle ideas you can use to work on passing (and dribbling) as well as more skills! They range from simple to moderately advanced and there’s really not much more to say about them – just find some spac. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Use these five soccer circle activities, from simple to more advanced, to practise passing and dribbling. Run them as rotating stations or one at a time with the whole class.",
     "equipment": "Soccerballs, cones",
     "setup": "Make several circles of 6–10 players with cones and plenty of soccer balls. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -883,13 +883,13 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Bench ball is arguably one of the best low organized throwing and catching games. The goal is to be the first team to get your players onto the bench. But how do you get on the bench? Your ball must be caught by your tea. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Teams throw a foam ball to teammates standing on their bench, and each catch lets another teammate climb on. Use it to practise throwing, catching and moving into space.",
     "equipment": "2 benches, dodgeballs",
     "setup": "Two teams. A bench at each far end. Start with 1–2 teammates already on your bench. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
       "Stay on your half. Throw a foam ball so a teammate ON THE BENCH catches it.",
       "Every legal catch lets one new teammate climb onto the bench.",
-      "Defense may intercept or block throws. First team to get all (or a target number) of its players on the bench wins.",
+      "Defence may intercept or block throws. First team to get all (or a target number) of its players on the bench wins.",
       "This is the catch-onto-the-bench game — not Bench Dodgeball.",
       "Play 4–6 minute periods. Extra players are bumpers, walls, or the next wave — they stay in a job.",
       "Freeze on the whistle. Reset spots, then the next round."
@@ -912,7 +912,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Grade 5–6 invasion. Tag the ball-carrier; they must pass. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "A tagged ball-carrier must pass and cannot shoot on that possession. Use it with Grades 5–6 as an invasion game that rewards passing.",
     "equipment": "1 basketball or playground ball, pinnies, a net and/or hoop.",
     "setup": "Two teams. Mark a crease in front of each goal. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -940,7 +940,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Pass to a teammate who must stay in a hoop. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Teams pass the ball to their captain, who stays in a hoop. Use it to practise passing and getting open.",
     "equipment": "Soccer or playground ball, pinnies, 2 hoops.",
     "setup": "Each team has a captain in a hoop. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -968,7 +968,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Cooperative collect with a walk-back if tagged. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Teams carry treasure home one piece at a time, and a tagged player walks the piece back to the middle. Use it to practise moving into space and simple attack and defence jobs.",
     "equipment": "Beanbags, 4 hoops.",
     "setup": "Treasure in the middle. Team hoops in corners. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -996,7 +996,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Score in any of four corners. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "The carrier must pass, and a catch with a foot in a corner hoop scores. Use it to practise passing, getting open and intercepting.",
     "equipment": "4 hoops, playground ball, pinnies.",
     "setup": "Hoops in four corners. Two teams. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1024,7 +1024,7 @@ window.GAME_DETAILS = [
       "September",
       "October"
     ],
-    "purpose": "Core strength and a short cooperative carry. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Players crab-walk and push or carry the ball to the line in short rounds. Use it to build core strength and teamwork.",
     "equipment": "Playground ball, two end lines.",
     "setup": "Two teams. Short court. Agree the freeze signal before the first round.",
     "play": [
@@ -1051,7 +1051,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "Great for any grade or age level, Wild Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipme. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Play soccer with several soft objects at once, such as a foam football, a large foam die and a beach ball. Use it at any grade to practise footwork and keeping your head up.",
     "equipment": "Various soft or foam balls",
     "setup": "Set up soccer as usual, then add extra “crazy” kickable objects at the same time (foam football, large foam die, beach ball, foam soccer balls). Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1079,7 +1079,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Pass to a catcher in an end zone. Same family as Captain Ball. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "The carrier cannot run and must pass, and a clean catch by your end-zone catcher scores. Use it as a passing game in the same family as Captain Ball.",
     "equipment": "Football or playground ball, pinnies, cones for two end zones.",
     "setup": "Each team names one catcher who stays in the far end. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1106,7 +1106,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "A fun type of soccer game, can be especially good with large groups (thanks CIRA Ontario for this idea: https://www.ciraontario.com/)! In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Each team’s goal is the whole end wall, so the game works with a large group. Use it to practise passing and shooting with a foam ball (idea from CIRA Ontario).",
     "equipment": "foam soccer ball, pinnies",
     "setup": "Make two teams (pinnies on one side). Play the full gym or a large field. Agree the freeze signal before the first round.",
     "play": [
@@ -1135,7 +1135,7 @@ window.GAME_DETAILS = [
       "September",
       "October"
     ],
-    "purpose": "Roll (not throw) to catchers in an end zone. Intercept. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Players roll, not throw, the ball to teammates in the end zone while the other team tries to intercept. Use it to practise accurate sending and intercepting.",
     "equipment": "4–8 footballs or soccer balls, pinnies, optional mats as obstacles.",
     "setup": "Two halves. Each team names 2–3 end-zone catchers who stay in their end. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1163,7 +1163,7 @@ window.GAME_DETAILS = [
       "September",
       "October"
     ],
-    "purpose": "Four-team steal. Safe in your own quadrant. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Four teams steal flags one at a time from other hoops and are safe in their own quadrant. Use it to practise attacking and defending space.",
     "equipment": "16 beanbags (4 colours), 4 hoops, 4 pinnies colours, cones.",
     "setup": "Gym in four quadrants. Each team’s flags start in its hoop. Agree the freeze signal before the first round.",
     "play": [
@@ -1191,7 +1191,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Four-corner switch with a middle seeker. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "On a called fruit, those players switch corners while the middle player tries to claim an empty one. Use it to practise listening and moving quickly into open space.",
     "equipment": "Four corner spots.",
     "setup": "Name each corner a fruit. One player in the middle. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1219,7 +1219,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Small-sided kick or shot at cone goals. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Small teams of 2–3 pass once before shooting at cone goals, and waiting players act as walls or the next wave. Use it to practise passing and shooting.",
     "equipment": "Soccer balls, cone goals, pinnies.",
     "setup": "2–3 a side. Extra players are waiting walls or next wave. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1246,7 +1246,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "Dribble through gates. Defenders intercept the ball, not the body. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Attackers dribble or pass through cone gates while defenders try to win the ball with their feet only. Use it to practise ball control and fair defending.",
     "equipment": "Cone gates, soccer balls, pinnies.",
     "setup": "4–6 gates. Two teams. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1274,7 +1274,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Steal from a middle pile. Same family as Collect the Treasure. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Players steal treasure from a middle pile one piece at a time and walk it back if tagged. Use it like Collect the Treasure to practise attacking and defending space.",
     "equipment": "Beanbags, 4 hoops, optional 2 taggers.",
     "setup": "Treasure in the middle. Team hoops in corners. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1302,7 +1302,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "A great game to help with visual awareness, strategic play, attacking, and defense. Try out HOME ALONE. Basically goes like this: lay out 8 hoops in a playing area and choose 1 player to stand in each hoop. Give the play. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Each homeowner guards a cone key in a hoop while thieves try to steal it without being tagged. Use it to practise awareness, attacking and defence.",
     "equipment": "Hoops, cones",
     "setup": "Lay out about 8 hoops. One player stands in each hoop with a cone — that cone is the KEY to the house. They must protect it. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1331,7 +1331,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "One ball, many legal sends. A tip forces an instant pass. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Players may kick, bounce, throw or run a few steps, but a soft tip means they must pass right away. Use it to practise quick decisions in an invasion game.",
     "equipment": "Soccer or playground ball, two goals, pinnies.",
     "setup": "Two teams. Teacher tosses in. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1358,7 +1358,7 @@ window.GAME_DETAILS = [
     "months": [
       "November"
     ],
-    "purpose": "Short hockey points. Many get a turn. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Call two or three numbers, and those players play to one goal while the rest wait at the side. Use it for short, frequent hockey turns.",
     "equipment": "Floor-hockey sticks or hands, hockey ball, two cone goals.",
     "setup": "Two teams sit at the side, numbered. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1385,7 +1385,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "Invasion with hands. Opposite of a kick game. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Field players may only tap or pass with their hands, and keepers save with their feet. Use it as an invasion game that flips the usual soccer rules.",
     "equipment": "Soccer ball, pinnies, two cone goals.",
     "setup": "Two teams. One keeper each. Goals can face out if you want a harder angle. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1424,7 +1424,7 @@ window.GAME_DETAILS = [
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [
@@ -1457,7 +1457,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "In sideline soccer, teams become goalies along their respective sidelines, using their best goaltending skills. Imagine the set-up as big lines of goalies stretching across the entire length of the sidelines – for each t. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Each team lines its sideline as a wall of goalies while five players from each side play on the floor, then rotate every 2 minutes. Use it with large groups so everyone is either playing or goalkeeping.",
     "equipment": "Foam Balls",
     "setup": "Each team lines its entire sideline as a wall of goalies. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1485,7 +1485,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Try out this amazing game called SLAPPERS. It’s a game that mainly uses the striking skill (or swatting, smacking, slapping – however you want to call it). 4 teams, 4 nets in the corners, 1 for each team. Throw a few bal. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Four teams strike bouncy balls with an open hand into any other team’s corner net. Use it to practise striking, moving into space and defending a net.",
     "equipment": "4 nets, 4 bouncy balls (ex racquetball ball)",
     "setup": "4 teams, 4 nets in the 4 corners, 1 net per team. Toss in several bouncy balls (racquetballs or similar). Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1525,7 +1525,7 @@ window.GAME_DETAILS = [
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [
@@ -1552,7 +1552,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Two-team capture. Tagged players are walked home by a teammate. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Two teams cross to steal stones, and a teammate walks a tagged player home. Use it to practise attacking, defending and helping a teammate.",
     "equipment": "Beanbags (stones), hoops, pinnies.",
     "setup": "Two ends. Stones in each home hoop. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1580,7 +1580,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Steal a corner on a signal. Fast feet, no contact. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "On “Switch,” corner players change spots while the middle player tries to claim an empty corner. Use it to practise quick feet with no contact.",
     "equipment": "4 cones, hoops, or mats as corners. Optional centre pylon.",
     "setup": "Groups of 5: one player in the middle, four on corners. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1609,7 +1609,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Invasion lead-up. Pass to get close enough to tag. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "The tag team passes a ball to get close and tags with the ball in hand, and tagged players join the tag team. Use it as an invasion lead-up that rewards passing.",
     "equipment": "1 playground ball or pinnie, bag of extra pinnies.",
     "setup": "3–4 start as the tag team in pinnies. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1637,7 +1637,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Force passing before a score. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Teams must complete 3 (or 5) passes before they can score, and an interception resets the count. Use it to practise passing and getting open.",
     "equipment": "Soccer or playground ball, pinnies, two end lines or hoops.",
     "setup": "Two teams. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1664,7 +1664,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "Accurate kick or push-pass through a cone gate. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Partners send a ball through a cone gate, then trap it and send it back. Use it to practise accurate kicking or push-passing.",
     "equipment": "Cone pairs as gates, soccer balls.",
     "setup": "6–10 gates. Partners. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1692,7 +1692,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Dribble, trap, and stop on a colour. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Students dribble on green, trap on yellow and stop with a foot on the ball on red. Use it to practise ball control and listening.",
     "equipment": "Soccer balls, one per student if you can.",
     "setup": "Teach green / yellow / red with the sole trap. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1719,7 +1719,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "Small-sided kick game. Everyone is either a field player or a moving wall-goalie. In class we use it to practise moving into space, a simple attack and defence job, and sharing the ball with a large class.",
+    "purpose": "Small teams play while everyone else stands along their end wall as the goal. Use it to practise passing and shooting with the whole class involved.",
     "equipment": "Soccer ball, pinnies, cones.",
     "setup": "2–3 field players per team. Everyone else stands along their end wall as a goal. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
@@ -1747,7 +1747,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Four-team throw and defend a pin. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "Four teams throw playground balls to knock down other teams’ pins while protecting their own. Use it to practise an accurate send and quick defending.",
     "equipment": "4 hoops, 4 pins, playground balls, cones for zones.",
     "setup": "Four squares. A pin in a hoop at the back of each. Teams stay in their zone. Agree the freeze signal before the first round.",
     "play": [
@@ -1775,7 +1775,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Throw and catch under a little pressure. Retrieve an object and send it home. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "A runner takes a disc from the safe zone and throws it to teammates, who keep it only if they catch it. Use it to practise throwing and catching under a little pressure.",
     "equipment": "Discs or balls, cones, pinnies.",
     "setup": "Two teams. A far safe zone holds the discs. A home catching area for each team. Agree the freeze signal before the first round.",
     "play": [
@@ -1803,7 +1803,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Long underhand or disc throw at hoops. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "Students send a disc or a long underhand throw at hoops placed at two or three distances. Use it to practise accuracy and safe fetching.",
     "equipment": "Discs or rings, hoops, cones.",
     "setup": "Targets at two or three distances. Agree the freeze signal before the first round.",
     "play": [
@@ -1831,7 +1831,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Disc throw and catch into a hoop. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "Teams complete disc throws and catches, and a catch in a hoop scores. Use it to practise disc throwing and catching.",
     "equipment": "Discs, hoops.",
     "setup": "Pairs or 4v4. Agree the freeze signal before the first round.",
     "play": [
@@ -1859,7 +1859,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Send a dodgeball below the waist. A hit is a stretch, not an out. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "Students send dodgeballs at feet or shins only, and a hit player does a 10-second stretch, then returns. Use it to practise a controlled, low throw.",
     "equipment": "4–6 dodgeballs, centre line.",
     "setup": "Two halves. Balls start on the line. Agree the freeze signal before the first round.",
     "play": [
@@ -1887,7 +1887,7 @@ window.GAME_DETAILS = [
       "May",
       "June"
     ],
-    "purpose": "Overarm send and a ready catch. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "Students throw overarm to a catcher in a hoop, then swap roles. Use it to practise the overarm throw and ready hands.",
     "equipment": "Playground ball, hoop.",
     "setup": "Throw line and a hoop catcher. Agree the freeze signal before the first round.",
     "play": [
@@ -1914,7 +1914,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Dodge in a circle. Switch roles — nobody is out for the game. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "Throwers outside the circle aim below the waist, and a hit dodger switches places with the thrower. Use it to practise throwing and dodging with nobody out for the game.",
     "equipment": "Dodgeballs, a cone circle.",
     "setup": "6–8 dodgers inside. Others throw from outside the circle. Agree the freeze signal before the first round.",
     "play": [
@@ -1954,7 +1954,7 @@ window.GAME_DETAILS = [
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Below-waist throws at pins, not people.",
     "g56": "Two balls at once, still below waist.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "target",
     "ifThis": [
@@ -1983,7 +1983,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Drop-kick a football toward a zone. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "Students drop-kick a football toward a line 15–20 m away and keep kicking until it crosses. Use it to practise the punt.",
     "equipment": "Football or playground ball, a line.",
     "setup": "15–20 m to a line. Agree the freeze signal before the first round.",
     "play": [
@@ -2022,7 +2022,7 @@ window.GAME_DETAILS = [
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "target",
     "ifThis": [
@@ -2053,7 +2053,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Slide a beanbag to tag feet. A catch frees a teammate. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "Students slide beanbags at the other team’s feet, and a hit player returns by catching a ball thrown by a teammate. Use it to practise sliding, throwing and catching.",
     "equipment": "Beanbags, dodgeballs, two jail hoops.",
     "setup": "Two halves. Slide from behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -2081,7 +2081,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Below-waist dodgeballs. Hit = switch, not sit out. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "A below-the-waist hit means the player switches teams or does a 10-count stretch and stays in. Use it to practise throwing and dodging with no one sitting out.",
     "equipment": "Many dodgeballs.",
     "setup": "Two sides or a circle. Same house rules as Poison Ball. Agree the freeze signal before the first round.",
     "play": [
@@ -2120,7 +2120,7 @@ window.GAME_DETAILS = [
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "target",
     "ifThis": [
@@ -2159,7 +2159,7 @@ window.GAME_DETAILS = [
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Step back after each fair throw.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "No overhand smash. Below the waist if scattering. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "No overhand smash. Below the waist if scattering. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "target",
     "ifThis": [
@@ -2187,7 +2187,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Dribble, then one controlled kick at a pin. In class we use it to practise a controlled send at a target, ready hands, and fetching without crowding.",
+    "purpose": "Students dribble through a tunnel, take one controlled kick at a pin, then dribble home. Use it to practise dribbling and accurate kicking.",
     "equipment": "Cone tunnel, one pin or stacked cone, soccer ball.",
     "setup": "Tunnel to a wall or pin line. Agree the freeze signal before the first round.",
     "play": [
@@ -2213,7 +2213,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Outdoor Grade 5–6. Active war with a card-master hoop. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "Players carry cards to the other team’s Card Master to win more cards, and players holding one card may tag. Use it outdoors with Grades 5–6.",
     "equipment": "3 decks of cards, 2 hoops, pinnies.",
     "setup": "Two teams. Each has a Card Master in a hoop. Agree the freeze signal before the first round.",
     "play": [
@@ -2241,7 +2241,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Hit, run to an end line; fielders tag with the ball in hand. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "Players hit or kick, then run to the far line and back while fielders tag with the ball held in two hands. Use it to practise striking, running and fielding.",
     "equipment": "Playground or t-ball, bat or kick, an end line.",
     "setup": "Hitting team and fielding team. Agree the freeze signal before the first round.",
     "play": [
@@ -2279,7 +2279,7 @@ window.GAME_DETAILS = [
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Foam dodgeballs. Hits below the waist. A high ball is dead. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Foam dodgeballs. Hits below the waist. A high ball is dead. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "strike",
     "ifThis": [
@@ -2308,7 +2308,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "This is a classic PE or camp game with the focus on throwing and catching. As players are successful, the game becomes more challenging. When unsuccessful, they might just get soaked! How To Play: Pairs or partners start. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "Partners step back after each catch and step forward after a drop. Use it to practise throwing and catching as the challenge grows.",
     "equipment": "Type of ball, or water balloons",
     "setup": "Partners start close and play catch with a ball (or, outdoors in warm weather, a water balloon). Agree the freeze signal before the first round.",
     "play": [
@@ -2335,7 +2335,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Throw, then score laps while the other team lines up and passes. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "One team throws the chicken and runs laps for points while the other team lines up and passes it over and under. Use it to practise throwing, running and teamwork.",
     "equipment": "Rubber chicken or beanbag.",
     "setup": "Two teams. One thrower at a time. Agree the freeze signal before the first round.",
     "play": [
@@ -2363,7 +2363,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Kickball cousin. Many runners. Play stops when a named partner replaces the ball on a cone. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "Several runners can be on base at once, and play stops when the kicker’s partner places the ball back on the cone. Use it as a kickball game that keeps more runners moving.",
     "equipment": "Playground or t-ball, saucer cone, bases or hoops.",
     "setup": "Two teams. Each kicker has a partner on the fielding team. Ball starts on a cone. Agree the freeze signal before the first round.",
     "play": [
@@ -2391,7 +2391,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Four hitters run together. Continuous bowling from the middle. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "A fielder bowls underhand from the middle, and all four hitters run one base on any hit. Use it to practise striking and fielding with continuous play.",
     "equipment": "4 bases or buckets, t-ball, bats or hands.",
     "setup": "A square. One hitter at each base. Fielders around. A middle cone. Agree the freeze signal before the first round.",
     "play": [
@@ -2419,7 +2419,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Strike, run a short path, field to a hoop. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "Players hit or kick, then run to a hoop and back while fielders throw to the hoop, not at the runner. Use it to practise striking, running and fielding.",
     "equipment": "Tee or kick, t-ball, one or two hoops.",
     "setup": "Hitting line. Fielders spread. Agree the freeze signal before the first round.",
     "play": [
@@ -2446,7 +2446,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Hitting game where a teammate can free a runner. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "A runner who is stopped walks to jail, and the next fair hit frees one jailed runner. Use it to practise striking and fielding.",
     "equipment": "Tee or kick, t-ball, a jail hoop.",
     "setup": "Hitting team and fielding team. Jail hoop beside first. Agree the freeze signal before the first round.",
     "play": [
@@ -2474,7 +2474,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Kick and run mat to mat. Field with the ball in two hands. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "Players kick, then run from mat to mat while fielders tag with the ball held in two hands. Use it to practise kicking, running and fielding.",
     "equipment": "Two mats, playground ball.",
     "setup": "Mats 10–15 m apart. Kickers in a line. One roller. Agree the freeze signal before the first round.",
     "play": [
@@ -2501,7 +2501,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Longball is another kickball type activity (or baseball activity if you want to use a big oversized plastic bat and a foam ball) that gets more players moving more often. With some important modifications to regular kick. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "Play this kickball-style game with foam balls, or a foam ball and plastic bat, and extra running rules so more players move more often. Use it to practise kicking, running and fielding.",
     "equipment": "2 mats, foam soccer balls",
     "setup": "Two mats as far bases / safe zones. Foam soccer balls (or a foam ball + plastic bat). Agree the freeze signal before the first round.",
     "play": [
@@ -2528,7 +2528,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Hit, run a short path, field to a tee. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "Players hit, then run to the hoop and back while fielders throw to the tee to stop the run. Use it for a short striking and fielding game.",
     "equipment": "Tee or coach toss, t-ball and bat, one hoop.",
     "setup": "Hitting line. One hoop as first. Tee is home. Agree the freeze signal before the first round.",
     "play": [
@@ -2555,7 +2555,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "A kickball variation that mixes in some sharks & minnows (thanks to Kevin Williams)! In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "A minnow kicks the foam ball and runs for the far line while the sharks field the ball and try to tag. Use it as a kickball game mixed with Sharks and Minnows (idea from Kevin Williams).",
     "equipment": "1 foam ball",
     "setup": "Mark two safe end lines with a large open “ocean” in the middle. One foam ball only. Agree the freeze signal before the first round.",
     "play": [
@@ -2584,7 +2584,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Strikeball is a great little game to work on aspects of goaltending, fielding, striking, and reaction time. Circle groups of any size can play this game together and try to score points by striking the ball between the l. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "In a circle, players strike or roll the ball to send it between another player’s legs while that player tries to stop it. Use it to practise striking, goaltending and reaction time.",
     "equipment": "Ball",
     "setup": "Players stand in a circle, feet wide, one ball in play. Agree the freeze signal before the first round.",
     "play": [
@@ -2612,7 +2612,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Hit or kick through rows of cones for 1–2–3 points. In class we use it to practise a send, a run or field job, and a fair rotation so the whole class stays in.",
+    "purpose": "Players hit or kick the ball through three rows of cones for 1, 2 or 3 points while the defence stops it. Use it to practise striking and fielding.",
     "equipment": "Wiffle or t-ball, bat or kick, 30 cones in 3 rows.",
     "setup": "Three rows of cones across the gym. Hitting team on one end. Defence in the lanes. Agree the freeze signal before the first round.",
     "play": [
@@ -2651,7 +2651,7 @@ window.GAME_DETAILS = [
     "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
     "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
     "g56": "Add a skill on the loop (3 jumps, a skip).",
-    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "0–5 or 16–25",
     "type": "relay",
     "ifThis": [
@@ -2687,7 +2687,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Sustained run and a fair tag. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "One runner laps the circle, then high-fives the next runner. Use it for sustained running with fair hand-offs.",
     "equipment": "Cone circle.",
     "setup": "Large loop, start cone. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -2714,7 +2714,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Run cones in a called order (memory + speed). In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Call an order such as 2-4-3-1, and the runner touches the cones in that order and returns. Use it to practise memory and speed.",
     "equipment": "Numbered cones 1–4.",
     "setup": "Cones in a square or line. Relay teams. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -2742,7 +2742,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Two animal travels in a short bout. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Students crab walk to the far cone and bear walk home in short lanes. Use it to practise two animal walks in a short bout.",
     "equipment": "Two cones per lane.",
     "setup": "8–10 m lanes. Agree the freeze signal before the first round.",
     "play": [
@@ -2770,7 +2770,7 @@ window.GAME_DETAILS = [
       "September",
       "January"
     ],
-    "purpose": "Relay with a trap at the turn. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Students dribble to the cone, trap the ball, then sprint back to tag the next player. Use it to practise dribbling and trapping.",
     "equipment": "Soccer balls, cones.",
     "setup": "Relay lines. A cone 8–12 m out. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -2798,7 +2798,7 @@ window.GAME_DETAILS = [
       "September",
       "January"
     ],
-    "purpose": "Finger-pad bounce through gates. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Students dribble through zig-zag gates using their finger pads, then dribble straight home with their head up. Use it to practise ball control.",
     "equipment": "4 cone gates, basketball.",
     "setup": "Zig-zag gates. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -2826,7 +2826,7 @@ window.GAME_DETAILS = [
       "November",
       "January"
     ],
-    "purpose": "Tiny touches, blade on the floor. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Students push the ball under or through a wavy line of low cones with the blade on the floor. Use it to practise small hockey touches.",
     "equipment": "Low cones as ‘hurdles,’ stick, hockey ball.",
     "setup": "Wavy line of low cones. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -2852,7 +2852,7 @@ window.GAME_DETAILS = [
     "months": [
       "February"
     ],
-    "purpose": "Underhand accuracy. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Each runner gets three underhand tries to land a beanbag in the target hoop. Use it to practise underhand accuracy.",
     "equipment": "Beanbags, two hoops.",
     "setup": "Home hoop and a target hoop. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -2879,7 +2879,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Whole team stays linked. The head collects objects and passes them back. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Each team stays linked in a line while the head collects objects and passes them back to the tail. Use it to practise teamwork and moving together.",
     "equipment": "20–40 beanbags or yarn balls, 2 bags or bins.",
     "setup": "Two teams in two lines, each student holding the shirt or shoulders of the person in front. Objects scattered. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -2907,7 +2907,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Here are 3 relay ideas with an ice cream theme to use as a team-building, stand-alone, or field day event! In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Run three ice-cream relays: scoop stack, build the cone and take the order. Use them for team building, a single lesson or a field-day rotation.",
     "equipment": "foam balls, cones",
     "setup": "Split the class into even relay teams. Give each team a home marker and foam balls (scoops) plus cones (the waffle cones). Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -2947,7 +2947,7 @@ window.GAME_DETAILS = [
     "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
     "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
-    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "relay",
     "ifThis": [
@@ -2975,7 +2975,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Trio relay around a circle to a centre beanbag. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Call one trio name, and that player runs around the circle, through an arch, to the centre beanbag. Use it for short, frequent relay turns.",
     "equipment": "Beanbags or letter cards in the centre.",
     "setup": "Trios in a big circle. Name the three players Pip, Squeak, and Wilbur. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -3003,7 +3003,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Run across, take a teammate by the hand, bring them home. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "A runner crosses, takes a waiting teammate by the hand and brings them home, and the rescued player goes next. Use it to practise running and teamwork.",
     "equipment": "None, or a beanbag to carry.",
     "setup": "Relay teams. Half the team on the far line. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -3030,7 +3030,7 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "Small-touch dribble through cones. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Students weave a soccer ball out through cones with small touches, then dribble straight home. Use it to practise close ball control.",
     "equipment": "6 cones, one soccer ball per team.",
     "setup": "Zig-zag cones. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -3057,7 +3057,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Short shuttle with a skill at the turn. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Students sprint to a cone, do 3 jumps or a touch, then sprint back to tag the next runner. Use it for short shuttles with a skill at the turn.",
     "equipment": "Cones, optional batons.",
     "setup": "Many teams of 4. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -3097,7 +3097,7 @@ window.GAME_DETAILS = [
     "g12": "No clap — toss and catch only.",
     "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
-    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "relay",
     "ifThis": [
@@ -3132,7 +3132,7 @@ window.GAME_DETAILS = [
     "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
     "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
-    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "relay",
     "ifThis": [
@@ -3163,7 +3163,7 @@ window.GAME_DETAILS = [
     "months": [
       "January"
     ],
-    "purpose": "Step-and-push chest pass. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Students run to the hoop, make three chest passes off the wall, then high-five the next runner. Use it to practise the step-and-push chest pass.",
     "equipment": "Hoop, soccer or basketball, wall space.",
     "setup": "Hoop 2 m from a wall. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -3190,7 +3190,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Change direction and tag the next runner fairly. In class we use it to practise a locomotor or sport skill under a fair start/stop, then a high-five hand-off.",
+    "purpose": "Students touch each cone in a zig-zag, take one beanbag from the far hoop and high-five the next runner. Use it to practise changing direction.",
     "equipment": "5 cones and a hoop of beanbags per team.",
     "setup": "Zig-zag cones, hoop at the far end. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
@@ -3216,7 +3216,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Recall to a home hoop on the whistle. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Play any travel game, and on the whistle everyone returns to their home base. Use it to practise listening and a quick response to a signal.",
     "equipment": "Home hoops or spots.",
     "setup": "Assign bases. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3244,7 +3244,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Paired jogging intervals with a meet-up. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Partners jog opposite loops while the music plays, then find each other and sit back to back when it stops. Use it for jogging intervals.",
     "equipment": "Music. Cones to mark an inside and outside track.",
     "setup": "Pairs. One partner on the inside loop, one on the outside, facing opposite ways. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3272,7 +3272,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Change locomotor on a word cue. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Call a bean, and students change how they move: jump, jog, wiggle or freeze. Use it to practise listening and locomotor skills.",
     "equipment": "None.",
     "setup": "Scatter in general space. Teach 4 beans. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3300,7 +3300,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "React to a colour and sprint to a corner. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Call a colour, and students run to it while two taggers try to tag them. Use it to practise reacting to a call and sprinting.",
     "equipment": "4 coloured cones or walls.",
     "setup": "Class in a centre square. Two taggers outside. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3328,7 +3328,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Travel, then freeze in a gymnastic statue. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Students travel on “Daytime” and freeze in a strong shape on “Nighttime.” Use it to practise stillness and gymnastic shapes.",
     "equipment": "None.",
     "setup": "General space. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3356,7 +3356,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Hear a cue and run to the right wall. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Call Fire, Earth or Water, or an animal that belongs there, and students run to the matching wall. Use it to practise listening and a quick sprint.",
     "equipment": "Three wall signs: Fire, Earth, Water.",
     "setup": "Students in the middle. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3383,7 +3383,7 @@ window.GAME_DETAILS = [
     "months": [
       "February"
     ],
-    "purpose": "Match locomotor changes to a steady beat. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Students change their locomotor skill or level on each 8-count phrase. Use it to practise moving to a steady beat.",
     "equipment": "Drum, tambourine, or chanted 8-count.",
     "setup": "Scatter in general space. Practise a walk on the beat. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3422,7 +3422,7 @@ window.GAME_DETAILS = [
     "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "No diving at a corner. First two feet on the spot keep it. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "No diving at a corner. First two feet on the spot keep it. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "loco",
     "ifThis": [
@@ -3447,7 +3447,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Listen, group, and include leftovers. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Call a number, and students form groups of that size in 5 seconds, with leftover players joining you. Use it to practise listening and including everyone.",
     "equipment": "None.",
     "setup": "Jog in space. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3475,7 +3475,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Travel toward, away, or scatter on a point. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Students move toward you on “Here,” where you point on “There,” and scatter on “Everywhere.” Use it to practise listening and changing direction.",
     "equipment": "None.",
     "setup": "Teacher is the pointer. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3503,7 +3503,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "React to a spoken action on the beat. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Call an action on the beat (kick it, twist it, spin it, pull it, bop it), and the class does it. Use it to practise listening and quick reactions.",
     "equipment": "None. Optional music.",
     "setup": "Scatter. Teach the five actions: kick it, twist it, spin it, pull it, bop it. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3531,7 +3531,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Jump a line on a call. Body control. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Call land or sea, and students jump to that side of the line. Use it to practise body control and listening.",
     "equipment": "A centre line.",
     "setup": "Name one side land, one side sea. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3559,7 +3559,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Partner reaction and body-part awareness. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Call a body part, and partners run in, match those parts, then return to the start. Use it to practise partner reaction and body-part awareness.",
     "equipment": "None.",
     "setup": "Pairs. A centre line. Teacher has a list of body parts. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3587,7 +3587,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Travel away from a circle, then sprint back on a second signal. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Students travel away from the circle on the first signal and sprint back on the second. Use it to practise locomotor skills and reaction.",
     "equipment": "A centre circle of spots or a centre cone.",
     "setup": "Class stands on a circle facing out. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3627,7 +3627,7 @@ window.GAME_DETAILS = [
     "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "0–5",
     "type": "loco",
     "ifThis": [
@@ -3646,7 +3646,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Listen for the phrase. A miss is a skill, not an out. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Students do the action only after “Simon says,” and a miss is 5 jumps or a stretch, not an out. Use it to practise listening.",
     "equipment": "None.",
     "setup": "Scattered in personal space. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3674,7 +3674,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Creative movement using media cues. In class we use it to practise listening, a named locomotor skill, and stopping in a balanced shape.",
+    "purpose": "Call media cues such as play, pause, rewind and fast-forward, and students change how they move. Use it for creative movement and listening.",
     "equipment": "None.",
     "setup": "Teach play, rewind, fast-forward, pause, eject, slow-motion. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
@@ -3713,7 +3713,7 @@ window.GAME_DETAILS = [
     "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "0–5 or 16–25",
     "type": "loco",
     "ifThis": [
@@ -3749,7 +3749,7 @@ window.GAME_DETAILS = [
     "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Class record. Weak hand only.",
-    "safety": "No heading hard balls. Latex allergy: use a beach ball. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "No heading hard balls. Latex allergy: use a beach ball. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "coop",
     "ifThis": [
@@ -3776,7 +3776,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Communicate without talking. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
+    "purpose": "Students line up silently by birthday, from January to December. Use it to practise communicating without talking.",
     "equipment": "None.",
     "setup": "One long wall or line. Agree the freeze signal before the first round.",
     "play": [
@@ -3804,7 +3804,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Move as one line. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
+    "purpose": "Teams of 5–7 move as one line along a cone path, holding waists or sharing hoops. Use it to practise moving together and taking turns as leader.",
     "equipment": "Cones. Optional shared hoop.",
     "setup": "Teams of 5–7 in a file. Agree the freeze signal before the first round.",
     "play": [
@@ -3843,7 +3843,7 @@ window.GAME_DETAILS = [
     "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "coop",
     "ifThis": [
@@ -3872,7 +3872,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Team rock-paper-scissors then a short chase. No elimination. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
+    "purpose": "Teams huddle and choose a pose, and the winning pose chases the other team home. Use it for a team decision and a short chase with no elimination.",
     "equipment": "Cones for two team lines and two safe zones.",
     "setup": "Two teams on their lines. Teach the three poses and who beats whom: elf beats wizard, wizard beats giant, giant beats elf. Agree the freeze signal before the first round.",
     "play": [
@@ -3900,7 +3900,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Problem-solve in a small group. Consent first. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
+    "purpose": "In circles of 6–8, students hold hands across the circle and work together to untangle it. Use it with Grade 3 and up to practise problem solving, and ask for consent first.",
     "equipment": "None.",
     "setup": "Circles of 6–8. Grade 3+. Agree the freeze signal before the first round.",
     "play": [
@@ -3928,7 +3928,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Students write three fair rules and teach the class. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
+    "purpose": "Groups of four write three fair rules for a new game and teach it to the class. Use it to practise co-operation and fair play.",
     "equipment": "Whatever the group chooses from a teacher-approved pile.",
     "setup": "Groups of 4. One clipboard or whiteboard. Agree the freeze signal before the first round.",
     "play": [
@@ -3956,7 +3956,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Say a name, toss a scarf. Add objects until several are in the air. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
+    "purpose": "Students say a name and toss a scarf, adding objects until several are in the air. Use it to practise names, tossing and catching.",
     "equipment": "Scarves, then beanbags.",
     "setup": "One circle, or two if the class is large. Agree the freeze signal before the first round.",
     "play": [
@@ -3984,7 +3984,7 @@ window.GAME_DETAILS = [
       "October",
       "December"
     ],
-    "purpose": "Core chute set: waves, mushroom, and a chase under the silk. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
+    "purpose": "Run the core parachute activities: waves, the dome and a chase under the parachute. Use it to practise working together on a count.",
     "equipment": "Parachute or king-size sheet, beanbags.",
     "setup": "Everyone has a colour handle. Practise a count of three to lift. Agree the freeze signal before the first round.",
     "play": [
@@ -4024,7 +4024,7 @@ window.GAME_DETAILS = [
     "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "coop",
     "ifThis": [
@@ -4064,7 +4064,7 @@ window.GAME_DETAILS = [
     "g12": "Teacher stands where the line can see a thumbs-up.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "coop",
     "ifThis": [
@@ -4090,7 +4090,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Jump a low moving rope. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
+    "purpose": "Two students wiggle a rope on the floor while the others jump or step over it. Use it to practise jumping and timing.",
     "equipment": "1–2 long ropes.",
     "setup": "Two students wiggle a rope on the floor. Agree the freeze signal before the first round.",
     "play": [
@@ -4118,7 +4118,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Give and follow a short direction. In class we use it to practise a shared goal, turn-taking, and a kind voice when the task is hard.",
+    "purpose": "A caller uses only words to guide a partner along a path, then the partners swap. Use it to practise giving and following clear directions.",
     "equipment": "Scattered cones. No benches.",
     "setup": "Pairs. Walker on one end, caller on the side. Agree the freeze signal before the first round.",
     "play": [
@@ -4157,7 +4157,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -4186,7 +4186,7 @@ window.GAME_DETAILS = [
     "months": [
       "February"
     ],
-    "purpose": "Balance on a floor line — no bench. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
+    "purpose": "Students walk a wavy floor line with airplane arms and finish with a stuck landing. Use it to practise balance without a bench.",
     "equipment": "Rope or tape.",
     "setup": "Wavy line on the floor. Agree the freeze signal before the first round.",
     "play": [
@@ -4214,7 +4214,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "Two-foot jump and stick. Gymnastics landings. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
+    "purpose": "Students jump with two feet from hoop to hoop and stick each landing. Use it to practise gymnastics landings.",
     "equipment": "Hoops.",
     "setup": "Paths of hoops. Agree the freeze signal before the first round.",
     "play": [
@@ -4242,7 +4242,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "A 5-minute interactive and active warm-up/workout. This one has an adventure theme all over the world with people, places, and things of all sorts. Included fitness activities such as jogging, jumping, swinging, climbing. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
+    "purpose": "Project this 5-minute adventure video, and students copy the jogging, jumping, swinging and climbing actions. Use it as a warm-up or brain break.",
     "equipment": "Projector",
     "setup": "Project the official 5-minute adventure video so the whole class can see the screen. Agree the freeze signal before the first round.",
     "play": [
@@ -4271,7 +4271,7 @@ window.GAME_DETAILS = [
       "May",
       "June"
     ],
-    "purpose": "Hold an object while jumping. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
+    "purpose": "Students jump to a cone and back holding a ball between their knees. Use it to practise controlled jumping.",
     "equipment": "Soft ball, two cones.",
     "setup": "Short lane. Agree the freeze signal before the first round.",
     "play": [
@@ -4299,7 +4299,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "String three movements (10-10-10 or 7-7-7). In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
+    "purpose": "Students do 10 (or 7) of each of three movements without stopping. Use it for a short fitness sequence.",
     "equipment": "None.",
     "setup": "Name three movements that fit the month (travel, jump, shape). Agree the freeze signal before the first round.",
     "play": [
@@ -4327,7 +4327,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "Whole class does the same short sequence together. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
+    "purpose": "Name a three-part challenge, and the whole class performs it together. Use it to practise moving in unison.",
     "equipment": "None.",
     "setup": "Scatter with space. Agree the freeze signal before the first round.",
     "play": [
@@ -4355,7 +4355,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "Came up with an easy fitness activity that had maximal engagement. In this activity, students will go full-out exercise for 1 minute, then a 20s break, then on again for 1 minute, then a break, etc. I also use laminated. In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
+    "purpose": "Students work for 1 minute at a strong effort, then rest for 20 seconds, for 8–12 rounds. Use it as an interval fitness activity.",
     "equipment": "None (or a variety)",
     "setup": "Students spread out in personal space. Agree the freeze signal before the first round.",
     "play": [
@@ -4385,7 +4385,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "A German running method – literally means “Pair Run” – Wunderbar! (Thanks Brian Loeppky). In class we use it to practise a short bout of movement quality — landings, balance, or muscular work — with a built-in rest.",
+    "purpose": "Partners take turns running a loop while the other recovers, so one partner is always running. Use it for pacing practice (Paarlauf, a German relay method; idea from Brian Loeppky).",
     "equipment": "None",
     "setup": "This is Paarlauf (“pair run”), a German relay method. Agree the freeze signal before the first round.",
     "play": [
@@ -4425,7 +4425,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Walk around a cone before the toss.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -4468,7 +4468,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -4509,7 +4509,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -4546,7 +4546,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "loco",
     "ifThis": [
@@ -4591,7 +4591,7 @@ window.GAME_DETAILS = [
     "g12": "Wide islands. Teacher spots.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -4630,7 +4630,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain. Feet-only if sticks are new.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Add a half-turn on the last spot.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -4672,7 +4672,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -5327,7 +5327,7 @@ window.GAME_DETAILS = [
       "February",
       "May"
     ],
-    "purpose": "Spin, jack, catch. Personal best, not a race. Daly Exercise game. Nobody sits the period.",
+    "purpose": "Students spin a hoop, do jumping jacks, then catch it, adding one jack after each clean catch. Use it as a personal challenge, not a race (Daly Exercise game).",
     "equipment": "One hoop each; personal space",
     "setup": "Show a clean rim-spin and a two-hand catch.",
     "play": [
