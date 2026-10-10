@@ -30,7 +30,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Angry Neighbour; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Angry Neighbour; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -87,7 +87,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Backyard Dog Tag; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Backyard Dog Tag; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -148,7 +148,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Blob Tag."
+        "look": "Honest about a tag or a catch — no argument that stalls Blob Tag."
       },
       {
         "code": "Safety",
@@ -214,11 +214,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Chicken Checkers; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Chicken Checkers; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Chicken Checkers."
+        "look": "Honest about a tag or a catch — no argument that stalls Chicken Checkers."
       },
       {
         "code": "Safety",
@@ -286,7 +286,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Duck Duck Dash; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Duck Duck Dash; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -344,7 +344,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Everybody’s It; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Everybody’s It; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -480,7 +480,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Frozen Tag."
+        "look": "Honest about a tag or a catch — no argument that stalls Frozen Tag."
       },
       {
         "code": "Safety",
@@ -562,7 +562,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Kangaroos and Crocodiles; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Kangaroos and Crocodiles; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -629,7 +629,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Line Tag / Pac-Man; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Line Tag / Pac-Man; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -700,7 +700,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Massive 10 Second Tag; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Massive 10 Second Tag; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -758,7 +758,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Mystery Number Tag; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Mystery Number Tag; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -819,7 +819,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Octopus; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Octopus; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -879,7 +879,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Reindeer Roundup; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Reindeer Roundup; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -940,7 +940,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Shadow Tag; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Shadow Tag; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -999,11 +999,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Sharks and Dolphins; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Sharks and Dolphins; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Sharks and Dolphins."
+        "look": "Honest about a tag or a catch — no argument that stalls Sharks and Dolphins."
       },
       {
         "code": "Safety",
@@ -1072,7 +1072,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Slap Rover; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Slap Rover; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -1132,7 +1132,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Squirrel’s Tail; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Squirrel’s Tail; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -1193,7 +1193,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Survivor Tag; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Survivor Tag; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -1254,7 +1254,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Tail Tag; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Tail Tag; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -1314,7 +1314,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Ten-Second Tag; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Ten-Second Tag; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -1374,7 +1374,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Tripod Tag; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Tripod Tag; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -1434,7 +1434,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Tunnel Freeze; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Tunnel Freeze; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -1493,7 +1493,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Wake-Up Bear; does not crowd a hospital, jail, or throwing line."
+        "look": "Takes a role and shares space in Wake-Up Bear; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
@@ -1615,7 +1615,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -1672,7 +1672,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -1729,7 +1729,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -1785,7 +1785,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -1905,7 +1905,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -1962,7 +1962,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Walks a jailed teammate home."
+        "look": "Walks the treasure back after a tag, without arguing."
       },
       {
         "code": "Character Development",
@@ -1974,7 +1974,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+        "look": "Calls a teammate’s name; includes a player who has not touched the treasure."
       }
     ],
     "more": [
@@ -2026,7 +2026,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2087,7 +2087,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2145,7 +2145,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2205,7 +2205,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2265,7 +2265,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2326,7 +2326,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2383,7 +2383,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Walks a jailed teammate home."
+        "look": "Walks the flag back after a tag, without arguing."
       },
       {
         "code": "Character Development",
@@ -2395,7 +2395,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+        "look": "Calls a teammate’s name; includes a player who has not touched the flag."
       }
     ],
     "more": [
@@ -2440,7 +2440,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+        "look": "Spreads out and moves to an open corner — not a crowd at one spot."
       },
       {
         "code": "Personal and Social Development",
@@ -2448,7 +2448,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest about who reached the spot first; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2456,7 +2456,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+        "look": "Calls a classmate’s name; includes a player who has not had a turn in the middle."
       }
     ],
     "more": [
@@ -2509,7 +2509,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2570,7 +2570,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2627,7 +2627,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Walks a jailed teammate home."
+        "look": "Walks the treasure back after a tag, without arguing."
       },
       {
         "code": "Character Development",
@@ -2639,7 +2639,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+        "look": "Calls a teammate’s name; includes a player who has not touched the treasure."
       }
     ],
     "more": [
@@ -2684,7 +2684,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Honest tags; no puppy-guarding a flag or hoop."
+        "look": "Honest tags; no puppy-guarding a key or hoop."
       },
       {
         "code": "Character Development",
@@ -2696,7 +2696,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+        "look": "Calls a teammate’s name; includes a player who has not had a turn as homeowner."
       }
     ],
     "more": [
@@ -2746,7 +2746,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2807,7 +2807,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -2868,7 +2868,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -3008,7 +3008,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -3064,7 +3064,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -3114,7 +3114,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+        "look": "Spreads out or defends a line — one tactic, not a crowd around the object."
       },
       {
         "code": "Personal and Social Development",
@@ -3130,7 +3130,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+        "look": "Calls a teammate’s name; includes a player who has not touched the object."
       }
     ],
     "more": [
@@ -3204,7 +3204,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+        "look": "Calls a teammate’s name; includes a player who has not touched the stone."
       }
     ],
     "more": [
@@ -3249,7 +3249,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+        "look": "Spreads out and moves to an open corner — not a crowd at one spot."
       },
       {
         "code": "Personal and Social Development",
@@ -3257,7 +3257,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest about who reached the spot first; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -3265,7 +3265,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+        "look": "Calls a classmate’s name; includes a player who has not had a turn in the middle."
       }
     ],
     "more": [
@@ -3379,7 +3379,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -3440,7 +3440,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -3501,7 +3501,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -3562,7 +3562,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest score and honest tags; tries again after a miss."
+        "look": "Honest score; tries again after a miss."
       },
       {
         "code": "Safety",
@@ -4112,7 +4112,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild kick."
       },
       {
         "code": "Personal and Social Development",
@@ -4514,7 +4514,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+        "look": "Chooses a target and a force — close and soft, or far and firm — not a wild kick."
       },
       {
         "code": "Personal and Social Development",
@@ -4570,7 +4570,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Skill Development",
-        "look": "Strikes or kicks to a space; ready hands or feet on a catch or stop."
+        "look": "Travels to the Card Master’s hoop with control; dodges a tag."
       },
       {
         "code": "Movement Tactics and Strategies",
@@ -4578,7 +4578,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+        "look": "Waits for a turn at the Card Master’s hoop — one at a time."
       },
       {
         "code": "Character Development",
@@ -4590,7 +4590,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+        "look": "Helps a teammate who is unsure of the Card Master’s hoop or the card count."
       }
     ],
     "more": [
@@ -4690,19 +4690,19 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Skill Development",
-        "look": "Strikes or kicks to a space; ready hands on a catch."
+        "look": "Throws low at a structure; ready hands to block or catch."
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Knows when to run and when to hold."
+        "look": "Knows when to throw and when to rebuild."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+        "look": "Takes a turn throwing and rebuilding; rotates jobs without fuss."
       },
       {
         "code": "Character Development",
-        "look": "Honest out or safe; no arguing a force."
+        "look": "Honest count of castles down; no arguing a call."
       },
       {
         "code": "Safety",
@@ -4710,7 +4710,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+        "look": "Calls ‘mine’ on a loose ball; helps a teammate rebuild a castle."
       }
     ],
     "more": [
@@ -4764,19 +4764,19 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Skill Development",
-        "look": "Strikes or kicks to a space; ready hands on a catch."
+        "look": "Sends a catchable throw; ready hands on a catch."
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Knows when to run and when to hold."
+        "look": "Knows when to step back and when to step forward."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+        "look": "Takes turns throwing and catching with a partner."
       },
       {
         "code": "Character Development",
-        "look": "Honest out or safe; no arguing a force."
+        "look": "Honest about a catch or a drop; no arguing a step."
       },
       {
         "code": "Safety",
@@ -4784,7 +4784,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+        "look": "Calls ‘mine’ before the catch; encourages a partner after a drop."
       }
     ],
     "more": [
@@ -4824,7 +4824,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Skill Development",
-        "look": "Everyone gets a throw or kick."
+        "look": "Everyone gets a throw."
       },
       {
         "code": "Movement Tactics and Strategies",
@@ -4832,11 +4832,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+        "look": "Takes a turn as thrower and a spot in the passing line; a new thrower every turn."
       },
       {
         "code": "Character Development",
-        "look": "Honest out or safe; no arguing a force."
+        "look": "Honest lap count; no arguing a call."
       },
       {
         "code": "Safety",
@@ -4844,7 +4844,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+        "look": "Calls ‘mine’ for the chicken; helps a teammate in the over-under line."
       }
     ],
     "more": [
@@ -4966,7 +4966,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next base."
       }
     ],
     "more": [
@@ -5149,7 +5149,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next mat."
       }
     ],
     "more": [
@@ -5207,7 +5207,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next base."
       }
     ],
     "more": [
@@ -5360,19 +5360,19 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Skill Development",
-        "look": "Strikes or kicks to a space; ready hands on a catch."
+        "look": "Strikes or rolls to a gap; ready hands on a stop."
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Knows when to run and when to hold."
+        "look": "Knows when to strike and when to close the gap."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
+        "look": "Takes a turn with the ball; passes it on so everyone strikes."
       },
       {
         "code": "Character Development",
-        "look": "Honest out or safe; no arguing a force."
+        "look": "Honest about a score or a stop; no arguing a save."
       },
       {
         "code": "Safety",
@@ -5380,7 +5380,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+        "look": "Calls a name before sending; helps a classmate who is unsure of the legal save."
       }
     ],
     "more": [
@@ -5423,7 +5423,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Knows when to run, hold, or send to a base or hoop."
+        "look": "Knows when to send through a gap in the rows."
       },
       {
         "code": "Personal and Social Development",
@@ -5431,7 +5431,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest out or safe; no arguing a force."
+        "look": "Honest row count; no arguing a call."
       },
       {
         "code": "Safety",
@@ -5439,7 +5439,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+        "look": "Calls ‘mine’ on a fly; helps a defender cover the next row."
       }
     ],
     "more": [
@@ -5568,7 +5568,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the high-five, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
@@ -5576,7 +5576,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+        "look": "No extra steps past the line; the leg continues to the end."
       },
       {
         "code": "Safety",
@@ -5584,7 +5584,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Encourages the next runner; does not shame a drop."
+        "look": "Encourages the next runner; does not shame a slow leg."
       }
     ],
     "more": [
@@ -5636,7 +5636,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+        "look": "No extra steps past the line; the leg continues to the end."
       },
       {
         "code": "Safety",
@@ -5644,7 +5644,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Encourages the next runner; does not shame a drop."
+        "look": "Encourages the next runner; does not shame a slow leg."
       }
     ],
     "more": [
@@ -5688,15 +5688,15 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the high-five, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Waits behind the line; tags the next runner kindly."
+        "look": "Waits behind the line; high-fives the next runner kindly."
       },
       {
         "code": "Character Development",
-        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+        "look": "No extra steps past the line; the leg continues to the end."
       },
       {
         "code": "Safety",
@@ -5704,7 +5704,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Encourages the next runner; does not shame a drop."
+        "look": "Encourages the next runner; does not shame a slow leg."
       }
     ],
     "more": [
@@ -5808,11 +5808,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the high-five, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Waits behind the line; tags the next runner kindly."
+        "look": "Waits behind the line; high-fives the next runner kindly."
       },
       {
         "code": "Character Development",
@@ -5868,11 +5868,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the high-five, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Waits behind the line; tags the next runner kindly."
+        "look": "Waits behind the line; high-fives the next runner kindly."
       },
       {
         "code": "Character Development",
@@ -5928,11 +5928,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the high-five, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Waits behind the line; tags the next runner kindly."
+        "look": "Waits behind the line; high-fives the next runner kindly."
       },
       {
         "code": "Character Development",
@@ -5988,7 +5988,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on go, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
@@ -5996,7 +5996,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "No extra steps past the line; a drop is picked up and the leg continues."
+        "look": "Only the head picks up a drop; the snake reconnects and continues."
       },
       {
         "code": "Safety",
@@ -6004,7 +6004,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Encourages the next runner; does not shame a drop."
+        "look": "Encourages the snake; does not shame a break or a drop."
       }
     ],
     "more": [
@@ -6178,11 +6178,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the call, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Waits behind the line; tags the next runner kindly."
+        "look": "Waits for their name; holds a steady arch for a teammate."
       },
       {
         "code": "Character Development",
@@ -6235,11 +6235,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Skill Development",
-        "look": "Waits behind the line for the tag."
+        "look": "Waits on the far line for a teammate’s hand."
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the hand-hold, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
@@ -6299,11 +6299,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the high-five, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Waits behind the line; tags the next runner kindly."
+        "look": "Waits behind the line; high-fives the next runner kindly."
       },
       {
         "code": "Character Development",
@@ -6417,11 +6417,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the signal, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Waits behind the line; tags the next runner kindly."
+        "look": "Waits behind the line for their turn."
       },
       {
         "code": "Character Development",
@@ -6488,11 +6488,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the high-five, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Waits behind the line; tags the next runner kindly."
+        "look": "Waits behind the line; high-fives the next runner kindly."
       },
       {
         "code": "Character Development",
@@ -6565,11 +6565,11 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the high-five, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Waits behind the line; tags the next runner kindly."
+        "look": "Waits behind the line; high-fives the next runner kindly."
       },
       {
         "code": "Character Development",
@@ -6624,7 +6624,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+        "look": "Starts on the high-five, not early; chooses a path that does not cut off another team."
       },
       {
         "code": "Personal and Social Development",
@@ -6808,7 +6808,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -6869,7 +6869,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -6930,7 +6930,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -6990,7 +6990,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -7050,7 +7050,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -7241,7 +7241,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -7302,7 +7302,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -7363,7 +7363,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -7541,7 +7541,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -7603,7 +7603,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -7663,7 +7663,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Listens with the group; leftover players join the teacher — they are never out."
+        "look": "Listens with the group; nobody is ever out."
       },
       {
         "code": "Character Development",
@@ -8355,7 +8355,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Restarts a drop without blaming a classmate."
+        "look": "Restarts after a mistake without blaming a classmate."
       },
       {
         "code": "Safety",
@@ -8625,7 +8625,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a hoop or spot; no blocking a turn."
       }
     ],
     "more": [
@@ -8690,7 +8690,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
+        "look": "Works beside a partner without bumping others."
       },
       {
         "code": "Character Development",
@@ -8702,7 +8702,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a spot; no blocking a landing."
       }
     ],
     "more": [
@@ -8808,7 +8808,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
+        "look": "Works beside a partner without bumping others."
       },
       {
         "code": "Character Development",
@@ -8820,7 +8820,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a spot; no blocking a landing."
       }
     ],
     "more": [
@@ -8867,7 +8867,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
+        "look": "Works beside a partner without bumping others."
       },
       {
         "code": "Character Development",
@@ -8879,7 +8879,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a spot; no blocking a landing."
       }
     ],
     "more": [
@@ -8939,7 +8939,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a spot; no blocking a landing."
       }
     ],
     "more": [
@@ -8998,7 +8998,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a spot; no blocking a landing."
       }
     ],
     "more": [
@@ -9043,7 +9043,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
+        "look": "Works beside a partner without bumping others."
       },
       {
         "code": "Character Development",
@@ -9055,7 +9055,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a spot; no blocking a landing."
       }
     ],
     "more": [
@@ -9099,7 +9099,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
+        "look": "Works beside a partner without bumping others."
       },
       {
         "code": "Character Development",
@@ -9111,7 +9111,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a spot; no blocking a turn."
       }
     ],
     "more": [
@@ -9235,7 +9235,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
+        "look": "Works beside a partner without bumping others."
       },
       {
         "code": "Character Development",
@@ -9247,7 +9247,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a spot; no blocking a turn."
       }
     ],
     "more": [
@@ -9378,7 +9378,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
+        "look": "Works beside a partner without bumping others."
       },
       {
         "code": "Character Development",
@@ -9390,7 +9390,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a spot; no blocking a turn."
       }
     ],
     "more": [
@@ -9468,7 +9468,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a hoop or spot; no blocking a turn."
       }
     ],
     "more": [
@@ -9602,7 +9602,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Personal and Social Development",
-        "look": "Works beside a partner or in a hoop without bumping others out."
+        "look": "Works beside a partner without bumping others."
       },
       {
         "code": "Character Development",
@@ -9614,7 +9614,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+        "look": "Lets a classmate have a spot; no blocking a landing."
       }
     ],
     "more": [
@@ -9674,7 +9674,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Bottle Flip."
+        "look": "Honest about a miss or a line in Bottle Flip."
       },
       {
         "code": "Safety",
@@ -9682,7 +9682,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -9738,7 +9738,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Bottle Flip Challenge."
+        "look": "Honest about a miss or a tag in Bottle Flip Challenge."
       },
       {
         "code": "Safety",
@@ -9802,7 +9802,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Boom Clap Snatch."
+        "look": "Honest about a miss in Boom Clap Snatch."
       },
       {
         "code": "Safety",
@@ -9810,7 +9810,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -9866,7 +9866,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Cardboard Balance."
+        "look": "Honest about a miss in Cardboard Balance."
       },
       {
         "code": "Safety",
@@ -9874,7 +9874,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -9930,7 +9930,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Blindfold Walk."
+        "look": "Honest about a miss or a line in Blindfold Walk."
       },
       {
         "code": "Safety",
@@ -9938,7 +9938,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -9994,7 +9994,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Guess Who."
+        "look": "Honest about a miss in Guess Who."
       },
       {
         "code": "Safety",
@@ -10002,7 +10002,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10058,7 +10058,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Human Catapult."
+        "look": "Honest about a miss or a line in Human Catapult."
       },
       {
         "code": "Safety",
@@ -10066,7 +10066,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10122,7 +10122,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Bean Bag Core."
+        "look": "Honest about a miss in Bean Bag Core."
       },
       {
         "code": "Safety",
@@ -10130,7 +10130,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10186,7 +10186,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Shoot for the Stars."
+        "look": "Honest about a miss in Shoot for the Stars."
       },
       {
         "code": "Safety",
@@ -10194,7 +10194,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10250,7 +10250,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Chain Train."
+        "look": "Honest about a miss or a line in Chain Train."
       },
       {
         "code": "Safety",
@@ -10258,7 +10258,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10314,7 +10314,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Cone Raider."
+        "look": "Honest about a miss or a line in Cone Raider."
       },
       {
         "code": "Safety",
@@ -10322,7 +10322,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10378,7 +10378,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Catch the Cone."
+        "look": "Honest about a miss in Catch the Cone."
       },
       {
         "code": "Safety",
@@ -10386,7 +10386,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10442,7 +10442,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Popcorn Flip."
+        "look": "Honest about a miss in Popcorn Flip."
       },
       {
         "code": "Safety",
@@ -10450,7 +10450,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10506,7 +10506,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Inchworm Rescue."
+        "look": "Honest about a miss in Inchworm Rescue."
       },
       {
         "code": "Safety",
@@ -10514,7 +10514,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10570,7 +10570,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Hoop Hut."
+        "look": "Honest about a miss in Hoop Hut."
       },
       {
         "code": "Safety",
@@ -10578,7 +10578,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10634,7 +10634,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Partner Orienteering."
+        "look": "Honest about a miss in Partner Orienteering."
       },
       {
         "code": "Safety",
@@ -10642,7 +10642,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10698,7 +10698,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Stick Tic-Tac-Toe."
+        "look": "Honest about a miss in Stick Tic-Tac-Toe."
       },
       {
         "code": "Safety",
@@ -10706,7 +10706,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10762,7 +10762,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Jumping Jack Hoop Challenge."
+        "look": "Honest about a miss or a drop in Jumping Jack Hoop Challenge."
       },
       {
         "code": "Safety",
@@ -10770,7 +10770,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss or a drop."
       }
     ],
     "more": [
@@ -10826,7 +10826,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Tennis Jump."
+        "look": "Honest about a miss in Tennis Jump."
       },
       {
         "code": "Safety",
@@ -10834,7 +10834,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -10890,7 +10890,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Catch the Ice Cream."
+        "look": "Honest about a miss or a drop in Catch the Ice Cream."
       },
       {
         "code": "Safety",
@@ -10898,7 +10898,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss or a drop."
       }
     ],
     "more": [
@@ -10954,7 +10954,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Hoop Balance."
+        "look": "Honest about a miss or a tag in Hoop Balance."
       },
       {
         "code": "Safety",
@@ -11018,7 +11018,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Bounce & Scoop."
+        "look": "Honest about a miss in Bounce & Scoop."
       },
       {
         "code": "Safety",
@@ -11026,7 +11026,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -11082,7 +11082,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Side to Side."
+        "look": "Honest about a miss, a drop, or a line in Side to Side."
       },
       {
         "code": "Safety",
@@ -11090,7 +11090,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss or a drop."
       }
     ],
     "more": [
@@ -11146,7 +11146,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Jump to Hoop Race."
+        "look": "Honest about a miss in Jump to Hoop Race."
       },
       {
         "code": "Safety",
@@ -11154,7 +11154,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [
@@ -11210,7 +11210,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Character Development",
-        "look": "Honest about a miss, a tag, or a line in Crawl and Roll Challenge."
+        "look": "Honest about a miss in Crawl and Roll Challenge."
       },
       {
         "code": "Safety",
@@ -11218,7 +11218,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Healthy Relationships",
-        "look": "Helps a classmate re-enter after a miss or a tag."
+        "look": "Helps a classmate try again after a miss."
       }
     ],
     "more": [

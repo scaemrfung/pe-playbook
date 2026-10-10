@@ -161,7 +161,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Listens with the group; leftover players join the teacher — they are never out."
+     "look": "Listens with the group; nobody is ever out."
     },
     {
      "code": "Character Development",
@@ -256,7 +256,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Listens with the group; leftover players join the teacher — they are never out."
+     "look": "Listens with the group; nobody is ever out."
     },
     {
      "code": "Character Development",
@@ -354,7 +354,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Listens with the group; leftover players join the teacher — they are never out."
+     "look": "Listens with the group; nobody is ever out."
     },
     {
      "code": "Character Development",
@@ -455,7 +455,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Listens with the group; leftover players join the teacher — they are never out."
+     "look": "Listens with the group; nobody is ever out."
     },
     {
      "code": "Character Development",
@@ -557,7 +557,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Listens with the group; leftover players join the teacher — they are never out."
+     "look": "Listens with the group; nobody is ever out."
     },
     {
      "code": "Character Development",
@@ -644,19 +644,19 @@ window.NEW_GAMES = {
     },
     {
      "code": "Movement Skill Development",
-     "look": "Shows the named locomotor or shape."
+     "look": "Shows the named pose."
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Finds an open pathway on the go signal; does not cut a neighbour in Chair Yoga."
+     "look": "Holds each pose for slow breaths; does not rush to the next one."
     },
     {
      "code": "Personal and Social Development",
-     "look": "Listens with the group; leftover players join the teacher — they are never out."
+     "look": "Listens with the group and follows the poses together."
     },
     {
      "code": "Character Development",
-     "look": "Freezes honestly on the signal even if it is fun to keep running."
+     "look": "Holds the pose honestly for the full breaths."
     },
     {
      "code": "Safety",
@@ -664,7 +664,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Healthy Relationships",
-     "look": "Moves around people, not through them; helps a classmate who missed the cue."
+     "look": "Gives a neighbour space; helps a classmate who missed the cue."
     }
    ],
    "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
@@ -750,7 +750,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Listens with the group; leftover players join the teacher — they are never out."
+     "look": "Listens with the group; nobody is ever out."
     },
     {
      "code": "Character Development",
@@ -851,7 +851,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Listens with the group; leftover players join the teacher — they are never out."
+     "look": "Listens with the group; nobody is ever out."
     },
     {
      "code": "Character Development",
@@ -949,7 +949,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Listens with the group; leftover players join the teacher — they are never out."
+     "look": "Listens with the group; nobody is ever out."
     },
     {
      "code": "Character Development",
@@ -1157,11 +1157,11 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Takes a role and shares space in Turtle Tag; does not crowd a hospital, jail, or throwing line."
+     "look": "Takes a role and shares space in Turtle Tag; does not crowd a hospital or jail."
     },
     {
      "code": "Character Development",
-     "look": "Honest about a tag, a catch, or a line — no argument that stalls Turtle Tag."
+     "look": "Honest about a tag or a catch — no argument that stalls Turtle Tag."
     },
     {
      "code": "Safety",
@@ -1254,11 +1254,11 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Takes a role and shares space in Gingerbread Man Tag; does not crowd a hospital, jail, or throwing line."
+     "look": "Takes a role and shares space in Gingerbread Man Tag; does not crowd a hospital or jail."
     },
     {
      "code": "Character Development",
-     "look": "Honest about a tag, a catch, or a line — no argument that stalls Gingerbread Man Tag."
+     "look": "Honest about a tag or a catch — no argument that stalls Gingerbread Man Tag."
     },
     {
      "code": "Safety",
@@ -1351,11 +1351,11 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Takes a role and shares space in Crab Tag; does not crowd a hospital, jail, or throwing line."
+     "look": "Takes a role and shares space in Crab Tag; does not crowd a hospital or jail."
     },
     {
      "code": "Character Development",
-     "look": "Honest about a tag, a catch, or a line — no argument that stalls Crab Tag."
+     "look": "Honest about a tag or a catch — no argument that stalls Crab Tag."
     },
     {
      "code": "Safety",
@@ -1450,7 +1450,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Character Development",
-     "look": "Honest score and honest tags; tries again after a miss."
+     "look": "Honest score; tries again after a miss."
     },
     {
      "code": "Safety",
@@ -1543,7 +1543,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Character Development",
-     "look": "Honest score and honest tags; tries again after a miss."
+     "look": "Honest score; tries again after a miss."
     },
     {
      "code": "Safety",
@@ -1639,7 +1639,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Character Development",
-     "look": "Honest score and honest tags; tries again after a miss."
+     "look": "Honest score; tries again after a miss."
     },
     {
      "code": "Safety",
@@ -1819,7 +1819,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Character Development",
-     "look": "Honest score and honest tags; tries again after a miss."
+     "look": "Honest score; tries again after a miss."
     },
     {
      "code": "Safety",
@@ -2004,7 +2004,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the disc."
     },
     {
      "code": "Personal and Social Development",
@@ -2012,7 +2012,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Character Development",
-     "look": "Honest score and honest tags; tries again after a miss."
+     "look": "Honest score; tries again after a miss."
     },
     {
      "code": "Safety",
@@ -2020,7 +2020,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Healthy Relationships",
-     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+     "look": "Calls a teammate’s name; includes a player who has not touched the disc."
     }
    ],
    "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
@@ -2101,7 +2101,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
+     "look": "Spreads out or defends a line — one tactic, not a crowd around the fish."
     },
     {
      "code": "Personal and Social Development",
@@ -2117,7 +2117,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Healthy Relationships",
-     "look": "Calls a teammate’s name; includes a player who has not touched the ball."
+     "look": "Calls a teammate’s name; includes a player who has not touched the fish."
     }
    ],
    "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
@@ -2207,7 +2207,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Character Development",
-     "look": "Honest score and honest tags; tries again after a miss."
+     "look": "Honest score; tries again after a miss."
     },
     {
      "code": "Safety",
@@ -2379,7 +2379,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild send."
     },
     {
      "code": "Personal and Social Development",
@@ -2462,19 +2462,19 @@ window.NEW_GAMES = {
     },
     {
      "code": "Movement Skill Development",
-     "look": "Repeats the named locomotor or send with control to the line and back."
+     "look": "Repeats the set or volley with control down the line."
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+     "look": "Chooses a soft set the next player can reach, not a wild hit."
     },
     {
      "code": "Personal and Social Development",
-     "look": "Waits behind the line; tags the next runner kindly."
+     "look": "Waits behind the line for their turn."
     },
     {
      "code": "Character Development",
-     "look": "No extra steps past the line; a drop is picked up and the leg continues."
+     "look": "A drop is picked up and the pass continues down the line."
     },
     {
      "code": "Safety",
@@ -2482,7 +2482,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Healthy Relationships",
-     "look": "Encourages the next runner; does not shame a drop."
+     "look": "Encourages the next passer; does not shame a drop."
     }
    ],
    "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
@@ -2556,7 +2556,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild send."
     },
     {
      "code": "Personal and Social Development",
@@ -2652,7 +2652,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild send."
     },
     {
      "code": "Personal and Social Development",
@@ -2748,7 +2748,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
+     "look": "Chooses a target and a force — close and soft, or far and firm — not a wild send."
     },
     {
      "code": "Personal and Social Development",
@@ -3147,7 +3147,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Healthy Relationships",
-     "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+     "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next base."
     }
    ],
    "g12": "Tee or a bounced toss. Run to one base or hoop and stay. Teacher fields the first few.",
@@ -3242,7 +3242,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Healthy Relationships",
-     "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next hoop."
+     "look": "Calls ‘mine’ on a fly; helps a runner who is unsure of the next base."
     }
    ],
    "g12": "Tee or a bounced toss. Run to one base or hoop and stay. Teacher fields the first few.",
@@ -3420,7 +3420,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Works beside a partner or in a hoop without bumping others out."
+     "look": "Works beside a partner without bumping others."
     },
     {
      "code": "Character Development",
@@ -3432,7 +3432,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Healthy Relationships",
-     "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+     "look": "Lets a classmate have a spot; no blocking a turn."
     }
    ],
    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
@@ -3601,15 +3601,15 @@ window.NEW_GAMES = {
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+     "look": "Starts on the hand-off, not early; chooses a path that does not cut off another team."
     },
     {
      "code": "Personal and Social Development",
-     "look": "Waits behind the line; tags the next runner kindly."
+     "look": "Waits behind the line for the hand-off."
     },
     {
      "code": "Character Development",
-     "look": "No extra steps past the line; a drop is picked up and the leg continues."
+     "look": "No extra steps past the line; the leg continues to the end."
     },
     {
      "code": "Safety",
@@ -3617,7 +3617,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Healthy Relationships",
-     "look": "Encourages the next runner; does not shame a drop."
+     "look": "Encourages the next runner; does not shame a slow leg."
     }
    ],
    "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
@@ -3700,7 +3700,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Works beside a partner or in a hoop without bumping others out."
+     "look": "Works beside a partner without bumping others."
     },
     {
      "code": "Character Development",
@@ -3712,7 +3712,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Healthy Relationships",
-     "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+     "look": "Lets a classmate have a spot; no blocking a turn."
     }
    ],
    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
@@ -3791,11 +3791,11 @@ window.NEW_GAMES = {
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Starts on the tag, not early; chooses a path that does not cut off another team."
+     "look": "Starts on the signal, not early; chooses a path that does not cut off another team."
     },
     {
      "code": "Personal and Social Development",
-     "look": "Waits behind the line; tags the next runner kindly."
+     "look": "Waits behind the line for their turn."
     },
     {
      "code": "Character Development",
@@ -3890,7 +3890,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Personal and Social Development",
-     "look": "Works beside a partner or in a hoop without bumping others out."
+     "look": "Works beside a partner without bumping others."
     },
     {
      "code": "Character Development",
@@ -3902,7 +3902,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Healthy Relationships",
-     "look": "Lets a classmate have a hoop or spot; no blocking a landing."
+     "look": "Lets a classmate have a spot; no blocking a turn."
     }
    ],
    "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
