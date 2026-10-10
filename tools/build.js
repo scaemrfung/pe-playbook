@@ -241,8 +241,8 @@ function rowLinks(html) { const s = new Set(); String(html).replace(/<a\b[^>]*hr
 
 const BANDS = [["g12", "1–2"], ["g34", "3–4"], ["g56", "5–6"]];
 function bandSpans(obj, sep) {
-  return BANDS.map(([k, label]) =>
-    `<span class="band" data-band="${k}"><strong>${label}:</strong> ${fill(obj[k] || "") || "—"}</span>`
+  return BANDS.filter(([k]) => fill(obj[k] || "")).map(([k, label]) =>
+    `<span class="band" data-band="${k}"><strong>${label}:</strong> ${fill(obj[k] || "")}</span>`
   ).join(sep);
 }
 

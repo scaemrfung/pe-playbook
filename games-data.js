@@ -2290,7 +2290,7 @@ window.GAME_DETAILS = [
     "skins": [
       "Yoga ball only, push it onto the other bench (Star Wars).",
       "Cone targets on a centre bench; touch your wall before you throw.",
-      "Retrievers vs throwers with a present hoop (Snowball Fight).",
+      "Retrievers vs throwers with a target hoop (Snowball Fight).",
       "Bombardment / Battleball: same halves, same rebuild."
     ],
     "aka": [

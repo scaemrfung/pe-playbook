@@ -395,9 +395,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
               return `<div class="outcomes-box"><h3>Alberta PEW outcomes</h3><p class="note" style="margin:0 0 8px;font-style:normal">Pick one or two look-fors per class.</p><ul class="clean out-list">${outs.map((it) => `<li><strong>${it.code}.</strong> ${it.look}</li>`).join("")}</ul></div>`;
             })()}
             <div class="bands-block">
-              <div><strong>Grades 1–2.</strong> ${g.g12 || ""}</div>
-              <div><strong>Grades 3–4.</strong> ${g.g34 || ""}</div>
-              <div><strong>Grades 5–6.</strong> ${g.g56 || ""}</div>
+              ${[["g12", "1–2"], ["g34", "3–4"], ["g56", "5–6"]].filter(([k]) => g[k]).map(([k, l]) => `<div><strong>Grades ${l}.</strong> ${g[k]}</div>`).join("")}
             </div>
             <p class="note"><strong>Safety.</strong> ${g.safety || ""}</p>
             ${(() => { const src = x.source || (pegFor(g.name)[0] || {}).page; return src ? `<p class="meta card-source"><a href="${src}" target="_blank" rel="noopener">Source</a></p>` : ""; })()}

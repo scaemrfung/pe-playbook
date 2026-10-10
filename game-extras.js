@@ -4678,7 +4678,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Yoga ball only, push it onto the other bench (Star Wars).",
       "Cone targets on a centre bench; touch your wall before you throw.",
-      "Retrievers vs throwers with a present hoop (Snowball Fight).",
+      "Retrievers vs throwers with a target hoop (Snowball Fight).",
       "Bombardment / Battleball: same halves, same rebuild."
     ],
     "look": "Everyone is moving or has a job in Castleball. A miss is a short task, then back in — nobody sits the period.",
@@ -4730,7 +4730,7 @@ window.GAME_EXTRAS = {
     "skins": [
       "Yoga ball only, push it onto the other bench (Star Wars).",
       "Cone targets on a centre bench; touch your wall before you throw.",
-      "Retrievers vs throwers with a present hoop (Snowball Fight).",
+      "Retrievers vs throwers with a target hoop (Snowball Fight).",
       "Bombardment / Battleball: same halves, same rebuild."
     ],
     "aka": [
