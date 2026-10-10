@@ -194,7 +194,7 @@ window.GAME_EXTRAS = {
       "If you are tagged, show it honestly and take the next job."
     ],
     "variations": [
-      "Mummy steals a stone (Graveyard Guard).",
+      "Stone Guard: raider steals a stone.",
       "Tigers keep feet in hoops and tag from there (Hoop Dog).",
       "Rest hoop you may step into (Buzz Off)."
     ],
@@ -234,7 +234,7 @@ window.GAME_EXTRAS = {
       "How a round ends: Rotate the leftover player. Play 4–6 switches.",
       "If this happens — Dive onto a cone: no claim.",
       "If this happens — Camping through the call: they must leave.",
-      "Also called: Buzz Off / hoop free zones; Buzz Off; Graveyard Guard; Hoop Dog.",
+      "Also called: Buzz Off / hoop free zones; Buzz Off; Hoop Dog.",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -243,14 +243,13 @@ window.GAME_EXTRAS = {
     ],
     "roundEnds": "Rotate the leftover player. Play 4–6 switches.",
     "skins": [
-      "Mummy steals a stone (Graveyard Guard).",
+      "Stone Guard: raider steals a stone.",
       "Tigers keep feet in hoops and tag from there (Hoop Dog).",
       "Rest hoop you may step into (Buzz Off)."
     ],
     "aka": [
       "Buzz Off / hoop free zones",
       "Buzz Off",
-      "Graveyard Guard",
       "Hoop Dog"
     ]
   },
@@ -454,7 +453,7 @@ window.GAME_EXTRAS = {
       "Hospital: cover the spot, third tag = walk a hoop lap and rejoin.",
       "Hot Dog: stand still, two classmates are the bun.",
       "Banana: curve the body, two-hand peel.",
-      "Present (December): sit with hands in a bow, classmate ‘opens’ you.",
+      "Package (December): sit with hands in a bow, classmate ‘opens’ you.",
       "Jack Frost: hug or high-five melt.",
       "Bug / Dead Ant: freeze on your back with legs up; a teammate taps both feet.",
       "Waspital: same hospital rule with a wasp story.",
@@ -497,7 +496,7 @@ window.GAME_EXTRAS = {
       "If this happens — Statue moves: they stay frozen.",
       "If this happens — Rough rescue: switch the whole class to a two-finger touch.",
       "If this happens — All frozen: new taggers, restart.",
-      "Also called: Hospital Tag; Hot Dog Tag; Banana Tag; Bug Tag / Dead Ant; Bug Tag; Dead Ant; Waspital; Present Tag; Jack Frost; Sun and Ice; Caterpillar Tag; Frog Tag.",
+      "Also called: Hospital Tag; Hot Dog Tag; Banana Tag; Bug Tag / Dead Ant; Bug Tag; Dead Ant; Waspital; Package Tag; Jack Frost; Sun and Ice; Caterpillar Tag; Frog Tag.",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -511,7 +510,7 @@ window.GAME_EXTRAS = {
       "Hospital: cover the spot, third tag = walk a hoop lap and rejoin.",
       "Hot Dog: stand still, two classmates are the bun.",
       "Banana: curve the body, two-hand peel.",
-      "Present (December): sit with hands in a bow, classmate ‘opens’ you.",
+      "Package (December): sit with hands in a bow, classmate ‘opens’ you.",
       "Jack Frost: hug or high-five melt.",
       "Bug / Dead Ant: freeze on your back with legs up; a teammate taps both feet.",
       "Waspital: same hospital rule with a wasp story.",
@@ -525,7 +524,7 @@ window.GAME_EXTRAS = {
       "Bug Tag",
       "Dead Ant",
       "Waspital",
-      "Present Tag",
+      "Package Tag",
       "Jack Frost",
       "Sun and Ice",
       "Caterpillar Tag",
@@ -847,7 +846,7 @@ window.GAME_EXTRAS = {
     "skins": [],
     "aka": []
   },
-  "Reindeer Roundup": {
+  "Pony Roundup": {
     "numbers": "Large group · K-6 · 5–8 min rounds.",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
@@ -863,27 +862,27 @@ window.GAME_EXTRAS = {
       "Tagged players become helpers (peelers, medics, or extra taggers) instead of sitting.",
       "Teacher holds the only extra noodle in grades 1–2."
     ],
-    "look": "Everyone is moving or has a role in Reindeer Roundup. A tagged player re-enters instead of sitting.",
+    "look": "Everyone is moving or has a role in Pony Roundup. A tagged player re-enters instead of sitting.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Stays in Reindeer Roundup for the set time; can name breath or enjoyment after — not a ranking."
+        "look": "Stays in Pony Roundup for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Changes speed and pathway to avoid a tag in Reindeer Roundup."
+        "look": "Changes speed and pathway to avoid a tag in Pony Roundup."
       },
       {
         "code": "Movement Tactics and Strategies",
-        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Reindeer Roundup."
+        "look": "Uses space, a fake, or a safe zone instead of a pile-up in Pony Roundup."
       },
       {
         "code": "Personal and Social Development",
-        "look": "Takes a role and shares space in Reindeer Roundup; does not crowd a hospital or jail."
+        "look": "Takes a role and shares space in Pony Roundup; does not crowd a hospital or jail."
       },
       {
         "code": "Character Development",
-        "look": "Honest about a tag, a catch, or a line — no argument that stalls Reindeer Roundup."
+        "look": "Honest about a tag, a catch, or a line — no argument that stalls Pony Roundup."
       },
       {
         "code": "Safety",
@@ -896,7 +895,7 @@ window.GAME_EXTRAS = {
     ],
     "more": [
       "Grouping: Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total.",
-      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Reindeer Roundup.",
+      "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Pony Roundup.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
       "Noodles: demo a hip tap on a volunteer, then a wrong swing, then the hip tap again.",
       "Year plan: December, September — match the month’s sport ball when you can."
@@ -4392,7 +4391,7 @@ window.GAME_EXTRAS = {
       "How a round ends: First team to the target score, or most in a time cap.",
       "If this happens — Ball on the rim: teacher call.",
       "If this happens — Forgot the score: rewind to last agreed total.",
-      "Also called: Rolling 21; Hoop bowling; Christmas Lights; Land the ball in the hoop; Chip into buckets.",
+      "Also called: Rolling 21; Hoop bowling; Circuit Lights; Land the ball in the hoop; Chip into buckets.",
       "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -4408,7 +4407,7 @@ window.GAME_EXTRAS = {
     "aka": [
       "Rolling 21",
       "Hoop bowling",
-      "Christmas Lights",
+      "Circuit Lights",
       "Land the ball in the hoop",
       "Chip into buckets"
     ]
@@ -4719,7 +4718,7 @@ window.GAME_EXTRAS = {
       "If this happens — Throw at a person: no point, warning.",
       "If this happens — Cross the centre: that throw does not count.",
       "If this happens — All down in 10 seconds: play two bouts and add.",
-      "Also called: Bombardment; Battleball; Star Wars; Snowball Fight; Snowman Run; Castleball 2.0.",
+      "Also called: Bombardment; Battleball; Star Wars; Snowball Fight; Castleball 2.0.",
       "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -4738,7 +4737,6 @@ window.GAME_EXTRAS = {
       "Bombardment",
       "Star Wars",
       "Snowball Fight",
-      "Snowman Run",
       "Castleball 2.0"
     ]
   },
@@ -5466,8 +5464,8 @@ window.GAME_EXTRAS = {
       "Quality over sprint — reset if the skill falls apart."
     ],
     "variations": [
-      "Teacher calls the colour after go (Candy).",
-      "Bib-sack must travel (Santa).",
+      "Teacher calls the colour after go.",
+      "Bib-sack must travel.",
       "Roll the ball around a slalom cone (Snowball).",
       "Flip three cones, three tries each (Cone Flipper).",
       "Move one ‘course’ one hoop forward (Three Course Meal).",
@@ -5511,7 +5509,7 @@ window.GAME_EXTRAS = {
       "How a round ends: Most correct items, or first team finished.",
       "If this happens — Two items: extra goes back.",
       "If this happens — Sack or bucket left behind: return for it.",
-      "Also called: Attention Relay; Bucket Carry; Around the Bases Relay; Candy Relay; Santa Relay; Cone Flipper; Three Course Meal; Cone Collector.",
+      "Also called: Attention Relay; Bucket Carry; Around the Bases Relay; Cone Flipper; Three Course Meal; Cone Collector.",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -5520,8 +5518,8 @@ window.GAME_EXTRAS = {
     ],
     "roundEnds": "Most correct items, or first team finished.",
     "skins": [
-      "Teacher calls the colour after go (Candy).",
-      "Bib-sack must travel (Santa).",
+      "Teacher calls the colour after go.",
+      "Bib-sack must travel.",
       "Roll the ball around a slalom cone (Snowball).",
       "Flip three cones, three tries each (Cone Flipper).",
       "Move one ‘course’ one hoop forward (Three Course Meal).",
@@ -5533,8 +5531,6 @@ window.GAME_EXTRAS = {
       "Attention Relay",
       "Bucket Carry",
       "Around the Bases Relay",
-      "Candy Relay",
-      "Santa Relay",
       "Cone Flipper",
       "Three Course Meal",
       "Cone Collector"
@@ -9355,7 +9351,7 @@ window.GAME_EXTRAS = {
       "Breathe out on the work; do not hold a breath to rush."
     ],
     "variations": [
-      "Christmas shapes.",
+      "Winter shapes.",
       "Traffic speeds and red light (Rush Hour / Red Line).",
       "Ship deck commands (Captain’s Deck / Shipwreck).",
       "Video Camera: freeze in the pose that was called.",
@@ -9398,7 +9394,7 @@ window.GAME_EXTRAS = {
       "How a round ends: 2–4 minutes, then the main game.",
       "If this happens — Space collisions: smaller shapes, more room.",
       "If this happens — Need a pulse-raiser: add music and travel the commands.",
-      "Also called: Rush Hour; Red Line; The Video Camera Game; Video Camera; Captain’s Deck / Shipwreck; Shipwreck; Signals / shapes; Laps and Lines / Signals; Christmas Warm-Up.",
+      "Also called: Rush Hour; Red Line; The Video Camera Game; Video Camera; Captain’s Deck / Shipwreck; Shipwreck; Signals / shapes; Laps and Lines / Signals.",
       "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -9407,7 +9403,7 @@ window.GAME_EXTRAS = {
     ],
     "roundEnds": "2–4 minutes, then the main game.",
     "skins": [
-      "Christmas shapes.",
+      "Winter shapes.",
       "Traffic speeds and red light (Rush Hour / Red Line).",
       "Ship deck commands (Captain’s Deck / Shipwreck).",
       "Video Camera: freeze in the pose that was called.",
@@ -9421,8 +9417,7 @@ window.GAME_EXTRAS = {
       "Captain’s Deck / Shipwreck",
       "Shipwreck",
       "Signals / shapes",
-      "Laps and Lines / Signals",
-      "Christmas Warm-Up"
+      "Laps and Lines / Signals"
     ]
   },
   "Safe to Shore": {
@@ -9437,7 +9432,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Classmates are tunnels and bridges; the other half travels, then swap.",
       "Carry a built 6-hoop hut without collapse (Hoop Hut — keep as its own card if the build is the lesson).",
-      "Polar Express / Flip Flop: flip mats as you go.",
+      "Ice Floe Crossing / Flip Flop: flip mats as you go.",
       "Cross the River: same islands, one spare hoop."
     ],
     "look": "Everyone is moving or has a job in Safe to Shore. A miss is a short task, then back in — nobody sits the period.",
@@ -9476,7 +9471,7 @@ window.GAME_EXTRAS = {
       "How a round ends: First team fully across, or all groups succeed.",
       "If this happens — Spare hoop left behind: they need it — send someone back.",
       "If this happens — Island pile-up: one quiet leader talks.",
-      "Also called: Bridges & Rivers; Cross the River; Polar Express; Flip Flop.",
+      "Also called: Bridges & Rivers; Cross the River; Ice Floe Crossing; Flip Flop.",
       "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -9487,12 +9482,12 @@ window.GAME_EXTRAS = {
     "skins": [
       "Classmates are tunnels and bridges; the other half travels, then swap.",
       "Carry a built 6-hoop hut without collapse (Hoop Hut — keep as its own card if the build is the lesson).",
-      "Polar Express / Flip Flop: flip mats as you go.",
+      "Ice Floe Crossing / Flip Flop: flip mats as you go.",
       "Cross the River: same islands, one spare hoop."
     ],
     "aka": [
       "Cross the River",
-      "Polar Express",
+      "Ice Floe Crossing",
       "Flip Flop"
     ]
   },

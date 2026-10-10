@@ -1197,12 +1197,12 @@ window.NEW_GAMES = {
    "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
   },
   {
-   "id": "gingerbread-man-tag",
+   "id": "bakery-run-tag",
    "added": "2026-09-07",
    "addedOn": "2026-09-07",
-   "name": "Gingerbread Man Tag",
+   "name": "Bakery Run Tag",
    "section": "Tag (stay-in style)",
-   "desc": "Gingerbreads start on corner mats; chef calls the rhyme; runners switch mats; tagged join chefs (or hospital stretch then back)",
+   "desc": "Runners start on corner mats; baker calls 'Run, run, as fast as you can!'; runners switch mats; tagged join the bakers (or hospital stretch then back)",
    "sports": "locomotor, K–5",
    "flag": "stay-in (prefer hospital re-entry)",
    "stayIn": true,
@@ -1221,8 +1221,8 @@ window.NEW_GAMES = {
    "slot": "16–25",
    "grouping": "Whole class · 4–6 taggers · 45–90 second rounds · 8–12 minutes total",
    "cues": [
-    "Chef calls the rhyme: ‘Run, run, as fast as you can…’.",
-    "Gingerbreads switch to another mat.",
+    "Baker calls ‘Run, run, as fast as you can!’.",
+    "Runners switch to another mat.",
     "Freeze on the whistle — then eyes on the teacher.",
     "Soft two-finger or noodle tag on the back or shoulder — never the head.",
     "Change pathway. Do not run someone over to make a tag.",
@@ -1234,7 +1234,7 @@ window.NEW_GAMES = {
    ],
    "roundEnds": "Timed rounds (45–90 seconds). Swap taggers. No winner required.",
    "tips": [
-    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Gingerbread Man Tag.",
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Bakery Run Tag.",
     "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
     "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination.",
     "Year plan: December — match the month’s sport ball when you can."
@@ -1242,23 +1242,23 @@ window.NEW_GAMES = {
    "outcomes": [
     {
      "code": "Active Living",
-     "look": "Stays in Gingerbread Man Tag for the set time; can name breath or enjoyment after — not a ranking."
+     "look": "Stays in Bakery Run Tag for the set time; can name breath or enjoyment after — not a ranking."
     },
     {
      "code": "Movement Skill Development",
-     "look": "Changes speed and pathway to avoid a tag in Gingerbread Man Tag."
+     "look": "Changes speed and pathway to avoid a tag in Bakery Run Tag."
     },
     {
      "code": "Movement Tactics and Strategies",
-     "look": "Uses space, a fake, or a safe zone instead of a pile-up in Gingerbread Man Tag."
+     "look": "Uses space, a fake, or a safe zone instead of a pile-up in Bakery Run Tag."
     },
     {
      "code": "Personal and Social Development",
-     "look": "Takes a role and shares space in Gingerbread Man Tag; does not crowd a hospital or jail."
+     "look": "Takes a role and shares space in Bakery Run Tag; does not crowd a hospital or jail."
     },
     {
      "code": "Character Development",
-     "look": "Honest about a tag or a catch — no argument that stalls Gingerbread Man Tag."
+     "look": "Honest about a tag or a catch — no argument that stalls Bakery Run Tag."
     },
     {
      "code": "Safety",
@@ -1276,20 +1276,20 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=WKWzotw2cLI",
-     "title": "PE Games - Gingerbread Man Tag",
+     "title": "PE Games – Bakery Run Tag (video by PhysEdGames)",
      "channel": "PhysEdGames"
     }
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "suggestedMonth": "December",
-   "equipment": "4 mats in the corners; noodles for chefs",
-   "setup": "Gingerbreads start on corner mats. 1–2 chefs in the middle.",
+   "equipment": "4 mats in the corners; noodles for bakers",
+   "setup": "Runners start on corner mats. 1–2 bakers in the middle.",
    "how": [
-    "Chef calls the rhyme: ‘Run, run, as fast as you can…’.",
-    "Gingerbreads switch to another mat.",
-    "Tagged players go to the hospital for a stretch, then back (or join the chefs for one round).",
-    "Swap chefs often."
+    "Baker calls ‘Run, run, as fast as you can!’",
+    "Runners switch to another mat.",
+    "Tagged players go to the hospital for a stretch, then back (or join the bakers for one round).",
+    "Swap bakers often."
    ],
    "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
   },

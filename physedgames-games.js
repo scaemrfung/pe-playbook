@@ -784,20 +784,20 @@ window.PEG_HANDBOOK = {
       "page": "https://physedgames.com/fruit-salad/"
     },
     {
-      "name": "Reindeer Roundup",
-      "card": "Reindeer Roundup",
+      "name": "Pony Roundup",
+      "card": "Pony Roundup",
       "merged": true,
       "category": "Tag & Chasing",
       "grades": "K-6",
       "equipment": "Hoops, pool noodles",
-      "overview": "A holiday tag game for December. Idea credit: Angela Crepeele.",
+      "overview": "A galloping tag-and-rescue game. Idea credit: Angela Crepeele.",
       "steps": [
-        "Scatter hoops as stables. Give 3–6 elves / herders pool noodles.",
-        "Everyone else is a reindeer and gallops around the gym.",
-        "Elves tag reindeer with a noodle touch on the hip or shoulder (not the head).",
-        "A tagged reindeer must stand inside the nearest hoop.",
-        "Free reindeer may rescue by joining hands and galloping a captured reindeer out of the hoop without being tagged.",
-        "Play 1–2 minute rounds and switch elves. Holiday music optional."
+        "Scatter hoops as stables. Give 3–6 herders pool noodles.",
+        "Everyone else is a pony and gallops around the gym.",
+        "Herders tag ponies with a noodle touch on the hip or shoulder (not the head).",
+        "A tagged pony must stand inside the nearest stable (hoop).",
+        "Free ponies may rescue by joining hands and galloping a captured pony out of the stable without being tagged.",
+        "Play 1–2 minute rounds and switch herders. Upbeat music optional."
       ],
       "video": "https://www.youtube.com/watch?v=r8RravG-g9g",
       "page": "https://physedgames.com/reindeer-roundup/"

@@ -365,11 +365,11 @@ window.VIDEO_INDEX = {
    "reason": "Log roll clip attached to a line-balance walk. Old: “Educational Gymnastics- Log Roll”. No verified classroom demo of this game found, so the clip was removed."
   },
   {
-   "where": "Gingerbread Man Tag",
+   "where": "Bakery Run Tag",
    "old": "https://www.youtube.com/shorts/hs4Ucby_Fbw",
    "new": "https://www.youtube.com/watch?v=WKWzotw2cLI",
-   "newTitle": "PE Games - Gingerbread Man Tag — PhysEdGames",
-   "reason": "Library link was a generic ‘Quick Game 40’ short; replaced with PhysEdGames’ own Gingerbread Man Tag demo (the clip physedgames.com uses for this game). Old: “Quick Game 40 (kindergarten - grade 5)”."
+   "newTitle": "PE Games – Bakery Run Tag (video by PhysEdGames)",
+   "reason": "Library link was a generic ‘Quick Game 40’ short; replaced with PhysEdGames’ own Bakery Run Tag demo (the clip physedgames.com uses for this game). Old: “Quick Game 40 (kindergarten - grade 5)”."
   }
  ],
  "lastChecked": "2026-10-05",
@@ -1144,41 +1144,6 @@ window.VIDEO_INDEX = {
    "ytTitle": "Gym Games - Pin Galore Soccer"
   },
   {
-   "key": "yt:MEkbscKPASU",
-   "url": "https://www.youtube.com/watch?v=MEkbscKPASU",
-   "kind": "video",
-   "title": "Quick soccer drills: Avoid the mines (for ages 5-12) ⚽️",
-   "channel": "Prime Coaching Sport",
-   "about": "",
-   "games": [
-    "Avoid the Mines"
-   ],
-   "month": "September",
-   "unit": "September · Soccer and Football",
-   "months": [
-    "September"
-   ],
-   "pages": [
-    "weekly",
-    "newgames"
-   ],
-   "refs": [
-    {
-     "page": "weekly",
-     "label": "Weekly plan Sept 14–18 2026 · Soccer Week 3: Avoid the Mines (Gr 3–4 Day 4 Thu, Gr 5–6 Day 4 Thu)",
-     "href": "weekly-plans.html#plan-pe-weekly-plan-sept-14-18-2026-soccer-week-3"
-    },
-    {
-     "page": "newgames",
-     "label": "New Games · Avoid the Mines",
-     "href": "new-games.html#avoid-the-mines"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Quick soccer drills: Avoid the mines (for ages 5-12) ⚽️"
-  },
-  {
    "key": "yt:oM8EOdX0xXc",
    "url": "https://www.youtube.com/watch?v=oM8EOdX0xXc",
    "kind": "video",
@@ -1482,6 +1447,41 @@ window.VIDEO_INDEX = {
    "ytTitle": "Sneak And React - Physical Education Game"
   },
   {
+   "key": "yt:MEkbscKPASU",
+   "url": "https://www.youtube.com/watch?v=MEkbscKPASU",
+   "kind": "video",
+   "title": "Soccer drill: Avoid the Mines (ages 5–12)",
+   "channel": "Prime Coaching Sport",
+   "about": "",
+   "games": [
+    "Avoid the Mines"
+   ],
+   "month": "September",
+   "unit": "September · Soccer and Football",
+   "months": [
+    "September"
+   ],
+   "pages": [
+    "weekly",
+    "newgames"
+   ],
+   "refs": [
+    {
+     "page": "weekly",
+     "label": "Weekly plan Sept 14–18 2026 · Soccer Week 3: Avoid the Mines (Gr 3–4 Day 4 Thu, Gr 5–6 Day 4 Thu)",
+     "href": "weekly-plans.html#plan-pe-weekly-plan-sept-14-18-2026-soccer-week-3"
+    },
+    {
+     "page": "newgames",
+     "label": "New Games · Avoid the Mines",
+     "href": "new-games.html#avoid-the-mines"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Quick soccer drills: Avoid the mines (for ages 5-12) ⚽️"
+  },
+  {
    "key": "yt:Y63CWQOyh90",
    "url": "https://www.youtube.com/watch?v=Y63CWQOyh90",
    "kind": "video",
@@ -1557,41 +1557,6 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "The Ultimate Time-Saving PE Game: End Zone #peideas #pegames #teaching"
-  },
-  {
-   "key": "yt:9YB-Lk0vbIA",
-   "url": "https://www.youtube.com/watch?v=9YB-Lk0vbIA",
-   "kind": "video",
-   "title": "3 Brand New Games with Dancing by Daly Exercise💃",
-   "channel": "Daly Exercise",
-   "about": "",
-   "games": [
-    "Dance Code",
-    "Dance Levels & Directions"
-   ],
-   "month": "October",
-   "unit": "October · Football",
-   "months": [
-    "October"
-   ],
-   "pages": [
-    "newgames"
-   ],
-   "refs": [
-    {
-     "page": "newgames",
-     "label": "New Games · Dance Code",
-     "href": "new-games.html#dance-code"
-    },
-    {
-     "page": "newgames",
-     "label": "New Games · Dance Levels & Directions",
-     "href": "new-games.html#dance-levels-directions"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "3 Brand New Games with Dancing by Daly Exercise💃"
   },
   {
    "key": "yt:xbAbk0Zw3yg",
@@ -1939,7 +1904,7 @@ window.VIDEO_INDEX = {
    "key": "yt:4iY1e0N05ek",
    "url": "https://www.youtube.com/watch?v=4iY1e0N05ek",
    "kind": "video",
-   "title": "Hula Hoop Run & Spin ⭕️🏃‍♂️ A fast, fun PE partner challenge! ⚡ #PE #DalyExercise",
+   "title": "Hoop Run and Spin: a partner challenge",
    "channel": "Daly Exercise",
    "about": "",
    "games": [
@@ -1970,42 +1935,6 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-10-05",
    "ytTitle": "Hula Hoop Run & Spin ⭕️🏃‍♂️ A fast, fun PE partner challenge! ⚡ #PE #DalyExercise"
-  },
-  {
-   "key": "yt:DAgKmt4cXCA",
-   "url": "https://www.youtube.com/watch?v=DAgKmt4cXCA",
-   "kind": "video",
-   "title": "My TOP 5 PE warm up games 🏅",
-   "channel": "Prime Coaching Sport",
-   "about": "",
-   "games": [
-    "Zone Tag",
-    "Zone Tag video"
-   ],
-   "month": "October",
-   "unit": "October · Football",
-   "months": [
-    "October"
-   ],
-   "pages": [
-    "weekly",
-    "newgames"
-   ],
-   "refs": [
-    {
-     "page": "weekly",
-     "label": "Weekly plan Oct 13–16 2026 · Parachute Week 7: Zone Tag / Zone Tag video (Gr 1–2 Day 3 Thu, Gr 5–6 Day 3 Thu)",
-     "href": "weekly-plans.html#plan-pe-weekly-plan-oct-13-16-2026-parachute-week-7"
-    },
-    {
-     "page": "newgames",
-     "label": "New Games · Zone Tag",
-     "href": "new-games.html#zone-tag"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-10-03",
-   "ytTitle": "My TOP 5 PE warm up games 🏅"
   },
   {
    "key": "yt:a64g_GpRaSE",
@@ -2445,10 +2374,81 @@ window.VIDEO_INDEX = {
    "ytTitle": "The Perfect Pass - A great PE game for accuracy, power & technique!"
   },
   {
+   "key": "yt:9YB-Lk0vbIA",
+   "url": "https://www.youtube.com/watch?v=9YB-Lk0vbIA",
+   "kind": "video",
+   "title": "Three dance games by Daly Exercise",
+   "channel": "Daly Exercise",
+   "about": "",
+   "games": [
+    "Dance Code",
+    "Dance Levels & Directions"
+   ],
+   "month": "October",
+   "unit": "October · Football",
+   "months": [
+    "October"
+   ],
+   "pages": [
+    "newgames"
+   ],
+   "refs": [
+    {
+     "page": "newgames",
+     "label": "New Games · Dance Code",
+     "href": "new-games.html#dance-code"
+    },
+    {
+     "page": "newgames",
+     "label": "New Games · Dance Levels & Directions",
+     "href": "new-games.html#dance-levels-directions"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "3 Brand New Games with Dancing by Daly Exercise💃"
+  },
+  {
+   "key": "yt:DAgKmt4cXCA",
+   "url": "https://www.youtube.com/watch?v=DAgKmt4cXCA",
+   "kind": "video",
+   "title": "Top 5 PE warm-up games",
+   "channel": "Prime Coaching Sport",
+   "about": "",
+   "games": [
+    "Zone Tag",
+    "Zone Tag video"
+   ],
+   "month": "October",
+   "unit": "October · Football",
+   "months": [
+    "October"
+   ],
+   "pages": [
+    "weekly",
+    "newgames"
+   ],
+   "refs": [
+    {
+     "page": "weekly",
+     "label": "Weekly plan Oct 13–16 2026 · Parachute Week 7: Zone Tag / Zone Tag video (Gr 1–2 Day 3 Thu, Gr 5–6 Day 3 Thu)",
+     "href": "weekly-plans.html#plan-pe-weekly-plan-oct-13-16-2026-parachute-week-7"
+    },
+    {
+     "page": "newgames",
+     "label": "New Games · Zone Tag",
+     "href": "new-games.html#zone-tag"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-10-03",
+   "ytTitle": "My TOP 5 PE warm up games 🏅"
+  },
+  {
    "key": "yt:sN1CPbhfdKc",
    "url": "https://www.youtube.com/watch?v=sN1CPbhfdKc",
    "kind": "video",
-   "title": "Air Hockey PE Game🥅 #dalyexercise #sports #pegames #inclusivepe #teacher",
+   "title": "Air Hockey PE game",
    "channel": "Daly Exercise",
    "about": "",
    "games": [
@@ -2848,35 +2848,6 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Physical Education - Wild Ball Pin Knockover"
-  },
-  {
-   "key": "yt:mf7WYMBG45Q",
-   "url": "https://www.youtube.com/watch?v=mf7WYMBG45Q",
-   "kind": "video",
-   "title": "\"Turtle Tag\" Classic game! #physicaleducation #physed",
-   "channel": "Coach Gelardi",
-   "about": "",
-   "games": [
-    "Turtle Tag"
-   ],
-   "month": "December",
-   "unit": "December · Games",
-   "months": [
-    "December"
-   ],
-   "pages": [
-    "newgames"
-   ],
-   "refs": [
-    {
-     "page": "newgames",
-     "label": "New Games · Turtle Tag",
-     "href": "new-games.html#turtle-tag"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "\"Turtle Tag\" Classic game! #physicaleducation #physed"
   },
   {
    "key": "yt:h_395lVy_v8",
@@ -3607,7 +3578,7 @@ window.VIDEO_INDEX = {
    "key": "yt:0eyapUhwN9k",
    "url": "https://www.youtube.com/watch?v=0eyapUhwN9k",
    "kind": "video",
-   "title": "Gymball dodgeball mayhem, a crazy whole-class PE game!",
+   "title": "Gymball Dodgeball Mayhem: a whole-class PE game",
    "channel": "Prime Coaching Sport",
    "about": "",
    "games": [
@@ -3681,7 +3652,7 @@ window.VIDEO_INDEX = {
    "key": "yt:NVpUzALtp_4",
    "url": "https://www.youtube.com/watch?v=NVpUzALtp_4",
    "kind": "video",
-   "title": "Hoop Hut Knock Down⭕️ Back to school PE game #pegames #school #games #teacher",
+   "title": "Hoop Hut Knock Down",
    "channel": "Daly Exercise",
    "about": "",
    "games": [
@@ -3951,11 +3922,11 @@ window.VIDEO_INDEX = {
    "key": "yt:WKWzotw2cLI",
    "url": "https://www.youtube.com/watch?v=WKWzotw2cLI",
    "kind": "video",
-   "title": "PE Games - Gingerbread Man Tag",
+   "title": "PE Games – Bakery Run Tag (video by PhysEdGames)",
    "channel": "PhysEdGames",
    "about": "",
    "games": [
-    "Gingerbread Man Tag"
+    "Bakery Run Tag"
    ],
    "month": "December",
    "unit": "December · Games",
@@ -3968,8 +3939,8 @@ window.VIDEO_INDEX = {
    "refs": [
     {
      "page": "newgames",
-     "label": "New Games · Gingerbread Man Tag",
-     "href": "new-games.html#gingerbread-man-tag"
+     "label": "New Games · Bakery Run Tag",
+     "href": "new-games.html#bakery-run-tag"
     }
    ],
    "status": "ok",
@@ -4154,6 +4125,35 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "P.E. Game - Three-Court Dodgeball!!!"
+  },
+  {
+   "key": "yt:mf7WYMBG45Q",
+   "url": "https://www.youtube.com/watch?v=mf7WYMBG45Q",
+   "kind": "video",
+   "title": "Turtle Tag",
+   "channel": "Coach Gelardi",
+   "about": "",
+   "games": [
+    "Turtle Tag"
+   ],
+   "month": "December",
+   "unit": "December · Games",
+   "months": [
+    "December"
+   ],
+   "pages": [
+    "newgames"
+   ],
+   "refs": [
+    {
+     "page": "newgames",
+     "label": "New Games · Turtle Tag",
+     "href": "new-games.html#turtle-tag"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "\"Turtle Tag\" Classic game! #physicaleducation #physed"
   },
   {
    "key": "yt:DpnTLRUyLjQ",
@@ -4722,6 +4722,44 @@ window.VIDEO_INDEX = {
    "ytTitle": "Paarlauf - Running Activity/Training"
   },
   {
+   "key": "yt:r8RravG-g9g",
+   "url": "https://www.youtube.com/watch?v=r8RravG-g9g",
+   "kind": "video",
+   "title": "PE Games – Pony Roundup (video by PhysEdGames)",
+   "channel": "PhysEdGames",
+   "about": "A galloping tag-and-rescue game (thanks to Angela Crepeele).",
+   "games": [
+    "Pony Roundup"
+   ],
+   "month": "February",
+   "unit": "February · Ropes",
+   "months": [
+    "September",
+    "December",
+    "February"
+   ],
+   "pages": [
+    "monthgames",
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "monthgames",
+     "month": "February",
+     "label": "February · Big-group games: Pony Roundup",
+     "href": "month-february.html#month-games"
+    },
+    {
+     "page": "games",
+     "label": "Big-Group Games · Pony Roundup",
+     "href": "games.html#pony-roundup"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Christmas PE Game - Reindeer Roundup"
+  },
+  {
    "key": "yt:4p-UsGMiVjg",
    "url": "https://www.youtube.com/watch?v=4p-UsGMiVjg",
    "kind": "video",
@@ -4781,44 +4819,6 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Red Line"
-  },
-  {
-   "key": "yt:r8RravG-g9g",
-   "url": "https://www.youtube.com/watch?v=r8RravG-g9g",
-   "kind": "video",
-   "title": "Reindeer Roundup",
-   "channel": "PhysEdGames",
-   "about": "A Christmas game for the holidays (thanks to Angela Crepeele).",
-   "games": [
-    "Reindeer Roundup"
-   ],
-   "month": "February",
-   "unit": "February · Ropes",
-   "months": [
-    "September",
-    "December",
-    "February"
-   ],
-   "pages": [
-    "monthgames",
-    "games"
-   ],
-   "refs": [
-    {
-     "page": "monthgames",
-     "month": "February",
-     "label": "February · Big-group games: Reindeer Roundup",
-     "href": "month-february.html#month-games"
-    },
-    {
-     "page": "games",
-     "label": "Big-Group Games · Reindeer Roundup",
-     "href": "games.html#reindeer-roundup"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Christmas PE Game - Reindeer Roundup"
   },
   {
    "key": "yt:3Th655zBdag",
@@ -4882,35 +4882,6 @@ window.VIDEO_INDEX = {
    "ytTitle": "Gym Games - The Video Camera Game"
   },
   {
-   "key": "yt:KDnodWqzTFU",
-   "url": "https://www.youtube.com/watch?v=KDnodWqzTFU",
-   "kind": "video",
-   "title": "\"Four Square Paddle Ball\" 3 Levels #physicaleducation #physed #elementarype",
-   "channel": "Coach Gelardi",
-   "about": "",
-   "games": [
-    "Four Square Paddle Ball"
-   ],
-   "month": "March",
-   "unit": "March · Volleyball",
-   "months": [
-    "March"
-   ],
-   "pages": [
-    "newgames"
-   ],
-   "refs": [
-    {
-     "page": "newgames",
-     "label": "New Games · Four Square Paddle Ball",
-     "href": "new-games.html#four-square-paddle-ball"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "\"Four Square Paddle Ball\" 3 Levels #physicaleducation #physed #elementarype"
-  },
-  {
    "key": "yt:UyscH3vx0LA",
    "url": "https://www.youtube.com/watch?v=UyscH3vx0LA",
    "kind": "video",
@@ -4962,10 +4933,39 @@ window.VIDEO_INDEX = {
    "ytTitle": "Balloon Keep Up"
   },
   {
+   "key": "yt:KDnodWqzTFU",
+   "url": "https://www.youtube.com/watch?v=KDnodWqzTFU",
+   "kind": "video",
+   "title": "Four Square Paddle Ball: three levels",
+   "channel": "Coach Gelardi",
+   "about": "",
+   "games": [
+    "Four Square Paddle Ball"
+   ],
+   "month": "March",
+   "unit": "March · Volleyball",
+   "months": [
+    "March"
+   ],
+   "pages": [
+    "newgames"
+   ],
+   "refs": [
+    {
+     "page": "newgames",
+     "label": "New Games · Four Square Paddle Ball",
+     "href": "new-games.html#four-square-paddle-ball"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "\"Four Square Paddle Ball\" 3 Levels #physicaleducation #physed #elementarype"
+  },
+  {
    "key": "yt:WQwhGw7g8_Y",
    "url": "https://www.youtube.com/watch?v=WQwhGw7g8_Y",
    "kind": "video",
-   "title": "Slam Ball ⚽🎯",
+   "title": "Slam Ball",
    "channel": "Daly Exercise",
    "about": "",
    "games": [
@@ -4989,35 +4989,6 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "Slam Ball ⚽🎯"
-  },
-  {
-   "key": "yt:P3_lkGM1FIc",
-   "url": "https://www.youtube.com/watch?v=P3_lkGM1FIc",
-   "kind": "video",
-   "title": "3 Animal Themed Games To Use For Your PE 🦀🦈🐛",
-   "channel": "Daly Exercise",
-   "about": "",
-   "games": [
-    "Crab Tag"
-   ],
-   "month": "April",
-   "unit": "April · Gymnastics",
-   "months": [
-    "April"
-   ],
-   "pages": [
-    "newgames"
-   ],
-   "refs": [
-    {
-     "page": "newgames",
-     "label": "New Games · Crab Tag",
-     "href": "new-games.html#crab-tag"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "3 Animal Themed Games To Use For Your PE 🦀🦈🐛"
   },
   {
    "key": "yt:hf2o83t-o0g",
@@ -5454,6 +5425,35 @@ window.VIDEO_INDEX = {
    "ytTitle": "Teamwork Instant Activity - Wheelbarrow Walk Olympics"
   },
   {
+   "key": "yt:P3_lkGM1FIc",
+   "url": "https://www.youtube.com/watch?v=P3_lkGM1FIc",
+   "kind": "video",
+   "title": "Three animal-themed PE games",
+   "channel": "Daly Exercise",
+   "about": "",
+   "games": [
+    "Crab Tag"
+   ],
+   "month": "April",
+   "unit": "April · Gymnastics",
+   "months": [
+    "April"
+   ],
+   "pages": [
+    "newgames"
+   ],
+   "refs": [
+    {
+     "page": "newgames",
+     "label": "New Games · Crab Tag",
+     "href": "new-games.html#crab-tag"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "3 Animal Themed Games To Use For Your PE 🦀🦈🐛"
+  },
+  {
    "key": "yt:43WKN35jXKk",
    "url": "https://www.youtube.com/watch?v=43WKN35jXKk",
    "kind": "video",
@@ -5502,7 +5502,7 @@ window.VIDEO_INDEX = {
    "key": "yt:Gn4Uai6dbpU",
    "url": "https://www.youtube.com/watch?v=Gn4Uai6dbpU",
    "kind": "video",
-   "title": "Horse and Jockey 🐴🏇",
+   "title": "Horse and Jockey",
    "channel": "Daly Exercise",
    "about": "",
    "games": [
@@ -5551,10 +5551,40 @@ window.VIDEO_INDEX = {
    "ytTitle": "Horse and Jockey 🐴🏇"
   },
   {
+   "key": "yt:JHPxFTPkzNo",
+   "url": "https://www.youtube.com/watch?v=JHPxFTPkzNo",
+   "kind": "video",
+   "title": "The Great Outdoor Treasure Hunt",
+   "channel": "PhysEdGames",
+   "about": "What better way to use outdoor space than a scavenger hunt!? This hunt is a bit different from your typical hunt, because instead of a list that players need to just check off when they see the items, they must BRING THE ITEMS HOME to their…",
+   "games": [
+    "The Great Outdoor Treasure Hunt"
+   ],
+   "month": "May",
+   "unit": "May · Track",
+   "months": [
+    "May",
+    "June"
+   ],
+   "pages": [
+    "games"
+   ],
+   "refs": [
+    {
+     "page": "games",
+     "label": "Big-Group Games · The Great Outdoor Treasure Hunt",
+     "href": "games.html#the-great-outdoor-treasure-hunt"
+    }
+   ],
+   "status": "ok",
+   "checked": "2026-09-27",
+   "ytTitle": "Physed Games - The Great Outdoor Treasure Hunt"
+  },
+  {
    "key": "yt:khde7TTPt6Q",
    "url": "https://www.youtube.com/watch?v=khde7TTPt6Q",
    "kind": "video",
-   "title": "My TOP 5 PE RACING games for athletics 🏅🏃🏽‍♀️‍➡️🏃🏼‍♂️‍➡️",
+   "title": "Top 5 PE racing games for athletics",
    "channel": "Prime Coaching Sport",
    "about": "",
    "games": [
@@ -5590,36 +5620,6 @@ window.VIDEO_INDEX = {
    "status": "ok",
    "checked": "2026-09-27",
    "ytTitle": "My TOP 5 PE RACING games for athletics 🏅🏃🏽‍♀️‍➡️🏃🏼‍♂️‍➡️"
-  },
-  {
-   "key": "yt:JHPxFTPkzNo",
-   "url": "https://www.youtube.com/watch?v=JHPxFTPkzNo",
-   "kind": "video",
-   "title": "The Great Outdoor Treasure Hunt",
-   "channel": "PhysEdGames",
-   "about": "What better way to use outdoor space than a scavenger hunt!? This hunt is a bit different from your typical hunt, because instead of a list that players need to just check off when they see the items, they must BRING THE ITEMS HOME to their…",
-   "games": [
-    "The Great Outdoor Treasure Hunt"
-   ],
-   "month": "May",
-   "unit": "May · Track",
-   "months": [
-    "May",
-    "June"
-   ],
-   "pages": [
-    "games"
-   ],
-   "refs": [
-    {
-     "page": "games",
-     "label": "Big-Group Games · The Great Outdoor Treasure Hunt",
-     "href": "games.html#the-great-outdoor-treasure-hunt"
-    }
-   ],
-   "status": "ok",
-   "checked": "2026-09-27",
-   "ytTitle": "Physed Games - The Great Outdoor Treasure Hunt"
   },
   {
    "key": "yt:auWty338fhw",
@@ -5877,7 +5877,7 @@ window.VIDEO_INDEX = {
    "key": "yt:Kjiotn-kWL4",
    "url": "https://www.youtube.com/watch?v=Kjiotn-kWL4",
    "kind": "video",
-   "title": "PE Game: \"4 ball Kickball\"        #physed #shorts #short",
+   "title": "PE game: 4 Ball Kickball",
    "channel": "Coach Gelardi",
    "about": "",
    "games": [

@@ -122,12 +122,12 @@ window.VIDEOS = [
     ]
   },
   {
-    "title": "Reindeer Roundup",
+    "title": "PE Games – Pony Roundup (video by PhysEdGames)",
     "url": "https://www.youtube.com/watch?v=r8RravG-g9g",
     "channel": "PhysEdGames",
-    "about": "A Christmas game for the holidays (thanks to Angela Crepeele).",
+    "about": "A galloping tag-and-rescue game (thanks to Angela Crepeele).",
     "games": [
-      "Reindeer Roundup"
+      "Pony Roundup"
     ]
   },
   {

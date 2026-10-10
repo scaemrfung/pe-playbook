@@ -2544,9 +2544,9 @@ const MONTH_GAMES = {
       "Super simple, super fun jumping activity, especially for long jump practice :p (Thanks Deric Hafer)"
     ],
     [
-      "Reindeer Roundup",
+      "Pony Roundup",
       "",
-      "A Christmas game for the holidays (thanks to Angela Crepeele)."
+      "A galloping tag-and-rescue game (thanks to Angela Crepeele)."
     ],
     [
       "Attention Relay",

@@ -120,14 +120,13 @@ window.GAME_DETAILS = [
     ],
     "roundEnds": "Rotate the leftover player. Play 4–6 switches.",
     "skins": [
-      "Mummy steals a stone (Graveyard Guard).",
+      "Stone Guard: raider steals a stone.",
       "Tigers keep feet in hoops and tag from there (Hoop Dog).",
       "Rest hoop you may step into (Buzz Off)."
     ],
     "aka": [
       "Buzz Off / hoop free zones",
       "Buzz Off",
-      "Graveyard Guard",
       "Hoop Dog"
     ]
   },
@@ -258,7 +257,7 @@ window.GAME_DETAILS = [
       "Hospital: cover the spot, third tag = walk a hoop lap and rejoin.",
       "Hot Dog: stand still, two classmates are the bun.",
       "Banana: curve the body, two-hand peel.",
-      "Present (December): sit with hands in a bow, classmate ‘opens’ you.",
+      "Package (December): sit with hands in a bow, classmate ‘opens’ you.",
       "Jack Frost: hug or high-five melt.",
       "Bug / Dead Ant: freeze on your back with legs up; a teammate taps both feet.",
       "Waspital: same hospital rule with a wasp story.",
@@ -272,7 +271,7 @@ window.GAME_DETAILS = [
       "Bug Tag",
       "Dead Ant",
       "Waspital",
-      "Present Tag",
+      "Package Tag",
       "Jack Frost",
       "Sun and Ice",
       "Caterpillar Tag",
@@ -439,21 +438,21 @@ window.GAME_DETAILS = [
     "aka": []
   },
   {
-    "name": "Reindeer Roundup",
+    "name": "Pony Roundup",
     "source": "",
     "months": [
       "December",
       "September"
     ],
-    "purpose": "Elves tag galloping reindeer with a noodle, and free reindeer join hands to rescue a captured reindeer from a hoop. Use it as a holiday tag game in December (idea from Angela Crepeele).",
+    "purpose": "Herders tag galloping ponies with a noodle, and free ponies join hands to rescue a captured pony from a stable. Use it as a galloping tag-and-rescue game (idea from Angela Crepeele).",
     "equipment": "Hoops, pool noodles",
-    "setup": "Scatter hoops as stables. Give 3–6 elves / herders pool noodles. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
+    "setup": "Scatter hoops as stables. Give 3–6 herders pool noodles. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
-      "Everyone else is a reindeer and gallops around the gym.",
-      "Elves tag reindeer with a noodle touch on the hip or shoulder (not the head).",
-      "A tagged reindeer must stand inside the nearest hoop.",
-      "Free reindeer may rescue by joining hands and galloping a captured reindeer out of the hoop without being tagged.",
-      "Play 1–2 minute rounds and switch elves. Holiday music optional.",
+      "Everyone else is a pony and gallops around the gym.",
+      "Herders tag ponies with a noodle touch on the hip or shoulder (not the head).",
+      "A tagged pony must stand inside the nearest stable (hoop).",
+      "Free ponies may rescue by joining hands and galloping a captured pony out of the stable without being tagged.",
+      "Play 1–2 minute rounds and switch herders. Upbeat music optional.",
       "Rotate taggers every 45–90 seconds so the same three students are not chasing all period.",
       "Freeze on the whistle. Reset spots, then the next round."
     ],
@@ -2136,7 +2135,7 @@ window.GAME_DETAILS = [
     "aka": [
       "Rolling 21",
       "Hoop bowling",
-      "Christmas Lights",
+      "Circuit Lights",
       "Land the ball in the hoop",
       "Chip into buckets"
     ]
@@ -2298,7 +2297,6 @@ window.GAME_DETAILS = [
       "Bombardment",
       "Star Wars",
       "Snowball Fight",
-      "Snowman Run",
       "Castleball 2.0"
     ]
   },
@@ -2660,8 +2658,8 @@ window.GAME_DETAILS = [
     ],
     "roundEnds": "Most correct items, or first team finished.",
     "skins": [
-      "Teacher calls the colour after go (Candy).",
-      "Bib-sack must travel (Santa).",
+      "Teacher calls the colour after go.",
+      "Bib-sack must travel.",
       "Roll the ball around a slalom cone (Snowball).",
       "Flip three cones, three tries each (Cone Flipper).",
       "Move one ‘course’ one hoop forward (Three Course Meal).",
@@ -2673,8 +2671,6 @@ window.GAME_DETAILS = [
       "Attention Relay",
       "Bucket Carry",
       "Around the Bases Relay",
-      "Candy Relay",
-      "Santa Relay",
       "Cone Flipper",
       "Three Course Meal",
       "Cone Collector"
@@ -4555,7 +4551,7 @@ window.GAME_DETAILS = [
     ],
     "roundEnds": "2–4 minutes, then the main game.",
     "skins": [
-      "Christmas shapes.",
+      "Winter shapes.",
       "Traffic speeds and red light (Rush Hour / Red Line).",
       "Ship deck commands (Captain’s Deck / Shipwreck).",
       "Video Camera: freeze in the pose that was called.",
@@ -4569,8 +4565,7 @@ window.GAME_DETAILS = [
       "Captain’s Deck / Shipwreck",
       "Shipwreck",
       "Signals / shapes",
-      "Laps and Lines / Signals",
-      "Christmas Warm-Up"
+      "Laps and Lines / Signals"
     ]
   },
   {
@@ -4602,12 +4597,12 @@ window.GAME_DETAILS = [
     "skins": [
       "Classmates are tunnels and bridges; the other half travels, then swap.",
       "Carry a built 6-hoop hut without collapse (Hoop Hut — keep as its own card if the build is the lesson).",
-      "Polar Express / Flip Flop: flip mats as you go.",
+      "Ice Floe Crossing / Flip Flop: flip mats as you go.",
       "Cross the River: same islands, one spare hoop."
     ],
     "aka": [
       "Cross the River",
-      "Polar Express",
+      "Ice Floe Crossing",
       "Flip Flop"
     ]
   },

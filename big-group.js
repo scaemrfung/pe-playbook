@@ -38,9 +38,9 @@ window.BG30_MONTH = {
     ["Hoop Hut", "", "Build a six-hoop hut from a picture and carry it to a cone."],
     ["Cardboard Balance", "", "Pair tilts a string-tray so balls fall through the hole."],
     ["Frog Tag", "", "Tagged players crouch. A leapfrog or step-over frees them."],
-    ["Polar Express", "", "Cross only inside hoops. Touching the floor outside means restart."],
-    ["Christmas Lights", "", "Slide a beanbag into cones to stand them up. Circuit Lights off-season."],
-    ["Present Tag", "", "Tagged player sits as a present. A classmate opens them to rejoin."]
+    ["Ice Floe Crossing", "", "Cross icy water stepping only inside hoops. Touching the floor outside means restart."],
+    ["Circuit Lights", "", "Slide a beanbag into cones to stand them up."],
+    ["Package Tag", "", "Tagged player sits as a package (hands in a bow). A classmate opens them to rejoin."]
   ],
   January: [
     ["Low-ball", "", "Dodgeball send day. See also the Dodgeball page."],

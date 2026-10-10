@@ -703,7 +703,8 @@
    "title": "PE Games - Gingerbread Man Tag",
    "channel": "PhysEdGames",
    "url": "https://www.youtube.com/watch?v=WKWzotw2cLI",
-   "checked": "2026-09-27"
+   "checked": "2026-09-27",
+   "displayTitle": "PE Games – Bakery Run Tag (video by PhysEdGames)"
   },
   "yt:WPo9dTpj-Fg": {
    "status": "ok",
@@ -1235,7 +1236,8 @@
    "title": "Christmas PE Game - Reindeer Roundup",
    "channel": "PhysEdGames",
    "url": "https://www.youtube.com/watch?v=r8RravG-g9g",
-   "checked": "2026-09-27"
+   "checked": "2026-09-27",
+   "displayTitle": "PE Games – Pony Roundup (video by PhysEdGames)"
   },
   "yt:rgczzG_Ss6s": {
    "status": "ok",
@@ -1682,11 +1684,11 @@
    "reason": "Log roll clip attached to a line-balance walk. Old: “Educational Gymnastics- Log Roll”. No verified classroom demo of this game found, so the clip was removed."
   },
   {
-   "where": "Gingerbread Man Tag",
+   "where": "Bakery Run Tag",
    "old": "https://www.youtube.com/shorts/hs4Ucby_Fbw",
    "new": "https://www.youtube.com/watch?v=WKWzotw2cLI",
-   "newTitle": "PE Games - Gingerbread Man Tag — PhysEdGames",
-   "reason": "Library link was a generic ‘Quick Game 40’ short; replaced with PhysEdGames’ own Gingerbread Man Tag demo (the clip physedgames.com uses for this game). Old: “Quick Game 40 (kindergarten - grade 5)”."
+   "newTitle": "PE Games – Bakery Run Tag (video by PhysEdGames)",
+   "reason": "Library link was a generic ‘Quick Game 40’ short; replaced with PhysEdGames’ own Bakery Run Tag demo (the clip physedgames.com uses for this game). Old: “Quick Game 40 (kindergarten - grade 5)”."
   }
  ],
  "lastChecked": "2026-10-05"

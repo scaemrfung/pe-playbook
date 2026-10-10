@@ -307,7 +307,7 @@ module.exports = function buildVideos(ctx) {
   }
   const list = Object.values(V).map((e) => {
     const meta = (META.videos || {})[e.key] || {};
-    const title = e.titles[0] || meta.title || e.labels[0] || [...e.games][0] || "Video";
+    const title = e.titles[0] || meta.displayTitle || meta.title || e.labels[0] || [...e.games][0] || "Video";
     const channel = e.channels.filter(Boolean)[0] || meta.channel || "";
     const refs = e.refs.slice().sort((a, b) => PAGE_ORDER.indexOf(a.page) - PAGE_ORDER.indexOf(b.page) || (a.order || 0) - (b.order || 0) || a.label.localeCompare(b.label));
     refs.forEach((r) => { delete r.order; });
