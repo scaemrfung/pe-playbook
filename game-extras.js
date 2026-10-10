@@ -4706,7 +4706,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact; throws at a runner stay low."
+        "look": "Looks up after contact; hits stay below the waist."
       },
       {
         "code": "Healthy Relationships",
@@ -5203,7 +5203,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact; throws at a runner stay low."
+        "look": "Looks up after contact; tags with the ball or throws to the mat, not a hard hit."
       },
       {
         "code": "Healthy Relationships",
