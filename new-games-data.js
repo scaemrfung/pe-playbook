@@ -1753,7 +1753,7 @@ window.NEW_GAMES = {
     "Tagged dribblers go back to their half and restart.",
     "Rotate defenders."
    ],
-   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
+   "safety": "Soft balls, spread out. Heads up when the ball is loose."
   },
   {
    "id": "perfect-pass-the-perfect-pass",
@@ -2045,7 +2045,7 @@ window.NEW_GAMES = {
     "Score by catching in the end zone.",
     "Dropped or intercepted = turnover."
    ],
-   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
+   "safety": "Spread out. Heads up when the disc is loose."
   },
   {
    "id": "eagles-vs-seahawks",
@@ -2144,7 +2144,7 @@ window.NEW_GAMES = {
     "Return fish to your team’s nest.",
     "Most fish in the nest wins; switch roles."
    ],
-   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
+   "safety": "Spread out."
   },
   {
    "id": "collect-em-all",
@@ -2240,7 +2240,7 @@ window.NEW_GAMES = {
     "Keep holding the hoop the whole time.",
     "Most balls at the end wins."
    ],
-   "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
+   "safety": "Soft balls, spread out. Heads up when the ball is loose."
   },
   {
    "id": "skip-rope-net-3v3",
@@ -2693,7 +2693,7 @@ window.NEW_GAMES = {
     "Win a rally at Close, move to Challenge, then Championship.",
     "Rotate groups."
    ],
-   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
+   "safety": "Soft balls only."
   },
   {
    "id": "air-hockey-cone-puck",
@@ -2789,7 +2789,7 @@ window.NEW_GAMES = {
     "Play to 5, switch partners.",
     "Try off-hand only."
    ],
-   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
+   "safety": "Throw at targets, not people, and only from the line."
   },
   {
    "id": "bullseye",
@@ -2969,7 +2969,7 @@ window.NEW_GAMES = {
     "Retrieve and rotate.",
     "Try non-dominant hand."
    ],
-   "safety": "Soft balls only. Throw at targets, not people, and only from the line."
+   "safety": "Throw at targets, not people, and only from the line."
   },
   {
    "id": "hoop-hut-knock-down",

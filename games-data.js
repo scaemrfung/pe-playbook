@@ -64,7 +64,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Tagged players join the blob. Reset before the last runner is hunted for minutes. Folded in: Daly Alien Tag + SCA Blob Tag / Home Free Bad Guy Blob.",
+    "purpose": "Tagged players join the blob. Reset before the last runner is hunted for minutes.",
     "equipment": "Optional noodles or cone hats · spare kit at the side",
     "setup": "Mark the court. Starters bibbed or holding noodles. Spare kit at the side if the blob needs gear.",
     "play": [
@@ -100,7 +100,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "On ‘switch,’ leave your base and claim a new one. No base = you are it, or you do the short task. Folded in: Daly Graveyard Guard / Hoop Dog + SCA Chicken Checkers / Icebergs / Buzz Off.",
+    "purpose": "On ‘switch,’ leave your base and claim a new one. No base = you are it, or you do the short task.",
     "equipment": "Hoops or cones as bases",
     "setup": "Bases spread. One player per base to start if you can. Show the switch call.",
     "play": [
@@ -167,7 +167,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Anyone may tag. A tag has a small cost. Then you keep playing. Folded in: Daly Hot Potato / Pizza Tag + SCA Everybody’s It / Clothespin Tag.",
+    "purpose": "Anyone may tag. A tag has a small cost. Then you keep playing.",
     "equipment": "Optional one soft ball or spot markers · optional clothespins",
     "setup": "Court marked. Soft two-finger tags. Show the cost.",
     "play": [
@@ -218,7 +218,7 @@ window.GAME_DETAILS = [
     "g12": "Walk-tag. Teacher plus one student tagger. 30–45 second bursts. Re-enter with a high-five or the game’s hospital rule.",
     "g34": "Jog-tag. 3–5 taggers. 60–90 second rounds. Soft two-finger or noodle tags. Rotate every round.",
     "g56": "Full speed with two-finger tags. Add one tactic (fake, safe-zone worth one use, or blob split). Students can referee a boundary.",
-    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Soft two-finger or noodle tags on the back or shoulder — never the head. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "tag",
     "ifThis": [],
@@ -233,7 +233,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Tag freezes you in a shape. A teammate frees you. Nobody sits the period. Folded in: Daly Frog / Present / Jack Frost / Sun and Ice / Caterpillar Tag + SCA Frozen Tag / Hospital / Hot Dog / Banana / Bug Tag.",
+    "purpose": "Tag freezes you in a shape. A teammate frees you. Nobody sits the period.",
     "equipment": "Optional noodles · optional hoops for Hospital",
     "setup": "Show the freeze shape once. Show the rescue once. Soft tag only.",
     "play": [
@@ -286,7 +286,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Hear your name. Turn. Get home. The other team tags. Folded in: Daly Kangaroo Tag + SCA Kangaroos and Crocodiles / Captain’s Deck.",
+    "purpose": "Hear your name. Turn. Get home. The other team tags.",
     "equipment": "None · two home lines and a centre line",
     "setup": "Teams on a centre line, facing you. Homes behind each.",
     "play": [
@@ -320,7 +320,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Travel only on painted lines. Leave a line and you are tagged. Folded in: Daly Line / Block Tag + SCA Line Tag / Pac-Man.",
+    "purpose": "Travel only on painted lines. Leave a line and you are tagged.",
     "equipment": "Painted gym lines · optional noodles",
     "setup": "Everyone on a line before go. Show legal direction changes.",
     "play": [
@@ -503,7 +503,7 @@ window.GAME_DETAILS = [
       "December",
       "September"
     ],
-    "purpose": "Sharks tag. Dolphins freeze, then get rescued. Folded in: Daly Shark and Fish + SCA Sharks and Dolphins + chute version.",
+    "purpose": "Sharks tag. Dolphins freeze, then get rescued.",
     "equipment": "2 noodles · marked sea · optional parachute",
     "setup": "Sea boundary. Two sharks. Show the freeze (T or agreed shape) and the rescue.",
     "play": [
@@ -897,7 +897,7 @@ window.GAME_DETAILS = [
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. Foam dodgeballs. Hits below the waist. A high ball is dead. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No body checks. The ball is not thrown at a face. Foam dodgeballs. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [],
@@ -981,7 +981,7 @@ window.GAME_DETAILS = [
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Two treasures allowed if you pair up.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No body checks. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [],
@@ -1009,7 +1009,7 @@ window.GAME_DETAILS = [
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "3-second hold. One extra defender in the hoop ring.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [],
@@ -1176,7 +1176,7 @@ window.GAME_DETAILS = [
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Outdoor map-optional version in May.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No body checks. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [],
@@ -1287,7 +1287,7 @@ window.GAME_DETAILS = [
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Two taggers. Pair heist allowed.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No body checks. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [],
@@ -1316,7 +1316,7 @@ window.GAME_DETAILS = [
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No body checks. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [],
@@ -1413,7 +1413,7 @@ window.GAME_DETAILS = [
       "September",
       "January"
     ],
-    "purpose": "Get objects into your nest. One per trip. Folded in: Daly Capture the Ball / Beanbag / Fishing + SCA Rob the Nest / Capture the Egg / Capture the Flag / Bucket Ball.",
+    "purpose": "Get objects into your nest. One per trip.",
     "equipment": "Centre pile of objects · team hoops as nests",
     "setup": "Objects in the middle or in other nests. Teams at their hoop. Show the carry or dribble you want.",
     "play": [
@@ -1499,7 +1499,7 @@ window.GAME_DETAILS = [
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [],
@@ -1514,7 +1514,7 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Your number is called. Beat the other player to the object and get home. Folded in: Daly Sneaky Races / Reaction Speed + SCA Steal the Bacon / Oyster Shell.",
+    "purpose": "Your number is called. Beat the other player to the object and get home.",
     "equipment": "One object in the middle · two numbered lines",
     "setup": "Two teams on opposite lines, same numbers. Object centre.",
     "play": [
@@ -1565,7 +1565,7 @@ window.GAME_DETAILS = [
     "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Add a jail hoop that needs two rescuers.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No body checks. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [],
@@ -1732,7 +1732,7 @@ window.GAME_DETAILS = [
     "g12": "No keepers named; big wall. Walk-dribble allowed.",
     "g34": "Full game as written, foam or real sport ball as the unit says. One pass before a score if the class crowds.",
     "g56": "Student captains or officials. Offside-lite or a must-pass rule. Keep score without ranking classmates.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "invasion",
     "ifThis": [],
@@ -1788,7 +1788,7 @@ window.GAME_DETAILS = [
     "g12": "Walk the cross. Beanbags. No defender.",
     "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
     "g56": "Add a defender who may intercept in the air only.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "target",
     "ifThis": [],
@@ -1942,7 +1942,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Attackers knock the castle. Defenders block. Rotate before anyone lives in one job. Folded in: Daly Protect the House + SCA Protect the Castle / Guard the Cone / Protect the King.",
+    "purpose": "Attackers knock the castle. Defenders block. Rotate before anyone lives in one job.",
     "equipment": "Pins or cones · soft balls · 2–4 defender bibs",
     "setup": "Castle in the middle (pin, cone, or ‘king’ in a hoop). Defenders around it. Attackers behind a line with balls.",
     "play": [
@@ -1954,7 +1954,7 @@ window.GAME_DETAILS = [
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Below-waist throws at pins, not people.",
     "g56": "Two balls at once, still below waist.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "target",
     "ifThis": [
@@ -2010,7 +2010,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Knock a pin, then either count it or collect it. Folded in: Daly Knock the Pin / Build Your Tower + SCA Skittle Ball / Pin Knockover / Roll to hit the pin.",
+    "purpose": "Knock a pin, then either count it or collect it.",
     "equipment": "Standing pins or cones · balls · a fetch line",
     "setup": "Pins out. Throwers on a mark. One fetcher at a time.",
     "play": [
@@ -2022,7 +2022,7 @@ window.GAME_DETAILS = [
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "target",
     "ifThis": [
@@ -2109,7 +2109,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Land in the target. Add the points. Rotate. Folded in: Daly Rolling 21 / hoop bowling / Christmas Lights + SCA Team Bowling / Land the ball in the hoop / Chip into buckets.",
+    "purpose": "Land in the target. Add the points. Rotate.",
     "equipment": "Hoops or pins with values · balls or bags · a throw line",
     "setup": "Targets out. Agree values (any hoop = 1, or big = 3 and small = 7). Throw line marked.",
     "play": [
@@ -2120,7 +2120,7 @@ window.GAME_DETAILS = [
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "target",
     "ifThis": [
@@ -2148,7 +2148,7 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Your half is tidy when the whistle goes. Folded in: Daly Tidy Up / Messy Rooms + SCA Tidy the Bedroom / Mr. Clean.",
+    "purpose": "Your half is tidy when the whistle goes.",
     "equipment": "Equal light objects · centre line · optional hoops",
     "setup": "Centre line. Equal objects. Stay on your side.",
     "play": [
@@ -2268,7 +2268,7 @@ window.GAME_DETAILS = [
     "months": [
       "June"
     ],
-    "purpose": "Stay on your half. Knock the other team’s structures. Rebuild and keep playing. Folded in: Daly Star Wars / Snowball Fight / Snowman Run + SCA Castleball / Bombardment.",
+    "purpose": "Stay on your half. Knock the other team’s structures. Rebuild and keep playing.",
     "equipment": "Equal castles each side · soft balls",
     "setup": "Equal castles each side. Balls on each half. Below-waist or structure-only throws.",
     "play": [
@@ -2279,7 +2279,7 @@ window.GAME_DETAILS = [
     "g12": "Short throwing line. Underhand or roll is allowed. Teacher fetches with the first group.",
     "g34": "Standard distance. Opposite-foot step. Fetchers stay to the side.",
     "g56": "Step back after a make. Weaker hand or weaker foot on the last round. A student official on the line.",
-    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Foam dodgeballs. Hits below the waist. A high ball is dead. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Throwing line is closed until fetchers are to the side. One object in the air per lane. Foam dodgeballs. Hits below the waist. A high ball is dead. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "strike",
     "ifThis": [
@@ -2321,7 +2321,7 @@ window.GAME_DETAILS = [
     "g12": "Tee or a bounced toss. Run to one base or hoop and stay. Teacher fields the first few.",
     "g34": "Live send (kick, strike, or throw). Three chances, then a run so the line moves.",
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. Balloons stay in the pair’s square. Tie extra balloons so they are not mouthed. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "The ball is not thrown at a face. Balloons stay in the pair’s square. Tie extra balloons so they are not mouthed. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "strike",
     "ifThis": [],
@@ -2432,7 +2432,7 @@ window.GAME_DETAILS = [
     "g12": "Tee or a bounced toss. Run to one base or hoop and stay. Teacher fields the first few.",
     "g34": "Live send (kick, strike, or throw). Three chances, then a run so the line moves.",
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "No body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "strike",
     "ifThis": [],
@@ -2598,7 +2598,7 @@ window.GAME_DETAILS = [
     "g12": "Tee or a bounced toss. Run to one base or hoop and stay. Teacher fields the first few.",
     "g34": "Live send (kick, strike, or throw). Three chances, then a run so the line moves.",
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
-    "safety": "No slide tackles, no body checks. The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "The ball is not thrown at a face. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "strike",
     "ifThis": [],
@@ -2640,7 +2640,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "One item per trip. Tag. Next person. Folded in: Daly Candy / Santa / Snowball / Cone Flipper / Three Course Meal / Cone Collector + SCA Attention Relay / Bucket Carry / Around the Bases.",
+    "purpose": "One item per trip. Tag. Next person.",
     "equipment": "Item pile · home hoop or sack",
     "setup": "Pile at the far end. Home hoop at the start. Show what ‘one item’ looks like.",
     "play": [
@@ -2936,7 +2936,7 @@ window.GAME_DETAILS = [
       "December",
       "February"
     ],
-    "purpose": "Each runner uses a real animal movement. Disguised sprinting does not count. Folded in: Daly Jungle Relay / Animal Crawl / Turtle Race / Rabbit Hole + SCA Jungle Run Relays.",
+    "purpose": "Each runner uses a real animal movement. Disguised sprinting does not count.",
     "equipment": "Turn cone 8–15 m away · optional bag or cone for the back",
     "setup": "Show 6 legal animals. Separate lanes. Cone 8–15 m away.",
     "play": [
@@ -3085,7 +3085,7 @@ window.GAME_DETAILS = [
       "May",
       "June"
     ],
-    "purpose": "Clap first, then catch. A fake that draws a clap is a miss. Folded in: Daly Bounce and Clap / Catch Clap + SCA Throw-clap-catch relay.",
+    "purpose": "Clap first, then catch. A fake that draws a clap is a miss.",
     "equipment": "1 ball per circle or pair",
     "setup": "Show the three fail states: clap on a fake, drop, catch with no clap.",
     "play": [
@@ -3097,7 +3097,7 @@ window.GAME_DETAILS = [
     "g12": "No clap — toss and catch only.",
     "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
-    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "relay",
     "ifThis": [
@@ -3121,7 +3121,7 @@ window.GAME_DETAILS = [
     "months": [
       "February"
     ],
-    "purpose": "Advance hoop to hoop with the agreed action. Next runner waits for the signal. Folded in: Daly Rabbit Relay / Hoop Stick / Hoop Balance / Caterpillar Relay / Side to Side + SCA Toe-tap hoop relay / Circle Hoop.",
+    "purpose": "Advance hoop to hoop with the agreed action. Next runner waits for the signal.",
     "equipment": "Lane of hoops · optional ball, stick, or shared hoop",
     "setup": "Hoops in a lane. Show the action once (jump in, pass then jump, stick-push, shared carry, step through).",
     "play": [
@@ -3132,7 +3132,7 @@ window.GAME_DETAILS = [
     "g12": "Walk or skip. Shorter lane. Redo a trip if the skill falls apart — no extra penalty laps.",
     "g34": "Jog. Full lane. High-five hand-off. One quality redo if a pin or ball is dropped.",
     "g56": "Skip one way, jog back — or weaker foot/hand home. A student starter on the whistle.",
-    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Pass on the right. No diving at a hoop, pin, or beanbag. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "relay",
     "ifThis": [
@@ -3411,7 +3411,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Get to a corner on the call. Everyone stays in the game. Folded in: Daly Four Corners + SCA Four Corners Stay-In.",
+    "purpose": "Get to a corner on the call. Everyone stays in the game.",
     "equipment": "Four labelled corners (numbers or colours)",
     "setup": "Label 1–4 or by colour. Pupils start centre.",
     "play": [
@@ -3422,7 +3422,7 @@ window.GAME_DETAILS = [
     "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "No diving at a corner. First two feet on the spot keep it. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "No diving at a corner. First two feet on the spot keep it. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "loco",
     "ifThis": [
@@ -3572,7 +3572,7 @@ window.GAME_DETAILS = [
     "g12": "Walk in. Two body parts only.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5",
     "type": "loco",
     "ifThis": [],
@@ -3615,7 +3615,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Travel the fruit or animal that was called. ‘Peel’ means freeze in a shape. Folded in: SCA Silly Bananas only. Daly’s one-foot tag is Unmask Tag under Frozen Tag.",
+    "purpose": "Travel the fruit or animal that was called. ‘Peel’ means freeze in a shape.",
     "equipment": "None",
     "setup": "Teach three travel words and ‘Peel’ before you speed up.",
     "play": [
@@ -3702,7 +3702,7 @@ window.GAME_DETAILS = [
       "September",
       "December"
     ],
-    "purpose": "Flip every cone to your shape before the whistle. Folded in: SCA Volcanoes and Ice-Cream Cones (year-round On/Off cone flip).",
+    "purpose": "Flip every cone to your shape before the whistle.",
     "equipment": "Many scattered cones",
     "setup": "Scatter cones mixed upright (ice-cream / volcano up) and upside down. Team Up vs Team Down. No guarding a cone with your body.",
     "play": [
@@ -3713,7 +3713,7 @@ window.GAME_DETAILS = [
     "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "0–5 or 16–25",
     "type": "loco",
     "ifThis": [
@@ -3737,7 +3737,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Keep one balloon up. Count hits. A drop restarts the count, not the person. Folded in: Daly Balloon Keep-Ups + SCA Balloon Keep-Up.",
+    "purpose": "Keep one balloon up. Count hits. A drop restarts the count, not the person.",
     "equipment": "One inflated balloon per circle · optional noodles or rulers",
     "setup": "Circles with arm’s-length space. One inflated balloon each.",
     "play": [
@@ -3749,7 +3749,7 @@ window.GAME_DETAILS = [
     "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Class record. Weak hand only.",
-    "safety": "No heading hard balls. Latex allergy: use a beach ball. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "No heading hard balls. Latex allergy: use a beach ball. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "coop",
     "ifThis": [
@@ -3832,7 +3832,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Keep a legal rally going. One bounce. Point on a miss. Folded in: Daly Hand Tennis / Floorball + SCA Wall-ball rally / Rally over a rope / Keep your ball in the square / Gaga.",
+    "purpose": "Keep a legal rally going. One bounce. Point on a miss.",
     "equipment": "1 soft ball · wall, rope, or taped square",
     "setup": "Small court. Underhand serve. Soft hands or a low racket.",
     "play": [
@@ -3843,7 +3843,7 @@ window.GAME_DETAILS = [
     "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Ask before you pull a hoop, rope, or teammate. Stop if hair, glasses, or a wrist is caught. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "coop",
     "ifThis": [
@@ -4013,7 +4013,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Copy what you saw, then add one move. A mix-up restarts the phrase. Folded in: Daly Dance Whispers / Dance Chain / Dance Tag + SCA Follow the Leader.",
+    "purpose": "Copy what you saw, then add one move. A mix-up restarts the phrase.",
     "equipment": "Optional music",
     "setup": "Agree: mix-up restarts, nobody sits the period. Keep phrases to 4–8 counts.",
     "play": [
@@ -4052,7 +4052,7 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "A legal pulse beats a guessed grab. Honesty is the skill. Folded in: Daly Pulse + SCA Pulse Race.",
+    "purpose": "A legal pulse beats a guessed grab. Honesty is the skill.",
     "equipment": "Coin or colour card · one grab-object per line",
     "setup": "Sit or kneel in files, hands touching the next person. Object beyond the last player. First players face you.",
     "play": [
@@ -4145,7 +4145,7 @@ window.GAME_DETAILS = [
     "months": [
       "February"
     ],
-    "purpose": "Travel on the music. When it stops, get into a hoop. Share. Nobody sits the period. Folded in: Daly Musical Hoops / Rings / Cones + SCA Fitness Musical Hoops + Icebergs.",
+    "purpose": "Travel on the music. When it stops, get into a hoop. Share. Nobody sits the period.",
     "equipment": "Music · hoops or cones",
     "setup": "Scatter hoops. Music ready. Name the travel skill. Start with enough hoops for everyone to share.",
     "play": [
@@ -4157,7 +4157,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -4414,7 +4414,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "The object stays on. If it falls, reset and continue. Folded in: Daly Protect the Ice Cream / Cone Collector / Cone Stack / Bench Balance / Core Beanbag Rescue + SCA Racquet waiter / Beanbag head walk / Body-part beanbags.",
+    "purpose": "The object stays on. If it falls, reset and continue.",
     "equipment": "One object per person or pair (ball on cone, bag on racquet, bag on head)",
     "setup": "Show the carry (ball on cone, bag on racquet, bag on head). No body checks.",
     "play": [
@@ -4425,7 +4425,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Walk around a cone before the toss.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -4457,7 +4457,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "Go to the colour that was called. One object or one touch per call. Folded in: Daly Colour Hunt / Memory Colour + SCA Rainbow Road / Memory Relay / Treasure Hunt / Card Sharks.",
+    "purpose": "Go to the colour that was called. One object or one touch per call.",
     "equipment": "Scattered colour objects · home base",
     "setup": "Scatter colours. Class starts in a home base. You will name a colour and a travel skill.",
     "play": [
@@ -4497,7 +4497,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "Rock-paper-scissors decides who chases or who takes the object. Folded in: Daly Carraig Páipéar Siosúr hop / cone-grab + SCA RPS Warm-up / RPS Rounders.",
+    "purpose": "Rock-paper-scissors decides who chases or who takes the object.",
     "equipment": "None · optional cone between pairs",
     "setup": "Pairs meet at the centre. Home lines behind each.",
     "play": [
@@ -4535,7 +4535,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "Hear the word. Do that shape or travel. Mix the order. Folded in: Daly Christmas Warm-Up + SCA Red Line / Video Camera / Shipwreck / Signals.",
+    "purpose": "Hear the word. Do that shape or travel. Mix the order.",
     "equipment": "None · optional music",
     "setup": "Teach 4–6 commands before you speed up.",
     "play": [
@@ -4546,7 +4546,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "loco",
     "ifThis": [
@@ -4580,7 +4580,7 @@ window.GAME_DETAILS = [
       "February",
       "April"
     ],
-    "purpose": "The floor is out. Cross using only the islands. Folded in: Daly Polar Express / Flip Flop + SCA Safe to Shore / Icebergs.",
+    "purpose": "The floor is out. Cross using only the islands.",
     "equipment": "Hoops or mats as islands · start and finish lines",
     "setup": "Islands between the lines. Show a legal step. Agree the restart: full restart or last safe island.",
     "play": [
@@ -4591,7 +4591,7 @@ window.GAME_DETAILS = [
     "g12": "Wide islands. Teacher spots.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Walk on and off mats. No diving onto a house mat. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -4619,7 +4619,7 @@ window.GAME_DETAILS = [
       "May",
       "June"
     ],
-    "purpose": "Jump the targets. Quiet stick. Quality before speed. Folded in: Daly Helicopter / Frogs & Toads / hoop jump races / long jump + SCA Spot-jump path / hurdle hops.",
+    "purpose": "Jump the targets. Quiet stick. Quality before speed.",
     "equipment": "Spots, hoops, or a taped river · optional noodle",
     "setup": "Lane of spots or a taped river. Show two-foot take-off and a still landing.",
     "play": [
@@ -4661,7 +4661,7 @@ window.GAME_DETAILS = [
       "May",
       "June"
     ],
-    "purpose": "Pass, then both movers relocate so the next pass happens on the move. Folded in: Daly Hand It Over / Ball Run + SCA Throw & Go / Beat Ball.",
+    "purpose": "Pass, then both movers relocate so the next pass happens on the move.",
     "equipment": "1 ball per pair or circle",
     "setup": "Show a lead pass. Drop = 3 jumps and continue, not an out.",
     "play": [
@@ -4672,7 +4672,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher).",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [
@@ -4711,7 +4711,7 @@ window.GAME_DETAILS = [
     "g12": "Two or three boxes. Two-hand set-down counts.",
     "g34": "Six boxes. One-hand flip.",
     "g56": "Time cap or team relay.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "target",
     "ifThis": [
@@ -4823,7 +4823,7 @@ window.GAME_DETAILS = [
     "g12": "One ball. Larger hole.",
     "g34": "Two or three balls.",
     "g56": "Three holders on a bigger tray.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "coop",
     "ifThis": [
@@ -4860,7 +4860,7 @@ window.GAME_DETAILS = [
     "g12": "Closed eyes or a visor. Elbow guide allowed.",
     "g34": "Voice cues only. No dragging.",
     "g56": "Silent spotter, then voice.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "16-25",
     "type": "coop",
     "ifThis": [
@@ -4897,7 +4897,7 @@ window.GAME_DETAILS = [
     "g12": "Allow two guesses.",
     "g34": "One guess. Keep the circle moving.",
     "g56": "Two middle players.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "loco",
     "ifThis": [
@@ -4933,7 +4933,7 @@ window.GAME_DETAILS = [
     "g12": "Seated chest-pass. No sit-up required.",
     "g34": "Sit-up then throw.",
     "g56": "Non-dominant throw.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "target",
     "ifThis": [
@@ -4971,7 +4971,7 @@ window.GAME_DETAILS = [
     "g12": "Standing athletic stance.",
     "g34": "Knees-down plank. 30 seconds.",
     "g56": "Full plank. Non-dominant hand.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "fitness",
     "ifThis": [
@@ -5008,7 +5008,7 @@ window.GAME_DETAILS = [
     "g12": "March behind the cone.",
     "g34": "Jumping jacks. Swap after every hit.",
     "g56": "Two-cone gate.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "fitness",
     "ifThis": [
@@ -5082,7 +5082,7 @@ window.GAME_DETAILS = [
     "g12": "Underarm only. Fewer cones.",
     "g34": "Four cones each.",
     "g56": "2v2.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "16-25",
     "type": "target",
     "ifThis": [
@@ -5120,7 +5120,7 @@ window.GAME_DETAILS = [
     "g12": "Drop-in from 10 cm counts.",
     "g34": "Gentle flip from a step away.",
     "g56": "Partner holds the target.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "target",
     "ifThis": [
@@ -5156,7 +5156,7 @@ window.GAME_DETAILS = [
     "g12": "Larger cone. Allow a second bounce.",
     "g34": "Own cone. Time cap.",
     "g56": "Non-dominant hand.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "target",
     "ifThis": [
@@ -5229,7 +5229,7 @@ window.GAME_DETAILS = [
     "g12": "Fewer hoops. Slide instead of a full lift.",
     "g34": "Six hoops. Slow walk.",
     "g56": "Picture only. Time cap.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "16-25",
     "type": "coop",
     "ifThis": [
@@ -5266,7 +5266,7 @@ window.GAME_DETAILS = [
     "g12": "Colour-coded first loop.",
     "g34": "Full simple course.",
     "g56": "More controls. No splitting up.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "16-25",
     "type": "loco",
     "ifThis": [
@@ -5302,7 +5302,7 @@ window.GAME_DETAILS = [
     "g12": "Step-in counts. Teacher names the shape.",
     "g34": "Landing must stick.",
     "g56": "Teacher calls the shape just before they jump.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "16-25",
     "type": "fitness",
     "ifThis": [
@@ -5339,7 +5339,7 @@ window.GAME_DETAILS = [
     "g12": "Marching instead of jacks.",
     "g34": "Jacks. Quality over count.",
     "g56": "Record a weekly personal best.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "fitness",
     "ifThis": [
@@ -5376,7 +5376,7 @@ window.GAME_DETAILS = [
     "g12": "Larger cone. Rolled bean bag.",
     "g34": "Tennis ball. First to 5 traps.",
     "g56": "Longer roll.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "fitness",
     "ifThis": [
@@ -5492,7 +5492,7 @@ window.GAME_DETAILS = [
     "g12": "Larger ball and bucket.",
     "g34": "Allow two bounces.",
     "g56": "Bounce to a hoop.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "coop",
     "ifThis": [
@@ -5530,7 +5530,7 @@ window.GAME_DETAILS = [
     "g12": "Clap then jump, no ball.",
     "g34": "Larger hoops.",
     "g56": "Bounce pass only.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "16-25",
     "type": "relay",
     "ifThis": [
@@ -5567,7 +5567,7 @@ window.GAME_DETAILS = [
     "g12": "Step-in allowed.",
     "g34": "Larger hoops.",
     "g56": "Travel back as well.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "16-25",
     "type": "relay",
     "ifThis": [
@@ -5601,7 +5601,7 @@ window.GAME_DETAILS = [
     "g12": "Log roll only.",
     "g34": "Crawl only.",
     "g56": "Add a balance at the end.",
-    "safety": "No elimination. Freeze on the whistle. Soft two-finger or noodle tags on the back or shoulder — never the head. A miss is a short task, then stay in.",
+    "safety": "No elimination. Freeze on the whistle. A miss is a short task, then stay in.",
     "slot": "8-15",
     "type": "fitness",
     "ifThis": [

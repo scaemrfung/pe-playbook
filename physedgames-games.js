@@ -430,7 +430,7 @@ window.PEG_DETAILS = [
     "play": [
       "Music on: travel around the hoops with the skill you name.",
       "Music off: call a body part and a colour (“right hand, blue”). Put that body part in a matching hoop.",
-      "Sharing a hoop is allowed. Anyone who cannot get in does 5 fun reps and rejoins.",
+      "Sharing a hoop is allowed. Anyone who cannot get in does 5 reps and rejoins.",
       "Remove 1–2 hoops each round."
     ],
     "g12": "Teacher calls. Two or three commands only. Walk before you jog.",
@@ -577,7 +577,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "K-4",
       "equipment": "Cones, 4 foam balls",
-      "overview": "Some students are dogs (they can act like a dog if they want). The dogs are trying to chase people away from their yard. Another fun tag game idea to try in your PE class (thanks to Deric Hafer).",
+      "overview": "Some students are dogs (they may act like dogs if they want). The dogs try to chase people away from their yard. Idea credit: Deric Hafer.",
       "steps": [
         "Cone off several small “yards.” Place a foam ball (bone/toy) in each yard if you want a steal object.",
         "Assign one dog per yard. Dogs may act like dogs but stay in or right beside their own yard.",
@@ -595,7 +595,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "1-6",
       "equipment": "none",
-      "overview": "Tried a quick modification of Joel Sweetland’s ’10-second tag’ for a large group that I had. Wasn’t sure if it’d work but it went really good! Note: the cycles don’t have to be exactly 10 seconds (to keep the flow of the game going, you might add or subtract a few seconds here or there).",
+      "overview": "A large-group version of Joel Sweetland’s 10-second tag. The cycles do not have to be exactly 10 seconds; add or take away a few seconds to keep the game flowing.",
       "steps": [
         "Everyone spreads out. On GO, EVERYONE is it for about 10 seconds.",
         "Gentle two-finger shoulder tags only. You can tag others even if you get tagged during the burst.",
@@ -613,7 +613,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "1-5",
       "equipment": "pool noodles, exercise mats",
-      "overview": "This game is quick and easy and angry. For some reason, the neighbours (taggers) are not happy with the players on their yard, so they chase them around with a broomstick. At least that’s how the story goes. A good game for some laughs and quality exercise. Thanks James Barton for another game idea!",
+      "overview": "The neighbours (taggers) are not happy with the players in their yard, so they chase them with a broomstick (a pool noodle). Use it for quick, active tag play. Idea credit: James Barton.",
       "steps": [
         "Lay exercise mats as houses along one side. The open floor is the yard.",
         "Give 3–6 “neighbours” a pool noodle (the broom).",
@@ -631,7 +631,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "1-6",
       "equipment": "scarves (or pinnies)",
-      "overview": "This is now my new favourite LARGE GROUP game. Depending on your space, it could work with 40, 50, maybe even 60 players. Not sure why I’ve never done it this way after all these years, but I will definitely more often use this when I have 2 or more classes doubled up. It could even be done outdoors in a large area and throw done cones to form a wolf’s den. I can personally vouch that I’ve had an awesome time with this game recently with different age groups doubled up. Hope you enjoy a ‘new’ version of an old favourite. And if it’s a completely new game for you, it’s normally played with the den along the width of the gym, instead of along the length (the set-up for a regular group of 15-30 players).",
+      "overview": "A large-group version of Wolf’s Den. Depending on your space, it can work with 40 to 60 players, so it suits two or more classes together. It can also run outdoors, with cones marking the den. For a regular group of 15–30 players, the den usually runs across the width of the gym; for a large group, run it along the length.",
       "steps": [
         "Mark a long, narrow den down the LENGTH of the gym (the large-group setup). Wolves must stay inside that strip.",
         "Pinny several wolves (more wolves for 40–60 players).",
@@ -650,7 +650,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "K-6",
       "equipment": "None",
-      "overview": "Watch out for the wolves! In this game, the wolf roams around his den trying to catch the rabbits as they run back-and-forth through the wolf’s territory. Action-packed and always great for a laugh in PE class, outside, or at camp. Using lines or cones as markers, create a wolf’s den area right in the middle of two safe areas. The wolf must stay in his den. The rabbits attempt to run through the den from side to side without getting tagged by the wolf. If a rabbit gets tagged, he becomes a wolf. A good idea is to have a stash of pinnies so that when a rabbit is tagged, he first quickly puts on a pinnie so you can distinguish who is a wolf and who is a rabbit. Play until all of the rabbits have been caught!",
+      "overview": "The wolf moves around the den and tries to tag the rabbits as they run back and forth through it. Use lines or cones to mark the den in the middle, between two safe areas. The wolf must stay in the den. Rabbits run through the den from side to side without being tagged. A tagged rabbit becomes a wolf; keep pinnies handy so new wolves can put one on quickly. Play until all of the rabbits are caught. Works in the gym, outside or at camp.",
       "steps": [
         "This is the standard (width-of-the-gym) version for about 15–30 players. For 40–60 use Large Group Wolf’s Den instead.",
         "Mark a den strip across the WIDTH of the gym. 2–4 wolves stay in the den.",
@@ -668,7 +668,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "2-6",
       "equipment": "sticky notes, or pieces of paper",
-      "overview": "This game is a mystery! Players don’t know who the catchers are. But they’ll soon find out. Try this game out for lots of laughs and lots of running! It’s another game that will not disappoint! (Thanks Chantal Dubois)",
+      "overview": "Players do not know who the taggers are until the game starts. Expect lots of running. Idea credit: Chantal Dubois.",
       "steps": [
         "Prepare sticky notes. A few say IT (or a special number); the rest are blank/free.",
         "Every player gets a folded note. They look only when you say GO.",
@@ -685,7 +685,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "1-6",
       "equipment": "Hoops, pool noodles",
-      "overview": "What a great game, seriously one of the best tag games out there. This is a must play. Lots of Dynamics, lots going on in this unique idea thanks to Dan Penna for another hit.",
+      "overview": "A blob tag game with several roles and a lot happening at once. Idea credit: Dan Penna.",
       "steps": [
         "Scatter hoops as short-stay “home free” bases (about 3 seconds max — no camping).",
         "2–4 bad guys with pool noodles tag runners.",
@@ -703,7 +703,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "1-6",
       "equipment": "Cones, foam balls",
-      "overview": "New favourite activity! Tagging, throwing, catching, strategy all jam-packed into one awesome game from Jennifer Holub. Really fun, a must try, especially if you’re looking for a game for large groups (50 players +).",
+      "overview": "Combines tagging, throwing, catching and strategy in one game. It suits large groups (50 or more players). Game by Jennifer Holub.",
       "steps": [
         "Large coned field. Several taggers; free players have foam balls.",
         "Taggers freeze runners in place with hands ready to catch.",
@@ -721,7 +721,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "1-8",
       "equipment": "None",
-      "overview": "‘Everybody’s It’ is a classic all-time favourite tag game with non-stop action! Everybody is it, and everybody can also get tagged. If a player gets tagged, he must sit where he was tagged. He is stuck down until the player who tagged him gets tagged, and then he’s back up. It’s that simple! This is a very active game; lots of running. If players are sitting too long then the teacher can yell out, “free pass” and then they can get back up. If players tag eachother at the same time then they play a round of ‘Rock, Paper, Scissors’ to see who sits. Players spread out around the gym. Everyone is ‘It’ but everyone can also get tagged. Players sit if tagged. Players get back up when player who tagged them gets tagged. If a player is sitting too long, give a ‘free pass’ so he can get back up. If two players tag each other at the same time, they play ‘Rock, Paper, Scissors’ to see who sits.",
+      "overview": "A classic tag game. Everyone is it, and everyone can be tagged. A tagged player sits where they were tagged and stays down until the player who tagged them is tagged; then they get back up. Expect lots of running. If players sit too long, call “free pass” so they can get back up. If two players tag each other at the same time, they play Rock, Paper, Scissors to see who sits.",
       "steps": [
         "Everybody is it AND everybody can be tagged. No equipment.",
         "If you are tagged, sit where you were tagged. You stay down until the person who tagged you gets tagged — then you stand up.",
@@ -738,7 +738,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "K-5",
       "equipment": "None",
-      "overview": "Hilarious idea for a simple tag game: if a player gets tagged, he must turn over on his back and put arms and legs up in the air like a dead ant on its back. To get back up? 4 players who aren’t tagged must attach themselves to an arm or leg and then that player is free. Tagger can’t guard or tag those who are helping. This is a great game to use with large groups of students. Give it a go! Everyone spreads out in playing area. Choose a couple of taggers. When tagged, player turns into a dead ant. 4 other players go and save that ant by attaching to the limbs.",
+      "overview": "A simple tag game. A tagged player lies on their back with arms and legs up, like a dead ant. To free them, four untagged players each hold an arm or a leg. Taggers cannot guard or tag the helpers. Works well with large groups. Have everyone spread out and choose a couple of taggers.",
       "steps": [
         "Choose 3–6 taggers. Everyone else runs.",
         "A tagged player lies on their back with arms and legs in the air like a dead ant.",
@@ -756,7 +756,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "K-5",
       "equipment": "None",
-      "overview": "Such a simple tag game; kids go bananas, literally! As players get tagged, they must curve their bodies into the shape of a banana. Someone else will come along and ‘peel’ them so that they are free.",
+      "overview": "A simple tag game. Tagged players curve their bodies into a banana shape. Another player “peels” them to set them free.",
       "steps": [
         "Choose taggers. Everyone else is a runner.",
         "A tagged player must curve their body into a banana shape and hold it.",
@@ -773,7 +773,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "K-5",
       "equipment": "Pinnies (different colours)",
-      "overview": "Fruit salad is a tag game for kindergarten to grade 5. Give out different colour pinnies to the taggers and ask the students to name fruits that are the same colours of the pinnies. If students get tagged by a certain colour then they freeze into the shape of the particular fruit that matches the colour. As a class you can decide upon different ideas of how to freeze into a particular fruit. The class also determines how to unfreeze the different pieces of fruit so there are lots of different kinds of actions and they can make up a new version almost every time. Examples: Apple – Cut, Banana – Peel, Blueberry – Wash, Watermelon – Roll, etc. Try it out with the VEGETABLE theme as well! Move and learn at the same time with the Fruit Salad physical education game. (Thanks to Curtis Glasgow for this game idea)",
+      "overview": "A tag game for Kindergarten to Grade 5. Give the taggers pinnies in different colours, and have students name fruits that match those colours. A student tagged by a certain colour freezes in the shape of the matching fruit. Decide as a class how to freeze as each fruit and how to unfreeze it, for example apple – cut, banana – peel, blueberry – wash, watermelon – roll. You can also try a vegetable theme. Idea credit: Curtis Glasgow.",
       "steps": [
         "Give taggers different-coloured pinnies. As a class, name a fruit for each colour and a freeze shape for that fruit (apple = round; banana = curve).",
         "Also agree how each fruit gets unfrozen (apple is “cut,” banana is “peeled,” blueberry is “washed,” watermelon is “rolled,” etc.).",
@@ -790,7 +790,7 @@ window.PEG_HANDBOOK = {
       "category": "Tag & Chasing",
       "grades": "K-6",
       "equipment": "Hoops, pool noodles",
-      "overview": "A Christmas game for the holidays (thanks to Angela Crepeele).",
+      "overview": "A holiday tag game for December. Idea credit: Angela Crepeele.",
       "steps": [
         "Scatter hoops as stables. Give 3–6 elves / herders pool noodles.",
         "Everyone else is a reindeer and gallops around the gym.",
@@ -809,7 +809,7 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "4-8",
       "equipment": "benches, dodgeballs",
-      "overview": "It’s the classic game of bench dodgeball, at least I think it’s a classic. It might just be classic for me? Note: this game is different from BENCHBALL (where you try to get all players onto the bench – that’s not a dodgeball game, though it’s also a really good game). In this game, you try to help your players get OFF the bench. Mrs. Gracie at my school really likes to play this game when I’m away. The kids really like it and of course, it works on lots of skills!",
+      "overview": "A bench dodgeball game. It is different from Bench Ball, where teams try to get all their players onto the bench and nobody is a target. In this game, teams try to help their players get off the bench. It works on many skills.",
       "steps": [
         "Place a bench on each end line. Two teams, one half each. Foam dodgeballs only.",
         "This is NOT Bench Ball. Here you are trying to get your own players OFF the bench.",
@@ -827,7 +827,7 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "4-8",
       "equipment": "basketball backboards, dodgeballs",
-      "overview": "Highly requested game of dodgeball. Lots of fun, and lots of skills as usual! Two teams faceoff in this fun version that uses the basketball court (full court or half court), thanks to Michelle Weaver!",
+      "overview": "A dodgeball game for two teams on a basketball court (full or half court). Idea credit: Michelle Weaver.",
       "steps": [
         "Two teams on a basketball court (full or half). Foam dodgeballs.",
         "Play regular throwing/dodging on the floor. Hits below the shoulders.",
@@ -845,7 +845,7 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "4-8",
       "equipment": "Foam Balls",
-      "overview": "Prison ball is a dodgeball-type game where 2 teams face-off against each other. Along the ends of the gym, behind each team is a prison area. Whenever a player gets hit, he or she must head to prison behind the opposite team on that end. They are stuck there until they can throw a ball and successfully hit someone while they’re in prison — and then they can return home to their team, while the player they hit must then go to prison! Very interesting type of dodgeball game where players must be aware of their complete surroundings, front, back, sides. Balls flying from all over the place makes it challenging and lots of fun!",
+      "overview": "A dodgeball-type game for two teams. Each team has a prison area at the far end of the gym, behind the other team. A player who is hit goes to the prison behind the other team. They stay there until they throw a ball from prison and hit someone; then they return home, and the player they hit goes to prison. Players must watch in front, behind and to the sides because balls come from all directions.",
       "steps": [
         "Two teams, each half. Behind each end is a PRISON zone.",
         "If you are hit with a foam ball (below shoulders), go to the prison BEHIND the other team.",
@@ -863,7 +863,7 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "1-8",
       "equipment": "4 foam balls",
-      "overview": "This is a special type of dodgeball game with official rules, refs, and the whole show! With sportsmanship being the number 1 rule, teams will compete in an epic battle to be the last ones standing. Great game incorporating lots of skills. Popular in Australia, kids love this one and get nice and sweaty. There’s talk of some major tournament play and school-wide fun. Try it out! Also see the official rules manual (WORD DOCUMENT DOWNLOAD) posted below: BATTLEBALL RULES 2014",
+      "overview": "A dodgeball game with official rules and referees, popular in Australia. Sportsmanship is the first rule, and teams play to be the last ones standing. It uses many skills. PHYSEDGAMES posts the official rules manual (Battleball Rules 2014) on its page.",
       "steps": [
         "Two teams, 4 foam balls, official-style dodgeball with sportsmanship as rule #1.",
         "Agree on refs (teachers or trained students) and the school’s hit / catch / boundary rules before the first throw.",
@@ -881,7 +881,7 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "3-8",
       "equipment": "Dodgeballs, nets/goals",
-      "overview": "Net dodgeball is basically a standard game of dodgeball, except that each team also has a net and a goalie. Any time a team scores a goal by throwing a dodgeball past the opposing goalie, all of the players who were out get to enter back into the game. Also use detective dodgeball rules to ensure players are getting maximum participation and movement time…if you’re unsure what detective dodgeball rules are, find the rules to that game on this site!",
+      "overview": "Standard dodgeball, except each team also has a net and a goalie. When a team throws a dodgeball past the other team’s goalie, all of its players who were out come back in. You can add Detective Dodgeball rules (see that game) to keep more players moving.",
       "steps": [
         "Standard two-team foam dodgeball, PLUS a net and a goalie on each end.",
         "If a team throws a ball past the other goalie into the net, ALL of that team’s out players come back in.",
@@ -898,7 +898,7 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "4-8",
       "equipment": "Dodgeballs, ‘walls’ (mats, benches)",
-      "overview": "Warzone Dodgeball is definitely what the name says – a dodgeball warzone. Also known as ‘Paintball Dodgeball’, to set up for this game, place some obstacles and barriers for players to hide behind. Things like mats and tubes that represent walls and trenches. Then let the teams go at it. Add in a Capture the Flag element to further increase the intensity. At physedgames, we realize that dodgeball games may not be an acceptable game for all groups.",
+      "overview": "Also called Paintball Dodgeball. Set up obstacles such as mats and tubes as walls and trenches for players to hide behind, then play. You can add a Capture the Flag element. PHYSEDGAMES notes that dodgeball games may not suit every group.",
       "steps": [
         "Build cover with mats, benches, and safe “walls” / trenches. Two teams. Also called Paintball Dodgeball.",
         "Play foam dodgeball using the barriers as hiding spots. No moving the walls into people.",
@@ -915,7 +915,7 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "2-8",
       "equipment": "Dodgeballs",
-      "overview": "Standard dodgeball is the classic version of the game. In our opinion, many of the variations of this game are huge improvements and should be played in place of the standard version, however, here it is for you to take a look at.",
+      "overview": "The classic version of dodgeball. PHYSEDGAMES suggests that many of the variations are better choices than the standard version.",
       "steps": [
         "Two teams, one half each. Foam dodgeballs in the middle. On the whistle, rush the balls.",
         "Hit an opponent below the shoulders to send them out. A caught ball typically sends the thrower out and can return a teammate — confirm your house rules.",
@@ -932,13 +932,13 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "4-8",
       "equipment": "Dodgeballs",
-      "overview": "This is a dodgeball game where if a player is hit, he must remember who hit him, because he’s out until the player who hit him gets hit. That’s the whole detective part. A great advancement to regular dodgeball to keep things flowing better. Create 2 teams, each on one half of the gym. Add in the dodgeballs. When a player is hit, he must go off to the side. He must remember who got him out, because when that person gets hit, he is able to return to play. If players are sitting out for too long, give everyone a ‘free pass’ back in the game. When one team has no players left, start a new round! This has been the favourite dodgeball game of choice for many grade 8 classes.",
+      "overview": "A player who is hit must remember who hit them. They are out until that player is hit; then they return. This keeps the game flowing better than regular dodgeball. Make two teams, one on each half of the gym, and add the dodgeballs. A hit player goes to the side. If players sit out too long, give everyone a free pass back in. When one team has no players left, start a new round. Often used with Grade 8 classes.",
       "steps": [
         "Two teams, each on one half. Foam dodgeballs in play.",
         "If you are hit, go to the side and REMEMBER who hit you. You are out only until THAT person is hit, then you come back in.",
         "That “detective” memory rule keeps the game flowing and cuts long sit-outs.",
         "If anyone sits too long, call a free pass and everyone returns.",
-        "When one team has nobody left on the floor, start a new round. A favourite for older grades."
+        "When one team has nobody left on the floor, start a new round."
       ],
       "video": "https://www.youtube.com/watch?v=lrOKbNcgeM8",
       "page": "https://physedgames.com/detective-dodgeball/"
@@ -950,7 +950,7 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "2-8",
       "equipment": "Plastic bowling pins, dodgeballs",
-      "overview": "Pin Knockover is a classic target throwing or rolling game. Two teams match-up on each side of the gym and be the first team to knock over all of the opposing teams pins. Other skills involved are blocking, goaltending, running, underhand, overhand, ducking, etc. Great team game for development and enjoyment. Create 2 teams, each on one half of the gym. Set-up an equal amount of pins on both sides. Those are the targets. Use a line in front of the pins where students can’t ‘puppy guard’ behind. Add in the dodgeballs. First team to knock over all the other teams pins wins. If a player accidentally knocks over his own pin, too bad. Play over and over again!",
+      "overview": "A target throwing or rolling game for two teams, one on each side of the gym. Each team tries to be first to knock over all of the other team’s pins. Skills include blocking, goaltending, running, and underhand and overhand throwing. Set up the same number of pins on both sides. Mark a line in front of the pins so students cannot guard right behind it. Add the dodgeballs. The first team to knock over all of the other team’s pins wins. A pin a player knocks over on their own side stays down. Play many rounds.",
       "steps": [
         "Two teams, each with a row of plastic pins on its end. Foam dodgeballs.",
         "Throw or roll to knock down the other team’s pins. First team to knock all opponent pins wins, or most pins down at time.",
@@ -967,7 +967,7 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "4-8",
       "equipment": "3 exercise balls, dodgeballs",
-      "overview": "Powerball is intense. It’s a target throwing game to get the heart-rate and excitement up! Teams throw dodgeballs at large exercise balls in order to push them passed the opposing teams goal line. Points are scored everytime that happens. Try it out sometime! Create 2 teams on the sides of the gym at the lines. Place exercise balls or other in the middle as targets. Give players dodgeballs. Players throw dodgeballs at the exercise balls in order to push them across the opposite line to score points. Play for determined amount of time or score.",
+      "overview": "A fast target throwing game. Make two teams on the side lines of the gym. Place exercise balls (or similar) in the middle as targets, and give players dodgeballs. Players throw at the exercise balls to push them across the other team’s line; each time a ball crosses, score a point. Play for a set time or score.",
       "steps": [
         "Place 3 large exercise balls on a centre strip. Two teams on opposite halves with foam dodgeballs.",
         "Throw dodgeballs at the exercise balls to push them over the other team’s goal line.",
@@ -984,7 +984,7 @@ window.PEG_HANDBOOK = {
       "category": "Soccer & Kicking",
       "grades": "3-8",
       "equipment": "foam soccer ball, pinnies",
-      "overview": "A fun type of soccer game, can be especially good with large groups (thanks CIRA Ontario for this idea: https://www.ciraontario.com/)!",
+      "overview": "A soccer game that works well with large groups. Idea credit: CIRA Ontario (https://www.ciraontario.com/).",
       "steps": [
         "Make two teams (pinnies on one side). Play the full gym or a large field.",
         "Each team’s GOAL is the entire end wall / end line — no small net required. That is what makes this work with a crowd.",
@@ -1003,7 +1003,7 @@ window.PEG_HANDBOOK = {
       "category": "Soccer & Kicking",
       "grades": "2-8",
       "equipment": "Foam Balls",
-      "overview": "In sideline soccer, teams become goalies along their respective sidelines, using their best goaltending skills. Imagine the set-up as big lines of goalies stretching across the entire length of the sidelines – for each team. Meanwhile the first 5 players from each team enter the playing area from the front of their line to play some soccer (choose 2-3 balls to use all at the same time). Whenever a goal is scored on a team, just put the ball back into play and keep going – no need to stop the play for anything! After 2 minutes blow the whistle and the 5 players from each team that were on the playing area will go to the back of their teams line of goalies and 5 new players who were at the front of the line enter in as players. Great game to play to work on all the soccer (football) skills. Also a great game for large groups.",
+      "overview": "Each team lines up along its sideline as a row of goalies. The first 5 players from each line enter and play soccer with 2–3 balls at the same time. When a goal is scored, put the ball straight back in play; do not stop. After 2 minutes, blow the whistle: the 5 players on the floor go to the back of their team’s line, and the next 5 come in. Use it to work on soccer skills with large groups.",
       "steps": [
         "Each team lines its entire sideline as a wall of goalies.",
         "The first 5 players from each line step onto the floor and play soccer with 2–3 foam balls at once.",
@@ -1021,9 +1021,9 @@ window.PEG_HANDBOOK = {
       "category": "Soccer & Kicking",
       "grades": "K-8",
       "equipment": "Various soft or foam balls",
-      "overview": "Great for any grade or age level, Wild Ball Soccer is basically a soccer game with a little bit of attitude. Set-up a soccer game as normal, except that instead of just using a soccer ball, add in whatever crazy equipment you might have to kick around! Some tested equipment that works well in this game are foam footballs, large foam dice, or beach balls – use all of them at the same time and watch them bounce all crazy-like around the field or gym as the players try to kick them. Add in whatever rules desired when it comes to goalies, points, etc. Set-up your soccer playing area. Add in crazy but safe equipment as the soccer balls. Have fun!",
+      "overview": "A soccer game for any grade. Set up soccer as usual, but add other soft kickable objects along with the soccer ball, such as foam footballs, large foam dice or beach balls, all at the same time. Add your own rules for goalies and points.",
       "steps": [
-        "Set up soccer as usual, then add extra “crazy” kickable objects at the same time (foam football, large foam die, beach ball, foam soccer balls).",
+        "Set up soccer as usual, then add extra soft kickable objects at the same time (foam football, large foam die, beach ball, foam soccer balls).",
         "Feet only on all objects. Choose whether goalies and regular goals still count.",
         "Every object that crosses a goal line can score, or assign different points to different objects.",
         "Keep heads up — many bouncing objects. Foam / soft equipment only."
@@ -1038,7 +1038,7 @@ window.PEG_HANDBOOK = {
       "category": "Soccer & Kicking",
       "grades": "K-8",
       "equipment": "3 soccer balls",
-      "overview": "For more action, and more touches, play 3 ball soccer. It’s essentially a big soccer game with the added bonus of 2 more soccer balls. Great to play especially with large classes or groups of students.",
+      "overview": "A large soccer game with three balls in play instead of one, so players get more touches. It suits large classes.",
       "steps": [
         "Play soccer with THREE balls at once.",
         "Use regular soccer rules otherwise (feet, out of bounds, goalies optional).",
@@ -1055,7 +1055,7 @@ window.PEG_HANDBOOK = {
       "category": "Soccer & Kicking",
       "grades": "2-8",
       "equipment": "Soccer balls, 4 goals",
-      "overview": "4 Goal Soccer is another popular soccer PE game, especially with larger groups. 4 nets are set-up on each side. 4 teams go at it with whatever soccer rules the teacher wants to implement. Teams can score in any net except their own – that’s obvious. Definitely worth taking a look at; lots of movement, exercise, and skill development potential in this game.",
+      "overview": "A soccer game for larger groups. Set up 4 nets, one on each side, for 4 teams. Teams can score in any net except their own. Use whatever soccer rules you choose. It gives lots of movement and skill practice.",
       "steps": [
         "Set 4 nets, one on each side of a square or gym. Four teams, each defending one net.",
         "Teams may score in ANY net except their own.",
@@ -1072,13 +1072,13 @@ window.PEG_HANDBOOK = {
       "category": "Soccer & Kicking",
       "grades": "1-8",
       "equipment": "Plastic pins, foam soccer balls",
-      "overview": "This is a great modification to the regular game of soccer that has proven to increase participation and motivation in the gym. Instead of the typical scoring into the other team’s goal, players will try to knock over the other team’s pins instead! If a player kicks the ball and it knocks down a pin from the other team, he gets to bring that pin (or pins if it’s more than 1) to his side and add them to his own team’s amount. The game goes until 1 team has all the pins or until the time runs out. Great lead-up soccer game for physical education.",
+      "overview": "A soccer variation that increases participation. Instead of scoring in a goal, players try to knock over the other team’s pins. A player who knocks down a pin brings it to their own side and adds it to their team’s pins. The game ends when one team has all the pins or time runs out. Use it as a soccer lead-up game.",
       "steps": [
         "Each team lines plastic pins on its end. Use foam soccer balls.",
         "Play soccer (feet only). Instead of a net, you score by knocking over an opponent’s pin.",
         "When you knock a pin down, carry that pin back and add it to your own row.",
         "Game ends when one team has every pin, or when time expires (most pins wins).",
-        "Great soccer lead-up because every pin is a scoring chance."
+        "Use it as a soccer lead-up; every pin is a scoring chance."
       ],
       "video": "https://www.youtube.com/watch?v=b26-f6k9y0c",
       "page": "https://physedgames.com/pin-galore-soccer/"
@@ -1090,7 +1090,7 @@ window.PEG_HANDBOOK = {
       "category": "Soccer & Kicking",
       "grades": "4-8",
       "equipment": "Soccerballs, cones",
-      "overview": "Here are 5 soccer circle ideas you can use to work on passing (and dribbling) as well as more skills! They range from simple to moderately advanced and there’s really not much more to say about them – just find some space, bring a whole bunch of soccerballs, and have fun. Turn them into 5 different stations that groups rotate through, or have everyone doing the same one at the same time then switch to the next, or whatever works for your situation!",
+      "overview": "Five soccer circle activities for passing, dribbling and other skills, from simple to moderately advanced. You need space and plenty of soccer balls. Run them as five stations that groups rotate through, or have everyone do the same one, then switch.",
       "steps": [
         "Make several circles of 6–10 players with cones and plenty of soccer balls.",
         "Idea 1 — Circle pass: pass around the circle with 2-touch limits.",
@@ -1110,7 +1110,7 @@ window.PEG_HANDBOOK = {
       "category": "Soccer & Kicking",
       "grades": "4-8",
       "equipment": "4 nets, 4 bouncy balls (ex racquetball ball)",
-      "overview": "Try out this amazing game called SLAPPERS. It’s a game that mainly uses the striking skill (or swatting, smacking, slapping – however you want to call it). 4 teams, 4 nets in the corners, 1 for each team. Throw a few balls in and players will go around SLAPPING the balls to try to score goals. Players can of course move around and strategize, position themselves, work on offence or defence, etc. They just can’t pick up the ball, or run with ball in hand, or throw/catch. Just slapping the ball around for some good old fun as well as developing many skills!",
+      "overview": "A striking game (swatting the ball with an open hand). Four teams, four nets in the corners, one per team. Toss in a few balls; players slap them to score in other teams’ nets. Players may move, defend, attack and set up teammates, but they cannot pick up the ball, run with it, or throw or catch it.",
       "steps": [
         "4 teams, 4 nets in the 4 corners, 1 net per team. Toss in several bouncy balls (racquetballs or similar).",
         "Players SLAP / strike balls with an open hand to send them into any opponent net.",
@@ -1128,7 +1128,7 @@ window.PEG_HANDBOOK = {
       "category": "Kickball, Striking & Targets",
       "grades": "4-8",
       "equipment": "1 foam ball",
-      "overview": "A kickball variation that mixes in some sharks & minnows (thanks to Kevin Williams)!",
+      "overview": "A kickball variation mixed with Sharks and Minnows. Idea credit: Kevin Williams.",
       "steps": [
         "Mark two safe end lines with a large open “ocean” in the middle. One foam ball only.",
         "Pick 2–4 sharks as fielders / taggers. Everyone else is a minnow / kicker.",
@@ -1147,7 +1147,7 @@ window.PEG_HANDBOOK = {
       "category": "Kickball, Striking & Targets",
       "grades": "4-8",
       "equipment": "2 foam balls, exercise mats",
-      "overview": "Great large group game (can use with up to 50 players). It’s a combination of kickball and dodgeball. As usual, lots of fun, lots of laughs, and lots of skills. A must try if you have a huge group and want to do something a bit different.",
+      "overview": "A large-group game (up to 50 players) that combines kickball and dodgeball. Use it when you have a very large group and want something different.",
       "steps": [
         "Two teams. Use exercise mats as bases/islands. Two foam balls.",
         "A kicker kicks one ball and runs to a mat. Fielders may throw a foam ball to hit the runner below the shoulders.",
@@ -1165,7 +1165,7 @@ window.PEG_HANDBOOK = {
       "category": "Kickball, Striking & Targets",
       "grades": "4-8",
       "equipment": "2 mats, foam soccer balls",
-      "overview": "Longball is another kickball type activity (or baseball activity if you want to use a big oversized plastic bat and a foam ball) that gets more players moving more often. With some important modifications to regular kickball, groups will get more sweaty and active, with lots of laughs and fun. Some strategy is for sure important, but in the end it’s about having a good time as a class or a group. (Thanks to Sabine Crandall for this idea).",
+      "overview": "A kickball-style game (or a baseball-style game with an oversized plastic bat and a foam ball). Its changes to regular kickball keep more players moving more often. Some strategy matters, but the focus is on everyone taking part. Idea credit: Sabine Crandall.",
       "steps": [
         "Two mats as far bases / safe zones. Foam soccer balls (or a foam ball + plastic bat).",
         "Kicker puts the ball in play and runs. Extra movement rules keep more people running than classic kickball (watch the video for the exact running pattern they use).",
@@ -1182,7 +1182,7 @@ window.PEG_HANDBOOK = {
       "category": "Kickball, Striking & Targets",
       "grades": "4-8",
       "equipment": "Dodgeballs, hoops",
-      "overview": "Castle Ball might be one of physedgames’ favourites! A must play! This target game adds a huge teamwork component as well as team strategy. It also ties in throwing, catching, blocking, building, and awareness. Defend your castles, and topple over the opponent castles before they get yours. WARNING: LOTS OF FUN. Create 2 teams. One team on each half of the gym. Players can never leave their own side. Spend some time practising building castles made of hoops. To build a castle, it requires 6 hoops: 1 for the base at the bottom, 4 for the sides, and 1 for the top. It also takes some patience and teamwork to build a sturdy castle. After practising building castles and getting the hang of it, it is time to set-up for the game. Each team builds 2 castles towards the back of their playing area. Once castles are built, add in the dodgeballs. On signal, players attmpt to throw dodgeballs at other teams castles to topple them over. A point is scored every time a castle is toppled over. When a castle is down, players simply rebuild it while the game continues. Play for as long as desired. Add in any modifications as desired.",
+      "overview": "A target game with a strong teamwork and strategy component. It also uses throwing, catching, blocking, building and awareness. Make two teams, one on each half of the gym; players never leave their own side. First, have students practise building castles from hoops: each castle uses 6 hoops (1 base, 4 sides, 1 top). It takes patience and teamwork to build a sturdy one. Each team then builds 2 castles at the back of its area. Add the dodgeballs. On the signal, players throw at the other team’s castles. Score a point each time a castle falls. Players rebuild a fallen castle while the game continues. Play as long as you like and add changes as needed.",
       "steps": [
         "Two teams, each must stay on its own half.",
         "Practice building a 6-hoop castle: 1 hoop base, 4 standing side hoops, 1 roof hoop.",
@@ -1200,7 +1200,7 @@ window.PEG_HANDBOOK = {
       "category": "Kickball, Striking & Targets",
       "grades": "3-8",
       "equipment": "balls, hoops, cones",
-      "overview": "Another winning idea from Deric Hafer. As a variation to the original Castleball game (one of the best games there is) the modifications in this game make for another super fun, skill-building, and action-packed game. Set-up the castles, choose the roles, launch the cannon balls, and build together. There’s something for everyone!",
+      "overview": "A variation of Castleball with set roles. Set up the castles, choose roles, throw the “cannon balls” and rebuild together, so there is a job for everyone. Idea credit: Deric Hafer.",
       "steps": [
         "Each team builds hoop castles in its back zone (6 hoops: 1 base, 4 walls, 1 roof).",
         "Assign roles: builders, throwers/cannons, gatherers, guards.",
@@ -1218,7 +1218,7 @@ window.PEG_HANDBOOK = {
       "category": "Kickball, Striking & Targets",
       "grades": "3-7",
       "equipment": "variety",
-      "overview": "Here’s a multi-skills game idea, lots of skills involved (mostly basketball skills practice but could be modified) – thanks Dan Kirsch!",
+      "overview": "A multi-skill game that mostly uses basketball skills and can be adapted. Idea credit: Dan Kirsch.",
       "steps": [
         "Two teams, each defending a half and a row of targets (pins, cones, or stacked items) near their end line.",
         "Scatter basketballs or foam balls at mid-court.",
@@ -1237,7 +1237,7 @@ window.PEG_HANDBOOK = {
       "category": "Kickball, Striking & Targets",
       "grades": "K-8",
       "equipment": "Ball",
-      "overview": "Strikeball is a great little game to work on aspects of goaltending, fielding, striking, and reaction time. Circle groups of any size can play this game together and try to score points by striking the ball between the legs of another player. Continuous fun and practice. Groups form a circle in the playing area, each person standing foot-to-foot with the people beside them. Group sizes should range anywhere from 4 – 8 per group. Give each group a ball. Keeping the ball inside the circle, players must strike the ball around with their hand, trying to score a point through another players legs. Players can try to stop or block the ball with their hands or arms, but can’t close their legs up to prevent a goal. When a point is scored, the person who was scored on must go and retrieve the ball. Play continues on for determined amount of time or score.",
+      "overview": "A circle game for goaltending, fielding, striking and reaction time. Groups of 4–8 stand in a circle, each player’s feet touching the feet of the players beside them. Give each group a ball. Keeping the ball inside the circle, players strike it with a hand and try to send it between another player’s legs. Players may stop the ball with their hands or arms but may not close their legs. The player scored on gets the ball. Play for a set time or score.",
       "steps": [
         "Players stand in a circle, feet wide, one ball in play.",
         "The player with the ball strikes / rolls it, trying to send it between another player’s legs.",
@@ -1255,7 +1255,7 @@ window.PEG_HANDBOOK = {
       "category": "Kickball, Striking & Targets",
       "grades": "1-8",
       "equipment": "Type of ball, or water balloons",
-      "overview": "This is a classic PE or camp game with the focus on throwing and catching. As players are successful, the game becomes more challenging. When unsuccessful, they might just get soaked! How To Play: Pairs or partners start by facing eachother with a ball or water balloon. Start about 1 foot apart. The partners will be tossing the ball or balloon back and forth. For every successful catch, the person who caught it steps back. For every unsuccessful catch, the person who missed it steps forward. See how far apart groups can make it. This game is best played first with a ball until students are skilled, then take them outside to try with waterballons!",
+      "overview": "A throwing and catching game that gets harder as players succeed. Partners face each other about 30 cm (1 foot) apart with a ball, or a water balloon outdoors. They toss back and forth. After a catch, the catcher steps back; after a miss, the player who missed steps forward. See how far apart pairs can get. Play with a ball first, and try water balloons outside once students are skilled.",
       "steps": [
         "Partners start close and play catch with a ball (or, outdoors in warm weather, a water balloon).",
         "After every successful catch, both players take one step backward.",
@@ -1272,7 +1272,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "1-8",
       "equipment": "4 cones",
-      "overview": "Such a simple warm-up idea that students really enjoy. Once players know how to play it, it’s an instant activity to use to get your PE class started. Also doesn’t require any equipment really, except for 4 cones. It could be played anywhere, and is another great large group game! Guaranteed fun and movement.",
+      "overview": "A simple warm-up that becomes an instant activity once students know it. It needs only 4 cones, works almost anywhere, and suits large groups.",
       "steps": [
         "Mark a centre meeting strip and two home end lines with 4 cones.",
         "Students pair up and meet at the centre. They play one round of Rock-Paper-Scissors.",
@@ -1290,7 +1290,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "3-8",
       "equipment": "None (or a variety)",
-      "overview": "Came up with an easy fitness activity that had maximal engagement. In this activity, students will go full-out exercise for 1 minute, then a 20s break, then on again for 1 minute, then a break, etc. I also use laminated posters as visuals to help students choose which exercises they wish to complete, but that’s optional. Here’s a link to the posters if you want (free download, absolutely no spam or promotion, etc): https://drive.google.com/file/d/1clLqzemKN-USZ7tOMx2oXah6YKJVVBC3/view",
+      "overview": "An interval fitness activity. Students exercise at full effort for 1 minute, rest for 20 seconds, and repeat. Optional laminated exercise posters help students choose exercises; the author shares them as a free download: https://drive.google.com/file/d/1clLqzemKN-USZ7tOMx2oXah6YKJVVBC3/view",
       "steps": [
         "Students spread out in personal space.",
         "Optional: put up exercise posters so they can choose movements. Free posters: https://drive.google.com/file/d/1clLqzemKN-USZ7tOMx2oXah6YKJVVBC3/view",
@@ -1309,7 +1309,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "1-8",
       "equipment": "Projector",
-      "overview": "A 5-minute interactive and active warm-up/workout. This one has an adventure theme all over the world with people, places, and things of all sorts. Included fitness activities such as jogging, jumping, swinging, climbing and more. A Physedgames version to play in PE class!",
+      "overview": "A 5-minute active warm-up video with an adventure theme set around the world. It includes jogging, jumping, swinging, climbing and more. A PHYSEDGAMES video for PE class.",
       "steps": [
         "Project the official 5-minute adventure video so the whole class can see the screen.",
         "Students stand in personal space facing the screen.",
@@ -1327,7 +1327,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-3",
       "equipment": "None",
-      "overview": "A simple game. A ‘try not to crash’ game. And actually another really fun game. It’s a fantastic LARGE GROUP game too! (Thanks to Jiang Xiaolei)",
+      "overview": "A simple “try not to crash” game. It works well with large groups. Idea credit: Jiang Xiaolei.",
       "steps": [
         "Students are cars in personal space. Review “look where you go” and no crashing.",
         "Call a locomotor skill and a speed (slow traffic, city, highway).",
@@ -1345,7 +1345,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-8",
       "equipment": "None",
-      "overview": "Great for all ages, super fun. Works on reaction timing. Use this one as an instant activity or a warm-up but it can be a stand alone game as well. You also don’t need any equipment either.",
+      "overview": "A reaction-timing game for all ages. Use it as an instant activity, a warm-up or a stand-alone game. No equipment needed.",
       "steps": [
         "Class faces a leader in scattered formation.",
         "On a sneak cue, students tiptoe forward. On a react cue (clap, colour, “TURN”) they sprint back or change action.",
@@ -1362,7 +1362,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "3-8",
       "equipment": "Type of ball",
-      "overview": "Quick, easy, effective warm-up or instant activity, best played outside but could work indoors with a smaller group.",
+      "overview": "A quick warm-up or instant activity. Best outside, but it can work indoors with a smaller group.",
       "steps": [
         "Pairs, one ball each, lots of space (best outside).",
         "A throws a lead pass. B catches. Both immediately run and switch roles so the next throw happens on the move.",
@@ -1379,7 +1379,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-8",
       "equipment": "2 skipping ropes",
-      "overview": "Super simple, super fun jumping activity, especially for long jump practice :p (Thanks Deric Hafer)",
+      "overview": "A simple jumping activity, useful for long jump practice. Idea credit: Deric Hafer.",
       "steps": [
         "Lay two jump ropes parallel as river banks, starting close together.",
         "Students jump the river (two-foot takeoff and landing, or a running long jump for older grades).",
@@ -1397,7 +1397,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "3-8",
       "equipment": "None",
-      "overview": "A German running method – literally means “Pair Run” – Wunderbar! (Thanks Brian Loeppky)",
+      "overview": "A German running method; the name means “pair run.” Idea credit: Brian Loeppky.",
       "steps": [
         "This is Paarlauf (“pair run”), a German relay method.",
         "Partner A starts running a loop or shuttle. Partner B waits at the exchange point.",
@@ -1415,7 +1415,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "1-5",
       "equipment": "Music",
-      "overview": "Mirror Mirror could be a stand-alone game, could be used as a warm-up, or fitness activity. Quite a bit of action in this one. Start by dividing players into 2 equal groups. One group stands outside the basketball court line, while the other group stands inside. When the music plays, the group on the outside runs in one direction, while the group on the inside runs in the opposite direction. When the music stops, the group on the outside STOPS and FREEZES into any position/pose that they want. The players from the inside must then go and stand in front (1-2 metres apart) of a frozen player and copy or mirror the pose. Then the outside group becomes the inside group, vice-versa. If there’s an odd number, assign 1 player that is allowed to join a group. For older students, challenge them with a fitness pose – like a plank, side plank, lunge, squat, etc. Give it a go, let us know what you think! (Thanks to Anne Guilmaine for this idea)",
+      "overview": "Use it as a stand-alone game, a warm-up or a fitness activity. Divide players into 2 equal groups, one outside the basketball court line and one inside. When the music plays, the outside group runs one way and the inside group runs the other way. When the music stops, the outside group freezes in any pose. Each inside player stands in front of a frozen player (1–2 metres apart) and copies the pose. Then the groups switch. With an odd number, let one player join either group. For older students, use fitness poses such as a plank, side plank, lunge or squat. Idea credit: Anne Guilmaine.",
       "steps": [
         "Two equal groups. Group A stands outside the basketball court line; Group B stands inside.",
         "Music on: outside group runs one direction, inside group runs the opposite direction.",
@@ -1433,7 +1433,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "2-8",
       "equipment": "Hoops, music",
-      "overview": "In this fitness or warm-up game, hoops are placed around the basketball court perimeter. Choose a direction for players to travel: clockwise or counter clockwise staying on the outside of the basketball court line. Players cannot cross through centre. Once the music starts they perform the cardio exercise of the teacher’s choice: jogging, running, skipping, cross-overs, etc. When the music stops they must get to a hoop within a few seconds. There can be as many people inside any hoop as possible, however everyone must be in a hoop. If anyone person is not standing inside a hoop, including all feet, then the entire class must do reps of a muscular exercise (push-ups for example). Once completed, a new cardio activity is given, the music begins again and the students do the next activity, however, once the music begins and the students are moving, the instructor removes one hoop from the game, etc, etc, until there is only one hoop left. At this point, give two jumping jacks per person for every one person that doesn’t make it into the hoop. And that’s fitness musical hoops! (Thanks to Paul Ford for this game idea)",
+      "overview": "A fitness or warm-up game. Place hoops around the basketball court. Players travel in one direction (clockwise or counter-clockwise) outside the court line and do not cut through the centre. While the music plays, they do the cardio exercise you choose: jogging, running, skipping, cross-overs and so on. When the music stops, everyone must get into a hoop within a few seconds; any number can share a hoop, but all feet must be inside. If anyone is not in a hoop, the whole class does reps of a muscular exercise, such as push-ups. Give a new cardio activity and start the music again. While students move, remove one hoop. Continue until one hoop is left; then give two jumping jacks per person for each player who does not fit. Idea credit: Paul Ford.",
       "steps": [
         "Place hoops around the basketball-court perimeter. Students travel OUTSIDE the court line only — no cutting through the middle.",
         "Music on: perform the cardio you name (jog, skip, carioca, etc.).",
@@ -1451,7 +1451,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-6",
       "equipment": "None",
-      "overview": "This warm-up or teambuilding game is simple, yet awesome! Students spread out in the playing area. Give maybe 20-30 seconds for them to just run around and around (or skip, hop, gallop, spin, etc). When the time is right, the teacher yells out a number (example, “SIX!”) and then the students must quickly form groups of 6 (or whatever number is called). Any players who didn’t make a group must complete 6 jumping jacks or exercise of choice. Then play again! Great to play along with music. Especially a great idea for large groups of students. Also, a good discussion about inclusion and personal/social feelings could be attached to this game.",
+      "overview": "A warm-up or team-building game. Students spread out and run (or skip, hop, gallop, spin) for 20–30 seconds. Call a number (for example, “Six!”), and students quickly form groups of that size. Anyone not in a group does that many jumping jacks or another exercise, then play again. It works well with music and with large groups. You can follow it with a discussion about inclusion and how it feels to be left out.",
       "steps": [
         "Students spread out and travel for 20–30 seconds (run, skip, hop, gallop, spin).",
         "Teacher yells a number (“SIX!”). Students instantly form groups of that size.",
@@ -1469,7 +1469,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-4",
       "equipment": "Coloured spots (lilly pads), or hoops",
-      "overview": "In ‘Rainbow Road’ teams of players will move in different patterns along spots on the floor depending on which colour sequence is called out. A variety of movement skills can be used to spice things up. Create 4 teams. Each team stands against a side wall. Place different coloured spots or hoops randomly throughout the gym. Call out a pattern: for example, ‘red, blue, green, blue, yellow’. All players run from spot to spot, following the pattern. Once finished, players return to their team’s side. Call out a new pattern. Repeat as you’d like for as many rounds. Switch the movement skill from running to something like hopping, skipping, galloping, lunging, etc.",
+      "overview": "Teams move along floor spots in the colour pattern you call. Make 4 teams, each against a side wall. Place coloured spots or hoops around the gym. Call a pattern, for example “red, blue, green, blue, yellow.” Players run from spot to spot in that order, then return to their team’s side. Call a new pattern each round, and change the movement skill (hopping, skipping, galloping, lunging).",
       "steps": [
         "Create 4 teams, each against a different side wall.",
         "Scatter coloured spots or hoops all over the gym.",
@@ -1486,7 +1486,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-4",
       "equipment": "None",
-      "overview": "Players will form either bridges or rivers and perform jumps or crawls depending what’s called out. Lots of fun to be had by all, especially if this game is played along to music. Choose half of the players to be bridges and the other half rivers. When music starts (or on signal), all players start running or moving around. When music stops, yell out either ‘bridges’ or ‘rivers’. If ‘bridges’ is called, then all bridges form a bridge with their body and the rivers crawl under as many bridges as they can. If ‘rivers’ is called, then all rivers form a river by laying flat and the bridges jump over as many as they can. Start music back up and players resume running around until music stops, etc. Continue rounds as desired. Switch players roles after awhile.",
+      "overview": "Players form bridges or rivers and jump or crawl depending on the call. It works well with music. Make half the players bridges and half rivers. When the music starts (or on a signal), everyone moves around. When it stops, call “bridges” or “rivers.” On “bridges,” bridges make a bridge with their bodies and rivers crawl under as many as they can. On “rivers,” rivers lie flat and bridges jump over as many as they can. Restart the music and repeat. Switch roles after a while.",
       "steps": [
         "On “BRIDGES,” some students make a stable bridge (hands and feet on the floor, back flat). Others are rivers and crawl under.",
         "On “RIVERS,” some students lie or crouch as a low river. Others jump over.",
@@ -1504,12 +1504,12 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-4",
       "equipment": "Hoops, music",
-      "overview": "It’s a combo of musical chairs and the Twister board game which for sure means it’s fun and active, definitely worth giving it a play or 10 in your PE class 😀 (thanks Deric Hafer)",
+      "overview": "A mix of musical chairs and the Twister board game. Idea credit: Deric Hafer.",
       "steps": [
         "Scatter coloured hoops like a giant Twister board.",
         "Music on: travel around the hoops with the locomotor skill you name.",
         "Music off: call a body part + colour (“right hand, blue”). Students place that body part in a matching hoop.",
-        "Sharing a hoop is allowed. Anyone who cannot get in does 5 fun reps and rejoins.",
+        "Sharing a hoop is allowed. Anyone who cannot get in does 5 reps and rejoins.",
         "Remove 1–2 hoops each round."
       ],
       "video": "https://www.youtube.com/watch?v=vFE9utBS084",
@@ -1522,7 +1522,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-5",
       "equipment": "Hoops, music",
-      "overview": "Another movement game to help enhance discussions and awareness of personal space. Hoop madness starts with lots of hoops on the floor for students to jump into when the music stops. But eventually as you take more and more away after every round, there won’t be many left, and things start to get squishy. Place hoops all along the floor. Students spread out in the area. When the music starts, students move and run around all over the gym, except not in the hoops. When the music stops, they quickly jump into the closest hoop. Take a hoop away and start the music up again. Students continue moving around, until the music stops. Etc, etc, keep taking hoops away and eventually students start crowding eachothers personal space. Great for laughs and getting sweaty!",
+      "overview": "A movement game that supports discussion about personal space. Place many hoops on the floor. When the music plays, students move around the gym but stay out of the hoops. When it stops, they jump into the closest hoop. Take a hoop away and start again. As hoops are removed, the hoops get crowded.",
       "steps": [
         "Start with many hoops on the floor and music playing. Students travel among the hoops.",
         "When music stops, every student must jump into a hoop (sharing allowed).",
@@ -1539,7 +1539,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-5",
       "equipment": "None",
-      "overview": "Very simple warm-up game with a simple idea: the teacher calls out familiar actions that you would find on a video camera – play, stop, rewind, fast forward, etc. For each word that’s called out, the students will have to perform the related action within the playing area. Call random orders and mix it up! Switch leaders after awhile too to create their own patterns or sequences. Here’s what we have to get you started: Play – walk around Rewind – travel backwards Pause – jump! Fast forward – run Stop – stop movement Slow motion – slow movement Delete – face down lying flat on the floor Can you think of some other actions?",
+      "overview": "A simple warm-up. Call video camera actions, and students do the matching movement: play – walk; rewind – travel backwards; pause – jump; fast forward – run; stop – stop moving; slow motion – move slowly; delete – lie face down on the floor. Call them in random order. After a while, let student leaders make their own sequences and invent new actions.",
       "steps": [
         "Teach the camera words and actions, for example: PLAY = jog forward; STOP = freeze; REWIND = run backward; FAST FORWARD = sprint; PAUSE = freeze in a pose; SLOW MOTION = exaggerated slow move; RECORD = wave an imaginary camera.",
         "Caller mixes the words. Students perform the matching action in the playing area.",
@@ -1556,7 +1556,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-2",
       "equipment": "None",
-      "overview": "Such a simple warm-up game! Choose a theme – for example, the jungle. Then students can choose a jungle animal that they will pretend to be, perhaps a monkey or parrot, and spend a minute moving around like that animal, making the animal noises. After a minute, change the theme. For example, the arctic. Students will then choose an arctic animal like a penguin or seal and do the same thing.",
+      "overview": "A simple warm-up. Choose a theme, such as the jungle. Each student picks an animal from that theme (a monkey or parrot) and moves like it, with sounds, for about a minute. Then change the theme, for example to the Arctic (a penguin or seal).",
       "steps": [
         "Call a habitat theme (jungle, arctic, farm, ocean).",
         "Each student picks an animal from that habitat and moves + makes the sound for about one minute.",
@@ -1573,7 +1573,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "K-6",
       "equipment": "Cones, balls",
-      "overview": "Here’s a unique commands and directions game, with a ‘race’ and competition element, can be used pretty much through all the grade levels (thanks James Barton)!",
+      "overview": "A commands-and-directions game with a race element. It can be used at most grade levels. Idea credit: James Barton.",
       "steps": [
         "Use court lines or cone several parallel lines. Students start on a baseline.",
         "Teach a small set of commands (example: “red line,” “back,” “spin,” “ball”).",
@@ -1591,7 +1591,7 @@ window.PEG_HANDBOOK = {
       "category": "Fitness, Warm-ups & Locomotor",
       "grades": "2-8",
       "equipment": "1 beanbag, floor lines (or cones)",
-      "overview": "Here’s a fun little reacting and running competition that can basically be used for all ages. You don’t need much for equipment either. Split the group into 2 teams, they don’t even have to be even numbers. If you’ve got cones, you could try it outside too!",
+      "overview": "A reaction and running game for all ages that needs little equipment. Split the group into 2 teams (they do not need to be even). With cones, you can play it outside too.",
       "steps": [
         "Two teams on opposite sidelines facing a centre line. Teams do not need even numbers.",
         "Place one beanbag on the centre line (the oyster).",
@@ -1609,7 +1609,7 @@ window.PEG_HANDBOOK = {
       "category": "Team-building & Cooperative",
       "grades": "K-4",
       "equipment": "foam balls, cones",
-      "overview": "Here are 3 relay ideas with an ice cream theme to use as a team-building, stand-alone, or field day event!",
+      "overview": "Three ice-cream themed relays. Use them for team building, a stand-alone lesson or a field day.",
       "steps": [
         "Split the class into even relay teams. Give each team a home marker and foam balls (scoops) plus cones (the waffle cones).",
         "Relay A — Scoop stack: Runner 1 carries one foam ball to the far cone, balances it as a scoop, and sprints back to tag the next player. First team to stack the set number of scoops without a collapse wins.",
@@ -1627,7 +1627,7 @@ window.PEG_HANDBOOK = {
       "category": "Team-building & Cooperative",
       "grades": "1-8",
       "equipment": "ball, exercise ball",
-      "overview": "Here’s a fun teamwork game. It’s very easy to play, and it’s great to use to for a fun cooperative experience. There are actually 3 ways to play, each with a varying level of difficulty. Start by asking your players to explain what cooperation means. And they will soon realize that if they work together, they will accomplish the task quickly and effectively!",
+      "overview": "A teamwork game with 3 levels of difficulty. Start by asking players what co-operation means; they will find that working together gets the task done faster.",
       "steps": [
         "Ask the class what cooperation looks like and sounds like.",
         "Level 1: Keep a playground ball going against a wall for a target number of hits. Drop = restart the count together.",
@@ -1645,13 +1645,13 @@ window.PEG_HANDBOOK = {
       "category": "Team-building & Cooperative",
       "grades": "2-8",
       "equipment": "Hoops, various items",
-      "overview": "This team-building game is great for any physical education class. Players will work together to pass objects to each other to be the first team to successfully move all objects from one end to the other. There’s a catch though…players are must all lay down on their backs and pass only with their feet. Create teams of even numbers. In their teams, players lay down on their backs and form a line, head to toe. One hoop is placed at the foot of the first person in line. This hoop contains random objects to be moved. One hoop is placed at the head of the last person in line. This hoop is the collection bin. On the signal, players work together to be the first team to successfully pass all of their objects from one hoop to the other by only using their feet. Play as many times as desired.",
+      "overview": "A team-building game. Teams pass objects from one end of their line to the other using only their feet. Make even teams. Each team lies on their backs in a line, head to toe. Place a hoop with objects at the feet of the first player and an empty hoop at the head of the last player. On the signal, teams pass all of their objects to the far hoop using only their feet. Play as many times as you like.",
       "steps": [
         "Teams lie on their backs in a line from one end of the gym toward the other.",
         "Objects start at one end. Players may pass ONLY with their feet — no hands.",
         "Move every object down the line into a hoop or pile at the far end.",
         "First team to move all objects wins. If an item touches a hand or the floor off-plan, restart that item.",
-        "Great team-builder; mix item sizes to change difficulty."
+        "Use it for team building; mix item sizes to change the difficulty."
       ],
       "video": "https://www.youtube.com/watch?v=MlUpvUQIvng",
       "page": "https://physedgames.com/pass-it-on/"
@@ -1663,7 +1663,7 @@ window.PEG_HANDBOOK = {
       "category": "Team-building & Cooperative",
       "grades": "K-8",
       "equipment": "Hoop",
-      "overview": "Team-building game. A group holds hands in a circle or line and passes a hoop from player to player without breaking the chain-link. Not as easy as it sounds! Time trials, team vs. team, or large group are all fun ways to play this game.",
+      "overview": "A team-building game. A group holds hands in a circle or line and passes a hoop from player to player without letting go. Play as a timed trial, team against team, or as one large group.",
       "steps": [
         "A group holds hands in a circle or line. A hoop starts on one person’s arm.",
         "Pass the hoop around the group WITHOUT letting go of hands — step through, wriggle it over bodies.",
@@ -1680,7 +1680,7 @@ window.PEG_HANDBOOK = {
       "category": "Team-building & Cooperative",
       "grades": "K-8",
       "equipment": "Nature",
-      "overview": "What better way to use outdoor space than a scavenger hunt!? This hunt is a bit different from your typical hunt, because instead of a list that players need to just check off when they see the items, they must BRING THE ITEMS HOME to their collection area. You can and should create a secret treasure item that you’ve hidden somewhere outside beforehand (for example hide a Kleenex box somewhere good and players need to also retrieve a tissue from the box). Simply start by creating a home area where individuals or partners (depending how you want to do it) put their hoop on the ground, which is their collection area to bring the items into. Next, go over the rules with all students, and give them a list of the items (or leave a master poster at the home area so they have to use their memory). Note that they can only bring 1 item back at a time! Obviously choose items that students can find or access in your area/community. Stress the importance of respecting property and not taking things that they shouldn’t. At the end, players will return all the items that need to be returned!",
+      "overview": "An outdoor scavenger hunt where players bring the items back to a collection area, instead of just ticking them off a list. Before class, hide a secret treasure item outside (for example, a tissue box; players bring back one tissue). Each player or pair puts a hoop at the home area as their collection spot. Go over the rules and give them the item list, or post one master list at home so they must remember it. Players bring back only 1 item at a time. Choose items students can find in your area. Stress respect for property and not taking things they should not. At the end, return all items that need to go back.",
       "steps": [
         "Each student or pair places a hoop as HOME / collection zone.",
         "Give a list of natural or outdoor items they may collect (or post one master list at home base). Hide one secret “treasure” (example: a tissue from a hidden box).",
@@ -1698,7 +1698,7 @@ window.PEG_HANDBOOK = {
       "category": "Invasion, Capture & Role Games",
       "grades": "3-8",
       "equipment": "2 Flags, large playing area",
-      "overview": "This has been the GAME OF THE YEAR at our school. LOTS of Fun, many skills and laughs have been had. Competition at its finest, and what a workout. It’s the standard version of Capture The Flag brought to physical education class! Find a large area (field, community centre, playground, bushes, forest), make 2 teams, and get started. Teams spend a minute hiding their flag on their half of the area (no peeking). Once hidden, GO! The goal of the game is to capture the other teams flag before they capture yours and bring it across the middle line. Careful on the opponents side, because if you get tagged, you go to the jail for 2 mins. The tagger needs to tap the jail (a bench or something) and then they can resume play. No puppy-guarding the flag. Add in extra rules as you see fit, please watch the video for more specifics, I don’t have the time or the will to type everything out… just want to say thanks to Paul Grosskopf, a friend and colleague for setting all these things up for us this year (rules, mods, locations, flags, etc).",
+      "overview": "The standard Capture the Flag game for PE class. Find a large area (field, community centre, playground, bushes or forest) and make 2 teams. Teams take a minute to hide their flag on their half (no peeking), then play. Each team tries to capture the other team’s flag and bring it across the middle line. A player tagged on the other side goes to jail for 2 minutes; the tagger taps the jail (a bench or similar) and then goes back into play. No guarding right over the flag. Add your own rules as needed; the PHYSEDGAMES video shows more detail. Credit: set up by Paul Grosskopf.",
       "steps": [
         "Find a large outdoor area and split it in half. Two teams, one flag each.",
         "Give teams about a minute to hide their flag on their own half (no peeking). No “puppy-guarding” the flag.",
@@ -1716,7 +1716,7 @@ window.PEG_HANDBOOK = {
       "category": "Invasion, Capture & Role Games",
       "grades": "K-8",
       "equipment": "Foam balls, cones",
-      "overview": "Three-Court Dodgeball is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodgeball going on at the same time (each 3rd correlates with a group: farmers -} knights -} warriors). If a player is hit with a ball, the player moves down and the thrower moves up. The goal is to get to the top league (the warriors). If you’re in the top league (the warriors) and you hit someone you don’t move up and if you’re in the bottom league (the farmers) you don’t move down. Set a time limit to the game. The winners are the players who finish in the top league at the end of the round. Use your own dodgeball rules and as always HAVE FUN!!! (Thanks to Joe Defreitas)",
+      "overview": "Split the gym into 3 sections with cones and lines, and run 3 dodgeball games at once: farmers, knights and warriors. When a player is hit, they move down a court and the thrower moves up. The goal is to reach the top court (warriors). A warrior who hits someone stays in the top court, and a farmer who is hit stays in the bottom court. Set a time limit; players in the top court at the end win the round. Use your own dodgeball rules. Idea credit: Joe Defreitas.",
       "steps": [
         "Cone the gym into 3 zones: Farmers (bottom), Knights (middle), Warriors (top).",
         "Three mini-dodgeball games run at once, one in each zone, with foam balls.",
@@ -1734,7 +1734,7 @@ window.PEG_HANDBOOK = {
       "category": "Invasion, Capture & Role Games",
       "grades": "K-4",
       "equipment": "Hoops, cones",
-      "overview": "A great game to help with visual awareness, strategic play, attacking, and defence. Try out HOME ALONE. Basically goes like this: lay out 8 hoops in a playing area and choose 1 player to stand in each hoop. Give the players in the hoop a cone (or item of your choice) – the cone/item represents the key to their house. THEY MUST PROTECT THE KEY!! Everyone else who doesn’t have a key is a theif and they will try to take the key without getting tagged by the player in the hoop. If tagged then they try stealing from someone else, however, if successful, then they swap with the player in the hoop. Give it a go!!! (Thanks to Joe Defreitas)",
+      "overview": "A game for awareness, strategy, attacking and defence. Lay out 8 hoops and put 1 player in each. Give each of them a cone (or other item): it is the key to their house, and they must protect it. Everyone else is a thief and tries to take a key without being tagged by the player in that hoop. A tagged thief tries another house. A thief who takes a key swaps places with the player in the hoop. Idea credit: Joe Defreitas.",
       "steps": [
         "Lay out about 8 hoops. One player stands in each hoop with a cone — that cone is the KEY to the house. They must protect it.",
         "Everyone else is a thief and tries to steal a key without being tagged by the player in that hoop.",
@@ -1752,7 +1752,7 @@ window.PEG_HANDBOOK = {
       "category": "Invasion, Capture & Role Games",
       "grades": "3-8",
       "equipment": "2 benches, dodgeballs",
-      "overview": "Bench ball is arguably one of the best low organized throwing and catching games. The goal is to be the first team to get your players onto the bench. But how do you get on the bench? Your ball must be caught by your teammate(s) who are already on the bench. Every catch adds another player to the bench. Teams can guard and block as well to increase the challenge. Lots of fun to be had by all, and lots of skill work and development as well. Set-up the benches in the gym – 1 on each side. Create 2 teams. 1 player from each team starts on the opposite bench. Add in the dodgeballs. Teams try to be the first team to get their players on the bench (for example first to have 6 on the bench). Players get to go to the bench when their ball is caught by their teammate on the bench. Players can block to make it harder for the catchers. Play many, many rounds and get lots of throwing and catching reps. As well as HAVING FUN!",
+      "overview": "A low-organization throwing and catching game. Each team tries to be first to get all of its players onto its bench. A player gets onto the bench when a teammate already on the bench catches their throw, so every catch adds another player. Teams can guard and block to make it harder. Set up one bench on each side of the gym and make 2 teams. One player from each team starts on the bench at the far end. Add the balls. The first team to reach the target (for example, 6 players on the bench) wins. Play many rounds for lots of throwing and catching practice.",
       "steps": [
         "Two teams. A bench at each far end. Start with 1–2 teammates already on your bench.",
         "Stay on your half. Throw a foam ball so a teammate ON THE BENCH catches it.",
