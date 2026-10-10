@@ -3965,7 +3965,7 @@ window.GAME_DETAILS = [
     "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
     "g56": "Groups design one extra rule that still includes everyone, then teach it to another group.",
-    "safety": "Toss to a window above the head, not at faces. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Toss to a spot just above your head, not at faces. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "coop",
     "ifThis": [],

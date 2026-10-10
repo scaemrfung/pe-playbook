@@ -170,7 +170,7 @@ window.LESSON_OUTCOMES = {
   },
   "October-4-1": {
     items: [
-    { code: "Movement · send, receive, retain", look: "Tosses a scarf, then a beanbag, to a window above the head; eyes on the object." },
+    { code: "Movement · send, receive, retain", look: "Tosses a scarf, then a beanbag, to a spot just above the head; eyes on the object." },
     { code: "Movement · fair play and teamwork", look: "Resets a drop without blame." }
     ]
   },

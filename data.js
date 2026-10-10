@@ -387,7 +387,7 @@ const months = [
         "title": "Circus — toss and catch",
         "focus": "Juggle prep, eyes on the object",
         "wu": "Self-toss scarf.",
-        "skill": "Scarf, then beanbag, then two scarves. Cue: throw to a window above the head.",
+        "skill": "Scarf, then beanbag, then two scarves. Cue: throw to a spot just above your head.",
         "game": "Class juggle: how many objects in the air at once?",
         "cd": "Drops are part of circus.",
         "g12": "Scarves",
