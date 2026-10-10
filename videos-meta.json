@@ -1407,6 +1407,60 @@
    "channel": "Coach Gelardi",
    "url": "https://www.youtube.com/watch?v=yxf9_nlC_2Y",
    "checked": "2026-09-27"
+  },
+  "yt:wlZytOiw_xE": {
+   "status": "ok",
+   "http": 200,
+   "title": "Big Bear, Wolves & Pronghorn | Why This Tag Game Works",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=wlZytOiw_xE",
+   "checked": "2026-10-10",
+   "displayTitle": "Big Bear, Wolves and Pronghorn: a tag game"
+  },
+  "yt:q7pmIwiw5no": {
+   "status": "ok",
+   "http": 200,
+   "title": "Why Every PE Teacher Needs to Try Battleship!",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=q7pmIwiw5no",
+   "checked": "2026-10-10",
+   "displayTitle": "Battleship: a hidden-target throwing game"
+  },
+  "yt:l5ql1njmFDs": {
+   "status": "ok",
+   "http": 200,
+   "title": "Aces High Volleyball: Turn Passing Drills Into a Poker Game",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=l5ql1njmFDs",
+   "checked": "2026-10-10",
+   "displayTitle": "Aces High Volleyball: a card-count passing game"
+  },
+  "yt:Eam3h08hLEM": {
+   "status": "ok",
+   "http": 200,
+   "title": "Flasketball: Football Meets Basketball in This Intense New Game",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=Eam3h08hLEM",
+   "checked": "2026-10-10",
+   "displayTitle": "Flasketball: football meets basketball"
+  },
+  "yt:PynQxOjsW54": {
+   "status": "ok",
+   "http": 200,
+   "title": "4 Corner Tag The PE Sub Game That Practically Runs Itself",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=PynQxOjsW54",
+   "checked": "2026-10-10",
+   "displayTitle": "Four Corner Tag: a noodle relay tag game"
+  },
+  "yt:0owosKImsQU": {
+   "status": "ok",
+   "http": 200,
+   "title": "Say My Name Rock Paper Scissors   Fun Back to School Icebreaker PE Game",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=0owosKImsQU",
+   "checked": "2026-10-10",
+   "displayTitle": "Say My Name Rock, Paper, Scissors: a name warm-up"
   }
  },
  "replacements": [

@@ -644,7 +644,7 @@ BG_LIST.forEach((g) => {
   SEARCH.push([g.name, "b", slug, [...new Set([].concat(g.aka || x.aka || [], pegBy[g.name] || [], oldNames(g.name)))].join(" ")]);
 });
 ((W.NEW_GAMES && W.NEW_GAMES.games) || []).forEach((g) => {
-  SEARCH.push([g.name, "n", g.id, [...new Set([].concat(g.oldNames || [], g.aliases || [], oldNames(g.name)))].join(" ")]);
+  SEARCH.push([g.name, "n", g.id, [...new Set([].concat(g.oldNames || [], g.aliases || [], g.aka || [], oldNames(g.name)))].join(" ")]);
 });
 (W.WARMUP_NOGYM_GAMES || []).forEach((g) => { SEARCH.push([g.title, "w", g.id, oldNames(g.title).join(" ")]); });
 (W.DODGE_GAMES || []).forEach((g) => { SEARCH.push([g.name, "d", g.slug, oldNames(g.name).join(" ")]); });

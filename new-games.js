@@ -67,10 +67,11 @@
         outs.map(function (o) { return "<li><strong>" + esc(o.code) + ".</strong> " + esc(o.look) + "</li>"; }).join("") + "</ul></div>"
       : "";
     var bands = (g.g12 || g.g34 || g.g56)
-      ? '<div class="bands-block"><div><strong>Grades 1–2.</strong> ' + esc(g.g12 || "") + "</div><div><strong>Grades 3–4.</strong> " + esc(g.g34 || "") + "</div><div><strong>Grades 5–6.</strong> " + esc(g.g56 || "") + "</div></div>"
+      ? '<div class="bands-block">' + [["g12", "1–2"], ["g34", "3–4"], ["g56", "5–6"]].filter(function (b) { return g[b[0]]; }).map(function (b) {
+          return "<div><strong>Grades " + b[1] + ".</strong> " + esc(g[b[0]]) + "</div>"; }).join("") + "</div>"
       : "";
     var safety = (g.stayIn ? "" : "Adapt: " + (g.flag || "see the notes") + ". ") + (g.safety || "") + (g.safetyTail ? " " + g.safetyTail : "");
-    var hay = [g.name, (g.oldNames || []).join(" "), g.desc, g.sports, g.section, g.typeLabel, g.equipment, (g.how || []).join(" "), (g.variations || []).join(" "), (g.cues || []).join(" "), g.unit, g.source].join(" ").toLowerCase();
+    var hay = [g.name, (g.oldNames || []).join(" "), (g.aka || []).join(" "), g.desc, g.sports, g.section, g.typeLabel, g.equipment, (g.how || []).join(" "), (g.variations || []).join(" "), (g.cues || []).join(" "), g.unit, g.source].join(" ").toLowerCase();
     return '<article class="gcard ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.suggestedMonth || g.unit) + '" data-type="' + esc(g.typeLabel || typeLabel(g.section)) + '" data-hay="' + esc(hay) + '">' +
       (g.aliases || []).map(function (x) { return '<span id="' + esc(x) + '"></span>'; }).join("") +
       '<div class="ghead"><h3>' + (opts.num ? esc(opts.num) + ". " : "") + esc(g.name) + "</h3>" +
