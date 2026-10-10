@@ -163,11 +163,11 @@ window.NEW_GAMES = {
      "look": "Shows the named locomotor or shape."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Finds an open pathway on the go signal; does not cut a neighbour in Knock ’em Downers."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Listens with the group; nobody is ever out."
     },
     {
@@ -258,11 +258,11 @@ window.NEW_GAMES = {
      "look": "Shows the named locomotor or shape."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Finds an open pathway on the go signal; does not cut a neighbour in The Food Chain."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Listens with the group; nobody is ever out."
     },
     {
@@ -356,11 +356,11 @@ window.NEW_GAMES = {
      "look": "Shows the named locomotor or shape."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Finds an open pathway on the go signal; does not cut a neighbour in Numbers (body shapes)."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Listens with the group; nobody is ever out."
     },
     {
@@ -457,11 +457,11 @@ window.NEW_GAMES = {
      "look": "Shows the named locomotor or shape."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Finds an open pathway on the go signal; does not cut a neighbour in Freeze Dance."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Listens with the group; nobody is ever out."
     },
     {
@@ -559,11 +559,11 @@ window.NEW_GAMES = {
      "look": "Shows the named locomotor or shape."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Finds an open pathway on the go signal; does not cut a neighbour in Plant the Trees."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Listens with the group; nobody is ever out."
     },
     {
@@ -654,11 +654,11 @@ window.NEW_GAMES = {
      "look": "Shows the named pose."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Holds each pose for slow breaths; does not rush to the next one."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Listens with the group and follows the poses together."
     },
     {
@@ -752,11 +752,11 @@ window.NEW_GAMES = {
      "look": "Shows the named locomotor or shape."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Finds an open pathway on the go signal; does not cut a neighbour in Horse and Jockey."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Listens with the group; nobody is ever out."
     },
     {
@@ -853,11 +853,11 @@ window.NEW_GAMES = {
      "look": "Shows the named locomotor or shape."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Finds an open pathway on the go signal; does not cut a neighbour in Dance Code."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Listens with the group; nobody is ever out."
     },
     {
@@ -951,11 +951,11 @@ window.NEW_GAMES = {
      "look": "Shows the named locomotor or shape."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Finds an open pathway on the go signal; does not cut a neighbour in Dance Levels & Directions."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Listens with the group; nobody is ever out."
     },
     {
@@ -1049,11 +1049,11 @@ window.NEW_GAMES = {
      "look": "Spins a hoop with control and catches with soft hands after a short run."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Times the run so they arrive before the hoop falls; adjusts distance after success or a miss."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Works with a partner, resets calmly after a drop, and can change partners without fuss."
     },
     {
@@ -1159,11 +1159,11 @@ window.NEW_GAMES = {
      "look": "Changes speed and pathway to avoid a tag in Turtle Tag."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Uses space, a fake, or a safe zone instead of a pile-up in Turtle Tag."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role and shares space in Turtle Tag; does not crowd a hospital or jail."
     },
     {
@@ -1256,11 +1256,11 @@ window.NEW_GAMES = {
      "look": "Changes speed and pathway to avoid a tag in Bakery Run Tag."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Uses space, a fake, or a safe zone instead of a pile-up in Bakery Run Tag."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role and shares space in Bakery Run Tag; does not crowd a hospital or jail."
     },
     {
@@ -1353,11 +1353,11 @@ window.NEW_GAMES = {
      "look": "Changes speed and pathway to avoid a tag in Crab Tag."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Uses space, a fake, or a safe zone instead of a pile-up in Crab Tag."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role and shares space in Crab Tag; does not crowd a hospital or jail."
     },
     {
@@ -1448,11 +1448,11 @@ window.NEW_GAMES = {
      "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
     },
     {
@@ -1541,11 +1541,11 @@ window.NEW_GAMES = {
      "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
     },
     {
@@ -1637,11 +1637,11 @@ window.NEW_GAMES = {
      "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
     },
     {
@@ -1724,11 +1724,11 @@ window.NEW_GAMES = {
      "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
     },
     {
@@ -1817,11 +1817,11 @@ window.NEW_GAMES = {
      "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
     },
     {
@@ -1915,11 +1915,11 @@ window.NEW_GAMES = {
      "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
     },
     {
@@ -2010,11 +2010,11 @@ window.NEW_GAMES = {
      "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the disc."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
     },
     {
@@ -2107,11 +2107,11 @@ window.NEW_GAMES = {
      "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Spreads out or defends a line — one tactic, not a crowd around the fish."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
     },
     {
@@ -2205,11 +2205,11 @@ window.NEW_GAMES = {
      "look": "Sends, receives, or travels with control using the taught skill (foot, hand, or implement)."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ball."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes a role (attacker, defender, wall, sideline) and rotates without fuss."
     },
     {
@@ -2298,11 +2298,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Skip-rope Net 3v3 with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits a turn; collects on the call so the next player can send."
     },
     {
@@ -2384,11 +2384,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Card Pass Challenge with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a target and a force — close and soft, or far and firm — not a wild send."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits a turn; collects on the call so the next player can send."
     },
     {
@@ -2487,11 +2487,11 @@ window.NEW_GAMES = {
      "look": "Repeats the set or volley with control down the line."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a soft set the next player can reach, not a wild hit."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits behind the line for their turn."
     },
     {
@@ -2577,11 +2577,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Slam Ball with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a target and a force — close and soft, or far and firm — not a wild send."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits a turn; collects on the call so the next player can send."
     },
     {
@@ -2673,11 +2673,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Four Square Paddle Ball with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a target and a force — close and soft, or far and firm — not a wild send."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits a turn; collects on the call so the next player can send."
     },
     {
@@ -2769,11 +2769,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Air Hockey (cone puck) with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a target and a force — close and soft, or far and firm — not a wild send."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits a turn; collects on the call so the next player can send."
     },
     {
@@ -2866,11 +2866,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Bullseye with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits a turn; collects on the call so the next player can send."
     },
     {
@@ -2955,11 +2955,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Bozo / bucket toss with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits a turn; collects on the call so the next player can send."
     },
     {
@@ -3046,11 +3046,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Hoop Hut Knock Down with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits a turn; collects on the call so the next player can send."
     },
     {
@@ -3152,11 +3152,11 @@ window.NEW_GAMES = {
      "look": "Strikes or kicks to a space; ready hands on a catch."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Knows when to run and when to hold."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
     },
     {
@@ -3247,11 +3247,11 @@ window.NEW_GAMES = {
      "look": "Strikes or kicks to a space; ready hands on a catch."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Knows when to run and when to hold."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes batting order and a fielding spot; rotates so the same student is not always pitcher."
     },
     {
@@ -3342,11 +3342,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Gymball Dodgeball Mayhem with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a target and a force — close and soft, or far and firm — not a wild throw."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits a turn; collects on the call so the next player can send."
     },
     {
@@ -3437,11 +3437,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Pace lap with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Paces the set so they can finish, not sprint and collapse."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Works beside a partner without bumping others."
     },
     {
@@ -3526,11 +3526,11 @@ window.NEW_GAMES = {
      "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Plans a simple order or role with teammates before rushing."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes turns and solves a small problem without grabbing."
     },
     {
@@ -3622,11 +3622,11 @@ window.NEW_GAMES = {
      "look": "Repeats the named locomotor or send with control to the line and back."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Starts on the hand-off, not early; chooses a path that does not cut off another team."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits behind the line for the hand-off."
     },
     {
@@ -3717,11 +3717,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Bull Chasers with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Paces the set so they can finish, not sprint and collapse."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Works beside a partner without bumping others."
     },
     {
@@ -3812,11 +3812,11 @@ window.NEW_GAMES = {
      "look": "Repeats the named locomotor or send with control to the line and back."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Starts on the signal, not early; chooses a path that does not cut off another team."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits behind the line for their turn."
     },
     {
@@ -3907,11 +3907,11 @@ window.NEW_GAMES = {
      "look": "Uses the taught action in Catch Me If You Can (sprint) with control, not a rush that knocks kit or people."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Paces the set so they can finish, not sprint and collapse."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Works beside a partner without bumping others."
     },
     {
@@ -4005,11 +4005,11 @@ window.NEW_GAMES = {
      "look": "Uses the needed skill (pass, step-through, carry, balance) so the group can finish."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Plans a simple order or role with teammates before rushing."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes turns and solves a small problem without grabbing."
     },
     {
@@ -4103,11 +4103,11 @@ window.NEW_GAMES = {
      "look": "Keeps the racket level and adjusts speed so the beanbag stays on."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a walk or jog pace that protects the pancake instead of a wild sprint."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Waits behind the line and gives a calm hand-off to the next runner."
     },
     {
@@ -4206,11 +4206,11 @@ window.NEW_GAMES = {
      "look": "Accelerates in a straight lane and decelerates safely at the cone."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a controlled place-and-pick so the next runner gets a clean start."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes turns in order and resets equipment for the next round."
     },
     {
@@ -4309,11 +4309,11 @@ window.NEW_GAMES = {
      "look": "Changes direction and speed to cross a zone without being tagged."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a zone and gap to run through; taggers choose where to wait inside their zone."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes the tagger or runner role without fuss and swaps quickly."
     },
     {
@@ -4415,11 +4415,11 @@ window.NEW_GAMES = {
      "look": "Runs, stops, and changes direction safely; accelerates at the right moment."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses a good time to leave a mat and which gap to use; taggers pick the runner furthest from a mat."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Shares the mat space and takes the tagger or runner role cooperatively."
     },
     {
@@ -4516,11 +4516,11 @@ window.NEW_GAMES = {
      "look": "Throws and catches with a clear target, using a step and follow-through."
     },
     {
-     "code": "Movement Tactics and Strategies",
+     "code": "Skill focus",
      "look": "Chooses how hard and how high to throw as the hoop moves farther away."
     },
     {
-     "code": "Personal and Social Development",
+     "code": "Skill focus",
      "look": "Takes turns in each role and cheers for the team."
     },
     {

@@ -220,7 +220,7 @@ const months = [
   {
     "name": "October",
     "guide": "Football (W1) · parachute and circus (W2–W3) · floor hockey starts W4 (Oct 26–30)",
-    "pew": "Movement Skill Development, Movement Tactics, Safety, Healthy Relationships",
+    "pew": "Movement Skill Development, Safety, Healthy Relationships",
     "equipment": "Footballs, flag belts or pinnies, parachute, scarves, beanbags, plates or rings",
     "fitness": "Throw-and-catch pulse check, chute hold and balance hold. Private catch–throw count later in the month.",
     "notes": "Football uses the real ball (foam is fine for 1–2). October's first football week (flag, routes, end-zone catch) is Week 5, Sept 28–Oct 1, on the September page, because a week belongs to the month it starts in. W2–W3 are parachute and circus so October is not all collision games. W4 starts floor hockey: stick safety first.",
@@ -438,7 +438,7 @@ const months = [
   {
     "name": "November",
     "guide": "Floor hockey (started Oct 26) — dribble, pass, small-sided games · W4 (Nov 30–Dec 4) starts December's games",
-    "pew": "Movement Skill Development, Safety, Movement Tactics, Character Development",
+    "pew": "Movement Skill Development, Safety, Character Development",
     "equipment": "Floor-hockey sticks, soft balls or pucks, tape goals, pinnies, cones",
     "fitness": "20-second stick-handle and gate push-pass count. Private record late in the month.",
     "notes": "Sticks below the knee. No slapshots. No ice. Everyone has a stick or rotates fairly. The first hockey week (stick safety) is October W4. W4 here (Nov 30–Dec 4) starts December's big-group games.",
@@ -656,7 +656,7 @@ const months = [
   {
     "name": "December",
     "guide": "Tag, cooperative, invasion and festival games · two school weeks this year (plus Nov 30–Dec 4 on the November page)",
-    "pew": "Active Living, Personal and Social Development, Character Development, Safety, Healthy Relationships",
+    "pew": "Active Living, Character Development, Safety, Healthy Relationships",
     "equipment": "Pinnies, noodles, hoops, foam balls, benches, flags — as each game card lists",
     "fitness": "Private skip or shuttle on the last class. No ranking.",
     "notes": "December is games, not a new sport. House rules: no elimination, soft tags. Use the Big-Group Games page. Extra days: repeat a favourite.",
@@ -874,7 +874,7 @@ const months = [
   {
     "name": "January",
     "guide": "Basketball (W1–W2) · scoop send/receive (W3–W4)",
-    "pew": "Movement Skill Development, Movement Tactics, Safety, Healthy Relationships",
+    "pew": "Movement Skill Development, Safety, Healthy Relationships",
     "equipment": "Basketballs, hoops or buckets, plastic scoops, wiffle or foam balls, pinnies",
     "fitness": "Wall-pass or skip check. Private record — not a rank.",
     "notes": "Basketball uses the real ball. Scoops are a second send/receive tool (cradle, toss, catch) — not a full lacrosse unit.",

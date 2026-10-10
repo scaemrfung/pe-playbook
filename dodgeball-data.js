@@ -31,11 +31,11 @@ window.DODGE_GAMES = [
         "look": "Sends the ball below the waist toward a space, not a face."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -104,11 +104,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Uses the hoop as a reset, then goes to help."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -177,11 +177,11 @@ window.DODGE_GAMES = [
         "look": "Steps toward the pin and follows through low."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Chooses pin vs person for the team, not just the nearest target."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -250,11 +250,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Plays their role instead of everyone hunting the same player."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -323,11 +323,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes to an opening before the throw."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -396,11 +396,11 @@ window.DODGE_GAMES = [
         "look": "Throws to a teammate’s hands, not at their feet in jail."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -469,11 +469,11 @@ window.DODGE_GAMES = [
         "look": "Keeps a path around the outside."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -542,11 +542,11 @@ window.DODGE_GAMES = [
         "look": "Turns to the square the ball is coming from."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -615,11 +615,11 @@ window.DODGE_GAMES = [
         "look": "Changes speed in the lane."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -688,11 +688,11 @@ window.DODGE_GAMES = [
         "look": "Dodges without leaving the tape."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Uses a teammate as a pass instead of a wild throw."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -761,11 +761,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Uses cover, then sends."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -834,11 +834,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Times the steal when the other team is throwing."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Drops the bag on a tag without a pull."
       },
       {
@@ -907,11 +907,11 @@ window.DODGE_GAMES = [
         "look": "Catches a rolling ball to re-enter."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -980,11 +980,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1053,11 +1053,11 @@ window.DODGE_GAMES = [
         "look": "Strikes the ball, not a classmate."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1126,11 +1126,11 @@ window.DODGE_GAMES = [
         "look": "Catches with two hands and calls a name."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Brings a teammate in, not only the best thrower."
       },
       {
@@ -1199,11 +1199,11 @@ window.DODGE_GAMES = [
         "look": "Turns to see more than one ball."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1272,11 +1272,11 @@ window.DODGE_GAMES = [
         "look": "Uses the non-dominant side for the round."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1345,11 +1345,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Changes plan when the powerball comes in."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1418,11 +1418,11 @@ window.DODGE_GAMES = [
         "look": "Runs through the hoop, does not stop on it."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1491,11 +1491,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space, not a face."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1564,11 +1564,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space, not a face."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1637,11 +1637,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space, not a face."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1710,11 +1710,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space, not a face."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1783,11 +1783,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space, not a face."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1856,11 +1856,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space, not a face."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -1929,11 +1929,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space, not a face."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
@@ -2002,11 +2002,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Uses space: spread out, fake, or change speed to get past a defender."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Honest tags; no puppy-guarding a flag or hoop."
       },
       {
@@ -2075,11 +2075,11 @@ window.DODGE_GAMES = [
         "look": "Sends a foam ball below the waist toward space, not a face."
       },
       {
-        "code": "Movement Tactics and Strategies",
+        "code": "Skill focus",
         "look": "Passes or moves after a send; uses a clinic, jail, bench, or switch as the rule says."
       },
       {
-        "code": "Personal and Social Development",
+        "code": "Skill focus",
         "look": "Takes a role (thrower, medic, jail catcher, wall) and rotates."
       },
       {
