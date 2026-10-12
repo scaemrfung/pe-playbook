@@ -5,20 +5,20 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-10-10",
- "lastUpdatedLabel": "Sat Oct 10, 2026",
+ "lastUpdated": "2026-10-12",
+ "lastUpdatedLabel": "Mon Oct 12, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
   "drivePath": "My Drive/SCAE/2026-2027/PE Weekly Plan/PE Games Library.docx",
-  "lastUpdated": "2026-10-05",
-  "lastUpdatedLabel": "Mon Oct 5, 2026",
+  "lastUpdated": "2026-10-12",
+  "lastUpdatedLabel": "Mon Oct 12, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
  "latestWeek": "2026-10-12",
  "docWeek": "2026-10-12",
  "dedupe": {
-  "excluded": 67,
+  "excluded": 70,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
  },
  "units": [
@@ -77,9 +77,9 @@ window.NEW_GAMES = {
   {
    "key": "2026-10-12",
    "label": "Week of Oct 12, 2026",
-   "count": 5,
-   "addedOn": "2026-10-10",
-   "addedOnLabel": "Sat Oct 10, 2026"
+   "count": 10,
+   "addedOn": "2026-10-12",
+   "addedOnLabel": "Mon Oct 12, 2026"
   },
   {
    "key": "2026-10-05",
@@ -120,9 +120,12 @@ window.NEW_GAMES = {
    "flag": "stay-in",
    "stayIn": true,
    "source": "PhysEdGames",
-   "notes": [],
+   "notes": [
+    "Also called / variant: Wreckers vs Builders (Front Range PE) — one team stands cones up, the other lays them down for one song (~3 min); hands only, no kicking; Pre-K–Grade 2"
+   ],
    "links": [
-    "https://physedgames.com/knock-em-downers-pick-em-uppers/"
+    "https://physedgames.com/knock-em-downers-pick-em-uppers/",
+    "https://www.youtube.com/watch?v=wSRnvblHVy0"
    ],
    "order": 1,
    "unit": "September",
@@ -187,12 +190,21 @@ window.NEW_GAMES = {
    "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
    "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
    "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=wSRnvblHVy0",
+     "title": "Knock ’em Downers demo",
+     "channel": ""
+    }
+   ],
    "sources": [
     "https://physedgames.com/knock-em-downers-pick-em-uppers/"
    ],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "suggestedMonth": "September",
+   "aka": [
+    "Wreckers vs Builders"
+   ],
    "equipment": "20–30 cones or pins spread out; pinnies for two teams",
    "setup": "Scatter cones standing up across the gym. Split the class into Knockers and Pickers.",
    "how": [
@@ -414,9 +426,12 @@ window.NEW_GAMES = {
    "flag": "stay-in",
    "stayIn": true,
    "source": "Gelardi",
-   "notes": [],
+   "notes": [
+    "Also called / variant: Dance Traffic Lights (Daly) — teacher is traffic controller with music; green = dance and travel, red = freeze, another colour = slow-motion moves"
+   ],
    "links": [
-    "https://www.youtube.com/watch?v=uV9iBkdnokM"
+    "https://www.youtube.com/watch?v=uV9iBkdnokM",
+    "https://www.youtube.com/watch?v=J0qFgECLvGY"
    ],
    "order": 4,
    "unit": "December",
@@ -486,11 +501,19 @@ window.NEW_GAMES = {
      "url": "https://www.youtube.com/watch?v=uV9iBkdnokM",
      "title": "PhysEdZone: “Freeze Dance” PE Dance Fitness Workout | Brain Break",
      "channel": "Coach Gelardi"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=J0qFgECLvGY",
+     "title": "3 New Games To Have Your Class Dancing",
+     "channel": "Daly Exercise"
     }
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "suggestedMonth": "December",
+   "aka": [
+    "Dance Traffic Lights"
+   ],
    "equipment": "Music",
    "setup": "Personal space; teacher controls the music.",
    "how": [
@@ -1107,6 +1130,338 @@ window.NEW_GAMES = {
    ]
   },
   {
+   "id": "say-my-name-rock-paper-scissors",
+   "added": "2026-10-12",
+   "addedOn": "2026-10-10",
+   "name": "Say My Name Rock, Paper, Scissors",
+   "section": "Warm-ups & brain breaks",
+   "desc": "Move around the space, meet a partner, play Rock, Paper, Scissors, and the winner says both names before you switch partners",
+   "sports": "warm-up, class community, locomotor",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=0owosKImsQU"
+   ],
+   "order": 11,
+   "unit": "September",
+   "suggestedMonth": "September",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5",
+   "grouping": "Whole class in pairs that change each round · 3–5 minutes · no equipment",
+   "cues": [
+    "Find someone you have not played yet.",
+    "Say names clearly and kindly.",
+    "Freeze on the whistle — face the teacher."
+   ],
+   "ifThis": [
+    "Students pair with the same friends: call “new partner” and count to three.",
+    "Running to find partners: switch to walking for one round."
+   ],
+   "roundEnds": "6–10 rounds, then freeze and start the main lesson.",
+   "tips": [
+    "Model the name sentence once before the first round.",
+    "Year plan: September, October — a first-weeks icebreaker; any month as a quick warm-up."
+   ],
+   "outcomes": [
+    {
+     "code": "Healthy Relationships",
+     "look": "Building class community and respectful interactions. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Active Living",
+     "look": "[Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Safety",
+     "look": "Moves with eyes up and keeps hands in own space; freezes and faces the teacher on one whistle."
+    }
+   ],
+   "g12": "Walking only. Teacher models the name sentence.",
+   "g34": "Add a skill change each round.",
+   "g56": "The winner also names one fact the partner shared, or the pair does a fitness move before switching.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=0owosKImsQU",
+     "title": "Say My Name Rock, Paper, Scissors: a name warm-up",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "None (music optional)",
+   "setup": "Open floor space or a cleared classroom. Music optional.",
+   "how": [
+    "Students move around the space using the locomotor skill the teacher calls (walk, skip, gallop, side-step).",
+    "On the signal, each student finds a partner and plays Rock, Paper, Scissors.",
+    "The winner says their own name and their partner's name out loud (“I'm Sam, and you're Lee!”).",
+    "Both partners high-five or elbow-bump, then move off to find a new partner.",
+    "Play 6–10 rounds."
+   ],
+   "variations": [
+    "The other partner does 3 jumping jacks before moving on.",
+    "Best of three for older grades."
+   ],
+   "safety": "Walk or skip with eyes up; no running into the centre of the room to find partners. Keep hands in your own space when you play. Stop signal: one whistle, freeze and face the teacher."
+  },
+  {
+   "id": "freeze-formation",
+   "added": "2026-10-12",
+   "addedOn": "2026-10-12",
+   "name": "Freeze Formation",
+   "section": "Warm-ups & brain breaks",
+   "desc": "Pupils travel with teacher-chosen locomotor moves (side steps, turns, etc.); teacher calls a group size and a formation (e.g. “groups of three, triangle”); pupils form it and freeze while the teacher checks, then travel again with a new challenge",
+   "sports": "dance, teamwork, spatial awareness",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Daly",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=J0qFgECLvGY"
+   ],
+   "order": 12,
+   "unit": "December",
+   "suggestedMonth": "December",
+   "alsoFits": [
+    "September",
+    "April"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in open space · small groups that change each call · 5–8 minutes",
+   "cues": [
+    "Eyes up as you travel.",
+    "Find your group fast, then freeze.",
+    "Make the shape together — everyone has a spot.",
+    "Freeze on the whistle — then eyes on the teacher."
+   ],
+   "ifThis": [
+    "A group has too many or too few: make the shape with who is there, or join the nearest group.",
+    "Rushing into a group: walk the next call."
+   ],
+   "roundEnds": "Short travel-and-freeze rounds on the teacher's signal. End on a calm freeze.",
+   "tips": [
+    "Start with groups of two and simple shapes (line, circle), then try triangles and squares.",
+    "Year plan: December, September, April — a dance or body-shape warm-up."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Locomotor skills and moving safely in shared space. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cooperating in small groups. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Safety",
+     "look": "Joins a group without diving or grabbing; freezes on the whistle."
+    }
+   ],
+   "g12": "Groups of two or three. Lines and circles only. Walking travel.",
+   "g34": "Groups of three to five. Add triangles and squares.",
+   "g56": "Bigger groups and harder shapes; students call the next formation.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=J0qFgECLvGY",
+     "title": "3 New Games To Have Your Class Dancing",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "None (music optional)",
+   "setup": "Open floor space. Students spread out with room to travel.",
+   "how": [
+    "Students travel with the locomotor move the teacher chooses (for example side steps, skips or turns).",
+    "The teacher calls a group size and a formation, for example “Groups of three, triangle!”",
+    "Students make the group and the shape, then freeze while the teacher checks.",
+    "On the signal, everyone travels again with a new move and a new challenge."
+   ],
+   "variations": [
+    "Students suggest the next formation.",
+    "Hold the frozen shape at a low, middle or high level."
+   ],
+   "safety": "Eyes up and soft landings. No diving or grabbing to join a formation. Stop signal: one whistle, freeze and face the teacher."
+  },
+  {
+   "id": "emotion-dance",
+   "added": "2026-10-12",
+   "addedOn": "2026-10-12",
+   "name": "Emotion Dance",
+   "section": "Warm-ups & brain breaks",
+   "desc": "Spread with personal space; teacher names an emotion and pupils explore how that feeling might look in whole-body movement (no single correct answer); change emotion every 20–30 seconds",
+   "sports": "dance, creative movement",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Daly",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=J0qFgECLvGY"
+   ],
+   "order": 13,
+   "unit": "December",
+   "suggestedMonth": "December",
+   "alsoFits": [
+    "April"
+   ],
+   "grades": "K–6",
+   "gradesFrom": "inferred",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5 or 16–25",
+   "grouping": "Whole class in personal space · 3–5 minutes · change the emotion every 20–30 seconds",
+   "cues": [
+    "Use your whole body, not just your face.",
+    "Stay in your own space.",
+    "Any answer is fine — show your own idea.",
+    "Freeze on the whistle — then eyes on the teacher."
+   ],
+   "ifThis": [
+    "Students drift into others: shrink the moves to a spot, then grow them again.",
+    "A student is unsure: offer two ideas to choose from, or let them copy a classmate."
+   ],
+   "roundEnds": "Short rounds of 20–30 seconds per emotion. End with a calm emotion and one slow breath.",
+   "tips": [
+    "Choose positive and neutral emotions to start; keep it light and respectful.",
+    "Year plan: December, April — creative movement in games or gymnastics month."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Expressing ideas through movement; body awareness. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Safety",
+     "look": "Stays in own space with no contact; freezes on the whistle."
+    }
+   ],
+   "g12": "Teacher models one move for each emotion first. Two or three emotions.",
+   "g34": "Students show the emotion at two speeds (slow and fast).",
+   "g56": "Students link two emotions into a short movement phrase.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=J0qFgECLvGY",
+     "title": "3 New Games To Have Your Class Dancing",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "None (music optional)",
+   "setup": "Students spread out so each has personal space.",
+   "how": [
+    "The teacher names an emotion (for example happy, calm, surprised, proud).",
+    "Students show how that feeling might look in whole-body movement. There is no single correct answer.",
+    "Change the emotion every 20–30 seconds.",
+    "Freeze on the whistle before each new emotion."
+   ],
+   "variations": [
+    "Change the level (high, middle, low) for each emotion.",
+    "Partners guess the emotion the other is showing."
+   ],
+   "safety": "Stay in your own space; no contact. Stop signal: one whistle, freeze and face the teacher."
+  },
+  {
+   "id": "mooshake",
+   "added": "2026-10-12",
+   "addedOn": "2026-10-12",
+   "name": "Mooshake",
+   "section": "Warm-ups & brain breaks",
+   "desc": "Circle pass with a stuffed cow (or soft ball); keep the pass going without dropping; when two players start a “moo-shake,” they do a quick shake together then continue",
+   "sports": "throw/catch, teamwork, K–3",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames",
+   "notes": [],
+   "links": [
+    "https://physedgames.com/mooshake/",
+    "https://www.youtube.com/watch?v=r5bsFihLwLI"
+   ],
+   "order": 14,
+   "unit": "December",
+   "suggestedMonth": "December",
+   "alsoFits": [
+    "September"
+   ],
+   "grades": "K–3",
+   "gradesFrom": "doc",
+   "type": "coop",
+   "typeLabel": "Cooperative & circus",
+   "slot": "0–5 or 16–25",
+   "grouping": "Circles of 8–12 · one stuffed cow or soft ball per circle · 5–8 minutes",
+   "cues": [
+    "Eyes on the cow.",
+    "Soft underhand toss to someone ready.",
+    "Say their name before you pass.",
+    "Freeze on the whistle — hold the cow."
+   ],
+   "ifThis": [
+    "Hard or high throws: switch to rolling for one round.",
+    "The same few get the cow: everyone must get it once before a repeat."
+   ],
+   "roundEnds": "Play for the set time; count passes in a row as a class goal. No one leaves the circle.",
+   "tips": [
+    "Watch the clip before the first play to see the moo-shake.",
+    "Year plan: December, September — a K–3 circle game for any month."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Underhand throw and catch. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Cooperating in a group. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Safety",
+     "look": "Uses soft underhand passes to a ready classmate; eyes on the object."
+    }
+   ],
+   "g12": "Short tosses or hand-offs. Teacher in the circle.",
+   "g34": "Toss across the circle; call a name first.",
+   "g56": "",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=r5bsFihLwLI",
+     "title": "Fun New Circle Game – great for Kindergarten PE",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "sources": [
+    "https://physedgames.com/mooshake/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "A stuffed cow (or a soft ball) for each circle",
+   "setup": "Students stand in a circle, a little more than arm's length apart.",
+   "how": [
+    "Pass the cow (or soft ball) around or across the circle with a soft underhand toss.",
+    "Keep the pass going without dropping it.",
+    "When two players start a “moo-shake”, they do a quick shake together, then the passing continues.",
+    "A drop is fine: pick it up and pass again."
+   ],
+   "variations": [
+    "Use a soft ball instead of a stuffy.",
+    "Pass in order around the circle, then across."
+   ],
+   "safety": "Soft underhand passes only; eyes on the object. Stop signal: one whistle, freeze and hold the cow."
+  },
+  {
    "id": "turtle-tag",
    "added": "2026-09-07",
    "addedOn": "2026-09-07",
@@ -1121,7 +1476,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/shorts/mf7WYMBG45Q"
    ],
-   "order": 11,
+   "order": 15,
    "unit": "December",
    "alsoFits": [],
    "grades": "1–6",
@@ -1218,7 +1573,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=WKWzotw2cLI"
    ],
-   "order": 12,
+   "order": 16,
    "unit": "December",
    "alsoFits": [],
    "grades": "K–5",
@@ -1315,7 +1670,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=P3_lkGM1FIc"
    ],
-   "order": 13,
+   "order": 17,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -1398,6 +1753,257 @@ window.NEW_GAMES = {
    "safety": "Short rounds (wrists tire). Gentle foot taps only."
   },
   {
+   "id": "predators-and-prey-tag",
+   "added": "2026-10-12",
+   "addedOn": "2026-10-10",
+   "name": "Predators and Prey Tag",
+   "section": "Tag (stay-in style)",
+   "desc": "A Big Bear and a pair of wolves tag pronghorn; tagged players do a quick exercise at a mat, then rejoin",
+   "sports": "locomotor, agility, fitness",
+   "flag": "stay-in (exercise re-entry)",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=wlZytOiw_xE"
+   ],
+   "order": 18,
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "September"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "inferred",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "Whole class · 1 bear and 2 wolves · 60–90 second rounds · 6–10 minutes total",
+   "cues": [
+    "Eyes up, find open space.",
+    "Two fingers, back or shoulder.",
+    "Wolves move as one.",
+    "Freeze on the whistle — then eyes on the teacher."
+   ],
+   "ifThis": [
+    "Wolves split up or pull the hoop: freeze, reset the pack side by side, restart.",
+    "Same few students tagged over and over: change the bear and wolves now."
+   ],
+   "roundEnds": "Timed rounds (60–90 seconds). Change the bear and wolves. No winner needed.",
+   "tips": [
+    "Count the Hungry Bear burst aloud with the class so it stays to 5 seconds.",
+    "Post the Harder and Easier exercises on the mats before class so tagged players are back in quickly.",
+    "Year plan: October, September — a tag game for any month."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living · Movement Skill Development",
+     "look": "Locomotor skills, dodging and changing direction. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Safety",
+     "look": "Two-finger tags on the back or shoulder; wolves keep the hoop at waist height; freezes on one whistle."
+    }
+   ],
+   "g12": "Walk fast or skip only. One bear, no wolves at first. Easy exercise card.",
+   "g34": "Full game. Wolves join after one practice round.",
+   "g56": "Add a second bear. Students design the Natural Disaster challenges.",
+   "aka": [
+    "Big Bear, Wolves and Pronghorn"
+   ],
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=wlZytOiw_xE",
+     "title": "Big Bear, Wolves and Pronghorn: a tag game",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "1 pinnie or noodle for the bear; 2 hoops for the wolf pack; 2 mats as exercise stations (label one “Harder”, one “Easier”); cones for boundaries",
+   "setup": "Cone a large rectangle at least 2 m in from the walls. Put the two exercise mats just outside one sideline.",
+   "how": [
+    "Choose 1 Big Bear and 2 Wolves. Everyone else is a Pronghorn (a fast prairie animal).",
+    "The two Wolves hold one hoop together, or each holds a hoop and they stay side by side as a pack.",
+    "On “Go”, the bear and wolves try to tag Pronghorn with a two-finger tag on the back or shoulder.",
+    "A tagged Pronghorn jogs to an exercise mat, chooses Harder or Easier, does the posted exercise (for example 10 jumping jacks or 5 squats), then rejoins the game.",
+    "Twice per round the bear may call “Hungry Bear!” for a 5-second speed burst. Count the 5 seconds aloud with the class.",
+    "At any time the teacher calls “Natural Disaster”: everyone freezes and does the challenge (stop, drop and roll; spin 3 times; balance on one foot for 5 seconds), then play resumes.",
+    "Change the bear and wolves every 60–90 seconds."
+   ],
+   "variations": [
+    "Pronghorn carry a beanbag “food” to a hoop at the far end for team points.",
+    "Safe zones (spot markers) for 3 seconds only."
+   ],
+   "safety": "Boundaries 2 m from the walls and stage. Two-finger tags only, no pushing or grabbing clothes. Wolves keep the hoop low (waist height). Stop signal: one whistle means freeze, hands on knees, eyes on the teacher."
+  },
+  {
+   "id": "four-corner-tag",
+   "added": "2026-10-12",
+   "addedOn": "2026-10-10",
+   "name": "Four Corner Tag",
+   "section": "Tag (stay-in style)",
+   "desc": "Two teams run a noodle relay around four corner markers, trying to catch and tag the other team's runner",
+   "sports": "running, pacing, relay",
+   "flag": "stay-in (points, no outs)",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=PynQxOjsW54"
+   ],
+   "order": 19,
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "September"
+   ],
+   "grades": "3–6",
+   "gradesFrom": "inferred",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "Two teams · one runner each at a time · 8–12 minutes · good for sub days",
+   "cues": [
+    "Outside the mats every time.",
+    "Hand the noodle, don't throw it.",
+    "Next runner ready, hand out.",
+    "Freeze on the whistle — lower the noodle."
+   ],
+   "ifThis": [
+    "One team keeps scoring: balance the teams and go again.",
+    "A runner cuts inside the corners: no point; restart from the starting corners."
+   ],
+   "roundEnds": "Restart from the starting corners after each point. Play for the set time and rotate the lines forward.",
+   "tips": [
+    "Watch the clip before the first play to see the handoff timing.",
+    "Balance teams if one side starts to win every point, and check that runners stay outside the mats.",
+    "Year plan: October, September — a tag game that works well on sub days."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living",
+     "look": "[Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Skill focus",
+     "look": "Pacing and timing a handoff. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Safety",
+     "look": "Tags below the shoulders with no swinging; stays outside the mats; waiting players stand back from the running path."
+    }
+   ],
+   "g12": "",
+   "g34": "Fast walk or jog. Hand off after one full lap.",
+   "g56": "Full speed. Runners choose when to hand off at their corner.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=PynQxOjsW54",
+     "title": "Four Corner Tag: a noodle relay tag game",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "4 upright gym mats or 4 large cones as corners; 2 short foam noodle tag sticks (one per team); optional floor mats for waiting players; pinnies in 2 colours",
+   "setup": "Stand the four mats in a large square in the middle of the gym, at least 3 m from the walls. Each team lines up at its own starting corner, on opposite corners.",
+   "how": [
+    "Two teams. The first runner on each team holds that team's noodle.",
+    "On “Go”, runners travel around the outside of the four corners, in the same direction, trying to catch and tag the other team's runner with the noodle.",
+    "Runners make clean handoffs of the noodle to the next teammate at their team's corner, so fresh runners keep the chase going.",
+    "One clean noodle tag on the back or shoulder earns one point. Restart from the starting corners after each point and rotate the lines forward.",
+    "Rules: never run past a tag (if you are tagged, the point counts and you stop); no cutting inside the corners; no interfering with the other team's runner or handoff; no stalling at your corner."
+   ],
+   "variations": [
+    "Change direction on a double whistle.",
+    "Add a third team with a third noodle."
+   ],
+   "safety": "Short soft noodles only; tag below the shoulders, no swinging. Corners at least 3 m from the walls. Waiting lines stand back from the running path. Stop signal: one whistle, runners freeze and lower the noodle."
+  },
+  {
+   "id": "fishbowl-tag",
+   "added": "2026-10-12",
+   "addedOn": "2026-10-12",
+   "name": "Fishbowl Tag",
+   "section": "Tag (stay-in style)",
+   "desc": "Continuous tag (Pre-K–4); tagged students go to the centre “fishbowl” (standing mats), try to flip a cone upright within five attempts to rejoin, or do five jumping jacks if unsuccessful, then return",
+   "sports": "locomotor, agility",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=gaJO2oQs1v4"
+   ],
+   "order": 20,
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "September"
+   ],
+   "grades": "K–4",
+   "gradesFrom": "inferred",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "Whole class · 1 tagger with a foam tag stick · 45–90 second rounds · 6–10 minutes",
+   "cues": [
+    "Eyes up, find open space.",
+    "Soft tag below the shoulders.",
+    "Five tries, then back in.",
+    "Freeze on the whistle — then eyes on the teacher."
+   ],
+   "ifThis": [
+    "The fishbowl gets crowded: add a second tagger swap or shorten the round.",
+    "Hard tags with the stick: that tagger swaps out."
+   ],
+   "roundEnds": "Timed rounds (45–90 seconds). Swap the tagger. No winner needed.",
+   "tips": [
+    "Practise the cone flip once with the whole class before the first round.",
+    "Year plan: October, September — a tag game for any month."
+   ],
+   "outcomes": [
+    {
+     "code": "Active Living · Movement Skill Development",
+     "look": "Locomotor skills, dodging and changing direction; active participation. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Safety",
+     "look": "Tags softly below the shoulders; keeps clear of the fishbowl when running."
+    }
+   ],
+   "g12": "Walk-tag. Teacher is the first tagger. Flip a cone in any way to rejoin.",
+   "g34": "Jog-tag. Two taggers. Five tries, then five jumping jacks.",
+   "g56": "",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=gaJO2oQs1v4",
+     "title": "Want More Engagement? Play Fishbowl Tag!",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "5 standing mats for the fishbowl, 1 rest-zone mat, 6 cones, 1 foam tag stick",
+   "setup": "Stand the mats in the centre as a fishbowl with cones inside. Keep the fishbowl clear of the running path.",
+   "how": [
+    "One tagger holds the foam tag stick. Everyone else moves around the space.",
+    "A tagged player goes into the centre fishbowl.",
+    "In the fishbowl, try to flip a cone upright within five attempts to rejoin.",
+    "If the cone does not land upright in five tries, do five jumping jacks, then rejoin.",
+    "Play is continuous. Change the tagger often."
+   ],
+   "variations": [
+    "Change the travel (skip, gallop, side-step) each round.",
+    "Add a second tagger for a bigger class."
+   ],
+   "safety": "Soft foam tag stick only; tags below the shoulders. Keep the fishbowl clear of the running path. Stop signal: one whistle, freeze and face the teacher."
+  },
+  {
    "id": "foosball-soccer",
    "added": "baseline",
    "name": "Foosball Soccer",
@@ -1411,7 +2017,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/foosball-soccer/"
    ],
-   "order": 14,
+   "order": 21,
    "unit": "September",
    "alsoFits": [],
    "grades": "1–6",
@@ -1502,7 +2108,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=s3djeKGMYno"
    ],
-   "order": 15,
+   "order": 22,
    "unit": "September",
    "alsoFits": [
     "January"
@@ -1597,7 +2203,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 16,
+   "order": 23,
    "unit": "January",
    "alsoFits": [
     "September",
@@ -1687,7 +2293,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 17,
+   "order": 24,
    "unit": "January",
    "alsoFits": [],
    "grades": "1–6",
@@ -1763,6 +2369,88 @@ window.NEW_GAMES = {
    "safety": "Soft balls, spread out. Heads up when the ball is loose."
   },
   {
+   "id": "football-frenzy",
+   "added": "2026-10-12",
+   "addedOn": "2026-10-12",
+   "name": "Football Frenzy",
+   "section": "Invasion / soccer–basketball–football",
+   "desc": "Two teams behind a line about 3 m from the centre race for bean bags, slide them low to touch an opponent's foot, then earn a run to a mat for a football pass — a catch goes in the basket. First team to fill its basket wins the quarter; reset and everyone plays again.",
+   "sports": "football",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=Pt3TvCVkTSY"
+   ],
+   "order": 25,
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [],
+   "grades": "3–6",
+   "gradesFrom": "inferred",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Two teams · one basket each · short quarters · 10–15 minutes",
+   "cues": [
+    "Slide low along the floor.",
+    "Step and throw, point to your target.",
+    "Show a target with your hands.",
+    "Freeze on the whistle — balls and bean bags down."
+   ],
+   "ifThis": [
+    "Bean bags thrown in the air: that player slides only for the round.",
+    "Crowding at the mats: one player per mat at a time."
+   ],
+   "roundEnds": "A quarter ends when one basket is full. Reset the footballs and bean bags; nobody sits out.",
+   "tips": [
+    "Walk through one slide-and-pass before the first quarter.",
+    "Year plan: October — a football throwing and catching game."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Overhand throw and catch. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Healthy Relationships",
+     "look": "Teamwork and fair play. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Safety",
+     "look": "Slides bean bags low along the floor at feet; keeps the space under the net clear."
+    }
+   ],
+   "g12": "",
+   "g34": "Foam footballs, shorter passes, lots of bean bags.",
+   "g56": "Longer passes; add a second basket target farther away.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=Pt3TvCVkTSY",
+     "title": "Football Frenzy Explained: Simple Rules for Maximum Fun",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "6 gym mats, 6 foam footballs, bean bags, 1 basket per team, a volleyball net (optional)",
+   "setup": "Two teams start behind a line about 3 m from the centre, with bean bags in the middle. Put three mats on each end line, each holding one football. A basket sits at each team's end.",
+   "how": [
+    "On “Go”, race to grab a bean bag and get back behind your line.",
+    "Slide the bean bag along the floor (under the net if you use one) to touch an opponent's foot.",
+    "If your bean bag touches a foot, you may run across, pick up a football from a mat and try a pass to a teammate.",
+    "A catch goes in your team's basket. A miss returns the football to its mat.",
+    "The first team to fill its basket wins the quarter. Reset and play again; everyone plays every quarter."
+   ],
+   "variations": [
+    "Play without the net and use a centre line instead.",
+    "Every player must make one catch before the basket counts."
+   ],
+   "safety": "Soft foam footballs and soft bean-bag slides only; tag feet with the bean bag, not hands. Keep the space under the net clear. Stop signal: one whistle, balls and bean bags down."
+  },
+  {
    "id": "perfect-pass-the-perfect-pass",
    "added": "baseline",
    "name": "Perfect Pass / The Perfect Pass",
@@ -1776,7 +2464,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=fMOA2Lewl7o"
    ],
-   "order": 18,
+   "order": 26,
    "unit": "October",
    "alsoFits": [
     "September",
@@ -1875,7 +2563,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=MEkbscKPASU"
    ],
-   "order": 19,
+   "order": 27,
    "unit": "September",
    "alsoFits": [
     "January",
@@ -1973,7 +2661,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=GxtCSOCerA8"
    ],
-   "order": 20,
+   "order": 28,
    "unit": "October",
    "alsoFits": [],
    "grades": "3–6",
@@ -2070,7 +2758,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/eagles-vs-seahawks/",
     "https://www.youtube.com/watch?v=ATj3B12FUXw"
    ],
-   "order": 21,
+   "order": 29,
    "unit": "December",
    "alsoFits": [],
    "grades": "K–4",
@@ -2168,7 +2856,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=G7P7d46IRTA"
    ],
-   "order": 22,
+   "order": 30,
    "unit": "September",
    "alsoFits": [],
    "grades": "1–6",
@@ -2250,6 +2938,92 @@ window.NEW_GAMES = {
    "safety": "Soft balls, spread out. Heads up when the ball is loose."
   },
   {
+   "id": "flasketball",
+   "added": "2026-10-12",
+   "addedOn": "2026-10-10",
+   "name": "Flasketball",
+   "section": "Invasion / soccer–basketball–football",
+   "desc": "Football meets basketball: pass a foam football with no running, then throw it at the hoop for 1, 2 or 3 points by zone",
+   "sports": "football, basketball, invasion",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=Eam3h08hLEM"
+   ],
+   "order": 31,
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "January"
+   ],
+   "grades": "3–6",
+   "gradesFrom": "inferred",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "3 teams of 8 (two play, one at the wall station) · 3-minute games · 15–20 minutes",
+   "cues": [
+    "Pass and move to open space.",
+    "Show a target with your hands.",
+    "Step and spiral, point to your target.",
+    "Freeze on the whistle — ball holder freezes too."
+   ],
+   "ifThis": [
+    "One player keeps the ball: add the 5-second limit or a three-pass rule.",
+    "Crowding under the hoop: freeze, spread out, restart (no shots with a defender right under the hoop)."
+   ],
+   "roundEnds": "3-minute games. Rotate teams so the wall-station team comes in.",
+   "tips": [
+    "Practise the no-running rule in a short passing drill first so the game does not stop for travelling calls.",
+    "Year plan: October, January — a football lead-up in October that also fits basketball month."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Overhand football throw and catch. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Skill focus",
+     "look": "Moving to open space and passing to a moving teammate. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Safety",
+     "look": "Defends one arm's length away with no contact; waits behind the wall station line; freezes on the whistle."
+    }
+   ],
+   "g12": "",
+   "g34": "Foam football, lower hoops if available. Hitting the backboard square scores 1 point. Every player must touch the ball before a shot.",
+   "g56": "Full rules. Add a 5-second limit for holding the ball.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=Eam3h08hLEM",
+     "title": "Flasketball: football meets basketball",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "2–3 foam or junior footballs; basketball hoops; pinnies in 3–4 colours; floor tape or spot markers to show scoring zones",
+   "setup": "Mark three zones in front of each hoop: close (1 point), middle (2 points), far (3 points).",
+   "how": [
+    "Split the class into 3 teams of 8 (or 4 teams of 6 and run two side-court games if the gym has side hoops).",
+    "Two teams play; the third team practises passing at a wall station beside the court, then rotates in.",
+    "Move the football only by throwing and catching. No running with the ball (like travelling in basketball). A player may pivot.",
+    "Work the ball down the court and shoot by throwing the football at the hoop. A made shot scores the point value of the zone it was thrown from.",
+    "After a basket, the other team takes the ball at the baseline and play continues.",
+    "Play 3-minute games, then rotate teams."
+   ],
+   "variations": [
+    "Three-pass rule before a shot.",
+    "Score into a hoop on the floor instead of a basket.",
+    "All players on a team must receive a pass before that team scores twice."
+   ],
+   "safety": "Defend with arms up, one arm's length away; no contact or stripping the ball. No shots while a defender is directly under the hoop. The waiting team stays behind the wall station line. Stop signal: whistle, ball holder freezes, everyone freezes."
+  },
+  {
    "id": "skip-rope-net-3v3",
    "added": "baseline",
    "name": "Skip-rope Net 3v3",
@@ -2261,7 +3035,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 23,
+   "order": 32,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2346,11 +3120,13 @@ window.NEW_GAMES = {
    "flag": "stay-in",
    "stayIn": true,
    "source": "",
-   "notes": [],
+   "notes": [
+    "Also called / variant: Aces High Volleyball (Front Range PE) — groups of 4–5 each in their own passing circle; teacher draws and calls a card; groups make that many passes in a row (bump, set or volley) to win the card (J = 11, Q = 12, K = 13, A = 14), restart the count on a drop; at seven cards each group builds its best five-card hand (or just adds the numbers)"
+   ],
    "links": [
     "https://www.youtube.com/watch?v=l5ql1njmFDs"
    ],
-   "order": 24,
+   "order": 33,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2450,7 +3226,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 25,
+   "order": 34,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2540,7 +3316,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/shorts/WQwhGw7g8_Y"
    ],
-   "order": 26,
+   "order": 35,
    "unit": "March",
    "alsoFits": [],
    "grades": "1–6",
@@ -2636,7 +3412,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=KDnodWqzTFU"
    ],
-   "order": 27,
+   "order": 36,
    "unit": "March",
    "alsoFits": [],
    "grades": "2–6",
@@ -2732,7 +3508,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=sN1CPbhfdKc"
    ],
-   "order": 28,
+   "order": 37,
    "unit": "November",
    "alsoFits": [],
    "grades": "1–6",
@@ -2827,7 +3603,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/bullseye/"
    ],
-   "order": 29,
+   "order": 38,
    "unit": "June",
    "alsoFits": [
     "December"
@@ -2918,7 +3694,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 30,
+   "order": 39,
    "unit": "June",
    "alsoFits": [],
    "grades": "K–3",
@@ -3009,7 +3785,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/shorts/NVpUzALtp_4",
     "https://www.youtube.com/shorts/rgczzG_Ss6s)"
    ],
-   "order": 31,
+   "order": 40,
    "unit": "December",
    "alsoFits": [],
    "grades": "1–6",
@@ -3102,6 +3878,93 @@ window.NEW_GAMES = {
    "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
+   "id": "hidden-fleet",
+   "added": "2026-10-12",
+   "addedOn": "2026-10-10",
+   "name": "Hidden Fleet",
+   "section": "Target / throwing",
+   "desc": "Two teams hide hoop-and-pin ships behind a parachute wall over the net and lob soft balls over to knock down the other team's pins",
+   "sports": "throwing, teamwork",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=q7pmIwiw5no"
+   ],
+   "order": 41,
+   "unit": "December",
+   "suggestedMonth": "December",
+   "alsoFits": [
+    "May"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "inferred",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "Two teams of about 12 · 10–15 minutes · rounds of about two songs",
+   "cues": [
+    "Step with the opposite foot.",
+    "High arc to clear the wall.",
+    "Call “ball” if one lands near you.",
+    "Freeze on the whistle — balls down."
+   ],
+   "ifThis": [
+    "Someone reaches under or around the parachute: freeze, reset the wall, restart.",
+    "A throw goes under the wall at players: that player lobs only for the round."
+   ],
+   "roundEnds": "About two songs, or when one fleet is sunk. Count pins still standing, rebuild in new spots, play again.",
+   "tips": [
+    "Set the net, parachute and side mats before class; it is the longest part of the set-up.",
+    "Year plan: December, May — a throwing game for games month or before track throwing."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Underhand and overhand throwing for distance and accuracy. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Skill focus",
+     "look": "Hiding ships and working out where the other team's ships are. [Outcome to confirm on new LearnAlberta]"
+    },
+    {
+     "code": "Safety",
+     "look": "Lobs over the wall, never under it; stays 1 m from the net standards; balls down on the whistle."
+    }
+   ],
+   "g12": "Lower wall (mats), bigger targets (cones in hoops). Underhand rolls under a gap are allowed.",
+   "g34": "Underhand and overhand lobs.",
+   "g56": "Teams plan ship placement in 60 seconds. Add one “scout” call per round.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=q7pmIwiw5no",
+     "title": "Battleship: a hidden-target throwing game",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "Volleyball net and standards; 1–2 parachutes or tarps draped over the net (or upright folding mats as a wall); 18 hoops (9 per team); 18 bowling pins or tall cones; 10–12 gator balls or soft foam balls",
+   "setup": "Hang the parachute over the net so the two halves cannot see each other. Block the side gaps with mats.",
+   "how": [
+    "Split the class into two teams of about 12, one on each side of the wall.",
+    "Each team builds three ships with its 9 hoops: one of 4 hoops, one of 3 and one of 2, hoops touching in a line. Stand one pin in each hoop. Ships can go anywhere on that half.",
+    "Each team gets 5–6 balls. On “Go”, players lob balls over the wall to try to knock down the other team's pins.",
+    "A fallen pin stays down, even if your own team knocked it over.",
+    "Get balls on your own side only and throw again.",
+    "If a round drags, the teacher acts as “radar” and holds a pool noodle above one ship so the other side knows roughly where to aim.",
+    "Play until one fleet is sunk, or for about two songs, then count the pins still standing. Rebuild ships in new spots and play again."
+   ],
+   "variations": [
+    "Mixed shapes (L-shaped ships).",
+    "Each team gets one “repair” to stand a pin back up.",
+    "Partner throws only."
+   ],
+   "safety": "Soft balls only. Lob over the wall, never under it at players. No reaching under or around the parachute. Keep 1 m clear of the net standards. Stop signal: one whistle, balls down, hands on heads."
+  },
+  {
    "id": "4-ball-kickball",
    "added": "baseline",
    "name": "4 Ball Kickball",
@@ -3115,7 +3978,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=Kjiotn-kWL4"
    ],
-   "order": 32,
+   "order": 42,
    "unit": "June",
    "alsoFits": [],
    "grades": "1–6",
@@ -3210,7 +4073,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=VM-KGUMB0io"
    ],
-   "order": 33,
+   "order": 43,
    "unit": "June",
    "alsoFits": [],
    "grades": "2–8",
@@ -3305,7 +4168,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=0eyapUhwN9k"
    ],
-   "order": 34,
+   "order": 44,
    "unit": "December",
    "alsoFits": [],
    "grades": "3–6",
@@ -3398,7 +4261,7 @@ window.NEW_GAMES = {
    "source": "",
    "notes": [],
    "links": [],
-   "order": 35,
+   "order": 45,
    "unit": "May",
    "alsoFits": [
     "September"
@@ -3489,7 +4352,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=l3UErQTCxLI"
    ],
-   "order": 36,
+   "order": 46,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -3585,7 +4448,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=hf2o83t-o0g"
    ],
-   "order": 37,
+   "order": 47,
    "unit": "April",
    "alsoFits": [],
    "grades": "1–6",
@@ -3680,7 +4543,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=khde7TTPt6Q"
    ],
-   "order": 38,
+   "order": 48,
    "unit": "May",
    "alsoFits": [],
    "grades": "3–6",
@@ -3775,7 +4638,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=khde7TTPt6Q"
    ],
-   "order": 39,
+   "order": 49,
    "unit": "May",
    "alsoFits": [],
    "grades": "1–6",
@@ -3870,7 +4733,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=khde7TTPt6Q"
    ],
-   "order": 40,
+   "order": 50,
    "unit": "May",
    "alsoFits": [],
    "grades": "3–6",
@@ -3966,7 +4829,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/wheelbarrow-walk-olympics/",
     "https://www.youtube.com/watch?v=YzlMMgnY2aQ"
    ],
-   "order": 41,
+   "order": 51,
    "unit": "April",
    "alsoFits": [
     "February"
@@ -4065,7 +4928,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=43WKN35jXKk"
    ],
-   "order": 42,
+   "order": 52,
    "unit": "May",
    "suggestedMonth": "May",
    "alsoFits": [
@@ -4168,7 +5031,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=43WKN35jXKk"
    ],
-   "order": 43,
+   "order": 53,
    "unit": "May",
    "suggestedMonth": "May",
    "alsoFits": [
@@ -4271,7 +5134,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=DAgKmt4cXCA"
    ],
-   "order": 44,
+   "order": 54,
    "unit": "October",
    "alsoFits": [
     "September"
@@ -4377,7 +5240,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/mat-tag/"
    ],
-   "order": 45,
+   "order": 55,
    "unit": "June",
    "alsoFits": [
     "October"
@@ -4478,7 +5341,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/capture-the-flag-relay/"
    ],
-   "order": 46,
+   "order": 56,
    "unit": "October",
    "alsoFits": [
     "September"
@@ -4563,433 +5426,6 @@ window.NEW_GAMES = {
     "Make the hoop spots closer for younger students or farther for grades 5–6.",
     "Set a target of 10 flags instead of 15 if time is short."
    ]
-  },
-  {
-   "id": "predators-and-prey-tag",
-   "added": "2026-10-12",
-   "addedOn": "2026-10-10",
-   "name": "Predators and Prey Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "A Big Bear and a pair of wolves tag pronghorn; tagged players do a quick exercise at a mat, then rejoin",
-   "sports": "tag, dodging, changing direction, fitness, gr 1–6",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Front Range PE",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=wlZytOiw_xE"
-   ],
-   "order": 47,
-   "unit": "October",
-   "suggestedMonth": "October",
-   "alsoFits": [
-    "September"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "doc",
-   "type": "tag",
-   "typeLabel": "Tag & chase",
-   "slot": "16–25",
-   "grouping": "Whole class · 1 bear and 2 wolves · 60–90 second rounds · 6–10 minutes total",
-   "cues": [
-    "Eyes up, find open space.",
-    "Two fingers, back or shoulder.",
-    "Wolves move as one.",
-    "Freeze on the whistle — then eyes on the teacher."
-   ],
-   "ifThis": [
-    "Wolves split up or pull the hoop: freeze, reset the pack side by side, restart.",
-    "Same few students tagged over and over: change the bear and wolves now."
-   ],
-   "roundEnds": "Timed rounds (60–90 seconds). Change the bear and wolves. No winner needed.",
-   "tips": [
-    "Count the Hungry Bear burst aloud with the class so it stays to 5 seconds.",
-    "Post the Harder and Easier exercises on the mats before class so tagged players are back in quickly.",
-    "Year plan: October, September — a tag game for any month."
-   ],
-   "outcomes": [
-    {
-     "code": "Active Living · Movement Skill Development",
-     "look": "Locomotor skills, dodging and changing direction. [Outcome to confirm on new LearnAlberta]"
-    },
-    {
-     "code": "Safety",
-     "look": "Two-finger tags on the back or shoulder; wolves keep the hoop at waist height; freezes on one whistle."
-    }
-   ],
-   "g12": "Walk fast or skip only. One bear, no wolves at first. Easy exercise card.",
-   "g34": "Full game. Wolves join after one practice round.",
-   "g56": "Add a second bear. Students design the Natural Disaster challenges.",
-   "aka": [
-    "Big Bear, Wolves and Pronghorn"
-   ],
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=wlZytOiw_xE",
-     "title": "Big Bear, Wolves and Pronghorn: a tag game",
-     "channel": "Front Range Physical Education"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "1 pinnie or noodle for the bear; 2 hoops for the wolf pack; 2 mats as exercise stations (label one “Harder”, one “Easier”); cones for boundaries",
-   "setup": "Cone a large rectangle at least 2 m in from the walls. Put the two exercise mats just outside one sideline.",
-   "how": [
-    "Choose 1 Big Bear and 2 Wolves. Everyone else is a Pronghorn (a fast prairie animal).",
-    "The two Wolves hold one hoop together, or each holds a hoop and they stay side by side as a pack.",
-    "On “Go”, the bear and wolves try to tag Pronghorn with a two-finger tag on the back or shoulder.",
-    "A tagged Pronghorn jogs to an exercise mat, chooses Harder or Easier, does the posted exercise (for example 10 jumping jacks or 5 squats), then rejoins the game.",
-    "Twice per round the bear may call “Hungry Bear!” for a 5-second speed burst. Count the 5 seconds aloud with the class.",
-    "At any time the teacher calls “Natural Disaster”: everyone freezes and does the challenge (stop, drop and roll; spin 3 times; balance on one foot for 5 seconds), then play resumes.",
-    "Change the bear and wolves every 60–90 seconds."
-   ],
-   "variations": [
-    "Pronghorn carry a beanbag “food” to a hoop at the far end for team points.",
-    "Safe zones (spot markers) for 3 seconds only."
-   ],
-   "safety": "Boundaries 2 m from the walls and stage. Two-finger tags only, no pushing or grabbing clothes. Wolves keep the hoop low (waist height). Stop signal: one whistle means freeze, hands on knees, eyes on the teacher."
-  },
-  {
-   "id": "hidden-fleet",
-   "added": "2026-10-12",
-   "addedOn": "2026-10-10",
-   "name": "Hidden Fleet",
-   "section": "Target / throwing",
-   "desc": "Two teams hide hoop-and-pin ships behind a parachute wall over the net and lob soft balls over to knock down the other team's pins",
-   "sports": "throwing, target, teamwork, gr 1–6",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Front Range PE",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=q7pmIwiw5no"
-   ],
-   "order": 48,
-   "unit": "December",
-   "suggestedMonth": "December",
-   "alsoFits": [
-    "May"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "doc",
-   "type": "target",
-   "typeLabel": "Target & send",
-   "slot": "16–25",
-   "grouping": "Two teams of about 12 · 10–15 minutes · rounds of about two songs",
-   "cues": [
-    "Step with the opposite foot.",
-    "High arc to clear the wall.",
-    "Call “ball” if one lands near you.",
-    "Freeze on the whistle — balls down."
-   ],
-   "ifThis": [
-    "Someone reaches under or around the parachute: freeze, reset the wall, restart.",
-    "A throw goes under the wall at players: that player lobs only for the round."
-   ],
-   "roundEnds": "About two songs, or when one fleet is sunk. Count pins still standing, rebuild in new spots, play again.",
-   "tips": [
-    "Set the net, parachute and side mats before class; it is the longest part of the set-up.",
-    "Year plan: December, May — a throwing game for games month or before track throwing."
-   ],
-   "outcomes": [
-    {
-     "code": "Movement Skill Development",
-     "look": "Underhand and overhand throwing for distance and accuracy. [Outcome to confirm on new LearnAlberta]"
-    },
-    {
-     "code": "Skill focus",
-     "look": "Hiding ships and working out where the other team's ships are. [Outcome to confirm on new LearnAlberta]"
-    },
-    {
-     "code": "Safety",
-     "look": "Lobs over the wall, never under it; stays 1 m from the net standards; balls down on the whistle."
-    }
-   ],
-   "g12": "Lower wall (mats), bigger targets (cones in hoops). Underhand rolls under a gap are allowed.",
-   "g34": "Underhand and overhand lobs.",
-   "g56": "Teams plan ship placement in 60 seconds. Add one “scout” call per round.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=q7pmIwiw5no",
-     "title": "Battleship: a hidden-target throwing game",
-     "channel": "Front Range Physical Education"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "Volleyball net and standards; 1–2 parachutes or tarps draped over the net (or upright folding mats as a wall); 18 hoops (9 per team); 18 bowling pins or tall cones; 10–12 gator balls or soft foam balls",
-   "setup": "Hang the parachute over the net so the two halves cannot see each other. Block the side gaps with mats.",
-   "how": [
-    "Split the class into two teams of about 12, one on each side of the wall.",
-    "Each team builds three ships with its 9 hoops: one of 4 hoops, one of 3 and one of 2, hoops touching in a line. Stand one pin in each hoop. Ships can go anywhere on that half.",
-    "Each team gets 5–6 balls. On “Go”, players lob balls over the wall to try to knock down the other team's pins.",
-    "A fallen pin stays down, even if your own team knocked it over.",
-    "Get balls on your own side only and throw again.",
-    "If a round drags, the teacher acts as “radar” and holds a pool noodle above one ship so the other side knows roughly where to aim.",
-    "Play until one fleet is sunk, or for about two songs, then count the pins still standing. Rebuild ships in new spots and play again."
-   ],
-   "variations": [
-    "Mixed shapes (L-shaped ships).",
-    "Each team gets one “repair” to stand a pin back up.",
-    "Partner throws only."
-   ],
-   "safety": "Soft balls only. Lob over the wall, never under it at players. No reaching under or around the parachute. Keep 1 m clear of the net standards. Stop signal: one whistle, balls down, hands on heads."
-  },
-  {
-   "id": "flasketball",
-   "added": "2026-10-12",
-   "addedOn": "2026-10-10",
-   "name": "Flasketball",
-   "section": "Invasion / soccer–basketball–football",
-   "desc": "Football meets basketball: pass a foam football with no running, then throw it at the hoop for 1, 2 or 3 points by zone",
-   "sports": "football, basketball lead-up, invasion, gr 3–6",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Front Range PE",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=Eam3h08hLEM"
-   ],
-   "order": 49,
-   "unit": "October",
-   "suggestedMonth": "October",
-   "alsoFits": [
-    "January"
-   ],
-   "grades": "3–6",
-   "gradesFrom": "doc",
-   "type": "invasion",
-   "typeLabel": "Invasion & team",
-   "slot": "16–25",
-   "grouping": "3 teams of 8 (two play, one at the wall station) · 3-minute games · 15–20 minutes",
-   "cues": [
-    "Pass and move to open space.",
-    "Show a target with your hands.",
-    "Step and spiral, point to your target.",
-    "Freeze on the whistle — ball holder freezes too."
-   ],
-   "ifThis": [
-    "One player keeps the ball: add the 5-second limit or a three-pass rule.",
-    "Crowding under the hoop: freeze, spread out, restart (no shots with a defender right under the hoop)."
-   ],
-   "roundEnds": "3-minute games. Rotate teams so the wall-station team comes in.",
-   "tips": [
-    "Practise the no-running rule in a short passing drill first so the game does not stop for travelling calls.",
-    "Year plan: October, January — a football lead-up in October that also fits basketball month."
-   ],
-   "outcomes": [
-    {
-     "code": "Movement Skill Development",
-     "look": "Overhand football throw and catch. [Outcome to confirm on new LearnAlberta]"
-    },
-    {
-     "code": "Skill focus",
-     "look": "Moving to open space and passing to a moving teammate. [Outcome to confirm on new LearnAlberta]"
-    },
-    {
-     "code": "Safety",
-     "look": "Defends one arm's length away with no contact; waits behind the wall station line; freezes on the whistle."
-    }
-   ],
-   "g12": "",
-   "g34": "Foam football, lower hoops if available. Hitting the backboard square scores 1 point. Every player must touch the ball before a shot.",
-   "g56": "Full rules. Add a 5-second limit for holding the ball.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=Eam3h08hLEM",
-     "title": "Flasketball: football meets basketball",
-     "channel": "Front Range Physical Education"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "2–3 foam or junior footballs; basketball hoops; pinnies in 3–4 colours; floor tape or spot markers to show scoring zones",
-   "setup": "Mark three zones in front of each hoop: close (1 point), middle (2 points), far (3 points).",
-   "how": [
-    "Split the class into 3 teams of 8 (or 4 teams of 6 and run two side-court games if the gym has side hoops).",
-    "Two teams play; the third team practises passing at a wall station beside the court, then rotates in.",
-    "Move the football only by throwing and catching. No running with the ball (like travelling in basketball). A player may pivot.",
-    "Work the ball down the court and shoot by throwing the football at the hoop. A made shot scores the point value of the zone it was thrown from.",
-    "After a basket, the other team takes the ball at the baseline and play continues.",
-    "Play 3-minute games, then rotate teams."
-   ],
-   "variations": [
-    "Three-pass rule before a shot.",
-    "Score into a hoop on the floor instead of a basket.",
-    "All players on a team must receive a pass before that team scores twice."
-   ],
-   "safety": "Defend with arms up, one arm's length away; no contact or stripping the ball. No shots while a defender is directly under the hoop. The waiting team stays behind the wall station line. Stop signal: whistle, ball holder freezes, everyone freezes."
-  },
-  {
-   "id": "four-corner-tag",
-   "added": "2026-10-12",
-   "addedOn": "2026-10-10",
-   "name": "Four Corner Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "Two teams run a noodle relay around four corner markers, trying to catch and tag the other team's runner",
-   "sports": "tag, relay, pacing, gr 3–6",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Front Range PE",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=PynQxOjsW54"
-   ],
-   "order": 50,
-   "unit": "October",
-   "suggestedMonth": "October",
-   "alsoFits": [
-    "September"
-   ],
-   "grades": "3–6",
-   "gradesFrom": "doc",
-   "type": "tag",
-   "typeLabel": "Tag & chase",
-   "slot": "16–25",
-   "grouping": "Two teams · one runner each at a time · 8–12 minutes · good for sub days",
-   "cues": [
-    "Outside the mats every time.",
-    "Hand the noodle, don't throw it.",
-    "Next runner ready, hand out.",
-    "Freeze on the whistle — lower the noodle."
-   ],
-   "ifThis": [
-    "One team keeps scoring: balance the teams and go again.",
-    "A runner cuts inside the corners: no point; restart from the starting corners."
-   ],
-   "roundEnds": "Restart from the starting corners after each point. Play for the set time and rotate the lines forward.",
-   "tips": [
-    "Watch the clip before the first play to see the handoff timing.",
-    "Balance teams if one side starts to win every point, and check that runners stay outside the mats.",
-    "Year plan: October, September — a tag game that works well on sub days."
-   ],
-   "outcomes": [
-    {
-     "code": "Active Living",
-     "look": "[Outcome to confirm on new LearnAlberta]"
-    },
-    {
-     "code": "Skill focus",
-     "look": "Pacing and timing a handoff. [Outcome to confirm on new LearnAlberta]"
-    },
-    {
-     "code": "Safety",
-     "look": "Tags below the shoulders with no swinging; stays outside the mats; waiting players stand back from the running path."
-    }
-   ],
-   "g12": "",
-   "g34": "Fast walk or jog. Hand off after one full lap.",
-   "g56": "Full speed. Runners choose when to hand off at their corner.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=PynQxOjsW54",
-     "title": "Four Corner Tag: a noodle relay tag game",
-     "channel": "Front Range Physical Education"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "4 upright gym mats or 4 large cones as corners; 2 short foam noodle tag sticks (one per team); optional floor mats for waiting players; pinnies in 2 colours",
-   "setup": "Stand the four mats in a large square in the middle of the gym, at least 3 m from the walls. Each team lines up at its own starting corner, on opposite corners.",
-   "how": [
-    "Two teams. The first runner on each team holds that team's noodle.",
-    "On “Go”, runners travel around the outside of the four corners, in the same direction, trying to catch and tag the other team's runner with the noodle.",
-    "Runners make clean handoffs of the noodle to the next teammate at their team's corner, so fresh runners keep the chase going.",
-    "One clean noodle tag on the back or shoulder earns one point. Restart from the starting corners after each point and rotate the lines forward.",
-    "Rules: never run past a tag (if you are tagged, the point counts and you stop); no cutting inside the corners; no interfering with the other team's runner or handoff; no stalling at your corner."
-   ],
-   "variations": [
-    "Change direction on a double whistle.",
-    "Add a third team with a third noodle."
-   ],
-   "safety": "Short soft noodles only; tag below the shoulders, no swinging. Corners at least 3 m from the walls. Waiting lines stand back from the running path. Stop signal: one whistle, runners freeze and lower the noodle."
-  },
-  {
-   "id": "say-my-name-rock-paper-scissors",
-   "added": "2026-10-12",
-   "addedOn": "2026-10-10",
-   "name": "Say My Name Rock, Paper, Scissors",
-   "section": "Warm-ups & brain breaks",
-   "desc": "Move around the space, meet a partner, play Rock, Paper, Scissors, and the winner says both names before you switch partners",
-   "sports": "warm-up, icebreaker, locomotor, gr 1–6",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Front Range PE",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=0owosKImsQU"
-   ],
-   "order": 51,
-   "unit": "September",
-   "suggestedMonth": "September",
-   "alsoFits": [
-    "October"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "doc",
-   "type": "loco",
-   "typeLabel": "Locomotor & listen",
-   "slot": "0–5",
-   "grouping": "Whole class in pairs that change each round · 3–5 minutes · no equipment",
-   "cues": [
-    "Find someone you have not played yet.",
-    "Say names clearly and kindly.",
-    "Freeze on the whistle — face the teacher."
-   ],
-   "ifThis": [
-    "Students pair with the same friends: call “new partner” and count to three.",
-    "Running to find partners: switch to walking for one round."
-   ],
-   "roundEnds": "6–10 rounds, then freeze and start the main lesson.",
-   "tips": [
-    "Model the name sentence once before the first round.",
-    "Year plan: September, October — a first-weeks icebreaker; any month as a quick warm-up."
-   ],
-   "outcomes": [
-    {
-     "code": "Healthy Relationships",
-     "look": "Building class community and respectful interactions. [Outcome to confirm on new LearnAlberta]"
-    },
-    {
-     "code": "Active Living",
-     "look": "[Outcome to confirm on new LearnAlberta]"
-    },
-    {
-     "code": "Safety",
-     "look": "Moves with eyes up and keeps hands in own space; freezes and faces the teacher on one whistle."
-    }
-   ],
-   "g12": "Walking only. Teacher models the name sentence.",
-   "g34": "Add a skill change each round.",
-   "g56": "The winner also names one fact the partner shared, or the pair does a fitness move before switching.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=0owosKImsQU",
-     "title": "Say My Name Rock, Paper, Scissors: a name warm-up",
-     "channel": "Front Range Physical Education"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "None (music optional)",
-   "setup": "Open floor space or a cleared classroom. Music optional.",
-   "how": [
-    "Students move around the space using the locomotor skill the teacher calls (walk, skip, gallop, side-step).",
-    "On the signal, each student finds a partner and plays Rock, Paper, Scissors.",
-    "The winner says their own name and their partner's name out loud (“I'm Sam, and you're Lee!”).",
-    "Both partners high-five or elbow-bump, then move off to find a new partner.",
-    "Play 6–10 rounds."
-   ],
-   "variations": [
-    "The other partner does 3 jumping jacks before moving on.",
-    "Best of three for older grades."
-   ],
-   "safety": "Walk or skip with eyes up; no running into the centre of the room to find partners. Keep hands in your own space when you play. Stop signal: one whistle, freeze and face the teacher."
   }
  ]
 };

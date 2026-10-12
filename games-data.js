@@ -1069,7 +1069,7 @@ window.GAME_DETAILS = [
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": []
+    "aka": ["Crazyball Soccer"]
   },
   {
     "name": "End Ball",
@@ -1447,7 +1447,8 @@ window.GAME_DETAILS = [
       "Bucket Ball",
       "Robin’s Nest",
       "Capture the Ball",
-      "Fishing"
+      "Fishing",
+      "Capture the Cone"
     ]
   },
   {
@@ -4038,7 +4039,8 @@ window.GAME_DETAILS = [
       "Follow the Leader",
       "Dance Whispers",
       "Dance Chain",
-      "Dance Tag"
+      "Dance Tag",
+      "Disco Stu’s Dance Tag"
     ]
   },
   {

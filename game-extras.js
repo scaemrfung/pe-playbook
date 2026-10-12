@@ -2164,7 +2164,7 @@ window.GAME_EXTRAS = {
     "ifThis": [],
     "roundEnds": "",
     "skins": [],
-    "aka": [],
+    "aka": ["Crazyball Soccer"],
     "source": "https://physedgames.com/crazy-ball-soccer/"
   },
   "End Ball": {
@@ -2946,7 +2946,7 @@ window.GAME_EXTRAS = {
       "If this happens — Two hands on the same object: first hand keeps it.",
       "If this happens — Centre traffic jam: one way in, other way out.",
       "If this happens — Puppy-guarding the nest: send them out.",
-      "Also called: Rob the Nest (dribble); Capture the Egg; Capture The Flag Outdoors; Capture the Flag; Bucket Ball; Robin’s Nest; Capture the Ball; Fishing.",
+      "Also called: Rob the Nest (dribble); Capture the Egg; Capture The Flag Outdoors; Capture the Flag; Bucket Ball; Robin’s Nest; Capture the Ball; Fishing; Capture the Cone.",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -2970,7 +2970,8 @@ window.GAME_EXTRAS = {
       "Bucket Ball",
       "Robin’s Nest",
       "Capture the Ball",
-      "Fishing"
+      "Fishing",
+      "Capture the Cone"
     ]
   },
   "Sideline Soccer": {
@@ -8367,7 +8368,7 @@ window.GAME_EXTRAS = {
       "How a round ends: Longest clean chain, or likeness score out of 5 if you passed it as a whisper.",
       "If this happens — Phrase becomes a 30-second routine: cut it down.",
       "If this happens — Someone shouts the moves ahead: start again silently.",
-      "Also called: Pass It On; Mirror Mirror; Follow the Leader; Dance Whispers; Dance Chain; Dance Tag.",
+      "Also called: Pass It On; Mirror Mirror; Follow the Leader; Dance Whispers; Dance Chain; Dance Tag; Disco Stu’s Dance Tag.",
       "House rules: Freeze on the whistle. Tags are two-finger or noodle on the back or shoulder. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -8385,7 +8386,8 @@ window.GAME_EXTRAS = {
       "Follow the Leader",
       "Dance Whispers",
       "Dance Chain",
-      "Dance Tag"
+      "Dance Tag",
+      "Disco Stu’s Dance Tag"
     ]
   },
   "Pulse Race": {
