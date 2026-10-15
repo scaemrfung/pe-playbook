@@ -4292,7 +4292,7 @@ window.GAME_EXTRAS = {
     ],
     "variations": [
       "Doctor: one teammate may unfreeze with a two-hand touch.",
-      "Catch = the thrower stretches.",
+      "Catch = the thrower is out.",
       "Step back one giant step after each make (grades 3–6).",
       "Opposite hand or weaker foot for the last round.",
       "Team score is ‘makes in two minutes’ — not a ranking of throwers."
@@ -4333,7 +4333,7 @@ window.GAME_EXTRAS = {
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Survivor Dodgeball.",
       "Watch for fetchers walking through the throwing line. Make them a job to the side.",
       "Year plan: January, March — match the month’s sport ball when you can.",
-      "If a video version eliminates players, ignore that. A hit is 10 jumping jacks, then back in, or join the thrower’s team.",
+      "A hit is 10 jumping jacks, then back in, or join the thrower’s team.",
       "Keep 4–6 balls in play. Freeze on the whistle."
     ],
     "ifThis": [],
@@ -4674,7 +4674,7 @@ window.GAME_EXTRAS = {
       "Opposite-foot step. Eyes on the target, not the teacher.",
       "Wait for the fetch before the next throw.",
       "One object in the air at a time per pair or lane.",
-      "Below the waist. A high ball is dead."
+      "Below the head. A high ball is dead."
     ],
     "variations": [
       "Yoga ball only, push it onto the other bench (Star Wars).",
@@ -4706,7 +4706,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Looks up after contact; hits stay below the waist."
+        "look": "Looks up after contact; hits stay below the head."
       },
       {
         "code": "Healthy Relationships",
@@ -4720,7 +4720,7 @@ window.GAME_EXTRAS = {
       "If this happens — Cross the centre: that throw does not count.",
       "If this happens — All down in 10 seconds: play two bouts and add.",
       "Also called: Bombardment; Battleball; Star Wars; Snowball Fight; Castleball 2.0.",
-      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
+      "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher)."
     ],
     "ifThis": [
       "Throw at a person: no point, warning.",

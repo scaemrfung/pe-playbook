@@ -4,16 +4,17 @@ window.DODGE_GAMES = [
     "kind": "Team · October / January",
     "time": "6–8 min",
     "name": "Medic dodgeball",
-    "purpose": "Send low, then help a teammate back in. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Send low, then help a teammate back in. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "6–8 dodgeballs, pinnies, two halves.",
-    "setup": "Each team secretly names one medic (a pinnie under the shirt or a wrist band the teacher can see). Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Each team secretly names one medic (a pinnie under the shirt or a wrist band the teacher can see). Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
-      "Throws stay below the waist. A hit: that player kneels or stands in a hoop ‘clinic’ on their sideline.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
+      "Throws stay below the head. A hit: that player kneels or stands in a hoop ‘clinic’ on their sideline.",
       "The medic taps a shoulder to send them back in. The medic may not throw while reviving.",
       "If the medic is hit, they go to the clinic. The team names a new medic after 15 seconds — the old medic is not out for the period.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
@@ -24,11 +25,11 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends the ball below the waist toward a space, not a face."
+        "look": "Sends the ball below the head toward a space, not a face."
       },
       {
         "code": "Skill focus",
@@ -40,11 +41,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -52,7 +53,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -77,17 +78,18 @@ window.DODGE_GAMES = [
     "kind": "Team · January",
     "time": "6–8 min",
     "name": "Noodle medic (Jedi hoop)",
-    "purpose": "One teammate revives from a hoop. The noodle is a tap, not a swing at people. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "One teammate revives from a hoop. The noodle is a tap, not a swing at people. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Dodgeballs, one pool noodle per team, one hoop per team.",
-    "setup": "Hoop is the ‘safe circle’ on each half. One noodle-carrier starts in the hoop. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Hoop is the ‘safe circle’ on each half. One noodle-carrier starts in the hoop. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "The noodle-carrier may step out to tap a kneeling teammate, then must return to the hoop before throwing.",
       "A tap with the noodle on a shoe or shin sends that player back in.",
       "If the noodle-carrier is hit outside the hoop, they drop the noodle. The next teammate picks it up and walks to the hoop.",
       "Noodles never swing at a thrower or a head.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period."
     ],
     "g12": "Carrier stays in the hoop; teammates come to them.",
@@ -97,11 +99,11 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+        "look": "Sends a foam ball below the head toward space; ready hands on a catch."
       },
       {
         "code": "Skill focus",
@@ -113,7 +115,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
@@ -125,7 +127,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -150,27 +152,28 @@ window.DODGE_GAMES = [
     "kind": "Team · October",
     "time": "6–8 min",
     "name": "Pin dodgeball",
-    "purpose": "Aim at a pin, not only at people. Knocking a pin brings your clinic back in. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Aim at a pin, not only at people. Knocking a pin brings your clinic back in. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Dodgeballs, three stacked cones or pins per end.",
-    "setup": "Pins on a tape line at the back of each half. Nobody stands on the pin line. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Pins on a tape line at the back of each half. Nobody stands on the pin line. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
-      "A below-waist hit still sends a player to the sideline stretch.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
+      "A below-the-head hit still sends a player to the sideline stretch.",
       "If your team knocks one opposing pin, every stretcher on your side comes back in. Reset that pin.",
       "Knocking all three pins ends the round. Reset, switch sides, play again.",
       "Players may not camp in front of their own pins — one defender may stand beside, not on, the line.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period."
     ],
     "g12": "Roll at pins only; people are not targets.",
-    "g34": "Pins or people, below the waist.",
+    "g34": "Pins or people, below the head.",
     "g56": "Must hit a pin before a second throw at a person.",
     "safety": "Fetch pins from the side. No sliding into cones. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
@@ -186,11 +189,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -198,7 +201,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -223,31 +226,32 @@ window.DODGE_GAMES = [
     "kind": "Team · January",
     "time": "7–8 min",
     "name": "Secret roles",
-    "purpose": "Use a hidden job: medic, pin-hunter, or catcher. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Use a hidden job: medic, pin-hunter, or catcher. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Dodgeballs, three role cards per team (teacher keeps a copy).",
-    "setup": "Each team draws roles in a huddle. Teacher knows who is who. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Each team draws roles in a huddle. Teacher knows who is who. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Medic: shoulder-tap revive. Pin-hunter: only they may knock the far pin. Catcher: a catch they make also revives one stretcher.",
       "If a role-player is hit, they stretch and the next teammate takes that card.",
       "Roles stay secret until the whistle. Then the team names one thing that worked.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
     "g12": "Teacher assigns one medic only.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "All three roles. 30-second huddle mid-game.",
-    "safety": "Foam dodgeballs only. Hits below the waist. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam dodgeballs only. Hits below the head. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+        "look": "Sends a foam ball below the head toward space; ready hands on a catch."
       },
       {
         "code": "Skill focus",
@@ -263,7 +267,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -271,7 +275,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -296,31 +300,32 @@ window.DODGE_GAMES = [
     "kind": "Team · November / January",
     "time": "5–7 min",
     "name": "Protect the king",
-    "purpose": "Shield one teammate. A hit on the king is a point, not a whole-team out. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Shield one teammate. A hit on the king is a point, not a whole-team out. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Dodgeball, a hoop for the king, pinnies.",
-    "setup": "King stands in a hoop. Four defenders. Attackers on the other half or around the circle. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "King stands in a hoop. Four defenders. Attackers on the other half or around the circle. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
-      "Attackers must pass at least twice, then throw below the waist at the king.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
+      "Attackers must pass at least twice, then throw below the head at the king.",
       "A hit on the king is one point. New king. Old king becomes a defender.",
       "Defenders may catch. They may not body-check.",
       "Rotate so every student is king once in the block.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period."
     ],
     "g12": "Roll or underhand only. Teacher is a walking medic or a second jail-catcher. Hits on shoes or shins.",
-    "g34": "Below-waist throw after two passes.",
+    "g34": "Below-the-head throw after two passes.",
     "g56": "Three passes. King may take one step out of the hoop.",
-    "safety": "Foam dodgeballs only. Hits below the waist. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam dodgeballs only. Hits below the head. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+        "look": "Sends a foam ball below the head toward space; ready hands on a catch."
       },
       {
         "code": "Skill focus",
@@ -332,7 +337,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
@@ -344,7 +349,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -369,18 +374,19 @@ window.DODGE_GAMES = [
     "kind": "Team · November",
     "time": "6–8 min",
     "name": "Jail-catch (prisonball)",
-    "purpose": "A hit sends you behind the other team. A catch from a teammate brings you back. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "A hit sends you behind the other team. A catch from a teammate brings you back. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Dodgeballs, a tape ‘jail’ behind each end line.",
-    "setup": "Jail is a strip behind the opponents. Jailed players face their own team. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Jail is a strip behind the opponents. Jailed players face their own team. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
-      "A below-waist hit: walk to the far jail.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
+      "A below-the-head hit: walk to the far jail.",
       "A teammate throws a dodgeball to the jail. A clean catch and the catcher walks home along the sideline.",
       "Jailed players may not throw at the team in front of them — they only catch.",
       "If the jail fills, play a 20-second ‘all home after a stretch’ reset.",
-      "See the PhysEdGames video before the first play. Stay-in house rules still apply.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out."
+      "See the PhysEdGames video before the first play. Our dodgeball house rules still apply.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says."
     ],
     "g12": "Teacher underhand to the jail.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
@@ -389,7 +395,7 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
@@ -405,11 +411,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -417,7 +423,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -442,23 +448,23 @@ window.DODGE_GAMES = [
     "kind": "Area · May / September",
     "time": "6 min",
     "name": "Around-the-gym",
-    "purpose": "Travel the outside while a middle group sends dodgeballs at feet. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Travel the outside while a middle group sends dodgeballs at feet. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Dodgeballs, four corner hoops, a middle square.",
-    "setup": "One team in the middle. Four small teams at corners. Travellers go hoop to hoop. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "One team in the middle. Four small teams at corners. Travellers go hoop to hoop. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
-      "On the whistle, a corner player tries to walk or jog all the way around without a below-waist hit.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
+      "On the whistle, a corner player tries to walk or jog all the way around without a below-the-head hit.",
       "A hit: 5 jumping jacks at that hoop, then keep going or start that side again.",
       "Middle players may not leave their square. Rotate the middle every two minutes.",
       "Score is ‘loops finished,’ not people out.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period."
     ],
     "g12": "Walk the loop. Roll from the middle.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May add a one-pass rule before a throw at a person. Student official on high balls.",
-    "safety": "Middle throws stay in the gym, below the waist. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Middle throws stay in the gym, below the head. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -478,11 +484,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -490,7 +496,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -515,27 +521,27 @@ window.DODGE_GAMES = [
     "kind": "Area · January",
     "time": "6–7 min",
     "name": "Four-square dodgeball",
-    "purpose": "Send and dodge with more than one neighbour. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Send and dodge with more than one neighbour. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Tape four squares, 6 dodgeballs.",
-    "setup": "Four teams, one per square. Balls start in the middle cross. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Four teams, one per square. Balls start in the middle cross. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
-      "You may throw only into an adjacent square, below the waist.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
+      "You may throw only into an adjacent square, below the head.",
       "A hit: stretch 10 seconds in your own square, then play on.",
       "A catch lets you send that ball next.",
       "Rotate squares every two minutes so each team gets a new neighbour.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period."
     ],
     "g12": "Roll or underhand only. Teacher is a walking medic or a second jail-catcher. Hits on shoes or shins.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May bounce-throw to the square across once per turn.",
-    "safety": "Foam dodgeballs only. Hits below the waist. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam dodgeballs only. Hits below the head. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
@@ -551,7 +557,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
@@ -563,7 +569,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -588,16 +594,16 @@ window.DODGE_GAMES = [
     "kind": "Area · October / May",
     "time": "5–6 min",
     "name": "Dodge Lane",
-    "purpose": "Cross a lane. Throwers stay in marked zones. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Cross a lane. Throwers stay in marked zones. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Two throw lines, a centre lane, dodgeballs.",
-    "setup": "Throwers on both long sides. Runners at one end. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Throwers on both long sides. Runners at one end. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "On “Go,” runners travel the lane. Throwers send dodgeballs at shins from behind their line.",
       "A hit: runner does 5 jacks at the side, then finishes the crossing.",
       "Swap roles every two crossings. Throwers never enter the lane.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
@@ -608,7 +614,7 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
@@ -624,7 +630,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
@@ -636,7 +642,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -661,16 +667,17 @@ window.DODGE_GAMES = [
     "kind": "Area · January",
     "time": "5–6 min",
     "name": "Island (hoop or tape)",
-    "purpose": "Stay on a marked island. Dodge without leaving. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Stay on a marked island. Dodge without leaving. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Large taped squares or hoops — no benches.",
-    "setup": "Two islands. Dodgeballs between them. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Two islands. Dodgeballs between them. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "A player who steps off the island takes a 10-second stretch, then steps back on.",
-      "A below-waist hit is the same stretch.",
+      "A below-the-head hit is the same stretch.",
       "Islands stay big enough for the group. Shrink the tape only if you need more movement.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
@@ -681,7 +688,7 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
@@ -697,11 +704,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -709,7 +716,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -734,16 +741,17 @@ window.DODGE_GAMES = [
     "kind": "Area · January",
     "time": "6 min",
     "name": "Barrier dodgeball",
-    "purpose": "Use cones or a folded mat as cover — not a bench. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Use cones or a folded mat as cover — not a bench. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Dodgeballs, cone walls or one folded mat on its side if you have it.",
-    "setup": "A low barrier on each half. Players may kneel behind it. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "A low barrier on each half. Players may kneel behind it. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Stand to throw. You may kneel to hide.",
       "Same hit = stretch and back in.",
       "Barriers stay put. Nobody throws a cone.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
@@ -754,11 +762,11 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+        "look": "Sends a foam ball below the head toward space; ready hands on a catch."
       },
       {
         "code": "Skill focus",
@@ -770,7 +778,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
@@ -782,7 +790,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -807,16 +815,16 @@ window.DODGE_GAMES = [
     "kind": "Area · June / January",
     "time": "7–8 min",
     "name": "Dodge and capture",
-    "purpose": "Steal a beanbag from another box while dodgeballs are in the air. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Steal a beanbag from another box while dodgeballs are in the air. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Four corner boxes, beanbags, dodgeballs.",
-    "setup": "Four teams. Three beanbags in each box. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Four teams. Three beanbags in each box. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "You may enter another box to take one bag, then walk it home on the outside.",
-      "A below-waist hit while you are away: drop the bag, stretch, walk home empty.",
+      "A below-the-head hit while you are away: drop the bag, stretch, walk home empty.",
       "First team to six bags, or the whistle. Reset and play again.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
@@ -827,11 +835,11 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+        "look": "Sends a foam ball below the head toward space; ready hands on a catch."
       },
       {
         "code": "Skill focus",
@@ -843,11 +851,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -855,7 +863,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -880,23 +888,23 @@ window.DODGE_GAMES = [
     "kind": "Free-for-all · September",
     "time": "4–5 min",
     "name": "Spider (centre pile)",
-    "purpose": "Everyone is in. A hit is a sit-stretch until you catch a free ball. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Everyone is in. A hit is a sit-stretch until you catch a free ball. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "8–10 dodgeballs in a centre hoop.",
-    "setup": "Class around the hoop. Teacher or a student kicks the hoop to start. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Class around the hoop. Teacher or a student kicks the hoop to start. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
-      "Take one ball. Below-waist throws only.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
+      "Take one ball. Below-the-head throws only.",
       "A hit: sit or kneel. If a loose ball comes near, catch it and stand — you are back in.",
       "A ball on the floor is free. No standing on a sitting player.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
     "g12": "Roll or underhand only. Teacher is a walking medic or a second jail-catcher. Hits on shoes or shins.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "Opposite-hand round after two minutes.",
-    "safety": "Foam dodgeballs only. Hits below the waist. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam dodgeballs only. Hits below the head. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -916,11 +924,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -928,7 +936,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -953,16 +961,17 @@ window.DODGE_GAMES = [
     "kind": "Team · January",
     "time": "6 min",
     "name": "Switch-sides",
-    "purpose": "A hit means you join the other team. Nobody sits. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "A hit means you join the other team. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Pinnies in two colours, dodgeballs.",
-    "setup": "Two halves. Extra pinnies on each sideline. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Two halves. Extra pinnies on each sideline. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
-      "A below-waist hit: walk to the other half, put on their pinnie, and play for them.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
+      "A below-the-head hit: walk to the other half, put on their pinnie, and play for them.",
       "If one side grows huge, whistle, reset even teams, and play a second round.",
       "A catch still saves you.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
@@ -973,11 +982,11 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+        "look": "Sends a foam ball below the head toward space; ready hands on a catch."
       },
       {
         "code": "Skill focus",
@@ -993,7 +1002,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -1001,7 +1010,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1026,17 +1035,17 @@ window.DODGE_GAMES = [
     "kind": "Pit · February / June",
     "time": "5 min",
     "name": "Gaga (taped pit)",
-    "purpose": "Hit a dodgeball with the hand, below the knee, inside a taped octagon. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Hit a dodgeball with the hand, below the knee, inside a taped octagon. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "One dodgeball, tape octagon or cone ring. No wooden pit required.",
-    "setup": "8–12 players in the ring. Rest are a waiting line that rotates every minute. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "8–12 players in the ring. Rest are a waiting line that rotates every minute. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-knee and freeze-on-whistle before GO.",
     "play": [
       "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
       "Serve by dropping and striking the ball. Hits stay below the knee.",
       "If the ball hits you below the knee, stretch outside the ring 10 seconds, then join the wait line.",
       "A catch is allowed. After a catch, you may strike.",
       "Rotate so the wait line is short.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "A hit below the knee is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period."
     ],
     "g12": "Roll or underhand only. Teacher is a walking medic or a second jail-catcher. Hits on shoes or shins.",
@@ -1046,7 +1055,7 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
@@ -1062,7 +1071,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
@@ -1074,7 +1083,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the knee.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1099,16 +1108,17 @@ window.DODGE_GAMES = [
     "kind": "Team · November",
     "time": "6 min",
     "name": "Return-line dodgeball",
-    "purpose": "A catch brings one teammate back from a tape return line — not a bench. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "A catch brings one teammate back from a tape return line — not a bench. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Dodgeballs, a tape line on each sideline.",
-    "setup": "Hit players stand on their return line, facing the court. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Hit players stand on their return line, facing the court. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "A teammate catch: the catcher calls one name from the return line. That player steps in.",
       "If the line is empty, the catch is just a save.",
       "No standing on equipment.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
@@ -1119,7 +1129,7 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
@@ -1135,11 +1145,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -1147,7 +1157,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1174,14 +1184,14 @@ window.DODGE_GAMES = [
     "name": "Every-person (crackabout)",
     "purpose": "Quick reactions. A hit is a stretch, then you are a thrower from the side for 20 seconds.",
     "equipment": "6 dodgeballs.",
-    "setup": "Open gym. Balls scattered. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Open gym. Balls scattered. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
-      "Anyone may throw at anyone, below the waist.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
+      "Anyone may throw at anyone, below the head.",
       "A hit: 10-second stretch, then you may only throw from a sideline for 20 seconds, then back to the middle.",
       "Short rounds. Water freeze in between.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
@@ -1208,11 +1218,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -1220,7 +1230,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1245,16 +1255,17 @@ window.DODGE_GAMES = [
     "kind": "Team · October",
     "time": "5 min",
     "name": "Opposite-hand",
-    "purpose": "Level the throw. Non-dominant hand or foot only. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "Level the throw. Non-dominant hand or foot only. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Dodgeballs, two halves.",
-    "setup": "Same as a simple two-side game. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Same as a simple two-side game. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Throws and rolls use the non-dominant side only.",
       "A dominant-hand throw is dead. Pick it up and try again.",
       "Same stretch-and-return on a hit.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period.",
       "Freeze on the whistle. High throws are dead balls."
     ],
@@ -1265,7 +1276,7 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
@@ -1285,7 +1296,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -1293,7 +1304,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1318,17 +1329,18 @@ window.DODGE_GAMES = [
     "kind": "Team · January",
     "time": "6–7 min",
     "name": "Powerball",
-    "purpose": "One extra-large dodgeball changes the next 20 seconds. In class we use it to send low, catch or dodge, then help a teammate back in — nobody sits the period.",
+    "purpose": "One extra-large dodgeball changes the next 20 seconds. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Regular dodgeballs plus one larger dodgeball the teacher holds.",
-    "setup": "Two halves. Teacher on the side. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Two halves. Teacher on the side. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Play a normal stay-in game.",
       "When the teacher rolls in the powerball, the next 20 seconds that ball is the only one that counts for a hit — or it revives everyone on a catch, teacher’s call before the round.",
       "Name the rule before you roll it in. Same rule the whole class.",
-      "See the PhysEdGames video before the first play. Stay-in house rules still apply.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out.",
+      "See the PhysEdGames video before the first play. Our dodgeball house rules still apply.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period."
     ],
     "g12": "Powerball is a revive-only ball.",
@@ -1338,11 +1350,11 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+        "look": "Sends a foam ball below the head toward space; ready hands on a catch."
       },
       {
         "code": "Skill focus",
@@ -1354,7 +1366,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
@@ -1366,7 +1378,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1391,18 +1403,18 @@ window.DODGE_GAMES = [
     "kind": "Hybrid · June",
     "time": "8 min",
     "name": "Kickball-dodge",
-    "purpose": "Kick a dodgeball and run bases. Fielders may throw below the waist at the runner.",
+    "purpose": "Kick a dodgeball and run bases. Fielders may throw below the head at the runner.",
     "equipment": "Soft kicker, four hoop bases, extra dodgeballs for fielders.",
-    "setup": "Kick-ball diamond. Everyone bats in order. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Kick-ball diamond. Everyone bats in order. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
       "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
       "Kick, then run hoop to hoop.",
       "Fielders may throw a dodgeball at the runner’s feet or throw to the next hoop for a force.",
-      "A hit or a force: runner walks to a wait line and bats again next inning. Nobody sits the period.",
+      "A hit or a force: runner walks to a wait line and bats again next inning.",
       "Whole class bats before you change innings.",
-      "See the PhysEdGames video before the first play. Stay-in house rules still apply.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out."
+      "See the PhysEdGames video before the first play. Our dodgeball house rules still apply.",
+      "A catch is a save. The thrower is out.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says."
     ],
     "g12": "Kick and run one hoop. Fielders roll.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
@@ -1411,7 +1423,7 @@ window.DODGE_GAMES = [
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
@@ -1427,11 +1439,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Foam balls. Hits below the waist. No head shots. Freeze on the whistle."
+        "look": "Foam balls. Hits below the head. No head shots. Freeze on the whistle."
       },
       {
         "code": "Healthy Relationships",
@@ -1439,7 +1451,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1466,29 +1478,30 @@ window.DODGE_GAMES = [
     "name": "Backboard Dodgeball",
     "purpose": "Highly requested game of dodgeball. Lots of fun, and lots of skills as usual! Two teams faceoff in this fun version that uses the basketball court (full court or half court), thanks to Michelle Weaver!",
     "equipment": "basketball backboards, dodgeballs",
-    "setup": "Two teams on a basketball court (full or half). Foam dodgeballs. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Two teams on a basketball court (full or half). Foam dodgeballs. Agree below-the-shoulders and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Two teams on a basketball court (full or half). Foam dodgeballs.",
       "Play regular throwing/dodging on the floor. Hits below the shoulders.",
       "Bonus: a throw that hits the opponent’s backboard (or goes in the hoop — choose) returns all of your out players or scores a point.",
       "Hit players wait on the sideline until a bonus or a catch brings them back.",
       "Timed games keep sitting-out time short.",
-      "House rule: hits below the waist. A catch is a save. A hit is a stretch, jail, bench, or switch — never sitting the period out.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in."
+      "House rule: hits below the shoulders. A hit is a stretch, jail, bench, or switch, as this game says.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins."
     ],
     "g12": "Roll or underhand only. Teacher medic. Skip if the class is not ready.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May add a one-pass rule before a throw at a person. Student official on high balls.",
-    "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam balls. Hits below the shoulders. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space, not a face."
+        "look": "Sends a foam ball below the shoulders toward space, not a face."
       },
       {
         "code": "Skill focus",
@@ -1500,11 +1513,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Hits stay below the waist; a hit is a stretch, jail, or switch — never sitting the period out."
+        "look": "Hits stay below the shoulders; a hit is a stretch, jail, or switch, as the game says."
       },
       {
         "code": "Healthy Relationships",
@@ -1512,7 +1525,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the shoulders.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1539,29 +1552,30 @@ window.DODGE_GAMES = [
     "name": "Battleball",
     "purpose": "This is a special type of dodgeball game with official rules, refs, and the whole show! With sportsmanship being the number 1 rule, teams will compete in an epic battle to be the last ones standing. Great game incorporat.",
     "equipment": "4 foam balls",
-    "setup": "Two teams, 4 foam balls, official-style dodgeball with sportsmanship as rule #1. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Two teams, 4 foam balls, official-style dodgeball with sportsmanship as rule #1. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Two teams, 4 foam balls, official-style dodgeball with sportsmanship as rule #1.",
       "Agree on refs (teachers or trained students) and the school’s hit / catch / boundary rules before the first throw.",
       "Play to last players standing or a time cap with “all out players return” resets so nobody sits long.",
       "For the full tournament version, use the <a href=\"https://physedgames.com/i/BATTLEBALL-RULES-2014.doc\" target=\"_blank\" rel=\"noopener\">rules sheet</a> from PHYSEDGAMES.",
       "Keep it recreational: foam balls, no head shots, no targeting from close range.",
-      "House rule: hits below the waist. A catch is a save. A hit is a stretch, jail, bench, or switch — never sitting the period out.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in."
+      "House rule: hits below the head. A hit is a stretch, jail, bench, or switch, as this game says.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins."
     ],
     "g12": "Roll or underhand only. Teacher medic. Skip if the class is not ready.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May add a one-pass rule before a throw at a person. Student official on high balls.",
-    "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam balls. Hits below the head. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space, not a face."
+        "look": "Sends a foam ball below the head toward space, not a face."
       },
       {
         "code": "Skill focus",
@@ -1573,11 +1587,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Hits stay below the waist; a hit is a stretch, jail, or switch — never sitting the period out."
+        "look": "Hits stay below the head; a hit is a stretch, jail, or switch, as the game says."
       },
       {
         "code": "Healthy Relationships",
@@ -1585,7 +1599,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1612,29 +1626,30 @@ window.DODGE_GAMES = [
     "name": "Bench Dodgeball",
     "purpose": "It’s the classic game of bench dodgeball, at least I think it’s a classic. It might just be classic for me? Note: this game is different from BENCHBALL (where you try to get all players onto the bench – that’s not a dodg.",
     "equipment": "benches, dodgeballs",
-    "setup": "Place a bench on each end line. Two teams, one half each. Foam dodgeballs only. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Place a bench on each end line. Two teams, one half each. Foam dodgeballs only. Agree below-the-shoulders and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Place a bench on each end line. Two teams, one half each. Foam dodgeballs only.",
       "This is NOT Bench Ball. Here you are trying to get your own players OFF the bench.",
       "When you legally hit an opponent (below the shoulders), one teammate on your bench may re-enter.",
       "A player who is hit goes to their own bench and waits to be freed.",
       "Play timed rounds. Winner: more live players at the whistle, or first team to empty its bench.",
-      "House rule: hits below the waist. A catch is a save. A hit is a stretch, jail, bench, or switch — never sitting the period out.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in."
+      "House rule: hits below the shoulders. A hit is a stretch, jail, bench, or switch, as this game says.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins."
     ],
     "g12": "Roll or underhand only. Teacher medic. Skip if the class is not ready.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May add a one-pass rule before a throw at a person. Student official on high balls.",
-    "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam balls. Hits below the shoulders. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space, not a face."
+        "look": "Sends a foam ball below the shoulders toward space, not a face."
       },
       {
         "code": "Skill focus",
@@ -1646,11 +1661,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Hits stay below the waist; a hit is a stretch, jail, or switch — never sitting the period out."
+        "look": "Hits stay below the shoulders; a hit is a stretch, jail, or switch, as the game says."
       },
       {
         "code": "Healthy Relationships",
@@ -1658,7 +1673,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the shoulders.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1685,29 +1700,30 @@ window.DODGE_GAMES = [
     "name": "Detective Dodgeball",
     "purpose": "This is a dodgeball game where if a player is hit, he must remember who hit him, because he’s out until the player who hit him gets hit. That’s the whole detective part. A great advancement to regular dodgeball to keep t.",
     "equipment": "Dodgeballs",
-    "setup": "Two teams, each on one half. Foam dodgeballs in play. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Two teams, each on one half. Foam dodgeballs in play. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Two teams, each on one half. Foam dodgeballs in play.",
       "If you are hit, go to the side and REMEMBER who hit you. You are out only until THAT person is hit, then you come back in.",
       "That “detective” memory rule keeps the game flowing and cuts long sit-outs.",
       "If anyone sits too long, call a free pass and everyone returns.",
       "When one team has nobody left on the floor, start a new round. A favourite for older grades.",
-      "House rule: hits below the waist. A catch is a save. A hit is a stretch, jail, bench, or switch — never sitting the period out.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in."
+      "House rule: hits below the head. A hit is a stretch, jail, bench, or switch, as this game says.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins."
     ],
     "g12": "Roll or underhand only. Teacher medic. Skip if the class is not ready.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May add a one-pass rule before a throw at a person. Student official on high balls.",
-    "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam balls. Hits below the head. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space, not a face."
+        "look": "Sends a foam ball below the head toward space, not a face."
       },
       {
         "code": "Skill focus",
@@ -1719,11 +1735,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Hits stay below the waist; a hit is a stretch, jail, or switch — never sitting the period out."
+        "look": "Hits stay below the head; a hit is a stretch, jail, or switch, as the game says."
       },
       {
         "code": "Healthy Relationships",
@@ -1731,7 +1747,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1758,29 +1774,30 @@ window.DODGE_GAMES = [
     "name": "Net Dodgeball",
     "purpose": "Net dodgeball is basically a standard game of dodgeball, except that each team also has a net and a goalie. Any time a team scores a goal by throwing a dodgeball past the opposing goalie, all of the players who were out.",
     "equipment": "Dodgeballs, nets/goals",
-    "setup": "Standard two-team foam dodgeball, PLUS a net and a goalie on each end. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Standard two-team foam dodgeball, PLUS a net and a goalie on each end. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Standard two-team foam dodgeball, PLUS a net and a goalie on each end.",
       "If a team throws a ball past the other goalie into the net, ALL of that team’s out players come back in.",
       "Use Detective Dodgeball re-entry if you also want hit-players tracking who hit them.",
       "Goalies may use hands; field players follow your regular dodgeball rules.",
-      "House rule: hits below the waist. A catch is a save. A hit is a stretch, jail, bench, or switch — never sitting the period out.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out."
+      "House rule: hits below the head. A hit is a stretch, jail, bench, or switch, as this game says.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says."
     ],
     "g12": "Roll or underhand only. Teacher medic. Skip if the class is not ready.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May add a one-pass rule before a throw at a person. Student official on high balls.",
-    "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam balls. Hits below the head. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space, not a face."
+        "look": "Sends a foam ball below the head toward space, not a face."
       },
       {
         "code": "Skill focus",
@@ -1792,11 +1809,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Hits stay below the waist; a hit is a stretch, jail, or switch — never sitting the period out."
+        "look": "Hits stay below the head; a hit is a stretch, jail, or switch, as the game says."
       },
       {
         "code": "Healthy Relationships",
@@ -1804,7 +1821,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1831,29 +1848,30 @@ window.DODGE_GAMES = [
     "name": "Pin Knockover",
     "purpose": "Pin Knockover is a classic target throwing or rolling game. Two teams match-up on each side of the gym and be the first team to knock over all of the opposing teams pins. Other skills involved are blocking, goaltending,.",
     "equipment": "Plastic bowling pins, dodgeballs",
-    "setup": "Two teams, each with a row of plastic pins on its end. Foam dodgeballs. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Two teams, each with a row of plastic pins on its end. Foam dodgeballs. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Two teams, each with a row of plastic pins on its end. Foam dodgeballs.",
       "Throw or roll to knock down the other team’s pins. First team to knock all opponent pins wins, or most pins down at time.",
       "Players may block and “goal tend” in front of their own pins. No crossing mid-line if you want a throwing-only game.",
       "Reset pins and play again. Skills: underhand, overhand, blocking, ducking.",
-      "House rule: hits below the waist. A catch is a save. A hit is a stretch, jail, bench, or switch — never sitting the period out.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out."
+      "House rule: hits below the head. A hit is a stretch, jail, bench, or switch, as this game says.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says."
     ],
     "g12": "Roll or underhand only. Teacher medic. Skip if the class is not ready.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May add a one-pass rule before a throw at a person. Student official on high balls.",
-    "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam balls. Hits below the head. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space, not a face."
+        "look": "Sends a foam ball below the head toward space, not a face."
       },
       {
         "code": "Skill focus",
@@ -1865,11 +1883,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Hits stay below the waist; a hit is a stretch, jail, or switch — never sitting the period out."
+        "look": "Hits stay below the head; a hit is a stretch, jail, or switch, as the game says."
       },
       {
         "code": "Healthy Relationships",
@@ -1877,7 +1895,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1904,29 +1922,30 @@ window.DODGE_GAMES = [
     "name": "Standard Dodgeball",
     "purpose": "Standard dodgeball is the classic version of the game. In our opinion, many of the variations of this game are huge improvements and should be played in place of the standard version, however, here it is for you to take.",
     "equipment": "Dodgeballs",
-    "setup": "Two teams, one half each. Foam dodgeballs in the middle. On the whistle, rush the balls. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Two teams, one half each. Foam dodgeballs in the middle. On the whistle, rush the balls. Agree below-the-shoulders and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Two teams, one half each. Foam dodgeballs in the middle. On the whistle, rush the balls.",
-      "Hit an opponent below the shoulders to send them out. A caught ball typically sends the thrower out and can return a teammate — confirm your house rules.",
+      "Hit an opponent below the shoulders to send them out. A caught ball sends the thrower out and can return a teammate.",
       "No crossing the mid-line. Play until one team is eliminated, then reset.",
       "PHYSEDGAMES notes that many variations keep more kids moving and are often a better daily choice.",
-      "House rule: hits below the waist. A catch is a save. A hit is a stretch, jail, bench, or switch — never sitting the period out.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out."
+      "House rule: hits below the shoulders. A hit is a stretch, jail, bench, or switch, as this game says.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the shoulders is a stretch, a clinic, a jail, or a switch, as this game says."
     ],
     "g12": "Roll or underhand only. Teacher medic. Skip if the class is not ready.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May add a one-pass rule before a throw at a person. Student official on high balls.",
-    "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam balls. Hits below the shoulders. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space, not a face."
+        "look": "Sends a foam ball below the shoulders toward space, not a face."
       },
       {
         "code": "Skill focus",
@@ -1938,11 +1957,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Hits stay below the waist; a hit is a stretch, jail, or switch — never sitting the period out."
+        "look": "Hits stay below the shoulders; a hit is a stretch, jail, or switch, as the game says."
       },
       {
         "code": "Healthy Relationships",
@@ -1950,7 +1969,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the shoulders.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -1977,29 +1996,30 @@ window.DODGE_GAMES = [
     "name": "Three-Court Dodgeball",
     "purpose": "Three-Court Dodgeball is another awesome game that gets students moving, having fun, and working on a variety of skills! Split the gym into 3 sections with cones and lines. Tell the players that there will be 3 games of dodg.",
     "equipment": "Foam balls, cones",
-    "setup": "Cone the gym into 3 zones: Farmers (bottom), Knights (middle), Warriors (top). Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Cone the gym into 3 zones: Farmers (bottom), Knights (middle), Warriors (top). Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-shoulders and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Cone the gym into 3 zones: Farmers (bottom), Knights (middle), Warriors (top).",
       "Three mini-dodgeball games run at once, one in each zone, with foam balls.",
       "If you HIT someone, you move UP a league. If you GET hit, you move DOWN a league.",
-      "Farmers cannot go lower. Warriors cannot go higher. Use your regular PE dodgeball hit rules (below shoulders, foam only).",
+      "Farmers cannot go lower. Warriors cannot go higher. Use your regular PE dodgeball hit rules (below the shoulders, foam only).",
       "Play a time cap. Winners are whoever finishes the round as Warriors.",
-      "House rule: hits below the waist. A catch is a save. A hit is a stretch, jail, bench, or switch — never sitting the period out.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in."
+      "House rule: hits below the shoulders. A hit is a stretch, jail, bench, or switch, as this game says.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins."
     ],
     "g12": "Roll or underhand only. Teacher medic. Skip if the class is not ready.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May add a one-pass rule before a throw at a person. Student official on high balls.",
-    "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam balls. Hits below the shoulders. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space; ready hands on a catch."
+        "look": "Sends a foam ball below the shoulders toward space; ready hands on a catch."
       },
       {
         "code": "Skill focus",
@@ -2011,7 +2031,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
@@ -2023,7 +2043,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the shoulders.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
@@ -2050,29 +2070,30 @@ window.DODGE_GAMES = [
     "name": "Warzone Dodgeball",
     "purpose": "Warzone Dodgeball is definitely what the name says – a dodgeball warzone. Also known as ‘Paintball Dodgeball’, to set up for this game, place some obstacles and barriers for players to hide behind. Things like mats and t.",
     "equipment": "Dodgeballs, ‘walls’ (mats, benches)",
-    "setup": "Build cover with mats, benches, and safe “walls” / trenches. Two teams. Also called Paintball Dodgeball. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-waist and freeze-on-whistle before GO.",
+    "setup": "Build cover with mats, benches, and safe “walls” / trenches. Two teams. Also called Paintball Dodgeball. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
-      "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
+      "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "Build cover with mats, benches, and safe “walls” / trenches. Two teams. Also called Paintball Dodgeball.",
       "Play foam dodgeball using the barriers as hiding spots. No moving the walls into people.",
       "Optional: add a Capture-the-Flag object in each back zone to raise the objective beyond just getting people out.",
       "Not every school community wants dodgeball — choose this only if it fits your program. Foam balls, no head shots.",
-      "House rule: hits below the waist. A catch is a save. A hit is a stretch, jail, bench, or switch — never sitting the period out.",
-      "A catch is a save. The thrower takes a 10-second stretch, then stays in.",
-      "A hit below the waist is a stretch, a clinic, a jail, or a switch — never sitting the period out."
+      "House rule: hits below the head. A hit is a stretch, jail, bench, or switch, as this game says.",
+      "A catch is a save. The thrower is out.",
+      "If all the balls end up on one side, the game ends; the side without the balls wins.",
+      "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says."
     ],
     "g12": "Roll or underhand only. Teacher medic. Skip if the class is not ready.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "May add a one-pass rule before a throw at a person. Student official on high balls.",
-    "safety": "Foam balls. Hits below the waist. No head shots. Stay-in only. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "Foam balls. Hits below the head. No head shots. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role — not sitting the period."
+        "look": "Keeps moving on their half for the game block; a hit is a stretch or a role, as the game says."
       },
       {
         "code": "Movement Skill Development",
-        "look": "Sends a foam ball below the waist toward space, not a face."
+        "look": "Sends a foam ball below the head toward space, not a face."
       },
       {
         "code": "Skill focus",
@@ -2084,11 +2105,11 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; a catch is a save for the thrower too."
+        "look": "Honest about a hit; leaves the court when their throw is caught."
       },
       {
         "code": "Safety",
-        "look": "Hits stay below the waist; a hit is a stretch, jail, or switch — never sitting the period out."
+        "look": "Hits stay below the head; a hit is a stretch, jail, or switch, as the game says."
       },
       {
         "code": "Healthy Relationships",
@@ -2096,7 +2117,7 @@ window.DODGE_GAMES = [
       }
     ],
     "cues": [
-      "Opposite-foot step. Send below the waist.",
+      "Opposite-foot step. Send below the head.",
       "Eyes on the ball. Two-hand catch when you can.",
       "Move after you throw — do not stand in the same spot.",
       "A high ball is dead. Do not chase a person down.",
