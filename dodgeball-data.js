@@ -1070,7 +1070,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Character Development",
-        "look": "Honest about a hit; leaves the court when their throw is caught."
+        "look": "Honest about a hit; plays on after a catch."
       },
       {
         "code": "Safety",
