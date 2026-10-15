@@ -1044,7 +1044,6 @@ window.DODGE_GAMES = [
       "If the ball hits you below the knee, stretch outside the ring 10 seconds, then join the wait line.",
       "A catch is allowed. After a catch, you may strike.",
       "Rotate so the wait line is short.",
-      "A catch is a save. The thrower is out.",
       "A hit below the knee is a stretch, a clinic, a jail, or a switch, as this game says.",
       "Play 4–6 minute periods and change the key role (medic, jail catcher, captain) each period."
     ],
