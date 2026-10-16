@@ -4772,7 +4772,8 @@ window.VIDEO_INDEX = {
    "channel": "Daly Exercise",
    "about": "",
    "games": [
-    "Four Corners / Guess Who"
+    "Four Corners / Guess Who",
+    "Plan B links"
    ],
    "month": "February",
    "unit": "February · Ropes",
@@ -4820,7 +4821,7 @@ window.VIDEO_INDEX = {
     },
     {
      "page": "weekly",
-     "label": "Weekly plan Oct 13–16 2026 · Parachute Week 7: Four Corners / Guess Who",
+     "label": "Weekly plan Oct 13–16 2026 · Parachute Week 7: Four Corners / Guess Who / Plan B links",
      "href": "weekly-plans.html#plan-pe-weekly-plan-oct-13-16-2026-parachute-week-7"
     }
    ],
