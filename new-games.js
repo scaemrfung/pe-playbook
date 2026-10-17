@@ -40,6 +40,8 @@
     var months = [g.suggestedMonth || g.unit].concat(g.alsoFits || []).filter(function (m, i, a) { return m && U[m] && a.indexOf(m) === i; });
     var when = "<strong>Suggested month:</strong> " + (months.length ? months.map(function (m, i) { return (i === 1 ? " · also fits " : i > 1 ? ", " : "") + '<a href="' + esc(U[m].href) + '">' + esc(m) + "</a>"; }).join("") : "Anytime") +
       " · <strong>Slot:</strong> " + esc(g.slot || "—") + (g.grouping ? " · " + esc(g.grouping) : "");
+    var fitLine = g.bestBand ? '<p class="meta ng-fit"><strong>Grades:</strong> ' + esc(g.grades) + (g.gradesFrom === "doc" ? "" : " (est.)") +
+      " · <strong>Best fit:</strong> " + esc(bestFitText(g)) + "</p>" : "";
     var vids = g.videos || [];
     var videoHtml = vids.length
       ? '<p class="yt"><strong>Video.</strong> ' + vids.map(function (v) {
@@ -59,6 +61,7 @@
     var more = '<details class="peg"><summary><strong>More details</strong> <span class="meta">· Grades ' + grades + "</span></summary>\n      " +
       '<p class="meta"><strong>Equipment:</strong> ' + esc(g.equipment || "") + "</p>" +
       "<p>" + esc(g.desc) + (notes ? " " + notes + "." : "") + "</p>" +
+      (g.bandWhy ? '<p class="meta"><strong>Why Grades ' + esc(g.bestBand) + ":</strong> " + esc(g.bandWhy) + "</p>" : "") +
       (overview ? '<p class="meta">' + esc(overview) + "</p>" : "") +
       (moreLinks.length ? '<p class="meta">' + moreLinks.join(" · ") + "</p>" : "") + "</details>";
     var outs = g.outcomes || [];
@@ -72,12 +75,12 @@
       : "";
     var safety = (g.stayIn ? "" : "Adapt: " + (g.flag || "see the notes") + ". ") + (g.safety || "") + (g.safetyTail ? " " + g.safetyTail : "");
     var hay = [g.name, (g.oldNames || []).join(" "), (g.aka || []).join(" "), g.desc, g.sports, g.section, g.typeLabel, g.equipment, (g.how || []).join(" "), (g.variations || []).join(" "), (g.cues || []).join(" "), g.unit, g.source].join(" ").toLowerCase();
-    return '<article class="gcard ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.suggestedMonth || g.unit) + '" data-type="' + esc(g.typeLabel || typeLabel(g.section)) + '" data-hay="' + esc(hay) + '">' +
+    return '<article class="gcard ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.suggestedMonth || g.unit) + '" data-type="' + esc(g.typeLabel || typeLabel(g.section)) + '" data-band="' + esc(g.bestBand || "") + '" data-bands="' + esc(bandsOf(g).join(" ")) + '" data-hay="' + esc(hay) + '">' +
       (g.aliases || []).map(function (x) { return '<span id="' + esc(x) + '"></span>'; }).join("") +
       '<div class="ghead"><h3>' + (opts.num ? esc(opts.num) + ". " : "") + esc(g.name) + "</h3>" +
       '<span class="src">' + esc(g.typeLabel || typeLabel(g.section)) + "</span></div>" +
       (opts.isNew ? '<p class="meta ng-newtag"><strong>New this week</strong></p>' : "") +
-      '<p class="meta">' + when + "</p>" +
+      '<p class="meta">' + when + "</p>" + fitLine +
       "<p>" + esc(g.desc) + "</p>" +
       ((g.aka || []).length ? '<p class="meta"><strong>Also called:</strong> ' + g.aka.map(esc).join(" · ") + "</p>" : "") +
       '<p class="meta"><strong>Equipment:</strong> ' + esc(g.equipment || "") + "</p>" +
@@ -125,11 +128,17 @@
     order.sort().reverse();
     return order.map(function (d) { return { date: d, label: fmtLongDate(d), games: by[d] }; });
   }
+  var BANDS = ["1–2", "3–4", "5–6"];
+  function bandsOf(g) { return [g.bestBand].concat(g.alsoBand ? [g.alsoBand] : []).filter(Boolean); }
+  function bestFitText(g) {
+    if (!g.bestBand) return "";
+    return "Grades " + g.bestBand + (g.bandEst ? " (est.)" : "") + (g.alsoBand ? ", also good for " + g.alsoBand : "");
+  }
   function monthOrder(data) { return (data.units || []).map(function (u) { return u.month; }); }
   function suggested(g) { return g.suggestedMonth || g.unit || ""; }
 
   function render(data, view) {
-    view = view === "type" || view === "month" ? view : "week";
+    view = view === "type" || view === "month" || view === "grade" ? view : "week";
     var games = data.games || [];
     var weeks = data.weeks || [];
     var latest = weeks[0];
@@ -183,6 +192,30 @@
           list.map(function (g) { return card(g, data, { isNew: false, num: num[g.id] }); }).join("") +
           "</details>");
       });
+    } else if (view === "grade") {
+      // by best-fit grade: every game once, under the band it suits best; games whose second band is this one are linked under the list
+      var isNew = {};
+      latestGames.forEach(function (g) { isNew[g.id] = 1; });
+      var mo = monthOrder(data);
+      out.push('<p class="meta ng-grade-note">Each game is listed once, under the grades it suits best. The card still shows its full grade range. Games that also work well for a grade are linked under that list.</p>');
+      BANDS.forEach(function (b) {
+        var list = games.filter(function (g) { return g.bestBand === b; });
+        list.sort(function (x, y) {
+          var tx = x.typeLabel || "", ty = y.typeLabel || "";
+          if (tx !== ty) return tx < ty ? -1 : 1;
+          var i = mo.indexOf(suggested(x)), j = mo.indexOf(suggested(y));
+          if (i !== j) return i - j;
+          return (x.order || 0) - (y.order || 0);
+        });
+        var also = games.filter(function (g) { return g.alsoBand === b; });
+        out.push('<section class="ng-week-block ng-group" id="grade-' + b.replace(/\D+/g, "-") + '" data-group="' + esc(b) + '">');
+        out.push('<h2 class="ng-h">Grades ' + esc(b) + ' <span class="ng-count">' + list.length + "</span></h2>");
+        out.push('<ul class="ng-toc">' + list.map(function (g) { return '<li><a href="#' + esc(g.id) + '">' + esc(g.name) + "</a></li>"; }).join("") + "</ul>");
+        if (also.length) out.push('<p class="meta ng-also"><strong>Also good for Grades ' + esc(b) + ":</strong> " + also.map(function (g) {
+          return '<a href="#' + esc(g.id) + '">' + esc(g.name) + "</a> (best fit " + esc(g.bestBand) + ")"; }).join(" · ") + "</p>");
+        out.push(list.map(function (g) { return card(g, data, { isNew: !!isNew[g.id], num: "" }); }).join(""));
+        out.push("</section>");
+      });
     } else {
       // grouped views: every game once, under a type heading or a month heading
       var isLatest = {};
@@ -228,7 +261,7 @@
     var el = document.getElementById("ng-root");
     if (!data || !el) return;
     var view = "week";
-    try { var qv = new URLSearchParams(location.search).get("view"); if (qv === "type" || qv === "month") view = qv; } catch (e) {}
+    try { var qv = new URLSearchParams(location.search).get("view"); if (qv === "type" || qv === "month" || qv === "grade") view = qv; } catch (e) {}
     var upd = document.getElementById("ng-updated");
     if (upd) upd.innerHTML = lastUpdatedLine(data);
     el.innerHTML = render(data, view);
@@ -239,7 +272,10 @@
     var count = document.getElementById("ng-count");
     if (!tools) return;
     tools.hidden = false;
-    var unit = "all", type = "all";
+    var unit = "all", type = "all", band = "all";
+    var gbox = document.getElementById("ng-grade-filters");
+    if (gbox) gbox.innerHTML = '<button type="button" data-band="all" class="on">All grades</button>' +
+      BANDS.map(function (b) { return '<button type="button" data-band="' + esc(b) + '">Gr ' + esc(b) + "</button>"; }).join("");
     var used = {};
     (data.games || []).forEach(function (g) { var m = g.suggestedMonth || g.unit; used[m] = (used[m] || 0) + 1; });
     var types = [];
@@ -252,11 +288,12 @@
       }).join("");
     function apply() {
       var term = (q.value || "").toLowerCase().trim();
-      var filtering = term || unit !== "all" || type !== "all";
+      var filtering = term || unit !== "all" || type !== "all" || band !== "all";
       var shown = 0;
       var seen = {};
       el.querySelectorAll(".ng-card").forEach(function (c) {
-        var ok = (!term || c.getAttribute("data-hay").indexOf(term) >= 0) && (unit === "all" || c.getAttribute("data-unit") === unit) && (type === "all" || c.getAttribute("data-type") === type);
+        var ok = (!term || c.getAttribute("data-hay").indexOf(term) >= 0) && (unit === "all" || c.getAttribute("data-unit") === unit) && (type === "all" || c.getAttribute("data-type") === type) &&
+          (band === "all" || (" " + (c.getAttribute("data-bands") || "") + " ").indexOf(" " + band + " ") >= 0);
         c.hidden = !ok;
         if (ok && !seen[c.id]) { seen[c.id] = 1; shown++; }
       });
@@ -266,6 +303,8 @@
         if (b.tagName === "DETAILS" && filtering && any) b.open = true;
         var toc = b.querySelector(".ng-toc");
         if (toc) toc.hidden = !!filtering;
+        var al = b.querySelector(".ng-also");
+        if (al) al.hidden = !!filtering;
       });
       var arch = document.getElementById("archive");
       count.textContent = filtering ? shown + " matching game" + (shown === 1 ? "" : "s") : "";
@@ -273,7 +312,7 @@
     }
     var vbox = document.getElementById("ng-view-filters");
     if (vbox) {
-      vbox.innerHTML = [["week", "By week added"], ["type", "By type"], ["month", "By month"]].map(function (v) {
+      vbox.innerHTML = [["week", "By week added"], ["type", "By type"], ["month", "By month"], ["grade", "By grade"]].map(function (v) {
         return '<button type="button" data-view="' + v[0] + '"' + (v[0] === view ? ' class="on"' : "") + ">" + v[1] + "</button>";
       }).join("");
       vbox.addEventListener("click", function (e) {
@@ -292,6 +331,13 @@
       if (!b) return;
       unit = b.getAttribute("data-unit");
       box.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
+      apply();
+    });
+    if (gbox) gbox.addEventListener("click", function (e) {
+      var b = e.target.closest("button[data-band]");
+      if (!b) return;
+      band = b.getAttribute("data-band");
+      gbox.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
       apply();
     });
     if (tbox) tbox.addEventListener("click", function (e) {

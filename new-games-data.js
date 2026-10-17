@@ -224,7 +224,10 @@ window.NEW_GAMES = {
    "variations": [
     "Soccer month: knock down with a dribbled ball touch.",
     "Add a locomotor rule (skip, gallop) between cones."
-   ]
+   ],
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Two jobs (knock down or stand up) and the teacher does the count."
   },
   {
    "id": "the-food-chain",
@@ -322,6 +325,9 @@ window.NEW_GAMES = {
    "variations": [
     "Use sport-themed levels (dribble → pass → shoot → score)."
    ],
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Players must remember the levels and the moves, and win or lose rock, paper, scissors calmly.",
    "safety": "Leave a hoop of space around you. Walk-freeze first, then speed up."
   },
   {
@@ -421,6 +427,9 @@ window.NEW_GAMES = {
     "Groups make the number shape together.",
     "Hold the shape on one foot."
    ],
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Travel and freeze in a number shape; older grades add number sums.",
    "safety": "Leave a hoop of space around you. Walk-freeze first, then speed up."
   },
   {
@@ -533,7 +542,9 @@ window.NEW_GAMES = {
    "variations": [
     "Freeze in a balance.",
     "Freeze mirroring a partner."
-   ]
+   ],
+   "bestBand": "1–2",
+   "bandWhy": "One rule: move to the music, freeze when it stops."
   },
   {
    "id": "plant-the-trees",
@@ -631,6 +642,9 @@ window.NEW_GAMES = {
     "Switch roles.",
     "Add a ball: must dribble to each cone."
    ],
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Same simple two-job game as Knock ’em Downers; add dribbling for older grades.",
    "safety": "Leave a hoop of space around you. Walk-freeze first, then speed up."
   },
   {
@@ -728,6 +742,9 @@ window.NEW_GAMES = {
    "variations": [
     "Students lead a pose."
    ],
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Calm, teacher-led poses with no rules to learn.",
    "safety": "Leave a hoop of space around you. Walk-freeze first, then speed up."
   },
   {
@@ -827,7 +844,10 @@ window.NEW_GAMES = {
    "safety": "All run the same direction; crawl slowly through legs.",
    "variations": [
     "Call a travel style (skip, gallop)."
-   ]
+   ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Partner roles, a fast lap and a crawl through legs need good listening and body control."
   },
   {
    "id": "dance-code",
@@ -925,6 +945,9 @@ window.NEW_GAMES = {
     "Students memorise and perform the code to the beat.",
     "Groups write their own code for another group to perform."
    ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Students remember letter codes and build longer moves; groups write their own.",
    "safety": "Leave a hoop of space around you. Walk-freeze first, then speed up."
   },
   {
@@ -1023,7 +1046,10 @@ window.NEW_GAMES = {
     "Freeze on the whistle in a matching shape.",
     "Pairs combine two calls into a short sequence."
    ],
-   "safety": "Backward travel slowly with eyes over the shoulder."
+   "safety": "Backward travel slowly with eyes over the shoulder.",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Students mix two ideas (level and direction) and invent their own way to travel."
   },
   {
    "id": "hoop-run-spin",
@@ -1134,7 +1160,10 @@ window.NEW_GAMES = {
     "Add a locomotor rule for the swap (side-gallop, skip) once catching is reliable.",
     "Challenge: how many successful catches in a row before a drop.",
     "Grades 5–6: start farther apart or add a 360 turn during the swap."
-   ]
+   ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Spin timing, a swap and a catch at the same time is hard for the youngest."
   },
   {
    "id": "say-my-name-rock-paper-scissors",
@@ -1217,7 +1246,10 @@ window.NEW_GAMES = {
     "The other partner does 3 jumping jacks before moving on.",
     "Best of three for older grades."
    ],
-   "safety": "Walk or skip with eyes up; no running into the centre of the room to find partners. Keep hands in your own space when you play. Stop signal: one whistle, freeze and face the teacher."
+   "safety": "Walk or skip with eyes up; no running into the centre of the room to find partners. Keep hands in your own space when you play. Stop signal: one whistle, freeze and face the teacher.",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "A simple meet-and-greet mixer with walking and names."
   },
   {
    "id": "freeze-formation",
@@ -1301,7 +1333,10 @@ window.NEW_GAMES = {
     "Students suggest the next formation.",
     "Hold the frozen shape at a low, middle or high level."
    ],
-   "safety": "Eyes up and soft landings. No diving or grabbing to join a formation. Stop signal: one whistle, freeze and face the teacher."
+   "safety": "Eyes up and soft landings. No diving or grabbing to join a formation. Stop signal: one whistle, freeze and face the teacher.",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Students make the right group size and shape on a call; younger grades use pairs and circles."
   },
   {
    "id": "emotion-dance",
@@ -1380,7 +1415,9 @@ window.NEW_GAMES = {
     "Change the level (high, middle, low) for each emotion.",
     "Partners guess the emotion the other is showing."
    ],
-   "safety": "Stay in your own space; no contact. Stop signal: one whistle, freeze and face the teacher."
+   "safety": "Stay in your own space; no contact. Stop signal: one whistle, freeze and face the teacher.",
+   "bestBand": "1–2",
+   "bandWhy": "Free movement with no right answer; fits the youngest best."
   },
   {
    "id": "mooshake",
@@ -1466,7 +1503,10 @@ window.NEW_GAMES = {
     "Use a soft ball instead of a stuffy.",
     "Pass in order around the circle, then across."
    ],
-   "safety": "Soft underhand passes only; eyes on the object. Stop signal: one whistle, freeze and hold the cow."
+   "safety": "Soft underhand passes only; eyes on the object. Stop signal: one whistle, freeze and hold the cow.",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Library lists K–3; soft tosses and hand-offs in a circle."
   },
   {
    "id": "turtle-tag",
@@ -1563,7 +1603,10 @@ window.NEW_GAMES = {
     "Tagged players do 3 jumping jacks, then back in.",
     "Switch taggers often."
    ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
+   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out.",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "One simple safe rule (turtle on your back) and noodle tags."
   },
   {
    "id": "bakery-run-tag",
@@ -1660,7 +1703,10 @@ window.NEW_GAMES = {
     "Tagged players go to the hospital for a stretch, then back (or join the bakers for one round).",
     "Swap bakers often."
    ],
-   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out."
+   "safety": "Soft two-finger or noodle tags below the shoulders. Nobody sits out.",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "A story call and running between corner mats; library lists K–5."
   },
   {
    "id": "crab-tag",
@@ -1757,7 +1803,10 @@ window.NEW_GAMES = {
     "Tagged players become crab taggers until everyone is a crab tagger.",
     "Restart with new taggers."
    ],
-   "safety": "Short rounds (wrists tire). Gentle foot taps only."
+   "safety": "Short rounds (wrists tire). Gentle foot taps only.",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Crab walking takes arm strength, and the taggers grow each round."
   },
   {
    "id": "predators-and-prey-tag",
@@ -1843,7 +1892,10 @@ window.NEW_GAMES = {
     "Pronghorn carry a beanbag “food” to a hoop at the far end for team points.",
     "Safe zones (spot markers) for 3 seconds only."
    ],
-   "safety": "Boundaries 2 m from the walls and stage. Two-finger tags only, no pushing or grabbing clothes. Wolves keep the hoop low (waist height). Stop signal: one whistle means freeze, hands on knees, eyes on the teacher."
+   "safety": "Boundaries 2 m from the walls and stage. Two-finger tags only, no pushing or grabbing clothes. Wolves keep the hoop low (waist height). Stop signal: one whistle means freeze, hands on knees, eyes on the teacher.",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Several roles (bear, wolf pair with a hoop, prey) and an exercise mat to track."
   },
   {
    "id": "four-corner-tag",
@@ -1928,7 +1980,10 @@ window.NEW_GAMES = {
     "Change direction on a double whistle.",
     "Add a third team with a third noodle."
    ],
-   "safety": "Short soft noodles only; tag below the shoulders, no swinging. Corners at least 3 m from the walls. Waiting lines stand back from the running path. Stop signal: one whistle, runners freeze and lower the noodle."
+   "safety": "Short soft noodles only; tag below the shoulders, no swinging. Corners at least 3 m from the walls. Waiting lines stand back from the running path. Stop signal: one whistle, runners freeze and lower the noodle.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Relay hand-offs and choosing when to switch runners; no Grade 1–2 notes."
   },
   {
    "id": "fishbowl-tag",
@@ -2008,7 +2063,10 @@ window.NEW_GAMES = {
     "Change the travel (skip, gallop, side-step) each round.",
     "Add a second tagger for a bigger class."
    ],
-   "safety": "Soft foam tag stick only; tags below the shoulders. Keep the fishbowl clear of the running path. Stop signal: one whistle, freeze and face the teacher."
+   "safety": "Soft foam tag stick only; tags below the shoulders. Keep the fishbowl clear of the running path. Stop signal: one whistle, freeze and face the teacher.",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Library lists K–4; one tagger and an easy cone-flip task to rejoin."
   },
   {
    "id": "foosball-soccer",
@@ -2099,6 +2157,9 @@ window.NEW_GAMES = {
     "Break the line (drop the noodle link) = turnover to the other team.",
     "Rotate rows so everyone plays forward and back."
    ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Rows must stay linked and move sideways while they kick; needs teamwork.",
    "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
@@ -2196,6 +2257,9 @@ window.NEW_GAMES = {
     "After a touch or 45 seconds, rotate a new defender in.",
     "Count passes before an interception."
    ],
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Keep-away passing that uses space and timing (tactics).",
    "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
@@ -2286,6 +2350,9 @@ window.NEW_GAMES = {
     "Roll again quickly so groups overlap.",
     "Change the dribble skill each round."
    ],
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Ball dribbling with one simple number rule.",
    "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
@@ -2373,7 +2440,10 @@ window.NEW_GAMES = {
     "Tagged dribblers go back to their half and restart.",
     "Rotate defenders."
    ],
-   "safety": "Soft balls, spread out. Heads up when the ball is loose."
+   "safety": "Soft balls, spread out. Heads up when the ball is loose.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Dribbling and shooting under pressure from defenders."
   },
   {
    "id": "football-frenzy",
@@ -2455,7 +2525,10 @@ window.NEW_GAMES = {
     "Play without the net and use a centre line instead.",
     "Every player must make one catch before the basket counts."
    ],
-   "safety": "Soft foam footballs and soft bean-bag slides only; tag feet with the bean bag, not hands. Keep the space under the net clear. Stop signal: one whistle, balls and bean bags down."
+   "safety": "Soft foam footballs and soft bean-bag slides only; tag feet with the bean bag, not hands. Keep the space under the net clear. Stop signal: one whistle, balls and bean bags down.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "A multi-step sequence (slide, run, pass, catch) and team scoring."
   },
   {
    "id": "perfect-pass-the-perfect-pass",
@@ -2554,6 +2627,9 @@ window.NEW_GAMES = {
     "Move the hoop farther after 3 successes.",
     "Rotate roles."
    ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Accurate passing to a target; the target moves back as students improve.",
    "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
@@ -2652,6 +2728,9 @@ window.NEW_GAMES = {
     "Add taggers or shrink the space.",
     "Switch to basketball or hockey dribble."
    ],
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Dribble around cones with one easy rule; add taggers for older grades.",
    "safety": "Soft balls, spread out, no slide tackles. Heads up when the ball is loose."
   },
   {
@@ -2747,7 +2826,10 @@ window.NEW_GAMES = {
     "Score by catching in the end zone.",
     "Dropped or intercepted = turnover."
    ],
-   "safety": "Spread out. Heads up when the disc is loose."
+   "safety": "Spread out. Heads up when the disc is loose.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Disc throwing, no running with the disc, and moving to open space."
   },
   {
    "id": "eagles-vs-seahawks",
@@ -2846,7 +2928,10 @@ window.NEW_GAMES = {
     "Return fish to your team’s nest.",
     "Most fish in the nest wins; switch roles."
    ],
-   "safety": "Spread out."
+   "safety": "Spread out.",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Library lists K–4; a simple chase to carry beanbag fish home."
   },
   {
    "id": "collect-em-all",
@@ -2942,7 +3027,10 @@ window.NEW_GAMES = {
     "Keep holding the hoop the whole time.",
     "Most balls at the end wins."
    ],
-   "safety": "Soft balls, spread out. Heads up when the ball is loose."
+   "safety": "Soft balls, spread out. Heads up when the ball is loose.",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "A team of 4–5 moves together holding a hoop and kicks with their feet only."
   },
   {
    "id": "flasketball",
@@ -3028,7 +3116,10 @@ window.NEW_GAMES = {
     "Score into a hoop on the floor instead of a basket.",
     "All players on a team must receive a pass before that team scores twice."
    ],
-   "safety": "Defend with arms up, one arm's length away; no contact or stripping the ball. No shots while a defender is directly under the hoop. The waiting team stays behind the wall station line. Stop signal: whistle, ball holder freezes, everyone freezes."
+   "safety": "Defend with arms up, one arm's length away; no contact or stripping the ball. No shots while a defender is directly under the hoop. The waiting team stays behind the wall station line. Stop signal: whistle, ball holder freezes, everyone freezes.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Pass-only rules and 1, 2 or 3 point zones."
   },
   {
    "id": "skip-rope-net-3v3",
@@ -3115,6 +3206,9 @@ window.NEW_GAMES = {
     "Rotate the net holder every point.",
     "Keep score as rally count or points."
    ],
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Bump and set rallies, rotations and keeping score.",
    "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
@@ -3219,7 +3313,10 @@ window.NEW_GAMES = {
     "Every rally must use one set and one bump.",
     "Play over a low net in pairs."
    ],
-   "safety": "Keep groups at least 3 m apart. Do not chase a ball into another group; call “ball” and wait. Stop signal: whistle, catch or hold the ball, eyes on the teacher."
+   "safety": "Keep groups at least 3 m apart. Do not chase a ball into another group; call “ball” and wait. Stop signal: whistle, catch or hold the ball, eyes on the teacher.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Volleyball bumps and sets in a row; younger grades use beach balls."
   },
   {
    "id": "hoop-collect-set-volley",
@@ -3306,6 +3403,9 @@ window.NEW_GAMES = {
     "Collect as many as possible in the time.",
     "Rotate positions."
    ],
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Sets and volleys passed down a line need control.",
    "safety": "Lanes wide apart; stop at the cone, no diving for the finish."
   },
   {
@@ -3402,6 +3502,9 @@ window.NEW_GAMES = {
     "Miss the hoop = your partner’s point.",
     "Play to 7; switch partners."
    ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Partners keep their own score to 7 with a bounce and palm slap.",
    "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
@@ -3498,7 +3601,10 @@ window.NEW_GAMES = {
     "Win a rally at Close, move to Challenge, then Championship.",
     "Rotate groups."
    ],
-   "safety": "Soft balls only."
+   "safety": "Soft balls only.",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Striking with a paddle and three distances to move through."
   },
   {
    "id": "air-hockey-cone-puck",
@@ -3594,7 +3700,10 @@ window.NEW_GAMES = {
     "Play to 5, switch partners.",
     "Try off-hand only."
    ],
-   "safety": "Throw at targets, not people, and only from the line."
+   "safety": "Throw at targets, not people, and only from the line.",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "A simple partner game; slide the cone and keep score to 5."
   },
   {
    "id": "bullseye",
@@ -3687,6 +3796,9 @@ window.NEW_GAMES = {
     "Retrieve tennis balls from your side only.",
     "Most balls on the other side wins."
    ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Throwing at targets with simple rules.",
    "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
@@ -3774,7 +3886,10 @@ window.NEW_GAMES = {
     "Retrieve and rotate.",
     "Try non-dominant hand."
    ],
-   "safety": "Throw at targets, not people, and only from the line."
+   "safety": "Throw at targets, not people, and only from the line.",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Library lists K–3; underhand tosses into buckets."
   },
   {
    "id": "hoop-hut-knock-down",
@@ -3882,6 +3997,9 @@ window.NEW_GAMES = {
     "Rebuild and repeat.",
     "Most knockdowns in the time wins."
    ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Teams build a standing hoop hut together, then throw or roll at it.",
    "safety": "Soft balls only. Throw at targets, not people, and only from the line."
   },
   {
@@ -3969,7 +4087,10 @@ window.NEW_GAMES = {
     "Each team gets one “repair” to stand a pin back up.",
     "Partner throws only."
    ],
-   "safety": "Soft balls only. Lob over the wall, never under it at players. No reaching under or around the parachute. Keep 1 m clear of the net standards. Stop signal: one whistle, balls down, hands on heads."
+   "safety": "Soft balls only. Lob over the wall, never under it at players. No reaching under or around the parachute. Keep 1 m clear of the net standards. Stop signal: one whistle, balls down, hands on heads.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Teams plan where to hide their ships and lob balls over a high wall."
   },
   {
    "id": "4-ball-kickball",
@@ -4064,6 +4185,9 @@ window.NEW_GAMES = {
     "Runners advance as far as they can.",
     "Adapt outs: stretch then back in."
    ],
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Four balls at once means fielders make quick choices.",
    "safety": "Only the batter/kicker swings or kicks. Fielders stand well back and wait for GO."
   },
   {
@@ -4159,6 +4283,9 @@ window.NEW_GAMES = {
     "Fielders throw to home to stop runners.",
     "Adapt outs — no sit-outs."
    ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Kickball basics on six bases; library lists Grades 2–8.",
    "safety": "Only the batter/kicker swings or kicks. Fielders stand well back and wait for GO."
   },
   {
@@ -4254,7 +4381,10 @@ window.NEW_GAMES = {
     "Hit = immediate re-entry after a task.",
     "Swap inside/outside often."
    ],
-   "safety": "Large balls rolled or tossed low; immediate re-entry."
+   "safety": "Large balls rolled or tossed low; immediate re-entry.",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Big gym balls rolled at the middle; dodging and quick swaps."
   },
   {
    "id": "pace-lap",
@@ -4343,6 +4473,9 @@ window.NEW_GAMES = {
     "Adjust your pace and try again.",
     "Terry Fox run prep."
    ],
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Running at a set pace needs a good sense of time.",
    "safety": "Pick your own pace; water and rest are always allowed."
   },
   {
@@ -4438,6 +4571,9 @@ window.NEW_GAMES = {
     "Rotate mats.",
     "Harder cards for older grades."
    ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Group problem solving on a mat; harder cards for older grades.",
    "safety": "Move at a speed the group can control. Ask before any partner lift or shape."
   },
   {
@@ -4533,7 +4669,10 @@ window.NEW_GAMES = {
     "Hand off at the cone.",
     "First team to finish wins."
    ],
-   "safety": "Clear lanes; one person on a mat at a time."
+   "safety": "Clear lanes; one person on a mat at a time.",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "One simple job in a relay lane."
   },
   {
    "id": "bull-chasers",
@@ -4628,6 +4767,9 @@ window.NEW_GAMES = {
     "Chasers may only tag after the snatch.",
     "Rotate lines each round."
    ],
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "A reaction chase with a timing rule (tag only after the grab).",
    "safety": "Pick your own pace; water and rest are always allowed."
   },
   {
@@ -4723,6 +4865,9 @@ window.NEW_GAMES = {
     "Then bring it back cone by cone.",
     "First team finished wins."
    ],
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Carry a ball cone to cone; easy to learn.",
    "safety": "Lanes wide apart; stop at the cone, no diving for the finish."
   },
   {
@@ -4818,6 +4963,9 @@ window.NEW_GAMES = {
     "Chaser tries to tag before the finish line.",
     "Continuous lines; swap roles."
    ],
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Sprint starts and a head-start chase need speed control.",
    "safety": "Pick your own pace; water and rest are always allowed."
   },
   {
@@ -4918,7 +5066,10 @@ window.NEW_GAMES = {
     "Success? Try silver, then gold.",
     "Switch roles and try farther."
    ],
-   "safety": "Hold at the ankles, go slow, stop if wrists hurt."
+   "safety": "Hold at the ankles, go slow, stop if wrists hurt.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Needs arm strength and a partner holding ankles safely."
   },
   {
    "id": "pancake-relay",
@@ -5021,7 +5172,10 @@ window.NEW_GAMES = {
     "Use a soft foam racket or a flat board if tennis rackets are scarce.",
     "Add a second cone so runners weave, or swap the beanbag for a soft foam ball.",
     "Partner version: one holds the racket, the other coaches balance cues from the side of the lane."
-   ]
+   ],
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Walk while balancing a beanbag on a racket."
   },
   {
    "id": "post-the-parcel",
@@ -5124,7 +5278,10 @@ window.NEW_GAMES = {
     "Carry the ball on a racket for a pancake-style link, or dribble a soccer ball instead of carrying.",
     "Add a locomotor rule on the way out (skip) and a sprint on the way back.",
     "Make the cone farther for grades 5–6 once the place-and-pick is clean."
-   ]
+   ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "A swap task at the cone, then a sprint back."
   },
   {
    "id": "zone-tag",
@@ -5230,7 +5387,10 @@ window.NEW_GAMES = {
     "Add a fifth or sixth zone for a bigger class, with one more tagger for each.",
     "Make the zone lines trickier: taggers may only move sideways, or must keep one foot on a spot.",
     "Let the class vote on the end-of-round challenge so it feels fun, not like a punishment."
-   ]
+   ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Taggers stay in their zone and swap jobs when they tag."
   },
   {
    "id": "mat-tag",
@@ -5331,7 +5491,10 @@ window.NEW_GAMES = {
     "Add a fitness task on each mat, such as 5 jumping jacks, before moving on.",
     "Baseball link: label the mats as first, second, third, and home, and call out a base to run to.",
     "Hand-tag only for younger classes or smaller spaces, with no balls."
-   ]
+   ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Bases and soft-ball tags thrown below the waist."
   },
   {
    "id": "capture-the-flag-relay",
@@ -5432,7 +5595,10 @@ window.NEW_GAMES = {
     "Catchers who step out of the hoop do not count the catch.",
     "Make the hoop spots closer for younger students or farther for grades 5–6.",
     "Set a target of 10 flags instead of 15 if time is short."
-   ]
+   ],
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Throw and catch to a hoop, rotating jobs and counting flags."
   },
   {
    "id": "jump-shot-handball",
@@ -5546,7 +5712,10 @@ window.NEW_GAMES = {
     "Add a second ball for Grades 5–6 once spacing is good.",
     "Play without goalies and use cone targets."
    ],
-   "safety": "Goals and arcs at least 2 m from the walls and stage. Soft ball only. No contact: defenders stay one arm's length away. Shots stay below shoulder height. Only the goalie stands in the goalie area. Jumpers take off and land on the flat floor, not on mats or tape edges. Waiting teams stay behind the wall-station line. Stop signal: teacher says \"Freeze\". Students stop, drop or hold the ball still, hands on knees, eyes on the teacher."
+   "safety": "Goals and arcs at least 2 m from the walls and stage. Soft ball only. No contact: defenders stay one arm's length away. Shots stay below shoulder height. Only the goalie stands in the goalie area. Jumpers take off and land on the flat floor, not on mats or tape edges. Waiting teams stay behind the wall-station line. Stop signal: teacher says \"Freeze\". Students stop, drop or hold the ball still, hands on knees, eyes on the teacher.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Full rules are for Grades 4–6; Grades 3–4 use the lead-up game."
   },
   {
    "id": "spin-the-pin-tag-cone-flip-mixer",
@@ -5678,7 +5847,10 @@ window.NEW_GAMES = {
     "Three-cone flip: flip a small cone into a larger upturned cone.",
     "Rock, paper, scissors replaces cone flip for a classroom or quiet version."
    ],
-   "safety": "Tag zones coned at least 2 m from walls, stage and the mat divider. Short soft noodles only; touch the back or shoulder, never the head; no swinging. Players stay inside their own zone. Cone-flip pairs spread out and flip low, away from faces. Walk between sides. Stop signal: teacher says \"Freeze\". Students stop, drop equipment, hands on knees, eyes on the teacher."
+   "safety": "Tag zones coned at least 2 m from walls, stage and the mat divider. Short soft noodles only; touch the back or shoulder, never the head; no swinging. Players stay inside their own zone. Cone-flip pairs spread out and flip low, away from faces. Walk between sides. Stop signal: teacher says \"Freeze\". Students stop, drop equipment, hands on knees, eyes on the teacher.",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Two activities at once and rotation rules to follow."
   },
   {
    "id": "fire-the-cannons",
@@ -5799,7 +5971,10 @@ window.NEW_GAMES = {
     "Moving targets: one student per team slides a hoop slowly along the floor (Grades 5–6, underhand throws only).",
     "Longer distance: move the throwing cones back 1 m after each round."
    ],
-   "safety": "Soft objects only, no hard balls. Throw only on \"Fire!\", one thrower per team at a time, and only at targets. Nobody passes the net until the teacher calls \"Collect\", and nobody throws until every collector is back. Throwing cones 3 m apart. Targets and the net standards padded or kept 2 m clear, and targets 2 m from the far wall. Stop signal: teacher says \"Freeze\". Students stop, drop objects, hands on knees, eyes on the teacher."
+   "safety": "Soft objects only, no hard balls. Throw only on \"Fire!\", one thrower per team at a time, and only at targets. Nobody passes the net until the teacher calls \"Collect\", and nobody throws until every collector is back. Throwing cones 3 m apart. Targets and the net standards padded or kept 2 m clear, and targets 2 m from the far wall. Stop signal: teacher says \"Freeze\". Students stop, drop objects, hands on knees, eyes on the teacher.",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Many throw types and point targets; full point values start at Grades 3–4."
   },
   {
    "id": "rope-hoop-scoop",
@@ -5918,7 +6093,10 @@ window.NEW_GAMES = {
     "Silent round: partners use only gestures.",
     "Obstacle path: carry the hoop around one cone before going home."
    ],
-   "safety": "Home cones at least 2 m from walls and stage, about 3 m apart. Ropes stay low and are never swung or wrapped around hands, wrists or necks. Walk while carrying. Look up between hoops so pairs do not walk into each other's ropes. Stop signal: teacher says \"Freeze\". Students stop, drop ropes to the floor, hands on knees, eyes on the teacher."
+   "safety": "Home cones at least 2 m from walls and stage, about 3 m apart. Ropes stay low and are never swung or wrapped around hands, wrists or necks. Walk while carrying. Look up between hoops so pairs do not walk into each other's ropes. Stop signal: teacher says \"Freeze\". Students stop, drop ropes to the floor, hands on knees, eyes on the teacher.",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Partners must lift and carry together; younger grades use groups of three."
   },
   {
    "id": "i-see-i-see-what-do-you-see",
@@ -6034,7 +6212,10 @@ window.NEW_GAMES = {
     "Two-part scene: \"I see a soccer player dribbling, then shooting.\"",
     "Partner mirror: one partner acts the scene, the other mirrors it."
    ],
-   "safety": "Arms-length personal space; no contact. Clear the area of loose equipment. Keep scenes on the spot or in a small personal area; no running across the room. Stop signal: teacher says \"Freeze\". Students stop, hands on knees, eyes on the teacher."
+   "safety": "Arms-length personal space; no contact. Clear the area of loose equipment. Keep scenes on the spot or in a small personal area; no running across the room. Stop signal: teacher says \"Freeze\". Students stop, hands on knees, eyes on the teacher.",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Call-and-response pretend play with no equipment."
   }
  ]
 };
