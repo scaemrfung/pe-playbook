@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-10-12",
- "lastUpdatedLabel": "Mon Oct 12, 2026",
+ "lastUpdated": "2026-10-17",
+ "lastUpdatedLabel": "Sat Oct 17, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -15,8 +15,8 @@ window.NEW_GAMES = {
   "lastUpdatedLabel": "Mon Oct 12, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
- "latestWeek": "2026-10-12",
- "docWeek": "2026-10-12",
+ "latestWeek": "2026-10-19",
+ "docWeek": "2026-10-19",
  "dedupe": {
   "excluded": 70,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
@@ -74,6 +74,13 @@ window.NEW_GAMES = {
   }
  ],
  "weeks": [
+  {
+   "key": "2026-10-19",
+   "label": "Week of Oct 19, 2026",
+   "count": 5,
+   "addedOn": "2026-10-17",
+   "addedOnLabel": "Sat Oct 17, 2026"
+  },
   {
    "key": "2026-10-12",
    "label": "Week of Oct 12, 2026",
@@ -5426,6 +5433,608 @@ window.NEW_GAMES = {
     "Make the hoop spots closer for younger students or farther for grades 5–6.",
     "Set a target of 10 flags instead of 15 if time is short."
    ]
+  },
+  {
+   "id": "jump-shot-handball",
+   "added": "2026-10-19",
+   "addedOn": "2026-10-17",
+   "name": "Jump Shot Handball",
+   "section": "Invasion / soccer–basketball–football",
+   "desc": "Pass-only team handball: one pass before a shot, a slow 3 seconds to pass or shoot, and attackers shoot from outside the arc (jump shots allowed if you take off before the line)",
+   "sports": "handball, invasion, basketball lead-up, gr 4–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=2laMBy7bRmw"
+   ],
+   "order": 57,
+   "unit": "December",
+   "suggestedMonth": "December",
+   "alsoFits": [
+    "January"
+   ],
+   "grades": "4–6",
+   "gradesFrom": "doc",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "4 teams of 6 (5 on court, 1 sub) · 4-minute games · 15–20 minutes",
+   "cues": [
+    "Pass and move to open space.",
+    "Show a target with your hands.",
+    "One-thousand-one, one-thousand-two, one-thousand-three: pass or shoot.",
+    "Take off before the line, shoot in the air, land on two feet.",
+    "Freeze on the whistle. Ball holder freezes too."
+   ],
+   "ifThis": [
+    "One player takes every shot: add a rule that three different players must touch the ball before a shot.",
+    "Defenders crowd the arc: no more than 3 defenders inside the arc at once.",
+    "Contact or ball stripping: free pass to the other team, and that defender restarts one arm's length away.",
+    "A shot goes high at the goalie: no goal, other team's ball, and remind everyone that shots stay below shoulder height."
+   ],
+   "roundEnds": "4-minute games. Rotate teams so everyone plays. Do not keep a league table.",
+   "tips": [
+    "Teach the three rules before the first game: one pass before a shot, the 3-second count, and attackers stay outside the arc.",
+    "Run a 3-minute passing drill first (pass, pivot, pass) so the game does not stop for travelling calls.",
+    "Shooting in the air: practise \"take off, catch your balance, land on two feet\" at the wall station before the game.",
+    "The Front Range clip uses gym mats around the arc. Cones or floor tape are safer for jump shots, because landings stay on the flat floor. If you use mats, lay them flat and well inside the arc so nobody lands on a mat edge.",
+    "Scoring: 1 point per goal. Optional: a goal from a jump shot counts 2 for Grades 5–6.",
+    "Supports and inclusion: Larger, softer ball; a 5-second count; a \"free pass\" rule where a player who has not touched the ball receives an unguarded pass; a role as sub-rotation leader or score keeper for a student who needs a movement break, with a return after one game. Model every rule with a walk-through before play.",
+    "Year plan: December, January. An invasion game for games month that also leads into basketball spacing and passing."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Passes and moves to open space; makes the pass-before-shot and 3-second decisions."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Defends one arm's length away with arms up and no contact."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Shoots below shoulder height; keeps out of the goalie area; freezes on the whistle."
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students examine and integrate tactics in a variety of physical activity contexts. [PDE3-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Not recommended as a game. Use the wall station only (two-hand pass to a target, catch with ready hands).",
+   "g34": "Lead-up: 4v4 with a larger foam ball, cone goals, no goalie and no jump shots. A slow 5-second count. Two passes before a shot.",
+   "g56": "Full rules. Jump shots allowed. Add the \"three different players touch it\" rule if one player dominates. Students referee the 3-second count from the sideline.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=2laMBy7bRmw",
+     "title": "The PE Game Teachers Are Using to Build Passing, Shooting & Teamwork",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "1 small soft ball per game (foam or gator-skin, about 15–18 cm); 4 portable goals, 2 side by side at each end (or 4 floor hockey nets, or cone goals 1.5 m wide); cones or floor tape to mark an arc about 6 m from each pair of goals (the basketball three-point line works); pinnies in 4 colours; 1 wall target (tape square) for the waiting teams",
+   "setup": "Use the basketball court. Put two goals side by side on each end line, at least 2 m in from the end wall. Mark the arc (the defensive zone) in front of each pair of goals with cones or tape. The free-throw lane is the goalie area. With 24 students, make 4 teams of 6. Two teams play while the other two practise passing and jump-shot form at a wall target beside the court, behind a waiting line, then rotate. If the gym fits two courts across its width, run two games at once with one goal at each end of each court.",
+   "how": [
+    "Each team puts 5 players on the court and 1 sub on the sideline. The sub swaps in after every goal.",
+    "One player per team is the goalie and stays in the free-throw lane. Nobody else enters the goalie area except to get a loose ball.",
+    "Move the ball only by passing and catching. No running with the ball. The player with the ball may pivot.",
+    "You have a slow 3 seconds to pass or shoot. Count it aloud: \"One-thousand-one, one-thousand-two, one-thousand-three.\" If time runs out, put the ball down. The other team takes it.",
+    "The ball must be passed once, player to player, before anyone can shoot. A pass from the goalie does not count.",
+    "Only defenders may stand inside the arc. Attackers shoot from outside it. For a jump shot, take off from outside the line and release the ball in the air.",
+    "Defenders guard the ball carrier from one arm's length, arms up to block passes and shots. No contact and no grabbing the ball.",
+    "A goal scores 1 point. The goalie restarts play with a pass from the goalie area.",
+    "Play 4-minute games, then rotate teams so the wall-station teams come on."
+   ],
+   "variations": [
+    "Every player on the court must touch the ball before a shot.",
+    "Shoot at a target zone only (low corners of the goal) for accuracy.",
+    "Add a second ball for Grades 5–6 once spacing is good.",
+    "Play without goalies and use cone targets."
+   ],
+   "safety": "Goals and arcs at least 2 m from the walls and stage. Soft ball only. No contact: defenders stay one arm's length away. Shots stay below shoulder height. Only the goalie stands in the goalie area. Jumpers take off and land on the flat floor, not on mats or tape edges. Waiting teams stay behind the wall-station line. Stop signal: teacher says \"Freeze\". Students stop, drop or hold the ball still, hands on knees, eyes on the teacher."
+  },
+  {
+   "id": "spin-the-pin-tag-cone-flip-mixer",
+   "added": "2026-10-19",
+   "addedOn": "2026-10-17",
+   "name": "Spin the Pin Tag & Cone Flip Mixer",
+   "section": "Tag (stay-in style)",
+   "desc": "Half the class plays Cone Flip Mixer in pairs. Win twice and you move to Spin the Pin Tag: the pin picks the tagger, who has 5 slow seconds to make a tag, and whoever loses the exchange goes back to cone flip",
+   "sports": "tag, reaction, agility, sub plan, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=IXEod6PIGQ4",
+    "https://www.youtube.com/watch?v=ZjCAGdS6GW0"
+   ],
+   "order": 58,
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "September",
+    "December"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "Whole class split in two areas · 2 tag groups of 4 plus cone-flip pairs · 10–15 minutes · good for sub days",
+   "cues": [
+    "Two upright flips, then go.",
+    "Spin, point, move.",
+    "Count it out loud: five to one.",
+    "Touch with the noodle, back or shoulder.",
+    "Freeze on the whistle, noodle down."
+   ],
+   "ifThis": [
+    "The pin lands between two players: spin again.",
+    "Taggers swing the noodle: that player hands the noodle back and goes to cone flip; remind \"touch, not swing\".",
+    "A tag zone has a line of players waiting: send the extra player to the other zone, or call a 30-second cone-flip-only round.",
+    "Pairs argue about a flip: rock, paper, scissors decides, then flip again."
+   ],
+   "roundEnds": "Continuous play for the set time (8–12 minutes). Freeze, then everyone does one final cone flip together.",
+   "tips": [
+    "Teach cone flip with the whole class first (2 minutes), then demo one tag exchange with four students while everyone watches.",
+    "Tape X's around each hoop so younger players start spaced out.",
+    "This is a routine game. Once a class knows it, a substitute can run it with one demo.",
+    "Related cards: Fishbowl Tag also uses a cone flip, but as a re-entry task. This game uses cone flip as a separate mixer.",
+    "Scoring: No score needed. Optional: students count their own cone-flip wins.",
+    "Supports and inclusion: Pair a student who needs support with a buddy who moves with them between sides. Offer a larger cone or a \"flip onto the mat counts\" rule. A student who needs a break can be the pin spinner for a zone for two turns, then rejoin. Use a picture card of the rotation at each side.",
+    "Year plan: October, September, December. A tag game and a sub-day game for any month."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Reacts to the pin, changes direction and speed to avoid the tag inside the zone."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Takes turns, follows the rotation, and moves between sides without being told."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Soft noodle touch on the back or shoulder; stays inside the zone; freezes on the whistle."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students demonstrate fair play and support engagement in a variety of physical activities. [PDE1-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students refine and apply spatial awareness across a variety of physical activity contexts. [PDE2-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students examine and demonstrate an understanding of structure in physical activity. [PDE6-OI2-GQ1-LO1]"
+    }
+   ],
+   "g12": "Teacher stands at the pin hoop and spins every time. Walk-tag only. Cone flip: one upright flip (or a flip onto a mat) moves you over. Tape X's at the hoop.",
+   "g34": "Full game. Jog-tag. Two upright flips to move over.",
+   "g56": "Full speed inside the zone. Tagger may call one \"freeze\" fake per turn. Students explain the rotation rules to a new player or to a substitute (Grade 6 structure look-for).",
+   "aka": [
+    "Spin the Pin Super Tag",
+    "Spin the Pin Cone Flip"
+   ],
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=IXEod6PIGQ4",
+     "title": "Zero Supervision PE Games That Actually Work",
+     "channel": "Front Range Physical Education"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ZjCAGdS6GW0",
+     "title": "This PE Game Runs Itself (Spin the Pin Reimagined)",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "2 bowling pins (or plastic bottles); 2 hoops; 2 short foam noodle tag sticks; 8–10 small cones for cone flip (one per pair, plus spares); a row of upright gym mats or a volleyball net to divide the gym; 8–12 boundary cones; optional tape X's for younger grades",
+   "setup": "Divide the gym in half with standing mats or the volleyball net. Cone-flip side: scatter pairs with one small cone each, well spaced. Tag side: cone two separate tag zones (each about the size of a volleyball half-court), at least 2 m from the walls and stage. Put one hoop with a pin lying in it in the centre of each zone, with one noodle beside each hoop. Start with 4 students in each tag zone (8 total) and the other 16 at cone flip (8 pairs).",
+   "how": [
+    "Cone flip side: partners take turns flipping their cone (toss it with one flick so it spins). The first player to land it standing upright twice wins.",
+    "The winner walks to the tag side and joins the tag zone that needs a player (the teacher points). The other player finds a new cone-flip partner.",
+    "Tag side: four players stand around the hoop. The newest player spins the pin.",
+    "When the pin stops, the player it points to is the tagger. They pick up the noodle while everyone else moves away inside the zone.",
+    "The tagger has 5 slow seconds to make a soft noodle tag on the back or shoulder. The group counts aloud: \"Five, four, three, two, one.\"",
+    "If the tagger makes a tag, the tagged player goes to the cone-flip side. If the tagger misses, the tagger goes to the cone-flip side instead.",
+    "The noodle goes back beside the hoop. The three who stay wait at the hoop for the next player from cone flip, who spins the pin.",
+    "Both sides run at the same time, nonstop."
+   ],
+   "variations": [
+    "Change the locomotor move on the tag side (skip, side-gallop, power walk).",
+    "Cone flip with the weaker hand only.",
+    "Three-cone flip: flip a small cone into a larger upturned cone.",
+    "Rock, paper, scissors replaces cone flip for a classroom or quiet version."
+   ],
+   "safety": "Tag zones coned at least 2 m from walls, stage and the mat divider. Short soft noodles only; touch the back or shoulder, never the head; no swinging. Players stay inside their own zone. Cone-flip pairs spread out and flip low, away from faces. Walk between sides. Stop signal: teacher says \"Freeze\". Students stop, drop equipment, hands on knees, eyes on the teacher."
+  },
+  {
+   "id": "fire-the-cannons",
+   "added": "2026-10-19",
+   "addedOn": "2026-10-17",
+   "name": "Fire the Cannons",
+   "section": "Target / throwing",
+   "desc": "Team lines throw over a chest-high net at point targets (hoop 1, tall cone 2, spot marker 5, bucket 10) on the teacher's \"Fire!\", then collect together, with a new type of throw each round",
+   "sports": "throwing, target, volleyball serve, football punt lead-up, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Prime",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=OLN_sGry3DI"
+   ],
+   "order": 59,
+   "unit": "December",
+   "suggestedMonth": "December",
+   "alsoFits": [
+    "May",
+    "March"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "4 teams of 6 in lines · 10–15 minutes · teacher calls every throw",
+   "cues": [
+    "Point, scratch your ear, step, throw.",
+    "Step with the opposite foot.",
+    "Follow through to your target.",
+    "Fire on the call. Collect on the call.",
+    "Freeze on the whistle, objects down."
+   ],
+   "ifThis": [
+    "Someone throws before \"Fire!\": that throw does not count; that player waits one turn.",
+    "A collector is still past the net: no \"Fire!\" until everyone is back. Count the collectors aloud.",
+    "Objects fly at people: switch the whole class to underhand only for the round.",
+    "Lines get long and slow: add a fifth cone and team, or move targets closer so more throws score."
+   ],
+   "roundEnds": "One round = every player in each line has one turn with the round's object. Then change the throw.",
+   "tips": [
+    "Demo each throw before its round with the three cues: ready, step, follow through.",
+    "Put the 10-point buckets at the farthest distance so younger students aim at closer targets first.",
+    "The \"Fire!\" / \"Collect\" calls are the safety routine. Practise them once with no objects.",
+    "Related cards: Coconut Knockdown and Hidden Fleet are also throwing games. This one stands out for its point zones and the change of sending skill each round.",
+    "Scoring: Teams keep a running total and try to beat their own score from the last round. Optional: Grades 5–6 add their points mentally and report the total.",
+    "Supports and inclusion: Let a student choose a closer throwing spot (a spot marker 1 m in front of the cone). Offer a larger target (a bin instead of a bucket) or a larger, lighter object. A student who cannot throw over the net may roll under a raised section of the net or a gap to the hoops. A visual card of the three throwing cues can sit at each cone.",
+    "Year plan: December, May, March. A games-month target game that also previews throwing for track (May) and underhand serving for volleyball (March)."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the ready position, an opposite-foot step and a follow-through toward the target."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Changes the force and type of throw to suit the object and the target distance."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Throws only on \"Fire!\", collects only on \"Collect\"."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students demonstrate how movement can support different types of physical activity. [PDE1-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Beanbags and large foam balls only. Throwing line 2 m from a low net (or a rope at 1 m). Targets 1–4 m past the net. Underhand and two-hand overhead only. Hoops can be worth 1 point and everything else 2 points.",
+   "g34": "Add the overhand throw, disc and underhand serve. Full point values. Teams set a target score before each round.",
+   "g56": "Add the punt and the bounce-and-kick. Called targets for double points. Students coach one cue to the next thrower.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=OLN_sGry3DI",
+     "title": "Fire the Cannons: a PE throwing skills game",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "Volleyball net lowered to about 1–1.2 m (or a rope between two standards); 4 throwing cones (one per team); targets on the far side: 8 hoops (1 point), 6 tall cones (2 points), 6 spot markers (5 points), 4 buckets or bins (10 points); per team, a set of soft throwables: 2 beanbags, 1 foam ball, 1 tennis ball, 1 foam football, 1 soft flying disc, 1 soft volleyball or trainer ball; tally sheet or whiteboard",
+   "setup": "Set the net across the gym. Put 4 throwing cones in a row about 3–4 m from the net, at least 3 m apart. Each team lines up behind its cone. Scatter the targets 2–8 m beyond the net. Put the hoops closest, then tall cones, spot markers, and buckets farthest. Keep all targets at least 2 m from the far wall.",
+   "how": [
+    "The first player in each line steps up to the throwing cone with the team's object for that round.",
+    "Ready position: \"Point to your target, scratch your ear with the ball, wait for my call.\"",
+    "The teacher calls \"Fire!\" All four throwers send their object over the net at a target.",
+    "Score: lands in a hoop = 1, knocks or hits a tall cone = 2, lands on a spot marker = 5, lands in a bucket = 10. The thrower calls their score; a teammate records it.",
+    "The teacher calls \"Collect.\" Only the four throwers go under or around the net, fetch their object, return, and hand it to the next player. They then go to the back of the line.",
+    "The teacher calls \"Fire!\" again only when every collector is back behind the throwing line.",
+    "Every round, the teacher names a new way to fire the cannon: Beanbag: underhand throw (swing back, point, step, follow through). Large foam ball: two-hand overhead throw. Tennis ball or foam football: overhand throw (opposite-foot step). Soft disc: backhand fling. Soft volleyball: underhand serve (fist, swing straight through). Foam football: drop punt. Foam soccer ball: bounce and kick (Grades 3–6)."
+   ],
+   "variations": [
+    "Target choice: before throwing, call the target you are aiming for; a called hit doubles the points.",
+    "Team goal: reach 50 points as a class across all four teams.",
+    "Moving targets: one student per team slides a hoop slowly along the floor (Grades 5–6, underhand throws only).",
+    "Longer distance: move the throwing cones back 1 m after each round."
+   ],
+   "safety": "Soft objects only, no hard balls. Throw only on \"Fire!\", one thrower per team at a time, and only at targets. Nobody passes the net until the teacher calls \"Collect\", and nobody throws until every collector is back. Throwing cones 3 m apart. Targets and the net standards padded or kept 2 m clear, and targets 2 m from the far wall. Stop signal: teacher says \"Freeze\". Students stop, drop objects, hands on knees, eyes on the teacher."
+  },
+  {
+   "id": "rope-hoop-scoop",
+   "added": "2026-10-19",
+   "addedOn": "2026-10-17",
+   "name": "Rope Hoop Scoop",
+   "section": "Fitness & stations",
+   "desc": "Partners share two skipping ropes to scoop a hoop off the floor and carry it home without touching it with hands or feet; if it drops, stop and scoop again",
+   "sports": "teamwork, rope handling, co-operation, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=YJXztDoyXBU"
+   ],
+   "order": 60,
+   "unit": "February",
+   "suggestedMonth": "February",
+   "alsoFits": [
+    "December"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "coop",
+   "typeLabel": "Cooperative & circus",
+   "slot": "16–25",
+   "grouping": "12 pairs · one cone per pair · 8–12 minutes · rounds end when the last hoop is home",
+   "cues": [
+    "Ropes low, slide under.",
+    "Ready, lift, together.",
+    "Walk when you carry.",
+    "Drop? Stop and scoop.",
+    "Freeze on the whistle, ropes on the floor."
+   ],
+   "ifThis": [
+    "Pairs grab hoops with hands: that hoop goes back to the middle; try again with ropes only.",
+    "Two pairs go for the same hoop: the pair that touched it first with a rope keeps it; the other pair picks another.",
+    "Pairs run and swing the ropes: freeze; walking only while carrying.",
+    "One partner does all the work: switch who calls \"lift\" and \"lower\" each hoop."
+   ],
+   "roundEnds": "When the last hoop on the floor has been collected. Count, then play the put-back round.",
+   "tips": [
+    "Demo with one pair first, showing the slide, the lift on \"ready, lift\" and the walk home.",
+    "Use colour points to build in quick addition (Grades 1–3) or a running total (Grades 4–6).",
+    "Related cards: Hoop Hut and Hoop Hut Knock Down use hoops for building. This game uses ropes as tools to lift and carry them.",
+    "Scoring: 1 point per hoop, or colour points (1, 2 or 3). Pairs try to beat their own count in the next round. Do not rank pairs aloud.",
+    "Supports and inclusion: Thicker ropes or pool noodles are easier to slide and grip. A student who uses a mobility aid can hold one end of each rope while a partner guides the lift. Allow groups of three. Post a picture card showing the rope \"stretcher\" grip.",
+    "Year plan: February, December. A rope-month co-operative game that also fits games month."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Partners plan, communicate (\"ready, lift\"), and carry the hoop together without a drop."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Restarts calmly after a drop and shares the work."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Ropes stay low; walks while carrying; looks up between hoops."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students demonstrate how movement can support different types of physical activity. [PDE1-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students demonstrate teamwork and support participation in a variety of physical activities. [PDE2-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students identify and demonstrate how teamwork supports positive interactions during physical activity. [PDE3-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students connect and demonstrate how teamwork enhances participation in physical activity. [PDE4-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate how collaboration influences physical activity. [PDE5-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students analyze and apply conflict resolution in physical activity. [PDE6-OI2-GQ3-LO1]"
+    }
+   ],
+   "g12": "Groups of three (one extra helper calls \"ready, lift\"). Big hoops, short walk home, walking only. Teacher models the slide first. Skip the points.",
+   "g34": "Pairs, full game, colour points. Add one cone to walk around before home.",
+   "g56": "One rope only, or two hoops at a time. Pairs agree on a plan in 20 seconds before each round. Use the Grade 6 conflict-resolution debrief.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=YJXztDoyXBU",
+     "title": "Fun Team Building Games!",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Rope Hoop Scoop is the fourth activity in this clip. The clip does not give it a name, so the card uses a descriptive name. The other activities in the clip are close to cards already on the site (Collect Em All, Rescue Relay) or need scooters. Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "24 skipping ropes (2 per pair); 24–36 hoops (mixed colours if you have them); 12 cones (one home cone per pair); optional colour-to-points chart (for example red 1, blue 2, yellow 3)",
+   "setup": "Place 12 home cones around the outside of the gym, at least 2 m from the walls and about 3 m apart. Each pair starts at its cone with two skipping ropes. Scatter the hoops flat on the floor in the middle of the gym, spaced so pairs can reach them from different sides.",
+   "how": [
+    "Each partner holds one end of each rope, so the two ropes run side by side between you, like a stretcher.",
+    "On \"Go\", walk to any hoop on the floor.",
+    "Slide your ropes under the hoop without using hands or feet on the hoop. Lift it together.",
+    "Carry the hoop home to your cone and lower it next to the cone. That hoop is yours.",
+    "If the hoop falls, stop where you are, slide the ropes under it again, and keep going. Nobody restarts from home.",
+    "Go back for another hoop. The round ends when the last hoop on the floor has been collected.",
+    "Count your hoops (or add up the colour points). Then play the \"put back\" round: carry your hoops back to the middle the same way."
+   ],
+   "variations": [
+    "One rope only (harder) or three-person teams with three ropes.",
+    "Carry two hoops at once (Grades 5–6).",
+    "Silent round: partners use only gestures.",
+    "Obstacle path: carry the hoop around one cone before going home."
+   ],
+   "safety": "Home cones at least 2 m from walls and stage, about 3 m apart. Ropes stay low and are never swung or wrapped around hands, wrists or necks. Walk while carrying. Look up between hoops so pairs do not walk into each other's ropes. Stop signal: teacher says \"Freeze\". Students stop, drop ropes to the floor, hands on knees, eyes on the teacher."
+  },
+  {
+   "id": "i-see-i-see-what-do-you-see",
+   "added": "2026-10-19",
+   "addedOn": "2026-10-17",
+   "name": "I See, I See, What Do You See?",
+   "section": "Warm-ups & brain breaks",
+   "desc": "Call and response warm-up: \"I see, I see.\" \"What do you see?\" The teacher names a scene and everyone acts it out in their own space until the next call",
+   "sports": "warm-up, creative movement, sport skills preview, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Gelardi",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/shorts/6Dc_sqY8t-M"
+   ],
+   "order": 61,
+   "unit": "September",
+   "suggestedMonth": "September",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "0–5",
+   "grouping": "Whole class in personal space · 3–5 minutes · no equipment · any month",
+   "cues": [
+    "Answer together: \"What do you see?\"",
+    "Show the whole movement, not just your hands.",
+    "Stay in your bubble.",
+    "Freeze on the whistle, eyes on the teacher."
+   ],
+   "ifThis": [
+    "Students drift into others: \"Shrink it. Show it in your own bubble.\"",
+    "Movements get wild: switch to a slow-motion scene, then build back up.",
+    "A student is unsure: offer two ideas or let them copy a classmate."
+   ],
+   "roundEnds": "6–10 scenes, ending with a calm one. Freeze, then start the main lesson.",
+   "tips": [
+    "Use scenes from this week's unit to preview the skill you will teach next.",
+    "Keep each scene short. The fast changes make it a warm-up.",
+    "This is a teacher-led call and response, not a follow-along video.",
+    "Scene ideas (any month): Sports from the year plan: \"children on a field playing football\" (throw, catch, run a route), \"children at the rink playing hockey\" (stickhandle, skate on the spot), \"a volleyball game\" (ready position, bump, set), \"a track meet\" (sprint on the spot, long-jump arm swing). · Alberta outdoors: \"people cross-country skiing on a trail,\" \"people paddling a canoe on a lake,\" \"kids skating on an outdoor rink,\" \"a hike up a mountain path\" (high knees). · Movement words: \"a gymnast holding a balance,\" \"a dancer moving at a low level,\" \"a goalie getting ready.\" · Calm finish: \"people stretching after a long run.\"",
+    "Scoring: None.",
+    "Supports and inclusion: Show a picture card for each scene for language learners. Accept any safe version of the movement, seated or standing. A student who needs a quieter role can be the caller.",
+    "Year plan: September, October, any month. A no-equipment opener that also works in a classroom on a no-gym day."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Shows the sport or locomotor movement named in the scene with the whole body."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Changes level, speed or direction when the scene asks for it."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Stays in personal space; freezes on the whistle."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students demonstrate how movement can support different types of physical activity. [PDE1-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Teacher calls every scene and models the first move. Simple scenes (walk the dog, swim, skate, jump in puddles). 4–6 scenes.",
+   "g34": "Sport scenes from the unit. Add a level or speed word to each scene.",
+   "g56": "Student callers. Two-part movement-pattern scenes (dribble then shoot; run, turn and catch). Partners mirror.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/shorts/6Dc_sqY8t-M",
+     "title": "I See, I See, What Do You See? (warm-up game)",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "equipment": "None (music optional)",
+   "setup": "Students spread out in the gym or a cleared classroom with arms-length space all around. Stand where everyone can see you.",
+   "how": [
+    "Teacher: \"I see, I see.\" Class: \"What do you see?\"",
+    "The teacher names a scene. For example: \"I see children on a basketball court playing basketball.\"",
+    "Everyone acts out the scene in their own space: dribbling, shooting, defending, jogging on the spot.",
+    "After 15–20 seconds, freeze and repeat the call with a new scene.",
+    "Keep going until the class is warmed up (6–10 scenes). Finish with a calm scene."
+   ],
+   "variations": [
+    "Add a level or speed: \"I see people paddling a canoe, in slow motion.\"",
+    "Student caller: a student gives the \"I see\" scene (Grades 3–6).",
+    "Two-part scene: \"I see a soccer player dribbling, then shooting.\"",
+    "Partner mirror: one partner acts the scene, the other mirrors it."
+   ],
+   "safety": "Arms-length personal space; no contact. Clear the area of loose equipment. Keep scenes on the spot or in a small personal area; no running across the room. Stop signal: teacher says \"Freeze\". Students stop, hands on knees, eyes on the teacher."
   }
  ]
 };

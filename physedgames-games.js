@@ -330,6 +330,9 @@ window.PEG_DETAILS = [
   {
     "name": "Sneak & React",
     "source": "PHYSEDGAMES",
+    "aka": [
+      "Knock and Run"
+    ],
     "months": [
       "September",
       "May"
