@@ -960,3 +960,42 @@ header.site nav.subnav { width: 100%; }
 .cw-banner a { margin-left: 6px; font-weight: 650; color: #6b4600; white-space: nowrap; }
 .week-title.cw-current { padding: 6px 10px; border-left: 5px solid #d99a1c; background: #fdf6e6; border-radius: 6px; }
 @media print { .cw-banner { display: none !important; } .week-title.cw-current { border-left: 0; background: none; padding: 0; } }
+
+/* ---- Print this card (games.html + new-games.html; see print-card.js) ---- */
+.card-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 2px; }
+.card-actions button { font: inherit; cursor: pointer; }
+button.btn-primary, button.btn-ghost { border: 1px solid transparent; font-family: inherit; cursor: pointer; }
+button.btn-ghost { border-color: var(--line); }
+.card-actions .btn-primary, .card-actions .btn-ghost { height: 40px; font-size: .9rem; }
+/* The copy is laid out off-screen at page width (so print-card.js can measure it and shrink it to one page),
+   and only shown when printing. */
+#print-card-box { position: absolute; left: -10000px; top: 0; width: 7.2in; visibility: hidden; pointer-events: none;
+  background: #fff; color: #000; font-size: 9pt; line-height: 1.28; }
+#print-card-box:empty { display: none; }
+#print-card-box .print-card-head { margin: 0 0 4pt; font-size: 7pt; color: #555; border-bottom: .5pt solid #999; padding-bottom: 3pt; }
+#print-card-box .gcard { display: block !important; column-count: 2; column-gap: 16pt; box-shadow: none !important; border: 0 !important; border-radius: 0 !important; padding: 0 !important; margin: 0 !important; background: #fff !important; }
+#print-card-box .gcard > *, #print-card-box .ng-more, #print-card-box .ng-top { display: block !important; }
+#print-card-box .ng-top, #print-card-box .gcard > .ghead { column-span: all; }
+#print-card-box .ghead { display: flex !important; justify-content: space-between; gap: 8pt; align-items: baseline; }
+#print-card-box .ng-top { border-bottom: .5pt solid #bbb; padding-bottom: 3pt; margin-bottom: 4pt; }
+#print-card-box .ng-more { border: 0 !important; margin: 0 !important; padding: 0 !important; }
+#print-card-box h2, #print-card-box h3 { margin: 0 0 2pt; font-size: 13pt; line-height: 1.15; color: #000; }
+#print-card-box .outcomes-box h3 { font-size: 9.5pt; }
+#print-card-box p { margin: 1.5pt 0; }
+#print-card-box ol, #print-card-box ul { margin: 1pt 0 3pt; padding-left: 12pt; }
+#print-card-box li { margin: 0 0 1pt; break-inside: avoid; }
+#print-card-box .meta, #print-card-box .note { color: #000; font-size: 1em; }
+#print-card-box .outcomes-box, #print-card-box .bands-block { margin: 3pt 0; padding: 3pt 5pt; border: .5pt solid #bbb; border-radius: 0; background: #fff !important; font-size: 1em; }
+#print-card-box .bands-block { break-inside: avoid; }
+#print-card-box .out-list { display: block; }
+#print-card-box .bands-block div { margin: 0 0 2pt; }
+#print-card-box details > summary { list-style: none; }
+#print-card-box details > summary::-webkit-details-marker { display: none; }
+#print-card-box a { color: #000; text-decoration: none; }
+#print-card-box .src { border: .5pt solid #777; background: #fff !important; color: #000 !important; white-space: nowrap; }
+#print-card-box .print-card, #print-card-box .card-actions, #print-card-box .gsum { display: none !important; }
+@media print {
+  html.printing-card body > *:not(#print-card-box) { display: none !important; }
+  html.printing-card body { background: #fff; margin: 0; padding: 0; }
+  html.printing-card #print-card-box { position: static; visibility: visible; display: block !important; }
+}

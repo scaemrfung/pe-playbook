@@ -40,8 +40,6 @@
     var months = [g.suggestedMonth || g.unit].concat(g.alsoFits || []).filter(function (m, i, a) { return m && U[m] && a.indexOf(m) === i; });
     var when = "<strong>Suggested month:</strong> " + (months.length ? months.map(function (m, i) { return (i === 1 ? " · also fits " : i > 1 ? ", " : "") + '<a href="' + esc(U[m].href) + '">' + esc(m) + "</a>"; }).join("") : "Anytime") +
       " · <strong>Slot:</strong> " + esc(g.slot || "—") + (g.grouping ? " · " + esc(g.grouping) : "");
-    var fitLine = g.bestBand ? '<p class="meta ng-fit"><strong>Grades:</strong> ' + esc(g.grades) + (g.gradesFrom === "doc" ? "" : " (est.)") +
-      " · <strong>Best fit:</strong> " + esc(bestFitText(g)) + "</p>" : "";
     var vids = g.videos || [];
     var videoHtml = vids.length
       ? '<p class="yt"><strong>Video.</strong> ' + vids.map(function (v) {
@@ -75,15 +73,13 @@
       : "";
     var safety = (g.stayIn ? "" : "Adapt: " + (g.flag || "see the notes") + ". ") + (g.safety || "") + (g.safetyTail ? " " + g.safetyTail : "");
     var hay = [g.name, (g.oldNames || []).join(" "), (g.aka || []).join(" "), g.desc, g.sports, g.section, g.typeLabel, g.equipment, (g.how || []).join(" "), (g.variations || []).join(" "), (g.cues || []).join(" "), g.unit, g.source].join(" ").toLowerCase();
-    return '<article class="gcard ng-card" id="' + esc(g.id) + '" data-unit="' + esc(g.suggestedMonth || g.unit) + '" data-type="' + esc(g.typeLabel || typeLabel(g.section)) + '" data-band="' + esc(g.bestBand || "") + '" data-bands="' + esc(bandsOf(g).join(" ")) + '" data-hay="' + esc(hay) + '">' +
-      (g.aliases || []).map(function (x) { return '<span id="' + esc(x) + '"></span>'; }).join("") +
-      '<div class="ghead"><h3>' + (opts.num ? esc(opts.num) + ". " : "") + esc(g.name) + "</h3>" +
-      '<span class="src">' + esc(g.typeLabel || typeLabel(g.section)) + "</span></div>" +
-      (opts.isNew ? '<p class="meta ng-newtag"><strong>New this week</strong></p>' : "") +
-      '<p class="meta">' + when + "</p>" + fitLine +
-      "<p>" + esc(g.desc) + "</p>" +
+    // Compact card: name, grades + best fit, equipment, one-line purpose. "Show details" opens the rest.
+    // opts.compact (browser only): details start closed unless opts.open; the no-JS baked copy shows everything.
+    var open = !opts.compact || !!opts.open;
+    var moreId = esc(g.id) + "-details";
+    var details =
+      '<p class="meta">' + when + "</p>" +
       ((g.aka || []).length ? '<p class="meta"><strong>Also called:</strong> ' + g.aka.map(esc).join(" · ") + "</p>" : "") +
-      '<p class="meta"><strong>Equipment:</strong> ' + esc(g.equipment || "") + "</p>" +
       '<p class="meta"><strong>Set-up:</strong> ' + esc(g.setup || "") + "</p>" +
       "<p><strong>How we play</strong></p>" +
       '<ol class="clean">' + (g.how || []).map(li).join("") + "</ol>" +
@@ -99,7 +95,23 @@
       '<p class="note"><strong>Safety.</strong> ' + esc(safety) + "</p>" +
       (srcs.length ? '<p class="meta card-source">' + srcs.map(function (u, i) {
         return '<a href="' + esc(u) + '" target="_blank" rel="noopener">Source' + (srcs.length > 1 ? " " + (i + 1) : "") + "</a>";
-      }).join(" · ") + "</p>" : "") +
+      }).join(" · ") + "</p>" : "");
+    var gradeLine = '<p class="meta ng-fit"><strong>Grades:</strong> ' + esc(g.grades) + (g.gradesFrom === "doc" ? "" : " (est.)") +
+      (g.bestBand ? " · <strong>Best fit:</strong> " + esc(bestFitText(g)) : "") + "</p>";
+    return '<article class="gcard ng-card' + (open ? " ng-open" : "") + '" id="' + esc(g.id) + '" data-unit="' + esc(g.suggestedMonth || g.unit) + '" data-type="' + esc(g.typeLabel || typeLabel(g.section)) + '" data-band="' + esc(g.bestBand || "") + '" data-bands="' + esc(bandsOf(g).join(" ")) + '" data-hay="' + esc(hay) + '">' +
+      (g.aliases || []).map(function (x) { return '<span id="' + esc(x) + '"></span>'; }).join("") +
+      '<div class="ng-top">' +
+      '<div class="ghead"><h3>' + (opts.num ? esc(opts.num) + ". " : "") + esc(g.name) + "</h3>" +
+      '<span class="src">' + esc(g.typeLabel || typeLabel(g.section)) + "</span></div>" +
+      (opts.isNew ? '<p class="meta ng-newtag"><strong>New this week</strong></p>' : "") +
+      gradeLine +
+      '<p class="meta"><strong>Equipment:</strong> ' + esc(g.equipment || "") + "</p>" +
+      '<p class="ng-purpose">' + esc(g.desc) + "</p>" +
+      "</div>" +
+      (opts.compact ? '<div class="card-actions ng-actions">' +
+        '<button type="button" class="btn-primary ng-toggle" aria-expanded="' + open + '" aria-controls="' + moreId + '">' + (open ? "Hide details" : "Show details") + '<span class="sr-only"> for ' + esc(g.name) + "</span></button>" +
+        '<button type="button" class="btn-ghost print-card" aria-label="Print this card: ' + esc(g.name) + '">Print this card</button></div>' : "") +
+      '<div class="ng-more" id="' + moreId + '"' + (open ? "" : " hidden") + ">" + details + "</div>" +
       "</article>";
   }
 
@@ -137,7 +149,9 @@
   function monthOrder(data) { return (data.units || []).map(function (u) { return u.month; }); }
   function suggested(g) { return g.suggestedMonth || g.unit || ""; }
 
-  function render(data, view) {
+  function render(data, view, ro) {
+    ro = ro || {};
+    var C = function (g, o) { o.compact = !!ro.compact; o.open = !!(ro.open && ro.open[g.id]); return card(g, data, o); };
     view = view === "type" || view === "month" || view === "grade" ? view : "week";
     var games = data.games || [];
     var weeks = data.weeks || [];
@@ -159,10 +173,6 @@
         esc(latestGames.length) + " new game" + (latestGames.length === 1 ? "" : "s") +
         " · PE Games Library last updated " + esc(sd.lastUpdatedLabel || sd.lastUpdated || "") + "</p>");
       if (!sameWeek) out.push('<p class="note">No new games in the latest library update' + (data.dedupe ? ' that aren’t already on the <a href="games.html">Big-Group Games page</a>' : '') + ' — these are the most recent additions.</p>');
-      out.push('<ul class="ng-new-list">' + latestGames.map(function (g) {
-        return '<li><a href="#' + esc(g.id) + '"><strong>' + esc(g.name) + "</strong></a> — " + esc(g.desc) +
-          ' <span class="ng-mini">' + esc(unitLabel(U[suggested(g)])) + " · " + esc(g.typeLabel || "") + " · Gr " + esc(g.grades) + "</span></li>";
-      }).join("") + "</ul>");
     }
     var hist = addedHistory(data).filter(function (h) { return !latest || !latestGames.some(function (g) { return g.addedOn === h.date; }); }).slice(0, 6);
     if (hist.length) {
@@ -177,7 +187,7 @@
     if (view === "week") {
       out.push('<section class="ng-week-block" id="this-weeks-games" data-week="' + esc(latest ? latest.key : "") + '">');
       out.push('<h2 class="ng-h">This week’s games <span class="ng-count">' + esc(latestGames.length) + "</span></h2>");
-      out.push(latestGames.map(function (g) { return card(g, data, { isNew: true, num: num[g.id] }); }).join(""));
+      out.push(latestGames.map(function (g) { return C(g, { isNew: true, num: num[g.id] }); }).join(""));
       out.push("</section>");
 
       out.push('<h2 class="ng-h" id="archive">Archive — earlier weeks</h2>');
@@ -189,7 +199,7 @@
           (w.addedOnLabel ? ' <span class="ng-mini">added ' + esc(w.addedOnLabel) + "</span>" : "") + "</summary>" +
           (w.note ? '<p class="note">' + esc(w.note) + "</p>" : "") +
           '<ul class="ng-toc">' + list.map(function (g) { return '<li><a href="#' + esc(g.id) + '">' + esc(g.name) + "</a></li>"; }).join("") + "</ul>" +
-          list.map(function (g) { return card(g, data, { isNew: false, num: num[g.id] }); }).join("") +
+          list.map(function (g) { return C(g, { isNew: false, num: num[g.id] }); }).join("") +
           "</details>");
       });
     } else if (view === "grade") {
@@ -213,7 +223,7 @@
         out.push('<ul class="ng-toc">' + list.map(function (g) { return '<li><a href="#' + esc(g.id) + '">' + esc(g.name) + "</a></li>"; }).join("") + "</ul>");
         if (also.length) out.push('<p class="meta ng-also"><strong>Also good for Grades ' + esc(b) + ":</strong> " + also.map(function (g) {
           return '<a href="#' + esc(g.id) + '">' + esc(g.name) + "</a> (best fit " + esc(g.bestBand) + ")"; }).join(" · ") + "</p>");
-        out.push(list.map(function (g) { return card(g, data, { isNew: !!isNew[g.id], num: "" }); }).join(""));
+        out.push(list.map(function (g) { return C(g, { isNew: !!isNew[g.id], num: "" }); }).join(""));
         out.push("</section>");
       });
     } else {
@@ -243,7 +253,7 @@
         out.push('<h2 class="ng-h">' + esc(head(gr.key)) + ' <span class="ng-count">' + gr.list.length + "</span></h2>");
         out.push('<ul class="ng-toc">' + gr.list.map(function (g) { return '<li><a href="#' + esc(g.id) + '">' + esc(g.name) + "</a></li>"; }).join("") + "</ul>");
         out.push(gr.list.map(function (g) {
-          return card(g, data, { isNew: !!isLatest[g.id], num: "" });
+          return C(g, { isNew: !!isLatest[g.id], num: "" });
         }).join(""));
         out.push("</section>");
       });
@@ -264,7 +274,29 @@
     try { var qv = new URLSearchParams(location.search).get("view"); if (qv === "type" || qv === "month" || qv === "grade") view = qv; } catch (e) {}
     var upd = document.getElementById("ng-updated");
     if (upd) upd.innerHTML = lastUpdatedLine(data);
-    el.innerHTML = render(data, view);
+    var openIds = {};   // cards opened with "Show details" (kept when the view changes)
+    var draw = function () { el.innerHTML = render(data, view, { compact: true, open: openIds }); };
+    draw();
+    function setOpen(c, on) {
+      if (!c) return;
+      var m = c.querySelector(".ng-more"), b = c.querySelector(".ng-toggle");
+      if (m) m.hidden = !on;
+      c.classList.toggle("ng-open", on);
+      if (b) { b.setAttribute("aria-expanded", String(on)); b.firstChild.nodeValue = on ? "Hide details" : "Show details"; }
+      if (on) openIds[c.id] = 1; else delete openIds[c.id];
+    }
+    // the button, or a tap on the compact part of the card (not on a link), opens the details
+    el.addEventListener("click", function (e) {
+      var t = e.target;
+      var b = t.closest(".ng-toggle");
+      if (b) { var c = b.closest(".ng-card"); setOpen(c, !c.classList.contains("ng-open")); return; }
+      var top = t.closest(".ng-top");
+      if (top && !t.closest("a, button, input, summary")) {
+        var c2 = top.closest(".ng-card");
+        if (window.getSelection && String(window.getSelection())) return;   // selecting text, not tapping
+        setOpen(c2, !c2.classList.contains("ng-open"));
+      }
+    });
     var tools = document.getElementById("ng-tools");
     var q = document.getElementById("ng-q");
     var box = document.getElementById("ng-unit-filters");
@@ -300,7 +332,11 @@
       el.querySelectorAll(".ng-week-block").forEach(function (b) {
         var any = b.querySelector(".ng-card:not([hidden])");
         b.hidden = filtering && !any;
-        if (b.tagName === "DETAILS" && filtering && any) b.open = true;
+        // search or a filter shows matches from every batch; folded weeks fold again when it is cleared
+        if (b.tagName === "DETAILS") {
+          if (filtering && any && !b.open) { b.open = true; b.setAttribute("data-auto-open", "1"); }
+          if (!filtering && b.getAttribute("data-auto-open")) { b.open = false; b.removeAttribute("data-auto-open"); }
+        }
         var toc = b.querySelector(".ng-toc");
         if (toc) toc.hidden = !!filtering;
         var al = b.querySelector(".ng-also");
@@ -320,7 +356,7 @@
         if (!b) return;
         view = b.getAttribute("data-view");
         vbox.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
-        el.innerHTML = render(data, view);
+        draw();
         apply();
         try { history.replaceState(null, "", view === "week" ? location.pathname + location.hash : location.pathname + "?view=" + view + location.hash); } catch (e2) {}
       });
@@ -347,16 +383,28 @@
       tbox.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
       apply();
     });
-    // open the archive week that holds a linked game
+    // a link to #game (or an old-name anchor) opens that card, its folded week, and scrolls to it
     function openHash() {
-      var id = decodeURIComponent((location.hash || "").slice(1));
+      var id = "";
+      try { id = decodeURIComponent((location.hash || "").slice(1)); } catch (e) { return; }
       if (!id) return;
       var t = document.getElementById(id);
       if (!t) return;
-      var d = t.closest("details");
-      if (d && !d.open) { d.open = true; t.scrollIntoView(); }
+      var c = t.classList.contains("ng-card") ? t : t.closest(".ng-card");
+      if (!c) return;
+      if (c.hidden) { q.value = ""; unit = type = band = "all"; [box, tbox, gbox].forEach(function (x) { if (x) x.querySelectorAll("button").forEach(function (y, i) { y.classList.toggle("on", i === 0); }); }); apply(); }
+      setOpen(c, true);
+      for (var d = c.parentElement; d; d = d.parentElement) if (d.tagName === "DETAILS") d.open = true;
+      var pd = t.closest("details.peg");
+      if (pd) pd.open = true;
+      c.scrollIntoView({ block: "start" });
     }
     window.addEventListener("hashchange", openHash);
+    // a same-page link to the hash already in the address bar does not fire hashchange
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (a && a.getAttribute("href") === location.hash) setTimeout(openHash, 0);
+    });
     apply();
     openHash();
   }

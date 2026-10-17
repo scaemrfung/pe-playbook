@@ -398,6 +398,7 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
               ${[["g12", "1–2"], ["g34", "3–4"], ["g56", "5–6"]].filter(([k]) => g[k]).map(([k, l]) => `<div><strong>Grades ${l}.</strong> ${g[k]}</div>`).join("")}
             </div>
             <p class="note"><strong>Safety.</strong> ${g.safety || ""}</p>
+            <div class="card-actions"><button type="button" class="btn-ghost print-card" aria-label="Print this card: ${String(g.name).replace(/"/g, "&quot;")}">Print this card</button></div>
             ${(() => { const src = x.source || (pegFor(g.name)[0] || {}).page; return src ? `<p class="meta card-source"><a href="${src}" target="_blank" rel="noopener">Source</a></p>` : ""; })()}
           </article>`;
         }).join("");
