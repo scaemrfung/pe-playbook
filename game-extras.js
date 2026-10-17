@@ -11238,5 +11238,10 @@ window.GAME_EXTRAS = {
     "aka": [
       "Daly Exercise: Crawl and Roll Challenge"
     ]
+  },
+  "Sneak & React": {
+    "variations": [
+      "Knock and Run (shoulder-tap chase): Mark a start line and a far line about 15 m apart, shorter for Grades 1–2. The first player walks to the far line and faces the wall. The next player creeps up quietly and gives one light tap on the shoulder, then turns and sprints back to the start line while the tapped player turns and chases. A two-finger tag on the back before the line means the two swap roles, or the tagged player does a quick stretch, then rejoins. Run through the line and slow down. Both players then walk to the back of a different line."
+    ]
   }
 };
