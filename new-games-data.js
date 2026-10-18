@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-10-17",
- "lastUpdatedLabel": "Sat Oct 17, 2026",
+ "lastUpdated": "2026-10-18",
+ "lastUpdatedLabel": "Sun Oct 18, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -77,9 +77,9 @@ window.NEW_GAMES = {
   {
    "key": "2026-10-19",
    "label": "Week of Oct 19, 2026",
-   "count": 5,
-   "addedOn": "2026-10-17",
-   "addedOnLabel": "Sat Oct 17, 2026"
+   "count": 6,
+   "addedOn": "2026-10-18",
+   "addedOnLabel": "Sun Oct 18, 2026"
   },
   {
    "key": "2026-10-12",
@@ -6216,6 +6216,131 @@ window.NEW_GAMES = {
    "bestBand": "1–2",
    "alsoBand": "3–4",
    "bandWhy": "Call-and-response pretend play with no equipment."
+  },
+  {
+   "id": "nitroball-2-0",
+   "added": "2026-10-19",
+   "addedOn": "2026-10-18",
+   "name": "NitroBall 2.0",
+   "section": "Net–wall",
+   "desc": "Volleyball meets four square: a waist-high net, a bounce before every hit, and the back wall and ceiling in play; 7 per side on numbered spots in a 3-1-3, rotate like volleyball, games to 11, winners stay on",
+   "sports": "volleyball (rotation, serving, team positions), four square, net–wall tactics, communication, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=248zb20yzWo",
+    "https://www.youtube.com/watch?v=96I3ZKcXnas"
+   ],
+   "order": 62,
+   "unit": "March",
+   "suggestedMonth": "March",
+   "alsoFits": [
+    "December"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "3 teams of 8 (7 on court, 1 rotates in; the third team waits with a job) · games to 11 · 16–25 minutes",
+   "cues": [
+    "Let it bounce, then hit.",
+    "Spot numbers first, then play.",
+    "Between the poles counts.",
+    "Call \"mine\" and move your feet.",
+    "Freeze on the whistle, ball still."
+   ],
+   "ifThis": [
+    "Players crowd the ball: freeze, everyone back to their numbered spot, and remind them to call \"mine\".",
+    "Someone hits the ball before it bounces: the point goes to the other team. Demo \"let it bounce, then hit\".",
+    "The waiting team stands around: give each player a job (wall passes, scorekeeper, rotation caller), or run two courts with 4 teams of 6.",
+    "Arguments about serves off the backboard or into a corner: redo the serve, no argument."
+   ],
+   "roundEnds": "Games go to 11 (7 for Grades 3–4). The winners stay on, the waiting team rotates in, and the team that comes off takes the waiting-team job.",
+   "tips": [
+    "Walk the 3-1-3 rotation once with no ball, so students know where each spot moves next.",
+    "Teach the bounce rule first: one rally where everyone catches after the bounce, then switch to hits.",
+    "Keep everyone moving: winners stay on, so the waiting team always has a job (bump-set wall passes, scorekeeping, calling the rotation). Two courts with 4 teams of 6 cut the wait to zero.",
+    "Scoring: Games to 11 (7 for Grades 3–4). The waiting team's scorekeeper calls the score before each serve.",
+    "Supports and inclusion: For students with an Individual Support Plan (ISP), check the plan and adjust the ball, the court size or the role (server, rotation caller, scorekeeper) as needed.",
+    "Sub notes: Plan A, run the game as written, with the spots and the net set up before class. Plan B, if the net isn't available or the class is unsettled, play the Grades 1–2 lead-up on a rope or bench net in small groups, or one-bounce partner passing over a line.",
+    "Year plan: March, December. A volleyball lead-up for rotation, serving and team positions, and a games-month team game."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Lets the ball bounce, then sends it over between the poles with an open hand or forearms."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Calls \"mine\", and lets a ball go instead of diving or running into a wall."
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students identify and demonstrate how teamwork supports positive interactions during physical activity. [PDE3-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students examine and demonstrate an understanding of structure in physical activity. [PDE6-OI2-GQ1-LO1]"
+    }
+   ],
+   "g12": "Lead-up only, not the full game: groups of 4–6 on a short court with a low rope or bench as the net and a large light ball. Catch the ball after one bounce, then toss it back over. No serving rotation, and the walls are not in play.",
+   "g34": "Full rules with a beach ball or trainer ball, 5–6 per side. Serve from a closer line. The teacher calls the rotation. Games to 7.",
+   "g56": "The full game as shown, with a four square ball and 7 per side in the 3-1-3. Students track the rotation and mulligans themselves. Games to 11.",
+   "aka": [
+    "NitroBall"
+   ],
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=248zb20yzWo",
+     "title": "NitroBall 2.0: volleyball meets four square",
+     "channel": "Front Range Physical Education"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=96I3ZKcXnas",
+     "title": "NitroBall (earlier version)",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page). The second clip is the earlier version of the game (the original NitroBall).",
+   "equipment": "Volleyball standards with the net lowered to waist height (or a rope between the standards); 1 four square / playground ball per court (beach balls or trainer balls for younger groups); floor tape or poly spots numbered 1–7 on each side; the free-throw lines as serve lines; pinnies in 3 colours; cones for a waiting line about 2 m from the court; 2–3 extra balls for the waiting team's wall passes",
+   "setup": "Set the net across the middle of the court at waist height. For a class of 24, make three teams of 8: seven play and one waits to rotate in, and the third team waits to challenge the winner. Each side sets up seven players in a 3-1-3 (three in front, one in the middle, three in the back) on spots numbered 1 to 7, so students know exactly where to stand. Spot 4, the middle player, is the server. Cone a waiting line at least 2 m from the court, next to a side wall that is away from play, for the waiting team's wall passes.",
+   "how": [
+    "Spot 4 serves underhand from behind the free-throw line. The serve has to land before the other team's free-throw line.",
+    "The ball must bounce before every hit. Hit with an open hand or forearms.",
+    "There is no out of bounds. The back wall and the ceiling are in play. If the ball bounces off and you can get to it, keep it alive.",
+    "The ball must go over the net between the poles to count. Around the outside is no good.",
+    "A server gets one mulligan (a redo) on their first serve after a rotation, and a deep serve counts. After you have served for a point, there is no mulligan.",
+    "Teams rotate one spot when the receiving team wins the point, as in volleyball. The player waiting on the side rotates in.",
+    "Off the backboard, onto bags or equipment, or into a corner: redo the serve, no argument.",
+    "Games go to 11. The winners stay on and the waiting team rotates in. The team that comes off becomes the waiting team and starts its job right away: bump-set wall passes at the side wall, with one player keeping score for the court."
+   ],
+   "variations": [
+    "Optional rule from the original NitroBall (not in the 2.0 clip): 3 hits per side, no two hits in a row by the same player, and no kicking or heading.",
+    "Two courts: 4 teams of 6, so every team plays at once.",
+    "Easier: a bigger, lighter ball, a closer serve line, catch-and-toss allowed, fewer players per side.",
+    "Harder: 3 hits per side, no catching, and students run the rotation and the score themselves."
+   ],
+   "safety": "Before you play, check the ceiling and back wall (lights, basketball hoops, wall pads, stage edge). Move bags, carts and benches away from the walls, because the walls and ceiling are in play. Strike with an open hand or forearms only: no kicking, and no spiking down at players. No diving, sliding or running into walls to save a ball. Let it go. Call \"mine\" to avoid collisions in the 3-1-3. The waiting team stays behind a coned line at least 2 m from the court. Stop signal: teacher says \"Freeze\". Students stop, hold or drop the ball, hands on knees, eyes on the teacher.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Volleyball rotation, serving and the 3-1-3 with live walls; Grades 3–4 play a modified version, Grades 1–2 the lead-up only."
   }
  ]
 };

@@ -1551,6 +1551,24 @@
    "url": "https://www.youtube.com/shorts/6Dc_sqY8t-M",
    "checked": "2026-10-17",
    "displayTitle": "I See, I See, What Do You See? (warm-up game)"
+  },
+  "yt:248zb20yzWo": {
+   "status": "ok",
+   "http": 200,
+   "title": "Is Nitroball 2.0 the Best PE Game Ever?",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=248zb20yzWo",
+   "checked": "2026-10-18",
+   "displayTitle": "NitroBall 2.0: volleyball meets four square"
+  },
+  "yt:96I3ZKcXnas": {
+   "status": "ok",
+   "http": 200,
+   "title": "NitroBall | Volleyball-Inspired PE Game | Grades 5–12",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=96I3ZKcXnas",
+   "checked": "2026-10-18",
+   "displayTitle": "NitroBall (earlier version)"
   }
  },
  "replacements": [

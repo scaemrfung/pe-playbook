@@ -288,6 +288,7 @@ window.GAME_INDEX = [
 ["Fire the Cannons","n","fire-the-cannons",""],
 ["Rope Hoop Scoop","n","rope-hoop-scoop",""],
 ["I See, I See, What Do You See?","n","i-see-i-see-what-do-you-see",""],
+["NitroBall 2.0","n","nitroball-2-0","NitroBall"],
 ["Aces","w","warmup-1",""],
 ["Alphabet Soup","w","warmup-2",""],
 ["Backboard Dodge Ball","w","warmup-2a",""],
