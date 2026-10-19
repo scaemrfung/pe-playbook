@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-10-18",
- "lastUpdatedLabel": "Sun Oct 18, 2026",
+ "lastUpdated": "2026-10-19",
+ "lastUpdatedLabel": "Mon Oct 19, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -77,9 +77,9 @@ window.NEW_GAMES = {
   {
    "key": "2026-10-19",
    "label": "Week of Oct 19, 2026",
-   "count": 6,
-   "addedOn": "2026-10-18",
-   "addedOnLabel": "Sun Oct 18, 2026"
+   "count": 7,
+   "addedOn": "2026-10-19",
+   "addedOnLabel": "Mon Oct 19, 2026"
   },
   {
    "key": "2026-10-12",
@@ -1425,7 +1425,7 @@ window.NEW_GAMES = {
    "addedOn": "2026-10-12",
    "name": "Mooshake",
    "section": "Warm-ups & brain breaks",
-   "desc": "Circle pass with a stuffed cow (or soft ball); keep the pass going without dropping; when two players start a “moo-shake,” they do a quick shake together then continue",
+   "desc": "Pass a stuffed cow (or soft ball) around the circle without a drop; every clean lap, everyone steps back; drop it and everyone yells “Moo-shake!”, wiggles, steps back in and starts again",
    "sports": "throw/catch, teamwork, K–3",
    "flag": "stay-in",
    "stayIn": true,
@@ -1433,7 +1433,8 @@ window.NEW_GAMES = {
    "notes": [],
    "links": [
     "https://physedgames.com/mooshake/",
-    "https://www.youtube.com/watch?v=r5bsFihLwLI"
+    "https://www.youtube.com/watch?v=r5bsFihLwLI",
+    "https://www.youtube.com/watch?v=CBUQTzj0gsU"
    ],
    "order": 14,
    "unit": "December",
@@ -1457,9 +1458,10 @@ window.NEW_GAMES = {
     "Hard or high throws: switch to rolling for one round.",
     "The same few get the cow: everyone must get it once before a repeat."
    ],
-   "roundEnds": "Play for the set time; count passes in a row as a class goal. No one leaves the circle.",
+   "roundEnds": "Play for the set time. Count clean laps (steps back) as a class goal. No one leaves the circle.",
    "tips": [
     "Watch the clip before the first play to see the moo-shake.",
+    "Idea credit: Gillian Boal-Thowson (PhysEdGames).",
     "Year plan: December, September — a K–3 circle game for any month."
    ],
    "outcomes": [
@@ -1485,19 +1487,25 @@ window.NEW_GAMES = {
      "url": "https://www.youtube.com/watch?v=r5bsFihLwLI",
      "title": "Fun New Circle Game – great for Kindergarten PE",
      "channel": "PhysEdGames"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=CBUQTzj0gsU",
+     "title": "Circle Games (PhysEdGames compilation)",
+     "channel": "PhysEdGames"
     }
    ],
    "sources": [
     "https://physedgames.com/mooshake/"
    ],
-   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page). Mooshake is also in the Circle Games clip.",
    "equipment": "A stuffed cow (or a soft ball) for each circle",
    "setup": "Students stand in a circle, a little more than arm's length apart.",
    "how": [
-    "Pass the cow (or soft ball) around or across the circle with a soft underhand toss.",
+    "Stand in a circle. Pass the cow (or soft ball) from player to player around the circle with a soft underhand toss or hand-off.",
     "Keep the pass going without dropping it.",
-    "When two players start a “moo-shake”, they do a quick shake together, then the passing continues.",
-    "A drop is fine: pick it up and pass again."
+    "After each clean lap, everyone takes one small step back, so the circle gets bigger.",
+    "When the cow drops, everyone yells “Moo-shake!”, does a quick shake and wiggle together, steps back in to the starting circle and starts the pass again.",
+    "With a big group, run several circles."
    ],
    "variations": [
     "Use a soft ball instead of a stuffy.",
@@ -6341,6 +6349,133 @@ window.NEW_GAMES = {
    "bestBand": "5–6",
    "alsoBand": "3–4",
    "bandWhy": "Volleyball rotation, serving and the 3-1-3 with live walls; Grades 3–4 play a modified version, Grades 1–2 the lead-up only."
+  },
+  {
+   "id": "old-grey-cat",
+   "added": "2026-10-19",
+   "addedOn": "2026-10-19",
+   "name": "Old Grey Cat",
+   "section": "Tag (stay-in style)",
+   "desc": "A chant-and-chase circle game: the birds circle the cat and chant, then run for the trees (safe lines) while the cat chases; the first bird tagged becomes the new cat",
+   "sports": "locomotor, fleeing and chasing, reaction, spatial awareness, gr 1–4",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames",
+   "notes": [],
+   "links": [
+    "https://physedgames.com/old-grey-cat/",
+    "https://www.youtube.com/watch?v=y3xJHICHq3k",
+    "https://www.youtube.com/watch?v=CBUQTzj0gsU"
+   ],
+   "order": 63,
+   "unit": "September",
+   "suggestedMonth": "September",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "1–4",
+   "gradesFrom": "doc",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "0–5 or 6–15",
+   "grouping": "Whole class in one circle (two cats for 24 students) · 5–10 minutes · no equipment needed · good for sub days",
+   "cues": [
+    "Hold hands, walk the circle, chant together.",
+    "Let go, then go.",
+    "Eyes up, run to the trees.",
+    "Two fingers on the back or shoulder.",
+    "Freeze on the whistle, eyes on the teacher."
+   ],
+   "ifThis": [
+    "The same fast runner is never tagged and never gets a turn: let the cat choose the next cat, or give each student one turn as cat in rotation.",
+    "Birds let go early or run before the chant ends: the round restarts; the chant must finish first.",
+    "The circle gets pulled or swung: freeze; walk the circle slowly, arms relaxed.",
+    "The cat cannot catch anyone: add a second cat, or have the birds skip or gallop instead of running.",
+    "Birds crowd one safe line: say “Use both trees.”"
+   ],
+   "roundEnds": "When the cat tags a bird or every bird is behind a safe line. Rounds take about 30 seconds. Play 8–12 rounds.",
+   "tips": [
+    "Teach the chant first, sitting down, then walk it once with no chase.",
+    "Model the tag and the slow-down after the safe line with one student before the first round.",
+    "Use it to teach fleeing and dodging: “Look for open space before you run.”",
+    "Related cards: Wake-Up Bear and Bakery Run Tag are also chant-and-chase games, and What time is it Mr. Fox? (Warm Up Games) is a close cousin. Old Grey Cat is simpler: no secret count or surprise call, one tag swaps roles, and the circle keeps moving during the chant.",
+    "The original game has no safe zone. The coned trees are our adaptation, so each round ends quickly and nobody runs into a wall.",
+    "Supports and inclusion: A student who needs support can walk the circle with a partner and flee together. Offer a closer safe spot (a hoop near the circle) for a student who uses a mobility aid, or make every chase a walk or skip round. Post the chant on a picture card for language learners. A student who needs a break can be the “chant leader” who starts each round, then rejoin.",
+    "Sub notes: check the class medical alert list in the sub binder, and follow the ISP supports listed in the class binder.",
+    "Year plan: September, October, any month. A quick K–3 opener or a sub-day warm-up."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Moves around the circle in step with the group, then flees into open space and stops safely behind the line."
+    },
+    {
+     "code": "Movement Skill Development",
+     "look": "Cat changes direction and speed to tag; birds dodge and look up."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Lets go of hands before running; two-finger tag; slows down after the line; freezes on the whistle."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students exhibit spatial awareness during a variety of physical activities. [PDE1-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students refine and apply spatial awareness across a variety of physical activity contexts. [PDE2-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Full game. Teacher is the first cat and models the tag. Fast-walk or jog chase. Short run to the trees (safe lines closer to the circle).",
+   "g34": "Two cats. Change the circle travel and the chase travel each round. Add “cat's choice” for which tree is open.",
+   "g56": "Not recommended as a main game. Use only as a 3-minute student-led warm-up with skip-only chases, or skip it.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=y3xJHICHq3k",
+     "title": "Old Grey Cat (PE circle chase)",
+     "channel": "PhysEdGames"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=CBUQTzj0gsU",
+     "title": "Circle Games (PhysEdGames compilation)",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "sources": [
+    "https://physedgames.com/old-grey-cat/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page). Old Grey Cat is the second game in the Circle Games clip.",
+   "equipment": "None. Optional: 8–12 cones to mark two safe lines (the “trees”); 1 pinny or scarf for each cat.",
+   "setup": "Use the centre circle (or mark one with cones). Mark a safe line (“the trees”) across each end of the gym with cones or use existing floor lines. Keep each safe line at least 3 m in from the end wall and the stage, so runners have room to slow down. Teach the chant before the first round.",
+   "how": [
+    "The birds hold hands in a big circle. One player stands in the middle. That player is the old grey cat (give them a pinny or scarf).",
+    "The birds walk around the cat in one direction and chant together: “We are weak little birds way up in a tree, you're an old grey cat and you can't catch me!”",
+    "On the last word, the birds let go of hands and run to either safe line (the trees). The cat chases.",
+    "Birds behind a safe line are safe. The cat tags with two fingers on the back or shoulder.",
+    "The first bird tagged becomes the new cat. The old cat joins the circle as a bird.",
+    "If nobody is tagged, the teacher picks a new cat.",
+    "Everyone walks back to the circle, joins hands, and the next round starts."
+   ],
+   "variations": [
+    "Change the circle travel each round: skip, gallop, side-slide, tiptoe.",
+    "Change the chase travel for one round: skip or gallop only.",
+    "Two cats for a class of 24; three cats in a big gym.",
+    "Cat's choice: the cat calls which safe line is open (“North tree only!”) just before the chase.",
+    "Classroom or no-gym day: walk-only version with one safe wall, desks pushed back."
+   ],
+   "safety": "Safe lines coned at least 3 m from walls and stage. Birds let go of hands before running; no pulling or swinging the circle. Two-finger tag on the back or shoulder only. Eyes up, run forward, slow down after the line; no diving or sliding. Stop signal: teacher says “Freeze”. Students stop, hands on knees, eyes on the teacher.",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "A simple chant, then one short chase to a safe line; PhysEdGames lists K–4."
   }
  ]
 };

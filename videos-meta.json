@@ -1569,6 +1569,24 @@
    "url": "https://www.youtube.com/watch?v=96I3ZKcXnas",
    "checked": "2026-10-18",
    "displayTitle": "NitroBall (earlier version)"
+  },
+  "yt:y3xJHICHq3k": {
+   "status": "ok",
+   "http": 200,
+   "title": "Kindergarten PE Games - Old Grey Cat",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=y3xJHICHq3k",
+   "checked": "2026-10-19",
+   "displayTitle": "Old Grey Cat (PE circle chase)"
+  },
+  "yt:CBUQTzj0gsU": {
+   "status": "ok",
+   "http": 200,
+   "title": "Circle Games",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=CBUQTzj0gsU",
+   "checked": "2026-10-19",
+   "displayTitle": "Circle Games (PhysEdGames compilation)"
   }
  },
  "replacements": [
