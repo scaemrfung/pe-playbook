@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-10-19",
- "lastUpdatedLabel": "Mon Oct 19, 2026",
+ "lastUpdated": "2026-10-20",
+ "lastUpdatedLabel": "Tue Oct 20, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -15,8 +15,8 @@ window.NEW_GAMES = {
   "lastUpdatedLabel": "Mon Oct 12, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
- "latestWeek": "2026-10-19",
- "docWeek": "2026-10-19",
+ "latestWeek": "2026-10-26",
+ "docWeek": "2026-10-26",
  "dedupe": {
   "excluded": 70,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
@@ -74,6 +74,13 @@ window.NEW_GAMES = {
   }
  ],
  "weeks": [
+  {
+   "key": "2026-10-26",
+   "label": "Week of Oct 26, 2026",
+   "count": 1,
+   "addedOn": "2026-10-20",
+   "addedOnLabel": "Tue Oct 20, 2026"
+  },
   {
    "key": "2026-10-19",
    "label": "Week of Oct 19, 2026",
@@ -6476,6 +6483,120 @@ window.NEW_GAMES = {
    "bestBand": "1–2",
    "alsoBand": "3–4",
    "bandWhy": "A simple chant, then one short chase to a safe line; PhysEdGames lists K–4."
+  },
+  {
+   "id": "2-ball",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-20",
+   "name": "2-Ball",
+   "section": "Dodgeball-style (stay-in)",
+   "desc": "Four teams, two balls: a throwing ball and a kicking ball. Hit players go to a corner jail and get out with a tag, a throw from jail or a jailbreak basket",
+   "sports": "dodgeball, soccer (kicking accuracy), basketball (shooting), throwing, team tactics, spatial awareness, gr 3–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames (game idea by Steve Mercado)",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=aSblsRjRtv8"
+   ],
+   "order": 64,
+   "equipment": "Full basketball court with both hoops (the side hoops can be used too); cones to mark four corner jails; pinnies in 4 colours; 1 soft dodgeball as the throwing ball (one colour); 1 soft ball of a different colour as the kicking / jailbreak ball (slightly bigger if you have one). For big classes, add a second pair (one more throwing ball and one more kicking ball in the same two colours).",
+   "setup": "Cone a jail in each of the four corners of the basketball court, at least 1.5 m in from the walls. Make four teams that are as even as you can, one per corner, in pinnies. Place the throwing ball and the kicking ball in the middle. Everyone starts inside their corner jail. Name the two balls out loud before Go.",
+   "how": [
+    "On \"Go\" (or the whistle), everyone leaves the jails and play begins. House rule start: the first player to grab a ball from the centre carries it back to your team's corner before you throw or kick.",
+    "The throwing ball is thrown to hit players, like dodgeball. After the start, you may not walk or run with it. If you do, you go to jail.",
+    "The kicking ball is kicked to hit players. You may not pick it up or kick it up into your hands. If you do, you go to jail.",
+    "If you are hit by either ball, you go into any jail you choose. A catch is a save. The thrower is out (to jail).",
+    "No friendly fire: a hit on your own teammate doesn't count. Pass to teammates to move the ball around.",
+    "If you step into a jail (for example while backing up without looking), you are in jail.",
+    "Ways out of jail: tag a player who comes too close to your jail (you are free, and they go to jail); or, if the throwing ball rolls into your jail, throw it from the jail and hit a player in the game to be free.",
+    "If the kicking ball goes into a jail, it becomes the jailbreak ball. Anyone in that jail may pick it up and shoot at the basketball hoop. A basket frees everyone in that jail. Only the kicking ball can be used for a jailbreak shot.",
+    "Players in jail may move to any other jail at any time, for example to reach the jail where a ball has landed. They may not touch a ball that is in play while they move.",
+    "Our no-elimination version: the video plays until one team is left. We don't. Play timed rounds of 4–5 minutes, then everyone resets to the corners.",
+    "30-second jail limit: if you are still in jail after about 30 seconds (a slow count, or one song chorus), do 5 jumping jacks and walk back in along the sideline. If more than half the class is in jail, call \"Jailbreak all\": everyone returns after 5 jacks."
+   ],
+   "variations": [
+    "Easier: one ball only, larger soft balls, a closer or lower basket (backboard counts), shorter rounds, a teacher-led countdown for the jail limit.",
+    "Harder: add a second pair of balls, the shot must go in, require one pass before a throw, rotate one \"captain\" who alone may make jail tags."
+   ],
+   "safety": "Soft foam dodgeballs or soft playground balls only. Nothing hard for the kicking ball. Hits below the shoulders (below the waist for Grades 3–4, shoes and shins for 1–2). A ball at head height doesn't count, and the thrower goes to jail. The kicking ball stays low: no toe-blasting at close range, and no kicking a ball that is in someone's hands. Jail tags are a light two-finger tag on the shoulder or back only. Look where you are going: no backing up fast without looking, and no diving. Cone the jails at least 1.5 m in from the walls so players don't back into a wall. Jailbreak shots happen only from inside the jail; players in the game keep clear of the jail during a shot. Stop signal: the teacher says \"Freeze\". Stop, hold the ball still, hands on knees, eyes on the teacher.",
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "January"
+   ],
+   "grades": "3–6",
+   "gradesFrom": "doc",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Two balls with different rules, jail escapes and a jailbreak shot take tactics; Grades 3–4 play a softer version, and Grades 1–2 only a simplified roll-and-kick.",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "4 even teams, one per corner, in pinnies · timed rounds of 4–5 minutes · 16–25 minutes",
+   "cues": [
+    "Throw ball = hands. Kick ball = feet. Never switch.",
+    "Pass before you throw. Move after you send.",
+    "Eyes up when you back away from a jail.",
+    "Ball in your jail? Throw ball = hit to free yourself. Kick ball = shoot to free your whole jail.",
+    "Freeze on \"Freeze\", ball still."
+   ],
+   "ifThis": [
+    "Lots of players are stuck in jail: call \"Jailbreak all\". Everyone does 5 jacks and comes back in.",
+    "Players walk or run with the throwing ball, or pick up the kicking ball: that player goes to jail. Repeat: throw ball = hands, kick ball = feet.",
+    "Players back into a jail without looking: freeze and remind them, \"Eyes up when you back away from a jail.\"",
+    "The class is mixing up the two balls: play a round with the throwing ball only, then add the kicking ball.",
+    "A ball at head height: it doesn't count, and the thrower goes to jail."
+   ],
+   "roundEnds": "Timed rounds of 4–5 minutes, then everyone resets to the corners. Each team earns 1 point for every jailbreak basket. At the end of a round, every team counts its players in the game. Add the two for the round score. There is no winner by elimination. This card replaces the house rule about all the balls ending up on one side.",
+   "tips": [
+    "Teach it in two stages: play round 1 with only the throwing ball and the jail tag-out, then add the kicking ball and the jailbreak shot in round 2.",
+    "Use clearly different colours for the two balls, and name them out loud before Go.",
+    "Our dodgeball house rules apply (start, hit zone, catches) unless this card says otherwise. The game ends on the timer, not when all the balls are on one side.",
+    "Supports and inclusion: For students with an Individual Support Plan (ISP), check the plan first. Options: a set role (a jail shooter who stays near a hoop, the scorekeeper, the jail-limit timer), a buddy on the same team, a softer or larger ball, or a quieter corner of the court.",
+    "Sub notes: Plan A, run the no-elimination version with timed 4–5 minute rounds. Set up the cones, pinnies and two balls before class. Plan B, if the class is unsettled or the basketball court isn't free, play the Grades 1–2 roll-and-kick version in half the gym: one soft ball rolled at shoes, a hit = 5 jumping jacks in a corner and back in, no jail tags or shots.",
+    "Related on the site (not the same game): Backboard Dodgeball (a backboard hit brings players back), Jail-catch (prisonball), Four-square dodgeball (four teams).",
+    "Year plan: October, January. Fits the Dodgeball unit and its house rules."
+   ],
+   "outcomes": [
+    {
+     "code": "Grade 2 outcome (simplified version)",
+     "look": "Students refine and apply spatial awareness across a variety of physical activity contexts. [PDE2-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students examine and integrate tactics in a variety of physical activity contexts. [PDE3-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome (safety)",
+     "look": "Students analyze and explain responsibility and how it can impact personal and group safety. [PDE4-OI4-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students examine and demonstrate an understanding of structure in physical activity. [PDE6-OI2-GQ1-LO1]"
+    }
+   ],
+   "g12": "Simplified, not the full game: one soft ball only, rolled along the floor at shoes and shins. A hit = walk to any corner, do 5 jumping jacks and come back in. No jail tags and no jailbreak shots. Optional: add the kicking ball (kick it along the floor only) once they are ready.",
+   "g34": "Both balls with foam dodgeballs. Throws stay below the waist, and underhand or bounce throws only. Jail tag-outs and the throwing-ball free throw from jail are allowed. The jailbreak shot may hit the backboard or the rim to count. Rounds of 4 minutes.",
+   "g56": "The full rules from the video plus our no-elimination rules. Hits below the shoulders. The jailbreak shot must go in the hoop. Students referee the \"walked with the throwing ball\" and \"picked up the kicking ball\" calls. Rounds of 5 minutes.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=aSblsRjRtv8",
+     "title": "2-Ball demo",
+     "channel": ""
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clip: 2025 Game of the Year - 2-Ball, PhysEdGames (game idea by Steve Mercado). The clip plays until one team is left; we play timed rounds with no elimination, and our dodgeball house rules apply unless this card says otherwise."
   }
  ]
 };
