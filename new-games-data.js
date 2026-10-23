@@ -207,8 +207,8 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=wSRnvblHVy0",
-     "title": "Wreckers vs Builders – Simple Rules, Maximum Engagement",
-     "channel": "Front Range Physical Education"
+     "title": "Knock ’em Downers demo",
+     "channel": ""
     }
    ],
    "sources": [
@@ -6568,8 +6568,8 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=aSblsRjRtv8",
-     "title": "2025 Game of the Year - 2-Ball",
-     "channel": "PhysEdGames"
+     "title": "2-Ball demo",
+     "channel": ""
     }
    ],
    "sources": [],
