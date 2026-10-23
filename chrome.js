@@ -84,6 +84,7 @@
     ["games-hub.html", "Games"],
     ["weekly-plans.html", "Plans"],
     ["month.html", "Month"],
+    ["kindergarten.html", "Kindergarten"],
     ["outcomes.html", "Outcomes"],
     ["more.html", "More"],
   ];
@@ -263,7 +264,7 @@
 
   /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
      before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
-  const SITE_UPDATED = "2026-10-20T12:54:02Z";
+  const SITE_UPDATED = "2026-10-23T12:09:22Z";
   function ensureUpdatedStamp() {
     if (document.querySelector(".site-updated-stamp")) return;
     const el = document.createElement("div");

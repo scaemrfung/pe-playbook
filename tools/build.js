@@ -522,6 +522,199 @@ months.forEach((m) => {
   }
 });
 
+// ------------------------------------------------------------ kindergarten.html
+/* Kindergarten PE page: one 30-minute class a week, from kindergarten-data.js. Lessons map in order to the school
+   weeks in school-year.js (start-up Week 1 and the 1-day last week are left out). A week belongs to the month it
+   starts in; it is labelled by its Monday. Game names in [[brackets]] link to their card (warning if no card). */
+if (fs.existsSync(path.join(ROOT, "kindergarten-data.js"))) {
+  vm.runInContext(read("kindergarten-data.js"), sandbox, { filename: "kindergarten-data.js" });
+  const K = W.K_PE;
+  const OUT = K.outcomes;
+  const kWarn = (s) => warnings.push("kindergarten: " + s);
+  const kLink = (txt) => String(txt || "").replace(/\[\[([^\]]+)\]\]/g, (all, name) => {
+    const e = mentionFor(name);
+    const href = e ? e.href : gameHref(name);
+    if (!e && !anchorOk(href)) kWarn(`"${name}" has no game card`);
+    if (!anchorOk(href)) kWarn(`link "${name}" -> ${href} has no matching anchor`);
+    return `<a href="${href}">${name}</a>`;
+  });
+  const MON = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
+  const monday = (iso) => { const d = new Date(iso + "T12:00:00Z"); const wd = (d.getUTCDay() + 6) % 7; d.setUTCDate(d.getUTCDate() - wd); return d; };
+  const fmt = (d) => `${MON[d.getUTCMonth()]} ${d.getUTCDate()}`;
+  const iso = (d) => d.toISOString().slice(0, 10);
+  const weeks = SY.peWeekList().filter((x) => !x.startup && x.days.length > 1);
+  if (weeks.length !== K.lessons.length) kWarn(`${K.lessons.length} lessons but ${weeks.length} school weeks`);
+  const L = K.lessons.map((l, i) => {
+    const x = weeks[i] || {};
+    if (x.month && x.month !== l.m) kWarn(`lesson ${i + 1} "${l.t}" is planned for ${l.m} but falls in a week that starts in ${x.month}`);
+    const mon = x.start ? monday(x.start) : null;
+    const off = (x.off || []).map((o) => `${fmt(new Date(o.date + "T12:00:00Z"))} off (${o.why})`).join("; ");
+    return Object.assign({}, l, { n: i + 1, id: `k${i + 1}`, wk: x.schoolWeek, mon, monLabel: mon ? `Week of Mon ${fmt(mon)}` : "", range: x.range || "", off });
+  });
+  const A = K.assessments.map((a, i) => Object.assign({}, a, { code: "K" + String(i + 1).padStart(2, "0"), lesson: L[a.at] }));
+  const aByLesson = {}; A.forEach((a) => { (aByLesson[a.at] = aByLesson[a.at] || []).push(a); });
+  const outLabel = (k) => `${OUT[k].oi}: ${OUT[k].lo}`;
+  const term = (d) => (d && iso(d) < "2027-02-01" ? "S1" : "S2");
+
+  const lessonHtml = (l) => {
+    const checks = (aByLesson[l.n - 1] || []).map((a) => `<div><strong>${a.code}.</strong> <a href="#${a.code.toLowerCase()}">${a.n}</a> (${a.ev.toLowerCase()})</div>`).join("");
+    return `<article class="lesson" id="${l.id}" data-week="${l.wk}">
+        <div class="top"><h3>Lesson ${l.n} · ${l.monLabel} — ${l.t}</h3><small>${l.range}${l.off ? " · " + l.off : ""} · School week ${l.wk}</small></div>
+        <div class="rows">
+          <div class="row out"><div class="t">Outcomes</div><div class="d">${l.o.map((k) => `<div>${outLabel(k)}</div>`).join("")}<span class="meta">PEW K–6 · Kindergarten · LearnAlberta (word for word)</span></div></div>
+          <div class="row"><div class="t">Equipment</div><div class="d">${l.eq}</div></div>
+          <div class="row"><div class="t">0–5</div><div class="d"><strong>Warm-up.</strong> ${kLink(l.wu)}</div></div>
+          <div class="row"><div class="t">5–12</div><div class="d"><strong>Explore the move.</strong> ${kLink(l.skill)}</div></div>
+          <div class="row game"><div class="t">12–25</div><div class="d"><strong>Game.</strong> ${kLink(l.game)}</div></div>
+          <div class="row"><div class="t">25–30</div><div class="d"><strong>Cool-down and check-in.</strong> ${kLink(l.cd)}</div></div>
+          <div class="row"><div class="t">Cues</div><div class="d">${l.cues}</div></div>
+          ${l.safe ? `<div class="row"><div class="t">Safety</div><div class="d">${l.safe}</div></div>` : ""}
+          ${checks ? `<div class="row out"><div class="t">Check</div><div class="d">${checks}</div></div>` : ""}
+        </div>
+      </article>`;
+  };
+  const monthsK = Object.keys(K.units);
+  const glance = monthsK.map((mn) => {
+    const ls = L.filter((l) => l.m === mn);
+    return `<tr><td><strong><a href="#k-${mn.toLowerCase()}">${mn}</a></strong></td><td>${K.units[mn][0]}</td><td>${ls.map((l) => `<a href="#${l.id}">${l.n}. ${l.t}</a>`).join("<br>")}</td></tr>`;
+  }).join("\n          ");
+  const monthBlocks = monthsK.map((mn) => {
+    const ls = L.filter((l) => l.m === mn);
+    return `<h2 class="week-title" id="k-${mn.toLowerCase()}">${mn} · ${K.units[mn][0]} <span class="plan-week">${ls.length} lesson${ls.length === 1 ? "" : "s"}</span><span class="week-dates">${K.units[mn][1]}</span></h2>
+      ${ls.map(lessonHtml).join("\n      ")}`;
+  }).join("\n      ");
+  const periods = ["Sept–Oct", "Nov–Dec", "Jan–Feb", "Mar–Apr", "May–Jun"];
+  const assessTables = periods.map((p) => {
+    const rows = A.filter((a) => a.p === p).map((a) => `<tr id="${a.code.toLowerCase()}"><td><strong>${a.code}</strong></td><td><strong>${a.n}</strong><br><span class="meta"><a href="#${a.lesson.id}">Lesson ${a.lesson.n}</a> · ${a.lesson.monLabel}</span></td><td>${OUT[a.o].oi}: ${OUT[a.o].lo}</td><td>${a.ev}</td><td>${a.ny}</td><td>${a.me}</td><td>${a.ma}</td></tr>`).join("\n          ");
+    return `<h3>${p}</h3>
+      <div class="table-scroll"><table class="games">
+        <thead><tr><th>#</th><th>Check (when)</th><th>Learning outcome</th><th>Evidence</th><th>Not Yet Meeting</th><th>Meeting</th><th>Mastering</th></tr></thead>
+        <tbody>
+          ${rows}
+        </tbody>
+      </table></div>`;
+  }).join("\n      ");
+  const blankRows = (n, cols) => Array.from({ length: n }, (_, i) => `<tr><td>${i + 1}</td><td></td>${cols.map(() => "<td>NY · M · Ma · INS</td>").join("")}<td></td></tr>`).join("");
+  const checklists = periods.map((p) => {
+    const as = A.filter((a) => a.p === p);
+    return `<div class="k-checklist">
+        <h3>Checklist · ${p} · Class: ________ · Teacher: Mr. Fung</h3>
+        <p class="meta">Write names by hand (names stay off this website). Circle one level per check: NY = Not Yet Meeting · M = Meeting · Ma = Mastering Expectations · INS = Insufficient evidence. Use ISP or N/A where it applies.</p>
+        <table class="games k-sheet">
+          <thead><tr><th>#</th><th>Name</th>${as.map((a) => `<th>${a.code} ${a.n}</th>`).join("")}<th>Notes</th></tr></thead>
+          <tbody>${blankRows(26, as)}</tbody>
+        </table>
+      </div>`;
+  }).join("\n      ");
+  const ptRows = A.map((a, i) => `<tr><td>${a.code}</td><td><strong>K PE ${String(i + 1).padStart(2, "0")} ${a.n}</strong></td><td>${term(a.lesson.mon)} (assumed)</td><td>${a.lesson.monLabel} (set to your class day)</td><td>${OUT[a.o].lo}</td></tr>`).join("\n          ");
+
+  const body = `<!-- Generated by tools/build.js from kindergarten-data.js — edit the data, then run: node tools/build.js -->
+    <div id="content" data-page="kindergarten">
+      <div class="month-head">
+        <h1>Kindergarten PE</h1>
+        <p class="meta"><strong>One 30-minute class a week</strong> · ${L.length} lessons, September to June · Mr. Fung · Physical Education and Wellness K–6 (Kindergarten)</p>
+        <p class="meta"><strong>Focus:</strong> simple games every child can play. Mostly tag games and movement games. Short rules. Nobody is out: a tagged child does a quick task and rejoins.</p>
+        <p class="note">A week belongs to the month it starts in, and is named by its Monday. If your Kindergarten class day is a day off that week, skip the lesson or carry it to the next week.</p>
+      </div>
+
+      <div class="panel" id="k-notes">
+        <h2>Notes for teacher</h2>
+        <ul>
+          <li>Outcomes on this page are copied word for word from new LearnAlberta (Kindergarten, checked ${K.checked}). The reporting outcome “${K.reporting}” comes from the Outcomes page.</li>
+          <li>Levels use the EIPS 2026–27 K–2 scale: Not Yet Meeting, Meeting and Mastering Expectations, plus INS, ISP and N/A. No percentages. NY · M · Ma are the same tick codes the Outcomes page uses.</li>
+          <li>PowerTeacher Pro: category and score type names are not confirmed. Check them in PowerTeacher Pro.</li>
+        </ul>
+      </div>
+
+      <div class="panel" id="k-routine">
+        <h2>How every Kindergarten class runs</h2>
+        <div class="clock">
+          <div><b>0–5 min</b>Warm-up</div>
+          <div><b>5–12 min</b>Explore the move</div>
+          <div><b>12–25 min</b>Game</div>
+          <div><b>25–30 min</b>Cool-down and check-in</div>
+        </div>
+        <ul>
+          <li><strong>Entry:</strong> children walk in and sit on the centre line (or a poly spot). Take attendance there.</li>
+          <li><strong>Stop signal:</strong> one drum beat or whistle, and you say “Freeze.” Children stop, hands on knees, eyes on you. Practise it in every warm-up.</li>
+          <li><strong>Boundaries:</strong> set a cone line about 2 m in from every wall. Children stop at the cones, never at the wall. The tall walls have letters on them; use them for directions (“Walk to the B wall”).</li>
+          <li><strong>Tag rules:</strong> two-finger tag on the shoulder or back. Walk-tag first, then jog. Change taggers every 45–90 seconds. A tagged child does 5 jumps or gets a friend’s high-five and keeps playing.</li>
+          <li><strong>Show, then go:</strong> model every game with 2–3 children before the class plays. Give one rule at a time.</li>
+          <li><strong>Safety:</strong> soft equipment only. Check the class medical alert list in the sub binder (including latex allergies before balloon lessons). Follow SPHEReS guidance and school policy. Water breaks as needed.</li>
+          <li><strong>Support:</strong> walk instead of jog, a bigger target, a partner or a picture card for the rules. <strong>Challenge:</strong> a smaller target, the other hand or foot, or a new way to move. Follow ISP supports listed in the class binder.</li>
+          <li><strong>Break plan:</strong> a child who needs a break sits on the quiet spot by the door and rejoins when ready.</li>
+          <li><strong>Short on time:</strong> cut the “Explore the move” part to 3 minutes. <strong>Time left:</strong> replay the warm-up game with a new way to move.</li>
+          <li><strong>Sub notes:</strong> the class list, the medical alert list and the equipment room key are in the sub binder. Leave a short note on what you covered. <strong>Plan B</strong> (no gym): play [[Simon Says Stay-In]] and [[Silly Bananas]] in the classroom, walking only.</li>
+        </ul>
+      </div>
+
+      <div class="panel outcomes" id="k-outcomes">
+        <h2>Kindergarten outcomes used on this page</h2>
+        <p class="meta"><strong>Reporting outcome:</strong> ${K.reporting}</p>
+        <table class="games">
+          <thead><tr><th>Organizing idea</th><th>Learning outcome</th><th>Skills &amp; procedures used in these lessons</th></tr></thead>
+          <tbody>
+          ${Object.keys(OUT).map((k) => `<tr><td><strong>${OUT[k].oi}</strong></td><td>${OUT[k].lo}</td><td>${OUT[k].sp.join("<br>")}</td></tr>`).join("\n          ")}
+          </tbody>
+        </table>
+        <p class="note">Source: <a href="${K.source}">new LearnAlberta, Physical Education and Wellness, Kindergarten</a> (checked ${K.checked}). Match report-card comments to the learning outcome on LearnAlberta.</p>
+      </div>
+
+      <div class="panel" id="k-year">
+        <h2>Year at a glance</h2>
+        <div class="table-scroll"><table class="games">
+          <thead><tr><th>Month</th><th>Unit</th><th>Lessons</th></tr></thead>
+          <tbody>
+          ${glance}
+          </tbody>
+        </table></div>
+      </div>
+
+      ${monthBlocks}
+
+      <div class="panel" id="k-assessment">
+        <h2>Assessment checklists</h2>
+        <p class="meta">About 4 quick checks per reporting period. Watch during the game, then mark the level that fits <em>most of the time</em>. Levels: <strong>Not Yet Meeting · Meeting · Mastering Expectations</strong> (EIPS 2026–27, K–2), plus INS, ISP and N/A. No percentages. Give a second chance in a later lesson if a child was away or not ready.</p>
+      ${assessTables}
+      </div>
+
+      <div class="panel" id="k-checklists">
+        <h2>Printable checklists</h2>
+        <p class="meta no-print">Print this page and keep the checklist pages you need. Each period starts on a new page. Write names by hand; student names are never put on this site.</p>
+      ${checklists}
+      </div>
+
+      <div class="panel" id="k-powerteacher">
+        <h2>PowerTeacher Pro suggestions</h2>
+        <ol>
+          <li>Open PowerTeacher Pro. Click <strong>Create</strong>, then <strong>Assignment</strong>.</li>
+          <li>Click <strong>Select by Classes</strong> and pick the Kindergarten PE class. You can pick several and use Per Class for different due dates.</li>
+          <li>Type the assignment name from the table. Pick the <strong>Category</strong> (check in PowerTeacher Pro; for example Observation if offered) and the <strong>Score Type</strong> (Collected Only, or the EIPS level grade scale if your school set one up; check in PowerTeacher Pro). Set the due date to your class day that week.</li>
+          <li>Leave <strong>Count in Traditional Final Grade</strong> off unless your school says otherwise. K–6 is reported on standards, not a percent.</li>
+          <li>Open the <strong>Standards</strong> tab. Click Show All. Tick the Kindergarten PE standard (“${K.reporting}”; the name may differ in your list) and the learning outcome if your list has it. Tick <strong>Count in Grade</strong>.</li>
+          <li>Description (optional, families see it): paste the “Meeting” look-for from the checklist. Click Save.</li>
+          <li>To mark: <strong>Grading › Scoresheet</strong>. In the standards column, enter Not Yet Meeting, Meeting or Mastering Expectations, or INS, ISP or N/A. Click Save.</li>
+        </ol>
+        <div class="table-scroll"><table class="games">
+          <thead><tr><th>#</th><th>Assignment name to type</th><th>Term</th><th>Due date</th><th>Learning outcome to link</th></tr></thead>
+          <tbody>
+          ${ptRows}
+          </tbody>
+        </table></div>
+        <p class="note">Confirm category names, score type, standards list and term names with your admin or the school’s PowerSchool lead. Create all 4 assignments for a period at once, then use Duplicate for the next class.</p>
+      </div>
+    </div>`;
+  outputs["kindergarten.html"] = page({
+    file: "kindergarten.html",
+    title: "Kindergarten PE · SCA Elementary PE Playbook",
+    description: `Kindergarten PE for Alberta: ${L.length} weekly 30-minute lessons of simple tag and movement games, with assessment checklists and PowerTeacher Pro steps.`,
+    body: kLink(body),
+    scripts: `<script src="school-year.js" defer></script>
+  <script src="chrome.js" defer></script>`,
+  }).replace(/<p>Grades 1–6 · four 30-minute classes a week[^<]*<\/p>/, "<p>Kindergarten · one 30-minute class a week · Alberta Physical Education and Wellness. Simple tag and movement games, nobody is out. Follow your school’s safety rules.</p>");
+  report.push(`kindergarten.html: ${L.length} lessons, ${A.length} checks`);
+}
+
 // month.html — legacy router (?m=September&grade=4) + no-JS month list
 outputs["month.html"] = page({
   file: "month.html",

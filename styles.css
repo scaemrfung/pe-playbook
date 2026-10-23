@@ -999,3 +999,9 @@ button.btn-ghost { border-color: var(--line); }
   html.printing-card body { background: #fff; margin: 0; padding: 0; }
   html.printing-card #print-card-box { position: static; visibility: visible; display: block !important; }
 }
+
+/* Kindergarten page: blank printable checklists (names written by hand) */
+.k-checklist { margin-top: 14px; }
+table.k-sheet td { height: 26px; font-size: .78rem; color: #5b6770; white-space: nowrap; }
+table.k-sheet td:nth-child(2) { min-width: 150px; }
+table.k-sheet td:last-child { min-width: 90px; }

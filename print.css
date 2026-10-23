@@ -26,4 +26,6 @@
   .row .t, .row .d { font-size: 9.5pt; }
   .out-grid { display: block; }
   .this-week-pill { display: none !important; }
+  .k-checklist { break-before: page; }
+  table.k-sheet td { height: 20pt; }
 }
