@@ -674,6 +674,7 @@ if (fs.existsSync(path.join(ROOT, "kindergarten-data.js"))) {
 
       <div class="panel" id="k-assessment">
         <h2>Assessment checklists</h2>
+        <p class="meta">Every check links to one of the four learning outcomes under the PE reporting outcome (“${K.reporting}”). Safety and Healthy Relationships outcomes are taught in the lessons but are not part of the PE reporting outcome on the Outcomes page.</p>
         <p class="meta">About 4 quick checks per reporting period. Watch during the game, then mark the level that fits <em>most of the time</em>. Levels: <strong>Not Yet Meeting · Meeting · Mastering Expectations</strong> (EIPS 2026–27, K–2), plus INS, ISP and N/A. No percentages. Give a second chance in a later lesson if a child was away or not ready.</p>
       ${assessTables}
       </div>
