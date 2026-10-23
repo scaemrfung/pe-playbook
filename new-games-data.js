@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-10-20",
- "lastUpdatedLabel": "Tue Oct 20, 2026",
+ "lastUpdated": "2026-10-23",
+ "lastUpdatedLabel": "Fri Oct 23, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -77,9 +77,9 @@ window.NEW_GAMES = {
   {
    "key": "2026-10-26",
    "label": "Week of Oct 26, 2026",
-   "count": 1,
-   "addedOn": "2026-10-20",
-   "addedOnLabel": "Tue Oct 20, 2026"
+   "count": 6,
+   "addedOn": "2026-10-23",
+   "addedOnLabel": "Fri Oct 23, 2026"
   },
   {
    "key": "2026-10-19",
@@ -207,8 +207,8 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=wSRnvblHVy0",
-     "title": "Knock ’em Downers demo",
-     "channel": ""
+     "title": "Wreckers vs Builders – Simple Rules, Maximum Engagement",
+     "channel": "Front Range Physical Education"
     }
    ],
    "sources": [
@@ -6500,26 +6500,6 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=aSblsRjRtv8"
    ],
    "order": 64,
-   "equipment": "Full basketball court with both hoops (the side hoops can be used too); cones to mark four corner jails; pinnies in 4 colours; 1 soft dodgeball as the throwing ball (one colour); 1 soft ball of a different colour as the kicking / jailbreak ball (slightly bigger if you have one). For big classes, add a second pair (one more throwing ball and one more kicking ball in the same two colours).",
-   "setup": "Cone a jail in each of the four corners of the basketball court, at least 1.5 m in from the walls. Make four teams that are as even as you can, one per corner, in pinnies. Place the throwing ball and the kicking ball in the middle. Everyone starts inside their corner jail. Name the two balls out loud before Go.",
-   "how": [
-    "On \"Go\" (or the whistle), everyone leaves the jails and play begins. House rule start: the first player to grab a ball from the centre carries it back to your team's corner before you throw or kick.",
-    "The throwing ball is thrown to hit players, like dodgeball. After the start, you may not walk or run with it. If you do, you go to jail.",
-    "The kicking ball is kicked to hit players. You may not pick it up or kick it up into your hands. If you do, you go to jail.",
-    "If you are hit by either ball, you go into any jail you choose. A catch is a save. The thrower is out (to jail).",
-    "No friendly fire: a hit on your own teammate doesn't count. Pass to teammates to move the ball around.",
-    "If you step into a jail (for example while backing up without looking), you are in jail.",
-    "Ways out of jail: tag a player who comes too close to your jail (you are free, and they go to jail); or, if the throwing ball rolls into your jail, throw it from the jail and hit a player in the game to be free.",
-    "If the kicking ball goes into a jail, it becomes the jailbreak ball. Anyone in that jail may pick it up and shoot at the basketball hoop. A basket frees everyone in that jail. Only the kicking ball can be used for a jailbreak shot.",
-    "Players in jail may move to any other jail at any time, for example to reach the jail where a ball has landed. They may not touch a ball that is in play while they move.",
-    "Our no-elimination version: the video plays until one team is left. We don't. Play timed rounds of 4–5 minutes, then everyone resets to the corners.",
-    "30-second jail limit: if you are still in jail after about 30 seconds (a slow count, or one song chorus), do 5 jumping jacks and walk back in along the sideline. If more than half the class is in jail, call \"Jailbreak all\": everyone returns after 5 jacks."
-   ],
-   "variations": [
-    "Easier: one ball only, larger soft balls, a closer or lower basket (backboard counts), shorter rounds, a teacher-led countdown for the jail limit.",
-    "Harder: add a second pair of balls, the shot must go in, require one pass before a throw, rotate one \"captain\" who alone may make jail tags."
-   ],
-   "safety": "Soft foam dodgeballs or soft playground balls only. Nothing hard for the kicking ball. Hits below the shoulders (below the waist for Grades 3–4, shoes and shins for 1–2). A ball at head height doesn't count, and the thrower goes to jail. The kicking ball stays low: no toe-blasting at close range, and no kicking a ball that is in someone's hands. Jail tags are a light two-finger tag on the shoulder or back only. Look where you are going: no backing up fast without looking, and no diving. Cone the jails at least 1.5 m in from the walls so players don't back into a wall. Jailbreak shots happen only from inside the jail; players in the game keep clear of the jail during a shot. Stop signal: the teacher says \"Freeze\". Stop, hold the ball still, hands on knees, eyes on the teacher.",
    "unit": "October",
    "suggestedMonth": "October",
    "alsoFits": [
@@ -6527,9 +6507,6 @@ window.NEW_GAMES = {
    ],
    "grades": "3–6",
    "gradesFrom": "doc",
-   "bestBand": "5–6",
-   "alsoBand": "3–4",
-   "bandWhy": "Two balls with different rules, jail escapes and a jailbreak shot take tactics; Grades 3–4 play a softer version, and Grades 1–2 only a simplified roll-and-kick.",
    "type": "target",
    "typeLabel": "Target & send",
    "slot": "16–25",
@@ -6591,12 +6568,574 @@ window.NEW_GAMES = {
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=aSblsRjRtv8",
-     "title": "2-Ball demo",
-     "channel": ""
+     "title": "2025 Game of the Year - 2-Ball",
+     "channel": "PhysEdGames"
     }
    ],
    "sources": [],
-   "videoNote": "Clip: 2025 Game of the Year - 2-Ball, PhysEdGames (game idea by Steve Mercado). The clip plays until one team is left; we play timed rounds with no elimination, and our dodgeball house rules apply unless this card says otherwise."
+   "videoNote": "Clip: 2025 Game of the Year - 2-Ball, PhysEdGames (game idea by Steve Mercado). The clip plays until one team is left; we play timed rounds with no elimination, and our dodgeball house rules apply unless this card says otherwise.",
+   "equipment": "Full basketball court with both hoops (the side hoops can be used too); cones to mark four corner jails; pinnies in 4 colours; 1 soft dodgeball as the throwing ball (one colour); 1 soft ball of a different colour as the kicking / jailbreak ball (slightly bigger if you have one). For big classes, add a second pair (one more throwing ball and one more kicking ball in the same two colours).",
+   "setup": "Cone a jail in each of the four corners of the basketball court, at least 1.5 m in from the walls. Make four teams that are as even as you can, one per corner, in pinnies. Place the throwing ball and the kicking ball in the middle. Everyone starts inside their corner jail. Name the two balls out loud before Go.",
+   "how": [
+    "On \"Go\" (or the whistle), everyone leaves the jails and play begins. House rule start: the first player to grab a ball from the centre carries it back to your team's corner before you throw or kick.",
+    "The throwing ball is thrown to hit players, like dodgeball. After the start, you may not walk or run with it. If you do, you go to jail.",
+    "The kicking ball is kicked to hit players. You may not pick it up or kick it up into your hands. If you do, you go to jail.",
+    "If you are hit by either ball, you go into any jail you choose. A catch is a save. The thrower is out (to jail).",
+    "No friendly fire: a hit on your own teammate doesn't count. Pass to teammates to move the ball around.",
+    "If you step into a jail (for example while backing up without looking), you are in jail.",
+    "Ways out of jail: tag a player who comes too close to your jail (you are free, and they go to jail); or, if the throwing ball rolls into your jail, throw it from the jail and hit a player in the game to be free.",
+    "If the kicking ball goes into a jail, it becomes the jailbreak ball. Anyone in that jail may pick it up and shoot at the basketball hoop. A basket frees everyone in that jail. Only the kicking ball can be used for a jailbreak shot.",
+    "Players in jail may move to any other jail at any time, for example to reach the jail where a ball has landed. They may not touch a ball that is in play while they move.",
+    "Our no-elimination version: the video plays until one team is left. We don't. Play timed rounds of 4–5 minutes, then everyone resets to the corners.",
+    "30-second jail limit: if you are still in jail after about 30 seconds (a slow count, or one song chorus), do 5 jumping jacks and walk back in along the sideline. If more than half the class is in jail, call \"Jailbreak all\": everyone returns after 5 jacks."
+   ],
+   "variations": [
+    "Easier: one ball only, larger soft balls, a closer or lower basket (backboard counts), shorter rounds, a teacher-led countdown for the jail limit.",
+    "Harder: add a second pair of balls, the shot must go in, require one pass before a throw, rotate one \"captain\" who alone may make jail tags."
+   ],
+   "safety": "Soft foam dodgeballs or soft playground balls only. Nothing hard for the kicking ball. Hits below the shoulders (below the waist for Grades 3–4, shoes and shins for 1–2). A ball at head height doesn't count, and the thrower goes to jail. The kicking ball stays low: no toe-blasting at close range, and no kicking a ball that is in someone's hands. Jail tags are a light two-finger tag on the shoulder or back only. Look where you are going: no backing up fast without looking, and no diving. Cone the jails at least 1.5 m in from the walls so players don't back into a wall. Jailbreak shots happen only from inside the jail; players in the game keep clear of the jail during a shot. Stop signal: the teacher says \"Freeze\". Stop, hold the ball still, hands on knees, eyes on the teacher.",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Two balls with different rules, jail escapes and a jailbreak shot take tactics; Grades 3–4 play a softer version, and Grades 1–2 only a simplified roll-and-kick."
+  },
+  {
+   "id": "hockey-dribbling-shapes",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-23",
+   "name": "Hockey Dribbling Shapes",
+   "section": "Floor hockey & stick-handling",
+   "desc": "A stick-handling progression where everyone dribbles at once: up and back a cone line, around a circle of gates, then around a star of cones",
+   "sports": "floor hockey stick-handling, dribbling, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Prime Coaching Sport",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=_vPYsqaTCXk",
+    "https://www.youtube.com/watch?v=ytjdVDEg4po",
+    "https://www.youtube.com/watch?v=6z71ZAx7cNo",
+    "https://www.youtube.com/watch?v=bux6UL2jYVc"
+   ],
+   "order": 65,
+   "unit": "November",
+   "suggestedMonth": "November",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "relay",
+   "typeLabel": "Relays & stations",
+   "slot": "6–15 or 16–25",
+   "grouping": "Everyone at once, each student in their own lane or shape (or pairs taking turns) · 10–15 minutes · good first-week hockey lesson",
+   "cues": [
+    "Stay low, knees bent.",
+    "One hand on top of the stick, the other halfway down.",
+    "Small touches with the middle of the blade, both sides.",
+    "Head up to see where you are going.",
+    "“Sticks down!”: stick flat, ball still."
+   ],
+   "ifThis": [
+    "Balls fly away from big hits: freeze and say “Small touches, ball close to the blade.”",
+    "Students look at the ball the whole time: call out a number of fingers; dribblers say it back.",
+    "Lanes get crowded: spread the shapes out or turn some into feet-only stations.",
+    "A student is new to sticks: dribble with feet first, then add the stick."
+   ],
+   "roundEnds": "No outs. Each step runs 2–3 minutes, then everyone does “Sticks down!” and moves to the next step or shape. Grades 5–6 can time one star lap for a personal best.",
+   "tips": [
+    "Teach the grip and “Sticks down!” first, then hand out sticks.",
+    "Use it as the first lesson of the hockey unit: it gives every student lots of touches before any game.",
+    "Related on the site (not the same game): Hockey hurdle dribble (Big-Group Games) is a relay through a line of low cones.",
+    "Supports and inclusion: a student new to sticks can use feet only, a shorter stick or a bigger, slower ball. A student who uses a mobility aid can work in a wider lane with closer targets. A student who needs a break can be the counter or timer, then rejoin.",
+    "Sub notes: check the class medical alert list in the sub binder, and follow the ISP supports listed in the class binder. Hand out sticks only after the “Sticks down!” signal has been practised.",
+    "Year plan: November, October. Fits the first floor hockey week (October Week 4, Oct 26–30)."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Keeps the ball close with small touches and controls it around cones with the head up."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Blade below the knees; push, don't slap; lays the stick flat on “Sticks down!”"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Walk pace. Steps 1 and 2 only. Feet-only option for students new to sticks.",
+   "g34": "Jog pace. Add the star. Change direction on the whistle.",
+   "g56": "Time one star lap for a personal best. Use the backhand side of the blade. Finish with a push-shot.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=_vPYsqaTCXk",
+     "title": "Hockey simple dribbling",
+     "channel": "Prime Coaching Sport"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ytjdVDEg4po",
+     "title": "Hockey circle dribbling",
+     "channel": "Prime Coaching Sport"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=6z71ZAx7cNo",
+     "title": "Hockey star dribbling",
+     "channel": "Prime Coaching Sport"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=bux6UL2jYVc",
+     "title": "Tennis and hockey ball-handling challenges, part 2",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination, blade below the knees, no slapshots. The four Prime Coaching Sport clips are one progression: simple, circle and star dribbling, plus ball-handling.",
+   "equipment": "1 floor-hockey stick and 1 soft ball per student (or 1 per pair taking turns), about 30 low cones, 4 tall cones.",
+   "setup": "Set up three kinds of shapes around the gym, at least 3 m apart and 2 m from the walls, the stage and the doors: cone lines (5–6 cones in a row), circles of cone gates (pairs of cones), and stars (one tall cone in the middle with 4 small cones around it). You can also use the gym floor lines as circles, triangles and squares. Practise “Sticks down!” before handing out sticks.",
+   "how": [
+    "Step 1, simple dribble: dribble up the line of cones with small touches, stop the ball at the end cone, then dribble back.",
+    "Add on: at the end cone, stop, step and push-shoot into a cone goal, then dribble back.",
+    "Step 2, circle dribble: dribble through each gate around the circle, then turn and go the other way. You can also dribble along a gym line in a circle, triangle or square.",
+    "Step 3, star dribble: start at an outside cone, dribble in around the middle cone, out to the next outside cone, back to the middle, and keep going until you are back at the start.",
+    "Ball-handling extra: in your own space, small touches forward and back, then left and right.",
+    "Everyone works at the same time. When sharing a shape, one student goes at a time."
+   ],
+   "variations": [
+    "Easier: walk pace, steps 1 and 2 only, feet only for students new to sticks.",
+    "Harder: change direction on the whistle, backhand side of the blade only, finish with a push-shot.",
+    "Personal best: time one star lap and try to beat it."
+   ],
+   "safety": "Two hands on the stick, top hand on the end. The blade stays on or near the floor and below the knees at all times, including the follow-through: no slapshots and no lifting the ball. Push, don't slap. No body or stick contact. Use plastic-blade sticks with soft balls or light foam pucks, and check every blade before class. Keep boundaries, lanes and targets at least 2 m from the walls, the stage and the doors. Carry sticks blade down when moving between stations. Stop signal: the teacher says “Sticks down!” Lay the stick flat on the floor, keep the ball still and eyes on the teacher. Shapes at least 3 m apart; one student per shape at a time when sharing.",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Grades 3–4 can do all three shapes and direction changes; Grades 1–2 do the line and circle at walking pace. Grades 5–6 use it as a timed warm-up."
+  },
+  {
+   "id": "gates-hurdles-dribble",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-23",
+   "name": "Gates & Hurdles Dribble",
+   "section": "Floor hockey & stick-handling",
+   "desc": "Everyone dribbles at once and taps the ball through scattered cone gates and under low hurdles for points; Grades 4–6 add gatekeepers",
+   "sports": "floor hockey stick-handling, spatial awareness, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Prime Coaching Sport",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=HS8wSGnnV68"
+   ],
+   "order": 66,
+   "unit": "November",
+   "suggestedMonth": "November",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "6–15 or 16–25",
+   "grouping": "Whole class at once, each with a stick and ball · 45–60 second rounds · 10–15 minutes",
+   "cues": [
+    "Small touches, ball close.",
+    "Eyes up and find an open gate.",
+    "Slow down near others.",
+    "Blade on the floor.",
+    "“Sticks down!”: stick flat, ball still."
+   ],
+   "ifThis": [
+    "Students crowd one gate: say “One dribbler through a gate at a time; find an open one.”",
+    "Students race and lose control: count only gates where the ball stays close.",
+    "Gatekeepers reach or hook at players: blade stays in the gate, on the floor.",
+    "Scores get argued: each student counts their own points out loud."
+   ],
+   "roundEnds": "No outs. Each round is 45–60 seconds; everyone counts their own points, then tries to beat that score next round.",
+   "tips": [
+    "Count out loud together on the first round so everyone learns to keep score.",
+    "Related on the site (not the same game): Hockey hurdle dribble (a lane relay) and Through the Gates (partner passing) on Big-Group Games, and Avoid the Mines.",
+    "Supports and inclusion: a student new to sticks can use feet only, a shorter stick or a bigger, slower ball. A student who uses a mobility aid can work in a wider lane with closer targets. A student who needs a break can be the counter or timer, then rejoin.",
+    "Sub notes: check the class medical alert list in the sub binder, and follow the ISP supports listed in the class binder. Hand out sticks only after the “Sticks down!” signal has been practised.",
+    "Year plan: November, October. A good second activity in the floor hockey week."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Finds open gates, changes direction and keeps the ball close in a busy space."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Blade below the knees; push, don't slap; lays the stick flat on “Sticks down!”"
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students exhibit spatial awareness during a variety of physical activities. [PDE1-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Walk pace. Wide gates (1.5 m). Hurdles only if low.",
+   "g34": "Jog pace. 1 m gates. Count out loud.",
+   "g56": "Narrow gates. Backhand side only for one round, then Gatekeepers.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=HS8wSGnnV68",
+     "title": "Hockey station: tap the ball through the hurdles",
+     "channel": "Prime Coaching Sport"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination, blade below the knees, no slapshots. Gatekeepers is our own add-on for Grades 4–6.",
+   "equipment": "1 stick and 1 soft ball per student, 20–30 cones (10–15 gates), 6–10 low hurdles (or pool noodles on cones).",
+   "setup": "Scatter cone gates (pairs of cones about 1 m apart) and low hurdles around the gym, at least 2 m from the walls, the stage and the doors. Each student starts in open space with a stick and a ball.",
+   "how": [
+    "On “Go”, everyone dribbles at the same time with small touches.",
+    "Tap the ball through a gate or under a hurdle, then move to a different one.",
+    "Score 1 point for every gate or hurdle you get the ball through before time is up (45–60 seconds).",
+    "You cannot use the same gate twice in a row.",
+    "Play again and try to beat your own score.",
+    "Gatekeepers (Grades 4–6): half the class stands in a gate with the blade on the floor. Dribblers tap through open gates. Gatekeepers block with the blade only, with no reaching into the dribbler. Swap roles every round."
+   ],
+   "variations": [
+    "Easier: walk pace, wide gates (1.5 m), hurdles only if low.",
+    "Harder: narrow gates, backhand side only for one round.",
+    "Gatekeepers for Grades 4–6."
+   ],
+   "safety": "Two hands on the stick, top hand on the end. The blade stays on or near the floor and below the knees at all times, including the follow-through: no slapshots and no lifting the ball. Push, don't slap. No body or stick contact. Use plastic-blade sticks with soft balls or light foam pucks, and check every blade before class. Keep boundaries, lanes and targets at least 2 m from the walls, the stage and the doors. Carry sticks blade down when moving between stations. Stop signal: the teacher says “Sticks down!” Lay the stick flat on the floor, keep the ball still and eyes on the teacher. Eyes up and give each other space; one dribbler through a gate at a time; slow down near others.",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Jogging through 1 m gates while watching for others suits Grades 3–4; Grades 5–6 add narrow gates and Gatekeepers. Grades 1–2 walk with wide gates."
+  },
+  {
+   "id": "zigzag-shoot",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-23",
+   "name": "Zigzag & Shoot",
+   "section": "Floor hockey & stick-handling",
+   "desc": "Zigzag around two cones, circle a third, then push-shoot back at a target beside the start; count hits in 1 minute",
+   "sports": "floor hockey stick-handling and shooting, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Coach Gelardi",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=1NC9F1Ij15Y"
+   ],
+   "order": 67,
+   "unit": "November",
+   "suggestedMonth": "November",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "Lanes of 2–3 · 1-minute turns · 10–15 minutes as a station or whole-class lanes",
+   "cues": [
+    "Shake hands with the stick in the middle, thumb down, other hand on top.",
+    "Small touches around the cones.",
+    "Push the ball, don't drag it.",
+    "Shoot only at your own target.",
+    "“Sticks down!”: stick flat, ball still."
+   ],
+   "ifThis": [
+    "Students drag the ball with the blade on top: show “push from behind the ball”.",
+    "Shots get lifted or slapped: the point doesn't count; push along the floor.",
+    "Waiting players drift into the lane: they stick-handle in place behind the start line.",
+    "A student can't reach the target: move it closer."
+   ],
+   "roundEnds": "1-minute turns, then rotate jobs. Each student tries to beat their own score. No outs.",
+   "tips": [
+    "Started as an at-home broomstick challenge; in the gym it works as a lane station.",
+    "Related on the site (not the same game): Hockey pin knockdown (Big-Group Games) is a tunnel-dribble relay at a pin.",
+    "Supports and inclusion: a student new to sticks can use feet only, a shorter stick or a bigger, slower ball. A student who uses a mobility aid can work in a wider lane with closer targets. A student who needs a break can be the counter or timer, then rejoin.",
+    "Sub notes: check the class medical alert list in the sub binder, and follow the ISP supports listed in the class binder. Hand out sticks only after the “Sticks down!” signal has been practised.",
+    "Year plan: November, October."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Controls the ball around tight cones and pushes a low, accurate shot."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Blade below the knees; push, don't slap; lays the stick flat on “Sticks down!”"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Target close. Walk the course. Count hits together.",
+   "g34": "Standard course. 1-minute rounds. Personal best.",
+   "g56": "Move the target further away. Add a fourth cone. Backhand zigzag.",
+   "aka": [
+    "Broomstick Hockey Skills"
+   ],
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=1NC9F1Ij15Y",
+     "title": "Broomstick hockey skills challenge",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination, blade below the knees, no slapshots. The clip is an at-home broomstick version; we use floor-hockey sticks, soft balls and a mat or bench target.",
+   "equipment": "1 stick and 1 soft ball per lane (2–3 students per lane), 3 small cones per lane, 1 folded mat or turned-over bench per lane.",
+   "setup": "Each lane has a target beside the start (a folded mat on its side or a bench turned over), a small cone about 0.6 m out, a second about 1.2 m out and a third about 1.8 m out. Lanes at least 3 m apart and 2 m from the walls, the stage and the doors.",
+   "how": [
+    "Start with the ball next to the target.",
+    "Zigzag around the first two cones, then circle the third cone.",
+    "In line with the third cone, push-shoot back at the target.",
+    "A hit is 1 point. Get the ball and go again.",
+    "Play for 1 minute and count your points. Then rotate: one goes, one counts, one stick-handles in place behind the start line.",
+    "Push the ball with the blade. Do not put the blade on top of the ball and drag it."
+   ],
+   "variations": [
+    "Easier: target close, walk the course, count hits together.",
+    "Harder: move the target further away, add a fourth cone, zigzag on the backhand side."
+   ],
+   "safety": "Two hands on the stick, top hand on the end. The blade stays on or near the floor and below the knees at all times, including the follow-through: no slapshots and no lifting the ball. Push, don't slap. No body or stick contact. Use plastic-blade sticks with soft balls or light foam pucks, and check every blade before class. Keep boundaries, lanes and targets at least 2 m from the walls, the stage and the doors. Carry sticks blade down when moving between stations. Stop signal: the teacher says “Sticks down!” Lay the stick flat on the floor, keep the ball still and eyes on the teacher. Lanes at least 3 m apart; shoot only at your own target; waiting players stand behind the start line.",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Tight turns plus a shot after a turn suit Grades 3–4; Grades 5–6 add distance, a fourth cone and backhand. Grades 1–2 walk the course with a close target."
+  },
+  {
+   "id": "move-up-hockey",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-23",
+   "name": "Move Up Hockey",
+   "section": "Floor hockey & stick-handling",
+   "desc": "Push-pass to knock over a target; each hit moves the target one marker further away, then dribble back and shoot again",
+   "sports": "floor hockey passing and shooting accuracy, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Coach Gelardi",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=fFhUwnd7VRs",
+    "https://www.youtube.com/watch?v=cDwFp4nER70"
+   ],
+   "order": 68,
+   "unit": "November",
+   "suggestedMonth": "November",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "Partners in lanes · 1-minute turns · 10–15 minutes as a station or whole-class lanes",
+   "cues": [
+    "Push-pass from the middle of the start line.",
+    "Look at the target, then the ball.",
+    "Follow through low, toward the target.",
+    "Dribble back, don't carry.",
+    "“Sticks down!”: stick flat, ball still."
+   ],
+   "ifThis": [
+    "The partner stands behind the target: they wait beside the lane until the ball stops.",
+    "Shots get lifted or slapped: the hit doesn't count; push along the floor.",
+    "Students skip the dribble back: the next shot only counts from the start line.",
+    "A student is stuck on one marker: move the markers closer."
+   ],
+   "roundEnds": "1-minute turns or a timed finish for a personal best, then partners swap. No outs.",
+   "tips": [
+    "Move Up Hockey and Cup Stack Hockey are the same shoot, fetch and dribble-back loop with different targets, so they share one card.",
+    "Related on the site (not the same game): Hockey pin knockdown (Big-Group Games).",
+    "Supports and inclusion: a student new to sticks can use feet only, a shorter stick or a bigger, slower ball. A student who uses a mobility aid can work in a wider lane with closer targets. A student who needs a break can be the counter or timer, then rejoin.",
+    "Sub notes: check the class medical alert list in the sub binder, and follow the ISP supports listed in the class binder. Hand out sticks only after the “Sticks down!” signal has been practised.",
+    "Year plan: November, October."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Adjusts the force of the push-pass as the target moves further away."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Blade below the knees; push, don't slap; lays the stick flat on “Sticks down!”"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Two or three markers only. Cup Stack with big cones.",
+   "g34": "All four markers. 1-minute challenge.",
+   "g56": "Add a fifth marker. Timed for a personal best. Partner sets the target.",
+   "aka": [
+    "Cup Stack Hockey"
+   ],
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=fFhUwnd7VRs",
+     "title": "Move Up Hockey challenge",
+     "channel": "Coach Gelardi"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=cDwFp4nER70",
+     "title": "Cup Stack Hockey challenge",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination, blade below the knees, no slapshots. The second clip shows the Cup Stack Hockey version.",
+   "equipment": "Per lane: 1 stick, 1 soft ball, 4 spot markers, 1 empty plastic bottle or small cone (Cup Stack: 4 stackable cups or small cones).",
+   "setup": "Each lane has a start line and four markers about 1.2 m, 1.8 m, 2.4 m and 3 m from the start. Put a light target (empty plastic bottle or small cone) on the first marker. Lanes at least 3 m apart and 2 m from the walls, the stage and the doors.",
+   "how": [
+    "Push-pass from the middle of the start line to knock over the target.",
+    "Hit: move the target to the next marker, dribble the ball back to the start and shoot again.",
+    "Miss: get the ball, dribble back and shoot again.",
+    "After you knock over the target on the last marker, dribble back to the start to finish.",
+    "Play a 1-minute challenge, or time how long it takes and try to beat your personal best. Partners swap: one shoots, one resets the target and counts.",
+    "Cup Stack Hockey: put four stackable cups (or small cones) in a row 1.8–2.4 m from the start, about 30–45 cm apart. Any touch counts. When you hit one, stack it on another cup and dribble back. You finish when all the cups are in one stack."
+   ],
+   "variations": [
+    "Easier: fewer targets, closer markers, big cones.",
+    "Harder: more distances, further away, partner sets the target.",
+    "Cup Stack Hockey (above) as a second round."
+   ],
+   "safety": "Two hands on the stick, top hand on the end. The blade stays on or near the floor and below the knees at all times, including the follow-through: no slapshots and no lifting the ball. Push, don't slap. No body or stick contact. Use plastic-blade sticks with soft balls or light foam pucks, and check every blade before class. Keep boundaries, lanes and targets at least 2 m from the walls, the stage and the doors. Carry sticks blade down when moving between stations. Stop signal: the teacher says “Sticks down!” Lay the stick flat on the floor, keep the ball still and eyes on the teacher. The partner resetting the target waits beside the lane, not behind the target, until the ball has stopped.",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Changing pass force for each distance suits Grades 3–4; Grades 1–2 use two or three close markers or Cup Stack with big cones. Grades 5–6 add a fifth marker and timing."
+  },
+  {
+   "id": "bottle-flip-hockey",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-23",
+   "name": "Bottle Flip Hockey",
+   "section": "Floor hockey & stick-handling",
+   "desc": "Push-shoot through a small goal; after each goal, dribble back, lay your stick down and flip a bottle upright before shooting again",
+   "sports": "floor hockey shooting, fine-motor flip, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Coach Gelardi",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=IlvAkQToOfU"
+   ],
+   "order": 69,
+   "unit": "November",
+   "suggestedMonth": "November",
+   "alsoFits": [
+    "October"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "Lanes of 2–3 rotating every minute · 10–15 minutes as a station or whole-class lanes",
+   "cues": [
+    "Push the shot along the floor.",
+    "Stick flat beside the lane before you flip.",
+    "Flip low.",
+    "Right grip before you shoot again.",
+    "“Sticks down!”: stick flat, ball still."
+   ],
+   "ifThis": [
+    "Bottles get thrown high: flip low, from just above the spot.",
+    "Sticks are left in the walkway: lay it flat beside the lane before you flip.",
+    "Too many misses: make the goal wider.",
+    "Students rush the grip: no shot until both hands are on the stick, top hand on the end."
+   ],
+   "roundEnds": "1-minute turns, then rotate. Count goals and try to beat your own score. No outs.",
+   "tips": [
+    "Related on the site (not the same game): Bottle Flip Challenge (Big-Group Games) is a cone-flip tag game, and Spin the Pin Tag & Cone Flip Mixer is on New Games.",
+    "Supports and inclusion: a student new to sticks can use feet only, a shorter stick or a bigger, slower ball. A student who uses a mobility aid can work in a wider lane with closer targets. A student who needs a break can be the counter or timer, then rejoin.",
+    "Sub notes: check the class medical alert list in the sub binder, and follow the ISP supports listed in the class binder. Hand out sticks only after the “Sticks down!” signal has been practised.",
+    "Year plan: November, October."
+   ],
+   "outcomes": [
+    {
+     "code": "Movement Skill Development",
+     "look": "Pushes a low shot through the goal, then switches to a careful flip and back to the right grip."
+    },
+    {
+     "code": "Safety (routine)",
+     "look": "Blade below the knees; push, don't slap; lays the stick flat on “Sticks down!”"
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students demonstrate how movement can support different types of physical activity. [PDE1-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Wide goal. Flip a cone instead of a bottle.",
+   "g34": "Standard set-up. 1-minute rounds.",
+   "g56": "Smaller goal. Backhand shot only for one round.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=IlvAkQToOfU",
+     "title": "Bottle Flip Hockey challenge",
+     "channel": "Coach Gelardi"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination, blade below the knees, no slapshots.",
+   "equipment": "Per lane: 1 stick, 1 soft ball, 2 small cones or spot markers for the goal, 1 spot marker, 1 plastic water bottle about one-third full with the lid on (or a cone).",
+   "setup": "Each lane has a start line and a small goal 1.8–2.4 m away (two spot markers or small cones). Beside one goal post put a spot marker and the bottle (or a cone to flip). Lanes at least 3 m apart and 2 m from the walls, the stage and the doors.",
+   "how": [
+    "Push-shoot through the goal.",
+    "After a goal, get the ball and dribble it back to the start line.",
+    "Lay your stick flat on the floor beside the lane.",
+    "Go to the goal post and flip the bottle until it lands upright on the spot.",
+    "Pick up your stick with the right grip and shoot again.",
+    "Count your goals in 1 minute, then rotate. Waiting players stick-handle in place behind the start line."
+   ],
+   "variations": [
+    "Easier: wider goal, flip a cone instead of a bottle.",
+    "Harder: smaller goal or move the start line back, backhand shot only for one round."
+   ],
+   "safety": "Two hands on the stick, top hand on the end. The blade stays on or near the floor and below the knees at all times, including the follow-through: no slapshots and no lifting the ball. Push, don't slap. No body or stick contact. Use plastic-blade sticks with soft balls or light foam pucks, and check every blade before class. Keep boundaries, lanes and targets at least 2 m from the walls, the stage and the doors. Carry sticks blade down when moving between stations. Stop signal: the teacher says “Sticks down!” Lay the stick flat on the floor, keep the ball still and eyes on the teacher. Lay the stick flat beside the lane, never on the walkway, before you flip. Flip low. Bottles with the lid on.",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Switching between shooting and a fine-motor flip suits Grades 3–4; Grades 1–2 use a wide goal and flip a cone. Grades 5–6 use a smaller goal and backhand."
   }
  ]
 };
