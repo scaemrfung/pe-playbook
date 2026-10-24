@@ -1005,3 +1005,24 @@ button.btn-ghost { border-color: var(--line); }
 table.k-sheet td { height: 26px; font-size: .78rem; color: #5b6770; white-space: nowrap; }
 table.k-sheet td:nth-child(2) { min-width: 150px; }
 table.k-sheet td:last-child { min-width: 90px; }
+
+/* Assessment builder (assessment-builder.html) */
+.ab-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; margin: 10px 0; }
+.ab-row label { display: flex; flex-direction: column; gap: 4px; font-weight: 600; }
+.ab-row input[type=number] { width: 7em; }
+.ab-checks { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; margin-top: 12px; }
+.ab-check { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 0; background: var(--card); }
+.ab-check legend { font-weight: 700; color: var(--navy); padding: 0 4px; }
+.ab-check label { display: flex; flex-direction: column; gap: 3px; font-size: .9rem; font-weight: 600; min-width: 0; }
+.ab-check .ab-wide { grid-column: 1 / -1; }
+.ab-check select, .ab-check input, .ab-check textarea, #ab-names, .ab-row input { font: inherit; font-weight: 400; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; max-width: 100%; box-sizing: border-box; }
+#ab-names { width: 100%; margin-top: 6px; }
+.ab-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.ab-table th { vertical-align: bottom; min-width: 110px; }
+.ab-table th:nth-child(1), .ab-table th:nth-child(2) { min-width: 0; }
+.ab-table td.ab-name { min-width: 140px; }
+.ab-th-name { display: block; }
+.ab-th-meta { display: block; font-weight: 400; font-size: .8rem; opacity: .8; }
+.ab-table select { font: inherit; padding: 2px 4px; }
+.ab-table input { font: inherit; width: 100%; min-width: 120px; border: 1px solid var(--line); border-radius: 6px; padding: 2px 4px; }
+.ab-lookfors li { margin-bottom: 6px; }

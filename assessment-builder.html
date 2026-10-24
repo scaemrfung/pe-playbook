@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Assessment builder · SCA Elementary PE Playbook</title>
+  <meta name="description" content="Build your own PE assessment checklist: pick a grade, choose outcomes for each check, add your students, then print or download. Nothing is saved or sent." />
+  <link rel="preload" href="fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="styles.css?v=49e95625" />
+  <link rel="stylesheet" href="print.css?v=4161c3b0" media="print" />
+  <noscript><style>header.site{display:block!important}</style></noscript>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Ccircle cx=%2712%27 cy=%2712%27 r=%2711%27 fill=%27%231f6f4a%27/%3E%3Cpath d=%27M12 4v16M4 12h16%27 stroke=%27white%27 stroke-width=%271.6%27/%3E%3C/svg%3E" />
+</head>
+<body data-page="assessment-builder">
+    <header class="site">
+    <div class="wrap row">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 4v16M4 12h16M6.6 7.2c3 2.2 7.8 2.2 10.8 0M6.6 16.8c3-2.2 7.8-2.2 10.8 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">SCA PE Playbook<span>Alberta PEW · Grades 1–6 · 4 × 30 min</span></span>
+      </a>
+      <form class="site-search" action="search.html" method="get" role="search">
+        <label class="sr-only" for="site-q">Search games</label>
+        <input id="site-q" name="q" type="search" placeholder="Search games…" autocomplete="off" />
+        <button type="submit" aria-label="Search games">Search</button>
+      </form>
+      <nav aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="games-hub.html">Games</a>
+        <a href="weekly-plans.html">Plans</a>
+        <a href="month.html">Month</a>
+        <a href="kindergarten.html">Kindergarten</a>
+        <a class="active" aria-current="page" href="outcomes.html">Outcomes</a>
+        <a href="more.html">More</a>
+      </nav>
+      <nav aria-label="Section menu" class="subnav">
+        <a href="outcomes.html">Outcomes</a>
+        <a href="rubric.html">Sample rubric</a>
+        <a class="active" aria-current="page" href="assessment-builder.html">Assessment builder</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" style="padding:28px 0 40px">
+    <div class="panel no-print">
+      <h1 style="margin-top:0;color:var(--navy)">Assessment builder</h1>
+      <p>Make your own PE checklist in a few minutes. Pick a grade, choose the outcome for each check from the dropdown (or type your own), paste your students, then print it or download it for Excel or Google Sheets.</p>
+      <p class="note"><strong>Privacy:</strong> everything happens in your browser. Student names are not saved or sent anywhere. They disappear when you close or refresh this page, or click <em>Clear names</em>. Keep downloaded files in your own school Drive.</p>
+      <p class="meta">Outcomes are the four Physical Education learning outcomes for each grade, word for word from <a href="https://curriculum.learnalberta.ca/curriculum/en/gfc/PDE" target="_blank" rel="noopener">LearnAlberta</a>. Wellness outcomes (character, healthy eating, relationships, growth and development, financial wellness) are assessed in Health class. Want a ready-made file instead? See the <a href="outcomes.html#sample-checklists">sample checklists</a>.</p>
+    </div>
+
+    <div class="panel no-print">
+      <h2>1. Pick a grade</h2>
+      <div class="filters" id="ab-grades" role="group" aria-label="Grade"></div>
+      <p class="meta" id="ab-levels"></p>
+    </div>
+
+    <div class="panel no-print">
+      <h2>2. Set up your checks</h2>
+      <p>The default is 20 checks: 4 in each two-month period. Each check starts with a suggestion you can change. Pick <em>Custom outcome</em> to type your own.</p>
+      <div class="ab-row">
+        <label>Number of checks (1–30) <input type="number" id="ab-count" min="1" max="30" value="20" /></label>
+        <button type="button" class="btn-ghost" id="ab-reset">Reset to suggestions</button>
+      </div>
+      <div id="ab-checks" class="ab-checks"></div>
+    </div>
+
+    <div class="panel no-print">
+      <h2>3. Add your students</h2>
+      <label for="ab-names">One name per line (for example: Student 1). Leave blank for 30 empty rows to write in by hand.</label>
+      <textarea id="ab-names" rows="8" placeholder="Student 1&#10;Student 2&#10;Student 3" autocomplete="off" spellcheck="false"></textarea>
+      <div class="ab-row">
+        <button type="button" class="btn-primary" id="ab-generate">Make my checklist</button>
+        <button type="button" class="btn-ghost" id="ab-clear">Clear names</button>
+      </div>
+    </div>
+
+    <div id="ab-output" hidden>
+      <div class="panel">
+        <h2 id="ab-title">PE assessment</h2>
+        <div class="ab-row no-print">
+          <button type="button" class="btn-primary" id="ab-print">Print</button>
+          <button type="button" class="btn-ghost" id="ab-xlsx">Download Excel (.xlsx)</button>
+          <button type="button" class="btn-ghost" id="ab-csv">Download CSV</button>
+        </div>
+        <p class="meta" id="ab-key"></p>
+        <div class="ab-scroll"><table class="games ab-table" id="ab-table"></table></div>
+        <p class="meta no-print">Pick levels in the table, then download to keep them. Levels in the table are not saved.</p>
+      </div>
+      <div class="panel">
+        <h2>Look-fors and outcomes</h2>
+        <ol class="ab-lookfors" id="ab-lookfors"></ol>
+      </div>
+      <div class="panel ab-ptp-panel">
+        <h2>PowerTeacher Pro steps</h2>
+        <ol>
+          <li>Open PowerTeacher Pro. Click <strong>Create</strong>, then <strong>Assignment</strong>.</li>
+          <li>Click <strong>Select by Classes</strong> and pick your PE class.</li>
+          <li>Type the assignment name from the table below. Pick the category and score type (check in PowerTeacher Pro). Set the due date to the class day you assess.</li>
+          <li>Leave <strong>Count in Traditional Final Grade</strong> off, unless your school says otherwise. K–6 is reported on standards, not a percent.</li>
+          <li>Open the <strong>Standards</strong> tab. Click <strong>Show All</strong>. Tick your grade's PE standard and tick <strong>Count in Grade</strong>.</li>
+          <li>Optional: paste the look-for into the description. Click <strong>Save</strong>.</li>
+          <li>To mark: <strong>Grading &gt; Scoresheet</strong>. In the standards column, enter the full level name from your checklist. Click <strong>Save</strong>.</li>
+        </ol>
+        <p class="meta">Not confirmed: category names, score types and the exact standard names in your gradebook. Check in PowerTeacher Pro or ask your school PowerSchool lead.</p>
+        <div class="ab-scroll"><table class="games">
+          <thead><tr><th>Assignment name</th><th>Linked outcome</th><th>Standard to link</th><th>How to enter the level</th></tr></thead>
+          <tbody id="ab-ptp"></tbody>
+        </table></div>
+      </div>
+    </div>
+  </main>
+    <footer class="site">
+    <div class="wrap foot">
+      <p class="foot-brand">SCA PE Playbook</p>
+      <p>Grades 1–6 · four 30-minute classes a week · Alberta Physical Education and Wellness. Real sport balls, dodgeball with its own house rules, no elimination in other games, floor-only gymnastics. Follow your school’s safety rules.</p>
+    </div>
+  </footer>
+  <script src="chrome.js?v=db2e2530"></script>
+  <script src="reporting-outcomes.js?v=31c6bbc0"></script>
+  <script src="assessment-builder.js?v=22ebbab9"></script>
+</body>
+</html>

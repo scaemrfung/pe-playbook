@@ -102,6 +102,7 @@
     "outcomes.html": [
       ["outcomes.html", "Outcomes"],
       ["rubric.html", "Sample rubric"],
+      ["assessment-builder.html", "Assessment builder"],
     ],
     "more.html": [
       ["gymnastics.html", "Gymnastics"],
@@ -264,7 +265,7 @@
 
   /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
      before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
-  const SITE_UPDATED = "2026-10-24T15:46:42Z";
+  const SITE_UPDATED = "2026-10-24T19:14:12Z";
   function ensureUpdatedStamp() {
     if (document.querySelector(".site-updated-stamp")) return;
     const el = document.createElement("div");

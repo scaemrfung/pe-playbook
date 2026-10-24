@@ -29,3 +29,13 @@
   .k-checklist { break-before: page; }
   table.k-sheet td { height: 20pt; }
 }
+
+/* Assessment builder: print just the checklist, look-fors and PowerTeacher Pro steps */
+@media print {
+  .ab-scroll { overflow: visible !important; }
+  .ab-table { font-size: 9pt; }
+  .ab-table select, .ab-table input { -webkit-appearance: none; appearance: none; border: 0; background: none; font-size: 9pt; }
+  .ab-table td { height: 1.6em; }
+  .ab-ptp-panel { break-before: page; }
+  .panel { box-shadow: none !important; border: 0 !important; }
+}
