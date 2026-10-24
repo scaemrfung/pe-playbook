@@ -555,7 +555,7 @@ window.UNIT_OUTCOMES = {
 window.ASSESS_PRINCIPLES = [
   "Report on the PEW learning outcome, not on who won the game.",
   "Score PE outcome achievement with school scales — not behaviour-as-mark or amount of support as the mark itself.",
-  "K–2 levels: Not Yet · Meeting · Mastering (tick NY · M · Ma). Grades 3–6: Not Yet · Minimally Meeting · Solidifying · Mastering (tick NY · Min · S · Ma).",
+  "K–2 levels: Not Yet · Meeting · Mastering (tick NY · ME · MA). Grades 3–6: Not Yet · Minimally Meeting · Solidifying · Mastering (tick NY · MIN · S · MA).",
   "Below Standards = Not Yet (+ Minimally Meeting on 3–6). Meeting Standards = Meeting/Solidifying + Mastering.",
   "Mastering = grade-level transfer, explain, and intention — not extending beyond grade or extra volume.",
   "Fitness numbers stay private. Never post a class ranking or read times aloud.",

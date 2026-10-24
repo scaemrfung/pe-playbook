@@ -172,7 +172,7 @@
 
   function g() { return R.grades.filter(function (x) { return x.id === state.grade; })[0]; }
   function isK2() { return ["K", "1", "2"].indexOf(state.grade) >= 0; }
-  function levels() { return isK2() ? ["NY", "ME", "Ma", "INS", "ISP", "N/A"] : ["NY", "Min", "S", "Ma", "INS", "ISP", "N/A"]; }
+  function levels() { return isK2() ? ["NY", "ME", "MA", "INS", "ISP", "N/A"] : ["NY", "MIN", "S", "MA", "INS", "ISP", "N/A"]; }
   function levelNames() { return isK2() ? "Not Yet Meeting / Meeting / Mastering Expectations" : "Not Yet Meeting / Minimally Meeting / Solidifying / Mastering Expectations"; }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function pad(n) { return n < 10 ? "0" + n : "" + n; }
@@ -228,7 +228,7 @@
     }).join("");
     $("#ab-table").innerHTML = "<thead>" + head + "</thead><tbody>" + body + "</tbody>";
     $("#ab-title").textContent = "PE assessment – " + g().label + " – " + state.checks.length + " checks";
-    $("#ab-key").textContent = "Levels: " + L.join(" · ") + ". NY = Not Yet Meeting · " + (isK2() ? "ME = Meeting · " : "Min = Minimally Meeting · S = Solidifying · ") + "Ma = Mastering · INS = Insufficient evidence · ISP = follow the student's ISP · N/A = not assessed.";
+    $("#ab-key").textContent = "Levels: " + L.join(" · ") + ". NY = Not Yet Meeting · " + (isK2() ? "ME = Meeting · " : "MIN = Minimally Meeting · S = Solidifying · ") + "MA = Mastering · INS = Insufficient evidence · ISP = follow the student's ISP · N/A = not assessed.";
     $("#ab-lookfors").innerHTML = state.checks.map(function (c, i) {
       return "<li><strong>" + (i + 1) + ". " + esc(c.name) + "</strong> (" + esc(c.period) + ") – " + esc(c.look) + ' <span class="meta">Outcome: “' + esc(outcomeText(c)) + "”</span></li>";
     }).join("");

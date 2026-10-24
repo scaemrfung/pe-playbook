@@ -1026,3 +1026,4 @@ table.k-sheet td:last-child { min-width: 90px; }
 .ab-table select { font: inherit; padding: 2px 4px; }
 .ab-table input { font: inherit; width: 100%; min-width: 120px; border: 1px solid var(--line); border-radius: 6px; padding: 2px 4px; }
 .ab-lookfors li { margin-bottom: 6px; }
+.whats-new-extra { margin-top: 10px; }

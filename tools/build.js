@@ -594,12 +594,12 @@ if (fs.existsSync(path.join(ROOT, "kindergarten-data.js"))) {
         </tbody>
       </table></div>`;
   }).join("\n      ");
-  const blankRows = (n, cols) => Array.from({ length: n }, (_, i) => `<tr><td>${i + 1}</td><td></td>${cols.map(() => "<td>NY · M · Ma · INS</td>").join("")}<td></td></tr>`).join("");
+  const blankRows = (n, cols) => Array.from({ length: n }, (_, i) => `<tr><td>${i + 1}</td><td></td>${cols.map(() => "<td>NY · ME · MA · INS</td>").join("")}<td></td></tr>`).join("");
   const checklists = periods.map((p) => {
     const as = A.filter((a) => a.p === p);
     return `<div class="k-checklist">
         <h3>Checklist · ${p} · Class: ________ · Teacher: Mr. Fung</h3>
-        <p class="meta">Write names by hand (names stay off this website). Circle one level per check: NY = Not Yet Meeting · M = Meeting · Ma = Mastering Expectations · INS = Insufficient evidence. Use ISP or N/A where it applies.</p>
+        <p class="meta">Write names by hand (names stay off this website). Circle one level per check: NY = Not Yet Meeting · ME = Meeting · MA = Mastering Expectations · INS = Insufficient evidence. Use ISP or N/A where it applies.</p>
         <table class="games k-sheet">
           <thead><tr><th>#</th><th>Name</th>${as.map((a) => `<th>${a.code} ${a.n}</th>`).join("")}<th>Notes</th></tr></thead>
           <tbody>${blankRows(26, as)}</tbody>
@@ -621,7 +621,7 @@ if (fs.existsSync(path.join(ROOT, "kindergarten-data.js"))) {
         <h2>Notes for teacher</h2>
         <ul>
           <li>Outcomes on this page are copied word for word from new LearnAlberta (Kindergarten, checked ${K.checked}). The reporting outcome “${K.reporting}” comes from the Outcomes page.</li>
-          <li>Levels use the EIPS 2026–27 K–2 scale: Not Yet Meeting, Meeting and Mastering Expectations, plus INS, ISP and N/A. No percentages. NY · M · Ma are the same tick codes the Outcomes page uses.</li>
+          <li>Levels use the EIPS 2026–27 K–2 scale: Not Yet Meeting, Meeting and Mastering Expectations, plus INS, ISP and N/A. No percentages. NY · ME · MA are the same tick codes the Outcomes page uses.</li>
           <li>PowerTeacher Pro: category and score type names are not confirmed. Check them in PowerTeacher Pro.</li>
         </ul>
       </div>
