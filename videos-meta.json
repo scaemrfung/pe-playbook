@@ -31,6 +31,14 @@
    "url": "https://www.youtube.com/watch?v=-z_JlLByzfA",
    "checked": "2026-09-27"
   },
+  "yt:055qhrUg3GA": {
+   "status": "ok",
+   "http": 200,
+   "title": "Circle Racing - best elementary physical education games!",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=055qhrUg3GA",
+   "checked": "2026-10-24"
+  },
   "yt:08PVLRHvCM4": {
    "status": "ok",
    "http": 200,
@@ -72,6 +80,14 @@
    "channel": "Prime Coaching Sport",
    "url": "https://www.youtube.com/watch?v=0vsnwrVD0f4",
    "checked": "2026-09-27"
+  },
+  "yt:1B2ABZhC4EA": {
+   "status": "ok",
+   "http": 200,
+   "title": "Jellyfish game - Primary Physical Education",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=1B2ABZhC4EA",
+   "checked": "2026-10-24"
   },
   "yt:1NC9F1Ij15Y": {
    "status": "ok",
@@ -727,6 +743,14 @@
    "url": "https://www.youtube.com/watch?v=PGB_LJKKqX0",
    "checked": "2026-09-27"
   },
+  "yt:PWDhpaUODu8": {
+   "status": "ok",
+   "http": 200,
+   "title": "Physical Education Game - Target Toys",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=PWDhpaUODu8",
+   "checked": "2026-10-24"
+  },
   "yt:PY_70Zh-_Uw": {
    "status": "ok",
    "http": 200,
@@ -816,6 +840,14 @@
    "channel": "PhysEdGames",
    "url": "https://www.youtube.com/watch?v=VM-KGUMB0io",
    "checked": "2026-09-27"
+  },
+  "yt:VYygnMyQKcc": {
+   "status": "ok",
+   "http": 200,
+   "title": "Ambush PE Game for Elementary",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=VYygnMyQKcc",
+   "checked": "2026-10-24"
   },
   "yt:W7L2Z39pLK8": {
    "status": "ok",
@@ -963,6 +995,14 @@
    "channel": "Physical Education Videos For All",
    "url": "https://www.youtube.com/watch?v=ZLA7skp-0Wo",
    "checked": "2026-09-27"
+  },
+  "yt:ZRXaZ_C7mGc": {
+   "status": "ok",
+   "http": 200,
+   "title": "This One PE Game Solves the Engagement Problem",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=ZRXaZ_C7mGc",
+   "checked": "2026-10-24"
   },
   "yt:ZTQNIj7J4fk": {
    "status": "ok",
@@ -1429,6 +1469,14 @@
    "url": "https://www.youtube.com/watch?v=mf7WYMBG45Q",
    "checked": "2026-09-27",
    "displayTitle": "Turtle Tag"
+  },
+  "yt:nYB1lLURXAk": {
+   "status": "ok",
+   "http": 200,
+   "title": "AWESOME game for physical education",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=nYB1lLURXAk",
+   "checked": "2026-10-24"
   },
   "yt:ne-uS98wClw": {
    "status": "ok",
@@ -2016,5 +2064,5 @@
    "reason": "Library link was a generic ‘Quick Game 40’ short; replaced with PhysEdGames’ own Bakery Run Tag demo (the clip physedgames.com uses for this game). Old: “Quick Game 40 (kindergarten - grade 5)”."
   }
  ],
- "lastChecked": "2026-10-23"
+ "lastChecked": "2026-10-24"
 }

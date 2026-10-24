@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-10-23",
- "lastUpdatedLabel": "Fri Oct 23, 2026",
+ "lastUpdated": "2026-10-24",
+ "lastUpdatedLabel": "Sat Oct 24, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -77,9 +77,9 @@ window.NEW_GAMES = {
   {
    "key": "2026-10-26",
    "label": "Week of Oct 26, 2026",
-   "count": 6,
-   "addedOn": "2026-10-23",
-   "addedOnLabel": "Fri Oct 23, 2026"
+   "count": 12,
+   "addedOn": "2026-10-24",
+   "addedOnLabel": "Sat Oct 24, 2026"
   },
   {
    "key": "2026-10-19",
@@ -7136,6 +7136,662 @@ window.NEW_GAMES = {
    "bestBand": "3–4",
    "alsoBand": "1–2",
    "bandWhy": "Switching between shooting and a fine-motor flip suits Grades 3–4; Grades 1–2 use a wide goal and flip a cone. Grades 5–6 use a smaller goal and backhand."
+  },
+  {
+   "id": "circle-racing",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-24",
+   "name": "Circle Racing",
+   "section": "Warm-ups & brain breaks",
+   "desc": "Groups of four walk around a cone with four coloured beanbags on the floor. The teacher calls two colours, and players race to grab them.",
+   "sports": "warm-up, reaction, spatial awareness, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=055qhrUg3GA",
+    "https://physedgames.com/circle-racing/"
+   ],
+   "order": 70,
+   "equipment": "1 cone per group of 4; 4 beanbags per group, each a different colour (for example red, blue, green, yellow); for 24 students, 6 cones and 24 beanbags",
+   "setup": "Put one cone on the floor for each group. Space the cones at least 4 m apart and 2 m in from walls and the stage. Place 4 beanbags of different colours on the floor around each cone, about one big step out from the cone. Four players stand around each cone, just outside the beanbags.",
+   "how": [
+    "Blow the whistle once. Players walk slowly around their cone in a clockwise direction.",
+    "Blow the whistle again. Players switch and walk the other way.",
+    "Keep switching directions with the whistle.",
+    "Call two colours, for example \"Green and yellow!\"",
+    "Players try to grab one of the two called beanbags. The two players who grab them win the round.",
+    "Put the beanbags back, and play again. Play as many rounds as you like."
+   ],
+   "variations": [
+    "Grades 1–2: Call one colour only. Teach \"clockwise\" with an arm signal. Have players say the colour as they grab.",
+    "Grades 3–4: Call two colours as in the video. Change the travel: skip, gallop or side-step instead of walking (our adaptation).",
+    "Grades 5–6: Call a colour after a short delay, or call \"not red\" (the three other colours are live) for a thinking challenge (our adaptation). Keep score in pairs for a few rounds, then mix the groups."
+   ],
+   "safety": "Walking pace only. Groups at least 4 m apart and 2 m from walls. Grab low with hands; no diving or sliding on knees. Two players on one beanbag: let go and use Rock, Paper, Scissors. Stop signal: \"Freeze.\"",
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "September"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Walking, direction changes and a colour call suit Grades 1–4; Grades 5–6 use it as a quick warm-up with the 'not red' thinking challenge.",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "slot": "5–10 minutes",
+   "grouping": "groups of 4 · 6 groups for 24 students · good for sub days",
+   "cues": [
+    "Walk, listen, react.",
+    "Eyes up while you walk. Know where each colour is.",
+    "Bend your knees and reach low. Do not dive."
+   ],
+   "ifThis": [
+    "Two players grab the same beanbag: Rock, Paper, Scissors decides it (our adaptation).",
+    "Players run instead of walk: stop the round and restart at a walking pace.",
+    "Players stand still near \"their\" colour: call more direction changes before the colours."
+   ],
+   "roundEnds": "As soon as both called beanbags are picked up. Rounds last 20–40 seconds. Everyone plays every round. Nobody sits out.",
+   "tips": [
+    "Mix the groups often so the same players are not always matched.",
+    "Keep a set of extra beanbags nearby in case one slides away.",
+    "Supports and inclusion: Use larger soft objects (small balls or bean bag animals) for students who need a bigger target. A student who needs a movement break can be the colour caller for one group, then rejoin. Model one round with four volunteers first.",
+    "Year plan: October, September."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "moves around the cone with control; changes direction on the whistle; reacts to the call and stops safely."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students exhibit spatial awareness during a variety of physical activities. [PDE1-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students refine and apply spatial awareness across a variety of physical activity contexts. [PDE2-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Call one colour only. Teach \"clockwise\" with an arm signal. Have players say the colour as they grab.",
+   "g34": "Call two colours as in the video. Change the travel: skip, gallop or side-step instead of walking (our adaptation).",
+   "g56": "Call a colour after a short delay, or call \"not red\" (the three other colours are live) for a thinking challenge (our adaptation). Keep score in pairs for a few rounds, then mix the groups.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=055qhrUg3GA",
+     "title": "Circle Racing demo",
+     "channel": ""
+    }
+   ],
+   "sources": [
+    "https://physedgames.com/circle-racing/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
+  },
+  {
+   "id": "ambush",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-24",
+   "name": "Ambush",
+   "section": "Tag (stay-in style)",
+   "desc": "A few attackers kick hoops along the floor and try to touch runners on the foot. A runner who is touched runs one lap around the outside and comes straight back in.",
+   "sports": "tag, foot control, floor hockey (stick version), gr 2–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=VYygnMyQKcc",
+    "https://physedgames.com/ambush/"
+   ],
+   "order": 71,
+   "equipment": "1 hoop per attacker (start with 4–5 attackers for 24 students); boundary cones or court lines; pinnies for attackers (optional). Floor hockey version: 1 floor hockey stick and 1 soft ball or soft puck per attacker.",
+   "setup": "Use the basketball court lines (or any marked area). Keep the boundary at least 2 m from walls and the stage. Choose 4–5 attackers. Each attacker starts with a hoop flat on the floor by their feet. Runners spread out inside the area.",
+   "how": [
+    "On \"Go,\" runners move around the area. Attackers kick their hoops along the floor.",
+    "Attackers try to touch a runner's foot with their hoop.",
+    "A runner whose foot is touched leaves the area, runs one lap around the outside of the boundary, then rejoins the game.",
+    "Play for 2–3 minutes, then choose new attackers."
+   ],
+   "variations": [
+    "Floor hockey version: attackers use a hockey stick and a puck instead of a hoop.",
+    "Soccer version: attackers dribble a soccer ball and try to touch runners' feet with it.",
+    "Rolling version: attackers roll a foam ball at runners' feet.",
+    "Helper version: a touched runner leaves, picks up a hoop and becomes an extra attacker. Use it only for the last minute, then reset.",
+    "The video also shows an \"out until everyone is out\" version. Do not use it (house rule: no elimination).",
+    "Grade 2: Start with 2–3 attackers in a smaller area. Walk-only first round.",
+    "Grades 3–4: 4–5 attackers. Add the rolling foam ball version once kicking is safe.",
+    "Grades 5–6: Floor hockey or soccer version. Attackers may work in pairs to trap a runner (no contact)."
+   ],
+   "safety": "Hoops stay flat on the floor; no lifting, flipping or throwing hoops. Aim at feet only. Running shoes on. Lap runners stay outside the boundary and run in one direction only. Floor hockey version: stick blade below the knee at all times, push passes only (no slap shots), soft ball or puck only. Boundary 2 m from walls and stage. Stop signal: \"Freeze\" (put hoop or stick on the floor).",
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "November"
+   ],
+   "grades": "2–6",
+   "gradesFrom": "doc",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Controlling a hoop or puck along the floor while chasing suits Grades 3–6; Grade 2 starts with fewer attackers and a walk-only round.",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "4–5 attackers, the rest runners · 2–3 minute rounds · 10–15 minutes",
+   "cues": [
+    "Hoop stays flat on the floor. Kick it with the inside of your foot.",
+    "Runners: heads up, light feet, use the open space.",
+    "Touched? Run your lap, then jump right back in.",
+    "Floor hockey: blade on the floor, push the puck, never lift the stick."
+   ],
+   "ifThis": [
+    "A hoop leaves the floor: that attacker freezes for 3 seconds, then restarts with the hoop flat (our adaptation).",
+    "Runners argue about touches: the runner decides honestly. If unsure, run the lap anyway; it is only one lap.",
+    "Lap runners cut corners: put cones on the corners of the lap."
+   ],
+   "roundEnds": "2–3 minutes. Rotate attackers so everyone gets a turn. No scores.",
+   "tips": [
+    "Teach a controlled hoop kick first: short kicks, hoop slides, never flips up.",
+    "For Floor Hockey Week 9, play the stick version as a stick-handling warm-up. Attackers push the puck with small touches. Remind everyone of the hockey stick rules first.",
+    "Supports and inclusion: Use a bigger boundary and fewer attackers for students who need more space. A student can be the lap counter at the corner cone for one round. Runners who need it can walk the lap.",
+    "Year plan: October, November."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "moves into open space and changes direction to avoid hoops; attackers control the hoop or puck along the floor; follows the lap re-entry rule honestly."
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students refine and apply spatial awareness across a variety of physical activity contexts. [PDE2-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students examine and integrate tactics in a variety of physical activity contexts. [PDE3-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Start with 2–3 attackers in a smaller area. Walk-only first round.",
+   "g34": "4–5 attackers. Add the rolling foam ball version once kicking is safe.",
+   "g56": "Floor hockey or soccer version. Attackers may work in pairs to trap a runner (no contact).",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=VYygnMyQKcc",
+     "title": "Ambush demo",
+     "channel": ""
+    }
+   ],
+   "sources": [
+    "https://physedgames.com/ambush/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
+  },
+  {
+   "id": "jellyfish",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-24",
+   "name": "Jellyfish",
+   "section": "Tag (stay-in style)",
+   "desc": "Three jellyfish carry hoops and try to tag the other players. A tagged player freezes, the jellyfish passes the hoop down over them to the floor and back up, and that player joins the edge team, who help catch. After three are on the edge, they get hoops and become jellyfish too.",
+   "sports": "tag, spatial awareness, gr K–4",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=1B2ABZhC4EA"
+   ],
+   "order": 72,
+   "equipment": "3 hoops to start, plus 3–6 spare hoops; court lines or boundary cones",
+   "setup": "Use the basketball or volleyball court lines as the boundary. Keep it at least 2 m from walls and the stage. Choose 3 jellyfish. Each holds a hoop with both hands. Everyone else spreads out inside the area. They are the little fish.",
+   "how": [
+    "On \"Go,\" the jellyfish move around holding their hoops and try to tag the fish (two-finger tag on the back or shoulder).",
+    "A tagged fish is \"stung\" and freezes.",
+    "The jellyfish lifts the hoop over the frozen player's head, lowers it all the way to the floor, then lifts it back up over the head. That player is now \"eaten.\"",
+    "An eaten player moves to the perimeter (the edge of the boundary). Perimeter players can move anywhere along the edge, but not inside the area.",
+    "Perimeter players try to tag any fish who comes too close to the edge. That fish also goes to the perimeter.",
+    "When there are three players on the perimeter, call them over and give each a hoop. They enter as new jellyfish.",
+    "Keep playing until only three fish are left. Those three are the jellyfish for the next round."
+   ],
+   "variations": [
+    "Grades 1–2: Walk-only first round. Start with 2 jellyfish. Teach the hoop \"halo\" with a partner before the game.",
+    "Grades 3–4: Start with 3 jellyfish as in the video. Fish travel by skipping or side-stepping for one round (our adaptation)."
+   ],
+   "safety": "Two-finger tag on the back or shoulder, below the head. Hoop moves slowly and never touches the head, face or neck. Jellyfish hold hoops with two hands, never swing them. Perimeter players stay on the edge line. Boundary 2 m from walls and stage. Stop signal: \"Freeze.\"",
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "November"
+   ],
+   "grades": "K–4",
+   "gradesFrom": "doc",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Freeze, hoop 'halo' and edge tagging suit Grades 1–2; Grades 3–4 add skipping or side-stepping. Written for K–4, so not for Grades 5–6.",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "3 jellyfish to start · 2–4 minute rounds · 10–15 minutes",
+   "cues": [
+    "Two-finger tag on the back or shoulder.",
+    "Frozen means statue. The jellyfish does a slow halo, down and up.",
+    "Fish: use the open space in the middle, away from the edge."
+   ],
+   "ifThis": [
+    "Fish hug the middle: shrink the area with cones.",
+    "Hoop gets close to faces: stop and model the \"slow halo\" again. The hoop never touches the head.",
+    "Perimeter players step inside: they move back to the line before tagging."
+   ],
+   "roundEnds": "When three fish are left. They become the next jellyfish. Rounds are short, and perimeter players keep moving and tagging, so nobody sits out.",
+   "tips": [
+    "Model the hoop step slowly with a volunteer: over the head, down to the floor, back up.",
+    "Count new jellyfish out loud: \"One, two, three on the edge: hoops!\"",
+    "Supports and inclusion: A student who needs a break can be the \"hoop handler\" who gives hoops to new jellyfish, then rejoins as a fish. Use a larger area for students who need more space. Pair a student with a buddy fish if helpful.",
+    "Year plan: October, November."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "finds open space away from jellyfish and the edge; stops and freezes safely; perimeter players stay on the line."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students explain how boundaries connect to safety. [PDE1-OI4-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students exhibit spatial awareness during a variety of physical activities. [PDE1-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students refine and apply spatial awareness across a variety of physical activity contexts. [PDE2-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students examine and integrate tactics in a variety of physical activity contexts. [PDE3-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grades 5–6",
+     "look": "Not recommended as written (written for K–4)."
+    }
+   ],
+   "g12": "Walk-only first round. Start with 2 jellyfish. Teach the hoop \"halo\" with a partner before the game.",
+   "g34": "Start with 3 jellyfish as in the video. Fish travel by skipping or side-stepping for one round (our adaptation).",
+   "g56": "",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=1B2ABZhC4EA",
+     "title": "Jellyfish demo",
+     "channel": ""
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
+  },
+  {
+   "id": "target-toys",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-24",
+   "name": "Target Toys",
+   "section": "Target / throwing",
+   "desc": "Relay teams roll (or kick) a foam ball into hoops full of toys. A ball in a hoop wins one toy from that hoop for the team. The teacher secretly picks three bonus toys.",
+   "sports": "rolling, kicking to a target, gr K–4",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=PWDhpaUODu8",
+    "https://physedgames.com/target-toys/"
+   ],
+   "order": 73,
+   "equipment": "8–12 hoops; a pile of small toys, stuffed animals or beanbags (3–5 per hoop); 1 foam ball per team, each team a different colour; a start line (court line or tape)",
+   "setup": "Put the hoops flat on the floor at one end of the gym. Put several toys or beanbags in each hoop. Mark a start line an appropriate distance from the hoops (closer for younger students). Make 4–6 teams. Each team lines up behind the start line with its own colour of foam ball. Choose the skill: rolling or kicking. Students can also choose on their turn. Secretly choose three bonus items (for example \"glasses, pig and robot\"). Keep them in your head or write them on paper.",
+   "how": [
+    "On \"Go,\" the first player on each team rolls (or kicks) the ball toward the hoops.",
+    "If the ball goes into a hoop, the player gets the ball and one toy from that hoop and brings both back to the team.",
+    "If the ball misses, the player gets the ball and brings it back. Stay out of the way of other teams' balls.",
+    "The player hands the ball to the next teammate and goes to the back of the line.",
+    "Keep going until all the toys are collected.",
+    "Count each team's toys. Then reveal the three secret items. Teams with a secret item get bonus points."
+   ],
+   "variations": [
+    "Extension (from the video): After the toys are gone, keep playing to collect the hoops too.",
+    "Grades 1–2: Rolling only, short distance. Two-hand roll for younger students.",
+    "Grades 3–4: Longer distance, choose rolling or kicking, or collect hoops after toys (from the video)."
+   ],
+   "safety": "Foam balls only. Only one player per team in the target area at a time. Retrievers walk back along the side of the lane, never across other lanes. Waiting players stay behind the start line. Hoops 2 m from walls. Stop signal: \"Freeze\" (hold your ball).",
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "January",
+    "February"
+   ],
+   "grades": "K–4",
+   "gradesFrom": "doc",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Short rolls into hoops for toys suit Grades 1–2; Grades 3–4 roll or kick from farther back. Written for K–4; Grades 5–6 use Hoop Rollers.",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "4–6 teams of 4–6 · 10–15 minutes",
+   "cues": [
+    "Step with the opposite foot, bend low, roll and follow through to the target.",
+    "Kicking: plant beside the ball, kick with the inside of the foot.",
+    "Get your ball, keep your eyes up, walk back on the side."
+   ],
+   "ifThis": [
+    "Players run into each other while getting balls: get your ball, then walk back along the side of your lane (our adaptation).",
+    "One hoop is emptied fast: move it farther away, or add toys.",
+    "Teams argue about whether it counts: the ball must stop inside or touch inside the hoop. The teacher decides."
+   ],
+   "roundEnds": "When all toys (or hoops) are collected. Count, reveal secret items, mix teams and play again.",
+   "tips": [
+    "Use different colours of foam ball so teams know which ball is theirs.",
+    "Beanbags work if you do not have toys.",
+    "Supports and inclusion: Allow a closer start spot or a bigger ball. A student can be the toy counter for the round. Model one roll with a volunteer before starting.",
+    "Year plan: October, January, February."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "steps with the opposite foot, rolls low and follows through; adjusts force to the distance; waits safely for a turn."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students demonstrate how movement can support different types of physical activity. [PDE1-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grades 5–6",
+     "look": "Not recommended as written (written for K–4). Use Hoop Rollers instead."
+    }
+   ],
+   "g12": "Rolling only, short distance. Two-hand roll for younger students.",
+   "g34": "Longer distance, choose rolling or kicking, or collect hoops after toys (from the video).",
+   "g56": "",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=PWDhpaUODu8",
+     "title": "Target Toys demo",
+     "channel": ""
+    }
+   ],
+   "sources": [
+    "https://physedgames.com/target-toys/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
+  },
+  {
+   "id": "hoop-rollers",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-24",
+   "name": "Hoop Rollers",
+   "section": "Target / throwing",
+   "desc": "Relay teams roll a ball to land it in one of their hoops. A hoop scored is brought back to the team. Teams that capture all their hoops move to the far end and try to \"steal\" other teams' hoops.",
+   "sports": "rolling, bowling, target, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "PhysEdGames",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=nYB1lLURXAk",
+    "https://physedgames.com/hoop-rollers/"
+   ],
+   "order": 74,
+   "equipment": "3–5 hoops per team (about 20–25 hoops for 6 teams); 1 foam ball (or soft dodgeball) per team; 1 cone per team at the far end; a start line (the baseline)",
+   "setup": "Teams of 3–5 line up behind the baseline. Lay a line of hoops flat in front of each team at an appropriate distance (closer for younger students, farther for older). Place a cone at the far end of the gym opposite each team's line of hoops. Each team gets one ball to roll.",
+   "how": [
+    "Relay style: one player at a time rolls the ball, trying to score it into one of the team's hoops.",
+    "If the ball goes in a hoop, that player picks up the hoop and brings it back to the team.",
+    "The player gets the ball, passes it to the next player and goes to the back of the line.",
+    "Keep going until a team has captured all of its hoops.",
+    "A team that has captured all its hoops moves to the cones at the far end. From there, it rolls into another team's hoops from the opposite side to try to steal them.",
+    "A stolen hoop goes to the stealing team's pile. The game keeps going until time is up."
+   ],
+   "variations": [
+    "Grades 1–2: Hoops close, two-hand roll. Skip the stealing step.",
+    "Grades 3–4: Play as in the video, including stealing.",
+    "Grades 5–6: Farther hoops, non-dominant hand, or a team plan for which team to steal from (our adaptation)."
+   ],
+   "safety": "Soft balls only, rolled on the floor (no throwing). One roller per team at a time. Retrieve only when the lane is clear and walk on the side of the lane. Stealing teams roll from behind their far cones only. Hoops and cones 2 m from walls. Stop signal: \"Freeze\" (hold your ball).",
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "January"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Rolling with force for distance plus the stealing step suit Grades 3–4; Grades 1–2 skip stealing with close hoops, Grades 5–6 add a team plan.",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "6 teams of 4 (teams of 3–5 work) · 10–15 minutes",
+   "cues": [
+    "Opposite foot forward, bend low, roll smooth, follow through to the target.",
+    "Small hoop far away? Roll a little harder. Close hoop? Softer.",
+    "Choose a target hoop before you roll."
+   ],
+   "ifThis": [
+    "Two teams steal from the same team: limit stealing to one team at a time per target team (our adaptation).",
+    "Balls cross lanes: retrieve only when your lane is clear; walk on the side.",
+    "Teams finish at very different times: move the closest hoops back for the fast team."
+   ],
+   "roundEnds": "Set a time (6–8 minutes) or end when one team has every hoop. Count hoops, mix teams and play again.",
+   "tips": [
+    "Teach a bowling roll first with a partner roll for 2 minutes.",
+    "Talk about choosing targets: near hoops are easier, far hoops are worth the same.",
+    "Supports and inclusion: Use a larger ball or a closer roll line. A ramp or two-hand push roll works for students who need it. A student can be the hoop counter for a round.",
+    "Year plan: October, January."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "rolls with control and adjusts force for distance; chooses a target; Grades 4–6 make a plan for stealing."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students demonstrate how movement can support different types of physical activity. [PDE1-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Hoops close, two-hand roll. Skip the stealing step.",
+   "g34": "Play as in the video, including stealing.",
+   "g56": "Farther hoops, non-dominant hand, or a team plan for which team to steal from (our adaptation).",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=nYB1lLURXAk",
+     "title": "Hoop Rollers demo",
+     "channel": ""
+    }
+   ],
+   "sources": [
+    "https://physedgames.com/hoop-rollers/"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
+  },
+  {
+   "id": "tic-tac-run",
+   "added": "2026-10-26",
+   "addedOn": "2026-10-24",
+   "name": "Tic Tac Run",
+   "section": "Tag (stay-in style)",
+   "desc": "The teacher flips a beanbag. If it lands on X, the X team chases the O team back to its zone, and the reverse for O. Tagged players switch teams. For every tag, a player from the tagging team places a beanbag on a giant tic-tac-toe board. Three in a row is a point.",
+   "sports": "tag, reaction, team strategy, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=ZRXaZ_C7mGc"
+   ],
+   "order": 75,
+   "equipment": "9 double-sided beanbags (mark X on one side and O on the other); floor tape for a large tic-tac-toe board; cones or divider mats for a neutral zone; optional pinnies for the two teams",
+   "setup": "Make a neutral zone at half court with cones or divider mats. Tape a large tic-tac-toe board on the floor at the end of the neutral zone, off to the side where runners will not cross it. Mark each team's safe zone (end line or a cone line) at least 2 m from the end walls. Divide the class into two teams: X team and O team. Each team starts on its own side of the neutral zone. Mark an X on one side and an O on the other side of all nine beanbags.",
+   "how": [
+    "Say the rhyme, then flip a beanbag in the air: \"Tic Tac Toe, three in a row, here we go. Don't be slow!\"",
+    "If the beanbag lands on X, the X team chases the O team back to the O team's safe zone and tries to tag them before they get there.",
+    "If it lands on O, the O team chases the X team.",
+    "Any player who is tagged switches to the other team for the next toss.",
+    "If at least one tag is made, a player from the tagging team places a beanbag (showing their letter) on the tic-tac-toe board. Let a different student place the beanbag each toss.",
+    "If no tag is made, no beanbag is placed.",
+    "If the beanbag lands on its side, call a redo.",
+    "Three in a row on the board earns one point for that team. Clear the board and reset to the original teams after each point.",
+    "The first team to three points wins the day."
+   ],
+   "variations": [
+    "Grades 1–2: Walk or fast-walk first. Teacher places the beanbag with student help. Play to one point.",
+    "Grades 3–4: Play as in the video.",
+    "Grades 5–6: Teams talk for 10 seconds before placing (block or build). Change the starting position (sitting, lying face up) for a reaction challenge (our adaptation)."
+   ],
+   "safety": "Safe zones at least 2 m from end walls; runners slow down after the line. Two-finger tag on the back or shoulder, below the head; no pushing. Tic-tac-toe board off to the side, away from running paths. Divider mats (if used) stand firmly or lie flat. Stop signal: \"Freeze.\"",
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "November",
+    "January"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Reaction chase plus a team tic-tac-toe choice suit Grades 3–6; Grades 1–2 walk first and play to one point.",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "slot": "16–25",
+   "grouping": "2 teams of about 12 · 10–15 minutes",
+   "cues": [
+    "Ready position, eyes on the beanbag.",
+    "Chasers: two-finger tag on the back or shoulder.",
+    "Runners: turn and run straight to your safe zone. Run through the line, then slow down.",
+    "Placers: think. Block the other team or build your row."
+   ],
+   "ifThis": [
+    "Tag arguments: the runner decides honestly; if a disagreement repeats, use Rock, Paper, Scissors (our adaptation).",
+    "Players leave early: restart. Everyone waits until the beanbag lands.",
+    "Runners crowd the board: move the board farther off to the side."
+   ],
+   "roundEnds": "A tic-tac-toe earns a point, then teams reset. First team to three points wins. Tagged players switch teams, so nobody sits out.",
+   "tips": [
+    "Plays like Crows and Cranes (Warm Up Games page), with a tic-tac-toe board for scoring.",
+    "Front Range offers free posters for each side of the gym (link in the video comments). The game works without them.",
+    "Supports and inclusion: A student who needs a break can be the beanbag flipper or the board helper for a few tosses, then rejoin. Use a shorter chase distance if needed. Model one toss with walking first.",
+    "Year plan: October, November, January."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "reacts quickly and runs safely to the zone; tags gently and switches teams without arguing; teammates make placement choices together."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students demonstrate fair play and support engagement in a variety of physical activities. [PDE1-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students demonstrate teamwork and support participation in a variety of physical activities. [PDE2-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students identify and demonstrate how teamwork supports positive interactions during physical activity. [PDE3-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students connect and demonstrate how teamwork enhances participation in physical activity. [PDE4-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate how collaboration influences physical activity. [PDE5-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students analyze and apply conflict resolution in physical activity. [PDE6-OI2-GQ3-LO1]"
+    }
+   ],
+   "g12": "Walk or fast-walk first. Teacher places the beanbag with student help. Play to one point.",
+   "g34": "Play as in the video.",
+   "g56": "Teams talk for 10 seconds before placing (block or build). Change the starting position (sitting, lying face up) for a reaction challenge (our adaptation).",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=ZRXaZ_C7mGc",
+     "title": "Tic Tac Run demo",
+     "channel": ""
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
   }
  ]
 };
