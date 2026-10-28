@@ -445,7 +445,8 @@ window.WARMUP_NOGYM_GAMES = [
     ],
     "variations": [
       "Two-team original: a mat at each end of the gym.",
-      "Quick warm-up: call YOSHI a few seconds in."
+      "Quick warm-up: call YOSHI a few seconds in.",
+      "Free Zone: Mark a circle in the middle of the gym with cones or a hoop ring, about 3 m across, where all four quarters meet. Players inside the Free Zone can’t be tagged. They can rest there or plan their next move, then run for their target mat. Limit it to a 5-second stay, and no more than 3 players from one team at a time, so the game keeps moving. Safety: players walk into the zone, never dive into it. Taggers wait outside the cones and can’t reach in."
     ],
     "safety": "Two-finger tags. Mats away from the walls. The whistle is the freeze and stop signal. On a YOSHI call, eyes up and go around other players.",
     "outcomes": [
