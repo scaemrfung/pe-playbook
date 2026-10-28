@@ -885,6 +885,12 @@ function fillDownloads(html) {
   return html;
 }
 
+// Weekly plans page: games-only view of each Word plan (tools/weekly-view.js). No outcome or assessment
+// sections, and no separate "links used this week" list: each link is on its game's card.
+const WEEKLY = require("./weekly-view.js")({ ROOT, W, DETAILS, ALIASES, gameHref, gslug, esc, PLANS });
+report.push(WEEKLY.report);
+WEEKLY.warnings.forEach((w) => warnings.push(w));
+
 // every other hand-written page: static nav from chrome.js NAV
 const SKIP = new Set(Object.keys(outputs));
 fs.readdirSync(ROOT).filter((f) => f.endsWith(".html") && !SKIP.has(f) && !/^month-/.test(f)).forEach((f) => {
@@ -892,6 +898,7 @@ fs.readdirSync(ROOT).filter((f) => f.endsWith(".html") && !SKIP.has(f) && !/^mon
   if (!/<header class="site">[\s\S]*?<nav\b/.test(html)) return;
   if (f === "games-hub.html") html = fillCounts(html);
   if (f === "downloads.html") html = fillDownloads(html);
+  if (f === "weekly-plans.html") html = between(html, "weekly-plans", WEEKLY.html);
   outputs[f] = withStaticNav(html, f);
 });
 

@@ -7,7 +7,7 @@
   <meta name="description" content="Warm-up games for classroom, hallway, gym, and outside when the gym isn’t available or you need a quick start." />
   <link rel="preload" href="fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="styles.css?v=47464825" />
+  <link rel="stylesheet" href="styles.css?v=feb9b1e9" />
   <style>
     .space-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
     .space-tag {
@@ -106,7 +106,7 @@
     <div id="list"></div>
   </main>
   <script src="chrome.js?v=db2e2530"></script>
-  <script src="warmup-nogym-data.js?v=ca5d4646"></script>
+  <script src="warmup-nogym-data.js?v=a22ae18a"></script>
   <script>
     (function () {
       const games = window.WARMUP_NOGYM_GAMES || [];
@@ -127,7 +127,7 @@
           (g.space || []).join(" "),
           (g.how || []).join(" "),
           (g.variations || []).join(" "),
-          g.notes || "",
+          g.notes || "", g.grades || "", g.safety || "",
           g.youtubeLabel || "",
         ].join(" ").toLowerCase();
       }
@@ -184,6 +184,12 @@
             ? `<h3>Variations</h3><ul class="clean">${g.variations.map((s) => `<li>${escapeHtml(s)}</li>`).join("")}</ul>`
             : "";
           const note = g.notes ? `<p class="game-note">${escapeHtml(g.notes)}</p>` : "";
+          const grades = g.grades ? `<p class="meta"><strong>Grades:</strong> ${escapeHtml(g.grades)}</p>` : "";
+          const safety = g.safety ? `<p><strong>Safety:</strong> ${escapeHtml(g.safety)}</p>` : "";
+          const outs = g.outcomes && g.outcomes.length
+            ? `<h3>Outcome</h3><ul class="clean">${g.outcomes.map((o) => `<li><strong>${escapeHtml(o.grade)} · ${escapeHtml(o.code)}.</strong> ${escapeHtml(o.text)}</li>`).join("")}</ul>`
+            : "";
+          const source = g.source ? `<p class="meta"><strong>Source:</strong> <a href="${escapeHtml(g.source)}" target="_blank" rel="noopener">${escapeHtml(g.sourceLabel || g.source)}</a></p>` : "";
           const demo = g.youtube
             ? `<a class="watch-demo" href="${escapeHtml(g.youtube)}" target="_blank" rel="noopener">Watch demo${g.youtubeLabel ? ` <span class="meta">· ${escapeHtml(g.youtubeLabel)}</span>` : ""}</a>
                <p class="meta" style="margin-top:4px">Clip is a demo. Our house rules still apply (soft tag, stay-in, hits below the shoulders).</p>`
@@ -193,12 +199,16 @@
             <p class="meta">#${g.number}</p>
             <h2 style="color:var(--navy);margin-top:4px">${escapeHtml(g.title)}</h2>
             <div class="space-tags">${tags}</div>
+            ${grades}
             <p><strong>Equipment:</strong> ${escapeHtml(g.equipment)}</p>
             ${demo}
             <h3>How to play</h3>
             <ol class="how-list">${steps}</ol>
             ${vars}
+            ${safety}
+            ${outs}
             ${note}
+            ${source}
           </article>`;
         }).join("") || `<div class="panel"><p>No matches. Try another search or space filter.</p></div>`;
       }

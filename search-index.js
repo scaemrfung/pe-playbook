@@ -324,6 +324,7 @@ window.GAME_INDEX = [
 ["Deck of Fun","w","warmup-17",""],
 ["Doctor Doctor Dodge Ball","w","warmup-17a",""],
 ["Dominoes","w","warmup-18",""],
+["Four Corners Yoshi","w","warmup-18a",""],
 ["It Tag","w","warmup-19",""],
 ["Kings and Queens","w","warmup-19a",""],
 ["Musical Hoops","w","warmup-20",""],

@@ -425,6 +425,41 @@ window.WARMUP_NOGYM_GAMES = [
     "notes": "Dominoes often stored on the hallway cart."
   },
   {
+    "id": "warmup-18a",
+    "number": "18A",
+    "title": "Four Corners Yoshi",
+    "equipment": "4 mats (one per corner, not against an unpadded wall), pinnies in 4 colours, and cones or the court lines to split the gym into quarters",
+    "space": [
+      "gym"
+    ],
+    "grades": "Grades 3–6 (works for Grades 2–6 with walking only)",
+    "how": [
+      "Setup: Split the gym into 4 quarters with cones or the court lines. Put a mat in each corner, away from the walls.",
+      "Setup: Make 4 teams in 4 pinny colours. Each team starts in its own quarter.",
+      "Play: On the signal, each team tries to get all of its players onto the mat in the diagonally opposite corner.",
+      "Play: Players can only be tagged in another team’s quarter. Each team tags opponents who come into its own quarter.",
+      "Play: A tagged player sits where they were tagged. A teammate who reaches them untagged rescues them, and the two walk back to their own quarter, free.",
+      "Play: Players on the mat are safe. Anyone who leaves the mat to rescue a teammate has to return to their own quarter and try again.",
+      "Play: On “YOSHI!”, tagging stops and everyone, including sitting players, rushes to their target mat.",
+      "End / reset: The first team with everyone on its mat wins. Rotate the target corners and play again."
+    ],
+    "variations": [
+      "Two-team original: a mat at each end of the gym.",
+      "Quick warm-up: call YOSHI a few seconds in."
+    ],
+    "safety": "Two-finger tags. Mats away from the walls. The whistle is the freeze and stop signal. On a YOSHI call, eyes up and go around other players.",
+    "outcomes": [
+      {
+        "grade": "Grade 4",
+        "code": "Movement Skill Development",
+        "text": "Students select and implement strategies and tactics in a variety of physical activities."
+      }
+    ],
+    "notes": "Stay-in, no elimination: a tagged player sits only until a teammate rescues them, and the YOSHI call brings everyone back in.",
+    "source": "https://physedgames.com/yoshi/",
+    "sourceLabel": "Yoshi (PhysEdGames)"
+  },
+  {
     "id": "warmup-19",
     "number": "19",
     "title": "It Tag",

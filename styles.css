@@ -1027,3 +1027,47 @@ table.k-sheet td:last-child { min-width: 90px; }
 .ab-table input { font: inherit; width: 100%; min-width: 120px; border: 1px solid var(--line); border-radius: 6px; padding: 2px 4px; }
 .ab-lookfors li { margin-bottom: 6px; }
 .whats-new-extra { margin-top: 10px; }
+
+/* Weekly plans page: one week = day sections with game cards (games only) */
+.wk-index h2 { margin: 0 0 8px; }
+.wk-week-list { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.wk-plan { background: var(--card); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); margin: 0 0 14px; }
+.wk-plan > summary { cursor: pointer; padding: 14px 18px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; list-style: none; }
+.wk-plan > summary::-webkit-details-marker { display: none; }
+.wk-plan > summary::before { content: "▸"; color: var(--green); font-size: 1.1rem; }
+.wk-plan[open] > summary::before { content: "▾"; }
+.wk-title { font-family: var(--font-display); font-weight: 600; font-size: 1.25rem; color: var(--ink); }
+.wk-sub { color: var(--muted); font-size: .95rem; }
+.wk-body { padding: 0 18px 18px; }
+.wk-top { border-top: 1px solid var(--line); padding-top: 12px; }
+.wk-top h2 { margin: 0 0 8px; color: var(--navy); font-size: 1.6rem; }
+.wk-info { margin: 4px 0; max-width: 75ch; }
+.wk-actions { margin: 12px 0 4px; display: flex; flex-wrap: wrap; gap: 8px; }
+.wk-day { margin-top: 22px; }
+.wk-day h3 { margin: 0 0 6px; padding: 8px 12px; background: var(--green-lt); border-radius: 10px; color: var(--ink); font-size: 1.15rem; }
+.wk-day-links { margin: 4px 0 10px; }
+.wk-flag { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 999px; background: var(--green); color: var(--primary-fg); font-family: var(--font-sans); font-size: .78rem; font-weight: 600; vertical-align: middle; }
+.wk-games { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.wk-game { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; line-height: 1.45; }
+.wk-game-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.wk-game h4 { margin: 0; font-size: 1.15rem; }
+.wk-game h4 a { text-decoration: none; }
+.wk-slot { flex: none; font-size: .78rem; font-weight: 600; color: var(--green); text-transform: uppercase; letter-spacing: .04em; }
+.wk-purpose { margin: 6px 0; font-weight: 500; }
+.wk-line { margin: 6px 0; }
+.wk-steps { margin: 4px 0 0; padding-left: 1.3em; }
+.wk-steps li { margin: 2px 0; }
+.wk-bands { list-style: none; margin: 4px 0 0; padding: 0; }
+.wk-bands li { margin: 3px 0; }
+.wk-band { display: inline-block; min-width: 4.2em; font-size: .8rem; font-weight: 600; color: var(--green); }
+.wk-links { margin: 8px 0 0; padding-top: 6px; border-top: 1px dashed var(--line); font-size: .92rem; }
+@media print {
+  .wk-page .panel:first-child, .wk-index, .wk-actions, .wk-plan:not([open]) { display: none !important; }
+  .wk-plan { border: 0; box-shadow: none; margin: 0; }
+  .wk-plan > summary { display: none; }
+  .wk-body { padding: 0; }
+  .wk-games { display: block; }
+  .wk-game { break-inside: avoid; page-break-inside: avoid; margin: 0 0 8px; background: none; }
+  .wk-day h3 { background: none; border-bottom: 2px solid #000; border-radius: 0; padding: 0 0 2px; break-after: avoid; }
+  .wk-links a::after { content: ""; }
+}
