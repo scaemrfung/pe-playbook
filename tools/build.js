@@ -29,6 +29,19 @@ const ROOT = path.resolve(__dirname, "..");
 const CHECK = process.argv.includes("--check");
 const read = (f) => fs.readFileSync(path.join(ROOT, f), "utf8");
 
+// ------------------------------------------- weekly plan Word files (Mr. Fung, Oct 28 2026)
+// Remove "Notes for teacher", "Curriculum outcomes" and "Game & activity links used this week" from every
+// .docx in weekly-plans/ (links are saved to weekly-plans-links.json first). Idempotent.
+{
+  const { spawnSync } = require("child_process");
+  const r = spawnSync("python3", [path.join(__dirname, "strip-plan-sections.py")].concat(CHECK ? ["--check"] : []), { encoding: "utf8" });
+  if (r.error) console.warn("  WARNING weekly plans: could not run tools/strip-plan-sections.py (" + r.error.message + ")");
+  else {
+    if (r.stdout) process.stdout.write(r.stdout);
+    if (r.status !== 0) { process.stderr.write(r.stderr || ""); if (CHECK) process.exitCode = 1; else throw new Error("tools/strip-plan-sections.py failed"); }
+  }
+}
+
 // ---------------------------------------------------------------- data load
 const DATA_FILES = [
   "school-year.js", "data.js", "games-data.js", "outcomes-data.js", "lesson-outcomes.js",

@@ -4,7 +4,7 @@
  *
  * Source: the Word plans in weekly-plans/ (listed in weekly-plans-data.js). Each .docx is read
  * here with no dependencies (zip + XML). Only the day-by-day lesson lines and the plan's links
- * are used. The plan's outcome, rubric and assessment sections are NOT shown on the site, and
+ * are used (the links list comes from weekly-plans-links.json once the .docx no longer has it). The plan's outcome, rubric and assessment sections are NOT shown on the site, and
  * there is no separate "links used this week" list: each link sits on its game's card.
  * Game details (purpose, equipment, setup, steps) come from the playbook's own game cards.
  * Nothing is written into the .docx files.
@@ -70,6 +70,8 @@ function readDocx(file) {
 // --------------------------------------------------------------- the module
 module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslug, esc, PLANS }) {
   const warnings = [];
+  const SIDE = path.join(ROOT, "weekly-plans-links.json");
+  const SIDECAR = fs.existsSync(SIDE) ? JSON.parse(fs.readFileSync(SIDE, "utf8")) : {};
   const NG = ((W.NEW_GAMES && W.NEW_GAMES.games) || []);
   // name -> card { name, purpose, equipment, setup, play[], href }
   const CARDS = new Map();
@@ -164,6 +166,9 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
       games.forEach((g) => day.items.push({ g, kind, band, line: body }));
     }
     plan.days.sort((a, b) => a.n - b.n);
+    // The Word files no longer carry the links list (tools/strip-plan-sections.py removes it and
+    // saves it to weekly-plans-links.json first); the site still shows every link on its game card.
+    if (!plan.linkItems.length) (SIDECAR[path.basename(file)] || []).forEach((l) => plan.linkItems.push({ label: l.label, text: l.text, url: cleanUrl(l.url) }));
     return plan;
   }
 
