@@ -471,14 +471,14 @@ window.WARMUP_NOGYM_GAMES = [
     ],
     "how": [
       "Setup: Soft tags. Everybody is it.",
-      "Play: Tag others. When tagged, kneel on one knee until a different player taps your shoulder — then you’re free.",
-      "Play: Mutual tags at the same time = both kneel.",
+      "Play: Tag others. When tagged, sit down until a different player taps your shoulder — then you’re free.",
+      "Play: If two players tag each other at the same time, they play one quick round of Rock, Paper, Scissors. The loser sits.",
       "End: Timed rounds. Reset and go again."
     ],
     "variations": [
       "Partners or small groups: only your partner/group may free you."
     ],
-    "notes": "Stay-in / no-elimination: kneel briefly, then get freed.",
+    "notes": "Stay-in / no-elimination: sit briefly, then get freed.",
     "youtube": "https://www.youtube.com/watch?v=4ohNNSKIRQQ",
     "youtubeLabel": "Everybody's It (PhysEdGames) — same idea"
   },
