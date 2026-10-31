@@ -77,10 +77,11 @@
     ["May", "Track"],
     ["June", "Baseball"],
   ];
-  /* Top nav: six items. Games, Plans, Outcomes and More each have a short
+  /* Top nav. Games, Plans, Outcomes and More each have a short
      section menu (SUBNAV) that shows under them. "Month" opens the current month. */
   const NAV = [
     ["index.html", "Home"],
+    ["games-of-the-week.html", "Games of the Week"],
     ["games-hub.html", "Games"],
     ["weekly-plans.html", "Plans"],
     ["month.html", "Month"],
@@ -265,7 +266,7 @@
 
   /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
      before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
-  const SITE_UPDATED = "2026-10-31T15:31:08Z";
+  const SITE_UPDATED = "2026-10-31T15:32:15Z";
   function ensureUpdatedStamp() {
     if (document.querySelector(".site-updated-stamp")) return;
     const el = document.createElement("div");

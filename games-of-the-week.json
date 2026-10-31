@@ -1,0 +1,237 @@
+{
+ "_help": "Games of the Week (games-of-the-week.html): 3 games per school week, picked from games already on the site to fit the month's unit. Keyed by month, then by in-month week (1, 2, ...) using the start-month rule in school-year.js (a week belongs to the month its Monday is in). Each pick is [game name, one-line reason]. Names must match a New Games, Warm Up Games or Big-Group Games card exactly; the build warns if one does not, or if a game repeats inside a month. Equipment and the link come from the game's card. Edit, then run: node tools/build.js",
+ "units": {
+  "September": "Soccer, Terry Fox and football",
+  "October": "Football",
+  "November": "Floor hockey",
+  "December": "Games",
+  "January": "Basketball",
+  "February": "Ropes and jumping",
+  "March": "Volleyball",
+  "April": "Gymnastics",
+  "May": "Track and field",
+  "June": "Baseball"
+ },
+ "picks": {
+  "September": {
+   "1": [
+    ["Say My Name Rock, Paper, Scissors", "A quick way to learn everyone’s name in the first week."],
+    ["Here, There, Everywhere", "Teaches the stop and travel signals you will use all year."],
+    ["Four Corners", "A whole-class game where everyone stays in, good for setting gym routines."]
+   ],
+   "2": [
+    ["Sharks and Dolphins", "A tag warm-up with rescues, so nobody sits out."],
+    ["Through the Gates", "Partner passing and trapping, the first soccer skill of the unit."],
+    ["4-Goal Soccer", "Four nets keep a big class busy with lots of touches."]
+   ],
+   "3": [
+    ["Pair Running", "Builds steady running for the Terry Fox run on Friday."],
+    ["Avoid the Mines", "Everyone dribbles at once with their head up."],
+    ["Pin Galore Soccer", "Every pin is a goal, so passing and shooting pay off fast."]
+   ],
+   "4": [
+    ["Kangaroos and Crocodiles", "A reaction tag that gets legs ready for football."],
+    ["Crab Football", "A low-key first football game that builds core strength."],
+    ["End Zone Ball", "Get the ball to a teammate in the end zone: the big idea of football."]
+   ],
+   "5": [
+    ["Wolf’s Den", "Dodging past defenders, like a ball carrier finding space."],
+    ["4 vs 1", "Small-group keep-away for quick passes and getting open."],
+    ["Four Corner Flags", "Steal the flags and bring them home: attack and defend at once."]
+   ]
+  },
+  "October": {
+   "1": [
+    ["Predators and Prey Tag", "Fast chasing and dodging to start football class."],
+    ["The Perfect Pass", "Teams complete passes before scoring, so everyone touches the ball."],
+    ["Football Frenzy", "A busy whole-class game with foam footballs."]
+   ],
+   "2": [
+    ["Zone Tag", "Running through zones past a tagger, like finding a gap."],
+    ["Capture the Flag Relay", "Throw-and-catch practice at three distances."],
+    ["Flasketball", "Pass a foam football with no running, then shoot at the basket."]
+   ],
+   "3": [
+    ["Jellyfish", "A tag game where players help each other back in."],
+    ["Catch & Step", "Partner throwing and catching that gets harder as you succeed."],
+    ["End Ball", "Pass only, and score with a clean catch in the end zone."]
+   ],
+   "4": [
+    ["Tic Tac Run", "A react-and-chase warm-up with a coin-flip twist."],
+    ["Punt to the line", "Practise the drop-kick, the last football skill of the unit."],
+    ["Elementary Ultimate Frisbee", "Pass and move into space, the same idea as football."]
+   ]
+  },
+  "November": {
+   "1": [
+    ["Secret Agent Tag", "A new tag game where nobody knows who the taggers are."],
+    ["Hockey Dribbling Shapes", "Everyone stick-handles at once, from simple to tricky."],
+    ["Numbers Hockey", "Short, safe floor hockey games with sticks kept low."]
+   ],
+   "2": [
+    ["Freedom Catch", "Tag where a throw and catch frees frozen players."],
+    ["Gates & Hurdles Dribble", "Dribble through gates and under hurdles for points."],
+    ["Floorball", "A small-sided game that uses the hockey ideas of attack and defence."]
+   ],
+   "3": [
+    ["Shadow Tag", "A no-contact warm-up for quick changes of direction."],
+    ["Zigzag & Shoot", "Dribble around cones, then shoot at a target."],
+    ["Star Wars", "Teams aim at one big target ball, never at people."]
+   ],
+   "4": [
+    ["Everybody’s It", "Everyone tags and keeps playing, a busy warm-up."],
+    ["Move Up Hockey", "Each hit moves the target farther away: passing accuracy."],
+    ["Bean Bag Battle", "A team tossing battle to finish the hockey unit."]
+   ]
+  },
+  "December": {
+   "1": [
+    ["Alien Tag", "A noodle tag warm-up with a quick jumping-jack return."],
+    ["Hoop Hut Knock Down", "Build a hut together, then knock it down with a soft ball."],
+    ["Hidden Fleet", "Lob soft balls over the net to find the hidden ships."]
+   ],
+   "2": [
+    ["Frog Tag", "Leapfrog rescues keep everybody moving."],
+    ["Cone Raider", "Partner throwing at cones: hit one and it becomes yours."],
+    ["Eagles vs Seahawks", "A big team game of chasing and collecting."]
+   ]
+  },
+  "January": {
+   "1": [
+    ["Waspital", "Everybody-is-it tag with a stretch hospital to start the term."],
+    ["Dribble the gates", "Dribble through cone gates with finger pads and head up."],
+    ["Captain Ball", "Pass to your captain: the first basketball team game."]
+   ],
+   "2": [
+    ["Dice Wave Dribble", "A roll of the die sends groups dribbling across the gym."],
+    ["Wall chest-pass relay", "Chest passes off the wall in a quick relay."],
+    ["Noodle Tag Basketball", "Score while noodle taggers send you back."]
+   ],
+   "3": [
+    ["Rob the Nest", "Dribble to collect objects, one per trip."],
+    ["Throw & Go", "Pass, then move, so the next pass happens on the run."],
+    ["Cornerball", "Pass to a teammate in a corner hoop to score: getting open."]
+   ],
+   "4": [
+    ["Team Tag", "Pass the ball to get close enough to tag."],
+    ["Side to Side", "Partner passing with side jumps between hoops."],
+    ["Bench Ball", "Catch a pass on the bench to bring a teammate up."]
+   ]
+  },
+  "February": {
+   "1": [
+    ["Slippery Snakes", "Jump or step over a wiggling rope: a gentle start to ropes."],
+    ["Jump The River", "Jump the gap between two ropes, and it widens after each success."],
+    ["Rope Hoop Scoop", "Partners use skipping ropes to carry a hoop home."]
+   ],
+   "2": [
+    ["Musical Hoops", "Travel to the music, then share a hoop. Nobody sits out."],
+    ["Hop-the-hoops relay", "Hop through the hoops on one foot with planned landings."],
+    ["Hungry Snake", "Teams stay linked as a snake and pass objects back to the tail."]
+   ],
+   "3": [
+    ["Rush Hour", "A traffic game for speed changes and safe spacing."],
+    ["Helicopter Jump", "Jump the sliding noodle and stick the landing."],
+    ["Jump to Hoop Race", "A jumping relay from hoop to hoop."]
+   ],
+   "4": [
+    ["Mirror Mirror", "Run to music, then freeze and copy a partner’s pose."],
+    ["Jumping Jack Hoop Challenge", "Spin a hoop, do jumping jacks, catch it, and add one."],
+    ["Chicken Checkers", "Leave your base on the call and claim a new one."]
+   ]
+  },
+  "March": {
+   "1": [
+    ["Balloon Keep-Up", "Keep one balloon up as a team: the first step to volleying."],
+    ["Card Pass Challenge", "Bump in a circle and beat the number on your card."],
+    ["NitroBall 2.0", "Volleyball meets four square with a waist-high net."]
+   ],
+   "2": [
+    ["Reaction Speed", "Quick hands and ready position for volleyball."],
+    ["Hoop Collect (set/volley)", "A relay to set or volley balls into your team hoop."],
+    ["Skip-rope Net 3v3", "Small-sided volleyball over a rope net."]
+   ],
+   "3": [
+    ["Catch Clap", "Eyes on the ball, the habit every volleyball hit needs."],
+    ["Hand Tennis", "Open-hand rallies over a line or bench."],
+    ["FLY BACK", "Throw and catch over the net, a stepping stone to volleyball."]
+   ],
+   "4": [
+    ["Balloon Keep-Ups", "An easy welcome back from Spring Break."],
+    ["Wall Rally", "Keep a rally going against the wall with one bounce."],
+    ["Four Square Paddle Ball", "Hoop courts and paddles for striking and rallies."]
+   ]
+  },
+  "April": {
+   "1": [
+    ["Animals", "Animal moves warm up arms, legs and core for gymnastics."],
+    ["Frogs on the Lily Pads", "Two-foot jumps with a stuck landing."],
+    ["Safe to Shore", "Cross the floor using only the islands: balance and planning."]
+   ],
+   "2": [
+    ["Crab Tag", "Everyone moves in crab walk: strong arms for gymnastics."],
+    ["Bench Balance", "Walk the bench and move cones from side to side."],
+    ["Challenge Mat", "Co-operative challenges on mats, done as a team."]
+   ],
+   "3": [
+    ["Daytime / Nighttime", "Travel, then freeze in a strong, still shape."],
+    ["Spot-Jump Path", "Jump the targets with quiet, stuck landings."],
+    ["Stick Tic-Tac-Toe", "A stuck landing claims the hoop. Three in a row wins."]
+   ],
+   "4": [
+    ["Bridges & Rivers", "Half the class makes shapes while the others travel over and under."],
+    ["Crawl and Roll Challenge", "Link a crawl into a roll across the mats."],
+    ["Wheelbarrow Walk Olympics", "Partner strength walks to bronze, silver and gold cones."]
+   ]
+  },
+  "May": {
+   "1": [
+    ["Sneak & React", "Quick starts, like the start of a sprint."],
+    ["Long Jump Challenge", "Beat the team mark from the same line."],
+    ["Jungle Run Relays", "A relay with a hoop, a jump and a cone."]
+   ],
+   "2": [
+    ["Horse and Jockey", "Run on the call in a circle: quick reactions."],
+    ["Tennis Jump", "Timed two-foot jumps over a rolling ball."],
+    ["Circle run relay", "Laps of the circle with clean hand-offs."]
+   ],
+   "3": [
+    ["Colour Hunt", "Run and collect the colour that is called."],
+    ["Pace lap", "Learn to pace a run so you reach the cone on time."],
+    ["Balance Carry", "Carry an object without dropping it: control while moving."]
+   ],
+   "4": [
+    ["Catch Me If You Can (sprint)", "Short sprints with a head start: speed practice."],
+    ["Cone Relay", "Remember the order, then sprint the cones."],
+    ["Fetch Relay", "One item per trip, then tag the next runner."]
+   ],
+   "5": [
+    ["Bull Chasers", "Grab-and-go sprints for Track and Field Day week."],
+    ["Shuttles (cone ball)", "A shuttle relay to sharpen starts and turns."],
+    ["Rescue Relay", "Run across and bring a teammate home."]
+   ]
+  },
+  "June": {
+   "1": [
+    ["Mat Tag", "Run the bases and stay safe on the mats."],
+    ["Overarm throw-and-catch", "Practise the overarm throw to a partner."],
+    ["Continuous Kick Ball", "Kickball where several runners can be on base at once."]
+   ],
+   "2": [
+    ["Tidy Up", "Chase a moving bucket to return balls: quick feet."],
+    ["Bullseye", "Throw tennis balls to knock volleyballs off cones."],
+    ["Hit and Run", "Hit, run to the hoop, and fielders throw to the hoop."]
+   ],
+   "3": [
+    ["Back to Base", "Travel, then hurry back to your base on the whistle."],
+    ["Bozo / bucket toss", "Underhand tosses into buckets at longer distances."],
+    ["Diamond Strike", "All four hitters run a base on any hit."]
+   ],
+   "4": [
+    ["Chuck the Chicken", "A fun closer for the last class of the year."],
+    ["Throw-Clap-Catch", "Clap first, then catch: eyes on the ball."],
+    ["Fun Kickball", "Six-base kickball to finish the year."]
+   ]
+  }
+ }
+}

@@ -910,6 +910,12 @@ const WEEKLY = require("./weekly-view.js")({ ROOT, W, DETAILS, ALIASES, gameHref
 report.push(WEEKLY.report);
 WEEKLY.warnings.forEach((w) => warnings.push(w));
 
+// Games of the Week page: 3 games per school week from games-of-the-week.json (tools/games-of-the-week.js).
+const GOTW = require("./games-of-the-week.js")({ ROOT, W, SY, gameHref, gslug, esc, anchorOk, detailFor });
+outputs["games-of-the-week-data.js"] = GOTW.js;
+report.push(GOTW.report);
+GOTW.warnings.forEach((w) => warnings.push(w));
+
 // every other hand-written page: static nav from chrome.js NAV
 const SKIP = new Set(Object.keys(outputs));
 fs.readdirSync(ROOT).filter((f) => f.endsWith(".html") && !SKIP.has(f) && !/^month-/.test(f)).forEach((f) => {
@@ -918,6 +924,7 @@ fs.readdirSync(ROOT).filter((f) => f.endsWith(".html") && !SKIP.has(f) && !/^mon
   if (f === "games-hub.html") html = fillCounts(html);
   if (f === "downloads.html") html = fillDownloads(html);
   if (f === "weekly-plans.html") html = between(html, "weekly-plans", WEEKLY.html);
+  if (f === "games-of-the-week.html") html = between(html, "gotw-year", GOTW.html);
   outputs[f] = withStaticNav(html, f);
 });
 

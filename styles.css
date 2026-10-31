@@ -1071,3 +1071,41 @@ table.k-sheet td:last-child { min-width: 90px; }
   .wk-day h3 { background: none; border-bottom: 2px solid #000; border-radius: 0; padding: 0 0 2px; break-after: avoid; }
   .wk-links a::after { content: ""; }
 }
+
+/* ---- Games of the Week (games-of-the-week.html) ---- */
+.gotw-current h2, .gotw-next h2, .gotw-break h2 { margin: 0 0 6px; color: var(--navy); }
+.gotw-sub { margin: 0 0 12px; }
+.gotw-unit-pill { margin: 0; }
+.gotw-wnote { font-size: .82rem; font-weight: 500; color: var(--muted); font-family: var(--font-sans); }
+.gotw-cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.gotw-card { display: flex; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px; min-width: 0; }
+.gotw-card h3 { margin: 0 0 6px; font-size: 1.08rem; line-height: 1.25; }
+.gotw-card h3 a { color: var(--ink); }
+.gotw-card p { margin: 0 0 6px; font-size: .92rem; }
+.gotw-num { flex: 0 0 auto; width: 28px; height: 28px; border-radius: 999px; background: var(--green); color: var(--primary-fg); font-weight: 700; display: grid; place-items: center; font-size: .9rem; }
+.gotw-why { color: var(--ink); }
+.gotw-kit { color: var(--muted); }
+.gotw-page { display: inline-block; padding: 0 7px; border-radius: 999px; background: var(--green-lt); color: var(--green-mid); font-size: .72rem; font-weight: 650; vertical-align: middle; }
+.gotw-page-line { font-size: .85rem !important; }
+.gotw-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; }
+.gotw-nav button { font: inherit; cursor: pointer; }
+.gotw-break { border-left: 5px solid #d99a1c; background: #fdf6e6; }
+.gotw-break p { margin: 0; }
+.gotw-next-list { margin: 0; padding-left: 20px; }
+.gotw-next-list li { margin: 0 0 4px; }
+.gotw-next-list .gotw-why { color: var(--muted); font-size: .92rem; }
+.gotw-month { border-top: 1px solid var(--line); padding: 8px 0; }
+.gotw-month summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
+.gotw-month-name { color: var(--navy); }
+.gotw-unit { font-weight: 500; color: var(--muted); }
+.gotw-count { font-weight: 500; font-size: .8rem; color: var(--subtle); }
+.gotw-week { margin: 6px 0 12px; scroll-margin-top: 84px; }
+.gotw-week h3 { margin: 10px 0 6px; font-size: 1rem; color: var(--ink); }
+.gotw-week.gotw-is-current { padding: 4px 10px 6px; border-left: 5px solid #d99a1c; background: #fdf6e6; border-radius: 6px; }
+.gotw-week .this-week-pill { display: inline-block; margin-left: 6px; padding: 1px 9px; border-radius: 999px; font-size: .72rem; font-weight: 700; background: #fdf1dc; color: #8a5a00; }
+.gotw-list { margin: 0; padding-left: 22px; }
+.gotw-list li { margin: 0 0 8px; }
+.gotw-list .gotw-why, .gotw-list .gotw-kit { display: block; font-size: .9rem; }
+.gotw-break-row { margin: 4px 0 12px; padding: 8px 12px; border-radius: 8px; background: #fdf6e6; color: #8a5a00; font-size: .9rem; }
+@media (max-width: 900px) { .gotw-cards { grid-template-columns: 1fr; } }
+@media print { .gotw-nav { display: none; } .gotw-month { break-inside: avoid; } }
