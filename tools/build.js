@@ -913,6 +913,7 @@ WEEKLY.warnings.forEach((w) => warnings.push(w));
 // Games of the Week page: 3 games per school week from games-of-the-week.json (tools/games-of-the-week.js).
 const GOTW = require("./games-of-the-week.js")({ ROOT, W, SY, gameHref, gslug, esc, anchorOk, detailFor });
 outputs["games-of-the-week-data.js"] = GOTW.js;
+outputs["games-of-the-week-print.html"] = GOTW.printHtml; // printable: one page per week (tools/gotw-print.py makes the PDF + Word from it)
 report.push(GOTW.report);
 GOTW.warnings.forEach((w) => warnings.push(w));
 
@@ -924,7 +925,7 @@ fs.readdirSync(ROOT).filter((f) => f.endsWith(".html") && !SKIP.has(f) && !/^mon
   if (f === "games-hub.html") html = fillCounts(html);
   if (f === "downloads.html") html = fillDownloads(html);
   if (f === "weekly-plans.html") html = between(html, "weekly-plans", WEEKLY.html);
-  if (f === "games-of-the-week.html") html = between(html, "gotw-year", GOTW.html);
+  if (f === "games-of-the-week.html") html = between(html, "gotw-year", GOTW.html).replace(/Games-of-the-Week-[\d-]+\.(pdf|docx)/g, `${GOTW.printData.file}.$1`);
   outputs[f] = withStaticNav(html, f);
 });
 
@@ -958,6 +959,26 @@ for (let [f, content] of Object.entries(outputs)) {
   if (cur === content) continue;
   if (CHECK) stale.push(f);
   else { fs.writeFileSync(p, content); console.log("wrote", f); }
+}
+
+// ------------------------------------- Games of the Week printable downloads (PDF + Word), only when the content changed
+{
+  const G = GOTW.printData, sumFile = path.join(__dirname, "gotw-print.sha1");
+  const hash = crypto.createHash("sha1").update(JSON.stringify(G)).update(finalize(GOTW.printHtml))
+    .update(["gotw-print.css", "gotw-print.js", "tools/gotw-print.py"].map((f) => read(f)).join("\n")).digest("hex");
+  const have = fs.existsSync(sumFile) ? fs.readFileSync(sumFile, "utf8").trim() : "";
+  const missing = [".pdf", ".docx"].filter((x) => !fs.existsSync(path.join(ROOT, G.file + x)));
+  if (have !== hash || missing.length) {
+    if (CHECK) stale.push(G.file + ".pdf / .docx (Games of the Week printable)");
+    else {
+      const { spawnSync } = require("child_process");
+      const r = spawnSync("python3", [path.join(__dirname, "gotw-print.py")], { input: JSON.stringify(G), encoding: "utf8", timeout: 180000 });
+      if (r.stdout) process.stdout.write(r.stdout);
+      if (r.error || r.status !== 0) { process.stderr.write(r.stderr || String(r.error || "")); throw new Error("tools/gotw-print.py failed"); }
+      fs.writeFileSync(sumFile, hash + "\n");
+    }
+  }
+  report.push(`${G.file}.pdf / .docx: ${G.weeks.length} weeks, ${have === hash && !missing.length ? "up to date" : CHECK ? "OUT OF DATE" : "regenerated"}`);
 }
 report.forEach((l) => console.log("  " + l));
 if (process.env.DUMP_REFS) fs.writeFileSync(process.env.DUMP_REFS, JSON.stringify(global.__refs, null, 1));

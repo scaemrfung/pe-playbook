@@ -29,6 +29,8 @@
       }
     }
     var home = idx, view = idx;
+    var pw = document.getElementById("gotw-print-week");
+    if (pw && idx >= 0) pw.href = "games-of-the-week-print.html?week=" + W[idx].n + "&print=1";
 
     function picksHtml(w, cls) {
       return '<ol class="gotw-cards' + (cls ? " " + cls : "") + '">' + w.picks.map(function (p, n) {
@@ -62,7 +64,8 @@
         '<p class="gotw-nav no-print">' +
         (view > 0 ? '<button type="button" class="btn-ghost" data-go="-1">← Earlier week</button>' : "") +
         (!isHome && home >= 0 ? '<button type="button" class="btn-ghost" data-go="home">Back to this week</button>' : "") +
-        (view < W.length - 1 ? '<button type="button" class="btn-ghost" data-go="1">Later week →</button>' : "") + "</p></div>";
+        (view < W.length - 1 ? '<button type="button" class="btn-ghost" data-go="1">Later week →</button>' : "") +
+        '<a class="btn gotw-print-btn" href="games-of-the-week-print.html?week=' + w.n + '&amp;print=1">' + (isHome ? "Print this week" : "Print Week " + w.n) + "</a></p></div>";
       var nx = nextOf(view);
       if (nx) {
         var gap = breakBetween(w, nx);

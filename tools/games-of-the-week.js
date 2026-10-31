@@ -81,6 +81,148 @@ ${w.picks.map(pickLi).join("\n")}
         <p class="gotw-break-row">${esc(b.name)} (${esc(b.range)}): no school, no games this week.</p>`).join("")}`).join("\n")}
       </details>`).join("\n");
 
+  // ---- printable sheets (Mr. Fung, Oct 31 2026: "have a printable version of the games of the week document")
+  // One page per school week: dates, unit, and for each game its type, equipment, set-up, how we play, cues and
+  // key safety, copied from the game's existing card. Written to games-of-the-week-print.html (print / "Print this
+  // week"), and to Games-of-the-Week-<year>.pdf / .docx by tools/gotw-print.py (run from build.js).
+  const SITE = "https://scaemrfung.github.io/pe-playbook/";
+  const EXTRAS = W.GAME_EXTRAS || {};
+  const TYPE_LABELS = { tag: "Tag & chase", invasion: "Invasion & team", target: "Target & send", strike: "Strike & field",
+    relay: "Relays & stations", loco: "Locomotor & listen", coop: "Cooperative & circus", fitness: "Fitness & landings" };
+  let TYPE_WORDS = {};
+  try {
+    const m = /const TYPE_WORDS = (\{[\s\S]*?\n\s*\});/.exec(fs.readFileSync(path.join(ROOT, "app.js"), "utf8"));
+    if (m) TYPE_WORDS = Function(`"use strict"; return (${m[1]});`)();
+  } catch (e) { warnings.push("games-of-the-week print: could not read game types from app.js (" + e.message + ")"); }
+  const typeOf = (g) => {
+    if (g.type && TYPE_LABELS[g.type]) return g.type;
+    const low = String(g.name || "").toLowerCase();
+    for (const t of Object.keys(TYPE_LABELS)) for (const w of TYPE_WORDS[t] || []) if (low.includes(w)) return t;
+    return "loco";
+  };
+  const clean = (s) => String(s == null ? "" : s).replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
+  const list = (a) => [].concat(a || []).map(clean).filter(Boolean);
+  // The house-rule sentences every card repeats go once in the page footer instead.
+  const BOILER = [/No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in\./i, /Freeze on the whistle\./i,
+    /Watch a demo or clip before the first play if you have one\./i, /A miss is a short task and you stay in\./i,
+    /Extra players get a job \([^)]*\)\./i];
+  const safetyText = (s) => { let t = clean(s); BOILER.forEach((re) => { t = t.replace(re, ""); }); return t.replace(/\s+/g, " ").trim(); };
+  const equipText = (e) => { const s = clean(Array.isArray(e) ? e.join("; ") : e); return /^none\.?$/i.test(s) ? "None" : s; };
+  // Day-off notes keep the date but drop the day's name (no holiday names on the printables).
+  const printNote = (n) => clean(n).replace(/\s*\([^)]*\)/g, "");
+  const printBreak = (name) => /christmas/i.test(name) ? "Winter Break" : name;
+
+  function sheetFor(p) {
+    const k = key(p.name);
+    const n = NG.find((g) => key(g.name) === k);
+    if (n) return { type: n.typeLabel || TYPE_LABELS[n.type] || "", grades: clean(n.grades), equipment: equipText(n.equipment),
+      setup: clean(n.setup), how: list(n.how), cues: list(n.cues).slice(0, 4), safety: safetyText(n.safety) };
+    const w = WU.find((g) => key(g.title) === k);
+    if (w) {
+      const steps = list(w.how);
+      return { type: "Warm-up", grades: clean(w.grades), equipment: equipText(w.equipment),
+        setup: steps.filter((x) => /^set-?up:/i.test(x)).map((x) => x.replace(/^set-?up:\s*/i, "")).join(" "),
+        how: steps.filter((x) => !/^set-?up:/i.test(x)).map((x) => x.replace(/^play:\s*/i, "")),
+        cues: [], safety: safetyText(w.safety) };
+    }
+    const d = detailFor(p.name);
+    if (d) {
+      const x = EXTRAS[d.name] || {};
+      return { type: TYPE_LABELS[typeOf(d)] || "", grades: "", equipment: equipText(d.equipment), setup: clean(d.setup),
+        how: list(d.play), cues: list(x.cues).slice(0, 4), safety: safetyText(d.safety) };
+    }
+    return null;
+  }
+  const MONS = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
+  const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const longDate = (s) => { const d = new Date(s + "T12:00:00Z"); return `${DAYS[d.getUTCDay()]} ${MONS[d.getUTCMonth()]} ${d.getUTCDate()}`; };
+  const yearOf = (s) => s.slice(0, 4);
+  const sheets = weeks.map((w) => ({
+    n: w.n, month: w.month, unit: w.unit, range: w.range,
+    dates: w.start === w.end ? `${longDate(w.start)}, ${yearOf(w.start)}` : `${longDate(w.start)} – ${longDate(w.end)}, ${yearOf(w.end)}`,
+    note: printNote(w.note),
+    breakAfter: breakAfter(w).map((b) => ({ name: printBreak(b.name), range: b.range })),
+    games: w.picks.map((p) => {
+      const s = sheetFor(p);
+      if (!s) warnings.push(`games-of-the-week print: no card text for "${p.name}"`);
+      if (s && !s.how.length) warnings.push(`games-of-the-week print: "${p.name}" has no how-to-play steps`);
+      // a step that only repeats the set-up text (some merged cards) is dropped
+      if (s && s.setup) { const su = key(s.setup); s.how = s.how.filter((x) => !su.includes(key(x).replace(/\.$/, ""))); }
+      return Object.assign({ name: p.name, reason: p.reason, url: SITE + p.href, page: p.page }, s || {});
+    }),
+  }));
+  const printMonths = [];
+  sheets.forEach((w) => { let m = printMonths.find((x) => x.name === w.month); if (!m) printMonths.push((m = { name: w.month, unit: w.unit, weeks: [] })); m.weeks.push(w.n); });
+  const FILE = `Games-of-the-Week-${SY.calendar.label.replace(/[–—]/g, "-")}`;
+  const HOUSE = "House rules for every game: no elimination (a sit is a short task, then back in), freeze on the whistle, extra players get a job, and show a demo before the first play.";
+  const printData = { title: `Games of the Week ${SY.calendar.label}`, year: SY.calendar.label, teacher: "Mr. Fung", school: "SCA Elementary PE",
+    file: FILE, site: SITE, house: HOUSE, months: printMonths, weeks: sheets };
+
+  const e = esc;
+  const gameHtml = (g, i) => `        <article class="gp-game">
+          <h3><span class="gp-num">${i + 1}</span> <a href="${e(g.url)}">${e(g.name)}</a></h3>
+          <p class="gp-meta">${[g.type, g.grades ? "Grades " + g.grades : "", g.page].filter(Boolean).map(e).join(" · ")}</p>
+          <p class="gp-why">${e(g.reason)}</p>
+          <p><strong>Equipment:</strong> ${e(g.equipment || "See the card")}</p>${g.setup ? `
+          <p><strong>Set-up:</strong> ${e(g.setup)}</p>` : ""}
+          <div class="gp-how"><strong>How we play:</strong>
+            <ol>${(g.how || []).map((x) => `<li>${e(x)}</li>`).join("")}</ol>
+          </div>${g.cues && g.cues.length ? `
+          <p><strong>Cues:</strong> ${g.cues.map(e).join(" · ")}</p>` : ""}${g.safety ? `
+          <p class="gp-safety"><strong>Safety:</strong> ${e(g.safety)}</p>` : ""}
+        </article>`;
+  const sheetHtml = (w) => `      <section class="gp-sheet gp-week" id="week-${w.n}" data-week="${w.n}">
+        <header class="gp-band">
+          <p class="gp-kicker">Games of the Week · ${e(SY.calendar.label)} · Mr. Fung</p>
+          <h2>Week ${w.n} · ${e(w.dates)}</h2>
+          <p class="gp-unit">${e(w.month)}: ${e(w.unit)}${w.note ? ` <span class="gp-note">${e(w.note)}</span>` : ""}</p>
+        </header>
+${w.games.map(gameHtml).join("\n")}
+${w.breakAfter.map((b) => `        <p class="gp-break">Next: ${e(b.name)} (${e(b.range)}). No school, no games that week.</p>`).join("\n")}
+        <p class="gp-foot">${e(HOUSE)}</p>
+      </section>`;
+  const contents = printMonths.map((m) => `        <tr class="gp-mrow"><th colspan="3">${e(m.name)} <span>${e(m.unit)}</span></th></tr>
+${m.weeks.map((n) => { const w = sheets[n - 1] && sheets[n - 1].n === n ? sheets[n - 1] : sheets.find((x) => x.n === n);
+    return `        <tr><td><a href="#week-${w.n}">Week ${w.n}</a></td><td>${e(w.range)}</td><td>${w.games.map((g) => e(g.name)).join(" · ")}</td></tr>` +
+      w.breakAfter.map((b) => `\n        <tr class="gp-brow"><td colspan="3">${e(b.name)} (${e(b.range)}): no school</td></tr>`).join(""); }).join("\n")}`).join("\n");
+  const printHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Games of the Week ${e(SY.calendar.label)} · Printable · Mr. Fung</title>
+  <meta name="description" content="Printable Games of the Week: one page per school week with the 3 games, equipment, set-up, how to play, cues and safety." />
+  <link rel="stylesheet" href="gotw-print.css" />
+</head>
+<!-- Generated by tools/build.js (tools/games-of-the-week.js) from games-of-the-week.json and the game cards. Do not edit by hand. -->
+<body class="gp">
+  <div class="gp-toolbar">
+    <a href="games-of-the-week.html">← Games of the Week</a>
+    <button type="button" id="gp-print">Print</button>
+    <a href="${FILE}.pdf" download>Download printable (PDF)</a>
+    <a href="${FILE}.docx" download>Download printable (Word)</a>
+    <span id="gp-showing">All ${sheets.length} weeks, one page each.</span>
+    <a id="gp-all" href="games-of-the-week-print.html" hidden>Show all weeks</a>
+  </div>
+  <main class="gp-pages">
+    <section class="gp-sheet gp-cover" id="contents">
+      <header class="gp-band">
+        <p class="gp-kicker">${e(printData.school)} · Grades 1–6</p>
+        <h1>Games of the Week ${e(SY.calendar.label)}</h1>
+        <p class="gp-unit">Mr. Fung · 3 games per school week that fit the month’s unit · one page per week</p>
+      </header>
+      <table class="gp-contents">
+${contents}
+      </table>
+      <p class="gp-foot">Every game is on the PE Playbook with its full card: ${e(SITE)}games-of-the-week.html</p>
+    </section>
+${sheets.map(sheetHtml).join("\n")}
+  </main>
+  <script src="gotw-print.js"></script>
+</body>
+</html>
+`;
+
   const report = `games-of-the-week-data.js: ${weeks.length} school weeks, ${weeks.reduce((a, w) => a + w.picks.length, 0)} picks, ${breaks.length} breaks`;
-  return { js, html, warnings, report, weeks };
+  return { js, html, warnings, report, weeks, printHtml, printData };
 };

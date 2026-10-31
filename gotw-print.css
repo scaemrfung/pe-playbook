@@ -1,0 +1,59 @@
+/* Games of the Week printable (games-of-the-week-print.html). One US Letter page per school week.
+   Also used to make Games-of-the-Week-<year>.pdf (tools/gotw-print.py). */
+@font-face { font-family: "Figtree"; src: url("fonts/figtree-latin.woff2") format("woff2"); font-weight: 300 900; font-display: swap; }
+:root { --navy: #1a2f6b; --green: #1f6f4a; --ink: #1c232b; --muted: #55606b; --line: #c9d3dc; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body.gp { margin: 0; background: #e9edf1; color: var(--ink); font: 10pt/1.32 "Figtree", "Segoe UI", Arial, sans-serif; }
+.gp a { color: var(--navy); }
+.gp-toolbar { position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 10px 16px; background: #fff; border-bottom: 1px solid var(--line); font-size: 11pt; }
+.gp-toolbar a, .gp-toolbar button { font: inherit; font-weight: 650; }
+.gp-toolbar button, .gp-toolbar a[download] { cursor: pointer; border: 0; border-radius: 9px; padding: 6px 12px; background: var(--navy); color: #fff; text-decoration: none; }
+.gp-toolbar a[download] { background: var(--green); }
+#gp-showing { color: var(--muted); font-weight: 500; }
+.gp-pages { padding: 18px 0 40px; }
+.gp-sheet { width: 8.5in; min-height: 11in; margin: 0 auto 18px; padding: .5in; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
+.gp-sheet[hidden] { display: none; }
+.gp-band { background: var(--navy); color: #fff; border-radius: 8px; padding: 9px 14px 10px; margin: 0 0 10px; }
+.gp-band h1, .gp-band h2 { margin: 0; font-size: 16pt; line-height: 1.2; }
+.gp-kicker { margin: 0 0 2px; font-size: 8pt; letter-spacing: .04em; text-transform: uppercase; opacity: .85; }
+.gp-unit { margin: 3px 0 0; font-size: 10.5pt; font-weight: 600; }
+.gp-note { display: inline-block; margin-left: 6px; padding: 0 7px; border-radius: 999px; background: #fdf1dc; color: #6b4600; font-size: 8.5pt; font-weight: 650; }
+.gp-game { border: 1px solid var(--line); border-left: 5px solid var(--green); border-radius: 8px; padding: 7px 11px 6px; margin: 0 0 8px; break-inside: avoid; }
+.gp-game h3 { margin: 0; font-size: 12.5pt; line-height: 1.25; }
+.gp-game h3 a { color: var(--ink); text-decoration: none; }
+.gp-num { display: inline-block; width: 1.45em; height: 1.45em; line-height: 1.45em; text-align: center; border-radius: 999px; background: var(--green); color: #fff; font-size: 9.5pt; vertical-align: 1px; }
+.gp-game p { margin: 2px 0; }
+.gp-meta { color: var(--muted); font-size: 8.5pt; font-weight: 600; }
+.gp-why { font-style: italic; }
+.gp-how ol { margin: 1px 0 2px; padding-left: 1.5em; }
+.gp-how li { margin: 0; }
+.gp-safety { color: #5a2a00; }
+.gp-break { margin: 6px 0; padding: 6px 10px; border-radius: 6px; background: #fdf6e6; color: #6b4600; font-weight: 650; }
+.gp-foot { margin: 8px 0 0; padding-top: 5px; border-top: 1px solid var(--line); color: var(--muted); font-size: 8pt; }
+/* auto-fit: gotw-print.js steps a long week down so it stays on one page */
+.gp-sheet.gp-fit1 { font-size: 9.2pt; }
+.gp-sheet.gp-fit2 { font-size: 8.5pt; line-height: 1.25; }
+.gp-sheet.gp-fit3 { font-size: 7.9pt; line-height: 1.2; }
+.gp-sheet.gp-fit4 { font-size: 7.4pt; line-height: 1.18; }
+.gp-sheet.gp-fit4 .gp-how ol { column-count: 2; column-gap: 1.6em; }
+.gp-sheet.gp-fit4 .gp-how li { break-inside: avoid; }
+.gp-sheet.gp-fit2 .gp-game, .gp-sheet.gp-fit3 .gp-game, .gp-sheet.gp-fit4 .gp-game { padding: 5px 9px 4px; margin-bottom: 6px; }
+.gp-contents { width: 100%; border-collapse: collapse; font-size: .86em; line-height: 1.22; }
+.gp-contents td, .gp-contents th { padding: 1px 6px; border-bottom: 1px solid #e3e8ed; text-align: left; vertical-align: top; }
+.gp-contents td:first-child { white-space: nowrap; width: 5.2em; }
+.gp-contents td:nth-child(2) { white-space: nowrap; width: 8.5em; color: var(--muted); }
+.gp-mrow th { padding-top: 5px; color: var(--navy); font-size: 1.05em; border-bottom: 1.5px solid var(--navy); }
+.gp-mrow th span { font-weight: 500; color: var(--muted); font-size: .9em; margin-left: 6px; }
+.gp-brow td { color: #6b4600; background: #fdf6e6; font-weight: 600; }
+@media (max-width: 860px) { .gp-sheet { width: auto; min-height: 0; margin: 0 8px 14px; padding: 14px; } }
+body.gp-measure .gp-sheet { width: 8.5in !important; padding: .5in !important; margin: 0 !important; }
+@page { size: letter; margin: .5in; }
+@media print {
+  body.gp { background: #fff; }
+  .gp-toolbar { display: none !important; }
+  .gp-pages { padding: 0; }
+  .gp-sheet { width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none; break-after: page; page-break-after: always; }
+  .gp-sheet:last-of-type { break-after: auto; page-break-after: auto; }
+  .gp-game h3 a, .gp-contents a { color: inherit; text-decoration: none; }
+}

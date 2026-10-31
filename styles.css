@@ -1108,4 +1108,8 @@ table.k-sheet td:last-child { min-width: 90px; }
 .gotw-list .gotw-why, .gotw-list .gotw-kit { display: block; font-size: .9rem; }
 .gotw-break-row { margin: 4px 0 12px; padding: 8px 12px; border-radius: 8px; background: #fdf6e6; color: #8a5a00; font-size: .9rem; }
 @media (max-width: 900px) { .gotw-cards { grid-template-columns: 1fr; } }
-@media print { .gotw-nav { display: none; } .gotw-month { break-inside: avoid; } }
+.gotw-print-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 4px; }
+.gotw-print-links a.gotw-dl { background: var(--green); }
+.gotw-print-note { margin: 0; font-size: .85rem; }
+.gotw-nav .gotw-print-btn { margin-left: auto; }
+@media print { .gotw-nav, .gotw-print-links, .gotw-print-note { display: none !important; } .gotw-month { break-inside: avoid; } }
