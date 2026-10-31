@@ -112,7 +112,15 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
   const shortLine = (s, max = 170) => { s = firstSentence(s).replace(/\s+/g, " ").trim(); if (s.length <= max) return s; const cut = s.slice(0, max); return cut.slice(0, cut.lastIndexOf(" ")) + "…"; };
 
   // the plans add a "_hl" counter to every link (Google Docs export); it is not part of the address
-  const cleanUrl = (u) => String(u || "").replace(/([?&])_hl=\d+(&?)/, (m, a, b) => (b ? a : "")).replace(/[?&]$/, "");
+  const NG_IDS = new Set(NG.map((g) => g.id));
+  const slugOf = (n) => String(n).toLowerCase().replace(/[’']/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  // a New Games card that was merged into another card (now an also-called name): point the old link at the kept card
+  const remapGone = (u) => u.replace(/(pe-playbook\/)?new-games\.html#([a-z0-9-]+)$/, (m, pre, id) => {
+    if (NG_IDS.has(id)) return m;
+    const k = [...CARDS.keys()].find((n) => slugOf(n) === id);
+    return k ? (pre ? "https://scaemrfung.github.io/pe-playbook/" : "") + CARDS.get(k).href : m;
+  });
+  const cleanUrl = (u) => remapGone(String(u || "").replace(/([?&])_hl=\d+(&?)/, (m, a, b) => (b ? a : "")).replace(/[?&]$/, ""));
   function parsePlan(file) {
     const P = readDocx(path.join(ROOT, file));
     const plan = { info: [], days: [], linkItems: [] };

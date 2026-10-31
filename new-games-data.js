@@ -18,7 +18,7 @@ window.NEW_GAMES = {
  "latestWeek": "2026-11-16",
  "docWeek": "2026-11-16",
  "dedupe": {
-  "excluded": 70,
+  "excluded": 74,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
  },
  "units": [
@@ -77,7 +77,7 @@ window.NEW_GAMES = {
   {
    "key": "2026-11-16",
    "label": "Week of Nov 16, 2026",
-   "count": 5,
+   "count": 3,
    "addedOn": "2026-10-31",
    "addedOnLabel": "Sat Oct 31, 2026"
   },
@@ -105,7 +105,7 @@ window.NEW_GAMES = {
   {
    "key": "2026-10-05",
    "label": "Week of Oct 5, 2026",
-   "count": 6,
+   "count": 4,
    "addedOn": "2026-10-05",
    "addedOnLabel": "Mon Oct 5, 2026"
   },
@@ -5094,218 +5094,6 @@ window.NEW_GAMES = {
    "bandWhy": "Needs arm strength and a partner holding ankles safely."
   },
   {
-   "id": "pancake-relay",
-   "added": "2026-10-05",
-   "addedOn": "2026-10-05",
-   "name": "Pancake Relay",
-   "section": "Fitness & stations",
-   "desc": "Small teams; each has a tennis racket and a beanbag “pancake”; on signal the first runner balances the beanbag on the racket, travels around the team’s marker cone and back (if it drops, pick it up, replace it and carry on), then carefully hands racket and pancake to the next runner; continue until all have gone",
-   "sports": "athletics, balance, racket-handling (tennis/badminton lead-up)",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=43WKN35jXKk"
-   ],
-   "order": 52,
-   "unit": "May",
-   "suggestedMonth": "May",
-   "alsoFits": [
-    "October"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "inferred",
-   "type": "relay",
-   "typeLabel": "Relays & stations",
-   "slot": "0–5 or 16–25",
-   "grouping": "Even teams of 4–6 · one lane per team · 8–12 m to a turn cone · 8–12 minutes · two rotations then a quality round",
-   "cues": [
-    "Eyes up, soft knees, racket flat like a plate.",
-    "If it falls, stop, replace, continue — no panic sprint.",
-    "Hand off gently at the cone; next runner waits behind the line.",
-    "Stay in your lane; celebrate a clean hand-off."
-   ],
-   "ifThis": [
-    "Pancakes keep falling: slow everyone to a walk and practise a 5-step balance before the next relay.",
-    "Early starts: that runner goes back behind the cone and waits for a clear high-five."
-   ],
-   "roundEnds": "Two full rotations, then one quality round focused on balance and calm hand-offs. Celebrate form, not a ranking.",
-   "tips": [
-    "Demo a slow lap yourself so the class sees replace-and-continue, not a restart.",
-    "Mark wide lanes so rackets never cross. House rules: no elimination; a drop is a pause, then back in.",
-    "Year plan: May, October — athletics balance and a fall fitness relay that also leads into racket skills."
-   ],
-   "outcomes": [
-    {
-     "code": "Active Living",
-     "look": "Stays in the relay for every turn and can name how hard the balance work felt."
-    },
-    {
-     "code": "Movement Skill Development",
-     "look": "Keeps the racket level and adjusts speed so the beanbag stays on."
-    },
-    {
-     "code": "Skill focus",
-     "look": "Chooses a walk or jog pace that protects the pancake instead of a wild sprint."
-    },
-    {
-     "code": "Skill focus",
-     "look": "Waits behind the line and gives a calm hand-off to the next runner."
-    },
-    {
-     "code": "Character Development",
-     "look": "Replaces a dropped pancake honestly and continues without arguing."
-    },
-    {
-     "code": "Safety",
-     "look": "Keeps the racket low; looks up when turning the cone."
-    },
-    {
-     "code": "Healthy Relationships",
-     "look": "Cheers a teammate after a drop and does not rank teams loudly."
-    }
-   ],
-   "g12": "Walk only. Short lanes (5–6 m). Teacher or a partner may steady the first few hand-offs.",
-   "g34": "Walk then light jog. Full 8–12 m lanes. Students self-check: flat racket, soft knees.",
-   "g56": "Jog with a quality focus. Optional weave through two cones. Peer coach gives one balance cue per lap.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=43WKN35jXKk",
-     "title": "3 PE Games to Get your Class Running by Daly Exercise",
-     "channel": "Daly Exercise"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Pancake Relay and Post the Parcel are both shown in this Daly Exercise clip. Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "Per team: 1 tennis racket (or soft racket), 1 beanbag “pancake”, 1 turn cone about 8–12 m away; pinnies optional",
-   "setup": "Make a lane for each team. Put a turn cone at the far end of each lane. Line each team up behind a start cone. Give the first runner a racket with a beanbag balanced on the face (the pancake).",
-   "how": [
-    "On GO, the first runner walks or jogs down the lane with the pancake balanced on the racket, around the turn cone, and back to the start.",
-    "If the beanbag falls, the runner stops, places it back on the racket, and continues from that spot — no restart from the beginning.",
-    "At the start line they carefully hand the racket and pancake to the next runner (no tossing).",
-    "Every teammate goes once. Finish with a quality round where the goal is a smooth hand-off and a pancake that stays on, not a sprint ranking.",
-    "Freeze on the whistle between rounds; reset pancakes and swap who goes first."
-   ],
-   "safety": "Rackets stay low and in front of the body — never swung at people. Walk the first round. Leave a clear gap between lanes. Soft landings if someone stumbles for a dropped pancake.",
-   "variations": [
-    "Younger grades walk only; older grades may jog once balance looks solid.",
-    "Use a soft foam racket or a flat board if tennis rackets are scarce.",
-    "Add a second cone so runners weave, or swap the beanbag for a soft foam ball.",
-    "Partner version: one holds the racket, the other coaches balance cues from the side of the lane."
-   ],
-   "bestBand": "1–2",
-   "alsoBand": "3–4",
-   "bandWhy": "Walk while balancing a beanbag on a racket."
-  },
-  {
-   "id": "post-the-parcel",
-   "added": "2026-10-05",
-   "addedOn": "2026-10-05",
-   "name": "Post the Parcel",
-   "section": "Fitness & stations",
-   "desc": "Small teams, each runner holding a tennis ball; a cone 5–10 m away hides five beanbags underneath; one at a time each runner lifts the cone, leaves their tennis ball, takes a beanbag and races back to tag the next; done when every beanbag has been swapped for a tennis ball",
-   "sports": "athletics, relay, sprint",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=43WKN35jXKk"
-   ],
-   "order": 53,
-   "unit": "May",
-   "suggestedMonth": "May",
-   "alsoFits": [
-    "October"
-   ],
-   "grades": "3–6",
-   "gradesFrom": "inferred",
-   "type": "relay",
-   "typeLabel": "Relays & stations",
-   "slot": "0–5 or 16–25",
-   "grouping": "Even teams of 4–6 · one lane per team · cone 5–10 m away · 8–12 minutes · finish when all beanbags are swapped",
-   "cues": [
-    "Carry, place, pick, sprint — one job at a time.",
-    "Ball goes down gently at the cone; beanbag comes home.",
-    "Next runner waits behind the line with the next ball ready.",
-    "Cheer every team to the finish — no ranking shout-outs."
-   ],
-   "ifThis": [
-    "Balls get kicked or thrown at the cone: freeze, remind place-down only, restart that leg.",
-    "Lanes collide at the cone: stagger start times by two seconds or widen lanes."
-   ],
-   "roundEnds": "A team is done when all five beanbags are back and five balls are at the far cone. Celebrate every team; then reset for a quality second round.",
-   "tips": [
-    "Count beanbags aloud as they return so teams can self-check.",
-    "Demo one full leg: place the ball, take one beanbag only, sprint back. House rules: no elimination; early finishers become cheerleaders, not winners who sit out.",
-    "Year plan: May, October — sprint fitness that fits track month and a sharp fall warm-up."
-   ],
-   "outcomes": [
-    {
-     "code": "Active Living",
-     "look": "Sprints and recovers for every turn until the team’s parcels are done."
-    },
-    {
-     "code": "Movement Skill Development",
-     "look": "Accelerates in a straight lane and decelerates safely at the cone."
-    },
-    {
-     "code": "Skill focus",
-     "look": "Chooses a controlled place-and-pick so the next runner gets a clean start."
-    },
-    {
-     "code": "Skill focus",
-     "look": "Takes turns in order and resets equipment for the next round."
-    },
-    {
-     "code": "Character Development",
-     "look": "Takes only one beanbag and places the ball honestly."
-    },
-    {
-     "code": "Safety",
-     "look": "Stays in lane; places the ball down instead of throwing."
-    },
-    {
-     "code": "Healthy Relationships",
-     "look": "Cheers other teams after finishing instead of teasing."
-    }
-   ],
-   "g12": "Walk or jog out, jog back. Use 3 beanbags and a short 5 m cone. Teacher helps at the cone for the first round.",
-   "g34": "Sprint back after a controlled place-and-pick. 5 beanbags, 8 m cone.",
-   "g56": "Full sprint return, 10 m cone. Add a quality rule: ball must sit still on the cone base before the beanbag is taken.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=43WKN35jXKk",
-     "title": "3 PE Games to Get your Class Running by Daly Exercise",
-     "channel": "Daly Exercise"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Post the Parcel and Pancake Relay are both shown in this Daly Exercise clip. Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "Per team: 1 turn cone, 5 beanbags stacked or placed at that cone, 5 tennis balls (or soft balls) at the start line; pinnies optional",
-   "setup": "Make a lane for each team. Place a cone 5–10 m from the start line with five beanbags ready under or beside it (the “parcels” waiting to be collected). Give the first runner one tennis ball. Extra balls stay in a pile at the start for the next runners.",
-   "how": [
-    "On GO, the first runner carries a tennis ball to the far cone.",
-    "They leave the ball at the cone (post the parcel) and pick up one beanbag.",
-    "They sprint back to the start and hand the beanbag to the team pile, then the next runner takes a new tennis ball.",
-    "Keep going until all five beanbags have been brought back and five balls sit at the far cone.",
-    "When a team finishes, they cheer other teams in. Reset balls and beanbags, then play a second round with a quality focus (smooth place-and-pick, not wild throws)."
-   ],
-   "safety": "Place the ball down — do not throw it at the cone or at people. Sprint in your own lane. Soft stops at the cone so nobody slides into another lane.",
-   "variations": [
-    "Fewer beanbags (3) for younger grades or a shorter time.",
-    "Carry the ball on a racket for a pancake-style link, or dribble a soccer ball instead of carrying.",
-    "Add a locomotor rule on the way out (skip) and a sprint on the way back.",
-    "Make the cone farther for grades 5–6 once the place-and-pick is clean."
-   ],
-   "bestBand": "3–4",
-   "alsoBand": "5–6",
-   "bandWhy": "A swap task at the cone, then a sprint back."
-  },
-  {
    "id": "zone-tag",
    "added": "2026-10-05",
    "addedOn": "2026-10-03",
@@ -5320,7 +5108,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=DAgKmt4cXCA"
    ],
-   "order": 54,
+   "order": 52,
    "unit": "October",
    "alsoFits": [
     "September"
@@ -5429,7 +5217,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/mat-tag/"
    ],
-   "order": 55,
+   "order": 53,
    "unit": "June",
    "alsoFits": [
     "October"
@@ -5529,11 +5317,13 @@ window.NEW_GAMES = {
    "flag": "stay-in",
    "stayIn": true,
    "source": "PhysEdGames",
-   "notes": [],
+   "notes": [
+    "Also called / variant: Capture the Beanbag (Daly Exercise) — runner takes one beanbag from the team hoop and throws it back to a teammate; a catch keeps it"
+   ],
    "links": [
     "https://physedgames.com/capture-the-flag-relay/"
    ],
-   "order": 56,
+   "order": 54,
    "unit": "October",
    "alsoFits": [
     "September"
@@ -5616,7 +5406,8 @@ window.NEW_GAMES = {
     "Change the throw: underhand toss, chest pass, or football-style throw.",
     "Catchers who step out of the hoop do not count the catch.",
     "Make the hoop spots closer for younger students or farther for grades 5–6.",
-    "Set a target of 10 flags instead of 15 if time is short."
+    "Set a target of 10 flags instead of 15 if time is short.",
+    "Capture the Beanbag: the runner goes to the team hoop, takes one beanbag and throws it back to a teammate; a catch keeps the beanbag, a drop sends it back to the hoop; the runner returns and tags the next player."
    ],
    "bestBand": "3–4",
    "alsoBand": "5–6",
@@ -5637,7 +5428,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=2laMBy7bRmw"
    ],
-   "order": 57,
+   "order": 55,
    "unit": "December",
    "suggestedMonth": "December",
    "alsoFits": [
@@ -5755,7 +5546,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=IXEod6PIGQ4",
     "https://www.youtube.com/watch?v=ZjCAGdS6GW0"
    ],
-   "order": 58,
+   "order": 56,
    "unit": "October",
    "suggestedMonth": "October",
    "alsoFits": [
@@ -5889,7 +5680,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=OLN_sGry3DI"
    ],
-   "order": 59,
+   "order": 57,
    "unit": "December",
    "suggestedMonth": "December",
    "alsoFits": [
@@ -6013,7 +5804,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=YJXztDoyXBU"
    ],
-   "order": 60,
+   "order": 58,
    "unit": "February",
    "suggestedMonth": "February",
    "alsoFits": [
@@ -6135,7 +5926,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/shorts/6Dc_sqY8t-M"
    ],
-   "order": 61,
+   "order": 59,
    "unit": "September",
    "suggestedMonth": "September",
    "alsoFits": [
@@ -6255,7 +6046,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=248zb20yzWo",
     "https://www.youtube.com/watch?v=96I3ZKcXnas"
    ],
-   "order": 62,
+   "order": 60,
    "unit": "March",
    "suggestedMonth": "March",
    "alsoFits": [
@@ -6381,7 +6172,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=y3xJHICHq3k",
     "https://www.youtube.com/watch?v=CBUQTzj0gsU"
    ],
-   "order": 63,
+   "order": 61,
    "unit": "September",
    "suggestedMonth": "September",
    "alsoFits": [
@@ -6506,7 +6297,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=aSblsRjRtv8"
    ],
-   "order": 64,
+   "order": 62,
    "unit": "October",
    "suggestedMonth": "October",
    "alsoFits": [
@@ -6623,7 +6414,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=6z71ZAx7cNo",
     "https://www.youtube.com/watch?v=bux6UL2jYVc"
    ],
-   "order": 65,
+   "order": 63,
    "unit": "November",
    "suggestedMonth": "November",
    "alsoFits": [
@@ -6742,7 +6533,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=HS8wSGnnV68"
    ],
-   "order": 66,
+   "order": 64,
    "unit": "November",
    "suggestedMonth": "November",
    "alsoFits": [
@@ -6845,7 +6636,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=1NC9F1Ij15Y"
    ],
-   "order": 67,
+   "order": 65,
    "unit": "November",
    "suggestedMonth": "November",
    "alsoFits": [
@@ -6947,7 +6738,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=fFhUwnd7VRs",
     "https://www.youtube.com/watch?v=cDwFp4nER70"
    ],
-   "order": 68,
+   "order": 66,
    "unit": "November",
    "suggestedMonth": "November",
    "alsoFits": [
@@ -7058,7 +6849,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=IlvAkQToOfU"
    ],
-   "order": 69,
+   "order": 67,
    "unit": "November",
    "suggestedMonth": "November",
    "alsoFits": [
@@ -7160,7 +6951,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=055qhrUg3GA",
     "https://physedgames.com/circle-racing/"
    ],
-   "order": 70,
+   "order": 68,
    "unit": "October",
    "suggestedMonth": "October",
    "alsoFits": [
@@ -7270,7 +7061,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=VYygnMyQKcc",
     "https://physedgames.com/ambush/"
    ],
-   "order": 71,
+   "order": 69,
    "unit": "October",
    "suggestedMonth": "October",
    "alsoFits": [
@@ -7379,7 +7170,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=1B2ABZhC4EA"
    ],
-   "order": 72,
+   "order": 70,
    "unit": "October",
    "suggestedMonth": "October",
    "alsoFits": [
@@ -7487,7 +7278,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=PWDhpaUODu8",
     "https://physedgames.com/target-toys/"
    ],
-   "order": 73,
+   "order": 71,
    "unit": "October",
    "suggestedMonth": "October",
    "alsoFits": [
@@ -7594,7 +7385,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=nYB1lLURXAk",
     "https://physedgames.com/hoop-rollers/"
    ],
-   "order": 74,
+   "order": 72,
    "unit": "October",
    "suggestedMonth": "October",
    "alsoFits": [
@@ -7703,7 +7494,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=ZRXaZ_C7mGc"
    ],
-   "order": 75,
+   "order": 73,
    "unit": "October",
    "suggestedMonth": "October",
    "alsoFits": [
@@ -7817,7 +7608,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=TekIj2ogS4Y",
     "https://physedgames.com/secret-agent-tag/"
    ],
-   "order": 76,
+   "order": 74,
    "unit": "November",
    "suggestedMonth": "November",
    "alsoFits": [
@@ -7917,116 +7708,6 @@ window.NEW_GAMES = {
    "bandWhy": "Hidden roles, freeing without being spotted and protecting the agents suit Grades 3–6; Grade 2 plays a walk-only round with visible taggers."
   },
   {
-   "id": "catch-and-thaw-tag",
-   "added": "2026-11-16",
-   "addedOn": "2026-10-31",
-   "name": "Catch and Thaw Tag",
-   "section": "Tag (stay-in style)",
-   "desc": "A tagger freezes players with a foam stick. One thrower carries the soft thaw ball and cannot be tagged. To free a frozen player, the thrower tosses them the ball. A catch frees the player, and that player becomes the new thrower. A drop means they stay frozen and the thrower tries someone else.",
-   "sports": "tag, throwing and catching, gr K–4",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Front Range PE",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=KI8sL9shLX0"
-   ],
-   "order": 77,
-   "unit": "November",
-   "suggestedMonth": "November",
-   "alsoFits": [
-    "January"
-   ],
-   "grades": "K–4",
-   "gradesFrom": "doc",
-   "type": "tag",
-   "typeLabel": "Tag & chase",
-   "slot": "16–25",
-   "grouping": "1–2 taggers, 1–2 throwers · 2–3 minute rounds · 10–15 minutes",
-   "cues": [
-    "Thrower: step with the opposite foot, swing low to high, aim at the chest.",
-    "Catcher: hands ready, thumbs together for high balls, pinkies together for low balls, pull the ball in.",
-    "Tagger: soft tag with the foam stick below the shoulders."
-   ],
-   "ifThis": [
-    "The thrower keeps going to the same friend: say \"Choose the closest frozen player.\"",
-    "Throws are too hard: use underhand only, from no more than 3 big steps away.",
-    "Too many frozen players: add a second thrower with a second soft ball."
-   ],
-   "roundEnds": "2–3 minutes. Choose a new tagger and thrower. Frozen players are freed often by catches, so nobody sits out.",
-   "tips": [
-    "Teach the underhand toss and the catch with a partner for 2 minutes first.",
-    "Praise good throws. The game works best when the thrower helps the catcher succeed.",
-    "Supports and inclusion: Use a larger or softer ball for students who need it. A student who needs a break can be a mat helper who counts the \"rest 5,\" then rejoins. A student who uses a mobility aid can be the thrower for longer turns.",
-    "Year plan: November, January."
-   ],
-   "outcomes": [
-    {
-     "code": "Look-fors",
-     "look": "tosses underhand with a step and follow-through; gets hands ready and pulls the catch in; tags softly with the foam stick."
-    },
-    {
-     "code": "Kindergarten outcome",
-     "look": "Children investigate movement of the body. [PDEK-OI2-GQ2-LO1]"
-    },
-    {
-     "code": "Grade 1 outcome",
-     "look": "Students demonstrate how movement can support different types of physical activity. [PDE1-OI2-GQ2-LO1]"
-    },
-    {
-     "code": "Grade 2 outcome",
-     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
-    },
-    {
-     "code": "Grade 3 outcome",
-     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
-    },
-    {
-     "code": "Grade 4 outcome",
-     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
-    },
-    {
-     "code": "Grades 5–6",
-     "look": "Not recommended as written (written for K–4). Use Bean Bag Battle or Capture the Beanbag for throwing."
-    }
-   ],
-   "g12": "K–Grade 1: Use a bigger, softer ball or a beanbag. Throw from 2 steps away. Walk-only first round. Grades 2–3: Play as in the video with underhand throws.",
-   "g34": "Grade 3: Play as in the video with underhand throws. Grade 4: Allow controlled overhand throws when space is safe (from the video). Add a second tagger.",
-   "g56": "Not recommended as written (written for K–4). Use Bean Bag Battle or Capture the Beanbag for throwing.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=KI8sL9shLX0",
-     "title": "Catch and Thaw Tag (game demo)",
-     "channel": "Front Range PE"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Clips are demos. Our version uses neutral roles (no movie characters or song). House rules still apply: no elimination.",
-   "equipment": "3 gym mats (safe zones); 1 foam tag stick or pool noodle (for each tagger); 1 soft red dodgeball or foam ball (the \"thaw ball\"); optional pinnie for the thrower",
-   "setup": "Open playing area. Keep the boundary at least 2 m from walls and the stage. Place 3 mats around the gym as safe zones (the source calls them castles). Players start on a mat. The tagger starts in the centre circle with the foam stick. The thrower and the tunnel helper (optional, see Variations) start on a sideline.",
-   "how": [
-    "On \"Go,\" players leave the mats and move around the area.",
-    "The tagger uses the foam stick to gently freeze players.",
-    "A frozen player freezes in a fun pose and calls \"Help!\" (or hums) so the thrower can find them. (The source has players sing a movie song. Our neutral version uses a call or a hum.)",
-    "The thrower cannot be tagged. The thrower carries the thaw ball and tosses it to a frozen player from a short distance.",
-    "If the frozen player catches it, they are free. They now become the new thrower and carry the ball.",
-    "If the frozen player drops it, they stay frozen. The thrower gets the ball and tries again with another player.",
-    "Players can rest on a mat for a count of 5, then must leave (our adaptation, so mats do not fill up).",
-    "Change the tagger every 2–3 minutes."
-   ],
-   "variations": [
-    "Kindergarten–Grade 1: Use a bigger, softer ball or a beanbag. Throw from 2 steps away. Walk-only first round.",
-    "Grades 2–3: Play as in the video with underhand throws.",
-    "Grade 4: Allow controlled overhand throws when space is safe (from the video). Add a second tagger.",
-    "Tunnel helper (from the video): one more player can crawl through a frozen player's leg tunnel to free them. The tunnel helper can be tagged and frozen too."
-   ],
-   "safety": "Soft ball only. Throws go to the chest, never the head. Underhand only for K–3. Foam stick tags below the shoulders, no swinging. Mats lie flat and are 2 m from walls. Tunnel crawlers go through slowly; frozen players stay still. Stop signal: \"Freeze\" (hold the ball).",
-   "bestBand": "1–2",
-   "alsoBand": "3–4",
-   "bandWhy": "Short underhand tosses and catches to free players suit Grades 1–3; Grade 4 adds overhand throws. Written for K–4, so not for Grades 5–6."
-  },
-  {
    "id": "bean-bag-battle",
    "added": "2026-11-16",
    "addedOn": "2026-10-31",
@@ -8042,7 +7723,7 @@ window.NEW_GAMES = {
     "https://www.youtube.com/watch?v=V9c6hlGX_f4",
     "https://physedgames.com/beanbag-battle/"
    ],
-   "order": 78,
+   "order": 75,
    "unit": "November",
    "suggestedMonth": "November",
    "alsoFits": [],
@@ -8135,114 +7816,6 @@ window.NEW_GAMES = {
    "bandWhy": "Tossing to a basket in a relay suits Grades 2–5; Grade 1 uses a very close basket, Grades 5–6 overhand or smaller containers."
   },
   {
-   "id": "capture-the-beanbag",
-   "added": "2026-11-16",
-   "addedOn": "2026-10-31",
-   "name": "Capture the Beanbag",
-   "section": "Target / throwing",
-   "desc": "Relay teams line up. The first runner goes to the team hoop, takes one beanbag and throws it back to a teammate. A catch keeps the beanbag for the team. A drop means the runner returns it to the hoop. Then the runner comes back and tags the next player.",
-   "sports": "throwing, catching, relay, teamwork, gr 1–6",
-   "flag": "stay-in",
-   "stayIn": true,
-   "source": "Daly",
-   "notes": [],
-   "links": [
-    "https://www.youtube.com/watch?v=c2R2OFGKmt0"
-   ],
-   "order": 79,
-   "unit": "November",
-   "suggestedMonth": "November",
-   "alsoFits": [
-    "January"
-   ],
-   "grades": "1–6",
-   "gradesFrom": "doc",
-   "type": "target",
-   "typeLabel": "Target & send",
-   "slot": "16–30",
-   "grouping": "4–6 teams of 3–5 · 8–12 minutes",
-   "cues": [
-    "Thrower: step, swing, follow through to your teammate's hands.",
-    "Catcher: hands up and ready, watch it all the way in, pull it to your chest.",
-    "Run there, stop, then throw. Do not throw while running."
-   ],
-   "ifThis": [
-    "Throws are too hard: underhand only, aim at the catcher's hands.",
-    "Catchers step forward: catchers stay behind the line (our adaptation).",
-    "A dropped beanbag rolls into another lane: wait until that lane is clear, then get it."
-   ],
-   "roundEnds": "All beanbags are collected, or after 3–4 minutes. Count, mix teams and play again. Everyone runs, throws and catches every few turns.",
-   "tips": [
-    "Teach a partner toss and catch for 2 minutes first.",
-    "Ask: \"What did your team do to help each other catch?\"",
-    "Supports and inclusion: Use a larger beanbag or soft ball, or a closer hoop, for students who need it. A student who needs a break can be the team counter, then rejoin. A runner may walk.",
-    "Year plan: November, January."
-   ],
-   "outcomes": [
-    {
-     "code": "Look-fors",
-     "look": "tosses with a step to a teammate's hands; gets ready and pulls the catch in; encourages teammates and takes turns."
-    },
-    {
-     "code": "Grade 1 outcome",
-     "look": "Students demonstrate how movement can support different types of physical activity. [PDE1-OI2-GQ2-LO1]"
-    },
-    {
-     "code": "Grade 2 outcome",
-     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
-    },
-    {
-     "code": "Grade 3 outcome",
-     "look": "Students identify and demonstrate how teamwork supports positive interactions during physical activity. [PDE3-OI2-GQ3-LO1]"
-    },
-    {
-     "code": "Grade 4 outcome",
-     "look": "Students connect and demonstrate how teamwork enhances participation in physical activity. [PDE4-OI2-GQ3-LO1]"
-    },
-    {
-     "code": "Grade 5 outcome",
-     "look": "Students demonstrate how collaboration influences physical activity. [PDE5-OI2-GQ3-LO1]"
-    },
-    {
-     "code": "Grade 6 outcome",
-     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
-    }
-   ],
-   "g12": "Grade 1: Hoop close to the line. Two-hand underhand throw. Any teammate may catch. Grade 2: Play as in the video.",
-   "g34": "Play as in the video.",
-   "g56": "Move the hoop back. Catch with one hand, or the thrower must call the catcher's name first (our adaptation).",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
-   "videos": [
-    {
-     "url": "https://www.youtube.com/watch?v=c2R2OFGKmt0",
-     "title": "4 PE games using hoops (Capture the Beanbag is game 4)",
-     "channel": "Daly Exercise"
-    }
-   ],
-   "sources": [],
-   "videoNote": "Clips are demos. Our house rules still apply: no elimination.",
-   "equipment": "1 hoop per team with a pile of beanbags inside (6–10 per team); a start line (court line or cones). For 24 students: 6 teams of 4, 6 hoops, about 48 beanbags.",
-   "setup": "Make even teams. Each team lines up behind the start line. Place each team's hoop with its pile of beanbags the same distance in front of the line (closer for younger students). Space the teams at least 3 m apart.",
-   "how": [
-    "On \"Go,\" the first player runs to the team hoop and picks up one beanbag.",
-    "Standing at the hoop, the runner throws the beanbag back to the team, aiming for the next teammate in line to catch it.",
-    "If the teammate catches it, the team keeps it. Put it in a pile behind the line.",
-    "If the beanbag is not caught or is dropped, the runner gets it, puts it back in the hoop, then runs back.",
-    "The runner tags the next player in line, who goes next.",
-    "Only one player per team runs and throws at a time.",
-    "The game ends when all the beanbags are collected or time is up. The team with the most beanbags wins."
-   ],
-   "variations": [
-    "Grade 1: Hoop close to the line. Two-hand underhand throw. Any teammate may catch.",
-    "Grades 2–4: Play as in the video.",
-    "Grades 5–6: Move the hoop back. Catch with one hand, or the thrower must call the catcher's name first (our adaptation)."
-   ],
-   "safety": "Beanbags only. Throw to hands, never at heads. One runner per team at a time. Lanes at least 3 m apart; collect from your own lane only. Waiting players stay behind the line. Hoops 2 m from walls. Stop signal: \"Freeze\" (hold your beanbag).",
-   "bestBand": "3–4",
-   "alsoBand": "1–2",
-   "bandWhy": "Throwing back to a teammate and catching in a relay suits Grades 2–4; Grade 1 uses a close hoop, Grades 5–6 move the hoop back."
-  },
-  {
    "id": "storm-chasers",
    "added": "2026-11-16",
    "addedOn": "2026-10-31",
@@ -8257,7 +7830,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=ih2PStg-W84"
    ],
-   "order": 80,
+   "order": 76,
    "unit": "November",
    "suggestedMonth": "November",
    "alsoFits": [

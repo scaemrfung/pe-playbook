@@ -113,12 +113,12 @@
   {
    "label": "Post the Parcel (NEW · Fri wu option)",
    "text": "Playbook New Games — Post the Parcel",
-   "url": "https://scaemrfung.github.io/pe-playbook/new-games.html?_hl=32#post-the-parcel"
+   "url": "https://scaemrfung.github.io/pe-playbook/games.html#fetch-relay"
   },
   {
    "label": "Pancake Relay (NEW · Fri wu option)",
    "text": "Playbook New Games — Pancake Relay",
-   "url": "https://scaemrfung.github.io/pe-playbook/new-games.html?_hl=33#pancake-relay"
+   "url": "https://scaemrfung.github.io/pe-playbook/games.html#balance-carry"
   },
   {
    "label": "Post the Parcel / Pancake Relay demo",
@@ -295,7 +295,7 @@
   {
    "label": "Pancake Relay (waiter relay format, Wed)",
    "text": "Playbook New Games — Pancake Relay",
-   "url": "https://scaemrfung.github.io/pe-playbook/new-games.html#pancake-relay"
+   "url": "https://scaemrfung.github.io/pe-playbook/games.html#balance-carry"
   },
   {
    "label": "Pancake Relay demo",

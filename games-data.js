@@ -222,8 +222,12 @@ window.GAME_DETAILS = [
     "type": "tag",
     "ifThis": [],
     "roundEnds": "",
-    "skins": [],
-    "aka": []
+    "skins": [
+      "Catch and Thaw Tag: one thrower carries the only soft thaw ball and cannot be tagged; a catch frees the frozen player, who becomes the new thrower (taggers use a foam stick)."
+    ],
+    "aka": [
+      "Catch and Thaw Tag"
+    ]
   },
   {
     "name": "Frozen Tag",
@@ -2668,7 +2672,8 @@ window.GAME_DETAILS = [
       "Move one ‘course’ one hoop forward (Three Course Meal).",
       "Cone balanced on one foot home (Cone Collector).",
       "Around the Bases: one item is a touch of each base.",
-      "Bucket Carry: the bucket must travel with the item."
+      "Bucket Carry: the bucket must travel with the item.",
+      "Post the Parcel: hide five beanbags under a cone 5–10 m away; each runner carries a tennis ball out, leaves it under the cone, brings a beanbag back and tags the next runner; done when every beanbag is swapped."
     ],
     "aka": [
       "Attention Relay",
@@ -2676,7 +2681,8 @@ window.GAME_DETAILS = [
       "Around the Bases Relay",
       "Cone Flipper",
       "Three Course Meal",
-      "Cone Collector"
+      "Cone Collector",
+      "Post the Parcel"
     ]
   },
   {
@@ -4439,7 +4445,8 @@ window.GAME_DETAILS = [
       "Feet stay in hoop 1, rescue bags from hoop 2 (Core Beanbag Rescue).",
       "Racquet waiter: bag on a racquet.",
       "Beanbag head walk.",
-      "Body-part beanbags: named body part holds the bag."
+      "Body-part beanbags: named body part holds the bag.",
+      "Pancake Relay: small relay teams; balance a beanbag “pancake” on a tennis racket around the team cone and back, replace it if it drops, then hand racket and pancake to the next runner."
     ],
     "aka": [
       "Racquet waiter",
@@ -4447,7 +4454,8 @@ window.GAME_DETAILS = [
       "Body-part beanbags",
       "Protect the Ice Cream",
       "Cone Stack",
-      "Core Beanbag Rescue"
+      "Core Beanbag Rescue",
+      "Pancake Relay"
     ]
   },
   {
