@@ -270,6 +270,15 @@
    "checked": "2026-10-17",
    "displayTitle": "I See, I See, What Do You See? (warm-up game)"
   },
+  "yt:6j2NCLqBWEE": {
+   "status": "ok",
+   "http": 200,
+   "title": "Instant Activities for Primary Physical Education",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=6j2NCLqBWEE",
+   "checked": "2026-10-31",
+   "displayTitle": "Instant activities for primary PE"
+  },
   "yt:6z71ZAx7cNo": {
    "status": "ok",
    "http": 200,
@@ -618,6 +627,15 @@
    "checked": "2026-09-27",
    "displayTitle": "Four Square Paddle Ball: three levels"
   },
+  "yt:KI8sL9shLX0": {
+   "status": "ok",
+   "http": 200,
+   "title": "Can You Escape Elsa? The Ultimate Frozen Tag Game",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=KI8sL9shLX0",
+   "checked": "2026-10-31",
+   "displayTitle": "Catch and Thaw Tag (throw-and-catch freeze tag)"
+  },
   "yt:Kjiotn-kWL4": {
    "status": "ok",
    "http": 200,
@@ -825,6 +843,15 @@
    "url": "https://www.youtube.com/watch?v=SWETk3sJ9W8",
    "checked": "2026-09-27"
   },
+  "yt:TekIj2ogS4Y": {
+   "status": "ok",
+   "http": 200,
+   "title": "Physical Education Games - Secret Agent Tag",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=TekIj2ogS4Y",
+   "checked": "2026-10-31",
+   "displayTitle": "Secret Agent Tag"
+  },
   "yt:UyscH3vx0LA": {
    "status": "ok",
    "http": 200,
@@ -832,6 +859,15 @@
    "channel": "CIRAOntario",
    "url": "https://www.youtube.com/watch?v=UyscH3vx0LA",
    "checked": "2026-09-27"
+  },
+  "yt:V9c6hlGX_f4": {
+   "status": "ok",
+   "http": 200,
+   "title": "another fun activity for physical education!",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=V9c6hlGX_f4",
+   "checked": "2026-10-31",
+   "displayTitle": "Bean Bag Battle"
   },
   "yt:VM-KGUMB0io": {
    "status": "ok",
@@ -1199,6 +1235,15 @@
    "checked": "2026-10-23",
    "displayTitle": "Tennis and hockey ball-handling challenges, part 2"
   },
+  "yt:c2R2OFGKmt0": {
+   "status": "ok",
+   "http": 200,
+   "title": "4 PE Games Using Hula Hoops by Daly Exercise 💜",
+   "channel": "Daly Exercise",
+   "url": "https://www.youtube.com/watch?v=c2R2OFGKmt0",
+   "checked": "2026-10-31",
+   "displayTitle": "4 PE games using hoops (Capture the Beanbag is game 4)"
+  },
   "yt:c8Ean9Gmur8": {
    "status": "ok",
    "http": 200,
@@ -1330,6 +1375,15 @@
    "channel": "PhysEdGames",
    "url": "https://www.youtube.com/watch?v=iDViUmHzh8U",
    "checked": "2026-10-20"
+  },
+  "yt:ih2PStg-W84": {
+   "status": "ok",
+   "http": 200,
+   "title": "No Gym? No Problem! 3 Active Classroom Games for K-2 and 3-5",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=ih2PStg-W84",
+   "checked": "2026-10-31",
+   "displayTitle": "3 active classroom games for no-gym days (Storm Chasers is game 1)"
   },
   "yt:j4wyAe1SHSY": {
    "status": "ok",
@@ -2064,5 +2118,5 @@
    "reason": "Library link was a generic ‘Quick Game 40’ short; replaced with PhysEdGames’ own Bakery Run Tag demo (the clip physedgames.com uses for this game). Old: “Quick Game 40 (kindergarten - grade 5)”."
   }
  ],
- "lastChecked": "2026-10-24"
+ "lastChecked": "2026-10-31"
 }
