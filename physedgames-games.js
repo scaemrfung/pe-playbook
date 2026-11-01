@@ -221,8 +221,8 @@ window.PEG_DETAILS = [
       "March"
     ],
     "purpose": "Throw dodgeballs at big exercise balls to push them over the other team's goal line. People are not targets.",
-    "equipment": "3 large exercise balls, foam dodgeballs",
-    "setup": "Three exercise balls on a centre strip. Two teams on opposite halves with foam dodgeballs.",
+    "equipment": "3 beach balls (or 10\" playground balls), foam dodgeballs",
+    "setup": "Three beach balls on a centre strip. Two teams on opposite halves with foam dodgeballs.",
     "play": [
       "Throw at the exercise balls to push them toward the other team’s goal line.",
       "An exercise ball that fully crosses the line scores a point. Roll it back to the centre and continue.",
@@ -289,8 +289,8 @@ window.PEG_DETAILS = [
       "September"
     ],
     "purpose": "Soccer where every pin is a goal. Knock one down and carry it back to your own row.",
-    "equipment": "Plastic pins, foam soccer balls",
-    "setup": "Each team lines plastic pins along its end line. Two or more foam soccer balls.",
+    "equipment": "Plastic pins, indoor soccer balls or Softex foam balls",
+    "setup": "Each team lines plastic pins along its end line. Two or more indoor soccer balls or Softex foam balls.",
     "play": [
       "Play soccer with feet only.",
       "Score by knocking over an opponent’s pin instead of shooting into a net.",
@@ -361,7 +361,7 @@ window.PEG_DETAILS = [
       "May"
     ],
     "purpose": "Two ropes are the river banks. Jump across, and the river gets wider after each full-class success.",
-    "equipment": "2 skipping ropes (or tape lines)",
+    "equipment": "2 skipping ropes (or court lines)",
     "setup": "Lay two ropes parallel as river banks, starting close together.",
     "play": [
       "Jump the river: two-foot take-off and landing, or a running long jump for older grades.",
@@ -969,10 +969,10 @@ window.PEG_HANDBOOK = {
       "merged": false,
       "category": "Dodgeball & Throwing",
       "grades": "4-8",
-      "equipment": "3 exercise balls, dodgeballs",
+      "equipment": "3 beach balls (or 10\" playground balls), dodgeballs",
       "overview": "A fast target throwing game. Make two teams on the side lines of the gym. Place exercise balls (or similar) in the middle as targets, and give players dodgeballs. Players throw at the exercise balls to push them across the other team’s line; each time a ball crosses, score a point. Play for a set time or score.",
       "steps": [
-        "Place 3 large exercise balls on a centre strip. Two teams on opposite halves with foam dodgeballs.",
+        "Place 3 beach balls on a centre strip. Two teams on opposite halves with foam dodgeballs.",
         "Throw dodgeballs at the exercise balls to push them over the other team’s goal line.",
         "Each exercise ball that fully crosses the opponent goal line scores a point. Roll it back to centre and continue.",
         "No kicking the exercise balls unless you add that as a house rule. Watch toes and pile-ups."
@@ -986,7 +986,7 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Soccer & Kicking",
       "grades": "3-8",
-      "equipment": "foam soccer ball, pinnies",
+      "equipment": "indoor soccer ball or Softex foam ball, pinnies",
       "overview": "A soccer game that works well with large groups. Idea credit: CIRA Ontario (https://www.ciraontario.com/).",
       "steps": [
         "Make two teams (pinnies on one side). Play the full gym or a large field.",
@@ -1074,10 +1074,10 @@ window.PEG_HANDBOOK = {
       "merged": false,
       "category": "Soccer & Kicking",
       "grades": "1-8",
-      "equipment": "Plastic pins, foam soccer balls",
+      "equipment": "Plastic pins, indoor soccer balls or Softex foam balls",
       "overview": "A soccer variation that increases participation. Instead of scoring in a goal, players try to knock over the other team’s pins. A player who knocks down a pin brings it to their own side and adds it to their team’s pins. The game ends when one team has all the pins or time runs out. Use it as a soccer lead-up game.",
       "steps": [
-        "Each team lines plastic pins on its end. Use foam soccer balls.",
+        "Each team lines plastic pins on its end. Use indoor soccer balls or Softex foam balls.",
         "Play soccer (feet only). Instead of a net, you score by knocking over an opponent’s pin.",
         "When you knock a pin down, carry that pin back and add it to your own row.",
         "Game ends when one team has every pin, or when time expires (most pins wins).",
@@ -1167,10 +1167,10 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Kickball, Striking & Targets",
       "grades": "4-8",
-      "equipment": "2 mats, foam soccer balls",
+      "equipment": "2 mats, indoor soccer balls or Softex foam balls",
       "overview": "A kickball-style game (or a baseball-style game with an oversized plastic bat and a foam ball). Its changes to regular kickball keep more players moving more often. Some strategy matters, but the focus is on everyone taking part. Idea credit: Sabine Crandall.",
       "steps": [
-        "Two mats as far bases / safe zones. Foam soccer balls (or a foam ball + plastic bat).",
+        "Two mats as far bases / safe zones. Indoor soccer balls or Softex foam balls (or a foam ball + plastic bat).",
         "Kicker puts the ball in play and runs. Extra movement rules keep more people running than classic kickball (watch the video for the exact running pattern they use).",
         "Fielders play the ball to stop the run. Use a tag-with-ball or throw-to-mat out, not a hard hit.",
         "Kick the next ball quickly so the field never waits. Switch sides after a time cap rather than 3 outs if you want more activity."
@@ -1629,7 +1629,7 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Team-building & Cooperative",
       "grades": "1-8",
-      "equipment": "ball, exercise ball",
+      "equipment": "ball, beach ball",
       "overview": "A teamwork game with 3 levels of difficulty. Start by asking players what co-operation means; they will find that working together gets the task done faster.",
       "steps": [
         "Ask the class what cooperation looks like and sounds like.",

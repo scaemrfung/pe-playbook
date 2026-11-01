@@ -327,7 +327,7 @@ window.K2_DETAILS = [
 {
   name: "Follow the Leader", source: "", months: ["December","April"],
   purpose: "Copy a locomotor or shape in a small line.",
-  equipment: "Optional drum.",
+  equipment: "Optional whistle, clap or music.",
   setup: "Lines of 4.",
   play: [
     "Leader travels or holds a shape.",

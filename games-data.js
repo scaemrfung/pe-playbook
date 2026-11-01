@@ -1110,7 +1110,7 @@ window.GAME_DETAILS = [
       "September"
     ],
     "purpose": "Each team’s goal is the whole end wall, so the game works with a large group. Use it to practise passing and shooting with a foam ball (idea from CIRA Ontario).",
-    "equipment": "foam soccer ball, pinnies",
+    "equipment": "indoor soccer ball or Softex foam ball, pinnies",
     "setup": "Make two teams (pinnies on one side). Play the full gym or a large field. Agree the freeze signal before the first round.",
     "play": [
       "Each team’s GOAL is the entire end wall / end line — no small net required. That is what makes this work with a crowd.",
@@ -2507,8 +2507,8 @@ window.GAME_DETAILS = [
       "June"
     ],
     "purpose": "Play this kickball-style game with foam balls, or a foam ball and plastic bat, and extra running rules so more players move more often. Use it to practise kicking, running and fielding.",
-    "equipment": "2 mats, foam soccer balls",
-    "setup": "Two mats as far bases / safe zones. Foam soccer balls (or a foam ball + plastic bat). Agree the freeze signal before the first round.",
+    "equipment": "2 mats, indoor soccer balls or Softex foam balls",
+    "setup": "Two mats as far bases / safe zones. Indoor soccer balls or Softex foam balls (or a foam ball + plastic bat). Agree the freeze signal before the first round.",
     "play": [
       "Kicker puts the ball in play and runs. Extra movement rules keep more people running than classic kickball (watch the video for the exact running pattern they use).",
       "Fielders play the ball to stop the run. Use a tag-with-ball or throw-to-mat out, not a hard hit.",
@@ -3389,7 +3389,7 @@ window.GAME_DETAILS = [
       "February"
     ],
     "purpose": "Students change their locomotor skill or level on each 8-count phrase. Use it to practise moving to a steady beat.",
-    "equipment": "Drum, tambourine, or chanted 8-count.",
+    "equipment": "Whistle, clap, or music (or a chanted 8-count).",
     "setup": "Scatter in general space. Practise a walk on the beat. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
       "Teacher (or a student) keeps an 8-count.",
@@ -3743,8 +3743,8 @@ window.GAME_DETAILS = [
       "October"
     ],
     "purpose": "Keep one balloon up. Count hits. A drop restarts the count, not the person.",
-    "equipment": "One inflated balloon per circle · optional noodles or rulers",
-    "setup": "Circles with arm’s-length space. One inflated balloon each.",
+    "equipment": "One beach ball or juggling scarf per circle · optional noodles or rulers",
+    "setup": "Circles with arm’s-length space. One beach ball or scarf each.",
     "play": [
       "Name the shared goal out loud — you are not chasing a winner between circles unless you say so.",
       "Toss the balloon in. Soft taps only.",
@@ -3838,7 +3838,7 @@ window.GAME_DETAILS = [
       "October"
     ],
     "purpose": "Keep a legal rally going. One bounce. Point on a miss.",
-    "equipment": "1 soft ball · wall, rope, or taped square",
+    "equipment": "1 soft ball · wall, rope, or a square of floor markers",
     "setup": "Small court. Underhand serve. Soft hands or a low racket.",
     "play": [
       "Serve so it lands on the other side or on the wall legally.",
@@ -4193,7 +4193,7 @@ window.GAME_DETAILS = [
       "February"
     ],
     "purpose": "Students walk a wavy floor line with airplane arms and finish with a stuck landing. Use it to practise balance without a bench.",
-    "equipment": "Rope or tape.",
+    "equipment": "Rope or court lines.",
     "setup": "Wavy line on the floor. Agree the freeze signal before the first round.",
     "play": [
       "Show the quality cue first (quiet land, airplane arms, still head). Count quality reps, not speed.",
@@ -4627,8 +4627,8 @@ window.GAME_DETAILS = [
       "June"
     ],
     "purpose": "Jump the targets. Quiet stick. Quality before speed.",
-    "equipment": "Spots, hoops, or a taped river · optional noodle",
-    "setup": "Lane of spots or a taped river. Show two-foot take-off and a still landing.",
+    "equipment": "Spots, hoops, or a two-rope river · optional noodle",
+    "setup": "Lane of spots or a two-rope river. Show two-foot take-off and a still landing.",
     "play": [
       "Jump target to target. Land inside, not on the rim.",
       "Miss or a noisy fall-back: go back one target.",
@@ -4706,8 +4706,8 @@ window.GAME_DETAILS = [
       "December"
     ],
     "purpose": "Flip the bottle so it stands in box 1, then 2, then 3. No skipping. Daly Exercise game. Nobody sits the period.",
-    "equipment": "Part-filled bottles; tape for six boxes",
-    "setup": "Tape six boxes in a line. A little water in each bottle.",
+    "equipment": "Part-filled bottles; floor markers or saucer cones for six boxes",
+    "setup": "Mark six boxes in a line. A little water in each bottle.",
     "play": [
       "Flip in box 1.",
       "Upright = move to the next box.",
@@ -4856,8 +4856,8 @@ window.GAME_DETAILS = [
       "December"
     ],
     "purpose": "Walk a taped path with a talking spotter. Closed eyes are legal. Daly Exercise game. Nobody sits the period.",
-    "equipment": "One blindfold per team; tape lines",
-    "setup": "Tape lines to step over. Spotter beside, not behind.",
+    "equipment": "One blindfold per team; ropes laid flat",
+    "setup": "Ropes to step over. Spotter beside, not behind.",
     "play": [
       "Walker covers eyes at the start.",
       "Foot on tape = stop, return, no point.",

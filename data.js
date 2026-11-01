@@ -439,7 +439,7 @@ const months = [
     "name": "November",
     "guide": "Floor hockey (started Oct 26) — dribble, pass, small-sided games · W4 (Nov 30–Dec 4) starts December's games",
     "pew": "Movement Skill Development, Safety, Character Development",
-    "equipment": "Floor-hockey sticks, soft balls or pucks, tape goals, pinnies, cones",
+    "equipment": "Floor-hockey sticks, soft balls or pucks, hockey nets or cone goals, pinnies, cones",
     "fitness": "20-second stick-handle and gate push-pass count. Private record late in the month.",
     "notes": "Sticks below the knee. No slapshots. No ice. Everyone has a stick or rotates fairly. The first hockey week (stick safety) is October W4. W4 here (Nov 30–Dec 4) starts December's big-group games.",
     "lessons": [
@@ -1311,7 +1311,7 @@ const months = [
     "name": "March",
     "guide": "Volleyball all four weeks · Newcomb to bump/set · send/receive games",
     "pew": "Movement Skill Development, Active Living, Safety, Healthy Relationships",
-    "equipment": "Volleyballs, trainers or beach balls, a tape net or rope, cones",
+    "equipment": "Volleyballs, trainers or beach balls, a net or rope, cones",
     "fitness": "Timed keep-up or skip. Private record.",
     "notes": "Catch is allowed in 1–2. Bump/set progress in 3–6. Send/receive games (Newcomb, keep-it-up) keep everyone in.",
     "lessons": [
@@ -1529,7 +1529,7 @@ const months = [
     "name": "April",
     "guide": "Floor-only gymnastics · shapes, rolls, balances, jump-stick",
     "pew": "Movement Skill Development, Safety, Character Development",
-    "equipment": "Mats, tape beam, hoops — no benches, boxes, or beams",
+    "equipment": "Mats, a court-line or rope beam, hoops — no benches, boxes, or beams",
     "fitness": "Jump-stick and a hold. Private record.",
     "notes": "Floor only. Skills check list and Grade 6 booklet live on the Gymnastics page.",
     "lessons": [

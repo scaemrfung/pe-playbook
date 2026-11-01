@@ -375,7 +375,7 @@ window.DODGE_GAMES = [
     "time": "6–8 min",
     "name": "Jail-catch (prisonball)",
     "purpose": "A hit sends you behind the other team. A catch from a teammate brings you back. In class we use it to send low, catch or dodge, then help a teammate back in.",
-    "equipment": "Dodgeballs, a tape ‘jail’ behind each end line.",
+    "equipment": "Dodgeballs, a rope or cone ‘jail’ behind each end line.",
     "setup": "Jail is a strip behind the opponents. Jailed players face their own team. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
       "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
@@ -522,7 +522,7 @@ window.DODGE_GAMES = [
     "time": "6–7 min",
     "name": "Four-square dodgeball",
     "purpose": "Send and dodge with more than one neighbour. In class we use it to send low, catch or dodge, then help a teammate back in.",
-    "equipment": "Tape four squares, 6 dodgeballs.",
+    "equipment": "Four squares marked with cones or ropes, 6 dodgeballs.",
     "setup": "Four teams, one per square. Balls start in the middle cross. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
       "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
@@ -668,7 +668,7 @@ window.DODGE_GAMES = [
     "time": "5–6 min",
     "name": "Island (hoop or tape)",
     "purpose": "Stay on a marked island. Dodge without leaving. In class we use it to send low, catch or dodge, then help a teammate back in.",
-    "equipment": "Large taped squares or hoops — no benches.",
+    "equipment": "Large rope squares or hoops — no benches.",
     "setup": "Two islands. Dodgeballs between them. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
       "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
@@ -1036,7 +1036,7 @@ window.DODGE_GAMES = [
     "time": "5 min",
     "name": "Gaga (taped pit)",
     "purpose": "Hit a dodgeball with the hand, below the knee, inside a taped octagon. In class we use it to send low, catch or dodge, then help a teammate back in.",
-    "equipment": "One dodgeball, tape octagon or cone ring. No wooden pit required.",
+    "equipment": "One dodgeball, cone ring or rope octagon. No wooden pit required.",
     "setup": "8–12 players in the ring. Rest are a waiting line that rotates every minute. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-knee and freeze-on-whistle before GO.",
     "play": [
       "Start with balls on the centre line. On GO, players may take a ball and retreat to their half.",
@@ -1108,7 +1108,7 @@ window.DODGE_GAMES = [
     "time": "6 min",
     "name": "Return-line dodgeball",
     "purpose": "A catch brings one teammate back from a tape return line — not a bench. In class we use it to send low, catch or dodge, then help a teammate back in.",
-    "equipment": "Dodgeballs, a tape line on each sideline.",
+    "equipment": "Dodgeballs, a court line or rope on each sideline.",
     "setup": "Hit players stand on their return line, facing the court. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
       "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",

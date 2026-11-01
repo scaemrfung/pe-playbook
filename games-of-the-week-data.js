@@ -204,7 +204,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Every pin is a goal, so passing and shooting pay off fast.",
        "href": "games.html#pin-galore-soccer",
        "page": "Big-Group Games",
-       "equipment": "Plastic pins, foam soccer balls"
+       "equipment": "Plastic pins, indoor soccer balls or Softex foam balls"
       }
      ]
     }
@@ -480,7 +480,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Pass a foam football with no running, then shoot at the basket.",
        "href": "new-games.html#flasketball",
        "page": "New Games",
-       "equipment": "2–3 foam or junior footballs; basketball hoops; pinnies in 3–4 colours; floor tape or spot markers to show scoring zones"
+       "equipment": "2–3 foam or junior footballs; basketball hoops; pinnies in 3–4 colours; floor markers or saucer cones to show scoring zones"
       }
      ]
     }
@@ -507,7 +507,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "A relay with a quick thinking game at the end.",
        "href": "new-games.html#tic-tac-run",
        "page": "New Games",
-       "equipment": "9 double-sided beanbags (mark X on one side and O on the other); floor tape for a large tic-tac-toe board; cones or divider mats for a neutral…"
+       "equipment": "9 double-sided beanbags (mark X on one side and O on the other); skipping ropes or floor markers for a large tic-tac-toe board; cones or divider…"
       },
       {
        "name": "Catch & Step",
@@ -618,7 +618,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Pass and move into space, the same idea as football.",
        "href": "new-games.html#elementary-ultimate-frisbee",
        "page": "New Games",
-       "equipment": "Soft frisbees; pinnies; cone end zones"
+       "equipment": "Deck rings (as soft frisbees); pinnies; cone end zones"
       }
      ]
     }
@@ -687,7 +687,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "A small-sided game that uses the hockey ideas of attack and defence.",
        "href": "games.html#floorball",
        "page": "Big-Group Games",
-       "equipment": "Tennis rackets, soft ball, mini goals"
+       "equipment": "Floor hockey sticks, soft ball, mini goals"
       }
      ]
     }
@@ -756,7 +756,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Teams aim at one big target ball, never at people.",
        "href": "games.html#star-wars",
        "page": "Big-Group Games",
-       "equipment": "Yoga ball, many soft balls, a bench at each end"
+       "equipment": "Beach ball, many soft balls, a bench at each end"
       }
      ]
     }
@@ -818,7 +818,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "One controlled shot after a dribble to knock a pin.",
        "href": "games.html#hockey-pin-knockdown",
        "page": "Big-Group Games",
-       "equipment": "Tunnel, pin, stick, hockey ball."
+       "equipment": "Tunnel (two lines of cones, or a hoop in a hula hoop stand), pin, stick, hockey ball."
       },
       {
        "name": "Move Up Hockey",
@@ -928,7 +928,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Copy the leader’s move or shape; take turns leading.",
        "href": "games.html#follow-the-leader",
        "page": "Big-Group Games",
-       "equipment": "Optional drum."
+       "equipment": "Optional whistle, clap or music."
       },
       {
        "name": "Eagles vs Seahawks",
@@ -1515,7 +1515,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Change the jump or step on each 8-count phrase.",
        "href": "games.html#european-rhythmic-running",
        "page": "Big-Group Games",
-       "equipment": "Drum, tambourine, or chanted 8-count."
+       "equipment": "Whistle, clap, or music (or a chanted 8-count)."
       }
      ]
     }
@@ -1549,7 +1549,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Jump the gap between two ropes, and it widens after each success.",
        "href": "games.html#jump-the-river",
        "page": "Big-Group Games",
-       "equipment": "2 skipping ropes (or tape lines)"
+       "equipment": "2 skipping ropes (or court lines)"
       },
       {
        "name": "Pony Roundup",
@@ -1611,7 +1611,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Keep one balloon up as a team: the first step to volleying.",
        "href": "games.html#balloon-keep-up",
        "page": "Big-Group Games",
-       "equipment": "One inflated balloon per circle · optional noodles or rulers"
+       "equipment": "One beach ball or juggling scarf per circle · optional noodles or rulers"
       },
       {
        "name": "Catch Clap",
@@ -1680,7 +1680,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "An easy welcome back from Spring Break.",
        "href": "games.html#balloon-keep-ups",
        "page": "Big-Group Games",
-       "equipment": "Balloons; pool noodles or rulers"
+       "equipment": "Beach balls; pool noodles or rulers"
       },
       {
        "name": "Bounce & Scoop",
@@ -1715,7 +1715,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Keep a rally going against the wall with one bounce.",
        "href": "games.html#wall-rally",
        "page": "Big-Group Games",
-       "equipment": "1 soft ball · wall, rope, or taped square"
+       "equipment": "1 soft ball · wall, rope, or a square of floor markers"
       },
       {
        "name": "Skip-rope Net 3v3",
@@ -1963,7 +1963,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Walk a floor line with airplane arms, then hold a balance.",
        "href": "games.html#floor-rope-walk",
        "page": "Big-Group Games",
-       "equipment": "Rope or tape."
+       "equipment": "Rope or court lines."
       },
       {
        "name": "Slip and Slide (mat relay)",
@@ -1991,7 +1991,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Jump the targets with quiet, stuck landings.",
        "href": "games.html#spot-jump-path",
        "page": "Big-Group Games",
-       "equipment": "Spots, hoops, or a taped river · optional noodle"
+       "equipment": "Spots, hoops, or a two-rope river · optional noodle"
       },
       {
        "name": "Stick Tic-Tac-Toe",
@@ -2108,7 +2108,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Copy the leader’s move or shape; take turns leading.",
        "href": "games.html#follow-the-leader",
        "page": "Big-Group Games",
-       "equipment": "Optional drum."
+       "equipment": "Optional whistle, clap or music."
       }
      ]
     },
@@ -2446,7 +2446,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Jump across, and the river gets wider each round.",
        "href": "games.html#jump-the-river",
        "page": "Big-Group Games",
-       "equipment": "2 skipping ropes (or tape lines)"
+       "equipment": "2 skipping ropes (or court lines)"
       },
       {
        "name": "Rescue Relay",
