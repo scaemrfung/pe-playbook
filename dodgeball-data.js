@@ -674,7 +674,7 @@ window.DODGE_GAMES = [
       "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",
       "A player who steps off the island takes a 10-second stretch, then steps back on.",
       "A below-the-head hit is the same stretch.",
-      "Islands stay big enough for the group. Shrink the tape only if you need more movement.",
+      "Islands stay big enough for the group. Shrink the island only if you need more movement.",
       "A catch is a save. The thrower is out.",
       "If all the balls end up on one side, the game ends; the side without the balls wins.",
       "A hit below the head is a stretch, a clinic, a jail, or a switch, as this game says.",
@@ -692,7 +692,7 @@ window.DODGE_GAMES = [
       },
       {
         "code": "Movement Skill Development",
-        "look": "Dodges without leaving the tape."
+        "look": "Dodges without leaving the island."
       },
       {
         "code": "Skill focus",
@@ -1035,7 +1035,7 @@ window.DODGE_GAMES = [
     "kind": "Pit · February / June",
     "time": "5 min",
     "name": "Gaga (taped pit)",
-    "purpose": "Hit a dodgeball with the hand, below the knee, inside a taped octagon. In class we use it to send low, catch or dodge, then help a teammate back in.",
+    "purpose": "Hit a dodgeball with the hand, below the knee, inside a cone ring. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "One dodgeball, cone ring or rope octagon. No wooden pit required.",
     "setup": "8–12 players in the ring. Rest are a waiting line that rotates every minute. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-knee and freeze-on-whistle before GO.",
     "play": [
@@ -1050,7 +1050,7 @@ window.DODGE_GAMES = [
     "g12": "Roll or underhand only. Teacher is a walking medic or a second jail-catcher. Hits on shoes or shins.",
     "g34": "Underhand or bounce-throw. Catch is a save. Rotate the special role each period.",
     "g56": "Opposite hand only for one minute.",
-    "safety": "No slap at a person. Ball only. Tape on the floor — no benches as walls. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
+    "safety": "No slap at a person. Ball only. Cones or ropes on the floor — no benches as walls. A hit is a stretch, clinic, jail, or switch — then back in. Freeze on the whistle. Noodles, if used, tap a shoe or shin — they are not swords.",
     "outcomes": [
       {
         "code": "Active Living",
@@ -1107,7 +1107,7 @@ window.DODGE_GAMES = [
     "kind": "Team · November",
     "time": "6 min",
     "name": "Return-line dodgeball",
-    "purpose": "A catch brings one teammate back from a tape return line — not a bench. In class we use it to send low, catch or dodge, then help a teammate back in.",
+    "purpose": "A catch brings one teammate back from a return line — not a bench. In class we use it to send low, catch or dodge, then help a teammate back in.",
     "equipment": "Dodgeballs, a court line or rope on each sideline.",
     "setup": "Hit players stand on their return line, facing the court. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [

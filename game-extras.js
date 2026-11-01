@@ -4677,7 +4677,7 @@ window.GAME_EXTRAS = {
       "Below the head. A high ball is dead."
     ],
     "variations": [
-      "Yoga ball only, push it onto the other bench (Star Wars).",
+      "Beach ball only, push it onto the other bench (Star Wars).",
       "Cone targets on a centre bench; touch your wall before you throw.",
       "Retrievers vs throwers with a target hoop (Snowball Fight).",
       "Bombardment / Battleball: same halves, same rebuild."
@@ -4729,7 +4729,7 @@ window.GAME_EXTRAS = {
     ],
     "roundEnds": "Most standing castles, or most knockdowns.",
     "skins": [
-      "Yoga ball only, push it onto the other bench (Star Wars).",
+      "Beach ball only, push it onto the other bench (Star Wars).",
       "Cone targets on a centre bench; touch your wall before you throw.",
       "Retrievers vs throwers with a target hoop (Snowball Fight).",
       "Bombardment / Battleball: same halves, same rebuild."
@@ -7067,7 +7067,7 @@ window.GAME_EXTRAS = {
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in European Rhythmic Running.",
       "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
       "Year plan: February — match the month’s sport ball when you can.",
-      "Jog a circle or a figure-8 on the drum or music.",
+      "Jog a circle or a figure-8 on the whistle or music.",
       "Change: walk, skip, side-slide, freeze on a stop in the music."
     ],
     "ifThis": [],
@@ -7753,19 +7753,19 @@ window.GAME_EXTRAS = {
     "aka": ["On/Off"]
   },
   "Balloon Keep-Up": {
-    "numbers": "Circles of 4–8 · one balloon per circle · optional noodles or rulers",
+    "numbers": "Circles of 4–8 · one beach ball or scarf per circle · optional noodles or rulers",
     "cues": [
       "Call it.",
       "A drop restarts the count, not the player.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
     "variations": [
       "Hands only.",
       "Noodle/ruler only.",
-      "Second balloon.",
+      "Second beach ball or scarf.",
       "Seated chairs."
     ],
     "look": "Everyone is moving or has a job in Balloon Keep-Up. A miss is a short task, then back in — nobody sits the period.",
@@ -7800,24 +7800,24 @@ window.GAME_EXTRAS = {
       }
     ],
     "more": [
-      "Grouping: Circles of 4–8 · one balloon per circle · optional noodles or rulers",
+      "Grouping: Circles of 4–8 · one beach ball or scarf per circle · optional noodles or rulers",
       "How a round ends: Highest consecutive count, or first circle to 20.",
       "If this happens — Hard swat: sit one restart, then rejoin.",
       "If this happens — Sticks clash: widen the circle.",
-      "If this happens — Balloon leaves the circle: retrieve and restart that count.",
+      "If this happens — Ball or scarf leaves the circle: retrieve and restart that count.",
       "Also called: Balloon Keep-Ups; Balloon Keep-Up station.",
       "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
       "Hard swat: sit one restart, then rejoin.",
       "Sticks clash: widen the circle.",
-      "Balloon leaves the circle: retrieve and restart that count."
+      "Ball or scarf leaves the circle: retrieve and restart that count."
     ],
     "roundEnds": "Highest consecutive count, or first circle to 20.",
     "skins": [
       "Hands only.",
       "Noodle/ruler only.",
-      "Second balloon.",
+      "Second beach ball or scarf.",
       "Seated chairs."
     ],
     "aka": [
@@ -7944,7 +7944,7 @@ window.GAME_EXTRAS = {
     "aka": []
   },
   "Wall Rally": {
-    "numbers": "Wall, rope, or taped square · 1 soft ball · pairs or 2v2",
+    "numbers": "Wall, rope, or a square of floor markers · 1 soft ball · pairs or 2v2",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
       "Use names. Ask before you grab a hoop, rope, or balloon.",
@@ -7954,7 +7954,7 @@ window.GAME_EXTRAS = {
     "variations": [
       "Bench as a net.",
       "Mini goals (Floorball).",
-      "Taped gaga pit, hits below the waist.",
+      "Cone-ring gaga pit, hits below the waist.",
       "Cooperative wall ball: count consecutive hits, drop restarts the count."
     ],
     "look": "Everyone is moving or has a job in Wall Rally. A miss is a short task, then back in — nobody sits the period.",
@@ -7989,7 +7989,7 @@ window.GAME_EXTRAS = {
       }
     ],
     "more": [
-      "Grouping: Wall, rope, or taped square · 1 soft ball · pairs or 2v2",
+      "Grouping: Wall, rope, or a square of floor markers · 1 soft ball · pairs or 2v2",
       "How a round ends: First to 7, or highest score at time.",
       "If this happens — Fist smash: redo as an open-hand hit.",
       "If this happens — Ball lifted in floorball: dead ball, restart.",
@@ -8004,7 +8004,7 @@ window.GAME_EXTRAS = {
     "skins": [
       "Bench as a net.",
       "Mini goals (Floorball).",
-      "Taped gaga pit, hits below the waist.",
+      "Cone-ring gaga pit, hits below the waist.",
       "Cooperative wall ball: count consecutive hits, drop restarts the count."
     ],
     "aka": [
@@ -8666,7 +8666,7 @@ window.GAME_EXTRAS = {
       "Breathe out on the work; do not hold a breath to rush."
     ],
     "variations": [
-      "Wide tape for 1–2. Stork pause for 5–6.",
+      "Two ropes side by side for 1–2. Stork pause for 5–6.",
       "Half distance or fewer reps for grades 1–2. Quality landings stay the same.",
       "Partner count: one moves, one counts out loud, then swap.",
       "Last round is ‘show your best three’ — not a race.",
@@ -8709,7 +8709,7 @@ window.GAME_EXTRAS = {
       "Watch for sloppy landings when they race. Sit the race, keep the quality set.",
       "Sticks: teach grip and ‘blade down’ in the hallway line before the first dribble.",
       "Year plan: February — match the month’s sport ball when you can.",
-      "Walk the rope or tape. Step off to a stick."
+      "Walk the rope or court line. Step off to a stick."
     ],
     "ifThis": [],
     "roundEnds": "",
@@ -9508,7 +9508,7 @@ window.GAME_EXTRAS = {
       "Beat jumping.",
       "Standing long jump, cone behind the heels.",
       "What’s-the-time jumps toward a caller, then flee.",
-      "Jump The River: one taped river that grows.",
+      "Jump The River: one two-rope river that grows.",
       "Hurdle hops: low hurdles, same quiet stick."
     ],
     "look": "Everyone is moving or has a job in Spot-Jump Path. A miss is a short task, then back in — nobody sits the period.",
@@ -9560,7 +9560,7 @@ window.GAME_EXTRAS = {
       "Beat jumping.",
       "Standing long jump, cone behind the heels.",
       "What’s-the-time jumps toward a caller, then flee.",
-      "Jump The River: one taped river that grows.",
+      "Jump The River: one two-rope river that grows.",
       "Hurdle hops: low hurdles, same quiet stick."
     ],
     "aka": [

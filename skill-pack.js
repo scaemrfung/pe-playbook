@@ -30,10 +30,10 @@ window.SKILL_MONTH_GAMES = {
     ["Racquet waiter", "", "Beanbag on a racquet or hoop to a cone, then toss into a hoop."]
   ],
   March: [
-    ["Balloon keep-up station", "", "Keep a balloon up with either hand — no catch. Count hits."]
+    ["Balloon keep-up station", "", "Keep a scarf or beach ball up with either hand — no catch. Count hits."]
   ],
   April: [
-    ["Floor rope walk", "", "Walk a rope or tape line. Airplane arms. Step off to a stick."],
+    ["Floor rope walk", "", "Walk a rope or court line. Airplane arms. Step off to a stick."],
     ["Spot-Jump Path", "", "Poly spots in a zig-zag. Two-foot jump, quiet stick."]
   ],
   May: [
@@ -146,7 +146,7 @@ window.SKILL_DETAILS = [
     equipment: "Rope or court lines.",
     setup: "Wavy line on the floor.",
     play: ["Walk the line. Airplane arms. Step off to a stick landing."],
-    g12: "Wide tape.", g34: "Rope.", g56: "Pause in a stork.",
+    g12: "Two ropes side by side.", g34: "Rope.", g56: "Pause in a stork.",
     safety: "One walker per line." },
   { name: "Circle run relay", months: ["May","September"], purpose: "Sustained run and a fair tag.",
     equipment: "Cone circle.",

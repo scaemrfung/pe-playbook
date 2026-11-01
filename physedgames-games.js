@@ -220,19 +220,19 @@ window.PEG_DETAILS = [
       "December",
       "March"
     ],
-    "purpose": "Throw dodgeballs at big exercise balls to push them over the other team's goal line. People are not targets.",
+    "purpose": "Throw dodgeballs at beach balls to push them over the other team's goal line. People are not targets.",
     "equipment": "3 beach balls (or 10\" playground balls), foam dodgeballs",
     "setup": "Three beach balls on a centre strip. Two teams on opposite halves with foam dodgeballs.",
     "play": [
-      "Throw at the exercise balls to push them toward the other team’s goal line.",
-      "An exercise ball that fully crosses the line scores a point. Roll it back to the centre and continue.",
-      "No kicking the exercise balls unless you add it as a house rule.",
+      "Throw at the beach balls to push them toward the other team’s goal line.",
+      "A beach ball that fully crosses the line scores a point. Roll it back to the centre and continue.",
+      "No kicking the beach balls unless you add it as a house rule.",
       "Watch toes and pile-ups around the big balls."
     ],
     "g12": "Not for grades 1–2 — use Poison Ball (roll only) or a target game instead.",
     "g34": "Rolls or underhand throws below the knees. Short 2–3 minute rounds with a full reset.",
     "g56": "Play as written with house rules. Students can referee a line or count hits.",
-    "safety": "Foam balls only. Throw at the exercise balls, never at people. Stay on your half; no pile-ups on a big ball.",
+    "safety": "Foam balls only. Throw at the beach balls, never at people. Stay on your half; no pile-ups on a big ball.",
     "slot": "16–25",
     "type": "target"
   },
@@ -970,12 +970,12 @@ window.PEG_HANDBOOK = {
       "category": "Dodgeball & Throwing",
       "grades": "4-8",
       "equipment": "3 beach balls (or 10\" playground balls), dodgeballs",
-      "overview": "A fast target throwing game. Make two teams on the side lines of the gym. Place exercise balls (or similar) in the middle as targets, and give players dodgeballs. Players throw at the exercise balls to push them across the other team’s line; each time a ball crosses, score a point. Play for a set time or score.",
+      "overview": "A fast target throwing game. Make two teams on the side lines of the gym. Place beach balls (or similar) in the middle as targets, and give players dodgeballs. Players throw at the beach balls to push them across the other team’s line; each time a ball crosses, score a point. Play for a set time or score.",
       "steps": [
         "Place 3 beach balls on a centre strip. Two teams on opposite halves with foam dodgeballs.",
-        "Throw dodgeballs at the exercise balls to push them over the other team’s goal line.",
-        "Each exercise ball that fully crosses the opponent goal line scores a point. Roll it back to centre and continue.",
-        "No kicking the exercise balls unless you add that as a house rule. Watch toes and pile-ups."
+        "Throw dodgeballs at the beach balls to push them over the other team’s goal line.",
+        "Each beach ball that fully crosses the opponent goal line scores a point. Roll it back to centre and continue.",
+        "No kicking the beach balls unless you add that as a house rule. Watch toes and pile-ups."
       ],
       "video": "https://www.youtube.com/watch?v=8t75NB1b-ho",
       "page": "https://physedgames.com/powerball/"
@@ -991,7 +991,7 @@ window.PEG_HANDBOOK = {
       "steps": [
         "Make two teams (pinnies on one side). Play the full gym or a large field.",
         "Each team’s GOAL is the entire end wall / end line — no small net required. That is what makes this work with a crowd.",
-        "Play soccer rules with a foam soccer ball: feet only. Decide in advance whether a goalie is allowed to use hands.",
+        "Play soccer rules with an indoor soccer ball or Softex foam ball: feet only. Decide in advance whether a goalie is allowed to use hands.",
         "A goal counts when the ball hits the opponent’s end wall or fully crosses the end line (choose one and stick to it).",
         "Restart at centre after each goal. Add a second foam ball if numbers are very high so more players get touches.",
         "Play 4–6 minute periods and rotate roles."
@@ -1635,7 +1635,7 @@ window.PEG_HANDBOOK = {
         "Ask the class what cooperation looks like and sounds like.",
         "Level 1: Keep a playground ball going against a wall for a target number of hits. Drop = restart the count together.",
         "Level 2: Same task, but no player may touch the ball twice in a row.",
-        "Level 3: Switch to a large exercise ball that the group must control off the wall together.",
+        "Level 3: Switch to a beach ball that the group must control off the wall together.",
         "Time attempts. Celebrate the group streak, not star players. Split a huge class into wall groups."
       ],
       "video": "https://www.youtube.com/watch?v=WPo9dTpj-Fg",

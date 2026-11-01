@@ -2786,7 +2786,7 @@ window.NEW_GAMES = {
    "slot": "16–25",
    "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
    "cues": [
-    "Pass the frisbee.",
+    "Pass the deck ring.",
     "Defenders keep one arm’s length.",
     "Freeze on the whistle — then eyes on the teacher.",
     "Head up. Pass or move — do not crowd the ball.",
@@ -2814,7 +2814,7 @@ window.NEW_GAMES = {
     },
     {
      "code": "Skill focus",
-     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the disc."
+     "look": "Spreads out, passes then moves, or defends a line — one tactic, not a crowd around the ring."
     },
     {
      "code": "Skill focus",
@@ -2826,11 +2826,11 @@ window.NEW_GAMES = {
     },
     {
      "code": "Safety",
-     "look": "Heads up when the disc is loose. No body checks."
+     "look": "Heads up when the ring is loose. No body checks."
     },
     {
      "code": "Healthy Relationships",
-     "look": "Calls a teammate’s name; includes a player who has not touched the disc."
+     "look": "Calls a teammate’s name; includes a player who has not touched the ring."
     }
    ],
    "g12": "Small space, big targets, walking or jogging. Teacher may be a walking bumper. Hands may help a trap if the ball is soccer.",
@@ -2847,15 +2847,15 @@ window.NEW_GAMES = {
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "suggestedMonth": "October",
-   "equipment": "Deck rings (as soft frisbees); pinnies; cone end zones",
+   "equipment": "Deck rings; pinnies; cone end zones",
    "setup": "Small-sided teams (4v4) with end zones.",
    "how": [
-    "Pass the frisbee; no running while holding it.",
+    "Pass the deck ring; no running while holding it.",
     "Defenders keep one arm’s length.",
     "Score by catching in the end zone.",
     "Dropped or intercepted = turnover."
    ],
-   "safety": "Spread out. Heads up when the disc is loose.",
+   "safety": "Spread out. Heads up when the ring is loose.",
    "bestBand": "5–6",
    "alsoBand": "3–4",
    "bandWhy": "Disc throwing, no running with the disc, and moving to open space."
@@ -4341,7 +4341,7 @@ window.NEW_GAMES = {
    "slot": "16–25",
    "grouping": "3–5 even teams or pairs · 8–12 minutes · fetchers stay to the side of the throwing line",
    "cues": [
-    "Outside players roll/throw gym balls toward the middle.",
+    "Outside players roll/throw beach balls toward the middle.",
     "Middle players dodge.",
     "Freeze on the whistle — then eyes on the teacher.",
     "Opposite-foot step. Eyes on the target, not the teacher.",
@@ -4405,7 +4405,7 @@ window.NEW_GAMES = {
    "equipment": "Beach balls or 10\" playground balls; soft balls",
    "setup": "Middle players dodge; outside players throw or roll.",
    "how": [
-    "Outside players roll/throw gym balls toward the middle.",
+    "Outside players roll/throw beach balls toward the middle.",
     "Middle players dodge.",
     "Hit = immediate re-entry after a task.",
     "Swap inside/outside often."
@@ -5465,7 +5465,7 @@ window.NEW_GAMES = {
     "Teach the three rules before the first game: one pass before a shot, the 3-second count, and attackers stay outside the arc.",
     "Run a 3-minute passing drill first (pass, pivot, pass) so the game does not stop for travelling calls.",
     "Shooting in the air: practise \"take off, catch your balance, land on two feet\" at the wall station before the game.",
-    "The Front Range clip uses gym mats around the arc. Cones or floor tape are safer for jump shots, because landings stay on the flat floor. If you use mats, lay them flat and well inside the arc so nobody lands on a mat edge.",
+    "The Front Range clip uses gym mats around the arc. Cones or floor markers are safer for jump shots, because landings stay on the flat floor. If you use mats, lay them flat and well inside the arc so nobody lands on a mat edge.",
     "Scoring: 1 point per goal. Optional: a goal from a jump shot counts 2 for Grades 5–6.",
     "Supports and inclusion: Larger, softer ball; a 5-second count; a \"free pass\" rule where a player who has not touched the ball receives an unguarded pass; a role as sub-rotation leader or score keeper for a student who needs a movement break, with a return after one game. Model every rule with a walk-through before play.",
     "Year plan: December, January. An invasion game for games month that also leads into basketball spacing and passing."
@@ -5532,7 +5532,7 @@ window.NEW_GAMES = {
     "Add a second ball for Grades 5–6 once spacing is good.",
     "Play without goalies and use cone targets."
    ],
-   "safety": "Goals and arcs at least 2 m from the walls and stage. Soft ball only. No contact: defenders stay one arm's length away. Shots stay below shoulder height. Only the goalie stands in the goalie area. Jumpers take off and land on the flat floor, not on mats or tape edges. Waiting teams stay behind the wall-station line. Stop signal: teacher says \"Freeze\". Students stop, drop or hold the ball still, hands on knees, eyes on the teacher.",
+   "safety": "Goals and arcs at least 2 m from the walls and stage. Soft ball only. No contact: defenders stay one arm's length away. Shots stay below shoulder height. Only the goalie stands in the goalie area. Jumpers take off and land on the flat floor, not on mats or floor-marker edges. Waiting teams stay behind the wall-station line. Stop signal: teacher says \"Freeze\". Students stop, drop or hold the ball still, hands on knees, eyes on the teacher.",
    "bestBand": "5–6",
    "alsoBand": "3–4",
    "bandWhy": "Full rules are for Grades 4–6; Grades 3–4 use the lead-up game."
@@ -5582,7 +5582,7 @@ window.NEW_GAMES = {
    "roundEnds": "Continuous play for the set time (8–12 minutes). Freeze, then everyone does one final cone flip together.",
    "tips": [
     "Teach cone flip with the whole class first (2 minutes), then demo one tag exchange with four students while everyone watches.",
-    "Tape X's around each hoop so younger players start spaced out.",
+    "Put floor markers around each hoop so younger players start spaced out.",
     "This is a routine game. Once a class knows it, a substitute can run it with one demo.",
     "Related cards: Fishbowl Tag also uses a cone flip, but as a re-entry task. This game uses cone flip as a separate mixer.",
     "Scoring: No score needed. Optional: students count their own cone-flip wins.",
@@ -5627,7 +5627,7 @@ window.NEW_GAMES = {
      "look": "Students examine and demonstrate an understanding of structure in physical activity. [PDE6-OI2-GQ1-LO1]"
     }
    ],
-   "g12": "Teacher stands at the pin hoop and spins every time. Walk-tag only. Cone flip: one upright flip (or a flip onto a mat) moves you over. Tape X's at the hoop.",
+   "g12": "Teacher stands at the pin hoop and spins every time. Walk-tag only. Cone flip: one upright flip (or a flip onto a mat) moves you over. Floor markers at the hoop.",
    "g34": "Full game. Jog-tag. Two upright flips to move over.",
    "g56": "Full speed inside the zone. Tagger may call one \"freeze\" fake per turn. Students explain the rotation rules to a new player or to a substitute (Grade 6 structure look-for).",
    "aka": [
@@ -5762,7 +5762,7 @@ window.NEW_GAMES = {
     }
    ],
    "g12": "Beanbags and large foam balls only. Throwing line 2 m from a low net (or a rope at 1 m). Targets 1–4 m past the net. Underhand and two-hand overhead only. Hoops can be worth 1 point and everything else 2 points.",
-   "g34": "Add the overhand throw, disc and underhand serve. Full point values. Teams set a target score before each round.",
+   "g34": "Add the overhand throw, deck ring and underhand serve. Full point values. Teams set a target score before each round.",
    "g56": "Add the punt and the bounce-and-kick. Called targets for double points. Students coach one cue to the next thrower.",
    "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
    "videos": [
@@ -5774,7 +5774,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "Volleyball net lowered to about 1–1.2 m (or a rope between two standards); 4 throwing cones (one per team); targets on the far side: 8 hoops (1 point), 6 tall cones (2 points), 6 spot markers (5 points), 4 buckets or bins (10 points); per team, a set of soft throwables: 2 beanbags, 1 foam ball, 1 tennis ball, 1 foam football, 1 deck ring (as the soft disc), 1 soft volleyball or trainer ball; tally sheet or whiteboard",
+   "equipment": "Volleyball net lowered to about 1–1.2 m (or a rope between two standards); 4 throwing cones (one per team); targets on the far side: 8 hoops (1 point), 6 tall cones (2 points), 6 spot markers (5 points), 4 buckets or bins (10 points); per team, a set of soft throwables: 2 beanbags, 1 foam ball, 1 tennis ball, 1 foam football, 1 deck ring, 1 soft volleyball or trainer ball; tally sheet or whiteboard",
    "setup": "Set the net across the gym. Put 4 throwing cones in a row about 3–4 m from the net, at least 3 m apart. Each team lines up behind its cone. Scatter the targets 2–8 m beyond the net. Put the hoops closest, then tall cones, spot markers, and buckets farthest. Keep all targets at least 2 m from the far wall.",
    "how": [
     "The first player in each line steps up to the throwing cone with the team's object for that round.",
@@ -5783,7 +5783,7 @@ window.NEW_GAMES = {
     "Score: lands in a hoop = 1, knocks or hits a tall cone = 2, lands on a spot marker = 5, lands in a bucket = 10. The thrower calls their score; a teammate records it.",
     "The teacher calls \"Collect.\" Only the four throwers go under or around the net, fetch their object, return, and hand it to the next player. They then go to the back of the line.",
     "The teacher calls \"Fire!\" again only when every collector is back behind the throwing line.",
-    "Every round, the teacher names a new way to fire the cannon: Beanbag: underhand throw (swing back, point, step, follow through). Large foam ball: two-hand overhead throw. Tennis ball or foam football: overhand throw (opposite-foot step). Soft disc: backhand fling. Soft volleyball: underhand serve (fist, swing straight through). Foam football: drop punt. Foam soccer ball: bounce and kick (Grades 3–6)."
+    "Every round, the teacher names a new way to fire the cannon: Beanbag: underhand throw (swing back, point, step, follow through). Large foam ball: two-hand overhead throw. Tennis ball or foam football: overhand throw (opposite-foot step). Deck ring: backhand fling. Soft volleyball: underhand serve (fist, swing straight through). Foam football: drop punt. Indoor soccer ball: bounce and kick (Grades 3–6)."
    ],
    "variations": [
     "Target choice: before throwing, call the target you are aiming for; a called hit doubles the points.",

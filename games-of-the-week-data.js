@@ -618,7 +618,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Pass and move into space, the same idea as football.",
        "href": "new-games.html#elementary-ultimate-frisbee",
        "page": "New Games",
-       "equipment": "Deck rings (as soft frisbees); pinnies; cone end zones"
+       "equipment": "Deck rings; pinnies; cone end zones"
       }
      ]
     }
@@ -1608,7 +1608,7 @@ window.GAMES_OF_THE_WEEK = {
      "picks": [
       {
        "name": "Balloon Keep-Up",
-       "reason": "Keep one balloon up as a team: the first step to volleying.",
+       "reason": "Keep one beach ball or scarf up as a team: the first step to volleying.",
        "href": "games.html#balloon-keep-up",
        "page": "Big-Group Games",
        "equipment": "One beach ball or juggling scarf per circle · optional noodles or rulers"

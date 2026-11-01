@@ -1109,12 +1109,12 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "Each team’s goal is the whole end wall, so the game works with a large group. Use it to practise passing and shooting with a foam ball (idea from CIRA Ontario).",
+    "purpose": "Each team’s goal is the whole end wall, so the game works with a large group. Use it to practise passing and shooting with an indoor soccer ball or Softex foam ball (idea from CIRA Ontario).",
     "equipment": "indoor soccer ball or Softex foam ball, pinnies",
     "setup": "Make two teams (pinnies on one side). Play the full gym or a large field. Agree the freeze signal before the first round.",
     "play": [
       "Each team’s GOAL is the entire end wall / end line — no small net required. That is what makes this work with a crowd.",
-      "Play soccer rules with a foam soccer ball: feet only. Decide in advance whether a goalie is allowed to use hands.",
+      "Play soccer rules with an indoor soccer ball or Softex foam ball: feet only. Decide in advance whether a goalie is allowed to use hands.",
       "A goal counts when the ball hits the opponent’s end wall or fully crosses the end line (choose one and stick to it).",
       "Restart at centre after each goal. Add a second foam ball if numbers are very high so more players get touches.",
       "Play 4–6 minute periods and rotate roles.",
@@ -2295,7 +2295,7 @@ window.GAME_DETAILS = [
     ],
     "roundEnds": "Most standing castles, or most knockdowns.",
     "skins": [
-      "Yoga ball only, push it onto the other bench (Star Wars).",
+      "Beach ball only, push it onto the other bench (Star Wars).",
       "Cone targets on a centre bench; touch your wall before you throw.",
       "Retrievers vs throwers with a target hoop (Snowball Fight).",
       "Bombardment / Battleball: same halves, same rebuild."
@@ -3401,7 +3401,7 @@ window.GAME_DETAILS = [
     "g12": "Walk first. Two commands only (go and freeze). Teacher models every shape.",
     "g34": "Add skip, gallop, and a shape at the freeze. Students may suggest one command.",
     "g56": "A student DJ or caller for two minutes. Teacher keeps freeze and safety.",
-    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. Floor rope or tape only — no benches. One walker on a line. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Give a hoop of space. Freeze means still feet — not a last-second shove. Floor ropes or court lines only — no benches. One walker on a line. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "0–5 or 16–25",
     "type": "loco",
     "ifThis": [],
@@ -3742,12 +3742,12 @@ window.GAME_DETAILS = [
       "December",
       "October"
     ],
-    "purpose": "Keep one balloon up. Count hits. A drop restarts the count, not the person.",
+    "purpose": "Keep one beach ball or scarf up. Count hits. A drop restarts the count, not the person.",
     "equipment": "One beach ball or juggling scarf per circle · optional noodles or rulers",
     "setup": "Circles with arm’s-length space. One beach ball or scarf each.",
     "play": [
       "Name the shared goal out loud — you are not chasing a winner between circles unless you say so.",
-      "Toss the balloon in. Soft taps only.",
+      "Toss the beach ball or scarf in. Soft taps only.",
       "Count hits aloud. Floor = restart that circle’s count.",
       "Play 3–6 minutes."
     ],
@@ -3760,13 +3760,13 @@ window.GAME_DETAILS = [
     "ifThis": [
       "Hard swat: sit one restart, then rejoin.",
       "Sticks clash: widen the circle.",
-      "Balloon leaves the circle: retrieve and restart that count."
+      "Ball or scarf leaves the circle: retrieve and restart that count."
     ],
     "roundEnds": "Highest consecutive count, or first circle to 20.",
     "skins": [
       "Hands only.",
       "Noodle/ruler only.",
-      "Second balloon.",
+      "Second beach ball or scarf.",
       "Seated chairs."
     ],
     "aka": [
@@ -3859,7 +3859,7 @@ window.GAME_DETAILS = [
     "skins": [
       "Bench as a net.",
       "Mini goals (Floorball).",
-      "Taped gaga pit, hits below the waist.",
+      "Cone-ring gaga pit, hits below the waist.",
       "Cooperative wall ball: count consecutive hits, drop restarts the count."
     ],
     "aka": [
@@ -4205,7 +4205,7 @@ window.GAME_DETAILS = [
     "g12": "Half the distance or fewer reps. Knees-down options. Stop if wrists or backs complain. Feet-only if sticks are new.",
     "g34": "Full lane or full set. Quiet landings. Partner counts.",
     "g56": "Show three quality reps. Add a half-turn, opposite hand, or a hoop target on the last set.",
-    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. Floor rope or tape only — no benches. One walker on a line. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "Quiet landings. Stop a station if a wrist, knee, or back complains — switch to a walk option. Sticks stay below the knee. No slapshots. Blade on the floor when you stop. Floor ropes or court lines only — no benches. One walker on a line. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "fitness",
     "ifThis": [],
@@ -4650,7 +4650,7 @@ window.GAME_DETAILS = [
       "Beat jumping.",
       "Standing long jump, cone behind the heels.",
       "What’s-the-time jumps toward a caller, then flee.",
-      "Jump The River: one taped river that grows.",
+      "Jump The River: one two-rope river that grows.",
       "Hurdle hops: low hurdles, same quiet stick."
     ],
     "aka": [
@@ -4855,12 +4855,12 @@ window.GAME_DETAILS = [
       "April",
       "December"
     ],
-    "purpose": "Walk a taped path with a talking spotter. Closed eyes are legal. Daly Exercise game. Nobody sits the period.",
+    "purpose": "Walk a rope path with a talking spotter. Closed eyes are legal. Daly Exercise game. Nobody sits the period.",
     "equipment": "One blindfold per team; ropes laid flat",
     "setup": "Ropes to step over. Spotter beside, not behind.",
     "play": [
       "Walker covers eyes at the start.",
-      "Foot on tape = stop, return, no point.",
+      "Foot on a rope = stop, return, no point.",
       "Clean crossing = 1. Swap jobs.",
       "Freeze on the whistle. Reset kit, then the next round."
     ],
