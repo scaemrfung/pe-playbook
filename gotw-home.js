@@ -2,7 +2,7 @@
    Games of the Week page to the what's new this week box on the main page?").
    Same data and week logic as games-of-the-week.html (gotw.js): games-of-the-week-data.js, the week whose Monday
    matches today in America/Edmonton (school-year.js todayISO, so ?today=YYYY-MM-DD previews a date).
-   Each Monday it switches to that week: its picks, a link to the week and a Print button
+   From Saturday it switches to the coming week: its picks, a link to the week and a Print button
    (games-of-the-week-print.html?week=N). Breaks show the games for the week back; summer shows a short note. Without JavaScript the static line stays. */
 (function () {
   function run() {
@@ -11,7 +11,9 @@
     var DAY = 864e5, W = D.weeks;
     function parse(s) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s); return m ? Date.UTC(+m[1], +m[2] - 1, +m[3]) : null; }
     function iso(t) { return new Date(t).toISOString().slice(0, 10); }
-    function mondayOf(k) { var t = parse(k), d = new Date(t).getUTCDay(); return iso(t - ((d + 6) % 7) * DAY); }
+    // Mr. Fung, Nov 1 2026 ("yes, change it on Saturdays"): from Saturday the coming week shows, so Sat/Sun roll forward to next Monday.
+    function mondayOf(k) { var t = parse(k), d = new Date(t).getUTCDay(); return iso(d === 6 || d === 0 ? t + (d === 6 ? 2 : 1) * DAY : t - (d - 1) * DAY); }
+    function isWeekend(k) { var d = new Date(parse(k)).getUTCDay(); return d === 6 || d === 0; }
     function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
     var today = SY && SY.todayISO ? SY.todayISO() : iso(Date.now()), mon = mondayOf(today);
     var w = null, lead = "", brk = null;
@@ -28,7 +30,7 @@
       lead = brk ? "No school this week (" + esc(/christmas/i.test(brk.name) ? "Winter Break" : brk.name) + "). Back on " + esc(w.range) + ":" : "First week of school, " + esc(w.range) + ":";
     }
     var head = '<p class="whats-new-gotw-head"><strong>Games of the Week</strong> · ' +
-      (lead || '<span class="nowrap">Week ' + w.n + " · " + esc(w.range) + "</span>") + ' <span class="whats-new-gotw-unit">' + esc(w.month) + ": " + esc(w.unit) + "</span></p>";
+      (lead || (isWeekend(today) ? "Coming up: " : "") + '<span class="nowrap">Week ' + w.n + " · " + esc(w.range) + "</span>") + ' <span class="whats-new-gotw-unit">' + esc(w.month) + ": " + esc(w.unit) + "</span></p>";
     var bands = '<div class="whats-new-gotw-bands">' + (w.bands || []).map(function (b) {
       return '<div class="whats-new-gotw-band"><p class="whats-new-gotw-label">' + esc(b.label) + '</p><ol>' + b.picks.map(function (p) {
         return '<li><a href="' + esc(p.href) + '">' + esc(p.name) + "</a></li>";
