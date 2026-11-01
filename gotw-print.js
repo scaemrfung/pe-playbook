@@ -1,16 +1,17 @@
-/* Games of the Week printable: ?week=N shows only that week, ?print=1 opens the print dialog.
+/* Games of the Week printable: ?week=N shows only that week (its Grades 1–3 page and its Grades 4–6 page), ?print=1 opens the print dialog.
    Each page is checked against one Letter page (7.5 × 10 in inside the margins) and steps down in size if needed. */
 (function () {
   var q = new URLSearchParams(location.search), one = q.get("week"), PAGE_H = 10 * 96;
   var sheets = [].slice.call(document.querySelectorAll(".gp-sheet"));
   if (one) {
-    var hit = document.getElementById("week-" + parseInt(one, 10));
-    if (hit) {
-      sheets.forEach(function (s) { s.hidden = s !== hit; });
+    var n = String(parseInt(one, 10)), hit = document.getElementById("week-" + n);
+    var mine = sheets.filter(function (s) { return s.getAttribute("data-week") === n; });
+    if (hit && mine.length) {
+      sheets.forEach(function (s) { s.hidden = mine.indexOf(s) < 0; });
       var lab = document.getElementById("gp-showing"), all = document.getElementById("gp-all");
-      if (lab) lab.textContent = "Showing one week. Print makes one page.";
+      if (lab) lab.textContent = "Showing one week. Print makes " + (mine.length === 2 ? "two pages: Grades 1–3 and Grades 4–6." : mine.length + " pages.");
       if (all) all.hidden = false;
-      document.title = hit.querySelector("h2").textContent + " · Games of the Week · Mr. Fung";
+      document.title = "Week " + n + " · Games of the Week · Mr. Fung";
     }
   }
   function contentHeight(s) {

@@ -1,5 +1,5 @@
 {
- "_help": "Games of the Week (games-of-the-week.html): 3 games per school week, picked from games already on the site to fit the month's unit. Keyed by month, then by in-month week (1, 2, ...) using the start-month rule in school-year.js (a week belongs to the month its Monday is in). Each pick is [game name, one-line reason]. Names must match a New Games, Warm Up Games or Big-Group Games card exactly; the build warns if one does not, or if a game repeats inside a month. Equipment and the link come from the game's card. Edit, then run: node tools/build.js",
+ "_help": "Games of the Week (games-of-the-week.html): each school week has 3 games for Grades 1–3 (g13) and 3 different games for Grades 4–6 (g46), picked from games already on the site to fit the month's unit. Keyed by month, then by in-month week (1, 2, ...) using the start-month rule in school-year.js (a week belongs to the month its Monday is in). Each pick is [game name, one-line reason]. Names must match a New Games, Warm Up Games or Big-Group Games card exactly; the build warns if one does not, if a game repeats inside a month within a grade band, or if both bands share a game the same week. Equipment and the link come from the game's card. Edit, then run: node tools/build.js",
  "units": {
   "September": "Soccer, Terry Fox and football",
   "October": "Football",
@@ -14,224 +14,1236 @@
  },
  "picks": {
   "September": {
-   "1": [
-    ["Say My Name Rock, Paper, Scissors", "A quick way to learn everyone’s name in the first week."],
-    ["Here, There, Everywhere", "Teaches the stop and travel signals you will use all year."],
-    ["Four Corners", "A whole-class game where everyone stays in, good for setting gym routines."]
-   ],
-   "2": [
-    ["Sharks and Dolphins", "A tag warm-up with rescues, so nobody sits out."],
-    ["Through the Gates", "Partner passing and trapping, the first soccer skill of the unit."],
-    ["4-Goal Soccer", "Four nets keep a big class busy with lots of touches."]
-   ],
-   "3": [
-    ["Pair Running", "Builds steady running for the Terry Fox run on Friday."],
-    ["Avoid the Mines", "Everyone dribbles at once with their head up."],
-    ["Pin Galore Soccer", "Every pin is a goal, so passing and shooting pay off fast."]
-   ],
-   "4": [
-    ["Kangaroos and Crocodiles", "A reaction tag that gets legs ready for football."],
-    ["Crab Football", "A low-key first football game that builds core strength."],
-    ["End Zone Ball", "Get the ball to a teammate in the end zone: the big idea of football."]
-   ],
-   "5": [
-    ["Wolf’s Den", "Dodging past defenders, like a ball carrier finding space."],
-    ["4 vs 1", "Small-group keep-away for quick passes and getting open."],
-    ["Four Corner Flags", "Steal the flags and bring them home: attack and defend at once."]
-   ]
+   "1": {
+    "g13": [
+     [
+      "Say My Name Rock, Paper, Scissors",
+      "A quick way to learn everyone’s name in the first week."
+     ],
+     [
+      "Here, There, Everywhere",
+      "Teaches the stop and travel signals you will use all year."
+     ],
+     [
+      "Kangaroos and Crocodiles",
+      "Listen for your team name, then race home: a first-week listening game."
+     ]
+    ],
+    "g46": [
+     [
+      "Everybody’s It",
+      "Everyone can tag, so the whole class is moving from the first minute."
+     ],
+     [
+      "Foosball Soccer",
+      "Short passes along a row teach first touch and passing lanes."
+     ],
+     [
+      "3-Ball Soccer",
+      "Three balls at once mean more touches and quick decisions."
+     ]
+    ]
+   },
+   "2": {
+    "g13": [
+     [
+      "Sharks and Dolphins",
+      "A tag warm-up with rescues, so nobody sits out."
+     ],
+     [
+      "Traffic Lights (kick)",
+      "Dribble, trap and stop on a colour: ball control at their own speed."
+     ],
+     [
+      "Through the Gates",
+      "Partner passing and trapping, the first soccer skill of the unit."
+     ]
+    ],
+    "g46": [
+     [
+      "Ten-Second Tag",
+      "Short bursts of chasing for a quick, fair warm-up."
+     ],
+     [
+      "Guard the Gates",
+      "Dribble or pass past defenders who win the ball, not the body."
+     ],
+     [
+      "4-Goal Soccer",
+      "Four nets keep a big class busy with lots of touches."
+     ]
+    ]
+   },
+   "3": {
+    "g13": [
+     [
+      "Circle Racing",
+      "Steady running with a partner to get ready for the Terry Fox run."
+     ],
+     [
+      "Rob the Nest (dribble)",
+      "Everyone dribbles at once to bring a ball home."
+     ],
+     [
+      "Avoid the Mines",
+      "Everyone dribbles at once with their head up."
+     ]
+    ],
+    "g46": [
+     [
+      "Pair Running",
+      "Builds steady running for the Terry Fox run on Friday."
+     ],
+     [
+      "Collect Em All",
+      "Teams work together to win balls and carry them home."
+     ],
+     [
+      "Pin Galore Soccer",
+      "Every pin is a goal, so passing and shooting pay off fast."
+     ]
+    ]
+   },
+   "4": {
+    "g13": [
+     [
+      "Old Grey Cat",
+      "A simple chase game with one clear signal to run."
+     ],
+     [
+      "Dash and Dribble",
+      "A dribbling relay with a trap at the cone."
+     ],
+     [
+      "End Zone Ball",
+      "Roll the ball to a teammate in the end zone: an easy first team game."
+     ]
+    ],
+    "g46": [
+     [
+      "Wolf’s Den",
+      "Dodging past defenders, like a ball carrier finding space."
+     ],
+     [
+      "Crab Football",
+      "A low-key first football game that builds core strength."
+     ],
+     [
+      "4 vs 1",
+      "Small-group keep-away for quick passes and getting open."
+     ]
+    ]
+   },
+   "5": {
+    "g13": [
+     [
+      "Knock ’em Downers",
+      "Two jobs and nonstop movement: knock down or stand up."
+     ],
+     [
+      "Land and Sea",
+      "Jump to land or sea on the call for body control and listening."
+     ],
+     [
+      "Octopus",
+      "Cross the gym past the octopus; tagged players become helpers."
+     ]
+    ],
+    "g46": [
+     [
+      "Blob Tag",
+      "The blob grows, so players must plan their escape routes."
+     ],
+     [
+      "Soccer weave relay",
+      "Small touches through cones to sharpen close control."
+     ],
+     [
+      "Four Corner Flags",
+      "Steal the flags and bring them home: attack and defend at once."
+     ]
+    ]
+   }
   },
   "October": {
-   "1": [
-    ["Predators and Prey Tag", "Fast chasing and dodging to start football class."],
-    ["The Perfect Pass", "Teams complete passes before scoring, so everyone touches the ball."],
-    ["Football Frenzy", "A busy whole-class game with foam footballs."]
-   ],
-   "2": [
-    ["Zone Tag", "Running through zones past a tagger, like finding a gap."],
-    ["Capture the Flag Relay", "Throw-and-catch practice at three distances."],
-    ["Flasketball", "Pass a foam football with no running, then shoot at the basket."]
-   ],
-   "3": [
-    ["Jellyfish", "A tag game where players help each other back in."],
-    ["Catch & Step", "Partner throwing and catching that gets harder as you succeed."],
-    ["End Ball", "Pass only, and score with a clean catch in the end zone."]
-   ],
-   "4": [
-    ["Tic Tac Run", "A react-and-chase warm-up with a coin-flip twist."],
-    ["Punt to the line", "Practise the drop-kick, the last football skill of the unit."],
-    ["Elementary Ultimate Frisbee", "Pass and move into space, the same idea as football."]
-   ]
+   "1": {
+    "g13": [
+     [
+      "Jellyfish",
+      "A gentle tag game where tagged players become jellyfish helpers."
+     ],
+     [
+      "Catch the Ice Cream",
+      "Toss a beanbag into a partner’s cone: soft hands for catching."
+     ],
+     [
+      "Captain Ball",
+      "Pass to a captain in a hoop: a first passing game with a target."
+     ]
+    ],
+    "g46": [
+     [
+      "Predators and Prey Tag",
+      "Fast chasing and dodging to start football class."
+     ],
+     [
+      "The Perfect Pass",
+      "Teams complete passes before scoring, so everyone touches the ball."
+     ],
+     [
+      "Football Frenzy",
+      "A busy whole-class game with foam footballs."
+     ]
+    ]
+   },
+   "2": {
+    "g13": [
+     [
+      "Fishbowl Tag",
+      "An easy tag game with a safe fishbowl to rest in."
+     ],
+     [
+      "Hoop Rollers",
+      "Roll a ball through a rolling hoop for aim and timing."
+     ],
+     [
+      "Collect the Treasure",
+      "Carry treasure home one piece at a time as a team."
+     ]
+    ],
+    "g46": [
+     [
+      "Zone Tag",
+      "Running through zones past a tagger, like finding a gap."
+     ],
+     [
+      "Capture the Flag Relay",
+      "Throw-and-catch practice at three distances."
+     ],
+     [
+      "Flasketball",
+      "Pass a foam football with no running, then shoot at the basket."
+     ]
+    ]
+   },
+   "3": {
+    "g13": [
+     [
+      "Tic Tac Run",
+      "A relay with a quick thinking game at the end."
+     ],
+     [
+      "Catch & Step",
+      "Partner throwing and catching that gets harder as you succeed."
+     ],
+     [
+      "Steal the Bacon",
+      "Listen for your number and race for the object."
+     ]
+    ],
+    "g46": [
+     [
+      "Ambush",
+      "Dodge and change direction past hidden taggers."
+     ],
+     [
+      "Punt to the line",
+      "Practise the drop-kick, the last football skill of the unit."
+     ],
+     [
+      "End Ball",
+      "Pass only, and score with a clean catch in the end zone."
+     ]
+    ]
+   },
+   "4": {
+    "g13": [
+     [
+      "Tail Tag",
+      "Pull a tail, then hand it back so the game keeps going."
+     ],
+     [
+      "Target Toys",
+      "Throw at fun targets for underhand and overhand aim."
+     ],
+     [
+      "Crab Football",
+      "Push the ball with a crab walk: big fun and core strength."
+     ]
+    ],
+    "g46": [
+     [
+      "Four Corner Tag",
+      "Read the taggers and pick the safest corner."
+     ],
+     [
+      "2-Ball",
+      "Two balls in play make players watch and pass quickly."
+     ],
+     [
+      "Elementary Ultimate Frisbee",
+      "Pass and move into space, the same idea as football."
+     ]
+    ]
+   }
   },
   "November": {
-   "1": [
-    ["Secret Agent Tag", "A new tag game where nobody knows who the taggers are."],
-    ["Hockey Dribbling Shapes", "Everyone stick-handles at once, from simple to tricky."],
-    ["Numbers Hockey", "Short, safe floor hockey games with sticks kept low."]
-   ],
-   "2": [
-    ["Freedom Catch", "Tag where a throw and catch frees frozen players."],
-    ["Gates & Hurdles Dribble", "Dribble through gates and under hurdles for points."],
-    ["Floorball", "A small-sided game that uses the hockey ideas of attack and defence."]
-   ],
-   "3": [
-    ["Shadow Tag", "A no-contact warm-up for quick changes of direction."],
-    ["Zigzag & Shoot", "Dribble around cones, then shoot at a target."],
-    ["Star Wars", "Teams aim at one big target ball, never at people."]
-   ],
-   "4": [
-    ["Everybody’s It", "Everyone tags and keeps playing, a busy warm-up."],
-    ["Move Up Hockey", "Each hit moves the target farther away: passing accuracy."],
-    ["Bean Bag Battle", "A team tossing battle to finish the hockey unit."]
-   ]
+   "1": {
+    "g13": [
+     [
+      "Storm Chasers",
+      "Simple calls and lots of moving to warm up for hockey."
+     ],
+     [
+      "Hockey Dribbling Shapes",
+      "Everyone stick-handles at once, from simple to tricky."
+     ],
+     [
+      "Numbers Hockey",
+      "Short, safe floor hockey games with sticks kept low."
+     ]
+    ],
+    "g46": [
+     [
+      "Secret Agent Tag",
+      "A new tag game where nobody knows who the taggers are."
+     ],
+     [
+      "Gates & Hurdles Dribble",
+      "Dribble through gates and under hurdles for points."
+     ],
+     [
+      "Floorball",
+      "A small-sided game that uses the hockey ideas of attack and defence."
+     ]
+    ]
+   },
+   "2": {
+    "g13": [
+     [
+      "Frozen Tag",
+      "A friendly freeze tag: a teammate frees you, so nobody sits out."
+     ],
+     [
+      "Hockey hurdle dribble",
+      "Tiny touches with the blade on the floor through low cones."
+     ],
+     [
+      "Air Hockey (cone puck)",
+      "Push a cone puck with the stick to score: easy stick control."
+     ]
+    ],
+    "g46": [
+     [
+      "Freedom Catch",
+      "Tag where a throw and catch frees frozen players."
+     ],
+     [
+      "Zigzag & Shoot",
+      "Dribble around cones, then shoot at a target."
+     ],
+     [
+      "Star Wars",
+      "Teams aim at one big target ball, never at people."
+     ]
+    ]
+   },
+   "3": {
+    "g13": [
+     [
+      "Shadow Tag",
+      "Tag a shadow, not a body: safe chasing with sticks put away."
+     ],
+     [
+      "Fishing",
+      "Hook cones with a noodle and bring them home: stick-style control."
+     ],
+     [
+      "Bottle Flip Hockey",
+      "Shoot at bottles to flip and knock them: aim with the stick."
+     ]
+    ],
+    "g46": [
+     [
+      "Everybody’s It",
+      "Everyone can tag, so the whole class is moving from the first minute."
+     ],
+     [
+      "Hockey pin knockdown",
+      "One controlled shot after a dribble to knock a pin."
+     ],
+     [
+      "Move Up Hockey",
+      "Each hit moves the target farther away: passing accuracy."
+     ]
+    ]
+   },
+   "4": {
+    "g13": [
+     [
+      "Turtle Tag",
+      "Flip onto your back like a turtle to be safe: silly and simple."
+     ],
+     [
+      "Skittle Ball",
+      "Underhand rolls at pins for aim, a lead-up to passing."
+     ],
+     [
+      "Bean Bag Battle",
+      "A team tossing battle to finish the hockey unit."
+     ]
+    ],
+    "g46": [
+     [
+      "Mystery Number Tag",
+      "Secret taggers keep everyone alert and scanning."
+     ],
+     [
+      "Battleships",
+      "Four teams aim at pins and defend their own."
+     ],
+     [
+      "Protect the House",
+      "Knock the noodle off the house; defenders intercept like hockey."
+     ]
+    ]
+   }
   },
   "December": {
-   "1": [
-    ["Alien Tag", "A noodle tag warm-up with a quick jumping-jack return."],
-    ["Hoop Hut Knock Down", "Build a hut together, then knock it down with a soft ball."],
-    ["Hidden Fleet", "Lob soft balls over the net to find the hidden ships."]
-   ],
-   "2": [
-    ["Frog Tag", "Leapfrog rescues keep everybody moving."],
-    ["Cone Raider", "Partner throwing at cones: hit one and it becomes yours."],
-    ["Eagles vs Seahawks", "A big team game of chasing and collecting."]
-   ]
+   "1": {
+    "g13": [
+     [
+      "Alien Tag",
+      "A noodle tag warm-up with a quick jumping-jack return."
+     ],
+     [
+      "Follow the Leader",
+      "Copy the leader’s move or shape; take turns leading."
+     ],
+     [
+      "Eagles vs Seahawks",
+      "A big team game of chasing and collecting."
+     ]
+    ],
+    "g46": [
+     [
+      "Ten-Second Tag",
+      "Short bursts of chasing for a quick, fair warm-up."
+     ],
+     [
+      "Hoop Hut Knock Down",
+      "Build a hut together, then knock it down with a soft ball."
+     ],
+     [
+      "Hidden Fleet",
+      "Lob soft balls over the net to find the hidden ships."
+     ]
+    ]
+   },
+   "2": {
+    "g13": [
+     [
+      "Frog Tag",
+      "Leapfrog rescues keep everybody moving."
+     ],
+     [
+      "Silly Bananas",
+      "Move like the called fruit or animal, then freeze."
+     ],
+     [
+      "Ice Floe Crossing",
+      "Cross the icy water stepping only in hoops, together."
+     ]
+    ],
+    "g46": [
+     [
+      "Wolf’s Den",
+      "Runners cross the middle and tagged players help the wolves."
+     ],
+     [
+      "Cone Raider",
+      "Partner throwing at cones: hit one and it becomes yours."
+     ],
+     [
+      "Fire the Cannons",
+      "Throw to knock targets while teammates reload: aim and teamwork."
+     ]
+    ]
+   }
   },
   "January": {
-   "1": [
-    ["Waspital", "Everybody-is-it tag with a stretch hospital to start the term."],
-    ["Dribble the gates", "Dribble through cone gates with finger pads and head up."],
-    ["Captain Ball", "Pass to your captain: the first basketball team game."]
-   ],
-   "2": [
-    ["Dice Wave Dribble", "A roll of the die sends groups dribbling across the gym."],
-    ["Wall chest-pass relay", "Chest passes off the wall in a quick relay."],
-    ["Noodle Tag Basketball", "Score while noodle taggers send you back."]
-   ],
-   "3": [
-    ["Rob the Nest", "Dribble to collect objects, one per trip."],
-    ["Throw & Go", "Pass, then move, so the next pass happens on the run."],
-    ["Cornerball", "Pass to a teammate in a corner hoop to score: getting open."]
-   ],
-   "4": [
-    ["Team Tag", "Pass the ball to get close enough to tag."],
-    ["Side to Side", "Partner passing with side jumps between hoops."],
-    ["Bench Ball", "Catch a pass on the bench to bring a teammate up."]
-   ]
+   "1": {
+    "g13": [
+     [
+      "Waspital",
+      "Everybody-is-it tag with a stretch hospital to start the term."
+     ],
+     [
+      "Dice Wave Dribble",
+      "A roll of the die sends groups dribbling across the gym."
+     ],
+     [
+      "Collect the Treasure",
+      "Carry treasure home one piece at a time as a team."
+     ]
+    ],
+    "g46": [
+     [
+      "Team Tag",
+      "Pass the ball to get close enough to tag."
+     ],
+     [
+      "Wall chest-pass relay",
+      "Chest passes off the wall in a quick relay."
+     ],
+     [
+      "Noodle Tag Basketball",
+      "Score while noodle taggers send you back."
+     ]
+    ]
+   },
+   "2": {
+    "g13": [
+     [
+      "Tail Tag",
+      "Pull a tail, then hand it back so the game keeps going."
+     ],
+     [
+      "Dribble the gates",
+      "Dribble through cone gates with finger pads and head up."
+     ],
+     [
+      "Captain Ball",
+      "Pass to your captain: the first basketball team game."
+     ]
+    ],
+    "g46": [
+     [
+      "Booger Ball",
+      "A tagged ball carrier must pass, so passing beats dribbling."
+     ],
+     [
+      "Throw & Go",
+      "Pass, then move, so the next pass happens on the run."
+     ],
+     [
+      "Cornerball",
+      "Pass to a teammate in a corner hoop to score: getting open."
+     ]
+    ]
+   },
+   "3": {
+    "g13": [
+     [
+      "Fruit Salad",
+      "Switch corners on your fruit: quick feet and listening."
+     ],
+     [
+      "Bounce & Scoop",
+      "Catch a one-bounce feed: tracking the ball."
+     ],
+     [
+      "Rob the Nest",
+      "Dribble to collect objects, one per trip."
+     ]
+    ],
+    "g46": [
+     [
+      "Heist the Treasure",
+      "Steal from the middle and decide when to go."
+     ],
+     [
+      "Go for Goal",
+      "One pass before a shot, in small teams."
+     ],
+     [
+      "Bench Ball",
+      "Catch a pass on the bench to bring a teammate up."
+     ]
+    ]
+   },
+   "4": {
+    "g13": [
+     [
+      "Octopus",
+      "Cross the gym past the octopus; tagged players become helpers."
+     ],
+     [
+      "Side to Side",
+      "Partner passing with side jumps between hoops."
+     ],
+     [
+      "Hoop Target Bowling",
+      "Land a throw in a hoop: aim like a basketball shot."
+     ]
+    ],
+    "g46": [
+     [
+      "Everybody’s It",
+      "Everyone can tag, so the whole class is moving from the first minute."
+     ],
+     [
+      "Reaction Speed",
+      "Catch the dropped ball: quick hands for passing."
+     ],
+     [
+      "Jump Shot Handball",
+      "Jump, pass and shoot in a fast team game."
+     ]
+    ]
+   }
   },
   "February": {
-   "1": [
-    ["Slippery Snakes", "Jump or step over a wiggling rope: a gentle start to ropes."],
-    ["Jump The River", "Jump the gap between two ropes, and it widens after each success."],
-    ["Rope Hoop Scoop", "Partners use skipping ropes to carry a hoop home."]
-   ],
-   "2": [
-    ["Musical Hoops", "Travel to the music, then share a hoop. Nobody sits out."],
-    ["Hop-the-hoops relay", "Hop through the hoops on one foot with planned landings."],
-    ["Hungry Snake", "Teams stay linked as a snake and pass objects back to the tail."]
-   ],
-   "3": [
-    ["Rush Hour", "A traffic game for speed changes and safe spacing."],
-    ["Helicopter Jump", "Jump the sliding noodle and stick the landing."],
-    ["Jump to Hoop Race", "A jumping relay from hoop to hoop."]
-   ],
-   "4": [
-    ["Mirror Mirror", "Run to music, then freeze and copy a partner’s pose."],
-    ["Jumping Jack Hoop Challenge", "Spin a hoop, do jumping jacks, catch it, and add one."],
-    ["Chicken Checkers", "Leave your base on the call and claim a new one."]
-   ]
+   "1": {
+    "g13": [
+     [
+      "Slippery Snakes",
+      "Jump or step over a wiggling rope: a gentle start to ropes."
+     ],
+     [
+      "Frogs on the Lily Pads",
+      "Two-foot jumps from hoop to hoop with a sticky landing."
+     ],
+     [
+      "Musical Hoops",
+      "Travel to the music, then share a hoop. Nobody sits out."
+     ]
+    ],
+    "g46": [
+     [
+      "Chicken Checkers",
+      "Leave your base on the call and claim a new one."
+     ],
+     [
+      "Jumping Jack Hoop Challenge",
+      "Spin a hoop, do jumping jacks, catch it, and add one."
+     ],
+     [
+      "Rope Hoop Scoop",
+      "Partners use skipping ropes to carry a hoop home."
+     ]
+    ]
+   },
+   "2": {
+    "g13": [
+     [
+      "Icebergs",
+      "Hoop islands that shrink, so everyone shares a spot."
+     ],
+     [
+      "Hop-the-hoops relay",
+      "Hop through the hoops on one foot with planned landings."
+     ],
+     [
+      "Hungry Snake",
+      "Teams stay linked as a snake and pass objects back to the tail."
+     ]
+    ],
+    "g46": [
+     [
+      "Ten-Second Tag",
+      "Short bursts of chasing for a quick, fair warm-up."
+     ],
+     [
+      "Helicopter Jump",
+      "Jump the sliding noodle and stick the landing."
+     ],
+     [
+      "Hoop Twister",
+      "Musical hoops with a twist: balance and body control."
+     ]
+    ]
+   },
+   "3": {
+    "g13": [
+     [
+      "Rush Hour",
+      "A traffic game for speed changes and safe spacing."
+     ],
+     [
+      "Knee-ball jumps",
+      "Jump with a ball between your knees: control while jumping."
+     ],
+     [
+      "Jump to Hoop Race",
+      "A jumping relay from hoop to hoop."
+     ]
+    ],
+    "g46": [
+     [
+      "Alien Tag",
+      "Drop the waist hoop and do 5 jumping jacks to rejoin."
+     ],
+     [
+      "Long Jump Challenge",
+      "Beat the team mark from the same line."
+     ],
+     [
+      "European Rhythmic Running",
+      "Change the jump or step on each 8-count phrase."
+     ]
+    ]
+   },
+   "4": {
+    "g13": [
+     [
+      "Mirror Mirror",
+      "Run to music, then freeze and copy a partner’s pose."
+     ],
+     [
+      "Jump The River",
+      "Jump the gap between two ropes, and it widens after each success."
+     ],
+     [
+      "Pony Roundup",
+      "Gallop and skip away from the herders."
+     ]
+    ],
+    "g46": [
+     [
+      "Tripod Tag",
+      "Three teammates work together to guard one player."
+     ],
+     [
+      "Hoop Relay",
+      "Hop and jump hoop to hoop with the agreed action."
+     ],
+     [
+      "Minute Fitness",
+      "One strong minute of jumping, then a short rest."
+     ]
+    ]
+   }
   },
   "March": {
-   "1": [
-    ["Balloon Keep-Up", "Keep one balloon up as a team: the first step to volleying."],
-    ["Card Pass Challenge", "Bump in a circle and beat the number on your card."],
-    ["NitroBall 2.0", "Volleyball meets four square with a waist-high net."]
-   ],
-   "2": [
-    ["Reaction Speed", "Quick hands and ready position for volleyball."],
-    ["Hoop Collect (set/volley)", "A relay to set or volley balls into your team hoop."],
-    ["Skip-rope Net 3v3", "Small-sided volleyball over a rope net."]
-   ],
-   "3": [
-    ["Catch Clap", "Eyes on the ball, the habit every volleyball hit needs."],
-    ["Hand Tennis", "Open-hand rallies over a line or bench."],
-    ["FLY BACK", "Throw and catch over the net, a stepping stone to volleyball."]
-   ],
-   "4": [
-    ["Balloon Keep-Ups", "An easy welcome back from Spring Break."],
-    ["Wall Rally", "Keep a rally going against the wall with one bounce."],
-    ["Four Square Paddle Ball", "Hoop courts and paddles for striking and rallies."]
-   ]
+   "1": {
+    "g13": [
+     [
+      "Balloon Keep-Up",
+      "Keep one balloon up as a team: the first step to volleying."
+     ],
+     [
+      "Catch Clap",
+      "Clap once, then catch: eyes on the ball."
+     ],
+     [
+      "Back to Base",
+      "Travel, then hurry home on the whistle."
+     ]
+    ],
+    "g46": [
+     [
+      "Card Pass Challenge",
+      "Bump in a circle and beat the number on your card."
+     ],
+     [
+      "Hoop Collect (set/volley)",
+      "A relay to set or volley balls into your team hoop."
+     ],
+     [
+      "NitroBall 2.0",
+      "Volleyball meets four square with a waist-high net."
+     ]
+    ]
+   },
+   "2": {
+    "g13": [
+     [
+      "Balloon Keep-Ups",
+      "An easy welcome back from Spring Break."
+     ],
+     [
+      "Bounce & Scoop",
+      "Catch a one-bounce feed: tracking the ball."
+     ],
+     [
+      "Tidy the Bedroom",
+      "Underhand throws into hoops, a lead-up to the underhand serve."
+     ]
+    ],
+    "g46": [
+     [
+      "Reaction Speed",
+      "Quick hands and ready position for volleyball."
+     ],
+     [
+      "Wall Rally",
+      "Keep a rally going against the wall with one bounce."
+     ],
+     [
+      "Skip-rope Net 3v3",
+      "Small-sided volleyball over a rope net."
+     ]
+    ]
+   },
+   "3": {
+    "g13": [
+     [
+      "Throw-clap-catch relay",
+      "Toss, clap and catch: eyes on the ball after a send."
+     ],
+     [
+      "Racquet waiter",
+      "Balance, then a short toss: soft hands for setting."
+     ],
+     [
+      "Protect the Castle",
+      "Send at a target while defenders block."
+     ]
+    ],
+    "g46": [
+     [
+      "Human Catapult",
+      "Throw after a sit-up: core strength and an accurate send."
+     ],
+     [
+      "Hand Tennis",
+      "Open-hand rallies over a line or bench."
+     ],
+     [
+      "FLY BACK",
+      "Throw and catch over the net, a stepping stone to volleyball."
+     ]
+    ]
+   },
+   "4": {
+    "g13": [
+     [
+      "Sharks and Dolphins",
+      "A tag warm-up with rescues, so nobody sits out."
+     ],
+     [
+      "Catch & Step",
+      "Partner throwing and catching that gets harder as you succeed."
+     ],
+     [
+      "Bozo / bucket toss",
+      "Underhand tosses into buckets at longer distances."
+     ]
+    ],
+    "g46": [
+     [
+      "Everybody’s It",
+      "Everyone can tag, so the whole class is moving from the first minute."
+     ],
+     [
+      "Slam Ball",
+      "Bounce the ball into the other team’s space: aim and placement."
+     ],
+     [
+      "Four Square Paddle Ball",
+      "Hoop courts and paddles for striking and rallies."
+     ]
+    ]
+   }
   },
   "April": {
-   "1": [
-    ["Animals", "Animal moves warm up arms, legs and core for gymnastics."],
-    ["Frogs on the Lily Pads", "Two-foot jumps with a stuck landing."],
-    ["Safe to Shore", "Cross the floor using only the islands: balance and planning."]
-   ],
-   "2": [
-    ["Crab Tag", "Everyone moves in crab walk: strong arms for gymnastics."],
-    ["Bench Balance", "Walk the bench and move cones from side to side."],
-    ["Challenge Mat", "Co-operative challenges on mats, done as a team."]
-   ],
-   "3": [
-    ["Daytime / Nighttime", "Travel, then freeze in a strong, still shape."],
-    ["Spot-Jump Path", "Jump the targets with quiet, stuck landings."],
-    ["Stick Tic-Tac-Toe", "A stuck landing claims the hoop. Three in a row wins."]
-   ],
-   "4": [
-    ["Bridges & Rivers", "Half the class makes shapes while the others travel over and under."],
-    ["Crawl and Roll Challenge", "Link a crawl into a roll across the mats."],
-    ["Wheelbarrow Walk Olympics", "Partner strength walks to bronze, silver and gold cones."]
-   ]
+   "1": {
+    "g13": [
+     [
+      "Animals",
+      "Animal moves warm up arms, legs and core for gymnastics."
+     ],
+     [
+      "Frogs on the Lily Pads",
+      "Two-foot jumps with a stuck landing."
+     ],
+     [
+      "Safe to Shore",
+      "Cross the floor using only the islands: balance and planning."
+     ]
+    ],
+    "g46": [
+     [
+      "Command Warm-Up",
+      "Hear the word, do the shape or travel."
+     ],
+     [
+      "Bench Balance",
+      "Walk the bench and move cones from side to side."
+     ],
+     [
+      "Challenge Mat",
+      "Co-operative challenges on mats, done as a team."
+     ]
+    ]
+   },
+   "2": {
+    "g13": [
+     [
+      "Daytime / Nighttime",
+      "Travel, then freeze in a strong, still shape."
+     ],
+     [
+      "Floor rope walk",
+      "Walk a floor line with airplane arms, then hold a balance."
+     ],
+     [
+      "Slip and Slide (mat relay)",
+      "Slide and travel on mats in a short relay."
+     ]
+    ],
+    "g46": [
+     [
+      "Mass Challenges",
+      "The whole class builds a three-part challenge together."
+     ],
+     [
+      "Spot-Jump Path",
+      "Jump the targets with quiet, stuck landings."
+     ],
+     [
+      "Stick Tic-Tac-Toe",
+      "A stuck landing claims the hoop. Three in a row wins."
+     ]
+    ]
+   },
+   "3": {
+    "g13": [
+     [
+      "Numbers (body shapes)",
+      "Travel, then freeze in a number shape."
+     ],
+     [
+      "Beanbag head walk",
+      "Still head and airplane arms with a beanbag on top."
+     ],
+     [
+      "Turtle Race",
+      "Crawl with a cone on your back: slow and steady control."
+     ]
+    ],
+    "g46": [
+     [
+      "Flip Flop",
+      "Make bridges and tunnels, then travel through them."
+     ],
+     [
+      "Inchworm Rescue",
+      "Walk the hands out and back: core and shoulder strength."
+     ],
+     [
+      "Crawl and Roll Challenge",
+      "Link a crawl into a roll across the mats."
+     ]
+    ]
+   },
+   "4": {
+    "g13": [
+     [
+      "Bridges & Rivers",
+      "Half the class makes shapes while the others travel over and under."
+     ],
+     [
+      "Crab Tag",
+      "Everyone moves in crab walk: strong arms for gymnastics."
+     ],
+     [
+      "Follow the Leader",
+      "Copy the leader’s move or shape; take turns leading."
+     ]
+    ],
+    "g46": [
+     [
+      "Magic Numbers",
+      "Three moves without stopping for strength and control."
+     ],
+     [
+      "Tennis Jump",
+      "Jump and land so the rolling ball ends up between your feet."
+     ],
+     [
+      "Wheelbarrow Walk Olympics",
+      "Partner strength walks to bronze, silver and gold cones."
+     ]
+    ]
+   }
   },
   "May": {
-   "1": [
-    ["Sneak & React", "Quick starts, like the start of a sprint."],
-    ["Long Jump Challenge", "Beat the team mark from the same line."],
-    ["Jungle Run Relays", "A relay with a hoop, a jump and a cone."]
-   ],
-   "2": [
-    ["Horse and Jockey", "Run on the call in a circle: quick reactions."],
-    ["Tennis Jump", "Timed two-foot jumps over a rolling ball."],
-    ["Circle run relay", "Laps of the circle with clean hand-offs."]
-   ],
-   "3": [
-    ["Colour Hunt", "Run and collect the colour that is called."],
-    ["Pace lap", "Learn to pace a run so you reach the cone on time."],
-    ["Balance Carry", "Carry an object without dropping it: control while moving."]
-   ],
-   "4": [
-    ["Catch Me If You Can (sprint)", "Short sprints with a head start: speed practice."],
-    ["Cone Relay", "Remember the order, then sprint the cones."],
-    ["Fetch Relay", "One item per trip, then tag the next runner."]
-   ],
-   "5": [
-    ["Bull Chasers", "Grab-and-go sprints for Track and Field Day week."],
-    ["Shuttles (cone ball)", "A shuttle relay to sharpen starts and turns."],
-    ["Rescue Relay", "Run across and bring a teammate home."]
-   ]
+   "1": {
+    "g13": [
+     [
+      "Sneak & React",
+      "Quick starts, like the start of a sprint."
+     ],
+     [
+      "Jungle Run Relays",
+      "A relay with a hoop, a jump and a cone."
+     ],
+     [
+      "Plant the Trees",
+      "Two jobs and nonstop movement: plant or knock down."
+     ]
+    ],
+    "g46": [
+     [
+      "Catch Me If You Can (sprint)",
+      "Short sprints with a head start: speed practice."
+     ],
+     [
+      "Long Jump Challenge",
+      "Beat the team mark from the same line."
+     ],
+     [
+      "Circle run relay",
+      "Run a lap and tag the next runner fairly."
+     ]
+    ]
+   },
+   "2": {
+    "g13": [
+     [
+      "Survivor Tag",
+      "Tagged players do a skill, then get right back in."
+     ],
+     [
+      "Shuttles (cone ball)",
+      "A shuttle relay to sharpen starts and turns."
+     ],
+     [
+      "Colour Hunt",
+      "Run and collect the colour that is called."
+     ]
+    ],
+    "g46": [
+     [
+      "Horse and Jockey",
+      "Run on the call in a circle: quick reactions."
+     ],
+     [
+      "Tennis Jump",
+      "Timed two-foot jumps over a rolling ball."
+     ],
+     [
+      "Speed Run Relay",
+      "Sprint, do a skill at the cone, sprint back."
+     ]
+    ]
+   },
+   "3": {
+    "g13": [
+     [
+      "Dash for Safety",
+      "Run to the called colour before the taggers reach you."
+     ],
+     [
+      "Hop-the-hoops relay",
+      "One-foot hops with a planned landing."
+     ],
+     [
+      "Balance Carry",
+      "Carry an object without dropping it: control while moving."
+     ]
+    ],
+    "g46": [
+     [
+      "Bull Chasers",
+      "Grab-and-go sprints for Track and Field Day week."
+     ],
+     [
+      "Pace lap",
+      "Learn to pace a run so you reach the cone on time."
+     ],
+     [
+      "Capture the Egg",
+      "Carry a beanbag through traffic: speed and dodging."
+     ]
+    ]
+   },
+   "4": {
+    "g13": [
+     [
+      "Rubber Band",
+      "Travel away, then sprint back to the circle on the signal."
+     ],
+     [
+      "Zig-zag touch relay",
+      "Change direction at each cone and tag the next runner."
+     ],
+     [
+      "Fetch Relay",
+      "One item per trip, then tag the next runner."
+     ]
+    ],
+    "g46": [
+     [
+      "Elements Sprint",
+      "Sprint to the right zone on the call: reaction starts."
+     ],
+     [
+      "Cone Relay",
+      "Remember the order, then sprint the cones."
+     ],
+     [
+      "Partner Orienteering",
+      "Read a map with a partner and run to each control."
+     ]
+    ]
+   },
+   "5": {
+    "g13": [
+     [
+      "Kangaroos and Crocodiles",
+      "Listen for your team name, then race home."
+     ],
+     [
+      "Jump The River",
+      "Jump across, and the river gets wider each round."
+     ],
+     [
+      "Rescue Relay",
+      "Run across and bring a teammate home."
+     ]
+    ],
+    "g46": [
+     [
+      "Ten-Second Tag",
+      "Short bursts of chasing for a quick, fair warm-up."
+     ],
+     [
+      "Knock the Pin",
+      "Run the triangle, then throw to knock the pin."
+     ],
+     [
+      "Ice Cream Cone Relays",
+      "Three quick relays to finish the track unit."
+     ]
+    ]
+   }
   },
   "June": {
-   "1": [
-    ["Mat Tag", "Run the bases and stay safe on the mats."],
-    ["Overarm throw-and-catch", "Practise the overarm throw to a partner."],
-    ["Continuous Kick Ball", "Kickball where several runners can be on base at once."]
-   ],
-   "2": [
-    ["Tidy Up", "Chase a moving bucket to return balls: quick feet."],
-    ["Bullseye", "Throw tennis balls to knock volleyballs off cones."],
-    ["Hit and Run", "Hit, run to the hoop, and fielders throw to the hoop."]
-   ],
-   "3": [
-    ["Back to Base", "Travel, then hurry back to your base on the whistle."],
-    ["Bozo / bucket toss", "Underhand tosses into buckets at longer distances."],
-    ["Diamond Strike", "All four hitters run a base on any hit."]
-   ],
-   "4": [
-    ["Chuck the Chicken", "A fun closer for the last class of the year."],
-    ["Throw-Clap-Catch", "Clap first, then catch: eyes on the ball."],
-    ["Fun Kickball", "Six-base kickball to finish the year."]
-   ]
+   "1": {
+    "g13": [
+     [
+      "Tidy Up",
+      "Chase a moving bucket to return balls: quick feet."
+     ],
+     [
+      "Overarm throw-and-catch",
+      "Practise the overarm throw to a partner."
+     ],
+     [
+      "Quick Baseball",
+      "Hit, run to one hoop and back: everyone bats."
+     ]
+    ],
+    "g46": [
+     [
+      "Mat Tag",
+      "Run the bases and stay safe on the mats."
+     ],
+     [
+      "Catch & Step",
+      "Partner throwing and catching that gets harder as you succeed."
+     ],
+     [
+      "Continuous Kick Ball",
+      "Kickball where several runners can be on base at once."
+     ]
+    ]
+   },
+   "2": {
+    "g13": [
+     [
+      "Chuck the Chicken",
+      "A fun closer for the last class of the year."
+     ],
+     [
+      "Catch the Cone",
+      "Flip a small cone into a bigger one: hand-eye timing."
+     ],
+     [
+      "Jailbreakers",
+      "A fair hit frees a teammate from jail."
+     ]
+    ],
+    "g46": [
+     [
+      "Everybody’s It",
+      "Everyone can tag, so the whole class is moving from the first minute."
+     ],
+     [
+      "Bullseye",
+      "Throw tennis balls to knock volleyballs off cones."
+     ],
+     [
+      "Hit and Run",
+      "Hit, run to the hoop, and fielders throw to the hoop."
+     ]
+    ]
+   },
+   "3": {
+    "g13": [
+     [
+      "Back to Base",
+      "Travel, then hurry back to your base on the whistle."
+     ],
+     [
+      "Hoop underhand relay",
+      "Three underhand tries to land a beanbag in the hoop."
+     ],
+     [
+      "Shark Ball",
+      "Kick and run for the far line past the shark."
+     ]
+    ],
+    "g46": [
+     [
+      "Blob Tag",
+      "The blob grows, so players must plan their escape routes."
+     ],
+     [
+      "Strikeball",
+      "Strike the ball between players for placement."
+     ],
+     [
+      "Diamond Strike",
+      "All four hitters run a base on any hit."
+     ]
+    ]
+   },
+   "4": {
+    "g13": [
+     [
+      "Octopus",
+      "Cross the gym past the octopus; tagged players become helpers."
+     ],
+     [
+      "Throw-Clap-Catch",
+      "Clap first, then catch: eyes on the ball."
+     ],
+     [
+      "Barkball",
+      "Hit or kick, run to the far line and back."
+     ]
+    ],
+    "g46": [
+     [
+      "Ten-Second Tag",
+      "Short bursts of chasing for a quick, fair warm-up."
+     ],
+     [
+      "4 Ball Kickball",
+      "Four balls in play: fielders must decide fast."
+     ],
+     [
+      "Fun Kickball",
+      "Six-base kickball to finish the year."
+     ]
+    ]
+   }
   }
- }
+ },
+ "bands": [
+  {
+   "id": "g13",
+   "label": "Grades 1–3",
+   "blurb": "Simpler rules, lots of moving, and one skill at a time."
+  },
+  {
+   "id": "g46",
+   "label": "Grades 4–6",
+   "blurb": "More strategy, teamwork and game skills."
+  }
+ ]
 }

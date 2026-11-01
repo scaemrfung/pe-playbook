@@ -1079,8 +1079,8 @@ table.k-sheet td:last-child { min-width: 90px; }
 .gotw-wnote { font-size: .82rem; font-weight: 500; color: var(--muted); font-family: var(--font-sans); }
 .gotw-cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .gotw-card { display: flex; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px; min-width: 0; }
-.gotw-card h3 { margin: 0 0 6px; font-size: 1.08rem; line-height: 1.25; }
-.gotw-card h3 a { color: var(--ink); }
+.gotw-card h3, .gotw-card h4 { margin: 0 0 6px; font-size: 1.08rem; line-height: 1.25; }
+.gotw-card h3 a, .gotw-card h4 a { color: var(--ink); }
 .gotw-card p { margin: 0 0 6px; font-size: .92rem; }
 .gotw-num { flex: 0 0 auto; width: 28px; height: 28px; border-radius: 999px; background: var(--green); color: var(--primary-fg); font-weight: 700; display: grid; place-items: center; font-size: .9rem; }
 .gotw-why { color: var(--ink); }
@@ -1108,8 +1108,20 @@ table.k-sheet td:last-child { min-width: 90px; }
 .gotw-list .gotw-why, .gotw-list .gotw-kit { display: block; font-size: .9rem; }
 .gotw-break-row { margin: 4px 0 12px; padding: 8px 12px; border-radius: 8px; background: #fdf6e6; color: #8a5a00; font-size: .9rem; }
 @media (max-width: 900px) { .gotw-cards { grid-template-columns: 1fr; } }
+/* two grade bands per week (Grades 1–3, Grades 4–6) */
+.gotw-band { margin: 0 0 16px; padding: 12px; border-radius: 14px; border: 1px solid var(--line); border-top: 5px solid var(--navy); background: #f5f8fc; }
+.gotw-band.gotw-band-g46 { border-top-color: var(--green); background: #f3f9f5; }
+.gotw-band-title { margin: 0 0 10px !important; font-size: 1.12rem; color: var(--navy); }
+.gotw-band-g46 .gotw-band-title, .gotw-next-band.gotw-band-g46 .gotw-band-title { color: var(--green); }
+.gotw-band-blurb { display: block; margin-top: 2px; font-size: .86rem; font-weight: 500; color: var(--muted); font-family: var(--font-sans); }
+.gotw-next-bands { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.gotw-next-band .gotw-band-title { font-size: 1rem; margin: 0 0 6px !important; }
+@media (max-width: 700px) { .gotw-next-bands { grid-template-columns: 1fr; } .gotw-band { padding: 10px 8px; } }
+.gotw-band-h { margin: 8px 0 4px; font-size: .92rem; color: var(--navy); }
+.gotw-band-h.gotw-band-g46 { color: var(--green); }
 .gotw-print-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 4px; }
 .gotw-print-links a.gotw-dl { background: var(--green); }
 .gotw-print-note { margin: 0; font-size: .85rem; }
 .gotw-nav .gotw-print-btn { margin-left: auto; }
 @media print { .gotw-nav, .gotw-print-links, .gotw-print-note { display: none !important; } .gotw-month { break-inside: avoid; } }
+.nowrap { white-space: nowrap; }

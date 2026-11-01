@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Games of the Week printables, run by tools/build.js when the content changes (tools/gotw-print.sha1).
 Reads the print data (JSON) on stdin and writes, in the site root:
-  <file>.pdf   games-of-the-week-print.html printed by Chrome (one Letter page per school week + a contents page)
+  <file>.pdf   games-of-the-week-print.html printed by Chrome (per school week: a Grades 1–3 page and a Grades 4–6 page, + contents)
   <file>.docx  the same pages as a Word document, in the weekly-plans style (Calibri, headings, one week per page)
 Needs: python3 + python-docx + playwright + Chrome.   Manual run: node tools/build.js (it pipes the data in)."""
 import json, os, sys, datetime
@@ -90,7 +90,7 @@ def make_docx():
         for a in ("w:asciiTheme", "w:hAnsiTheme", "w:cstheme", "w:eastAsiaTheme"):
             if fonts.get(qn(a)) is not None: del fonts.attrib[qn(a)]
     cp = doc.core_properties
-    cp.title = G["title"]; cp.author = G["teacher"]; cp.subject = "One page per school week: 3 games, equipment, set-up, how to play, cues and safety"
+    cp.title = G["title"]; cp.author = G["teacher"]; cp.subject = "Every school week: 3 games for Grades 1–3 and 3 for Grades 4–6, with equipment, set-up, how to play, cues and safety"
     cp.created = cp.modified = datetime.datetime(2026, 10, 31, 12, 0, 0); cp.last_modified_by = G["teacher"]; cp.revision = 1
     fp = sec.footer.paragraphs[0]
     r = fp.add_run("%s · %s · Page " % (G["title"], G["teacher"])); r.font.size = Pt(8); r.font.color.rgb = MUTED
@@ -99,17 +99,17 @@ def make_docx():
 
     # contents
     t = doc.add_paragraph(G["title"], style="Title"); tight(t, 0, 2)
-    tight(doc.add_paragraph("%s · %s · Grades 1–6 · 3 games per school week that fit the month’s unit · one page per week" % (G["teacher"], G["school"])), 0, 6)
+    tight(doc.add_paragraph("%s · %s · every school week: 3 games for Grades 1–3 and 3 for Grades 4–6 that fit the month’s unit · one page per grade band" % (G["teacher"], G["school"])), 0, 6)
     weeks = {w["n"]: w for w in G["weeks"]}
-    tab = doc.add_table(rows=0, cols=3); tab.style = "Table Grid"
+    NB = len(G["bands"]); tab = doc.add_table(rows=0, cols=2 + NB); tab.style = "Table Grid"
     tblpr = tab._tbl.tblPr; mar = OxmlElement("w:tblCellMar")
     for side, v in (("top", 0), ("bottom", 0), ("left", 70), ("right", 70)):
         e = OxmlElement("w:" + side); e.set(qn("w:w"), str(v)); e.set(qn("w:type"), "dxa"); mar.append(e)
     tblpr.append(mar)
-    widths = (Inches(0.8), Inches(1.2), Inches(5.3))
+    widths = (Inches(0.7), Inches(1.1)) + tuple(Inches(5.5 / NB) for _ in range(NB))
     def row(cells, bold=False, color=None, shade=None, merge=False):
         rw = tab.add_row(); cs = rw.cells
-        if merge: cs = [cs[0].merge(cs[2])]
+        if merge: cs = [cs[0].merge(cs[-1])]
         for c, txt in zip(cs, cells):
             p = c.paragraphs[0]; tight(p, 0, 0); r = p.add_run(txt); r.font.size = Pt(8.5); r.bold = bold
             if color is not None: r.font.color.rgb = color
@@ -117,11 +117,12 @@ def make_docx():
                 tcpr = c._tc.get_or_add_tcPr(); sh = OxmlElement("w:shd"); sh.set(qn("w:val"), "clear"); sh.set(qn("w:fill"), shade); tcpr.append(sh)
         if not merge:
             for c, wd in zip(rw.cells, widths): c.width = wd
+    row(["Week", "Dates"] + [b["label"] for b in G["bands"]], bold=True, color=MUTED)
     for m in G["months"]:
         row(["%s · %s" % (m["name"], m["unit"])], bold=True, color=NAVY, shade="E8EEF7", merge=True)
         for n in m["weeks"]:
             w = weeks[n]
-            row(["Week %d" % n, w["range"], " · ".join(g["name"] for g in w["games"])])
+            row(["Week %d" % n, w["range"]] + [" · ".join(g["name"] for g in b["games"]) for b in w["bands"]])
             for b in w["breakAfter"]:
                 row(["%s (%s): no school" % (b["name"], b["range"])], color=AMBER, shade="FDF6E6", merge=True)
     tab.autofit = False
@@ -131,18 +132,21 @@ def make_docx():
     hyperlink(p, G["site"] + "games-of-the-week.html", G["site"] + "games-of-the-week.html", bold=False, color="1A2F6B", size=8.5)
 
     month_seen = set()
-    for w in G["weeks"]:
+    pages = [(w, b, bi == len(w["bands"]) - 1) for w in G["weeks"] for bi, b in enumerate(w["bands"])]
+    for w, band, last in pages:
+        games = band["games"]
         # Word has no shrink-to-fit, so long weeks get a smaller body size to stay on one page
         score = sum(len(g.get("setup") or "") + len(g.get("safety") or "") + len(g.get("equipment") or "") + len(g.get("reason") or "")
-                    + sum(len(x) + 60 for x in (g.get("how") or [])) + sum(len(x) for x in (g.get("cues") or [])) + 150 for g in w["games"])
+                    + sum(len(x) + 60 for x in (g.get("how") or [])) + sum(len(x) for x in (g.get("cues") or [])) + 150 for g in games)
         fs = max(7.5, min(10.0, round(10 * (3800.0 / max(score, 1)) ** 0.5 * 2) / 2))
         k = tight(doc.add_paragraph(), 0, 0); kr = k.add_run("GAMES OF THE WEEK · %s · %s" % (G["year"], G["teacher"].upper())); kr.font.size = Pt(8); kr.font.color.rgb = MUTED; kr.bold = True
         k.paragraph_format.page_break_before = True
         h = doc.add_paragraph("Week %d · %s" % (w["n"], w["dates"]), style="Heading 1"); tight(h, 0, 1)
+        gr = h.add_run("   " + band["label"]); gr.font.color.rgb = GREEN if band["id"] == "g46" else NAVY; gr.font.size = Pt(13)
         u = tight(doc.add_paragraph(), 0, 5); ur = u.add_run("%s: %s" % (w["month"], w["unit"])); ur.bold = True; ur.font.size = Pt(11)
         if w.get("note"):
             nr = u.add_run("   " + w["note"]); nr.font.size = Pt(9); nr.font.color.rgb = AMBER
-        for i, g in enumerate(w["games"], 1):
+        for i, g in enumerate(games, 1):
             hp = doc.add_paragraph(style="Heading 2"); tight(hp, 6, 0)
             hp.add_run("%d. " % i)
             hyperlink(hp, g["url"], g["name"], bold=True, color="1F6F4A", size=12)
@@ -158,7 +162,7 @@ def make_docx():
                 sp.add_run("%d.  %s" % (j, step)).font.size = Pt(fs)
             if g.get("cues"): labelled(doc, "Cues:", " · ".join(g["cues"]), size=fs)
             if g.get("safety"): labelled(doc, "Safety:", g["safety"], color=RGBColor(0x5A, 0x2A, 0x00), size=fs)
-        for b in w["breakAfter"]:
+        for b in (w["breakAfter"] if last else []):
             bp = tight(doc.add_paragraph(), 6, 2); br = bp.add_run("Next: %s (%s). No school, no games that week." % (b["name"], b["range"])); br.bold = True; br.font.color.rgb = AMBER
         fp2 = tight(doc.add_paragraph(), 6, 0); fr = fp2.add_run(G["house"]); fr.font.size = Pt(8); fr.font.color.rgb = MUTED
     out = os.path.join(ROOT, G["file"] + ".docx")
