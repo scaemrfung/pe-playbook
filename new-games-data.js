@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-10-31",
- "lastUpdatedLabel": "Sat Oct 31, 2026",
+ "lastUpdated": "2026-11-01",
+ "lastUpdatedLabel": "Sun Nov 1, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -15,8 +15,8 @@ window.NEW_GAMES = {
   "lastUpdatedLabel": "Mon Oct 12, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
- "latestWeek": "2026-11-16",
- "docWeek": "2026-11-16",
+ "latestWeek": "2026-11-23",
+ "docWeek": "2026-11-23",
  "dedupe": {
   "excluded": 74,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
@@ -74,6 +74,13 @@ window.NEW_GAMES = {
   }
  ],
  "weeks": [
+  {
+   "key": "2026-11-23",
+   "label": "Week of Nov 23, 2026",
+   "count": 6,
+   "addedOn": "2026-11-01",
+   "addedOnLabel": "Sun Nov 1, 2026"
+  },
   {
    "key": "2026-11-16",
    "label": "Week of Nov 16, 2026",
@@ -7925,6 +7932,608 @@ window.NEW_GAMES = {
    "bestBand": "1–2",
    "alsoBand": "3–4",
    "bandWhy": "Four on-the-spot calls suit K–Grade 2 best (picture cards help); Grades 3–5 add the storm swap, Grade 6 uses it as a quick brain break."
+  },
+  {
+   "id": "hot-shot-basketball",
+   "added": "2026-11-23",
+   "addedOn": "2026-11-01",
+   "name": "Hot Shot Basketball",
+   "section": "Invasion / soccer–basketball–football",
+   "desc": "Poly spots are spread all over the gym. Players shoot from any spot at any basket. Make it, and you take that spot back to your team's cone. The team with the most spots wins the round.",
+   "sports": "basketball, shooting, team collecting, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=110s"
+   ],
+   "order": 77,
+   "equipment": "1 basketball per player (or 1 per pair); every basket in the gym; 4 team cones; 30–40 poly spots.",
+   "setup": "Make 4 teams. Give each team a basket and a team cone at half court along the sideline. Spread poly spots all over the gym at different distances from the baskets, with a few out near half court. Every player has a ball, or partners share one.",
+   "how": [
+    "On \"Go,\" shoot from any poly spot at any basket in the gym. The closest basket is the smart shot.",
+    "Make it: pick up that poly spot, carry it back to your team cone, and go find another spot.",
+    "Miss: get your rebound and try again from the same spot.",
+    "If someone is already waiting at that spot, go to the end of that line.",
+    "Near the end, only a few spots are left out near half court, and everyone lines up to try the long shot.",
+    "When every spot is collected, each team counts its spots. Most spots wins the round.",
+    "Spread the spots back out and play again."
+   ],
+   "variations": [
+    "Grades 1–2: Lowered hoops or buckets. Put the spots close, about 1–3 m from the targets. No half-court spots (our adaptation).",
+    "Grades 3–4: As in the video, with spots no farther than the three-point line.",
+    "Grades 5–6: As in the video. Spots farther out are worth 2 (mark them with a different colour) (our adaptation)."
+   ],
+   "safety": "Several baskets are in use at once, so look before you walk under any basket. Shoot only from a spot. Long shots are two-hand set shots, never thrown hard. Carry the poly spot; do not slide on it. Walk across the shooting areas on the way back to the cone. Use the right ball size (junior or size 5 for Grades 1–4, size 6 for Grades 5–6). Never walk under a basket while someone is shooting at it. Stop signal: whistle or \"Freeze.\" Ball on your hip, stand still, eyes on the teacher.",
+   "unit": "January",
+   "suggestedMonth": "January",
+   "alsoFits": [],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Choosing a smart spot and shooting with balanced form suit Grades 3–6; Grades 1–2 use lowered hoops or buckets with close spots.",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–30",
+   "grouping": "4 teams of about 6 · 3–5 minute rounds",
+   "cues": [
+    "Pick the smart shot: the closest basket.",
+    "Bend your knees, push the ball up, follow through.",
+    "Waiting? Cheer for the shooter."
+   ],
+   "ifThis": [
+    "The long shots go on too long: call \"Last 30 seconds,\" then end the round (our adaptation).",
+    "Lines build up at one basket: point out the open spots and baskets.",
+    "Players run across shooting areas: freeze and remind them to walk back to the cone."
+   ],
+   "roundEnds": "When every spot is collected, or after \"Last 30 seconds.\" Teams count spots; count by team only, never by player.",
+   "tips": [
+    "Nobody is out: everyone shoots the whole round, and a miss just means try again.",
+    "Unit rules from the video: \"Whistle means ball on your hip\" (not bouncing, not on the floor), and \"If you're waiting, you're cheering\" (waiting players call the score and encourage teammates).",
+    "Year plan: January (basketball, Week 2 shooting lessons or games day)."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "chooses the closest basket or a high-percentage spot; uses a balanced shooting form; moves to open spots."
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students examine and integrate tactics in a variety of physical activity contexts. [PDE3-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Lowered hoops or buckets. Put the spots close, about 1–3 m from the targets. No half-court spots (our adaptation).",
+   "g34": "As in the video, with spots no farther than the three-point line.",
+   "g56": "As in the video. Spots farther out are worth 2 (mark them with a different colour) (our adaptation).",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=110s",
+     "title": "7 PE basketball games (Hot Shot Basketball starts at 1:50)",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
+  },
+  {
+   "id": "tap-seven",
+   "added": "2026-11-23",
+   "addedOn": "2026-11-01",
+   "name": "Tap Seven",
+   "section": "Invasion / soccer–basketball–football",
+   "desc": "Two players tap their balls together and shoot free throws at the same time. Who makes it decides the points. First to 7 wins, and the winner moves up a basket.",
+   "sports": "basketball, shooting, free throw, partner race, gr 3–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=172s"
+   ],
+   "order": 78,
+   "equipment": "2 basketballs per group of 3; one basket per group (use every basket, lowered hoops and portable hoops).",
+   "setup": "3 players per basket. Two stand at the free-throw line, and the third waits behind or to the side. Class of 24 with fewer than 8 baskets: put 4 at a basket (two waiting), or add a bucket or hoop station where waiting players practise form shots (our adaptation). Number the baskets so \"moving up\" is clear (1 is the top basket).",
+   "how": [
+    "The two shooters tap their balls together, then both shoot a free throw at the same time.",
+    "Both make it: both get 2 points.",
+    "Only one makes it: that player gets 2 points, and the round is over.",
+    "Both miss: it is a scramble. The first player to put it in gets 1 point.",
+    "First to 7 wins. Going over 7 is fine.",
+    "The winner moves up one basket. The player who was waiting steps in."
+   ],
+   "variations": [
+    "Grade 3: Shoot from a closer line (about 3 m). First to 5 (our adaptation).",
+    "Grades 4–5: As in the video.",
+    "Grade 6: When both miss, each player shoots from where they got their rebound, outside the lane (our adaptation).",
+    "Top basket (our adaptation): the winner at the top basket stays there, and the player who did not win moves down one, so every basket keeps 3 players."
+   ],
+   "safety": "In the scramble, get your own ball and shoot from where you get it. No pushing, no reaching for the other ball, and no shooting while the other player is under the basket (our adaptation). Waiting players stand outside the lane and behind the free-throw line. Use the right ball size (junior or size 5 for Grades 1–4, size 6 for Grades 5–6). Never walk under a basket while someone is shooting at it. Stop signal: whistle or \"Freeze.\" Ball on your hip, stand still, eyes on the teacher.",
+   "unit": "January",
+   "suggestedMonth": "January",
+   "alsoFits": [],
+   "grades": "3–6",
+   "gradesFrom": "doc",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "A repeatable free-throw routine, honest scoring and the scramble rule suit Grades 4–6; Grade 3 shoots from a closer line to 5.",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "Groups of 3 per basket (4 if baskets are short) · games to 7",
+   "cues": [
+    "Same spot, same routine every shot.",
+    "Elbow under the ball, push up, follow through.",
+    "Waiting? Call out both scores."
+   ],
+   "ifThis": [
+    "The scramble gets rough: freeze and replay it as \"shoot from where you got your rebound.\"",
+    "Scores get mixed up: the waiting player calls out both scores after every round.",
+    "One basket has too many players: send the extra player to the bucket station for form shots."
+   ],
+   "roundEnds": "First to 7. The winner moves up one basket; the other player stays and plays the waiting player, so nobody leaves the game.",
+   "tips": [
+    "Nobody leaves the game: the player who did not win stays and plays the player who was waiting.",
+    "Unit rules from the video: \"Whistle means ball on your hip\" (not bouncing, not on the floor), and \"If you're waiting, you're cheering\" (waiting players call the score and encourage teammates).",
+    "Year plan: January (basketball, Week 2 shooting lessons or games day)."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "uses a repeatable shooting routine; follows through toward the hoop; keeps score honestly."
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "",
+   "g34": "Grade 3: Shoot from a closer line (about 3 m). First to 5 (our adaptation). Grade 4: As in the video.",
+   "g56": "Grade 5: As in the video. Grade 6: When both miss, each player shoots from where they got their rebound, outside the lane (our adaptation).",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=172s",
+     "title": "7 PE basketball games (Tap Seven starts at 2:52)",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
+  },
+  {
+   "id": "rock-paper-scissors-layup",
+   "added": "2026-11-23",
+   "addedOn": "2026-11-01",
+   "name": "Rock Paper Scissors Layup",
+   "section": "Invasion / soccer–basketball–football",
+   "desc": "Two players play one round of Rock, Paper, Scissors at the free-throw line. The winner grabs the ball and drives for a layup, and the other player defends.",
+   "sports": "basketball, layup, 1v1 lead-up, gr 3–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=220s"
+   ],
+   "order": 79,
+   "equipment": "1 basketball per group of 3; one basket per group (lowered or portable hoops help).",
+   "setup": "3 players per basket. Two face each other at the free-throw line, with the ball on the line between them. The third waits beside the lane.",
+   "how": [
+    "The two players play one round of Rock, Paper, Scissors.",
+    "The winner picks up the ball and gets one drive to the basket for a layup.",
+    "The other player becomes the defender.",
+    "After every round, the waiting player swaps in for the shooter, so all three keep rotating (our adaptation).",
+    "To change it up, give the winner one drive or one shot instead of a layup."
+   ],
+   "variations": [
+    "Grade 3: No defender. The player who did not win rebounds and passes back (our adaptation).",
+    "Grade 4: Shadow defender. The defender runs alongside with hands up and does not block (our adaptation).",
+    "Grades 5–6: As in the video. Add one dribble move (a crossover or change of speed) before the layup (our adaptation)."
+   ],
+   "safety": "The defender plays the ball, not the body. No contact, no blocking from behind, and no swiping at the shooter's arms. Land on two feet under control. Nobody stands under the basket while someone is driving. Use the right ball size (junior or size 5 for Grades 1–4, size 6 for Grades 5–6). Never walk under a basket while someone is shooting at it. Stop signal: whistle or \"Freeze.\" Ball on your hip, stand still, eyes on the teacher.",
+   "unit": "January",
+   "suggestedMonth": "January",
+   "alsoFits": [],
+   "grades": "3–6",
+   "gradesFrom": "doc",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Driving past a defender with layup footwork suits Grades 4–6; Grade 3 plays with no defender and Grade 4 with a shadow defender.",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–25",
+   "grouping": "Groups of 3 per basket · short rounds",
+   "cues": [
+    "Shooter: right hand, right foot up (left for left).",
+    "Aim for the top corner of the box on the backboard.",
+    "Defender: hands up, stay between the shooter and the basket, arm's length away."
+   ],
+   "ifThis": [
+    "Defenders reach in or bump: switch to the shadow defender rule (run alongside, hands up, no block).",
+    "Players argue about Rock, Paper, Scissors: say \"Ready, shoot\" together and play it again on a tie.",
+    "Layups miss a lot: let the shooter take two steps from a closer start."
+   ],
+   "roundEnds": "After each drive. Rotate shooter, defender and waiting player every round; keep a personal tally of layups made, not a ranking.",
+   "tips": [
+    "Nobody is out: everyone rotates through shooter, defender and waiting every round.",
+    "Waiting? Count makes for both players.",
+    "Unit rules from the video: \"Whistle means ball on your hip\" (not bouncing, not on the floor), and \"If you're waiting, you're cheering\" (waiting players call the score and encourage teammates).",
+    "Year plan: January (basketball, Week 2 dribble-then-shoot lesson)."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "chooses a path to the basket away from the defender; uses the right footwork for the layup; defends without contact."
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students examine and integrate tactics in a variety of physical activity contexts. [PDE3-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "",
+   "g34": "Grade 3: No defender. The player who did not win rebounds and passes back. Grade 4: Shadow defender who runs alongside with hands up and does not block (our adaptation).",
+   "g56": "As in the video. Add one dribble move (a crossover or change of speed) before the layup (our adaptation).",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=220s",
+     "title": "7 PE basketball games (Rock Paper Scissors Layup starts at 3:40)",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
+  },
+  {
+   "id": "around-the-world",
+   "added": "2026-11-23",
+   "addedOn": "2026-11-01",
+   "name": "Around the World",
+   "section": "Invasion / soccer–basketball–football",
+   "desc": "Shoot your way around the key from spot to spot. After a miss, choose to stay and pass, or \"risk it\" with a second shot. Miss the risk shot and go back to the start.",
+   "sports": "basketball, shooting, small groups, gr 2–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=263s"
+   ],
+   "order": 80,
+   "equipment": "1 basketball per group; one basket per group of 2–4; 5 poly spots per basket for younger grades.",
+   "setup": "Groups of 2–4 at each basket. Use the tick marks on the free-throw lane as the spots, in this order: low block, two tick marks up, the corner, the free-throw line, the other corner, two tick marks back down, and the final low block. Younger grades: put 5 poly spots in a half circle close to the basket.",
+   "how": [
+    "Start at the first low block.",
+    "Make it: move up to the next spot and keep shooting, all the way around.",
+    "Miss: you have a choice. Stay where you are and pass to the next player, or \"risk it\" and shoot again.",
+    "Make the risk shot: move up and keep shooting.",
+    "Miss the risk shot: go all the way back to the start.",
+    "Tip from the video: early on, always risk it. You have nothing to lose.",
+    "The first player to make the final low block finishes. Start a new round."
+   ],
+   "variations": [
+    "Grade 2: 5 poly spots close to a lowered hoop or bucket. No risk shot: a miss means pass and stay (our adaptation).",
+    "Grades 3–4: 5 spots around the key. Risk shot allowed, but a missed risk shot only sends you back 2 spots (our adaptation).",
+    "Grades 5–6: All 7 spots, as in the video, with full risk rules."
+   ],
+   "safety": "Only the shooter is inside the key. Waiting players stand outside the lane, ready to rebound. Walk the ball back to the spot on your hip. Use the right ball size (junior or size 5 for Grades 1–4, size 6 for Grades 5–6). Never walk under a basket while someone is shooting at it. Stop signal: whistle or \"Freeze.\" Ball on your hip, stand still, eyes on the teacher.",
+   "unit": "January",
+   "suggestedMonth": "January",
+   "alsoFits": [],
+   "grades": "2–6",
+   "gradesFrom": "doc",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Shooting from new angles and choosing when to risk it suit Grades 3–6; Grade 2 uses 5 close spots with no risk shot.",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–25",
+   "grouping": "Groups of 2–4 per basket · 8–10 minutes",
+   "cues": [
+    "Square your feet and shoulders to the basket at each spot.",
+    "Use the backboard from the low blocks.",
+    "Think before you risk: how far back would you go?"
+   ],
+   "ifThis": [
+    "One player finishes early: they keep going around backwards until the round ends (our adaptation).",
+    "Players wait too long: use groups of 2–3, or add a bucket target beside the basket.",
+    "Students get upset about going back to the start: use the Grades 3–4 rule (back 2 spots)."
+   ],
+   "roundEnds": "When a player makes the final low block. Anyone who finishes keeps going backwards until the round ends, so nobody stands and waits (our adaptation).",
+   "tips": [
+    "Nobody is out: a miss means you wait one turn or go back to the start, and you are always still playing.",
+    "The video also shows a version for younger kids.",
+    "Unit rules from the video: \"Whistle means ball on your hip\" (not bouncing, not on the floor), and \"If you're waiting, you're cheering\" (waiting players call the score and encourage teammates).",
+    "Year plan: January (basketball, Week 2 shooting lessons or games day)."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "makes a reasoned choice to risk or pass; adjusts the shot for distance and angle; follows the turn order."
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Grade 2: 5 poly spots close to a lowered hoop or bucket. No risk shot: a miss means pass and stay (our adaptation).",
+   "g34": "5 spots around the key. Risk shot allowed, but a missed risk shot only sends you back 2 spots (our adaptation).",
+   "g56": "All 7 spots, as in the video, with full risk rules.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=263s",
+     "title": "7 PE basketball games (Around the World starts at 4:23)",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
+  },
+  {
+   "id": "3-2-1-basketball",
+   "added": "2026-11-23",
+   "addedOn": "2026-11-01",
+   "name": "3-2-1 Basketball",
+   "section": "Invasion / soccer–basketball–football",
+   "desc": "Each shooter gets three tries on every turn: a three-pointer for 3, a free throw for 2, then a layup for 1. Teams count out loud, and the first team to 21 wins.",
+   "sports": "basketball, shooting, team relay, gr 2–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=325s"
+   ],
+   "order": 81,
+   "equipment": "1 basketball per team; 2 or 4 baskets.",
+   "setup": "20 students or fewer: two teams start at half court, each shooting at its own basket. Bigger class (24): four teams, each starting from a corner and shooting at the nearest basket. With four teams on two baskets, put the teams on opposite sides of the key (our adaptation).",
+   "how": [
+    "The first shooter tries a three-pointer (3 points).",
+    "Miss: step up to the free-throw line and shoot (2 points).",
+    "Miss again: get your rebound and take a layup (1 point).",
+    "Score: get the ball, hand it to the next player, and go to the back of your line.",
+    "Miss all three: hand it to the next player and go to the back of the line.",
+    "Every time your team scores, everyone calls out the running total (\"Three… five… six…\").",
+    "First team to 21 wins the round. Going over is fine."
+   ],
+   "variations": [
+    "Grade 2: Lowered hoop. Close spot for 3, middle spot for 2, under the basket for 1. Play to 15 (our adaptation).",
+    "Grades 3–4: Use a marked spot inside the three-point line for the \"3\" (our adaptation).",
+    "Grades 5–6: As in the video."
+   ],
+   "safety": "Only the shooter is in front of the basket. The next player waits behind the half-court or corner line until the hand-off. Hand the ball over; do not throw it to the line. With four teams on two baskets, only one shooter at a time near the basket. Use the right ball size (junior or size 5 for Grades 1–4, size 6 for Grades 5–6). Never walk under a basket while someone is shooting at it. Stop signal: whistle or \"Freeze.\" Ball on your hip, stand still, eyes on the teacher.",
+   "unit": "January",
+   "suggestedMonth": "January",
+   "alsoFits": [],
+   "grades": "2–6",
+   "gradesFrom": "doc",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Shooting from three distances and keeping a team total suit Grades 3–6; Grade 2 uses close spots and plays to 15.",
+   "type": "relay",
+   "typeLabel": "Relays & stations",
+   "slot": "16–30",
+   "grouping": "2 teams (20 students or fewer) or 4 teams (24) · rounds to 21",
+   "cues": [
+    "Long shot: legs do the work.",
+    "Free throw: same routine every time.",
+    "Layup: one step at a time, up and soft off the glass.",
+    "Waiting? Call the total."
+   ],
+   "ifThis": [
+    "Lines are long: switch to four teams and four baskets.",
+    "The three-pointer is too far: use a marked spot inside the three-point line.",
+    "Teams lose count: the next shooter in line calls the total before every shot."
+   ],
+   "roundEnds": "First team to 21 (going over is fine). Keep the team total only, never individual points; every player shoots on every rotation.",
+   "tips": [
+    "Nobody is out: every player shoots on every rotation.",
+    "Unit rules from the video: \"Whistle means ball on your hip\" (not bouncing, not on the floor), and \"If you're waiting, you're cheering\" (waiting players call the score and encourage teammates).",
+    "Year plan: January (basketball, Week 2 games day)."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "encourages and calls the score for teammates; shoots from three distances with control; hands off safely."
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students demonstrate teamwork and support participation in a variety of physical activities. [PDE2-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students identify and demonstrate how teamwork supports positive interactions during physical activity. [PDE3-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students connect and demonstrate how teamwork enhances participation in physical activity. [PDE4-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students demonstrate how collaboration influences physical activity. [PDE5-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Grade 2: Lowered hoop. Close spot for 3, middle spot for 2, under the basket for 1. Play to 15 (our adaptation).",
+   "g34": "Use a marked spot inside the three-point line for the \"3\" (our adaptation).",
+   "g56": "As in the video.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=325s",
+     "title": "7 PE basketball games (3-2-1 Basketball starts at 5:25)",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
+  },
+  {
+   "id": "game-board-basketball",
+   "added": "2026-11-23",
+   "addedOn": "2026-11-01",
+   "name": "Game Board Basketball",
+   "section": "Invasion / soccer–basketball–football",
+   "desc": "The gym becomes a giant board game, with hoops around the court as the spaces. Make a shot and move your team's cone 1, 2 or 3 spaces, depending on the shooting spot. Green arrows move you ahead and red arrows move you back.",
+   "sports": "basketball, shooting, team board game, team-building, gr 1–6",
+   "flag": "stay-in",
+   "stayIn": true,
+   "source": "Front Range PE",
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=384s"
+   ],
+   "order": 82,
+   "equipment": "1 mat per team; 15–30 hoops; 1 different-coloured cone per team (the game piece); 1 basketball per team; 6 shooting-spot markers (a 1, 2 and 3 for each side); 12 game cards on poly spots (two sets of 1, 2 and 3 forward plus 1, 2 and 3 backward).",
+   "setup": "Lay the hoops around the outside of the court like spaces on a board, about 1 m outside the court lines (our adaptation). Team mats go on the sidelines, and every team's game piece (cone) starts in the corner. Put a 1, a 2 and a 3 shooting spot on each side (6 spots), and move them to new places each round. Spread the forward (green arrow) and backward (red arrow) cards through the hoops.",
+   "how": [
+    "Teams take turns shooting from the spot of their choice. One shot per player.",
+    "Miss: rebound your own shot and pass it to the next shooter on your mat.",
+    "Make it: walk out and move your team's game piece 1, 2 or 3 spaces, depending on which spot you shot from.",
+    "Landing on a game card: a green arrow moves you ahead, and a red arrow sends you back that many spaces.",
+    "To win, go all the way around the board, then make the exact number you need to exit. Too many points and you're stuck, so strategy matters.",
+    "Going out of turn or moving the piece wrong: the piece goes back to where it was and the team skips its next shot (our adaptation; the video uses a disqualification). Nobody sits out."
+   ],
+   "variations": [
+    "Grades 1–2: Lowered hoops or buckets. Fewer hoops on the floor (about 15). Forward cards only. Teacher moves the pieces (our adaptation).",
+    "Grades 3–4: As in the video, but \"exact number\" is optional (our adaptation).",
+    "Grades 5–6: As in the video, with the exact-exit rule. Students move the pieces and check each other's moves."
+   ],
+   "safety": "Hoops on the floor are a tripping risk. Walk to move your piece, and walk around the hoops, not through them (our adaptation; the video says \"run out\"). Only the shooter goes out on the court. Look before you walk under a basket. Use the right ball size (junior or size 5 for Grades 1–4, size 6 for Grades 5–6). Never walk under a basket while someone is shooting at it. Stop signal: whistle or \"Freeze.\" Ball on your hip, stand still, eyes on the teacher.",
+   "unit": "January",
+   "suggestedMonth": "January",
+   "alsoFits": [],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Choosing a shooting spot that fits the team's plan and counting spaces suit Grades 3–6; Grades 1–2 use forward cards only and the teacher moves the pieces.",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "slot": "16–30",
+   "grouping": "4 teams of about 6 · one board game per round",
+   "cues": [
+    "Pick your spot: a sure 1 or a risky 3?",
+    "Near the finish, count the exact number you need.",
+    "Waiting? Cheer, and help your team plan the next shot."
+   ],
+   "ifThis": [
+    "One team finishes early: the others keep playing for 2nd and 3rd, or the finished team starts a second lap (our adaptation).",
+    "Pieces get moved wrong: the shooter counts the spaces out loud and a teammate checks.",
+    "Teams are stuck near the finish: make \"exact number\" optional (Grades 3–4 rule)."
+   ],
+   "roundEnds": "When a team goes all the way around and exits the board. Every team plays every round; a mistake costs a turn, never the round.",
+   "tips": [
+    "The video description offers a free poster and game cards; make your own cards on poly spots if you prefer.",
+    "Unit rules from the video: \"Whistle means ball on your hip\" (not bouncing, not on the floor), and \"If you're waiting, you're cheering\" (waiting players call the score and encourage teammates).",
+    "Year plan: January (basketball, Week 2 games day)."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "takes turns and moves the piece honestly; chooses a shooting spot that fits the team's plan; encourages teammates."
+    },
+    {
+     "code": "Grade 1 outcome",
+     "look": "Students demonstrate fair play and support engagement in a variety of physical activities. [PDE1-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 2 outcome",
+     "look": "Students demonstrate teamwork and support participation in a variety of physical activities. [PDE2-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 3 outcome",
+     "look": "Students identify and demonstrate how teamwork supports positive interactions during physical activity. [PDE3-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 5 outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Grade 6 outcome",
+     "look": "Students examine and demonstrate an understanding of structure in physical activity. [PDE6-OI2-GQ1-LO1]"
+    }
+   ],
+   "g12": "Lowered hoops or buckets. Fewer hoops on the floor (about 15). Forward cards only. Teacher moves the pieces (our adaptation).",
+   "g34": "As in the video, but \"exact number\" is optional (our adaptation).",
+   "g56": "As in the video, with the exact-exit rule. Students move the pieces and check each other's moves.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=UB0JlTmaSWw&t=384s",
+     "title": "7 PE basketball games (Game Board Basketball starts at 6:24)",
+     "channel": "Front Range Physical Education"
+    }
+   ],
+   "sources": [],
+   "videoNote": "Clips are demos. Our house rules still apply: no elimination."
   }
  ]
 };

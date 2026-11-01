@@ -852,6 +852,15 @@
    "checked": "2026-10-31",
    "displayTitle": "Secret Agent Tag"
   },
+  "yt:UB0JlTmaSWw": {
+   "status": "ok",
+   "http": 200,
+   "title": "7 PE Basketball Games Every Kid Will Actually Want to Play",
+   "channel": "Front Range Physical Education",
+   "url": "https://www.youtube.com/watch?v=UB0JlTmaSWw",
+   "checked": "2026-11-01",
+   "displayTitle": "7 PE basketball games"
+  },
   "yt:UyscH3vx0LA": {
    "status": "ok",
    "http": 200,
@@ -2118,5 +2127,5 @@
    "reason": "Library link was a generic ‘Quick Game 40’ short; replaced with PhysEdGames’ own Bakery Run Tag demo (the clip physedgames.com uses for this game). Old: “Quick Game 40 (kindergarten - grade 5)”."
   }
  ],
- "lastChecked": "2026-10-31"
+ "lastChecked": "2026-11-01"
 }
