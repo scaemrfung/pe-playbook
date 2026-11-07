@@ -309,6 +309,8 @@ window.GAME_INDEX = [
 ["Around the World","n","around-the-world",""],
 ["3-2-1 Basketball","n","3-2-1-basketball",""],
 ["Game Board Basketball","n","game-board-basketball",""],
+["Sinkerball","n","sinkerball",""],
+["Birds in a Nest","n","birds-in-a-nest",""],
 ["Aces","w","warmup-1",""],
 ["Alphabet Soup","w","warmup-2",""],
 ["Backboard Dodge Ball","w","warmup-2a",""],

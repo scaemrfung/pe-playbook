@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-11-01",
- "lastUpdatedLabel": "Sun Nov 1, 2026",
+ "lastUpdated": "2026-11-07",
+ "lastUpdatedLabel": "Sat Nov 7, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -15,8 +15,8 @@ window.NEW_GAMES = {
   "lastUpdatedLabel": "Mon Oct 12, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
- "latestWeek": "2026-11-23",
- "docWeek": "2026-11-23",
+ "latestWeek": "2026-11-30",
+ "docWeek": "2026-11-30",
  "dedupe": {
   "excluded": 74,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
@@ -74,6 +74,13 @@ window.NEW_GAMES = {
   }
  ],
  "weeks": [
+  {
+   "key": "2026-11-30",
+   "label": "Week of Nov 30, 2026",
+   "count": 2,
+   "addedOn": "2026-11-07",
+   "addedOnLabel": "Sat Nov 7, 2026"
+  },
   {
    "key": "2026-11-23",
    "label": "Week of Nov 23, 2026",
@@ -8534,6 +8541,227 @@ window.NEW_GAMES = {
    "bestBand": "3–4",
    "alsoBand": "5–6",
    "bandWhy": "Choosing a shooting spot that fits the team's plan and counting spaces suit Grades 3–6; Grades 1–2 use forward cards only and the teacher moves the pieces."
+  },
+  {
+   "id": "sinkerball",
+   "added": "2026-11-30",
+   "addedOn": "2026-11-07",
+   "name": "Sinkerball",
+   "source": "PhysEdGames",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://physedgames.com/sinkerball/",
+    "https://www.youtube.com/watch?v=2lFcp4JVD-8"
+   ],
+   "sources": [
+    "https://physedgames.com/sinkerball/"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=2lFcp4JVD-8",
+     "title": "Sinkerball demo",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "videoNote": "Source demo. Use the safety house rules below, not a rush to walls or crowded equipment.",
+   "order": 84,
+   "gradesFrom": "doc",
+   "unit": "November",
+   "suggestedMonth": "November",
+   "alsoFits": [
+    "January"
+   ],
+   "slot": "16–30",
+   "setup": "Mark two turn lines at least 2 m from walls and the stage, with separate outward and return lanes. Mark side rolling zones and a protected equipment parking area. Each of six pairs has a pin on a scooter: one puller, one spotter. The teacher secures a short rope to a suitable scooter handhold, checks the knot and wheels, and tests the pull before play. Never improvise an unsafe attachment. Practise walking the route without balls first.",
+   "how": [
+    "Pullers walk forward, eyes up, keeping the pin balanced on the scooter. Nobody rides or stands on a scooter. Spotters walk beside, clear of wheels and rope.",
+    "Rollers stay in their marked side zones and roll foam balls at pins, never at people. No airborne throws or kicks (our safety adaptation).",
+    "Score one point when the whole scooter crosses the far turn line with its pin upright. Walk around the turning cone into the return lane. Do not touch a wall.",
+    "If a pin falls, stop that scooter. Call “Freeze”; all balls and scooters stop. The pair parks its scooter, rope and pin outside the playing area before play restarts. Never abandon gear in a lane.",
+    "One member of that pair may help guard a remaining pin from beside the route; the other scores, then swap. Maximum one guard per cargo, with no contact, diving or surrounding the scooter.",
+    "Retrieve loose balls only during teacher-called freezes. After 3–4 minutes or when all pins fall, change tugboats and rollers. Swap puller and spotter halfway through the next round."
+   ],
+   "ifThis": [
+    "A ball stops in a travel lane: freeze and clear it before restarting.",
+    "The rope catches or a pin repeatedly falls: stop and shorten the route; the teacher checks equipment.",
+    "Traffic crowds a turn: reduce to four cargo pairs and rotate others through scoring or rolling."
+   ],
+   "cues": [
+    "Walk forward. Smooth pull.",
+    "Roll at the pin, not the person.",
+    "Cross the cone line; never touch the wall.",
+    "Fallen pin: freeze, park, then help."
+   ],
+   "variations": [
+    "Grade 2: Shorter route, four cargo pairs and fewer balls. Roll only.",
+    "Grades 3–4: Six cargo pairs; score clean crossings of the turn line.",
+    "Grades 5–6: Plan who pulls, spots and guards. Keep walk-only travel and roll-only sending."
+   ],
+   "tips": [
+    "Practise balancing a pin on a stationary scooter, then walking it without opponents. Ask: “What helped the pin stay upright?”",
+    "With about 60: use two waves of about 30, with 6–8 cargo pairs per wave. Use a separate supervised coaching or stretching area for the waiting wave. Do not create 32 scooters of traffic.",
+    "Support: offer rolling from a fixed accessible spot or scoring, then rotate. Adjust travel distance and follow ISP supports in the class binder.",
+    "Before teaching: check the class medical alert list and ISP supports in the class binder. Demonstrate the stop signal and follow school policy and SPHEReS guidance."
+   ],
+   "roundEnds": "After 3–4 minutes or when all pins fall. Switch teams, then swap pair jobs. Everyone returns next round.",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "pulls with control and balance; rolls at the pin, not the person; parks fallen cargo safely and shares helping roles."
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 (teamwork) outcome",
+     "look": "Students identify and demonstrate how teamwork supports positive interactions during physical activity. [PDE3-OI2-GQ3-LO1]"
+    }
+   ],
+   "safety": "Our safety adaptation: walk-only, roll-only, plastic pins, cone turn lines and freeze-to-park. No riding, wall touches, kicks or airborne throws. No hands near wheels; no rope loops around any body part. Tie long hair and check footwear. Keep ropes short and clear of feet. No grabbing scooters or other players. Maximum one standing guard beside a cargo. “Freeze”: stop scooters, hold balls still, eyes on the teacher. Follow school equipment guidance and SPHEReS; do not run if attachment or space cannot be made safe.",
+   "grades": "2–6",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Smooth pulling, accurate rolling and taking turns as a guard suit Grades 3–5; Grade 2 uses a shorter route.",
+   "type": "coop",
+   "typeLabel": "Cooperative & circus",
+   "section": "Team challenges",
+   "sports": "teamwork, target rolling, balance, gr 2–6",
+   "grouping": "6 tugboat pairs and 12 rollers for 24 · 3–4 minute rounds · 15–20 minutes",
+   "equipment": "6 scooter boards; 6 plastic bowling pins from bowling pin sets; 6 skipping ropes; Softex or Gator skin foam balls; saucer pylons. No tape or wooden pins needed.",
+   "desc": "Pairs walk a scooter carrying a balanced plastic pin between safe end lines. Opponents roll foam balls from side zones to knock the pin down. A fallen pin means a new helping role, not elimination.",
+   "g12": "Grade 2: shorten the route, four cargo pairs and fewer balls.",
+   "g34": "Smooth pulls and accurate rolls; count clean crossings.",
+   "g56": "Plan roles, then explain which change helped the cargo stay balanced."
+  },
+  {
+   "id": "birds-in-a-nest",
+   "added": "2026-11-30",
+   "addedOn": "2026-11-07",
+   "name": "Birds in a Nest",
+   "source": "PhysEdGames",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://physedgames.com/birds-in-a-nest/",
+    "https://www.youtube.com/watch?v=Va_bjQwshV4"
+   ],
+   "sources": [
+    "https://physedgames.com/birds-in-a-nest/"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=Va_bjQwshV4",
+     "title": "Birds in a Nest demo",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "videoNote": "Source demo. Use the safety house rules below, not a rush to walls or crowded equipment.",
+   "order": 85,
+   "gradesFrom": "doc",
+   "unit": "November",
+   "suggestedMonth": "November",
+   "alsoFits": [
+    "January"
+   ],
+   "slot": "16–30",
+   "setup": "Lay one hoop per student flat, with at least 2 m between nests and from walls or the stage. Leave clear walking paths. Reduce group size if that spacing does not fit. Model an agreed switch and calm arrival before starting.",
+   "how": [
+    "Part 1 (8 minutes): Find a partner using a look, wave or spoken invitation: “Can we switch?” Both agree before leaving their nests. Eye contact is optional.",
+    "Walk to swap nests. Keep arms comfortably close and use a clear route around other hoops. No running or jumping into a nest.",
+    "Part 2 (8 minutes): Agree with signs instead of voices: point, wave or thumbs up. Both confirm before walking.",
+    "Part 3 (8 minutes): Remove 2–4 hoops. Students without nests are hawks. Hawks may walk to an empty nest during an agreed switch. No tagging or contact.",
+    "A bird who loses a nest becomes a hawk; a hawk who reaches an empty nest becomes a bird. If two arrive together, both stop outside and agree who stays; the other takes the hawk role. Never race or push for a hoop.",
+    "Freeze between parts to model the next rule. Everyone remains involved."
+   ],
+   "ifThis": [
+    "Arrivals become a race: freeze and return to partner switches without hawks.",
+    "A hawk waits beside one nest: ask them to find open space away from occupied nests.",
+    "Two students disagree: stop outside the hoop and use a calm choice or teacher help."
+   ],
+   "cues": [
+    "Look, ask or sign, agree, then walk.",
+    "Find a clear path.",
+    "Stop outside a busy nest.",
+    "“Freeze”: feet still, hands to yourself, eyes on the teacher."
+   ],
+   "variations": [
+    "Kindergarten–Grade 1: Partner switches only on the first day; teacher models each step.",
+    "Grades 2–4: Add non-verbal agreements, then hawks only when calm walking is reliable.",
+    "Grades 5–6 enrichment: a short communication warm-up with partner switches. No extra outcome claimed."
+   ],
+   "tips": [
+    "Ask: “Which sign made your plan clear?” Observe agreed switches and safe paths.",
+    "Related to Switch / Chicken Checkers in the final nest-claiming stage. This card keeps the distinct verbal and non-verbal partner-agreement progression; no second Switch card.",
+    "With about 60: use waves of 20–30 rather than filling a tight gym with 60 nests. Waiting students practise signs with a partner in a separate supervised area. Two play areas need adequate spacing and supervision.",
+    "Support: model invitation signs or provide simple picture cards. Use floor markers around a larger clear nest for mobility aids; do not wheel over hoop rims. Offer a partner and follow ISP supports in the class binder.",
+    "Before teaching: check the class medical alert list and ISP supports in the class binder. Demonstrate the stop signal and follow school policy and SPHEReS guidance."
+   ],
+   "roundEnds": "About 8 minutes per part, with brief demonstrations and resets. Shorten to one 5–8 minute part for a warm-up; nobody is eliminated.",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "uses clear spoken or signed agreements; walks in open space without contact; rotates hawk and bird roles fairly."
+    },
+    {
+     "code": "Physical Education and Wellness · Kindergarten outcome",
+     "look": "Children explore spatial awareness in a variety of physical activity contexts. [PDEK-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 1 outcome",
+     "look": "Students exhibit spatial awareness during a variety of physical activities. [PDE1-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 2 outcome",
+     "look": "Students refine and apply spatial awareness across a variety of physical activity contexts. [PDE2-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students identify and demonstrate how teamwork supports positive interactions during physical activity. [PDE3-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students connect and demonstrate how teamwork enhances participation in physical activity. [PDE4-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Kindergarten fair-play look-for outcome",
+     "look": "Children explore fair play through a variety of physical activities. [PDEK-OI2-GQ3-LO1]"
+    }
+   ],
+   "safety": "Walk throughout. Hoops stay flat and still. No running, diving, jumping or pushing to claim a nest. Keep at least 2 m between nests and from walls; reduce numbers if needed. Stop outside a contested nest and agree calmly. Use floor-marker nests for accessible routes, never a taped square. “Freeze”: stop, hands to yourself, eyes on the teacher.",
+   "grades": "K–4",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Agreed switches and walking pathways suit K–3; Grades 3–4 add non-verbal plans and hawk role changes.",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "section": "Warm-ups & communication",
+   "sports": "communication, spatial awareness, cooperative movement, gr K–4",
+   "grouping": "Up to 24 per play area · three 8-minute parts · about 25–30 minutes with demonstration",
+   "equipment": "1 hula hoop per student (24 for 24); optional floor markers for accessible nests. Remove 2–4 hoops for the final part.",
+   "desc": "Agree on a partner switch, first with words and then with signs. Walk to the new hoop nest. In the final part, a few hawks claim empty nests and everyone keeps changing roles.",
+   "g12": "Kindergarten–Grade 1: verbal partner switches first. Grade 2 adds signs.",
+   "g34": "Add hawks only after calm, agreed walking switches.",
+   "g56": "Optional short communication warm-up, partner switches only."
   }
  ]
 };
