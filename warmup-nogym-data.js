@@ -438,9 +438,9 @@ window.WARMUP_NOGYM_GAMES = [
       "Setup: Make 4 teams in 4 pinny colours. Each team starts in its own quarter.",
       "Play: On the signal, each team tries to get all of its players onto the mat in the diagonally opposite corner.",
       "Play: Players can only be tagged in another team’s quarter. Each team tags opponents who come into its own quarter.",
-      "Play: A tagged player sits where they were tagged. A teammate who reaches them untagged rescues them, and the two walk back to their own quarter, free.",
-      "Play: Players on the mat are safe. Anyone who leaves the mat to rescue a teammate has to return to their own quarter and try again.",
-      "Play: On “YOSHI!”, tagging stops and everyone, including sitting players, rushes to their target mat.",
+      "Play: If you are tagged, stay seated until a teammate reaches you without being tagged. Your teammate comes alongside to collect you. Then walk together to your team’s target mat, safe from tags.",
+      "Play: Players on the mat are safe. You may leave the mat to collect a seated teammate.",
+      "Play: On “YOSHI!”, tagging stops. Players who are not seated go to their target mat. Seated players must still wait for a teammate to collect them, then walk to the mat together.",
       "End / reset: The first team with everyone on its mat wins. Rotate the target corners and play again."
     ],
     "variations": [
@@ -448,7 +448,7 @@ window.WARMUP_NOGYM_GAMES = [
       "Quick warm-up: call YOSHI a few seconds in.",
       "Free Zone: Mark a circle in the middle of the gym with cones or a hoop ring, about 3 m across, where all four quarters meet. Players inside the Free Zone can’t be tagged. They can rest there or plan their next move, then run for their target mat. Limit it to a 5-second stay, and no more than 3 players from one team at a time, so the game keeps moving. Safety: players walk into the zone, never dive into it. Taggers wait outside the cones and can’t reach in."
     ],
-    "safety": "Two-finger tags. Mats away from the walls. The whistle is the freeze and stop signal. On a YOSHI call, eyes up and go around other players.",
+    "safety": "Two-finger tags. Mats away from the walls. The whistle is the freeze and stop signal. On a YOSHI call, eyes up and go around other players. Collect means come alongside your teammate. Do not pull or carry anyone.",
     "outcomes": [
       {
         "grade": "Grade 4",
@@ -456,7 +456,7 @@ window.WARMUP_NOGYM_GAMES = [
         "text": "Students select and implement strategies and tactics in a variety of physical activities."
       }
     ],
-    "notes": "Stay-in, no elimination: a tagged player sits only until a teammate rescues them, and the YOSHI call brings everyone back in.",
+    "notes": "Stay-in, no elimination: seated players rejoin when a teammate collects them, including after the YOSHI call.",
     "source": "https://physedgames.com/yoshi/",
     "sourceLabel": "Yoshi (PhysEdGames)"
   },
