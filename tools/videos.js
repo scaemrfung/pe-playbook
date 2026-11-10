@@ -1,8 +1,8 @@
 /*
- * Video link-check index (videos-data.js) — no dependencies, Node 16+.
+ * Build-only video link-check index (.cache/video-index.json) — no dependencies, Node 16+.
  * Called by tools/build.js (so `node tools/build.js` / `--check` keep it fresh).
  *
- * Scans every place the site links a video and writes videos-data.js
+ * Scans every place the site links a video and returns data for .cache/video-index.json
  * (window.VIDEO_INDEX): one entry per video (deduped by YouTube id), each with
  * every lesson / game / page that uses it.
  *

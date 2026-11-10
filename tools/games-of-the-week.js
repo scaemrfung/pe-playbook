@@ -120,7 +120,7 @@ ${b.picks.map(pickLi).join("\n")}
   const equipText = (e) => { const s = clean(Array.isArray(e) ? e.join("; ") : e); return /^none\.?$/i.test(s) ? "None" : s; };
   // Day-off notes keep the date but drop the day's name (no holiday names on the printables).
   const printNote = (n) => clean(n).replace(/\s*\([^)]*\)/g, "");
-  const printBreak = (name) => /christmas/i.test(name) ? "Winter Break" : name;
+  const printBreak = (name) => /break/i.test(name) ? "School break" : name;
 
   function sheetFor(p) {
     const k = key(p.name);
@@ -148,7 +148,7 @@ ${b.picks.map(pickLi).join("\n")}
   const longDate = (s) => { const d = new Date(s + "T12:00:00Z"); return `${DAYS[d.getUTCDay()]} ${MONS[d.getUTCMonth()]} ${d.getUTCDate()}`; };
   const yearOf = (s) => s.slice(0, 4);
   const sheets = weeks.map((w) => ({
-    n: w.n, month: w.month, unit: w.unit, range: w.range,
+    n: w.n, month: w.month, unit: w.unit, range: w.range, start: w.start,
     dates: w.start === w.end ? `${longDate(w.start)}, ${yearOf(w.start)}` : `${longDate(w.start)} – ${longDate(w.end)}, ${yearOf(w.end)}`,
     note: printNote(w.note),
     breakAfter: breakAfter(w).map((b) => ({ name: printBreak(b.name), range: b.range })),
@@ -166,7 +166,7 @@ ${b.picks.map(pickLi).join("\n")}
   const FILE = `Games-of-the-Week-${SY.calendar.label.replace(/[–—]/g, "-")}`;
   const HOUSE = "House rules for every game: no elimination (a sit is a short task, then back in), freeze on the whistle, extra players get a job, and show a demo before the first play.";
   const printData = { title: `Games of the Week ${SY.calendar.label}`, year: SY.calendar.label, teacher: "Mr. Fung", school: "SCA Elementary PE",
-    file: FILE, site: SITE, house: HOUSE, months: printMonths, weeks: sheets, bands: BANDS.map((b) => ({ id: b.id, label: b.label })) };
+    file: FILE, site: SITE, house: HOUSE, term2Start: SY.calendar.semester2, terms: [{ n: 1, label: "August–January" }, { n: 2, label: "February–June" }], months: printMonths, weeks: sheets, bands: BANDS.map((b) => ({ id: b.id, label: b.label })) };
 
   const e = esc;
   const gameHtml = (g, i) => `        <article class="gp-game">

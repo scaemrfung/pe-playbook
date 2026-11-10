@@ -3,7 +3,7 @@
 Reads the print data (JSON) on stdin and writes, in the site root:
   <file>.pdf   games-of-the-week-print.html printed by Chrome (per school week: a Grades 1–3 page and a Grades 4–6 page, + contents)
   <file>.docx  the same pages as a Word document, in the weekly-plans style (Calibri, headings, one week per page)
-Needs: python3 + python-docx + playwright + Chrome.   Manual run: node tools/build.js (it pipes the data in)."""
+Needs: python3 + python-docx + playwright + pikepdf + Chrome.   Manual run: node tools/build.js (it pipes the data in)."""
 import json, os, sys, datetime
 from docx import Document
 from docx.enum.section import WD_ORIENT
@@ -17,25 +17,45 @@ G = json.load(sys.stdin)
 NAVY, GREEN, MUTED, AMBER = RGBColor(0x1A, 0x2F, 0x6B), RGBColor(0x1F, 0x6F, 0x4A), RGBColor(0x55, 0x60, 0x6B), RGBColor(0x6B, 0x46, 0x00)
 CHROME = next((p for p in ("/usr/bin/google-chrome", "/usr/bin/chromium", "/usr/bin/chromium-browser") if os.path.exists(p)), None)
 
-# ------------------------------------------------------------------ PDF (Chrome prints the HTML page)
+# ------------------------------------------------------------------ PDF (tagged HTML print, then lossless compression)
 def make_pdf():
     from playwright.sync_api import sync_playwright
-    out = os.path.join(ROOT, G["file"] + ".pdf")
-    foot = ('<div style="width:100%%;font:7pt Arial,sans-serif;color:#55606b;padding:0 .5in;display:flex;justify-content:space-between">'
-            '<span>%s · %s</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>') % (G["title"], G["teacher"])
+    import pikepdf, tempfile
+    from html import escape
+    E=lambda x:escape(str(x or ""))
+    # Use the same two reporting periods as school-year.js / the Kindergarten page.
+    cut=G["term2Start"]
+    variants=[(G["file"],"Full year",G["weeks"])] + [(G["file"]+"-Term-"+str(t["n"]),"Term %d · %s"%(t["n"],t["label"]),[w for w in G["weeks"] if (w["start"] < cut)==(t["n"]==1)]) for t in G["terms"]]
     with sync_playwright() as p:
-        b = p.chromium.launch(executable_path=CHROME, args=["--no-sandbox"]) if CHROME else p.chromium.launch()
-        pg = b.new_page(viewport={"width": 1000, "height": 1200})
-        pg.goto("file://" + os.path.join(ROOT, "games-of-the-week-print.html"), wait_until="load")
-        pg.wait_for_selector("html[data-fitted]", timeout=30000)
-        over = pg.eval_on_selector_all(".gp-sheet[data-overflow]", "els => els.map(e => e.id)")
-        if over: print("  WARNING Games of the Week printable: still longer than one page:", ", ".join(over))
-        kw = dict(path=out, format="Letter", print_background=True, prefer_css_page_size=True, display_header_footer=True,
-                  header_template="<span></span>", footer_template=foot, margin={"top": ".5in", "bottom": ".5in", "left": ".5in", "right": ".5in"})
-        try: pg.pdf(outline=True, tagged=True, **kw)
-        except TypeError: pg.pdf(**kw)
+        b=p.chromium.launch(executable_path=CHROME,args=["--no-sandbox"]) if CHROME else p.chromium.launch()
+        for filename,label,weeks in variants:
+            pg=b.new_page(viewport={"width":1000,"height":1200})
+            pg.goto("file://"+os.path.join(ROOT,"games-of-the-week-print.html"),wait_until="load")
+            pg.wait_for_selector("html[data-fitted]",timeout=30000)
+            if filename!=G["file"]:
+                nums=[w["n"] for w in weeks]
+                # Remove unrelated sheets and build a term-only contents table.
+                pg.evaluate("nums => document.querySelectorAll('.gp-week').forEach(el => {if(!nums.includes(+el.dataset.week))el.remove();})",nums)
+                rows='<tr><th>Week</th><th>Dates</th>'+''.join('<th>'+E(band["label"])+"</th>" for band in G["bands"])+"</tr>"
+                for w in weeks:
+                    rows+='<tr><td>Week %d</td><td>%s</td>'%(w["n"],E(w["range"]))+''.join('<td>'+E(' · '.join(g["name"] for g in band["games"]))+'</td>' for band in w["bands"])+"</tr>"
+                pg.locator('.gp-contents').evaluate('(el,html)=>el.innerHTML=html',rows)
+                pg.locator('.gp-cover h1').evaluate('(el,label)=>el.textContent+=" · "+label',label)
+            over=pg.eval_on_selector_all('.gp-sheet[data-overflow]',"els=>els.map(e=>e.id)")
+            if over:raise RuntimeError("Printable overflow: "+", ".join(over))
+            foot=('<div style="width:100%%;font:7pt Arial,sans-serif;color:#55606b;padding:0 .5in;display:flex;justify-content:space-between">'
+                  '<span>%s · %s · %s</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>')%(E(G["title"]),E(G["teacher"]),E(label))
+            with tempfile.TemporaryDirectory() as tmp:
+                raw=os.path.join(tmp,"raw.pdf")
+                pg.pdf(path=raw,format="Letter",print_background=True,prefer_css_page_size=True,display_header_footer=True,
+                       header_template="<span></span>",footer_template=foot,margin={"top":".5in","bottom":".5in","left":".5in","right":".5in"},outline=True,tagged=True)
+                pdf=pikepdf.open(raw)
+                if '/StructTreeRoot' not in pdf.Root:raise RuntimeError("PDF accessibility tags missing")
+                out=os.path.join(ROOT,filename+".pdf")
+                pdf.save(out,object_stream_mode=pikepdf.ObjectStreamMode.generate,compress_streams=True,recompress_flate=True)
+                print("wrote",filename+".pdf",os.path.getsize(out),"bytes (tagged, lossless compression)")
+            pg.close()
         b.close()
-    print("wrote", G["file"] + ".pdf")
 
 # ------------------------------------------------------------------ Word
 def hyperlink(par, url, text, bold=True, color=None, size=None):

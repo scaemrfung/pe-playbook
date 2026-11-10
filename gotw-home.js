@@ -27,7 +27,7 @@
       (D.breaks || []).forEach(function (b) { if (b.start <= mon && mon <= b.end) brk = b; });
       for (var j = 0; j < W.length; j++) if (W[j].monday > mon) { w = W[j]; break; }
       if (!w) return;
-      lead = brk ? "No school this week (" + esc(/christmas/i.test(brk.name) ? "Winter Break" : brk.name) + "). Back on " + esc(w.range) + ":" : "First week of school, " + esc(w.range) + ":";
+      lead = brk ? "No school this week (" + esc(/christmas/i.test(brk.name) ? "School break" : brk.name) + "). Back on " + esc(w.range) + ":" : "First week of school, " + esc(w.range) + ":";
     }
     var head = '<p class="whats-new-gotw-head"><strong>Games of the Week</strong> · ' +
       (lead || (isWeekend(today) ? "Coming up: " : "") + '<span class="nowrap">Week ' + w.n + " · " + esc(w.range) + "</span>") + ' <span class="whats-new-gotw-unit">' + esc(w.month) + ": " + esc(w.unit) + "</span></p>";

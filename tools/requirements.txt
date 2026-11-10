@@ -1,0 +1,3 @@
+python-docx
+playwright
+pikepdf>=10

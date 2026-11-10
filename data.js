@@ -864,7 +864,7 @@ const months = [
         "wu": "Easy lap.",
         "skill": "Private fitness check — not a rank.",
         "game": "Vote a gentle closer from the games library.",
-        "cd": "Sheet dated. Have a kind holiday.",
+        "cd": "Sheet dated. Have a great break.",
         "g12": "Teacher may scribe",
         "g34": "Record privately",
         "g56": "Compare only to own September note"

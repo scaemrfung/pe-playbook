@@ -151,7 +151,9 @@
 
   function render(data, view, ro) {
     ro = ro || {};
-    var C = function (g, o) { o.compact = !!ro.compact; o.open = !!(ro.open && ro.open[g.id]); return card(g, data, o); };
+    var C = function (g, o) {
+      if (ro.initial && g.added !== (data.weeks[0] || {}).key) return [g.id, g.id + "-details"].concat(g.aliases || []).map(function(id) { return '<span id="' + esc(id) + '" data-archive-anchor="1"></span>'; }).join("");
+      o.compact = !!ro.compact; o.open = !!(ro.open && ro.open[g.id]); return card(g, data, o); };
     view = view === "type" || view === "month" || view === "grade" ? view : "week";
     var games = data.games || [];
     var weeks = data.weeks || [];
@@ -275,8 +277,19 @@
     var upd = document.getElementById("ng-updated");
     if (upd) upd.innerHTML = lastUpdatedLine(data);
     var openIds = {};   // cards opened with "Show details" (kept when the view changes)
+    var loading = null;
+    function ensureFull(done) {
+      if (!data.partial) { done(); return; }
+      if (loading) { loading.push(done); return; }
+      loading = [done];
+      var script = document.createElement("script");
+      script.src = "new-games-data.js?v=" + String(root.SITE_UPDATED || "").replace(/\D/g, "");
+      script.onload = function() { data = root.NEW_GAMES; var callbacks = loading; loading = null; draw(); callbacks.forEach(function(cb) { cb(); }); };
+      script.onerror = function() { loading = null; count.textContent = "Archive could not load. Try again, or open the full archive link."; };
+      document.head.appendChild(script);
+    }
     var draw = function () { el.innerHTML = render(data, view, { compact: true, open: openIds }); };
-    draw();
+    if (!data.partial || view !== "week") { if (data.partial) ensureFull(function(){apply();openHash();}); else draw(); }
     el.classList.add("ng-ready");
     function setOpen(c, on) {
       if (!c) return;
@@ -298,6 +311,7 @@
         setOpen(c2, !c2.classList.contains("ng-open"));
       }
     });
+    el.addEventListener("toggle", function(e) { if (e.target.matches("details.ng-week") && e.target.open && data.partial) { var id=e.target.id; ensureFull(function(){ var d=document.getElementById(id); if(d)d.open=true; }); } }, true);
     var tools = document.getElementById("ng-tools");
     var q = document.getElementById("ng-q");
     var box = document.getElementById("ng-unit-filters");
@@ -320,6 +334,7 @@
         return '<button type="button" data-unit="' + esc(u.month) + '">' + esc(unitLabel(u)) + "</button>";
       }).join("");
     function apply() {
+      if (data.partial && ((q.value || "").trim() || unit !== "all" || type !== "all" || band !== "all")) { ensureFull(apply); return; }
       var term = (q.value || "").toLowerCase().trim();
       var filtering = term || unit !== "all" || type !== "all" || band !== "all";
       var shown = 0;
@@ -357,8 +372,7 @@
         if (!b) return;
         view = b.getAttribute("data-view");
         vbox.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
-        draw();
-        apply();
+        if (data.partial) ensureFull(function(){ draw(); apply(); }); else { draw(); apply(); }
         try { history.replaceState(null, "", view === "week" ? location.pathname + location.hash : location.pathname + "?view=" + view + location.hash); } catch (e2) {}
       });
     }
@@ -389,7 +403,11 @@
       var id = "";
       try { id = decodeURIComponent((location.hash || "").slice(1)); } catch (e) { return; }
       if (!id) return;
+      var old = document.getElementById(id);
+      if (data.partial && old && old.hasAttribute("data-archive-anchor")) { ensureFull(function(){ apply();openHash(); }); return; }
+      if (data.partial && old && old.matches("details.ng-week")) { ensureFull(function(){ openHash(); }); return; }
       var t = document.getElementById(id);
+      if (t && t.matches("details.ng-week")) { t.open=true; t.scrollIntoView({block:"start"}); return; }
       if (!t) return;
       var c = t.classList.contains("ng-card") ? t : t.closest(".ng-card");
       if (!c) return;

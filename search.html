@@ -7,7 +7,7 @@
   <meta name="description" content="Search Big-Group, New, Warm Up and Dodgeball games by name." />
   <link rel="preload" href="fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="styles.css?v=dc44b9fd" />
+  <link rel="stylesheet" href="styles.css?v=9eee98e0" />
   <noscript><style>header.site{display:block!important}</style></noscript>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Ccircle cx=%2712%27 cy=%2712%27 r=%2711%27 fill=%27%231f6f4a%27/%3E%3Cpath d=%27M12 4v16M4 12h16%27 stroke=%27white%27 stroke-width=%271.6%27/%3E%3C/svg%3E" />
 </head>
@@ -46,7 +46,7 @@
   <main class="wrap" style="padding: 28px 0 40px">
     <div class="panel">
       <h1 style="margin-top:0;color:var(--navy)">Search games</h1>
-      <p class="meta">Finds a game by name on Big-Group Games, New Games, Warm Up Games or Dodgeball. The badge shows which page it is on.</p>
+      <p class="meta">Finds game names, Kindergarten lessons, Indigenous games and Games of the Week, as well as Big-Group, New, Warm Up and Dodgeball games. The badge shows which page it is on.</p>
       <form class="hub-search" action="search.html" method="get" role="search">
         <label class="sr-only" for="sp-q">Search all games</label>
         <input class="search" id="sp-q" name="q" type="search" placeholder="Type a game name…" autocomplete="off" autofocus />
@@ -63,7 +63,7 @@
       <p>Grades 1–6 · four 30-minute classes a week · Alberta Physical Education and Wellness. Real sport balls, dodgeball with its own house rules, no elimination in other games, floor-only gymnastics. Follow your school’s safety rules.</p>
     </div>
   </footer>
-  <script src="chrome.js?v=7c30562a"></script>
+  <script src="chrome.js?v=b869e6e9"></script>
   <script>
     (function () {
       var q = document.getElementById("sp-q"), out = document.getElementById("sp-results"), count = document.getElementById("sp-count");
@@ -76,7 +76,7 @@
         S.load(function (err) {
           if (err) { count.textContent = "Search could not load. Try the lists on the Games page."; return; }
           var res = S.query(term, 150);
-          count.textContent = res.length ? res.length + " game" + (res.length === 1 ? "" : "s") + " match “" + term + "”" : "No game matches “" + term + "”. Try a shorter word.";
+          count.textContent = res.length ? res.length + " result" + (res.length === 1 ? "" : "s") + " match “" + term + "”" : "No result matches “" + term + "”. Try a shorter word.";
           out.innerHTML = res.map(S.rowHtml).join("");
         });
       }

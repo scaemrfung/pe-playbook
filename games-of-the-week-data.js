@@ -81,7 +81,7 @@ window.GAMES_OF_THE_WEEK = {
    "month": "September",
    "w": 2,
    "unit": "Soccer, Terry Fox and football",
-   "note": "4-day week: Mon Sept 7 off (Labour Day)",
+   "note": "4-day week: Mon Sept 7 off (No school)",
    "bands": [
     {
      "id": "g13",
@@ -288,7 +288,7 @@ window.GAMES_OF_THE_WEEK = {
    "month": "September",
    "w": 5,
    "unit": "Soccer, Terry Fox and football",
-   "note": "3-day week: Wed Sept 30 off (Truth and Reconciliation Day), Fri Oct 2 off (PL day)",
+   "note": "3-day week: Wed Sept 30 off (No school), Fri Oct 2 off (PL day)",
    "bands": [
     {
      "id": "g13",
@@ -426,7 +426,7 @@ window.GAMES_OF_THE_WEEK = {
    "month": "October",
    "w": 2,
    "unit": "Football",
-   "note": "4-day week: Mon Oct 12 off (Thanksgiving)",
+   "note": "4-day week: Mon Oct 12 off (No school)",
    "bands": [
     {
      "id": "g13",
@@ -1461,7 +1461,7 @@ window.GAMES_OF_THE_WEEK = {
    "month": "February",
    "w": 3,
    "unit": "Ropes and jumping",
-   "note": "4-day week: Mon Feb 15 off (Family Day)",
+   "note": "4-day week: Mon Feb 15 off (No school)",
    "bands": [
     {
      "id": "g13",
@@ -1806,7 +1806,7 @@ window.GAMES_OF_THE_WEEK = {
    "month": "March",
    "w": 4,
    "unit": "Volleyball",
-   "note": "4-day week: Mon Mar 29 off (Easter Monday)",
+   "note": "4-day week: Mon Mar 29 off (No school)",
    "bands": [
     {
      "id": "g13",
@@ -2358,7 +2358,7 @@ window.GAMES_OF_THE_WEEK = {
    "month": "May",
    "w": 4,
    "unit": "Track and field",
-   "note": "4-day week: Mon May 24 off (Victoria Day)",
+   "note": "4-day week: Mon May 24 off (No school)",
    "bands": [
     {
      "id": "g13",
@@ -2766,19 +2766,19 @@ window.GAMES_OF_THE_WEEK = {
  ],
  "breaks": [
   {
-   "name": "November Break",
+   "name": "School break",
    "start": "2026-11-09",
    "end": "2026-11-13",
    "range": "Nov 9–13"
   },
   {
-   "name": "Christmas Break",
+   "name": "School break",
    "start": "2026-12-21",
    "end": "2027-01-01",
    "range": "Dec 21–Jan 1"
   },
   {
-   "name": "Spring Break",
+   "name": "School break",
    "start": "2027-03-22",
    "end": "2027-03-26",
    "range": "Mar 22–26"

@@ -125,28 +125,28 @@
     // Catch-up weeks (Monday of the week). No new lesson; finish or review.
     catchUp: ["2026-12-14", "2027-02-01", "2027-06-21"],
     catchUpWhy: {
-      "2026-12-14": "Catch-up week before Christmas (concerts, finish Week 14 or review)",
+      "2026-12-14": "Catch-up week before the school break (finish Week 14 or review)",
       "2027-02-01": "Catch-up week (Teachers' Convention Thu–Fri; semester 2 starts)",
       "2027-06-21": "Catch-up week (year-end: finish Week 38 or review)"
     },
     // Weekday non-school days: [first, last, reason]
     closed: [
-      ["2026-09-07", "2026-09-07", "Labour Day"],
-      ["2026-09-30", "2026-09-30", "Truth and Reconciliation Day"],
+      ["2026-09-07", "2026-09-07", "No school"],
+      ["2026-09-30", "2026-09-30", "No school"],
       ["2026-10-02", "2026-10-02", "PL day"],
-      ["2026-10-12", "2026-10-12", "Thanksgiving"],
-      ["2026-11-09", "2026-11-13", "November Break"],
-      ["2026-12-21", "2027-01-01", "Christmas Break"],
+      ["2026-10-12", "2026-10-12", "No school"],
+      ["2026-11-09", "2026-11-13", "School break"],
+      ["2026-12-21", "2027-01-01", "School break"],
       ["2027-01-29", "2027-01-29", "PL day"],
       ["2027-02-04", "2027-02-05", "Teachers' Convention"],
-      ["2027-02-15", "2027-02-15", "Family Day"],
+      ["2027-02-15", "2027-02-15", "No school"],
       ["2027-03-05", "2027-03-05", "PL day"],
       ["2027-03-19", "2027-03-19", "School closure"],
-      ["2027-03-22", "2027-03-26", "Spring Break"],
-      ["2027-03-29", "2027-03-29", "Easter Monday"],
+      ["2027-03-22", "2027-03-26", "School break"],
+      ["2027-03-29", "2027-03-29", "No school"],
       ["2027-05-07", "2027-05-07", "PL day"],
       ["2027-05-20", "2027-05-21", "School closure"],
-      ["2027-05-24", "2027-05-24", "Victoria Day"],
+      ["2027-05-24", "2027-05-24", "No school"],
       ["2027-06-29", "2027-06-29", "Operational day (no students)"]
     ],
     earlyDismissal: 3 // Wednesday: one hour early every week
@@ -335,10 +335,10 @@
     // before) absorbs the shift. From January on nothing moves.
     [5, "October", 1, "", "Football"], [6, "October", 2, "", "Football"], [7, "October", 3], [8, "October", 4],
     [9, "November", 1], [10, "November", 2], [11, "November", 3], [12, "November", 4],
-    [13, "December", 1], [14, "December", 2], [15, "December", 4, "Last week before Christmas: festival stations and closers. Catch-up week: finish Week 14 or review; this set is the suggested plan"],
+    [13, "December", 1], [14, "December", 2], [15, "December", 4, "Last week before the school break: activity stations and closers. Catch-up week: finish Week 14 or review; this set is the suggested plan"],
     [16, "January", 1], [17, "January", 2], [18, "January", 3], [19, "January", 4],
     [20, "February", 1, "Catch-up week: finish Week 19 or review; otherwise start rope skills here"], [21, "February", 2], [22, "February", 3], [23, "February", 4],
-    [24, "March", 1], [25, "March", 2], [26, "March", 3], [27, "March", 4, "Right after Spring Break"],
+    [24, "March", 1], [25, "March", 2], [26, "March", 3], [27, "March", 4, "Right after School break"],
     [28, "April", 1], [29, "April", 2], [30, "April", 3], [31, "April", 4],
     [32, "May", 1], [33, "May", 2], [34, "May", 3], [35, "May", 4],
     [36, "June", 1, "Track and Field Day week"], [37, "June", 2], [38, "June", 3], [39, "June", 4, "Catch-up week: finish Week 38 or review; this set is the suggested plan"],

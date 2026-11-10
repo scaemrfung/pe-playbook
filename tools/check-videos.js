@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /*
- * Check every video in videos-data.js and record the result in videos-meta.json.
+ * Check every video in .cache/video-index.json and record the result in videos-meta.json.
  *   node tools/check-videos.js            check all (network), write videos-meta.json
  *   node tools/check-videos.js --new      only videos never checked
- * Then run node tools/build.js to refresh videos-data.js.
+ * Then run node tools/build.js to refresh .cache/video-index.json.
  *
  * Method: YouTube oEmbed (200 = public video, gives title + channel;
  * 401/403 = exists but embedding is off, still watchable = ok-noembed;
@@ -15,15 +15,12 @@
 "use strict";
 const fs = require("fs");
 const path = require("path");
-const vm = require("vm");
 const ROOT = path.resolve(__dirname, "..");
 const ONLY_NEW = process.argv.includes("--new");
 const metaFile = path.join(ROOT, "videos-meta.json");
 const meta = fs.existsSync(metaFile) ? JSON.parse(fs.readFileSync(metaFile, "utf8")) : { videos: {}, replacements: [] };
 meta.videos = meta.videos || {};
-const sb = {}; sb.window = sb; vm.createContext(sb);
-vm.runInContext(fs.readFileSync(path.join(ROOT, "videos-data.js"), "utf8"), sb);
-const vids = sb.VIDEO_INDEX.videos;
+const vids = JSON.parse(fs.readFileSync(path.join(ROOT, ".cache/video-index.json"), "utf8")).videos;
 const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Edmonton" }).format(new Date());
 
 async function check(v) {
@@ -54,6 +51,8 @@ async function check(v) {
       const v = todo[i++];
       let res;
       try { res = await check(v); } catch (e) { res = { status: "unknown", error: String(e.message || e) }; }
+      // Curated neutral display titles take precedence; do not re-publish an upstream themed title.
+      if ((meta.videos[v.key] || {}).displayTitle) delete res.title;
       meta.videos[v.key] = Object.assign({}, meta.videos[v.key], res, { url: v.url, checked: today });
       if (res.status === "broken") broken.push(v);
     }

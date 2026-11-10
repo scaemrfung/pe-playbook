@@ -474,6 +474,7 @@ function renderMonth(m) {
 function groupKey(f) {
   if (f === "index.html") return "index.html";
   if (/^month(-[a-z]+)?\.html$/.test(f)) return "month.html";
+  if (f === "games-all.html" || f === "new-games-archive.html") return "games-hub.html";
   if (f === "search.html") return "games-hub.html";
   for (const k of Object.keys(SITE.SUBNAV)) if (k === f || SITE.SUBNAV[k].some(([h]) => h === f)) return k;
   return SITE.NAV.some(([h]) => h === f) ? f : null;
@@ -826,16 +827,14 @@ const planFallback = PLANS.length
 index = between(index, "whats-new", planFallback);
 outputs["index.html"] = withStaticNav(index, "index.html");
 
-// videos-data.js — index of every video the site links, with the lessons /
-// games / pages that use it (tools/videos.js). No page shows it any more (the
-// Videos page was retired Sep 2026; videos.html is a redirect to games.html);
-// tools/check-videos.js uses it to check links (results in videos-meta.json).
+// Video link-check index: build-only .cache/video-index.json (not committed or published).
+// Public video clips still come from youtube-data.js. The retired videos.html address redirects.
 for (const f of ["youtube-data.js", "warmup-nogym-data.js", "new-games-data.js", "dodgeball-data.js", "weekly-plans-data.js"]) {
   if (fs.existsSync(path.join(ROOT, f))) vm.runInContext(read(f), sandbox, { filename: f });
 }
 const VID = require("./videos.js")({ ROOT, W, LESSON_REF, months, monthBank, fill, gslug, ALIASES, SITE });
-outputs["videos-data.js"] = VID.js;
-report.push(`videos-data.js: ${VID.data.count} videos from ${VID.data.occurrences} links (link-check index only)`);
+if (!CHECK) { fs.mkdirSync(path.join(ROOT, ".cache"), { recursive: true }); fs.writeFileSync(path.join(ROOT, ".cache/video-index.json"), JSON.stringify(VID.data)); }
+report.push(`build-only video index: ${VID.data.count} videos from ${VID.data.occurrences} links (link-check index only)`);
 
 // Game lists: the same four libraries the pages show (Big-Group list mirrors app.js).
 const BG_DETAILS = [].concat(W.GAME_DETAILS || [], W.K2_DETAILS || [], W.G36_DETAILS || [], W.SKILL_DETAILS || [], W.BG30_DETAILS || [], W.PEG_DETAILS || []);
@@ -853,6 +852,27 @@ const RENAMED = (() => {
   return m ? vm.runInNewContext("(" + m[1] + ")") : {};
 })();
 const oldNames = (name) => Object.keys(RENAMED).filter((o) => RENAMED[o] === name);
+// Big-Group preview list and independently fetched teaching cards.
+const LIB = require("./game-cards.js")({ W, BG_LIST, oldNames });
+const digest = text => require("crypto").createHash("md5").update(text).digest("hex").slice(0,8);
+const previews = LIB.entries.map(g => {
+  const f = `game-cards/${g.id}.html`; outputs[f] = g.html;
+  const ids = [...g.html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]).filter(id=>id!==g.id);
+  return `<article class="gcard bg-preview" id="${esc(g.id)}" data-type="${g.type}" data-label="${esc(g.label)}" data-months="${esc(g.months.join("|"))}" data-hay="${esc([g.name,g.label,g.equipment,oldNames(g.name).join(" ")].join(" ").toLowerCase())}" data-card="${f}?v=${digest(g.html)}">
+    ${[...new Set(ids)].map(id=>`<span id="${esc(id)}"></span>`).join("")}
+    <div class="ghead"><h2>${g.number}. ${g.name}</h2><span class="src">${g.label}</span></div>
+    <p>${g.summary}</p><p class="meta"><strong>Equipment:</strong> ${g.equipment}</p>
+    <button type="button" class="btn-primary load-game">Open card<span class="sr-only"> for ${esc(g.name)}</span></button></article>`;
+}).join("\n");
+let bgPage=read("games.html").replace(/(<!-- biggroup:start -->)[\s\S]*?(<!-- biggroup:end -->)/, (_,a,b)=>a+previews+LIB.stations+b);
+bgPage=bgPage.replace(/<div id="game-index">[\s\S]*?<\/div>/, `<div id="game-index"><ol class="jump-list">${LIB.entries.map(g=>`<li data-game="${g.id}"><a href="#${g.id}">${g.number}. ${g.name}</a></li>`).join("")}</ol></div>`);
+outputs["games.html"]=withStaticNav(bgPage,"games.html");
+let bgAll=bgPage.replace(/(<!-- biggroup:start -->)[\s\S]*?(<!-- biggroup:end -->)/,(_,a,b)=>a+LIB.entries.map(g=>g.html.replace(/gcard collapsed/g,"gcard")).join("\n")+LIB.stations+b).replace(/<script src="games\.js[^>]*><\/script>/g,"").replace(/<h1([^>]*)>Big-Group Games<\/h1>/,'<h1$1>Big-Group Games — all full cards</h1>').replace('All full cards (also works without JavaScript)','Back to the fast game list').replace('href="games-all.html"','href="games.html"').replace('Open a card to load its teaching details.','All cards below are ready to read and print.');
+// This static fallback needs no card controls. Full details remain visible on phones.
+bgAll=bgAll.replace(/<div class="gsum">[\s\S]*?<\/div>/g,"").replace(/<div id="game-filters">[\s\S]*?<details class="gindex"/, '<details class="gindex"');
+outputs["games-all.html"]=withStaticNav(bgAll,"games-all.html");
+Object.assign(outputs, require("./new-games-build.js")(ROOT));
+report.push(`Big-Group: ${LIB.entries.length} preview cards; teaching details split into ${LIB.entries.length} on-demand HTML fragments`);
 const SEARCH = [];
 const pegBy = {};
 ((W.PEG_HANDBOOK && W.PEG_HANDBOOK.games) || []).forEach((h) => { (pegBy[h.card] = pegBy[h.card] || []).push(h.name); });
@@ -867,7 +887,15 @@ BG_LIST.forEach((g) => {
 });
 (W.WARMUP_NOGYM_GAMES || []).forEach((g) => { SEARCH.push([g.title, "w", g.id, oldNames(g.title).join(" ")]); });
 (W.DODGE_GAMES || []).forEach((g) => { SEARCH.push([g.name, "d", g.slug, oldNames(g.name).join(" ")]); });
-outputs["search-index.js"] = `/* Generated by tools/build.js — do not edit by hand. [title, page (b=Big-Group, n=New, w=Warm Up, d=Dodgeball), anchor, other names] */\nwindow.GAME_INDEX = [\n${SEARCH.map((e) => JSON.stringify(e)).join(",\n")}\n];\n`;
+(W.K_PE.lessons || []).forEach((l,i) => SEARCH.push([l.t, "k", `k${i+1}`, `Kindergarten ${l.m} ${strip(l.game || "")} ${strip(l.wu || "")}`]));
+vm.runInContext(read("indigenous-data.js"), sandbox, {filename:"indigenous-data.js"});
+(W.INDIGENOUS_GAMES || []).forEach(g=>SEARCH.push([g.name,"i",gslug(g.name),[g.nation,g.when,g.purpose].join(" ")]));
+SY.peWeekList().forEach(w=> {
+ const picks=JSON.parse(read("games-of-the-week.json")).picks[w.month][String(w.w)];
+ SEARCH.push([`Week ${w.schoolWeek} · ${w.range} · ${w.month}`,"g",`week-${w.schoolWeek}`,[w.month,w.unit, ...Object.values(picks).flat().map(p=>p[0])].filter(Boolean).join(" ")]);
+});
+outputs["games-search.json"] = JSON.stringify(Object.fromEntries(LIB.entries.map(g=>[g.id,g.hay])));
+outputs["search-index.js"] = `/* Generated by tools/build.js — do not edit by hand. [title, page (b=Big-Group, n=New, w=Warm Up, d=Dodgeball, k=Kindergarten, i=Indigenous, g=Games of the Week), anchor, other names] */\nwindow.GAME_INDEX = [\n${SEARCH.map((e) => JSON.stringify(e)).join(",\n")}\n];\n`;
 report.push(`search-index.js: ${SEARCH.length} games (${(outputs["search-index.js"].length / 1024).toFixed(1)} KB)`);
 
 // ---- duplicate titles across pages (warning only; never fails the build)
@@ -930,6 +958,11 @@ fs.readdirSync(ROOT).filter((f) => f.endsWith(".html") && !SKIP.has(f) && !/^mon
   if (!/<header class="site">[\s\S]*?<nav\b/.test(html)) return;
   if (f === "games-hub.html") html = fillCounts(html);
   if (f === "downloads.html") html = fillDownloads(html);
+  if (f === "downloads.html" || f === "games-of-the-week.html") {
+    const terms = `<span class="gotw-term-links">Term PDFs: ${GOTW.printData.terms.map(({n,label})=>`<a href="${GOTW.printData.file}-Term-${n}.pdf" download>Term ${n} · ${label}</a>`).join(" · ")}</span>`;
+    if (html.includes("<!-- gotw-terms:start -->")) html=html.replace(/(<!-- gotw-terms:start -->)[\s\S]*?(<!-- gotw-terms:end -->)/, (_,a,b)=>a+terms+b);
+    else html=html.replace(new RegExp(`(<a[^>]*href="${GOTW.printData.file}\\.pdf"[^>]*>[\\s\\S]*?<\\/a>)`), '$1 <br><!-- gotw-terms:start -->'+terms+'<!-- gotw-terms:end -->');
+  }
   if (f === "weekly-plans.html") html = between(html, "weekly-plans", WEEKLY.html);
   if (f === "games-of-the-week.html") html = between(html, "gotw-year", GOTW.html).replace(/Games-of-the-Week-[\d-]+\.(pdf|docx)/g, `${GOTW.printData.file}.$1`);
   outputs[f] = withStaticNav(html, f);
@@ -949,9 +982,16 @@ function fileVer(name) {
 }
 const FONT_PRELOAD = ["figtree-latin", "newsreader-latin"].map((f) => `  <link rel="preload" href="fonts/${f}.woff2" as="font" type="font/woff2" crossorigin />`).join("\n");
 function finalize(html) {
+  html=html.replace(/[ \t]+$/gm, "");
   html = html.replace(/[ \t]*<link rel="preconnect" href="https:\/\/fonts\.(googleapis|gstatic)\.com"[^>]*>\n?/g, "")
              .replace(/[ \t]*<link rel="stylesheet" href="https:\/\/fonts\.googleapis\.com[^>]*>\n?/g, "");
   if (!html.includes("fonts/figtree-latin.woff2")) html = html.replace(/([ \t]*)(<link rel="stylesheet" href="styles\.css)/, `${FONT_PRELOAD}\n$1$2`);
+  html = html.replace(/<table class="games"[\s\S]*?<\/table>/g, table => {
+    const h = [...table.matchAll(/<th(?:\s[^>]*)?>([\s\S]*?)<\/th>/g)].map(m => esc(strip(m[1])));
+    return table.replace(/<tr(?:\s[^>]*)?>[\s\S]*?<\/tr>/g, row => {
+      let i = 0; return row.replace(/<td(\s[^>]*)?>/g, (m,attrs) => `<td${(attrs || "").replace(/\sdata-label="[^"]*"/g, "")} data-label="${h[i++] || ""}">`);
+    });
+  });
   return html.replace(/(<script\b[^>]*?\bsrc="|<link\b[^>]*?\bhref=")([\w.\/-]+\.(?:js|css))(?:\?v=[\w]*)?"/g, (m, pre, f) =>
     fs.existsSync(path.join(ROOT, f)) ? `${pre}${f}?v=${fileVer(f)}"` : m);
 }
@@ -964,7 +1004,7 @@ for (let [f, content] of Object.entries(outputs)) {
   const cur = fs.existsSync(p) ? fs.readFileSync(p, "utf8") : null;
   if (cur === content) continue;
   if (CHECK) stale.push(f);
-  else { fs.writeFileSync(p, content); console.log("wrote", f); }
+  else { fs.mkdirSync(path.dirname(p), {recursive:true}); fs.writeFileSync(p, content); console.log("wrote", f); }
 }
 
 // ------------------------------------- Games of the Week printable downloads (PDF + Word), only when the content changed
@@ -973,7 +1013,7 @@ for (let [f, content] of Object.entries(outputs)) {
   const hash = crypto.createHash("sha1").update(JSON.stringify(G)).update(finalize(GOTW.printHtml))
     .update(["gotw-print.css", "gotw-print.js", "tools/gotw-print.py"].map((f) => read(f)).join("\n")).digest("hex");
   const have = fs.existsSync(sumFile) ? fs.readFileSync(sumFile, "utf8").trim() : "";
-  const missing = [".pdf", ".docx"].filter((x) => !fs.existsSync(path.join(ROOT, G.file + x)));
+  const missing = [".pdf", ".docx", ...G.terms.map(t=>`-Term-${t.n}.pdf`)].filter((x) => !fs.existsSync(path.join(ROOT, G.file + x)));
   if (have !== hash || missing.length) {
     if (CHECK) stale.push(G.file + ".pdf / .docx (Games of the Week printable)");
     else {

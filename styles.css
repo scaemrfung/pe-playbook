@@ -1147,3 +1147,30 @@ table.k-sheet td:last-child { min-width: 90px; }
 .gotw-nav .gotw-print-btn { margin-left: auto; }
 @media print { .gotw-nav, .gotw-print-links, .gotw-print-note { display: none !important; } .gotw-month { break-inside: avoid; } }
 .nowrap { white-space: nowrap; }
+
+/* Round 2: native folding phone menu; no horizontally swiped navigation. */
+.mobile-menu { display:none; border-bottom:1px solid var(--line); }
+@media screen and (max-width:980px) {
+ .mobile-menu { display:block; }
+ .mobile-menu > summary { cursor:pointer; padding:12px 16px; font-weight:700; min-height:44px; }
+ .mobile-menu .mobile-nav { flex-wrap:wrap; overflow:visible; border:0; }
+ .mobile-menu .mobile-nav a { min-height:44px; display:flex; align-items:center; }
+}
+@media print { .mobile-menu { display:none!important; } }
+/* Month tables become labelled cards only on phones; print and desktop keep the table. */
+@media screen and (max-width:640px) {
+ body[data-page="month"] .table-scroll { overflow:visible; }
+ body[data-page="month"] table.games, body[data-page="month"] #month-games table.games { display:block; min-width:0; width:100%; }
+ body[data-page="month"] table.games thead { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+ body[data-page="month"] table.games tbody, body[data-page="month"] table.games tr { display:block; }
+ body[data-page="month"] table.games tr { margin:0 0 12px; border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+ body[data-page="month"] table.games td { display:block; width:auto!important; min-width:0; overflow-wrap:anywhere; padding:9px 12px; }
+ body[data-page="month"] table.games td::before { content:attr(data-label); display:block; font-weight:700; color:var(--navy); margin-bottom:3px; }
+}
+.bg-preview .load-game { margin-top:8px; }
+.bg-preview [hidden] { display:none; }
+.game-load-error { color:#7d231c; }
+
+.gotw-term-links { display:block; font-size:.9rem; margin:8px 0; }
+.dl-row:has(.gotw-term-links) { flex-wrap:wrap; }
+.dl-row .gotw-term-links { flex:1 1 100%; }

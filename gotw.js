@@ -15,7 +15,7 @@
     function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
     var MON = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
     var DOW = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    function brName(n) { return /christmas/i.test(n) ? "Winter Break" : n; } // no holiday names
+    function brName(n) { return /christmas/i.test(n) ? "School break" : n; } // no holiday names
     function longDay(k) { var d = new Date(parse(k)); return DOW[d.getUTCDay()] + " " + MON[d.getUTCMonth()] + " " + d.getUTCDate(); }
 
     var today = SY && SY.todayISO ? SY.todayISO() : iso(Date.now());
