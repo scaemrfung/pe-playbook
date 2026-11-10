@@ -1,5 +1,6 @@
 /* Downloads page: swap the baked "latest plan" for the plan of the current school week
-   (same date logic as the homepage; ?today=YYYY-MM-DD previews another date). */
+   (same date logic as the homepage, including Saturday rollover in America/Edmonton;
+   ?today=YYYY-MM-DD previews another date). */
 (function () {
   var SY = window.SCHOOL_YEAR, box = document.getElementById("dl-this");
   if (!SY || !SY.status || !box) return;

@@ -59,8 +59,12 @@
 })();
 
 /* What's New This Week (red box at the top of the homepage) follows the date: the
-   plan whose `week` (Monday) matches the current school week from school-year.js.
-   ?today=YYYY-MM-DD previews another date. */
+   plan whose `week` (Monday) matches the current school week. Same Saturday
+   rollover as Games of the Week (gotw-home.js / school-year.js status): from
+   Saturday (America/Edmonton) the coming week shows, so Sat/Sun roll forward to
+   next Monday. Weekends use a "Coming up:" lead. Breaks show the plan for the
+   week back; a week with no plan yet falls back to the month page. ?today=YYYY-MM-DD
+   previews another date. */
 (function () {
   var body = document.getElementById("whats-new-body");
   if (!body) return;
@@ -81,6 +85,8 @@
   }
   if (!SY || !SY.status) { body.innerHTML = planHTML(plans[0]); return; }
   var today = SY.todayISO();
+  // Same weekend rule as gotw-home.js: Sat/Sun belong to the coming Monday.
+  function isWeekend(k) { var p = /^(\d{4})-(\d{2})-(\d{2})$/.exec(k); if (!p) return false; var d = new Date(Date.UTC(+p[1], +p[2] - 1, +p[3])).getUTCDay(); return d === 6 || d === 0; }
   var st = SY.status(today);
   var pe = SY.peWeek ? SY.peWeek(today) : null;
   var week = st.week;
@@ -92,7 +98,8 @@
     return;
   }
   var lead = st.kind === "break" || st.kind === "before"
-    ? '<p class="whats-new-note"><strong>' + esc(st.message.replace(/ with Week \d+\.$/, ".")) + "</strong> Next week's plan:</p>" : "";
+    ? '<p class="whats-new-note"><strong>' + esc(st.message.replace(/ with Week \d+\.$/, ".")) + "</strong> Next week's plan:</p>"
+    : (isWeekend(today) ? '<p class="whats-new-note">Coming up this week (starts Monday):</p>' : "");
   var plan = plans.find(function (p) { return p.week === week.monday; });
   if (plan) { body.innerHTML = planHTML(plan, lead); return; }
   // School-year week name (Week 5 · Football) and its month (the month it starts in); the button opens that week.

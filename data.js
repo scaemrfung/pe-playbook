@@ -1413,7 +1413,7 @@ const months = [
         "focus": "Close the net block",
         "wu": "Easy keep-up.",
         "skill": "Buffet of Newcomb and keep-it-up.",
-        "game": "Balloon keep-up station if you need a gentle closer.",
+        "game": "Beach Ball or Scarf keep-up station if you need a gentle closer.",
         "cd": "Thank a caller.",
         "g12": "Catch",
         "g34": "Mix",
@@ -2601,7 +2601,7 @@ const MONTH_GAMES = {
       "Choose a space. A called corner stays in the game."
     ],
     [
-      "Balloon Keep-Up",
+      "Beach Ball or Scarf Keep-Up",
       "",
       "Toss-catch and timing. Circus lead-up."
     ],

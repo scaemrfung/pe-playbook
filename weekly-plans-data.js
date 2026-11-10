@@ -1,7 +1,8 @@
 /* Teacher download list for weekly PE plans (from PE Game Ideas).
    Newest → oldest. `week` is the Monday of the school week the plan is for (YYYY-MM-DD).
    The home page “What’s New This Week” box picks the plan for the current week by date
-   (school-year.js; ?today=YYYY-MM-DD to preview another date). No need to mark one as featured. */
+   (school-year.js, rolling over on Saturday like Games of the Week; ?today=YYYY-MM-DD
+   to preview another date). No need to mark one as featured. */
 window.WEEKLY_PLANS = [
   {
     week: "2026-11-02",

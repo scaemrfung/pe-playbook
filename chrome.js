@@ -21,7 +21,13 @@
  "Ultimate Warriors": "Three-Court Dodgeball",
  "Crazy Ball Soccer": "Wild Ball Soccer",
  "Crazy Beans": "Jumping Beans",
- "Crazy beans": "Jumping beans"
+ "Crazy beans": "Jumping beans",
+ "Balloon Keep-Up": "Beach Ball or Scarf Keep-Up",
+ "Balloon Keep-Ups": "Beach Ball or Scarf Keep-Up",
+ "Balloon Keep-Up station": "Beach Ball or Scarf Keep-Up",
+ "Balloon keep-up station": "Beach Ball or Scarf keep-up station",
+ "Gymball Dodgeball Mayhem": "Beach Ball Dodgeball Mayhem",
+ "Dice Dribblers": "Dice Wave Dribble"
 };
   var IDS = {
  "hula-hut-knock-down": "hoop-hut-knock-down",
@@ -39,7 +45,12 @@
  "rikki-tikki": "mongoose-tag",
  "chinese-wall": "castle-wall",
  "gauntlet-run": "dodge-lane",
- "gauntlet": "dodge-lane"
+ "gauntlet": "dodge-lane",
+ "balloon-keep-up": "beach-ball-or-scarf-keep-up",
+ "balloon-keep-ups": "beach-ball-or-scarf-keep-up",
+ "balloon-keep-up-station": "beach-ball-or-scarf-keep-up-station",
+ "gymball-dodgeball-mayhem": "beach-ball-dodgeball-mayhem",
+ "dice-dribblers": "dice-wave-dribble"
 };
   window.RENAMED_GAMES = NAMES;
   window.oldNamesFor = function (name) {
@@ -266,7 +277,7 @@
 
   /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
      before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
-  const SITE_UPDATED = "2026-11-10T00:21:50Z";
+  const SITE_UPDATED = "2026-11-10T03:03:12Z";
   function ensureUpdatedStamp() {
     if (document.querySelector(".site-updated-stamp")) return;
     const el = document.createElement("div");

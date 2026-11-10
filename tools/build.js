@@ -118,6 +118,12 @@ const ALIASES = {
   "Chuck the Chicken": "Chuck the Chicken", "Wall Soccer": "Wall Soccer", "Skittles": "Skittles",
   "Hospital Tag": "Hospital Tag", "Hot Dog Tag": "Hot Dog Tag", "Blob Tag": "Blob Tag",
   "Octopus": "Octopus", "Sharks and Dolphins": "Sharks and Dolphins",
+  "Balloon Keep-Up": "Beach Ball or Scarf Keep-Up",
+  "Balloon Keep-Ups": "Beach Ball or Scarf Keep-Up",
+  "Balloon Keep-Up station": "Beach Ball or Scarf Keep-Up",
+  "Balloon keep-up station": "Beach Ball or Scarf keep-up station",
+  "Gymball Dodgeball Mayhem": "Beach Ball Dodgeball Mayhem",
+  "Dice Dribblers": "Dice Wave Dribble",
 };
 const DETAILS = [].concat(W.GAME_DETAILS || [], W.K2_DETAILS || [], W.G36_DETAILS || [], W.SKILL_DETAILS || [], W.BG30_DETAILS || [], W.DALY_DETAILS || [], W.PEG_DETAILS || []);
 const NAMES = new Set(Object.keys(EXTRAS));
@@ -655,7 +661,7 @@ if (fs.existsSync(path.join(ROOT, "kindergarten-data.js"))) {
         </div>
         <ul>
           <li><strong>Entry:</strong> children walk in and sit on the centre line (or a poly spot). Take attendance there.</li>
-          <li><strong>Stop signal:</strong> one drum beat or whistle, and you say “Freeze.” Children stop, hands on knees, eyes on you. Practise it in every warm-up.</li>
+          <li><strong>Stop signal:</strong> one whistle or clap, and you say “Freeze.” Children stop, hands on knees, eyes on you. Practise it in every warm-up.</li>
           <li><strong>Boundaries:</strong> set a cone line about 2 m in from every wall. Children stop at the cones, never at the wall. The tall walls have letters on them; use them for directions (“Walk to the B wall”).</li>
           <li><strong>Tag rules:</strong> two-finger tag on the shoulder or back. Walk-tag first, then jog. Change taggers every 45–90 seconds. A tagged child does 5 jumps or gets a friend’s high-five and keeps playing.</li>
           <li><strong>Show, then go:</strong> model every game with 2–3 children before the class plays. Give one rule at a time.</li>

@@ -15,7 +15,7 @@ window.BG30_MONTH = {
     ["Low-ball", "", "Dodgeballs, below the waist. A hit is a 10-second stretch, then back in."],
     ["Guard the Cone", "", "Three defenders hold hands around a cone. Attackers pass a soccer or playground ball to knock it."],
     ["Steal the Bacon", "", "Use a football as the bacon."],
-    ["Balloon Keep-Up", "", "Keep a shared beach ball or scarf up. Circus / keep-it-up without the parachute."],
+    ["Beach Ball or Scarf Keep-Up", "", "Keep a shared beach ball or scarf up. Circus / keep-it-up without the parachute."],
     ["Hoop Balance", "", "Carry a hoop between two stomachs, no hands, drop it over a cone."],
   ],
   November: [
@@ -68,7 +68,7 @@ window.BG30_MONTH = {
     ["Pulse Race", "", "Hands on the chute edge, or sitting lines if the chute is away."],
     ["Human Catapult", "", "Sit-up throw. Soft ball. Volleyball-shape accuracy."],
     ["Reaction Speed", "", "Drop-catch in threes while you wait for a court."],
-    ["Balloon Keep-Up", "", "Keep-it-up with a beach ball or scarf. Catch is legal in 1–2."],
+    ["Beach Ball or Scarf Keep-Up", "", "Keep-it-up with a beach ball or scarf. Catch is legal in 1–2."],
     ["Hand Tennis", "", "One-bounce net game. Small volleyball court without a real net."],
     ["Catch Clap", "", "Clap once, then catch. Fake throw plus clap is a miss — then rejoin."]
   ],

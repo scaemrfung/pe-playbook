@@ -23,7 +23,7 @@ window.K2_MONTH_GAMES = {
     ["Quick Baseball", "", "Tee or coach toss. Hit, run to one hoop and back. Fielders throw to the tee to stop the run. Everyone hits."]
   ],
   December: [
-    ["Follow the Leader", "", "Lines of 4. Leader chooses a locomotor or shape. Switch leaders every 20 seconds on the drum."],
+    ["Follow the Leader", "", "Lines of 4. Leader chooses a locomotor or shape. Switch leaders every 20 seconds on the whistle."],
     ["Silly Bananas", "", "Move like the called fruit or animal. Freeze in a shape on ‘peel.’ Use as a rhythm warm-up."],
     ["Shadow Tag", "", "Tag by stepping on a shadow (or a poly-spot ‘shadow’ indoors). Soft feet. Switch taggers often."]
   ],
@@ -37,7 +37,7 @@ window.K2_MONTH_GAMES = {
     ["Slippery Snakes", "", "Long ropes on the floor wiggle slowly. Jump or step over. G1–2 walk the snake."]
   ],
   March: [
-    ["Balloon Keep-Up", "", "Beach ball or balloon. Class or small groups keep it up. Count a class record. Drops restart the count, not the player."],
+    ["Beach Ball or Scarf Keep-Up", "", "Beach ball or scarf. Class or small groups keep it up. Count a class record. Drops restart the count, not the player."],
     ["Back to Base", "", "On the whistle, everyone returns to a home hoop. Last group leads the next stretch. Use after a circus station."]
   ],
   April: [
@@ -448,15 +448,15 @@ window.K2_DETAILS = [
   slot: "16–25"
 },
 {
-  name: "Balloon Keep-Up", source: "", months: ["March"],
+  name: "Beach Ball or Scarf Keep-Up", source: "", months: ["March"],
   purpose: "Toss-catch and timing. Circus lead-up.",
-  equipment: "Balloons or a beach ball.",
-  setup: "Small groups or one class balloon.",
+  equipment: "Juggling scarves or a beach ball.",
+  setup: "Small groups or one class beach ball or scarf.",
   play: [
     "Keep it up. Count hits.",
     "A drop restarts the count, not the person."
   ],
-  g12: "Balloon. Two hands.",
+  g12: "Scarf or beach ball. Two hands.",
   g34: "Beach ball. Add a clap.",
   g56: "Class record. Weak hand only.",
   safety: "No heading hard balls. Latex allergy: use a beach ball.",

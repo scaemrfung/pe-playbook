@@ -924,7 +924,7 @@ window.VIDEOS = [
     "channel": "CIRAOntario",
     "about": "Circle keep-up with balloons; add balloons or limits for a challenge.",
     "games": [
-      "Balloon Keep-Up"
+      "Beach Ball or Scarf Keep-Up"
     ]
   },
   {

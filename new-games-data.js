@@ -2302,6 +2302,12 @@ window.NEW_GAMES = {
    "id": "dice-wave-dribble",
    "added": "baseline",
    "name": "Dice Wave Dribble",
+   "aka": [
+    "Dice Dribblers"
+   ],
+   "aliases": [
+    "dice-dribblers"
+   ],
    "section": "Invasion / soccer–basketball–football",
    "desc": "Die roll sends a group’s dribble wave",
    "sports": "basketball, soccer, hockey",
@@ -2322,6 +2328,10 @@ window.NEW_GAMES = {
    "typeLabel": "Invasion & team",
    "slot": "16–25",
    "grouping": "Two teams or 4v4 waves · 4–6 minute periods · extra players are walls, bumpers, or the next wave",
+   "variations": [
+    "Put number posters on the walls (also called Dice Dribblers).",
+    "If you roll a 5, that group shifts left. If you roll a 6, that group shifts right."
+   ],
    "cues": [
     "Roll the die.",
     "The group with that number dribbles to the far line and back (a ‘wave’).",
@@ -4325,11 +4335,17 @@ window.NEW_GAMES = {
    "safety": "Only the batter/kicker swings or kicks. Fielders stand well back and wait for GO."
   },
   {
-   "id": "gymball-dodgeball-mayhem",
+   "id": "beach-ball-dodgeball-mayhem",
    "added": "baseline",
-   "name": "Gymball Dodgeball Mayhem",
+   "name": "Beach Ball Dodgeball Mayhem",
+   "oldNames": [
+    "Gymball Dodgeball Mayhem"
+   ],
+   "aliases": [
+    "gymball-dodgeball-mayhem"
+   ],
    "section": "Dodgeball-style (stay-in)",
-   "desc": "Large gym balls; middle players dodge throws from outside",
+   "desc": "Beach balls or playground balls; middle players dodge throws from outside",
    "sports": "dodgeball",
    "flag": "use immediate re-entry",
    "stayIn": false,
@@ -4361,18 +4377,18 @@ window.NEW_GAMES = {
    ],
    "roundEnds": "Timed rounds or when the targets are down. Count, reset, rotate jobs.",
    "tips": [
-    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Gymball Dodgeball Mayhem.",
+    "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Beach Ball Dodgeball Mayhem.",
     "Watch for fetchers walking through the throwing line. Make them a job to the side.",
     "Year plan: December — match the month’s sport ball when you can."
    ],
    "outcomes": [
     {
      "code": "Active Living",
-     "look": "Stays in Gymball Dodgeball Mayhem for the set time; can name breath or enjoyment after — not a ranking."
+     "look": "Stays in Beach Ball Dodgeball Mayhem for the set time; can name breath or enjoyment after — not a ranking."
     },
     {
      "code": "Movement Skill Development",
-     "look": "Uses the taught action in Gymball Dodgeball Mayhem with control, not a rush that knocks kit or people."
+     "look": "Uses the taught action in Beach Ball Dodgeball Mayhem with control, not a rush that knocks kit or people."
     },
     {
      "code": "Skill focus",
@@ -4420,7 +4436,7 @@ window.NEW_GAMES = {
    "safety": "Large balls rolled or tossed low; immediate re-entry.",
    "bestBand": "3–4",
    "alsoBand": "5–6",
-   "bandWhy": "Big gym balls rolled at the middle; dodging and quick swaps."
+   "bandWhy": "Beach balls or playground balls rolled at the middle; dodging and quick swaps."
   },
   {
    "id": "pace-lap",

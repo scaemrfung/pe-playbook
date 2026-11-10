@@ -30,7 +30,7 @@ window.SKILL_MONTH_GAMES = {
     ["Racquet waiter", "", "Beanbag on a racquet or hoop to a cone, then toss into a hoop."]
   ],
   March: [
-    ["Balloon keep-up station", "", "Keep a scarf or beach ball up with either hand — no catch. Count hits."]
+    ["Beach Ball or Scarf keep-up station", "", "Keep a scarf or beach ball up with either hand — no catch. Count hits."]
   ],
   April: [
     ["Floor rope walk", "", "Walk a rope or court line. Airplane arms. Step off to a stick."],
@@ -136,7 +136,7 @@ window.SKILL_DETAILS = [
     play: ["Bag on the racquet or hoop to the cone. Toss into the target. Three tries."],
     g12: "Carry with two hands.", g34: "One-hand waiter.", g56: "Walk around a cone before the toss.",
     safety: "No swinging at people." },
-  { name: "Balloon keep-up station", months: ["March"], purpose: "Strike without a catch.",
+  { name: "Beach Ball or Scarf keep-up station", months: ["March"], purpose: "Strike without a catch.",
     equipment: "One juggling scarf or beach ball per pair.",
     setup: "Pairs in a square.",
     play: ["Hit, do not catch. Count hits. A drop restarts the count, not the player."],

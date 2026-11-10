@@ -3735,7 +3735,7 @@ window.GAME_DETAILS = [
     ]
   },
   {
-    "name": "Balloon Keep-Up",
+    "name": "Beach Ball or Scarf Keep-Up",
     "source": "",
     "months": [
       "March",
@@ -3770,6 +3770,7 @@ window.GAME_DETAILS = [
       "Seated chairs."
     ],
     "aka": [
+      "Balloon Keep-Up",
       "Balloon Keep-Ups",
       "Balloon Keep-Up station"
     ]

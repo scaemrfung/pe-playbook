@@ -7752,7 +7752,7 @@ window.GAME_EXTRAS = {
     ],
     "aka": ["On/Off"]
   },
-  "Balloon Keep-Up": {
+  "Beach Ball or Scarf Keep-Up": {
     "numbers": "Circles of 4–8 · one beach ball or scarf per circle · optional noodles or rulers",
     "cues": [
       "Call it.",
@@ -7768,11 +7768,11 @@ window.GAME_EXTRAS = {
       "Second beach ball or scarf.",
       "Seated chairs."
     ],
-    "look": "Everyone is moving or has a job in Balloon Keep-Up. A miss is a short task, then back in — nobody sits the period.",
+    "look": "Everyone is moving or has a job in Beach Ball or Scarf Keep-Up. A miss is a short task, then back in — nobody sits the period.",
     "outcomes": [
       {
         "code": "Active Living",
-        "look": "Stays in Balloon Keep-Up for the set time; can name breath or enjoyment after — not a ranking."
+        "look": "Stays in Beach Ball or Scarf Keep-Up for the set time; can name breath or enjoyment after — not a ranking."
       },
       {
         "code": "Movement Skill Development",
@@ -7805,7 +7805,7 @@ window.GAME_EXTRAS = {
       "If this happens — Hard swat: sit one restart, then rejoin.",
       "If this happens — Sticks clash: widen the circle.",
       "If this happens — Ball or scarf leaves the circle: retrieve and restart that count.",
-      "Also called: Balloon Keep-Ups; Balloon Keep-Up station.",
+      "Also called: Balloon Keep-Up; Balloon Keep-Ups; Balloon Keep-Up station.",
       "House rules: Freeze on the whistle. A miss is a short task and you stay in. Extra players get a job (bumper, next wave, fetcher). No elimination."
     ],
     "ifThis": [
@@ -7821,6 +7821,7 @@ window.GAME_EXTRAS = {
       "Seated chairs."
     ],
     "aka": [
+      "Balloon Keep-Up",
       "Balloon Keep-Ups",
       "Balloon Keep-Up station"
     ]
