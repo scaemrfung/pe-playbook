@@ -416,6 +416,23 @@ const SKILLM = window.SKILL_MONTH_GAMES || {};
     }
     if (q) q.addEventListener("input", render);
     render();
+    function fillVideos() {
+      if (!window.VIDEOS || !box) return;
+      box.querySelectorAll("article.gcard:not(.gcard-link)").forEach(function (card) {
+        if (card.querySelector(".yt")) return;
+        var h2 = card.querySelector("h2");
+        if (!h2) return;
+        var name = h2.textContent.replace(/^\d+\.\s*/, "");
+        var html = videoHtml(name);
+        if (!html) return;
+        var target = card.querySelector("details.peg") || card.querySelector(".outcomes-box") || card.querySelector(".bands-block");
+        if (!target) return;
+        var tmp = document.createElement("div");
+        tmp.innerHTML = html;
+        while (tmp.firstChild) target.parentNode.insertBefore(tmp.firstChild, target);
+      });
+    }
+    if (window.loadScriptOnce) window.loadScriptOnce("youtube-data.js", fillVideos);
     // tap a card's summary (or its title, on a phone) to open / close it
     box.addEventListener("click", (e) => {
       const card = e.target.closest(".gcard");

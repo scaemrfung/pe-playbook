@@ -277,6 +277,7 @@
     var openIds = {};   // cards opened with "Show details" (kept when the view changes)
     var draw = function () { el.innerHTML = render(data, view, { compact: true, open: openIds }); };
     draw();
+    el.classList.add("ng-ready");
     function setOpen(c, on) {
       if (!c) return;
       var m = c.querySelector(".ng-more"), b = c.querySelector(".ng-toggle");

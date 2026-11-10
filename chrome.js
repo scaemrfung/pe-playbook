@@ -66,7 +66,7 @@
   window.addEventListener("hashchange", function () { fix(true); });
 })();
 (function () {
-  if (!document.querySelector('link[href="palette.css"]')) {
+  if (!document.querySelector('link[href^="palette.css"]')) {
     const pal = document.createElement("link");
     pal.rel = "stylesheet";
     pal.href = "palette.css";
@@ -277,7 +277,47 @@
 
   /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
      before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
-  const SITE_UPDATED = "2026-11-10T03:03:12Z";
+  const SITE_UPDATED = "2026-11-10T03:33:09Z";
+  window.SITE_UPDATED = SITE_UPDATED;
+  (function () {
+    var ver = String(SITE_UPDATED || "").replace(/\D/g, "");
+    var pal = document.querySelector('link[href^="palette.css"]');
+    if (pal) {
+      if ((pal.getAttribute("href") || "").indexOf("?v=") < 0) pal.setAttribute("href", "palette.css?v=" + ver);
+    } else {
+      pal = document.createElement("link");
+      pal.rel = "stylesheet";
+      pal.href = "palette.css?v=" + ver;
+      document.head.appendChild(pal);
+    }
+  })();
+  window.loadScriptOnce = function (src, done) {
+    var base = String(src).split("?")[0];
+    var bag = window.__peScripts || (window.__peScripts = {});
+    if (bag[base] === true) { if (done) done(); return; }
+    if (Array.isArray(bag[base])) { if (done) bag[base].push(done); return; }
+    bag[base] = done ? [done] : [];
+    var s = document.createElement("script");
+    s.src = base + "?v=" + String(window.SITE_UPDATED || "").replace(/\D/g, "");
+    s.onload = function () {
+      var cbs = bag[base];
+      bag[base] = true;
+      if (Array.isArray(cbs)) cbs.forEach(function (cb) { if (cb) cb(); });
+    };
+    s.onerror = function () { bag[base] = []; };
+    document.head.appendChild(s);
+  };
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest && e.target.closest("button.print-card");
+    if (!btn || window.PrintCard) return;
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+    var card = btn.closest("article.gcard");
+    window.loadScriptOnce("print-card.js", function () {
+      if (window.PrintCard) window.PrintCard.print(card);
+    });
+  }, true);
   function ensureUpdatedStamp() {
     if (document.querySelector(".site-updated-stamp")) return;
     const el = document.createElement("div");

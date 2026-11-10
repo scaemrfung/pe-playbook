@@ -7,8 +7,12 @@
   <meta name="description" content="Games newly added to the SCA PE Games Library this week, with how-to-play cards, a suggested unit and grade band, plus an archive by week." />
   <link rel="preload" href="fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="styles.css?v=da544cb1" />
+  <link rel="preload" href="new-games-data.js?v=2259d707" as="script" />
+  <link rel="stylesheet" href="styles.css?v=dc44b9fd" />
+  <link rel="stylesheet" href="print.css?v=4161c3b0" media="print" />
+  <script>document.documentElement.classList.add("js");setTimeout(function(){var el=document.getElementById("ng-root");if(el)el.classList.add("ng-ready");},4000);</script>
   <style>
+    html.js #ng-root:not(.ng-ready) { display: none; }
     .ng-kicker { margin: 0 0 4px; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--navy); }
     .ng-this-week { border-left: 5px solid var(--navy); }
     .ng-this-week h2 { margin: 0 0 6px; color: var(--navy); }
@@ -308,9 +312,8 @@
       <!-- newgames:end -->
     </div>
   </main>
-  <script src="chrome.js?v=dbcda6db"></script>
-  <script src="new-games-data.js?v=2259d707"></script>
-  <script src="print-card.js?v=5c2e0975"></script>
-  <script src="new-games.js?v=a404ad39"></script>
+  <script src="chrome.js?v=7c30562a" defer></script>
+  <script src="new-games-data.js?v=2259d707" defer></script>
+  <script src="new-games.js?v=3705a33e" defer></script>
 </body>
 </html>
