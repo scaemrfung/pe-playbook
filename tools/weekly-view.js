@@ -95,18 +95,29 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
   /** Card names in the text, in order (a name must start with a capital letter in the plan). */
   function findGames(text) {
     const found = [];
-    String(text).replace(KEY_RE, (m, pre, name, off) => {
+    const T = String(text);
+    const hits = [];
+    T.replace(KEY_RE, (m, pre, name, off) => {
+      const at = off + pre.length;
+      // a one-word card name that only starts a sentence ("Switch after 30 seconds.") is plain text, not a game
+      if (!/\s/.test(name) && /[.!?]["”’)]*\s+$/.test(T.slice(0, at)) && !/^\s*[(—–]/.test(T.slice(at + name.length))) return m;
+      const before = T.slice(0, at);
+      hits.push({ name, inParens: (before.match(/\(/g) || []).length > (before.match(/\)/g) || []).length });
+      return m;
+    });
+    // a name only mentioned in brackets ("(X is written for K–4 …)") does not count when the line names another game
+    const outside = hits.filter((h) => !h.inParens);
+    (outside.length ? outside : hits).forEach(({ name }) => {
       if (/^[A-Z]/.test(name)) {
         const c = CARDS.get(name.toLowerCase());
         // keep the name the plan uses; the card it opens may have another name (e.g. Hot Dog Tag -> Frozen Tag)
         if (c && !found.some((x) => x.card === c)) found.push(Object.assign({}, c, { name: name.toLowerCase() === c.name.toLowerCase() ? c.name : name, cardName: c.name, card: c }));
       }
-      return m;
     });
     return found;
   }
 
-  const SLOT_RE = /^(?:\d{1,2}:\d\d\s*[–-]\s*\d{1,2}:\d\d\s+)?((wu|warm-up|skill|game|stations?|mini game|cd)\b[^:]{0,40}):\s*([\s\S]*)$/i;
+  const SLOT_RE = /^(?:\d{1,2}:\d\d\s*[–-]\s*\d{1,2}:\d\d\s+)?((wu|warm-up|skill|game|stations?|mini game|cd)\b[^:]{0,90}):\s*([\s\S]*)$/i;
   const BAND_RE = /^Grades (1–2|3–4|5–6)$/;
   const isLessonLink = (url) => /pe-playbook\/month-[a-z]+\.html#(w\d|week-)/.test(url || "") || /pe-playbook\/month-[a-z]+\.html$/.test(url || "");
   const shortLine = (s, max = 170) => { s = firstSentence(s).replace(/\s+/g, " ").trim(); if (s.length <= max) return s; const cut = s.slice(0, max); return cut.slice(0, cut.lastIndexOf(" ")) + "…"; };
@@ -118,7 +129,7 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
   const remapGone = (u) => u.replace(/(pe-playbook\/)?new-games\.html#([a-z0-9-]+)$/, (m, pre, id) => {
     if (NG_IDS.has(id)) return m;
     const k = [...CARDS.keys()].find((n) => slugOf(n) === id);
-    return k ? (pre ? "https://scaemrfung.github.io/pe-playbook/" : "") + CARDS.get(k).href : m;
+    return k ? (pre ? "pe-playbook/" : "") + CARDS.get(k).href : m;
   });
   const cleanUrl = (u) => remapGone(String(u || "").replace(/([?&])_hl=\d+(&?)/, (m, a, b) => (b ? a : "")).replace(/[?&]$/, ""));
   function parsePlan(file) {
@@ -161,6 +172,8 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
       if (/^Links:/i.test(p.text)) { p.segs.filter((s) => s.url).forEach((s) => day.links.push({ text: s.text.trim(), url: cleanUrl(s.url), band })); continue; }
       const sm = SLOT_RE.exec(p.text);
       if (!sm) continue;
+      // a link written inside the lesson line (e.g. "… Catch and Thaw Tag video") goes on that game's card too
+      p.segs.filter((s) => s.url).forEach((s) => day.links.push({ text: s.text.trim(), url: cleanUrl(s.url), band }));
       const kind = /game/i.test(sm[1]) && !/^mini/i.test(sm[2]) ? (/^mini game/i.test(sm[1]) ? "mini game" : "game") : sm[2].toLowerCase();
       if (kind === "cd") continue;
       const body = sm[3];
@@ -236,7 +249,15 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
     plan.days.forEach((d) => {
       d.dayLinks = [];
       d.links.forEach((l) => {
-        const gname = urlGame.get(l.url) || ((resolve(findGames(l.text)[0]) || {}).name);
+        let gname = urlGame.get(l.url) || ((resolve(findGames(l.text)[0]) || {}).name);
+        if (!gname && !isLessonLink(l.url)) {
+          // a short link name ("Gates & Hurdles video", "Pin knockdown card") -> the one game that day it names
+          const base = norm(l.text.replace(/\s*\([^)]*\)/g, "").replace(/\s+(video|card|rules|demo)$/i, ""));
+          const names = [...new Set(d.items.map((it) => it.g.name))];
+          let hit = base.length >= 6 ? names.filter((n) => norm(n).includes(base)) : [];
+          if (!hit.length) { const w = base.split(" ")[0]; if (w && w.length >= 5) hit = names.filter((n) => norm(n).split(" ")[0] === w); }
+          if (hit.length === 1) gname = hit[0];
+        }
         const inDay = gname && d.items.some((it) => it.g.name === gname);
         if (gname && (inDay || played.has(gname))) pushTo({ name: gname }, { text: l.text, url: l.url });
         else if (!d.dayLinks.some((x) => x.url === l.url)) d.dayLinks.push(l);
