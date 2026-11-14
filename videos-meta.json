@@ -131,6 +131,14 @@
    "checked": "2026-10-18",
    "displayTitle": "NitroBall 2.0: volleyball meets four square"
   },
+  "yt:254CjwCyieY": {
+   "status": "ok",
+   "http": 200,
+   "title": "P.E. Games - Bandits",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=254CjwCyieY",
+   "checked": "2026-11-14"
+  },
   "yt:2Jkr9vHvA9E": {
    "status": "ok",
    "http": 200,
@@ -138,6 +146,14 @@
    "channel": "PhysEdGames",
    "url": "https://www.youtube.com/watch?v=2Jkr9vHvA9E",
    "checked": "2026-09-27"
+  },
+  "yt:2lFcp4JVD-8": {
+   "status": "ok",
+   "http": 200,
+   "title": "P.E. Games - Sinkerball",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=2lFcp4JVD-8",
+   "checked": "2026-11-14"
   },
   "yt:2laMBy7bRmw": {
    "status": "ok",
@@ -484,6 +500,14 @@
    "channel": "Daly Exercise",
    "url": "https://www.youtube.com/watch?v=EsOdkzWL28E",
    "checked": "2026-09-27"
+  },
+  "yt:EzNymlg6EbM": {
+   "status": "ok",
+   "http": 200,
+   "title": "Physed Games - Hawks & Doves",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=EzNymlg6EbM",
+   "checked": "2026-11-14"
   },
   "yt:F_9XyDzD2EQ": {
    "status": "ok",
@@ -894,6 +918,14 @@
    "url": "https://www.youtube.com/watch?v=VYygnMyQKcc",
    "checked": "2026-10-24"
   },
+  "yt:Va_bjQwshV4": {
+   "status": "ok",
+   "http": 200,
+   "title": "Birds In A Nest - Elementary Physical Education Lesson",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=Va_bjQwshV4",
+   "checked": "2026-11-14"
+  },
   "yt:W7L2Z39pLK8": {
    "status": "ok",
    "http": 200,
@@ -1073,6 +1105,14 @@
    "channel": "Prime Coaching Sport",
    "url": "https://www.youtube.com/watch?v=Zzz5BAzCD6Y",
    "checked": "2026-09-27"
+  },
+  "yt:_Khh0aDvvDw": {
+   "status": "ok",
+   "http": 200,
+   "title": "Physed Games - Goalies Galore",
+   "channel": "PhysEdGames",
+   "url": "https://www.youtube.com/watch?v=_Khh0aDvvDw",
+   "checked": "2026-11-14"
   },
   "yt:_QEnsaWZsoM": {
    "status": "ok",
@@ -2126,5 +2166,5 @@
    "reason": "Library link was a generic ‘Quick Game 40’ short; replaced with PhysEdGames’ own Bakery Run Tag demo (the clip physedgames.com uses for this game). Old: “Quick Game 40 (kindergarten - grade 5)”."
   }
  ],
- "lastChecked": "2026-11-01"
+ "lastChecked": "2026-11-14"
 }

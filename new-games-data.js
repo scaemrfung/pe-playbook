@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-11-07",
- "lastUpdatedLabel": "Sat Nov 7, 2026",
+ "lastUpdated": "2026-11-14",
+ "lastUpdatedLabel": "Sat Nov 14, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -15,8 +15,8 @@ window.NEW_GAMES = {
   "lastUpdatedLabel": "Mon Oct 12, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
- "latestWeek": "2026-11-30",
- "docWeek": "2026-11-30",
+ "latestWeek": "2026-12-07",
+ "docWeek": "2026-12-07",
  "dedupe": {
   "excluded": 74,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
@@ -74,6 +74,13 @@ window.NEW_GAMES = {
   }
  ],
  "weeks": [
+  {
+   "key": "2026-12-07",
+   "label": "Week of Dec 7, 2026",
+   "count": 3,
+   "addedOn": "2026-11-14",
+   "addedOnLabel": "Sat Nov 14, 2026"
+  },
   {
    "key": "2026-11-30",
    "label": "Week of Nov 30, 2026",
@@ -8778,6 +8785,346 @@ window.NEW_GAMES = {
    "g12": "Kindergarten–Grade 1: verbal partner switches first. Grade 2 adds signs.",
    "g34": "Add hawks only after calm, agreed walking switches.",
    "g56": "Optional short communication warm-up, partner switches only."
+  },
+  {
+   "id": "goalies-galore",
+   "added": "2026-12-07",
+   "addedOn": "2026-11-14",
+   "name": "Goalies Galore",
+   "source": "PhysEdGames",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://physedgames.com/goalies-galore/",
+    "https://www.youtube.com/watch?v=_Khh0aDvvDw"
+   ],
+   "sources": [
+    "https://physedgames.com/goalies-galore/"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=_Khh0aDvvDw",
+     "title": "Goalies Galore demo",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "videoNote": "Source demo. Use the safety house rules below, not the source’s elimination or wall rules.",
+   "order": 86,
+   "gradesFrom": "doc",
+   "unit": "November",
+   "suggestedMonth": "November",
+   "alsoFits": [
+    "September"
+   ],
+   "slot": "16–30",
+   "setup": "Line up 4 floor hockey nets and 4 small hurdles side by side across one end of the gym, about 1 m apart and about 1 m out from the end wall. Mark a no-go line with saucer pylons about 4.5 m (15 ft) in front of the goals; attackers may not cross it. Team A (goalies): one goalie per goal with a helmet (helmet cap underneath) and a Goalie Stick - Jr. The rest of Team A wait on the side line as the next goalies. Team B (attackers): spread out behind the line with sticks and balls scattered in the attacking area.",
+   "how": [
+    "On \"Go,\" attackers have 2 minutes to score as many goals as they can (source).",
+    "Attackers dribble, pass and shoot from behind the no-go line. Shots stay on the floor (our adaptation).",
+    "A goal counts when the ball goes into a net or under a hurdle.",
+    "After a goal or a save, the goalie sends the ball back into the attacking area with a pass along the floor (source: goalies kick balls back).",
+    "Attackers count their goals out loud as a team.",
+    "After 2 minutes, call \"Freeze. Sticks down.\" Teams switch roles (source). Keep playing as long as you like. Waiting goalies swap in every 30 seconds, passing on the helmet and stick, so everyone on the goalie team takes a turn in goal (our adaptation: his gym has 8 helmets)."
+   ],
+   "ifThis": [
+    "Attackers creep over the line: freeze and reset the line. A repeat means that attacker passes to a teammate before shooting again (our adaptation).",
+    "Raised shots: \"Floor shots only.\" A raised shot does not count (our adaptation).",
+    "Some goalies get no action: ask attackers to spread out and shoot at different goals. Name a \"target goal\" each 30 seconds if needed.",
+    "Balls pile up behind goals: on \"Freeze,\" goalies roll the balls back out."
+   ],
+   "cues": [
+    "Attackers: head up, find an open goal, shoot low.",
+    "Pass to a teammate in a better spot, then shoot.",
+    "Goalies: stick blade on the floor, knees bent, eyes on the ball.",
+    "Goalies: send the ball out with a soft floor pass."
+   ],
+   "variations": [
+    "Grade 3: Use sponge pucks. Move the no-go line to 3–3.5 m. Allow wrist shots only.",
+    "Grades 4–5: Play as on the game page with timed 2-minute rounds.",
+    "Grades 5–6: A goal only counts after one pass between attackers (our adaptation). Or give each attacker 1 ball, then 2 balls for the whole team to share, so passing matters."
+   ],
+   "tips": [
+    "Show one safe wrist shot and one goalie save before starting.",
+    "Ask: \"Which goals were open, and how did you find them?\"",
+    "Soccer version: kick only, from behind the line; goalies use hands or feet (source).",
+    "With about 60: Two games, one at each end of the gym. Each end has 2 nets and 2 hurdle goals, with 4 helmeted goalies (8 helmets in all); the rest of the goalie team rotate in every 30 seconds. Or run two waves of about 30. Attackers face the end wall, never the centre, so the two games shoot away from each other. Keep a 3 m buffer of saucer pylons at centre court. Equipment for 60: sticks are enough (Goalie Stick - Jr 12, Jr. Sticks -36\" 59, Cup Sticks - 47\" 60); helmets 8. Balls: Pucks-balls 41 plus Pucks - sponge 21.",
+    "Support: A student who needs a break can be the goal counter for one end, then rejoin. A student who uses a mobility aid can be a goalie with a hurdle goal and a stick, or shoot from a fixed spot at the line. Use sponge pucks and a shorter line for students who want an easier start (our adaptation).",
+    "Before teaching: check the class medical alert list and ISP supports in the class binder. Demonstrate the stop signal and follow school policy and SPHEReS guidance."
+   ],
+   "roundEnds": "After 2 minutes. Compare team totals, or try to beat last round's total. Every student plays goalie and attacker in each pair of rounds.",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "shoots low with control at an open goal; goalie keeps the blade down and tracks the ball; passes to find a better shot."
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 (tactics) outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 5 (tactics) outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    }
+   ],
+   "safety": "Every goalie wears a helmet (helmets 8, helmet caps underneath) and keeps the stick blade on the floor. Stick blades stay below the knees and shots stay on the floor; a raised shot does not count. Attackers stay behind the no-go line, about 4.5 m out. Use Pucks-balls or sponge pucks only, never hard plastic pucks. Goals 1 m from the end wall and stable, with hurdles at their lowest height. No body contact. With two games, shoot toward the end walls only. Stop signal: “Freeze. Sticks down.”",
+   "equipment": "Standards-hockey nets (4) and Hurdles- 6\" / Hurdles-adjustable (4, set at the lowest height) as a row of 8 goals along one end; helmets (8) with helmet caps for the goalies; Goalie Stick - Jr (8); Jr. Sticks -36\" for attackers; Pucks-balls (12–15) and Pucks - sponge (a few for Grade 3); Pylons - saucer (8–10) for the no-go line. Soccer version: Soccer Balls - indoor or Softex (yellow); no sticks.",
+   "grades": "3–6",
+   "bestBand": "5–6",
+   "alsoBand": "3–4",
+   "bandWhy": "Shooting at an open goal and quick goalie reactions suit Grades 4–6; Grade 3 uses sponge pucks and a shorter line.",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "section": "Floor hockey & stick-handling",
+   "sports": "floor hockey, shooting, goaltending, soccer lead-up, gr 3–6",
+   "grouping": "2 teams of about 12 · 2-minute rounds, switch roles · 10–15 minutes",
+   "desc": "One team guards a row of floor hockey nets and small hurdle goals. The other team shoots low from behind a no-go line for 2 minutes, with lots of balls. Goalies send every ball back out. Then the teams switch. Nobody is out.",
+   "g12": "Not offered for Grades 1–2.",
+   "g34": "Grade 3: sponge pucks and a 3–3.5 m line. Grade 4: timed 2-minute rounds.",
+   "g56": "A goal counts only after one pass between attackers, or share fewer balls."
+  },
+  {
+   "id": "bandits",
+   "added": "2026-12-07",
+   "addedOn": "2026-11-14",
+   "name": "Bandits",
+   "source": "PhysEdGames",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://physedgames.com/bandits/",
+    "https://www.youtube.com/watch?v=254CjwCyieY"
+   ],
+   "sources": [
+    "https://physedgames.com/bandits/"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=254CjwCyieY",
+     "title": "Bandits demo",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "videoNote": "Source demo. Use the safety house rules below: balls go over a pylon line, not into a wall, and nobody sits out.",
+   "order": 87,
+   "gradesFrom": "doc",
+   "unit": "November",
+   "suggestedMonth": "November",
+   "alsoFits": [
+    "September"
+   ],
+   "slot": "16–30",
+   "setup": "Mark a playing area with saucer pylons at least 2 m from the walls and the stage. A pylon line works as the \"wall\" where possible (our adaptation, so balls are not driven hard at the wall). Set a \"hideout\" lane along one sideline with 3–4 saucer pylons in a short zigzag. Choose 2–3 bandits in pinnies. Give every other player a stick and a ball, spread out.",
+   "how": [
+    "On \"Go,\" players dribble around the area, keeping the ball close and looking for open space (source).",
+    "Bandits try to knock a ball away from a player and out over the boundary line (source: kick the ball into a wall).",
+    "Source rule (not used here): a ball knocked out stays out of play. We keep everyone in instead.",
+    "Our no-elimination rule: the player gets the ball, dribbles through the hideout zigzag, then re-enters the game. Nobody sits out.",
+    "Players may pass to a teammate to escape a bandit (source: \"dribbling, passing, and escaping to open areas\").",
+    "After 60–90 seconds, call \"Freeze. Sticks down.\" Bandits count how many balls they sent out. Choose new bandits."
+   ],
+   "ifThis": [
+    "Bandits swing at sticks or legs: freeze and reset the rule: \"Play the ball, not the player.\" Repeat means a turn as hideout helper, then back in (our adaptation).",
+    "Dribblers hide in a corner: shrink the area, or add a rule that players keep moving.",
+    "Too hard: fewer bandits, or bandits must walk.",
+    "Too easy for dribblers: add a bandit, or shrink the area."
+   ],
+   "cues": [
+    "Ball close to the blade (or feet), head up.",
+    "Shield the ball: keep your body between the bandit and the ball.",
+    "Change speed and direction to escape. Pass to a free teammate.",
+    "Bandits: stick on the floor, poke the ball, no slashing."
+   ],
+   "variations": [
+    "Grade 3: Bandits walk. Use larger balls (Playground 10\" or Soccer Balls - indoor for foot dribbling) or sponge pucks. Only one bandit for the first round.",
+    "Grades 4–5: Play as on the game page with the hideout rule.",
+    "Grades 5–6: A player whose ball is knocked out swaps roles with that bandit (the bandit takes the ball and plays on), or becomes an extra bandit so bandits grow and the last few dribblers win the round (our adaptation; nobody sits)."
+   ],
+   "tips": [
+    "Teach \"shield\" first: in partners, one dribbles while the other walks in to poke the ball, 30 seconds each.",
+    "Ask: \"What did you do with your body and stick to keep the ball?\"",
+    "Soccer version: same rules with feet only; bandits kick the ball out over the line.",
+    "With about 60: Split the gym into two areas with a saucer pylon line and a 3 m buffer. Each area has about 30 players with 3–4 bandits and its own hideout. Equipment: Jr. Sticks -36\" (59) plus Cup Sticks - 47\" (60) cover everyone. Balls: Pucks-balls 41 plus Pucks - sponge 21 = 62. Soccer version: indoor soccer balls (40 Aztec, 30 and 20 Sportex Alfa) are enough. Pinnies: 8 in one colour.",
+    "Support: A student who needs a break can be the hideout helper (counts zigzags, hands back balls), then rejoin. A student who uses a mobility aid can dribble in a \"safe lane\" bandits may not enter, or dribble with hands. Offer a larger ball for students who want an easier start.",
+    "Before teaching: check the class medical alert list and ISP supports in the class binder. Demonstrate the stop signal and follow school policy and SPHEReS guidance."
+   ],
+   "roundEnds": "After 60–90 seconds. Rotate bandits so everyone has a turn. Nobody is out: a lost ball means the hideout zigzag, then straight back in.",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "keeps the ball close with head up; moves into open space and shields; bandits poke the ball fairly without contact."
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 (tactics) outcome",
+     "look": "Students examine and integrate tactics in a variety of physical activity contexts. [PDE3-OI2-GQ1-LO1]"
+    }
+   ],
+   "safety": "Stick blades below the knees at all times; no slashing, hooking, or lifting sticks. Bandits play the ball, not the player. No body contact. Use Pucks-balls or sponge pucks, never hard pucks. Boundary 2 m from walls and the stage; send balls over a pylon line rather than hard into a wall. Spread out; keep looking up. Stop signal: \"Freeze. Sticks down.\"",
+   "equipment": "Jr. Sticks -36\" (24); Pucks-balls (21–22, one per dribbler); Pinnies (3, one colour) for bandits; Pylons - saucer (8–12) to mark the boundary and a side \"hideout\" lane. Soccer version (source): Soccer Balls - indoor (21–22; source uses foam balls, so Softex (yellow) also works) and Pinnies.",
+   "grades": "3–6",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Keeping the ball close with the head up under light pressure suits Grades 3–5; Grade 6 adds the bandits-grow round.",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "section": "Floor hockey & stick-handling",
+   "sports": "floor hockey, dribbling, keep-away, soccer lead-up, gr 3–6",
+   "grouping": "2–3 bandits for 24 · 60–90 second rounds · 10–15 minutes",
+   "desc": "Everyone but 2–3 bandits dribbles a ball with a stick. Bandits poke balls out over the boundary line. A player who loses a ball gets it back, dribbles through the hideout zigzag and comes straight back in. New bandits each round.",
+   "g12": "Not offered for Grades 1–2.",
+   "g34": "Grade 3: bandits walk, one bandit first. Grade 4: hideout rule.",
+   "g56": "Swap-roles or bandits-grow round; nobody sits."
+  },
+  {
+   "id": "hawks-doves",
+   "added": "2026-12-07",
+   "addedOn": "2026-11-14",
+   "name": "Hawks & Doves",
+   "source": "PhysEdGames",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://physedgames.com/hawks-doves/",
+    "https://www.youtube.com/watch?v=EzNymlg6EbM"
+   ],
+   "sources": [
+    "https://physedgames.com/hawks-doves/"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=EzNymlg6EbM",
+     "title": "Hawks & Doves demo",
+     "channel": "PhysEdGames"
+    }
+   ],
+   "videoNote": "Source demo. Use the safety house rules below: a flat mat for the cage, not a bench.",
+   "order": 88,
+   "gradesFrom": "doc",
+   "unit": "December",
+   "suggestedMonth": "December",
+   "alsoFits": [
+    "January"
+   ],
+   "slot": "Whole class",
+   "setup": "Mark two nests with pylons in opposite corners of the court, each about 4 m x 4 m (source). Keep nests 2 m out from the corner walls (our adaptation). Lay one mat flat near the centre of the court as the cage (our swap for the bench). Choose 2–3 hawks in pinnies. Hawks start in one nest. Doves start in the opposite nest. Boundary at least 2 m from the walls and the stage.",
+   "how": [
+    "When the hawks leave their nest, the game starts (source).",
+    "Doves try to get from their start nest to the far nest without being tagged.",
+    "Once hawks leave their nest, they cannot enter either nest. Nests are safe for doves (source).",
+    "A tagged dove walks to the cage and stands on the mat (source: stands on a bench; our swap is a flat mat).",
+    "A free dove rescues a caged dove by running to them and tagging them. The rescued dove returns to the nearest nest, then plays on (source; \"return to the nearest nest\" is our adaptation).",
+    "Doves may leave the far nest to make rescues, and may be tagged while doing it (source).",
+    "After 2–3 minutes, or if all doves are in one nest or all are caged, stop the game and choose new hawks (source)."
+   ],
+   "ifThis": [
+    "Doves stay in nests forever: give a 5-second count. Then doves must leave the nest (our adaptation).",
+    "The cage fills and no one rescues: call \"Open cage.\" Everyone in the cage walks back to the start nest. Restart (our adaptation).",
+    "Hawks guard the cage: hawks must stay 2 big steps from the cage (our adaptation).",
+    "Arguing about a tag: the tagged player decides honestly; if it repeats, the teacher decides."
+   ],
+   "cues": [
+    "Two-finger tag on the back or shoulder.",
+    "Doves: look for open space; go when the hawks are busy.",
+    "Rescue smart: check where the hawks are before you leave the nest.",
+    "Hawks: work together; one guards, one chases."
+   ],
+   "variations": [
+    "Grade 1: Walk or fast-walk only. One hawk (the teacher can start as the hawk). Bigger nests. Call \"Open cage\" often.",
+    "Grades 2–4: Play as on the game page, with 2–3 hawks and the cage-distance rule.",
+    "Grades 5–6: Doves score a point for each rescue. Add a third nest in a middle corner as a rest stop. Or hawks may only tag with one hand on their own head (our adaptation)."
+   ],
+   "tips": [
+    "Walk through one trip and one rescue at walking speed before the first round.",
+    "Ask: \"When was the best time to leave the nest? How did you help a teammate?\"",
+    "Name the difference for students who know Yoshi: here there are hawks and doves, not two equal teams, and the cage is in the middle.",
+    "With about 60: 5–6 hawks, two cages (two flat mats), and nests about 6 m x 6 m. Or split the gym into two games of about 30, each with its own two nests, one cage and 3 hawks, with a 3 m pylon buffer at centre. Equipment is enough: Pylons - saucer 67, Mats 4x4x8 24, Pinnies about 27–30 per colour.",
+    "Support: A student who needs a break can be the cage keeper (calls \"Open cage\" with the teacher), then rejoin. A student who uses a mobility aid can be a dove with a \"free pass\" lane, or a hawk who tags with a noodle (Noodles - half). Walk-only rounds help students who want a calmer start.",
+    "Before teaching: check the class medical alert list and ISP supports in the class binder. Demonstrate the stop signal and follow school policy and SPHEReS guidance."
+   ],
+   "roundEnds": "After 2–3 minutes, or when all doves are in one nest or in the cage. Count the doves in the far nest, then choose new hawks. Nobody is out for long, because caged doves are rescued or freed by \"Open cage.\"",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "uses open space and timing to cross; rescues teammates; tags softly and accepts tags honestly."
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 1 outcome",
+     "look": "Students exhibit spatial awareness during a variety of physical activities. [PDE1-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 2 outcome",
+     "look": "Students refine and apply spatial awareness across a variety of physical activity contexts. [PDE2-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students examine and integrate tactics in a variety of physical activity contexts. [PDE3-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students select and implement strategies and tactics in a variety of physical activities. [PDE4-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 5 outcome",
+     "look": "Students analyze and apply strategies and tactics that support improved decision making in physical activities. [PDE5-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 6 outcome",
+     "look": "Students examine and demonstrate an understanding of structure in physical activity. [PDE6-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 2 (teamwork) outcome",
+     "look": "Students demonstrate teamwork and support participation in a variety of physical activities. [PDE2-OI2-GQ3-LO1]"
+    }
+   ],
+   "safety": "Two-finger tag on the back or shoulder, below the head. Cage is a flat mat on the floor, not a raised bench, so caught players are not standing up high near runners. Hawks keep 2 big steps from the cage. Doves slow down for the last two steps into a nest. Nests and boundary 2 m from walls, corners and the stage. Stop signal: \"Freeze.\"",
+   "equipment": "Pylons - saucer or Pylons -12\" (8–10) to mark two corner nests; Pinnies (2–3, one colour) for hawks; Mats 4x4x8 (1) laid flat at centre as the cage (our equipment swap; the source uses a bench). He owns benches (Bench-tripod steel legs 2, Bench-10\", steel legs 1), but a flat mat is safer because caught players do not stand up high while others run nearby.",
+   "grades": "1–6",
+   "bestBand": "3–4",
+   "alsoBand": "1–2",
+   "bandWhy": "Timing a crossing and choosing when to rescue suit Grades 2–5; Grade 1 walks with one hawk.",
+   "type": "tag",
+   "typeLabel": "Tag & chase",
+   "section": "Tag (stay-in style)",
+   "sports": "tag, crossing, rescue, teamwork, gr 1–6",
+   "grouping": "2–3 hawks for 24 · 2–3 minute rounds · 10–15 minutes",
+   "desc": "Doves cross from one corner nest to the other. Hawks tag them in the open but may not enter either nest once they leave. A tagged dove stands on the centre mat (the cage) until a free dove tags them out.",
+   "g12": "Grade 1 walks with one hawk and bigger nests; Grade 2 plays as on the game page.",
+   "g34": "2–3 hawks and the cage-distance rule.",
+   "g56": "A point for each rescue, or a third nest as a rest stop."
   }
  ]
 };
