@@ -279,7 +279,7 @@
 
   /* "Updated … MT" stamp: SITE_UPDATED is baked in at commit time (run tools/bake-updated.sh
      before committing), so pages make no GitHub API calls. Empty → page Last-Modified date. */
-  const SITE_UPDATED = "2026-11-14T15:08:50Z";
+  const SITE_UPDATED = "2026-11-14T15:15:38Z";
   window.SITE_UPDATED = SITE_UPDATED;
   (function () {
     var ver = String(SITE_UPDATED || "").replace(/\D/g, "");

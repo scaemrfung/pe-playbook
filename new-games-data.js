@@ -18,7 +18,7 @@ window.NEW_GAMES = {
  "latestWeek": "2026-12-07",
  "docWeek": "2026-12-07",
  "dedupe": {
-  "excluded": 79,
+  "excluded": 78,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
  },
  "units": [
@@ -77,7 +77,7 @@ window.NEW_GAMES = {
   {
    "key": "2026-12-07",
    "label": "Week of Dec 7, 2026",
-   "count": 3,
+   "count": 4,
    "addedOn": "2026-11-14",
    "addedOnLabel": "Sat Nov 14, 2026"
   },
@@ -1984,6 +1984,7 @@ window.NEW_GAMES = {
    "g12": "Kindergarten–Grade 1: verbal partner switches first. Grade 2 adds signs.",
    "g34": "Add hawks only after calm, agreed walking switches.",
    "g56": "Optional short communication warm-up, partner switches only.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
    "setup": "Lay one hoop per student flat, with at least 2 m between nests and from walls or the stage. Leave clear walking paths. Reduce group size if that spacing does not fit. Model an agreed switch and calm arrival before starting.",
    "how": [
     "Part 1 (8 minutes): Find a partner using a look, wave or spoken invitation: “Can we switch?” Both agree before leaving their nests. Eye contact is optional.",
@@ -2002,8 +2003,7 @@ window.NEW_GAMES = {
    "equipment": "1 hoop per student (24 for 24); optional floor markers for accessible nests. Remove 2–4 hoops for the final part.",
    "bestBand": "1–2",
    "alsoBand": "3–4",
-   "bandWhy": "Agreed switches and walking pathways suit K–3; Grades 3–4 add non-verbal plans and hawk role changes.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one."
+   "bandWhy": "Agreed switches and walking pathways suit K–3; Grades 3–4 add non-verbal plans and hawk role changes."
   },
   {
    "id": "turtle-tag",
@@ -7909,13 +7909,14 @@ window.NEW_GAMES = {
    "grades": "2–6",
    "type": "coop",
    "typeLabel": "Cooperative & circus",
-   "section": "Team-building / seasonal",
+   "section": "Team-building",
    "sports": "target rolling, balance, teamwork",
    "grouping": "6 tugboat pairs and 12 rollers for 24 · 3–4 minute rounds · 15–20 minutes",
    "desc": "Pairs walk a scooter carrying a balanced plastic pin between safe end lines. Opponents roll foam balls from side zones to knock the pin down. A fallen pin means a new helping role, not elimination.",
    "g12": "Grade 2: shorten the route, four cargo pairs and fewer balls.",
    "g34": "Smooth pulls and accurate rolls; count clean crossings.",
    "g56": "Plan roles, then explain which change helped the cargo stay balanced.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
    "setup": "Mark two turn lines at least 2 m from walls and the stage, with separate outward and return lanes. Mark side rolling zones and a protected equipment parking area. Each of six pairs has a pin on a scooter: one puller, one spotter. The teacher secures a short rope to a suitable scooter handhold, checks the knot and wheels, and tests the pull before play. Never improvise an unsafe attachment. Practise walking the route without balls first.",
    "how": [
     "Pullers walk forward, eyes up, keeping the pin balanced on the scooter. Nobody rides or stands on a scooter. Spotters walk beside, clear of wheels and rope.",
@@ -7934,8 +7935,7 @@ window.NEW_GAMES = {
    "equipment": "6 scooter boards; 6 plastic bowling pins from bowling pin sets; 6 skipping ropes; Softex or Gator skin foam balls; saucer pylons. No tape or wooden pins needed.",
    "bestBand": "3–4",
    "alsoBand": "5–6",
-   "bandWhy": "Smooth pulling, accurate rolling and taking turns as a guard suit Grades 3–5; Grade 2 uses a shorter route.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one."
+   "bandWhy": "Smooth pulling, accurate rolling and taking turns as a guard suit Grades 3–5; Grade 2 uses a shorter route."
   },
   {
    "id": "hockey-dribbling-shapes",
@@ -8485,6 +8485,110 @@ window.NEW_GAMES = {
    "bandWhy": "Switching between shooting and a fine-motor flip suits Grades 3–4; Grades 1–2 use a wide goal and flip a cone. Grades 5–6 use a smaller goal and backhand."
   },
   {
+   "id": "pin-knockdown-3v3",
+   "added": "2026-12-07",
+   "addedOn": "2026-11-14",
+   "name": "Pin Knockdown 3v3",
+   "section": "Floor hockey & stick-handling",
+   "desc": "Small-sided floor hockey on four courts at once. Two teams of 3 each guard 3 pins on their end line and stick-handle, pass and shoot low to knock down the other team’s pins. No goalies. First team to knock down all 3 wins the round; then reset and rotate courts. Nobody is out.",
+   "sports": "floor hockey stick-handling, passing, shooting and defending, Grades 1–6",
+   "flag": "stay-in (no outs, no elimination; every round resets the pins and everyone plays; refs rotate each round)",
+   "stayIn": true,
+   "source": "Cap'n Pete's Power PE (Pete Charrette), game 8 “3 vs. 3 Pin Ball (Floor Hockey Game)”",
+   "notes": [],
+   "links": [
+    "https://www.capnpetespowerpe.com/single-post/floor-hockey-in-pe-9-stations-and-small-sided-games-for-indoor-hockey-lessons"
+   ],
+   "order": 82,
+   "equipment": "Jr. Sticks -36\" (24; Cup Sticks - 47\" for taller players); Pucks-balls (4, one per court; Pucks - sponge for Grades 1–2); pins from the Bowling Pin Sets (3 on each end line, 6 per court, 24 in all) or Pylons -12\" (24); Pylons - saucer (8–12 per court) to mark each 1 m crease and the court sides; Pinnies in 2 colours per court (e.g. 12 blue and 12 red); Mats 4x4x8 (4–6, folded and standing on their sides) to separate the courts.",
+   "setup": "Make four courts across the gym, two in each half, at least 3 m apart and 2 m from the walls, stage and doors; stand folded mats on their sides between courts. On each court, stand 3 pins (or 12\" pylons) along each end line and mark a 1 m saucer-pylon crease in front of them. Make 8 teams of 3 in pinnies, two teams per court, each player with a stick. One soft ball (Pucks-balls) per court.",
+   "how": [
+    "One team starts with the ball; the other team gives them space (source).",
+    "Teams stick-handle, pass and shoot low to knock down the other team’s pins while defending their own (source).",
+    "A knocked-down pin stays down until the round ends. The team that was scored on gets the ball (source).",
+    "No goalies, and nobody stands in front of their own pins: the 1 m crease at each end is off-limits to everyone.",
+    "The round ends when one team knocks down all 3 pins, or after 3 minutes, whichever comes first. Both teams stand their pins back up.",
+    "Rotate: winners move one court clockwise, the other team moves one court counter-clockwise, so everyone meets new opponents. Nobody is ever out.",
+    "Each court has a student referee from one of the teams (rotate every round; the referee also plays), or the teacher circulates."
+   ],
+   "variations": [
+    "Grades 1–2: Lead-up only. 2v2 or 3v3 on short courts at walking pace, big cones instead of pins, teacher referees.",
+    "Grades 3–4: 3v3; the team must make 1 pass before a shot.",
+    "Grades 5–6: 3v3; 2 passes before a shot, a “pins down” scoreboard, and student referees."
+   ],
+   "safety": "Two hands on the stick, top hand on the end. The blade stays on or near the floor and below the knees at all times, including the follow-through: no slapshots, no lifting the ball; push, don't slap. A stick above the knee gives the ball to the other team. No body or stick contact, no stick-checking or hooking: play the ball, not the player. Plastic-blade sticks with Pucks-balls or sponge pucks only (never hard plastic pucks); check every blade before class. No goalies: the crease is off-limits, so nobody stands in front of a shot. Courts at least 3 m apart and 2 m from walls, the stage and doors; mat dividers stand firmly (lay a wobbly one flat and use a saucer-pylon line). Play stops when a ball enters another court. Carry sticks blade down when changing courts. Stop signal: “Sticks down!” — stick flat on the floor, ball still, eyes on the teacher.",
+   "unit": "November",
+   "suggestedMonth": "November",
+   "alsoFits": [
+    "September"
+   ],
+   "grades": "1–6",
+   "gradesFrom": "doc",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Passing before a shot and defending space in 3v3 suit Grades 3–6; Grades 1–2 play only the short-court lead-up.",
+   "type": "invasion",
+   "typeLabel": "Invasion & team",
+   "slot": "16–30",
+   "grouping": "8 teams of 3 on 4 courts · 3-minute rounds · 15–20 minutes",
+   "cues": [
+    "Two hands, top hand on the end.",
+    "Blade on the floor; push, don't slap.",
+    "Head up: find the open teammate, then the open pin.",
+    "Defend the space, not the player."
+   ],
+   "ifThis": [
+    "A player parks in the crease: \"Crease is empty.\" Ball goes to the other team.",
+    "A stick comes above the knee: the ball goes to the other team.",
+    "One player does all the scoring: add a pass rule (Grades 3–4: 1 pass before a shot; Grades 5–6: 2 passes).",
+    "A ball rolls into another court: \"Sticks down!\" on both courts, return it, restart with the team that had it.",
+    "Pins keep falling from bumps: move the pins back a step or use 12\" pylons."
+   ],
+   "roundEnds": "All 3 pins down, or 3 minutes, whichever comes first. Reset the pins and rotate courts (winners clockwise, the other team counter-clockwise). Everyone plays every round.",
+   "tips": [
+    "Teach the push pass and a low wrist shot at a pin before the first game.",
+    "Ask: \"How did your team get an open shot at a pin?\"",
+    "With 25–27: make 1–3 teams of 4 and rotate one player off as that court’s referee each round (source).",
+    "With about 60: run two waves of about 30 (or 6 courts if the gym allows 3 m between courts). Equipment for more players: Jr. Sticks -36\" 59 plus Cup Sticks - 47\" 60; Pucks-balls 41 and Pucks - sponge 21.",
+    "Support: A student who needs a break can referee a round, then rejoin. A student who uses a mobility aid can play with a sponge puck in a team of 4 with a no-contact lane, or shoot from a fixed spot. Use sponge pucks and short courts for students who want an easier start.",
+    "Before teaching: check the class medical alert list and ISP supports in the class binder. Demonstrate the stop signal and follow school policy and SPHEReS guidance."
+   ],
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "keeps the blade low and pushes, not slaps; passes to an open teammate before shooting; defends space without contact; stays out of the crease."
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 2 outcome",
+     "look": "Students demonstrate teamwork and support participation in a variety of physical activities. [PDE2-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students connect and demonstrate how teamwork enhances participation in physical activity. [PDE4-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 5 outcome",
+     "look": "Students demonstrate how collaboration influences physical activity. [PDE5-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "g12": "Lead-up only: 2v2 or 3v3 on short courts, walking pace, big cones instead of pins, teacher referees.",
+   "g34": "3v3; 1 pass before a shot.",
+   "g56": "3v3; 2 passes before a shot, a “pins down” scoreboard and student referees.",
+   "aka": [
+    "3 vs. 3 Pin Ball"
+   ],
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+   "videos": [],
+   "sources": [
+    "https://www.capnpetespowerpe.com/single-post/floor-hockey-in-pe-9-stations-and-small-sided-games-for-indoor-hockey-lessons"
+   ],
+   "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page)."
+  },
+  {
    "id": "zone-tag",
    "added": "2026-10-05",
    "addedOn": "2026-10-03",
@@ -8499,7 +8603,7 @@ window.NEW_GAMES = {
    "links": [
     "https://www.youtube.com/watch?v=DAgKmt4cXCA"
    ],
-   "order": 82,
+   "order": 83,
    "unit": "October",
    "alsoFits": [
     "September"
@@ -8608,7 +8712,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/mat-tag/"
    ],
-   "order": 83,
+   "order": 84,
    "unit": "June",
    "alsoFits": [
     "October"
@@ -8714,7 +8818,7 @@ window.NEW_GAMES = {
    "links": [
     "https://physedgames.com/capture-the-flag-relay/"
    ],
-   "order": 84,
+   "order": 85,
    "unit": "October",
    "alsoFits": [
     "September"
@@ -8828,7 +8932,7 @@ window.NEW_GAMES = {
     }
    ],
    "videoNote": "Source demo. Use the safety house rules below, not the source’s elimination or wall rules.",
-   "order": 85,
+   "order": 86,
    "gradesFrom": "doc",
    "unit": "November",
    "suggestedMonth": "November",
@@ -8897,6 +9001,7 @@ window.NEW_GAMES = {
    "g12": "Not offered for Grades 1–2.",
    "g34": "Grade 3: sponge pucks and a 3–3.5 m line. Grade 4: timed 2-minute rounds.",
    "g56": "A goal counts only after one pass between attackers, or share fewer balls.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
    "setup": "Line up 4 floor hockey nets and 4 small hurdles side by side across one end of the gym, about 1 m apart and about 1 m out from the end wall. Mark a no-go line with saucer pylons about 4.5 m (15 ft) in front of the goals; attackers may not cross it. Team A (goalies): one goalie per goal with a helmet (helmet cap underneath) and a Goalie Stick - Jr. The rest of Team A wait on the side line as the next goalies. Team B (attackers): spread out behind the line with sticks and balls scattered in the attacking area.",
    "how": [
     "On \"Go,\" attackers have 2 minutes to score as many goals as they can (source).",
@@ -8915,8 +9020,7 @@ window.NEW_GAMES = {
    "equipment": "Standards-hockey nets (4) and Hurdles- 6\" / Hurdles-adjustable (4, set at the lowest height) as a row of 8 goals along one end; helmets (8) with helmet caps for the goalies; Goalie Stick - Jr (8); Jr. Sticks -36\" for attackers; Pucks-balls (12–15) and Pucks - sponge (a few for Grade 3); Pylons - saucer (8–10) for the no-go line. Soccer version: Soccer Balls - indoor or Softex (yellow); no sticks.",
    "bestBand": "5–6",
    "alsoBand": "3–4",
-   "bandWhy": "Shooting at an open goal and quick goalie reactions suit Grades 4–6; Grade 3 uses sponge pucks and a shorter line.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one."
+   "bandWhy": "Shooting at an open goal and quick goalie reactions suit Grades 4–6; Grade 3 uses sponge pucks and a shorter line."
   },
   {
    "id": "bandits",
@@ -8942,7 +9046,7 @@ window.NEW_GAMES = {
     }
    ],
    "videoNote": "Source demo. Use the safety house rules below: balls go over a pylon line, not into a wall, and nobody sits out.",
-   "order": 86,
+   "order": 87,
    "gradesFrom": "doc",
    "unit": "November",
    "suggestedMonth": "November",
@@ -9007,6 +9111,7 @@ window.NEW_GAMES = {
    "g12": "Not offered for Grades 1–2.",
    "g34": "Grade 3: bandits walk, one bandit first. Grade 4: hideout rule.",
    "g56": "Swap-roles or bandits-grow round; nobody sits.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
    "setup": "Mark a playing area with saucer pylons at least 2 m from the walls and the stage. A pylon line works as the \"wall\" where possible (our adaptation, so balls are not driven hard at the wall). Set a \"hideout\" lane along one sideline with 3–4 saucer pylons in a short zigzag. Choose 2–3 bandits in pinnies. Give every other player a stick and a ball, spread out.",
    "how": [
     "On \"Go,\" players dribble around the area, keeping the ball close and looking for open space (source).",
@@ -9025,8 +9130,7 @@ window.NEW_GAMES = {
    "equipment": "Jr. Sticks -36\" (24); Pucks-balls (21–22, one per dribbler); Pinnies (3, one colour) for bandits; Pylons - saucer (8–12) to mark the boundary and a side \"hideout\" lane. Soccer version (source): Soccer Balls - indoor (21–22; source uses foam balls, so Softex (yellow) also works) and Pinnies.",
    "bestBand": "3–4",
    "alsoBand": "5–6",
-   "bandWhy": "Keeping the ball close with the head up under light pressure suits Grades 3–5; Grade 6 adds the bandits-grow round.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one."
+   "bandWhy": "Keeping the ball close with the head up under light pressure suits Grades 3–5; Grade 6 adds the bandits-grow round."
   },
   {
    "id": "hawks-doves",
@@ -9052,7 +9156,7 @@ window.NEW_GAMES = {
     }
    ],
    "videoNote": "Source demo. Use the safety house rules below: a flat mat for the cage, not a bench.",
-   "order": 87,
+   "order": 88,
    "gradesFrom": "doc",
    "unit": "December",
    "suggestedMonth": "December",
@@ -9125,6 +9229,7 @@ window.NEW_GAMES = {
    "g12": "Grade 1 walks with one hawk and bigger nests; Grade 2 plays as on the game page.",
    "g34": "2–3 hawks and the cage-distance rule.",
    "g56": "A point for each rescue, or a third nest as a rest stop.",
+   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
    "setup": "Mark two nests with pylons in opposite corners of the court, each about 4 m x 4 m (source). Keep nests 2 m out from the corner walls (our adaptation). Lay one mat flat near the centre of the court as the cage (our swap for the bench). Choose 2–3 hawks in pinnies. Hawks start in one nest. Doves start in the opposite nest. Boundary at least 2 m from the walls and the stage.",
    "how": [
     "When the hawks leave their nest, the game starts (source).",
@@ -9144,8 +9249,7 @@ window.NEW_GAMES = {
    "equipment": "Pylons - saucer or Pylons -12\" (8–10) to mark two corner nests; Pinnies (2–3, one colour) for hawks; Mats 4x4x8 (1) laid flat at centre as the cage (our equipment swap; the source uses a bench). He owns benches (Bench-tripod steel legs 2, Bench-10\", steel legs 1), but a flat mat is safer because caught players do not stand up high while others run nearby.",
    "bestBand": "3–4",
    "alsoBand": "1–2",
-   "bandWhy": "Timing a crossing and choosing when to rescue suit Grades 2–5; Grade 1 walks with one hawk.",
-   "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one."
+   "bandWhy": "Timing a crossing and choosing when to rescue suit Grades 2–5; Grade 1 walks with one hawk."
   }
  ]
 };

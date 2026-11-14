@@ -307,6 +307,7 @@ window.GAME_INDEX = [
 ["Zigzag & Shoot","n","zigzag-shoot","Broomstick Hockey Skills"],
 ["Move Up Hockey","n","move-up-hockey","Cup Stack Hockey"],
 ["Bottle Flip Hockey","n","bottle-flip-hockey",""],
+["Pin Knockdown 3v3","n","pin-knockdown-3v3","3 vs. 3 Pin Ball"],
 ["Zone Tag","n","zone-tag",""],
 ["Mat Tag","n","mat-tag",""],
 ["Capture the Flag Relay","n","capture-the-flag-relay",""],
