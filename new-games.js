@@ -162,6 +162,15 @@
     var U = unitMap(data);
     var out = [];
     var latestGames = latest ? games.filter(function (g) { return g.added === latest.key; }) : [];
+    // Newly added list: by type, then suggested month, then library order (Mr. Fung's standing rule, Nov 14 2026)
+    var mo0 = monthOrder(data);
+    latestGames.sort(function (a, b) {
+      var ta = a.typeLabel || typeLabel(a.section) || "", tb = b.typeLabel || typeLabel(b.section) || "";
+      if (ta !== tb) return ta < tb ? -1 : 1;
+      var i = mo0.indexOf(suggested(a)), j = mo0.indexOf(suggested(b));
+      if (i !== j) return (i < 0 ? 99 : i) - (j < 0 ? 99 : j);
+      return (a.order || 0) - (b.order || 0);
+    });
     var sameWeek = latest && latest.key === data.docWeek;
     var num = {}, n = 0;
     latestGames.forEach(function (g) { num[g.id] = ++n; });
