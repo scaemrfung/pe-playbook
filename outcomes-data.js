@@ -1,5 +1,6 @@
 window.UNIT_OUTCOMES = {
   September: {
+    assessmentPdf: "assessments/pe-assessment-2026-09.pdf",
     oi: [
       "Active Living",
       "Movement Skill Development",
@@ -62,6 +63,7 @@ window.UNIT_OUTCOMES = {
     ]
   },
   October: {
+    assessmentPdf: "assessments/pe-assessment-2026-10.pdf",
     oi: [
       "Movement Skill Development",
       "Safety",
@@ -116,6 +118,7 @@ window.UNIT_OUTCOMES = {
     ]
   },
   November: {
+    assessmentPdf: "assessments/pe-assessment-2026-11.pdf",
     oi: [
       "Movement Skill Development",
       "Safety",

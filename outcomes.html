@@ -145,7 +145,7 @@
     </div>
   </footer>
   <script src="chrome.js?v=b869e6e9"></script>
-  <script src="outcomes-data.js?v=ba6e8580"></script>
+  <script src="outcomes-data.js?v=0d0fbfc3"></script>
   <script src="reporting-outcomes.js?v=31c6bbc0"></script>
   <script>
     const OIS = [
@@ -231,7 +231,8 @@
           <tbody>${(u.assess || []).map((a) =>
             `<tr><td data-label="What"><strong>${a.what}</strong></td><td data-label="How">${a.how}</td><td data-label="Look-for / evidence">${a.evidence}</td></tr>`
           ).join("")}</tbody>
-        </table>`;
+        </table>${u.assessmentPdf ? `
+        <p class="meta"><a href="${u.assessmentPdf}">${active} assessment (PDF)</a></p>` : ""}`;
       const rubBox = document.getElementById("month-rubric");
       const R = (window.UNIT_RUBRICS || {})[active];
       if (!rubBox) return;
