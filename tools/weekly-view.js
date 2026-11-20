@@ -124,7 +124,9 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
     return found;
   }
 
-  const SLOT_RE = /^(?:\d{1,2}:\d\d\s*[–-]\s*\d{1,2}:\d\d\s+)?((wu|warm-up|skill|game|stations?|mini game|cd)\b[^:]{0,90}):\s*([\s\S]*)$/i;
+  // a short leading phrase is allowed so "one class game", "hockey buffet game 1",
+  // "show-me stations" and "hockey buffet" still count as slot lines
+  const SLOT_RE = /^(?:\d{1,2}:\d\d\s*[–-]\s*\d{1,2}:\d\d\s+)?((?:(?:(?!wu\b|warm-up\b|skill\b|game\b|stations?\b|mini game\b|cd\b|buffet\b)\S+\s+){0,5})(wu|warm-up|skill|game|stations?|mini game|cd|buffet)\b[^:]{0,90}):\s*([\s\S]*)$/i;
   const BAND_RE = /^Grades (1–2|3–4|5–6)$/;
   const isLessonLink = (url) => /pe-playbook\/month-[a-z]+\.html#(w\d|week-)/.test(url || "") || /pe-playbook\/month-[a-z]+\.html$/.test(url || "");
   const shortLine = (s, max = 170) => { s = firstSentence(s).replace(/\s+/g, " ").trim(); if (s.length <= max) return s; const cut = s.slice(0, max); return cut.slice(0, cut.lastIndexOf(" ")) + "…"; };
@@ -181,7 +183,7 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
       if (!sm) continue;
       // a link written inside the lesson line (e.g. "… Catch and Thaw Tag video") goes on that game's card too
       p.segs.filter((s) => s.url).forEach((s) => day.links.push({ text: s.text.trim(), url: cleanUrl(s.url), band }));
-      const kind = /game/i.test(sm[1]) && !/^mini/i.test(sm[2]) ? (/^mini game/i.test(sm[1]) ? "mini game" : "game") : sm[2].toLowerCase();
+      const kind = /game|buffet/i.test(sm[1]) && !/^mini/i.test(sm[2]) ? (/^mini game/i.test(sm[1]) ? "mini game" : "game") : sm[2].toLowerCase();
       if (kind === "cd") continue;
       const body = sm[3];
       let games = findGames(body);
@@ -189,7 +191,10 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
       if (!games.length && /^(game|mini game)$/.test(kind)) {
         // a game the playbook has no card for: name and words straight from the plan
         const nm = body.split(/\s+[—–-]\s+|\s+·\s+|[.:;(,]/)[0].trim().slice(0, 60);
-        games = [{ name: nm, planOnly: true }];
+        // skip a line that is not naming a game ("switch, so everyone plays two games")
+        if (nm && !/^[a-z]/.test(nm) && !/^(switch|then|next|after|also|same|keep|leave|use|play|so)$/i.test(nm)) {
+          games = [{ name: nm, planOnly: true }];
+        }
       }
       games.forEach((g) => day.items.push({ g, kind, band, line: body }));
     }
