@@ -77,18 +77,25 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
   const CARDS = new Map();
   const firstSentence = (s) => { s = String(s || "").trim(); const m = /^[\s\S]*?[.!?](?=\s|$)/.exec(s); return m ? m[0] : s; };
   const add = (key, card) => { const k = String(key).toLowerCase(); if (k.length >= 4 && !CARDS.has(k)) CARDS.set(k, card); };
+  // Wall Rally lists Floorball as an also-called name and is registered first, which would
+  // hide the official Floorball card. Keep the official card for that name.
+  let floorballCard = null;
+  const noteFloorball = (card) => { if (card && String(card.name).toLowerCase() === "floorball") floorballCard = floorballCard || card; };
   NG.forEach((g) => {
     const card = { name: g.name, purpose: firstSentence(g.desc), equipment: g.equipment, setup: g.setup, play: g.how || g.cues || [], href: `new-games.html#${g.id}` };
+    noteFloorball(card);
     [g.name].concat(g.aka || [], g.aliases || [], g.oldNames || []).forEach((n) => add(n, card));
   });
   DETAILS.forEach((g) => {
     if (!g || !g.name) return;
     const card = { name: g.name, purpose: firstSentence(g.purpose), equipment: g.equipment, setup: g.setup, play: g.play || [], href: gameHref(g.name) };
+    noteFloorball(card);
     [g.name].concat(g.aka || []).forEach((n) => add(n, card));
   });
   (W.DODGE_GAMES || []).forEach((g) => add(g.name, { name: g.name, purpose: firstSentence(g.purpose), equipment: g.equipment, setup: g.setup, play: g.play || [], href: `dodgeball.html#${g.slug}` }));
   (W.WARMUP_NOGYM_GAMES || []).forEach((g) => add(g.title, { name: g.title, purpose: "", equipment: g.equipment, setup: g.space, play: [].concat(g.how || []), href: `warmup-nogym.html#${g.id}` }));
   Object.keys(ALIASES).forEach((a) => { const c = CARDS.get(ALIASES[a].toLowerCase()); if (c) add(a, c); });
+  if (floorballCard) CARDS.set("floorball", floorballCard);
   const KEYS = [...CARDS.keys()].sort((a, b) => b.length - a.length);
   const reEsc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const KEY_RE = new RegExp(`(^|[^A-Za-z0-9])(${KEYS.map(reEsc).join("|")})(?![A-Za-z0-9])`, "gi");
