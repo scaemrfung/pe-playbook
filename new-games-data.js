@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-11-14",
- "lastUpdatedLabel": "Sat Nov 14, 2026",
+ "lastUpdated": "2026-11-21",
+ "lastUpdatedLabel": "Sat Nov 21, 2026",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -15,8 +15,8 @@ window.NEW_GAMES = {
   "lastUpdatedLabel": "Mon Nov 9, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
- "latestWeek": "2026-12-07",
- "docWeek": "2026-12-07",
+ "latestWeek": "2026-12-14",
+ "docWeek": "2026-12-14",
  "dedupe": {
   "excluded": 78,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
@@ -74,6 +74,13 @@ window.NEW_GAMES = {
   }
  ],
  "weeks": [
+  {
+   "key": "2026-12-14",
+   "label": "Week of Dec 14, 2026",
+   "count": 3,
+   "addedOn": "2026-11-21",
+   "addedOnLabel": "Sat Nov 21, 2026"
+  },
   {
    "key": "2026-12-07",
    "label": "Week of Dec 7, 2026",
@@ -9250,6 +9257,311 @@ window.NEW_GAMES = {
    "bestBand": "3–4",
    "alsoBand": "1–2",
    "bandWhy": "Timing a crossing and choosing when to rescue suit Grades 2–5; Grade 1 walks with one hawk."
+  },
+  {
+   "id": "bus-car-bike",
+   "added": "2026-12-14",
+   "addedOn": "2026-11-21",
+   "name": "Bus, Car, Bike",
+   "source": "Daly",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=sz85HNINT4U"
+   ],
+   "sources": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=sz85HNINT4U",
+     "title": "3 New Athletics Games",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "videoNote": "Source demo (one of three athletics games on this clip). Use the safety house rules below: same direction, outside lane only, walk the last steps back to the spot.",
+   "order": 89,
+   "gradesFrom": "doc",
+   "unit": "May",
+   "suggestedMonth": "May",
+   "alsoFits": [
+    "September"
+   ],
+   "slot": "0–5 or 16–25",
+   "setup": "Students sit in a large circle, about an arm's length apart, facing in. Leave a clear running lane about 2 m wide outside the circle (mark it with saucer pylons if needed). Walk around the circle and give each student a vehicle in order: bus, car, bike, bus, car, bike (source).",
+   "how": [
+    "Call a vehicle and a direction, for example \"Cars, clockwise!\" (source: run in the direction the teacher calls).",
+    "All the cars stand up, run around the outside of the circle in that direction, and return to their own spot.",
+    "Sit down cross-legged when you're back. Everyone else cheers (our adaptation).",
+    "Keep calling, mixing vehicles and directions.",
+    "\"Traffic jam!\" means all three vehicles go at once, same direction (our adaptation)."
+   ],
+   "ifThis": [
+    "Runners cut through the circle: freeze and reset. Runners stay in the outside lane only.",
+    "Collisions at the finish: everyone runs the same direction, and slow down to a walk for the last two steps back to your spot.",
+    "Students tune out: use quick calls and change the movement (see variations)."
+   ],
+   "cues": [
+    "Listen for your vehicle and the direction.",
+    "Stand up quickly: hands down, push up.",
+    "Run on the balls of your feet, lean into the curve.",
+    "Slow down before you sit."
+   ],
+   "variations": [
+    "K–Grade 1: Walk, then gallop or skip around the circle. Show a picture card for each vehicle.",
+    "Grades 2–3: Run. Add \"Reverse!\" mid-lap, when runners turn and go back the other way (our adaptation).",
+    "Grade 4: Add a fourth vehicle (truck) and two-step calls such as \"Buses clockwise, then bikes counter-clockwise.\""
+   ],
+   "tips": [
+    "With about 60: Make three circles of about 20 spread across the gym, each with its own outside lane and at least 3 m between circles. One teacher calls for all circles at once. Or run two circles of 30 with a larger lane. No equipment needed, so supply is not an issue.",
+    "Support: A student who needs a break can be the caller for a few rounds. A student who uses a mobility aid can travel a shorter inner path or a quarter lap. Give picture cards for students who need visual cues.",
+    "Before teaching: check the class medical alert list and ISP supports in the class binder. Demonstrate the stop signal and follow school policy and SPHEReS guidance."
+   ],
+   "roundEnds": "Play 6–10 calls, then change vehicles or the movement. There is no winner; students try to beat their own time back.",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "reacts to the call, runs the right direction, controls speed when returning to the spot."
+    },
+    {
+     "code": "Physical Education and Wellness · Kindergarten outcome",
+     "look": "Children explore spatial awareness in a variety of physical activity contexts. [PDEK-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 1 outcome",
+     "look": "Students exhibit spatial awareness during a variety of physical activities. [PDE1-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 2 outcome",
+     "look": "Students refine and apply spatial awareness across a variety of physical activity contexts. [PDE2-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    }
+   ],
+   "safety": "Everyone runs the same direction, in the outside lane only, never through the circle. Keep the lane at least 2 m from walls, the stage and equipment. Walk the last steps back to your spot. Stop signal: \"Freeze.\"",
+   "equipment": "None needed. Optional: Pylons - saucer (8–12) to mark the outside running lane, Floor Markers (circles, squares, stars) as home spots.",
+   "grades": "K–4",
+   "bestBand": "1–3",
+   "alsoBand": "K, 4",
+   "bandWhy": "Reacting to a vehicle and a direction, then controlling the run back to the spot, suits Grades 1–3; Grade 4 uses harder two-step calls. Kindergarten walks or gallops first.",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "section": "Warm-ups & brain breaks",
+   "sports": "athletics, reaction, running, warm-up, K–4",
+   "grouping": "one circle of about 24 · 5–8 minutes",
+   "desc": "Students sit in a big circle, each one a bus, a car or a bike. When the teacher calls a vehicle and a direction, those students run around the outside of the circle and back to their own spot. Nobody is out.",
+   "g12": "Walk, then gallop or skip around the circle. Show a picture card for each vehicle.",
+   "g34": "Grades 2–3 run, and may add “Reverse!” mid-lap (turn and go the other way). Grade 4 adds a fourth vehicle (truck) and two-step calls such as “Buses clockwise, then bikes counter-clockwise.”",
+   "g56": "Not offered for Grades 5–6."
+  },
+  {
+   "id": "hurdle-highway",
+   "added": "2026-12-14",
+   "addedOn": "2026-11-21",
+   "name": "Hurdle Highway",
+   "source": "Daly",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=sz85HNINT4U"
+   ],
+   "sources": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=sz85HNINT4U",
+     "title": "3 New Athletics Games",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "videoNote": "Source demo (one of three athletics games on this clip). Use the safety house rules below: hurdles at their lowest height, one student per hurdle, no racing.",
+   "order": 90,
+   "gradesFrom": "doc",
+   "unit": "May",
+   "suggestedMonth": "May",
+   "alsoFits": [
+    "September"
+   ],
+   "slot": "0–5 or 16–25",
+   "setup": "Scatter hurdles, saucer pylons and spot markers across the gym, about 2–3 m apart, staying 2 m back from the walls and the stage (source: scatter low hurdles, cones and spot markers). Set all hurdles at their lowest height. Point the hurdles in different directions (our adaptation) so students can cross from either side; the pylon-hurdle and adjustable hurdles should be crossed from the side that tips away.",
+   "how": [
+    "On the signal, students travel freely around Hurdle Highway, choosing their own safe route (source).",
+    "Hurdle: step or jump over it (source).",
+    "Pylon: plant your foot, turn, and travel in a new direction (source).",
+    "Spot marker: speed up for about 3 to 5 steps, then settle back (source).",
+    "Change the way students travel every 45–60 seconds: walk, jog, skip, gallop, side-step (our adaptation)."
+   ],
+   "ifThis": [
+    "Lines form at one hurdle: \"Find an empty hurdle.\" Add more spot markers to spread the class.",
+    "Students race each other: remind them it's their own route, not a race. Freeze and reset if it gets fast.",
+    "Hurdles get knocked over: the student who knocks it resets it, then keeps going."
+   ],
+   "cues": [
+    "Eyes up, look for open space.",
+    "Hurdle: lead knee up, land softly on the balls of your feet.",
+    "Pylon: plant the outside foot, push off, change direction.",
+    "Spot: quick feet for 3 to 5 steps, then slow down."
+   ],
+   "variations": [
+    "Grades 1–2: Walk and step over hurdles first. Then jog. Use only the 6\" hurdles and pylon-hurdles.",
+    "Grades 3–4: Two-foot jumps over hurdles, hop on one foot after a pylon turn (our adaptation).",
+    "Grades 5–6: Lead leg changes every hurdle; after each spot marker, add a 3-step hurdle rhythm (our adaptation). Or add a basketball or soccer ball to dribble around the pylons, stepping around hurdles instead of jumping."
+   ],
+   "tips": [
+    "With about 60: Use all 28 small hurdles, 30–40 saucer pylons and 25–30 floor markers or bean bags across the whole gym. Run it in two waves of 30: one wave travels the highway for 60 seconds while the other does a fitness task along the walls (wall sits, jumping jacks), then switch. Or split the gym into two highways with a pylon line and a 3 m buffer. Equipment is enough for both versions (Pylons - saucer 67, Bean Bags 75 inside).",
+    "Support: A student who needs a break can be the \"road crew\" who resets hurdles, then rejoins. A student who uses a mobility aid can travel around hurdles rather than over them, using pylons and spots only. Offer walking speed for anyone who wants an easier start.",
+    "Before teaching: check the class medical alert list and ISP supports in the class binder. Demonstrate the stop signal and follow school policy and SPHEReS guidance."
+   ],
+   "roundEnds": "After 45–60 seconds, call \"Freeze.\" Change the movement or the rule, then go again. 4–6 rounds.",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "chooses open space, crosses hurdles with control and soft landings, plants and changes direction at pylons, changes speed at spots."
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 1 outcome",
+     "look": "Students exhibit spatial awareness during a variety of physical activities. [PDE1-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 6 outcome",
+     "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
+    }
+   ],
+   "safety": "Hurdles at their lowest height, spaced 2–3 m apart, and 2 m back from walls and the stage. One student per hurdle at a time. Eyes up, no racing, no pushing. Running shoes on and laces tied. Stop signal: \"Freeze.\"",
+   "equipment": "Hurdles- 6\" (6), Hurdles-adjustable (6, lowest setting), Hurdles (8) and Pylons- hurdles (8): up to 28 small hurdles; Pylons - saucer (15–25); Floor Markers (circles, squares, stars) and/or Bean Bags as spot markers (15–25).",
+   "grades": "1–6",
+   "bestBand": "1–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Choosing a safe route and crossing low hurdles with control suits Grades 1–4; Grades 5–6 use lead-leg changes and a 3-step hurdle rhythm.",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "section": "Warm-ups & brain breaks",
+   "sports": "athletics, agility, change-of-direction, soccer and basketball lead-up, gr 1–6",
+   "grouping": "whole class at once · 5–10 minutes",
+   "desc": "Small hurdles, saucer pylons and spot markers are scattered around the gym. Students travel freely and choose their own route: step or jump a hurdle, plant and turn at a pylon, and speed up at a spot marker. Nobody is out.",
+   "g12": "Walk and step over hurdles first. Then jog. Use only the 6\" hurdles and pylon-hurdles.",
+   "g34": "Two-foot jumps over hurdles, hop on one foot after a pylon turn (our adaptation).",
+   "g56": "Lead leg changes every hurdle; after each spot marker, add a 3-step hurdle rhythm (our adaptation). Or add a basketball or soccer ball to dribble around the pylons, stepping around hurdles instead of jumping."
+  },
+  {
+   "id": "pebbles-stones-and-rocks",
+   "added": "2026-12-14",
+   "addedOn": "2026-11-21",
+   "name": "Pebbles, Stones and Rocks",
+   "source": "Daly",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=LCr546Z_1Hk"
+   ],
+   "sources": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=LCr546Z_1Hk",
+     "title": "3 Brand New Gymnastics Games",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "videoNote": "Source demo (from “3 Brand New Gymnastics Games”). Use the safety house rules below, including floor markers instead of hoops for jumping.",
+   "order": 91,
+   "gradesFrom": "doc",
+   "unit": "April",
+   "suggestedMonth": "April",
+   "alsoFits": [],
+   "slot": "16–25",
+   "setup": "Build at least three kinds of routes with floor markers, bean bags, hoops and saucer pylons: straight, curved and zigzag (source). Lay skipping ropes in a curve beside the curved routes so the shape is clear (our addition). For 24 students, build 6 routes (2 of each shape) so groups of 4 can rotate. Space routes at least 2 m apart. Our adaptation: name the routes \"Pebbles\" (straight), \"Stones\" (curved) and \"Rocks\" (zigzag) so you can call them out. The source video does not say which name goes with which shape.",
+   "how": [
+    "Each group starts at a route. Students travel along it one at a time, leaving a gap of 2–3 markers, using the movement you call: walk, hop, jump (source).",
+    "At the end, students name the shape of the pathway they just travelled (source: recognise the shape of each pathway).",
+    "They jog back beside the route, not on it, and go again with a new movement.",
+    "On \"Freeze,\" groups rotate to the next route.",
+    "Free-travel round (our adaptation): call \"Pebbles!\", \"Stones!\" or \"Rocks!\" and students move to any route of that shape."
+   ],
+   "ifThis": [
+    "Students bunch up on a route: start the next student only when the one ahead reaches the third marker.",
+    "Hoops slide: use hoops only on spots where students step in, not jump in, or swap hoops for floor markers.",
+    "Students rush: \"Control first. Can you land and freeze on each marker?\""
+   ],
+   "cues": [
+    "Look ahead to see the shape of the path.",
+    "Straight: eyes forward. Curved: lean a little into the curve. Zigzag: sharp turns, small steps.",
+    "Land softly and hold your balance before the next move.",
+    "Keep space from the person in front."
+   ],
+   "variations": [
+    "K–Grade 1: Walk and step only on the first round. Two-foot jumps between hoops.",
+    "Grade 2: Hop on one foot on straight routes, gallop on curved routes, two-foot jumps on zigzag routes.",
+    "Grades 3–4: Students design their own route with a partner and teach it to another pair (our adaptation). Add a balance (stork stand, star shape) at each hoop."
+   ],
+   "tips": [
+    "With about 60: Build 10–12 routes across the whole gym, about 5–6 students per route, and rotate on \"Freeze.\" Equipment for 60: Hula Hoops (60 total: 25 x 24\" and 35 x 30\"), Bean Bags (75 inside), Pylons - saucer (67), Floor Markers and Skipping Ropes 9' (131). That's enough for 12 routes. Or run two halves of 30 with 6 routes each and a 3 m buffer down the middle.",
+    "Support: A student who needs a break can be a route checker who resets markers, then rejoins. A student who uses a mobility aid can travel each route along its edge, rolling or walking, and still name the shape. Offer picture cards for straight, curved and zigzag.",
+    "Before teaching: check the class medical alert list and ISP supports in the class binder. Demonstrate the stop signal and follow school policy and SPHEReS guidance."
+   ],
+   "roundEnds": "Rotate every 1–2 minutes until each group has done every shape. Finish with the free-travel round.",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "names the pathway shape; changes direction with control; uses the called movement; keeps space from others."
+    },
+    {
+     "code": "Physical Education and Wellness · Kindergarten outcome",
+     "look": "Children investigate movement of the body. [PDEK-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 1 outcome",
+     "look": "Students demonstrate how movement can support different types of physical activity. [PDE1-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 2 outcome",
+     "look": "Students refine and apply spatial awareness across a variety of physical activity contexts. [PDE2-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    }
+   ],
+   "safety": "Routes at least 2 m apart and 2 m from walls. Use floor markers instead of hoops for jumping, so nobody lands on a sliding hoop. One student at a time on each part of a route. Stop signal: \"Freeze.\"",
+   "equipment": "Floor Markers (circles, squares, stars), Bean Bags, Hula Hoops - 24\" / 30\", Pylons - saucer, and Skipping Ropes 9' laid on the floor to show curved lines (our addition).",
+   "grades": "K–4",
+   "bestBand": "K–2",
+   "alsoBand": "3–4",
+   "bandWhy": "Naming pathway shapes and travelling along them with control suits Kindergarten to Grade 2; Grades 3–4 design their own routes.",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "section": "Fitness & stations",
+   "sports": "gymnastics, locomotor pathways, primary movement, K–4",
+   "grouping": "3–6 routes with 4–6 students each · 10–15 minutes",
+   "desc": "Students travel along straight, curved and zigzag routes made from floor markers, bean bags, hoops and ropes, by walking, hopping and jumping, then name the shape of each pathway. Nobody is out.",
+   "g12": "Kindergarten and Grade 1 walk and step only on the first round, then two-foot jumps between hoops. Grade 2 hops on one foot on straight routes, gallops on curved routes, and uses two-foot jumps on zigzag routes.",
+   "g34": "Students design their own route with a partner and teach it to another pair (our adaptation). Add a balance (stork stand, star shape) at each hoop.",
+   "g56": "Not offered for Grades 5–6."
   }
  ]
 };
