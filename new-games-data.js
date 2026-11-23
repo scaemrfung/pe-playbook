@@ -1467,7 +1467,7 @@ window.NEW_GAMES = {
    "addedOn": "2026-10-12",
    "name": "Mooshake",
    "section": "Warm-ups & brain breaks",
-   "desc": "Pass a stuffed cow (or soft ball) around the circle without a drop; every clean lap, everyone steps back; drop it and everyone yells “Moo-shake!”, wiggles, steps back in and starts again",
+   "desc": "Pass a bean bag animal (or soft ball) around the circle without a drop; every clean lap, everyone steps back; drop it and everyone yells “Moo-shake!”, wiggles, steps back in and starts again",
    "sports": "throw/catch, teamwork, K–3",
    "flag": "stay-in",
    "stayIn": true,
@@ -1491,16 +1491,16 @@ window.NEW_GAMES = {
    "type": "coop",
    "typeLabel": "Cooperative & circus",
    "slot": "0–5 or 16–25",
-   "grouping": "Circles of 8–12 · one stuffed cow or soft ball per circle · 5–8 minutes",
+   "grouping": "Circles of 8–12 · one bean bag animal or soft ball per circle · 5–8 minutes",
    "cues": [
-    "Eyes on the cow.",
+    "Eyes on the animal or ball.",
     "Soft underhand toss to someone ready.",
     "Say their name before you pass.",
-    "Freeze on the whistle — hold the cow."
+    "Freeze on the whistle — hold the animal or ball."
    ],
    "ifThis": [
     "Hard or high throws: switch to rolling for one round.",
-    "The same few get the cow: everyone must get it once before a repeat."
+    "The same few get the animal or ball: everyone must get it once before a repeat."
    ],
    "roundEnds": "Play for the set time. Count clean laps (steps back) as a class goal. No one leaves the circle.",
    "tips": [
@@ -1542,20 +1542,20 @@ window.NEW_GAMES = {
     "https://physedgames.com/mooshake/"
    ],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page). Mooshake is also in the Circle Games clip.",
-   "equipment": "A stuffed cow (or a soft ball) for each circle",
+   "equipment": "1 Bean bag animal per circle (31 animals in all; he does not have a stuffed cow), or 1 soft ball per circle (Softex, Gator skin, Dodge Ball or Beachball)",
    "setup": "Students stand in a circle, a little more than arm's length apart.",
    "how": [
-    "Stand in a circle. Pass the cow (or soft ball) from player to player around the circle with a soft underhand toss or hand-off.",
+    "Stand in a circle. Pass the bean bag animal (or soft ball) from player to player around the circle with a soft underhand toss or hand-off.",
     "Keep the pass going without dropping it.",
     "After each clean lap, everyone takes one small step back, so the circle gets bigger.",
-    "When the cow drops, everyone yells “Moo-shake!”, does a quick shake and wiggle together, steps back in to the starting circle and starts the pass again.",
+    "When the animal or ball drops, everyone yells “Moo-shake!”, does a quick shake and wiggle together, steps back in to the starting circle and starts the pass again.",
     "With a big group, run several circles."
    ],
    "variations": [
-    "Use a soft ball instead of a stuffy.",
+    "Use a soft ball instead of a bean bag animal.",
     "Pass in order around the circle, then across."
    ],
-   "safety": "Soft underhand passes only; eyes on the object. Stop signal: one whistle, freeze and hold the cow.",
+   "safety": "Soft underhand passes only; eyes on the object. Stop signal: one whistle, freeze and hold the animal or ball.",
    "bestBand": "1–2",
    "alsoBand": "3–4",
    "bandWhy": "Library lists K–3; soft tosses and hand-offs in a circle."
@@ -3362,7 +3362,7 @@ window.NEW_GAMES = {
    ],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "suggestedMonth": "September",
-   "equipment": "Pool noodles; soccer balls; two goals",
+   "equipment": "Noodles - full (9; Noodles - half 64 if you need to join two halves); Soccer Balls - indoor; two Standards-hockey nets (one at each end). If no one is goalie, use Hurdles as the two goals — never pylon or tape goals. For about 60, run two waves or two games, because 9 full noodles will not link the whole class at once.",
    "setup": "Players in rows across the gym holding noodles to link with teammates (like foosball rods).",
    "how": [
     "Rows can move sideways only, staying linked.",
@@ -3561,7 +3561,7 @@ window.NEW_GAMES = {
    "aliases": [
     "dice-dribblers"
    ],
-   "equipment": "Large foam die; one ball per student (soccer, basketball, or hockey)",
+   "equipment": "1 Exercise Dice set of 2 (he does not have a \"large foam die\" by that name; he has 2 sets, so 4 large exercise dice); one ball per student (Soccer Balls - indoor, a Basketball, or a Pucks-balls / Pucks - sponge). For about 60, use 1 ball per student from the indoor soccer balls, or 1 per pair if you use basketballs or pucks.",
    "setup": "Groups numbered 1–6 on one end line.",
    "how": [
     "Roll the die.",
@@ -3692,7 +3692,7 @@ window.NEW_GAMES = {
    "type": "invasion",
    "typeLabel": "Invasion & team",
    "slot": "16–25",
-   "grouping": "Two teams · one basket each · short quarters · 10–15 minutes",
+   "grouping": "Two teams · one bin each · short quarters · 10–15 minutes",
    "cues": [
     "Slide low along the floor.",
     "Step and throw, point to your target.",
@@ -3735,14 +3735,14 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "6 gym mats, 6 foam footballs, bean bags, 1 basket per team, a volleyball net (optional)",
-   "setup": "Two teams start behind a line about 3 m from the centre, with bean bags in the middle. Put three mats on each end line, each holding one football. A basket sits at each team's end.",
+   "equipment": "6 Mats 4x4x8, 6 Footballs-soft (14 on the list), Bean Bags, 1 Bin or Bins-milk carts per team as the collection container (he does not have a laundry basket; this is not a basketball hoop), a volleyball Net (optional)",
+   "setup": "Two teams start behind a line about 3 m from the centre, with bean bags in the middle. Put three mats on each end line, each holding one football. A bin sits at each team's end.",
    "how": [
     "On “Go”, race to grab a bean bag and get back behind your line.",
     "Slide the bean bag along the floor (under the net if you use one) to touch an opponent's foot.",
     "If your bean bag touches a foot, you may run across, pick up a football from a mat and try a pass to a teammate.",
-    "A catch goes in your team's basket. A miss returns the football to its mat.",
-    "The first team to fill its basket wins the quarter. Reset and play again; everyone plays every quarter."
+    "A catch goes in your team's bin. A miss returns the football to its mat.",
+    "The first team to fill its bin wins the quarter. Reset and play again; everyone plays every quarter."
    ],
    "variations": [
     "Play without the net and use a centre line instead.",
@@ -4425,7 +4425,7 @@ window.NEW_GAMES = {
     }
    ],
    "g12": "Not recommended as a game. Use the wall station only (two-hand pass to a target, catch with ready hands).",
-   "g34": "Lead-up: 4v4 with a larger foam ball, cone goals, no goalie and no jump shots. A slow 5-second count. Two passes before a shot.",
+   "g34": "Lead-up: 4v4 with a larger foam ball (Softex or Playground 10\"), hurdle goals, no goalie and no jump shots. A slow 5-second count. Two passes before a shot.",
    "g56": "Full rules. Jump shots allowed. Add the \"three different players touch it\" rule if one player dominates. Students referee the 3-second count from the sideline.",
    "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
    "videos": [
@@ -4437,7 +4437,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "1 small soft ball per game (foam or gator-skin, about 15–18 cm); 4 portable goals, 2 side by side at each end (or 4 floor hockey nets, or cone goals 1.5 m wide); cones or floor markers to mark an arc about 6 m from each pair of goals (the basketball three-point line works); pinnies in 4 colours; 1 wall target (tape square) for the waiting teams",
+   "equipment": "1 small soft ball per game (Gator skin balls 10, or Softex (yellow) 37 / Duraskin); 4 Standards-hockey nets, 2 side by side at each end (he has 8 nets; he does not have portable goals). When no one wants to be goalie, use Hurdles (6\", adjustable, track Hurdles or Pylons- hurdles) as the goals — never tape or pylon goals. Pylons or Floor Markers to mark an arc about 6 m from each pair of goals (the basketball three-point line works); Pinnies in 4 colours; 1 wall target (a square of Floor Marking Tape) for the waiting teams",
    "setup": "Use the basketball court. Put two goals side by side on each end line, at least 2 m in from the end wall. Mark the arc (the defensive zone) in front of each pair of goals with cones or floor markers. The free-throw lane is the goalie area. With 24 students, make 4 teams of 6. Two teams play while the other two practise passing and jump-shot form at a wall target beside the court, behind a waiting line, then rotate. If the gym fits two courts across its width, run two games at once with one goal at each end of each court.",
    "how": [
     "Each team puts 5 players on the court and 1 sub on the sideline. The sub swaps in after every goal.",
@@ -4454,7 +4454,7 @@ window.NEW_GAMES = {
     "Every player on the court must touch the ball before a shot.",
     "Shoot at a target zone only (low corners of the goal) for accuracy.",
     "Add a second ball for Grades 5–6 once spacing is good.",
-    "Play without goalies and use cone targets."
+    "Play without goalies and use hurdle goals."
    ],
    "safety": "Goals and arcs at least 2 m from the walls and stage. Soft ball only. No contact: defenders stay one arm's length away. Shots stay below shoulder height. Only the goalie stands in the goalie area. Jumpers take off and land on the flat floor, not on mats or floor-marker edges. Waiting teams stay behind the wall-station line. Stop signal: teacher says \"Freeze\". Students stop, drop or hold the ball still, hands on knees, eyes on the teacher.",
    "bestBand": "5–6",
@@ -4467,7 +4467,7 @@ window.NEW_GAMES = {
    "addedOn": "2026-11-01",
    "name": "Hot Shot Basketball",
    "section": "Invasion / soccer–basketball–football",
-   "desc": "Poly spots are spread all over the gym. Players shoot from any spot at any basket. Make it, and you take that spot back to your team's cone. The team with the most spots wins the round.",
+   "desc": "Saucer pylons are spread all over the gym as shooting spots. Players shoot from any spot at any basket. Make it, and you take that saucer back to your team's cone. The team with the most spots wins the round.",
    "sports": "basketball shooting, team tactics",
    "flag": "stay-in (no elimination)",
    "stayIn": true,
@@ -4541,11 +4541,11 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply: no elimination.",
-   "equipment": "1 basketball per player (or 1 per pair); every basket in the gym; 4 team cones; 30–40 poly spots.",
-   "setup": "Make 4 teams. Give each team a basket and a team cone at half court along the sideline. Spread poly spots all over the gym at different distances from the baskets, with a few out near half court. Every player has a ball, or partners share one.",
+   "equipment": "1 basketball per player (or 1 per pair); every basket in the gym; 4 team cones (Pylons -12\" or Pylons - 18\"); 30–40 Pylons - saucer as shooting spots (he does not have poly spots; Floor Markers are only 24, so use saucers). For 60 students, keep 30–40 spots and share balls (1 per pair).",
+   "setup": "Make 4 teams. Give each team a basket and a team cone at half court along the sideline. Spread 30–40 Pylons - saucer all over the gym at different distances from the baskets, with a few out near half court. Every player has a ball, or partners share one.",
    "how": [
-    "On \"Go,\" shoot from any poly spot at any basket in the gym. The closest basket is the smart shot.",
-    "Make it: pick up that poly spot, carry it back to your team cone, and go find another spot.",
+    "On \"Go,\" shoot from any saucer pylon at any basket in the gym. The closest basket is the smart shot.",
+    "Make it: pick up that saucer, carry it back to your team cone, and go find another spot.",
     "Miss: get your rebound and try again from the same spot.",
     "If someone is already waiting at that spot, go to the end of that line.",
     "Near the end, only a few spots are left out near half court, and everyone lines up to try the long shot.",
@@ -4557,7 +4557,7 @@ window.NEW_GAMES = {
     "Grades 3–4: As in the video, with spots no farther than the three-point line.",
     "Grades 5–6: As in the video. Spots farther out are worth 2 (mark them with a different colour) (our adaptation)."
    ],
-   "safety": "Several baskets are in use at once, so look before you walk under any basket. Shoot only from a spot. Long shots are two-hand set shots, never thrown hard. Carry the poly spot; do not slide on it. Walk across the shooting areas on the way back to the cone. Use the right ball size (junior or size 5 for Grades 1–4, size 6 for Grades 5–6). Never walk under a basket while someone is shooting at it. Stop signal: whistle or \"Freeze.\" Ball on your hip, stand still, eyes on the teacher.",
+   "safety": "Several baskets are in use at once, so look before you walk under any basket. Shoot only from a spot. Long shots are two-hand set shots, never thrown hard. Carry the saucer; do not slide on it. Walk across the shooting areas on the way back to the cone. Use the right ball size (junior or size 5 for Grades 1–4, size 6 for Grades 5–6). Never walk under a basket while someone is shooting at it. Stop signal: whistle or \"Freeze.\" Ball on your hip, stand still, eyes on the teacher.",
    "bestBand": "3–4",
    "alsoBand": "5–6",
    "bandWhy": "Choosing a smart spot and shooting with balanced form suit Grades 3–6; Grades 1–2 use lowered hoops or buckets with close spots."
@@ -4638,7 +4638,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply: no elimination.",
-   "equipment": "2 basketballs per group of 3; one basket per group (use every basket, lowered hoops and portable hoops).",
+   "equipment": "2 basketballs per group of 3; one wall basket per group (use every basket, and lower any that use the Basketball hooks-cranks). He does not have portable hoops. If baskets are short, add a Buckets-white/orange or Hula Hoop station for form shots, as in the set-up already on this card.",
    "setup": "3 players per basket. Two stand at the free-throw line, and the third waits behind or to the side. Class of 24 with fewer than 8 baskets: put 4 at a basket (two waiting), or add a bucket or hoop station where waiting players practise form shots (our adaptation). Number the baskets so \"moving up\" is clear (1 is the top basket).",
    "how": [
     "The two shooters tap their balls together, then both shoot a free throw at the same time.",
@@ -4736,7 +4736,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply: no elimination.",
-   "equipment": "1 basketball per group of 3; one basket per group (lowered or portable hoops help).",
+   "equipment": "1 basketball per group of 3; one wall basket per group (lower any that use the Basketball hooks-cranks). He does not have portable hoops; for younger grades a Buckets-white/orange target can stand in as a low basket.",
    "setup": "3 players per basket. Two face each other at the free-throw line, with the ball on the line between them. The third waits beside the lane.",
    "how": [
     "The two players play one round of Rock, Paper, Scissors.",
@@ -4823,7 +4823,7 @@ window.NEW_GAMES = {
      "look": "Students adapt and apply movement patterns in controlled and dynamic physical activities. [PDE6-OI2-GQ2-LO1]"
     }
    ],
-   "g12": "Grade 2: 5 poly spots close to a lowered hoop or bucket. No risk shot: a miss means pass and stay (our adaptation).",
+   "g12": "Grade 2: 5 Floor Markers close to a lowered hoop or bucket. No risk shot: a miss means pass and stay (our adaptation).",
    "g34": "5 spots around the key. Risk shot allowed, but a missed risk shot only sends you back 2 spots (our adaptation).",
    "g56": "All 7 spots, as in the video, with full risk rules.",
    "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
@@ -4836,8 +4836,8 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply: no elimination.",
-   "equipment": "1 basketball per group; one basket per group of 2–4; 5 poly spots per basket for younger grades.",
-   "setup": "Groups of 2–4 at each basket. Use the tick marks on the free-throw lane as the spots, in this order: low block, two tick marks up, the corner, the free-throw line, the other corner, two tick marks back down, and the final low block. Younger grades: put 5 poly spots in a half circle close to the basket.",
+   "equipment": "1 basketball per group; one basket per group of 2–4; 5 Floor Markers (circles, squares, stars) per basket for younger grades (he does not have poly spots). If more than 4 baskets are in use, add Pylons - saucer.",
+   "setup": "Groups of 2–4 at each basket. Use the tick marks on the free-throw lane as the spots, in this order: low block, two tick marks up, the corner, the free-throw line, the other corner, two tick marks back down, and the final low block. Younger grades: put 5 Floor Markers in a half circle close to the basket.",
    "how": [
     "Start at the first low block.",
     "Make it: move up to the next spot and keep shooting, all the way around.",
@@ -4848,7 +4848,7 @@ window.NEW_GAMES = {
     "The first player to make the final low block finishes. Start a new round."
    ],
    "variations": [
-    "Grade 2: 5 poly spots close to a lowered hoop or bucket. No risk shot: a miss means pass and stay (our adaptation).",
+    "Grade 2: 5 Floor Markers close to a lowered hoop or bucket. No risk shot: a miss means pass and stay (our adaptation).",
     "Grades 3–4: 5 spots around the key. Risk shot allowed, but a missed risk shot only sends you back 2 spots (our adaptation).",
     "Grades 5–6: All 7 spots, as in the video, with full risk rules."
    ],
@@ -4996,7 +4996,7 @@ window.NEW_GAMES = {
    ],
    "roundEnds": "When a team goes all the way around and exits the board. Every team plays every round; a mistake costs a turn, never the round.",
    "tips": [
-    "The video description offers a free poster and game cards; make your own cards on poly spots if you prefer.",
+    "The video description offers a free poster and game cards; make your own cards and place them in the hoops (or on Floor Markers) if you prefer.",
     "Unit rules from the video: \"Whistle means ball on your hip\" (not bouncing, not on the floor), and \"If you're waiting, you're cheering\" (waiting players call the score and encourage teammates).",
     "Year plan: January (basketball, Week 2 games day)."
    ],
@@ -5043,7 +5043,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply: no elimination.",
-   "equipment": "1 mat per team; 15–30 hoops; 1 different-coloured cone per team (the game piece); 1 basketball per team; 6 shooting-spot markers (a 1, 2 and 3 for each side); 12 game cards on poly spots (two sets of 1, 2 and 3 forward plus 1, 2 and 3 backward).",
+   "equipment": "1 mat per team (Mats 4x4x8); 15–30 Hula Hoops - 24\" / 30\"; 1 different-coloured Pylons -12\" or Pylons - saucer per team (the game piece); 1 basketball per team; 6 Floor Markers as shooting spots (a 1, 2 and 3 for each side; he does not have poly spots); 12 teacher-made game cards placed in the hoops (two sets of 1, 2 and 3 forward plus 1, 2 and 3 backward).",
    "setup": "Lay the hoops around the outside of the court like spaces on a board, about 1 m outside the court lines (our adaptation). Team mats go on the sidelines, and every team's game piece (cone) starts in the corner. Put a 1, a 2 and a 3 shooting spot on each side (6 spots), and move them to new places each round. Spread the forward (green arrow) and backward (red arrow) cards through the hoops.",
    "how": [
     "Teams take turns shooting from the spot of their choice. One shot per player.",
@@ -5732,7 +5732,7 @@ window.NEW_GAMES = {
    ],
    "g12": "Lead-up only, not the full game: groups of 4–6 on a short court with a low rope or bench as the net and a large light ball. Catch the ball after one bounce, then toss it back over. No serving rotation, and the walls are not in play.",
    "g34": "Full rules with a beach ball or trainer ball, 5–6 per side. Serve from a closer line. The teacher calls the rotation. Games to 7.",
-   "g56": "The full game as shown, with a four square ball and 7 per side in the 3-1-3. Students track the rotation and mulligans themselves. Games to 11.",
+   "g56": "The full game as shown, with a Playground 10\" and 7 per side in the 3-1-3. Students track the rotation and mulligans themselves. Games to 11.",
    "aka": [
     "NitroBall"
    ],
@@ -5751,7 +5751,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page). The second clip is the earlier version of the game (the original NitroBall).",
-   "equipment": "Volleyball standards with the net lowered to waist height (or a rope between the standards); 1 four square / playground ball per court (beach balls or trainer balls for younger groups); floor markers or poly spots numbered 1–7 on each side; the free-throw lines as serve lines; pinnies in 3 colours; cones for a waiting line about 2 m from the court; 2–3 extra balls for the waiting team's wall passes",
+   "equipment": "Volleyball Standards (4) with the net lowered to waist height (or a Skipping Rope 9' or Skipping Ropes- long between the standards); 1 Playground 10\" per court (Beachballs or volleyball Ball - Lite for younger groups); Floor Markers numbered 1–7 on each side (he does not have poly spots; for two courts add Pylons - saucer so you have 28 marks); the free-throw lines as serve lines; Pinnies in 3 colours; Pylons for a waiting line about 2 m from the court; 2–3 extra Playground 10\" or Beachballs for the waiting team's wall passes",
    "setup": "Set the net across the middle of the court at waist height. For a class of 24, make three teams of 8: seven play and one waits to rotate in, and the third team waits to challenge the winner. Each side sets up seven players in a 3-1-3 (three in front, one in the middle, three in the back) on spots numbered 1 to 7, so students know exactly where to stand. Spot 4, the middle player, is the server. Cone a waiting line at least 2 m from the court, next to a side wall that is away from play, for the waiting team's wall passes.",
    "how": [
     "Spot 4 serves underhand from behind the free-throw line. The serve has to land before the other team's free-throw line.",
@@ -6140,7 +6140,7 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "Volleyball net and standards; 1–2 parachutes or tarps draped over the net (or upright folding mats as a wall); 18 hoops (9 per team); 18 bowling pins or tall cones; 10–12 gator balls or soft foam balls",
+   "equipment": "Volleyball Nets and Standards; 1–2 Parachute- colored or the Parachute- white draped over the net (he does not have tarps), or upright folding Mats 4x4x8 as a wall; 18 Hula Hoops (9 per team); 18 pins from the Bowling Pin Sets (6 sets) or 18 Pylons -12\"; 10–12 Gator skin balls (10 on the list) and/or Softex (yellow)",
    "setup": "Hang the parachute over the net so the two halves cannot see each other. Block the side gaps with mats.",
    "how": [
     "Split the class into two teams of about 12, one on each side of the wall.",
@@ -6263,13 +6263,13 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "Volleyball net lowered to about 1–1.2 m (or a rope between two standards); 4 throwing cones (one per team); targets on the far side: 8 hoops (1 point), 6 tall cones (2 points), 6 spot markers (5 points), 4 buckets or bins (10 points); per team, a set of soft throwables: 2 beanbags, 1 foam ball, 1 tennis ball, 1 foam football, 1 deck ring, 1 soft volleyball or trainer ball; tally sheet or whiteboard",
-   "setup": "Set the net across the gym. Put 4 throwing cones in a row about 3–4 m from the net, at least 3 m apart. Each team lines up behind its cone. Scatter the targets 2–8 m beyond the net. Put the hoops closest, then tall cones, spot markers, and buckets farthest. Keep all targets at least 2 m from the far wall.",
+   "equipment": "Volleyball net lowered to about 1–1.2 m (or a rope between two standards); 4 throwing cones (one per team); targets on the far side: 8 Hula Hoops (1 point), 6 Pylons -12\" or Pylons - 18\" (2 points), 6 Floor Markers (5 points; he does not have a \"spot markers\" item), 4 Buckets-white/orange or Bins (10 points); per team, a set of soft throwables: 2 beanbags, 1 foam ball, 1 tennis ball, 1 foam football, 1 deck ring, 1 soft volleyball or trainer ball; tally sheet or whiteboard",
+   "setup": "Set the net across the gym. Put 4 throwing cones in a row about 3–4 m from the net, at least 3 m apart. Each team lines up behind its cone. Scatter the targets 2–8 m beyond the net. Put the hoops closest, then tall pylons, Floor Markers, and buckets farthest. Keep all targets at least 2 m from the far wall.",
    "how": [
     "The first player in each line steps up to the throwing cone with the team's object for that round.",
     "Ready position: \"Point to your target, scratch your ear with the ball, wait for my call.\"",
     "The teacher calls \"Fire!\" All four throwers send their object over the net at a target.",
-    "Score: lands in a hoop = 1, knocks or hits a tall cone = 2, lands on a spot marker = 5, lands in a bucket = 10. The thrower calls their score; a teammate records it.",
+    "Score: lands in a hoop = 1, knocks or hits a tall pylon = 2, lands on a Floor Marker = 5, lands in a bucket = 10. The thrower calls their score; a teammate records it.",
     "The teacher calls \"Collect.\" Only the four throwers go under or around the net, fetch their object, return, and hand it to the next player. They then go to the back of the line.",
     "The teacher calls \"Fire!\" again only when every collector is back behind the throwing line.",
     "Every round, the teacher names a new way to fire the cannon: Beanbag: underhand throw (swing back, point, step, follow through). Large foam ball: two-hand overhead throw. Tennis ball or foam football: overhand throw (opposite-foot step). Deck ring: backhand fling. Soft volleyball: underhand serve (fist, swing straight through). Foam football: drop punt. Indoor soccer ball: bounce and kick (Grades 3–6)."
@@ -6291,7 +6291,7 @@ window.NEW_GAMES = {
    "addedOn": "2026-10-24",
    "name": "Target Toys",
    "section": "Target / throwing",
-   "desc": "Relay teams roll (or kick) a foam ball into hoops full of toys. A ball in a hoop wins one toy from that hoop for the team. The teacher secretly picks three bonus toys.",
+   "desc": "Relay teams roll (or kick) a foam ball into hoops full of beanbags or animals. A ball in a hoop wins one beanbag or animal from that hoop for the team. The teacher secretly picks three bonus beanbags or animals.",
    "sports": "rolling, kicking accuracy, target games",
    "flag": "stay-in (no elimination)",
    "stayIn": true,
@@ -6321,7 +6321,7 @@ window.NEW_GAMES = {
    ],
    "ifThis": [
     "Players run into each other while getting balls: get your ball, then walk back along the side of your lane (our adaptation).",
-    "One hoop is emptied fast: move it farther away, or add toys.",
+    "One hoop is emptied fast: move it farther away, or add beanbags or animals.",
     "Teams argue about whether it counts: the ball must stop inside or touch inside the hoop. The teacher decides."
    ],
    "roundEnds": "When all toys (or hoops) are collected. Count, reveal secret items, mix teams and play again.",
@@ -6358,7 +6358,7 @@ window.NEW_GAMES = {
     }
    ],
    "g12": "Rolling only, short distance. Two-hand roll for younger students.",
-   "g34": "Longer distance, choose rolling or kicking, or collect hoops after toys (from the video).",
+   "g34": "Longer distance, choose rolling or kicking, or collect hoops after beanbags or animals (from the video).",
    "g56": "",
    "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
    "videos": [
@@ -6372,20 +6372,20 @@ window.NEW_GAMES = {
     "https://physedgames.com/target-toys/"
    ],
    "videoNote": "Clips are demos. Our house rules still apply: no elimination.",
-   "equipment": "8–12 hoops; a pile of small toys, stuffed animals or beanbags (3–5 per hoop); 1 foam ball per team, each team a different colour; a start line (court line or rope)",
-   "setup": "Put the hoops flat on the floor at one end of the gym. Put several toys or beanbags in each hoop. Mark a start line an appropriate distance from the hoops (closer for younger students). Make 4–6 teams. Each team lines up behind the start line with its own colour of foam ball. Choose the skill: rolling or kicking. Students can also choose on their turn. Secretly choose three bonus items (for example \"glasses, pig and robot\"). Keep them in your head or write them on paper.",
+   "equipment": "8–12 Hula Hoops - 24\" / 30\"; a pile of Bean Bags and Bean bag animals (3–5 per hoop; he does not have a toy / stuffed-animal set); 1 foam ball per team, each team a different colour (Softex, Gator skin, Dodge Balls or Porcupine Balls — he has several colours); a start line (court line or Skipping Rope)",
+   "setup": "Put the hoops flat on the floor at one end of the gym. Put several Bean Bags and Bean bag animals in each hoop. Mark a start line an appropriate distance from the hoops (closer for younger students). Make 4–6 teams. Each team lines up behind the start line with its own colour of foam ball. Choose the skill: rolling or kicking. Students can also choose on their turn. Secretly choose three bonus items from the animals you actually put out (for example \"pig, frog and hippo\"). Keep them in your head or write them on paper.",
    "how": [
     "On \"Go,\" the first player on each team rolls (or kicks) the ball toward the hoops.",
-    "If the ball goes into a hoop, the player gets the ball and one toy from that hoop and brings both back to the team.",
+    "If the ball goes into a hoop, the player gets the ball and one beanbag or animal from that hoop and brings both back to the team.",
     "If the ball misses, the player gets the ball and brings it back. Stay out of the way of other teams' balls.",
     "The player hands the ball to the next teammate and goes to the back of the line.",
-    "Keep going until all the toys are collected.",
-    "Count each team's toys. Then reveal the three secret items. Teams with a secret item get bonus points."
+    "Keep going until all the beanbags or animals are collected.",
+    "Count each team's beanbags or animals. Then reveal the three secret items. Teams with a secret item get bonus points."
    ],
    "variations": [
-    "Extension (from the video): After the toys are gone, keep playing to collect the hoops too.",
+    "Extension (from the video): After the beanbags or animals are gone, keep playing to collect the hoops too.",
     "Grades 1–2: Rolling only, short distance. Two-hand roll for younger students.",
-    "Grades 3–4: Longer distance, choose rolling or kicking, or collect hoops after toys (from the video)."
+    "Grades 3–4: Longer distance, choose rolling or kicking, or collect hoops after beanbags or animals (from the video)."
    ],
    "safety": "Foam balls only. Only one player per team in the target area at a time. Retrievers walk back along the side of the lane, never across other lanes. Waiting players stay behind the start line. Hoops 2 m from walls. Stop signal: \"Freeze\" (hold your ball).",
    "bestBand": "1–2",
@@ -6590,7 +6590,7 @@ window.NEW_GAMES = {
     "https://physedgames.com/beanbag-battle/"
    ],
    "videoNote": "Clips are demos. Our house rules still apply: no elimination.",
-   "equipment": "Per battle (two teams): 1 laundry basket, milk crate or bin per team; 1 beanbag per team; 1 cone per team for the throwing line; 7 hoops in a row; 1 large cone (the marker) plus 1 cone at each end. For 24 students: 3 battles side by side, so 6 baskets, 6 beanbags, 21 hoops, 3 large marker cones.",
+   "equipment": "Per battle (two teams): 1 Bins-milk carts or other Bin per team (he does not have a laundry basket); 1 Bean Bag per team; 1 Pylons -12\" per team for the throwing line; 7 Hula Hoops in a row; 1 Pylons - 18\" (the marker) plus 1 pylon at each end. For 24 students: 3 battles side by side, so 6 bins, 6 beanbags, 21 hoops, 3 large marker pylons. For about 60, run two waves of 3 battles, or add more battles using Bins-rectangular (27) as well.",
    "setup": "Make teams of 3–5. Pair the teams into battles. Each team lines up behind its cone. Place its basket an appropriate distance in front (closer for younger students). Lay 7 hoops in a row between the two teams of a battle. Put the large marker cone in the middle hoop and a cone just past each end hoop.",
    "how": [
     "On \"Go,\" the first player on each team tosses the beanbag at their basket. Use the toss you are working on (underhand or overhand).",
@@ -6695,7 +6695,7 @@ window.NEW_GAMES = {
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "suggestedMonth": "June",
-   "equipment": "Four kickballs; bases",
+   "equipment": "Four Playground 10\" (14 on the list; he does not have a \"kickball\" item) or four Soccer Balls - indoor; one Bases-rubber-sets or Bases-vinyl-sets",
    "setup": "Standard kickball diamond with four balls.",
    "how": [
     "Four kickers kick at once.",
@@ -6793,7 +6793,7 @@ window.NEW_GAMES = {
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "suggestedMonth": "June",
-   "equipment": "Kickball; six bases",
+   "equipment": "1 Playground 10\" (or 1 Soccer Ball - indoor; he does not have a \"kickball\" item); six bases from two Bases-rubber-sets (5 sets on hand) or a mix with Bases-vinyl-sets (2)",
    "setup": "Six-base diamond.",
    "how": [
     "Kicker kicks and runs the six bases.",
@@ -7123,7 +7123,7 @@ window.NEW_GAMES = {
    "added": "baseline",
    "name": "Challenge Mat",
    "section": "Fitness & stations",
-   "desc": "Coop challenges on 4–10 yoga mats",
+   "desc": "Coop challenges on 4–10 gym mats",
    "sports": "gymnastics, balance",
    "flag": "stay-in",
    "stayIn": true,
@@ -7203,13 +7203,13 @@ window.NEW_GAMES = {
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "suggestedMonth": "April",
-   "equipment": "4–10 yoga or gym mats; challenge cards",
-   "setup": "Groups at mats with a challenge card each.",
+   "equipment": "4–10 Mats 4x4x8 (he does not have yoga mats; he has 24 of these, plus 4 Mats 5x4x8); challenges written on White Bds with markers (5) or on a posted list (he does not have challenge cards)",
+   "setup": "Groups at mats with a challenge on a whiteboard, or one shared posted list.",
    "how": [
     "Complete a cooperative balance or movement challenge on the mat.",
     "Everyone must be on the mat for it to count.",
     "Rotate mats.",
-    "Harder cards for older grades."
+    "Harder challenges for older grades."
    ],
    "bestBand": "3–4",
    "alsoBand": "5–6",
@@ -8048,11 +8048,11 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply: no elimination, blade below the knees, no slapshots. The four Prime Coaching Sport clips are one progression: simple, circle and star dribbling, plus ball-handling.",
-   "equipment": "1 floor-hockey stick and 1 soft ball per student (or 1 per pair taking turns), about 30 low cones, 4 tall cones.",
+   "equipment": "1 Jr. Stick -36\" or Cup Stick - 47\" and 1 Pucks-balls or Pucks - sponge per student (or 1 per pair taking turns), about 30 Pylons - saucer or Pylons - 6\", 4 Pylons -12\" or Pylons - 18\". For the shooting add-on, 1 Hurdle at the end of each line (or a shared Standards-hockey net) — never a cone or tape goal.",
    "setup": "Set up three kinds of shapes around the gym, at least 3 m apart and 2 m from the walls, the stage and the doors: cone lines (5–6 cones in a row), circles of cone gates (pairs of cones), and stars (one tall cone in the middle with 4 small cones around it). You can also use the gym floor lines as circles, triangles and squares. Practise “Sticks down!” before handing out sticks.",
    "how": [
     "Step 1, simple dribble: dribble up the line of cones with small touches, stop the ball at the end cone, then dribble back.",
-    "Add on: at the end cone, stop, step and push-shoot into a cone goal, then dribble back.",
+    "Add on: at the end pylon, stop, step and push-shoot into a hurdle goal (or a hockey net), then dribble back.",
     "Step 2, circle dribble: dribble through each gate around the circle, then turn and go the other way. You can also dribble along a gym line in a circle, triangle or square.",
     "Step 3, star dribble: start at an outside cone, dribble in around the middle cone, out to the next outside cone, back to the middle, and keep going until you are back at the start.",
     "Ball-handling extra: in your own space, small touches forward and back, then left and right.",
@@ -8368,15 +8368,15 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply: no elimination, blade below the knees, no slapshots. The second clip shows the Cup Stack Hockey version.",
-   "equipment": "Per lane: 1 stick, 1 soft ball, 4 spot markers, 1 empty plastic bottle or small cone (Cup Stack: 4 stackable cups or small cones).",
-   "setup": "Each lane has a start line and four markers about 1.2 m, 1.8 m, 2.4 m and 3 m from the start. Put a light target (empty plastic bottle or small cone) on the first marker. Lanes at least 3 m apart and 2 m from the walls, the stage and the doors.",
+   "equipment": "Per lane: 1 Jr. Stick -36\" or Cup Stick - 47\", 1 Pucks-balls or Pucks - sponge, 4 Floor Markers or Pylons - saucer, 1 Pylons - 6\" or Pylons - saucer as the target (he does not have plastic bottles or stackable cups). Cup Stack: 4 Pylons - saucer or Pylons - 6\".",
+   "setup": "Each lane has a start line and four Floor Markers or saucer pylons about 1.2 m, 1.8 m, 2.4 m and 3 m from the start. Put a light target (Pylons - 6\" or Pylons - saucer) on the first marker. Lanes at least 3 m apart and 2 m from the walls, the stage and the doors.",
    "how": [
     "Push-pass from the middle of the start line to knock over the target.",
     "Hit: move the target to the next marker, dribble the ball back to the start and shoot again.",
     "Miss: get the ball, dribble back and shoot again.",
     "After you knock over the target on the last marker, dribble back to the start to finish.",
     "Play a 1-minute challenge, or time how long it takes and try to beat your personal best. Partners swap: one shoots, one resets the target and counts.",
-    "Cup Stack Hockey: put four stackable cups (or small cones) in a row 1.8–2.4 m from the start, about 30–45 cm apart. Any touch counts. When you hit one, stack it on another cup and dribble back. You finish when all the cups are in one stack."
+    "Cup Stack Hockey: put four Pylons - saucer or Pylons - 6\" in a row 1.8–2.4 m from the start, about 30–45 cm apart. Any touch counts. When you hit one, stack it on another pylon and dribble back. You finish when all four are in one stack."
    ],
    "variations": [
     "Easier: fewer targets, closer markers, big cones.",
@@ -8394,7 +8394,7 @@ window.NEW_GAMES = {
    "addedOn": "2026-10-23",
    "name": "Bottle Flip Hockey",
    "section": "Floor hockey & stick-handling",
-   "desc": "Push-shoot through a small goal; after each goal, dribble back, lay your stick down and flip a bottle upright before shooting again",
+   "desc": "Push-shoot through a small hurdle goal; after each goal, dribble back, lay your stick down and flip a pylon upright before shooting again",
    "sports": "floor hockey shooting, fine-motor flip, Grades 1–6",
    "flag": "stay-in (lanes of 2–3 rotating every minute; waiting players stick-handle in place behind the start line)",
    "stayIn": true,
@@ -8425,7 +8425,7 @@ window.NEW_GAMES = {
     "“Sticks down!”: stick flat, ball still."
    ],
    "ifThis": [
-    "Bottles get thrown high: flip low, from just above the spot.",
+    "Pylons get thrown high: flip low, from just above the spot.",
     "Sticks are left in the walkway: lay it flat beside the lane before you flip.",
     "Too many misses: make the goal wider.",
     "Students rush the grip: no shot until both hands are on the stick, top hand on the end."
@@ -8459,7 +8459,7 @@ window.NEW_GAMES = {
      "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
     }
    ],
-   "g12": "Wide goal. Flip a cone instead of a bottle.",
+   "g12": "Wide hurdle goal. Flip a Pylons - 6\".",
    "g34": "Standard set-up. 1-minute rounds.",
    "g56": "Smaller goal. Backhand shot only for one round.",
    "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
@@ -8472,21 +8472,21 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply: no elimination, blade below the knees, no slapshots.",
-   "equipment": "Per lane: 1 stick, 1 soft ball, 2 small cones or spot markers for the goal, 1 spot marker, 1 plastic water bottle about one-third full with the lid on (or a cone).",
-   "setup": "Each lane has a start line and a small goal 1.8–2.4 m away (two spot markers or small cones). Beside one goal post put a spot marker and the bottle (or a cone to flip). Lanes at least 3 m apart and 2 m from the walls, the stage and the doors.",
+   "equipment": "Per lane: 1 Jr. Stick -36\" or Cup Stick - 47\", 1 Pucks-balls or Pucks - sponge, 1 small Hurdle (Hurdles- 6\" or Hurdles-adjustable) as the goal — never cones, spots or tape as the goal — 1 Floor Marker or Pylons - saucer beside the hurdle, and 1 Pylons - 6\" or Pylons -12\" to flip (he does not have plastic water bottles).",
+   "setup": "Each lane has a start line and a small hurdle goal 1.8–2.4 m away. Beside one side of the hurdle put a Floor Marker or saucer pylon and the pylon to flip. Lanes at least 3 m apart and 2 m from the walls, the stage and the doors.",
    "how": [
     "Push-shoot through the goal.",
     "After a goal, get the ball and dribble it back to the start line.",
     "Lay your stick flat on the floor beside the lane.",
-    "Go to the goal post and flip the bottle until it lands upright on the spot.",
+    "Go to the hurdle and flip the pylon until it lands upright on the marker.",
     "Pick up your stick with the right grip and shoot again.",
     "Count your goals in 1 minute, then rotate. Waiting players stick-handle in place behind the start line."
    ],
    "variations": [
-    "Easier: wider goal, flip a cone instead of a bottle.",
+    "Easier: wider hurdle goal, flip a Pylons - 6\".",
     "Harder: smaller goal or move the start line back, backhand shot only for one round."
    ],
-   "safety": "Two hands on the stick, top hand on the end. The blade stays on or near the floor and below the knees at all times, including the follow-through: no slapshots and no lifting the ball. Push, don't slap. No body or stick contact. Use plastic-blade sticks with soft balls or light foam pucks, and check every blade before class. Keep boundaries, lanes and targets at least 2 m from the walls, the stage and the doors. Carry sticks blade down when moving between stations. Stop signal: the teacher says “Sticks down!” Lay the stick flat on the floor, keep the ball still and eyes on the teacher. Lay the stick flat beside the lane, never on the walkway, before you flip. Flip low. Bottles with the lid on.",
+   "safety": "Two hands on the stick, top hand on the end. The blade stays on or near the floor and below the knees at all times, including the follow-through: no slapshots and no lifting the ball. Push, don't slap. No body or stick contact. Use plastic-blade sticks with soft balls or light foam pucks, and check every blade before class. Keep boundaries, lanes and targets at least 2 m from the walls, the stage and the doors. Carry sticks blade down when moving between stations. Stop signal: the teacher says “Sticks down!” Lay the stick flat on the floor, keep the ball still and eyes on the teacher. Lay the stick flat beside the lane, never on the walkway, before you flip. Flip low.",
    "bestBand": "3–4",
    "alsoBand": "1–2",
    "bandWhy": "Switching between shooting and a fine-motor flip suits Grades 3–4; Grades 1–2 use a wide goal and flip a cone. Grades 5–6 use a smaller goal and backhand."
@@ -8893,7 +8893,7 @@ window.NEW_GAMES = {
    ],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
    "suggestedMonth": "October",
-   "equipment": "Per team: 1 cone for the team base, 3 hoops (near, middle and far), 15 flags or beanbags in a pile at the far end of the lane, 1 ball. Use foam or soft balls for grades 1–2 and foam footballs for grades 3–6.",
+   "equipment": "Per team: 1 Pylons -12\" or Pylons - saucer for the team base, 3 Hula Hoops (near, middle and far), 15 Bean Bags in a pile at the far end of the lane (he does not have a generic flag set; Flag Football Tails -y-b-r can be used as flags if you prefer). 1 ball: Softex, Gator skin or other soft foam for grades 1–2, and Footballs-soft (14) for grades 3–6. For about 60, run waves of 24–30, or use Flag Football Tails plus Bean Bags if you keep a target of 15 with more teams.",
    "setup": "Make a lane for each team. At one end, put a cone as the team base and have the team line up behind it. Lay the three hoops in a line in front of the team at near, middle and far distances (for example about 3, 6 and 9 metres). Put the pile of flags or beanbags at the far end of the lane. One player stands in the near hoop as the catcher and the next in line is the first thrower.",
    "how": [
     "The thrower stands behind the team cone and throws the ball to the catcher standing in the near hoop.",

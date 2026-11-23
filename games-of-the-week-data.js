@@ -59,7 +59,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Short passes along a row teach first touch and passing lanes.",
        "href": "new-games.html#foosball-soccer",
        "page": "New Games",
-       "equipment": "Pool noodles; soccer balls; two goals"
+       "equipment": "Noodles - full (9; Noodles - half 64 if you need to join two halves); Soccer Balls - indoor; two Standards-hockey nets (one at each end). If no…"
       },
       {
        "name": "3-Ball Soccer",
@@ -411,7 +411,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "A busy whole-class game with foam footballs.",
        "href": "new-games.html#football-frenzy",
        "page": "New Games",
-       "equipment": "6 gym mats, 6 foam footballs, bean bags, 1 basket per team, a volleyball net (optional)"
+       "equipment": "6 Mats 4x4x8, 6 Footballs-soft (14 on the list), Bean Bags, 1 Bin or Bins-milk carts per team as the collection container (he does not have a…"
       }
      ]
     }
@@ -473,7 +473,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Throw-and-catch practice at three distances.",
        "href": "new-games.html#capture-the-flag-relay",
        "page": "New Games",
-       "equipment": "Per team: 1 cone for the team base, 3 hoops (near, middle and far), 15 flags or beanbags in a pile at the far end of the lane, 1 ball. Use foam or…"
+       "equipment": "Per team: 1 Pylons -12\" or Pylons - saucer for the team base, 3 Hula Hoops (near, middle and far), 15 Bean Bags in a pile at the far end of the…"
       },
       {
        "name": "Flasketball",
@@ -583,7 +583,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Throw at fun targets for underhand and overhand aim.",
        "href": "new-games.html#target-toys",
        "page": "New Games",
-       "equipment": "8–12 hoops; a pile of small toys, stuffed animals or beanbags (3–5 per hoop); 1 foam ball per team, each team a different colour; a start line…"
+       "equipment": "8–12 Hula Hoops - 24\" / 30\"; a pile of Bean Bags and Bean bag animals (3–5 per hoop; he does not have a toy / stuffed-animal set); 1 foam ball per…"
       },
       {
        "name": "Crab Football",
@@ -652,7 +652,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Everyone stick-handles at once, from simple to tricky.",
        "href": "new-games.html#hockey-dribbling-shapes",
        "page": "New Games",
-       "equipment": "1 floor-hockey stick and 1 soft ball per student (or 1 per pair taking turns), about 30 low cones, 4 tall cones."
+       "equipment": "1 Jr. Stick -36\" or Cup Stick - 47\" and 1 Pucks-balls or Pucks - sponge per student (or 1 per pair taking turns), about 30 Pylons - saucer or…"
       },
       {
        "name": "Numbers Hockey",
@@ -797,7 +797,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Shoot at bottles to flip and knock them: aim with the stick.",
        "href": "new-games.html#bottle-flip-hockey",
        "page": "New Games",
-       "equipment": "Per lane: 1 stick, 1 soft ball, 2 small cones or spot markers for the goal, 1 spot marker, 1 plastic water bottle about one-third full with the…"
+       "equipment": "Per lane: 1 Jr. Stick -36\" or Cup Stick - 47\", 1 Pucks-balls or Pucks - sponge, 1 small Hurdle (Hurdles- 6\" or Hurdles-adjustable) as the goal —…"
       }
      ]
     },
@@ -825,7 +825,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Each hit moves the target farther away: passing accuracy.",
        "href": "new-games.html#move-up-hockey",
        "page": "New Games",
-       "equipment": "Per lane: 1 stick, 1 soft ball, 4 spot markers, 1 empty plastic bottle or small cone (Cup Stack: 4 stackable cups or small cones)."
+       "equipment": "Per lane: 1 Jr. Stick -36\" or Cup Stick - 47\", 1 Pucks-balls or Pucks - sponge, 4 Floor Markers or Pylons - saucer, 1 Pylons - 6\" or Pylons -…"
       }
      ]
     }
@@ -866,7 +866,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "A team tossing battle to finish the hockey unit.",
        "href": "new-games.html#bean-bag-battle",
        "page": "New Games",
-       "equipment": "Per battle (two teams): 1 laundry basket, milk crate or bin per team; 1 beanbag per team; 1 cone per team for the throwing line; 7 hoops in a row…"
+       "equipment": "Per battle (two teams): 1 Bins-milk carts or other Bin per team (he does not have a laundry basket); 1 Bean Bag per team; 1 Pylons -12\" per team…"
       }
      ]
     },
@@ -963,7 +963,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Lob soft balls over the net to find the hidden ships.",
        "href": "new-games.html#hidden-fleet",
        "page": "New Games",
-       "equipment": "Volleyball net and standards; 1–2 parachutes or tarps draped over the net (or upright folding mats as a wall); 18 hoops (9 per team); 18 bowling…"
+       "equipment": "Volleyball Nets and Standards; 1–2 Parachute- colored or the Parachute- white draped over the net (he does not have tarps), or upright folding…"
       }
      ]
     }
@@ -1032,7 +1032,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Throw to knock targets while teammates reload: aim and teamwork.",
        "href": "new-games.html#fire-the-cannons",
        "page": "New Games",
-       "equipment": "Volleyball net lowered to about 1–1.2 m (or a rope between two standards); 4 throwing cones (one per team); targets on the far side: 8 hoops (1…"
+       "equipment": "Volleyball net lowered to about 1–1.2 m (or a rope between two standards); 4 throwing cones (one per team); targets on the far side: 8 Hula Hoops…"
       }
      ]
     }
@@ -1066,7 +1066,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "A roll of the die sends groups dribbling across the gym.",
        "href": "new-games.html#dice-wave-dribble",
        "page": "New Games",
-       "equipment": "Large foam die; one ball per student (soccer, basketball, or hockey)"
+       "equipment": "1 Exercise Dice set of 2 (he does not have a \"large foam die\" by that name; he has 2 sets, so 4 large exercise dice); one ball per student (Soccer…"
       },
       {
        "name": "Collect the Treasure",
@@ -1308,7 +1308,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Jump, pass and shoot in a fast team game.",
        "href": "new-games.html#jump-shot-handball",
        "page": "New Games",
-       "equipment": "1 small soft ball per game (foam or gator-skin, about 15–18 cm); 4 portable goals, 2 side by side at each end (or 4 floor hockey nets, or cone…"
+       "equipment": "1 small soft ball per game (Gator skin balls 10, or Softex (yellow) 37 / Duraskin); 4 Standards-hockey nets, 2 side by side at each end (he has 8…"
       }
      ]
     }
@@ -1653,7 +1653,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Volleyball meets four square with a waist-high net.",
        "href": "new-games.html#nitroball-2-0",
        "page": "New Games",
-       "equipment": "Volleyball standards with the net lowered to waist height (or a rope between the standards); 1 four square / playground ball per court (beach…"
+       "equipment": "Volleyball Standards (4) with the net lowered to waist height (or a Skipping Rope 9' or Skipping Ropes- long between the standards); 1 Playground…"
       }
      ]
     }
@@ -1929,7 +1929,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Co-operative challenges on mats, done as a team.",
        "href": "new-games.html#challenge-mat",
        "page": "New Games",
-       "equipment": "4–10 yoga or gym mats; challenge cards"
+       "equipment": "4–10 Mats 4x4x8 (he does not have yoga mats; he has 24 of these, plus 4 Mats 5x4x8); challenges written on White Bds with markers (5) or on a…"
       }
      ]
     }
@@ -2750,14 +2750,14 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Four balls in play: fielders must decide fast.",
        "href": "new-games.html#4-ball-kickball",
        "page": "New Games",
-       "equipment": "Four kickballs; bases"
+       "equipment": "Four Playground 10\" (14 on the list; he does not have a \"kickball\" item) or four Soccer Balls - indoor; one Bases-rubber-sets or Bases-vinyl-sets"
       },
       {
        "name": "Fun Kickball",
        "reason": "Six-base kickball to finish the year.",
        "href": "new-games.html#fun-kickball",
        "page": "New Games",
-       "equipment": "Kickball; six bases"
+       "equipment": "1 Playground 10\" (or 1 Soccer Ball - indoor; he does not have a \"kickball\" item); six bases from two Bases-rubber-sets (5 sets on hand) or a mix…"
       }
      ]
     }
