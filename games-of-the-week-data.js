@@ -52,7 +52,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Everyone can tag, so the whole class is moving from the first minute.",
        "href": "games.html#everybody-s-it",
        "page": "Big-Group Games",
-       "equipment": "Optional one soft ball or spot markers · optional clothespins"
+       "equipment": "Optional one soft ball or Pylons - saucer · optional clothespins"
       },
       {
        "name": "Foosball Soccer",
@@ -135,7 +135,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Four nets keep a big class busy with lots of touches.",
        "href": "games.html#4-goal-soccer",
        "page": "Big-Group Games",
-       "equipment": "Soccer balls, 4 goals"
+       "equipment": "Soccer balls, 4 Standards-hockey nets as goals"
       }
      ]
     }
@@ -514,7 +514,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Partner throwing and catching that gets harder as you succeed.",
        "href": "games.html#catch-step",
        "page": "Big-Group Games",
-       "equipment": "Type of ball, or water balloons"
+       "equipment": "One ball per pair (Softex or tennis ball)"
       },
       {
        "name": "Steal the Bacon",
@@ -576,7 +576,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Pull a tail, then hand it back so the game keeps going.",
        "href": "warmup-nogym.html#tail-tag",
        "page": "Warm Up Games",
-       "equipment": "Old clean socks, grocery bags, old cut-up ties, or touch football 'tails'"
+       "equipment": "Flag Football Tails -y-b-r (one per player)"
       },
       {
        "name": "Target Toys",
@@ -659,7 +659,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Short, safe floor hockey games with sticks kept low.",
        "href": "games.html#numbers-hockey",
        "page": "Big-Group Games",
-       "equipment": "Floor-hockey sticks or hands, hockey ball, two cone goals."
+       "equipment": "Floor-hockey sticks or hands, hockey ball, two Standards-hockey nets (or small hurdles when no one wants to be goalie)."
       }
      ]
     },
@@ -687,7 +687,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "A small-sided game that uses the hockey ideas of attack and defence.",
        "href": "games.html#floorball",
        "page": "Big-Group Games",
-       "equipment": "Floor hockey sticks, soft ball, mini goals"
+       "equipment": "Floor hockey sticks, soft ball, Standards-hockey nets (or small hurdles when no one wants to be goalie)"
       }
      ]
     }
@@ -783,7 +783,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Tag a shadow, not a body: safe chasing with sticks put away.",
        "href": "games.html#shadow-tag",
        "page": "Big-Group Games",
-       "equipment": "Poly spots if you have no sun."
+       "equipment": "Pylons - saucer if you have no sun."
       },
       {
        "name": "Fishing",
@@ -811,7 +811,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Everyone can tag, so the whole class is moving from the first minute.",
        "href": "games.html#everybody-s-it",
        "page": "Big-Group Games",
-       "equipment": "Optional one soft ball or spot markers · optional clothespins"
+       "equipment": "Optional one soft ball or Pylons - saucer · optional clothespins"
       },
       {
        "name": "Hockey pin knockdown",
@@ -1025,7 +1025,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Partner throwing at cones: hit one and it becomes yours.",
        "href": "games.html#cone-raider",
        "page": "Big-Group Games",
-       "equipment": "4-5 cones each; one tennis ball per pair"
+       "equipment": "4-5 cones each (Pylons - 6\" or Pylons - saucer); one tennis ball per pair; for 60 students, play 2v2 with 4-5 cones per team"
       },
       {
        "name": "Fire the Cannons",
@@ -1128,7 +1128,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Pull a tail, then hand it back so the game keeps going.",
        "href": "warmup-nogym.html#tail-tag",
        "page": "Warm Up Games",
-       "equipment": "Old clean socks, grocery bags, old cut-up ties, or touch football 'tails'"
+       "equipment": "Flag Football Tails -y-b-r (one per player)"
       },
       {
        "name": "Dribble the gates",
@@ -1232,7 +1232,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "One pass before a shot, in small teams.",
        "href": "games.html#go-for-goal",
        "page": "Big-Group Games",
-       "equipment": "Soccer balls, cone goals, pinnies."
+       "equipment": "Soccer balls, Standards-hockey nets (or small hurdles when no one wants to be goalie), pinnies."
       },
       {
        "name": "Bench Ball",
@@ -1294,7 +1294,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Everyone can tag, so the whole class is moving from the first minute.",
        "href": "games.html#everybody-s-it",
        "page": "Big-Group Games",
-       "equipment": "Optional one soft ball or spot markers · optional clothespins"
+       "equipment": "Optional one soft ball or Pylons - saucer · optional clothespins"
       },
       {
        "name": "Reaction Speed",
@@ -1418,7 +1418,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Teams stay linked as a snake and pass objects back to the tail.",
        "href": "games.html#hungry-snake",
        "page": "Big-Group Games",
-       "equipment": "20–40 beanbags or yarn balls, 2 bags or bins."
+       "equipment": "20–40 beanbags, 2 Mesh Bags or bins."
       }
      ]
     },
@@ -1611,7 +1611,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Keep one beach ball or scarf up as a team: the first step to volleying.",
        "href": "games.html#beach-ball-or-scarf-keep-up",
        "page": "Big-Group Games",
-       "equipment": "One beach ball or juggling scarf per circle · optional noodles or rulers"
+       "equipment": "One beach ball or juggling scarf per circle · optional Noodles - half"
       },
       {
        "name": "Catch Clap",
@@ -1825,7 +1825,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Partner throwing and catching that gets harder as you succeed.",
        "href": "games.html#catch-step",
        "page": "Big-Group Games",
-       "equipment": "Type of ball, or water balloons"
+       "equipment": "One ball per pair (Softex or tennis ball)"
       },
       {
        "name": "Bozo / bucket toss",
@@ -1846,7 +1846,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Everyone can tag, so the whole class is moving from the first minute.",
        "href": "games.html#everybody-s-it",
        "page": "Big-Group Games",
-       "equipment": "Optional one soft ball or spot markers · optional clothespins"
+       "equipment": "Optional one soft ball or Pylons - saucer · optional clothespins"
       },
       {
        "name": "Slam Ball",
@@ -2060,7 +2060,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Walk the hands out and back: core and shoulder strength.",
        "href": "games.html#inchworm-rescue",
        "page": "Big-Group Games",
-       "equipment": "Two hoops per pupil; five balls in the far hoop"
+       "equipment": "Two hoops per pupil (Hula Hoops, 65 in all; for 60 students, one pair of hoops per two pupils taking turns); five tennis balls or bean bags in the…"
       },
       {
        "name": "Crawl and Roll Challenge",
@@ -2543,7 +2543,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Partner throwing and catching that gets harder as you succeed.",
        "href": "games.html#catch-step",
        "page": "Big-Group Games",
-       "equipment": "Type of ball, or water balloons"
+       "equipment": "One ball per pair (Softex or tennis ball)"
       },
       {
        "name": "Continuous Kick Ball",
@@ -2605,7 +2605,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Everyone can tag, so the whole class is moving from the first minute.",
        "href": "games.html#everybody-s-it",
        "page": "Big-Group Games",
-       "equipment": "Optional one soft ball or spot markers · optional clothespins"
+       "equipment": "Optional one soft ball or Pylons - saucer · optional clothespins"
       },
       {
        "name": "Bullseye",

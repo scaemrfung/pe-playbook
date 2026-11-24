@@ -35,7 +35,7 @@ window.G36_DETAILS = [
 {
   name: "Reverse Soccer", source: "", months: ["October"],
   purpose: "Invasion with hands. Opposite of a kick game.",
-  equipment: "Soccer ball, pinnies, two cone goals.",
+  equipment: "Soccer ball, pinnies, two Standards-hockey nets (or small hurdles when no one wants to be goalie).",
   setup: "Two teams. One keeper each. Goals can face out if you want a harder angle.",
   play: [
     "Field players may only tap or pass with hands — no carrying.",
@@ -132,7 +132,7 @@ window.G36_DETAILS = [
 {
   name: "Hurley Burley", source: "", months: ["June"],
   purpose: "One ball, many legal sends. A tip forces an instant pass.",
-  equipment: "Ball, two goals, pinnies.",
+  equipment: "Ball, two Standards-hockey nets (or small hurdles when no one wants to be goalie), pinnies.",
   setup: "Two teams. Teacher tosses in.",
   play: [
     "You may kick, bounce, throw, or run a few steps.",
@@ -363,7 +363,7 @@ window.PAIR_STATIONS = {
         ["2-touch to hit past a line", "Two taps, then a hit past a cone line."],
         ["Pass through hurdles", "Roll or hit along the floor through a hurdle or gate."],
         ["Keep the ball away", "One strikes into space; partner retrieves and sends back."],
-        ["Shoot on goal", "Hit or push at a cone goal. Partner is the retriever, then swap."],
+        ["Shoot on goal", "Hit or push at a small hurdle goal (Hurdles- 6\"). Partner is the retriever, then swap."],
         ["Bounce and hit tunnel", "Bounce, then hit through a partner’s leg tunnel."],
         ["Rally over a rope", "Low rope. Count hits. Drops restart the count."],
         ["Wall-ball rally", "Alternate hits to a wall."],
@@ -422,7 +422,7 @@ window.PAIR_STATIONS = {
         ["Land the ball in the hoop", "Chip or roll into a hoop on the floor."],
         ["Trick in the hoop and pass back", "Trap in a hoop, then pass."],
         ["Many passes through gates", "How many fair gates in 60 seconds?"],
-        ["1v1 protect your goal", "Tiny cone goal. No slide."],
+        ["1v1 protect your goal", "Tiny goal: one small hurdle (Hurdles- 6\"). No slide."],
         ["1-foot dribble and weave", "Same foot through cones."],
         ["Chip into buckets", "Soft lift into a bucket or hoop."],
         ["Volley and catch", "Toss, thigh or foot, partner catch."],

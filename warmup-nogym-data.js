@@ -257,7 +257,7 @@ window.WARMUP_NOGYM_GAMES = [
     "id": "warmup-12",
     "number": "12",
     "title": "Clothespin Tag",
-    "equipment": "2 or 3 clothespins per person",
+    "equipment": "2 or 3 Clothespins per person (150 in all; use 2 each for 60 students)",
     "space": [
       "gym",
       "outside"
@@ -745,7 +745,7 @@ window.WARMUP_NOGYM_GAMES = [
     "id": "warmup-33",
     "number": "33",
     "title": "Tail Tag",
-    "equipment": "Old clean socks, grocery bags, old cut-up ties, or touch football 'tails'",
+    "equipment": "Flag Football Tails -y-b-r (one per player)",
     "space": [
       "gym",
       "outside"

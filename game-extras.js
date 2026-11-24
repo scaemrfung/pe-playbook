@@ -313,7 +313,7 @@ window.GAME_EXTRAS = {
     "aka": []
   },
   "Everybody’s It": {
-    "numbers": "Whole class · optional one soft ball or spot markers",
+    "numbers": "Whole class · optional one soft ball or Pylons - saucer",
     "cues": [
       "Everyone tags.",
       "RPS, then both stay in.",
@@ -324,7 +324,7 @@ window.GAME_EXTRAS = {
     ],
     "variations": [
       "Hot Potato: only the person holding the ball may tag, by touch, no throw.",
-      "Pizza: spot marker on one hand; knock other pizzas off.",
+      "Pizza: saucer pylon on one hand; knock other pizzas off.",
       "Clothespin: steal one pin from a back, clip it on yourself."
     ],
     "look": "Everyone is moving or has a job in Everybody’s It. A miss is a short task, then back in — nobody sits the period.",
@@ -359,7 +359,7 @@ window.GAME_EXTRAS = {
       }
     ],
     "more": [
-      "Grouping: Whole class · optional one soft ball or spot markers",
+      "Grouping: Whole class · optional one soft ball or Pylons - saucer",
       "How a round ends: Timed rounds. No winner required.",
       "If this happens — Hard tag: warning, then sit 10 seconds.",
       "If this happens — Ball version thrown at a head: switch to hold-and-touch only.",
@@ -373,7 +373,7 @@ window.GAME_EXTRAS = {
     "roundEnds": "Timed rounds. No winner required.",
     "skins": [
       "Hot Potato: only the person holding the ball may tag, by touch, no throw.",
-      "Pizza: spot marker on one hand; knock other pizzas off.",
+      "Pizza: saucer pylon on one hand; knock other pizzas off.",
       "Clothespin: steal one pin from a back, clip it on yourself."
     ],
     "aka": [
@@ -907,7 +907,7 @@ window.GAME_EXTRAS = {
     "source": "https://physedgames.com/reindeer-roundup/"
   },
   "Shadow Tag": {
-    "numbers": "Pairs or whole class · 4 min · sun or poly-spot ‘shadows’.",
+    "numbers": "Pairs or whole class · 4 min · sun or saucer-pylon ‘shadows’.",
     "cues": [
       "Soft feet on the shadow.",
       "Switch taggers often.",
@@ -959,7 +959,7 @@ window.GAME_EXTRAS = {
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Shadow Tag.",
       "Watch for head-down sprints and pile-ups at a safe zone. Pause, spread out, restart.",
       "Year plan: December, September — match the month’s sport ball when you can.",
-      "Outdoors: tag by stepping on a shadow. Indoors: each player drags a poly-spot on a string or just plays freeze-tag on spots.",
+      "Outdoors: tag by stepping on a shadow. Indoors: step on a saucer-pylon ‘shadow’ or just play freeze-tag on spots.",
       "Soft feet. No stomps on ankles."
     ],
     "ifThis": [],
@@ -2524,7 +2524,7 @@ window.GAME_EXTRAS = {
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Go for Goal.",
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
       "Year plan: October, January — match the month’s sport ball when you can.",
-      "Small cone goals. 1v1 or 2v2. Rotate after a goal or after 45 seconds.",
+      "Small goals: hockey nets or small hurdles. 1v1 or 2v2. Rotate after a goal or after 45 seconds.",
       "Use hockey sticks only if you already taught a safe grip and the ball is a hockey ball or a puck."
     ],
     "ifThis": [],
@@ -2762,7 +2762,7 @@ window.GAME_EXTRAS = {
       "Watch for one student holding the ball. Cue a pass or a 3-second pivot.",
       "Year plan: October, January — match the month’s sport ball when you can.",
       "Any legal send: kick, bounce, or throw. If the ball is only tipped, that player must pass immediately.",
-      "Score into a cone goal. Keep a simple 3–2–1 tally."
+      "Score into a hockey net (or a small hurdle). Keep a simple 3–2–1 tally."
     ],
     "ifThis": [],
     "roundEnds": "",
@@ -2831,7 +2831,7 @@ window.GAME_EXTRAS = {
     "aka": []
   },
   "Reverse Soccer": {
-    "numbers": "Two teams · 6–8 min · soccer ball, two goals.",
+    "numbers": "Two teams · 6–8 min · soccer ball, two hockey nets as goals.",
     "cues": [
       "Hands tap or pass — no carry.",
       "Keepers use feet only.",
@@ -3160,7 +3160,7 @@ window.GAME_EXTRAS = {
     ]
   },
   "Stones": {
-    "numbers": "Whole class · 5 min · poly spots or beanbags as stones.",
+    "numbers": "Whole class · 5 min · Pylons - saucer or beanbags as stones.",
     "cues": [
       "One stone at a time.",
       "A tag sends the stone back.",
@@ -4748,7 +4748,7 @@ window.GAME_EXTRAS = {
       "Ready position in the field — feet still, hands out.",
       "Hit, then run the path. Do not watch your own hit.",
       "Fielders send to the base or hoop, not at a runner.",
-      "Open-hand tap. Do not catch or punch the balloon."
+      "Soft hands on the catch. Do not punch the ball."
     ],
     "variations": [
       "Tee or a bounced teacher-toss for grades 1–2.",
@@ -4779,7 +4779,7 @@ window.GAME_EXTRAS = {
       },
       {
         "code": "Safety",
-        "look": "Throws stay away from faces; balloons stay in the pair’s square."
+        "look": "Throws stay away from faces; balls stay in the pair’s square."
       },
       {
         "code": "Healthy Relationships",
@@ -6784,7 +6784,7 @@ window.GAME_EXTRAS = {
     ],
     "variations": [
       "Students invent a bean.",
-      "Add a drum for the freeze.",
+      "Add a whistle or music for the freeze.",
       "Whisper round, then a music round. Same skills, different energy.",
       "Let a student call two commands (teacher stays on freeze and safety).",
       "Add a shape at the freeze: tuck, star, or stork."
@@ -7259,7 +7259,7 @@ window.GAME_EXTRAS = {
       "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
       "Year plan: September, December — match the month’s sport ball when you can.",
       "Point and call. Change locomotor each round (walk, skip, side-slide).",
-      "Freeze on a drum. No elimination."
+      "Freeze on the whistle. No elimination."
     ],
     "ifThis": [],
     "roundEnds": "",
@@ -7442,7 +7442,7 @@ window.GAME_EXTRAS = {
       "Watch for crashing on a freeze. Practise a walk-freeze before any sprint command.",
       "Year plan: September, December — match the month’s sport ball when you can.",
       "Pairs face. Teacher calls two body parts (knee-elbow, toe-shoulder). Partners touch those parts together and freeze.",
-      "Then jog and find a new partner on the drum."
+      "Then jog and find a new partner on the whistle."
     ],
     "ifThis": [],
     "roundEnds": "",
@@ -7753,7 +7753,7 @@ window.GAME_EXTRAS = {
     "aka": ["On/Off"]
   },
   "Beach Ball or Scarf Keep-Up": {
-    "numbers": "Circles of 4–8 · one beach ball or scarf per circle · optional noodles or rulers",
+    "numbers": "Circles of 4–8 · one beach ball or scarf per circle · optional Noodles - half",
     "cues": [
       "Call it.",
       "A drop restarts the count, not the player.",
@@ -7800,7 +7800,7 @@ window.GAME_EXTRAS = {
       }
     ],
     "more": [
-      "Grouping: Circles of 4–8 · one beach ball or scarf per circle · optional noodles or rulers",
+      "Grouping: Circles of 4–8 · one beach ball or scarf per circle · optional Noodles - half",
       "How a round ends: Highest consecutive count, or first circle to 20.",
       "If this happens — Hard swat: sit one restart, then rejoin.",
       "If this happens — Sticks clash: widen the circle.",
@@ -7832,7 +7832,7 @@ window.GAME_EXTRAS = {
       "Fingers for the month.",
       "Walk to the line.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
@@ -7840,7 +7840,7 @@ window.GAME_EXTRAS = {
       "Teacher may whisper for 1–2.",
       "Smaller groups of 6 if the whole-class version tangles.",
       "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+      "Add one extra object (second beach ball, extra hoop) when the first task is easy."
     ],
     "look": "The group solves the task together. Voices stay kind when Birthday Lineup gets messy.",
     "outcomes": [
@@ -7891,7 +7891,7 @@ window.GAME_EXTRAS = {
       "Stay together.",
       "Freeze if it breaks.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
@@ -7899,7 +7899,7 @@ window.GAME_EXTRAS = {
       "Shoulders for 1–2.",
       "Smaller groups of 6 if the whole-class version tangles.",
       "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+      "Add one extra object (second beach ball, extra hoop) when the first task is easy."
     ],
     "look": "The group solves the task together. Voices stay kind when Caterpillar Walk gets messy.",
     "outcomes": [
@@ -7948,13 +7948,13 @@ window.GAME_EXTRAS = {
     "numbers": "Wall, rope, or a square of floor markers · 1 soft ball · pairs or 2v2",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
     "variations": [
       "Bench as a net.",
-      "Mini goals (Floorball).",
+      "Hockey nets or small hurdles as goals (Floorball).",
       "Cone-ring gaga pit, hits below the waist.",
       "Cooperative wall ball: count consecutive hits, drop restarts the count."
     ],
@@ -8004,7 +8004,7 @@ window.GAME_EXTRAS = {
     "roundEnds": "First to 7, or highest score at time.",
     "skins": [
       "Bench as a net.",
-      "Mini goals (Floorball).",
+      "Hockey nets or small hurdles as goals (Floorball).",
       "Cone-ring gaga pit, hits below the waist.",
       "Cooperative wall ball: count consecutive hits, drop restarts the count."
     ],
@@ -8022,7 +8022,7 @@ window.GAME_EXTRAS = {
       "Show the shape together.",
       "The winning shape chases; tagged players switch teams.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
@@ -8031,7 +8031,7 @@ window.GAME_EXTRAS = {
       "Must skip home.",
       "Smaller groups of 6 if the whole-class version tangles.",
       "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+      "Add one extra object (second beach ball, extra hoop) when the first task is easy."
     ],
     "look": "Both teams show at the same time. No late changes.",
     "outcomes": [
@@ -8083,7 +8083,7 @@ window.GAME_EXTRAS = {
       "Say no any time.",
       "No lifts.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
@@ -8091,7 +8091,7 @@ window.GAME_EXTRAS = {
       "Skip for 1–2; use hoop-pass.",
       "Smaller groups of 6 if the whole-class version tangles.",
       "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+      "Add one extra object (second beach ball, extra hoop) when the first task is easy."
     ],
     "look": "The group solves the task together. Voices stay kind when Human Knot gets messy.",
     "outcomes": [
@@ -8141,7 +8141,7 @@ window.GAME_EXTRAS = {
     "cues": [
       "Start, score, safety — three sentences.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
@@ -8150,7 +8150,7 @@ window.GAME_EXTRAS = {
       "Must include a freeze.",
       "Smaller groups of 6 if the whole-class version tangles.",
       "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+      "Add one extra object (second beach ball, extra hoop) when the first task is easy."
     ],
     "look": "Every group can say the three sentences.",
     "outcomes": [
@@ -8202,7 +8202,7 @@ window.GAME_EXTRAS = {
       "Match the send to the object.",
       "Call the name before you throw.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
@@ -8211,7 +8211,7 @@ window.GAME_EXTRAS = {
       "Must send to a moving partner.",
       "Smaller groups of 6 if the whole-class version tangles.",
       "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+      "Add one extra object (second beach ball, extra hoop) when the first task is easy."
     ],
     "look": "Objects are not all in one corner.",
     "outcomes": [
@@ -8263,7 +8263,7 @@ window.GAME_EXTRAS = {
       "Hold the handle, not the cloth.",
       "Bend knees for a dome.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
@@ -8272,7 +8272,7 @@ window.GAME_EXTRAS = {
       "Mushroom freeze.",
       "Smaller groups of 6 if the whole-class version tangles.",
       "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+      "Add one extra object (second beach ball, extra hoop) when the first task is easy."
     ],
     "look": "The chute stays round. Nobody is pulled off their feet.",
     "outcomes": [
@@ -8322,7 +8322,7 @@ window.GAME_EXTRAS = {
     "numbers": "Lines or circles of 6–10 · optional music",
     "cues": [
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job.",
       "One extra person in a hoop during a swap — no shoving out."
@@ -8397,7 +8397,7 @@ window.GAME_EXTRAS = {
       "Gentle squeeze.",
       "Last player takes the ball.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
@@ -8468,7 +8468,7 @@ window.GAME_EXTRAS = {
       "The snake stays on the floor.",
       "Jump or step — do not stomp the turner’s hands.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
@@ -8477,7 +8477,7 @@ window.GAME_EXTRAS = {
       "Travel sideways.",
       "Smaller groups of 6 if the whole-class version tangles.",
       "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+      "Add one extra object (second beach ball, extra hoop) when the first task is easy."
     ],
     "look": "Ropes are low. Turners are on their knees or standing with slack.",
     "outcomes": [
@@ -8529,7 +8529,7 @@ window.GAME_EXTRAS = {
       "Words only.",
       "Eyes-closed is a choice.",
       "Freeze on the whistle — then eyes on the teacher.",
-      "Use names. Ask before you grab a hoop, rope, or balloon.",
+      "Use names. Ask before you grab a hoop, rope, or beach ball.",
       "If it drops, restart together — no blame.",
       "Quiet voices so the group can hear the next job."
     ],
@@ -8537,7 +8537,7 @@ window.GAME_EXTRAS = {
       "Eyes on the floor for most classes.",
       "Smaller groups of 6 if the whole-class version tangles.",
       "Silent round: only gestures, then talk again to plan.",
-      "Add one extra object (second balloon, extra hoop) when the first task is easy."
+      "Add one extra object (second beach ball, extra hoop) when the first task is easy."
     ],
     "look": "Caller never leaves the perimeter.",
     "outcomes": [
@@ -9213,7 +9213,7 @@ window.GAME_EXTRAS = {
       "Breathe out on the work; do not hold a breath to rush."
     ],
     "variations": [
-      "Cups over hidden colours (Memory Colour).",
+      "Upside-down Bins-small over hidden colours (Memory Colour).",
       "Memory Relay: sequence of three colours.",
       "Card Sharks: flip a card for the next colour.",
       "Outdoor controls with a simple map (keep Partner Orienteering separate if you want real map work)."
@@ -9263,7 +9263,7 @@ window.GAME_EXTRAS = {
     ],
     "roundEnds": "Most correct collections, or first pair back from a sequence.",
     "skins": [
-      "Cups over hidden colours (Memory Colour).",
+      "Upside-down Bins-small over hidden colours (Memory Colour).",
       "Memory Relay: sequence of three colours.",
       "Card Sharks: flip a card for the next colour.",
       "Outdoor controls with a simple map (keep Partner Orienteering separate if you want real map work)."

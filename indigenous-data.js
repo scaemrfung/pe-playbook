@@ -40,7 +40,7 @@ window.INDIGENOUS_GAMES = [
   nation: "Blackfoot",
   when: "November, January",
   purpose: "Listen and catch. Hunter and rattle.",
-  equipment: "A ball or bottle with beans inside, a blindfold (optional).",
+  equipment: "A ball, a blindfold (optional; Blindfolds).",
   setup: "Sitting circle. One student in the middle with eyes closed or a blindfold.",
   play: [
     "The circle rolls or tosses the rattling ball.",
@@ -76,7 +76,7 @@ window.INDIGENOUS_GAMES = [
   nation: "Cree, Blackfoot, and other Nations",
   when: "June",
   purpose: "Move a two-ended object with sticks. No hands or feet.",
-  equipment: "Two beanbags tied 20–30 cm apart, or two socks tied; foam sticks or hockey sticks; two poles or tall cones as goals.",
+  equipment: "Two beanbags tied 20–30 cm apart; floor hockey sticks (Jr. Sticks -36\"); two Pylons - 18\" as the goal posts.",
   setup: "Two teams. Object in the centre. Goal is to wrap it around a pole or hit a cone pair.",
   play: [
     "On the whistle, scoop and pass the double-ball with sticks only.",
@@ -130,16 +130,16 @@ window.INDIGENOUS_GAMES = [
   nation: "Mi'kmaq",
   when: "December",
   purpose: "A simple circle dance everyone can join.",
-  equipment: "A drum, or a recorded drum song used with permission.",
+  equipment: "A recorded drum song used with permission (music).",
   setup: "Hold hands in a circle if students consent. Otherwise, walk without holding.",
   play: [
     "Move clockwise.",
-    "Three steps forward, one step back, with the drum.",
-    "Change the leader of the drum after a phrase."
+    "Three steps forward, one step back, with the drum song.",
+    "Change the leader after a phrase."
   ],
   g12: "Walk the pattern. Teacher drums.",
   g34: "Keep the 3-and-1 without a demo after the first phrase.",
-  g56: "Students drum.",
+  g56: "Students keep the drum beat with claps.",
   safety: "Consent to hold hands. Soft knees.",
   note: "A common Mi'kmaw dance that everyone could do. Use a drum respectfully — not as a toy beat."
 },
@@ -257,7 +257,7 @@ window.INDIGENOUS_GAMES = [
   nation: "Inuit",
   when: "January",
   purpose: "Hide and pass a small object while one player watches.",
-  equipment: "A beanbag or soft toy.",
+  equipment: "A beanbag or a bean bag animal.",
   setup: "Sitting circle, knees up. One player in the middle.",
   play: [
     "Pass the object under the knees.",
@@ -294,7 +294,7 @@ window.INDIGENOUS_GAMES = [
   when: "January",
   purpose: "Hide a token. Guess left or right. Social game.",
   equipment: "A small token, counting sticks or clothespins.",
-  setup: "Two teams sit facing each other. Optional drum.",
+  setup: "Two teams sit facing each other. Optional recorded drum song.",
   play: [
     "One player hides the token in a hand, behind a cloth or back.",
     "The other team’s shooter points left or right.",
@@ -303,7 +303,7 @@ window.INDIGENOUS_GAMES = [
   ],
   g12: "One hider. Teacher is shooter.",
   g34: "Small teams.",
-  g56: "Add a simple drum pattern if you have permission.",
+  g56: "Add a simple clapped drum pattern if you have permission.",
   safety: "This is a respected gathering game. Ask an Elder before you add songs or ‘for keeps’ play. No betting.",
   note: "Hand games, drum dances, and feasts often belong together in Dene gatherings."
 },
@@ -330,7 +330,7 @@ window.INDIGENOUS_GAMES = [
   nation: "Eastern Woodland Nations",
   when: "March",
   purpose: "Catch a target on a string with a stick or bone.",
-  equipment: "A stick, string, and a leather or card target with holes — or a cup-and-ball.",
+  equipment: "A stick, string, and a leather or card target with holes.",
   setup: "Individual space.",
   play: [
     "Swing the target and catch a hole on the stick.",
@@ -347,11 +347,11 @@ window.INDIGENOUS_GAMES = [
   nation: "Haudenosaunee / Iroquois",
   when: "June",
   purpose: "Pass and score with a scoop. A school version of a sacred game.",
-  equipment: "Soft sticks if you have them, or plastic scoops and a foam ball; two cone goals.",
+  equipment: "Scoops and a foam ball (Softex); two Standards-hockey nets (or small hurdles when no one wants to be goalie).",
   setup: "Small-sided. 4v4. No body contact.",
   play: [
     "Carry in the stick or scoop. Pass before a shot if you can.",
-    "Score in a cone goal.",
+    "Score in a net (or under a small hurdle).",
     "Rotate often."
   ],
   g12: "Scoops and a beach ball. Walking.",

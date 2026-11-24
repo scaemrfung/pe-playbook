@@ -400,7 +400,7 @@ const months = [
         "title": "Circus — balance",
         "focus": "Stillness on a small base",
         "wu": "Flamingo holds.",
-        "skill": "Beanbag on the head, walk a line. Then one-foot on a poly spot.",
+        "skill": "Beanbag on the head, walk a line. Then one-foot on a floor marker.",
         "game": "Museum circus: walk the tight-line (tape), freeze if the bag falls.",
         "cd": "Eyes on a still spot.",
         "g12": "Wide line",
@@ -439,7 +439,7 @@ const months = [
     "name": "November",
     "guide": "Floor hockey (started Oct 26) — dribble, pass, small-sided games · W4 (Nov 30–Dec 4) starts December's games",
     "pew": "Movement Skill Development, Safety, Character Development",
-    "equipment": "Floor-hockey sticks, soft balls or pucks, hockey nets or cone goals, pinnies, cones",
+    "equipment": "Floor-hockey sticks, soft balls or pucks, Standards-hockey nets (or small hurdles when no one wants to be goalie), pinnies, cones",
     "fitness": "20-second stick-handle and gate push-pass count. Private record late in the month.",
     "notes": "Sticks below the knee. No slapshots. No ice. Everyone has a stick or rotates fairly. The first hockey week (stick safety) is October W4. W4 here (Nov 30–Dec 4) starts December's big-group games.",
     "lessons": [
@@ -511,7 +511,7 @@ const months = [
       {
         "w": 2,
         "c": 2,
-        "title": "Shoot to a tape goal",
+        "title": "Shoot to a hurdle goal",
         "focus": "Low shot",
         "wu": "Push at a wall.",
         "skill": "One shot from a cone. Fetch from the side.",
@@ -566,7 +566,7 @@ const months = [
         "title": "Small-sided hockey",
         "focus": "Everyone touches the ball",
         "wu": "Dribble freeze.",
-        "skill": "3v3 to tape goals. Must pass.",
+        "skill": "3v3 to hockey nets or small hurdles. Must pass.",
         "game": "Rotate two games.",
         "cd": "Call for the ball.",
         "g12": "4v0",
@@ -1553,7 +1553,7 @@ const months = [
         "focus": "Weight transfer, quiet feet",
         "wu": "Animal travels on mats only.",
         "skill": "Bear, crab, seal, bunny hop. Still start and still end.",
-        "game": "Traffic animals — change animal on the drum.",
+        "game": "Traffic animals — change animal on the whistle.",
         "cd": "Quiet travel.",
         "g12": "Two animals",
         "g34": "Four",
@@ -1734,7 +1734,7 @@ const months = [
         "title": "April fitness update",
         "focus": "Strength, flexibility, stillness",
         "wu": "Shape holds 20s.",
-        "skill": "Wall sit or chair, sit-and-reach, flamingo time.",
+        "skill": "Wall sit, sit-and-reach, flamingo time.",
         "game": "Vote a gentle closer: museum or animal relay.",
         "cd": "Control beat speed this month — say why.",
         "g12": "Play versions",
@@ -2514,7 +2514,7 @@ const MONTH_GAMES = {
     [
       "Go for Goal",
       "",
-      "Small-sided kick or shot at cone goals."
+      "Small-sided kick or shot at hockey nets or small hurdles."
     ],
     [
       "Guard the Gates",

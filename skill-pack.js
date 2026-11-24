@@ -34,7 +34,7 @@ window.SKILL_MONTH_GAMES = {
   ],
   April: [
     ["Floor rope walk", "", "Walk a rope or court line. Airplane arms. Step off to a stick."],
-    ["Spot-Jump Path", "", "Poly spots in a zig-zag. Two-foot jump, quiet stick."]
+    ["Spot-Jump Path", "", "Floor Markers or saucer pylons in a zig-zag. Two-foot jump, quiet stick."]
   ],
   May: [
     ["Circle run relay", "", "Cone track. One runner at a time; high-five at home."],

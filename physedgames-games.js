@@ -128,7 +128,7 @@ window.PEG_DETAILS = [
       "March"
     ],
     "purpose": "Dodgeball with a net and a goalie at each end. A goal brings back every out player on your team.",
-    "equipment": "Foam dodgeballs, two nets or cone goals",
+    "equipment": "Foam dodgeballs, two Standards-hockey nets",
     "setup": "Two teams, one half each. A net and a goalie on each end line.",
     "play": [
       "Play two-team foam dodgeball.",
@@ -883,7 +883,7 @@ window.PEG_HANDBOOK = {
       "merged": false,
       "category": "Dodgeball & Throwing",
       "grades": "3-8",
-      "equipment": "Dodgeballs, nets/goals",
+      "equipment": "Dodgeballs, Standards-hockey nets as goals",
       "overview": "Standard dodgeball, except each team also has a net and a goalie. When a team throws a dodgeball past the other team’s goalie, all of its players who were out come back in. You can add Detective Dodgeball rules (see that game) to keep more players moving.",
       "steps": [
         "Standard two-team foam dodgeball, PLUS a net and a goalie on each end.",
@@ -1024,9 +1024,9 @@ window.PEG_HANDBOOK = {
       "category": "Soccer & Kicking",
       "grades": "K-8",
       "equipment": "Various soft or foam balls",
-      "overview": "A soccer game for any grade. Set up soccer as usual, but add other soft kickable objects along with the soccer ball, such as foam footballs, large foam dice or beach balls, all at the same time. Add your own rules for goalies and points.",
+      "overview": "A soccer game for any grade. Set up soccer as usual, but add other soft kickable objects along with the soccer ball, such as foam footballs, exercise dice or beach balls, all at the same time. Add your own rules for goalies and points.",
       "steps": [
-        "Set up soccer as usual, then add extra soft kickable objects at the same time (foam football, large foam die, beach ball, foam soccer balls).",
+        "Set up soccer as usual, then add extra soft kickable objects at the same time (foam football, exercise die, beach ball, foam soccer balls).",
         "Feet only on all objects. Choose whether goalies and regular goals still count.",
         "Every object that crosses a goal line can score, or assign different points to different objects.",
         "Keep heads up — many bouncing objects. Foam / soft equipment only."
@@ -1057,7 +1057,7 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Soccer & Kicking",
       "grades": "2-8",
-      "equipment": "Soccer balls, 4 goals",
+      "equipment": "Soccer balls, 4 Standards-hockey nets as goals",
       "overview": "A soccer game for larger groups. Set up 4 nets, one on each side, for 4 teams. Teams can score in any net except their own. Use whatever soccer rules you choose. It gives lots of movement and skill practice.",
       "steps": [
         "Set 4 nets, one on each side of a square or gym. Four teams, each defending one net.",
@@ -1112,10 +1112,10 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Soccer & Kicking",
       "grades": "4-8",
-      "equipment": "4 nets, 4 bouncy balls (ex racquetball ball)",
+      "equipment": "4 Standards-hockey nets, 4 Bouncy balls-small",
       "overview": "A striking game (swatting the ball with an open hand). Four teams, four nets in the corners, one per team. Toss in a few balls; players slap them to score in other teams’ nets. Players may move, defend, attack and set up teammates, but they cannot pick up the ball, run with it, or throw or catch it.",
       "steps": [
-        "4 teams, 4 nets in the 4 corners, 1 net per team. Toss in several bouncy balls (racquetballs or similar).",
+        "4 teams, 4 nets in the 4 corners, 1 net per team. Toss in several Bouncy balls-small.",
         "Players SLAP / strike balls with an open hand to send them into any opponent net.",
         "No picking the ball up, no running with it, no throwing or catching — striking only.",
         "Players may move, defend their net, and set up teammates.",
@@ -1257,12 +1257,12 @@ window.PEG_HANDBOOK = {
       "merged": true,
       "category": "Kickball, Striking & Targets",
       "grades": "1-8",
-      "equipment": "Type of ball, or water balloons",
-      "overview": "A throwing and catching game that gets harder as players succeed. Partners face each other about 30 cm (1 foot) apart with a ball, or a water balloon outdoors. They toss back and forth. After a catch, the catcher steps back; after a miss, the player who missed steps forward. See how far apart pairs can get. Play with a ball first, and try water balloons outside once students are skilled.",
+      "equipment": "One ball per pair (Softex or tennis ball)",
+      "overview": "A throwing and catching game that gets harder as players succeed. Partners face each other about 30 cm (1 foot) apart with a ball. They toss back and forth. After a catch, the catcher steps back; after a miss, the player who missed steps forward. See how far apart pairs can get.",
       "steps": [
-        "Partners start close and play catch with a ball (or, outdoors in warm weather, a water balloon).",
+        "Partners start close and play catch with a ball.",
         "After every successful catch, both players take one step backward.",
-        "On a drop, they take a step forward (or, if you are using water balloons, that pair is wet and rejoins with a ball).",
+        "On a drop, they take a step forward.",
         "See which pair ends farthest apart after a time cap."
       ],
       "video": "https://www.youtube.com/watch?v=kDMU8tZhfLU",

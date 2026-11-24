@@ -25,7 +25,7 @@ window.K2_MONTH_GAMES = {
   December: [
     ["Follow the Leader", "", "Lines of 4. Leader chooses a locomotor or shape. Switch leaders every 20 seconds on the whistle."],
     ["Silly Bananas", "", "Move like the called fruit or animal. Freeze in a shape on ‘peel.’ Use as a rhythm warm-up."],
-    ["Shadow Tag", "", "Tag by stepping on a shadow (or a poly-spot ‘shadow’ indoors). Soft feet. Switch taggers often."]
+    ["Shadow Tag", "", "Tag by stepping on a shadow (or a saucer-pylon ‘shadow’ indoors). Soft feet. Switch taggers often."]
   ],
   January: [
     ["Collect the Treasure", "", "Beanbags in the middle. Teams carry one at a time to a hoop. Tagged players walk the treasure back. No guarding the hoop."],
@@ -51,7 +51,7 @@ window.K2_MONTH_GAMES = {
   June: [
     ["Numbers Hockey", "", "Call a number; that many from each team play a short stick or hand-hockey point. Rotate. Sticks stay below the waist."],
     ["Jailbreakers", "", "Hitters send into space and run. Fielders who catch or stop a ball send a runner to a ‘jail’ hoop. A teammate hit frees them. Everyone bats."],
-    ["Go for Goal", "", "Small cone goals. Kick or shoot a soccer or hockey ball. Must pass once before a shot. Rotate keepers every 2 minutes."]
+    ["Go for Goal", "", "Small goals (hockey nets or small hurdles). Kick or shoot a soccer or hockey ball. Must pass once before a shot. Rotate keepers every 2 minutes."]
   ]
 };
 
@@ -357,7 +357,7 @@ window.K2_DETAILS = [
 {
   name: "Shadow Tag", source: "", months: ["December"],
   purpose: "Tag a shadow or a spot, not a body.",
-  equipment: "Poly spots if you have no sun.",
+  equipment: "Pylons - saucer if you have no sun.",
   setup: "Outdoor shadows, or indoor spots as pretend shadows.",
   play: [
     "Tag by stepping on a shadow or spot.",
@@ -541,7 +541,7 @@ window.K2_DETAILS = [
 {
   name: "Numbers Hockey", source: "", months: ["June"],
   purpose: "Short hockey points. Many get a turn.",
-  equipment: "Floor-hockey sticks or hands, hockey ball, two cone goals.",
+  equipment: "Floor-hockey sticks or hands, hockey ball, two Standards-hockey nets (or small hurdles when no one wants to be goalie).",
   setup: "Two teams sit at the side, numbered.",
   play: [
     "Call two or three numbers. Those players play to one goal.",
@@ -572,8 +572,8 @@ window.K2_DETAILS = [
 },
 {
   name: "Go for Goal", source: "", months: ["June"],
-  purpose: "Small-sided kick or shot at cone goals.",
-  equipment: "Soccer balls, cone goals, pinnies.",
+  purpose: "Small-sided kick or shot at hockey nets or small hurdles.",
+  equipment: "Soccer balls, Standards-hockey nets (or small hurdles when no one wants to be goalie), pinnies.",
   setup: "2–3 a side. Extra players are waiting walls or next wave.",
   play: [
     "Pass once before a shot.",

@@ -3674,7 +3674,7 @@ window.NEW_GAMES = {
    "addedOn": "2026-10-12",
    "name": "Football Frenzy",
    "section": "Invasion / soccer–basketball–football",
-   "desc": "Two teams behind a line about 3 m from the centre race for bean bags, slide them low to touch an opponent's foot, then earn a run to a mat for a football pass — a catch goes in the basket. First team to fill its basket wins the quarter; reset and everyone plays again.",
+   "desc": "Two teams behind a line about 3 m from the centre race for bean bags, slide them low to touch an opponent's foot, then earn a run to a mat for a football pass — a catch goes in the team's milk-crate bin (Bins-milk carts). First team to fill its bin wins the quarter; reset and everyone plays again.",
    "sports": "football",
    "flag": "stay-in",
    "stayIn": true,
@@ -3703,7 +3703,7 @@ window.NEW_GAMES = {
     "Bean bags thrown in the air: that player slides only for the round.",
     "Crowding at the mats: one player per mat at a time."
    ],
-   "roundEnds": "A quarter ends when one basket is full. Reset the footballs and bean bags; nobody sits out.",
+   "roundEnds": "A quarter ends when one bin is full. Reset the footballs and bean bags; nobody sits out.",
    "tips": [
     "Walk through one slide-and-pass before the first quarter.",
     "Year plan: October — a football throwing and catching game."
@@ -3724,7 +3724,7 @@ window.NEW_GAMES = {
    ],
    "g12": "",
    "g34": "Foam footballs, shorter passes, lots of bean bags.",
-   "g56": "Longer passes; add a second basket target farther away.",
+   "g56": "Longer passes; add a second bin target farther away.",
    "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
    "videos": [
     {
@@ -3746,7 +3746,7 @@ window.NEW_GAMES = {
    ],
    "variations": [
     "Play without the net and use a centre line instead.",
-    "Every player must make one catch before the basket counts."
+    "Every player must make one catch before the bin counts."
    ],
    "safety": "Soft foam footballs and soft bean-bag slides only; tag feet with the bean bag, not hands. Keep the space under the net clear. Stop signal: one whistle, balls and bean bags down.",
    "bestBand": "5–6",
@@ -6324,11 +6324,11 @@ window.NEW_GAMES = {
     "One hoop is emptied fast: move it farther away, or add beanbags or animals.",
     "Teams argue about whether it counts: the ball must stop inside or touch inside the hoop. The teacher decides."
    ],
-   "roundEnds": "When all toys (or hoops) are collected. Count, reveal secret items, mix teams and play again.",
+   "roundEnds": "When all bean bags and bean bag animals (or hoops) are collected. Count, reveal secret items, mix teams and play again.",
    "tips": [
     "Use different colours of foam ball so teams know which ball is theirs.",
-    "Beanbags work if you do not have toys.",
-    "Supports and inclusion: Allow a closer start spot or a bigger ball. A student can be the toy counter for the round. Model one roll with a volunteer before starting.",
+    "The targets are Bean Bags and Bean bag animals.",
+    "Supports and inclusion: Allow a closer start spot or a bigger ball. A student can be the bean bag counter for the round. Model one roll with a volunteer before starting.",
     "Year plan: October, January, February."
    ],
    "outcomes": [
@@ -6390,7 +6390,7 @@ window.NEW_GAMES = {
    "safety": "Foam balls only. Only one player per team in the target area at a time. Retrievers walk back along the side of the lane, never across other lanes. Waiting players stay behind the start line. Hoops 2 m from walls. Stop signal: \"Freeze\" (hold your ball).",
    "bestBand": "1–2",
    "alsoBand": "3–4",
-   "bandWhy": "Short rolls into hoops for toys suit Grades 1–2; Grades 3–4 roll or kick from farther back. Written for K–4; Grades 5–6 use Hoop Rollers."
+   "bandWhy": "Short rolls into hoops for bean bags and bean bag animals suit Grades 1–2; Grades 3–4 roll or kick from farther back. Written for K–4; Grades 5–6 use Hoop Rollers."
   },
   {
    "id": "hoop-rollers",

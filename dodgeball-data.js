@@ -1772,7 +1772,7 @@ window.DODGE_GAMES = [
     "time": "6–8 min",
     "name": "Net Dodgeball",
     "purpose": "Net dodgeball is basically a standard game of dodgeball, except that each team also has a net and a goalie. Any time a team scores a goal by throwing a dodgeball past the opposing goalie, all of the players who were out.",
-    "equipment": "Dodgeballs, nets/goals",
+    "equipment": "Dodgeballs, Standards-hockey nets as goals",
     "setup": "Standard two-team foam dodgeball, PLUS a net and a goalie on each end. Two halves of the gym; centre line is a no-cross for throwers unless the game says otherwise. Agree below-the-head and freeze-on-whistle before GO.",
     "play": [
       "Start with balls on the centre line. On GO, take a ball and carry it back to your wall before you throw.",

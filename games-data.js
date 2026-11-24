@@ -167,7 +167,7 @@ window.GAME_DETAILS = [
       "September"
     ],
     "purpose": "Anyone may tag. A tag has a small cost. Then you keep playing.",
-    "equipment": "Optional one soft ball or spot markers · optional clothespins",
+    "equipment": "Optional one soft ball or Pylons - saucer · optional clothespins",
     "setup": "Court marked. Soft two-finger tags. Show the cost.",
     "play": [
       "On go, tag anyone.",
@@ -187,7 +187,7 @@ window.GAME_DETAILS = [
     "roundEnds": "Timed rounds. No winner required.",
     "skins": [
       "Hot Potato: only the person holding the ball may tag, by touch, no throw.",
-      "Pizza: spot marker on one hand; knock other pizzas off.",
+      "Pizza: saucer pylon on one hand; knock other pizzas off.",
       "Clothespin: steal one pin from a back, clip it on yourself."
     ],
     "aka": [
@@ -479,7 +479,7 @@ window.GAME_DETAILS = [
       "September"
     ],
     "purpose": "Players tag by stepping on a shadow or a floor spot, never a body. Use it to practise changing speed and pathway.",
-    "equipment": "Poly spots if you have no sun.",
+    "equipment": "Pylons - saucer if you have no sun.",
     "setup": "Outdoor shadows, or indoor spots as pretend shadows. Use the basketball lines as the boundary; cones mark any safe zone. Agree the freeze signal before the first round.",
     "play": [
       "Show the boundary, the freeze signal, and who starts as tagger before GO.",
@@ -829,7 +829,7 @@ window.GAME_DETAILS = [
       "September"
     ],
     "purpose": "Four teams each defend one net and may score in any other net. Use it with large groups to practise attacking and defending in more than one direction.",
-    "equipment": "Soccer balls, 4 goals",
+    "equipment": "Soccer balls, 4 Standards-hockey nets as goals",
     "setup": "Set 4 nets, one on each side of a square or gym. Four teams, each defending one net. Agree the freeze signal before the first round.",
     "play": [
       "Teams may score in ANY net except their own.",
@@ -1054,9 +1054,9 @@ window.GAME_DETAILS = [
     "months": [
       "September"
     ],
-    "purpose": "Play soccer with several soft objects at once, such as a foam football, a large foam die and a beach ball. Use it at any grade to practise footwork and keeping your head up.",
+    "purpose": "Play soccer with several soft objects at once, such as a foam football, an exercise die (Exercise Dice set of 2) and a beach ball. Use it at any grade to practise footwork and keeping your head up.",
     "equipment": "Various soft or foam balls",
-    "setup": "Set up soccer as usual, then add extra “crazy” kickable objects at the same time (foam football, large foam die, beach ball, foam soccer balls). Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
+    "setup": "Set up soccer as usual, then add extra “crazy” kickable objects at the same time (foam football, exercise die, beach ball, foam soccer balls). Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
       "Feet only on all objects. Choose whether goalies and regular goals still count.",
       "Every object that crosses a goal line can score, or assign different points to different objects.",
@@ -1222,8 +1222,8 @@ window.GAME_DETAILS = [
       "October",
       "January"
     ],
-    "purpose": "Small teams of 2–3 pass once before shooting at cone goals, and waiting players act as walls or the next wave. Use it to practise passing and shooting.",
-    "equipment": "Soccer balls, cone goals, pinnies.",
+    "purpose": "Small teams of 2–3 pass once before shooting at small goals (hockey nets or small hurdles), and waiting players act as walls or the next wave. Use it to practise passing and shooting.",
+    "equipment": "Soccer balls, Standards-hockey nets (or small hurdles when no one wants to be goalie), pinnies.",
     "setup": "2–3 a side. Extra players are waiting walls or next wave. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
       "Name the two jobs (attack / defend or the two end-lines) and which ball we are using.",
@@ -1335,7 +1335,7 @@ window.GAME_DETAILS = [
       "January"
     ],
     "purpose": "Players may kick, bounce, throw or run a few steps, but a soft tip means they must pass right away. Use it to practise quick decisions in an invasion game.",
-    "equipment": "Soccer or playground ball, two goals, pinnies.",
+    "equipment": "Soccer or playground ball, two Standards-hockey nets (or small hurdles when no one wants to be goalie), pinnies.",
     "setup": "Two teams. Teacher tosses in. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
       "You may kick, bounce, throw, or run a few steps.",
@@ -1362,7 +1362,7 @@ window.GAME_DETAILS = [
       "November"
     ],
     "purpose": "Call two or three numbers, and those players play to one goal while the rest wait at the side. Use it for short, frequent hockey turns.",
-    "equipment": "Floor-hockey sticks or hands, hockey ball, two cone goals.",
+    "equipment": "Floor-hockey sticks or hands, hockey ball, two Standards-hockey nets (or small hurdles when no one wants to be goalie).",
     "setup": "Two teams sit at the side, numbered. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
       "Name the two jobs (attack / defend or the two end-lines) and which ball we are using.",
@@ -1389,7 +1389,7 @@ window.GAME_DETAILS = [
       "September"
     ],
     "purpose": "Field players may only tap or pass with their hands, and keepers save with their feet. Use it as an invasion game that flips the usual soccer rules.",
-    "equipment": "Soccer ball, pinnies, two cone goals.",
+    "equipment": "Soccer ball, pinnies, two Standards-hockey nets (or small hurdles when no one wants to be goalie).",
     "setup": "Two teams. One keeper each. Goals can face out if you want a harder angle. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
       "Field players may only tap or pass with hands — no carrying.",
@@ -1490,8 +1490,8 @@ window.GAME_DETAILS = [
       "January"
     ],
     "purpose": "Four teams strike bouncy balls with an open hand into any other team’s corner net. Use it to practise striking, moving into space and defending a net.",
-    "equipment": "4 nets, 4 bouncy balls (ex racquetball ball)",
-    "setup": "4 teams, 4 nets in the 4 corners, 1 net per team. Toss in several bouncy balls (racquetballs or similar). Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
+    "equipment": "4 Standards-hockey nets, 4 Bouncy balls-small",
+    "setup": "4 teams, 4 nets in the 4 corners, 1 net per team. Toss in several Bouncy balls-small. Pinnies on one team. Show the two attacking directions before GO. Agree the freeze signal before the first round.",
     "play": [
       "Players SLAP / strike balls with an open hand to send them into any opponent net.",
       "No picking the ball up, no running with it, no throwing or catching — striking only.",
@@ -2314,8 +2314,8 @@ window.GAME_DETAILS = [
       "June"
     ],
     "purpose": "Partners step back after each catch and step forward after a drop. Use it to practise throwing and catching as the challenge grows.",
-    "equipment": "Type of ball, or water balloons",
-    "setup": "Partners start close and play catch with a ball (or, outdoors in warm weather, a water balloon). Agree the freeze signal before the first round.",
+    "equipment": "One ball per pair (Softex or tennis ball)",
+    "setup": "Partners start close and play catch with a ball. Agree the freeze signal before the first round.",
     "play": [
       "After every successful catch, both players take one step backward.",
       "On a drop, they take a step forward (or, if you are using beanbags, that pair is wet and rejoins with a ball).",
@@ -2326,7 +2326,7 @@ window.GAME_DETAILS = [
     "g12": "Tee or a bounced toss. Run to one base or hoop and stay. Teacher fields the first few.",
     "g34": "Live send (kick, strike, or throw). Three chances, then a run so the line moves.",
     "g56": "Fielders call ‘mine.’ Rotate the strike job every three batters. Add a force-out at one base.",
-    "safety": "The ball is not thrown at a face. Balloons stay in the pair’s square. Tie extra balloons so they are not mouthed. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
+    "safety": "The ball is not thrown at a face. Balls stay in the pair’s square. No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
     "slot": "16–25",
     "type": "strike",
     "ifThis": [],
@@ -2885,7 +2885,7 @@ window.GAME_DETAILS = [
       "February"
     ],
     "purpose": "Each team stays linked in a line while the head collects objects and passes them back to the tail. Use it to practise teamwork and moving together.",
-    "equipment": "20–40 beanbags or yarn balls, 2 bags or bins.",
+    "equipment": "20–40 beanbags, 2 Mesh Bags or bins.",
     "setup": "Two teams in two lines, each student holding the shirt or shoulders of the person in front. Objects scattered. Even teams of 4–6. Lanes about 8–12 m, home cone behind a line. Agree the freeze signal before the first round.",
     "play": [
       "On go, the snake slithers. Only the head may pick up an object.",
@@ -3743,7 +3743,7 @@ window.GAME_DETAILS = [
       "October"
     ],
     "purpose": "Keep one beach ball or scarf up. Count hits. A drop restarts the count, not the person.",
-    "equipment": "One beach ball or juggling scarf per circle · optional noodles or rulers",
+    "equipment": "One beach ball or juggling scarf per circle · optional Noodles - half",
     "setup": "Circles with arm’s-length space. One beach ball or scarf each.",
     "play": [
       "Name the shared goal out loud — you are not chasing a winner between circles unless you say so.",
@@ -3840,11 +3840,11 @@ window.GAME_DETAILS = [
     ],
     "purpose": "Keep a legal rally going. One bounce. Point on a miss.",
     "equipment": "1 soft ball · wall, rope, or a square of floor markers",
-    "setup": "Small court. Underhand serve. Soft hands or a low racket.",
+    "setup": "Small court. Underhand serve. Soft hands or a low paddle.",
     "play": [
       "Serve so it lands on the other side or on the wall legally.",
       "Return after one bounce.",
-      "More than one bounce, out, or a high racket = point. Winner serves."
+      "More than one bounce, out, or a high paddle = point. Winner serves."
     ],
     "g12": "Small groups of 4–6. Teacher in the group if the task needs an extra pair of hands.",
     "g34": "Whole-class or groups of 8. Plan for 20 seconds, then try.",
@@ -3859,7 +3859,7 @@ window.GAME_DETAILS = [
     "roundEnds": "First to 7, or highest score at time.",
     "skins": [
       "Bench as a net.",
-      "Mini goals (Floorball).",
+      "Hockey nets or small hurdles as goals (Floorball).",
       "Cone-ring gaga pit, hits below the waist.",
       "Cooperative wall ball: count consecutive hits, drop restarts the count."
     ],
@@ -3991,7 +3991,7 @@ window.GAME_DETAILS = [
       "December"
     ],
     "purpose": "Run the core parachute activities: waves, the dome and a chase under the parachute. Use it to practise working together on a count.",
-    "equipment": "Parachute or king-size sheet, beanbags.",
+    "equipment": "Parachute, beanbags.",
     "setup": "Everyone has a colour handle. Practise a count of three to lift. Agree the freeze signal before the first round.",
     "play": [
       "Ripples, then big waves.",
@@ -4447,7 +4447,7 @@ window.GAME_DETAILS = [
       "Racquet waiter: bag on a racquet.",
       "Beanbag head walk.",
       "Body-part beanbags: named body part holds the bag.",
-      "Pancake Relay: small relay teams; balance a beanbag “pancake” on a tennis racket around the team cone and back, replace it if it drops, then hand racket and pancake to the next runner."
+      "Pancake Relay: small relay teams; balance a beanbag “pancake” on a badminton racquet around the team cone and back, replace it if it drops, then hand racquet and pancake to the next runner."
     ],
     "aka": [
       "Racquet waiter",
@@ -4486,7 +4486,7 @@ window.GAME_DETAILS = [
     ],
     "roundEnds": "Most correct collections, or first pair back from a sequence.",
     "skins": [
-      "Cups over hidden colours (Memory Colour).",
+      "Upside-down Bins-small over hidden colours (Memory Colour).",
       "Memory Relay: sequence of three colours.",
       "Card Sharks: flip a card for the next colour.",
       "Outdoor controls with a simple map (keep Partner Orienteering separate if you want real map work)."
@@ -4706,9 +4706,9 @@ window.GAME_DETAILS = [
     "months": [
       "December"
     ],
-    "purpose": "Flip the bottle so it stands in box 1, then 2, then 3. No skipping. Daly Exercise game. Nobody sits the period.",
-    "equipment": "Part-filled bottles; floor markers or saucer cones for six boxes",
-    "setup": "Mark six boxes in a line. A little water in each bottle.",
+    "purpose": "Flip a 6-inch pylon so it lands standing in box 1, then 2, then 3. No skipping. Daly Exercise game. Nobody sits the period.",
+    "equipment": "One Pylons - 6\", black base per pair to flip (no water bottles); Floor Markers or Pylons - saucer for six boxes",
+    "setup": "Mark six boxes in a line. One 6-inch pylon per pair.",
     "play": [
       "Flip in box 1.",
       "Upright = move to the next box.",
@@ -5079,7 +5079,7 @@ window.GAME_DETAILS = [
       "January"
     ],
     "purpose": "Hit a partner's cone and it becomes yours. Daly Exercise game. Nobody sits the period.",
-    "equipment": "4-5 cones each; one tennis ball per pair",
+    "equipment": "4-5 cones each (Pylons - 6\" or Pylons - saucer); one tennis ball per pair; for 60 students, play 2v2 with 4-5 cones per team",
     "setup": "Each partner sets a row of cones. Shared throwing line.",
     "play": [
       "A throws at B's cones.",
@@ -5189,7 +5189,7 @@ window.GAME_DETAILS = [
       "April"
     ],
     "purpose": "Feet stay planted. Walk the hands out and back with one ball. Daly Exercise game. Nobody sits the period.",
-    "equipment": "Two hoops per pupil; five balls in the far hoop",
+    "equipment": "Two hoops per pupil (Hula Hoops, 65 in all; for 60 students, one pair of hoops per two pupils taking turns); five tennis balls or bean bags in the far hoop",
     "setup": "Feet in home hoop. Five balls wait in hoop 2.",
     "play": [
       "Walk hands out, grab one ball, walk back, drop it in hoop 1.",

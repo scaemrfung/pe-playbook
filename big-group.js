@@ -22,7 +22,7 @@ window.BG30_MONTH = {
     ["Protect the King", "", "One player is the king in a hoop. If you throw at the king, switch to dodgeballs."],
     ["Guard the Cone", "", "Basketball or playground ball to knock the cone."],
     ["Star Wars", "", "Throw only at a beach ball to push it onto the other bench. People are not targets."],
-    ["Floorball", "", "Floor hockey stick, ball on the floor, mini goals. No raised implement."],
+    ["Floorball", "", "Floor hockey stick, ball on the floor, hockey nets or small hurdles as goals. No raised implement."],
     ["Fishing", "", "Hook cones with a noodle and bring them home. Implement stays low."],
     ["Protect the House", "", "Knock a noodle off a centre cone. Defenders intercept. Soft balls."],
     ["Hand Tennis", "", "Small court, one bounce, hand hits. Net game when sticks are away."]
