@@ -108,6 +108,8 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
       const at = off + pre.length;
       // a one-word card name that only starts a sentence ("Switch after 30 seconds.") is plain text, not a game
       if (!/\s/.test(name) && /[.!?]["”’)]*\s+$/.test(T.slice(0, at)) && !/^\s*[(—–]/.test(T.slice(at + name.length))) return m;
+      // a one-word cue in quotes (“Switch!”) is a signal in another game, not a game of its own
+      if (!/\s/.test(name) && /[“"‘']$/.test(T.slice(0, at)) && /^[!?.,”"’']/.test(T.slice(at + name.length))) return m;
       const before = T.slice(0, at);
       hits.push({ name, inParens: (before.match(/\(/g) || []).length > (before.match(/\)/g) || []).length });
       return m;
@@ -207,10 +209,27 @@ module.exports = function weeklyView({ ROOT, W, DETAILS, ALIASES, gameHref, gslu
 
   const SLOT_LABEL = { wu: "Warm-up", "warm-up": "Warm-up", skill: "Skill", game: "Game", station: "Stations", stations: "Stations", "mini game": "Mini game" };
   const dayTitle = (heads) => {
-    const parts = heads.map((h) => h.split(" · "));
-    const common = [];
-    for (let i = 0; i < parts[0].length; i++) { if (parts.every((x) => x[i] === parts[0][i])) common.push(parts[0][i]); else break; }
-    return (common.length >= 2 ? common : parts[0].slice(0, 2)).join(" · ");
+    // longest common prefix of the band headings, trimmed at a clean break.
+    // Do not split on " · " inside parentheses, or "Massive 10 Second Tag (W4 · C4) + Frogger"
+    // becomes the truncated title "Massive 10 Second Tag (W4".
+    if (!heads.length) return "";
+    const first = heads[0];
+    let i = 0;
+    while (i < first.length && heads.every((h) => h[i] === first[i])) i++;
+    // if the prefix ended mid-word (its last character and the next one are both letters), roll back
+    if (/[A-Za-z0-9]/.test(first[i - 1] || "") && heads.some((h) => /[A-Za-z0-9]/.test(h[i] || ""))) {
+      const pre = first.slice(0, i);
+      const cut = Math.max(pre.lastIndexOf(" · "), pre.lastIndexOf(" — "), pre.lastIndexOf(" – "), pre.lastIndexOf(" + "));
+      if (cut > 0) i = cut;
+    }
+    let s = first.slice(0, i).replace(/(?:\s+[·+]|\s*[—–-])*\s*$/, "");
+    const opens = (s.match(/\(/g) || []).length, closes = (s.match(/\)/g) || []).length;
+    if (opens > closes) {
+      const cut = s.lastIndexOf(" · ");
+      if (cut > 0) s = s.slice(0, cut);
+    }
+    const fallback = first.split(" · ").slice(0, 2).join(" · ");
+    return s.length >= fallback.length ? s : fallback;
   };
   const linkA = (l) => `<a href="${esc(l.url)}"${/^https?:/.test(l.url) && !/scaemrfung\.github\.io\/pe-playbook/.test(l.url) ? ' target="_blank" rel="noopener"' : ""}>${esc(l.text)}</a>`;
   const toSite = (url) => String(url || "").replace(/^https:\/\/scaemrfung\.github\.io\/pe-playbook\//, "");

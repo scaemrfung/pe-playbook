@@ -5,6 +5,14 @@
    to preview another date). No need to mark one as featured. */
 window.WEEKLY_PLANS = [
   {
+    week: "2026-11-30",
+    title: "Nov 30–Dec 4 2026 · Tag Games Week 13",
+    month: "November 2026",
+    theme: "Tag Games",
+    file: "weekly-plans/PE-Weekly-Plan-Nov-30-Dec-4-2026-Tag-Games-Week-13.docx",
+    note: "Full teaching week · Wed Dec 2 early dismissal (25-minute Keeper of the Castle day) · Tag Games Week 13 (November W4), lessons from the December plan: Hospital Tag, Everybody’s It, Wolf’s Den, Massive 10 Second Tag, Friday new game per band"
+  },
+  {
     week: "2026-11-23",
     title: "Nov 23–27 2026 · Floor Hockey Week 12",
     month: "November 2026",
