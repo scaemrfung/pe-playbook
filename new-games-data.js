@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-11-28T14:22:55Z",
- "lastUpdatedLabel": "Sat, Nov 28, 2026, 8:22 AM MT",
+ "lastUpdated": "2026-11-28T14:23:54Z",
+ "lastUpdatedLabel": "Sat, Nov 28, 2026, 8:23 AM MT",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -6110,7 +6110,7 @@ window.NEW_GAMES = {
    ],
    "roundEnds": "About two songs, or when one fleet is sunk. Count pins still standing, rebuild in new spots, play again.",
    "tips": [
-    "Set the net, parachute and side mats before class; it is the longest part of the set-up.",
+    "Set the net and parachute before class; stand at most two mats at the side gaps if you use them. It is the longest part of the set-up.",
     "Year plan: December, May — a throwing game for games month or before track throwing."
    ],
    "outcomes": [
@@ -6127,7 +6127,7 @@ window.NEW_GAMES = {
      "look": "Lobs over the wall, never under it; stays 1 m from the net standards; balls down on the whistle."
     }
    ],
-   "g12": "Lower wall (mats), bigger targets (cones in hoops). Underhand rolls under a gap are allowed.",
+   "g12": "Lower the parachute wall (do not build a mat wall), bigger targets (pylons in hoops). Underhand rolls under a gap are allowed.",
    "g34": "Underhand and overhand lobs.",
    "g56": "Teams plan ship placement in 60 seconds. Add one “scout” call per round.",
    "safetyTail": "No elimination: a sit is a stretch, a jail, a hospital, or a role swap, then back in. Freeze on the whistle. Watch a demo or clip before the first play if you have one.",
@@ -6140,8 +6140,8 @@ window.NEW_GAMES = {
    ],
    "sources": [],
    "videoNote": "Clips are demos. Our house rules still apply (no elimination, soft tag; dodgeballs stay on the Dodgeball page).",
-   "equipment": "Volleyball Nets and Standards; 1–2 Parachute- colored or the Parachute- white draped over the net (he does not have tarps), or upright folding Mats 4x4x8 as a wall; 18 Hula Hoops (9 per team); 18 pins from the Bowling Pin Sets (6 sets) or 18 Pylons -12\"; 10–12 Gator skin balls (10 on the list) and/or Softex (yellow)",
-   "setup": "Hang the parachute over the net so the two halves cannot see each other. Block the side gaps with mats.",
+   "equipment": "Volleyball Nets and Standards; 1–2 Parachute- colored or the Parachute- white draped over the net as the wall (he does not have tarps); at most two Mats 4x4x8, one at each side gap (not a full mat wall); 18 Hula Hoops (9 per team); 18 pins from the Bowling Pin Sets (6 sets) or 18 Pylons -12\"; 10–12 Gator skin balls (10 on the list) and/or Softex (yellow). If a side gap is still open, mark it with saucer pylons or gym lines as a no-cross sideline.",
+   "setup": "Hang the parachute over the net so the two halves cannot see each other. Use at most two mats in total, one at each side gap. If a gap is still open, mark it with saucer pylons or gym lines as a no-throw, no-cross sideline — do not add more mats.",
    "how": [
     "Split the class into two teams of about 12, one on each side of the wall.",
     "Each team builds three ships with its 9 hoops: one of 4 hoops, one of 3 and one of 2, hoops touching in a line. Stand one pin in each hoop. Ships can go anywhere on that half.",
@@ -6154,7 +6154,8 @@ window.NEW_GAMES = {
    "variations": [
     "Mixed shapes (L-shaped ships).",
     "Each team gets one “repair” to stand a pin back up.",
-    "Partner throws only."
+    "Partner throws only.",
+    "No mats: use only the parachute wall and mark side gaps with saucer pylons or gym lines."
    ],
    "safety": "Soft balls only. Lob over the wall, never under it at players. No reaching under or around the parachute. Keep 1 m clear of the net standards. Stop signal: one whistle, balls down, hands on heads.",
    "bestBand": "5–6",
