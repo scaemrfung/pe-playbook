@@ -3587,7 +3587,7 @@ window.GAME_EXTRAS = {
     "aka": []
   },
   "Battleships": {
-    "numbers": "2–4 teams · 8–10 min · pins, playground balls, optional standing mats.",
+    "numbers": "2–4 teams · 8–10 min · pins, hoops or saucer pylons, playground balls or Softex; at most two mats if you use a small centre screen.",
     "cues": [
       "Stay in your zone.",
       "Reset a pin; do not throw it back.",
@@ -3598,6 +3598,7 @@ window.GAME_EXTRAS = {
     ],
     "variations": [
       "Four-corner ships.",
+      "Two-team game: stand at most two mats as a small centre screen, or skip the mats and use the centre gym line.",
       "Must hit the pin on a bounce.",
       "Step back one giant step after each make (grades 3–6).",
       "Opposite hand or weaker foot for the last round.",
@@ -3639,7 +3640,7 @@ window.GAME_EXTRAS = {
       "Reset: freeze, walk back to start spots, change the key role, then GO. Two or three short rounds beat one long messy one in Battleships.",
       "Watch for fetchers walking through the throwing line. Make them a job to the side.",
       "Year plan: January, March — match the month’s sport ball when you can.",
-      "Each team has a pin in a hoop (the ship) and a throwing line.",
+      "Each team has a pin in a hoop or saucer-pylon ring (the ship) and a throwing line. Use at most two mats in total, and only as a small centre screen — never a mat wall.",
       "Throw playground balls to knock other ships. A downed pin is stood up by that team after a count of 3, or you keep a knockdown tally."
     ],
     "ifThis": [],

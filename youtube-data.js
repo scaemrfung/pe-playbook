@@ -305,10 +305,10 @@ window.VIDEOS = [
     ]
   },
   {
-    "title": "Battleship over a mat wall",
+    "title": "Battleship: throw at pins",
     "url": "https://www.youtube.com/watch?v=YcVgF7z5ZII",
     "channel": "Benjamin Pirillo",
-    "about": "Standing mats hide the other team. Throw balls at bowling pins. A catch can jog the long way around to throw from the side.",
+    "about": "Throw balls at bowling pins. The clip uses a mat wall to hide the other team; we use hoop-and-pin ships, and at most two mats as a small centre screen if you want one. A catch can jog the long way around to throw from the side.",
     "games": [
       "Battleships"
     ]

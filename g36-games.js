@@ -51,8 +51,8 @@ window.G36_DETAILS = [
 {
   name: "Battleships", source: "", months: ["November"],
   purpose: "Four-team throw and defend a pin.",
-  equipment: "4 hoops, 4 pins, balls, cones for zones.",
-  setup: "Four squares. A pin in a hoop at the back of each. Teams stay in their zone.",
+  equipment: "4 hoops or saucer-pylon rings, 4 pins, playground balls or Softex, gym lines or saucer pylons for zones. Optional: at most two mats as a small centre screen.",
+  setup: "Four squares marked with gym lines or saucer pylons. A pin in a hoop (or a small saucer-pylon ring) at the back of each zone. Teams stay in their zone. If you want a screen, stand at most two mats at centre — not a mat wall.",
   play: [
     "Throw playground balls at other pins. 5-second hold.",
     "Stand a pin back up as soon as it falls. Count knockdowns at the whistle.",

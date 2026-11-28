@@ -1751,9 +1751,9 @@ window.GAME_DETAILS = [
       "January",
       "March"
     ],
-    "purpose": "Four teams throw playground balls to knock down other teams’ pins while protecting their own. Use it to practise an accurate send and quick defending.",
-    "equipment": "4 hoops, 4 pins, playground balls, cones for zones.",
-    "setup": "Four squares. A pin in a hoop at the back of each. Teams stay in their zone. Agree the freeze signal before the first round.",
+    "purpose": "Four teams throw playground balls or Softex balls to knock down other teams’ pins while protecting their own. Use it to practise an accurate send and quick defending.",
+    "equipment": "4 hoops or saucer-pylon rings (ship zones), 4 pins (bowling pins or 12\" pylons), playground balls or Softex or gator balls, saucer pylons or gym lines for the four zones. Optional: at most two standing mats as a small centre screen, not a full wall.",
+    "setup": "Four squares marked with gym lines or saucer pylons. A pin in a hoop (or a small saucer-pylon ring) at the back of each zone. Teams stay in their zone. If you want a screen, stand at most two mats at centre — one per half — not a mat wall. Agree the freeze signal before the first round.",
     "play": [
       "Throw playground balls at other pins. 5-second hold.",
       "Stand a pin back up as soon as it falls. Count knockdowns at the whistle.",
