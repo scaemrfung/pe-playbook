@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-11-28T14:23:54Z",
- "lastUpdatedLabel": "Sat, Nov 28, 2026, 8:23 AM MT",
+ "lastUpdated": "2026-11-28T15:17:03Z",
+ "lastUpdatedLabel": "Sat, Nov 28, 2026, 9:17 AM MT",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",
@@ -15,8 +15,8 @@ window.NEW_GAMES = {
   "lastUpdatedLabel": "Mon Nov 9, 2026",
   "updatedBy": "PE Game Ideas (Mondays ~8:30 MT)"
  },
- "latestWeek": "2026-12-14",
- "docWeek": "2026-12-14",
+ "latestWeek": "2027-01-04",
+ "docWeek": "2027-01-04",
  "dedupe": {
   "excluded": 78,
   "note": "Games already on the Big-Group Games page (same game or a close variant) are left off this page."
@@ -74,6 +74,13 @@ window.NEW_GAMES = {
   }
  ],
  "weeks": [
+  {
+   "key": "2027-01-04",
+   "label": "Week of Jan 4, 2027",
+   "count": 3,
+   "addedOn": "2026-11-28",
+   "addedOnLabel": "Sat Nov 28, 2026"
+  },
   {
    "key": "2026-12-14",
    "label": "Week of Dec 14, 2026",
@@ -9563,6 +9570,265 @@ window.NEW_GAMES = {
    "g12": "Kindergarten and Grade 1 walk and step only on the first round, then two-foot jumps between hoops. Grade 2 hops on one foot on straight routes, gallops on curved routes, and uses two-foot jumps on zigzag routes.",
    "g34": "Students design their own route with a partner and teach it to another pair (our adaptation). Add a balance (stork stand, star shape) at each hoop.",
    "g56": "Not offered for Grades 5–6."
+  },
+  {
+   "id": "solar-system",
+   "added": "2027-01-04",
+   "addedOn": "2026-11-28",
+   "name": "Solar System",
+   "source": "Daly",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=yGyFH0-SJFU"
+   ],
+   "sources": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=yGyFH0-SJFU",
+     "title": "3 Games to Play in Groups",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "videoNote": "Source demo (one of three games on this clip). Use the house rules below: nobody is ever out, and everyone takes a turn as spinner.",
+   "order": 92,
+   "gradesFrom": "doc",
+   "unit": "January",
+   "suggestedMonth": "January",
+   "alsoFits": [
+    "March",
+    "June"
+   ],
+   "slot": "10–25",
+   "setup": "Make groups of 5–6. Each group stands in a circle about 4 m across, with one hoop lying flat in the centre. Keep circles at least 3 m apart and 2 m back from walls and the stage.",
+   "how": [
+    "One player is the spinner. They lift the hoop and spin it on its edge in the middle of the circle (source).",
+    "As soon as the hoop spins, the rest of the group throws and catches the ball around the circle, counting each catch out loud (source).",
+    "You may not pass to the person beside you. Throw across the circle (source).",
+    "When the hoop falls, stop and remember your score (source).",
+    "Choose a new spinner and try to beat your group record (source). Everyone takes a turn as spinner (our adaptation)."
+   ],
+   "ifThis": [],
+   "cues": [],
+   "variations": [
+    "Grades 1–2 (support): roll or bounce-pass the ball instead of throwing. The teacher or a helper spins the hoop if students can't yet.",
+    "Grades 3–4: underhand and two-hand chest passes only. Add \"call the name of the person you throw to.\"",
+    "Grades 5–6: one-hand catches only, or add a second ball when the group reaches 10 passes.",
+    "60 students: run 10 groups of 6 in two rows of 5 across the full gym, each circle 3 m from the next. Same rules. One teacher signal starts and stops all groups."
+   ],
+   "tips": [
+    "With about 60: run 10 groups of 6 in two rows of 5 across the full gym, each circle 3 m from the next. Same rules. One teacher signal starts and stops all groups."
+   ],
+   "roundEnds": "When the hoop falls, the group records its score, picks a new spinner and tries to beat its record. Nobody is ever out.",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "throws to a ready teammate across the circle, gets hands ready to catch, encourages the group."
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 2 outcome",
+     "look": "Students demonstrate teamwork and support participation in a variety of physical activities. [PDE2-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students identify and demonstrate how teamwork supports positive interactions during physical activity. [PDE3-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students connect and demonstrate how teamwork enhances participation in physical activity. [PDE4-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 5 outcome",
+     "look": "Students demonstrate how collaboration influences physical activity. [PDE5-OI2-GQ3-LO1]"
+    }
+   ],
+   "safety": "Soft ball only. Throw below head height, underhand or chest pass. The spinner steps back out of the circle after spinning. Nobody reaches into the middle while the hoop spins. Stop signal: “Freeze.” Hold the ball and look at the teacher. Check the class medical alert list and ISP supports in the class binder. Follow SPHEReS guidance and school policy.",
+   "equipment": "Hula Hoops - 30\" : 4 / 10; Softex (yellow) : 4 / 10, plus 2 spares; Whistle : 1 (24 students / 60 students).",
+   "grades": "1–6",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Throwing and catching across the circle while a hoop spins suits Grades 3–6; Grades 1–2 roll or bounce-pass, and a helper may spin the hoop.",
+   "type": "coop",
+   "typeLabel": "Cooperative & circus",
+   "section": "Team-building",
+   "sports": "basketball and netball-style passing, ultimate, baseball/softball catching, volleyball lead-up, Grades 1–6",
+   "grouping": "small groups of 5–6 · 10–25 minutes",
+   "desc": "Small groups stand in a circle around a hoop. One player spins the hoop on its edge in the middle. While it spins, the group throws and catches a soft ball across the circle and counts passes out loud. When the hoop falls, the group records its score, picks a new spinner and tries to beat its record. Nobody is ever out.",
+   "g12": "Roll or bounce-pass the ball instead of throwing. The teacher or a helper spins the hoop if students can't yet.",
+   "g34": "Underhand and two-hand chest passes only. Add “call the name of the person you throw to.”",
+   "g56": "One-hand catches only, or add a second ball when the group reaches 10 passes."
+  },
+  {
+   "id": "five-in-a-row",
+   "added": "2027-01-04",
+   "addedOn": "2026-11-28",
+   "name": "Five in a Row",
+   "source": "Daly",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=yGyFH0-SJFU"
+   ],
+   "sources": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=yGyFH0-SJFU",
+     "title": "3 Games to Play in Groups",
+     "channel": "Daly Exercise"
+    }
+   ],
+   "videoNote": "Source demo (one of three games on this clip). The source bounces a ball; this version uses bean bags, which land and stay in the hoop, and no bounce.",
+   "order": 93,
+   "gradesFrom": "doc",
+   "unit": "January",
+   "suggestedMonth": "January",
+   "alsoFits": [
+    "March",
+    "June"
+   ],
+   "slot": "10–20",
+   "setup": "Give each team a lane across the gym with a saucer pylon start line and a stack of 5 hoops. The team places its first hoop flat about 2 m in front of the start line. Lanes are at least 2 m apart and end 2 m short of the wall. With 60 students, give each team 3–4 of the 30\" hoops and 1–2 of the 24\" hoops, and put the smaller hoops at the end of the line (our adaptation).",
+   "how": [
+    "The first player tosses a bean bag underhand so it lands inside the hoop (adapted from the source's bounce).",
+    "A bean bag that lands in earns the team another hoop. Add it in a line behind the first (source).",
+    "Now the team has to land a bean bag in each hoop in order, one toss per player: the first hoop, then the second, and so on, with a bean bag left in each hoop. Keep adding hoops until there are five (adapted from the source).",
+    "Miss? Collect the bean bags and the next player starts again from the team's current level. You never lose hoops you have earned (source).",
+    "A team that finishes all five starts again with a harder challenge from the variations, so nobody waits (our adaptation; in the source, the first team to five wins)."
+   ],
+   "ifThis": [],
+   "cues": [],
+   "variations": [
+    "Grades 1–2: one hoop only, a closer start line, two-hand underhand toss. Count successful landings as a team.",
+    "Grades 3–4: underhand toss. Move the start line back 1 m after each full set.",
+    "Grades 5–6: toss with the non-dominant hand on the next set, or toss from a kneeling start.",
+    "60 students: 10 teams of 6 in 10 lanes across the full gym (two rows of 5 lanes facing the side walls if needed). Turns rotate quickly, so lines stay short."
+   ],
+   "tips": [
+    "With about 60: 10 teams of 6 in 10 lanes across the full gym (two rows of 5 lanes facing the side walls if needed). Turns rotate quickly, so lines stay short."
+   ],
+   "roundEnds": "Teams keep the hoops they have earned. A team that finishes all five starts again with a harder challenge from the variations, so nobody waits.",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "adjusts force for distance, eyes on the target hoop, follows through toward the target."
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 2 outcome",
+     "look": "Students modify movement to improve control and efficiency. [PDE2-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students investigate and demonstrate how elements of movement support physical activity. [PDE3-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 4 outcome",
+     "look": "Students integrate and experiment with elements of movement to support physical activity. [PDE4-OI2-GQ2-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 5 outcome",
+     "look": "Students demonstrate and adapt various movement patterns to enhance skill development. [PDE5-OI2-GQ2-LO1]"
+    }
+   ],
+   "safety": "Underhand tosses only. Never throw a bean bag at a person. Retrievers walk, stay in their own lane and wait until the thrower is finished. Hoops lie flat. Nobody steps or runs on hoops. Stop signal: “Freeze.” Hold the bean bag and look at the teacher. Check the class medical alert list and ISP supports in the class binder. Follow SPHEReS guidance and school policy.",
+   "equipment": "Hula Hoops - 30\" and Hula Hoops - 24\" (B-10, Y-10, R-5) : 30 / 50 in total (5 per team; 6 teams of 4 / 10 teams of 6); Bean Bags : 30 / 50 (5 per team, one for each hoop); Pylons - saucer (start lines) : 6 / 10; Whistle : 1 (24 students / 60 students).",
+   "grades": "1–6",
+   "bestBand": "3–4",
+   "alsoBand": "5–6",
+   "bandWhy": "Landing a bean bag in a growing line of hoops suits Grades 2–6; Grade 1 uses one closer hoop and a two-hand underhand toss.",
+   "type": "target",
+   "typeLabel": "Target & send",
+   "section": "Target / throwing",
+   "sports": "basketball shooting touch, bocce and curling-style aiming, softball underhand toss, volleyball soft hands, Grades 1–6",
+   "grouping": "teams of 4–6 · 10–20 minutes",
+   "desc": "Each team tosses a bean bag so it lands inside a hoop. Every success earns another hoop in a line. Then the team has to land a bean bag in each hoop in order, one toss per player: two, three, four, then five hoops in a row. Nobody is out. Teams keep the hoops they have earned. (Our adaptation: the source bounces a ball; this version uses bean bags, which land and stay in the hoop, and no bounce.)",
+   "g12": "One hoop only, a closer start line, two-hand underhand toss. Count successful landings as a team.",
+   "g34": "Underhand toss. Move the start line back 1 m after each full set.",
+   "g56": "Toss with the non-dominant hand on the next set, or toss from a kneeling start."
+  },
+  {
+   "id": "flag-frenzy-rps",
+   "added": "2027-01-04",
+   "addedOn": "2026-11-28",
+   "name": "Flag Frenzy RPS",
+   "source": "Front Range PE",
+   "flag": "stay-in",
+   "stayIn": true,
+   "notes": [],
+   "links": [
+    "https://www.youtube.com/watch?v=hy1tQT_VdBo&t=209s"
+   ],
+   "sources": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=hy1tQT_VdBo&t=209s",
+     "title": "6 Rock Paper Scissors PE Games",
+     "channel": "Front Range PE"
+    }
+   ],
+   "videoNote": "Source demo (Flag Frenzy RPS starts at 3:29). Use the house rules below: the loser hands the flag over (nobody grabs), and nobody sits out.",
+   "order": 94,
+   "gradesFrom": "doc",
+   "unit": "October",
+   "suggestedMonth": "October",
+   "alsoFits": [
+    "September"
+   ],
+   "slot": "0–10",
+   "setup": "Mark the playing area with saucer pylons, 2 m in from the walls and the stage. Place the hoops just inside the boundary, spread around the area, each with spare tails inside. Each student tucks one tail into the back of their waistband with about 30 cm hanging.",
+   "how": [
+    "Travel around the area. Challenge anyone you meet; if someone challenges you, you must accept (source).",
+    "Play one round of rock, paper, scissors. Say it together and throw on \"shoot.\"",
+    "The winner takes one flag from the loser (source). The loser hands it over; nobody grabs (our adaptation).",
+    "Out of flags? Jog to a hoop, do 5 jumping jacks, take one starter flag and jump back in (source). Nobody sits out.",
+    "Play 2–3 minute rounds. At “Freeze,” count your flags, return them to the hoops, start again with one flag, and change the way students travel (our adaptation)."
+   ],
+   "ifThis": [],
+   "cues": [],
+   "variations": [
+    "Grades 1–2: walk only. Teacher calls the travel each round (walk, tiptoe, gallop).",
+    "Grades 3–4: skip, gallop or side-step. Winners must find a new partner each time.",
+    "Grades 5–6: best of three, and players with no flags jog one lap of the boundary before the hoop.",
+    "60 students: split the gym in half with saucer pylons and run two games of 30, each with 3 hoops of spare tails. Same rules and signals."
+   ],
+   "tips": [
+    "With about 60: split the gym in half with saucer pylons and run two games of 30, each with 3 hoops of spare tails. Same rules and signals."
+   ],
+   "roundEnds": "Play 2–3 minute rounds. At “Freeze,” count your flags, return them to the hoops, start again with one flag, and change the way students travel.",
+   "outcomes": [
+    {
+     "code": "Look-fors",
+     "look": "accepts results calmly, hands over flags fairly, moves safely in open space."
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 1 outcome",
+     "look": "Students demonstrate fair play and support engagement in a variety of physical activities. [PDE1-OI2-GQ3-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 3 outcome",
+     "look": "Students examine and integrate tactics in a variety of physical activity contexts. [PDE3-OI2-GQ1-LO1]"
+    },
+    {
+     "code": "Physical Education and Wellness · Grade 6 outcome",
+     "look": "Students analyze and apply conflict resolution in physical activity. [PDE6-OI2-GQ3-LO1]"
+    }
+   ],
+   "safety": "Walk or jog only, heads up, and stop fully before playing. Tails are handed over, never pulled from clothing. Ties: play again. You are the tiebreaker, not the referee: an argument means one more round. Stop signal: “Freeze.” Stop, hands down, look at the teacher. Check the class medical alert list and ISP supports in the class binder. Follow SPHEReS guidance and school policy.",
+   "equipment": "Flag Football Tails (yellow, blue, red) : 36 / 90 (one per student plus spares in the hoops); Hula Hoops - 30\" (flag stations) : 4 / 6; Pylons - saucer (boundaries) : 8 / 16; Whistle : 1 (24 students / 60 students).",
+   "grades": "1–6",
+   "bestBand": "1–2",
+   "alsoBand": "3–4",
+   "bandWhy": "A whole-class warm-up with rock, paper, scissors and flag trading suits Grades 1–6; Grades 1–2 walk only, and Grades 5–6 can use best-of-three.",
+   "type": "loco",
+   "typeLabel": "Locomotor & listen",
+   "section": "Warm-ups & brain breaks",
+   "sports": "flag football lead-up, general warm-up, rock-paper-scissors, Grades 1–6",
+   "grouping": "whole class · 0–10 minutes (warm-up)",
+   "desc": "Everyone tucks a flag at the waist and travels around the gym. Anyone can challenge anyone to rock, paper, scissors, and a challenge must be accepted. The winner collects one flag from the other player. Out of flags? Jog to a hoop, do 5 jumping jacks, take a starter flag and jump back in. Nobody sits out.",
+   "g12": "Walk only. Teacher calls the travel each round (walk, tiptoe, gallop).",
+   "g34": "Skip, gallop or side-step. Winners must find a new partner each time.",
+   "g56": "Best of three, and players with no flags jog one lap of the boundary before the hoop."
   }
  ]
 };
