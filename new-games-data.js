@@ -5,8 +5,8 @@
    Weekly routine: download the docx, run update.py, commit this file + new-games.html. */
 window.NEW_GAMES = {
  "title": "New Games This Week",
- "lastUpdated": "2026-11-21",
- "lastUpdatedLabel": "Sat Nov 21, 2026",
+ "lastUpdated": "2026-11-28T14:22:55Z",
+ "lastUpdatedLabel": "Sat, Nov 28, 2026, 8:22 AM MT",
  "sourceDoc": {
   "title": "PE Games Library",
   "file": "PE Games Library.docx",

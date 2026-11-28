@@ -1,8 +1,64 @@
 /* Shared by the site build and the weekly New Games importer. */
-const fs=require("fs"), path=require("path"), vm=require("vm");
+const fs=require("fs"), path=require("path"), vm=require("vm"), {execFileSync}=require("child_process");
+
+const MON=["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"];
+
+function isoZ(d){return d.toISOString().replace(/\.\d{3}Z$/,"Z");}
+function hasTime(iso){return /^\d{4}-\d{2}-\d{2}T/.test(iso||"");}
+function formatStamp(d){
+  const parts=new Intl.DateTimeFormat("en-US",{
+    timeZone:"America/Edmonton", weekday:"short", year:"numeric", month:"numeric", day:"numeric",
+    hour:"numeric", minute:"2-digit", hour12:true
+  }).formatToParts(d);
+  const g=t=>{const p=parts.find(x=>x.type===t); return p?p.value:"";};
+  const mon=MON[Number(g("month"))-1]||g("month");
+  const ap=String(g("dayPeriod")||"").toUpperCase().replace(/\./g,"").replace(/[^APM]/g,"").slice(0,2)||"AM";
+  return `${g("weekday")}, ${mon} ${Number(g("day"))}, ${g("year")}, ${Number(g("hour"))}:${g("minute")} ${ap} MT`;
+}
+function parseGames(txt){
+  const ctx={console};ctx.window=ctx;vm.createContext(ctx);
+  vm.runInContext(txt,ctx,{filename:"new-games-data.js"});
+  return ctx.NEW_GAMES;
+}
+function fingerprint(data){
+  const copy=JSON.parse(JSON.stringify(data||{}));
+  delete copy.lastUpdated; delete copy.lastUpdatedLabel;
+  return JSON.stringify(copy);
+}
+/* Stamp from the latest real change to the New Games data, not the visitor's clock.
+   If new-games-data.js changed since HEAD (or the saved stamp is still date-only), use now.
+   Otherwise keep the saved stamp so a weekly-plan build does not move this time. */
+function resolveStamp(ROOT,data){
+  const file=path.join(ROOT,"new-games-data.js");
+  const cur=fs.readFileSync(file,"utf8");
+  let contentChanged=true;
+  try{
+    const head=execFileSync("git",["show","HEAD:new-games-data.js"],{cwd:ROOT,encoding:"utf8",stdio:["ignore","pipe","ignore"]});
+    contentChanged=fingerprint(parseGames(head))!==fingerprint(parseGames(cur));
+  }catch(e){ contentChanged=true; }
+  if(contentChanged||!hasTime(data.lastUpdated)){
+    const now=new Date();
+    return {iso:isoZ(now),label:formatStamp(now)};
+  }
+  return {iso:data.lastUpdated,label:data.lastUpdatedLabel||formatStamp(new Date(data.lastUpdated))};
+}
+function writeStamp(ROOT,iso,label){
+  const file=path.join(ROOT,"new-games-data.js");
+  const txt=fs.readFileSync(file,"utf8");
+  const next=txt.replace(/"lastUpdated": "[^"]*"/,`"lastUpdated": "${iso}"`)
+                .replace(/"lastUpdatedLabel": "[^"]*"/,`"lastUpdatedLabel": "${label}"`);
+  if(next!==txt && !process.argv.includes("--check")) fs.writeFileSync(file,next);
+}
+
 module.exports=function(ROOT) {
   const s={console};s.window=s;vm.createContext(s);
-  for(const f of ["new-games-data.js","new-games.js"])vm.runInContext(fs.readFileSync(path.join(ROOT,f),"utf8"),s,{filename:f});
+  vm.runInContext(fs.readFileSync(path.join(ROOT,"new-games-data.js"),"utf8"),s,{filename:"new-games-data.js"});
+  const stamp=resolveStamp(ROOT,s.NEW_GAMES);
+  s.NEW_GAMES.lastUpdated=stamp.iso;
+  s.NEW_GAMES.lastUpdatedLabel=stamp.label;
+  writeStamp(ROOT,stamp.iso,stamp.label);
+  console.log("New Games last updated: "+stamp.label);
+  vm.runInContext(fs.readFileSync(path.join(ROOT,"new-games.js"),"utf8"),s,{filename:"new-games.js"});
   const data=s.NEW_GAMES, latest=(data.weeks[0] || {}).key;
   const start={...data,partial:true,games:data.games.map(g=>g.added===latest?g:Object.fromEntries(["id","name","added","addedOn","aliases","oldNames","aka","suggestedMonth","unit","typeLabel","section","bestBand","alsoBand"].filter(k=>g[k]!==undefined).map(k=>[k,g[k]])))};
   const template=fs.readFileSync(path.join(ROOT,"new-games.html"),"utf8");

@@ -123,10 +123,24 @@
     var mon = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"][d.getUTCMonth()];
     return dow + " " + mon + " " + d.getUTCDate() + ", " + d.getUTCFullYear();
   }
-  // "Last updated" = the most recent day games were added to this page.
+  // Format a baked ISO timestamp in Mountain Time. Uses the saved instant, not the visitor's clock.
+  function fmtStamp(iso) {
+    if (!/^\d{4}-\d{2}-\d{2}T/.test(iso || "")) return fmtLongDate(iso);
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return fmtLongDate(iso);
+    var parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/Edmonton", weekday: "short", year: "numeric", month: "numeric", day: "numeric",
+      hour: "numeric", minute: "2-digit", hour12: true
+    }).formatToParts(d);
+    var g = function (t) { for (var i = 0; i < parts.length; i++) if (parts[i].type === t) return parts[i].value; return ""; };
+    var mon = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"][Number(g("month")) - 1] || g("month");
+    var ap = String(g("dayPeriod") || "").toUpperCase().replace(/\./g, "").replace(/[^APM]/g, "").slice(0, 2) || "AM";
+    return g("weekday") + ", " + mon + " " + Number(g("day")) + ", " + g("year") + ", " + Number(g("hour")) + ":" + g("minute") + " " + ap + " MT";
+  }
+  // "Last updated" = when the games on this page were last published or edited (baked at build time).
   function lastUpdatedLine(data) {
     var iso = data.lastUpdated || "";
-    var label = data.lastUpdatedLabel || fmtLongDate(iso) || "";
+    var label = data.lastUpdatedLabel || fmtStamp(iso) || "";
     return '<strong>Last updated: ' + esc(label) + "</strong>";
   }
   // Short history: games grouped by the day they were added, newest first.
