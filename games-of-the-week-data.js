@@ -887,7 +887,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Four teams aim at pins and defend their own.",
        "href": "games.html#battleships",
        "page": "Big-Group Games",
-       "equipment": "4 hoops, 4 pins, playground balls, cones for zones."
+       "equipment": "4 hoops or saucer-pylon rings (ship zones), 4 pins (bowling pins or 12\" pylons), playground balls or Softex or gator balls, saucer pylons or gym…"
       },
       {
        "name": "Protect the House",
@@ -963,7 +963,7 @@ window.GAMES_OF_THE_WEEK = {
        "reason": "Lob soft balls over the net to find the hidden ships.",
        "href": "new-games.html#hidden-fleet",
        "page": "New Games",
-       "equipment": "Volleyball Nets and Standards; 1–2 Parachute- colored or the Parachute- white draped over the net (he does not have tarps), or upright folding…"
+       "equipment": "Volleyball Nets and Standards; 1–2 Parachute- colored or the Parachute- white draped over the net as the wall (he does not have tarps); at most…"
       }
      ]
     }
